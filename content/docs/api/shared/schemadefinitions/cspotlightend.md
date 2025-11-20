@@ -12,7 +12,7 @@ public interface CSpotlightEnd : CBaseModelEntity, CBaseEntity, CEntityInstance,
 
 ### LightScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSpotlightEnd.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSpotlightEnd.cs#L18)
 
 ```csharp
 ref float LightScale { get; }
@@ -24,7 +24,7 @@ ref float LightScale { get; }
 
 ### Radius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSpotlightEnd.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSpotlightEnd.cs#L20)
 
 ```csharp
 ref float Radius { get; }
@@ -36,7 +36,7 @@ ref float Radius { get; }
 
 ### SpotlightDir
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSpotlightEnd.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSpotlightEnd.cs#L22)
 
 ```csharp
 ref Vector SpotlightDir { get; }
@@ -48,7 +48,7 @@ ref Vector SpotlightDir { get; }
 
 ### SpotlightOrg
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSpotlightEnd.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSpotlightEnd.cs#L24)
 
 ```csharp
 ref Vector SpotlightOrg { get; }
@@ -62,7 +62,7 @@ ref Vector SpotlightOrg { get; }
 
 ### LightScaleUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSpotlightEnd.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSpotlightEnd.cs#L26)
 
 ```csharp
 void LightScaleUpdated()
@@ -70,7 +70,7 @@ void LightScaleUpdated()
 
 ### RadiusUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSpotlightEnd.cs#L26)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSpotlightEnd.cs#L27)
 
 ```csharp
 void RadiusUpdated()

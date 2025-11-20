@@ -12,7 +12,7 @@ public interface C_OP_SetChildControlPoints : CParticleFunctionOperator, CPartic
 
 ### ChildGroupID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetChildControlPoints.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetChildControlPoints.cs#L18)
 
 ```csharp
 ref int ChildGroupID { get; }
@@ -24,7 +24,7 @@ ref int ChildGroupID { get; }
 
 ### FirstControlPoint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetChildControlPoints.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetChildControlPoints.cs#L20)
 
 ```csharp
 ref int FirstControlPoint { get; }
@@ -36,7 +36,7 @@ ref int FirstControlPoint { get; }
 
 ### FirstSourcePoint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetChildControlPoints.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetChildControlPoints.cs#L24)
 
 ```csharp
 CParticleCollectionFloatInput FirstSourcePoint { get; }
@@ -48,7 +48,7 @@ CParticleCollectionFloatInput FirstSourcePoint { get; }
 
 ### NumControlPoints
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetChildControlPoints.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetChildControlPoints.cs#L22)
 
 ```csharp
 ref int NumControlPoints { get; }
@@ -60,7 +60,7 @@ ref int NumControlPoints { get; }
 
 ### Orientation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetChildControlPoints.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetChildControlPoints.cs#L30)
 
 ```csharp
 ref ParticleOrientationType_t Orientation { get; }
@@ -72,7 +72,7 @@ ref ParticleOrientationType_t Orientation { get; }
 
 ### Reverse
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetChildControlPoints.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetChildControlPoints.cs#L26)
 
 ```csharp
 ref bool Reverse { get; }
@@ -84,7 +84,7 @@ ref bool Reverse { get; }
 
 ### SetOrientation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetChildControlPoints.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetChildControlPoints.cs#L28)
 
 ```csharp
 ref bool SetOrientation { get; }

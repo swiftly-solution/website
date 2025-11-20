@@ -12,7 +12,7 @@ public interface CAddUpdateNode : CBinaryUpdateNode, CAnimUpdateNodeBase, ISchem
 
 ### ApplyChannelsSeparately
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAddUpdateNode.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAddUpdateNode.cs#L22)
 
 ```csharp
 ref bool ApplyChannelsSeparately { get; }
@@ -24,7 +24,7 @@ ref bool ApplyChannelsSeparately { get; }
 
 ### ApplyScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAddUpdateNode.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAddUpdateNode.cs#L26)
 
 ```csharp
 ref bool ApplyScale { get; }
@@ -36,7 +36,7 @@ ref bool ApplyScale { get; }
 
 ### ApplyToFootMotion
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAddUpdateNode.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAddUpdateNode.cs#L20)
 
 ```csharp
 ref bool ApplyToFootMotion { get; }
@@ -48,7 +48,7 @@ ref bool ApplyToFootMotion { get; }
 
 ### FootMotionTiming
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAddUpdateNode.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAddUpdateNode.cs#L18)
 
 ```csharp
 ref BinaryNodeChildOption FootMotionTiming { get; }
@@ -60,7 +60,7 @@ ref BinaryNodeChildOption FootMotionTiming { get; }
 
 ### UseModelSpace
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAddUpdateNode.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAddUpdateNode.cs#L24)
 
 ```csharp
 ref bool UseModelSpace { get; }

@@ -12,7 +12,7 @@ public interface FeTaperedCapsuleStretch_t : ISchemaClass<FeTaperedCapsuleStretc
 
 ### CollisionMask
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeTaperedCapsuleStretch_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeTaperedCapsuleStretch_t.cs#L20)
 
 ```csharp
 ref ushort CollisionMask { get; }
@@ -24,7 +24,7 @@ ref ushort CollisionMask { get; }
 
 ### Dummy
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeTaperedCapsuleStretch_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeTaperedCapsuleStretch_t.cs#L22)
 
 ```csharp
 ref ushort Dummy { get; }
@@ -36,7 +36,7 @@ ref ushort Dummy { get; }
 
 ### Node
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeTaperedCapsuleStretch_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeTaperedCapsuleStretch_t.cs#L18)
 
 ```csharp
 ISchemaFixedArray<ushort> Node { get; }
@@ -48,7 +48,7 @@ ISchemaFixedArray<ushort> Node { get; }
 
 ### Radius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeTaperedCapsuleStretch_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeTaperedCapsuleStretch_t.cs#L24)
 
 ```csharp
 ISchemaFixedArray<float> Radius { get; }

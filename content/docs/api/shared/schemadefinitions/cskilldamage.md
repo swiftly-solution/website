@@ -12,7 +12,7 @@ public interface CSkillDamage : ISchemaClass<CSkillDamage>, ISchemaField, ISchem
 
 ### Damage
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkillDamage.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkillDamage.cs#L18)
 
 ```csharp
 CSkillFloat Damage { get; }
@@ -24,7 +24,7 @@ CSkillFloat Damage { get; }
 
 ### NPCDamageScalarVsNPC
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkillDamage.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkillDamage.cs#L20)
 
 ```csharp
 ref float NPCDamageScalarVsNPC { get; }
@@ -36,7 +36,7 @@ ref float NPCDamageScalarVsNPC { get; }
 
 ### PhysicsForceDamage
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkillDamage.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkillDamage.cs#L22)
 
 ```csharp
 ref float PhysicsForceDamage { get; }

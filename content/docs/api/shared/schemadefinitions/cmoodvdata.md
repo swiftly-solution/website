@@ -12,7 +12,7 @@ public interface CMoodVData : ISchemaClass<CMoodVData>, ISchemaField, ISchemaCla
 
 ### AnimationLayers
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoodVData.cs#L22)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoodVData.cs#L23)
 
 ```csharp
 ref CUtlVector<MoodAnimationLayer_t> AnimationLayers { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<MoodAnimationLayer_t> AnimationLayers { get; }
 
 ### ModelName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoodVData.cs#L18)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoodVData.cs#L19)
 
 ```csharp
 SchemaUntypedField ModelName { get; }
@@ -36,7 +36,7 @@ SchemaUntypedField ModelName { get; }
 
 ### MoodType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoodVData.cs#L20)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoodVData.cs#L21)
 
 ```csharp
 ref MoodType_t MoodType { get; }

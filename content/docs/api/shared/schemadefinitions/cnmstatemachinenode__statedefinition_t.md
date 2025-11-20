@@ -12,7 +12,7 @@ public interface CNmStateMachineNode__StateDefinition_t : ISchemaClass<CNmStateM
 
 ### EntryConditionNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateMachineNode__StateDefinition_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateMachineNode__StateDefinition_t.cs#L20)
 
 ```csharp
 ref short EntryConditionNodeIdx { get; }
@@ -24,7 +24,7 @@ ref short EntryConditionNodeIdx { get; }
 
 ### StateNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateMachineNode__StateDefinition_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateMachineNode__StateDefinition_t.cs#L18)
 
 ```csharp
 ref short StateNodeIdx { get; }
@@ -36,7 +36,7 @@ ref short StateNodeIdx { get; }
 
 ### TransitionDefinitions
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateMachineNode__StateDefinition_t.cs#L22)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateMachineNode__StateDefinition_t.cs#L23)
 
 ```csharp
 SchemaUntypedField TransitionDefinitions { get; }

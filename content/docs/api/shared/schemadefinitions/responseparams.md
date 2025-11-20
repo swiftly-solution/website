@@ -12,7 +12,7 @@ public interface ResponseParams : ISchemaClass<ResponseParams>, ISchemaField, IS
 
 ### Flags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ResponseParams.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ResponseParams.cs#L20)
 
 ```csharp
 ref short Flags { get; }
@@ -24,7 +24,7 @@ ref short Flags { get; }
 
 ### Followup
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ResponseParams.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ResponseParams.cs#L22)
 
 ```csharp
 ResponseFollowup? Followup { get; }
@@ -36,7 +36,7 @@ ResponseFollowup? Followup { get; }
 
 ### Odds
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ResponseParams.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ResponseParams.cs#L18)
 
 ```csharp
 ref short Odds { get; }

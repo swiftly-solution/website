@@ -12,7 +12,7 @@ public interface C_OP_DistanceCull : CParticleFunctionOperator, CParticleFunctio
 
 ### Attribute
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceCull.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceCull.cs#L26)
 
 ```csharp
 ParticleAttributeIndex_t Attribute { get; }
@@ -24,7 +24,7 @@ ParticleAttributeIndex_t Attribute { get; }
 
 ### ControlPoint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceCull.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceCull.cs#L18)
 
 ```csharp
 ref int ControlPoint { get; }
@@ -36,7 +36,7 @@ ref int ControlPoint { get; }
 
 ### CullInside
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceCull.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceCull.cs#L24)
 
 ```csharp
 ref bool CullInside { get; }
@@ -48,7 +48,7 @@ ref bool CullInside { get; }
 
 ### Distance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceCull.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceCull.cs#L22)
 
 ```csharp
 CParticleCollectionFloatInput Distance { get; }
@@ -60,7 +60,7 @@ CParticleCollectionFloatInput Distance { get; }
 
 ### PointOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceCull.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceCull.cs#L20)
 
 ```csharp
 ref Vector PointOffset { get; }

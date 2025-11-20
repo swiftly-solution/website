@@ -12,7 +12,7 @@ public interface SoundeventPathCornerPairNetworked_t : ISchemaClass<SoundeventPa
 
 ### P1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SoundeventPathCornerPairNetworked_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SoundeventPathCornerPairNetworked_t.cs#L18)
 
 ```csharp
 ref Vector P1 { get; }
@@ -24,7 +24,7 @@ ref Vector P1 { get; }
 
 ### P1Pct
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SoundeventPathCornerPairNetworked_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SoundeventPathCornerPairNetworked_t.cs#L24)
 
 ```csharp
 ref float P1Pct { get; }
@@ -36,7 +36,7 @@ ref float P1Pct { get; }
 
 ### P2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SoundeventPathCornerPairNetworked_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SoundeventPathCornerPairNetworked_t.cs#L20)
 
 ```csharp
 ref Vector P2 { get; }
@@ -48,7 +48,7 @@ ref Vector P2 { get; }
 
 ### P2Pct
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SoundeventPathCornerPairNetworked_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SoundeventPathCornerPairNetworked_t.cs#L26)
 
 ```csharp
 ref float P2Pct { get; }
@@ -60,7 +60,7 @@ ref float P2Pct { get; }
 
 ### PathLengthSqr
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SoundeventPathCornerPairNetworked_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SoundeventPathCornerPairNetworked_t.cs#L22)
 
 ```csharp
 ref float PathLengthSqr { get; }
@@ -74,7 +74,7 @@ ref float PathLengthSqr { get; }
 
 ### P1PctUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SoundeventPathCornerPairNetworked_t.cs#L30)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SoundeventPathCornerPairNetworked_t.cs#L31)
 
 ```csharp
 void P1PctUpdated()
@@ -82,7 +82,7 @@ void P1PctUpdated()
 
 ### P1Updated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SoundeventPathCornerPairNetworked_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SoundeventPathCornerPairNetworked_t.cs#L28)
 
 ```csharp
 void P1Updated()
@@ -90,7 +90,7 @@ void P1Updated()
 
 ### P2PctUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SoundeventPathCornerPairNetworked_t.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SoundeventPathCornerPairNetworked_t.cs#L32)
 
 ```csharp
 void P2PctUpdated()
@@ -98,7 +98,7 @@ void P2PctUpdated()
 
 ### P2Updated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SoundeventPathCornerPairNetworked_t.cs#L28)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SoundeventPathCornerPairNetworked_t.cs#L29)
 
 ```csharp
 void P2Updated()
@@ -106,7 +106,7 @@ void P2Updated()
 
 ### PathLengthSqrUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SoundeventPathCornerPairNetworked_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SoundeventPathCornerPairNetworked_t.cs#L30)
 
 ```csharp
 void PathLengthSqrUpdated()

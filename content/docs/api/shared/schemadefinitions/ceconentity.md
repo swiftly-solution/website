@@ -12,7 +12,7 @@ public interface CEconEntity : CBaseFlex, CBaseAnimGraph, CBaseModelEntity, CBas
 
 ### AttributeManager
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconEntity.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconEntity.cs#L18)
 
 ```csharp
 CAttributeContainer AttributeManager { get; }
@@ -24,7 +24,7 @@ CAttributeContainer AttributeManager { get; }
 
 ### FallbackPaintKit
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconEntity.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconEntity.cs#L24)
 
 ```csharp
 ref int FallbackPaintKit { get; }
@@ -36,7 +36,7 @@ ref int FallbackPaintKit { get; }
 
 ### FallbackSeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconEntity.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconEntity.cs#L26)
 
 ```csharp
 ref int FallbackSeed { get; }
@@ -48,7 +48,7 @@ ref int FallbackSeed { get; }
 
 ### FallbackStatTrak
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconEntity.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconEntity.cs#L30)
 
 ```csharp
 ref int FallbackStatTrak { get; }
@@ -60,7 +60,7 @@ ref int FallbackStatTrak { get; }
 
 ### FallbackWear
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconEntity.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconEntity.cs#L28)
 
 ```csharp
 ref float FallbackWear { get; }
@@ -72,7 +72,7 @@ ref float FallbackWear { get; }
 
 ### OldOwnerClass
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconEntity.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconEntity.cs#L34)
 
 ```csharp
 ref int OldOwnerClass { get; }
@@ -84,7 +84,7 @@ ref int OldOwnerClass { get; }
 
 ### OldProvidee
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconEntity.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconEntity.cs#L32)
 
 ```csharp
 ref CHandle<CBaseEntity> OldProvidee { get; }
@@ -96,7 +96,7 @@ ref CHandle<CBaseEntity> OldProvidee { get; }
 
 ### OriginalOwnerXuidHigh
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconEntity.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconEntity.cs#L22)
 
 ```csharp
 ref uint OriginalOwnerXuidHigh { get; }
@@ -108,7 +108,7 @@ ref uint OriginalOwnerXuidHigh { get; }
 
 ### OriginalOwnerXuidLow
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconEntity.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconEntity.cs#L20)
 
 ```csharp
 ref uint OriginalOwnerXuidLow { get; }
@@ -122,7 +122,7 @@ ref uint OriginalOwnerXuidLow { get; }
 
 ### AttributeManagerUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconEntity.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconEntity.cs#L36)
 
 ```csharp
 void AttributeManagerUpdated()
@@ -130,7 +130,7 @@ void AttributeManagerUpdated()
 
 ### FallbackPaintKitUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconEntity.cs#L38)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconEntity.cs#L39)
 
 ```csharp
 void FallbackPaintKitUpdated()
@@ -138,7 +138,7 @@ void FallbackPaintKitUpdated()
 
 ### FallbackSeedUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconEntity.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconEntity.cs#L40)
 
 ```csharp
 void FallbackSeedUpdated()
@@ -146,7 +146,7 @@ void FallbackSeedUpdated()
 
 ### FallbackStatTrakUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconEntity.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconEntity.cs#L42)
 
 ```csharp
 void FallbackStatTrakUpdated()
@@ -154,7 +154,7 @@ void FallbackStatTrakUpdated()
 
 ### FallbackWearUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconEntity.cs#L40)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconEntity.cs#L41)
 
 ```csharp
 void FallbackWearUpdated()
@@ -162,7 +162,7 @@ void FallbackWearUpdated()
 
 ### OriginalOwnerXuidHighUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconEntity.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconEntity.cs#L38)
 
 ```csharp
 void OriginalOwnerXuidHighUpdated()
@@ -170,7 +170,7 @@ void OriginalOwnerXuidHighUpdated()
 
 ### OriginalOwnerXuidLowUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconEntity.cs#L36)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconEntity.cs#L37)
 
 ```csharp
 void OriginalOwnerXuidLowUpdated()

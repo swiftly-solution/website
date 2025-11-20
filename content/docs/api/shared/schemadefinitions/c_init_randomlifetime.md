@@ -12,7 +12,7 @@ public interface C_INIT_RandomLifeTime : CParticleFunctionInitializer, CParticle
 
 ### LifetimeMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomLifeTime.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomLifeTime.cs#L20)
 
 ```csharp
 ref float LifetimeMax { get; }
@@ -24,7 +24,7 @@ ref float LifetimeMax { get; }
 
 ### LifetimeMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomLifeTime.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomLifeTime.cs#L18)
 
 ```csharp
 ref float LifetimeMin { get; }
@@ -36,7 +36,7 @@ ref float LifetimeMin { get; }
 
 ### LifetimeRandExponent
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomLifeTime.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomLifeTime.cs#L22)
 
 ```csharp
 ref float LifetimeRandExponent { get; }

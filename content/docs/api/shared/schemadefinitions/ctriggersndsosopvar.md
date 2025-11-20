@@ -12,7 +12,7 @@ public interface CTriggerSndSosOpvar : CBaseTrigger, CBaseToggle, CBaseModelEnti
 
 ### CenterSize
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L22)
 
 ```csharp
 ref float CenterSize { get; }
@@ -24,7 +24,7 @@ ref float CenterSize { get; }
 
 ### MaxVal
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L26)
 
 ```csharp
 ref float MaxVal { get; }
@@ -36,7 +36,7 @@ ref float MaxVal { get; }
 
 ### MinVal
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L24)
 
 ```csharp
 ref float MinVal { get; }
@@ -48,7 +48,7 @@ ref float MinVal { get; }
 
 ### NormCenterSize
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L44)
 
 ```csharp
 ref float NormCenterSize { get; }
@@ -60,7 +60,7 @@ ref float NormCenterSize { get; }
 
 ### OperatorName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L32)
 
 ```csharp
 string OperatorName { get; set; }
@@ -72,7 +72,7 @@ string OperatorName { get; set; }
 
 ### OperatorNameChar
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L40)
 
 ```csharp
 string OperatorNameChar { get; set; }
@@ -84,7 +84,7 @@ string OperatorNameChar { get; set; }
 
 ### OpvarName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L28)
 
 ```csharp
 string OpvarName { get; set; }
@@ -96,7 +96,7 @@ string OpvarName { get; set; }
 
 ### OpvarNameChar
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L36)
 
 ```csharp
 string OpvarNameChar { get; set; }
@@ -108,7 +108,7 @@ string OpvarNameChar { get; set; }
 
 ### Position
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L20)
 
 ```csharp
 ref Vector Position { get; }
@@ -120,7 +120,7 @@ ref Vector Position { get; }
 
 ### StackName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L30)
 
 ```csharp
 string StackName { get; set; }
@@ -132,7 +132,7 @@ string StackName { get; set; }
 
 ### StackNameChar
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L38)
 
 ```csharp
 string StackNameChar { get; set; }
@@ -144,7 +144,7 @@ string StackNameChar { get; set; }
 
 ### TouchingPlayers
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L18)
 
 ```csharp
 ref CUtlVector<CHandle<CBaseEntity>> TouchingPlayers { get; }
@@ -156,7 +156,7 @@ ref CUtlVector<CHandle<CBaseEntity>> TouchingPlayers { get; }
 
 ### VecNormPos
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L42)
 
 ```csharp
 ref Vector VecNormPos { get; }
@@ -168,7 +168,7 @@ ref Vector VecNormPos { get; }
 
 ### VolIs2D
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L34)
 
 ```csharp
 ref bool VolIs2D { get; }

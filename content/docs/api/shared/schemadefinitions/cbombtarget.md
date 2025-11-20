@@ -12,7 +12,7 @@ public interface CBombTarget : CBaseTrigger, CBaseToggle, CBaseModelEntity, CBas
 
 ### BombPlantedHere
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBombTarget.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBombTarget.cs#L28)
 
 ```csharp
 ref bool BombPlantedHere { get; }
@@ -24,7 +24,7 @@ ref bool BombPlantedHere { get; }
 
 ### BombSiteDesignation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBombTarget.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBombTarget.cs#L34)
 
 ```csharp
 ref int BombSiteDesignation { get; }
@@ -36,7 +36,7 @@ ref int BombSiteDesignation { get; }
 
 ### InstructorHint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBombTarget.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBombTarget.cs#L32)
 
 ```csharp
 ref CHandle<CBaseEntity> InstructorHint { get; }
@@ -48,7 +48,7 @@ ref CHandle<CBaseEntity> InstructorHint { get; }
 
 ### IsBombSiteB
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBombTarget.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBombTarget.cs#L24)
 
 ```csharp
 ref bool IsBombSiteB { get; }
@@ -60,7 +60,7 @@ ref bool IsBombSiteB { get; }
 
 ### IsHeistBombTarget
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBombTarget.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBombTarget.cs#L26)
 
 ```csharp
 ref bool IsHeistBombTarget { get; }
@@ -72,7 +72,7 @@ ref bool IsHeistBombTarget { get; }
 
 ### MountTarget
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBombTarget.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBombTarget.cs#L30)
 
 ```csharp
 string MountTarget { get; set; }
@@ -84,7 +84,7 @@ string MountTarget { get; set; }
 
 ### OnBombDefused
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBombTarget.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBombTarget.cs#L22)
 
 ```csharp
 CEntityIOOutput OnBombDefused { get; }
@@ -96,7 +96,7 @@ CEntityIOOutput OnBombDefused { get; }
 
 ### OnBombExplode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBombTarget.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBombTarget.cs#L18)
 
 ```csharp
 CEntityIOOutput OnBombExplode { get; }
@@ -108,7 +108,7 @@ CEntityIOOutput OnBombExplode { get; }
 
 ### OnBombPlanted
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBombTarget.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBombTarget.cs#L20)
 
 ```csharp
 CEntityIOOutput OnBombPlanted { get; }
@@ -122,7 +122,7 @@ CEntityIOOutput OnBombPlanted { get; }
 
 ### BombPlantedHereUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBombTarget.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBombTarget.cs#L36)
 
 ```csharp
 void BombPlantedHereUpdated()

@@ -12,7 +12,7 @@ public interface CVoiceContainerLoopTrigger : CVoiceContainerBase, ISchemaClass<
 
 ### CrossFade
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerLoopTrigger.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerLoopTrigger.cs#L26)
 
 ```csharp
 ref bool CrossFade { get; }
@@ -24,7 +24,7 @@ ref bool CrossFade { get; }
 
 ### FadeTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerLoopTrigger.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerLoopTrigger.cs#L24)
 
 ```csharp
 ref float FadeTime { get; }
@@ -36,7 +36,7 @@ ref float FadeTime { get; }
 
 ### RetriggerTimeMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerLoopTrigger.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerLoopTrigger.cs#L22)
 
 ```csharp
 ref float RetriggerTimeMax { get; }
@@ -48,7 +48,7 @@ ref float RetriggerTimeMax { get; }
 
 ### RetriggerTimeMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerLoopTrigger.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerLoopTrigger.cs#L20)
 
 ```csharp
 ref float RetriggerTimeMin { get; }
@@ -60,7 +60,7 @@ ref float RetriggerTimeMin { get; }
 
 ### Sound
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerLoopTrigger.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerLoopTrigger.cs#L18)
 
 ```csharp
 CSoundContainerReference Sound { get; }

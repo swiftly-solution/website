@@ -12,7 +12,7 @@ public interface CChoiceUpdateNode : CAnimUpdateNodeBase, ISchemaClass<CAnimUpda
 
 ### BlendMethod
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChoiceUpdateNode.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChoiceUpdateNode.cs#L28)
 
 ```csharp
 ref ChoiceBlendMethod BlendMethod { get; }
@@ -24,7 +24,7 @@ ref ChoiceBlendMethod BlendMethod { get; }
 
 ### BlendTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChoiceUpdateNode.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChoiceUpdateNode.cs#L30)
 
 ```csharp
 ref float BlendTime { get; }
@@ -36,7 +36,7 @@ ref float BlendTime { get; }
 
 ### BlendTimes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChoiceUpdateNode.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChoiceUpdateNode.cs#L22)
 
 ```csharp
 ref CUtlVector<float> BlendTimes { get; }
@@ -48,7 +48,7 @@ ref CUtlVector<float> BlendTimes { get; }
 
 ### Children
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChoiceUpdateNode.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChoiceUpdateNode.cs#L18)
 
 ```csharp
 ref CUtlVector<CAnimUpdateNodeRef> Children { get; }
@@ -60,7 +60,7 @@ ref CUtlVector<CAnimUpdateNodeRef> Children { get; }
 
 ### ChoiceChangeMethod
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChoiceUpdateNode.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChoiceUpdateNode.cs#L26)
 
 ```csharp
 ref ChoiceChangeMethod ChoiceChangeMethod { get; }
@@ -72,7 +72,7 @@ ref ChoiceChangeMethod ChoiceChangeMethod { get; }
 
 ### ChoiceMethod
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChoiceUpdateNode.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChoiceUpdateNode.cs#L24)
 
 ```csharp
 ref ChoiceMethod ChoiceMethod { get; }
@@ -84,7 +84,7 @@ ref ChoiceMethod ChoiceMethod { get; }
 
 ### CrossFade
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChoiceUpdateNode.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChoiceUpdateNode.cs#L32)
 
 ```csharp
 ref bool CrossFade { get; }
@@ -96,7 +96,7 @@ ref bool CrossFade { get; }
 
 ### DontResetSameSelection
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChoiceUpdateNode.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChoiceUpdateNode.cs#L36)
 
 ```csharp
 ref bool DontResetSameSelection { get; }
@@ -108,7 +108,7 @@ ref bool DontResetSameSelection { get; }
 
 ### ResetChosen
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChoiceUpdateNode.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChoiceUpdateNode.cs#L34)
 
 ```csharp
 ref bool ResetChosen { get; }
@@ -120,7 +120,7 @@ ref bool ResetChosen { get; }
 
 ### Weights
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChoiceUpdateNode.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChoiceUpdateNode.cs#L20)
 
 ```csharp
 ref CUtlVector<float> Weights { get; }

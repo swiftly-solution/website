@@ -12,7 +12,7 @@ public interface C_OP_LockPoints : CParticleFunctionOperator, CParticleFunction,
 
 ### BlendValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockPoints.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockPoints.cs#L28)
 
 ```csharp
 ref float BlendValue { get; }
@@ -24,7 +24,7 @@ ref float BlendValue { get; }
 
 ### ControlPoint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockPoints.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockPoints.cs#L26)
 
 ```csharp
 ref int ControlPoint { get; }
@@ -36,7 +36,7 @@ ref int ControlPoint { get; }
 
 ### MaxCol
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockPoints.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockPoints.cs#L20)
 
 ```csharp
 ref int MaxCol { get; }
@@ -48,7 +48,7 @@ ref int MaxCol { get; }
 
 ### MaxRow
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockPoints.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockPoints.cs#L24)
 
 ```csharp
 ref int MaxRow { get; }
@@ -60,7 +60,7 @@ ref int MaxRow { get; }
 
 ### MinCol
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockPoints.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockPoints.cs#L18)
 
 ```csharp
 ref int MinCol { get; }
@@ -72,7 +72,7 @@ ref int MinCol { get; }
 
 ### MinRow
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockPoints.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockPoints.cs#L22)
 
 ```csharp
 ref int MinRow { get; }

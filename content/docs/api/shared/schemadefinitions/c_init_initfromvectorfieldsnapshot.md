@@ -12,7 +12,7 @@ public interface C_INIT_InitFromVectorFieldSnapshot : CParticleFunctionInitializ
 
 ### ControlPointNumber
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFromVectorFieldSnapshot.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFromVectorFieldSnapshot.cs#L18)
 
 ```csharp
 ref int ControlPointNumber { get; }
@@ -24,7 +24,7 @@ ref int ControlPointNumber { get; }
 
 ### LocalSpaceCP
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFromVectorFieldSnapshot.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFromVectorFieldSnapshot.cs#L20)
 
 ```csharp
 ref int LocalSpaceCP { get; }
@@ -36,7 +36,7 @@ ref int LocalSpaceCP { get; }
 
 ### Scale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFromVectorFieldSnapshot.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFromVectorFieldSnapshot.cs#L26)
 
 ```csharp
 CPerParticleVecInput Scale { get; }
@@ -48,7 +48,7 @@ CPerParticleVecInput Scale { get; }
 
 ### UseVerticalVelocity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFromVectorFieldSnapshot.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFromVectorFieldSnapshot.cs#L24)
 
 ```csharp
 ref bool UseVerticalVelocity { get; }
@@ -60,7 +60,7 @@ ref bool UseVerticalVelocity { get; }
 
 ### WeightUpdateCP
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFromVectorFieldSnapshot.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFromVectorFieldSnapshot.cs#L22)
 
 ```csharp
 ref int WeightUpdateCP { get; }

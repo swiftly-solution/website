@@ -12,7 +12,7 @@ public interface IKTargetSettings_t : ISchemaClass<IKTargetSettings_t>, ISchemaF
 
 ### AnimgraphParameterNameOrientation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/IKTargetSettings_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/IKTargetSettings_t.cs#L24)
 
 ```csharp
 AnimParamID AnimgraphParameterNameOrientation { get; }
@@ -24,7 +24,7 @@ AnimParamID AnimgraphParameterNameOrientation { get; }
 
 ### AnimgraphParameterNamePosition
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/IKTargetSettings_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/IKTargetSettings_t.cs#L22)
 
 ```csharp
 AnimParamID AnimgraphParameterNamePosition { get; }
@@ -36,7 +36,7 @@ AnimParamID AnimgraphParameterNamePosition { get; }
 
 ### Bone
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/IKTargetSettings_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/IKTargetSettings_t.cs#L20)
 
 ```csharp
 IKBoneNameAndIndex_t Bone { get; }
@@ -48,7 +48,7 @@ IKBoneNameAndIndex_t Bone { get; }
 
 ### TargetCoordSystem
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/IKTargetSettings_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/IKTargetSettings_t.cs#L26)
 
 ```csharp
 ref IKTargetCoordinateSystem TargetCoordSystem { get; }
@@ -60,7 +60,7 @@ ref IKTargetCoordinateSystem TargetCoordSystem { get; }
 
 ### TargetSource
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/IKTargetSettings_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/IKTargetSettings_t.cs#L18)
 
 ```csharp
 ref IKTargetSource TargetSource { get; }

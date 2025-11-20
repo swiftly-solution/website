@@ -12,7 +12,7 @@ public interface CParticleVisibilityInputs : ISchemaClass<CParticleVisibilityInp
 
 ### AlphaScaleMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVisibilityInputs.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVisibilityInputs.cs#L46)
 
 ```csharp
 ref float AlphaScaleMax { get; }
@@ -24,7 +24,7 @@ ref float AlphaScaleMax { get; }
 
 ### AlphaScaleMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVisibilityInputs.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVisibilityInputs.cs#L44)
 
 ```csharp
 ref float AlphaScaleMin { get; }
@@ -36,7 +36,7 @@ ref float AlphaScaleMin { get; }
 
 ### CPin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVisibilityInputs.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVisibilityInputs.cs#L20)
 
 ```csharp
 ref int CPin { get; }
@@ -48,7 +48,7 @@ ref int CPin { get; }
 
 ### CameraBias
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVisibilityInputs.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVisibilityInputs.cs#L18)
 
 ```csharp
 ref float CameraBias { get; }
@@ -60,7 +60,7 @@ ref float CameraBias { get; }
 
 ### DistanceInputMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVisibilityInputs.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVisibilityInputs.cs#L34)
 
 ```csharp
 ref float DistanceInputMax { get; }
@@ -72,7 +72,7 @@ ref float DistanceInputMax { get; }
 
 ### DistanceInputMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVisibilityInputs.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVisibilityInputs.cs#L32)
 
 ```csharp
 ref float DistanceInputMin { get; }
@@ -84,7 +84,7 @@ ref float DistanceInputMin { get; }
 
 ### DotCPAngles
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVisibilityInputs.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVisibilityInputs.cs#L40)
 
 ```csharp
 ref bool DotCPAngles { get; }
@@ -96,7 +96,7 @@ ref bool DotCPAngles { get; }
 
 ### DotCameraAngles
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVisibilityInputs.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVisibilityInputs.cs#L42)
 
 ```csharp
 ref bool DotCameraAngles { get; }
@@ -108,7 +108,7 @@ ref bool DotCameraAngles { get; }
 
 ### DotInputMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVisibilityInputs.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVisibilityInputs.cs#L38)
 
 ```csharp
 ref float DotInputMax { get; }
@@ -120,7 +120,7 @@ ref float DotInputMax { get; }
 
 ### DotInputMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVisibilityInputs.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVisibilityInputs.cs#L36)
 
 ```csharp
 ref float DotInputMin { get; }
@@ -132,7 +132,7 @@ ref float DotInputMin { get; }
 
 ### InputMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVisibilityInputs.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVisibilityInputs.cs#L26)
 
 ```csharp
 ref float InputMax { get; }
@@ -144,7 +144,7 @@ ref float InputMax { get; }
 
 ### InputMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVisibilityInputs.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVisibilityInputs.cs#L24)
 
 ```csharp
 ref float InputMin { get; }
@@ -156,7 +156,7 @@ ref float InputMin { get; }
 
 ### InputPixelVisFade
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVisibilityInputs.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVisibilityInputs.cs#L28)
 
 ```csharp
 ref float InputPixelVisFade { get; }
@@ -168,7 +168,7 @@ ref float InputPixelVisFade { get; }
 
 ### NoPixelVisibilityFallback
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVisibilityInputs.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVisibilityInputs.cs#L30)
 
 ```csharp
 ref float NoPixelVisibilityFallback { get; }
@@ -180,7 +180,7 @@ ref float NoPixelVisibilityFallback { get; }
 
 ### ProxyRadius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVisibilityInputs.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVisibilityInputs.cs#L22)
 
 ```csharp
 ref float ProxyRadius { get; }
@@ -192,7 +192,7 @@ ref float ProxyRadius { get; }
 
 ### RadiusScaleFOVBase
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVisibilityInputs.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVisibilityInputs.cs#L52)
 
 ```csharp
 ref float RadiusScaleFOVBase { get; }
@@ -204,7 +204,7 @@ ref float RadiusScaleFOVBase { get; }
 
 ### RadiusScaleMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVisibilityInputs.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVisibilityInputs.cs#L50)
 
 ```csharp
 ref float RadiusScaleMax { get; }
@@ -216,7 +216,7 @@ ref float RadiusScaleMax { get; }
 
 ### RadiusScaleMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVisibilityInputs.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVisibilityInputs.cs#L48)
 
 ```csharp
 ref float RadiusScaleMin { get; }
@@ -228,7 +228,7 @@ ref float RadiusScaleMin { get; }
 
 ### RightEye
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVisibilityInputs.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVisibilityInputs.cs#L54)
 
 ```csharp
 ref bool RightEye { get; }

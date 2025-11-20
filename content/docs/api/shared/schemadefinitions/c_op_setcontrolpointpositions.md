@@ -12,7 +12,7 @@ public interface C_OP_SetControlPointPositions : CParticleFunctionPreEmission, C
 
 ### CP1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointPositions.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointPositions.cs#L24)
 
 ```csharp
 ref int CP1 { get; }
@@ -24,7 +24,7 @@ ref int CP1 { get; }
 
 ### CP1Pos
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointPositions.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointPositions.cs#L32)
 
 ```csharp
 ref Vector CP1Pos { get; }
@@ -36,7 +36,7 @@ ref Vector CP1Pos { get; }
 
 ### CP2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointPositions.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointPositions.cs#L26)
 
 ```csharp
 ref int CP2 { get; }
@@ -48,7 +48,7 @@ ref int CP2 { get; }
 
 ### CP2Pos
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointPositions.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointPositions.cs#L34)
 
 ```csharp
 ref Vector CP2Pos { get; }
@@ -60,7 +60,7 @@ ref Vector CP2Pos { get; }
 
 ### CP3
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointPositions.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointPositions.cs#L28)
 
 ```csharp
 ref int CP3 { get; }
@@ -72,7 +72,7 @@ ref int CP3 { get; }
 
 ### CP3Pos
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointPositions.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointPositions.cs#L36)
 
 ```csharp
 ref Vector CP3Pos { get; }
@@ -84,7 +84,7 @@ ref Vector CP3Pos { get; }
 
 ### CP4
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointPositions.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointPositions.cs#L30)
 
 ```csharp
 ref int CP4 { get; }
@@ -96,7 +96,7 @@ ref int CP4 { get; }
 
 ### CP4Pos
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointPositions.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointPositions.cs#L38)
 
 ```csharp
 ref Vector CP4Pos { get; }
@@ -108,7 +108,7 @@ ref Vector CP4Pos { get; }
 
 ### HeadLocation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointPositions.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointPositions.cs#L40)
 
 ```csharp
 ref int HeadLocation { get; }
@@ -120,7 +120,7 @@ ref int HeadLocation { get; }
 
 ### Orient
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointPositions.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointPositions.cs#L20)
 
 ```csharp
 ref bool Orient { get; }
@@ -132,7 +132,7 @@ ref bool Orient { get; }
 
 ### SetOnce
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointPositions.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointPositions.cs#L22)
 
 ```csharp
 ref bool SetOnce { get; }
@@ -144,7 +144,7 @@ ref bool SetOnce { get; }
 
 ### UseWorldLocation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointPositions.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointPositions.cs#L18)
 
 ```csharp
 ref bool UseWorldLocation { get; }

@@ -12,7 +12,7 @@ public interface CSeqPoseParamDesc : ISchemaClass<CSeqPoseParamDesc>, ISchemaFie
 
 ### End
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqPoseParamDesc.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqPoseParamDesc.cs#L22)
 
 ```csharp
 ref float End { get; }
@@ -24,7 +24,7 @@ ref float End { get; }
 
 ### Loop
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqPoseParamDesc.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqPoseParamDesc.cs#L24)
 
 ```csharp
 ref float Loop { get; }
@@ -36,7 +36,7 @@ ref float Loop { get; }
 
 ### Looping
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqPoseParamDesc.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqPoseParamDesc.cs#L26)
 
 ```csharp
 ref bool Looping { get; }
@@ -48,7 +48,7 @@ ref bool Looping { get; }
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqPoseParamDesc.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqPoseParamDesc.cs#L18)
 
 ```csharp
 ref CBufferString Name { get; }
@@ -60,7 +60,7 @@ ref CBufferString Name { get; }
 
 ### Start
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqPoseParamDesc.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqPoseParamDesc.cs#L20)
 
 ```csharp
 ref float Start { get; }

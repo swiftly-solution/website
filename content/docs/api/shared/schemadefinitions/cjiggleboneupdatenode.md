@@ -12,7 +12,7 @@ public interface CJiggleBoneUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase, 
 
 ### OpFixedData
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CJiggleBoneUpdateNode.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CJiggleBoneUpdateNode.cs#L18)
 
 ```csharp
 JiggleBoneSettingsList_t OpFixedData { get; }

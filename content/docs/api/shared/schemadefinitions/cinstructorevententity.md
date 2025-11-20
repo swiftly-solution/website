@@ -12,7 +12,7 @@ public interface CInstructorEventEntity : CPointEntity, CBaseEntity, CEntityInst
 
 ### HintTargetEntity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInstructorEventEntity.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInstructorEventEntity.cs#L20)
 
 ```csharp
 string HintTargetEntity { get; set; }
@@ -24,7 +24,7 @@ string HintTargetEntity { get; set; }
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInstructorEventEntity.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInstructorEventEntity.cs#L18)
 
 ```csharp
 string Name { get; set; }
@@ -36,7 +36,7 @@ string Name { get; set; }
 
 ### TargetPlayer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInstructorEventEntity.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInstructorEventEntity.cs#L22)
 
 ```csharp
 ref CHandle<CBasePlayerPawn> TargetPlayer { get; }

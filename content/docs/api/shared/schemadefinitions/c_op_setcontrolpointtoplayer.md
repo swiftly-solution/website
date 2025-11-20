@@ -12,7 +12,7 @@ public interface C_OP_SetControlPointToPlayer : CParticleFunctionPreEmission, CP
 
 ### CP1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToPlayer.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToPlayer.cs#L18)
 
 ```csharp
 ref int CP1 { get; }
@@ -24,7 +24,7 @@ ref int CP1 { get; }
 
 ### CP1Pos
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToPlayer.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToPlayer.cs#L20)
 
 ```csharp
 ref Vector CP1Pos { get; }
@@ -36,7 +36,7 @@ ref Vector CP1Pos { get; }
 
 ### OrientToEyes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToPlayer.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToPlayer.cs#L22)
 
 ```csharp
 ref bool OrientToEyes { get; }

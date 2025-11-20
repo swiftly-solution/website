@@ -12,7 +12,7 @@ public interface CAnimDataChannelDesc : ISchemaClass<CAnimDataChannelDesc>, ISch
 
 ### ChannelClass
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDataChannelDesc.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDataChannelDesc.cs#L18)
 
 ```csharp
 ref CBufferString ChannelClass { get; }
@@ -24,7 +24,7 @@ ref CBufferString ChannelClass { get; }
 
 ### Description
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDataChannelDesc.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDataChannelDesc.cs#L28)
 
 ```csharp
 ref CBufferString Description { get; }
@@ -36,7 +36,7 @@ ref CBufferString Description { get; }
 
 ### ElementIndexArray
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDataChannelDesc.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDataChannelDesc.cs#L32)
 
 ```csharp
 ref CUtlVector<int> ElementIndexArray { get; }
@@ -48,7 +48,7 @@ ref CUtlVector<int> ElementIndexArray { get; }
 
 ### ElementMaskArray
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDataChannelDesc.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDataChannelDesc.cs#L34)
 
 ```csharp
 ref CUtlVector<uint> ElementMaskArray { get; }
@@ -60,7 +60,7 @@ ref CUtlVector<uint> ElementMaskArray { get; }
 
 ### ElementNameArray
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDataChannelDesc.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDataChannelDesc.cs#L30)
 
 ```csharp
 ref CUtlVector<CBufferString> ElementNameArray { get; }
@@ -72,7 +72,7 @@ ref CUtlVector<CBufferString> ElementNameArray { get; }
 
 ### Flags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDataChannelDesc.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDataChannelDesc.cs#L22)
 
 ```csharp
 ref int Flags { get; }
@@ -84,7 +84,7 @@ ref int Flags { get; }
 
 ### Grouping
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDataChannelDesc.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDataChannelDesc.cs#L26)
 
 ```csharp
 ref CBufferString Grouping { get; }
@@ -96,7 +96,7 @@ ref CBufferString Grouping { get; }
 
 ### Type
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDataChannelDesc.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDataChannelDesc.cs#L24)
 
 ```csharp
 ref int Type { get; }
@@ -108,7 +108,7 @@ ref int Type { get; }
 
 ### VariableName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDataChannelDesc.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDataChannelDesc.cs#L20)
 
 ```csharp
 ref CBufferString VariableName { get; }

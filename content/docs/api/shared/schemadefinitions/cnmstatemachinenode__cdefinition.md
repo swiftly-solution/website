@@ -12,7 +12,7 @@ public interface CNmStateMachineNode__CDefinition : CNmPoseNode__CDefinition, CN
 
 ### DefaultStateIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateMachineNode__CDefinition.cs#L20)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateMachineNode__CDefinition.cs#L21)
 
 ```csharp
 ref short DefaultStateIndex { get; }
@@ -24,7 +24,7 @@ ref short DefaultStateIndex { get; }
 
 ### StateDefinitions
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateMachineNode__CDefinition.cs#L18)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateMachineNode__CDefinition.cs#L19)
 
 ```csharp
 SchemaUntypedField StateDefinitions { get; }

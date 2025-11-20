@@ -12,7 +12,7 @@ public interface CCopyRecipientFilter : ISchemaClass<CCopyRecipientFilter>, ISch
 
 ### Flags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCopyRecipientFilter.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCopyRecipientFilter.cs#L18)
 
 ```csharp
 ref int Flags { get; }
@@ -24,7 +24,7 @@ ref int Flags { get; }
 
 ### Recipients
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCopyRecipientFilter.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCopyRecipientFilter.cs#L20)
 
 ```csharp
 ref CUtlVector<uint> Recipients { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<uint> Recipients { get; }
 
 ### SlotPlayerExcludedDueToPrediction
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCopyRecipientFilter.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCopyRecipientFilter.cs#L22)
 
 ```csharp
 ref uint SlotPlayerExcludedDueToPrediction { get; }

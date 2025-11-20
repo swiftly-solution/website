@@ -12,7 +12,7 @@ public interface CBtActionCombatPositioning : CBtNode, ISchemaClass<CBtNode>, IS
 
 ### ActionTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionCombatPositioning.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionCombatPositioning.cs#L22)
 
 ```csharp
 CountdownTimer ActionTimer { get; }
@@ -24,7 +24,7 @@ CountdownTimer ActionTimer { get; }
 
 ### Crouching
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionCombatPositioning.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionCombatPositioning.cs#L24)
 
 ```csharp
 ref bool Crouching { get; }
@@ -36,7 +36,7 @@ ref bool Crouching { get; }
 
 ### IsAttackingKey
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionCombatPositioning.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionCombatPositioning.cs#L20)
 
 ```csharp
 string IsAttackingKey { get; set; }
@@ -48,7 +48,7 @@ string IsAttackingKey { get; set; }
 
 ### SensorInputKey
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionCombatPositioning.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionCombatPositioning.cs#L18)
 
 ```csharp
 string SensorInputKey { get; set; }

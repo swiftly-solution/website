@@ -12,7 +12,7 @@ public interface CCSGameRules : CTeamplayRules, CMultiplayRules, CGameRules, ISc
 
 ### AccountCT
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L238)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L239)
 
 ```csharp
 ref int AccountCT { get; }
@@ -24,7 +24,7 @@ ref int AccountCT { get; }
 
 ### AccountTerrorist
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L236)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L237)
 
 ```csharp
 ref int AccountTerrorist { get; }
@@ -36,7 +36,7 @@ ref int AccountTerrorist { get; }
 
 ### AccumulatedRoundOffDamage
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L328)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L329)
 
 ```csharp
 ref float AccumulatedRoundOffDamage { get; }
@@ -48,7 +48,7 @@ ref float AccumulatedRoundOffDamage { get; }
 
 ### AllowWeaponSwitch
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L318)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L319)
 
 ```csharp
 ref bool AllowWeaponSwitch { get; }
@@ -60,7 +60,7 @@ ref bool AllowWeaponSwitch { get; }
 
 ### AnyHostageReached
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L67)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L68)
 
 ```csharp
 ref bool AnyHostageReached { get; }
@@ -72,7 +72,7 @@ ref bool AnyHostageReached { get; }
 
 ### AutobalanceDisplayTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L316)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L317)
 
 ```csharp
 ref float AutobalanceDisplayTime { get; }
@@ -84,7 +84,7 @@ ref float AutobalanceDisplayTime { get; }
 
 ### AvgPlayerRank
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L206)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L207)
 
 ```csharp
 ref float AvgPlayerRank { get; }
@@ -96,7 +96,7 @@ ref float AvgPlayerRank { get; }
 
 ### BombDefused
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L290)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L291)
 
 ```csharp
 ref bool BombDefused { get; }
@@ -108,7 +108,7 @@ ref bool BombDefused { get; }
 
 ### BombDropped
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L121)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L122)
 
 ```csharp
 ref bool BombDropped { get; }
@@ -120,7 +120,7 @@ ref bool BombDropped { get; }
 
 ### BombPlanted
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L123)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L124)
 
 ```csharp
 ref bool BombPlanted { get; }
@@ -132,7 +132,7 @@ ref bool BombPlanted { get; }
 
 ### BtGlobalBlackboard
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L341)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L342)
 
 ```csharp
 SchemaUntypedField BtGlobalBlackboard { get; }
@@ -144,7 +144,7 @@ SchemaUntypedField BtGlobalBlackboard { get; }
 
 ### BuyTimeEnded
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L284)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L285)
 
 ```csharp
 ref bool BuyTimeEnded { get; }
@@ -156,7 +156,7 @@ ref bool BuyTimeEnded { get; }
 
 ### CMMItemDropRevealEndTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L105)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L106)
 
 ```csharp
 GameTime_t CMMItemDropRevealEndTime { get; }
@@ -168,7 +168,7 @@ GameTime_t CMMItemDropRevealEndTime { get; }
 
 ### CMMItemDropRevealStartTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L103)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L104)
 
 ```csharp
 GameTime_t CMMItemDropRevealStartTime { get; }
@@ -180,7 +180,7 @@ GameTime_t CMMItemDropRevealStartTime { get; }
 
 ### CTCantBuy
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L131)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L132)
 
 ```csharp
 ref bool CTCantBuy { get; }
@@ -192,7 +192,7 @@ ref bool CTCantBuy { get; }
 
 ### CTSpawnPointUsedTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L304)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L305)
 
 ```csharp
 ref float CTSpawnPointUsedTime { get; }
@@ -204,7 +204,7 @@ ref float CTSpawnPointUsedTime { get; }
 
 ### CTSpawnPoints
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L310)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L311)
 
 ```csharp
 ref CUtlVector<PointerTo<SpawnPoint>> CTSpawnPoints { get; }
@@ -216,7 +216,7 @@ ref CUtlVector<PointerTo<SpawnPoint>> CTSpawnPoints { get; }
 
 ### CTSpawnPointsMasterList
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L296)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L297)
 
 ```csharp
 ref CUtlVector<PointerTo<SpawnPoint>> CTSpawnPointsMasterList { get; }
@@ -228,7 +228,7 @@ ref CUtlVector<PointerTo<SpawnPoint>> CTSpawnPointsMasterList { get; }
 
 ### CTTeamIntroVariant
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L355)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L356)
 
 ```csharp
 ref int CTTeamIntroVariant { get; }
@@ -240,7 +240,7 @@ ref int CTTeamIntroVariant { get; }
 
 ### CTTimeOutActive
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L28)
 
 ```csharp
 ref bool CTTimeOutActive { get; }
@@ -252,7 +252,7 @@ ref bool CTTimeOutActive { get; }
 
 ### CTTimeOutRemaining
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L32)
 
 ```csharp
 ref float CTTimeOutRemaining { get; }
@@ -264,7 +264,7 @@ ref float CTTimeOutRemaining { get; }
 
 ### CTTimeOuts
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L36)
 
 ```csharp
 ref int CTTimeOuts { get; }
@@ -276,7 +276,7 @@ ref int CTTimeOuts { get; }
 
 ### CTsAliveAtFreezetimeEnd
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L218)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L219)
 
 ```csharp
 ref int CTsAliveAtFreezetimeEnd { get; }
@@ -288,7 +288,7 @@ ref int CTsAliveAtFreezetimeEnd { get; }
 
 ### CanDonateWeapons
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L268)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L269)
 
 ```csharp
 ref bool CanDonateWeapons { get; }
@@ -300,7 +300,7 @@ ref bool CanDonateWeapons { get; }
 
 ### CompleteReset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L192)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L193)
 
 ```csharp
 ref bool CompleteReset { get; }
@@ -312,7 +312,7 @@ ref bool CompleteReset { get; }
 
 ### EndMatchMapGroupVoteOptions
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L154)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L155)
 
 ```csharp
 ISchemaFixedArray<int> EndMatchMapGroupVoteOptions { get; }
@@ -324,7 +324,7 @@ ISchemaFixedArray<int> EndMatchMapGroupVoteOptions { get; }
 
 ### EndMatchMapGroupVoteTypes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L152)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L153)
 
 ```csharp
 ISchemaFixedArray<int> EndMatchMapGroupVoteTypes { get; }
@@ -336,7 +336,7 @@ ISchemaFixedArray<int> EndMatchMapGroupVoteTypes { get; }
 
 ### EndMatchMapVoteWinner
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L156)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L157)
 
 ```csharp
 ref int EndMatchMapVoteWinner { get; }
@@ -348,7 +348,7 @@ ref int EndMatchMapVoteWinner { get; }
 
 ### EndMatchOnRoundReset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L174)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L175)
 
 ```csharp
 ref bool EndMatchOnRoundReset { get; }
@@ -360,7 +360,7 @@ ref bool EndMatchOnRoundReset { get; }
 
 ### EndMatchOnThink
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L176)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L177)
 
 ```csharp
 ref bool EndMatchOnThink { get; }
@@ -372,7 +372,7 @@ ref bool EndMatchOnThink { get; }
 
 ### EndMatchTiedVotes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L200)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L201)
 
 ```csharp
 ref CUtlVector<int> EndMatchTiedVotes { get; }
@@ -384,7 +384,7 @@ ref CUtlVector<int> EndMatchTiedVotes { get; }
 
 ### FirstBloodTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L272)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L273)
 
 ```csharp
 ref float FirstBloodTime { get; }
@@ -396,7 +396,7 @@ ref float FirstBloodTime { get; }
 
 ### FirstConnected
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L190)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L191)
 
 ```csharp
 ref bool FirstConnected { get; }
@@ -408,7 +408,7 @@ ref bool FirstConnected { get; }
 
 ### FirstKillTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L270)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L271)
 
 ```csharp
 ref float FirstKillTime { get; }
@@ -420,7 +420,7 @@ ref float FirstKillTime { get; }
 
 ### ForceTeamChangeSilent
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L222)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L223)
 
 ```csharp
 ref bool ForceTeamChangeSilent { get; }
@@ -432,7 +432,7 @@ ref bool ForceTeamChangeSilent { get; }
 
 ### FreezePeriod
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L18)
 
 ```csharp
 ref bool FreezePeriod { get; }
@@ -444,7 +444,7 @@ ref bool FreezePeriod { get; }
 
 ### FreezeTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L42)
 
 ```csharp
 ref int FreezeTime { get; }
@@ -456,7 +456,7 @@ ref int FreezeTime { get; }
 
 ### GameModeRules
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L338)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L339)
 
 ```csharp
 CCSGameModeRules? GameModeRules { get; }
@@ -468,7 +468,7 @@ CCSGameModeRules? GameModeRules { get; }
 
 ### GamePhase
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L58)
 
 ```csharp
 ref int GamePhase { get; }
@@ -478,9 +478,21 @@ ref int GamePhase { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
+### GamePhaseEnum
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CCSGameRules.cs#L9)
+
+```csharp
+GamePhase GamePhaseEnum { get; set; }
+```
+
+#### Property Value
+
+- [GamePhase](/docs/api/shared/misc/gamephase)
+
 ### GameRestart
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L52)
 
 ```csharp
 ref bool GameRestart { get; }
@@ -492,7 +504,7 @@ ref bool GameRestart { get; }
 
 ### GameStartTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L54)
 
 ```csharp
 ref float GameStartTime { get; }
@@ -504,7 +516,7 @@ ref float GameStartTime { get; }
 
 ### HalloweenMaskListSeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L119)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L120)
 
 ```csharp
 ref int HalloweenMaskListSeed { get; }
@@ -516,7 +528,7 @@ ref int HalloweenMaskListSeed { get; }
 
 ### HasHostageBeenTouched
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L162)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L163)
 
 ```csharp
 ref bool HasHostageBeenTouched { get; }
@@ -528,7 +540,7 @@ ref bool HasHostageBeenTouched { get; }
 
 ### HasMatchStarted
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L89)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L90)
 
 ```csharp
 ref bool HasMatchStarted { get; }
@@ -540,7 +552,7 @@ ref bool HasMatchStarted { get; }
 
 ### HasTriggeredRoundStartMusic
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L334)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L335)
 
 ```csharp
 ref bool HasTriggeredRoundStartMusic { get; }
@@ -552,7 +564,7 @@ ref bool HasTriggeredRoundStartMusic { get; }
 
 ### HostageWasInjured
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L274)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L275)
 
 ```csharp
 ref bool HostageWasInjured { get; }
@@ -564,7 +576,7 @@ ref bool HostageWasInjured { get; }
 
 ### HostageWasKilled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L276)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L277)
 
 ```csharp
 ref bool HostageWasKilled { get; }
@@ -576,7 +588,7 @@ ref bool HostageWasKilled { get; }
 
 ### HostagesRemaining
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L65)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L66)
 
 ```csharp
 ref int HostagesRemaining { get; }
@@ -588,7 +600,7 @@ ref int HostagesRemaining { get; }
 
 ### HostagesRescued
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L256)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L257)
 
 ```csharp
 ref int HostagesRescued { get; }
@@ -600,7 +612,7 @@ ref int HostagesRescued { get; }
 
 ### HostagesTouched
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L258)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L259)
 
 ```csharp
 ref int HostagesTouched { get; }
@@ -612,7 +624,7 @@ ref int HostagesTouched { get; }
 
 ### IntermissionEndTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L166)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L167)
 
 ```csharp
 GameTime_t IntermissionEndTime { get; }
@@ -624,7 +636,7 @@ GameTime_t IntermissionEndTime { get; }
 
 ### IntermissionStartTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L164)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L165)
 
 ```csharp
 GameTime_t IntermissionStartTime { get; }
@@ -636,7 +648,7 @@ GameTime_t IntermissionStartTime { get; }
 
 ### IsDroppingItems
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L107)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L108)
 
 ```csharp
 ref bool IsDroppingItems { get; }
@@ -648,7 +660,7 @@ ref bool IsDroppingItems { get; }
 
 ### IsHltvActive
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L111)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L112)
 
 ```csharp
 ref bool IsHltvActive { get; }
@@ -660,7 +672,7 @@ ref bool IsHltvActive { get; }
 
 ### IsQuestEligible
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L109)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L110)
 
 ```csharp
 ref bool IsQuestEligible { get; }
@@ -672,7 +684,7 @@ ref bool IsQuestEligible { get; }
 
 ### IsQueuedMatchmaking
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L75)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L76)
 
 ```csharp
 ref bool IsQueuedMatchmaking { get; }
@@ -684,7 +696,7 @@ ref bool IsQueuedMatchmaking { get; }
 
 ### IsUnreservedGameServer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L314)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L315)
 
 ```csharp
 ref bool IsUnreservedGameServer { get; }
@@ -696,7 +708,7 @@ ref bool IsUnreservedGameServer { get; }
 
 ### IsValveDS
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L79)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L80)
 
 ```csharp
 ref bool IsValveDS { get; }
@@ -708,7 +720,7 @@ ref bool IsValveDS { get; }
 
 ### LastFreezeEndBeep
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L286)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L287)
 
 ```csharp
 ref int LastFreezeEndBeep { get; }
@@ -720,7 +732,7 @@ ref int LastFreezeEndBeep { get; }
 
 ### LastPerfSampleTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L395)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L396)
 
 ```csharp
 ref double LastPerfSampleTime { get; }
@@ -732,7 +744,7 @@ ref double LastPerfSampleTime { get; }
 
 ### LastThinkTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L326)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L327)
 
 ```csharp
 GameTime_t LastThinkTime { get; }
@@ -744,7 +756,7 @@ GameTime_t LastThinkTime { get; }
 
 ### LevelInitialized
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L168)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L169)
 
 ```csharp
 ref bool LevelInitialized { get; }
@@ -756,7 +768,7 @@ ref bool LevelInitialized { get; }
 
 ### LoadingRoundBackupData
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L224)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L225)
 
 ```csharp
 ref bool LoadingRoundBackupData { get; }
@@ -768,7 +780,7 @@ ref bool LoadingRoundBackupData { get; }
 
 ### LogoMap
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L81)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L82)
 
 ```csharp
 ref bool LogoMap { get; }
@@ -780,7 +792,7 @@ ref bool LogoMap { get; }
 
 ### LoserBonusMostRecentTeam
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L248)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L249)
 
 ```csharp
 ref int LoserBonusMostRecentTeam { get; }
@@ -792,7 +804,7 @@ ref int LoserBonusMostRecentTeam { get; }
 
 ### MTeamDMLastThinkTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L232)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L233)
 
 ```csharp
 ref float MTeamDMLastThinkTime { get; }
@@ -804,7 +816,7 @@ ref float MTeamDMLastThinkTime { get; }
 
 ### MTeamDMLastWinningTeamNumber
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L230)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L231)
 
 ```csharp
 ref int MTeamDMLastWinningTeamNumber { get; }
@@ -816,7 +828,7 @@ ref int MTeamDMLastWinningTeamNumber { get; }
 
 ### MainCTSpawnPos
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L294)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L295)
 
 ```csharp
 ref Vector MainCTSpawnPos { get; }
@@ -828,7 +840,7 @@ ref Vector MainCTSpawnPos { get; }
 
 ### MapHasBombTarget
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L69)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L70)
 
 ```csharp
 ref bool MapHasBombTarget { get; }
@@ -840,7 +852,7 @@ ref bool MapHasBombTarget { get; }
 
 ### MapHasBombZone
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L292)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L293)
 
 ```csharp
 ref bool MapHasBombZone { get; }
@@ -852,7 +864,7 @@ ref bool MapHasBombZone { get; }
 
 ### MapHasBuyZone
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L73)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L74)
 
 ```csharp
 ref bool MapHasBuyZone { get; }
@@ -864,7 +876,7 @@ ref bool MapHasBuyZone { get; }
 
 ### MapHasRescueZone
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L71)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L72)
 
 ```csharp
 ref bool MapHasRescueZone { get; }
@@ -876,7 +888,7 @@ ref bool MapHasRescueZone { get; }
 
 ### MatchAbortedEarlyReason
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L332)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L333)
 
 ```csharp
 ref int MatchAbortedEarlyReason { get; }
@@ -888,7 +900,7 @@ ref int MatchAbortedEarlyReason { get; }
 
 ### MatchDevice
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L87)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L88)
 
 ```csharp
 ref int MatchDevice { get; }
@@ -900,7 +912,7 @@ ref int MatchDevice { get; }
 
 ### MatchEndCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L351)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L352)
 
 ```csharp
 ref byte MatchEndCount { get; }
@@ -912,7 +924,7 @@ ref byte MatchEndCount { get; }
 
 ### MatchInfoDecidedTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L228)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L229)
 
 ```csharp
 ref float MatchInfoDecidedTime { get; }
@@ -924,7 +936,7 @@ ref float MatchInfoDecidedTime { get; }
 
 ### MatchInfoShowType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L226)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L227)
 
 ```csharp
 ref int MatchInfoShowType { get; }
@@ -936,7 +948,7 @@ ref int MatchInfoShowType { get; }
 
 ### MatchStartTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L46)
 
 ```csharp
 ref float MatchStartTime { get; }
@@ -948,7 +960,7 @@ ref float MatchStartTime { get; }
 
 ### MatchStatTxt
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L97)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L98)
 
 ```csharp
 string MatchStatTxt { get; set; }
@@ -960,7 +972,7 @@ string MatchStatTxt { get; set; }
 
 ### MatchStats_PlayersAlive_CT
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L135)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L136)
 
 ```csharp
 ISchemaFixedArray<int> MatchStats_PlayersAlive_CT { get; }
@@ -972,7 +984,7 @@ ISchemaFixedArray<int> MatchStats_PlayersAlive_CT { get; }
 
 ### MatchStats_PlayersAlive_T
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L137)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L138)
 
 ```csharp
 ISchemaFixedArray<int> MatchStats_PlayersAlive_T { get; }
@@ -984,7 +996,7 @@ ISchemaFixedArray<int> MatchStats_PlayersAlive_T { get; }
 
 ### MatchStats_RoundResults
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L133)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L134)
 
 ```csharp
 ISchemaFixedArray<int> MatchStats_RoundResults { get; }
@@ -996,7 +1008,7 @@ ISchemaFixedArray<int> MatchStats_RoundResults { get; }
 
 ### MatchWaitingForResume
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L40)
 
 ```csharp
 ref bool MatchWaitingForResume { get; }
@@ -1008,7 +1020,7 @@ ref bool MatchWaitingForResume { get; }
 
 ### MaxNumCTs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L246)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L247)
 
 ```csharp
 ref int MaxNumCTs { get; }
@@ -1020,7 +1032,7 @@ ref int MaxNumCTs { get; }
 
 ### MaxNumTerrorists
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L244)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L245)
 
 ```csharp
 ref int MaxNumTerrorists { get; }
@@ -1032,7 +1044,7 @@ ref int MaxNumTerrorists { get; }
 
 ### MinimapMaxs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L146)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L147)
 
 ```csharp
 ref Vector MinimapMaxs { get; }
@@ -1044,7 +1056,7 @@ ref Vector MinimapMaxs { get; }
 
 ### MinimapMins
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L144)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L145)
 
 ```csharp
 ref Vector MinimapMins { get; }
@@ -1056,7 +1068,7 @@ ref Vector MinimapMins { get; }
 
 ### MinimapVerticalSectionHeights
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L148)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L149)
 
 ```csharp
 ISchemaFixedArray<float> MinimapVerticalSectionHeights { get; }
@@ -1068,7 +1080,7 @@ ISchemaFixedArray<float> MinimapVerticalSectionHeights { get; }
 
 ### NeedToAskPlayersForContinueVote
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L202)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L203)
 
 ```csharp
 ref bool NeedToAskPlayersForContinueVote { get; }
@@ -1080,7 +1092,7 @@ ref bool NeedToAskPlayersForContinueVote { get; }
 
 ### NextCTSpawnPoint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L302)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L303)
 
 ```csharp
 ref int NextCTSpawnPoint { get; }
@@ -1092,7 +1104,7 @@ ref int NextCTSpawnPoint { get; }
 
 ### NextHostageAnnouncement
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L260)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L261)
 
 ```csharp
 ref float NextHostageAnnouncement { get; }
@@ -1104,7 +1116,7 @@ ref float NextHostageAnnouncement { get; }
 
 ### NextMapInMapgroup
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L91)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L92)
 
 ```csharp
 ref int NextMapInMapgroup { get; }
@@ -1116,7 +1128,7 @@ ref int NextMapInMapgroup { get; }
 
 ### NextRespawnWave
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L142)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L143)
 
 ```csharp
 SchemaUntypedField NextRespawnWave { get; }
@@ -1128,7 +1140,7 @@ SchemaUntypedField NextRespawnWave { get; }
 
 ### NextTerroristSpawnPoint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L306)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L307)
 
 ```csharp
 ref int NextTerroristSpawnPoint { get; }
@@ -1140,7 +1152,7 @@ ref int NextTerroristSpawnPoint { get; }
 
 ### NextUpdateTeamClanNamesTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L324)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L325)
 
 ```csharp
 ref float NextUpdateTeamClanNamesTime { get; }
@@ -1152,7 +1164,7 @@ ref float NextUpdateTeamClanNamesTime { get; }
 
 ### NoCTsKilled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L264)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L265)
 
 ```csharp
 ref bool NoCTsKilled { get; }
@@ -1164,7 +1176,7 @@ ref bool NoCTsKilled { get; }
 
 ### NoEnemiesKilled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L266)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L267)
 
 ```csharp
 ref bool NoEnemiesKilled { get; }
@@ -1176,7 +1188,7 @@ ref bool NoEnemiesKilled { get; }
 
 ### NoTerroristsKilled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L262)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L263)
 
 ```csharp
 ref bool NoTerroristsKilled { get; }
@@ -1188,7 +1200,7 @@ ref bool NoTerroristsKilled { get; }
 
 ### NumBestOfMaps
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L117)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L118)
 
 ```csharp
 ref int NumBestOfMaps { get; }
@@ -1200,7 +1212,7 @@ ref int NumBestOfMaps { get; }
 
 ### NumCT
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L180)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L181)
 
 ```csharp
 ref int NumCT { get; }
@@ -1212,7 +1224,7 @@ ref int NumCT { get; }
 
 ### NumConsecutiveCTLoses
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L158)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L159)
 
 ```csharp
 ref int NumConsecutiveCTLoses { get; }
@@ -1224,7 +1236,7 @@ ref int NumConsecutiveCTLoses { get; }
 
 ### NumConsecutiveTerroristLoses
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L160)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L161)
 
 ```csharp
 ref int NumConsecutiveTerroristLoses { get; }
@@ -1236,7 +1248,7 @@ ref int NumConsecutiveTerroristLoses { get; }
 
 ### NumQueuedMatchmakingAccounts
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L204)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L205)
 
 ```csharp
 ref uint NumQueuedMatchmakingAccounts { get; }
@@ -1248,7 +1260,7 @@ ref uint NumQueuedMatchmakingAccounts { get; }
 
 ### NumSpawnableCT
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L184)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L185)
 
 ```csharp
 ref int NumSpawnableCT { get; }
@@ -1260,7 +1272,7 @@ ref int NumSpawnableCT { get; }
 
 ### NumSpawnableTerrorist
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L182)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L183)
 
 ```csharp
 ref int NumSpawnableTerrorist { get; }
@@ -1272,7 +1284,7 @@ ref int NumSpawnableTerrorist { get; }
 
 ### NumSpectatorsCountMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L212)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L213)
 
 ```csharp
 ref uint NumSpectatorsCountMax { get; }
@@ -1284,7 +1296,7 @@ ref uint NumSpectatorsCountMax { get; }
 
 ### NumSpectatorsCountMaxLnk
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L216)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L217)
 
 ```csharp
 ref uint NumSpectatorsCountMaxLnk { get; }
@@ -1296,7 +1308,7 @@ ref uint NumSpectatorsCountMaxLnk { get; }
 
 ### NumSpectatorsCountMaxTV
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L214)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L215)
 
 ```csharp
 ref uint NumSpectatorsCountMaxTV { get; }
@@ -1308,7 +1320,7 @@ ref uint NumSpectatorsCountMaxTV { get; }
 
 ### NumTerrorist
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L178)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L179)
 
 ```csharp
 ref int NumTerrorist { get; }
@@ -1320,7 +1332,7 @@ ref int NumTerrorist { get; }
 
 ### NumTotalTournamentDrops
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L210)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L211)
 
 ```csharp
 ref uint NumTotalTournamentDrops { get; }
@@ -1332,7 +1344,7 @@ ref uint NumTotalTournamentDrops { get; }
 
 ### OvertimePlaying
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L64)
 
 ```csharp
 ref int OvertimePlaying { get; }
@@ -1344,7 +1356,7 @@ ref int OvertimePlaying { get; }
 
 ### PhaseChangeAnnouncementTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L322)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L323)
 
 ```csharp
 GameTime_t PhaseChangeAnnouncementTime { get; }
@@ -1356,7 +1368,7 @@ GameTime_t PhaseChangeAnnouncementTime { get; }
 
 ### PickNewTeamsOnReset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L194)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L195)
 
 ```csharp
 ref bool PickNewTeamsOnReset { get; }
@@ -1368,7 +1380,7 @@ ref bool PickNewTeamsOnReset { get; }
 
 ### PlayAllStepSoundsOnServer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L83)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L84)
 
 ```csharp
 ref bool PlayAllStepSoundsOnServer { get; }
@@ -1380,7 +1392,7 @@ ref bool PlayAllStepSoundsOnServer { get; }
 
 ### PlayedTeamIntroVO
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L361)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L362)
 
 ```csharp
 ref bool PlayedTeamIntroVO { get; }
@@ -1392,7 +1404,7 @@ ref bool PlayedTeamIntroVO { get; }
 
 ### PlayerResource
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L343)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L344)
 
 ```csharp
 ref CHandle<CBaseEntity> PlayerResource { get; }
@@ -1404,7 +1416,7 @@ ref CHandle<CBaseEntity> PlayerResource { get; }
 
 ### ProhibitedItemIndices
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L113)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L114)
 
 ```csharp
 ISchemaFixedArray<ushort> ProhibitedItemIndices { get; }
@@ -1416,7 +1428,7 @@ ISchemaFixedArray<ushort> ProhibitedItemIndices { get; }
 
 ### QueuedMatchmakingMode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L77)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L78)
 
 ```csharp
 ref int QueuedMatchmakingMode { get; }
@@ -1428,7 +1440,7 @@ ref int QueuedMatchmakingMode { get; }
 
 ### QueuedMatchmakingReservationString
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L208)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L209)
 
 ```csharp
 string QueuedMatchmakingReservationString { get; set; }
@@ -1440,7 +1452,7 @@ string QueuedMatchmakingReservationString { get; set; }
 
 ### RespawningAllRespawnablePlayers
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L300)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L301)
 
 ```csharp
 ref bool RespawningAllRespawnablePlayers { get; }
@@ -1452,7 +1464,7 @@ ref bool RespawningAllRespawnablePlayers { get; }
 
 ### RestartRoundTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L50)
 
 ```csharp
 GameTime_t RestartRoundTime { get; }
@@ -1464,7 +1476,7 @@ GameTime_t RestartRoundTime { get; }
 
 ### RetakeRules
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L345)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L346)
 
 ```csharp
 CRetakeGameRules RetakeRules { get; }
@@ -1476,7 +1488,7 @@ CRetakeGameRules RetakeRules { get; }
 
 ### RoundEndCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L389)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L390)
 
 ```csharp
 ref byte RoundEndCount { get; }
@@ -1488,7 +1500,7 @@ ref byte RoundEndCount { get; }
 
 ### RoundEndFunFactData1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L375)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L376)
 
 ```csharp
 ref int RoundEndFunFactData1 { get; }
@@ -1500,7 +1512,7 @@ ref int RoundEndFunFactData1 { get; }
 
 ### RoundEndFunFactData2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L377)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L378)
 
 ```csharp
 ref int RoundEndFunFactData2 { get; }
@@ -1512,7 +1524,7 @@ ref int RoundEndFunFactData2 { get; }
 
 ### RoundEndFunFactData3
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L379)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L380)
 
 ```csharp
 ref int RoundEndFunFactData3 { get; }
@@ -1524,7 +1536,7 @@ ref int RoundEndFunFactData3 { get; }
 
 ### RoundEndFunFactPlayerSlot
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L373)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L374)
 
 ```csharp
 ref uint RoundEndFunFactPlayerSlot { get; }
@@ -1536,7 +1548,7 @@ ref uint RoundEndFunFactPlayerSlot { get; }
 
 ### RoundEndFunFactToken
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L371)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L372)
 
 ```csharp
 string RoundEndFunFactToken { get; set; }
@@ -1548,7 +1560,7 @@ string RoundEndFunFactToken { get; set; }
 
 ### RoundEndLegacy
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L387)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L388)
 
 ```csharp
 ref int RoundEndLegacy { get; }
@@ -1560,7 +1572,7 @@ ref int RoundEndLegacy { get; }
 
 ### RoundEndMessage
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L381)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L382)
 
 ```csharp
 string RoundEndMessage { get; set; }
@@ -1572,7 +1584,7 @@ string RoundEndMessage { get; set; }
 
 ### RoundEndNoMusic
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L385)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L386)
 
 ```csharp
 ref bool RoundEndNoMusic { get; }
@@ -1584,7 +1596,7 @@ ref bool RoundEndNoMusic { get; }
 
 ### RoundEndPlayerCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L383)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L384)
 
 ```csharp
 ref int RoundEndPlayerCount { get; }
@@ -1596,7 +1608,7 @@ ref int RoundEndPlayerCount { get; }
 
 ### RoundEndReason
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L365)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L366)
 
 ```csharp
 ref int RoundEndReason { get; }
@@ -1608,7 +1620,7 @@ ref int RoundEndReason { get; }
 
 ### RoundEndShowTimerDefend
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L367)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L368)
 
 ```csharp
 ref bool RoundEndShowTimerDefend { get; }
@@ -1620,7 +1632,7 @@ ref bool RoundEndShowTimerDefend { get; }
 
 ### RoundEndTimerTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L369)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L370)
 
 ```csharp
 ref int RoundEndTimerTime { get; }
@@ -1632,7 +1644,7 @@ ref int RoundEndTimerTime { get; }
 
 ### RoundEndWinnerTeam
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L363)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L364)
 
 ```csharp
 ref int RoundEndWinnerTeam { get; }
@@ -1644,7 +1656,7 @@ ref int RoundEndWinnerTeam { get; }
 
 ### RoundStartCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L393)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L394)
 
 ```csharp
 ref byte RoundStartCount { get; }
@@ -1656,7 +1668,7 @@ ref byte RoundStartCount { get; }
 
 ### RoundStartRoundNumber
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L391)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L392)
 
 ```csharp
 ref int RoundStartRoundNumber { get; }
@@ -1668,7 +1680,7 @@ ref int RoundStartRoundNumber { get; }
 
 ### RoundStartTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L48)
 
 ```csharp
 GameTime_t RoundStartTime { get; }
@@ -1680,7 +1692,7 @@ GameTime_t RoundStartTime { get; }
 
 ### RoundTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L44)
 
 ```csharp
 ref int RoundTime { get; }
@@ -1692,7 +1704,7 @@ ref int RoundTime { get; }
 
 ### RoundTimeWarningTriggered
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L320)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L321)
 
 ```csharp
 ref bool RoundTimeWarningTriggered { get; }
@@ -1704,7 +1716,7 @@ ref bool RoundTimeWarningTriggered { get; }
 
 ### RoundWinReason
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L127)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L128)
 
 ```csharp
 ref int RoundWinReason { get; }
@@ -1716,7 +1728,7 @@ ref int RoundWinReason { get; }
 
 ### RoundWinStatus
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L125)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L126)
 
 ```csharp
 ref int RoundWinStatus { get; }
@@ -1728,7 +1740,7 @@ ref int RoundWinStatus { get; }
 
 ### RoundsPlayedThisPhase
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L62)
 
 ```csharp
 ref int RoundsPlayedThisPhase { get; }
@@ -1740,7 +1752,7 @@ ref int RoundsPlayedThisPhase { get; }
 
 ### ScrambleTeamsOnRestart
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L196)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L197)
 
 ```csharp
 ref bool ScrambleTeamsOnRestart { get; }
@@ -1752,7 +1764,7 @@ ref bool ScrambleTeamsOnRestart { get; }
 
 ### SelectedHostageSpawnIndices
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L186)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L187)
 
 ```csharp
 ref CUtlVector<int> SelectedHostageSpawnIndices { get; }
@@ -1764,7 +1776,7 @@ ref CUtlVector<int> SelectedHostageSpawnIndices { get; }
 
 ### ServerVoteOnReset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L280)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L281)
 
 ```csharp
 ref bool ServerVoteOnReset { get; }
@@ -1776,7 +1788,7 @@ ref bool ServerVoteOnReset { get; }
 
 ### ShorthandedBonusLastEvalRound
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L330)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L331)
 
 ```csharp
 ref int ShorthandedBonusLastEvalRound { get; }
@@ -1788,7 +1800,7 @@ ref int ShorthandedBonusLastEvalRound { get; }
 
 ### SpawnPointCount_CT
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L242)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L243)
 
 ```csharp
 ref int SpawnPointCount_CT { get; }
@@ -1800,7 +1812,7 @@ ref int SpawnPointCount_CT { get; }
 
 ### SpawnPointCount_Terrorist
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L240)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L241)
 
 ```csharp
 ref int SpawnPointCount_Terrorist { get; }
@@ -1812,7 +1824,7 @@ ref int SpawnPointCount_Terrorist { get; }
 
 ### SpawnPointsRandomSeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L188)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L189)
 
 ```csharp
 ref int SpawnPointsRandomSeed { get; }
@@ -1824,7 +1836,7 @@ ref int SpawnPointsRandomSeed { get; }
 
 ### SpectatorSlotCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L85)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L86)
 
 ```csharp
 ref int SpectatorSlotCount { get; }
@@ -1836,7 +1848,7 @@ ref int SpectatorSlotCount { get; }
 
 ### SwapTeamsOnRestart
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L198)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L199)
 
 ```csharp
 ref bool SwapTeamsOnRestart { get; }
@@ -1848,7 +1860,7 @@ ref bool SwapTeamsOnRestart { get; }
 
 ### SwitchingTeamsAtRoundReset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L336)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L337)
 
 ```csharp
 ref bool SwitchingTeamsAtRoundReset { get; }
@@ -1860,7 +1872,7 @@ ref bool SwitchingTeamsAtRoundReset { get; }
 
 ### TCantBuy
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L129)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L130)
 
 ```csharp
 ref bool TCantBuy { get; }
@@ -1872,7 +1884,7 @@ ref bool TCantBuy { get; }
 
 ### TTeamIntroVariant
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L353)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L354)
 
 ```csharp
 ref int TTeamIntroVariant { get; }
@@ -1884,7 +1896,7 @@ ref int TTeamIntroVariant { get; }
 
 ### TargetBombed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L288)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L289)
 
 ```csharp
 ref bool TargetBombed { get; }
@@ -1896,7 +1908,7 @@ ref bool TargetBombed { get; }
 
 ### TeamDMLastAnnouncementTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L234)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L235)
 
 ```csharp
 ref float TeamDMLastAnnouncementTime { get; }
@@ -1908,7 +1920,7 @@ ref float TeamDMLastAnnouncementTime { get; }
 
 ### TeamIntroPeriod
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L357)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L358)
 
 ```csharp
 ref bool TeamIntroPeriod { get; }
@@ -1920,7 +1932,7 @@ ref bool TeamIntroPeriod { get; }
 
 ### TeamIntroPeriodEnd
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L359)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L360)
 
 ```csharp
 GameTime_t TeamIntroPeriodEnd { get; }
@@ -1932,7 +1944,7 @@ GameTime_t TeamIntroPeriodEnd { get; }
 
 ### TeamLastKillUsedUniqueWeaponMatch
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L349)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L350)
 
 ```csharp
 ISchemaFixedArray<bool> TeamLastKillUsedUniqueWeaponMatch { get; }
@@ -1944,7 +1956,7 @@ ISchemaFixedArray<bool> TeamLastKillUsedUniqueWeaponMatch { get; }
 
 ### TeamRespawnWaveTimes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L139)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L140)
 
 ```csharp
 ISchemaFixedArray<float> TeamRespawnWaveTimes { get; }
@@ -1956,7 +1968,7 @@ ISchemaFixedArray<float> TeamRespawnWaveTimes { get; }
 
 ### TeamUniqueKillWeaponsMatch
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L347)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L348)
 
 ```csharp
 ISchemaFixedArray<CUtlVector<int>> TeamUniqueKillWeaponsMatch { get; }
@@ -1968,7 +1980,7 @@ ISchemaFixedArray<CUtlVector<int>> TeamUniqueKillWeaponsMatch { get; }
 
 ### TechnicalTimeOut
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L38)
 
 ```csharp
 ref bool TechnicalTimeOut { get; }
@@ -1980,7 +1992,7 @@ ref bool TechnicalTimeOut { get; }
 
 ### TerroristSpawnPointUsedTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L308)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L309)
 
 ```csharp
 ref float TerroristSpawnPointUsedTime { get; }
@@ -1992,7 +2004,7 @@ ref float TerroristSpawnPointUsedTime { get; }
 
 ### TerroristSpawnPoints
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L312)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L313)
 
 ```csharp
 ref CUtlVector<PointerTo<SpawnPoint>> TerroristSpawnPoints { get; }
@@ -2004,7 +2016,7 @@ ref CUtlVector<PointerTo<SpawnPoint>> TerroristSpawnPoints { get; }
 
 ### TerroristSpawnPointsMasterList
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L298)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L299)
 
 ```csharp
 ref CUtlVector<PointerTo<SpawnPoint>> TerroristSpawnPointsMasterList { get; }
@@ -2016,7 +2028,7 @@ ref CUtlVector<PointerTo<SpawnPoint>> TerroristSpawnPointsMasterList { get; }
 
 ### TerroristTimeOutActive
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L26)
 
 ```csharp
 ref bool TerroristTimeOutActive { get; }
@@ -2028,7 +2040,7 @@ ref bool TerroristTimeOutActive { get; }
 
 ### TerroristTimeOutRemaining
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L30)
 
 ```csharp
 ref float TerroristTimeOutRemaining { get; }
@@ -2040,7 +2052,7 @@ ref float TerroristTimeOutRemaining { get; }
 
 ### TerroristTimeOuts
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L34)
 
 ```csharp
 ref int TerroristTimeOuts { get; }
@@ -2052,7 +2064,7 @@ ref int TerroristTimeOuts { get; }
 
 ### TerroristsAliveAtFreezetimeEnd
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L220)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L221)
 
 ```csharp
 ref int TerroristsAliveAtFreezetimeEnd { get; }
@@ -2064,7 +2076,7 @@ ref int TerroristsAliveAtFreezetimeEnd { get; }
 
 ### TimeUntilNextPhaseStarts
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L56)
 
 ```csharp
 ref float TimeUntilNextPhaseStarts { get; }
@@ -2076,7 +2088,7 @@ ref float TimeUntilNextPhaseStarts { get; }
 
 ### TmNextPeriodicThink
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L250)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L251)
 
 ```csharp
 ref float TmNextPeriodicThink { get; }
@@ -2088,7 +2100,7 @@ ref float TmNextPeriodicThink { get; }
 
 ### TotalRoundsPlayed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L60)
 
 ```csharp
 ref int TotalRoundsPlayed { get; }
@@ -2100,7 +2112,7 @@ ref int TotalRoundsPlayed { get; }
 
 ### TotalRoundsPlayed1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L170)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L171)
 
 ```csharp
 ref int TotalRoundsPlayed1 { get; }
@@ -2112,7 +2124,7 @@ ref int TotalRoundsPlayed1 { get; }
 
 ### TournamentActiveCasterAccounts
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L115)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L116)
 
 ```csharp
 ISchemaFixedArray<uint> TournamentActiveCasterAccounts { get; }
@@ -2124,7 +2136,7 @@ ISchemaFixedArray<uint> TournamentActiveCasterAccounts { get; }
 
 ### TournamentEventName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L93)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L94)
 
 ```csharp
 string TournamentEventName { get; set; }
@@ -2136,7 +2148,7 @@ string TournamentEventName { get; set; }
 
 ### TournamentEventStage
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L95)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L96)
 
 ```csharp
 string TournamentEventStage { get; set; }
@@ -2148,7 +2160,7 @@ string TournamentEventStage { get; set; }
 
 ### TournamentPredictionsPct
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L101)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L102)
 
 ```csharp
 ref int TournamentPredictionsPct { get; }
@@ -2160,7 +2172,7 @@ ref int TournamentPredictionsPct { get; }
 
 ### TournamentPredictionsTxt
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L99)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L100)
 
 ```csharp
 string TournamentPredictionsTxt { get; set; }
@@ -2172,7 +2184,7 @@ string TournamentPredictionsTxt { get; set; }
 
 ### UllLocalMatchID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L150)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L151)
 
 ```csharp
 ref ulong UllLocalMatchID { get; }
@@ -2184,7 +2196,7 @@ ref ulong UllLocalMatchID { get; }
 
 ### UnBalancedRounds
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L172)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L173)
 
 ```csharp
 ref int UnBalancedRounds { get; }
@@ -2196,7 +2208,7 @@ ref int UnBalancedRounds { get; }
 
 ### VoiceWonMatchBragFired
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L252)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L253)
 
 ```csharp
 ref bool VoiceWonMatchBragFired { get; }
@@ -2208,7 +2220,7 @@ ref bool VoiceWonMatchBragFired { get; }
 
 ### VoteCalled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L278)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L279)
 
 ```csharp
 ref bool VoteCalled { get; }
@@ -2220,7 +2232,7 @@ ref bool VoteCalled { get; }
 
 ### VoteCheckThrottle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L282)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L283)
 
 ```csharp
 ref float VoteCheckThrottle { get; }
@@ -2232,7 +2244,7 @@ ref float VoteCheckThrottle { get; }
 
 ### WarmupNextChatNoticeTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L254)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L255)
 
 ```csharp
 ref float WarmupNextChatNoticeTime { get; }
@@ -2244,7 +2256,7 @@ ref float WarmupNextChatNoticeTime { get; }
 
 ### WarmupPeriod
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L20)
 
 ```csharp
 ref bool WarmupPeriod { get; }
@@ -2256,7 +2268,7 @@ ref bool WarmupPeriod { get; }
 
 ### WarmupPeriodEnd
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L22)
 
 ```csharp
 GameTime_t WarmupPeriodEnd { get; }
@@ -2268,7 +2280,7 @@ GameTime_t WarmupPeriodEnd { get; }
 
 ### WarmupPeriodStart
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L24)
 
 ```csharp
 GameTime_t WarmupPeriodStart { get; }
@@ -2282,7 +2294,7 @@ GameTime_t WarmupPeriodStart { get; }
 
 ### AnyHostageReachedUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L422)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L423)
 
 ```csharp
 void AnyHostageReachedUpdated()
@@ -2290,7 +2302,7 @@ void AnyHostageReachedUpdated()
 
 ### BombDroppedUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L449)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L450)
 
 ```csharp
 void BombDroppedUpdated()
@@ -2298,7 +2310,7 @@ void BombDroppedUpdated()
 
 ### BombPlantedUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L450)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L451)
 
 ```csharp
 void BombPlantedUpdated()
@@ -2306,7 +2318,7 @@ void BombPlantedUpdated()
 
 ### CMMItemDropRevealEndTimeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L441)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L442)
 
 ```csharp
 void CMMItemDropRevealEndTimeUpdated()
@@ -2314,7 +2326,7 @@ void CMMItemDropRevealEndTimeUpdated()
 
 ### CMMItemDropRevealStartTimeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L440)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L441)
 
 ```csharp
 void CMMItemDropRevealStartTimeUpdated()
@@ -2322,7 +2334,7 @@ void CMMItemDropRevealStartTimeUpdated()
 
 ### CTCantBuyUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L454)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L455)
 
 ```csharp
 void CTCantBuyUpdated()
@@ -2330,7 +2342,7 @@ void CTCantBuyUpdated()
 
 ### CTTeamIntroVariantUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L473)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L474)
 
 ```csharp
 void CTTeamIntroVariantUpdated()
@@ -2338,7 +2350,7 @@ void CTTeamIntroVariantUpdated()
 
 ### CTTimeOutActiveUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L402)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L403)
 
 ```csharp
 void CTTimeOutActiveUpdated()
@@ -2346,7 +2358,7 @@ void CTTimeOutActiveUpdated()
 
 ### CTTimeOutRemainingUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L404)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L405)
 
 ```csharp
 void CTTimeOutRemainingUpdated()
@@ -2354,7 +2366,7 @@ void CTTimeOutRemainingUpdated()
 
 ### CTTimeOutsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L406)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L407)
 
 ```csharp
 void CTTimeOutsUpdated()
@@ -2362,7 +2374,7 @@ void CTTimeOutsUpdated()
 
 ### EndMatchMapGroupVoteOptionsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L464)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L465)
 
 ```csharp
 void EndMatchMapGroupVoteOptionsUpdated()
@@ -2370,7 +2382,7 @@ void EndMatchMapGroupVoteOptionsUpdated()
 
 ### EndMatchMapGroupVoteTypesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L463)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L464)
 
 ```csharp
 void EndMatchMapGroupVoteTypesUpdated()
@@ -2378,7 +2390,7 @@ void EndMatchMapGroupVoteTypesUpdated()
 
 ### EndMatchMapVoteWinnerUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L465)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L466)
 
 ```csharp
 void EndMatchMapVoteWinnerUpdated()
@@ -2386,7 +2398,7 @@ void EndMatchMapVoteWinnerUpdated()
 
 ### FindPickerEntity(CBasePlayerController)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CCSGameRules.cs#L14)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CCSGameRules.cs#L16)
 
 ```csharp
 T? FindPickerEntity<T>(CBasePlayerController controller) where T : ISchemaClass<T>
@@ -2406,7 +2418,7 @@ T? FindPickerEntity<T>(CBasePlayerController controller) where T : ISchemaClass<
 
 ### FreezePeriodUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L397)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L398)
 
 ```csharp
 void FreezePeriodUpdated()
@@ -2414,7 +2426,7 @@ void FreezePeriodUpdated()
 
 ### FreezeTimeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L409)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L410)
 
 ```csharp
 void FreezeTimeUpdated()
@@ -2422,7 +2434,7 @@ void FreezeTimeUpdated()
 
 ### GameModeRulesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L469)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L470)
 
 ```csharp
 void GameModeRulesUpdated()
@@ -2430,7 +2442,7 @@ void GameModeRulesUpdated()
 
 ### GamePhaseUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L417)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L418)
 
 ```csharp
 void GamePhaseUpdated()
@@ -2438,7 +2450,7 @@ void GamePhaseUpdated()
 
 ### GameRestartUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L414)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L415)
 
 ```csharp
 void GameRestartUpdated()
@@ -2446,7 +2458,7 @@ void GameRestartUpdated()
 
 ### GameStartTimeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L415)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L416)
 
 ```csharp
 void GameStartTimeUpdated()
@@ -2454,7 +2466,7 @@ void GameStartTimeUpdated()
 
 ### HalloweenMaskListSeedUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L448)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L449)
 
 ```csharp
 void HalloweenMaskListSeedUpdated()
@@ -2462,7 +2474,7 @@ void HalloweenMaskListSeedUpdated()
 
 ### HasMatchStartedUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L433)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L434)
 
 ```csharp
 void HasMatchStartedUpdated()
@@ -2470,7 +2482,7 @@ void HasMatchStartedUpdated()
 
 ### HostagesRemainingUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L421)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L422)
 
 ```csharp
 void HostagesRemainingUpdated()
@@ -2478,7 +2490,7 @@ void HostagesRemainingUpdated()
 
 ### IsDroppingItemsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L442)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L443)
 
 ```csharp
 void IsDroppingItemsUpdated()
@@ -2486,7 +2498,7 @@ void IsDroppingItemsUpdated()
 
 ### IsHltvActiveUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L444)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L445)
 
 ```csharp
 void IsHltvActiveUpdated()
@@ -2494,7 +2506,7 @@ void IsHltvActiveUpdated()
 
 ### IsQuestEligibleUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L443)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L444)
 
 ```csharp
 void IsQuestEligibleUpdated()
@@ -2502,7 +2514,7 @@ void IsQuestEligibleUpdated()
 
 ### IsQueuedMatchmakingUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L426)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L427)
 
 ```csharp
 void IsQueuedMatchmakingUpdated()
@@ -2510,7 +2522,7 @@ void IsQueuedMatchmakingUpdated()
 
 ### IsValveDSUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L428)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L429)
 
 ```csharp
 void IsValveDSUpdated()
@@ -2518,7 +2530,7 @@ void IsValveDSUpdated()
 
 ### LogoMapUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L429)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L430)
 
 ```csharp
 void LogoMapUpdated()
@@ -2526,7 +2538,7 @@ void LogoMapUpdated()
 
 ### MapHasBombTargetUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L423)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L424)
 
 ```csharp
 void MapHasBombTargetUpdated()
@@ -2534,7 +2546,7 @@ void MapHasBombTargetUpdated()
 
 ### MapHasBuyZoneUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L425)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L426)
 
 ```csharp
 void MapHasBuyZoneUpdated()
@@ -2542,7 +2554,7 @@ void MapHasBuyZoneUpdated()
 
 ### MapHasRescueZoneUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L424)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L425)
 
 ```csharp
 void MapHasRescueZoneUpdated()
@@ -2550,7 +2562,7 @@ void MapHasRescueZoneUpdated()
 
 ### MatchAbortedEarlyReasonUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L468)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L469)
 
 ```csharp
 void MatchAbortedEarlyReasonUpdated()
@@ -2558,7 +2570,7 @@ void MatchAbortedEarlyReasonUpdated()
 
 ### MatchDeviceUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L432)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L433)
 
 ```csharp
 void MatchDeviceUpdated()
@@ -2566,7 +2578,7 @@ void MatchDeviceUpdated()
 
 ### MatchEndCountUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L471)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L472)
 
 ```csharp
 void MatchEndCountUpdated()
@@ -2574,7 +2586,7 @@ void MatchEndCountUpdated()
 
 ### MatchStartTimeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L411)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L412)
 
 ```csharp
 void MatchStartTimeUpdated()
@@ -2582,7 +2594,7 @@ void MatchStartTimeUpdated()
 
 ### MatchStatTxtUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L437)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L438)
 
 ```csharp
 void MatchStatTxtUpdated()
@@ -2590,7 +2602,7 @@ void MatchStatTxtUpdated()
 
 ### MatchStats_PlayersAlive_CTUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L456)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L457)
 
 ```csharp
 void MatchStats_PlayersAlive_CTUpdated()
@@ -2598,7 +2610,7 @@ void MatchStats_PlayersAlive_CTUpdated()
 
 ### MatchStats_PlayersAlive_TUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L457)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L458)
 
 ```csharp
 void MatchStats_PlayersAlive_TUpdated()
@@ -2606,7 +2618,7 @@ void MatchStats_PlayersAlive_TUpdated()
 
 ### MatchStats_RoundResultsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L455)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L456)
 
 ```csharp
 void MatchStats_RoundResultsUpdated()
@@ -2614,7 +2626,7 @@ void MatchStats_RoundResultsUpdated()
 
 ### MatchWaitingForResumeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L408)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L409)
 
 ```csharp
 void MatchWaitingForResumeUpdated()
@@ -2622,7 +2634,7 @@ void MatchWaitingForResumeUpdated()
 
 ### MinimapMaxsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L461)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L462)
 
 ```csharp
 void MinimapMaxsUpdated()
@@ -2630,7 +2642,7 @@ void MinimapMaxsUpdated()
 
 ### MinimapMinsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L460)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L461)
 
 ```csharp
 void MinimapMinsUpdated()
@@ -2638,7 +2650,7 @@ void MinimapMinsUpdated()
 
 ### MinimapVerticalSectionHeightsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L462)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L463)
 
 ```csharp
 void MinimapVerticalSectionHeightsUpdated()
@@ -2646,7 +2658,7 @@ void MinimapVerticalSectionHeightsUpdated()
 
 ### NextMapInMapgroupUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L434)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L435)
 
 ```csharp
 void NextMapInMapgroupUpdated()
@@ -2654,7 +2666,7 @@ void NextMapInMapgroupUpdated()
 
 ### NextRespawnWaveUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L459)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L460)
 
 ```csharp
 void NextRespawnWaveUpdated()
@@ -2662,7 +2674,7 @@ void NextRespawnWaveUpdated()
 
 ### NumBestOfMapsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L447)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L448)
 
 ```csharp
 void NumBestOfMapsUpdated()
@@ -2670,7 +2682,7 @@ void NumBestOfMapsUpdated()
 
 ### NumConsecutiveCTLosesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L466)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L467)
 
 ```csharp
 void NumConsecutiveCTLosesUpdated()
@@ -2678,7 +2690,7 @@ void NumConsecutiveCTLosesUpdated()
 
 ### NumConsecutiveTerroristLosesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L467)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L468)
 
 ```csharp
 void NumConsecutiveTerroristLosesUpdated()
@@ -2686,7 +2698,7 @@ void NumConsecutiveTerroristLosesUpdated()
 
 ### OvertimePlayingUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L420)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L421)
 
 ```csharp
 void OvertimePlayingUpdated()
@@ -2694,7 +2706,7 @@ void OvertimePlayingUpdated()
 
 ### PlayAllStepSoundsOnServerUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L430)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L431)
 
 ```csharp
 void PlayAllStepSoundsOnServerUpdated()
@@ -2702,7 +2714,7 @@ void PlayAllStepSoundsOnServerUpdated()
 
 ### ProhibitedItemIndicesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L445)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L446)
 
 ```csharp
 void ProhibitedItemIndicesUpdated()
@@ -2710,7 +2722,7 @@ void ProhibitedItemIndicesUpdated()
 
 ### QueuedMatchmakingModeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L427)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L428)
 
 ```csharp
 void QueuedMatchmakingModeUpdated()
@@ -2718,7 +2730,7 @@ void QueuedMatchmakingModeUpdated()
 
 ### RestartRoundTimeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L413)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L414)
 
 ```csharp
 void RestartRoundTimeUpdated()
@@ -2726,7 +2738,7 @@ void RestartRoundTimeUpdated()
 
 ### RetakeRulesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L470)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L471)
 
 ```csharp
 void RetakeRulesUpdated()
@@ -2734,7 +2746,7 @@ void RetakeRulesUpdated()
 
 ### RoundEndCountUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L488)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L489)
 
 ```csharp
 void RoundEndCountUpdated()
@@ -2742,7 +2754,7 @@ void RoundEndCountUpdated()
 
 ### RoundEndFunFactData1Updated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L481)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L482)
 
 ```csharp
 void RoundEndFunFactData1Updated()
@@ -2750,7 +2762,7 @@ void RoundEndFunFactData1Updated()
 
 ### RoundEndFunFactData2Updated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L482)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L483)
 
 ```csharp
 void RoundEndFunFactData2Updated()
@@ -2758,7 +2770,7 @@ void RoundEndFunFactData2Updated()
 
 ### RoundEndFunFactData3Updated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L483)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L484)
 
 ```csharp
 void RoundEndFunFactData3Updated()
@@ -2766,7 +2778,7 @@ void RoundEndFunFactData3Updated()
 
 ### RoundEndFunFactPlayerSlotUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L480)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L481)
 
 ```csharp
 void RoundEndFunFactPlayerSlotUpdated()
@@ -2774,7 +2786,7 @@ void RoundEndFunFactPlayerSlotUpdated()
 
 ### RoundEndFunFactTokenUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L479)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L480)
 
 ```csharp
 void RoundEndFunFactTokenUpdated()
@@ -2782,7 +2794,7 @@ void RoundEndFunFactTokenUpdated()
 
 ### RoundEndLegacyUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L487)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L488)
 
 ```csharp
 void RoundEndLegacyUpdated()
@@ -2790,7 +2802,7 @@ void RoundEndLegacyUpdated()
 
 ### RoundEndMessageUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L484)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L485)
 
 ```csharp
 void RoundEndMessageUpdated()
@@ -2798,7 +2810,7 @@ void RoundEndMessageUpdated()
 
 ### RoundEndNoMusicUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L486)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L487)
 
 ```csharp
 void RoundEndNoMusicUpdated()
@@ -2806,7 +2818,7 @@ void RoundEndNoMusicUpdated()
 
 ### RoundEndPlayerCountUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L485)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L486)
 
 ```csharp
 void RoundEndPlayerCountUpdated()
@@ -2814,7 +2826,7 @@ void RoundEndPlayerCountUpdated()
 
 ### RoundEndReasonUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L476)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L477)
 
 ```csharp
 void RoundEndReasonUpdated()
@@ -2822,7 +2834,7 @@ void RoundEndReasonUpdated()
 
 ### RoundEndShowTimerDefendUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L477)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L478)
 
 ```csharp
 void RoundEndShowTimerDefendUpdated()
@@ -2830,7 +2842,7 @@ void RoundEndShowTimerDefendUpdated()
 
 ### RoundEndTimerTimeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L478)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L479)
 
 ```csharp
 void RoundEndTimerTimeUpdated()
@@ -2838,7 +2850,7 @@ void RoundEndTimerTimeUpdated()
 
 ### RoundEndWinnerTeamUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L475)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L476)
 
 ```csharp
 void RoundEndWinnerTeamUpdated()
@@ -2846,7 +2858,7 @@ void RoundEndWinnerTeamUpdated()
 
 ### RoundStartCountUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L490)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L491)
 
 ```csharp
 void RoundStartCountUpdated()
@@ -2854,7 +2866,7 @@ void RoundStartCountUpdated()
 
 ### RoundStartRoundNumberUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L489)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L490)
 
 ```csharp
 void RoundStartRoundNumberUpdated()
@@ -2862,7 +2874,7 @@ void RoundStartRoundNumberUpdated()
 
 ### RoundStartTimeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L412)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L413)
 
 ```csharp
 void RoundStartTimeUpdated()
@@ -2870,7 +2882,7 @@ void RoundStartTimeUpdated()
 
 ### RoundTimeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L410)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L411)
 
 ```csharp
 void RoundTimeUpdated()
@@ -2878,7 +2890,7 @@ void RoundTimeUpdated()
 
 ### RoundWinReasonUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L452)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L453)
 
 ```csharp
 void RoundWinReasonUpdated()
@@ -2886,7 +2898,7 @@ void RoundWinReasonUpdated()
 
 ### RoundWinStatusUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L451)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L452)
 
 ```csharp
 void RoundWinStatusUpdated()
@@ -2894,7 +2906,7 @@ void RoundWinStatusUpdated()
 
 ### RoundsPlayedThisPhaseUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L419)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L420)
 
 ```csharp
 void RoundsPlayedThisPhaseUpdated()
@@ -2902,7 +2914,7 @@ void RoundsPlayedThisPhaseUpdated()
 
 ### SpectatorSlotCountUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L431)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L432)
 
 ```csharp
 void SpectatorSlotCountUpdated()
@@ -2910,7 +2922,7 @@ void SpectatorSlotCountUpdated()
 
 ### TCantBuyUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L453)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L454)
 
 ```csharp
 void TCantBuyUpdated()
@@ -2918,7 +2930,7 @@ void TCantBuyUpdated()
 
 ### TTeamIntroVariantUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L472)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L473)
 
 ```csharp
 void TTeamIntroVariantUpdated()
@@ -2926,7 +2938,7 @@ void TTeamIntroVariantUpdated()
 
 ### TeamIntroPeriodUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L474)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L475)
 
 ```csharp
 void TeamIntroPeriodUpdated()
@@ -2934,7 +2946,7 @@ void TeamIntroPeriodUpdated()
 
 ### TeamRespawnWaveTimesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L458)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L459)
 
 ```csharp
 void TeamRespawnWaveTimesUpdated()
@@ -2942,7 +2954,7 @@ void TeamRespawnWaveTimesUpdated()
 
 ### TechnicalTimeOutUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L407)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L408)
 
 ```csharp
 void TechnicalTimeOutUpdated()
@@ -2950,7 +2962,7 @@ void TechnicalTimeOutUpdated()
 
 ### TerminateRound(RoundEndReason, float)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CCSGameRules.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CCSGameRules.cs#L23)
 
 ```csharp
 void TerminateRound(RoundEndReason reason, float delay)
@@ -2961,9 +2973,24 @@ void TerminateRound(RoundEndReason reason, float delay)
 - **reason**: [RoundEndReason](/docs/api/shared/natives/roundendreason) - The reason for ending the round
 - **delay**: [float](https://learn.microsoft.com/dotnet/api/system.single) - The delay before ending the round
 
+### TerminateRound(RoundEndReason, float, uint, uint)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CCSGameRules.cs#L32)
+
+```csharp
+void TerminateRound(RoundEndReason reason, float delay, uint teamId, uint unk01 = 0)
+```
+
+#### Parameters
+
+- **reason**: [RoundEndReason](/docs/api/shared/natives/roundendreason) - The reason for ending the round
+- **delay**: [float](https://learn.microsoft.com/dotnet/api/system.single) - The delay before ending the round
+- **teamId**: [uint](https://learn.microsoft.com/dotnet/api/system.uint32) - The team id to end the round for
+- **unk01**: [uint](https://learn.microsoft.com/dotnet/api/system.uint32) - Unknown parameter
+
 ### TerroristTimeOutActiveUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L401)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L402)
 
 ```csharp
 void TerroristTimeOutActiveUpdated()
@@ -2971,7 +2998,7 @@ void TerroristTimeOutActiveUpdated()
 
 ### TerroristTimeOutRemainingUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L403)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L404)
 
 ```csharp
 void TerroristTimeOutRemainingUpdated()
@@ -2979,7 +3006,7 @@ void TerroristTimeOutRemainingUpdated()
 
 ### TerroristTimeOutsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L405)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L406)
 
 ```csharp
 void TerroristTimeOutsUpdated()
@@ -2987,7 +3014,7 @@ void TerroristTimeOutsUpdated()
 
 ### TimeUntilNextPhaseStartsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L416)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L417)
 
 ```csharp
 void TimeUntilNextPhaseStartsUpdated()
@@ -2995,7 +3022,7 @@ void TimeUntilNextPhaseStartsUpdated()
 
 ### TotalRoundsPlayedUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L418)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L419)
 
 ```csharp
 void TotalRoundsPlayedUpdated()
@@ -3003,7 +3030,7 @@ void TotalRoundsPlayedUpdated()
 
 ### TournamentActiveCasterAccountsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L446)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L447)
 
 ```csharp
 void TournamentActiveCasterAccountsUpdated()
@@ -3011,7 +3038,7 @@ void TournamentActiveCasterAccountsUpdated()
 
 ### TournamentEventNameUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L435)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L436)
 
 ```csharp
 void TournamentEventNameUpdated()
@@ -3019,7 +3046,7 @@ void TournamentEventNameUpdated()
 
 ### TournamentEventStageUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L436)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L437)
 
 ```csharp
 void TournamentEventStageUpdated()
@@ -3027,7 +3054,7 @@ void TournamentEventStageUpdated()
 
 ### TournamentPredictionsPctUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L439)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L440)
 
 ```csharp
 void TournamentPredictionsPctUpdated()
@@ -3035,7 +3062,7 @@ void TournamentPredictionsPctUpdated()
 
 ### TournamentPredictionsTxtUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L438)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L439)
 
 ```csharp
 void TournamentPredictionsTxtUpdated()
@@ -3043,7 +3070,7 @@ void TournamentPredictionsTxtUpdated()
 
 ### WarmupPeriodEndUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L399)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L400)
 
 ```csharp
 void WarmupPeriodEndUpdated()
@@ -3051,7 +3078,7 @@ void WarmupPeriodEndUpdated()
 
 ### WarmupPeriodStartUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L400)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L401)
 
 ```csharp
 void WarmupPeriodStartUpdated()
@@ -3059,7 +3086,7 @@ void WarmupPeriodStartUpdated()
 
 ### WarmupPeriodUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L398)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRules.cs#L399)
 
 ```csharp
 void WarmupPeriodUpdated()

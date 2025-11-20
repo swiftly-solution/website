@@ -12,7 +12,7 @@ public interface ConstantInfo_t : ISchemaClass<ConstantInfo_t>, ISchemaField, IS
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ConstantInfo_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ConstantInfo_t.cs#L18)
 
 ```csharp
 string Name { get; set; }
@@ -24,7 +24,7 @@ string Name { get; set; }
 
 ### NameToken
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ConstantInfo_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ConstantInfo_t.cs#L20)
 
 ```csharp
 ref CUtlStringToken NameToken { get; }
@@ -36,7 +36,7 @@ ref CUtlStringToken NameToken { get; }
 
 ### Value
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ConstantInfo_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ConstantInfo_t.cs#L22)
 
 ```csharp
 ref float Value { get; }

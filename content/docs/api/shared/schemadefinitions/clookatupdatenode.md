@@ -12,7 +12,7 @@ public interface CLookAtUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase, ISch
 
 ### LockWhenWaning
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLookAtUpdateNode.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLookAtUpdateNode.cs#L28)
 
 ```csharp
 ref bool LockWhenWaning { get; }
@@ -24,7 +24,7 @@ ref bool LockWhenWaning { get; }
 
 ### OpFixedSettings
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLookAtUpdateNode.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLookAtUpdateNode.cs#L18)
 
 ```csharp
 LookAtOpFixedSettings_t OpFixedSettings { get; }
@@ -36,7 +36,7 @@ LookAtOpFixedSettings_t OpFixedSettings { get; }
 
 ### ParamIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLookAtUpdateNode.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLookAtUpdateNode.cs#L22)
 
 ```csharp
 CAnimParamHandle ParamIndex { get; }
@@ -48,7 +48,7 @@ CAnimParamHandle ParamIndex { get; }
 
 ### ResetChild
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLookAtUpdateNode.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLookAtUpdateNode.cs#L26)
 
 ```csharp
 ref bool ResetChild { get; }
@@ -60,7 +60,7 @@ ref bool ResetChild { get; }
 
 ### Target
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLookAtUpdateNode.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLookAtUpdateNode.cs#L20)
 
 ```csharp
 ref AnimVectorSource Target { get; }
@@ -72,7 +72,7 @@ ref AnimVectorSource Target { get; }
 
 ### WeightParamIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLookAtUpdateNode.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLookAtUpdateNode.cs#L24)
 
 ```csharp
 CAnimParamHandle WeightParamIndex { get; }

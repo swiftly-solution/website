@@ -12,7 +12,7 @@ public interface ragdoll_t : ISchemaClass<ragdoll_t>, ISchemaField, ISchemaClass
 
 ### AllowStretch
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ragdoll_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ragdoll_t.cs#L24)
 
 ```csharp
 ref bool AllowStretch { get; }
@@ -24,7 +24,7 @@ ref bool AllowStretch { get; }
 
 ### BoneIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ragdoll_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ragdoll_t.cs#L22)
 
 ```csharp
 ref CUtlVector<int> BoneIndex { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<int> BoneIndex { get; }
 
 ### HierarchyJoints
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ragdoll_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ragdoll_t.cs#L20)
 
 ```csharp
 ref CUtlVector<ragdollhierarchyjoint_t> HierarchyJoints { get; }
@@ -48,7 +48,7 @@ ref CUtlVector<ragdollhierarchyjoint_t> HierarchyJoints { get; }
 
 ### List
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ragdoll_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ragdoll_t.cs#L18)
 
 ```csharp
 ref CUtlVector<ragdollelement_t> List { get; }
@@ -60,7 +60,7 @@ ref CUtlVector<ragdollelement_t> List { get; }
 
 ### Unused
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ragdoll_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ragdoll_t.cs#L26)
 
 ```csharp
 ref bool Unused { get; }

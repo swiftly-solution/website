@@ -12,7 +12,7 @@ public interface C_INIT_NormalAlignToCP : CParticleFunctionInitializer, CParticl
 
 ### ControlPointAxis
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_NormalAlignToCP.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_NormalAlignToCP.cs#L20)
 
 ```csharp
 ref ParticleControlPointAxis_t ControlPointAxis { get; }
@@ -24,7 +24,7 @@ ref ParticleControlPointAxis_t ControlPointAxis { get; }
 
 ### TransformInput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_NormalAlignToCP.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_NormalAlignToCP.cs#L18)
 
 ```csharp
 CParticleTransformInput TransformInput { get; }

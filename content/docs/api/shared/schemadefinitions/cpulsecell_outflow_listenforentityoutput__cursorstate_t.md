@@ -12,7 +12,7 @@ public interface CPulseCell_Outflow_ListenForEntityOutput__CursorState_t : ISche
 
 ### Entity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ListenForEntityOutput__CursorState_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ListenForEntityOutput__CursorState_t.cs#L18)
 
 ```csharp
 ref CHandle<CBaseEntity> Entity { get; }

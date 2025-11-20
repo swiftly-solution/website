@@ -12,7 +12,7 @@ public interface CNmFloatClampNode__CDefinition : CNmFloatValueNode__CDefinition
 
 ### ClampRange
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatClampNode__CDefinition.cs#L20)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatClampNode__CDefinition.cs#L21)
 
 ```csharp
 SchemaUntypedField ClampRange { get; }
@@ -24,7 +24,7 @@ SchemaUntypedField ClampRange { get; }
 
 ### InputValueNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatClampNode__CDefinition.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatClampNode__CDefinition.cs#L18)
 
 ```csharp
 ref short InputValueNodeIdx { get; }

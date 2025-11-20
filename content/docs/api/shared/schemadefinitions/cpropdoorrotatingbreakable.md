@@ -12,7 +12,7 @@ public interface CPropDoorRotatingBreakable : CPropDoorRotating, CBasePropDoor, 
 
 ### Breakable
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotatingBreakable.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotatingBreakable.cs#L18)
 
 ```csharp
 ref bool Breakable { get; }
@@ -24,7 +24,7 @@ ref bool Breakable { get; }
 
 ### CurrentDamageState
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotatingBreakable.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotatingBreakable.cs#L22)
 
 ```csharp
 ref int CurrentDamageState { get; }
@@ -36,7 +36,7 @@ ref int CurrentDamageState { get; }
 
 ### DamageStates
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotatingBreakable.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotatingBreakable.cs#L24)
 
 ```csharp
 ref CUtlVector<SchemaUntypedField> DamageStates { get; }
@@ -48,7 +48,7 @@ ref CUtlVector<SchemaUntypedField> DamageStates { get; }
 
 ### IsAbleToCloseAreaPortals
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotatingBreakable.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotatingBreakable.cs#L20)
 
 ```csharp
 ref bool IsAbleToCloseAreaPortals { get; }

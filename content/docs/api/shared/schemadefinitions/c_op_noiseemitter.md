@@ -12,7 +12,7 @@ public interface C_OP_NoiseEmitter : CParticleFunctionEmitter, CParticleFunction
 
 ### AbsVal
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_NoiseEmitter.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_NoiseEmitter.cs#L30)
 
 ```csharp
 ref bool AbsVal { get; }
@@ -24,7 +24,7 @@ ref bool AbsVal { get; }
 
 ### AbsValInv
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_NoiseEmitter.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_NoiseEmitter.cs#L32)
 
 ```csharp
 ref bool AbsValInv { get; }
@@ -36,7 +36,7 @@ ref bool AbsValInv { get; }
 
 ### EmissionDuration
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_NoiseEmitter.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_NoiseEmitter.cs#L18)
 
 ```csharp
 ref float EmissionDuration { get; }
@@ -48,7 +48,7 @@ ref float EmissionDuration { get; }
 
 ### EmissionScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_NoiseEmitter.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_NoiseEmitter.cs#L22)
 
 ```csharp
 ref float EmissionScale { get; }
@@ -60,7 +60,7 @@ ref float EmissionScale { get; }
 
 ### NoiseScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_NoiseEmitter.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_NoiseEmitter.cs#L40)
 
 ```csharp
 ref float NoiseScale { get; }
@@ -72,7 +72,7 @@ ref float NoiseScale { get; }
 
 ### Offset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_NoiseEmitter.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_NoiseEmitter.cs#L34)
 
 ```csharp
 ref float Offset { get; }
@@ -84,7 +84,7 @@ ref float Offset { get; }
 
 ### OffsetLoc
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_NoiseEmitter.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_NoiseEmitter.cs#L44)
 
 ```csharp
 ref Vector OffsetLoc { get; }
@@ -96,7 +96,7 @@ ref Vector OffsetLoc { get; }
 
 ### OutputMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_NoiseEmitter.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_NoiseEmitter.cs#L38)
 
 ```csharp
 ref float OutputMax { get; }
@@ -108,7 +108,7 @@ ref float OutputMax { get; }
 
 ### OutputMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_NoiseEmitter.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_NoiseEmitter.cs#L36)
 
 ```csharp
 ref float OutputMin { get; }
@@ -120,7 +120,7 @@ ref float OutputMin { get; }
 
 ### ScaleControlPoint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_NoiseEmitter.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_NoiseEmitter.cs#L24)
 
 ```csharp
 ref int ScaleControlPoint { get; }
@@ -132,7 +132,7 @@ ref int ScaleControlPoint { get; }
 
 ### ScaleControlPointField
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_NoiseEmitter.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_NoiseEmitter.cs#L26)
 
 ```csharp
 ref int ScaleControlPointField { get; }
@@ -144,7 +144,7 @@ ref int ScaleControlPointField { get; }
 
 ### StartTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_NoiseEmitter.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_NoiseEmitter.cs#L20)
 
 ```csharp
 ref float StartTime { get; }
@@ -156,7 +156,7 @@ ref float StartTime { get; }
 
 ### WorldNoisePoint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_NoiseEmitter.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_NoiseEmitter.cs#L28)
 
 ```csharp
 ref int WorldNoisePoint { get; }
@@ -168,7 +168,7 @@ ref int WorldNoisePoint { get; }
 
 ### WorldNoiseScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_NoiseEmitter.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_NoiseEmitter.cs#L42)
 
 ```csharp
 ref float WorldNoiseScale { get; }
@@ -180,7 +180,7 @@ ref float WorldNoiseScale { get; }
 
 ### WorldTimeScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_NoiseEmitter.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_NoiseEmitter.cs#L46)
 
 ```csharp
 ref float WorldTimeScale { get; }

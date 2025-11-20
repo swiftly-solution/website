@@ -12,7 +12,7 @@ public interface C_OP_RemapDistanceToLineSegmentBase : CParticleFunctionOperator
 
 ### CP0
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDistanceToLineSegmentBase.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDistanceToLineSegmentBase.cs#L18)
 
 ```csharp
 ref int CP0 { get; }
@@ -24,7 +24,7 @@ ref int CP0 { get; }
 
 ### CP1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDistanceToLineSegmentBase.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDistanceToLineSegmentBase.cs#L20)
 
 ```csharp
 ref int CP1 { get; }
@@ -36,7 +36,7 @@ ref int CP1 { get; }
 
 ### InfiniteLine
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDistanceToLineSegmentBase.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDistanceToLineSegmentBase.cs#L26)
 
 ```csharp
 ref bool InfiniteLine { get; }
@@ -48,7 +48,7 @@ ref bool InfiniteLine { get; }
 
 ### MaxInputValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDistanceToLineSegmentBase.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDistanceToLineSegmentBase.cs#L24)
 
 ```csharp
 ref float MaxInputValue { get; }
@@ -60,7 +60,7 @@ ref float MaxInputValue { get; }
 
 ### MinInputValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDistanceToLineSegmentBase.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDistanceToLineSegmentBase.cs#L22)
 
 ```csharp
 ref float MinInputValue { get; }

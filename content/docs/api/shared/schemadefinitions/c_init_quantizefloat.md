@@ -12,7 +12,7 @@ public interface C_INIT_QuantizeFloat : CParticleFunctionInitializer, CParticleF
 
 ### InputValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_QuantizeFloat.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_QuantizeFloat.cs#L18)
 
 ```csharp
 CPerParticleFloatInput InputValue { get; }
@@ -24,7 +24,7 @@ CPerParticleFloatInput InputValue { get; }
 
 ### OutputField
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_QuantizeFloat.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_QuantizeFloat.cs#L20)
 
 ```csharp
 ParticleAttributeIndex_t OutputField { get; }

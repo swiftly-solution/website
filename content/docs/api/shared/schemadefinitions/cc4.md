@@ -12,7 +12,7 @@ public interface CC4 : CCSWeaponBase, CBasePlayerWeapon, CEconEntity, CBaseFlex,
 
 ### ArmedTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CC4.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CC4.cs#L26)
 
 ```csharp
 GameTime_t ArmedTime { get; }
@@ -24,7 +24,7 @@ GameTime_t ArmedTime { get; }
 
 ### BombPlacedAnimation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CC4.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CC4.cs#L28)
 
 ```csharp
 ref bool BombPlacedAnimation { get; }
@@ -36,7 +36,7 @@ ref bool BombPlacedAnimation { get; }
 
 ### BombPlanted
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CC4.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CC4.cs#L38)
 
 ```csharp
 ref bool BombPlanted { get; }
@@ -48,7 +48,7 @@ ref bool BombPlanted { get; }
 
 ### DoValidDroppedPositionCheck
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CC4.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CC4.cs#L22)
 
 ```csharp
 ref bool DoValidDroppedPositionCheck { get; }
@@ -60,7 +60,7 @@ ref bool DoValidDroppedPositionCheck { get; }
 
 ### EntitySpottedState
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CC4.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CC4.cs#L32)
 
 ```csharp
 EntitySpottedState_t EntitySpottedState { get; }
@@ -72,7 +72,7 @@ EntitySpottedState_t EntitySpottedState { get; }
 
 ### IsPlantingViaUse
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CC4.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CC4.cs#L30)
 
 ```csharp
 ref bool IsPlantingViaUse { get; }
@@ -84,7 +84,7 @@ ref bool IsPlantingViaUse { get; }
 
 ### LastValidDroppedPosition
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CC4.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CC4.cs#L20)
 
 ```csharp
 ref Vector LastValidDroppedPosition { get; }
@@ -96,7 +96,7 @@ ref Vector LastValidDroppedPosition { get; }
 
 ### LastValidPlayerHeldPosition
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CC4.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CC4.cs#L18)
 
 ```csharp
 ref Vector LastValidPlayerHeldPosition { get; }
@@ -108,7 +108,7 @@ ref Vector LastValidPlayerHeldPosition { get; }
 
 ### PlayedArmingBeeps
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CC4.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CC4.cs#L36)
 
 ```csharp
 ISchemaFixedArray<bool> PlayedArmingBeeps { get; }
@@ -120,7 +120,7 @@ ISchemaFixedArray<bool> PlayedArmingBeeps { get; }
 
 ### SpotRules
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CC4.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CC4.cs#L34)
 
 ```csharp
 ref int SpotRules { get; }
@@ -132,7 +132,7 @@ ref int SpotRules { get; }
 
 ### StartedArming
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CC4.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CC4.cs#L24)
 
 ```csharp
 ref bool StartedArming { get; }
@@ -146,7 +146,7 @@ ref bool StartedArming { get; }
 
 ### ArmedTimeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CC4.cs#L40)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CC4.cs#L41)
 
 ```csharp
 void ArmedTimeUpdated()
@@ -154,7 +154,7 @@ void ArmedTimeUpdated()
 
 ### BombPlacedAnimationUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CC4.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CC4.cs#L42)
 
 ```csharp
 void BombPlacedAnimationUpdated()
@@ -162,7 +162,7 @@ void BombPlacedAnimationUpdated()
 
 ### EntitySpottedStateUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CC4.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CC4.cs#L44)
 
 ```csharp
 void EntitySpottedStateUpdated()
@@ -170,7 +170,7 @@ void EntitySpottedStateUpdated()
 
 ### IsPlantingViaUseUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CC4.cs#L42)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CC4.cs#L43)
 
 ```csharp
 void IsPlantingViaUseUpdated()
@@ -178,7 +178,7 @@ void IsPlantingViaUseUpdated()
 
 ### StartedArmingUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CC4.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CC4.cs#L40)
 
 ```csharp
 void StartedArmingUpdated()

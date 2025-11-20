@@ -12,7 +12,7 @@ public interface CNmSyncTrack__EventMarker_t : ISchemaClass<CNmSyncTrack__EventM
 
 ### ID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSyncTrack__EventMarker_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSyncTrack__EventMarker_t.cs#L20)
 
 ```csharp
 ref CGlobalSymbol ID { get; }
@@ -24,7 +24,7 @@ ref CGlobalSymbol ID { get; }
 
 ### StartTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSyncTrack__EventMarker_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSyncTrack__EventMarker_t.cs#L18)
 
 ```csharp
 NmPercent_t StartTime { get; }

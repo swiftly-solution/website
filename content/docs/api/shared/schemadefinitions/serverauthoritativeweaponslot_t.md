@@ -12,7 +12,7 @@ public interface ServerAuthoritativeWeaponSlot_t : ISchemaClass<ServerAuthoritat
 
 ### Class
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ServerAuthoritativeWeaponSlot_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ServerAuthoritativeWeaponSlot_t.cs#L18)
 
 ```csharp
 ref ushort Class { get; }
@@ -24,7 +24,7 @@ ref ushort Class { get; }
 
 ### ItemDefIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ServerAuthoritativeWeaponSlot_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ServerAuthoritativeWeaponSlot_t.cs#L22)
 
 ```csharp
 ref ushort ItemDefIdx { get; }
@@ -36,7 +36,7 @@ ref ushort ItemDefIdx { get; }
 
 ### Slot
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ServerAuthoritativeWeaponSlot_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ServerAuthoritativeWeaponSlot_t.cs#L20)
 
 ```csharp
 ref ushort Slot { get; }
@@ -50,7 +50,7 @@ ref ushort Slot { get; }
 
 ### ClassUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ServerAuthoritativeWeaponSlot_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ServerAuthoritativeWeaponSlot_t.cs#L24)
 
 ```csharp
 void ClassUpdated()
@@ -58,7 +58,7 @@ void ClassUpdated()
 
 ### ItemDefIdxUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ServerAuthoritativeWeaponSlot_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ServerAuthoritativeWeaponSlot_t.cs#L26)
 
 ```csharp
 void ItemDefIdxUpdated()
@@ -66,7 +66,7 @@ void ItemDefIdxUpdated()
 
 ### SlotUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ServerAuthoritativeWeaponSlot_t.cs#L24)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ServerAuthoritativeWeaponSlot_t.cs#L25)
 
 ```csharp
 void SlotUpdated()

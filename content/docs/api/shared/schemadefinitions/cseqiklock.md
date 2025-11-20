@@ -12,7 +12,7 @@ public interface CSeqIKLock : ISchemaClass<CSeqIKLock>, ISchemaField, ISchemaCla
 
 ### AngleWeight
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqIKLock.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqIKLock.cs#L20)
 
 ```csharp
 ref float AngleWeight { get; }
@@ -24,7 +24,7 @@ ref float AngleWeight { get; }
 
 ### BonesOrientedAlongPositiveX
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqIKLock.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqIKLock.cs#L24)
 
 ```csharp
 ref bool BonesOrientedAlongPositiveX { get; }
@@ -36,7 +36,7 @@ ref bool BonesOrientedAlongPositiveX { get; }
 
 ### LocalBone
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqIKLock.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqIKLock.cs#L22)
 
 ```csharp
 ref short LocalBone { get; }
@@ -48,7 +48,7 @@ ref short LocalBone { get; }
 
 ### PosWeight
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqIKLock.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqIKLock.cs#L18)
 
 ```csharp
 ref float PosWeight { get; }

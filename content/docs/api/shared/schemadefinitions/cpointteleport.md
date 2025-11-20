@@ -12,7 +12,7 @@ public interface CPointTeleport : CServerOnlyPointEntity, CServerOnlyEntity, CBa
 
 ### SaveAngles
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointTeleport.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointTeleport.cs#L20)
 
 ```csharp
 ref QAngle SaveAngles { get; }
@@ -24,7 +24,7 @@ ref QAngle SaveAngles { get; }
 
 ### SaveOrigin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointTeleport.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointTeleport.cs#L18)
 
 ```csharp
 ref Vector SaveOrigin { get; }
@@ -36,7 +36,7 @@ ref Vector SaveOrigin { get; }
 
 ### TeleportParentedEntities
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointTeleport.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointTeleport.cs#L22)
 
 ```csharp
 ref bool TeleportParentedEntities { get; }
@@ -48,7 +48,7 @@ ref bool TeleportParentedEntities { get; }
 
 ### TeleportUseCurrentAngle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointTeleport.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointTeleport.cs#L24)
 
 ```csharp
 ref bool TeleportUseCurrentAngle { get; }

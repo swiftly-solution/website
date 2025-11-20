@@ -12,7 +12,7 @@ public interface CFuncRotating : CBaseModelEntity, CBaseEntity, CEntityInstance,
 
 ### AccelDecel
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L42)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L43)
 
 ```csharp
 ref bool AccelDecel { get; }
@@ -24,7 +24,7 @@ ref bool AccelDecel { get; }
 
 ### Attenuation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L28)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L29)
 
 ```csharp
 ref float Attenuation { get; }
@@ -36,7 +36,7 @@ ref float Attenuation { get; }
 
 ### BlockDamage
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L36)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L37)
 
 ```csharp
 ref float BlockDamage { get; }
@@ -48,7 +48,7 @@ ref float BlockDamage { get; }
 
 ### ClientAngles
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L52)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L53)
 
 ```csharp
 ref QAngle ClientAngles { get; }
@@ -60,7 +60,7 @@ ref QAngle ClientAngles { get; }
 
 ### ClientOrigin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L50)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L51)
 
 ```csharp
 ref Vector ClientOrigin { get; }
@@ -72,7 +72,7 @@ ref Vector ClientOrigin { get; }
 
 ### FanFriction
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L26)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L27)
 
 ```csharp
 ref float FanFriction { get; }
@@ -84,7 +84,7 @@ ref float FanFriction { get; }
 
 ### LocalRotationVector
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L24)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L25)
 
 ```csharp
 SchemaUntypedField LocalRotationVector { get; }
@@ -96,7 +96,7 @@ SchemaUntypedField LocalRotationVector { get; }
 
 ### MaxSpeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L34)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L35)
 
 ```csharp
 ref float MaxSpeed { get; }
@@ -108,7 +108,7 @@ ref float MaxSpeed { get; }
 
 ### NoiseRunning
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L38)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L39)
 
 ```csharp
 string NoiseRunning { get; set; }
@@ -120,7 +120,7 @@ string NoiseRunning { get; set; }
 
 ### OnReachedStart
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L22)
 
 ```csharp
 CEntityIOOutput OnReachedStart { get; }
@@ -132,7 +132,7 @@ CEntityIOOutput OnReachedStart { get; }
 
 ### OnStarted
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L20)
 
 ```csharp
 CEntityIOOutput OnStarted { get; }
@@ -144,7 +144,7 @@ CEntityIOOutput OnStarted { get; }
 
 ### OnStopped
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L18)
 
 ```csharp
 CEntityIOOutput OnStopped { get; }
@@ -156,7 +156,7 @@ CEntityIOOutput OnStopped { get; }
 
 ### PrevLocalAngles
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L44)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L45)
 
 ```csharp
 ref QAngle PrevLocalAngles { get; }
@@ -168,7 +168,7 @@ ref QAngle PrevLocalAngles { get; }
 
 ### Reversed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L40)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L41)
 
 ```csharp
 ref bool Reversed { get; }
@@ -180,7 +180,7 @@ ref bool Reversed { get; }
 
 ### Start
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L46)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L47)
 
 ```csharp
 ref QAngle Start { get; }
@@ -192,7 +192,7 @@ ref QAngle Start { get; }
 
 ### StopAtStartPos
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L48)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L49)
 
 ```csharp
 ref bool StopAtStartPos { get; }
@@ -204,7 +204,7 @@ ref bool StopAtStartPos { get; }
 
 ### TargetSpeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L32)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L33)
 
 ```csharp
 ref float TargetSpeed { get; }
@@ -216,7 +216,7 @@ ref float TargetSpeed { get; }
 
 ### Volume
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L30)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L31)
 
 ```csharp
 ref float Volume { get; }

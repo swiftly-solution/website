@@ -12,7 +12,7 @@ public interface CCommentarySystem : ISchemaClass<CCommentarySystem>, ISchemaFie
 
 ### ActiveCommentaryNode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCommentarySystem.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCommentarySystem.cs#L32)
 
 ```csharp
 ref CHandle<CPointCommentaryNode> ActiveCommentaryNode { get; }
@@ -24,7 +24,7 @@ ref CHandle<CPointCommentaryNode> ActiveCommentaryNode { get; }
 
 ### CheatState
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCommentarySystem.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCommentarySystem.cs#L26)
 
 ```csharp
 ref bool CheatState { get; }
@@ -36,7 +36,7 @@ ref bool CheatState { get; }
 
 ### CommentaryConvarsChanging
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCommentarySystem.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCommentarySystem.cs#L18)
 
 ```csharp
 ref bool CommentaryConvarsChanging { get; }
@@ -48,7 +48,7 @@ ref bool CommentaryConvarsChanging { get; }
 
 ### CommentaryEnabledMidGame
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCommentarySystem.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCommentarySystem.cs#L20)
 
 ```csharp
 ref bool CommentaryEnabledMidGame { get; }
@@ -60,7 +60,7 @@ ref bool CommentaryEnabledMidGame { get; }
 
 ### CurrentNode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCommentarySystem.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCommentarySystem.cs#L30)
 
 ```csharp
 ref CHandle<CPointCommentaryNode> CurrentNode { get; }
@@ -72,7 +72,7 @@ ref CHandle<CPointCommentaryNode> CurrentNode { get; }
 
 ### IsFirstSpawnGroupToLoad
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCommentarySystem.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCommentarySystem.cs#L28)
 
 ```csharp
 ref bool IsFirstSpawnGroupToLoad { get; }
@@ -84,7 +84,7 @@ ref bool IsFirstSpawnGroupToLoad { get; }
 
 ### LastCommentaryNode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCommentarySystem.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCommentarySystem.cs#L34)
 
 ```csharp
 ref CHandle<CPointCommentaryNode> LastCommentaryNode { get; }
@@ -96,7 +96,7 @@ ref CHandle<CPointCommentaryNode> LastCommentaryNode { get; }
 
 ### NextTeleportTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCommentarySystem.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCommentarySystem.cs#L22)
 
 ```csharp
 GameTime_t NextTeleportTime { get; }
@@ -108,7 +108,7 @@ GameTime_t NextTeleportTime { get; }
 
 ### Nodes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCommentarySystem.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCommentarySystem.cs#L36)
 
 ```csharp
 ref CUtlVector<CHandle<CPointCommentaryNode>> Nodes { get; }
@@ -120,7 +120,7 @@ ref CUtlVector<CHandle<CPointCommentaryNode>> Nodes { get; }
 
 ### TeleportStage
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCommentarySystem.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCommentarySystem.cs#L24)
 
 ```csharp
 ref int TeleportStage { get; }

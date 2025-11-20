@@ -12,7 +12,7 @@ public interface CItemDogtags : CItem, CBaseAnimGraph, CBaseModelEntity, CBaseEn
 
 ### KillingPlayer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemDogtags.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemDogtags.cs#L20)
 
 ```csharp
 ref CHandle<CCSPlayerPawn> KillingPlayer { get; }
@@ -24,7 +24,7 @@ ref CHandle<CCSPlayerPawn> KillingPlayer { get; }
 
 ### OwningPlayer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemDogtags.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemDogtags.cs#L18)
 
 ```csharp
 ref CHandle<CCSPlayerPawn> OwningPlayer { get; }
@@ -38,7 +38,7 @@ ref CHandle<CCSPlayerPawn> OwningPlayer { get; }
 
 ### KillingPlayerUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemDogtags.cs#L22)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemDogtags.cs#L23)
 
 ```csharp
 void KillingPlayerUpdated()
@@ -46,7 +46,7 @@ void KillingPlayerUpdated()
 
 ### OwningPlayerUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemDogtags.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemDogtags.cs#L22)
 
 ```csharp
 void OwningPlayerUpdated()

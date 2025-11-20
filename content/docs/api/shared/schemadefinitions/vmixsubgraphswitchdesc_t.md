@@ -12,7 +12,7 @@ public interface VMixSubgraphSwitchDesc_t : ISchemaClass<VMixSubgraphSwitchDesc_
 
 ### InterpolationMode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixSubgraphSwitchDesc_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixSubgraphSwitchDesc_t.cs#L18)
 
 ```csharp
 ref VMixSubgraphSwitchInterpolationType_t InterpolationMode { get; }
@@ -24,7 +24,7 @@ ref VMixSubgraphSwitchInterpolationType_t InterpolationMode { get; }
 
 ### InterpolationTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixSubgraphSwitchDesc_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixSubgraphSwitchDesc_t.cs#L22)
 
 ```csharp
 ref float InterpolationTime { get; }
@@ -36,7 +36,7 @@ ref float InterpolationTime { get; }
 
 ### OnlyTailsOnFadeOut
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixSubgraphSwitchDesc_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixSubgraphSwitchDesc_t.cs#L20)
 
 ```csharp
 ref bool OnlyTailsOnFadeOut { get; }

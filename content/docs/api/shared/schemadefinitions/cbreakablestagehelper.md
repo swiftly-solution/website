@@ -12,7 +12,7 @@ public interface CBreakableStageHelper : ISchemaClass<CBreakableStageHelper>, IS
 
 ### CurrentStage
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableStageHelper.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableStageHelper.cs#L18)
 
 ```csharp
 ref int CurrentStage { get; }
@@ -24,7 +24,7 @@ ref int CurrentStage { get; }
 
 ### StageCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableStageHelper.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableStageHelper.cs#L20)
 
 ```csharp
 ref int StageCount { get; }

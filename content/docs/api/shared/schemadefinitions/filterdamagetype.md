@@ -12,7 +12,7 @@ public interface FilterDamageType : CBaseFilter, CLogicalEntity, CServerOnlyEnti
 
 ### DamageType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FilterDamageType.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FilterDamageType.cs#L18)
 
 ```csharp
 ref int DamageType { get; }

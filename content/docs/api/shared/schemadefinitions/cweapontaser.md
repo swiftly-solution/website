@@ -12,7 +12,7 @@ public interface CWeaponTaser : CCSWeaponBaseGun, CCSWeaponBase, CBasePlayerWeap
 
 ### FireTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CWeaponTaser.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CWeaponTaser.cs#L18)
 
 ```csharp
 GameTime_t FireTime { get; }
@@ -24,7 +24,7 @@ GameTime_t FireTime { get; }
 
 ### LastAttackTick
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CWeaponTaser.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CWeaponTaser.cs#L20)
 
 ```csharp
 ref int LastAttackTick { get; }
@@ -38,7 +38,7 @@ ref int LastAttackTick { get; }
 
 ### FireTimeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CWeaponTaser.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CWeaponTaser.cs#L22)
 
 ```csharp
 void FireTimeUpdated()

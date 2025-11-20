@@ -12,7 +12,7 @@ public interface CBaseCombatCharacter : CBaseFlex, CBaseAnimGraph, CBaseModelEnt
 
 ### ApplyStressDamage
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCombatCharacter.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCombatCharacter.cs#L24)
 
 ```csharp
 ref bool ApplyStressDamage { get; }
@@ -24,7 +24,7 @@ ref bool ApplyStressDamage { get; }
 
 ### DeathEventsDispatched
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCombatCharacter.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCombatCharacter.cs#L26)
 
 ```csharp
 ref bool DeathEventsDispatched { get; }
@@ -36,7 +36,7 @@ ref bool DeathEventsDispatched { get; }
 
 ### ForceServerRagdoll
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCombatCharacter.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCombatCharacter.cs#L18)
 
 ```csharp
 ref bool ForceServerRagdoll { get; }
@@ -48,7 +48,7 @@ ref bool ForceServerRagdoll { get; }
 
 ### Hull
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCombatCharacter.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCombatCharacter.cs#L32)
 
 ```csharp
 ref Hull_t Hull { get; }
@@ -60,7 +60,7 @@ ref Hull_t Hull { get; }
 
 ### ImpactEnergyScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCombatCharacter.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCombatCharacter.cs#L22)
 
 ```csharp
 ref float ImpactEnergyScale { get; }
@@ -72,7 +72,7 @@ ref float ImpactEnergyScale { get; }
 
 ### MovementStats
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCombatCharacter.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCombatCharacter.cs#L36)
 
 ```csharp
 CMovementStatsProperty MovementStats { get; }
@@ -84,7 +84,7 @@ CMovementStatsProperty MovementStats { get; }
 
 ### MyWearables
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCombatCharacter.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCombatCharacter.cs#L20)
 
 ```csharp
 ref CUtlVector<CHandle<CEconWearable>> MyWearables { get; }
@@ -96,7 +96,7 @@ ref CUtlVector<CHandle<CEconWearable>> MyWearables { get; }
 
 ### NavHullIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCombatCharacter.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCombatCharacter.cs#L34)
 
 ```csharp
 ref uint NavHullIdx { get; }
@@ -108,7 +108,7 @@ ref uint NavHullIdx { get; }
 
 ### StrRelationships
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCombatCharacter.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCombatCharacter.cs#L30)
 
 ```csharp
 string StrRelationships { get; set; }
@@ -120,7 +120,7 @@ string StrRelationships { get; set; }
 
 ### VecRelationships
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCombatCharacter.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCombatCharacter.cs#L28)
 
 ```csharp
 ref CUtlVector<RelationshipOverride_t> VecRelationships { get; }
@@ -134,7 +134,7 @@ ref CUtlVector<RelationshipOverride_t> VecRelationships { get; }
 
 ### MyWearablesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCombatCharacter.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCombatCharacter.cs#L38)
 
 ```csharp
 void MyWearablesUpdated()

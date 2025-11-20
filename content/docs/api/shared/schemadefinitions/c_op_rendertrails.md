@@ -12,7 +12,7 @@ public interface C_OP_RenderTrails : CBaseTrailRenderer, CBaseRendererSource2, C
 
 ### ConstrainRadiusToLengthRatio
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTrails.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTrails.cs#L32)
 
 ```csharp
 ref float ConstrainRadiusToLengthRatio { get; }
@@ -24,7 +24,7 @@ ref float ConstrainRadiusToLengthRatio { get; }
 
 ### EnableFadingAndClamping
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTrails.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTrails.cs#L18)
 
 ```csharp
 ref bool EnableFadingAndClamping { get; }
@@ -36,7 +36,7 @@ ref bool EnableFadingAndClamping { get; }
 
 ### EndFadeDot
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTrails.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTrails.cs#L22)
 
 ```csharp
 ref float EndFadeDot { get; }
@@ -48,7 +48,7 @@ ref float EndFadeDot { get; }
 
 ### FlipUVBasedOnPitchYaw
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTrails.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTrails.cs#L56)
 
 ```csharp
 ref bool FlipUVBasedOnPitchYaw { get; }
@@ -60,7 +60,7 @@ ref bool FlipUVBasedOnPitchYaw { get; }
 
 ### ForwardShift
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTrails.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTrails.cs#L54)
 
 ```csharp
 ref float ForwardShift { get; }
@@ -72,7 +72,7 @@ ref float ForwardShift { get; }
 
 ### HeadAlphaScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTrails.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTrails.cs#L42)
 
 ```csharp
 CPerParticleFloatInput HeadAlphaScale { get; }
@@ -84,7 +84,7 @@ CPerParticleFloatInput HeadAlphaScale { get; }
 
 ### HeadColorScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTrails.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTrails.cs#L40)
 
 ```csharp
 CParticleCollectionVecInput HeadColorScale { get; }
@@ -96,7 +96,7 @@ CParticleCollectionVecInput HeadColorScale { get; }
 
 ### HorizCropField
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTrails.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTrails.cs#L50)
 
 ```csharp
 ParticleAttributeIndex_t HorizCropField { get; }
@@ -108,7 +108,7 @@ ParticleAttributeIndex_t HorizCropField { get; }
 
 ### IgnoreDT
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTrails.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTrails.cs#L30)
 
 ```csharp
 ref bool IgnoreDT { get; }
@@ -120,7 +120,7 @@ ref bool IgnoreDT { get; }
 
 ### LengthFadeInTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTrails.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTrails.cs#L36)
 
 ```csharp
 ref float LengthFadeInTime { get; }
@@ -132,7 +132,7 @@ ref float LengthFadeInTime { get; }
 
 ### LengthScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTrails.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTrails.cs#L34)
 
 ```csharp
 ref float LengthScale { get; }
@@ -144,7 +144,7 @@ ref float LengthScale { get; }
 
 ### MaxLength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTrails.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTrails.cs#L26)
 
 ```csharp
 ref float MaxLength { get; }
@@ -156,7 +156,7 @@ ref float MaxLength { get; }
 
 ### MinLength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTrails.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTrails.cs#L28)
 
 ```csharp
 ref float MinLength { get; }
@@ -168,7 +168,7 @@ ref float MinLength { get; }
 
 ### PrevPntSource
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTrails.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTrails.cs#L24)
 
 ```csharp
 ParticleAttributeIndex_t PrevPntSource { get; }
@@ -180,7 +180,7 @@ ParticleAttributeIndex_t PrevPntSource { get; }
 
 ### RadiusHeadTaper
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTrails.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTrails.cs#L38)
 
 ```csharp
 CPerParticleFloatInput RadiusHeadTaper { get; }
@@ -192,7 +192,7 @@ CPerParticleFloatInput RadiusHeadTaper { get; }
 
 ### RadiusTaper
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTrails.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTrails.cs#L44)
 
 ```csharp
 CPerParticleFloatInput RadiusTaper { get; }
@@ -204,7 +204,7 @@ CPerParticleFloatInput RadiusTaper { get; }
 
 ### StartFadeDot
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTrails.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTrails.cs#L20)
 
 ```csharp
 ref float StartFadeDot { get; }
@@ -216,7 +216,7 @@ ref float StartFadeDot { get; }
 
 ### TailAlphaScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTrails.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTrails.cs#L48)
 
 ```csharp
 CPerParticleFloatInput TailAlphaScale { get; }
@@ -228,7 +228,7 @@ CPerParticleFloatInput TailAlphaScale { get; }
 
 ### TailColorScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTrails.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTrails.cs#L46)
 
 ```csharp
 CParticleCollectionVecInput TailColorScale { get; }
@@ -240,7 +240,7 @@ CParticleCollectionVecInput TailColorScale { get; }
 
 ### VertCropField
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTrails.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTrails.cs#L52)
 
 ```csharp
 ParticleAttributeIndex_t VertCropField { get; }

@@ -12,7 +12,7 @@ public interface CCS2ChickenGraphController : CAnimGraphControllerBase, ISchemaC
 
 ### Action
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2ChickenGraphController.cs#L18)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2ChickenGraphController.cs#L19)
 
 ```csharp
 SchemaUntypedField Action { get; }
@@ -24,7 +24,7 @@ SchemaUntypedField Action { get; }
 
 ### ActionReset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2ChickenGraphController.cs#L24)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2ChickenGraphController.cs#L25)
 
 ```csharp
 SchemaUntypedField ActionReset { get; }
@@ -36,7 +36,7 @@ SchemaUntypedField ActionReset { get; }
 
 ### ActionSubtype
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2ChickenGraphController.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2ChickenGraphController.cs#L22)
 
 ```csharp
 SchemaUntypedField ActionSubtype { get; }
@@ -48,7 +48,7 @@ SchemaUntypedField ActionSubtype { get; }
 
 ### HasActionCompletedEvent
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2ChickenGraphController.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2ChickenGraphController.cs#L42)
 
 ```csharp
 ref bool HasActionCompletedEvent { get; }
@@ -60,7 +60,7 @@ ref bool HasActionCompletedEvent { get; }
 
 ### IdleVariation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2ChickenGraphController.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2ChickenGraphController.cs#L28)
 
 ```csharp
 SchemaUntypedField IdleVariation { get; }
@@ -72,7 +72,7 @@ SchemaUntypedField IdleVariation { get; }
 
 ### InWater
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2ChickenGraphController.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2ChickenGraphController.cs#L40)
 
 ```csharp
 SchemaUntypedField InWater { get; }
@@ -84,7 +84,7 @@ SchemaUntypedField InWater { get; }
 
 ### PanicVariation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2ChickenGraphController.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2ChickenGraphController.cs#L34)
 
 ```csharp
 SchemaUntypedField PanicVariation { get; }
@@ -96,7 +96,7 @@ SchemaUntypedField PanicVariation { get; }
 
 ### RunVariation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2ChickenGraphController.cs#L30)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2ChickenGraphController.cs#L31)
 
 ```csharp
 SchemaUntypedField RunVariation { get; }
@@ -108,7 +108,7 @@ SchemaUntypedField RunVariation { get; }
 
 ### SquatVariation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2ChickenGraphController.cs#L36)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2ChickenGraphController.cs#L37)
 
 ```csharp
 SchemaUntypedField SquatVariation { get; }
@@ -120,7 +120,7 @@ SchemaUntypedField SquatVariation { get; }
 
 ### WaitingForCompletedEvent
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2ChickenGraphController.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2ChickenGraphController.cs#L44)
 
 ```csharp
 ref bool WaitingForCompletedEvent { get; }

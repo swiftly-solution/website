@@ -12,7 +12,7 @@ public interface CPulseGraphExecutionHistory : ISchemaClass<CPulseGraphExecution
 
 ### History
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphExecutionHistory.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphExecutionHistory.cs#L22)
 
 ```csharp
 ref CUtlVector<PointerTo<PulseGraphExecutionHistoryEntry_t>> History { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<PointerTo<PulseGraphExecutionHistoryEntry_t>> History { get; }
 
 ### InstanceID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphExecutionHistory.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphExecutionHistory.cs#L18)
 
 ```csharp
 PulseGraphInstanceID_t InstanceID { get; }
@@ -36,7 +36,7 @@ PulseGraphInstanceID_t InstanceID { get; }
 
 ### MapCellDesc
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphExecutionHistory.cs#L24)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphExecutionHistory.cs#L25)
 
 ```csharp
 SchemaUntypedField MapCellDesc { get; }
@@ -48,7 +48,7 @@ SchemaUntypedField MapCellDesc { get; }
 
 ### MapCursorDesc
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphExecutionHistory.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphExecutionHistory.cs#L28)
 
 ```csharp
 SchemaUntypedField MapCursorDesc { get; }
@@ -60,7 +60,7 @@ SchemaUntypedField MapCursorDesc { get; }
 
 ### StrFileName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphExecutionHistory.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphExecutionHistory.cs#L20)
 
 ```csharp
 string StrFileName { get; set; }

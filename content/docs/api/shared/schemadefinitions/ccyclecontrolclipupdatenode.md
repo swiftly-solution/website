@@ -12,7 +12,7 @@ public interface CCycleControlClipUpdateNode : CLeafUpdateNode, CAnimUpdateNodeB
 
 ### Duration
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCycleControlClipUpdateNode.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCycleControlClipUpdateNode.cs#L22)
 
 ```csharp
 ref float Duration { get; }
@@ -24,7 +24,7 @@ ref float Duration { get; }
 
 ### LockWhenWaning
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCycleControlClipUpdateNode.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCycleControlClipUpdateNode.cs#L28)
 
 ```csharp
 ref bool LockWhenWaning { get; }
@@ -36,7 +36,7 @@ ref bool LockWhenWaning { get; }
 
 ### ParamIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCycleControlClipUpdateNode.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCycleControlClipUpdateNode.cs#L26)
 
 ```csharp
 CAnimParamHandle ParamIndex { get; }
@@ -48,7 +48,7 @@ CAnimParamHandle ParamIndex { get; }
 
 ### Sequence
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCycleControlClipUpdateNode.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCycleControlClipUpdateNode.cs#L20)
 
 ```csharp
 HSequence Sequence { get; }
@@ -60,7 +60,7 @@ HSequence Sequence { get; }
 
 ### Tags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCycleControlClipUpdateNode.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCycleControlClipUpdateNode.cs#L18)
 
 ```csharp
 ref CUtlVector<TagSpan_t> Tags { get; }
@@ -72,7 +72,7 @@ ref CUtlVector<TagSpan_t> Tags { get; }
 
 ### ValueSource
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCycleControlClipUpdateNode.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCycleControlClipUpdateNode.cs#L24)
 
 ```csharp
 ref AnimValueSource ValueSource { get; }

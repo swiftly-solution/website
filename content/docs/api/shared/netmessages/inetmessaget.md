@@ -14,7 +14,7 @@ public interface INetMessage<T> where T : INetMessage<T>, ITypedProtobuf<T>, IDi
 
 ### MessageId
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/NetMessages/INetMessage.cs#L7)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/NetMessages/INetMessage.cs#L8)
 
 ```csharp
 public static abstract int MessageId { get; }
@@ -26,7 +26,7 @@ public static abstract int MessageId { get; }
 
 ### MessageName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/NetMessages/INetMessage.cs#L8)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/NetMessages/INetMessage.cs#L9)
 
 ```csharp
 public static abstract string MessageName { get; }
@@ -38,7 +38,7 @@ public static abstract string MessageName { get; }
 
 ### Recipients
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/NetMessages/INetMessage.cs#L10)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/NetMessages/INetMessage.cs#L11)
 
 ```csharp
 ref CRecipientFilter Recipients { get; }
@@ -52,7 +52,7 @@ ref CRecipientFilter Recipients { get; }
 
 ### Send()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/NetMessages/INetMessage.cs#L14)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/NetMessages/INetMessage.cs#L16)
 
 ```csharp
 void Send()
@@ -60,7 +60,7 @@ void Send()
 
 ### SendToAllPlayers()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/NetMessages/INetMessage.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/NetMessages/INetMessage.cs#L21)
 
 ```csharp
 void SendToAllPlayers()
@@ -68,7 +68,7 @@ void SendToAllPlayers()
 
 ### SendToPlayer(int)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/NetMessages/INetMessage.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/NetMessages/INetMessage.cs#L27)
 
 ```csharp
 void SendToPlayer(int playerId)

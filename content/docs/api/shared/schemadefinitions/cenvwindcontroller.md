@@ -12,7 +12,7 @@ public interface CEnvWindController : CBaseEntity, CEntityInstance, ISchemaClass
 
 ### ClipmapLevels
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindController.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindController.cs#L34)
 
 ```csharp
 ref int ClipmapLevels { get; }
@@ -24,7 +24,7 @@ ref int ClipmapLevels { get; }
 
 ### DirectionVariation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindController.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindController.cs#L20)
 
 ```csharp
 ref float DirectionVariation { get; }
@@ -36,7 +36,7 @@ ref float DirectionVariation { get; }
 
 ### EnvWindShared
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindController.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindController.cs#L18)
 
 ```csharp
 CEnvWindShared EnvWindShared { get; }
@@ -48,7 +48,7 @@ CEnvWindShared EnvWindShared { get; }
 
 ### FirstTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindController.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindController.cs#L38)
 
 ```csharp
 ref bool FirstTime { get; }
@@ -60,7 +60,7 @@ ref bool FirstTime { get; }
 
 ### IsMaster
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindController.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindController.cs#L36)
 
 ```csharp
 ref bool IsMaster { get; }
@@ -72,7 +72,7 @@ ref bool IsMaster { get; }
 
 ### SpeedVariation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindController.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindController.cs#L22)
 
 ```csharp
 ref float SpeedVariation { get; }
@@ -84,7 +84,7 @@ ref float SpeedVariation { get; }
 
 ### Turbulence
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindController.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindController.cs#L24)
 
 ```csharp
 ref float Turbulence { get; }
@@ -96,7 +96,7 @@ ref float Turbulence { get; }
 
 ### VolumeHalfExtentXY
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindController.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindController.cs#L26)
 
 ```csharp
 ref float VolumeHalfExtentXY { get; }
@@ -108,7 +108,7 @@ ref float VolumeHalfExtentXY { get; }
 
 ### VolumeHalfExtentZ
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindController.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindController.cs#L28)
 
 ```csharp
 ref float VolumeHalfExtentZ { get; }
@@ -120,7 +120,7 @@ ref float VolumeHalfExtentZ { get; }
 
 ### VolumeResolutionXY
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindController.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindController.cs#L30)
 
 ```csharp
 ref int VolumeResolutionXY { get; }
@@ -132,7 +132,7 @@ ref int VolumeResolutionXY { get; }
 
 ### VolumeResolutionZ
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindController.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindController.cs#L32)
 
 ```csharp
 ref int VolumeResolutionZ { get; }
@@ -146,7 +146,7 @@ ref int VolumeResolutionZ { get; }
 
 ### ClipmapLevelsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindController.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindController.cs#L48)
 
 ```csharp
 void ClipmapLevelsUpdated()
@@ -154,7 +154,7 @@ void ClipmapLevelsUpdated()
 
 ### DirectionVariationUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindController.cs#L40)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindController.cs#L41)
 
 ```csharp
 void DirectionVariationUpdated()
@@ -162,7 +162,7 @@ void DirectionVariationUpdated()
 
 ### EnvWindSharedUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindController.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindController.cs#L40)
 
 ```csharp
 void EnvWindSharedUpdated()
@@ -170,7 +170,7 @@ void EnvWindSharedUpdated()
 
 ### IsMasterUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindController.cs#L48)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindController.cs#L49)
 
 ```csharp
 void IsMasterUpdated()
@@ -178,7 +178,7 @@ void IsMasterUpdated()
 
 ### SpeedVariationUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindController.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindController.cs#L42)
 
 ```csharp
 void SpeedVariationUpdated()
@@ -186,7 +186,7 @@ void SpeedVariationUpdated()
 
 ### TurbulenceUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindController.cs#L42)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindController.cs#L43)
 
 ```csharp
 void TurbulenceUpdated()
@@ -194,7 +194,7 @@ void TurbulenceUpdated()
 
 ### VolumeHalfExtentXYUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindController.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindController.cs#L44)
 
 ```csharp
 void VolumeHalfExtentXYUpdated()
@@ -202,7 +202,7 @@ void VolumeHalfExtentXYUpdated()
 
 ### VolumeHalfExtentZUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindController.cs#L44)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindController.cs#L45)
 
 ```csharp
 void VolumeHalfExtentZUpdated()
@@ -210,7 +210,7 @@ void VolumeHalfExtentZUpdated()
 
 ### VolumeResolutionXYUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindController.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindController.cs#L46)
 
 ```csharp
 void VolumeResolutionXYUpdated()
@@ -218,7 +218,7 @@ void VolumeResolutionXYUpdated()
 
 ### VolumeResolutionZUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindController.cs#L46)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindController.cs#L47)
 
 ```csharp
 void VolumeResolutionZUpdated()

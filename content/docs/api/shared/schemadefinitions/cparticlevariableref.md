@@ -12,7 +12,7 @@ public interface CParticleVariableRef : ISchemaClass<CParticleVariableRef>, ISch
 
 ### VariableName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVariableRef.cs#L18)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVariableRef.cs#L19)
 
 ```csharp
 SchemaUntypedField VariableName { get; }
@@ -24,7 +24,7 @@ SchemaUntypedField VariableName { get; }
 
 ### VariableType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVariableRef.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVariableRef.cs#L22)
 
 ```csharp
 SchemaUntypedField VariableType { get; }

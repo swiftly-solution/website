@@ -12,7 +12,7 @@ public interface C_OP_Cull : CParticleFunctionOperator, CParticleFunction, ISche
 
 ### CullEnd
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_Cull.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_Cull.cs#L22)
 
 ```csharp
 ref float CullEnd { get; }
@@ -24,7 +24,7 @@ ref float CullEnd { get; }
 
 ### CullExp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_Cull.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_Cull.cs#L24)
 
 ```csharp
 ref float CullExp { get; }
@@ -36,7 +36,7 @@ ref float CullExp { get; }
 
 ### CullPerc
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_Cull.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_Cull.cs#L18)
 
 ```csharp
 ref float CullPerc { get; }
@@ -48,7 +48,7 @@ ref float CullPerc { get; }
 
 ### CullStart
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_Cull.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_Cull.cs#L20)
 
 ```csharp
 ref float CullStart { get; }

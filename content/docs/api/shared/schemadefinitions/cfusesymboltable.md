@@ -12,7 +12,7 @@ public interface CFuseSymbolTable : ISchemaClass<CFuseSymbolTable>, ISchemaField
 
 ### ConstantMap
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuseSymbolTable.cs#L24)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuseSymbolTable.cs#L25)
 
 ```csharp
 SchemaUntypedField ConstantMap { get; }
@@ -24,7 +24,7 @@ SchemaUntypedField ConstantMap { get; }
 
 ### Constants
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuseSymbolTable.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuseSymbolTable.cs#L18)
 
 ```csharp
 ref CUtlVector<ConstantInfo_t> Constants { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<ConstantInfo_t> Constants { get; }
 
 ### FunctionMap
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuseSymbolTable.cs#L30)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuseSymbolTable.cs#L31)
 
 ```csharp
 SchemaUntypedField FunctionMap { get; }
@@ -48,7 +48,7 @@ SchemaUntypedField FunctionMap { get; }
 
 ### Functions
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuseSymbolTable.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuseSymbolTable.cs#L22)
 
 ```csharp
 ref CUtlVector<FunctionInfo_t> Functions { get; }
@@ -60,7 +60,7 @@ ref CUtlVector<FunctionInfo_t> Functions { get; }
 
 ### VariableMap
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuseSymbolTable.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuseSymbolTable.cs#L28)
 
 ```csharp
 SchemaUntypedField VariableMap { get; }
@@ -72,7 +72,7 @@ SchemaUntypedField VariableMap { get; }
 
 ### Variables
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuseSymbolTable.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuseSymbolTable.cs#L20)
 
 ```csharp
 ref CUtlVector<VariableInfo_t> Variables { get; }

@@ -12,7 +12,7 @@ public interface CAnimDesc_Flag : ISchemaClass<CAnimDesc_Flag>, ISchemaField, IS
 
 ### AllZeros
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc_Flag.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc_Flag.cs#L20)
 
 ```csharp
 ref bool AllZeros { get; }
@@ -24,7 +24,7 @@ ref bool AllZeros { get; }
 
 ### AnimGraphAdditive
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc_Flag.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc_Flag.cs#L32)
 
 ```csharp
 ref bool AnimGraphAdditive { get; }
@@ -36,7 +36,7 @@ ref bool AnimGraphAdditive { get; }
 
 ### Delta
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc_Flag.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc_Flag.cs#L24)
 
 ```csharp
 ref bool Delta { get; }
@@ -48,7 +48,7 @@ ref bool Delta { get; }
 
 ### Hidden
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc_Flag.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc_Flag.cs#L22)
 
 ```csharp
 ref bool Hidden { get; }
@@ -60,7 +60,7 @@ ref bool Hidden { get; }
 
 ### ImplicitSeqIgnoreDelta
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc_Flag.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc_Flag.cs#L30)
 
 ```csharp
 ref bool ImplicitSeqIgnoreDelta { get; }
@@ -72,7 +72,7 @@ ref bool ImplicitSeqIgnoreDelta { get; }
 
 ### LegacyWorldspace
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc_Flag.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc_Flag.cs#L26)
 
 ```csharp
 ref bool LegacyWorldspace { get; }
@@ -84,7 +84,7 @@ ref bool LegacyWorldspace { get; }
 
 ### Looping
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc_Flag.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc_Flag.cs#L18)
 
 ```csharp
 ref bool Looping { get; }
@@ -96,7 +96,7 @@ ref bool Looping { get; }
 
 ### ModelDoc
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc_Flag.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc_Flag.cs#L28)
 
 ```csharp
 ref bool ModelDoc { get; }

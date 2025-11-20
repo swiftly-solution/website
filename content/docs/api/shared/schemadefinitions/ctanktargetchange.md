@@ -12,7 +12,7 @@ public interface CTankTargetChange : CPointEntity, CBaseEntity, CEntityInstance,
 
 ### NewTarget
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTankTargetChange.cs#L18)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTankTargetChange.cs#L19)
 
 ```csharp
 SchemaUntypedField NewTarget { get; }
@@ -24,7 +24,7 @@ SchemaUntypedField NewTarget { get; }
 
 ### NewTargetName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTankTargetChange.cs#L20)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTankTargetChange.cs#L21)
 
 ```csharp
 string NewTargetName { get; set; }

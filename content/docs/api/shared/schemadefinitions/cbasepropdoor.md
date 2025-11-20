@@ -12,7 +12,7 @@ public interface CBasePropDoor : CDynamicProp, CBreakableProp, CBaseProp, CBaseA
 
 ### Activator
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L46)
 
 ```csharp
 ref CHandle<CBaseEntity> Activator { get; }
@@ -24,7 +24,7 @@ ref CHandle<CBaseEntity> Activator { get; }
 
 ### AutoReturnDelay
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L18)
 
 ```csharp
 ref float AutoReturnDelay { get; }
@@ -36,7 +36,7 @@ ref float AutoReturnDelay { get; }
 
 ### Blocker
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L36)
 
 ```csharp
 ref CHandle<CBaseEntity> Blocker { get; }
@@ -48,7 +48,7 @@ ref CHandle<CBaseEntity> Blocker { get; }
 
 ### ClosedAngles
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L34)
 
 ```csharp
 ref QAngle ClosedAngles { get; }
@@ -60,7 +60,7 @@ ref QAngle ClosedAngles { get; }
 
 ### ClosedPosition
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L32)
 
 ```csharp
 ref Vector ClosedPosition { get; }
@@ -72,7 +72,7 @@ ref Vector ClosedPosition { get; }
 
 ### DoorList
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L20)
 
 ```csharp
 ref CUtlVector<CHandle<CBasePropDoor>> DoorList { get; }
@@ -84,7 +84,7 @@ ref CUtlVector<CHandle<CBasePropDoor>> DoorList { get; }
 
 ### DoorState
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L26)
 
 ```csharp
 ref DoorState_t DoorState { get; }
@@ -96,7 +96,7 @@ ref DoorState_t DoorState { get; }
 
 ### FirstBlocked
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L38)
 
 ```csharp
 ref bool FirstBlocked { get; }
@@ -108,7 +108,7 @@ ref bool FirstBlocked { get; }
 
 ### ForceClosed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L42)
 
 ```csharp
 ref bool ForceClosed { get; }
@@ -120,7 +120,7 @@ ref bool ForceClosed { get; }
 
 ### HardwareType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L22)
 
 ```csharp
 ref int HardwareType { get; }
@@ -132,7 +132,7 @@ ref int HardwareType { get; }
 
 ### LatchWorldPosition
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L44)
 
 ```csharp
 ref Vector LatchWorldPosition { get; }
@@ -144,7 +144,7 @@ ref Vector LatchWorldPosition { get; }
 
 ### Locked
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L28)
 
 ```csharp
 ref bool Locked { get; }
@@ -156,7 +156,7 @@ ref bool Locked { get; }
 
 ### Ls
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L40)
 
 ```csharp
 locksound_t Ls { get; }
@@ -168,7 +168,7 @@ locksound_t Ls { get; }
 
 ### Master
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L71)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L72)
 
 ```csharp
 ref CHandle<CBasePropDoor> Master { get; }
@@ -180,7 +180,7 @@ ref CHandle<CBasePropDoor> Master { get; }
 
 ### NeedsHardware
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L24)
 
 ```csharp
 ref bool NeedsHardware { get; }
@@ -192,7 +192,7 @@ ref bool NeedsHardware { get; }
 
 ### NoNPCs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L30)
 
 ```csharp
 ref bool NoNPCs { get; }
@@ -204,7 +204,7 @@ ref bool NoNPCs { get; }
 
 ### NumCloseAttempts
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L65)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L66)
 
 ```csharp
 ref int NumCloseAttempts { get; }
@@ -216,7 +216,7 @@ ref int NumCloseAttempts { get; }
 
 ### OnAjarOpen
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L91)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L92)
 
 ```csharp
 CEntityIOOutput OnAjarOpen { get; }
@@ -228,7 +228,7 @@ CEntityIOOutput OnAjarOpen { get; }
 
 ### OnBlockedClosing
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L73)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L74)
 
 ```csharp
 CEntityIOOutput OnBlockedClosing { get; }
@@ -240,7 +240,7 @@ CEntityIOOutput OnBlockedClosing { get; }
 
 ### OnBlockedOpening
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L75)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L76)
 
 ```csharp
 CEntityIOOutput OnBlockedOpening { get; }
@@ -252,7 +252,7 @@ CEntityIOOutput OnBlockedOpening { get; }
 
 ### OnClose
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L85)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L86)
 
 ```csharp
 CEntityIOOutput OnClose { get; }
@@ -264,7 +264,7 @@ CEntityIOOutput OnClose { get; }
 
 ### OnFullyClosed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L81)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L82)
 
 ```csharp
 CEntityIOOutput OnFullyClosed { get; }
@@ -276,7 +276,7 @@ CEntityIOOutput OnFullyClosed { get; }
 
 ### OnFullyOpen
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L83)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L84)
 
 ```csharp
 CEntityIOOutput OnFullyOpen { get; }
@@ -288,7 +288,7 @@ CEntityIOOutput OnFullyOpen { get; }
 
 ### OnLockedUse
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L89)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L90)
 
 ```csharp
 CEntityIOOutput OnLockedUse { get; }
@@ -300,7 +300,7 @@ CEntityIOOutput OnLockedUse { get; }
 
 ### OnOpen
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L87)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L88)
 
 ```csharp
 CEntityIOOutput OnOpen { get; }
@@ -312,7 +312,7 @@ CEntityIOOutput OnOpen { get; }
 
 ### OnUnblockedClosing
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L77)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L78)
 
 ```csharp
 CEntityIOOutput OnUnblockedClosing { get; }
@@ -324,7 +324,7 @@ CEntityIOOutput OnUnblockedClosing { get; }
 
 ### OnUnblockedOpening
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L79)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L80)
 
 ```csharp
 CEntityIOOutput OnUnblockedOpening { get; }
@@ -336,7 +336,7 @@ CEntityIOOutput OnUnblockedOpening { get; }
 
 ### PhysicsMaterial
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L67)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L68)
 
 ```csharp
 ref CUtlStringToken PhysicsMaterial { get; }
@@ -348,7 +348,7 @@ ref CUtlStringToken PhysicsMaterial { get; }
 
 ### SlaveName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L69)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L70)
 
 ```csharp
 string SlaveName { get; set; }
@@ -360,7 +360,7 @@ string SlaveName { get; set; }
 
 ### SoundClose
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L52)
 
 ```csharp
 string SoundClose { get; set; }
@@ -372,7 +372,7 @@ string SoundClose { get; set; }
 
 ### SoundJiggle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L62)
 
 ```csharp
 string SoundJiggle { get; set; }
@@ -384,7 +384,7 @@ string SoundJiggle { get; set; }
 
 ### SoundLatch
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L58)
 
 ```csharp
 string SoundLatch { get; set; }
@@ -396,7 +396,7 @@ string SoundLatch { get; set; }
 
 ### SoundLock
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L54)
 
 ```csharp
 string SoundLock { get; set; }
@@ -408,7 +408,7 @@ string SoundLock { get; set; }
 
 ### SoundLockedAnim
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L64)
 
 ```csharp
 string SoundLockedAnim { get; set; }
@@ -420,7 +420,7 @@ string SoundLockedAnim { get; set; }
 
 ### SoundMoving
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L48)
 
 ```csharp
 string SoundMoving { get; set; }
@@ -432,7 +432,7 @@ string SoundMoving { get; set; }
 
 ### SoundOpen
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L50)
 
 ```csharp
 string SoundOpen { get; set; }
@@ -444,7 +444,7 @@ string SoundOpen { get; set; }
 
 ### SoundPound
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L60)
 
 ```csharp
 string SoundPound { get; set; }
@@ -456,7 +456,7 @@ string SoundPound { get; set; }
 
 ### SoundUnlock
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L56)
 
 ```csharp
 string SoundUnlock { get; set; }
@@ -470,7 +470,7 @@ string SoundUnlock { get; set; }
 
 ### ClosedAnglesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L97)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L98)
 
 ```csharp
 void ClosedAnglesUpdated()
@@ -478,7 +478,7 @@ void ClosedAnglesUpdated()
 
 ### ClosedPositionUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L96)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L97)
 
 ```csharp
 void ClosedPositionUpdated()
@@ -486,7 +486,7 @@ void ClosedPositionUpdated()
 
 ### DoorStateUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L93)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L94)
 
 ```csharp
 void DoorStateUpdated()
@@ -494,7 +494,7 @@ void DoorStateUpdated()
 
 ### LockedUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L94)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L95)
 
 ```csharp
 void LockedUpdated()
@@ -502,7 +502,7 @@ void LockedUpdated()
 
 ### MasterUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L98)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L99)
 
 ```csharp
 void MasterUpdated()
@@ -510,7 +510,7 @@ void MasterUpdated()
 
 ### NoNPCsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L95)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePropDoor.cs#L96)
 
 ```csharp
 void NoNPCsUpdated()

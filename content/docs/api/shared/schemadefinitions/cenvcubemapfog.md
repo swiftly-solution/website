@@ -12,7 +12,7 @@ public interface CEnvCubemapFog : CBaseEntity, CEntityInstance, ISchemaClass<CEn
 
 ### Active
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L36)
 
 ```csharp
 ref bool Active { get; }
@@ -24,7 +24,7 @@ ref bool Active { get; }
 
 ### CubemapSourceType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L42)
 
 ```csharp
 ref int CubemapSourceType { get; }
@@ -36,7 +36,7 @@ ref int CubemapSourceType { get; }
 
 ### EndDistance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L18)
 
 ```csharp
 ref float EndDistance { get; }
@@ -48,7 +48,7 @@ ref float EndDistance { get; }
 
 ### FirstTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L52)
 
 ```csharp
 ref bool FirstTime { get; }
@@ -60,7 +60,7 @@ ref bool FirstTime { get; }
 
 ### FogCubemapTexture
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L48)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCTextureBase> FogCubemapTexture { get; }
@@ -72,7 +72,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> FogCubemapTexture { get; }
 
 ### FogFalloffExponent
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L22)
 
 ```csharp
 ref float FogFalloffExponent { get; }
@@ -84,7 +84,7 @@ ref float FogFalloffExponent { get; }
 
 ### FogHeightEnd
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L28)
 
 ```csharp
 ref float FogHeightEnd { get; }
@@ -96,7 +96,7 @@ ref float FogHeightEnd { get; }
 
 ### FogHeightExponent
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L32)
 
 ```csharp
 ref float FogHeightExponent { get; }
@@ -108,7 +108,7 @@ ref float FogHeightExponent { get; }
 
 ### FogHeightStart
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L30)
 
 ```csharp
 ref float FogHeightStart { get; }
@@ -120,7 +120,7 @@ ref float FogHeightStart { get; }
 
 ### FogHeightWidth
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L26)
 
 ```csharp
 ref float FogHeightWidth { get; }
@@ -132,7 +132,7 @@ ref float FogHeightWidth { get; }
 
 ### FogMaxOpacity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L40)
 
 ```csharp
 ref float FogMaxOpacity { get; }
@@ -144,7 +144,7 @@ ref float FogMaxOpacity { get; }
 
 ### HasHeightFogEnd
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L50)
 
 ```csharp
 ref bool HasHeightFogEnd { get; }
@@ -156,7 +156,7 @@ ref bool HasHeightFogEnd { get; }
 
 ### HeightFogEnabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L24)
 
 ```csharp
 ref bool HeightFogEnabled { get; }
@@ -168,7 +168,7 @@ ref bool HeightFogEnabled { get; }
 
 ### LODBias
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L34)
 
 ```csharp
 ref float LODBias { get; }
@@ -180,7 +180,7 @@ ref float LODBias { get; }
 
 ### SkyEntity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L46)
 
 ```csharp
 string SkyEntity { get; set; }
@@ -192,7 +192,7 @@ string SkyEntity { get; set; }
 
 ### SkyMaterial
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L44)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeIMaterial2> SkyMaterial { get; }
@@ -204,7 +204,7 @@ ref CStrongHandle<InfoForResourceTypeIMaterial2> SkyMaterial { get; }
 
 ### StartDisabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L38)
 
 ```csharp
 ref bool StartDisabled { get; }
@@ -216,7 +216,7 @@ ref bool StartDisabled { get; }
 
 ### StartDistance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L20)
 
 ```csharp
 ref float StartDistance { get; }
@@ -230,7 +230,7 @@ ref float StartDistance { get; }
 
 ### ActiveUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L62)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L63)
 
 ```csharp
 void ActiveUpdated()
@@ -238,7 +238,7 @@ void ActiveUpdated()
 
 ### CubemapSourceTypeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L65)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L66)
 
 ```csharp
 void CubemapSourceTypeUpdated()
@@ -246,7 +246,7 @@ void CubemapSourceTypeUpdated()
 
 ### EndDistanceUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L54)
 
 ```csharp
 void EndDistanceUpdated()
@@ -254,7 +254,7 @@ void EndDistanceUpdated()
 
 ### FogCubemapTextureUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L68)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L69)
 
 ```csharp
 void FogCubemapTextureUpdated()
@@ -262,7 +262,7 @@ void FogCubemapTextureUpdated()
 
 ### FogFalloffExponentUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L56)
 
 ```csharp
 void FogFalloffExponentUpdated()
@@ -270,7 +270,7 @@ void FogFalloffExponentUpdated()
 
 ### FogHeightEndUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L58)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L59)
 
 ```csharp
 void FogHeightEndUpdated()
@@ -278,7 +278,7 @@ void FogHeightEndUpdated()
 
 ### FogHeightExponentUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L60)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L61)
 
 ```csharp
 void FogHeightExponentUpdated()
@@ -286,7 +286,7 @@ void FogHeightExponentUpdated()
 
 ### FogHeightStartUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L60)
 
 ```csharp
 void FogHeightStartUpdated()
@@ -294,7 +294,7 @@ void FogHeightStartUpdated()
 
 ### FogHeightWidthUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L58)
 
 ```csharp
 void FogHeightWidthUpdated()
@@ -302,7 +302,7 @@ void FogHeightWidthUpdated()
 
 ### FogMaxOpacityUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L64)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L65)
 
 ```csharp
 void FogMaxOpacityUpdated()
@@ -310,7 +310,7 @@ void FogMaxOpacityUpdated()
 
 ### HasHeightFogEndUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L69)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L70)
 
 ```csharp
 void HasHeightFogEndUpdated()
@@ -318,7 +318,7 @@ void HasHeightFogEndUpdated()
 
 ### HeightFogEnabledUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L56)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L57)
 
 ```csharp
 void HeightFogEnabledUpdated()
@@ -326,7 +326,7 @@ void HeightFogEnabledUpdated()
 
 ### LODBiasUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L62)
 
 ```csharp
 void LODBiasUpdated()
@@ -334,7 +334,7 @@ void LODBiasUpdated()
 
 ### SkyEntityUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L67)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L68)
 
 ```csharp
 void SkyEntityUpdated()
@@ -342,7 +342,7 @@ void SkyEntityUpdated()
 
 ### SkyMaterialUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L66)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L67)
 
 ```csharp
 void SkyMaterialUpdated()
@@ -350,7 +350,7 @@ void SkyMaterialUpdated()
 
 ### StartDisabledUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L64)
 
 ```csharp
 void StartDisabledUpdated()
@@ -358,7 +358,7 @@ void StartDisabledUpdated()
 
 ### StartDistanceUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L54)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCubemapFog.cs#L55)
 
 ```csharp
 void StartDistanceUpdated()

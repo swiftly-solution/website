@@ -12,7 +12,7 @@ public interface VPhysXRange_t : ISchemaClass<VPhysXRange_t>, ISchemaField, ISch
 
 ### Max
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXRange_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXRange_t.cs#L20)
 
 ```csharp
 ref float Max { get; }
@@ -24,7 +24,7 @@ ref float Max { get; }
 
 ### Min
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXRange_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXRange_t.cs#L18)
 
 ```csharp
 ref float Min { get; }

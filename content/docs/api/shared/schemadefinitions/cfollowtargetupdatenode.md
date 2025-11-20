@@ -12,7 +12,7 @@ public interface CFollowTargetUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase
 
 ### OpFixedData
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFollowTargetUpdateNode.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFollowTargetUpdateNode.cs#L18)
 
 ```csharp
 FollowTargetOpFixedSettings_t OpFixedData { get; }
@@ -24,7 +24,7 @@ FollowTargetOpFixedSettings_t OpFixedData { get; }
 
 ### ParameterOrientation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFollowTargetUpdateNode.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFollowTargetUpdateNode.cs#L22)
 
 ```csharp
 CAnimParamHandle ParameterOrientation { get; }
@@ -36,7 +36,7 @@ CAnimParamHandle ParameterOrientation { get; }
 
 ### ParameterPosition
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFollowTargetUpdateNode.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFollowTargetUpdateNode.cs#L20)
 
 ```csharp
 CAnimParamHandle ParameterPosition { get; }

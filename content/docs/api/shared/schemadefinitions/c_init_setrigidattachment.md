@@ -12,7 +12,7 @@ public interface C_INIT_SetRigidAttachment : CParticleFunctionInitializer, CPart
 
 ### ControlPointNumber
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetRigidAttachment.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetRigidAttachment.cs#L18)
 
 ```csharp
 ref int ControlPointNumber { get; }
@@ -24,7 +24,7 @@ ref int ControlPointNumber { get; }
 
 ### FieldInput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetRigidAttachment.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetRigidAttachment.cs#L20)
 
 ```csharp
 ParticleAttributeIndex_t FieldInput { get; }
@@ -36,7 +36,7 @@ ParticleAttributeIndex_t FieldInput { get; }
 
 ### FieldOutput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetRigidAttachment.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetRigidAttachment.cs#L22)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -48,7 +48,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 ### LocalSpace
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetRigidAttachment.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetRigidAttachment.cs#L24)
 
 ```csharp
 ref bool LocalSpace { get; }

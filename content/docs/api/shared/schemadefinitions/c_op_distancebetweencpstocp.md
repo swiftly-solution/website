@@ -12,7 +12,7 @@ public interface C_OP_DistanceBetweenCPsToCP : CParticleFunctionPreEmission, CPa
 
 ### CollisionGroupName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenCPsToCP.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenCPsToCP.cs#L42)
 
 ```csharp
 string CollisionGroupName { get; set; }
@@ -24,7 +24,7 @@ string CollisionGroupName { get; set; }
 
 ### EndCP
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenCPsToCP.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenCPsToCP.cs#L20)
 
 ```csharp
 ref int EndCP { get; }
@@ -36,7 +36,7 @@ ref int EndCP { get; }
 
 ### InputMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenCPsToCP.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenCPsToCP.cs#L30)
 
 ```csharp
 ref float InputMax { get; }
@@ -48,7 +48,7 @@ ref float InputMax { get; }
 
 ### InputMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenCPsToCP.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenCPsToCP.cs#L28)
 
 ```csharp
 ref float InputMin { get; }
@@ -60,7 +60,7 @@ ref float InputMin { get; }
 
 ### LOS
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenCPsToCP.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenCPsToCP.cs#L40)
 
 ```csharp
 ref bool LOS { get; }
@@ -72,7 +72,7 @@ ref bool LOS { get; }
 
 ### LOSScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenCPsToCP.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenCPsToCP.cs#L38)
 
 ```csharp
 ref float LOSScale { get; }
@@ -84,7 +84,7 @@ ref float LOSScale { get; }
 
 ### MaxTraceLength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenCPsToCP.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenCPsToCP.cs#L36)
 
 ```csharp
 ref float MaxTraceLength { get; }
@@ -96,7 +96,7 @@ ref float MaxTraceLength { get; }
 
 ### OutputCP
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenCPsToCP.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenCPsToCP.cs#L22)
 
 ```csharp
 ref int OutputCP { get; }
@@ -108,7 +108,7 @@ ref int OutputCP { get; }
 
 ### OutputCPField
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenCPsToCP.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenCPsToCP.cs#L24)
 
 ```csharp
 ref int OutputCPField { get; }
@@ -120,7 +120,7 @@ ref int OutputCPField { get; }
 
 ### OutputMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenCPsToCP.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenCPsToCP.cs#L34)
 
 ```csharp
 ref float OutputMax { get; }
@@ -132,7 +132,7 @@ ref float OutputMax { get; }
 
 ### OutputMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenCPsToCP.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenCPsToCP.cs#L32)
 
 ```csharp
 ref float OutputMin { get; }
@@ -144,7 +144,7 @@ ref float OutputMin { get; }
 
 ### SetOnce
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenCPsToCP.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenCPsToCP.cs#L26)
 
 ```csharp
 ref bool SetOnce { get; }
@@ -156,7 +156,7 @@ ref bool SetOnce { get; }
 
 ### SetParent
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenCPsToCP.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenCPsToCP.cs#L46)
 
 ```csharp
 ref ParticleParentSetMode_t SetParent { get; }
@@ -168,7 +168,7 @@ ref ParticleParentSetMode_t SetParent { get; }
 
 ### StartCP
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenCPsToCP.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenCPsToCP.cs#L18)
 
 ```csharp
 ref int StartCP { get; }
@@ -180,7 +180,7 @@ ref int StartCP { get; }
 
 ### TraceSet
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenCPsToCP.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenCPsToCP.cs#L44)
 
 ```csharp
 ref ParticleTraceSet_t TraceSet { get; }

@@ -12,7 +12,7 @@ public interface CTakeDamageSummaryScopeGuard : ISchemaClass<CTakeDamageSummaryS
 
 ### Summaries
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTakeDamageSummaryScopeGuard.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTakeDamageSummaryScopeGuard.cs#L18)
 
 ```csharp
 ref CUtlVector<PointerTo<SummaryTakeDamageInfo_t>> Summaries { get; }

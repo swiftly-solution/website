@@ -12,7 +12,7 @@ public interface C_OP_GameLiquidSpill : CParticleFunctionRenderer, CParticleFunc
 
 ### AmountAttribute
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_GameLiquidSpill.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_GameLiquidSpill.cs#L22)
 
 ```csharp
 ParticleAttributeIndex_t AmountAttribute { get; }
@@ -24,7 +24,7 @@ ParticleAttributeIndex_t AmountAttribute { get; }
 
 ### ExpirationTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_GameLiquidSpill.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_GameLiquidSpill.cs#L20)
 
 ```csharp
 CParticleCollectionFloatInput ExpirationTime { get; }
@@ -36,7 +36,7 @@ CParticleCollectionFloatInput ExpirationTime { get; }
 
 ### LiquidContentsField
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_GameLiquidSpill.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_GameLiquidSpill.cs#L18)
 
 ```csharp
 CParticleCollectionFloatInput LiquidContentsField { get; }

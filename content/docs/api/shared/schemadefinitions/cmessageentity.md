@@ -12,7 +12,7 @@ public interface CMessageEntity : CPointEntity, CBaseEntity, CEntityInstance, IS
 
 ### DeveloperOnly
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMessageEntity.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMessageEntity.cs#L24)
 
 ```csharp
 ref bool DeveloperOnly { get; }
@@ -24,7 +24,7 @@ ref bool DeveloperOnly { get; }
 
 ### DrawText
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMessageEntity.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMessageEntity.cs#L22)
 
 ```csharp
 ref bool DrawText { get; }
@@ -36,7 +36,7 @@ ref bool DrawText { get; }
 
 ### Enabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMessageEntity.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMessageEntity.cs#L26)
 
 ```csharp
 ref bool Enabled { get; }
@@ -48,7 +48,7 @@ ref bool Enabled { get; }
 
 ### MessageText
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMessageEntity.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMessageEntity.cs#L20)
 
 ```csharp
 string MessageText { get; set; }
@@ -60,7 +60,7 @@ string MessageText { get; set; }
 
 ### Radius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMessageEntity.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMessageEntity.cs#L18)
 
 ```csharp
 ref int Radius { get; }

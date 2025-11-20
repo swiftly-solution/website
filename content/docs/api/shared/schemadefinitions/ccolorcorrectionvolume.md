@@ -12,7 +12,7 @@ public interface CColorCorrectionVolume : CBaseTrigger, CBaseToggle, CBaseModelE
 
 ### FadeDuration
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrectionVolume.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrectionVolume.cs#L20)
 
 ```csharp
 ref float FadeDuration { get; }
@@ -24,7 +24,7 @@ ref float FadeDuration { get; }
 
 ### LastEnterTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrectionVolume.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrectionVolume.cs#L28)
 
 ```csharp
 GameTime_t LastEnterTime { get; }
@@ -36,7 +36,7 @@ GameTime_t LastEnterTime { get; }
 
 ### LastEnterWeight
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrectionVolume.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrectionVolume.cs#L26)
 
 ```csharp
 ref float LastEnterWeight { get; }
@@ -48,7 +48,7 @@ ref float LastEnterWeight { get; }
 
 ### LastExitTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrectionVolume.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrectionVolume.cs#L32)
 
 ```csharp
 GameTime_t LastExitTime { get; }
@@ -60,7 +60,7 @@ GameTime_t LastExitTime { get; }
 
 ### LastExitWeight
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrectionVolume.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrectionVolume.cs#L30)
 
 ```csharp
 ref float LastExitWeight { get; }
@@ -72,7 +72,7 @@ ref float LastExitWeight { get; }
 
 ### LookupFilename
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrectionVolume.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrectionVolume.cs#L24)
 
 ```csharp
 string LookupFilename { get; set; }
@@ -84,7 +84,7 @@ string LookupFilename { get; set; }
 
 ### MaxWeight
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrectionVolume.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrectionVolume.cs#L18)
 
 ```csharp
 ref float MaxWeight { get; }
@@ -96,7 +96,7 @@ ref float MaxWeight { get; }
 
 ### Weight
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrectionVolume.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrectionVolume.cs#L22)
 
 ```csharp
 ref float Weight { get; }
@@ -110,7 +110,7 @@ ref float Weight { get; }
 
 ### FadeDurationUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrectionVolume.cs#L34)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrectionVolume.cs#L35)
 
 ```csharp
 void FadeDurationUpdated()
@@ -118,7 +118,7 @@ void FadeDurationUpdated()
 
 ### LookupFilenameUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrectionVolume.cs#L36)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrectionVolume.cs#L37)
 
 ```csharp
 void LookupFilenameUpdated()
@@ -126,7 +126,7 @@ void LookupFilenameUpdated()
 
 ### MaxWeightUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrectionVolume.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrectionVolume.cs#L34)
 
 ```csharp
 void MaxWeightUpdated()
@@ -134,7 +134,7 @@ void MaxWeightUpdated()
 
 ### WeightUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrectionVolume.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrectionVolume.cs#L36)
 
 ```csharp
 void WeightUpdated()

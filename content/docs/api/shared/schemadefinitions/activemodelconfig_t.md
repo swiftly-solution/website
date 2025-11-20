@@ -12,7 +12,7 @@ public interface ActiveModelConfig_t : ISchemaClass<ActiveModelConfig_t>, ISchem
 
 ### AssociatedEntities
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ActiveModelConfig_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ActiveModelConfig_t.cs#L22)
 
 ```csharp
 ref CUtlVector<CHandle<CBaseModelEntity>> AssociatedEntities { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<CHandle<CBaseModelEntity>> AssociatedEntities { get; }
 
 ### AssociatedEntityNames
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ActiveModelConfig_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ActiveModelConfig_t.cs#L24)
 
 ```csharp
 ref CUtlVector<SchemaUntypedField> AssociatedEntityNames { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<SchemaUntypedField> AssociatedEntityNames { get; }
 
 ### Handle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ActiveModelConfig_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ActiveModelConfig_t.cs#L18)
 
 ```csharp
 ModelConfigHandle_t Handle { get; }
@@ -48,7 +48,7 @@ ModelConfigHandle_t Handle { get; }
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ActiveModelConfig_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ActiveModelConfig_t.cs#L20)
 
 ```csharp
 string Name { get; set; }
@@ -62,7 +62,7 @@ string Name { get; set; }
 
 ### AssociatedEntitiesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ActiveModelConfig_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ActiveModelConfig_t.cs#L28)
 
 ```csharp
 void AssociatedEntitiesUpdated()
@@ -70,7 +70,7 @@ void AssociatedEntitiesUpdated()
 
 ### AssociatedEntityNamesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ActiveModelConfig_t.cs#L28)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ActiveModelConfig_t.cs#L29)
 
 ```csharp
 void AssociatedEntityNamesUpdated()
@@ -78,7 +78,7 @@ void AssociatedEntityNamesUpdated()
 
 ### HandleUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ActiveModelConfig_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ActiveModelConfig_t.cs#L26)
 
 ```csharp
 void HandleUpdated()
@@ -86,7 +86,7 @@ void HandleUpdated()
 
 ### NameUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ActiveModelConfig_t.cs#L26)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ActiveModelConfig_t.cs#L27)
 
 ```csharp
 void NameUpdated()

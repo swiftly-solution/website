@@ -12,7 +12,7 @@ public interface CLogicAuto : CBaseEntity, CEntityInstance, ISchemaClass<CEntity
 
 ### Globalstate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicAuto.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicAuto.cs#L38)
 
 ```csharp
 string Globalstate { get; set; }
@@ -24,7 +24,7 @@ string Globalstate { get; set; }
 
 ### OnBackgroundMap
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicAuto.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicAuto.cs#L28)
 
 ```csharp
 CEntityIOOutput OnBackgroundMap { get; }
@@ -36,7 +36,7 @@ CEntityIOOutput OnBackgroundMap { get; }
 
 ### OnDemoMapSpawn
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicAuto.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicAuto.cs#L20)
 
 ```csharp
 CEntityIOOutput OnDemoMapSpawn { get; }
@@ -48,7 +48,7 @@ CEntityIOOutput OnDemoMapSpawn { get; }
 
 ### OnLoadGame
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicAuto.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicAuto.cs#L24)
 
 ```csharp
 CEntityIOOutput OnLoadGame { get; }
@@ -60,7 +60,7 @@ CEntityIOOutput OnLoadGame { get; }
 
 ### OnMapSpawn
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicAuto.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicAuto.cs#L18)
 
 ```csharp
 CEntityIOOutput OnMapSpawn { get; }
@@ -72,7 +72,7 @@ CEntityIOOutput OnMapSpawn { get; }
 
 ### OnMapTransition
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicAuto.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicAuto.cs#L26)
 
 ```csharp
 CEntityIOOutput OnMapTransition { get; }
@@ -84,7 +84,7 @@ CEntityIOOutput OnMapTransition { get; }
 
 ### OnMultiNewMap
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicAuto.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicAuto.cs#L30)
 
 ```csharp
 CEntityIOOutput OnMultiNewMap { get; }
@@ -96,7 +96,7 @@ CEntityIOOutput OnMultiNewMap { get; }
 
 ### OnMultiNewRound
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicAuto.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicAuto.cs#L32)
 
 ```csharp
 CEntityIOOutput OnMultiNewRound { get; }
@@ -108,7 +108,7 @@ CEntityIOOutput OnMultiNewRound { get; }
 
 ### OnNewGame
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicAuto.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicAuto.cs#L22)
 
 ```csharp
 CEntityIOOutput OnNewGame { get; }
@@ -120,7 +120,7 @@ CEntityIOOutput OnNewGame { get; }
 
 ### OnVREnabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicAuto.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicAuto.cs#L34)
 
 ```csharp
 CEntityIOOutput OnVREnabled { get; }
@@ -132,7 +132,7 @@ CEntityIOOutput OnVREnabled { get; }
 
 ### OnVRNotEnabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicAuto.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicAuto.cs#L36)
 
 ```csharp
 CEntityIOOutput OnVRNotEnabled { get; }

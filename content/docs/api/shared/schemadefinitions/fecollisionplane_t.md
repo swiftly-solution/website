@@ -12,7 +12,7 @@ public interface FeCollisionPlane_t : ISchemaClass<FeCollisionPlane_t>, ISchemaF
 
 ### ChildNode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeCollisionPlane_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeCollisionPlane_t.cs#L20)
 
 ```csharp
 ref ushort ChildNode { get; }
@@ -24,7 +24,7 @@ ref ushort ChildNode { get; }
 
 ### CtrlParent
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeCollisionPlane_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeCollisionPlane_t.cs#L18)
 
 ```csharp
 ref ushort CtrlParent { get; }
@@ -36,7 +36,7 @@ ref ushort CtrlParent { get; }
 
 ### Plane
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeCollisionPlane_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeCollisionPlane_t.cs#L22)
 
 ```csharp
 RnPlane_t Plane { get; }
@@ -48,7 +48,7 @@ RnPlane_t Plane { get; }
 
 ### Strength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeCollisionPlane_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeCollisionPlane_t.cs#L24)
 
 ```csharp
 ref float Strength { get; }

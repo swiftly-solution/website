@@ -12,7 +12,7 @@ public interface GameTime_t : ISchemaClass<GameTime_t>, ISchemaField, ISchemaCla
 
 ### Value
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/GameTime_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/GameTime_t.cs#L18)
 
 ```csharp
 ref float Value { get; }

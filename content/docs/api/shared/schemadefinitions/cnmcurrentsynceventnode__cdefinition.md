@@ -12,7 +12,7 @@ public interface CNmCurrentSyncEventNode__CDefinition : CNmFloatValueNode__CDefi
 
 ### InfoType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmCurrentSyncEventNode__CDefinition.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmCurrentSyncEventNode__CDefinition.cs#L20)
 
 ```csharp
 ref CNmCurrentSyncEventNode__InfoType_t InfoType { get; }
@@ -24,7 +24,7 @@ ref CNmCurrentSyncEventNode__InfoType_t InfoType { get; }
 
 ### SourceStateNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmCurrentSyncEventNode__CDefinition.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmCurrentSyncEventNode__CDefinition.cs#L18)
 
 ```csharp
 ref short SourceStateNodeIdx { get; }

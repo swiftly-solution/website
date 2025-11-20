@@ -12,7 +12,7 @@ public interface CBreakableProp : CBaseProp, CBaseAnimGraph, CBaseModelEntity, C
 
 ### BreakableContentsType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L46)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L47)
 
 ```csharp
 ref BreakableContentsType_t BreakableContentsType { get; }
@@ -24,7 +24,7 @@ ref BreakableContentsType_t BreakableContentsType { get; }
 
 ### Breaker
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L40)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L41)
 
 ```csharp
 ref CHandle<CBaseEntity> Breaker { get; }
@@ -36,7 +36,7 @@ ref CHandle<CBaseEntity> Breaker { get; }
 
 ### CPropDataComponent
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L18)
 
 ```csharp
 CPropDataComponent CPropDataComponent { get; }
@@ -48,7 +48,7 @@ CPropDataComponent CPropDataComponent { get; }
 
 ### DefBurstOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L38)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L39)
 
 ```csharp
 ref Vector DefBurstOffset { get; }
@@ -60,7 +60,7 @@ ref Vector DefBurstOffset { get; }
 
 ### DefBurstScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L36)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L37)
 
 ```csharp
 ref float DefBurstScale { get; }
@@ -72,7 +72,7 @@ ref float DefBurstScale { get; }
 
 ### DefaultFadeScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L72)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L73)
 
 ```csharp
 ref float DefaultFadeScale { get; }
@@ -84,7 +84,7 @@ ref float DefaultFadeScale { get; }
 
 ### ExplodeDamage
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L54)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L55)
 
 ```csharp
 ref float ExplodeDamage { get; }
@@ -96,7 +96,7 @@ ref float ExplodeDamage { get; }
 
 ### ExplodeRadius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L56)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L57)
 
 ```csharp
 ref float ExplodeRadius { get; }
@@ -108,7 +108,7 @@ ref float ExplodeRadius { get; }
 
 ### ExplosionBuildupSound
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L60)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L61)
 
 ```csharp
 string ExplosionBuildupSound { get; set; }
@@ -120,7 +120,7 @@ string ExplosionBuildupSound { get; set; }
 
 ### ExplosionCustomEffect
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L62)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L63)
 
 ```csharp
 string ExplosionCustomEffect { get; set; }
@@ -132,7 +132,7 @@ string ExplosionCustomEffect { get; set; }
 
 ### ExplosionCustomSound
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L64)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L65)
 
 ```csharp
 string ExplosionCustomSound { get; set; }
@@ -144,7 +144,7 @@ string ExplosionCustomSound { get; set; }
 
 ### ExplosionDelay
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L58)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L59)
 
 ```csharp
 ref float ExplosionDelay { get; }
@@ -156,7 +156,7 @@ ref float ExplosionDelay { get; }
 
 ### ExplosionModifier
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L66)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L67)
 
 ```csharp
 string ExplosionModifier { get; set; }
@@ -168,7 +168,7 @@ string ExplosionModifier { get; set; }
 
 ### HasBreakPiecesOrCommands
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L52)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L53)
 
 ```csharp
 ref bool HasBreakPiecesOrCommands { get; }
@@ -180,7 +180,7 @@ ref bool HasBreakPiecesOrCommands { get; }
 
 ### ImpactEnergyScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L28)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L29)
 
 ```csharp
 ref float ImpactEnergyScale { get; }
@@ -192,7 +192,7 @@ ref float ImpactEnergyScale { get; }
 
 ### LastAttacker
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L74)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L75)
 
 ```csharp
 ref CHandle<CBaseEntity> LastAttacker { get; }
@@ -204,7 +204,7 @@ ref CHandle<CBaseEntity> LastAttacker { get; }
 
 ### LastPhysicsInfluenceTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L70)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L71)
 
 ```csharp
 GameTime_t LastPhysicsInfluenceTime { get; }
@@ -216,7 +216,7 @@ GameTime_t LastPhysicsInfluenceTime { get; }
 
 ### MinHealthDmg
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L30)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L31)
 
 ```csharp
 ref int MinHealthDmg { get; }
@@ -228,7 +228,7 @@ ref int MinHealthDmg { get; }
 
 ### OnBreak
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L22)
 
 ```csharp
 CEntityIOOutput OnBreak { get; }
@@ -240,7 +240,7 @@ CEntityIOOutput OnBreak { get; }
 
 ### OnHealthChanged
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L24)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L25)
 
 ```csharp
 SchemaUntypedField OnHealthChanged { get; }
@@ -252,7 +252,7 @@ SchemaUntypedField OnHealthChanged { get; }
 
 ### OnStartDeath
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L20)
 
 ```csharp
 CEntityIOOutput OnStartDeath { get; }
@@ -264,7 +264,7 @@ CEntityIOOutput OnStartDeath { get; }
 
 ### OnTakeDamage
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L26)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L27)
 
 ```csharp
 CEntityIOOutput OnTakeDamage { get; }
@@ -276,7 +276,7 @@ CEntityIOOutput OnTakeDamage { get; }
 
 ### OriginalBlockLOS
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L80)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L81)
 
 ```csharp
 ref bool OriginalBlockLOS { get; }
@@ -288,7 +288,7 @@ ref bool OriginalBlockLOS { get; }
 
 ### PerformanceMode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L42)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L43)
 
 ```csharp
 ref PerformanceMode_t PerformanceMode { get; }
@@ -300,7 +300,7 @@ ref PerformanceMode_t PerformanceMode { get; }
 
 ### PhysicsAttacker
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L68)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L69)
 
 ```csharp
 ref CHandle<CBasePlayerPawn> PhysicsAttacker { get; }
@@ -312,7 +312,7 @@ ref CHandle<CBasePlayerPawn> PhysicsAttacker { get; }
 
 ### PreferredCarryAngles
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L32)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L33)
 
 ```csharp
 ref QAngle PreferredCarryAngles { get; }
@@ -324,7 +324,7 @@ ref QAngle PreferredCarryAngles { get; }
 
 ### PressureDelay
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L34)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L35)
 
 ```csharp
 ref float PressureDelay { get; }
@@ -336,7 +336,7 @@ ref float PressureDelay { get; }
 
 ### PreventDamageBeforeTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L44)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L45)
 
 ```csharp
 GameTime_t PreventDamageBeforeTime { get; }
@@ -348,7 +348,7 @@ GameTime_t PreventDamageBeforeTime { get; }
 
 ### PuntSound
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L76)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L77)
 
 ```csharp
 string PuntSound { get; set; }
@@ -360,7 +360,7 @@ string PuntSound { get; set; }
 
 ### StrBreakableContentsParticleOverride
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L50)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L51)
 
 ```csharp
 string StrBreakableContentsParticleOverride { get; set; }
@@ -372,7 +372,7 @@ string StrBreakableContentsParticleOverride { get; set; }
 
 ### StrBreakableContentsPropGroupOverride
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L48)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L49)
 
 ```csharp
 string StrBreakableContentsPropGroupOverride { get; set; }
@@ -384,7 +384,7 @@ string StrBreakableContentsPropGroupOverride { get; set; }
 
 ### UsePuntSound
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L78)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L79)
 
 ```csharp
 ref bool UsePuntSound { get; }
@@ -398,7 +398,7 @@ ref bool UsePuntSound { get; }
 
 ### CPropDataComponentUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L82)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L83)
 
 ```csharp
 void CPropDataComponentUpdated()

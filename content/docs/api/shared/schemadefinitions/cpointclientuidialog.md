@@ -12,7 +12,7 @@ public interface CPointClientUIDialog : CBaseClientUIEntity, CBaseModelEntity, C
 
 ### Activator
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIDialog.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIDialog.cs#L18)
 
 ```csharp
 ref CHandle<CBaseEntity> Activator { get; }
@@ -24,7 +24,7 @@ ref CHandle<CBaseEntity> Activator { get; }
 
 ### StartEnabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIDialog.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIDialog.cs#L20)
 
 ```csharp
 ref bool StartEnabled { get; }
@@ -38,7 +38,7 @@ ref bool StartEnabled { get; }
 
 ### ActivatorUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIDialog.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIDialog.cs#L22)
 
 ```csharp
 void ActivatorUpdated()

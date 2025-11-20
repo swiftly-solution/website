@@ -12,7 +12,7 @@ public interface CNmRootMotionOverrideNode__CDefinition : CNmPassthroughNode__CD
 
 ### AngularVelocityLimitNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionOverrideNode__CDefinition.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionOverrideNode__CDefinition.cs#L24)
 
 ```csharp
 ref short AngularVelocityLimitNodeIdx { get; }
@@ -24,7 +24,7 @@ ref short AngularVelocityLimitNodeIdx { get; }
 
 ### DesiredFacingDirectionNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionOverrideNode__CDefinition.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionOverrideNode__CDefinition.cs#L20)
 
 ```csharp
 ref short DesiredFacingDirectionNodeIdx { get; }
@@ -36,7 +36,7 @@ ref short DesiredFacingDirectionNodeIdx { get; }
 
 ### DesiredMovingVelocityNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionOverrideNode__CDefinition.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionOverrideNode__CDefinition.cs#L18)
 
 ```csharp
 ref short DesiredMovingVelocityNodeIdx { get; }
@@ -48,7 +48,7 @@ ref short DesiredMovingVelocityNodeIdx { get; }
 
 ### LinearVelocityLimitNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionOverrideNode__CDefinition.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionOverrideNode__CDefinition.cs#L22)
 
 ```csharp
 ref short LinearVelocityLimitNodeIdx { get; }
@@ -60,7 +60,7 @@ ref short LinearVelocityLimitNodeIdx { get; }
 
 ### MaxAngularVelocityRadians
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionOverrideNode__CDefinition.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionOverrideNode__CDefinition.cs#L28)
 
 ```csharp
 ref float MaxAngularVelocityRadians { get; }
@@ -72,7 +72,7 @@ ref float MaxAngularVelocityRadians { get; }
 
 ### MaxLinearVelocity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionOverrideNode__CDefinition.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionOverrideNode__CDefinition.cs#L26)
 
 ```csharp
 ref float MaxLinearVelocity { get; }
@@ -84,7 +84,7 @@ ref float MaxLinearVelocity { get; }
 
 ### OverrideFlags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionOverrideNode__CDefinition.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionOverrideNode__CDefinition.cs#L30)
 
 ```csharp
 CNmBitFlags OverrideFlags { get; }

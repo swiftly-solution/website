@@ -12,7 +12,7 @@ public interface MotionBlendItem : ISchemaClass<MotionBlendItem>, ISchemaField, 
 
 ### Child
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MotionBlendItem.cs#L18)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MotionBlendItem.cs#L19)
 
 ```csharp
 SchemaUntypedField Child { get; }
@@ -24,7 +24,7 @@ SchemaUntypedField Child { get; }
 
 ### KeyValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MotionBlendItem.cs#L20)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MotionBlendItem.cs#L21)
 
 ```csharp
 ref float KeyValue { get; }

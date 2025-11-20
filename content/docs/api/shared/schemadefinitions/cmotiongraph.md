@@ -12,7 +12,7 @@ public interface CMotionGraph : ISchemaClass<CMotionGraph>, ISchemaField, ISchem
 
 ### ConfigCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionGraph.cs#L28)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionGraph.cs#L29)
 
 ```csharp
 ref int ConfigCount { get; }
@@ -24,7 +24,7 @@ ref int ConfigCount { get; }
 
 ### ConfigStartIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionGraph.cs#L26)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionGraph.cs#L27)
 
 ```csharp
 ref int ConfigStartIndex { get; }
@@ -36,7 +36,7 @@ ref int ConfigStartIndex { get; }
 
 ### Loop
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionGraph.cs#L30)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionGraph.cs#L31)
 
 ```csharp
 ref bool Loop { get; }
@@ -48,7 +48,7 @@ ref bool Loop { get; }
 
 ### ParamSpans
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionGraph.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionGraph.cs#L18)
 
 ```csharp
 CParamSpanUpdater ParamSpans { get; }
@@ -60,7 +60,7 @@ CParamSpanUpdater ParamSpans { get; }
 
 ### ParameterCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionGraph.cs#L24)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionGraph.cs#L25)
 
 ```csharp
 ref int ParameterCount { get; }
@@ -72,7 +72,7 @@ ref int ParameterCount { get; }
 
 ### RootNode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionGraph.cs#L22)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionGraph.cs#L23)
 
 ```csharp
 SchemaUntypedField RootNode { get; }
@@ -84,7 +84,7 @@ SchemaUntypedField RootNode { get; }
 
 ### Tags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionGraph.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionGraph.cs#L20)
 
 ```csharp
 ref CUtlVector<TagSpan_t> Tags { get; }

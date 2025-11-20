@@ -12,7 +12,7 @@ public interface CParticleAnimTag : CAnimTagBase, ISchemaClass<CAnimTagBase>, IS
 
 ### Aggregate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleAnimTag.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleAnimTag.cs#L26)
 
 ```csharp
 ref bool Aggregate { get; }
@@ -24,7 +24,7 @@ ref bool Aggregate { get; }
 
 ### AttachmentCP1Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleAnimTag.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleAnimTag.cs#L36)
 
 ```csharp
 string AttachmentCP1Name { get; set; }
@@ -36,7 +36,7 @@ string AttachmentCP1Name { get; set; }
 
 ### AttachmentCP1Type
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleAnimTag.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleAnimTag.cs#L38)
 
 ```csharp
 ref ParticleAttachment_t AttachmentCP1Type { get; }
@@ -48,7 +48,7 @@ ref ParticleAttachment_t AttachmentCP1Type { get; }
 
 ### AttachmentName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleAnimTag.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleAnimTag.cs#L32)
 
 ```csharp
 string AttachmentName { get; set; }
@@ -60,7 +60,7 @@ string AttachmentName { get; set; }
 
 ### AttachmentType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleAnimTag.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleAnimTag.cs#L34)
 
 ```csharp
 ref ParticleAttachment_t AttachmentType { get; }
@@ -72,7 +72,7 @@ ref ParticleAttachment_t AttachmentType { get; }
 
 ### ConfigName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleAnimTag.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleAnimTag.cs#L22)
 
 ```csharp
 string ConfigName { get; set; }
@@ -84,7 +84,7 @@ string ConfigName { get; set; }
 
 ### DetachFromOwner
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleAnimTag.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleAnimTag.cs#L24)
 
 ```csharp
 ref bool DetachFromOwner { get; }
@@ -96,7 +96,7 @@ ref bool DetachFromOwner { get; }
 
 ### ParticleSystem
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleAnimTag.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleAnimTag.cs#L18)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> ParticleSystem { get; }
@@ -108,7 +108,7 @@ ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> ParticleSystem {
 
 ### ParticleSystemName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleAnimTag.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleAnimTag.cs#L20)
 
 ```csharp
 string ParticleSystemName { get; set; }
@@ -120,7 +120,7 @@ string ParticleSystemName { get; set; }
 
 ### StopWhenTagEnds
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleAnimTag.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleAnimTag.cs#L28)
 
 ```csharp
 ref bool StopWhenTagEnds { get; }
@@ -132,7 +132,7 @@ ref bool StopWhenTagEnds { get; }
 
 ### TagEndStopIsInstant
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleAnimTag.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleAnimTag.cs#L30)
 
 ```csharp
 ref bool TagEndStopIsInstant { get; }

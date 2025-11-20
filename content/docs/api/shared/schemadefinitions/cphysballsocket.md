@@ -12,7 +12,7 @@ public interface CPhysBallSocket : CPhysConstraint, CLogicalEntity, CServerOnlyE
 
 ### EnableSwingLimit
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBallSocket.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBallSocket.cs#L20)
 
 ```csharp
 ref bool EnableSwingLimit { get; }
@@ -24,7 +24,7 @@ ref bool EnableSwingLimit { get; }
 
 ### EnableTwistLimit
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBallSocket.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBallSocket.cs#L24)
 
 ```csharp
 ref bool EnableTwistLimit { get; }
@@ -36,7 +36,7 @@ ref bool EnableTwistLimit { get; }
 
 ### JointFriction
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBallSocket.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBallSocket.cs#L18)
 
 ```csharp
 ref float JointFriction { get; }
@@ -48,7 +48,7 @@ ref float JointFriction { get; }
 
 ### MaxTwistAngle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBallSocket.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBallSocket.cs#L28)
 
 ```csharp
 ref float MaxTwistAngle { get; }
@@ -60,7 +60,7 @@ ref float MaxTwistAngle { get; }
 
 ### MinTwistAngle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBallSocket.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBallSocket.cs#L26)
 
 ```csharp
 ref float MinTwistAngle { get; }
@@ -72,7 +72,7 @@ ref float MinTwistAngle { get; }
 
 ### SwingLimit
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBallSocket.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBallSocket.cs#L22)
 
 ```csharp
 ref float SwingLimit { get; }

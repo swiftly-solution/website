@@ -12,7 +12,7 @@ public interface CAI_Expresser : ISchemaClass<CAI_Expresser>, ISchemaField, ISch
 
 ### AllowSpeakingInterrupts
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAI_Expresser.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAI_Expresser.cs#L30)
 
 ```csharp
 ref bool AllowSpeakingInterrupts { get; }
@@ -24,7 +24,7 @@ ref bool AllowSpeakingInterrupts { get; }
 
 ### BlockedTalkTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAI_Expresser.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAI_Expresser.cs#L24)
 
 ```csharp
 GameTime_t BlockedTalkTime { get; }
@@ -36,7 +36,7 @@ GameTime_t BlockedTalkTime { get; }
 
 ### ConsiderSceneInvolvementAsSpeech
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAI_Expresser.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAI_Expresser.cs#L32)
 
 ```csharp
 ref bool ConsiderSceneInvolvementAsSpeech { get; }
@@ -48,7 +48,7 @@ ref bool ConsiderSceneInvolvementAsSpeech { get; }
 
 ### LastSpokenPriority
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAI_Expresser.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAI_Expresser.cs#L36)
 
 ```csharp
 ref int LastSpokenPriority { get; }
@@ -60,7 +60,7 @@ ref int LastSpokenPriority { get; }
 
 ### LastTimeAcceptedSpeak
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAI_Expresser.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAI_Expresser.cs#L28)
 
 ```csharp
 GameTime_t LastTimeAcceptedSpeak { get; }
@@ -72,7 +72,7 @@ GameTime_t LastTimeAcceptedSpeak { get; }
 
 ### Outer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAI_Expresser.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAI_Expresser.cs#L38)
 
 ```csharp
 CBaseFlex? Outer { get; }
@@ -84,7 +84,7 @@ CBaseFlex? Outer { get; }
 
 ### QueuedSpeechTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAI_Expresser.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAI_Expresser.cs#L22)
 
 ```csharp
 GameTime_t QueuedSpeechTime { get; }
@@ -96,7 +96,7 @@ GameTime_t QueuedSpeechTime { get; }
 
 ### SceneEntityDisabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAI_Expresser.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAI_Expresser.cs#L34)
 
 ```csharp
 ref bool SceneEntityDisabled { get; }
@@ -108,7 +108,7 @@ ref bool SceneEntityDisabled { get; }
 
 ### StopTalkTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAI_Expresser.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAI_Expresser.cs#L18)
 
 ```csharp
 GameTime_t StopTalkTime { get; }
@@ -120,7 +120,7 @@ GameTime_t StopTalkTime { get; }
 
 ### StopTalkTimeWithoutDelay
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAI_Expresser.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAI_Expresser.cs#L20)
 
 ```csharp
 GameTime_t StopTalkTimeWithoutDelay { get; }
@@ -132,7 +132,7 @@ GameTime_t StopTalkTimeWithoutDelay { get; }
 
 ### VoicePitch
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAI_Expresser.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAI_Expresser.cs#L26)
 
 ```csharp
 ref int VoicePitch { get; }

@@ -12,7 +12,7 @@ public interface CFollowPathUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase, 
 
 ### BlendOutTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFollowPathUpdateNode.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFollowPathUpdateNode.cs#L18)
 
 ```csharp
 ref float BlendOutTime { get; }
@@ -24,7 +24,7 @@ ref float BlendOutTime { get; }
 
 ### BlockNonPathMovement
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFollowPathUpdateNode.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFollowPathUpdateNode.cs#L20)
 
 ```csharp
 ref bool BlockNonPathMovement { get; }
@@ -36,7 +36,7 @@ ref bool BlockNonPathMovement { get; }
 
 ### FacingTarget
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFollowPathUpdateNode.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFollowPathUpdateNode.cs#L36)
 
 ```csharp
 ref AnimValueSource FacingTarget { get; }
@@ -48,7 +48,7 @@ ref AnimValueSource FacingTarget { get; }
 
 ### MaxAngle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFollowPathUpdateNode.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFollowPathUpdateNode.cs#L30)
 
 ```csharp
 ref float MaxAngle { get; }
@@ -60,7 +60,7 @@ ref float MaxAngle { get; }
 
 ### MinAngle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFollowPathUpdateNode.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFollowPathUpdateNode.cs#L28)
 
 ```csharp
 ref float MinAngle { get; }
@@ -72,7 +72,7 @@ ref float MinAngle { get; }
 
 ### Param
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFollowPathUpdateNode.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFollowPathUpdateNode.cs#L38)
 
 ```csharp
 CAnimParamHandle Param { get; }
@@ -84,7 +84,7 @@ CAnimParamHandle Param { get; }
 
 ### Scale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFollowPathUpdateNode.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFollowPathUpdateNode.cs#L26)
 
 ```csharp
 ref float Scale { get; }
@@ -96,7 +96,7 @@ ref float Scale { get; }
 
 ### ScaleSpeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFollowPathUpdateNode.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFollowPathUpdateNode.cs#L24)
 
 ```csharp
 ref bool ScaleSpeed { get; }
@@ -108,7 +108,7 @@ ref bool ScaleSpeed { get; }
 
 ### SpeedScaleBlending
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFollowPathUpdateNode.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFollowPathUpdateNode.cs#L32)
 
 ```csharp
 ref float SpeedScaleBlending { get; }
@@ -120,7 +120,7 @@ ref float SpeedScaleBlending { get; }
 
 ### StopFeetAtGoal
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFollowPathUpdateNode.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFollowPathUpdateNode.cs#L22)
 
 ```csharp
 ref bool StopFeetAtGoal { get; }
@@ -132,7 +132,7 @@ ref bool StopFeetAtGoal { get; }
 
 ### TurnDamping
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFollowPathUpdateNode.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFollowPathUpdateNode.cs#L34)
 
 ```csharp
 CAnimInputDamping TurnDamping { get; }
@@ -144,7 +144,7 @@ CAnimInputDamping TurnDamping { get; }
 
 ### TurnToFace
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFollowPathUpdateNode.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFollowPathUpdateNode.cs#L42)
 
 ```csharp
 ref bool TurnToFace { get; }
@@ -156,7 +156,7 @@ ref bool TurnToFace { get; }
 
 ### TurnToFaceOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFollowPathUpdateNode.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFollowPathUpdateNode.cs#L40)
 
 ```csharp
 ref float TurnToFaceOffset { get; }

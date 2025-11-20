@@ -12,7 +12,7 @@ public interface C_OP_ForceBasedOnDistanceToPlane : CParticleFunctionForce, CPar
 
 ### ControlPointNumber
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ForceBasedOnDistanceToPlane.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ForceBasedOnDistanceToPlane.cs#L28)
 
 ```csharp
 ref int ControlPointNumber { get; }
@@ -24,7 +24,7 @@ ref int ControlPointNumber { get; }
 
 ### Exponent
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ForceBasedOnDistanceToPlane.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ForceBasedOnDistanceToPlane.cs#L30)
 
 ```csharp
 ref float Exponent { get; }
@@ -36,7 +36,7 @@ ref float Exponent { get; }
 
 ### ForceAtMaxDist
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ForceBasedOnDistanceToPlane.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ForceBasedOnDistanceToPlane.cs#L24)
 
 ```csharp
 ref Vector ForceAtMaxDist { get; }
@@ -48,7 +48,7 @@ ref Vector ForceAtMaxDist { get; }
 
 ### ForceAtMinDist
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ForceBasedOnDistanceToPlane.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ForceBasedOnDistanceToPlane.cs#L20)
 
 ```csharp
 ref Vector ForceAtMinDist { get; }
@@ -60,7 +60,7 @@ ref Vector ForceAtMinDist { get; }
 
 ### MaxDist
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ForceBasedOnDistanceToPlane.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ForceBasedOnDistanceToPlane.cs#L22)
 
 ```csharp
 ref float MaxDist { get; }
@@ -72,7 +72,7 @@ ref float MaxDist { get; }
 
 ### MinDist
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ForceBasedOnDistanceToPlane.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ForceBasedOnDistanceToPlane.cs#L18)
 
 ```csharp
 ref float MinDist { get; }
@@ -84,7 +84,7 @@ ref float MinDist { get; }
 
 ### PlaneNormal
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ForceBasedOnDistanceToPlane.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ForceBasedOnDistanceToPlane.cs#L26)
 
 ```csharp
 ref Vector PlaneNormal { get; }

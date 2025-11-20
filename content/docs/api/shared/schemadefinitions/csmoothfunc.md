@@ -12,7 +12,7 @@ public interface CSmoothFunc : ISchemaClass<CSmoothFunc>, ISchemaField, ISchemaC
 
 ### SmoothAmplitude
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmoothFunc.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmoothFunc.cs#L18)
 
 ```csharp
 ref float SmoothAmplitude { get; }
@@ -24,7 +24,7 @@ ref float SmoothAmplitude { get; }
 
 ### SmoothBias
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmoothFunc.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmoothFunc.cs#L20)
 
 ```csharp
 ref float SmoothBias { get; }
@@ -36,7 +36,7 @@ ref float SmoothBias { get; }
 
 ### SmoothDir
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmoothFunc.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmoothFunc.cs#L26)
 
 ```csharp
 ref int SmoothDir { get; }
@@ -48,7 +48,7 @@ ref int SmoothDir { get; }
 
 ### SmoothDuration
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmoothFunc.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmoothFunc.cs#L22)
 
 ```csharp
 ref float SmoothDuration { get; }
@@ -60,7 +60,7 @@ ref float SmoothDuration { get; }
 
 ### SmoothRemainingTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmoothFunc.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmoothFunc.cs#L24)
 
 ```csharp
 ref float SmoothRemainingTime { get; }

@@ -12,7 +12,7 @@ public interface CPulse_RegisterInfo : ISchemaClass<CPulse_RegisterInfo>, ISchem
 
 ### LastReadByInstruction
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_RegisterInfo.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_RegisterInfo.cs#L28)
 
 ```csharp
 ref int LastReadByInstruction { get; }
@@ -24,7 +24,7 @@ ref int LastReadByInstruction { get; }
 
 ### OriginName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_RegisterInfo.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_RegisterInfo.cs#L24)
 
 ```csharp
 SchemaUntypedField OriginName { get; }
@@ -36,7 +36,7 @@ SchemaUntypedField OriginName { get; }
 
 ### Reg
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_RegisterInfo.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_RegisterInfo.cs#L18)
 
 ```csharp
 PulseRuntimeRegisterIndex_t Reg { get; }
@@ -48,7 +48,7 @@ PulseRuntimeRegisterIndex_t Reg { get; }
 
 ### Type
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_RegisterInfo.cs#L20)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_RegisterInfo.cs#L21)
 
 ```csharp
 SchemaUntypedField Type { get; }
@@ -60,7 +60,7 @@ SchemaUntypedField Type { get; }
 
 ### WrittenByInstruction
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_RegisterInfo.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_RegisterInfo.cs#L26)
 
 ```csharp
 ref int WrittenByInstruction { get; }

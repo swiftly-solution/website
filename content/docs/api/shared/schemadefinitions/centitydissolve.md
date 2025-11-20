@@ -12,7 +12,7 @@ public interface CEntityDissolve : CBaseModelEntity, CBaseEntity, CEntityInstanc
 
 ### DissolveType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityDissolve.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityDissolve.cs#L32)
 
 ```csharp
 ref EntityDisolveType_t DissolveType { get; }
@@ -24,7 +24,7 @@ ref EntityDisolveType_t DissolveType { get; }
 
 ### DissolverOrigin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityDissolve.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityDissolve.cs#L34)
 
 ```csharp
 ref Vector DissolverOrigin { get; }
@@ -36,7 +36,7 @@ ref Vector DissolverOrigin { get; }
 
 ### FadeInLength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityDissolve.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityDissolve.cs#L20)
 
 ```csharp
 ref float FadeInLength { get; }
@@ -48,7 +48,7 @@ ref float FadeInLength { get; }
 
 ### FadeInStart
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityDissolve.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityDissolve.cs#L18)
 
 ```csharp
 ref float FadeInStart { get; }
@@ -60,7 +60,7 @@ ref float FadeInStart { get; }
 
 ### FadeOutLength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityDissolve.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityDissolve.cs#L28)
 
 ```csharp
 ref float FadeOutLength { get; }
@@ -72,7 +72,7 @@ ref float FadeOutLength { get; }
 
 ### FadeOutModelLength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityDissolve.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityDissolve.cs#L24)
 
 ```csharp
 ref float FadeOutModelLength { get; }
@@ -84,7 +84,7 @@ ref float FadeOutModelLength { get; }
 
 ### FadeOutModelStart
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityDissolve.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityDissolve.cs#L22)
 
 ```csharp
 ref float FadeOutModelStart { get; }
@@ -96,7 +96,7 @@ ref float FadeOutModelStart { get; }
 
 ### FadeOutStart
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityDissolve.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityDissolve.cs#L26)
 
 ```csharp
 ref float FadeOutStart { get; }
@@ -108,7 +108,7 @@ ref float FadeOutStart { get; }
 
 ### Magnitude
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityDissolve.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityDissolve.cs#L36)
 
 ```csharp
 ref uint Magnitude { get; }
@@ -120,7 +120,7 @@ ref uint Magnitude { get; }
 
 ### StartTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityDissolve.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityDissolve.cs#L30)
 
 ```csharp
 GameTime_t StartTime { get; }
@@ -134,7 +134,7 @@ GameTime_t StartTime { get; }
 
 ### DissolveTypeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityDissolve.cs#L44)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityDissolve.cs#L45)
 
 ```csharp
 void DissolveTypeUpdated()
@@ -142,7 +142,7 @@ void DissolveTypeUpdated()
 
 ### DissolverOriginUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityDissolve.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityDissolve.cs#L46)
 
 ```csharp
 void DissolverOriginUpdated()
@@ -150,7 +150,7 @@ void DissolverOriginUpdated()
 
 ### FadeInLengthUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityDissolve.cs#L38)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityDissolve.cs#L39)
 
 ```csharp
 void FadeInLengthUpdated()
@@ -158,7 +158,7 @@ void FadeInLengthUpdated()
 
 ### FadeInStartUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityDissolve.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityDissolve.cs#L38)
 
 ```csharp
 void FadeInStartUpdated()
@@ -166,7 +166,7 @@ void FadeInStartUpdated()
 
 ### FadeOutLengthUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityDissolve.cs#L42)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityDissolve.cs#L43)
 
 ```csharp
 void FadeOutLengthUpdated()
@@ -174,7 +174,7 @@ void FadeOutLengthUpdated()
 
 ### FadeOutModelLengthUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityDissolve.cs#L40)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityDissolve.cs#L41)
 
 ```csharp
 void FadeOutModelLengthUpdated()
@@ -182,7 +182,7 @@ void FadeOutModelLengthUpdated()
 
 ### FadeOutModelStartUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityDissolve.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityDissolve.cs#L40)
 
 ```csharp
 void FadeOutModelStartUpdated()
@@ -190,7 +190,7 @@ void FadeOutModelStartUpdated()
 
 ### FadeOutStartUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityDissolve.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityDissolve.cs#L42)
 
 ```csharp
 void FadeOutStartUpdated()
@@ -198,7 +198,7 @@ void FadeOutStartUpdated()
 
 ### MagnitudeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityDissolve.cs#L46)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityDissolve.cs#L47)
 
 ```csharp
 void MagnitudeUpdated()
@@ -206,7 +206,7 @@ void MagnitudeUpdated()
 
 ### StartTimeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityDissolve.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityDissolve.cs#L44)
 
 ```csharp
 void StartTimeUpdated()

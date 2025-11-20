@@ -12,7 +12,7 @@ public interface CNmSoundEvent : CNmEvent, ISchemaClass<CNmEvent>, ISchemaClass<
 
 ### AttachmentName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSoundEvent.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSoundEvent.cs#L24)
 
 ```csharp
 string AttachmentName { get; set; }
@@ -24,7 +24,7 @@ string AttachmentName { get; set; }
 
 ### ContinuePlayingSoundAtDurationEnd
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSoundEvent.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSoundEvent.cs#L28)
 
 ```csharp
 ref bool ContinuePlayingSoundAtDurationEnd { get; }
@@ -36,7 +36,7 @@ ref bool ContinuePlayingSoundAtDurationEnd { get; }
 
 ### DurationInterruptionThreshold
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSoundEvent.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSoundEvent.cs#L30)
 
 ```csharp
 ref float DurationInterruptionThreshold { get; }
@@ -48,7 +48,7 @@ ref float DurationInterruptionThreshold { get; }
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSoundEvent.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSoundEvent.cs#L20)
 
 ```csharp
 string Name { get; set; }
@@ -60,7 +60,7 @@ string Name { get; set; }
 
 ### Position
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSoundEvent.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSoundEvent.cs#L22)
 
 ```csharp
 ref CNmSoundEvent__Position_t Position { get; }
@@ -72,7 +72,7 @@ ref CNmSoundEvent__Position_t Position { get; }
 
 ### Relevance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSoundEvent.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSoundEvent.cs#L18)
 
 ```csharp
 ref CNmEventRelevance_t Relevance { get; }
@@ -84,7 +84,7 @@ ref CNmEventRelevance_t Relevance { get; }
 
 ### Tags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSoundEvent.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSoundEvent.cs#L26)
 
 ```csharp
 string Tags { get; set; }

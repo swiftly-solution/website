@@ -12,7 +12,7 @@ public interface CRagdollManager : CBaseEntity, CEntityInstance, ISchemaClass<CE
 
 ### CanTakeDamage
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollManager.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollManager.cs#L24)
 
 ```csharp
 ref bool CanTakeDamage { get; }
@@ -24,7 +24,7 @@ ref bool CanTakeDamage { get; }
 
 ### CurrentMaxRagdollCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollManager.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollManager.cs#L18)
 
 ```csharp
 ref byte CurrentMaxRagdollCount { get; }
@@ -36,7 +36,7 @@ ref byte CurrentMaxRagdollCount { get; }
 
 ### MaxRagdollCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollManager.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollManager.cs#L20)
 
 ```csharp
 ref int MaxRagdollCount { get; }
@@ -48,7 +48,7 @@ ref int MaxRagdollCount { get; }
 
 ### SaveImportant
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollManager.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollManager.cs#L22)
 
 ```csharp
 ref bool SaveImportant { get; }
@@ -62,7 +62,7 @@ ref bool SaveImportant { get; }
 
 ### CurrentMaxRagdollCountUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollManager.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollManager.cs#L26)
 
 ```csharp
 void CurrentMaxRagdollCountUpdated()

@@ -12,7 +12,7 @@ public interface CFootCycleDefinition : ISchemaClass<CFootCycleDefinition>, ISch
 
 ### FootLandCycle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootCycleDefinition.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootCycleDefinition.cs#L34)
 
 ```csharp
 CFootCycle FootLandCycle { get; }
@@ -24,7 +24,7 @@ CFootCycle FootLandCycle { get; }
 
 ### FootLiftCycle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootCycleDefinition.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootCycleDefinition.cs#L28)
 
 ```csharp
 CFootCycle FootLiftCycle { get; }
@@ -36,7 +36,7 @@ CFootCycle FootLiftCycle { get; }
 
 ### FootOffCycle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootCycleDefinition.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootCycleDefinition.cs#L30)
 
 ```csharp
 CFootCycle FootOffCycle { get; }
@@ -48,7 +48,7 @@ CFootCycle FootOffCycle { get; }
 
 ### FootStrikeCycle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootCycleDefinition.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootCycleDefinition.cs#L32)
 
 ```csharp
 CFootCycle FootStrikeCycle { get; }
@@ -60,7 +60,7 @@ CFootCycle FootStrikeCycle { get; }
 
 ### MidpointPositionMS
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootCycleDefinition.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootCycleDefinition.cs#L20)
 
 ```csharp
 ref Vector MidpointPositionMS { get; }
@@ -72,7 +72,7 @@ ref Vector MidpointPositionMS { get; }
 
 ### StanceCycle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootCycleDefinition.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootCycleDefinition.cs#L26)
 
 ```csharp
 CAnimCycle StanceCycle { get; }
@@ -84,7 +84,7 @@ CAnimCycle StanceCycle { get; }
 
 ### StanceDirectionMS
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootCycleDefinition.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootCycleDefinition.cs#L22)
 
 ```csharp
 ref float StanceDirectionMS { get; }
@@ -96,7 +96,7 @@ ref float StanceDirectionMS { get; }
 
 ### StancePositionMS
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootCycleDefinition.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootCycleDefinition.cs#L18)
 
 ```csharp
 ref Vector StancePositionMS { get; }
@@ -108,7 +108,7 @@ ref Vector StancePositionMS { get; }
 
 ### ToStrideStartPos
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootCycleDefinition.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootCycleDefinition.cs#L24)
 
 ```csharp
 ref Vector ToStrideStartPos { get; }

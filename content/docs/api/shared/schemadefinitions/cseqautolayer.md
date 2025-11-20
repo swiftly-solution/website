@@ -12,7 +12,7 @@ public interface CSeqAutoLayer : ISchemaClass<CSeqAutoLayer>, ISchemaField, ISch
 
 ### End
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayer.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayer.cs#L30)
 
 ```csharp
 ref float End { get; }
@@ -24,7 +24,7 @@ ref float End { get; }
 
 ### Flags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayer.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayer.cs#L22)
 
 ```csharp
 CSeqAutoLayerFlag Flags { get; }
@@ -36,7 +36,7 @@ CSeqAutoLayerFlag Flags { get; }
 
 ### LocalPose
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayer.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayer.cs#L20)
 
 ```csharp
 ref short LocalPose { get; }
@@ -48,7 +48,7 @@ ref short LocalPose { get; }
 
 ### LocalReference
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayer.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayer.cs#L18)
 
 ```csharp
 ref short LocalReference { get; }
@@ -60,7 +60,7 @@ ref short LocalReference { get; }
 
 ### Peak
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayer.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayer.cs#L26)
 
 ```csharp
 ref float Peak { get; }
@@ -72,7 +72,7 @@ ref float Peak { get; }
 
 ### Start
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayer.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayer.cs#L24)
 
 ```csharp
 ref float Start { get; }
@@ -84,7 +84,7 @@ ref float Start { get; }
 
 ### Tail
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayer.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayer.cs#L28)
 
 ```csharp
 ref float Tail { get; }

@@ -12,7 +12,7 @@ public interface NmCompressionSettings_t__QuantizationRange_t : ISchemaClass<NmC
 
 ### RangeLength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/NmCompressionSettings_t__QuantizationRange_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/NmCompressionSettings_t__QuantizationRange_t.cs#L20)
 
 ```csharp
 ref float RangeLength { get; }
@@ -24,7 +24,7 @@ ref float RangeLength { get; }
 
 ### RangeStart
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/NmCompressionSettings_t__QuantizationRange_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/NmCompressionSettings_t__QuantizationRange_t.cs#L18)
 
 ```csharp
 ref float RangeStart { get; }

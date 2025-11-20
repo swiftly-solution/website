@@ -12,7 +12,7 @@ public interface C_INIT_RingWave : CParticleFunctionInitializer, CParticleFuncti
 
 ### EvenDistribution
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RingWave.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RingWave.cs#L36)
 
 ```csharp
 ref bool EvenDistribution { get; }
@@ -24,7 +24,7 @@ ref bool EvenDistribution { get; }
 
 ### InitialRadius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RingWave.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RingWave.cs#L22)
 
 ```csharp
 CPerParticleFloatInput InitialRadius { get; }
@@ -36,7 +36,7 @@ CPerParticleFloatInput InitialRadius { get; }
 
 ### InitialSpeedMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RingWave.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RingWave.cs#L28)
 
 ```csharp
 CPerParticleFloatInput InitialSpeedMax { get; }
@@ -48,7 +48,7 @@ CPerParticleFloatInput InitialSpeedMax { get; }
 
 ### InitialSpeedMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RingWave.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RingWave.cs#L26)
 
 ```csharp
 CPerParticleFloatInput InitialSpeedMin { get; }
@@ -60,7 +60,7 @@ CPerParticleFloatInput InitialSpeedMin { get; }
 
 ### ParticlesPerOrbit
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RingWave.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RingWave.cs#L20)
 
 ```csharp
 CParticleCollectionFloatInput ParticlesPerOrbit { get; }
@@ -72,7 +72,7 @@ CParticleCollectionFloatInput ParticlesPerOrbit { get; }
 
 ### Pitch
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RingWave.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RingWave.cs#L32)
 
 ```csharp
 CPerParticleFloatInput Pitch { get; }
@@ -84,7 +84,7 @@ CPerParticleFloatInput Pitch { get; }
 
 ### Roll
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RingWave.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RingWave.cs#L30)
 
 ```csharp
 CPerParticleFloatInput Roll { get; }
@@ -96,7 +96,7 @@ CPerParticleFloatInput Roll { get; }
 
 ### Thickness
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RingWave.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RingWave.cs#L24)
 
 ```csharp
 CPerParticleFloatInput Thickness { get; }
@@ -108,7 +108,7 @@ CPerParticleFloatInput Thickness { get; }
 
 ### TransformInput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RingWave.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RingWave.cs#L18)
 
 ```csharp
 CParticleTransformInput TransformInput { get; }
@@ -120,7 +120,7 @@ CParticleTransformInput TransformInput { get; }
 
 ### XYVelocityOnly
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RingWave.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RingWave.cs#L38)
 
 ```csharp
 ref bool XYVelocityOnly { get; }
@@ -132,7 +132,7 @@ ref bool XYVelocityOnly { get; }
 
 ### Yaw
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RingWave.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RingWave.cs#L34)
 
 ```csharp
 CPerParticleFloatInput Yaw { get; }

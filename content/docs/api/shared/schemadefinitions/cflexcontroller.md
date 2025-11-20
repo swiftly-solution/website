@@ -12,7 +12,7 @@ public interface CFlexController : ISchemaClass<CFlexController>, ISchemaField, 
 
 ### Max
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFlexController.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFlexController.cs#L24)
 
 ```csharp
 ref float Max { get; }
@@ -24,7 +24,7 @@ ref float Max { get; }
 
 ### Min
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFlexController.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFlexController.cs#L22)
 
 ```csharp
 ref float Min { get; }
@@ -36,7 +36,7 @@ ref float Min { get; }
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFlexController.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFlexController.cs#L18)
 
 ```csharp
 string Name { get; set; }
@@ -48,7 +48,7 @@ string Name { get; set; }
 
 ### Type
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFlexController.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFlexController.cs#L20)
 
 ```csharp
 string Type { get; set; }

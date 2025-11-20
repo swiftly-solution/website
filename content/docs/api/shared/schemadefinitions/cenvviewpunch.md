@@ -12,7 +12,7 @@ public interface CEnvViewPunch : CPointEntity, CBaseEntity, CEntityInstance, ISc
 
 ### Radius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvViewPunch.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvViewPunch.cs#L18)
 
 ```csharp
 ref float Radius { get; }
@@ -24,7 +24,7 @@ ref float Radius { get; }
 
 ### ViewPunch
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvViewPunch.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvViewPunch.cs#L20)
 
 ```csharp
 ref QAngle ViewPunch { get; }

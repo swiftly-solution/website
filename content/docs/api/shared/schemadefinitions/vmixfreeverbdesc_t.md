@@ -12,7 +12,7 @@ public interface VMixFreeverbDesc_t : ISchemaClass<VMixFreeverbDesc_t>, ISchemaF
 
 ### Damp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixFreeverbDesc_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixFreeverbDesc_t.cs#L20)
 
 ```csharp
 ref float Damp { get; }
@@ -24,7 +24,7 @@ ref float Damp { get; }
 
 ### LateReflections
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixFreeverbDesc_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixFreeverbDesc_t.cs#L24)
 
 ```csharp
 ref float LateReflections { get; }
@@ -36,7 +36,7 @@ ref float LateReflections { get; }
 
 ### RoomSize
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixFreeverbDesc_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixFreeverbDesc_t.cs#L18)
 
 ```csharp
 ref float RoomSize { get; }
@@ -48,7 +48,7 @@ ref float RoomSize { get; }
 
 ### Width
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixFreeverbDesc_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixFreeverbDesc_t.cs#L22)
 
 ```csharp
 ref float Width { get; }

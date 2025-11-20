@@ -12,7 +12,7 @@ public interface CFuncTrain : CBasePlatTrain, CBaseToggle, CBaseModelEntity, CBa
 
 ### Activated
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrain.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrain.cs#L20)
 
 ```csharp
 ref bool Activated { get; }
@@ -24,7 +24,7 @@ ref bool Activated { get; }
 
 ### BlockDamage
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrain.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrain.cs#L24)
 
 ```csharp
 ref float BlockDamage { get; }
@@ -36,7 +36,7 @@ ref float BlockDamage { get; }
 
 ### CurrentTarget
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrain.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrain.cs#L18)
 
 ```csharp
 ref CHandle<CBaseEntity> CurrentTarget { get; }
@@ -48,7 +48,7 @@ ref CHandle<CBaseEntity> CurrentTarget { get; }
 
 ### Enemy
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrain.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrain.cs#L22)
 
 ```csharp
 ref CHandle<CBaseEntity> Enemy { get; }
@@ -60,7 +60,7 @@ ref CHandle<CBaseEntity> Enemy { get; }
 
 ### LastTarget
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrain.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrain.cs#L28)
 
 ```csharp
 string LastTarget { get; set; }
@@ -72,7 +72,7 @@ string LastTarget { get; set; }
 
 ### NextBlockTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrain.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrain.cs#L26)
 
 ```csharp
 GameTime_t NextBlockTime { get; }

@@ -12,7 +12,7 @@ public interface PhysSoftbodyDesc_t : ISchemaClass<PhysSoftbodyDesc_t>, ISchemaF
 
 ### Capsules
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysSoftbodyDesc_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysSoftbodyDesc_t.cs#L24)
 
 ```csharp
 ref CUtlVector<RnSoftbodyCapsule_t> Capsules { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<RnSoftbodyCapsule_t> Capsules { get; }
 
 ### InitPose
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysSoftbodyDesc_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysSoftbodyDesc_t.cs#L26)
 
 ```csharp
 ref CUtlVector<CTransform> InitPose { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<CTransform> InitPose { get; }
 
 ### ParticleBoneHash
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysSoftbodyDesc_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysSoftbodyDesc_t.cs#L18)
 
 ```csharp
 ref CUtlVector<uint> ParticleBoneHash { get; }
@@ -48,7 +48,7 @@ ref CUtlVector<uint> ParticleBoneHash { get; }
 
 ### ParticleBoneName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysSoftbodyDesc_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysSoftbodyDesc_t.cs#L28)
 
 ```csharp
 ref CUtlVector<CUtlString> ParticleBoneName { get; }
@@ -60,7 +60,7 @@ ref CUtlVector<CUtlString> ParticleBoneName { get; }
 
 ### Particles
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysSoftbodyDesc_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysSoftbodyDesc_t.cs#L20)
 
 ```csharp
 ref CUtlVector<RnSoftbodyParticle_t> Particles { get; }
@@ -72,7 +72,7 @@ ref CUtlVector<RnSoftbodyParticle_t> Particles { get; }
 
 ### Springs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysSoftbodyDesc_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysSoftbodyDesc_t.cs#L22)
 
 ```csharp
 ref CUtlVector<RnSoftbodySpring_t> Springs { get; }

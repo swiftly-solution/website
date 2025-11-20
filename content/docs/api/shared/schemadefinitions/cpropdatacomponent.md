@@ -12,7 +12,7 @@ public interface CPropDataComponent : CEntityComponent, ISchemaClass<CEntityComp
 
 ### BasePropData
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDataComponent.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDataComponent.cs#L28)
 
 ```csharp
 string BasePropData { get; set; }
@@ -24,7 +24,7 @@ string BasePropData { get; set; }
 
 ### DisableTakePhysicsDamageSpawnFlag
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDataComponent.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDataComponent.cs#L34)
 
 ```csharp
 ref int DisableTakePhysicsDamageSpawnFlag { get; }
@@ -36,7 +36,7 @@ ref int DisableTakePhysicsDamageSpawnFlag { get; }
 
 ### DmgModBullet
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDataComponent.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDataComponent.cs#L18)
 
 ```csharp
 ref float DmgModBullet { get; }
@@ -48,7 +48,7 @@ ref float DmgModBullet { get; }
 
 ### DmgModClub
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDataComponent.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDataComponent.cs#L20)
 
 ```csharp
 ref float DmgModClub { get; }
@@ -60,7 +60,7 @@ ref float DmgModClub { get; }
 
 ### DmgModExplosive
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDataComponent.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDataComponent.cs#L22)
 
 ```csharp
 ref float DmgModExplosive { get; }
@@ -72,7 +72,7 @@ ref float DmgModExplosive { get; }
 
 ### DmgModFire
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDataComponent.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDataComponent.cs#L24)
 
 ```csharp
 ref float DmgModFire { get; }
@@ -84,7 +84,7 @@ ref float DmgModFire { get; }
 
 ### Interactions
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDataComponent.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDataComponent.cs#L30)
 
 ```csharp
 ref int Interactions { get; }
@@ -96,7 +96,7 @@ ref int Interactions { get; }
 
 ### MotionDisabledSpawnFlag
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDataComponent.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDataComponent.cs#L36)
 
 ```csharp
 ref int MotionDisabledSpawnFlag { get; }
@@ -108,7 +108,7 @@ ref int MotionDisabledSpawnFlag { get; }
 
 ### PhysicsDamageTableName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDataComponent.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDataComponent.cs#L26)
 
 ```csharp
 string PhysicsDamageTableName { get; set; }
@@ -120,7 +120,7 @@ string PhysicsDamageTableName { get; set; }
 
 ### SpawnMotionDisabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDataComponent.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDataComponent.cs#L32)
 
 ```csharp
 ref bool SpawnMotionDisabled { get; }

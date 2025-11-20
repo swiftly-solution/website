@@ -34,6 +34,18 @@ void AddSubPermission(string permission, string subPermission)
 - **permission**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The permission to add the sub-permission to.
 - **subPermission**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The sub-permission to add.
 
+### ClearPermission(ulong)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Permissions/IPermissionManager.cs#L46)
+
+```csharp
+void ClearPermission(ulong steamId)
+```
+
+#### Parameters
+
+- **steamId**: [ulong](https://learn.microsoft.com/dotnet/api/system.uint64) - The Steam ID of the player.
+
 ### PlayerHasPermission(ulong, string)
 
 [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Permissions/IPermissionManager.cs#L12)

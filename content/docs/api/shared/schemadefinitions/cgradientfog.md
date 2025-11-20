@@ -12,7 +12,7 @@ public interface CGradientFog : CBaseEntity, CEntityInstance, ISchemaClass<CEnti
 
 ### FadeTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L42)
 
 ```csharp
 ref float FadeTime { get; }
@@ -24,7 +24,7 @@ ref float FadeTime { get; }
 
 ### FarZ
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L30)
 
 ```csharp
 ref float FarZ { get; }
@@ -36,7 +36,7 @@ ref float FarZ { get; }
 
 ### FogColor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L38)
 
 ```csharp
 ref Color FogColor { get; }
@@ -48,7 +48,7 @@ ref Color FogColor { get; }
 
 ### FogEndDistance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L22)
 
 ```csharp
 ref float FogEndDistance { get; }
@@ -60,7 +60,7 @@ ref float FogEndDistance { get; }
 
 ### FogEndHeight
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L28)
 
 ```csharp
 ref float FogEndHeight { get; }
@@ -72,7 +72,7 @@ ref float FogEndHeight { get; }
 
 ### FogFalloffExponent
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L34)
 
 ```csharp
 ref float FogFalloffExponent { get; }
@@ -84,7 +84,7 @@ ref float FogFalloffExponent { get; }
 
 ### FogMaxOpacity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L32)
 
 ```csharp
 ref float FogMaxOpacity { get; }
@@ -96,7 +96,7 @@ ref float FogMaxOpacity { get; }
 
 ### FogStartDistance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L20)
 
 ```csharp
 ref float FogStartDistance { get; }
@@ -108,7 +108,7 @@ ref float FogStartDistance { get; }
 
 ### FogStartHeight
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L26)
 
 ```csharp
 ref float FogStartHeight { get; }
@@ -120,7 +120,7 @@ ref float FogStartHeight { get; }
 
 ### FogStrength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L40)
 
 ```csharp
 ref float FogStrength { get; }
@@ -132,7 +132,7 @@ ref float FogStrength { get; }
 
 ### FogVerticalExponent
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L36)
 
 ```csharp
 ref float FogVerticalExponent { get; }
@@ -144,7 +144,7 @@ ref float FogVerticalExponent { get; }
 
 ### GradientFogNeedsTextures
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L48)
 
 ```csharp
 ref bool GradientFogNeedsTextures { get; }
@@ -156,7 +156,7 @@ ref bool GradientFogNeedsTextures { get; }
 
 ### GradientFogTexture
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L18)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCTextureBase> GradientFogTexture { get; }
@@ -168,7 +168,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> GradientFogTexture { get; }
 
 ### HeightFogEnabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L24)
 
 ```csharp
 ref bool HeightFogEnabled { get; }
@@ -180,7 +180,7 @@ ref bool HeightFogEnabled { get; }
 
 ### IsEnabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L46)
 
 ```csharp
 ref bool IsEnabled { get; }
@@ -192,7 +192,7 @@ ref bool IsEnabled { get; }
 
 ### StartDisabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L44)
 
 ```csharp
 ref bool StartDisabled { get; }
@@ -206,7 +206,7 @@ ref bool StartDisabled { get; }
 
 ### FadeTimeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L62)
 
 ```csharp
 void FadeTimeUpdated()
@@ -214,7 +214,7 @@ void FadeTimeUpdated()
 
 ### FarZUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L56)
 
 ```csharp
 void FarZUpdated()
@@ -222,7 +222,7 @@ void FarZUpdated()
 
 ### FogColorUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L60)
 
 ```csharp
 void FogColorUpdated()
@@ -230,7 +230,7 @@ void FogColorUpdated()
 
 ### FogEndDistanceUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L52)
 
 ```csharp
 void FogEndDistanceUpdated()
@@ -238,7 +238,7 @@ void FogEndDistanceUpdated()
 
 ### FogEndHeightUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L54)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L55)
 
 ```csharp
 void FogEndHeightUpdated()
@@ -246,7 +246,7 @@ void FogEndHeightUpdated()
 
 ### FogFalloffExponentUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L58)
 
 ```csharp
 void FogFalloffExponentUpdated()
@@ -254,7 +254,7 @@ void FogFalloffExponentUpdated()
 
 ### FogMaxOpacityUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L56)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L57)
 
 ```csharp
 void FogMaxOpacityUpdated()
@@ -262,7 +262,7 @@ void FogMaxOpacityUpdated()
 
 ### FogStartDistanceUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L50)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L51)
 
 ```csharp
 void FogStartDistanceUpdated()
@@ -270,7 +270,7 @@ void FogStartDistanceUpdated()
 
 ### FogStartHeightUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L54)
 
 ```csharp
 void FogStartHeightUpdated()
@@ -278,7 +278,7 @@ void FogStartHeightUpdated()
 
 ### FogStrengthUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L60)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L61)
 
 ```csharp
 void FogStrengthUpdated()
@@ -286,7 +286,7 @@ void FogStrengthUpdated()
 
 ### FogVerticalExponentUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L58)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L59)
 
 ```csharp
 void FogVerticalExponentUpdated()
@@ -294,7 +294,7 @@ void FogVerticalExponentUpdated()
 
 ### GradientFogTextureUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L50)
 
 ```csharp
 void GradientFogTextureUpdated()
@@ -302,7 +302,7 @@ void GradientFogTextureUpdated()
 
 ### HeightFogEnabledUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L52)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L53)
 
 ```csharp
 void HeightFogEnabledUpdated()
@@ -310,7 +310,7 @@ void HeightFogEnabledUpdated()
 
 ### IsEnabledUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L64)
 
 ```csharp
 void IsEnabledUpdated()
@@ -318,7 +318,7 @@ void IsEnabledUpdated()
 
 ### StartDisabledUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L62)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGradientFog.cs#L63)
 
 ```csharp
 void StartDisabledUpdated()

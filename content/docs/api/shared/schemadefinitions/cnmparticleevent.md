@@ -12,7 +12,7 @@ public interface CNmParticleEvent : CNmEvent, ISchemaClass<CNmEvent>, ISchemaCla
 
 ### AttachmentPoint0
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParticleEvent.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParticleEvent.cs#L32)
 
 ```csharp
 string AttachmentPoint0 { get; set; }
@@ -24,7 +24,7 @@ string AttachmentPoint0 { get; set; }
 
 ### AttachmentPoint1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParticleEvent.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParticleEvent.cs#L36)
 
 ```csharp
 string AttachmentPoint1 { get; set; }
@@ -36,7 +36,7 @@ string AttachmentPoint1 { get; set; }
 
 ### AttachmentType0
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParticleEvent.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParticleEvent.cs#L34)
 
 ```csharp
 ref ParticleAttachment_t AttachmentType0 { get; }
@@ -48,7 +48,7 @@ ref ParticleAttachment_t AttachmentType0 { get; }
 
 ### AttachmentType1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParticleEvent.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParticleEvent.cs#L38)
 
 ```csharp
 ref ParticleAttachment_t AttachmentType1 { get; }
@@ -60,7 +60,7 @@ ref ParticleAttachment_t AttachmentType1 { get; }
 
 ### Config
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParticleEvent.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParticleEvent.cs#L40)
 
 ```csharp
 string Config { get; set; }
@@ -72,7 +72,7 @@ string Config { get; set; }
 
 ### DetachFromOwner
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParticleEvent.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParticleEvent.cs#L28)
 
 ```csharp
 ref bool DetachFromOwner { get; }
@@ -84,7 +84,7 @@ ref bool DetachFromOwner { get; }
 
 ### EffectForConfig
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParticleEvent.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParticleEvent.cs#L42)
 
 ```csharp
 string EffectForConfig { get; set; }
@@ -96,7 +96,7 @@ string EffectForConfig { get; set; }
 
 ### ParticleSystem
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParticleEvent.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParticleEvent.cs#L22)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> ParticleSystem { get; }
@@ -108,7 +108,7 @@ ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> ParticleSystem {
 
 ### PlayEndCap
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParticleEvent.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParticleEvent.cs#L30)
 
 ```csharp
 ref bool PlayEndCap { get; }
@@ -120,7 +120,7 @@ ref bool PlayEndCap { get; }
 
 ### Relevance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParticleEvent.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParticleEvent.cs#L18)
 
 ```csharp
 ref CNmEventRelevance_t Relevance { get; }
@@ -132,7 +132,7 @@ ref CNmEventRelevance_t Relevance { get; }
 
 ### StopImmediately
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParticleEvent.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParticleEvent.cs#L26)
 
 ```csharp
 ref bool StopImmediately { get; }
@@ -144,7 +144,7 @@ ref bool StopImmediately { get; }
 
 ### Tags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParticleEvent.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParticleEvent.cs#L24)
 
 ```csharp
 string Tags { get; set; }
@@ -156,7 +156,7 @@ string Tags { get; set; }
 
 ### Type
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParticleEvent.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParticleEvent.cs#L20)
 
 ```csharp
 ref CNmParticleEvent__Type_t Type { get; }

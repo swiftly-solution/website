@@ -12,7 +12,7 @@ public interface C_OP_LockToSavedSequentialPathV2 : CParticleFunctionOperator, C
 
 ### CPPairs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToSavedSequentialPathV2.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToSavedSequentialPathV2.cs#L22)
 
 ```csharp
 ref bool CPPairs { get; }
@@ -24,7 +24,7 @@ ref bool CPPairs { get; }
 
 ### FadeEnd
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToSavedSequentialPathV2.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToSavedSequentialPathV2.cs#L20)
 
 ```csharp
 ref float FadeEnd { get; }
@@ -36,7 +36,7 @@ ref float FadeEnd { get; }
 
 ### FadeStart
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToSavedSequentialPathV2.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToSavedSequentialPathV2.cs#L18)
 
 ```csharp
 ref float FadeStart { get; }
@@ -48,7 +48,7 @@ ref float FadeStart { get; }
 
 ### PathParams
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToSavedSequentialPathV2.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToSavedSequentialPathV2.cs#L24)
 
 ```csharp
 CPathParameters PathParams { get; }

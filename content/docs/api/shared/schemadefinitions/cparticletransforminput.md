@@ -12,7 +12,7 @@ public interface CParticleTransformInput : CParticleInput, ISchemaClass<CParticl
 
 ### ControlPoint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleTransformInput.cs#L28)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleTransformInput.cs#L29)
 
 ```csharp
 ref int ControlPoint { get; }
@@ -24,7 +24,7 @@ ref int ControlPoint { get; }
 
 ### ControlPointRangeMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleTransformInput.cs#L30)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleTransformInput.cs#L31)
 
 ```csharp
 ref int ControlPointRangeMax { get; }
@@ -36,7 +36,7 @@ ref int ControlPointRangeMax { get; }
 
 ### EndCPGrowthTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleTransformInput.cs#L32)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleTransformInput.cs#L33)
 
 ```csharp
 ref float EndCPGrowthTime { get; }
@@ -48,7 +48,7 @@ ref float EndCPGrowthTime { get; }
 
 ### FollowNamedValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleTransformInput.cs#L22)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleTransformInput.cs#L23)
 
 ```csharp
 ref bool FollowNamedValue { get; }
@@ -60,7 +60,7 @@ ref bool FollowNamedValue { get; }
 
 ### NamedValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleTransformInput.cs#L20)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleTransformInput.cs#L21)
 
 ```csharp
 SchemaUntypedField NamedValue { get; }
@@ -72,7 +72,7 @@ SchemaUntypedField NamedValue { get; }
 
 ### SupportsDisabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleTransformInput.cs#L24)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleTransformInput.cs#L25)
 
 ```csharp
 ref bool SupportsDisabled { get; }
@@ -84,7 +84,7 @@ ref bool SupportsDisabled { get; }
 
 ### Type
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleTransformInput.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleTransformInput.cs#L18)
 
 ```csharp
 ref ParticleTransformType_t Type { get; }
@@ -96,7 +96,7 @@ ref ParticleTransformType_t Type { get; }
 
 ### UseOrientation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleTransformInput.cs#L26)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleTransformInput.cs#L27)
 
 ```csharp
 ref bool UseOrientation { get; }

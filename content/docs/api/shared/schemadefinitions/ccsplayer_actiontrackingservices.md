@@ -12,7 +12,7 @@ public interface CCSPlayer_ActionTrackingServices : CPlayerPawnComponent, ISchem
 
 ### IsRescuing
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_ActionTrackingServices.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_ActionTrackingServices.cs#L20)
 
 ```csharp
 ref bool IsRescuing { get; }
@@ -24,7 +24,7 @@ ref bool IsRescuing { get; }
 
 ### LastWeaponBeforeC4AutoSwitch
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_ActionTrackingServices.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_ActionTrackingServices.cs#L18)
 
 ```csharp
 ref CHandle<CBasePlayerWeapon> LastWeaponBeforeC4AutoSwitch { get; }
@@ -36,7 +36,7 @@ ref CHandle<CBasePlayerWeapon> LastWeaponBeforeC4AutoSwitch { get; }
 
 ### WeaponPurchasesThisMatch
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_ActionTrackingServices.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_ActionTrackingServices.cs#L22)
 
 ```csharp
 WeaponPurchaseTracker_t WeaponPurchasesThisMatch { get; }
@@ -48,7 +48,7 @@ WeaponPurchaseTracker_t WeaponPurchasesThisMatch { get; }
 
 ### WeaponPurchasesThisRound
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_ActionTrackingServices.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_ActionTrackingServices.cs#L24)
 
 ```csharp
 WeaponPurchaseTracker_t WeaponPurchasesThisRound { get; }
@@ -62,7 +62,7 @@ WeaponPurchaseTracker_t WeaponPurchasesThisRound { get; }
 
 ### IsRescuingUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_ActionTrackingServices.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_ActionTrackingServices.cs#L26)
 
 ```csharp
 void IsRescuingUpdated()
@@ -70,7 +70,7 @@ void IsRescuingUpdated()
 
 ### WeaponPurchasesThisMatchUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_ActionTrackingServices.cs#L26)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_ActionTrackingServices.cs#L27)
 
 ```csharp
 void WeaponPurchasesThisMatchUpdated()
@@ -78,7 +78,7 @@ void WeaponPurchasesThisMatchUpdated()
 
 ### WeaponPurchasesThisRoundUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_ActionTrackingServices.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_ActionTrackingServices.cs#L28)
 
 ```csharp
 void WeaponPurchasesThisRoundUpdated()

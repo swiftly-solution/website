@@ -12,7 +12,7 @@ public interface CBaseToggle : CBaseModelEntity, CBaseEntity, CEntityInstance, I
 
 ### Activator
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseToggle.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseToggle.cs#L40)
 
 ```csharp
 ref CHandle<CBaseEntity> Activator { get; }
@@ -24,7 +24,7 @@ ref CHandle<CBaseEntity> Activator { get; }
 
 ### AlwaysFireBlockedOutputs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseToggle.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseToggle.cs#L26)
 
 ```csharp
 ref bool AlwaysFireBlockedOutputs { get; }
@@ -36,7 +36,7 @@ ref bool AlwaysFireBlockedOutputs { get; }
 
 ### Angle1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseToggle.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseToggle.cs#L34)
 
 ```csharp
 ref QAngle Angle1 { get; }
@@ -48,7 +48,7 @@ ref QAngle Angle1 { get; }
 
 ### Angle2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseToggle.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseToggle.cs#L36)
 
 ```csharp
 ref QAngle Angle2 { get; }
@@ -60,7 +60,7 @@ ref QAngle Angle2 { get; }
 
 ### FinalAngle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseToggle.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseToggle.cs#L44)
 
 ```csharp
 ref QAngle FinalAngle { get; }
@@ -72,7 +72,7 @@ ref QAngle FinalAngle { get; }
 
 ### FinalDest
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseToggle.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseToggle.cs#L42)
 
 ```csharp
 ref Vector FinalDest { get; }
@@ -84,7 +84,7 @@ ref Vector FinalDest { get; }
 
 ### Height
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseToggle.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseToggle.cs#L38)
 
 ```csharp
 ref float Height { get; }
@@ -96,7 +96,7 @@ ref float Height { get; }
 
 ### Lip
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseToggle.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseToggle.cs#L24)
 
 ```csharp
 ref float Lip { get; }
@@ -108,7 +108,7 @@ ref float Lip { get; }
 
 ### Master
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseToggle.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseToggle.cs#L48)
 
 ```csharp
 string Master { get; set; }
@@ -120,7 +120,7 @@ string Master { get; set; }
 
 ### MoveAng
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseToggle.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseToggle.cs#L32)
 
 ```csharp
 ref QAngle MoveAng { get; }
@@ -132,7 +132,7 @@ ref QAngle MoveAng { get; }
 
 ### MoveDistance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseToggle.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseToggle.cs#L20)
 
 ```csharp
 ref float MoveDistance { get; }
@@ -144,7 +144,7 @@ ref float MoveDistance { get; }
 
 ### MovementType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseToggle.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseToggle.cs#L46)
 
 ```csharp
 ref int MovementType { get; }
@@ -156,7 +156,7 @@ ref int MovementType { get; }
 
 ### Position1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseToggle.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseToggle.cs#L28)
 
 ```csharp
 ref Vector Position1 { get; }
@@ -168,7 +168,7 @@ ref Vector Position1 { get; }
 
 ### Position2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseToggle.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseToggle.cs#L30)
 
 ```csharp
 ref Vector Position2 { get; }
@@ -180,7 +180,7 @@ ref Vector Position2 { get; }
 
 ### Toggle_state
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseToggle.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseToggle.cs#L18)
 
 ```csharp
 ref TOGGLE_STATE Toggle_state { get; }
@@ -192,7 +192,7 @@ ref TOGGLE_STATE Toggle_state { get; }
 
 ### Wait
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseToggle.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseToggle.cs#L22)
 
 ```csharp
 ref float Wait { get; }

@@ -12,7 +12,7 @@ public interface C_OP_SetUserEvent : CParticleFunctionOperator, CParticleFunctio
 
 ### FallingEdge
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetUserEvent.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetUserEvent.cs#L24)
 
 ```csharp
 CPerParticleFloatInput FallingEdge { get; }
@@ -24,7 +24,7 @@ CPerParticleFloatInput FallingEdge { get; }
 
 ### FallingEventType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetUserEvent.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetUserEvent.cs#L26)
 
 ```csharp
 ref EventTypeSelection_t FallingEventType { get; }
@@ -36,7 +36,7 @@ ref EventTypeSelection_t FallingEventType { get; }
 
 ### Input
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetUserEvent.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetUserEvent.cs#L18)
 
 ```csharp
 CPerParticleFloatInput Input { get; }
@@ -48,7 +48,7 @@ CPerParticleFloatInput Input { get; }
 
 ### RisingEdge
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetUserEvent.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetUserEvent.cs#L20)
 
 ```csharp
 CPerParticleFloatInput RisingEdge { get; }
@@ -60,7 +60,7 @@ CPerParticleFloatInput RisingEdge { get; }
 
 ### RisingEventType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetUserEvent.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetUserEvent.cs#L22)
 
 ```csharp
 ref EventTypeSelection_t RisingEventType { get; }

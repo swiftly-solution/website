@@ -12,7 +12,7 @@ public interface CPulseCell_Step_FollowEntity : CPulseCell_BaseFlow, CPulseCell_
 
 ### ParamBoneOrAttachName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Step_FollowEntity.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Step_FollowEntity.cs#L18)
 
 ```csharp
 string ParamBoneOrAttachName { get; set; }
@@ -24,7 +24,7 @@ string ParamBoneOrAttachName { get; set; }
 
 ### ParamBoneOrAttachNameChild
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Step_FollowEntity.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Step_FollowEntity.cs#L20)
 
 ```csharp
 string ParamBoneOrAttachNameChild { get; set; }

@@ -12,7 +12,7 @@ public interface C_INIT_RandomColor : CParticleFunctionInitializer, CParticleFun
 
 ### ColorMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomColor.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomColor.cs#L20)
 
 ```csharp
 ref Color ColorMax { get; }
@@ -24,7 +24,7 @@ ref Color ColorMax { get; }
 
 ### ColorMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomColor.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomColor.cs#L18)
 
 ```csharp
 ref Color ColorMin { get; }
@@ -36,7 +36,7 @@ ref Color ColorMin { get; }
 
 ### FieldOutput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomColor.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomColor.cs#L32)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -48,7 +48,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 ### LightAmplification
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomColor.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomColor.cs#L36)
 
 ```csharp
 ref float LightAmplification { get; }
@@ -60,7 +60,7 @@ ref float LightAmplification { get; }
 
 ### TintBlendMode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomColor.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomColor.cs#L34)
 
 ```csharp
 ref ParticleColorBlendMode_t TintBlendMode { get; }
@@ -72,7 +72,7 @@ ref ParticleColorBlendMode_t TintBlendMode { get; }
 
 ### TintCP
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomColor.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomColor.cs#L30)
 
 ```csharp
 ref int TintCP { get; }
@@ -84,7 +84,7 @@ ref int TintCP { get; }
 
 ### TintMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomColor.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomColor.cs#L24)
 
 ```csharp
 ref Color TintMax { get; }
@@ -96,7 +96,7 @@ ref Color TintMax { get; }
 
 ### TintMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomColor.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomColor.cs#L22)
 
 ```csharp
 ref Color TintMin { get; }
@@ -108,7 +108,7 @@ ref Color TintMin { get; }
 
 ### TintPerc
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomColor.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomColor.cs#L26)
 
 ```csharp
 ref float TintPerc { get; }
@@ -120,7 +120,7 @@ ref float TintPerc { get; }
 
 ### UpdateThreshold
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomColor.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomColor.cs#L28)
 
 ```csharp
 ref float UpdateThreshold { get; }

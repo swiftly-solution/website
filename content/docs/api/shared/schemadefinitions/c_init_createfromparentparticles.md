@@ -12,7 +12,7 @@ public interface C_INIT_CreateFromParentParticles : CParticleFunctionInitializer
 
 ### Increment
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateFromParentParticles.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateFromParentParticles.cs#L20)
 
 ```csharp
 ref float Increment { get; }
@@ -24,7 +24,7 @@ ref float Increment { get; }
 
 ### RandomDistribution
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateFromParentParticles.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateFromParentParticles.cs#L22)
 
 ```csharp
 ref bool RandomDistribution { get; }
@@ -36,7 +36,7 @@ ref bool RandomDistribution { get; }
 
 ### RandomSeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateFromParentParticles.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateFromParentParticles.cs#L24)
 
 ```csharp
 ref int RandomSeed { get; }
@@ -48,7 +48,7 @@ ref int RandomSeed { get; }
 
 ### SetRopeSegmentID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateFromParentParticles.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateFromParentParticles.cs#L28)
 
 ```csharp
 ref bool SetRopeSegmentID { get; }
@@ -60,7 +60,7 @@ ref bool SetRopeSegmentID { get; }
 
 ### SubFrame
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateFromParentParticles.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateFromParentParticles.cs#L26)
 
 ```csharp
 ref bool SubFrame { get; }
@@ -72,7 +72,7 @@ ref bool SubFrame { get; }
 
 ### VelocityScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateFromParentParticles.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateFromParentParticles.cs#L18)
 
 ```csharp
 ref float VelocityScale { get; }

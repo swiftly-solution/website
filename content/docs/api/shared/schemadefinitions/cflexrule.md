@@ -12,7 +12,7 @@ public interface CFlexRule : ISchemaClass<CFlexRule>, ISchemaField, ISchemaClass
 
 ### Flex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFlexRule.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFlexRule.cs#L18)
 
 ```csharp
 ref int Flex { get; }
@@ -24,7 +24,7 @@ ref int Flex { get; }
 
 ### FlexOps
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFlexRule.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFlexRule.cs#L20)
 
 ```csharp
 ref CUtlVector<CFlexOp> FlexOps { get; }

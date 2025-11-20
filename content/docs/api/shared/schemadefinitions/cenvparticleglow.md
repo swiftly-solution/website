@@ -12,7 +12,7 @@ public interface CEnvParticleGlow : CParticleSystem, CBaseModelEntity, CBaseEnti
 
 ### AlphaScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvParticleGlow.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvParticleGlow.cs#L18)
 
 ```csharp
 ref float AlphaScale { get; }
@@ -24,7 +24,7 @@ ref float AlphaScale { get; }
 
 ### ColorTint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvParticleGlow.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvParticleGlow.cs#L24)
 
 ```csharp
 ref Color ColorTint { get; }
@@ -36,7 +36,7 @@ ref Color ColorTint { get; }
 
 ### RadiusScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvParticleGlow.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvParticleGlow.cs#L20)
 
 ```csharp
 ref float RadiusScale { get; }
@@ -48,7 +48,7 @@ ref float RadiusScale { get; }
 
 ### SelfIllumScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvParticleGlow.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvParticleGlow.cs#L22)
 
 ```csharp
 ref float SelfIllumScale { get; }
@@ -60,7 +60,7 @@ ref float SelfIllumScale { get; }
 
 ### TextureOverride
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvParticleGlow.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvParticleGlow.cs#L26)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureOverride { get; }
@@ -74,7 +74,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureOverride { get; }
 
 ### AlphaScaleUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvParticleGlow.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvParticleGlow.cs#L28)
 
 ```csharp
 void AlphaScaleUpdated()
@@ -82,7 +82,7 @@ void AlphaScaleUpdated()
 
 ### ColorTintUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvParticleGlow.cs#L30)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvParticleGlow.cs#L31)
 
 ```csharp
 void ColorTintUpdated()
@@ -90,7 +90,7 @@ void ColorTintUpdated()
 
 ### RadiusScaleUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvParticleGlow.cs#L28)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvParticleGlow.cs#L29)
 
 ```csharp
 void RadiusScaleUpdated()
@@ -98,7 +98,7 @@ void RadiusScaleUpdated()
 
 ### SelfIllumScaleUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvParticleGlow.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvParticleGlow.cs#L30)
 
 ```csharp
 void SelfIllumScaleUpdated()
@@ -106,7 +106,7 @@ void SelfIllumScaleUpdated()
 
 ### TextureOverrideUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvParticleGlow.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvParticleGlow.cs#L32)
 
 ```csharp
 void TextureOverrideUpdated()

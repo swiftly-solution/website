@@ -12,7 +12,7 @@ public interface C_INIT_RemapNamedModelElementToScalar : CParticleFunctionInitia
 
 ### FieldInput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapNamedModelElementToScalar.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapNamedModelElementToScalar.cs#L24)
 
 ```csharp
 ParticleAttributeIndex_t FieldInput { get; }
@@ -24,7 +24,7 @@ ParticleAttributeIndex_t FieldInput { get; }
 
 ### FieldOutput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapNamedModelElementToScalar.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapNamedModelElementToScalar.cs#L26)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -36,7 +36,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 ### Model
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapNamedModelElementToScalar.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapNamedModelElementToScalar.cs#L18)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCModel> Model { get; }
@@ -48,7 +48,7 @@ ref CStrongHandle<InfoForResourceTypeCModel> Model { get; }
 
 ### ModelFromRenderer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapNamedModelElementToScalar.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapNamedModelElementToScalar.cs#L30)
 
 ```csharp
 ref bool ModelFromRenderer { get; }
@@ -60,7 +60,7 @@ ref bool ModelFromRenderer { get; }
 
 ### Names
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapNamedModelElementToScalar.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapNamedModelElementToScalar.cs#L20)
 
 ```csharp
 ref CUtlVector<CUtlString> Names { get; }
@@ -72,7 +72,7 @@ ref CUtlVector<CUtlString> Names { get; }
 
 ### SetMethod
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapNamedModelElementToScalar.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapNamedModelElementToScalar.cs#L28)
 
 ```csharp
 ref ParticleSetMethod_t SetMethod { get; }
@@ -84,7 +84,7 @@ ref ParticleSetMethod_t SetMethod { get; }
 
 ### Values
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapNamedModelElementToScalar.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapNamedModelElementToScalar.cs#L22)
 
 ```csharp
 ref CUtlVector<float> Values { get; }

@@ -12,7 +12,7 @@ public interface COmniLight : CBarnLight, CBaseModelEntity, CBaseEntity, CEntity
 
 ### InnerAngle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COmniLight.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COmniLight.cs#L18)
 
 ```csharp
 ref float InnerAngle { get; }
@@ -24,7 +24,7 @@ ref float InnerAngle { get; }
 
 ### OuterAngle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COmniLight.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COmniLight.cs#L20)
 
 ```csharp
 ref float OuterAngle { get; }
@@ -36,7 +36,7 @@ ref float OuterAngle { get; }
 
 ### ShowLight
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COmniLight.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COmniLight.cs#L22)
 
 ```csharp
 ref bool ShowLight { get; }
@@ -50,7 +50,7 @@ ref bool ShowLight { get; }
 
 ### InnerAngleUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COmniLight.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COmniLight.cs#L24)
 
 ```csharp
 void InnerAngleUpdated()
@@ -58,7 +58,7 @@ void InnerAngleUpdated()
 
 ### OuterAngleUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COmniLight.cs#L24)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COmniLight.cs#L25)
 
 ```csharp
 void OuterAngleUpdated()
@@ -66,7 +66,7 @@ void OuterAngleUpdated()
 
 ### ShowLightUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COmniLight.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COmniLight.cs#L26)
 
 ```csharp
 void ShowLightUpdated()

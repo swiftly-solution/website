@@ -12,7 +12,7 @@ public interface COrnamentProp : CDynamicProp, CBreakableProp, CBaseProp, CBaseA
 
 ### InitialOwner
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COrnamentProp.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COrnamentProp.cs#L18)
 
 ```csharp
 string InitialOwner { get; set; }

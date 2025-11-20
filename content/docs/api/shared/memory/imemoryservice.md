@@ -8,6 +8,34 @@ public interface IMemoryService
 
 ## Methods
 
+### Alloc(ulong)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L96)
+
+```csharp
+nint Alloc(ulong size)
+```
+
+#### Parameters
+
+- **size**: [ulong](https://learn.microsoft.com/dotnet/api/system.uint64) - The size of the memory block to allocate.
+
+#### Returns
+
+- [nint](https://learn.microsoft.com/dotnet/api/system.intptr) - The address of the allocated memory block.
+
+### Free(nint)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L102)
+
+```csharp
+void Free(nint pointer)
+```
+
+#### Parameters
+
+- **pointer**: [nint](https://learn.microsoft.com/dotnet/api/system.intptr) - The address of the memory block to free.
+
 ### GetAddressBySignature(string, string)
 
 [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L44)
@@ -163,6 +191,23 @@ bool ObjectPtrHasVtable(nint address)
 #### Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - True if the object pointer has a vtable, false otherwise.
+
+### Resize(nint, ulong)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L110)
+
+```csharp
+nint Resize(nint pointer, ulong newSize)
+```
+
+#### Parameters
+
+- **pointer**: [nint](https://learn.microsoft.com/dotnet/api/system.intptr) - The address of the memory block to resize.
+- **newSize**: [ulong](https://learn.microsoft.com/dotnet/api/system.uint64) - The new size of the memory block.
+
+#### Returns
+
+- [nint](https://learn.microsoft.com/dotnet/api/system.intptr) - The address of the resized memory block.
 
 ### ResolveXrefAddress(nint)
 

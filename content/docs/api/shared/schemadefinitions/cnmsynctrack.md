@@ -12,7 +12,7 @@ public interface CNmSyncTrack : ISchemaClass<CNmSyncTrack>, ISchemaField, ISchem
 
 ### StartEventOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSyncTrack.cs#L20)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSyncTrack.cs#L21)
 
 ```csharp
 ref int StartEventOffset { get; }
@@ -24,7 +24,7 @@ ref int StartEventOffset { get; }
 
 ### SyncEvents
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSyncTrack.cs#L18)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSyncTrack.cs#L19)
 
 ```csharp
 SchemaUntypedField SyncEvents { get; }

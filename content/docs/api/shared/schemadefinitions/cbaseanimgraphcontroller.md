@@ -12,7 +12,7 @@ public interface CBaseAnimGraphController : CSkeletonAnimationController, ISkele
 
 ### ActiveIKChainMask
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L24)
 
 ```csharp
 ref uint ActiveIKChainMask { get; }
@@ -24,7 +24,7 @@ ref uint ActiveIKChainMask { get; }
 
 ### AnimGraphNetworkedVars
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L18)
 
 ```csharp
 CAnimGraphNetworkedVariables AnimGraphNetworkedVars { get; }
@@ -36,7 +36,7 @@ CAnimGraphNetworkedVariables AnimGraphNetworkedVars { get; }
 
 ### AnimLoopMode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L32)
 
 ```csharp
 ref AnimLoopMode_t AnimLoopMode { get; }
@@ -48,7 +48,7 @@ ref AnimLoopMode_t AnimLoopMode { get; }
 
 ### GraphCreationFlagsAG2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L56)
 
 ```csharp
 ref byte GraphCreationFlagsAG2 { get; }
@@ -60,7 +60,7 @@ ref byte GraphCreationFlagsAG2 { get; }
 
 ### GraphDefinitionAG2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L46)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCNmGraphDefinition> GraphDefinitionAG2 { get; }
@@ -72,7 +72,7 @@ ref CStrongHandle<InfoForResourceTypeCNmGraphDefinition> GraphDefinitionAG2 { ge
 
 ### IsUsingAG2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L48)
 
 ```csharp
 ref bool IsUsingAG2 { get; }
@@ -84,7 +84,7 @@ ref bool IsUsingAG2 { get; }
 
 ### LastUpdateSkipped
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L42)
 
 ```csharp
 ref bool LastUpdateSkipped { get; }
@@ -96,7 +96,7 @@ ref bool LastUpdateSkipped { get; }
 
 ### NetworkedAnimationInputsChanged
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L38)
 
 ```csharp
 ref bool NetworkedAnimationInputsChanged { get; }
@@ -108,7 +108,7 @@ ref bool NetworkedAnimationInputsChanged { get; }
 
 ### NetworkedSequenceChanged
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L40)
 
 ```csharp
 ref bool NetworkedSequenceChanged { get; }
@@ -120,7 +120,7 @@ ref bool NetworkedSequenceChanged { get; }
 
 ### NotifyState
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L36)
 
 ```csharp
 ref SequenceFinishNotifyState_t NotifyState { get; }
@@ -132,7 +132,7 @@ ref SequenceFinishNotifyState_t NotifyState { get; }
 
 ### PlaybackRate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L34)
 
 ```csharp
 ref CNetworkedQuantizedFloat PlaybackRate { get; }
@@ -144,7 +144,7 @@ ref CNetworkedQuantizedFloat PlaybackRate { get; }
 
 ### PrevAnimUpdateTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L44)
 
 ```csharp
 GameTime_t PrevAnimUpdateTime { get; }
@@ -156,7 +156,7 @@ GameTime_t PrevAnimUpdateTime { get; }
 
 ### SeqFixedCycle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L30)
 
 ```csharp
 ref float SeqFixedCycle { get; }
@@ -168,7 +168,7 @@ ref float SeqFixedCycle { get; }
 
 ### SeqStartTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L28)
 
 ```csharp
 GameTime_t SeqStartTime { get; }
@@ -180,7 +180,7 @@ GameTime_t SeqStartTime { get; }
 
 ### Sequence
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L26)
 
 ```csharp
 HSequence Sequence { get; }
@@ -192,7 +192,7 @@ HSequence Sequence { get; }
 
 ### SequenceFinished
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L20)
 
 ```csharp
 ref bool SequenceFinished { get; }
@@ -204,7 +204,7 @@ ref bool SequenceFinished { get; }
 
 ### SerializePoseRecipeSizeAG2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L52)
 
 ```csharp
 ref int SerializePoseRecipeSizeAG2 { get; }
@@ -216,7 +216,7 @@ ref int SerializePoseRecipeSizeAG2 { get; }
 
 ### SerializePoseRecipeVersionAG2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L54)
 
 ```csharp
 ref int SerializePoseRecipeVersionAG2 { get; }
@@ -228,7 +228,7 @@ ref int SerializePoseRecipeVersionAG2 { get; }
 
 ### SerializedPoseRecipeAG2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L50)
 
 ```csharp
 ref CUtlVector<byte> SerializedPoseRecipeAG2 { get; }
@@ -240,7 +240,7 @@ ref CUtlVector<byte> SerializedPoseRecipeAG2 { get; }
 
 ### ServerGraphDefReloadCountAG2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L58)
 
 ```csharp
 ref int ServerGraphDefReloadCountAG2 { get; }
@@ -252,7 +252,7 @@ ref int ServerGraphDefReloadCountAG2 { get; }
 
 ### ServerSerializationContextIteration
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L60)
 
 ```csharp
 ref int ServerSerializationContextIteration { get; }
@@ -264,7 +264,7 @@ ref int ServerSerializationContextIteration { get; }
 
 ### SoundSyncTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L22)
 
 ```csharp
 ref float SoundSyncTime { get; }
@@ -278,7 +278,7 @@ ref float SoundSyncTime { get; }
 
 ### AnimGraphNetworkedVarsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L62)
 
 ```csharp
 void AnimGraphNetworkedVarsUpdated()
@@ -286,7 +286,7 @@ void AnimGraphNetworkedVarsUpdated()
 
 ### AnimLoopModeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L65)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L66)
 
 ```csharp
 void AnimLoopModeUpdated()
@@ -294,7 +294,7 @@ void AnimLoopModeUpdated()
 
 ### GraphCreationFlagsAG2Updated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L72)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L73)
 
 ```csharp
 void GraphCreationFlagsAG2Updated()
@@ -302,7 +302,7 @@ void GraphCreationFlagsAG2Updated()
 
 ### GraphDefinitionAG2Updated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L67)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L68)
 
 ```csharp
 void GraphDefinitionAG2Updated()
@@ -310,7 +310,7 @@ void GraphDefinitionAG2Updated()
 
 ### IsUsingAG2Updated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L68)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L69)
 
 ```csharp
 void IsUsingAG2Updated()
@@ -318,7 +318,7 @@ void IsUsingAG2Updated()
 
 ### PlaybackRateUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L66)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L67)
 
 ```csharp
 void PlaybackRateUpdated()
@@ -326,7 +326,7 @@ void PlaybackRateUpdated()
 
 ### SeqFixedCycleUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L64)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L65)
 
 ```csharp
 void SeqFixedCycleUpdated()
@@ -334,7 +334,7 @@ void SeqFixedCycleUpdated()
 
 ### SeqStartTimeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L64)
 
 ```csharp
 void SeqStartTimeUpdated()
@@ -342,7 +342,7 @@ void SeqStartTimeUpdated()
 
 ### SequenceUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L62)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L63)
 
 ```csharp
 void SequenceUpdated()
@@ -350,7 +350,7 @@ void SequenceUpdated()
 
 ### SerializePoseRecipeSizeAG2Updated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L70)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L71)
 
 ```csharp
 void SerializePoseRecipeSizeAG2Updated()
@@ -358,7 +358,7 @@ void SerializePoseRecipeSizeAG2Updated()
 
 ### SerializePoseRecipeVersionAG2Updated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L71)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L72)
 
 ```csharp
 void SerializePoseRecipeVersionAG2Updated()
@@ -366,7 +366,7 @@ void SerializePoseRecipeVersionAG2Updated()
 
 ### SerializedPoseRecipeAG2Updated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L69)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L70)
 
 ```csharp
 void SerializedPoseRecipeAG2Updated()
@@ -374,7 +374,7 @@ void SerializedPoseRecipeAG2Updated()
 
 ### ServerGraphDefReloadCountAG2Updated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L73)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L74)
 
 ```csharp
 void ServerGraphDefReloadCountAG2Updated()
@@ -382,7 +382,7 @@ void ServerGraphDefReloadCountAG2Updated()
 
 ### ServerSerializationContextIterationUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L74)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphController.cs#L75)
 
 ```csharp
 void ServerSerializationContextIterationUpdated()

@@ -12,7 +12,7 @@ public interface CPointAngleSensor : CPointEntity, CBaseEntity, CEntityInstance,
 
 ### Disabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngleSensor.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngleSensor.cs#L18)
 
 ```csharp
 ref bool Disabled { get; }
@@ -24,7 +24,7 @@ ref bool Disabled { get; }
 
 ### DotTolerance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngleSensor.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngleSensor.cs#L28)
 
 ```csharp
 ref float DotTolerance { get; }
@@ -36,7 +36,7 @@ ref float DotTolerance { get; }
 
 ### Duration
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngleSensor.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngleSensor.cs#L26)
 
 ```csharp
 ref float Duration { get; }
@@ -48,7 +48,7 @@ ref float Duration { get; }
 
 ### FacingPercentage
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngleSensor.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngleSensor.cs#L42)
 
 ```csharp
 SchemaUntypedField FacingPercentage { get; }
@@ -60,7 +60,7 @@ SchemaUntypedField FacingPercentage { get; }
 
 ### FacingTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngleSensor.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngleSensor.cs#L30)
 
 ```csharp
 GameTime_t FacingTime { get; }
@@ -72,7 +72,7 @@ GameTime_t FacingTime { get; }
 
 ### Fired
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngleSensor.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngleSensor.cs#L32)
 
 ```csharp
 ref bool Fired { get; }
@@ -84,7 +84,7 @@ ref bool Fired { get; }
 
 ### LookAtEntity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngleSensor.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngleSensor.cs#L24)
 
 ```csharp
 ref CHandle<CBaseEntity> LookAtEntity { get; }
@@ -96,7 +96,7 @@ ref CHandle<CBaseEntity> LookAtEntity { get; }
 
 ### LookAtName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngleSensor.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngleSensor.cs#L20)
 
 ```csharp
 string LookAtName { get; set; }
@@ -108,7 +108,7 @@ string LookAtName { get; set; }
 
 ### OnFacingLookat
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngleSensor.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngleSensor.cs#L34)
 
 ```csharp
 CEntityIOOutput OnFacingLookat { get; }
@@ -120,7 +120,7 @@ CEntityIOOutput OnFacingLookat { get; }
 
 ### OnNotFacingLookat
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngleSensor.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngleSensor.cs#L36)
 
 ```csharp
 CEntityIOOutput OnNotFacingLookat { get; }
@@ -132,7 +132,7 @@ CEntityIOOutput OnNotFacingLookat { get; }
 
 ### TargetDir
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngleSensor.cs#L38)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngleSensor.cs#L39)
 
 ```csharp
 SchemaUntypedField TargetDir { get; }
@@ -144,7 +144,7 @@ SchemaUntypedField TargetDir { get; }
 
 ### TargetEntity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngleSensor.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngleSensor.cs#L22)
 
 ```csharp
 ref CHandle<CBaseEntity> TargetEntity { get; }

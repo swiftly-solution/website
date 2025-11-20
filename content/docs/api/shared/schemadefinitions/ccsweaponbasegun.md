@@ -12,7 +12,7 @@ public interface CCSWeaponBaseGun : CCSWeaponBase, CBasePlayerWeapon, CEconEntit
 
 ### BurstShotsRemaining
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseGun.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseGun.cs#L20)
 
 ```csharp
 ref int BurstShotsRemaining { get; }
@@ -24,7 +24,7 @@ ref int BurstShotsRemaining { get; }
 
 ### InPrecache
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseGun.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseGun.cs#L24)
 
 ```csharp
 ref bool InPrecache { get; }
@@ -36,7 +36,7 @@ ref bool InPrecache { get; }
 
 ### NeedsBoltAction
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseGun.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseGun.cs#L26)
 
 ```csharp
 ref bool NeedsBoltAction { get; }
@@ -48,7 +48,7 @@ ref bool NeedsBoltAction { get; }
 
 ### RevolverCylinderIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseGun.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseGun.cs#L28)
 
 ```csharp
 ref int RevolverCylinderIdx { get; }
@@ -60,7 +60,7 @@ ref int RevolverCylinderIdx { get; }
 
 ### SilencedModelIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseGun.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseGun.cs#L22)
 
 ```csharp
 ref int SilencedModelIndex { get; }
@@ -72,7 +72,7 @@ ref int SilencedModelIndex { get; }
 
 ### SkillBoltInterruptAvailable
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseGun.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseGun.cs#L34)
 
 ```csharp
 ref bool SkillBoltInterruptAvailable { get; }
@@ -84,7 +84,7 @@ ref bool SkillBoltInterruptAvailable { get; }
 
 ### SkillBoltLiftedFireKey
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseGun.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseGun.cs#L36)
 
 ```csharp
 ref bool SkillBoltLiftedFireKey { get; }
@@ -96,7 +96,7 @@ ref bool SkillBoltLiftedFireKey { get; }
 
 ### SkillReloadAvailable
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseGun.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseGun.cs#L30)
 
 ```csharp
 ref bool SkillReloadAvailable { get; }
@@ -108,7 +108,7 @@ ref bool SkillReloadAvailable { get; }
 
 ### SkillReloadLiftedReloadKey
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseGun.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseGun.cs#L32)
 
 ```csharp
 ref bool SkillReloadLiftedReloadKey { get; }
@@ -120,7 +120,7 @@ ref bool SkillReloadLiftedReloadKey { get; }
 
 ### ZoomLevel
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseGun.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseGun.cs#L18)
 
 ```csharp
 ref int ZoomLevel { get; }
@@ -134,7 +134,7 @@ ref int ZoomLevel { get; }
 
 ### BurstShotsRemainingUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseGun.cs#L38)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseGun.cs#L39)
 
 ```csharp
 void BurstShotsRemainingUpdated()
@@ -142,7 +142,7 @@ void BurstShotsRemainingUpdated()
 
 ### NeedsBoltActionUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseGun.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseGun.cs#L40)
 
 ```csharp
 void NeedsBoltActionUpdated()
@@ -150,7 +150,7 @@ void NeedsBoltActionUpdated()
 
 ### RevolverCylinderIdxUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseGun.cs#L40)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseGun.cs#L41)
 
 ```csharp
 void RevolverCylinderIdxUpdated()
@@ -158,7 +158,7 @@ void RevolverCylinderIdxUpdated()
 
 ### ZoomLevelUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseGun.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseGun.cs#L38)
 
 ```csharp
 void ZoomLevelUpdated()

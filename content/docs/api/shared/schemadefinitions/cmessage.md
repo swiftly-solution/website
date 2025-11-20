@@ -12,7 +12,7 @@ public interface CMessage : CPointEntity, CBaseEntity, CEntityInstance, ISchemaC
 
 ### Message
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMessage.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMessage.cs#L18)
 
 ```csharp
 string Message { get; set; }
@@ -24,7 +24,7 @@ string Message { get; set; }
 
 ### MessageAttenuation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMessage.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMessage.cs#L22)
 
 ```csharp
 ref int MessageAttenuation { get; }
@@ -36,7 +36,7 @@ ref int MessageAttenuation { get; }
 
 ### MessageVolume
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMessage.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMessage.cs#L20)
 
 ```csharp
 ref float MessageVolume { get; }
@@ -48,7 +48,7 @@ ref float MessageVolume { get; }
 
 ### Noise
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMessage.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMessage.cs#L26)
 
 ```csharp
 string Noise { get; set; }
@@ -60,7 +60,7 @@ string Noise { get; set; }
 
 ### OnShowMessage
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMessage.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMessage.cs#L28)
 
 ```csharp
 CEntityIOOutput OnShowMessage { get; }
@@ -72,7 +72,7 @@ CEntityIOOutput OnShowMessage { get; }
 
 ### Radius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMessage.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMessage.cs#L24)
 
 ```csharp
 ref float Radius { get; }

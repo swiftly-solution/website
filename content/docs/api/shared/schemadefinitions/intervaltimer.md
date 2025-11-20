@@ -12,7 +12,7 @@ public interface IntervalTimer : ISchemaClass<IntervalTimer>, ISchemaField, ISch
 
 ### Timestamp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/IntervalTimer.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/IntervalTimer.cs#L18)
 
 ```csharp
 GameTime_t Timestamp { get; }
@@ -24,7 +24,7 @@ GameTime_t Timestamp { get; }
 
 ### WorldGroupId
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/IntervalTimer.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/IntervalTimer.cs#L20)
 
 ```csharp
 ref uint WorldGroupId { get; }
@@ -38,7 +38,7 @@ ref uint WorldGroupId { get; }
 
 ### TimestampUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/IntervalTimer.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/IntervalTimer.cs#L22)
 
 ```csharp
 void TimestampUpdated()
@@ -46,7 +46,7 @@ void TimestampUpdated()
 
 ### WorldGroupIdUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/IntervalTimer.cs#L22)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/IntervalTimer.cs#L23)
 
 ```csharp
 void WorldGroupIdUpdated()

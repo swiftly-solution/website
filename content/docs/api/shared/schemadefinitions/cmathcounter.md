@@ -12,7 +12,7 @@ public interface CMathCounter : CLogicalEntity, CServerOnlyEntity, CBaseEntity, 
 
 ### Disabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathCounter.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathCounter.cs#L26)
 
 ```csharp
 ref bool Disabled { get; }
@@ -24,7 +24,7 @@ ref bool Disabled { get; }
 
 ### HitMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathCounter.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathCounter.cs#L24)
 
 ```csharp
 ref bool HitMax { get; }
@@ -36,7 +36,7 @@ ref bool HitMax { get; }
 
 ### HitMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathCounter.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathCounter.cs#L22)
 
 ```csharp
 ref bool HitMin { get; }
@@ -48,7 +48,7 @@ ref bool HitMin { get; }
 
 ### Max
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathCounter.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathCounter.cs#L20)
 
 ```csharp
 ref float Max { get; }
@@ -60,7 +60,7 @@ ref float Max { get; }
 
 ### Min
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathCounter.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathCounter.cs#L18)
 
 ```csharp
 ref float Min { get; }
@@ -72,7 +72,7 @@ ref float Min { get; }
 
 ### OnChangedFromMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathCounter.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathCounter.cs#L40)
 
 ```csharp
 CEntityIOOutput OnChangedFromMax { get; }
@@ -84,7 +84,7 @@ CEntityIOOutput OnChangedFromMax { get; }
 
 ### OnChangedFromMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathCounter.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathCounter.cs#L38)
 
 ```csharp
 CEntityIOOutput OnChangedFromMin { get; }
@@ -96,7 +96,7 @@ CEntityIOOutput OnChangedFromMin { get; }
 
 ### OnGetValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathCounter.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathCounter.cs#L32)
 
 ```csharp
 SchemaUntypedField OnGetValue { get; }
@@ -108,7 +108,7 @@ SchemaUntypedField OnGetValue { get; }
 
 ### OnHitMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathCounter.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathCounter.cs#L36)
 
 ```csharp
 CEntityIOOutput OnHitMax { get; }
@@ -120,7 +120,7 @@ CEntityIOOutput OnHitMax { get; }
 
 ### OnHitMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathCounter.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathCounter.cs#L34)
 
 ```csharp
 CEntityIOOutput OnHitMin { get; }
@@ -132,7 +132,7 @@ CEntityIOOutput OnHitMin { get; }
 
 ### OutValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathCounter.cs#L28)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathCounter.cs#L29)
 
 ```csharp
 SchemaUntypedField OutValue { get; }

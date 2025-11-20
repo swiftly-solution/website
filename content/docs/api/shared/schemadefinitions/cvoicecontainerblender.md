@@ -12,7 +12,7 @@ public interface CVoiceContainerBlender : CVoiceContainerBase, ISchemaClass<CVoi
 
 ### BlendFactor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerBlender.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerBlender.cs#L22)
 
 ```csharp
 ref float BlendFactor { get; }
@@ -24,7 +24,7 @@ ref float BlendFactor { get; }
 
 ### FirstSound
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerBlender.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerBlender.cs#L18)
 
 ```csharp
 CSoundContainerReference FirstSound { get; }
@@ -36,7 +36,7 @@ CSoundContainerReference FirstSound { get; }
 
 ### SecondSound
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerBlender.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerBlender.cs#L20)
 
 ```csharp
 CSoundContainerReference SecondSound { get; }

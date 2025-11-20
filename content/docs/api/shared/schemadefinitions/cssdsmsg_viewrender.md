@@ -12,7 +12,7 @@ public interface CSSDSMsg_ViewRender : ISchemaClass<CSSDSMsg_ViewRender>, ISchem
 
 ### ViewId
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewRender.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewRender.cs#L18)
 
 ```csharp
 SceneViewId_t ViewId { get; }
@@ -24,7 +24,7 @@ SceneViewId_t ViewId { get; }
 
 ### ViewName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewRender.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewRender.cs#L20)
 
 ```csharp
 string ViewName { get; set; }

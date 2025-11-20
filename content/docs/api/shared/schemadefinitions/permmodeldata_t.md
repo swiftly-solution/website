@@ -12,7 +12,7 @@ public interface PermModelData_t : ISchemaClass<PermModelData_t>, ISchemaField, 
 
 ### AnimatedMaterialAttributes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelData_t.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelData_t.cs#L62)
 
 ```csharp
 ref CUtlVector<PermModelDataAnimatedMaterialAttribute_t> AnimatedMaterialAttributes { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<PermModelDataAnimatedMaterialAttribute_t> AnimatedMaterialAttribu
 
 ### BodyGroupsHiddenInTools
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelData_t.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelData_t.cs#L58)
 
 ```csharp
 ref CUtlVector<CUtlString> BodyGroupsHiddenInTools { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<CUtlString> BodyGroupsHiddenInTools { get; }
 
 ### BoneFlexDrivers
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelData_t.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelData_t.cs#L54)
 
 ```csharp
 ref CUtlVector<ModelBoneFlexDriver_t> BoneFlexDrivers { get; }
@@ -48,7 +48,7 @@ ref CUtlVector<ModelBoneFlexDriver_t> BoneFlexDrivers { get; }
 
 ### DefaultMeshGroupMask
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelData_t.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelData_t.cs#L46)
 
 ```csharp
 ref ulong DefaultMeshGroupMask { get; }
@@ -60,7 +60,7 @@ ref ulong DefaultMeshGroupMask { get; }
 
 ### ExtParts
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelData_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelData_t.cs#L22)
 
 ```csharp
 ref CUtlVector<PermModelExtPart_t> ExtParts { get; }
@@ -72,7 +72,7 @@ ref CUtlVector<PermModelExtPart_t> ExtParts { get; }
 
 ### LodGroupSwitchDistances
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelData_t.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelData_t.cs#L32)
 
 ```csharp
 ref CUtlVector<float> LodGroupSwitchDistances { get; }
@@ -84,7 +84,7 @@ ref CUtlVector<float> LodGroupSwitchDistances { get; }
 
 ### MaterialGroups
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelData_t.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelData_t.cs#L44)
 
 ```csharp
 ref CUtlVector<MaterialGroup_t> MaterialGroups { get; }
@@ -96,7 +96,7 @@ ref CUtlVector<MaterialGroup_t> MaterialGroups { get; }
 
 ### MeshGroups
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelData_t.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelData_t.cs#L42)
 
 ```csharp
 ref CUtlVector<CUtlString> MeshGroups { get; }
@@ -108,7 +108,7 @@ ref CUtlVector<CUtlString> MeshGroups { get; }
 
 ### ModelConfigList
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelData_t.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelData_t.cs#L56)
 
 ```csharp
 CModelConfigList? ModelConfigList { get; }
@@ -120,7 +120,7 @@ CModelConfigList? ModelConfigList { get; }
 
 ### ModelInfo
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelData_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelData_t.cs#L20)
 
 ```csharp
 PermModelInfo_t ModelInfo { get; }
@@ -132,7 +132,7 @@ PermModelInfo_t ModelInfo { get; }
 
 ### ModelSkeleton
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelData_t.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelData_t.cs#L48)
 
 ```csharp
 ModelSkeletonData_t ModelSkeleton { get; }
@@ -144,7 +144,7 @@ ModelSkeletonData_t ModelSkeleton { get; }
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelData_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelData_t.cs#L18)
 
 ```csharp
 string Name { get; set; }
@@ -156,7 +156,7 @@ string Name { get; set; }
 
 ### RefAnimGroups
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelData_t.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelData_t.cs#L38)
 
 ```csharp
 ref CUtlVector<CStrongHandle<InfoForResourceTypeCAnimationGroup>> RefAnimGroups { get; }
@@ -168,7 +168,7 @@ ref CUtlVector<CStrongHandle<InfoForResourceTypeCAnimationGroup>> RefAnimGroups 
 
 ### RefAnimIncludeModels
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelData_t.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelData_t.cs#L60)
 
 ```csharp
 ref CUtlVector<CStrongHandle<InfoForResourceTypeCModel>> RefAnimIncludeModels { get; }
@@ -180,7 +180,7 @@ ref CUtlVector<CStrongHandle<InfoForResourceTypeCModel>> RefAnimIncludeModels { 
 
 ### RefLODGroupMasks
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelData_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelData_t.cs#L30)
 
 ```csharp
 ref CUtlVector<byte> RefLODGroupMasks { get; }
@@ -192,7 +192,7 @@ ref CUtlVector<byte> RefLODGroupMasks { get; }
 
 ### RefMeshGroupMasks
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelData_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelData_t.cs#L26)
 
 ```csharp
 ref CUtlVector<ulong> RefMeshGroupMasks { get; }
@@ -204,7 +204,7 @@ ref CUtlVector<ulong> RefMeshGroupMasks { get; }
 
 ### RefMeshes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelData_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelData_t.cs#L24)
 
 ```csharp
 ref CUtlVector<CStrongHandle<InfoForResourceTypeCRenderMesh>> RefMeshes { get; }
@@ -216,7 +216,7 @@ ref CUtlVector<CStrongHandle<InfoForResourceTypeCRenderMesh>> RefMeshes { get; }
 
 ### RefPhysGroupMasks
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelData_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelData_t.cs#L28)
 
 ```csharp
 ref CUtlVector<ulong> RefPhysGroupMasks { get; }
@@ -228,7 +228,7 @@ ref CUtlVector<ulong> RefPhysGroupMasks { get; }
 
 ### RefPhysicsData
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelData_t.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelData_t.cs#L34)
 
 ```csharp
 ref CUtlVector<CStrongHandle<InfoForResourceTypeCPhysAggregateData>> RefPhysicsData { get; }
@@ -240,7 +240,7 @@ ref CUtlVector<CStrongHandle<InfoForResourceTypeCPhysAggregateData>> RefPhysicsD
 
 ### RefPhysicsHitboxData
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelData_t.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelData_t.cs#L36)
 
 ```csharp
 ref CUtlVector<CStrongHandle<InfoForResourceTypeCPhysAggregateData>> RefPhysicsHitboxData { get; }
@@ -252,7 +252,7 @@ ref CUtlVector<CStrongHandle<InfoForResourceTypeCPhysAggregateData>> RefPhysicsH
 
 ### RefSequenceGroups
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelData_t.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelData_t.cs#L40)
 
 ```csharp
 ref CUtlVector<CStrongHandle<InfoForResourceTypeCSequenceGroupData>> RefSequenceGroups { get; }
@@ -264,7 +264,7 @@ ref CUtlVector<CStrongHandle<InfoForResourceTypeCSequenceGroupData>> RefSequence
 
 ### RemappingTable
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelData_t.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelData_t.cs#L50)
 
 ```csharp
 ref CUtlVector<short> RemappingTable { get; }
@@ -276,7 +276,7 @@ ref CUtlVector<short> RemappingTable { get; }
 
 ### RemappingTableStarts
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelData_t.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelData_t.cs#L52)
 
 ```csharp
 ref CUtlVector<ushort> RemappingTableStarts { get; }

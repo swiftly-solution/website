@@ -12,7 +12,7 @@ public interface CBodyComponentBaseAnimGraph : CBodyComponentSkeletonInstance, C
 
 ### AnimationController
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBodyComponentBaseAnimGraph.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBodyComponentBaseAnimGraph.cs#L18)
 
 ```csharp
 CBaseAnimGraphController AnimationController { get; }
@@ -26,7 +26,7 @@ CBaseAnimGraphController AnimationController { get; }
 
 ### AnimationControllerUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBodyComponentBaseAnimGraph.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBodyComponentBaseAnimGraph.cs#L20)
 
 ```csharp
 void AnimationControllerUpdated()

@@ -12,7 +12,7 @@ public interface CSosGroupActionMemberCountEnvelopeSchema : CSosGroupActionSchem
 
 ### Attack
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionMemberCountEnvelopeSchema.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionMemberCountEnvelopeSchema.cs#L26)
 
 ```csharp
 ref float Attack { get; }
@@ -24,7 +24,7 @@ ref float Attack { get; }
 
 ### BaseCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionMemberCountEnvelopeSchema.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionMemberCountEnvelopeSchema.cs#L18)
 
 ```csharp
 ref int BaseCount { get; }
@@ -36,7 +36,7 @@ ref int BaseCount { get; }
 
 ### BaseValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionMemberCountEnvelopeSchema.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionMemberCountEnvelopeSchema.cs#L22)
 
 ```csharp
 ref float BaseValue { get; }
@@ -48,7 +48,7 @@ ref float BaseValue { get; }
 
 ### Decay
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionMemberCountEnvelopeSchema.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionMemberCountEnvelopeSchema.cs#L28)
 
 ```csharp
 ref float Decay { get; }
@@ -60,7 +60,7 @@ ref float Decay { get; }
 
 ### ResultVarName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionMemberCountEnvelopeSchema.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionMemberCountEnvelopeSchema.cs#L30)
 
 ```csharp
 string ResultVarName { get; set; }
@@ -72,7 +72,7 @@ string ResultVarName { get; set; }
 
 ### SaveToGroup
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionMemberCountEnvelopeSchema.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionMemberCountEnvelopeSchema.cs#L32)
 
 ```csharp
 ref bool SaveToGroup { get; }
@@ -84,7 +84,7 @@ ref bool SaveToGroup { get; }
 
 ### TargetCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionMemberCountEnvelopeSchema.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionMemberCountEnvelopeSchema.cs#L20)
 
 ```csharp
 ref int TargetCount { get; }
@@ -96,7 +96,7 @@ ref int TargetCount { get; }
 
 ### TargetValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionMemberCountEnvelopeSchema.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionMemberCountEnvelopeSchema.cs#L24)
 
 ```csharp
 ref float TargetValue { get; }

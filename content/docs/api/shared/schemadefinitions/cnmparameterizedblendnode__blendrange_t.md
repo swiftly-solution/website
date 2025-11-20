@@ -12,7 +12,7 @@ public interface CNmParameterizedBlendNode__BlendRange_t : ISchemaClass<CNmParam
 
 ### InputIdx0
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParameterizedBlendNode__BlendRange_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParameterizedBlendNode__BlendRange_t.cs#L18)
 
 ```csharp
 ref short InputIdx0 { get; }
@@ -24,7 +24,7 @@ ref short InputIdx0 { get; }
 
 ### InputIdx1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParameterizedBlendNode__BlendRange_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParameterizedBlendNode__BlendRange_t.cs#L20)
 
 ```csharp
 ref short InputIdx1 { get; }
@@ -36,7 +36,7 @@ ref short InputIdx1 { get; }
 
 ### ParameterValueRange
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParameterizedBlendNode__BlendRange_t.cs#L22)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParameterizedBlendNode__BlendRange_t.cs#L23)
 
 ```csharp
 SchemaUntypedField ParameterValueRange { get; }

@@ -12,7 +12,7 @@ public interface C_OP_RenderPostProcessing : CParticleFunctionRenderer, CParticl
 
 ### PostProcessStrength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderPostProcessing.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderPostProcessing.cs#L18)
 
 ```csharp
 CPerParticleFloatInput PostProcessStrength { get; }
@@ -24,7 +24,7 @@ CPerParticleFloatInput PostProcessStrength { get; }
 
 ### PostTexture
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderPostProcessing.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderPostProcessing.cs#L20)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCPostProcessingResource> PostTexture { get; }
@@ -36,7 +36,7 @@ ref CStrongHandle<InfoForResourceTypeCPostProcessingResource> PostTexture { get;
 
 ### Priority
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderPostProcessing.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderPostProcessing.cs#L22)
 
 ```csharp
 ref ParticlePostProcessPriorityGroup_t Priority { get; }

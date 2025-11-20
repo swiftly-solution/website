@@ -12,7 +12,7 @@ public interface CEnvSky : CBaseModelEntity, CBaseEntity, CEntityInstance, ISche
 
 ### BrightnessScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSky.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSky.cs#L28)
 
 ```csharp
 ref float BrightnessScale { get; }
@@ -24,7 +24,7 @@ ref float BrightnessScale { get; }
 
 ### Enabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSky.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSky.cs#L40)
 
 ```csharp
 ref bool Enabled { get; }
@@ -36,7 +36,7 @@ ref bool Enabled { get; }
 
 ### FogMaxEnd
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSky.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSky.cs#L38)
 
 ```csharp
 ref float FogMaxEnd { get; }
@@ -48,7 +48,7 @@ ref float FogMaxEnd { get; }
 
 ### FogMaxStart
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSky.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSky.cs#L36)
 
 ```csharp
 ref float FogMaxStart { get; }
@@ -60,7 +60,7 @@ ref float FogMaxStart { get; }
 
 ### FogMinEnd
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSky.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSky.cs#L34)
 
 ```csharp
 ref float FogMinEnd { get; }
@@ -72,7 +72,7 @@ ref float FogMinEnd { get; }
 
 ### FogMinStart
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSky.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSky.cs#L32)
 
 ```csharp
 ref float FogMinStart { get; }
@@ -84,7 +84,7 @@ ref float FogMinStart { get; }
 
 ### FogType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSky.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSky.cs#L30)
 
 ```csharp
 ref int FogType { get; }
@@ -96,7 +96,7 @@ ref int FogType { get; }
 
 ### SkyMaterial
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSky.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSky.cs#L18)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeIMaterial2> SkyMaterial { get; }
@@ -108,7 +108,7 @@ ref CStrongHandle<InfoForResourceTypeIMaterial2> SkyMaterial { get; }
 
 ### SkyMaterialLightingOnly
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSky.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSky.cs#L20)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeIMaterial2> SkyMaterialLightingOnly { get; }
@@ -120,7 +120,7 @@ ref CStrongHandle<InfoForResourceTypeIMaterial2> SkyMaterialLightingOnly { get; 
 
 ### StartDisabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSky.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSky.cs#L22)
 
 ```csharp
 ref bool StartDisabled { get; }
@@ -132,7 +132,7 @@ ref bool StartDisabled { get; }
 
 ### TintColor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSky.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSky.cs#L24)
 
 ```csharp
 ref Color TintColor { get; }
@@ -144,7 +144,7 @@ ref Color TintColor { get; }
 
 ### TintColorLightingOnly
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSky.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSky.cs#L26)
 
 ```csharp
 ref Color TintColorLightingOnly { get; }
@@ -158,7 +158,7 @@ ref Color TintColorLightingOnly { get; }
 
 ### BrightnessScaleUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSky.cs#L46)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSky.cs#L47)
 
 ```csharp
 void BrightnessScaleUpdated()
@@ -166,7 +166,7 @@ void BrightnessScaleUpdated()
 
 ### EnabledUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSky.cs#L52)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSky.cs#L53)
 
 ```csharp
 void EnabledUpdated()
@@ -174,7 +174,7 @@ void EnabledUpdated()
 
 ### FogMaxEndUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSky.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSky.cs#L52)
 
 ```csharp
 void FogMaxEndUpdated()
@@ -182,7 +182,7 @@ void FogMaxEndUpdated()
 
 ### FogMaxStartUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSky.cs#L50)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSky.cs#L51)
 
 ```csharp
 void FogMaxStartUpdated()
@@ -190,7 +190,7 @@ void FogMaxStartUpdated()
 
 ### FogMinEndUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSky.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSky.cs#L50)
 
 ```csharp
 void FogMinEndUpdated()
@@ -198,7 +198,7 @@ void FogMinEndUpdated()
 
 ### FogMinStartUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSky.cs#L48)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSky.cs#L49)
 
 ```csharp
 void FogMinStartUpdated()
@@ -206,7 +206,7 @@ void FogMinStartUpdated()
 
 ### FogTypeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSky.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSky.cs#L48)
 
 ```csharp
 void FogTypeUpdated()
@@ -214,7 +214,7 @@ void FogTypeUpdated()
 
 ### SkyMaterialLightingOnlyUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSky.cs#L42)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSky.cs#L43)
 
 ```csharp
 void SkyMaterialLightingOnlyUpdated()
@@ -222,7 +222,7 @@ void SkyMaterialLightingOnlyUpdated()
 
 ### SkyMaterialUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSky.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSky.cs#L42)
 
 ```csharp
 void SkyMaterialUpdated()
@@ -230,7 +230,7 @@ void SkyMaterialUpdated()
 
 ### StartDisabledUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSky.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSky.cs#L44)
 
 ```csharp
 void StartDisabledUpdated()
@@ -238,7 +238,7 @@ void StartDisabledUpdated()
 
 ### TintColorLightingOnlyUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSky.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSky.cs#L46)
 
 ```csharp
 void TintColorLightingOnlyUpdated()
@@ -246,7 +246,7 @@ void TintColorLightingOnlyUpdated()
 
 ### TintColorUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSky.cs#L44)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSky.cs#L45)
 
 ```csharp
 void TintColorUpdated()

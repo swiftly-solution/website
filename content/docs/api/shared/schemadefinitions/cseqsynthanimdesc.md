@@ -12,7 +12,7 @@ public interface CSeqSynthAnimDesc : ISchemaClass<CSeqSynthAnimDesc>, ISchemaFie
 
 ### ActivityArray
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqSynthAnimDesc.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqSynthAnimDesc.cs#L28)
 
 ```csharp
 ref CUtlVector<CAnimActivity> ActivityArray { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<CAnimActivity> ActivityArray { get; }
 
 ### Flags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqSynthAnimDesc.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqSynthAnimDesc.cs#L20)
 
 ```csharp
 CSeqSeqDescFlag Flags { get; }
@@ -36,7 +36,7 @@ CSeqSeqDescFlag Flags { get; }
 
 ### LocalBaseReference
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqSynthAnimDesc.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqSynthAnimDesc.cs#L24)
 
 ```csharp
 ref short LocalBaseReference { get; }
@@ -48,7 +48,7 @@ ref short LocalBaseReference { get; }
 
 ### LocalBoneMask
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqSynthAnimDesc.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqSynthAnimDesc.cs#L26)
 
 ```csharp
 ref short LocalBoneMask { get; }
@@ -60,7 +60,7 @@ ref short LocalBoneMask { get; }
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqSynthAnimDesc.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqSynthAnimDesc.cs#L18)
 
 ```csharp
 ref CBufferString Name { get; }
@@ -72,7 +72,7 @@ ref CBufferString Name { get; }
 
 ### Transition
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqSynthAnimDesc.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqSynthAnimDesc.cs#L22)
 
 ```csharp
 CSeqTransition Transition { get; }

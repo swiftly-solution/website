@@ -12,7 +12,7 @@ public interface CRotatorTarget : CPointEntity, CBaseEntity, CEntityInstance, IS
 
 ### OnArrivedAt
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRotatorTarget.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRotatorTarget.cs#L18)
 
 ```csharp
 CEntityIOOutput OnArrivedAt { get; }
@@ -24,7 +24,7 @@ CEntityIOOutput OnArrivedAt { get; }
 
 ### Space
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRotatorTarget.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRotatorTarget.cs#L20)
 
 ```csharp
 ref RotatorTargetSpace_t Space { get; }

@@ -12,7 +12,7 @@ public interface CEnvMuzzleFlash : CPointEntity, CBaseEntity, CEntityInstance, I
 
 ### ParentAttachment
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvMuzzleFlash.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvMuzzleFlash.cs#L20)
 
 ```csharp
 string ParentAttachment { get; set; }
@@ -24,7 +24,7 @@ string ParentAttachment { get; set; }
 
 ### Scale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvMuzzleFlash.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvMuzzleFlash.cs#L18)
 
 ```csharp
 ref float Scale { get; }

@@ -12,7 +12,7 @@ public interface CNmTransitionNode__CDefinition : CNmPoseNode__CDefinition, CNmG
 
 ### BlendWeightEasing
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTransitionNode__CDefinition.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTransitionNode__CDefinition.cs#L36)
 
 ```csharp
 ref NmEasingOperation_t BlendWeightEasing { get; }
@@ -24,7 +24,7 @@ ref NmEasingOperation_t BlendWeightEasing { get; }
 
 ### BoneMaskBlendInTimePercentage
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTransitionNode__CDefinition.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTransitionNode__CDefinition.cs#L28)
 
 ```csharp
 NmPercent_t BoneMaskBlendInTimePercentage { get; }
@@ -36,7 +36,7 @@ NmPercent_t BoneMaskBlendInTimePercentage { get; }
 
 ### Duration
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTransitionNode__CDefinition.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTransitionNode__CDefinition.cs#L26)
 
 ```csharp
 ref float Duration { get; }
@@ -48,7 +48,7 @@ ref float Duration { get; }
 
 ### DurationOverrideNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTransitionNode__CDefinition.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTransitionNode__CDefinition.cs#L20)
 
 ```csharp
 ref short DurationOverrideNodeIdx { get; }
@@ -60,7 +60,7 @@ ref short DurationOverrideNodeIdx { get; }
 
 ### RootMotionBlend
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTransitionNode__CDefinition.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTransitionNode__CDefinition.cs#L38)
 
 ```csharp
 ref NmRootMotionBlendMode_t RootMotionBlend { get; }
@@ -72,7 +72,7 @@ ref NmRootMotionBlendMode_t RootMotionBlend { get; }
 
 ### StartBoneMaskNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTransitionNode__CDefinition.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTransitionNode__CDefinition.cs#L24)
 
 ```csharp
 ref short StartBoneMaskNodeIdx { get; }
@@ -84,7 +84,7 @@ ref short StartBoneMaskNodeIdx { get; }
 
 ### TargetStateNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTransitionNode__CDefinition.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTransitionNode__CDefinition.cs#L18)
 
 ```csharp
 ref short TargetStateNodeIdx { get; }
@@ -96,7 +96,7 @@ ref short TargetStateNodeIdx { get; }
 
 ### TargetSyncIDNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTransitionNode__CDefinition.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTransitionNode__CDefinition.cs#L34)
 
 ```csharp
 ref short TargetSyncIDNodeIdx { get; }
@@ -108,7 +108,7 @@ ref short TargetSyncIDNodeIdx { get; }
 
 ### TimeOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTransitionNode__CDefinition.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTransitionNode__CDefinition.cs#L30)
 
 ```csharp
 ref float TimeOffset { get; }
@@ -120,7 +120,7 @@ ref float TimeOffset { get; }
 
 ### TimeOffsetOverrideNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTransitionNode__CDefinition.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTransitionNode__CDefinition.cs#L22)
 
 ```csharp
 ref short TimeOffsetOverrideNodeIdx { get; }
@@ -132,7 +132,7 @@ ref short TimeOffsetOverrideNodeIdx { get; }
 
 ### TransitionOptions
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTransitionNode__CDefinition.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTransitionNode__CDefinition.cs#L32)
 
 ```csharp
 CNmBitFlags TransitionOptions { get; }

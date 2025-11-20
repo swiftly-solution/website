@@ -12,7 +12,7 @@ public interface CPhysThruster : CPhysForce, CPointEntity, CBaseEntity, CEntityI
 
 ### LocalOrigin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysThruster.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysThruster.cs#L18)
 
 ```csharp
 ref Vector LocalOrigin { get; }

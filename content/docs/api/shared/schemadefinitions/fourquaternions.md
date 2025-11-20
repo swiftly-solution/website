@@ -12,7 +12,7 @@ public interface FourQuaternions : ISchemaClass<FourQuaternions>, ISchemaField, 
 
 ### W
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FourQuaternions.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FourQuaternions.cs#L24)
 
 ```csharp
 ref fltx4 W { get; }
@@ -24,7 +24,7 @@ ref fltx4 W { get; }
 
 ### X
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FourQuaternions.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FourQuaternions.cs#L18)
 
 ```csharp
 ref fltx4 X { get; }
@@ -36,7 +36,7 @@ ref fltx4 X { get; }
 
 ### Y
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FourQuaternions.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FourQuaternions.cs#L20)
 
 ```csharp
 ref fltx4 Y { get; }
@@ -48,7 +48,7 @@ ref fltx4 Y { get; }
 
 ### Z
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FourQuaternions.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FourQuaternions.cs#L22)
 
 ```csharp
 ref fltx4 Z { get; }

@@ -12,7 +12,7 @@ public interface CSchemaSystemInternalRegistration : ISchemaClass<CSchemaSystemI
 
 ### CTransform
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSchemaSystemInternalRegistration.cs#L48)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSchemaSystemInternalRegistration.cs#L49)
 
 ```csharp
 ref CTransform CTransform { get; }
@@ -24,7 +24,7 @@ ref CTransform CTransform { get; }
 
 ### CUtlBinaryBlock
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSchemaSystemInternalRegistration.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSchemaSystemInternalRegistration.cs#L54)
 
 ```csharp
 ref CUtlBinaryBlock CUtlBinaryBlock { get; }
@@ -36,7 +36,7 @@ ref CUtlBinaryBlock CUtlBinaryBlock { get; }
 
 ### CUtlString
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSchemaSystemInternalRegistration.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSchemaSystemInternalRegistration.cs#L56)
 
 ```csharp
 string CUtlString { get; set; }
@@ -48,7 +48,7 @@ string CUtlString { get; set; }
 
 ### CUtlSymbol
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSchemaSystemInternalRegistration.cs#L58)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSchemaSystemInternalRegistration.cs#L59)
 
 ```csharp
 SchemaUntypedField CUtlSymbol { get; }
@@ -60,7 +60,7 @@ SchemaUntypedField CUtlSymbol { get; }
 
 ### Color
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSchemaSystemInternalRegistration.cs#L44)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSchemaSystemInternalRegistration.cs#L45)
 
 ```csharp
 ref Color Color { get; }
@@ -72,7 +72,7 @@ ref Color Color { get; }
 
 ### DegreeEuler
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSchemaSystemInternalRegistration.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSchemaSystemInternalRegistration.cs#L36)
 
 ```csharp
 SchemaUntypedField DegreeEuler { get; }
@@ -84,7 +84,7 @@ SchemaUntypedField DegreeEuler { get; }
 
 ### KV3
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSchemaSystemInternalRegistration.cs#L69)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSchemaSystemInternalRegistration.cs#L70)
 
 ```csharp
 SchemaUntypedField KV3 { get; }
@@ -96,7 +96,7 @@ SchemaUntypedField KV3 { get; }
 
 ### KeyValues
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSchemaSystemInternalRegistration.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSchemaSystemInternalRegistration.cs#L52)
 
 ```csharp
 SchemaUntypedField KeyValues { get; }
@@ -108,7 +108,7 @@ SchemaUntypedField KeyValues { get; }
 
 ### Matrix3x4_t
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSchemaSystemInternalRegistration.cs#L40)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSchemaSystemInternalRegistration.cs#L41)
 
 ```csharp
 ref matrix3x4_t Matrix3x4_t { get; }
@@ -120,7 +120,7 @@ ref matrix3x4_t Matrix3x4_t { get; }
 
 ### Matrix3x4a_t
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSchemaSystemInternalRegistration.cs#L42)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSchemaSystemInternalRegistration.cs#L43)
 
 ```csharp
 ref matrix3x4_t Matrix3x4a_t { get; }
@@ -132,7 +132,7 @@ ref matrix3x4_t Matrix3x4a_t { get; }
 
 ### QAngle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSchemaSystemInternalRegistration.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSchemaSystemInternalRegistration.cs#L28)
 
 ```csharp
 ref QAngle QAngle { get; }
@@ -144,7 +144,7 @@ ref QAngle QAngle { get; }
 
 ### Quaternion
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSchemaSystemInternalRegistration.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSchemaSystemInternalRegistration.cs#L26)
 
 ```csharp
 ref Quaternion Quaternion { get; }
@@ -156,7 +156,7 @@ ref Quaternion Quaternion { get; }
 
 ### QuaternionStorage
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSchemaSystemInternalRegistration.cs#L38)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSchemaSystemInternalRegistration.cs#L39)
 
 ```csharp
 SchemaUntypedField QuaternionStorage { get; }
@@ -168,7 +168,7 @@ SchemaUntypedField QuaternionStorage { get; }
 
 ### RadianEuler
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSchemaSystemInternalRegistration.cs#L32)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSchemaSystemInternalRegistration.cs#L33)
 
 ```csharp
 ref RadianEuler RadianEuler { get; }
@@ -180,7 +180,7 @@ ref RadianEuler RadianEuler { get; }
 
 ### ResourceTypes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSchemaSystemInternalRegistration.cs#L66)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSchemaSystemInternalRegistration.cs#L67)
 
 ```csharp
 SchemaUntypedField ResourceTypes { get; }
@@ -192,7 +192,7 @@ SchemaUntypedField ResourceTypes { get; }
 
 ### RotationVector
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSchemaSystemInternalRegistration.cs#L30)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSchemaSystemInternalRegistration.cs#L31)
 
 ```csharp
 SchemaUntypedField RotationVector { get; }
@@ -204,7 +204,7 @@ SchemaUntypedField RotationVector { get; }
 
 ### StringToken
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSchemaSystemInternalRegistration.cs#L60)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSchemaSystemInternalRegistration.cs#L61)
 
 ```csharp
 ref CUtlStringToken StringToken { get; }
@@ -216,7 +216,7 @@ ref CUtlStringToken StringToken { get; }
 
 ### StringTokenWithStorage
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSchemaSystemInternalRegistration.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSchemaSystemInternalRegistration.cs#L64)
 
 ```csharp
 SchemaUntypedField StringTokenWithStorage { get; }
@@ -228,7 +228,7 @@ SchemaUntypedField StringTokenWithStorage { get; }
 
 ### Vector
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSchemaSystemInternalRegistration.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSchemaSystemInternalRegistration.cs#L20)
 
 ```csharp
 ref Vector Vector { get; }
@@ -240,7 +240,7 @@ ref Vector Vector { get; }
 
 ### Vector2D
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSchemaSystemInternalRegistration.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSchemaSystemInternalRegistration.cs#L18)
 
 ```csharp
 ref Vector2D Vector2D { get; }
@@ -252,7 +252,7 @@ ref Vector2D Vector2D { get; }
 
 ### Vector4D
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSchemaSystemInternalRegistration.cs#L46)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSchemaSystemInternalRegistration.cs#L47)
 
 ```csharp
 ref Vector4D Vector4D { get; }
@@ -264,7 +264,7 @@ ref Vector4D Vector4D { get; }
 
 ### VectorAligned
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSchemaSystemInternalRegistration.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSchemaSystemInternalRegistration.cs#L24)
 
 ```csharp
 ref Vector VectorAligned { get; }
@@ -276,7 +276,7 @@ ref Vector VectorAligned { get; }
 
 ### VectorWS
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSchemaSystemInternalRegistration.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSchemaSystemInternalRegistration.cs#L22)
 
 ```csharp
 ref Vector VectorWS { get; }

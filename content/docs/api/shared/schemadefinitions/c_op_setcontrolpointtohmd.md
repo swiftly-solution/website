@@ -12,7 +12,7 @@ public interface C_OP_SetControlPointToHMD : CParticleFunctionPreEmission, CPart
 
 ### CP1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToHMD.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToHMD.cs#L18)
 
 ```csharp
 ref int CP1 { get; }
@@ -24,7 +24,7 @@ ref int CP1 { get; }
 
 ### CP1Pos
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToHMD.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToHMD.cs#L20)
 
 ```csharp
 ref Vector CP1Pos { get; }
@@ -36,7 +36,7 @@ ref Vector CP1Pos { get; }
 
 ### OrientToHMD
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToHMD.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToHMD.cs#L22)
 
 ```csharp
 ref bool OrientToHMD { get; }

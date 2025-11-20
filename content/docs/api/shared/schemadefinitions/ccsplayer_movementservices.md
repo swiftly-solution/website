@@ -12,7 +12,7 @@ public interface CCSPlayer_MovementServices : CPlayer_MovementServices_Humanoid,
 
 ### AccumulatedJumpError
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L91)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L92)
 
 ```csharp
 ref float AccumulatedJumpError { get; }
@@ -24,7 +24,7 @@ ref float AccumulatedJumpError { get; }
 
 ### ButtonDownMaskPrev
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L75)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L76)
 
 ```csharp
 ref ulong ButtonDownMaskPrev { get; }
@@ -36,7 +36,7 @@ ref ulong ButtonDownMaskPrev { get; }
 
 ### DesiresDuck
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L28)
 
 ```csharp
 ref bool DesiresDuck { get; }
@@ -48,7 +48,7 @@ ref bool DesiresDuck { get; }
 
 ### DuckAmount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L22)
 
 ```csharp
 ref float DuckAmount { get; }
@@ -60,7 +60,7 @@ ref float DuckAmount { get; }
 
 ### DuckJumpTimeMsecs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L34)
 
 ```csharp
 ref uint DuckJumpTimeMsecs { get; }
@@ -72,7 +72,7 @@ ref uint DuckJumpTimeMsecs { get; }
 
 ### DuckOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L30)
 
 ```csharp
 ref float DuckOffset { get; }
@@ -84,7 +84,7 @@ ref float DuckOffset { get; }
 
 ### DuckOverride
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L26)
 
 ```csharp
 ref bool DuckOverride { get; }
@@ -96,7 +96,7 @@ ref bool DuckOverride { get; }
 
 ### DuckSpeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L24)
 
 ```csharp
 ref float DuckSpeed { get; }
@@ -108,7 +108,7 @@ ref float DuckSpeed { get; }
 
 ### DuckTimeMsecs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L32)
 
 ```csharp
 ref uint DuckTimeMsecs { get; }
@@ -120,7 +120,7 @@ ref uint DuckTimeMsecs { get; }
 
 ### DuckUntilOnGround
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L42)
 
 ```csharp
 ref bool DuckUntilOnGround { get; }
@@ -132,7 +132,7 @@ ref bool DuckUntilOnGround { get; }
 
 ### Footsteps
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L67)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L68)
 
 ```csharp
 ref int Footsteps { get; }
@@ -144,7 +144,7 @@ ref int Footsteps { get; }
 
 ### Forward
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L58)
 
 ```csharp
 ref Vector Forward { get; }
@@ -156,7 +156,7 @@ ref Vector Forward { get; }
 
 ### GameCodeHasMovedPlayerAfterCommand
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L64)
 
 ```csharp
 ref int GameCodeHasMovedPlayerAfterCommand { get; }
@@ -168,7 +168,7 @@ ref int GameCodeHasMovedPlayerAfterCommand { get; }
 
 ### HasWalkMovedSinceLastJump
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L44)
 
 ```csharp
 ref bool HasWalkMovedSinceLastJump { get; }
@@ -180,7 +180,7 @@ ref bool HasWalkMovedSinceLastJump { get; }
 
 ### HeightAtJumpStart
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L83)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L84)
 
 ```csharp
 ref float HeightAtJumpStart { get; }
@@ -192,7 +192,7 @@ ref float HeightAtJumpStart { get; }
 
 ### InStuckTest
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L46)
 
 ```csharp
 ref bool InStuckTest { get; }
@@ -204,7 +204,7 @@ ref bool InStuckTest { get; }
 
 ### InputRotated
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L97)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L98)
 
 ```csharp
 ref Vector InputRotated { get; }
@@ -216,7 +216,7 @@ ref Vector InputRotated { get; }
 
 ### JumpApexPending
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L99)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L100)
 
 ```csharp
 ref bool JumpApexPending { get; }
@@ -228,7 +228,7 @@ ref bool JumpApexPending { get; }
 
 ### JumpPressedTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L71)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L72)
 
 ```csharp
 ref float JumpPressedTime { get; }
@@ -240,7 +240,7 @@ ref float JumpPressedTime { get; }
 
 ### JumpTimeMsecs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L36)
 
 ```csharp
 ref uint JumpTimeMsecs { get; }
@@ -252,7 +252,7 @@ ref uint JumpTimeMsecs { get; }
 
 ### LadderNormal
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L18)
 
 ```csharp
 ref Vector LadderNormal { get; }
@@ -264,7 +264,7 @@ ref Vector LadderNormal { get; }
 
 ### LadderSurfacePropIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L20)
 
 ```csharp
 ref int LadderSurfacePropIndex { get; }
@@ -276,7 +276,7 @@ ref int LadderSurfacePropIndex { get; }
 
 ### LastDuckTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L38)
 
 ```csharp
 ref float LastDuckTime { get; }
@@ -288,7 +288,7 @@ ref float LastDuckTime { get; }
 
 ### LastPositionAtFullCrouchSpeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L40)
 
 ```csharp
 ref Vector2D LastPositionAtFullCrouchSpeed { get; }
@@ -300,7 +300,7 @@ ref Vector2D LastPositionAtFullCrouchSpeed { get; }
 
 ### Left
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L60)
 
 ```csharp
 ref Vector Left { get; }
@@ -312,7 +312,7 @@ ref Vector Left { get; }
 
 ### MadeFootstepNoise
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L65)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L66)
 
 ```csharp
 ref bool MadeFootstepNoise { get; }
@@ -324,7 +324,7 @@ ref bool MadeFootstepNoise { get; }
 
 ### MaxJumpHeightLastJump
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L87)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L88)
 
 ```csharp
 ref float MaxJumpHeightLastJump { get; }
@@ -336,7 +336,7 @@ ref float MaxJumpHeightLastJump { get; }
 
 ### MaxJumpHeightThisJump
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L85)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L86)
 
 ```csharp
 ref float MaxJumpHeightThisJump { get; }
@@ -348,7 +348,7 @@ ref float MaxJumpHeightThisJump { get; }
 
 ### OffsetTickCompleteTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L77)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L78)
 
 ```csharp
 ref float OffsetTickCompleteTime { get; }
@@ -360,7 +360,7 @@ ref float OffsetTickCompleteTime { get; }
 
 ### OffsetTickStashedSpeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L79)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L80)
 
 ```csharp
 ref float OffsetTickStashedSpeed { get; }
@@ -372,7 +372,7 @@ ref float OffsetTickStashedSpeed { get; }
 
 ### OldJumpPressed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L69)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L70)
 
 ```csharp
 ref bool OldJumpPressed { get; }
@@ -384,7 +384,7 @@ ref bool OldJumpPressed { get; }
 
 ### OldWaterLevel
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L54)
 
 ```csharp
 ref int OldWaterLevel { get; }
@@ -396,7 +396,7 @@ ref int OldWaterLevel { get; }
 
 ### SpeedCropped
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L52)
 
 ```csharp
 ref bool SpeedCropped { get; }
@@ -408,7 +408,7 @@ ref bool SpeedCropped { get; }
 
 ### Stamina
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L81)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L82)
 
 ```csharp
 ref float Stamina { get; }
@@ -420,7 +420,7 @@ ref float Stamina { get; }
 
 ### StaminaAtJumpStart
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L89)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L90)
 
 ```csharp
 ref float StaminaAtJumpStart { get; }
@@ -432,7 +432,7 @@ ref float StaminaAtJumpStart { get; }
 
 ### StashGrenadeParameterWhen
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L73)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L74)
 
 ```csharp
 GameTime_t StashGrenadeParameterWhen { get; }
@@ -444,7 +444,7 @@ GameTime_t StashGrenadeParameterWhen { get; }
 
 ### StuckLast
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L50)
 
 ```csharp
 ref int StuckLast { get; }
@@ -456,7 +456,7 @@ ref int StuckLast { get; }
 
 ### TicksSinceLastSurfingDetected
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L93)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L94)
 
 ```csharp
 ref float TicksSinceLastSurfingDetected { get; }
@@ -468,7 +468,7 @@ ref float TicksSinceLastSurfingDetected { get; }
 
 ### TraceCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L48)
 
 ```csharp
 ref int TraceCount { get; }
@@ -480,7 +480,7 @@ ref int TraceCount { get; }
 
 ### Up
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L62)
 
 ```csharp
 ref Vector Up { get; }
@@ -492,7 +492,7 @@ ref Vector Up { get; }
 
 ### WasSurfing
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L95)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L96)
 
 ```csharp
 ref bool WasSurfing { get; }
@@ -504,7 +504,7 @@ ref bool WasSurfing { get; }
 
 ### WaterEntryTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L56)
 
 ```csharp
 ref float WaterEntryTime { get; }
@@ -518,7 +518,7 @@ ref float WaterEntryTime { get; }
 
 ### ButtonDownMaskPrevUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L115)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L116)
 
 ```csharp
 void ButtonDownMaskPrevUpdated()
@@ -526,7 +526,7 @@ void ButtonDownMaskPrevUpdated()
 
 ### DesiresDuckUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L106)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L107)
 
 ```csharp
 void DesiresDuckUpdated()
@@ -534,7 +534,7 @@ void DesiresDuckUpdated()
 
 ### DuckAmountUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L103)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L104)
 
 ```csharp
 void DuckAmountUpdated()
@@ -542,7 +542,7 @@ void DuckAmountUpdated()
 
 ### DuckJumpTimeMsecsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L109)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L110)
 
 ```csharp
 void DuckJumpTimeMsecsUpdated()
@@ -550,7 +550,7 @@ void DuckJumpTimeMsecsUpdated()
 
 ### DuckOffsetUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L107)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L108)
 
 ```csharp
 void DuckOffsetUpdated()
@@ -558,7 +558,7 @@ void DuckOffsetUpdated()
 
 ### DuckOverrideUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L105)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L106)
 
 ```csharp
 void DuckOverrideUpdated()
@@ -566,7 +566,7 @@ void DuckOverrideUpdated()
 
 ### DuckSpeedUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L104)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L105)
 
 ```csharp
 void DuckSpeedUpdated()
@@ -574,7 +574,7 @@ void DuckSpeedUpdated()
 
 ### DuckTimeMsecsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L108)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L109)
 
 ```csharp
 void DuckTimeMsecsUpdated()
@@ -582,7 +582,7 @@ void DuckTimeMsecsUpdated()
 
 ### GameCodeHasMovedPlayerAfterCommandUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L112)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L113)
 
 ```csharp
 void GameCodeHasMovedPlayerAfterCommandUpdated()
@@ -590,7 +590,7 @@ void GameCodeHasMovedPlayerAfterCommandUpdated()
 
 ### JumpApexPendingUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L120)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L121)
 
 ```csharp
 void JumpApexPendingUpdated()
@@ -598,7 +598,7 @@ void JumpApexPendingUpdated()
 
 ### JumpTimeMsecsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L110)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L111)
 
 ```csharp
 void JumpTimeMsecsUpdated()
@@ -606,7 +606,7 @@ void JumpTimeMsecsUpdated()
 
 ### LadderNormalUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L101)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L102)
 
 ```csharp
 void LadderNormalUpdated()
@@ -614,7 +614,7 @@ void LadderNormalUpdated()
 
 ### LadderSurfacePropIndexUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L102)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L103)
 
 ```csharp
 void LadderSurfacePropIndexUpdated()
@@ -622,7 +622,7 @@ void LadderSurfacePropIndexUpdated()
 
 ### LastDuckTimeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L111)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L112)
 
 ```csharp
 void LastDuckTimeUpdated()
@@ -630,7 +630,7 @@ void LastDuckTimeUpdated()
 
 ### OffsetTickCompleteTimeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L116)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L117)
 
 ```csharp
 void OffsetTickCompleteTimeUpdated()
@@ -638,7 +638,7 @@ void OffsetTickCompleteTimeUpdated()
 
 ### OffsetTickStashedSpeedUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L117)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L118)
 
 ```csharp
 void OffsetTickStashedSpeedUpdated()
@@ -646,7 +646,7 @@ void OffsetTickStashedSpeedUpdated()
 
 ### OldJumpPressedUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L113)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L114)
 
 ```csharp
 void OldJumpPressedUpdated()
@@ -654,7 +654,7 @@ void OldJumpPressedUpdated()
 
 ### StaminaUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L118)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L119)
 
 ```csharp
 void StaminaUpdated()
@@ -662,7 +662,7 @@ void StaminaUpdated()
 
 ### StashGrenadeParameterWhenUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L114)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L115)
 
 ```csharp
 void StashGrenadeParameterWhenUpdated()
@@ -670,7 +670,7 @@ void StashGrenadeParameterWhenUpdated()
 
 ### WasSurfingUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L119)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_MovementServices.cs#L120)
 
 ```csharp
 void WasSurfingUpdated()

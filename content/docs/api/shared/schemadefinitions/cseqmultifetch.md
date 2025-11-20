@@ -12,7 +12,7 @@ public interface CSeqMultiFetch : ISchemaClass<CSeqMultiFetch>, ISchemaField, IS
 
 ### CalculatePoseParameters
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqMultiFetch.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqMultiFetch.cs#L32)
 
 ```csharp
 ref bool CalculatePoseParameters { get; }
@@ -24,7 +24,7 @@ ref bool CalculatePoseParameters { get; }
 
 ### FixedBlendWeight
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqMultiFetch.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqMultiFetch.cs#L34)
 
 ```csharp
 ref bool FixedBlendWeight { get; }
@@ -36,7 +36,7 @@ ref bool FixedBlendWeight { get; }
 
 ### FixedBlendWeightVals
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqMultiFetch.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqMultiFetch.cs#L36)
 
 ```csharp
 ISchemaFixedArray<float> FixedBlendWeightVals { get; }
@@ -48,7 +48,7 @@ ISchemaFixedArray<float> FixedBlendWeightVals { get; }
 
 ### Flags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqMultiFetch.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqMultiFetch.cs#L18)
 
 ```csharp
 CSeqMultiFetchFlag Flags { get; }
@@ -60,7 +60,7 @@ CSeqMultiFetchFlag Flags { get; }
 
 ### GroupSize
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqMultiFetch.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqMultiFetch.cs#L22)
 
 ```csharp
 ISchemaFixedArray<int> GroupSize { get; }
@@ -72,7 +72,7 @@ ISchemaFixedArray<int> GroupSize { get; }
 
 ### LocalCyclePoseParameter
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqMultiFetch.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqMultiFetch.cs#L30)
 
 ```csharp
 ref int LocalCyclePoseParameter { get; }
@@ -84,7 +84,7 @@ ref int LocalCyclePoseParameter { get; }
 
 ### LocalPose
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqMultiFetch.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqMultiFetch.cs#L24)
 
 ```csharp
 ISchemaFixedArray<int> LocalPose { get; }
@@ -96,7 +96,7 @@ ISchemaFixedArray<int> LocalPose { get; }
 
 ### LocalReferenceArray
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqMultiFetch.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqMultiFetch.cs#L20)
 
 ```csharp
 ref CUtlVector<short> LocalReferenceArray { get; }
@@ -108,7 +108,7 @@ ref CUtlVector<short> LocalReferenceArray { get; }
 
 ### PoseKeyArray0
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqMultiFetch.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqMultiFetch.cs#L26)
 
 ```csharp
 ref CUtlVector<float> PoseKeyArray0 { get; }
@@ -120,7 +120,7 @@ ref CUtlVector<float> PoseKeyArray0 { get; }
 
 ### PoseKeyArray1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqMultiFetch.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqMultiFetch.cs#L28)
 
 ```csharp
 ref CUtlVector<float> PoseKeyArray1 { get; }

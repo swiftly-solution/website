@@ -12,7 +12,7 @@ public interface C_INIT_ScaleVelocity : CParticleFunctionInitializer, CParticleF
 
 ### Scale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_ScaleVelocity.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_ScaleVelocity.cs#L18)
 
 ```csharp
 CParticleCollectionVecInput Scale { get; }

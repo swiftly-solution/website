@@ -12,7 +12,7 @@ public interface CPathTrack : CPointEntity, CBaseEntity, CEntityInstance, ISchem
 
 ### AltName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathTrack.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathTrack.cs#L28)
 
 ```csharp
 string AltName { get; set; }
@@ -24,7 +24,7 @@ string AltName { get; set; }
 
 ### IterVal
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathTrack.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathTrack.cs#L30)
 
 ```csharp
 ref int IterVal { get; }
@@ -36,7 +36,7 @@ ref int IterVal { get; }
 
 ### Length
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathTrack.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathTrack.cs#L26)
 
 ```csharp
 ref float Length { get; }
@@ -48,7 +48,7 @@ ref float Length { get; }
 
 ### OnPass
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathTrack.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathTrack.cs#L34)
 
 ```csharp
 CEntityIOOutput OnPass { get; }
@@ -60,7 +60,7 @@ CEntityIOOutput OnPass { get; }
 
 ### OrientationType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathTrack.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathTrack.cs#L32)
 
 ```csharp
 ref TrackOrientationType_t OrientationType { get; }
@@ -72,7 +72,7 @@ ref TrackOrientationType_t OrientationType { get; }
 
 ### Paltpath
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathTrack.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathTrack.cs#L22)
 
 ```csharp
 CPathTrack? Paltpath { get; }
@@ -84,7 +84,7 @@ CPathTrack? Paltpath { get; }
 
 ### Pnext
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathTrack.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathTrack.cs#L18)
 
 ```csharp
 CPathTrack? Pnext { get; }
@@ -96,7 +96,7 @@ CPathTrack? Pnext { get; }
 
 ### Pprevious
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathTrack.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathTrack.cs#L20)
 
 ```csharp
 CPathTrack? Pprevious { get; }
@@ -108,7 +108,7 @@ CPathTrack? Pprevious { get; }
 
 ### Radius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathTrack.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathTrack.cs#L24)
 
 ```csharp
 ref float Radius { get; }

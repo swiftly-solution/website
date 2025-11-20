@@ -12,7 +12,7 @@ public interface C_OP_SetControlPointToImpactPoint : CParticleFunctionPreEmissio
 
 ### CPIn
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToImpactPoint.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToImpactPoint.cs#L20)
 
 ```csharp
 ref int CPIn { get; }
@@ -24,7 +24,7 @@ ref int CPIn { get; }
 
 ### CPOut
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToImpactPoint.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToImpactPoint.cs#L18)
 
 ```csharp
 ref int CPOut { get; }
@@ -36,7 +36,7 @@ ref int CPOut { get; }
 
 ### CollisionGroupName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToImpactPoint.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToImpactPoint.cs#L32)
 
 ```csharp
 string CollisionGroupName { get; set; }
@@ -48,7 +48,7 @@ string CollisionGroupName { get; set; }
 
 ### IncludeWater
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToImpactPoint.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToImpactPoint.cs#L40)
 
 ```csharp
 ref bool IncludeWater { get; }
@@ -60,7 +60,7 @@ ref bool IncludeWater { get; }
 
 ### Offset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToImpactPoint.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToImpactPoint.cs#L28)
 
 ```csharp
 ref float Offset { get; }
@@ -72,7 +72,7 @@ ref float Offset { get; }
 
 ### SetToEndpoint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToImpactPoint.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToImpactPoint.cs#L36)
 
 ```csharp
 ref bool SetToEndpoint { get; }
@@ -84,7 +84,7 @@ ref bool SetToEndpoint { get; }
 
 ### StartOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToImpactPoint.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToImpactPoint.cs#L26)
 
 ```csharp
 ref float StartOffset { get; }
@@ -96,7 +96,7 @@ ref float StartOffset { get; }
 
 ### TraceDir
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToImpactPoint.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToImpactPoint.cs#L30)
 
 ```csharp
 ref Vector TraceDir { get; }
@@ -108,7 +108,7 @@ ref Vector TraceDir { get; }
 
 ### TraceLength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToImpactPoint.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToImpactPoint.cs#L24)
 
 ```csharp
 CParticleCollectionFloatInput TraceLength { get; }
@@ -120,7 +120,7 @@ CParticleCollectionFloatInput TraceLength { get; }
 
 ### TraceSet
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToImpactPoint.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToImpactPoint.cs#L34)
 
 ```csharp
 ref ParticleTraceSet_t TraceSet { get; }
@@ -132,7 +132,7 @@ ref ParticleTraceSet_t TraceSet { get; }
 
 ### TraceToClosestSurface
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToImpactPoint.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToImpactPoint.cs#L38)
 
 ```csharp
 ref bool TraceToClosestSurface { get; }
@@ -144,7 +144,7 @@ ref bool TraceToClosestSurface { get; }
 
 ### UpdateRate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToImpactPoint.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToImpactPoint.cs#L22)
 
 ```csharp
 ref float UpdateRate { get; }

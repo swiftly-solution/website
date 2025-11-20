@@ -12,7 +12,7 @@ public interface CPointAngularVelocitySensor : CPointEntity, CBaseEntity, CEntit
 
 ### AngularVelocity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngularVelocitySensor.cs#L38)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngularVelocitySensor.cs#L39)
 
 ```csharp
 SchemaUntypedField AngularVelocity { get; }
@@ -24,7 +24,7 @@ SchemaUntypedField AngularVelocity { get; }
 
 ### Axis
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngularVelocitySensor.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngularVelocitySensor.cs#L34)
 
 ```csharp
 ref Vector Axis { get; }
@@ -36,7 +36,7 @@ ref Vector Axis { get; }
 
 ### FireInterval
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngularVelocitySensor.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngularVelocitySensor.cs#L28)
 
 ```csharp
 ref float FireInterval { get; }
@@ -48,7 +48,7 @@ ref float FireInterval { get; }
 
 ### FireTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngularVelocitySensor.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngularVelocitySensor.cs#L26)
 
 ```csharp
 GameTime_t FireTime { get; }
@@ -60,7 +60,7 @@ GameTime_t FireTime { get; }
 
 ### LastAngVelocity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngularVelocitySensor.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngularVelocitySensor.cs#L30)
 
 ```csharp
 ref float LastAngVelocity { get; }
@@ -72,7 +72,7 @@ ref float LastAngVelocity { get; }
 
 ### LastCompareResult
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngularVelocitySensor.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngularVelocitySensor.cs#L22)
 
 ```csharp
 ref int LastCompareResult { get; }
@@ -84,7 +84,7 @@ ref int LastCompareResult { get; }
 
 ### LastFireResult
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngularVelocitySensor.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngularVelocitySensor.cs#L24)
 
 ```csharp
 ref int LastFireResult { get; }
@@ -96,7 +96,7 @@ ref int LastFireResult { get; }
 
 ### LastOrientation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngularVelocitySensor.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngularVelocitySensor.cs#L32)
 
 ```csharp
 ref QAngle LastOrientation { get; }
@@ -108,7 +108,7 @@ ref QAngle LastOrientation { get; }
 
 ### OnEqualTo
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngularVelocitySensor.cs#L48)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngularVelocitySensor.cs#L49)
 
 ```csharp
 CEntityIOOutput OnEqualTo { get; }
@@ -120,7 +120,7 @@ CEntityIOOutput OnEqualTo { get; }
 
 ### OnGreaterThan
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngularVelocitySensor.cs#L44)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngularVelocitySensor.cs#L45)
 
 ```csharp
 CEntityIOOutput OnGreaterThan { get; }
@@ -132,7 +132,7 @@ CEntityIOOutput OnGreaterThan { get; }
 
 ### OnGreaterThanOrEqualTo
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngularVelocitySensor.cs#L46)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngularVelocitySensor.cs#L47)
 
 ```csharp
 CEntityIOOutput OnGreaterThanOrEqualTo { get; }
@@ -144,7 +144,7 @@ CEntityIOOutput OnGreaterThanOrEqualTo { get; }
 
 ### OnLessThan
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngularVelocitySensor.cs#L40)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngularVelocitySensor.cs#L41)
 
 ```csharp
 CEntityIOOutput OnLessThan { get; }
@@ -156,7 +156,7 @@ CEntityIOOutput OnLessThan { get; }
 
 ### OnLessThanOrEqualTo
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngularVelocitySensor.cs#L42)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngularVelocitySensor.cs#L43)
 
 ```csharp
 CEntityIOOutput OnLessThanOrEqualTo { get; }
@@ -168,7 +168,7 @@ CEntityIOOutput OnLessThanOrEqualTo { get; }
 
 ### TargetEntity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngularVelocitySensor.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngularVelocitySensor.cs#L18)
 
 ```csharp
 ref CHandle<CBaseEntity> TargetEntity { get; }
@@ -180,7 +180,7 @@ ref CHandle<CBaseEntity> TargetEntity { get; }
 
 ### Threshold
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngularVelocitySensor.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngularVelocitySensor.cs#L20)
 
 ```csharp
 ref float Threshold { get; }
@@ -192,7 +192,7 @@ ref float Threshold { get; }
 
 ### UseHelper
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngularVelocitySensor.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngularVelocitySensor.cs#L36)
 
 ```csharp
 ref bool UseHelper { get; }

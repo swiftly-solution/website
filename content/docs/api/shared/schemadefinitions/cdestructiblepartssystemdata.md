@@ -12,7 +12,7 @@ public interface CDestructiblePartsSystemData : ISchemaClass<CDestructiblePartsS
 
 ### MinMaxNumberHitGroupsToDestroyWhenGibbing
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDestructiblePartsSystemData.cs#L20)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDestructiblePartsSystemData.cs#L21)
 
 ```csharp
 CRangeInt MinMaxNumberHitGroupsToDestroyWhenGibbing { get; }
@@ -24,7 +24,7 @@ CRangeInt MinMaxNumberHitGroupsToDestroyWhenGibbing { get; }
 
 ### PartsDataByHitGroup
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDestructiblePartsSystemData.cs#L18)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDestructiblePartsSystemData.cs#L19)
 
 ```csharp
 SchemaUntypedField PartsDataByHitGroup { get; }

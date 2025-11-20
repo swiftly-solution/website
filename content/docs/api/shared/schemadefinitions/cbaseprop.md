@@ -12,7 +12,7 @@ public interface CBaseProp : CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEnt
 
 ### ConformToCollisionBounds
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseProp.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseProp.cs#L22)
 
 ```csharp
 ref bool ConformToCollisionBounds { get; }
@@ -24,7 +24,7 @@ ref bool ConformToCollisionBounds { get; }
 
 ### MPreferredCatchTransform
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseProp.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseProp.cs#L24)
 
 ```csharp
 ref CTransform MPreferredCatchTransform { get; }
@@ -36,7 +36,7 @@ ref CTransform MPreferredCatchTransform { get; }
 
 ### ModelOverrodeBlockLOS
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseProp.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseProp.cs#L18)
 
 ```csharp
 ref bool ModelOverrodeBlockLOS { get; }
@@ -48,7 +48,7 @@ ref bool ModelOverrodeBlockLOS { get; }
 
 ### ShapeType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseProp.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseProp.cs#L20)
 
 ```csharp
 ref int ShapeType { get; }

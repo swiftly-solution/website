@@ -12,7 +12,7 @@ public interface C_INIT_RemapTransformToVector : CParticleFunctionInitializer, C
 
 ### Accelerate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapTransformToVector.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapTransformToVector.cs#L40)
 
 ```csharp
 ref bool Accelerate { get; }
@@ -24,7 +24,7 @@ ref bool Accelerate { get; }
 
 ### EndTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapTransformToVector.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapTransformToVector.cs#L34)
 
 ```csharp
 ref float EndTime { get; }
@@ -36,7 +36,7 @@ ref float EndTime { get; }
 
 ### FieldOutput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapTransformToVector.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapTransformToVector.cs#L18)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -48,7 +48,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 ### InputMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapTransformToVector.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapTransformToVector.cs#L22)
 
 ```csharp
 ref Vector InputMax { get; }
@@ -60,7 +60,7 @@ ref Vector InputMax { get; }
 
 ### InputMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapTransformToVector.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapTransformToVector.cs#L20)
 
 ```csharp
 ref Vector InputMin { get; }
@@ -72,7 +72,7 @@ ref Vector InputMin { get; }
 
 ### LocalSpaceTransform
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapTransformToVector.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapTransformToVector.cs#L30)
 
 ```csharp
 CParticleTransformInput LocalSpaceTransform { get; }
@@ -84,7 +84,7 @@ CParticleTransformInput LocalSpaceTransform { get; }
 
 ### Offset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapTransformToVector.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapTransformToVector.cs#L38)
 
 ```csharp
 ref bool Offset { get; }
@@ -96,7 +96,7 @@ ref bool Offset { get; }
 
 ### OutputMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapTransformToVector.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapTransformToVector.cs#L26)
 
 ```csharp
 ref Vector OutputMax { get; }
@@ -108,7 +108,7 @@ ref Vector OutputMax { get; }
 
 ### OutputMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapTransformToVector.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapTransformToVector.cs#L24)
 
 ```csharp
 ref Vector OutputMin { get; }
@@ -120,7 +120,7 @@ ref Vector OutputMin { get; }
 
 ### RemapBias
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapTransformToVector.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapTransformToVector.cs#L42)
 
 ```csharp
 ref float RemapBias { get; }
@@ -132,7 +132,7 @@ ref float RemapBias { get; }
 
 ### SetMethod
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapTransformToVector.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapTransformToVector.cs#L36)
 
 ```csharp
 ref ParticleSetMethod_t SetMethod { get; }
@@ -144,7 +144,7 @@ ref ParticleSetMethod_t SetMethod { get; }
 
 ### StartTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapTransformToVector.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapTransformToVector.cs#L32)
 
 ```csharp
 ref float StartTime { get; }
@@ -156,7 +156,7 @@ ref float StartTime { get; }
 
 ### TransformInput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapTransformToVector.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapTransformToVector.cs#L28)
 
 ```csharp
 CParticleTransformInput TransformInput { get; }

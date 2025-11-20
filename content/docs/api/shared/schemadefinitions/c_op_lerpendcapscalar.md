@@ -12,7 +12,7 @@ public interface C_OP_LerpEndCapScalar : CParticleFunctionOperator, CParticleFun
 
 ### FieldOutput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LerpEndCapScalar.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LerpEndCapScalar.cs#L18)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -24,7 +24,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 ### LerpTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LerpEndCapScalar.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LerpEndCapScalar.cs#L22)
 
 ```csharp
 ref float LerpTime { get; }
@@ -36,7 +36,7 @@ ref float LerpTime { get; }
 
 ### Output
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LerpEndCapScalar.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LerpEndCapScalar.cs#L20)
 
 ```csharp
 ref float Output { get; }

@@ -12,7 +12,7 @@ public interface CGameScriptedMoveDef_t : ISchemaClass<CGameScriptedMoveDef_t>, 
 
 ### AimDisabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveDef_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveDef_t.cs#L30)
 
 ```csharp
 ref bool AimDisabled { get; }
@@ -24,7 +24,7 @@ ref bool AimDisabled { get; }
 
 ### AngRate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveDef_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveDef_t.cs#L26)
 
 ```csharp
 ref float AngRate { get; }
@@ -36,7 +36,7 @@ ref float AngRate { get; }
 
 ### Dest
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveDef_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveDef_t.cs#L22)
 
 ```csharp
 ref QAngle Dest { get; }
@@ -48,7 +48,7 @@ ref QAngle Dest { get; }
 
 ### DestEntity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveDef_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveDef_t.cs#L20)
 
 ```csharp
 ref CHandle<CBaseEntity> DestEntity { get; }
@@ -60,7 +60,7 @@ ref CHandle<CBaseEntity> DestEntity { get; }
 
 ### DestOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveDef_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveDef_t.cs#L18)
 
 ```csharp
 ref Vector DestOffset { get; }
@@ -72,7 +72,7 @@ ref Vector DestOffset { get; }
 
 ### Duration
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveDef_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveDef_t.cs#L24)
 
 ```csharp
 ref float Duration { get; }
@@ -84,7 +84,7 @@ ref float Duration { get; }
 
 ### ForcedCrouchState
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveDef_t.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveDef_t.cs#L34)
 
 ```csharp
 ref ForcedCrouchState_t ForcedCrouchState { get; }
@@ -96,7 +96,7 @@ ref ForcedCrouchState_t ForcedCrouchState { get; }
 
 ### IgnoreRotation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveDef_t.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveDef_t.cs#L32)
 
 ```csharp
 ref bool IgnoreRotation { get; }
@@ -108,7 +108,7 @@ ref bool IgnoreRotation { get; }
 
 ### MoveSpeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveDef_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveDef_t.cs#L28)
 
 ```csharp
 ref float MoveSpeed { get; }

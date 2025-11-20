@@ -12,7 +12,7 @@ public interface FeQuad_t : ISchemaClass<FeQuad_t>, ISchemaField, ISchemaClass, 
 
 ### Node
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeQuad_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeQuad_t.cs#L18)
 
 ```csharp
 ISchemaFixedArray<ushort> Node { get; }
@@ -24,7 +24,7 @@ ISchemaFixedArray<ushort> Node { get; }
 
 ### Shape
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeQuad_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeQuad_t.cs#L22)
 
 ```csharp
 ISchemaFixedArray<Vector4D> Shape { get; }
@@ -36,7 +36,7 @@ ISchemaFixedArray<Vector4D> Shape { get; }
 
 ### Slack
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeQuad_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeQuad_t.cs#L20)
 
 ```csharp
 ref float Slack { get; }

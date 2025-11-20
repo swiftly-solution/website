@@ -12,7 +12,7 @@ public interface WeaponPurchaseCount_t : ISchemaClass<WeaponPurchaseCount_t>, IS
 
 ### Count
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WeaponPurchaseCount_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WeaponPurchaseCount_t.cs#L20)
 
 ```csharp
 ref ushort Count { get; }
@@ -24,7 +24,7 @@ ref ushort Count { get; }
 
 ### ItemDefIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WeaponPurchaseCount_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WeaponPurchaseCount_t.cs#L18)
 
 ```csharp
 ref ushort ItemDefIndex { get; }
@@ -38,7 +38,7 @@ ref ushort ItemDefIndex { get; }
 
 ### CountUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WeaponPurchaseCount_t.cs#L22)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WeaponPurchaseCount_t.cs#L23)
 
 ```csharp
 void CountUpdated()
@@ -46,7 +46,7 @@ void CountUpdated()
 
 ### ItemDefIndexUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WeaponPurchaseCount_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WeaponPurchaseCount_t.cs#L22)
 
 ```csharp
 void ItemDefIndexUpdated()

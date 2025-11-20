@@ -12,7 +12,7 @@ public interface CTankTrainAI : CPointEntity, CBaseEntity, CEntityInstance, ISch
 
 ### EngineSoundName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTankTrainAI.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTankTrainAI.cs#L26)
 
 ```csharp
 string EngineSoundName { get; set; }
@@ -24,7 +24,7 @@ string EngineSoundName { get; set; }
 
 ### MovementSoundName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTankTrainAI.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTankTrainAI.cs#L28)
 
 ```csharp
 string MovementSoundName { get; set; }
@@ -36,7 +36,7 @@ string MovementSoundName { get; set; }
 
 ### SoundPlaying
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTankTrainAI.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTankTrainAI.cs#L22)
 
 ```csharp
 ref int SoundPlaying { get; }
@@ -48,7 +48,7 @@ ref int SoundPlaying { get; }
 
 ### StartSoundName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTankTrainAI.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTankTrainAI.cs#L24)
 
 ```csharp
 string StartSoundName { get; set; }
@@ -60,7 +60,7 @@ string StartSoundName { get; set; }
 
 ### TargetEntity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTankTrainAI.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTankTrainAI.cs#L20)
 
 ```csharp
 ref CHandle<CBaseEntity> TargetEntity { get; }
@@ -72,7 +72,7 @@ ref CHandle<CBaseEntity> TargetEntity { get; }
 
 ### TargetEntityName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTankTrainAI.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTankTrainAI.cs#L30)
 
 ```csharp
 string TargetEntityName { get; set; }
@@ -84,7 +84,7 @@ string TargetEntityName { get; set; }
 
 ### Train
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTankTrainAI.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTankTrainAI.cs#L18)
 
 ```csharp
 ref CHandle<CFuncTrackTrain> Train { get; }

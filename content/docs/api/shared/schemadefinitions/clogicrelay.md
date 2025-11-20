@@ -12,7 +12,7 @@ public interface CLogicRelay : CLogicalEntity, CServerOnlyEntity, CBaseEntity, C
 
 ### Disabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicRelay.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicRelay.cs#L18)
 
 ```csharp
 ref bool Disabled { get; }
@@ -24,7 +24,7 @@ ref bool Disabled { get; }
 
 ### FastRetrigger
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicRelay.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicRelay.cs#L24)
 
 ```csharp
 ref bool FastRetrigger { get; }
@@ -36,7 +36,7 @@ ref bool FastRetrigger { get; }
 
 ### PassthoughCaller
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicRelay.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicRelay.cs#L26)
 
 ```csharp
 ref bool PassthoughCaller { get; }
@@ -48,7 +48,7 @@ ref bool PassthoughCaller { get; }
 
 ### TriggerOnce
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicRelay.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicRelay.cs#L22)
 
 ```csharp
 ref bool TriggerOnce { get; }
@@ -60,7 +60,7 @@ ref bool TriggerOnce { get; }
 
 ### WaitForRefire
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicRelay.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicRelay.cs#L20)
 
 ```csharp
 ref bool WaitForRefire { get; }

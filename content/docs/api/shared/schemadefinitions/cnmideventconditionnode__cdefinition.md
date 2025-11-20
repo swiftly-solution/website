@@ -12,7 +12,7 @@ public interface CNmIDEventConditionNode__CDefinition : CNmBoolValueNode__CDefin
 
 ### EventConditionRules
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDEventConditionNode__CDefinition.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDEventConditionNode__CDefinition.cs#L20)
 
 ```csharp
 CNmBitFlags EventConditionRules { get; }
@@ -24,7 +24,7 @@ CNmBitFlags EventConditionRules { get; }
 
 ### EventIDs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDEventConditionNode__CDefinition.cs#L22)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDEventConditionNode__CDefinition.cs#L23)
 
 ```csharp
 SchemaUntypedField EventIDs { get; }
@@ -36,7 +36,7 @@ SchemaUntypedField EventIDs { get; }
 
 ### SourceStateNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDEventConditionNode__CDefinition.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDEventConditionNode__CDefinition.cs#L18)
 
 ```csharp
 ref short SourceStateNodeIdx { get; }

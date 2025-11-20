@@ -12,7 +12,7 @@ public interface C_OP_WaterImpulseRenderer : CParticleFunctionRenderer, CParticl
 
 ### EventType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WaterImpulseRenderer.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WaterImpulseRenderer.cs#L32)
 
 ```csharp
 ref EventTypeSelection_t EventType { get; }
@@ -24,7 +24,7 @@ ref EventTypeSelection_t EventType { get; }
 
 ### IsRadialWind
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WaterImpulseRenderer.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WaterImpulseRenderer.cs#L30)
 
 ```csharp
 ref bool IsRadialWind { get; }
@@ -36,7 +36,7 @@ ref bool IsRadialWind { get; }
 
 ### Magnitude
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WaterImpulseRenderer.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WaterImpulseRenderer.cs#L22)
 
 ```csharp
 CPerParticleFloatInput Magnitude { get; }
@@ -48,7 +48,7 @@ CPerParticleFloatInput Magnitude { get; }
 
 ### Pos
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WaterImpulseRenderer.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WaterImpulseRenderer.cs#L18)
 
 ```csharp
 CPerParticleVecInput Pos { get; }
@@ -60,7 +60,7 @@ CPerParticleVecInput Pos { get; }
 
 ### Radius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WaterImpulseRenderer.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WaterImpulseRenderer.cs#L20)
 
 ```csharp
 CPerParticleFloatInput Radius { get; }
@@ -72,7 +72,7 @@ CPerParticleFloatInput Radius { get; }
 
 ### Shape
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WaterImpulseRenderer.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WaterImpulseRenderer.cs#L24)
 
 ```csharp
 CPerParticleFloatInput Shape { get; }
@@ -84,7 +84,7 @@ CPerParticleFloatInput Shape { get; }
 
 ### WindSpeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WaterImpulseRenderer.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WaterImpulseRenderer.cs#L26)
 
 ```csharp
 CPerParticleFloatInput WindSpeed { get; }
@@ -96,7 +96,7 @@ CPerParticleFloatInput WindSpeed { get; }
 
 ### Wobble
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WaterImpulseRenderer.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WaterImpulseRenderer.cs#L28)
 
 ```csharp
 CPerParticleFloatInput Wobble { get; }

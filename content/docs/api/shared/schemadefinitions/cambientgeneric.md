@@ -12,7 +12,7 @@ public interface CAmbientGeneric : CPointEntity, CBaseEntity, CEntityInstance, I
 
 ### Active
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAmbientGeneric.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAmbientGeneric.cs#L26)
 
 ```csharp
 ref bool Active { get; }
@@ -24,7 +24,7 @@ ref bool Active { get; }
 
 ### Dpv
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAmbientGeneric.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAmbientGeneric.cs#L24)
 
 ```csharp
 dynpitchvol_t Dpv { get; }
@@ -36,7 +36,7 @@ dynpitchvol_t Dpv { get; }
 
 ### Looping
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAmbientGeneric.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAmbientGeneric.cs#L28)
 
 ```csharp
 ref bool Looping { get; }
@@ -48,7 +48,7 @@ ref bool Looping { get; }
 
 ### MaxRadius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAmbientGeneric.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAmbientGeneric.cs#L20)
 
 ```csharp
 ref float MaxRadius { get; }
@@ -60,7 +60,7 @@ ref float MaxRadius { get; }
 
 ### Radius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAmbientGeneric.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAmbientGeneric.cs#L18)
 
 ```csharp
 ref float Radius { get; }
@@ -72,7 +72,7 @@ ref float Radius { get; }
 
 ### Sound
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAmbientGeneric.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAmbientGeneric.cs#L30)
 
 ```csharp
 string Sound { get; set; }
@@ -84,7 +84,7 @@ string Sound { get; set; }
 
 ### SoundLevel
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAmbientGeneric.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAmbientGeneric.cs#L22)
 
 ```csharp
 ref soundlevel_t SoundLevel { get; }
@@ -96,7 +96,7 @@ ref soundlevel_t SoundLevel { get; }
 
 ### SoundSource
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAmbientGeneric.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAmbientGeneric.cs#L34)
 
 ```csharp
 ref CHandle<CBaseEntity> SoundSource { get; }
@@ -108,7 +108,7 @@ ref CHandle<CBaseEntity> SoundSource { get; }
 
 ### SoundSourceEntIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAmbientGeneric.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAmbientGeneric.cs#L36)
 
 ```csharp
 ref uint SoundSourceEntIndex { get; }
@@ -120,7 +120,7 @@ ref uint SoundSourceEntIndex { get; }
 
 ### SourceEntName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAmbientGeneric.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAmbientGeneric.cs#L32)
 
 ```csharp
 string SourceEntName { get; set; }

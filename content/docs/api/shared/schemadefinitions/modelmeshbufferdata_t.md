@@ -12,7 +12,7 @@ public interface ModelMeshBufferData_t : ISchemaClass<ModelMeshBufferData_t>, IS
 
 ### BlockIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ModelMeshBufferData_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ModelMeshBufferData_t.cs#L18)
 
 ```csharp
 ref int BlockIndex { get; }
@@ -24,7 +24,7 @@ ref int BlockIndex { get; }
 
 ### CompressedZSTD
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ModelMeshBufferData_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ModelMeshBufferData_t.cs#L28)
 
 ```csharp
 ref bool CompressedZSTD { get; }
@@ -36,7 +36,7 @@ ref bool CompressedZSTD { get; }
 
 ### CreateBufferSRV
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ModelMeshBufferData_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ModelMeshBufferData_t.cs#L30)
 
 ```csharp
 ref bool CreateBufferSRV { get; }
@@ -48,7 +48,7 @@ ref bool CreateBufferSRV { get; }
 
 ### CreateBufferUAV
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ModelMeshBufferData_t.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ModelMeshBufferData_t.cs#L32)
 
 ```csharp
 ref bool CreateBufferUAV { get; }
@@ -60,7 +60,7 @@ ref bool CreateBufferUAV { get; }
 
 ### CreatePooledBuffer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ModelMeshBufferData_t.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ModelMeshBufferData_t.cs#L36)
 
 ```csharp
 ref bool CreatePooledBuffer { get; }
@@ -72,7 +72,7 @@ ref bool CreatePooledBuffer { get; }
 
 ### CreateRawBuffer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ModelMeshBufferData_t.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ModelMeshBufferData_t.cs#L34)
 
 ```csharp
 ref bool CreateRawBuffer { get; }
@@ -84,7 +84,7 @@ ref bool CreateRawBuffer { get; }
 
 ### ElementCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ModelMeshBufferData_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ModelMeshBufferData_t.cs#L20)
 
 ```csharp
 ref uint ElementCount { get; }
@@ -96,7 +96,7 @@ ref uint ElementCount { get; }
 
 ### ElementSizeInBytes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ModelMeshBufferData_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ModelMeshBufferData_t.cs#L22)
 
 ```csharp
 ref uint ElementSizeInBytes { get; }
@@ -108,7 +108,7 @@ ref uint ElementSizeInBytes { get; }
 
 ### InputLayoutFields
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ModelMeshBufferData_t.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ModelMeshBufferData_t.cs#L38)
 
 ```csharp
 ref CUtlVector<RenderInputLayoutField_t> InputLayoutFields { get; }
@@ -120,7 +120,7 @@ ref CUtlVector<RenderInputLayoutField_t> InputLayoutFields { get; }
 
 ### MeshoptCompressed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ModelMeshBufferData_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ModelMeshBufferData_t.cs#L24)
 
 ```csharp
 ref bool MeshoptCompressed { get; }
@@ -132,7 +132,7 @@ ref bool MeshoptCompressed { get; }
 
 ### MeshoptIndexSequence
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ModelMeshBufferData_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ModelMeshBufferData_t.cs#L26)
 
 ```csharp
 ref bool MeshoptIndexSequence { get; }

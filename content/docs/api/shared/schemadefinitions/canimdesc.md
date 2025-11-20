@@ -12,7 +12,7 @@ public interface CAnimDesc : ISchemaClass<CAnimDesc>, ISchemaField, ISchemaClass
 
 ### ActivityArray
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc.cs#L32)
 
 ```csharp
 ref CUtlVector<CAnimActivity> ActivityArray { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<CAnimActivity> ActivityArray { get; }
 
 ### BoneWorldMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc.cs#L44)
 
 ```csharp
 ref CUtlVector<Vector> BoneWorldMax { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<Vector> BoneWorldMax { get; }
 
 ### BoneWorldMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc.cs#L42)
 
 ```csharp
 ref CUtlVector<Vector> BoneWorldMin { get; }
@@ -48,7 +48,7 @@ ref CUtlVector<Vector> BoneWorldMin { get; }
 
 ### Data
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc.cs#L24)
 
 ```csharp
 CAnimEncodedFrames Data { get; }
@@ -60,7 +60,7 @@ CAnimEncodedFrames Data { get; }
 
 ### EventArray
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc.cs#L30)
 
 ```csharp
 ref CUtlVector<CAnimEventDefinition> EventArray { get; }
@@ -72,7 +72,7 @@ ref CUtlVector<CAnimEventDefinition> EventArray { get; }
 
 ### Flags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc.cs#L20)
 
 ```csharp
 CAnimDesc_Flag Flags { get; }
@@ -84,7 +84,7 @@ CAnimDesc_Flag Flags { get; }
 
 ### Fps
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc.cs#L22)
 
 ```csharp
 ref float Fps { get; }
@@ -96,7 +96,7 @@ ref float Fps { get; }
 
 ### Framestalltime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc.cs#L36)
 
 ```csharp
 ref float Framestalltime { get; }
@@ -108,7 +108,7 @@ ref float Framestalltime { get; }
 
 ### HierarchyArray
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc.cs#L34)
 
 ```csharp
 ref CUtlVector<CAnimLocalHierarchy> HierarchyArray { get; }
@@ -120,7 +120,7 @@ ref CUtlVector<CAnimLocalHierarchy> HierarchyArray { get; }
 
 ### MovementArray
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc.cs#L26)
 
 ```csharp
 ref CUtlVector<CAnimMovement> MovementArray { get; }
@@ -132,7 +132,7 @@ ref CUtlVector<CAnimMovement> MovementArray { get; }
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc.cs#L18)
 
 ```csharp
 ref CBufferString Name { get; }
@@ -144,7 +144,7 @@ ref CBufferString Name { get; }
 
 ### RootMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc.cs#L40)
 
 ```csharp
 ref Vector RootMax { get; }
@@ -156,7 +156,7 @@ ref Vector RootMax { get; }
 
 ### RootMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc.cs#L38)
 
 ```csharp
 ref Vector RootMin { get; }
@@ -168,7 +168,7 @@ ref Vector RootMin { get; }
 
 ### SequenceParams
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc.cs#L46)
 
 ```csharp
 CAnimSequenceParams SequenceParams { get; }
@@ -180,7 +180,7 @@ CAnimSequenceParams SequenceParams { get; }
 
 ### XInitialOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc.cs#L28)
 
 ```csharp
 ref CTransform XInitialOffset { get; }

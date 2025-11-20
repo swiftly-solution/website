@@ -12,7 +12,7 @@ public interface CNmIDSelectorNode__CDefinition : CNmIDValueNode__CDefinition, C
 
 ### ConditionNodeIndices
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDSelectorNode__CDefinition.cs#L18)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDSelectorNode__CDefinition.cs#L19)
 
 ```csharp
 SchemaUntypedField ConditionNodeIndices { get; }
@@ -24,7 +24,7 @@ SchemaUntypedField ConditionNodeIndices { get; }
 
 ### DefaultValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDSelectorNode__CDefinition.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDSelectorNode__CDefinition.cs#L24)
 
 ```csharp
 ref CGlobalSymbol DefaultValue { get; }
@@ -36,7 +36,7 @@ ref CGlobalSymbol DefaultValue { get; }
 
 ### Values
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDSelectorNode__CDefinition.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDSelectorNode__CDefinition.cs#L22)
 
 ```csharp
 SchemaUntypedField Values { get; }

@@ -12,7 +12,7 @@ public interface VPhysics2ShapeDef_t : ISchemaClass<VPhysics2ShapeDef_t>, ISchem
 
 ### Capsules
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysics2ShapeDef_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysics2ShapeDef_t.cs#L20)
 
 ```csharp
 ref CUtlVector<RnCapsuleDesc_t> Capsules { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<RnCapsuleDesc_t> Capsules { get; }
 
 ### CollisionAttributeIndices
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysics2ShapeDef_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysics2ShapeDef_t.cs#L26)
 
 ```csharp
 ref CUtlVector<ushort> CollisionAttributeIndices { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<ushort> CollisionAttributeIndices { get; }
 
 ### Hulls
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysics2ShapeDef_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysics2ShapeDef_t.cs#L22)
 
 ```csharp
 ref CUtlVector<RnHullDesc_t> Hulls { get; }
@@ -48,7 +48,7 @@ ref CUtlVector<RnHullDesc_t> Hulls { get; }
 
 ### Meshes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysics2ShapeDef_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysics2ShapeDef_t.cs#L24)
 
 ```csharp
 ref CUtlVector<RnMeshDesc_t> Meshes { get; }
@@ -60,7 +60,7 @@ ref CUtlVector<RnMeshDesc_t> Meshes { get; }
 
 ### Spheres
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysics2ShapeDef_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysics2ShapeDef_t.cs#L18)
 
 ```csharp
 ref CUtlVector<RnSphereDesc_t> Spheres { get; }

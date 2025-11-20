@@ -12,7 +12,7 @@ public interface RagdollCreationParams_t : ISchemaClass<RagdollCreationParams_t>
 
 ### Force
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RagdollCreationParams_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RagdollCreationParams_t.cs#L18)
 
 ```csharp
 ref Vector Force { get; }
@@ -24,7 +24,7 @@ ref Vector Force { get; }
 
 ### ForceBone
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RagdollCreationParams_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RagdollCreationParams_t.cs#L20)
 
 ```csharp
 ref int ForceBone { get; }
@@ -36,7 +36,7 @@ ref int ForceBone { get; }
 
 ### ForceCurrentWorldTransform
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RagdollCreationParams_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RagdollCreationParams_t.cs#L22)
 
 ```csharp
 ref bool ForceCurrentWorldTransform { get; }
@@ -48,7 +48,7 @@ ref bool ForceCurrentWorldTransform { get; }
 
 ### HealthToGrant
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RagdollCreationParams_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RagdollCreationParams_t.cs#L26)
 
 ```csharp
 ref int HealthToGrant { get; }
@@ -60,7 +60,7 @@ ref int HealthToGrant { get; }
 
 ### UseLRURetirement
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RagdollCreationParams_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RagdollCreationParams_t.cs#L24)
 
 ```csharp
 ref bool UseLRURetirement { get; }

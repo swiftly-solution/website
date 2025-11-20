@@ -12,7 +12,7 @@ public interface CStopwatch : CStopwatchBase, CSimpleSimTimer, ISchemaClass<CSim
 
 ### Interval
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStopwatch.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStopwatch.cs#L18)
 
 ```csharp
 ref float Interval { get; }

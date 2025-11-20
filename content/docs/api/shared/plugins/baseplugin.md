@@ -58,7 +58,7 @@ public virtual void ConfigureSharedInterface(IInterfaceManager interfaceManager)
 
 ### Load(bool)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Plugins/BasePlugin.cs#L36)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Plugins/BasePlugin.cs#L40)
 
 ```csharp
 public abstract void Load(bool hotReload)
@@ -68,9 +68,29 @@ public abstract void Load(bool hotReload)
 
 - **hotReload**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Unload()
+### OnAllPluginsLoaded()
 
 [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Plugins/BasePlugin.cs#L38)
+
+```csharp
+public virtual void OnAllPluginsLoaded()
+```
+
+### OnSharedInterfaceInjected(IInterfaceManager)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Plugins/BasePlugin.cs#L36)
+
+```csharp
+public virtual void OnSharedInterfaceInjected(IInterfaceManager interfaceManager)
+```
+
+#### Parameters
+
+- **interfaceManager**: [IInterfaceManager](/docs/api/shared/iinterfacemanager)
+
+### Unload()
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Plugins/BasePlugin.cs#L42)
 
 ```csharp
 public abstract void Unload()

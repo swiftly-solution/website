@@ -12,7 +12,7 @@ public interface CMultiLightProxy : CLogicalEntity, CServerOnlyEntity, CBaseEnti
 
 ### BrightnessDelta
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMultiLightProxy.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMultiLightProxy.cs#L24)
 
 ```csharp
 ref float BrightnessDelta { get; }
@@ -24,7 +24,7 @@ ref float BrightnessDelta { get; }
 
 ### CurrentBrightnessMultiplier
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMultiLightProxy.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMultiLightProxy.cs#L30)
 
 ```csharp
 ref float CurrentBrightnessMultiplier { get; }
@@ -36,7 +36,7 @@ ref float CurrentBrightnessMultiplier { get; }
 
 ### LightClassFilter
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMultiLightProxy.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMultiLightProxy.cs#L20)
 
 ```csharp
 string LightClassFilter { get; set; }
@@ -48,7 +48,7 @@ string LightClassFilter { get; set; }
 
 ### LightNameFilter
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMultiLightProxy.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMultiLightProxy.cs#L18)
 
 ```csharp
 string LightNameFilter { get; set; }
@@ -60,7 +60,7 @@ string LightNameFilter { get; set; }
 
 ### LightRadiusFilter
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMultiLightProxy.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMultiLightProxy.cs#L22)
 
 ```csharp
 ref float LightRadiusFilter { get; }
@@ -72,7 +72,7 @@ ref float LightRadiusFilter { get; }
 
 ### Lights
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMultiLightProxy.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMultiLightProxy.cs#L32)
 
 ```csharp
 ref CUtlVector<CHandle<CLightEntity>> Lights { get; }
@@ -84,7 +84,7 @@ ref CUtlVector<CHandle<CLightEntity>> Lights { get; }
 
 ### PerformScreenFade
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMultiLightProxy.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMultiLightProxy.cs#L26)
 
 ```csharp
 ref bool PerformScreenFade { get; }
@@ -96,7 +96,7 @@ ref bool PerformScreenFade { get; }
 
 ### TargetBrightnessMultiplier
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMultiLightProxy.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMultiLightProxy.cs#L28)
 
 ```csharp
 ref float TargetBrightnessMultiplier { get; }

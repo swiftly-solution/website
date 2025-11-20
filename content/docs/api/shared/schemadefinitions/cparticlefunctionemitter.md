@@ -12,7 +12,7 @@ public interface CParticleFunctionEmitter : CParticleFunction, ISchemaClass<CPar
 
 ### EmitterIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFunctionEmitter.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFunctionEmitter.cs#L18)
 
 ```csharp
 ref int EmitterIndex { get; }

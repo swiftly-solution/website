@@ -12,7 +12,7 @@ public interface CBaseTrigger : CBaseToggle, CBaseModelEntity, CBaseEntity, CEnt
 
 ### Disabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseTrigger.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseTrigger.cs#L38)
 
 ```csharp
 ref bool Disabled { get; }
@@ -24,7 +24,7 @@ ref bool Disabled { get; }
 
 ### Filter
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseTrigger.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseTrigger.cs#L36)
 
 ```csharp
 ref CHandle<CBaseFilter> Filter { get; }
@@ -36,7 +36,7 @@ ref CHandle<CBaseFilter> Filter { get; }
 
 ### FilterName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseTrigger.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseTrigger.cs#L34)
 
 ```csharp
 string FilterName { get; set; }
@@ -48,7 +48,7 @@ string FilterName { get; set; }
 
 ### OnEndTouch
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseTrigger.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseTrigger.cs#L22)
 
 ```csharp
 CEntityIOOutput OnEndTouch { get; }
@@ -60,7 +60,7 @@ CEntityIOOutput OnEndTouch { get; }
 
 ### OnEndTouchAll
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseTrigger.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseTrigger.cs#L24)
 
 ```csharp
 CEntityIOOutput OnEndTouchAll { get; }
@@ -72,7 +72,7 @@ CEntityIOOutput OnEndTouchAll { get; }
 
 ### OnNotTouching
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseTrigger.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseTrigger.cs#L30)
 
 ```csharp
 CEntityIOOutput OnNotTouching { get; }
@@ -84,7 +84,7 @@ CEntityIOOutput OnNotTouching { get; }
 
 ### OnStartTouch
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseTrigger.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseTrigger.cs#L18)
 
 ```csharp
 CEntityIOOutput OnStartTouch { get; }
@@ -96,7 +96,7 @@ CEntityIOOutput OnStartTouch { get; }
 
 ### OnStartTouchAll
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseTrigger.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseTrigger.cs#L20)
 
 ```csharp
 CEntityIOOutput OnStartTouchAll { get; }
@@ -108,7 +108,7 @@ CEntityIOOutput OnStartTouchAll { get; }
 
 ### OnTouching
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseTrigger.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseTrigger.cs#L26)
 
 ```csharp
 CEntityIOOutput OnTouching { get; }
@@ -120,7 +120,7 @@ CEntityIOOutput OnTouching { get; }
 
 ### OnTouchingEachEntity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseTrigger.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseTrigger.cs#L28)
 
 ```csharp
 CEntityIOOutput OnTouchingEachEntity { get; }
@@ -132,7 +132,7 @@ CEntityIOOutput OnTouchingEachEntity { get; }
 
 ### TouchingEntities
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseTrigger.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseTrigger.cs#L32)
 
 ```csharp
 ref CUtlVector<CHandle<CBaseEntity>> TouchingEntities { get; }
@@ -144,7 +144,7 @@ ref CUtlVector<CHandle<CBaseEntity>> TouchingEntities { get; }
 
 ### UseAsyncQueries
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseTrigger.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseTrigger.cs#L40)
 
 ```csharp
 ref bool UseAsyncQueries { get; }
@@ -158,7 +158,7 @@ ref bool UseAsyncQueries { get; }
 
 ### DisabledUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseTrigger.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseTrigger.cs#L42)
 
 ```csharp
 void DisabledUpdated()

@@ -12,7 +12,7 @@ public interface CAimConstraint : CBaseConstraint, CBoneConstraintBase, ISchemaC
 
 ### AimOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAimConstraint.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAimConstraint.cs#L18)
 
 ```csharp
 ref Quaternion AimOffset { get; }
@@ -24,7 +24,7 @@ ref Quaternion AimOffset { get; }
 
 ### UpType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAimConstraint.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAimConstraint.cs#L20)
 
 ```csharp
 ref uint UpType { get; }

@@ -12,7 +12,7 @@ public interface CModelConfig : ISchemaClass<CModelConfig>, ISchemaField, ISchem
 
 ### ActiveInEditorByDefault
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfig.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfig.cs#L24)
 
 ```csharp
 ref bool ActiveInEditorByDefault { get; }
@@ -24,7 +24,7 @@ ref bool ActiveInEditorByDefault { get; }
 
 ### ConfigName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfig.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfig.cs#L18)
 
 ```csharp
 string ConfigName { get; set; }
@@ -36,7 +36,7 @@ string ConfigName { get; set; }
 
 ### Elements
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfig.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfig.cs#L20)
 
 ```csharp
 ref CUtlVector<PointerTo<CModelConfigElement>> Elements { get; }
@@ -48,7 +48,7 @@ ref CUtlVector<PointerTo<CModelConfigElement>> Elements { get; }
 
 ### TopLevel
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfig.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfig.cs#L22)
 
 ```csharp
 ref bool TopLevel { get; }

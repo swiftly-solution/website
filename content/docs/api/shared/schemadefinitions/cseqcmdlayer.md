@@ -12,7 +12,7 @@ public interface CSeqCmdLayer : ISchemaClass<CSeqCmdLayer>, ISchemaField, ISchem
 
 ### Cmd
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqCmdLayer.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqCmdLayer.cs#L18)
 
 ```csharp
 ref short Cmd { get; }
@@ -24,7 +24,7 @@ ref short Cmd { get; }
 
 ### DstResult
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqCmdLayer.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqCmdLayer.cs#L24)
 
 ```csharp
 ref short DstResult { get; }
@@ -36,7 +36,7 @@ ref short DstResult { get; }
 
 ### LineNumber
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqCmdLayer.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqCmdLayer.cs#L34)
 
 ```csharp
 ref short LineNumber { get; }
@@ -48,7 +48,7 @@ ref short LineNumber { get; }
 
 ### LocalBonemask
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqCmdLayer.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqCmdLayer.cs#L22)
 
 ```csharp
 ref short LocalBonemask { get; }
@@ -60,7 +60,7 @@ ref short LocalBonemask { get; }
 
 ### LocalReference
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqCmdLayer.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqCmdLayer.cs#L20)
 
 ```csharp
 ref short LocalReference { get; }
@@ -72,7 +72,7 @@ ref short LocalReference { get; }
 
 ### Spline
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqCmdLayer.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqCmdLayer.cs#L28)
 
 ```csharp
 ref bool Spline { get; }
@@ -84,7 +84,7 @@ ref bool Spline { get; }
 
 ### SrcResult
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqCmdLayer.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqCmdLayer.cs#L26)
 
 ```csharp
 ref short SrcResult { get; }
@@ -96,7 +96,7 @@ ref short SrcResult { get; }
 
 ### Var1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqCmdLayer.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqCmdLayer.cs#L30)
 
 ```csharp
 ref float Var1 { get; }
@@ -108,7 +108,7 @@ ref float Var1 { get; }
 
 ### Var2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqCmdLayer.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqCmdLayer.cs#L32)
 
 ```csharp
 ref float Var2 { get; }

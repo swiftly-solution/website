@@ -12,7 +12,7 @@ public interface CAnimStateMachineUpdater : ISchemaClass<CAnimStateMachineUpdate
 
 ### StartStateIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimStateMachineUpdater.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimStateMachineUpdater.cs#L22)
 
 ```csharp
 ref int StartStateIndex { get; }
@@ -24,7 +24,7 @@ ref int StartStateIndex { get; }
 
 ### States
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimStateMachineUpdater.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimStateMachineUpdater.cs#L18)
 
 ```csharp
 ref CUtlVector<CStateUpdateData> States { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<CStateUpdateData> States { get; }
 
 ### Transitions
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimStateMachineUpdater.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimStateMachineUpdater.cs#L20)
 
 ```csharp
 ref CUtlVector<CTransitionUpdateData> Transitions { get; }

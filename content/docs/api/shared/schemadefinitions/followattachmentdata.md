@@ -12,7 +12,7 @@ public interface FollowAttachmentData : ISchemaClass<FollowAttachmentData>, ISch
 
 ### AttachmentHandle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FollowAttachmentData.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FollowAttachmentData.cs#L20)
 
 ```csharp
 AttachmentHandle_t AttachmentHandle { get; }
@@ -24,7 +24,7 @@ AttachmentHandle_t AttachmentHandle { get; }
 
 ### BoneIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FollowAttachmentData.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FollowAttachmentData.cs#L18)
 
 ```csharp
 ref int BoneIndex { get; }

@@ -12,7 +12,7 @@ public interface FeAntiTunnelProbeBuild_t : ISchemaClass<FeAntiTunnelProbeBuild_
 
 ### ActivationDistance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeAntiTunnelProbeBuild_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeAntiTunnelProbeBuild_t.cs#L20)
 
 ```csharp
 ref float ActivationDistance { get; }
@@ -24,7 +24,7 @@ ref float ActivationDistance { get; }
 
 ### Bias
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeAntiTunnelProbeBuild_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeAntiTunnelProbeBuild_t.cs#L22)
 
 ```csharp
 ref float Bias { get; }
@@ -36,7 +36,7 @@ ref float Bias { get; }
 
 ### Curvature
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeAntiTunnelProbeBuild_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeAntiTunnelProbeBuild_t.cs#L24)
 
 ```csharp
 ref float Curvature { get; }
@@ -48,7 +48,7 @@ ref float Curvature { get; }
 
 ### Flags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeAntiTunnelProbeBuild_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeAntiTunnelProbeBuild_t.cs#L26)
 
 ```csharp
 ref uint Flags { get; }
@@ -60,7 +60,7 @@ ref uint Flags { get; }
 
 ### ProbeNode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeAntiTunnelProbeBuild_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeAntiTunnelProbeBuild_t.cs#L28)
 
 ```csharp
 ref ushort ProbeNode { get; }
@@ -72,7 +72,7 @@ ref ushort ProbeNode { get; }
 
 ### TargetNodes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeAntiTunnelProbeBuild_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeAntiTunnelProbeBuild_t.cs#L30)
 
 ```csharp
 ref CUtlVector<ushort> TargetNodes { get; }
@@ -84,7 +84,7 @@ ref CUtlVector<ushort> TargetNodes { get; }
 
 ### Weight
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeAntiTunnelProbeBuild_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeAntiTunnelProbeBuild_t.cs#L18)
 
 ```csharp
 ref float Weight { get; }

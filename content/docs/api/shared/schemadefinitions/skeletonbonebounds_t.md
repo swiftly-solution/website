@@ -12,7 +12,7 @@ public interface SkeletonBoneBounds_t : ISchemaClass<SkeletonBoneBounds_t>, ISch
 
 ### Center
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonBoneBounds_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonBoneBounds_t.cs#L18)
 
 ```csharp
 ref Vector Center { get; }
@@ -24,7 +24,7 @@ ref Vector Center { get; }
 
 ### Size
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonBoneBounds_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonBoneBounds_t.cs#L20)
 
 ```csharp
 ref Vector Size { get; }

@@ -12,7 +12,7 @@ public interface CCSTeam : CTeam, CBaseEntity, CEntityInstance, ISchemaClass<CEn
 
 ### ClanID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSTeam.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSTeam.cs#L36)
 
 ```csharp
 ref uint ClanID { get; }
@@ -24,7 +24,7 @@ ref uint ClanID { get; }
 
 ### ClanTeamname
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSTeam.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSTeam.cs#L34)
 
 ```csharp
 string ClanTeamname { get; set; }
@@ -36,7 +36,7 @@ string ClanTeamname { get; set; }
 
 ### LastRecievedShorthandedRoundBonus
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSTeam.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSTeam.cs#L18)
 
 ```csharp
 ref int LastRecievedShorthandedRoundBonus { get; }
@@ -48,7 +48,7 @@ ref int LastRecievedShorthandedRoundBonus { get; }
 
 ### LastUpdateSentAt
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSTeam.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSTeam.cs#L44)
 
 ```csharp
 ref int LastUpdateSentAt { get; }
@@ -60,7 +60,7 @@ ref int LastUpdateSentAt { get; }
 
 ### NextResourceTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSTeam.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSTeam.cs#L42)
 
 ```csharp
 ref float NextResourceTime { get; }
@@ -72,7 +72,7 @@ ref float NextResourceTime { get; }
 
 ### NumMapVictories
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSTeam.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSTeam.cs#L26)
 
 ```csharp
 ref int NumMapVictories { get; }
@@ -84,7 +84,7 @@ ref int NumMapVictories { get; }
 
 ### ScoreFirstHalf
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSTeam.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSTeam.cs#L28)
 
 ```csharp
 ref int ScoreFirstHalf { get; }
@@ -96,7 +96,7 @@ ref int ScoreFirstHalf { get; }
 
 ### ScoreOvertime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSTeam.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSTeam.cs#L32)
 
 ```csharp
 ref int ScoreOvertime { get; }
@@ -108,7 +108,7 @@ ref int ScoreOvertime { get; }
 
 ### ScoreSecondHalf
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSTeam.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSTeam.cs#L30)
 
 ```csharp
 ref int ScoreSecondHalf { get; }
@@ -120,7 +120,7 @@ ref int ScoreSecondHalf { get; }
 
 ### ShorthandedRoundBonusStartRound
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSTeam.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSTeam.cs#L20)
 
 ```csharp
 ref int ShorthandedRoundBonusStartRound { get; }
@@ -132,7 +132,7 @@ ref int ShorthandedRoundBonusStartRound { get; }
 
 ### Surrendered
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSTeam.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSTeam.cs#L22)
 
 ```csharp
 ref bool Surrendered { get; }
@@ -144,7 +144,7 @@ ref bool Surrendered { get; }
 
 ### TeamFlagImage
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSTeam.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSTeam.cs#L38)
 
 ```csharp
 string TeamFlagImage { get; set; }
@@ -156,7 +156,7 @@ string TeamFlagImage { get; set; }
 
 ### TeamLogoImage
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSTeam.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSTeam.cs#L40)
 
 ```csharp
 string TeamLogoImage { get; set; }
@@ -168,7 +168,7 @@ string TeamLogoImage { get; set; }
 
 ### TeamMatchStat
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSTeam.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSTeam.cs#L24)
 
 ```csharp
 string TeamMatchStat { get; set; }
@@ -182,7 +182,7 @@ string TeamMatchStat { get; set; }
 
 ### ClanIDUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSTeam.cs#L52)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSTeam.cs#L53)
 
 ```csharp
 void ClanIDUpdated()
@@ -190,7 +190,7 @@ void ClanIDUpdated()
 
 ### ClanTeamnameUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSTeam.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSTeam.cs#L52)
 
 ```csharp
 void ClanTeamnameUpdated()
@@ -198,7 +198,7 @@ void ClanTeamnameUpdated()
 
 ### NumMapVictoriesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSTeam.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSTeam.cs#L48)
 
 ```csharp
 void NumMapVictoriesUpdated()
@@ -206,7 +206,7 @@ void NumMapVictoriesUpdated()
 
 ### ScoreFirstHalfUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSTeam.cs#L48)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSTeam.cs#L49)
 
 ```csharp
 void ScoreFirstHalfUpdated()
@@ -214,7 +214,7 @@ void ScoreFirstHalfUpdated()
 
 ### ScoreOvertimeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSTeam.cs#L50)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSTeam.cs#L51)
 
 ```csharp
 void ScoreOvertimeUpdated()
@@ -222,7 +222,7 @@ void ScoreOvertimeUpdated()
 
 ### ScoreSecondHalfUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSTeam.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSTeam.cs#L50)
 
 ```csharp
 void ScoreSecondHalfUpdated()
@@ -230,7 +230,7 @@ void ScoreSecondHalfUpdated()
 
 ### SurrenderedUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSTeam.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSTeam.cs#L46)
 
 ```csharp
 void SurrenderedUpdated()
@@ -238,7 +238,7 @@ void SurrenderedUpdated()
 
 ### TeamFlagImageUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSTeam.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSTeam.cs#L54)
 
 ```csharp
 void TeamFlagImageUpdated()
@@ -246,7 +246,7 @@ void TeamFlagImageUpdated()
 
 ### TeamLogoImageUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSTeam.cs#L54)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSTeam.cs#L55)
 
 ```csharp
 void TeamLogoImageUpdated()
@@ -254,7 +254,7 @@ void TeamLogoImageUpdated()
 
 ### TeamMatchStatUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSTeam.cs#L46)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSTeam.cs#L47)
 
 ```csharp
 void TeamMatchStatUpdated()

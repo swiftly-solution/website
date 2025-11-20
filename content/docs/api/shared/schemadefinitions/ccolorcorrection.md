@@ -12,7 +12,7 @@ public interface CColorCorrection : CBaseEntity, CEntityInstance, ISchemaClass<C
 
 ### ClientSide
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L38)
 
 ```csharp
 ref bool ClientSide { get; }
@@ -24,7 +24,7 @@ ref bool ClientSide { get; }
 
 ### CurWeight
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L46)
 
 ```csharp
 ref float CurWeight { get; }
@@ -36,7 +36,7 @@ ref float CurWeight { get; }
 
 ### Enabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L34)
 
 ```csharp
 ref bool Enabled { get; }
@@ -48,7 +48,7 @@ ref bool Enabled { get; }
 
 ### Exclusive
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L40)
 
 ```csharp
 ref bool Exclusive { get; }
@@ -60,7 +60,7 @@ ref bool Exclusive { get; }
 
 ### FadeInDuration
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L18)
 
 ```csharp
 ref float FadeInDuration { get; }
@@ -72,7 +72,7 @@ ref float FadeInDuration { get; }
 
 ### FadeOutDuration
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L20)
 
 ```csharp
 ref float FadeOutDuration { get; }
@@ -84,7 +84,7 @@ ref float FadeOutDuration { get; }
 
 ### LookupFilename
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L50)
 
 ```csharp
 string LookupFilename { get; set; }
@@ -96,7 +96,7 @@ string LookupFilename { get; set; }
 
 ### Master
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L36)
 
 ```csharp
 ref bool Master { get; }
@@ -108,7 +108,7 @@ ref bool Master { get; }
 
 ### MaxFalloff
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L44)
 
 ```csharp
 ref float MaxFalloff { get; }
@@ -120,7 +120,7 @@ ref float MaxFalloff { get; }
 
 ### MaxWeight
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L30)
 
 ```csharp
 ref float MaxWeight { get; }
@@ -132,7 +132,7 @@ ref float MaxWeight { get; }
 
 ### MinFalloff
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L42)
 
 ```csharp
 ref float MinFalloff { get; }
@@ -144,7 +144,7 @@ ref float MinFalloff { get; }
 
 ### NetlookupFilename
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L48)
 
 ```csharp
 string NetlookupFilename { get; set; }
@@ -156,7 +156,7 @@ string NetlookupFilename { get; set; }
 
 ### StartDisabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L32)
 
 ```csharp
 ref bool StartDisabled { get; }
@@ -168,7 +168,7 @@ ref bool StartDisabled { get; }
 
 ### StartFadeInWeight
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L22)
 
 ```csharp
 ref float StartFadeInWeight { get; }
@@ -180,7 +180,7 @@ ref float StartFadeInWeight { get; }
 
 ### StartFadeOutWeight
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L24)
 
 ```csharp
 ref float StartFadeOutWeight { get; }
@@ -192,7 +192,7 @@ ref float StartFadeOutWeight { get; }
 
 ### TimeStartFadeIn
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L26)
 
 ```csharp
 GameTime_t TimeStartFadeIn { get; }
@@ -204,7 +204,7 @@ GameTime_t TimeStartFadeIn { get; }
 
 ### TimeStartFadeOut
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L28)
 
 ```csharp
 GameTime_t TimeStartFadeOut { get; }
@@ -218,7 +218,7 @@ GameTime_t TimeStartFadeOut { get; }
 
 ### ClientSideUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L56)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L57)
 
 ```csharp
 void ClientSideUpdated()
@@ -226,7 +226,7 @@ void ClientSideUpdated()
 
 ### CurWeightUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L60)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L61)
 
 ```csharp
 void CurWeightUpdated()
@@ -234,7 +234,7 @@ void CurWeightUpdated()
 
 ### EnabledUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L54)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L55)
 
 ```csharp
 void EnabledUpdated()
@@ -242,7 +242,7 @@ void EnabledUpdated()
 
 ### ExclusiveUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L58)
 
 ```csharp
 void ExclusiveUpdated()
@@ -250,7 +250,7 @@ void ExclusiveUpdated()
 
 ### FadeInDurationUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L52)
 
 ```csharp
 void FadeInDurationUpdated()
@@ -258,7 +258,7 @@ void FadeInDurationUpdated()
 
 ### FadeOutDurationUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L52)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L53)
 
 ```csharp
 void FadeOutDurationUpdated()
@@ -266,7 +266,7 @@ void FadeOutDurationUpdated()
 
 ### MasterUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L56)
 
 ```csharp
 void MasterUpdated()
@@ -274,7 +274,7 @@ void MasterUpdated()
 
 ### MaxFalloffUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L60)
 
 ```csharp
 void MaxFalloffUpdated()
@@ -282,7 +282,7 @@ void MaxFalloffUpdated()
 
 ### MaxWeightUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L54)
 
 ```csharp
 void MaxWeightUpdated()
@@ -290,7 +290,7 @@ void MaxWeightUpdated()
 
 ### MinFalloffUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L58)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L59)
 
 ```csharp
 void MinFalloffUpdated()
@@ -298,7 +298,7 @@ void MinFalloffUpdated()
 
 ### NetlookupFilenameUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CColorCorrection.cs#L62)
 
 ```csharp
 void NetlookupFilenameUpdated()

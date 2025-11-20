@@ -12,7 +12,7 @@ public interface CSoundOpvarSetOBBWindEntity : CSoundOpvarSetPointBase, CBaseEnt
 
 ### DistanceMaxs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetOBBWindEntity.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetOBBWindEntity.cs#L24)
 
 ```csharp
 ref Vector DistanceMaxs { get; }
@@ -24,7 +24,7 @@ ref Vector DistanceMaxs { get; }
 
 ### DistanceMins
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetOBBWindEntity.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetOBBWindEntity.cs#L22)
 
 ```csharp
 ref Vector DistanceMins { get; }
@@ -36,7 +36,7 @@ ref Vector DistanceMins { get; }
 
 ### Maxs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetOBBWindEntity.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetOBBWindEntity.cs#L20)
 
 ```csharp
 ref Vector Maxs { get; }
@@ -48,7 +48,7 @@ ref Vector Maxs { get; }
 
 ### Mins
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetOBBWindEntity.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetOBBWindEntity.cs#L18)
 
 ```csharp
 ref Vector Mins { get; }
@@ -60,7 +60,7 @@ ref Vector Mins { get; }
 
 ### WindMapMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetOBBWindEntity.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetOBBWindEntity.cs#L32)
 
 ```csharp
 ref float WindMapMax { get; }
@@ -72,7 +72,7 @@ ref float WindMapMax { get; }
 
 ### WindMapMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetOBBWindEntity.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetOBBWindEntity.cs#L30)
 
 ```csharp
 ref float WindMapMin { get; }
@@ -84,7 +84,7 @@ ref float WindMapMin { get; }
 
 ### WindMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetOBBWindEntity.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetOBBWindEntity.cs#L28)
 
 ```csharp
 ref float WindMax { get; }
@@ -96,7 +96,7 @@ ref float WindMax { get; }
 
 ### WindMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetOBBWindEntity.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetOBBWindEntity.cs#L26)
 
 ```csharp
 ref float WindMin { get; }

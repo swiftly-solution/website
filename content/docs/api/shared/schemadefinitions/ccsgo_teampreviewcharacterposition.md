@@ -12,7 +12,7 @@ public interface CCSGO_TeamPreviewCharacterPosition : CBaseEntity, CEntityInstan
 
 ### AgentItem
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGO_TeamPreviewCharacterPosition.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGO_TeamPreviewCharacterPosition.cs#L28)
 
 ```csharp
 CEconItemView AgentItem { get; }
@@ -24,7 +24,7 @@ CEconItemView AgentItem { get; }
 
 ### GlovesItem
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGO_TeamPreviewCharacterPosition.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGO_TeamPreviewCharacterPosition.cs#L30)
 
 ```csharp
 CEconItemView GlovesItem { get; }
@@ -36,7 +36,7 @@ CEconItemView GlovesItem { get; }
 
 ### Ordinal
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGO_TeamPreviewCharacterPosition.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGO_TeamPreviewCharacterPosition.cs#L22)
 
 ```csharp
 ref int Ordinal { get; }
@@ -48,7 +48,7 @@ ref int Ordinal { get; }
 
 ### Random
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGO_TeamPreviewCharacterPosition.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGO_TeamPreviewCharacterPosition.cs#L20)
 
 ```csharp
 ref int Random { get; }
@@ -60,7 +60,7 @@ ref int Random { get; }
 
 ### Variant
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGO_TeamPreviewCharacterPosition.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGO_TeamPreviewCharacterPosition.cs#L18)
 
 ```csharp
 ref int Variant { get; }
@@ -72,7 +72,7 @@ ref int Variant { get; }
 
 ### WeaponItem
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGO_TeamPreviewCharacterPosition.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGO_TeamPreviewCharacterPosition.cs#L32)
 
 ```csharp
 CEconItemView WeaponItem { get; }
@@ -84,7 +84,7 @@ CEconItemView WeaponItem { get; }
 
 ### WeaponName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGO_TeamPreviewCharacterPosition.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGO_TeamPreviewCharacterPosition.cs#L24)
 
 ```csharp
 string WeaponName { get; set; }
@@ -96,7 +96,7 @@ string WeaponName { get; set; }
 
 ### Xuid
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGO_TeamPreviewCharacterPosition.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGO_TeamPreviewCharacterPosition.cs#L26)
 
 ```csharp
 ref ulong Xuid { get; }
@@ -110,7 +110,7 @@ ref ulong Xuid { get; }
 
 ### AgentItemUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGO_TeamPreviewCharacterPosition.cs#L38)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGO_TeamPreviewCharacterPosition.cs#L39)
 
 ```csharp
 void AgentItemUpdated()
@@ -118,7 +118,7 @@ void AgentItemUpdated()
 
 ### GlovesItemUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGO_TeamPreviewCharacterPosition.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGO_TeamPreviewCharacterPosition.cs#L40)
 
 ```csharp
 void GlovesItemUpdated()
@@ -126,7 +126,7 @@ void GlovesItemUpdated()
 
 ### OrdinalUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGO_TeamPreviewCharacterPosition.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGO_TeamPreviewCharacterPosition.cs#L36)
 
 ```csharp
 void OrdinalUpdated()
@@ -134,7 +134,7 @@ void OrdinalUpdated()
 
 ### RandomUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGO_TeamPreviewCharacterPosition.cs#L34)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGO_TeamPreviewCharacterPosition.cs#L35)
 
 ```csharp
 void RandomUpdated()
@@ -142,7 +142,7 @@ void RandomUpdated()
 
 ### VariantUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGO_TeamPreviewCharacterPosition.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGO_TeamPreviewCharacterPosition.cs#L34)
 
 ```csharp
 void VariantUpdated()
@@ -150,7 +150,7 @@ void VariantUpdated()
 
 ### WeaponItemUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGO_TeamPreviewCharacterPosition.cs#L40)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGO_TeamPreviewCharacterPosition.cs#L41)
 
 ```csharp
 void WeaponItemUpdated()
@@ -158,7 +158,7 @@ void WeaponItemUpdated()
 
 ### WeaponNameUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGO_TeamPreviewCharacterPosition.cs#L36)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGO_TeamPreviewCharacterPosition.cs#L37)
 
 ```csharp
 void WeaponNameUpdated()
@@ -166,7 +166,7 @@ void WeaponNameUpdated()
 
 ### XuidUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGO_TeamPreviewCharacterPosition.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGO_TeamPreviewCharacterPosition.cs#L38)
 
 ```csharp
 void XuidUpdated()

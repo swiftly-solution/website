@@ -12,7 +12,7 @@ public interface C_OP_RemapCPtoCP : CParticleFunctionPreEmission, CParticleFunct
 
 ### Derivative
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoCP.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoCP.cs#L34)
 
 ```csharp
 ref bool Derivative { get; }
@@ -24,7 +24,7 @@ ref bool Derivative { get; }
 
 ### InputControlPoint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoCP.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoCP.cs#L18)
 
 ```csharp
 ref int InputControlPoint { get; }
@@ -36,7 +36,7 @@ ref int InputControlPoint { get; }
 
 ### InputField
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoCP.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoCP.cs#L22)
 
 ```csharp
 ref int InputField { get; }
@@ -48,7 +48,7 @@ ref int InputField { get; }
 
 ### InputMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoCP.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoCP.cs#L28)
 
 ```csharp
 ref float InputMax { get; }
@@ -60,7 +60,7 @@ ref float InputMax { get; }
 
 ### InputMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoCP.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoCP.cs#L26)
 
 ```csharp
 ref float InputMin { get; }
@@ -72,7 +72,7 @@ ref float InputMin { get; }
 
 ### InterpRate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoCP.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoCP.cs#L36)
 
 ```csharp
 ref float InterpRate { get; }
@@ -84,7 +84,7 @@ ref float InterpRate { get; }
 
 ### OutputControlPoint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoCP.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoCP.cs#L20)
 
 ```csharp
 ref int OutputControlPoint { get; }
@@ -96,7 +96,7 @@ ref int OutputControlPoint { get; }
 
 ### OutputField
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoCP.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoCP.cs#L24)
 
 ```csharp
 ref int OutputField { get; }
@@ -108,7 +108,7 @@ ref int OutputField { get; }
 
 ### OutputMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoCP.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoCP.cs#L32)
 
 ```csharp
 ref float OutputMax { get; }
@@ -120,7 +120,7 @@ ref float OutputMax { get; }
 
 ### OutputMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoCP.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoCP.cs#L30)
 
 ```csharp
 ref float OutputMin { get; }

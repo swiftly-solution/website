@@ -12,7 +12,7 @@ public interface CReplicationParameters : ISchemaClass<CReplicationParameters>, 
 
 ### MaxRandomDisplacement
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CReplicationParameters.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CReplicationParameters.cs#L28)
 
 ```csharp
 CParticleCollectionVecInput MaxRandomDisplacement { get; }
@@ -24,7 +24,7 @@ CParticleCollectionVecInput MaxRandomDisplacement { get; }
 
 ### MaxRandomRadiusScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CReplicationParameters.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CReplicationParameters.cs#L24)
 
 ```csharp
 CParticleCollectionFloatInput MaxRandomRadiusScale { get; }
@@ -36,7 +36,7 @@ CParticleCollectionFloatInput MaxRandomRadiusScale { get; }
 
 ### MinRandomDisplacement
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CReplicationParameters.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CReplicationParameters.cs#L26)
 
 ```csharp
 CParticleCollectionVecInput MinRandomDisplacement { get; }
@@ -48,7 +48,7 @@ CParticleCollectionVecInput MinRandomDisplacement { get; }
 
 ### MinRandomRadiusScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CReplicationParameters.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CReplicationParameters.cs#L22)
 
 ```csharp
 CParticleCollectionFloatInput MinRandomRadiusScale { get; }
@@ -60,7 +60,7 @@ CParticleCollectionFloatInput MinRandomRadiusScale { get; }
 
 ### ModellingScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CReplicationParameters.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CReplicationParameters.cs#L30)
 
 ```csharp
 CParticleCollectionFloatInput ModellingScale { get; }
@@ -72,7 +72,7 @@ CParticleCollectionFloatInput ModellingScale { get; }
 
 ### ReplicationMode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CReplicationParameters.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CReplicationParameters.cs#L18)
 
 ```csharp
 ref ParticleReplicationMode_t ReplicationMode { get; }
@@ -84,7 +84,7 @@ ref ParticleReplicationMode_t ReplicationMode { get; }
 
 ### ScaleChildParticleRadii
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CReplicationParameters.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CReplicationParameters.cs#L20)
 
 ```csharp
 ref bool ScaleChildParticleRadii { get; }

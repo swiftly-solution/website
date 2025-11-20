@@ -12,7 +12,7 @@ public interface CPulseCell_Outflow_ScriptedSequence : CPulseCell_BaseYieldingIn
 
 ### AdditionalActors
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ScriptedSequence.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ScriptedSequence.cs#L30)
 
 ```csharp
 ref CUtlVector<PulseScriptedSequenceData_t> AdditionalActors { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<PulseScriptedSequenceData_t> AdditionalActors { get; }
 
 ### DisallowInterrupts
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ScriptedSequence.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ScriptedSequence.cs#L26)
 
 ```csharp
 ref bool DisallowInterrupts { get; }
@@ -36,7 +36,7 @@ ref bool DisallowInterrupts { get; }
 
 ### DontTeleportAtEnd
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ScriptedSequence.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ScriptedSequence.cs#L24)
 
 ```csharp
 ref bool DontTeleportAtEnd { get; }
@@ -48,7 +48,7 @@ ref bool DontTeleportAtEnd { get; }
 
 ### EnsureOnNavmeshOnFinish
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ScriptedSequence.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ScriptedSequence.cs#L22)
 
 ```csharp
 ref bool EnsureOnNavmeshOnFinish { get; }
@@ -60,7 +60,7 @@ ref bool EnsureOnNavmeshOnFinish { get; }
 
 ### ExpectedNumSequencesInSyncGroup
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ScriptedSequence.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ScriptedSequence.cs#L20)
 
 ```csharp
 ref int ExpectedNumSequencesInSyncGroup { get; }
@@ -72,7 +72,7 @@ ref int ExpectedNumSequencesInSyncGroup { get; }
 
 ### OnCanceled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ScriptedSequence.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ScriptedSequence.cs#L34)
 
 ```csharp
 CPulse_ResumePoint OnCanceled { get; }
@@ -84,7 +84,7 @@ CPulse_ResumePoint OnCanceled { get; }
 
 ### OnFinished
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ScriptedSequence.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ScriptedSequence.cs#L32)
 
 ```csharp
 CPulse_ResumePoint OnFinished { get; }
@@ -96,7 +96,7 @@ CPulse_ResumePoint OnFinished { get; }
 
 ### ScriptedSequenceDataMain
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ScriptedSequence.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ScriptedSequence.cs#L28)
 
 ```csharp
 PulseScriptedSequenceData_t ScriptedSequenceDataMain { get; }
@@ -108,7 +108,7 @@ PulseScriptedSequenceData_t ScriptedSequenceDataMain { get; }
 
 ### SyncGroup
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ScriptedSequence.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ScriptedSequence.cs#L18)
 
 ```csharp
 string SyncGroup { get; set; }
@@ -120,7 +120,7 @@ string SyncGroup { get; set; }
 
 ### Triggers
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ScriptedSequence.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ScriptedSequence.cs#L36)
 
 ```csharp
 ref CUtlVector<CPulse_OutflowConnection> Triggers { get; }

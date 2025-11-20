@@ -12,7 +12,7 @@ public interface CPointCameraVFOV : CPointCamera, CBaseEntity, CEntityInstance, 
 
 ### VerticalFOV
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCameraVFOV.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCameraVFOV.cs#L18)
 
 ```csharp
 ref float VerticalFOV { get; }

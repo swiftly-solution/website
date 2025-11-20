@@ -12,7 +12,7 @@ public interface CSSDSMsg_ViewTarget : ISchemaClass<CSSDSMsg_ViewTarget>, ISchem
 
 ### Depth
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewTarget.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewTarget.cs#L32)
 
 ```csharp
 ref int Depth { get; }
@@ -24,7 +24,7 @@ ref int Depth { get; }
 
 ### Format
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewTarget.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewTarget.cs#L36)
 
 ```csharp
 ref int Format { get; }
@@ -36,7 +36,7 @@ ref int Format { get; }
 
 ### Height
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewTarget.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewTarget.cs#L24)
 
 ```csharp
 ref int Height { get; }
@@ -48,7 +48,7 @@ ref int Height { get; }
 
 ### MultisampleNumSamples
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewTarget.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewTarget.cs#L34)
 
 ```csharp
 ref int MultisampleNumSamples { get; }
@@ -60,7 +60,7 @@ ref int MultisampleNumSamples { get; }
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewTarget.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewTarget.cs#L18)
 
 ```csharp
 string Name { get; set; }
@@ -72,7 +72,7 @@ string Name { get; set; }
 
 ### NumMipLevels
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewTarget.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewTarget.cs#L30)
 
 ```csharp
 ref int NumMipLevels { get; }
@@ -84,7 +84,7 @@ ref int NumMipLevels { get; }
 
 ### RequestedHeight
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewTarget.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewTarget.cs#L28)
 
 ```csharp
 ref int RequestedHeight { get; }
@@ -96,7 +96,7 @@ ref int RequestedHeight { get; }
 
 ### RequestedWidth
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewTarget.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewTarget.cs#L26)
 
 ```csharp
 ref int RequestedWidth { get; }
@@ -108,7 +108,7 @@ ref int RequestedWidth { get; }
 
 ### TextureId
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewTarget.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewTarget.cs#L20)
 
 ```csharp
 ref ulong TextureId { get; }
@@ -120,7 +120,7 @@ ref ulong TextureId { get; }
 
 ### Width
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewTarget.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewTarget.cs#L22)
 
 ```csharp
 ref int Width { get; }

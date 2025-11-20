@@ -12,7 +12,7 @@ public interface C_INIT_SequenceLifeTime : CParticleFunctionInitializer, CPartic
 
 ### Framerate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SequenceLifeTime.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SequenceLifeTime.cs#L18)
 
 ```csharp
 ref float Framerate { get; }

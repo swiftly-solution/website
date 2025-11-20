@@ -12,7 +12,7 @@ public interface CSoundPatch : ISchemaClass<CSoundPatch>, ISchemaField, ISchemaC
 
 ### ClassName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundPatch.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundPatch.cs#L42)
 
 ```csharp
 string ClassName { get; set; }
@@ -24,7 +24,7 @@ string ClassName { get; set; }
 
 ### CloseCaptionDuration
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundPatch.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundPatch.cs#L38)
 
 ```csharp
 ref float CloseCaptionDuration { get; }
@@ -36,7 +36,7 @@ ref float CloseCaptionDuration { get; }
 
 ### Ent
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundPatch.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundPatch.cs#L28)
 
 ```csharp
 ref CHandle<CBaseEntity> Ent { get; }
@@ -48,7 +48,7 @@ ref CHandle<CBaseEntity> Ent { get; }
 
 ### Filter
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundPatch.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundPatch.cs#L36)
 
 ```csharp
 CCopyRecipientFilter Filter { get; }
@@ -60,7 +60,7 @@ CCopyRecipientFilter Filter { get; }
 
 ### IsPlaying
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundPatch.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundPatch.cs#L34)
 
 ```csharp
 ref int IsPlaying { get; }
@@ -72,7 +72,7 @@ ref int IsPlaying { get; }
 
 ### LastTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundPatch.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundPatch.cs#L24)
 
 ```csharp
 ref float LastTime { get; }
@@ -84,7 +84,7 @@ ref float LastTime { get; }
 
 ### Pitch
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundPatch.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundPatch.cs#L18)
 
 ```csharp
 CSoundEnvelope Pitch { get; }
@@ -96,7 +96,7 @@ CSoundEnvelope Pitch { get; }
 
 ### ShutdownTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundPatch.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundPatch.cs#L22)
 
 ```csharp
 ref float ShutdownTime { get; }
@@ -108,7 +108,7 @@ ref float ShutdownTime { get; }
 
 ### SoundEntityIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundPatch.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundPatch.cs#L30)
 
 ```csharp
 ref uint SoundEntityIndex { get; }
@@ -120,7 +120,7 @@ ref uint SoundEntityIndex { get; }
 
 ### SoundOrigin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundPatch.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundPatch.cs#L32)
 
 ```csharp
 ref Vector SoundOrigin { get; }
@@ -132,7 +132,7 @@ ref Vector SoundOrigin { get; }
 
 ### SoundScriptName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundPatch.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundPatch.cs#L26)
 
 ```csharp
 string SoundScriptName { get; set; }
@@ -144,7 +144,7 @@ string SoundScriptName { get; set; }
 
 ### UpdatedSoundOrigin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundPatch.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundPatch.cs#L40)
 
 ```csharp
 ref bool UpdatedSoundOrigin { get; }
@@ -156,7 +156,7 @@ ref bool UpdatedSoundOrigin { get; }
 
 ### Volume
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundPatch.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundPatch.cs#L20)
 
 ```csharp
 CSoundEnvelope Volume { get; }

@@ -12,7 +12,7 @@ public interface CFootAdjustmentUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBa
 
 ### AnimationDriven
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootAdjustmentUpdateNode.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootAdjustmentUpdateNode.cs#L34)
 
 ```csharp
 ref bool AnimationDriven { get; }
@@ -24,7 +24,7 @@ ref bool AnimationDriven { get; }
 
 ### BasePoseCacheHandle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootAdjustmentUpdateNode.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootAdjustmentUpdateNode.cs#L20)
 
 ```csharp
 CPoseHandle BasePoseCacheHandle { get; }
@@ -36,7 +36,7 @@ CPoseHandle BasePoseCacheHandle { get; }
 
 ### Clips
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootAdjustmentUpdateNode.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootAdjustmentUpdateNode.cs#L18)
 
 ```csharp
 ref CUtlVector<HSequence> Clips { get; }
@@ -48,7 +48,7 @@ ref CUtlVector<HSequence> Clips { get; }
 
 ### FacingTarget
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootAdjustmentUpdateNode.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootAdjustmentUpdateNode.cs#L22)
 
 ```csharp
 CAnimParamHandle FacingTarget { get; }
@@ -60,7 +60,7 @@ CAnimParamHandle FacingTarget { get; }
 
 ### ResetChild
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootAdjustmentUpdateNode.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootAdjustmentUpdateNode.cs#L32)
 
 ```csharp
 ref bool ResetChild { get; }
@@ -72,7 +72,7 @@ ref bool ResetChild { get; }
 
 ### StepHeightMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootAdjustmentUpdateNode.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootAdjustmentUpdateNode.cs#L28)
 
 ```csharp
 ref float StepHeightMax { get; }
@@ -84,7 +84,7 @@ ref float StepHeightMax { get; }
 
 ### StepHeightMaxAngle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootAdjustmentUpdateNode.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootAdjustmentUpdateNode.cs#L30)
 
 ```csharp
 ref float StepHeightMaxAngle { get; }
@@ -96,7 +96,7 @@ ref float StepHeightMaxAngle { get; }
 
 ### TurnTimeMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootAdjustmentUpdateNode.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootAdjustmentUpdateNode.cs#L26)
 
 ```csharp
 ref float TurnTimeMax { get; }
@@ -108,7 +108,7 @@ ref float TurnTimeMax { get; }
 
 ### TurnTimeMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootAdjustmentUpdateNode.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootAdjustmentUpdateNode.cs#L24)
 
 ```csharp
 ref float TurnTimeMin { get; }

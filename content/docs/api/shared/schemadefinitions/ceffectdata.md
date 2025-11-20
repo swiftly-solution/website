@@ -12,7 +12,7 @@ public interface CEffectData : ISchemaClass<CEffectData>, ISchemaField, ISchemaC
 
 ### Angles
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L24)
 
 ```csharp
 ref QAngle Angles { get; }
@@ -24,7 +24,7 @@ ref QAngle Angles { get; }
 
 ### AttachmentIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L52)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L53)
 
 ```csharp
 AttachmentHandle_t AttachmentIndex { get; }
@@ -36,7 +36,7 @@ AttachmentHandle_t AttachmentIndex { get; }
 
 ### AttachmentName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L54)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L55)
 
 ```csharp
 ref CUtlStringToken AttachmentName { get; }
@@ -48,7 +48,7 @@ ref CUtlStringToken AttachmentName { get; }
 
 ### Color
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L48)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L49)
 
 ```csharp
 ref byte Color { get; }
@@ -60,7 +60,7 @@ ref byte Color { get; }
 
 ### DamageType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L40)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L41)
 
 ```csharp
 ref uint DamageType { get; }
@@ -72,7 +72,7 @@ ref uint DamageType { get; }
 
 ### EffectIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L38)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L39)
 
 ```csharp
 SchemaUntypedField EffectIndex { get; }
@@ -84,7 +84,7 @@ SchemaUntypedField EffectIndex { get; }
 
 ### EffectName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L56)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L57)
 
 ```csharp
 ref ushort EffectName { get; }
@@ -96,7 +96,7 @@ ref ushort EffectName { get; }
 
 ### Entity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L26)
 
 ```csharp
 ref CHandle<CEntityInstance> Entity { get; }
@@ -108,7 +108,7 @@ ref CHandle<CEntityInstance> Entity { get; }
 
 ### ExplosionType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L58)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L59)
 
 ```csharp
 ref byte ExplosionType { get; }
@@ -120,7 +120,7 @@ ref byte ExplosionType { get; }
 
 ### Flags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L50)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L51)
 
 ```csharp
 ref byte Flags { get; }
@@ -132,7 +132,7 @@ ref byte Flags { get; }
 
 ### HitBox
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L46)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L47)
 
 ```csharp
 ref short HitBox { get; }
@@ -144,7 +144,7 @@ ref short HitBox { get; }
 
 ### Magnitude
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L32)
 
 ```csharp
 ref float Magnitude { get; }
@@ -156,7 +156,7 @@ ref float Magnitude { get; }
 
 ### Material
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L44)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L45)
 
 ```csharp
 ref ushort Material { get; }
@@ -168,7 +168,7 @@ ref ushort Material { get; }
 
 ### Normal
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L22)
 
 ```csharp
 ref Vector Normal { get; }
@@ -180,7 +180,7 @@ ref Vector Normal { get; }
 
 ### Origin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L18)
 
 ```csharp
 ref Vector Origin { get; }
@@ -192,7 +192,7 @@ ref Vector Origin { get; }
 
 ### OtherEntity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L28)
 
 ```csharp
 ref CHandle<CEntityInstance> OtherEntity { get; }
@@ -204,7 +204,7 @@ ref CHandle<CEntityInstance> OtherEntity { get; }
 
 ### Penetrate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L42)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L43)
 
 ```csharp
 ref byte Penetrate { get; }
@@ -216,7 +216,7 @@ ref byte Penetrate { get; }
 
 ### Radius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L34)
 
 ```csharp
 ref float Radius { get; }
@@ -228,7 +228,7 @@ ref float Radius { get; }
 
 ### Scale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L30)
 
 ```csharp
 ref float Scale { get; }
@@ -240,7 +240,7 @@ ref float Scale { get; }
 
 ### Start
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L20)
 
 ```csharp
 ref Vector Start { get; }
@@ -252,7 +252,7 @@ ref Vector Start { get; }
 
 ### SurfaceProp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L36)
 
 ```csharp
 ref CUtlStringToken SurfaceProp { get; }
@@ -266,7 +266,7 @@ ref CUtlStringToken SurfaceProp { get; }
 
 ### AnglesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L64)
 
 ```csharp
 void AnglesUpdated()
@@ -274,7 +274,7 @@ void AnglesUpdated()
 
 ### AttachmentIndexUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L77)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L78)
 
 ```csharp
 void AttachmentIndexUpdated()
@@ -282,7 +282,7 @@ void AttachmentIndexUpdated()
 
 ### AttachmentNameUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L78)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L79)
 
 ```csharp
 void AttachmentNameUpdated()
@@ -290,7 +290,7 @@ void AttachmentNameUpdated()
 
 ### ColorUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L75)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L76)
 
 ```csharp
 void ColorUpdated()
@@ -298,7 +298,7 @@ void ColorUpdated()
 
 ### DamageTypeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L71)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L72)
 
 ```csharp
 void DamageTypeUpdated()
@@ -306,7 +306,7 @@ void DamageTypeUpdated()
 
 ### EffectIndexUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L70)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L71)
 
 ```csharp
 void EffectIndexUpdated()
@@ -314,7 +314,7 @@ void EffectIndexUpdated()
 
 ### EffectNameUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L79)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L80)
 
 ```csharp
 void EffectNameUpdated()
@@ -322,7 +322,7 @@ void EffectNameUpdated()
 
 ### EntityUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L64)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L65)
 
 ```csharp
 void EntityUpdated()
@@ -330,7 +330,7 @@ void EntityUpdated()
 
 ### ExplosionTypeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L80)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L81)
 
 ```csharp
 void ExplosionTypeUpdated()
@@ -338,7 +338,7 @@ void ExplosionTypeUpdated()
 
 ### FlagsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L76)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L77)
 
 ```csharp
 void FlagsUpdated()
@@ -346,7 +346,7 @@ void FlagsUpdated()
 
 ### HitBoxUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L74)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L75)
 
 ```csharp
 void HitBoxUpdated()
@@ -354,7 +354,7 @@ void HitBoxUpdated()
 
 ### MagnitudeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L67)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L68)
 
 ```csharp
 void MagnitudeUpdated()
@@ -362,7 +362,7 @@ void MagnitudeUpdated()
 
 ### MaterialUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L73)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L74)
 
 ```csharp
 void MaterialUpdated()
@@ -370,7 +370,7 @@ void MaterialUpdated()
 
 ### NormalUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L62)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L63)
 
 ```csharp
 void NormalUpdated()
@@ -378,7 +378,7 @@ void NormalUpdated()
 
 ### OriginUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L60)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L61)
 
 ```csharp
 void OriginUpdated()
@@ -386,7 +386,7 @@ void OriginUpdated()
 
 ### OtherEntityUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L65)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L66)
 
 ```csharp
 void OtherEntityUpdated()
@@ -394,7 +394,7 @@ void OtherEntityUpdated()
 
 ### PenetrateUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L72)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L73)
 
 ```csharp
 void PenetrateUpdated()
@@ -402,7 +402,7 @@ void PenetrateUpdated()
 
 ### RadiusUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L68)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L69)
 
 ```csharp
 void RadiusUpdated()
@@ -410,7 +410,7 @@ void RadiusUpdated()
 
 ### ScaleUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L66)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L67)
 
 ```csharp
 void ScaleUpdated()
@@ -418,7 +418,7 @@ void ScaleUpdated()
 
 ### StartUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L62)
 
 ```csharp
 void StartUpdated()
@@ -426,7 +426,7 @@ void StartUpdated()
 
 ### SurfacePropUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L69)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEffectData.cs#L70)
 
 ```csharp
 void SurfacePropUpdated()

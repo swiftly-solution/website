@@ -12,7 +12,7 @@ public interface RsStencilStateDesc_t : ISchemaClass<RsStencilStateDesc_t>, ISch
 
 ### BackStencilDepthFailOp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsStencilStateDesc_t.cs#L36)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsStencilStateDesc_t.cs#L37)
 
 ```csharp
 SchemaUntypedField BackStencilDepthFailOp { get; }
@@ -24,7 +24,7 @@ SchemaUntypedField BackStencilDepthFailOp { get; }
 
 ### BackStencilFailOp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsStencilStateDesc_t.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsStencilStateDesc_t.cs#L34)
 
 ```csharp
 SchemaUntypedField BackStencilFailOp { get; }
@@ -36,7 +36,7 @@ SchemaUntypedField BackStencilFailOp { get; }
 
 ### BackStencilFunc
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsStencilStateDesc_t.cs#L42)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsStencilStateDesc_t.cs#L43)
 
 ```csharp
 SchemaUntypedField BackStencilFunc { get; }
@@ -48,7 +48,7 @@ SchemaUntypedField BackStencilFunc { get; }
 
 ### BackStencilPassOp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsStencilStateDesc_t.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsStencilStateDesc_t.cs#L40)
 
 ```csharp
 SchemaUntypedField BackStencilPassOp { get; }
@@ -60,7 +60,7 @@ SchemaUntypedField BackStencilPassOp { get; }
 
 ### FrontStencilDepthFailOp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsStencilStateDesc_t.cs#L24)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsStencilStateDesc_t.cs#L25)
 
 ```csharp
 SchemaUntypedField FrontStencilDepthFailOp { get; }
@@ -72,7 +72,7 @@ SchemaUntypedField FrontStencilDepthFailOp { get; }
 
 ### FrontStencilFailOp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsStencilStateDesc_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsStencilStateDesc_t.cs#L22)
 
 ```csharp
 SchemaUntypedField FrontStencilFailOp { get; }
@@ -84,7 +84,7 @@ SchemaUntypedField FrontStencilFailOp { get; }
 
 ### FrontStencilFunc
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsStencilStateDesc_t.cs#L30)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsStencilStateDesc_t.cs#L31)
 
 ```csharp
 SchemaUntypedField FrontStencilFunc { get; }
@@ -96,7 +96,7 @@ SchemaUntypedField FrontStencilFunc { get; }
 
 ### FrontStencilPassOp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsStencilStateDesc_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsStencilStateDesc_t.cs#L28)
 
 ```csharp
 SchemaUntypedField FrontStencilPassOp { get; }
@@ -108,7 +108,7 @@ SchemaUntypedField FrontStencilPassOp { get; }
 
 ### StencilEnable
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsStencilStateDesc_t.cs#L18)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsStencilStateDesc_t.cs#L19)
 
 ```csharp
 SchemaUntypedField StencilEnable { get; }
@@ -120,7 +120,7 @@ SchemaUntypedField StencilEnable { get; }
 
 ### StencilReadMask
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsStencilStateDesc_t.cs#L44)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsStencilStateDesc_t.cs#L45)
 
 ```csharp
 ref byte StencilReadMask { get; }
@@ -132,7 +132,7 @@ ref byte StencilReadMask { get; }
 
 ### StencilWriteMask
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsStencilStateDesc_t.cs#L46)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsStencilStateDesc_t.cs#L47)
 
 ```csharp
 ref byte StencilWriteMask { get; }

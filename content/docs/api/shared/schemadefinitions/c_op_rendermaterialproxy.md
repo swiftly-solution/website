@@ -12,7 +12,7 @@ public interface C_OP_RenderMaterialProxy : CParticleFunctionRenderer, CParticle
 
 ### Alpha
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderMaterialProxy.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderMaterialProxy.cs#L30)
 
 ```csharp
 CPerParticleFloatInput Alpha { get; }
@@ -24,7 +24,7 @@ CPerParticleFloatInput Alpha { get; }
 
 ### ColorBlendType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderMaterialProxy.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderMaterialProxy.cs#L32)
 
 ```csharp
 ref ParticleColorBlendType_t ColorBlendType { get; }
@@ -36,7 +36,7 @@ ref ParticleColorBlendType_t ColorBlendType { get; }
 
 ### ColorScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderMaterialProxy.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderMaterialProxy.cs#L28)
 
 ```csharp
 CParticleCollectionVecInput ColorScale { get; }
@@ -48,7 +48,7 @@ CParticleCollectionVecInput ColorScale { get; }
 
 ### MaterialControlPoint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderMaterialProxy.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderMaterialProxy.cs#L18)
 
 ```csharp
 ref int MaterialControlPoint { get; }
@@ -60,7 +60,7 @@ ref int MaterialControlPoint { get; }
 
 ### MaterialOverrideEnabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderMaterialProxy.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderMaterialProxy.cs#L26)
 
 ```csharp
 CParticleCollectionFloatInput MaterialOverrideEnabled { get; }
@@ -72,7 +72,7 @@ CParticleCollectionFloatInput MaterialOverrideEnabled { get; }
 
 ### MaterialVars
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderMaterialProxy.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderMaterialProxy.cs#L22)
 
 ```csharp
 ref CUtlVector<MaterialVariable_t> MaterialVars { get; }
@@ -84,7 +84,7 @@ ref CUtlVector<MaterialVariable_t> MaterialVars { get; }
 
 ### OverrideMaterial
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderMaterialProxy.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderMaterialProxy.cs#L24)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeIMaterial2> OverrideMaterial { get; }
@@ -96,7 +96,7 @@ ref CStrongHandle<InfoForResourceTypeIMaterial2> OverrideMaterial { get; }
 
 ### ProxyType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderMaterialProxy.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderMaterialProxy.cs#L20)
 
 ```csharp
 ref MaterialProxyType_t ProxyType { get; }

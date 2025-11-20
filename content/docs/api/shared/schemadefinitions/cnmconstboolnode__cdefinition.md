@@ -12,7 +12,7 @@ public interface CNmConstBoolNode__CDefinition : CNmBoolValueNode__CDefinition, 
 
 ### Value
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmConstBoolNode__CDefinition.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmConstBoolNode__CDefinition.cs#L18)
 
 ```csharp
 ref bool Value { get; }

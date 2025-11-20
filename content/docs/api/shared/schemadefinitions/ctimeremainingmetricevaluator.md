@@ -12,7 +12,7 @@ public interface CTimeRemainingMetricEvaluator : CMotionMetricEvaluator, ISchema
 
 ### FilterByTimeRemaining
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimeRemainingMetricEvaluator.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimeRemainingMetricEvaluator.cs#L22)
 
 ```csharp
 ref bool FilterByTimeRemaining { get; }
@@ -24,7 +24,7 @@ ref bool FilterByTimeRemaining { get; }
 
 ### MatchByTimeRemaining
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimeRemainingMetricEvaluator.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimeRemainingMetricEvaluator.cs#L18)
 
 ```csharp
 ref bool MatchByTimeRemaining { get; }
@@ -36,7 +36,7 @@ ref bool MatchByTimeRemaining { get; }
 
 ### MaxTimeRemaining
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimeRemainingMetricEvaluator.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimeRemainingMetricEvaluator.cs#L20)
 
 ```csharp
 ref float MaxTimeRemaining { get; }
@@ -48,7 +48,7 @@ ref float MaxTimeRemaining { get; }
 
 ### MinTimeRemaining
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimeRemainingMetricEvaluator.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimeRemainingMetricEvaluator.cs#L24)
 
 ```csharp
 ref float MinTimeRemaining { get; }

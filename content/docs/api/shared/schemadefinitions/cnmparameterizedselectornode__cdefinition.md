@@ -12,7 +12,7 @@ public interface CNmParameterizedSelectorNode__CDefinition : CNmPoseNode__CDefin
 
 ### HasWeightsSet
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParameterizedSelectorNode__CDefinition.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParameterizedSelectorNode__CDefinition.cs#L28)
 
 ```csharp
 ref bool HasWeightsSet { get; }
@@ -24,7 +24,7 @@ ref bool HasWeightsSet { get; }
 
 ### IgnoreInvalidOptions
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParameterizedSelectorNode__CDefinition.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParameterizedSelectorNode__CDefinition.cs#L26)
 
 ```csharp
 ref bool IgnoreInvalidOptions { get; }
@@ -36,7 +36,7 @@ ref bool IgnoreInvalidOptions { get; }
 
 ### OptionNodeIndices
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParameterizedSelectorNode__CDefinition.cs#L18)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParameterizedSelectorNode__CDefinition.cs#L19)
 
 ```csharp
 SchemaUntypedField OptionNodeIndices { get; }
@@ -48,7 +48,7 @@ SchemaUntypedField OptionNodeIndices { get; }
 
 ### OptionWeights
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParameterizedSelectorNode__CDefinition.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParameterizedSelectorNode__CDefinition.cs#L22)
 
 ```csharp
 SchemaUntypedField OptionWeights { get; }
@@ -60,7 +60,7 @@ SchemaUntypedField OptionWeights { get; }
 
 ### ParameterNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParameterizedSelectorNode__CDefinition.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParameterizedSelectorNode__CDefinition.cs#L24)
 
 ```csharp
 ref short ParameterNodeIdx { get; }

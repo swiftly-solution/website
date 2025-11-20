@@ -12,7 +12,7 @@ public interface CNPCPhysicsHull : ISchemaClass<CNPCPhysicsHull>, ISchemaField, 
 
 ### CapsuleCenter1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNPCPhysicsHull.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNPCPhysicsHull.cs#L26)
 
 ```csharp
 ref Vector CapsuleCenter1 { get; }
@@ -24,7 +24,7 @@ ref Vector CapsuleCenter1 { get; }
 
 ### CapsuleCenter2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNPCPhysicsHull.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNPCPhysicsHull.cs#L28)
 
 ```csharp
 ref Vector CapsuleCenter2 { get; }
@@ -36,7 +36,7 @@ ref Vector CapsuleCenter2 { get; }
 
 ### CapsuleHeight
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNPCPhysicsHull.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNPCPhysicsHull.cs#L22)
 
 ```csharp
 ref float CapsuleHeight { get; }
@@ -48,7 +48,7 @@ ref float CapsuleHeight { get; }
 
 ### CapsuleRadius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNPCPhysicsHull.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNPCPhysicsHull.cs#L24)
 
 ```csharp
 ref float CapsuleRadius { get; }
@@ -60,7 +60,7 @@ ref float CapsuleRadius { get; }
 
 ### GroundBoxHeight
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNPCPhysicsHull.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNPCPhysicsHull.cs#L30)
 
 ```csharp
 ref float GroundBoxHeight { get; }
@@ -72,7 +72,7 @@ ref float GroundBoxHeight { get; }
 
 ### GroundBoxWidth
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNPCPhysicsHull.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNPCPhysicsHull.cs#L32)
 
 ```csharp
 ref float GroundBoxWidth { get; }
@@ -84,7 +84,7 @@ ref float GroundBoxWidth { get; }
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNPCPhysicsHull.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNPCPhysicsHull.cs#L18)
 
 ```csharp
 ref CGlobalSymbol Name { get; }
@@ -96,7 +96,7 @@ ref CGlobalSymbol Name { get; }
 
 ### Type
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNPCPhysicsHull.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNPCPhysicsHull.cs#L20)
 
 ```csharp
 ref NPCPhysicsHullType_t Type { get; }

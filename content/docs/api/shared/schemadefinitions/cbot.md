@@ -12,7 +12,7 @@ public interface CBot : ISchemaClass<CBot>, ISchemaField, ISchemaClass, INativeH
 
 ### ButtonFlags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L36)
 
 ```csharp
 ref ulong ButtonFlags { get; }
@@ -24,7 +24,7 @@ ref ulong ButtonFlags { get; }
 
 ### Controller
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L18)
 
 ```csharp
 CCSPlayerController? Controller { get; }
@@ -36,7 +36,7 @@ CCSPlayerController? Controller { get; }
 
 ### ForwardSpeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L30)
 
 ```csharp
 ref float ForwardSpeed { get; }
@@ -48,7 +48,7 @@ ref float ForwardSpeed { get; }
 
 ### HasSpawned
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L22)
 
 ```csharp
 ref bool HasSpawned { get; }
@@ -60,7 +60,7 @@ ref bool HasSpawned { get; }
 
 ### Id
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L24)
 
 ```csharp
 ref uint Id { get; }
@@ -72,7 +72,7 @@ ref uint Id { get; }
 
 ### IsCrouching
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L28)
 
 ```csharp
 ref bool IsCrouching { get; }
@@ -84,7 +84,7 @@ ref bool IsCrouching { get; }
 
 ### IsRunning
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L26)
 
 ```csharp
 ref bool IsRunning { get; }
@@ -96,7 +96,7 @@ ref bool IsRunning { get; }
 
 ### JumpTimestamp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L38)
 
 ```csharp
 ref float JumpTimestamp { get; }
@@ -108,7 +108,7 @@ ref float JumpTimestamp { get; }
 
 ### LeftSpeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L32)
 
 ```csharp
 ref float LeftSpeed { get; }
@@ -120,7 +120,7 @@ ref float LeftSpeed { get; }
 
 ### Player
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L20)
 
 ```csharp
 CCSPlayerPawn? Player { get; }
@@ -132,7 +132,7 @@ CCSPlayerPawn? Player { get; }
 
 ### PostureStackIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L42)
 
 ```csharp
 ref int PostureStackIndex { get; }
@@ -144,7 +144,7 @@ ref int PostureStackIndex { get; }
 
 ### VerticalSpeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L34)
 
 ```csharp
 ref float VerticalSpeed { get; }
@@ -156,7 +156,7 @@ ref float VerticalSpeed { get; }
 
 ### ViewForward
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L40)
 
 ```csharp
 ref Vector ViewForward { get; }

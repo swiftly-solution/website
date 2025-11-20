@@ -12,7 +12,7 @@ public interface CFishPool : CBaseEntity, CEntityInstance, ISchemaClass<CEntityI
 
 ### FishCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFishPool.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFishPool.cs#L18)
 
 ```csharp
 ref int FishCount { get; }
@@ -24,7 +24,7 @@ ref int FishCount { get; }
 
 ### Fishes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFishPool.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFishPool.cs#L28)
 
 ```csharp
 ref CUtlVector<CHandle<CFish>> Fishes { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<CHandle<CFish>> Fishes { get; }
 
 ### IsDormant
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFishPool.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFishPool.cs#L26)
 
 ```csharp
 ref bool IsDormant { get; }
@@ -48,7 +48,7 @@ ref bool IsDormant { get; }
 
 ### MaxRange
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFishPool.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFishPool.cs#L20)
 
 ```csharp
 ref float MaxRange { get; }
@@ -60,7 +60,7 @@ ref float MaxRange { get; }
 
 ### SwimDepth
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFishPool.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFishPool.cs#L22)
 
 ```csharp
 ref float SwimDepth { get; }
@@ -72,7 +72,7 @@ ref float SwimDepth { get; }
 
 ### VisTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFishPool.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFishPool.cs#L30)
 
 ```csharp
 CountdownTimer VisTimer { get; }
@@ -84,7 +84,7 @@ CountdownTimer VisTimer { get; }
 
 ### WaterLevel
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFishPool.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFishPool.cs#L24)
 
 ```csharp
 ref float WaterLevel { get; }

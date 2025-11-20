@@ -12,7 +12,7 @@ public interface CBlend2DUpdateNode : CAnimUpdateNodeBase, ISchemaClass<CAnimUpd
 
 ### AnimEventsAndTagsOnMostWeightedOnly
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlend2DUpdateNode.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlend2DUpdateNode.cs#L46)
 
 ```csharp
 ref bool AnimEventsAndTagsOnMostWeightedOnly { get; }
@@ -24,7 +24,7 @@ ref bool AnimEventsAndTagsOnMostWeightedOnly { get; }
 
 ### BlendMode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlend2DUpdateNode.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlend2DUpdateNode.cs#L36)
 
 ```csharp
 ref Blend2DMode BlendMode { get; }
@@ -36,7 +36,7 @@ ref Blend2DMode BlendMode { get; }
 
 ### BlendSourceX
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlend2DUpdateNode.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlend2DUpdateNode.cs#L28)
 
 ```csharp
 ref AnimValueSource BlendSourceX { get; }
@@ -48,7 +48,7 @@ ref AnimValueSource BlendSourceX { get; }
 
 ### BlendSourceY
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlend2DUpdateNode.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlend2DUpdateNode.cs#L32)
 
 ```csharp
 ref AnimValueSource BlendSourceY { get; }
@@ -60,7 +60,7 @@ ref AnimValueSource BlendSourceY { get; }
 
 ### Damping
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlend2DUpdateNode.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlend2DUpdateNode.cs#L26)
 
 ```csharp
 CAnimInputDamping Damping { get; }
@@ -72,7 +72,7 @@ CAnimInputDamping Damping { get; }
 
 ### Items
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlend2DUpdateNode.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlend2DUpdateNode.cs#L18)
 
 ```csharp
 ref CUtlVector<BlendItem_t> Items { get; }
@@ -84,7 +84,7 @@ ref CUtlVector<BlendItem_t> Items { get; }
 
 ### LockBlendOnReset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlend2DUpdateNode.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlend2DUpdateNode.cs#L42)
 
 ```csharp
 ref bool LockBlendOnReset { get; }
@@ -96,7 +96,7 @@ ref bool LockBlendOnReset { get; }
 
 ### LockWhenWaning
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlend2DUpdateNode.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlend2DUpdateNode.cs#L44)
 
 ```csharp
 ref bool LockWhenWaning { get; }
@@ -108,7 +108,7 @@ ref bool LockWhenWaning { get; }
 
 ### Loop
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlend2DUpdateNode.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlend2DUpdateNode.cs#L40)
 
 ```csharp
 ref bool Loop { get; }
@@ -120,7 +120,7 @@ ref bool Loop { get; }
 
 ### NodeItemIndices
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlend2DUpdateNode.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlend2DUpdateNode.cs#L24)
 
 ```csharp
 ref CUtlVector<int> NodeItemIndices { get; }
@@ -132,7 +132,7 @@ ref CUtlVector<int> NodeItemIndices { get; }
 
 ### ParamSpans
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlend2DUpdateNode.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlend2DUpdateNode.cs#L22)
 
 ```csharp
 CParamSpanUpdater ParamSpans { get; }
@@ -144,7 +144,7 @@ CParamSpanUpdater ParamSpans { get; }
 
 ### ParamX
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlend2DUpdateNode.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlend2DUpdateNode.cs#L30)
 
 ```csharp
 CAnimParamHandle ParamX { get; }
@@ -156,7 +156,7 @@ CAnimParamHandle ParamX { get; }
 
 ### ParamY
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlend2DUpdateNode.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlend2DUpdateNode.cs#L34)
 
 ```csharp
 CAnimParamHandle ParamY { get; }
@@ -168,7 +168,7 @@ CAnimParamHandle ParamY { get; }
 
 ### PlaybackSpeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlend2DUpdateNode.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlend2DUpdateNode.cs#L38)
 
 ```csharp
 ref float PlaybackSpeed { get; }
@@ -180,7 +180,7 @@ ref float PlaybackSpeed { get; }
 
 ### Tags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlend2DUpdateNode.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlend2DUpdateNode.cs#L20)
 
 ```csharp
 ref CUtlVector<TagSpan_t> Tags { get; }

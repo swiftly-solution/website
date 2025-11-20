@@ -12,7 +12,7 @@ public interface CBaseIssue : ISchemaClass<CBaseIssue>, ISchemaField, ISchemaCla
 
 ### DetailsString
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseIssue.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseIssue.cs#L20)
 
 ```csharp
 string DetailsString { get; set; }
@@ -24,7 +24,7 @@ string DetailsString { get; set; }
 
 ### NumNoVotes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseIssue.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseIssue.cs#L24)
 
 ```csharp
 ref int NumNoVotes { get; }
@@ -36,7 +36,7 @@ ref int NumNoVotes { get; }
 
 ### NumPotentialVotes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseIssue.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseIssue.cs#L26)
 
 ```csharp
 ref int NumPotentialVotes { get; }
@@ -48,7 +48,7 @@ ref int NumPotentialVotes { get; }
 
 ### NumYesVotes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseIssue.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseIssue.cs#L22)
 
 ```csharp
 ref int NumYesVotes { get; }
@@ -60,7 +60,7 @@ ref int NumYesVotes { get; }
 
 ### TypeString
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseIssue.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseIssue.cs#L18)
 
 ```csharp
 string TypeString { get; set; }
@@ -72,7 +72,7 @@ string TypeString { get; set; }
 
 ### VoteController
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseIssue.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseIssue.cs#L28)
 
 ```csharp
 CVoteController? VoteController { get; }

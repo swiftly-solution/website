@@ -12,7 +12,7 @@ public interface FootFixedData_t : ISchemaClass<FootFixedData_t>, ISchemaField, 
 
 ### AnkleBoneIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedData_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedData_t.cs#L24)
 
 ```csharp
 ref int AnkleBoneIndex { get; }
@@ -24,7 +24,7 @@ ref int AnkleBoneIndex { get; }
 
 ### FootIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedData_t.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedData_t.cs#L32)
 
 ```csharp
 ref int FootIndex { get; }
@@ -36,7 +36,7 @@ ref int FootIndex { get; }
 
 ### HeelOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedData_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedData_t.cs#L20)
 
 ```csharp
 ref Vector HeelOffset { get; }
@@ -48,7 +48,7 @@ ref Vector HeelOffset { get; }
 
 ### IKAnchorBoneIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedData_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedData_t.cs#L26)
 
 ```csharp
 ref int IKAnchorBoneIndex { get; }
@@ -60,7 +60,7 @@ ref int IKAnchorBoneIndex { get; }
 
 ### IkChainIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedData_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedData_t.cs#L28)
 
 ```csharp
 ref int IkChainIndex { get; }
@@ -72,7 +72,7 @@ ref int IkChainIndex { get; }
 
 ### MaxIKLength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedData_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedData_t.cs#L30)
 
 ```csharp
 ref float MaxIKLength { get; }
@@ -84,7 +84,7 @@ ref float MaxIKLength { get; }
 
 ### MaxRotationLeft
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedData_t.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedData_t.cs#L36)
 
 ```csharp
 ref float MaxRotationLeft { get; }
@@ -96,7 +96,7 @@ ref float MaxRotationLeft { get; }
 
 ### MaxRotationRight
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedData_t.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedData_t.cs#L38)
 
 ```csharp
 ref float MaxRotationRight { get; }
@@ -108,7 +108,7 @@ ref float MaxRotationRight { get; }
 
 ### TagIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedData_t.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedData_t.cs#L34)
 
 ```csharp
 ref int TagIndex { get; }
@@ -120,7 +120,7 @@ ref int TagIndex { get; }
 
 ### TargetBoneIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedData_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedData_t.cs#L22)
 
 ```csharp
 ref int TargetBoneIndex { get; }
@@ -132,7 +132,7 @@ ref int TargetBoneIndex { get; }
 
 ### ToeOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedData_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedData_t.cs#L18)
 
 ```csharp
 ref Vector ToeOffset { get; }

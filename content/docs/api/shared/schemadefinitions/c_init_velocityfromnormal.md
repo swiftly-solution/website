@@ -12,7 +12,7 @@ public interface C_INIT_VelocityFromNormal : CParticleFunctionInitializer, CPart
 
 ### IgnoreDt
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_VelocityFromNormal.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_VelocityFromNormal.cs#L22)
 
 ```csharp
 ref bool IgnoreDt { get; }
@@ -24,7 +24,7 @@ ref bool IgnoreDt { get; }
 
 ### SpeedMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_VelocityFromNormal.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_VelocityFromNormal.cs#L20)
 
 ```csharp
 ref float SpeedMax { get; }
@@ -36,7 +36,7 @@ ref float SpeedMax { get; }
 
 ### SpeedMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_VelocityFromNormal.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_VelocityFromNormal.cs#L18)
 
 ```csharp
 ref float SpeedMin { get; }

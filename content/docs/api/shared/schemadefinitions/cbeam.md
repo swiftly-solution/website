@@ -12,7 +12,7 @@ public interface CBeam : CBaseModelEntity, CBaseEntity, CEntityInstance, ISchema
 
 ### Amplitude
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L48)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L49)
 
 ```csharp
 ref float Amplitude { get; }
@@ -24,7 +24,7 @@ ref float Amplitude { get; }
 
 ### AttachEntity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L36)
 
 ```csharp
 ISchemaFixedArray<CHandle<CBaseEntity>> AttachEntity { get; }
@@ -36,7 +36,7 @@ ISchemaFixedArray<CHandle<CBaseEntity>> AttachEntity { get; }
 
 ### AttachIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L38)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L39)
 
 ```csharp
 SchemaUntypedField AttachIndex { get; }
@@ -48,7 +48,7 @@ SchemaUntypedField AttachIndex { get; }
 
 ### BaseMaterial
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L28)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeIMaterial2> BaseMaterial { get; }
@@ -60,7 +60,7 @@ ref CStrongHandle<InfoForResourceTypeIMaterial2> BaseMaterial { get; }
 
 ### BeamFlags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L34)
 
 ```csharp
 ref uint BeamFlags { get; }
@@ -72,7 +72,7 @@ ref uint BeamFlags { get; }
 
 ### BeamType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L32)
 
 ```csharp
 ref BeamType_t BeamType { get; }
@@ -84,7 +84,7 @@ ref BeamType_t BeamType { get; }
 
 ### ClipStyle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L56)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L57)
 
 ```csharp
 ref BeamClipStyle_t ClipStyle { get; }
@@ -96,7 +96,7 @@ ref BeamClipStyle_t ClipStyle { get; }
 
 ### Damage
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L24)
 
 ```csharp
 ref float Damage { get; }
@@ -108,7 +108,7 @@ ref float Damage { get; }
 
 ### DissolveType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L64)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L65)
 
 ```csharp
 ref int DissolveType { get; }
@@ -120,7 +120,7 @@ ref int DissolveType { get; }
 
 ### EndEntity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L62)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L63)
 
 ```csharp
 ref CHandle<CBaseEntity> EndEntity { get; }
@@ -132,7 +132,7 @@ ref CHandle<CBaseEntity> EndEntity { get; }
 
 ### EndPos
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L60)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L61)
 
 ```csharp
 ref Vector EndPos { get; }
@@ -144,7 +144,7 @@ ref Vector EndPos { get; }
 
 ### EndWidth
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L42)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L43)
 
 ```csharp
 ref float EndWidth { get; }
@@ -156,7 +156,7 @@ ref float EndWidth { get; }
 
 ### FadeLength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L44)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L45)
 
 ```csharp
 ref float FadeLength { get; }
@@ -168,7 +168,7 @@ ref float FadeLength { get; }
 
 ### FireTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L22)
 
 ```csharp
 GameTime_t FireTime { get; }
@@ -180,7 +180,7 @@ GameTime_t FireTime { get; }
 
 ### Frame
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L54)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L55)
 
 ```csharp
 ref float Frame { get; }
@@ -192,7 +192,7 @@ ref float Frame { get; }
 
 ### FrameRate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L18)
 
 ```csharp
 ref float FrameRate { get; }
@@ -204,7 +204,7 @@ ref float FrameRate { get; }
 
 ### HDRColorScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L20)
 
 ```csharp
 ref float HDRColorScale { get; }
@@ -216,7 +216,7 @@ ref float HDRColorScale { get; }
 
 ### HaloIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L30)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeIMaterial2> HaloIndex { get; }
@@ -228,7 +228,7 @@ ref CStrongHandle<InfoForResourceTypeIMaterial2> HaloIndex { get; }
 
 ### HaloScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L46)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L47)
 
 ```csharp
 ref float HaloScale { get; }
@@ -240,7 +240,7 @@ ref float HaloScale { get; }
 
 ### NumBeamEnts
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L26)
 
 ```csharp
 ref byte NumBeamEnts { get; }
@@ -252,7 +252,7 @@ ref byte NumBeamEnts { get; }
 
 ### Speed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L52)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L53)
 
 ```csharp
 ref float Speed { get; }
@@ -264,7 +264,7 @@ ref float Speed { get; }
 
 ### StartFrame
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L50)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L51)
 
 ```csharp
 ref float StartFrame { get; }
@@ -276,7 +276,7 @@ ref float StartFrame { get; }
 
 ### TurnedOff
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L58)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L59)
 
 ```csharp
 ref bool TurnedOff { get; }
@@ -288,7 +288,7 @@ ref bool TurnedOff { get; }
 
 ### Width
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L40)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L41)
 
 ```csharp
 ref float Width { get; }
@@ -302,7 +302,7 @@ ref float Width { get; }
 
 ### AmplitudeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L79)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L80)
 
 ```csharp
 void AmplitudeUpdated()
@@ -310,7 +310,7 @@ void AmplitudeUpdated()
 
 ### AttachEntityUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L73)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L74)
 
 ```csharp
 void AttachEntityUpdated()
@@ -318,7 +318,7 @@ void AttachEntityUpdated()
 
 ### AttachIndexUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L74)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L75)
 
 ```csharp
 void AttachIndexUpdated()
@@ -326,7 +326,7 @@ void AttachIndexUpdated()
 
 ### BaseMaterialUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L69)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L70)
 
 ```csharp
 void BaseMaterialUpdated()
@@ -334,7 +334,7 @@ void BaseMaterialUpdated()
 
 ### BeamFlagsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L72)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L73)
 
 ```csharp
 void BeamFlagsUpdated()
@@ -342,7 +342,7 @@ void BeamFlagsUpdated()
 
 ### BeamTypeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L71)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L72)
 
 ```csharp
 void BeamTypeUpdated()
@@ -350,7 +350,7 @@ void BeamTypeUpdated()
 
 ### ClipStyleUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L83)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L84)
 
 ```csharp
 void ClipStyleUpdated()
@@ -358,7 +358,7 @@ void ClipStyleUpdated()
 
 ### EndPosUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L85)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L86)
 
 ```csharp
 void EndPosUpdated()
@@ -366,7 +366,7 @@ void EndPosUpdated()
 
 ### EndWidthUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L76)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L77)
 
 ```csharp
 void EndWidthUpdated()
@@ -374,7 +374,7 @@ void EndWidthUpdated()
 
 ### FadeLengthUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L77)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L78)
 
 ```csharp
 void FadeLengthUpdated()
@@ -382,7 +382,7 @@ void FadeLengthUpdated()
 
 ### FrameRateUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L66)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L67)
 
 ```csharp
 void FrameRateUpdated()
@@ -390,7 +390,7 @@ void FrameRateUpdated()
 
 ### FrameUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L82)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L83)
 
 ```csharp
 void FrameUpdated()
@@ -398,7 +398,7 @@ void FrameUpdated()
 
 ### HDRColorScaleUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L67)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L68)
 
 ```csharp
 void HDRColorScaleUpdated()
@@ -406,7 +406,7 @@ void HDRColorScaleUpdated()
 
 ### HaloIndexUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L70)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L71)
 
 ```csharp
 void HaloIndexUpdated()
@@ -414,7 +414,7 @@ void HaloIndexUpdated()
 
 ### HaloScaleUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L78)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L79)
 
 ```csharp
 void HaloScaleUpdated()
@@ -422,7 +422,7 @@ void HaloScaleUpdated()
 
 ### NumBeamEntsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L68)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L69)
 
 ```csharp
 void NumBeamEntsUpdated()
@@ -430,7 +430,7 @@ void NumBeamEntsUpdated()
 
 ### SpeedUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L81)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L82)
 
 ```csharp
 void SpeedUpdated()
@@ -438,7 +438,7 @@ void SpeedUpdated()
 
 ### StartFrameUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L80)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L81)
 
 ```csharp
 void StartFrameUpdated()
@@ -446,7 +446,7 @@ void StartFrameUpdated()
 
 ### TurnedOffUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L84)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L85)
 
 ```csharp
 void TurnedOffUpdated()
@@ -454,7 +454,7 @@ void TurnedOffUpdated()
 
 ### WidthUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L75)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBeam.cs#L76)
 
 ```csharp
 void WidthUpdated()

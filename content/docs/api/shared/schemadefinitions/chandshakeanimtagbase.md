@@ -12,7 +12,7 @@ public interface CHandshakeAnimTagBase : CAnimTagBase, ISchemaClass<CAnimTagBase
 
 ### IsDisableTag
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHandshakeAnimTagBase.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHandshakeAnimTagBase.cs#L18)
 
 ```csharp
 ref bool IsDisableTag { get; }

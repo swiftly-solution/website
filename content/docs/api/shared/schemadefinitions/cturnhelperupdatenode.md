@@ -12,7 +12,7 @@ public interface CTurnHelperUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase, 
 
 ### FacingTarget
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTurnHelperUpdateNode.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTurnHelperUpdateNode.cs#L18)
 
 ```csharp
 ref AnimValueSource FacingTarget { get; }
@@ -24,7 +24,7 @@ ref AnimValueSource FacingTarget { get; }
 
 ### ManualTurnOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTurnHelperUpdateNode.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTurnHelperUpdateNode.cs#L26)
 
 ```csharp
 ref float ManualTurnOffset { get; }
@@ -36,7 +36,7 @@ ref float ManualTurnOffset { get; }
 
 ### MatchChildDuration
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTurnHelperUpdateNode.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTurnHelperUpdateNode.cs#L24)
 
 ```csharp
 ref bool MatchChildDuration { get; }
@@ -48,7 +48,7 @@ ref bool MatchChildDuration { get; }
 
 ### TurnDuration
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTurnHelperUpdateNode.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTurnHelperUpdateNode.cs#L22)
 
 ```csharp
 ref float TurnDuration { get; }
@@ -60,7 +60,7 @@ ref float TurnDuration { get; }
 
 ### TurnStartTimeOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTurnHelperUpdateNode.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTurnHelperUpdateNode.cs#L20)
 
 ```csharp
 ref float TurnStartTimeOffset { get; }
@@ -72,7 +72,7 @@ ref float TurnStartTimeOffset { get; }
 
 ### UseManualTurnOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTurnHelperUpdateNode.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTurnHelperUpdateNode.cs#L28)
 
 ```csharp
 ref bool UseManualTurnOffset { get; }

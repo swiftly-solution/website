@@ -12,7 +12,7 @@ public interface CMarkupVolumeTagged_NavGame : CMarkupVolumeWithRef, CMarkupVolu
 
 ### FloodFillAttribute
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeTagged_NavGame.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeTagged_NavGame.cs#L20)
 
 ```csharp
 ref bool FloodFillAttribute { get; }
@@ -24,7 +24,7 @@ ref bool FloodFillAttribute { get; }
 
 ### Scopes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeTagged_NavGame.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeTagged_NavGame.cs#L18)
 
 ```csharp
 ref NavScopeFlags_t Scopes { get; }
@@ -36,7 +36,7 @@ ref NavScopeFlags_t Scopes { get; }
 
 ### SplitNavSpace
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeTagged_NavGame.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeTagged_NavGame.cs#L22)
 
 ```csharp
 ref bool SplitNavSpace { get; }

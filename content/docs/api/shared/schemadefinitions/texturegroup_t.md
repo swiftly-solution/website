@@ -12,7 +12,7 @@ public interface TextureGroup_t : ISchemaClass<TextureGroup_t>, ISchemaField, IS
 
 ### Enabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureGroup_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureGroup_t.cs#L18)
 
 ```csharp
 ref bool Enabled { get; }
@@ -24,7 +24,7 @@ ref bool Enabled { get; }
 
 ### Gradient
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureGroup_t.cs#L24)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureGroup_t.cs#L25)
 
 ```csharp
 SchemaUntypedField Gradient { get; }
@@ -36,7 +36,7 @@ SchemaUntypedField Gradient { get; }
 
 ### ReplaceTextureWithGradient
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureGroup_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureGroup_t.cs#L20)
 
 ```csharp
 ref bool ReplaceTextureWithGradient { get; }
@@ -48,7 +48,7 @@ ref bool ReplaceTextureWithGradient { get; }
 
 ### Texture
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureGroup_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureGroup_t.cs#L22)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCTextureBase> Texture { get; }
@@ -60,7 +60,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> Texture { get; }
 
 ### TextureBlend
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureGroup_t.cs#L32)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureGroup_t.cs#L33)
 
 ```csharp
 CParticleCollectionRendererFloatInput TextureBlend { get; }
@@ -72,7 +72,7 @@ CParticleCollectionRendererFloatInput TextureBlend { get; }
 
 ### TextureBlendMode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureGroup_t.cs#L30)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureGroup_t.cs#L31)
 
 ```csharp
 ref ParticleTextureLayerBlendType_t TextureBlendMode { get; }
@@ -84,7 +84,7 @@ ref ParticleTextureLayerBlendType_t TextureBlendMode { get; }
 
 ### TextureChannels
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureGroup_t.cs#L28)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureGroup_t.cs#L29)
 
 ```csharp
 ref SpriteCardTextureChannel_t TextureChannels { get; }
@@ -96,7 +96,7 @@ ref SpriteCardTextureChannel_t TextureChannels { get; }
 
 ### TextureControls
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureGroup_t.cs#L34)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureGroup_t.cs#L35)
 
 ```csharp
 TextureControls_t TextureControls { get; }
@@ -108,7 +108,7 @@ TextureControls_t TextureControls { get; }
 
 ### TextureType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureGroup_t.cs#L26)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureGroup_t.cs#L27)
 
 ```csharp
 ref SpriteCardTextureType_t TextureType { get; }

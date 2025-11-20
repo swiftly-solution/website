@@ -12,7 +12,7 @@ public interface CPhysSlideConstraint : CPhysConstraint, CLogicalEntity, CServer
 
 ### AxisEnd
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSlideConstraint.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSlideConstraint.cs#L18)
 
 ```csharp
 ref Vector AxisEnd { get; }
@@ -24,7 +24,7 @@ ref Vector AxisEnd { get; }
 
 ### EnableAngularConstraint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSlideConstraint.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSlideConstraint.cs#L28)
 
 ```csharp
 ref bool EnableAngularConstraint { get; }
@@ -36,7 +36,7 @@ ref bool EnableAngularConstraint { get; }
 
 ### EnableLinearConstraint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSlideConstraint.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSlideConstraint.cs#L26)
 
 ```csharp
 ref bool EnableLinearConstraint { get; }
@@ -48,7 +48,7 @@ ref bool EnableLinearConstraint { get; }
 
 ### InitialOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSlideConstraint.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSlideConstraint.cs#L24)
 
 ```csharp
 ref float InitialOffset { get; }
@@ -60,7 +60,7 @@ ref float InitialOffset { get; }
 
 ### MotorDampingRatio
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSlideConstraint.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSlideConstraint.cs#L32)
 
 ```csharp
 ref float MotorDampingRatio { get; }
@@ -72,7 +72,7 @@ ref float MotorDampingRatio { get; }
 
 ### MotorFrequency
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSlideConstraint.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSlideConstraint.cs#L30)
 
 ```csharp
 ref float MotorFrequency { get; }
@@ -84,7 +84,7 @@ ref float MotorFrequency { get; }
 
 ### SlideFriction
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSlideConstraint.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSlideConstraint.cs#L20)
 
 ```csharp
 ref float SlideFriction { get; }
@@ -96,7 +96,7 @@ ref float SlideFriction { get; }
 
 ### SoundInfo
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSlideConstraint.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSlideConstraint.cs#L36)
 
 ```csharp
 ConstraintSoundInfo SoundInfo { get; }
@@ -108,7 +108,7 @@ ConstraintSoundInfo SoundInfo { get; }
 
 ### SystemLoadScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSlideConstraint.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSlideConstraint.cs#L22)
 
 ```csharp
 ref float SystemLoadScale { get; }
@@ -120,7 +120,7 @@ ref float SystemLoadScale { get; }
 
 ### UseEntityPivot
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSlideConstraint.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSlideConstraint.cs#L34)
 
 ```csharp
 ref bool UseEntityPivot { get; }

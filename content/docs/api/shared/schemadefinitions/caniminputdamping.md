@@ -12,7 +12,7 @@ public interface CAnimInputDamping : ISchemaClass<CAnimInputDamping>, ISchemaFie
 
 ### FallingSpeedScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimInputDamping.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimInputDamping.cs#L22)
 
 ```csharp
 ref float FallingSpeedScale { get; }
@@ -24,7 +24,7 @@ ref float FallingSpeedScale { get; }
 
 ### SpeedFunction
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimInputDamping.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimInputDamping.cs#L18)
 
 ```csharp
 ref DampingSpeedFunction SpeedFunction { get; }
@@ -36,7 +36,7 @@ ref DampingSpeedFunction SpeedFunction { get; }
 
 ### SpeedScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimInputDamping.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimInputDamping.cs#L20)
 
 ```csharp
 ref float SpeedScale { get; }

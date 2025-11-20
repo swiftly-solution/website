@@ -12,7 +12,7 @@ public interface CPhysMagnet : CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CE
 
 ### Active
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMagnet.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMagnet.cs#L30)
 
 ```csharp
 ref bool Active { get; }
@@ -24,7 +24,7 @@ ref bool Active { get; }
 
 ### ForceLimit
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMagnet.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMagnet.cs#L24)
 
 ```csharp
 ref float ForceLimit { get; }
@@ -36,7 +36,7 @@ ref float ForceLimit { get; }
 
 ### HasHitSomething
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMagnet.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMagnet.cs#L32)
 
 ```csharp
 ref bool HasHitSomething { get; }
@@ -48,7 +48,7 @@ ref bool HasHitSomething { get; }
 
 ### MagnettedEntities
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMagnet.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMagnet.cs#L28)
 
 ```csharp
 ref CUtlVector<magnetted_objects_t> MagnettedEntities { get; }
@@ -60,7 +60,7 @@ ref CUtlVector<magnetted_objects_t> MagnettedEntities { get; }
 
 ### MassScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMagnet.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMagnet.cs#L22)
 
 ```csharp
 ref float MassScale { get; }
@@ -72,7 +72,7 @@ ref float MassScale { get; }
 
 ### MaxObjectsAttached
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMagnet.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMagnet.cs#L40)
 
 ```csharp
 ref int MaxObjectsAttached { get; }
@@ -84,7 +84,7 @@ ref int MaxObjectsAttached { get; }
 
 ### NextSuckTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMagnet.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMagnet.cs#L38)
 
 ```csharp
 GameTime_t NextSuckTime { get; }
@@ -96,7 +96,7 @@ GameTime_t NextSuckTime { get; }
 
 ### OnMagnetAttach
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMagnet.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMagnet.cs#L18)
 
 ```csharp
 CEntityIOOutput OnMagnetAttach { get; }
@@ -108,7 +108,7 @@ CEntityIOOutput OnMagnetAttach { get; }
 
 ### OnMagnetDetach
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMagnet.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMagnet.cs#L20)
 
 ```csharp
 CEntityIOOutput OnMagnetDetach { get; }
@@ -120,7 +120,7 @@ CEntityIOOutput OnMagnetDetach { get; }
 
 ### Radius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMagnet.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMagnet.cs#L36)
 
 ```csharp
 ref float Radius { get; }
@@ -132,7 +132,7 @@ ref float Radius { get; }
 
 ### TorqueLimit
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMagnet.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMagnet.cs#L26)
 
 ```csharp
 ref float TorqueLimit { get; }
@@ -144,7 +144,7 @@ ref float TorqueLimit { get; }
 
 ### TotalMass
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMagnet.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMagnet.cs#L34)
 
 ```csharp
 ref float TotalMass { get; }

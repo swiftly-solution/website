@@ -12,7 +12,7 @@ public interface FeWeightedNode_t : ISchemaClass<FeWeightedNode_t>, ISchemaField
 
 ### Node
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeWeightedNode_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeWeightedNode_t.cs#L18)
 
 ```csharp
 ref ushort Node { get; }
@@ -24,7 +24,7 @@ ref ushort Node { get; }
 
 ### Weight
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeWeightedNode_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeWeightedNode_t.cs#L20)
 
 ```csharp
 ref ushort Weight { get; }

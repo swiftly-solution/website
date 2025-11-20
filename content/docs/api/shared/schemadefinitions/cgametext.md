@@ -12,7 +12,7 @@ public interface CGameText : CRulePointEntity, CRuleEntity, CBaseModelEntity, CB
 
 ### Message
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameText.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameText.cs#L18)
 
 ```csharp
 string Message { get; set; }
@@ -24,7 +24,7 @@ string Message { get; set; }
 
 ### TextParms
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameText.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameText.cs#L20)
 
 ```csharp
 hudtextparms_t TextParms { get; }

@@ -12,7 +12,7 @@ public interface WorldNode_t : ISchemaClass<WorldNode_t>, ISchemaField, ISchemaC
 
 ### AggregateInstanceStreams
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L32)
 
 ```csharp
 ref CUtlVector<AggregateInstanceStreamOnDiskData_t> AggregateInstanceStreams { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<AggregateInstanceStreamOnDiskData_t> AggregateInstanceStreams { g
 
 ### AggregateSceneObjects
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L22)
 
 ```csharp
 ref CUtlVector<AggregateSceneObject_t> AggregateSceneObjects { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<AggregateSceneObject_t> AggregateSceneObjects { get; }
 
 ### ClutterSceneObjects
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L24)
 
 ```csharp
 ref CUtlVector<ClutterSceneObject_t> ClutterSceneObjects { get; }
@@ -48,7 +48,7 @@ ref CUtlVector<ClutterSceneObject_t> ClutterSceneObjects { get; }
 
 ### ExtraVertexStreamOverrides
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L26)
 
 ```csharp
 ref CUtlVector<ExtraVertexStreamOverride_t> ExtraVertexStreamOverrides { get; }
@@ -60,7 +60,7 @@ ref CUtlVector<ExtraVertexStreamOverride_t> ExtraVertexStreamOverrides { get; }
 
 ### ExtraVertexStreams
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L30)
 
 ```csharp
 ref CUtlVector<WorldNodeOnDiskBufferData_t> ExtraVertexStreams { get; }
@@ -72,7 +72,7 @@ ref CUtlVector<WorldNodeOnDiskBufferData_t> ExtraVertexStreams { get; }
 
 ### GrassFileName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L40)
 
 ```csharp
 string GrassFileName { get; set; }
@@ -84,7 +84,7 @@ string GrassFileName { get; set; }
 
 ### HasBakedGeometryFlag
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L44)
 
 ```csharp
 ref bool HasBakedGeometryFlag { get; }
@@ -96,7 +96,7 @@ ref bool HasBakedGeometryFlag { get; }
 
 ### LayerNames
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L36)
 
 ```csharp
 ref CUtlVector<CUtlString> LayerNames { get; }
@@ -108,7 +108,7 @@ ref CUtlVector<CUtlString> LayerNames { get; }
 
 ### MaterialOverrides
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L28)
 
 ```csharp
 ref CUtlVector<MaterialOverride_t> MaterialOverrides { get; }
@@ -120,7 +120,7 @@ ref CUtlVector<MaterialOverride_t> MaterialOverrides { get; }
 
 ### NodeLightingInfo
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L42)
 
 ```csharp
 BakedLightingInfo_t NodeLightingInfo { get; }
@@ -132,7 +132,7 @@ BakedLightingInfo_t NodeLightingInfo { get; }
 
 ### SceneObjectLayerIndices
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L38)
 
 ```csharp
 ref CUtlVector<byte> SceneObjectLayerIndices { get; }
@@ -144,7 +144,7 @@ ref CUtlVector<byte> SceneObjectLayerIndices { get; }
 
 ### SceneObjects
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L18)
 
 ```csharp
 ref CUtlVector<SceneObject_t> SceneObjects { get; }
@@ -156,7 +156,7 @@ ref CUtlVector<SceneObject_t> SceneObjects { get; }
 
 ### VertexAlbedoStreams
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L34)
 
 ```csharp
 ref CUtlVector<AggregateVertexAlbedoStreamOnDiskData_t> VertexAlbedoStreams { get; }
@@ -168,7 +168,7 @@ ref CUtlVector<AggregateVertexAlbedoStreamOnDiskData_t> VertexAlbedoStreams { ge
 
 ### VisClusterMembership
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L20)
 
 ```csharp
 ref CUtlVector<ushort> VisClusterMembership { get; }

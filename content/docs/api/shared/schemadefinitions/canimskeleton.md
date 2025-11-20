@@ -12,7 +12,7 @@ public interface CAnimSkeleton : ISchemaClass<CAnimSkeleton>, ISchemaField, ISch
 
 ### BoneNames
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimSkeleton.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimSkeleton.cs#L22)
 
 ```csharp
 ref CUtlVector<CUtlString> BoneNames { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<CUtlString> BoneNames { get; }
 
 ### Children
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimSkeleton.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimSkeleton.cs#L24)
 
 ```csharp
 ref CUtlVector<CUtlVector<int>> Children { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<CUtlVector<int>> Children { get; }
 
 ### Feet
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimSkeleton.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimSkeleton.cs#L28)
 
 ```csharp
 ref CUtlVector<CAnimFoot> Feet { get; }
@@ -48,7 +48,7 @@ ref CUtlVector<CAnimFoot> Feet { get; }
 
 ### LocalSpaceTransforms
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimSkeleton.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimSkeleton.cs#L18)
 
 ```csharp
 ref CUtlVector<CTransform> LocalSpaceTransforms { get; }
@@ -60,7 +60,7 @@ ref CUtlVector<CTransform> LocalSpaceTransforms { get; }
 
 ### LodBoneCounts
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimSkeleton.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimSkeleton.cs#L32)
 
 ```csharp
 ref CUtlVector<int> LodBoneCounts { get; }
@@ -72,7 +72,7 @@ ref CUtlVector<int> LodBoneCounts { get; }
 
 ### ModelSpaceTransforms
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimSkeleton.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimSkeleton.cs#L20)
 
 ```csharp
 ref CUtlVector<CTransform> ModelSpaceTransforms { get; }
@@ -84,7 +84,7 @@ ref CUtlVector<CTransform> ModelSpaceTransforms { get; }
 
 ### MorphNames
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimSkeleton.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimSkeleton.cs#L30)
 
 ```csharp
 ref CUtlVector<CUtlString> MorphNames { get; }
@@ -96,7 +96,7 @@ ref CUtlVector<CUtlString> MorphNames { get; }
 
 ### Parents
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimSkeleton.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimSkeleton.cs#L26)
 
 ```csharp
 ref CUtlVector<int> Parents { get; }

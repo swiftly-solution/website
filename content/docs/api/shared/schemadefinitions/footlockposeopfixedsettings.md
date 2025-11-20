@@ -12,7 +12,7 @@ public interface FootLockPoseOpFixedSettings : ISchemaClass<FootLockPoseOpFixedS
 
 ### AlwaysUseFallbackHinge
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootLockPoseOpFixedSettings.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootLockPoseOpFixedSettings.cs#L30)
 
 ```csharp
 ref bool AlwaysUseFallbackHinge { get; }
@@ -24,7 +24,7 @@ ref bool AlwaysUseFallbackHinge { get; }
 
 ### ApplyFootRotationLimits
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootLockPoseOpFixedSettings.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootLockPoseOpFixedSettings.cs#L32)
 
 ```csharp
 ref bool ApplyFootRotationLimits { get; }
@@ -36,7 +36,7 @@ ref bool ApplyFootRotationLimits { get; }
 
 ### ApplyHipDrop
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootLockPoseOpFixedSettings.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootLockPoseOpFixedSettings.cs#L28)
 
 ```csharp
 ref bool ApplyHipDrop { get; }
@@ -48,7 +48,7 @@ ref bool ApplyHipDrop { get; }
 
 ### ApplyLegTwistLimits
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootLockPoseOpFixedSettings.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootLockPoseOpFixedSettings.cs#L34)
 
 ```csharp
 ref bool ApplyLegTwistLimits { get; }
@@ -60,7 +60,7 @@ ref bool ApplyLegTwistLimits { get; }
 
 ### ApplyTilt
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootLockPoseOpFixedSettings.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootLockPoseOpFixedSettings.cs#L26)
 
 ```csharp
 ref bool ApplyTilt { get; }
@@ -72,7 +72,7 @@ ref bool ApplyTilt { get; }
 
 ### EnableLockBreaking
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootLockPoseOpFixedSettings.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootLockPoseOpFixedSettings.cs#L42)
 
 ```csharp
 ref bool EnableLockBreaking { get; }
@@ -84,7 +84,7 @@ ref bool EnableLockBreaking { get; }
 
 ### EnableStretching
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootLockPoseOpFixedSettings.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootLockPoseOpFixedSettings.cs#L48)
 
 ```csharp
 ref bool EnableStretching { get; }
@@ -96,7 +96,7 @@ ref bool EnableStretching { get; }
 
 ### ExtensionScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootLockPoseOpFixedSettings.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootLockPoseOpFixedSettings.cs#L38)
 
 ```csharp
 ref float ExtensionScale { get; }
@@ -108,7 +108,7 @@ ref float ExtensionScale { get; }
 
 ### FootInfo
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootLockPoseOpFixedSettings.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootLockPoseOpFixedSettings.cs#L18)
 
 ```csharp
 ref CUtlVector<FootFixedData_t> FootInfo { get; }
@@ -120,7 +120,7 @@ ref CUtlVector<FootFixedData_t> FootInfo { get; }
 
 ### HipBoneIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootLockPoseOpFixedSettings.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootLockPoseOpFixedSettings.cs#L22)
 
 ```csharp
 ref int HipBoneIndex { get; }
@@ -132,7 +132,7 @@ ref int HipBoneIndex { get; }
 
 ### HipDampingSettings
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootLockPoseOpFixedSettings.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootLockPoseOpFixedSettings.cs#L20)
 
 ```csharp
 CAnimInputDamping HipDampingSettings { get; }
@@ -144,7 +144,7 @@ CAnimInputDamping HipDampingSettings { get; }
 
 ### IkSolverType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootLockPoseOpFixedSettings.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootLockPoseOpFixedSettings.cs#L24)
 
 ```csharp
 ref IKSolverType IkSolverType { get; }
@@ -156,7 +156,7 @@ ref IKSolverType IkSolverType { get; }
 
 ### LockBlendTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootLockPoseOpFixedSettings.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootLockPoseOpFixedSettings.cs#L46)
 
 ```csharp
 ref float LockBlendTime { get; }
@@ -168,7 +168,7 @@ ref float LockBlendTime { get; }
 
 ### LockBreakTolerance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootLockPoseOpFixedSettings.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootLockPoseOpFixedSettings.cs#L44)
 
 ```csharp
 ref float LockBreakTolerance { get; }
@@ -180,7 +180,7 @@ ref float LockBreakTolerance { get; }
 
 ### MaxFootHeight
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootLockPoseOpFixedSettings.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootLockPoseOpFixedSettings.cs#L36)
 
 ```csharp
 ref float MaxFootHeight { get; }
@@ -192,7 +192,7 @@ ref float MaxFootHeight { get; }
 
 ### MaxLegTwist
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootLockPoseOpFixedSettings.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootLockPoseOpFixedSettings.cs#L40)
 
 ```csharp
 ref float MaxLegTwist { get; }
@@ -204,7 +204,7 @@ ref float MaxLegTwist { get; }
 
 ### MaxStretchAmount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootLockPoseOpFixedSettings.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootLockPoseOpFixedSettings.cs#L50)
 
 ```csharp
 ref float MaxStretchAmount { get; }
@@ -216,7 +216,7 @@ ref float MaxStretchAmount { get; }
 
 ### StretchExtensionScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootLockPoseOpFixedSettings.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootLockPoseOpFixedSettings.cs#L52)
 
 ```csharp
 ref float StretchExtensionScale { get; }

@@ -12,7 +12,7 @@ public interface PredictedDamageTag_t : ISchemaClass<PredictedDamageTag_t>, ISch
 
 ### FlinchModLarge
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PredictedDamageTag_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PredictedDamageTag_t.cs#L22)
 
 ```csharp
 ref float FlinchModLarge { get; }
@@ -24,7 +24,7 @@ ref float FlinchModLarge { get; }
 
 ### FlinchModSmall
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PredictedDamageTag_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PredictedDamageTag_t.cs#L20)
 
 ```csharp
 ref float FlinchModSmall { get; }
@@ -36,7 +36,7 @@ ref float FlinchModSmall { get; }
 
 ### FriendlyFireDamageReductionRatio
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PredictedDamageTag_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PredictedDamageTag_t.cs#L24)
 
 ```csharp
 ref float FriendlyFireDamageReductionRatio { get; }
@@ -48,7 +48,7 @@ ref float FriendlyFireDamageReductionRatio { get; }
 
 ### TagTick
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PredictedDamageTag_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PredictedDamageTag_t.cs#L18)
 
 ```csharp
 GameTick_t TagTick { get; }
@@ -62,7 +62,7 @@ GameTick_t TagTick { get; }
 
 ### FlinchModLargeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PredictedDamageTag_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PredictedDamageTag_t.cs#L28)
 
 ```csharp
 void FlinchModLargeUpdated()
@@ -70,7 +70,7 @@ void FlinchModLargeUpdated()
 
 ### FlinchModSmallUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PredictedDamageTag_t.cs#L26)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PredictedDamageTag_t.cs#L27)
 
 ```csharp
 void FlinchModSmallUpdated()
@@ -78,7 +78,7 @@ void FlinchModSmallUpdated()
 
 ### FriendlyFireDamageReductionRatioUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PredictedDamageTag_t.cs#L28)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PredictedDamageTag_t.cs#L29)
 
 ```csharp
 void FriendlyFireDamageReductionRatioUpdated()
@@ -86,7 +86,7 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ### TagTickUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PredictedDamageTag_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PredictedDamageTag_t.cs#L26)
 
 ```csharp
 void TagTickUpdated()

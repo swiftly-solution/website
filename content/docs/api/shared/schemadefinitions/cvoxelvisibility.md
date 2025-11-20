@@ -12,7 +12,7 @@ public interface CVoxelVisibility : ISchemaClass<CVoxelVisibility>, ISchemaField
 
 ### BaseClusterCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoxelVisibility.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoxelVisibility.cs#L18)
 
 ```csharp
 ref uint BaseClusterCount { get; }
@@ -24,7 +24,7 @@ ref uint BaseClusterCount { get; }
 
 ### EnclosedClusterListBlock
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoxelVisibility.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoxelVisibility.cs#L36)
 
 ```csharp
 VoxelVisBlockOffset_t EnclosedClusterListBlock { get; }
@@ -36,7 +36,7 @@ VoxelVisBlockOffset_t EnclosedClusterListBlock { get; }
 
 ### EnclosedClustersBlock
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoxelVisibility.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoxelVisibility.cs#L38)
 
 ```csharp
 VoxelVisBlockOffset_t EnclosedClustersBlock { get; }
@@ -48,7 +48,7 @@ VoxelVisBlockOffset_t EnclosedClustersBlock { get; }
 
 ### GridSize
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoxelVisibility.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoxelVisibility.cs#L26)
 
 ```csharp
 ref float GridSize { get; }
@@ -60,7 +60,7 @@ ref float GridSize { get; }
 
 ### MasksBlock
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoxelVisibility.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoxelVisibility.cs#L40)
 
 ```csharp
 VoxelVisBlockOffset_t MasksBlock { get; }
@@ -72,7 +72,7 @@ VoxelVisBlockOffset_t MasksBlock { get; }
 
 ### MaxBounds
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoxelVisibility.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoxelVisibility.cs#L24)
 
 ```csharp
 ref Vector MaxBounds { get; }
@@ -84,7 +84,7 @@ ref Vector MaxBounds { get; }
 
 ### MinBounds
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoxelVisibility.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoxelVisibility.cs#L22)
 
 ```csharp
 ref Vector MinBounds { get; }
@@ -96,7 +96,7 @@ ref Vector MinBounds { get; }
 
 ### NodeBlock
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoxelVisibility.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoxelVisibility.cs#L32)
 
 ```csharp
 VoxelVisBlockOffset_t NodeBlock { get; }
@@ -108,7 +108,7 @@ VoxelVisBlockOffset_t NodeBlock { get; }
 
 ### PVSBytesPerCluster
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoxelVisibility.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoxelVisibility.cs#L20)
 
 ```csharp
 ref uint PVSBytesPerCluster { get; }
@@ -120,7 +120,7 @@ ref uint PVSBytesPerCluster { get; }
 
 ### RegionBlock
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoxelVisibility.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoxelVisibility.cs#L34)
 
 ```csharp
 VoxelVisBlockOffset_t RegionBlock { get; }
@@ -132,7 +132,7 @@ VoxelVisBlockOffset_t RegionBlock { get; }
 
 ### SkyVisibilityCluster
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoxelVisibility.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoxelVisibility.cs#L28)
 
 ```csharp
 ref uint SkyVisibilityCluster { get; }
@@ -144,7 +144,7 @@ ref uint SkyVisibilityCluster { get; }
 
 ### SunVisibilityCluster
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoxelVisibility.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoxelVisibility.cs#L30)
 
 ```csharp
 ref uint SunVisibilityCluster { get; }
@@ -156,7 +156,7 @@ ref uint SunVisibilityCluster { get; }
 
 ### VisBlocks
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoxelVisibility.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoxelVisibility.cs#L42)
 
 ```csharp
 VoxelVisBlockOffset_t VisBlocks { get; }

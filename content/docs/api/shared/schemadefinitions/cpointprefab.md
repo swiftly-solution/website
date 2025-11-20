@@ -12,7 +12,7 @@ public interface CPointPrefab : CServerOnlyPointEntity, CServerOnlyEntity, CBase
 
 ### AssociatedRelayEntity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointPrefab.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointPrefab.cs#L28)
 
 ```csharp
 ref CHandle<CPointPrefab> AssociatedRelayEntity { get; }
@@ -24,7 +24,7 @@ ref CHandle<CPointPrefab> AssociatedRelayEntity { get; }
 
 ### AssociatedRelayTargetName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointPrefab.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointPrefab.cs#L22)
 
 ```csharp
 string AssociatedRelayTargetName { get; set; }
@@ -36,7 +36,7 @@ string AssociatedRelayTargetName { get; set; }
 
 ### FixupNames
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointPrefab.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointPrefab.cs#L24)
 
 ```csharp
 ref bool FixupNames { get; }
@@ -48,7 +48,7 @@ ref bool FixupNames { get; }
 
 ### ForceWorldGroupID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointPrefab.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointPrefab.cs#L20)
 
 ```csharp
 string ForceWorldGroupID { get; set; }
@@ -60,7 +60,7 @@ string ForceWorldGroupID { get; set; }
 
 ### LoadDynamic
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointPrefab.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointPrefab.cs#L26)
 
 ```csharp
 ref bool LoadDynamic { get; }
@@ -72,7 +72,7 @@ ref bool LoadDynamic { get; }
 
 ### TargetMapName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointPrefab.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointPrefab.cs#L18)
 
 ```csharp
 string TargetMapName { get; set; }

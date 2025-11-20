@@ -12,7 +12,7 @@ public interface JiggleBoneSettingsList_t : ISchemaClass<JiggleBoneSettingsList_
 
 ### BoneSettings
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/JiggleBoneSettingsList_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/JiggleBoneSettingsList_t.cs#L18)
 
 ```csharp
 ref CUtlVector<JiggleBoneSettings_t> BoneSettings { get; }

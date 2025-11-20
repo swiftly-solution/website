@@ -12,7 +12,7 @@ public interface C_OP_TeleportBeam : CParticleFunctionOperator, CParticleFunctio
 
 ### Alpha
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TeleportBeam.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TeleportBeam.cs#L38)
 
 ```csharp
 ref float Alpha { get; }
@@ -24,7 +24,7 @@ ref float Alpha { get; }
 
 ### ArcMaxDuration
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TeleportBeam.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TeleportBeam.cs#L32)
 
 ```csharp
 ref float ArcMaxDuration { get; }
@@ -36,7 +36,7 @@ ref float ArcMaxDuration { get; }
 
 ### ArcSpeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TeleportBeam.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TeleportBeam.cs#L36)
 
 ```csharp
 ref float ArcSpeed { get; }
@@ -48,7 +48,7 @@ ref float ArcSpeed { get; }
 
 ### CPColor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TeleportBeam.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TeleportBeam.cs#L24)
 
 ```csharp
 ref int CPColor { get; }
@@ -60,7 +60,7 @@ ref int CPColor { get; }
 
 ### CPExtraArcData
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TeleportBeam.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TeleportBeam.cs#L28)
 
 ```csharp
 ref int CPExtraArcData { get; }
@@ -72,7 +72,7 @@ ref int CPExtraArcData { get; }
 
 ### CPInvalidColor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TeleportBeam.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TeleportBeam.cs#L26)
 
 ```csharp
 ref int CPInvalidColor { get; }
@@ -84,7 +84,7 @@ ref int CPInvalidColor { get; }
 
 ### CPMisc
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TeleportBeam.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TeleportBeam.cs#L22)
 
 ```csharp
 ref int CPMisc { get; }
@@ -96,7 +96,7 @@ ref int CPMisc { get; }
 
 ### CPPosition
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TeleportBeam.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TeleportBeam.cs#L18)
 
 ```csharp
 ref int CPPosition { get; }
@@ -108,7 +108,7 @@ ref int CPPosition { get; }
 
 ### CPVelocity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TeleportBeam.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TeleportBeam.cs#L20)
 
 ```csharp
 ref int CPVelocity { get; }
@@ -120,7 +120,7 @@ ref int CPVelocity { get; }
 
 ### Gravity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TeleportBeam.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TeleportBeam.cs#L30)
 
 ```csharp
 ref Vector Gravity { get; }
@@ -132,7 +132,7 @@ ref Vector Gravity { get; }
 
 ### SegmentBreak
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TeleportBeam.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TeleportBeam.cs#L34)
 
 ```csharp
 ref float SegmentBreak { get; }

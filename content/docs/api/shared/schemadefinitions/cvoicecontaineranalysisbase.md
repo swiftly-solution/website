@@ -12,7 +12,7 @@ public interface CVoiceContainerAnalysisBase : ISchemaClass<CVoiceContainerAnaly
 
 ### Curve
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerAnalysisBase.cs#L20)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerAnalysisBase.cs#L21)
 
 ```csharp
 SchemaUntypedField Curve { get; }
@@ -24,7 +24,7 @@ SchemaUntypedField Curve { get; }
 
 ### RegenerateCurveOnCompile
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerAnalysisBase.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerAnalysisBase.cs#L18)
 
 ```csharp
 ref bool RegenerateCurveOnCompile { get; }

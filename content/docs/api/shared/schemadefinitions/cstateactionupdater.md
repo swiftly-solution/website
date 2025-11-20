@@ -12,7 +12,7 @@ public interface CStateActionUpdater : ISchemaClass<CStateActionUpdater>, ISchem
 
 ### Action
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateActionUpdater.cs#L18)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateActionUpdater.cs#L19)
 
 ```csharp
 SchemaUntypedField Action { get; }
@@ -24,7 +24,7 @@ SchemaUntypedField Action { get; }
 
 ### Behavior
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateActionUpdater.cs#L20)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateActionUpdater.cs#L21)
 
 ```csharp
 ref StateActionBehavior Behavior { get; }

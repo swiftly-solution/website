@@ -12,7 +12,7 @@ public interface EventProfileStorageAvailable_t : ISchemaClass<EventProfileStora
 
 ### SplitScreenSlot
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventProfileStorageAvailable_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventProfileStorageAvailable_t.cs#L18)
 
 ```csharp
 ref uint SplitScreenSlot { get; }

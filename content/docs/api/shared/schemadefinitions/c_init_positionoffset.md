@@ -12,7 +12,7 @@ public interface C_INIT_PositionOffset : CParticleFunctionInitializer, CParticle
 
 ### LocalCoords
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionOffset.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionOffset.cs#L24)
 
 ```csharp
 ref bool LocalCoords { get; }
@@ -24,7 +24,7 @@ ref bool LocalCoords { get; }
 
 ### OffsetMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionOffset.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionOffset.cs#L20)
 
 ```csharp
 CPerParticleVecInput OffsetMax { get; }
@@ -36,7 +36,7 @@ CPerParticleVecInput OffsetMax { get; }
 
 ### OffsetMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionOffset.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionOffset.cs#L18)
 
 ```csharp
 CPerParticleVecInput OffsetMin { get; }
@@ -48,7 +48,7 @@ CPerParticleVecInput OffsetMin { get; }
 
 ### Proportional
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionOffset.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionOffset.cs#L26)
 
 ```csharp
 ref bool Proportional { get; }
@@ -60,7 +60,7 @@ ref bool Proportional { get; }
 
 ### RandomnessParameters
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionOffset.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionOffset.cs#L28)
 
 ```csharp
 CRandomNumberGeneratorParameters RandomnessParameters { get; }
@@ -72,7 +72,7 @@ CRandomNumberGeneratorParameters RandomnessParameters { get; }
 
 ### TransformInput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionOffset.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionOffset.cs#L22)
 
 ```csharp
 CParticleTransformInput TransformInput { get; }

@@ -12,7 +12,7 @@ public interface C_INIT_RemapInitialTransformDirectionToRotation : CParticleFunc
 
 ### Component
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapInitialTransformDirectionToRotation.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapInitialTransformDirectionToRotation.cs#L24)
 
 ```csharp
 ref int Component { get; }
@@ -24,7 +24,7 @@ ref int Component { get; }
 
 ### FieldOutput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapInitialTransformDirectionToRotation.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapInitialTransformDirectionToRotation.cs#L20)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -36,7 +36,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 ### OffsetRot
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapInitialTransformDirectionToRotation.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapInitialTransformDirectionToRotation.cs#L22)
 
 ```csharp
 ref float OffsetRot { get; }
@@ -48,7 +48,7 @@ ref float OffsetRot { get; }
 
 ### TransformInput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapInitialTransformDirectionToRotation.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapInitialTransformDirectionToRotation.cs#L18)
 
 ```csharp
 CParticleTransformInput TransformInput { get; }

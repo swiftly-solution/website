@@ -12,7 +12,7 @@ public interface CFogVolume : CServerOnlyModelEntity, CBaseModelEntity, CBaseEnt
 
 ### ColorCorrectionName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFogVolume.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFogVolume.cs#L22)
 
 ```csharp
 string ColorCorrectionName { get; set; }
@@ -24,7 +24,7 @@ string ColorCorrectionName { get; set; }
 
 ### Disabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFogVolume.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFogVolume.cs#L24)
 
 ```csharp
 ref bool Disabled { get; }
@@ -36,7 +36,7 @@ ref bool Disabled { get; }
 
 ### FogName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFogVolume.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFogVolume.cs#L18)
 
 ```csharp
 string FogName { get; set; }
@@ -48,7 +48,7 @@ string FogName { get; set; }
 
 ### InFogVolumesList
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFogVolume.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFogVolume.cs#L26)
 
 ```csharp
 ref bool InFogVolumesList { get; }
@@ -60,7 +60,7 @@ ref bool InFogVolumesList { get; }
 
 ### PostProcessName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFogVolume.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFogVolume.cs#L20)
 
 ```csharp
 string PostProcessName { get; set; }

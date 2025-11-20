@@ -12,7 +12,7 @@ public interface CPulseCell_Unknown : CPulseCell_Base, ISchemaClass<CPulseCell_B
 
 ### UnknownKeys
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Unknown.cs#L18)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Unknown.cs#L19)
 
 ```csharp
 SchemaUntypedField UnknownKeys { get; }

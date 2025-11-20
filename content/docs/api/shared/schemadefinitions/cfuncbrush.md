@@ -12,7 +12,7 @@ public interface CFuncBrush : CBaseModelEntity, CBaseEntity, CEntityInstance, IS
 
 ### Disabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncBrush.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncBrush.cs#L20)
 
 ```csharp
 ref int Disabled { get; }
@@ -24,7 +24,7 @@ ref int Disabled { get; }
 
 ### ExcludedClass
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncBrush.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncBrush.cs#L24)
 
 ```csharp
 string ExcludedClass { get; set; }
@@ -36,7 +36,7 @@ string ExcludedClass { get; set; }
 
 ### InvertExclusion
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncBrush.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncBrush.cs#L26)
 
 ```csharp
 ref bool InvertExclusion { get; }
@@ -48,7 +48,7 @@ ref bool InvertExclusion { get; }
 
 ### ScriptedMovement
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncBrush.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncBrush.cs#L28)
 
 ```csharp
 ref bool ScriptedMovement { get; }
@@ -60,7 +60,7 @@ ref bool ScriptedMovement { get; }
 
 ### SolidBsp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncBrush.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncBrush.cs#L22)
 
 ```csharp
 ref bool SolidBsp { get; }
@@ -72,7 +72,7 @@ ref bool SolidBsp { get; }
 
 ### Solidity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncBrush.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncBrush.cs#L18)
 
 ```csharp
 ref BrushSolidities_e Solidity { get; }

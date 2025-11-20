@@ -12,7 +12,7 @@ public interface CLogicNPCCounter : CBaseEntity, CEntityInstance, ISchemaClass<C
 
 ### DefaultDist_1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L87)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L88)
 
 ```csharp
 ref float DefaultDist_1 { get; }
@@ -24,7 +24,7 @@ ref float DefaultDist_1 { get; }
 
 ### DefaultDist_2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L103)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L104)
 
 ```csharp
 ref float DefaultDist_2 { get; }
@@ -36,7 +36,7 @@ ref float DefaultDist_2 { get; }
 
 ### DefaultDist_3
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L119)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L120)
 
 ```csharp
 ref float DefaultDist_3 { get; }
@@ -48,7 +48,7 @@ ref float DefaultDist_3 { get; }
 
 ### Disabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L64)
 
 ```csharp
 ref bool Disabled { get; }
@@ -60,7 +60,7 @@ ref bool Disabled { get; }
 
 ### DistanceMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L62)
 
 ```csharp
 ref float DistanceMax { get; }
@@ -72,7 +72,7 @@ ref float DistanceMax { get; }
 
 ### InvertState_1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L77)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L78)
 
 ```csharp
 ref bool InvertState_1 { get; }
@@ -84,7 +84,7 @@ ref bool InvertState_1 { get; }
 
 ### InvertState_2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L93)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L94)
 
 ```csharp
 ref bool InvertState_2 { get; }
@@ -96,7 +96,7 @@ ref bool InvertState_2 { get; }
 
 ### InvertState_3
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L109)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L110)
 
 ```csharp
 ref bool InvertState_3 { get; }
@@ -108,7 +108,7 @@ ref bool InvertState_3 { get; }
 
 ### MaxCountAll
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L67)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L68)
 
 ```csharp
 ref int MaxCountAll { get; }
@@ -120,7 +120,7 @@ ref int MaxCountAll { get; }
 
 ### MaxCount_1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L81)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L82)
 
 ```csharp
 ref int MaxCount_1 { get; }
@@ -132,7 +132,7 @@ ref int MaxCount_1 { get; }
 
 ### MaxCount_2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L97)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L98)
 
 ```csharp
 ref int MaxCount_2 { get; }
@@ -144,7 +144,7 @@ ref int MaxCount_2 { get; }
 
 ### MaxCount_3
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L113)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L114)
 
 ```csharp
 ref int MaxCount_3 { get; }
@@ -156,7 +156,7 @@ ref int MaxCount_3 { get; }
 
 ### MaxFactorAll
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L71)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L72)
 
 ```csharp
 ref int MaxFactorAll { get; }
@@ -168,7 +168,7 @@ ref int MaxFactorAll { get; }
 
 ### MaxFactor_1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L85)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L86)
 
 ```csharp
 ref int MaxFactor_1 { get; }
@@ -180,7 +180,7 @@ ref int MaxFactor_1 { get; }
 
 ### MaxFactor_2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L101)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L102)
 
 ```csharp
 ref int MaxFactor_2 { get; }
@@ -192,7 +192,7 @@ ref int MaxFactor_2 { get; }
 
 ### MaxFactor_3
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L117)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L118)
 
 ```csharp
 ref int MaxFactor_3 { get; }
@@ -204,7 +204,7 @@ ref int MaxFactor_3 { get; }
 
 ### MinCountAll
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L65)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L66)
 
 ```csharp
 ref int MinCountAll { get; }
@@ -216,7 +216,7 @@ ref int MinCountAll { get; }
 
 ### MinCount_1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L79)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L80)
 
 ```csharp
 ref int MinCount_1 { get; }
@@ -228,7 +228,7 @@ ref int MinCount_1 { get; }
 
 ### MinCount_2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L95)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L96)
 
 ```csharp
 ref int MinCount_2 { get; }
@@ -240,7 +240,7 @@ ref int MinCount_2 { get; }
 
 ### MinCount_3
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L111)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L112)
 
 ```csharp
 ref int MinCount_3 { get; }
@@ -252,7 +252,7 @@ ref int MinCount_3 { get; }
 
 ### MinFactorAll
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L69)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L70)
 
 ```csharp
 ref int MinFactorAll { get; }
@@ -264,7 +264,7 @@ ref int MinFactorAll { get; }
 
 ### MinFactor_1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L83)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L84)
 
 ```csharp
 ref int MinFactor_1 { get; }
@@ -276,7 +276,7 @@ ref int MinFactor_1 { get; }
 
 ### MinFactor_2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L99)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L100)
 
 ```csharp
 ref int MinFactor_2 { get; }
@@ -288,7 +288,7 @@ ref int MinFactor_2 { get; }
 
 ### MinFactor_3
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L115)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L116)
 
 ```csharp
 ref int MinFactor_3 { get; }
@@ -300,7 +300,7 @@ ref int MinFactor_3 { get; }
 
 ### NPCClassname_1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L73)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L74)
 
 ```csharp
 string NPCClassname_1 { get; set; }
@@ -312,7 +312,7 @@ string NPCClassname_1 { get; set; }
 
 ### NPCClassname_2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L89)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L90)
 
 ```csharp
 string NPCClassname_2 { get; set; }
@@ -324,7 +324,7 @@ string NPCClassname_2 { get; set; }
 
 ### NPCClassname_3
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L105)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L106)
 
 ```csharp
 string NPCClassname_3 { get; set; }
@@ -336,7 +336,7 @@ string NPCClassname_3 { get; set; }
 
 ### NPCState_1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L75)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L76)
 
 ```csharp
 ref int NPCState_1 { get; }
@@ -348,7 +348,7 @@ ref int NPCState_1 { get; }
 
 ### NPCState_2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L91)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L92)
 
 ```csharp
 ref int NPCState_2 { get; }
@@ -360,7 +360,7 @@ ref int NPCState_2 { get; }
 
 ### NPCState_3
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L107)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L108)
 
 ```csharp
 ref int NPCState_3 { get; }
@@ -372,7 +372,7 @@ ref int NPCState_3 { get; }
 
 ### OnFactorAll
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L22)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L23)
 
 ```csharp
 SchemaUntypedField OnFactorAll { get; }
@@ -384,7 +384,7 @@ SchemaUntypedField OnFactorAll { get; }
 
 ### OnFactor_1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L32)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L33)
 
 ```csharp
 SchemaUntypedField OnFactor_1 { get; }
@@ -396,7 +396,7 @@ SchemaUntypedField OnFactor_1 { get; }
 
 ### OnFactor_2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L42)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L43)
 
 ```csharp
 SchemaUntypedField OnFactor_2 { get; }
@@ -408,7 +408,7 @@ SchemaUntypedField OnFactor_2 { get; }
 
 ### OnFactor_3
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L52)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L53)
 
 ```csharp
 SchemaUntypedField OnFactor_3 { get; }
@@ -420,7 +420,7 @@ SchemaUntypedField OnFactor_3 { get; }
 
 ### OnMaxCountAll
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L20)
 
 ```csharp
 CEntityIOOutput OnMaxCountAll { get; }
@@ -432,7 +432,7 @@ CEntityIOOutput OnMaxCountAll { get; }
 
 ### OnMaxCount_1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L30)
 
 ```csharp
 CEntityIOOutput OnMaxCount_1 { get; }
@@ -444,7 +444,7 @@ CEntityIOOutput OnMaxCount_1 { get; }
 
 ### OnMaxCount_2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L40)
 
 ```csharp
 CEntityIOOutput OnMaxCount_2 { get; }
@@ -456,7 +456,7 @@ CEntityIOOutput OnMaxCount_2 { get; }
 
 ### OnMaxCount_3
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L50)
 
 ```csharp
 CEntityIOOutput OnMaxCount_3 { get; }
@@ -468,7 +468,7 @@ CEntityIOOutput OnMaxCount_3 { get; }
 
 ### OnMinCountAll
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L18)
 
 ```csharp
 CEntityIOOutput OnMinCountAll { get; }
@@ -480,7 +480,7 @@ CEntityIOOutput OnMinCountAll { get; }
 
 ### OnMinCount_1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L28)
 
 ```csharp
 CEntityIOOutput OnMinCount_1 { get; }
@@ -492,7 +492,7 @@ CEntityIOOutput OnMinCount_1 { get; }
 
 ### OnMinCount_2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L38)
 
 ```csharp
 CEntityIOOutput OnMinCount_2 { get; }
@@ -504,7 +504,7 @@ CEntityIOOutput OnMinCount_2 { get; }
 
 ### OnMinCount_3
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L48)
 
 ```csharp
 CEntityIOOutput OnMinCount_3 { get; }
@@ -516,7 +516,7 @@ CEntityIOOutput OnMinCount_3 { get; }
 
 ### OnMinPlayerDistAll
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L26)
 
 ```csharp
 SchemaUntypedField OnMinPlayerDistAll { get; }
@@ -528,7 +528,7 @@ SchemaUntypedField OnMinPlayerDistAll { get; }
 
 ### OnMinPlayerDist_1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L36)
 
 ```csharp
 SchemaUntypedField OnMinPlayerDist_1 { get; }
@@ -540,7 +540,7 @@ SchemaUntypedField OnMinPlayerDist_1 { get; }
 
 ### OnMinPlayerDist_2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L46)
 
 ```csharp
 SchemaUntypedField OnMinPlayerDist_2 { get; }
@@ -552,7 +552,7 @@ SchemaUntypedField OnMinPlayerDist_2 { get; }
 
 ### OnMinPlayerDist_3
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L56)
 
 ```csharp
 SchemaUntypedField OnMinPlayerDist_3 { get; }
@@ -564,7 +564,7 @@ SchemaUntypedField OnMinPlayerDist_3 { get; }
 
 ### Source
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L58)
 
 ```csharp
 ref CHandle<CEntityInstance> Source { get; }
@@ -576,7 +576,7 @@ ref CHandle<CEntityInstance> Source { get; }
 
 ### SourceEntityName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L60)
 
 ```csharp
 string SourceEntityName { get; set; }

@@ -12,7 +12,7 @@ public interface CPulse_PublicOutput : ISchemaClass<CPulse_PublicOutput>, ISchem
 
 ### Args
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_PublicOutput.cs#L22)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_PublicOutput.cs#L23)
 
 ```csharp
 ref CUtlLeanVector<CPulseRuntimeMethodArg, int> Args { get; }
@@ -24,7 +24,7 @@ ref CUtlLeanVector<CPulseRuntimeMethodArg, int> Args { get; }
 
 ### Description
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_PublicOutput.cs#L20)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_PublicOutput.cs#L21)
 
 ```csharp
 string Description { get; set; }
@@ -36,7 +36,7 @@ string Description { get; set; }
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_PublicOutput.cs#L18)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_PublicOutput.cs#L19)
 
 ```csharp
 SchemaUntypedField Name { get; }

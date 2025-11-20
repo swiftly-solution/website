@@ -12,7 +12,7 @@ public interface CNmIDEvent : CNmEvent, ISchemaClass<CNmEvent>, ISchemaClass<CNm
 
 ### ID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDEvent.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDEvent.cs#L18)
 
 ```csharp
 ref CGlobalSymbol ID { get; }
@@ -24,7 +24,7 @@ ref CGlobalSymbol ID { get; }
 
 ### SecondaryID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDEvent.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDEvent.cs#L20)
 
 ```csharp
 ref CGlobalSymbol SecondaryID { get; }

@@ -12,7 +12,7 @@ public interface CNmFootEventConditionNode__CDefinition : CNmBoolValueNode__CDef
 
 ### EventConditionRules
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFootEventConditionNode__CDefinition.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFootEventConditionNode__CDefinition.cs#L22)
 
 ```csharp
 CNmBitFlags EventConditionRules { get; }
@@ -24,7 +24,7 @@ CNmBitFlags EventConditionRules { get; }
 
 ### PhaseCondition
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFootEventConditionNode__CDefinition.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFootEventConditionNode__CDefinition.cs#L20)
 
 ```csharp
 ref NmFootPhaseCondition_t PhaseCondition { get; }
@@ -36,7 +36,7 @@ ref NmFootPhaseCondition_t PhaseCondition { get; }
 
 ### SourceStateNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFootEventConditionNode__CDefinition.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFootEventConditionNode__CDefinition.cs#L18)
 
 ```csharp
 ref short SourceStateNodeIdx { get; }

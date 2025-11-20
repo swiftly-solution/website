@@ -12,7 +12,7 @@ public interface EventClientPollNetworking_t : ISchemaClass<EventClientPollNetwo
 
 ### TickCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientPollNetworking_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientPollNetworking_t.cs#L18)
 
 ```csharp
 ref int TickCount { get; }

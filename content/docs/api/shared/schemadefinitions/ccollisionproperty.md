@@ -12,7 +12,7 @@ public interface CCollisionProperty : ISchemaClass<CCollisionProperty>, ISchemaF
 
 ### BoundingRadius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L36)
 
 ```csharp
 ref float BoundingRadius { get; }
@@ -24,7 +24,7 @@ ref float BoundingRadius { get; }
 
 ### CapsuleCenter1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L46)
 
 ```csharp
 ref Vector CapsuleCenter1 { get; }
@@ -36,7 +36,7 @@ ref Vector CapsuleCenter1 { get; }
 
 ### CapsuleCenter2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L48)
 
 ```csharp
 ref Vector CapsuleCenter2 { get; }
@@ -48,7 +48,7 @@ ref Vector CapsuleCenter2 { get; }
 
 ### CapsuleRadius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L50)
 
 ```csharp
 ref float CapsuleRadius { get; }
@@ -60,7 +60,7 @@ ref float CapsuleRadius { get; }
 
 ### CollisionAttribute
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L18)
 
 ```csharp
 VPhysicsCollisionAttribute_t CollisionAttribute { get; }
@@ -72,7 +72,7 @@ VPhysicsCollisionAttribute_t CollisionAttribute { get; }
 
 ### CollisionGroup
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L32)
 
 ```csharp
 ref byte CollisionGroup { get; }
@@ -84,7 +84,7 @@ ref byte CollisionGroup { get; }
 
 ### EnablePhysics
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L34)
 
 ```csharp
 ref byte EnablePhysics { get; }
@@ -96,7 +96,7 @@ ref byte EnablePhysics { get; }
 
 ### Maxs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L22)
 
 ```csharp
 ref Vector Maxs { get; }
@@ -108,7 +108,7 @@ ref Vector Maxs { get; }
 
 ### Mins
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L20)
 
 ```csharp
 ref Vector Mins { get; }
@@ -120,7 +120,7 @@ ref Vector Mins { get; }
 
 ### SolidFlags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L24)
 
 ```csharp
 ref byte SolidFlags { get; }
@@ -132,7 +132,7 @@ ref byte SolidFlags { get; }
 
 ### SolidType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L26)
 
 ```csharp
 ref SolidType_t SolidType { get; }
@@ -144,7 +144,7 @@ ref SolidType_t SolidType { get; }
 
 ### SpecifiedSurroundingMaxs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L40)
 
 ```csharp
 ref Vector SpecifiedSurroundingMaxs { get; }
@@ -156,7 +156,7 @@ ref Vector SpecifiedSurroundingMaxs { get; }
 
 ### SpecifiedSurroundingMins
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L38)
 
 ```csharp
 ref Vector SpecifiedSurroundingMins { get; }
@@ -168,7 +168,7 @@ ref Vector SpecifiedSurroundingMins { get; }
 
 ### SurroundType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L30)
 
 ```csharp
 ref SurroundingBoundsType_t SurroundType { get; }
@@ -180,7 +180,7 @@ ref SurroundingBoundsType_t SurroundType { get; }
 
 ### SurroundingMaxs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L42)
 
 ```csharp
 ref Vector SurroundingMaxs { get; }
@@ -192,7 +192,7 @@ ref Vector SurroundingMaxs { get; }
 
 ### SurroundingMins
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L44)
 
 ```csharp
 ref Vector SurroundingMins { get; }
@@ -204,7 +204,7 @@ ref Vector SurroundingMins { get; }
 
 ### TriggerBloat
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L28)
 
 ```csharp
 ref byte TriggerBloat { get; }
@@ -218,7 +218,7 @@ ref byte TriggerBloat { get; }
 
 ### CapsuleCenter1Updated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L62)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L63)
 
 ```csharp
 void CapsuleCenter1Updated()
@@ -226,7 +226,7 @@ void CapsuleCenter1Updated()
 
 ### CapsuleCenter2Updated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L64)
 
 ```csharp
 void CapsuleCenter2Updated()
@@ -234,7 +234,7 @@ void CapsuleCenter2Updated()
 
 ### CapsuleRadiusUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L64)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L65)
 
 ```csharp
 void CapsuleRadiusUpdated()
@@ -242,7 +242,7 @@ void CapsuleRadiusUpdated()
 
 ### CollisionAttributeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L52)
 
 ```csharp
 void CollisionAttributeUpdated()
@@ -250,7 +250,7 @@ void CollisionAttributeUpdated()
 
 ### CollisionGroupUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L58)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L59)
 
 ```csharp
 void CollisionGroupUpdated()
@@ -258,7 +258,7 @@ void CollisionGroupUpdated()
 
 ### EnablePhysicsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L60)
 
 ```csharp
 void EnablePhysicsUpdated()
@@ -266,7 +266,7 @@ void EnablePhysicsUpdated()
 
 ### MaxsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L54)
 
 ```csharp
 void MaxsUpdated()
@@ -274,7 +274,7 @@ void MaxsUpdated()
 
 ### MinsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L52)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L53)
 
 ```csharp
 void MinsUpdated()
@@ -282,7 +282,7 @@ void MinsUpdated()
 
 ### SolidFlagsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L54)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L55)
 
 ```csharp
 void SolidFlagsUpdated()
@@ -290,7 +290,7 @@ void SolidFlagsUpdated()
 
 ### SolidTypeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L56)
 
 ```csharp
 void SolidTypeUpdated()
@@ -298,7 +298,7 @@ void SolidTypeUpdated()
 
 ### SpecifiedSurroundingMaxsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L62)
 
 ```csharp
 void SpecifiedSurroundingMaxsUpdated()
@@ -306,7 +306,7 @@ void SpecifiedSurroundingMaxsUpdated()
 
 ### SpecifiedSurroundingMinsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L60)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L61)
 
 ```csharp
 void SpecifiedSurroundingMinsUpdated()
@@ -314,7 +314,7 @@ void SpecifiedSurroundingMinsUpdated()
 
 ### SurroundTypeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L58)
 
 ```csharp
 void SurroundTypeUpdated()
@@ -322,7 +322,7 @@ void SurroundTypeUpdated()
 
 ### TriggerBloatUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L56)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCollisionProperty.cs#L57)
 
 ```csharp
 void TriggerBloatUpdated()

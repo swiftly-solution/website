@@ -12,7 +12,7 @@ public interface CFootstepControl : CBaseTrigger, CBaseToggle, CBaseModelEntity,
 
 ### Destination
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootstepControl.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootstepControl.cs#L20)
 
 ```csharp
 string Destination { get; set; }
@@ -24,7 +24,7 @@ string Destination { get; set; }
 
 ### Source
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootstepControl.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootstepControl.cs#L18)
 
 ```csharp
 string Source { get; set; }
@@ -38,7 +38,7 @@ string Source { get; set; }
 
 ### DestinationUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootstepControl.cs#L22)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootstepControl.cs#L23)
 
 ```csharp
 void DestinationUpdated()
@@ -46,7 +46,7 @@ void DestinationUpdated()
 
 ### SourceUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootstepControl.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootstepControl.cs#L22)
 
 ```csharp
 void SourceUpdated()

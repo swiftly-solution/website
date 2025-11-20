@@ -12,7 +12,7 @@ public interface ExtraVertexStreamOverride_t : BaseSceneObjectOverride_t, ISchem
 
 ### AdditionalMeshDrawPrimitiveFlags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ExtraVertexStreamOverride_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ExtraVertexStreamOverride_t.cs#L22)
 
 ```csharp
 ref MeshDrawPrimitiveFlags_t AdditionalMeshDrawPrimitiveFlags { get; }
@@ -24,7 +24,7 @@ ref MeshDrawPrimitiveFlags_t AdditionalMeshDrawPrimitiveFlags { get; }
 
 ### DrawCallIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ExtraVertexStreamOverride_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ExtraVertexStreamOverride_t.cs#L20)
 
 ```csharp
 ref uint DrawCallIndex { get; }
@@ -36,7 +36,7 @@ ref uint DrawCallIndex { get; }
 
 ### ExtraBufferBinding
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ExtraVertexStreamOverride_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ExtraVertexStreamOverride_t.cs#L24)
 
 ```csharp
 CRenderBufferBinding ExtraBufferBinding { get; }
@@ -48,7 +48,7 @@ CRenderBufferBinding ExtraBufferBinding { get; }
 
 ### SubSceneObject
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ExtraVertexStreamOverride_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ExtraVertexStreamOverride_t.cs#L18)
 
 ```csharp
 ref uint SubSceneObject { get; }

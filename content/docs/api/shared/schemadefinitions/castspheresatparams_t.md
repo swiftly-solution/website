@@ -12,7 +12,7 @@ public interface CastSphereSATParams_t : ISchemaClass<CastSphereSATParams_t>, IS
 
 ### Hull
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CastSphereSATParams_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CastSphereSATParams_t.cs#L28)
 
 ```csharp
 RnHull_t? Hull { get; }
@@ -24,7 +24,7 @@ RnHull_t? Hull { get; }
 
 ### MaxFraction
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CastSphereSATParams_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CastSphereSATParams_t.cs#L24)
 
 ```csharp
 ref float MaxFraction { get; }
@@ -36,7 +36,7 @@ ref float MaxFraction { get; }
 
 ### Radius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CastSphereSATParams_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CastSphereSATParams_t.cs#L22)
 
 ```csharp
 ref float Radius { get; }
@@ -48,7 +48,7 @@ ref float Radius { get; }
 
 ### RayDelta
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CastSphereSATParams_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CastSphereSATParams_t.cs#L20)
 
 ```csharp
 ref Vector RayDelta { get; }
@@ -60,7 +60,7 @@ ref Vector RayDelta { get; }
 
 ### RayStart
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CastSphereSATParams_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CastSphereSATParams_t.cs#L18)
 
 ```csharp
 ref Vector RayStart { get; }
@@ -72,7 +72,7 @@ ref Vector RayStart { get; }
 
 ### Scale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CastSphereSATParams_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CastSphereSATParams_t.cs#L26)
 
 ```csharp
 ref float Scale { get; }

@@ -12,7 +12,7 @@ public interface FeRigidColliderIndices_t : ISchemaClass<FeRigidColliderIndices_
 
 ### BoxRigidIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeRigidColliderIndices_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeRigidColliderIndices_t.cs#L22)
 
 ```csharp
 ref ushort BoxRigidIndex { get; }
@@ -24,7 +24,7 @@ ref ushort BoxRigidIndex { get; }
 
 ### CollisionPlaneIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeRigidColliderIndices_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeRigidColliderIndices_t.cs#L26)
 
 ```csharp
 ref ushort CollisionPlaneIndex { get; }
@@ -36,7 +36,7 @@ ref ushort CollisionPlaneIndex { get; }
 
 ### SDFRigidIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeRigidColliderIndices_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeRigidColliderIndices_t.cs#L24)
 
 ```csharp
 ref ushort SDFRigidIndex { get; }
@@ -48,7 +48,7 @@ ref ushort SDFRigidIndex { get; }
 
 ### SphereRigidIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeRigidColliderIndices_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeRigidColliderIndices_t.cs#L20)
 
 ```csharp
 ref ushort SphereRigidIndex { get; }
@@ -60,7 +60,7 @@ ref ushort SphereRigidIndex { get; }
 
 ### TaperedCapsuleRigidIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeRigidColliderIndices_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeRigidColliderIndices_t.cs#L18)
 
 ```csharp
 ref ushort TaperedCapsuleRigidIndex { get; }

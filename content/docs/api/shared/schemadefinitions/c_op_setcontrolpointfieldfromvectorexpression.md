@@ -12,7 +12,7 @@ public interface C_OP_SetControlPointFieldFromVectorExpression : CParticleFuncti
 
 ### Expression
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointFieldFromVectorExpression.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointFieldFromVectorExpression.cs#L18)
 
 ```csharp
 ref VectorFloatExpressionType_t Expression { get; }
@@ -24,7 +24,7 @@ ref VectorFloatExpressionType_t Expression { get; }
 
 ### Input1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointFieldFromVectorExpression.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointFieldFromVectorExpression.cs#L20)
 
 ```csharp
 CParticleCollectionVecInput Input1 { get; }
@@ -36,7 +36,7 @@ CParticleCollectionVecInput Input1 { get; }
 
 ### Input2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointFieldFromVectorExpression.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointFieldFromVectorExpression.cs#L22)
 
 ```csharp
 CParticleCollectionVecInput Input2 { get; }
@@ -48,7 +48,7 @@ CParticleCollectionVecInput Input2 { get; }
 
 ### Lerp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointFieldFromVectorExpression.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointFieldFromVectorExpression.cs#L24)
 
 ```csharp
 CPerParticleFloatInput Lerp { get; }
@@ -60,7 +60,7 @@ CPerParticleFloatInput Lerp { get; }
 
 ### OutVectorField
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointFieldFromVectorExpression.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointFieldFromVectorExpression.cs#L30)
 
 ```csharp
 ref int OutVectorField { get; }
@@ -72,7 +72,7 @@ ref int OutVectorField { get; }
 
 ### OutputCP
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointFieldFromVectorExpression.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointFieldFromVectorExpression.cs#L28)
 
 ```csharp
 ref int OutputCP { get; }
@@ -84,7 +84,7 @@ ref int OutputCP { get; }
 
 ### OutputRemap
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointFieldFromVectorExpression.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointFieldFromVectorExpression.cs#L26)
 
 ```csharp
 CParticleRemapFloatInput OutputRemap { get; }

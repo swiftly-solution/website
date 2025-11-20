@@ -12,7 +12,7 @@ public interface CStaticPoseCache : ISchemaClass<CStaticPoseCache>, ISchemaField
 
 ### BoneCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStaticPoseCache.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStaticPoseCache.cs#L20)
 
 ```csharp
 ref int BoneCount { get; }
@@ -24,7 +24,7 @@ ref int BoneCount { get; }
 
 ### MorphCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStaticPoseCache.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStaticPoseCache.cs#L22)
 
 ```csharp
 ref int MorphCount { get; }
@@ -36,7 +36,7 @@ ref int MorphCount { get; }
 
 ### Poses
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStaticPoseCache.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStaticPoseCache.cs#L18)
 
 ```csharp
 ref CUtlVector<CCachedPose> Poses { get; }

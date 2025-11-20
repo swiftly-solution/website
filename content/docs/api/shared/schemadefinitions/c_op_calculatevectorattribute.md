@@ -12,7 +12,7 @@ public interface C_OP_CalculateVectorAttribute : CParticleFunctionOperator, CPar
 
 ### ControlPointInput1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CalculateVectorAttribute.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CalculateVectorAttribute.cs#L28)
 
 ```csharp
 ControlPointReference_t ControlPointInput1 { get; }
@@ -24,7 +24,7 @@ ControlPointReference_t ControlPointInput1 { get; }
 
 ### ControlPointInput2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CalculateVectorAttribute.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CalculateVectorAttribute.cs#L32)
 
 ```csharp
 ControlPointReference_t ControlPointInput2 { get; }
@@ -36,7 +36,7 @@ ControlPointReference_t ControlPointInput2 { get; }
 
 ### ControlPointScale1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CalculateVectorAttribute.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CalculateVectorAttribute.cs#L30)
 
 ```csharp
 ref float ControlPointScale1 { get; }
@@ -48,7 +48,7 @@ ref float ControlPointScale1 { get; }
 
 ### ControlPointScale2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CalculateVectorAttribute.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CalculateVectorAttribute.cs#L34)
 
 ```csharp
 ref float ControlPointScale2 { get; }
@@ -60,7 +60,7 @@ ref float ControlPointScale2 { get; }
 
 ### FieldInput1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CalculateVectorAttribute.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CalculateVectorAttribute.cs#L20)
 
 ```csharp
 ParticleAttributeIndex_t FieldInput1 { get; }
@@ -72,7 +72,7 @@ ParticleAttributeIndex_t FieldInput1 { get; }
 
 ### FieldInput2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CalculateVectorAttribute.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CalculateVectorAttribute.cs#L24)
 
 ```csharp
 ParticleAttributeIndex_t FieldInput2 { get; }
@@ -84,7 +84,7 @@ ParticleAttributeIndex_t FieldInput2 { get; }
 
 ### FieldOutput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CalculateVectorAttribute.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CalculateVectorAttribute.cs#L36)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -96,7 +96,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 ### FinalOutputScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CalculateVectorAttribute.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CalculateVectorAttribute.cs#L38)
 
 ```csharp
 ref Vector FinalOutputScale { get; }
@@ -108,7 +108,7 @@ ref Vector FinalOutputScale { get; }
 
 ### InputScale1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CalculateVectorAttribute.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CalculateVectorAttribute.cs#L22)
 
 ```csharp
 ref float InputScale1 { get; }
@@ -120,7 +120,7 @@ ref float InputScale1 { get; }
 
 ### InputScale2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CalculateVectorAttribute.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CalculateVectorAttribute.cs#L26)
 
 ```csharp
 ref float InputScale2 { get; }
@@ -132,7 +132,7 @@ ref float InputScale2 { get; }
 
 ### StartValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CalculateVectorAttribute.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CalculateVectorAttribute.cs#L18)
 
 ```csharp
 ref Vector StartValue { get; }

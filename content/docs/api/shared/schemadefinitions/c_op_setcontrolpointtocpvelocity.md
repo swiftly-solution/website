@@ -12,7 +12,7 @@ public interface C_OP_SetControlPointToCPVelocity : CParticleFunctionPreEmission
 
 ### CPField
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToCPVelocity.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToCPVelocity.cs#L26)
 
 ```csharp
 ref int CPField { get; }
@@ -24,7 +24,7 @@ ref int CPField { get; }
 
 ### CPInput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToCPVelocity.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToCPVelocity.cs#L18)
 
 ```csharp
 ref int CPInput { get; }
@@ -36,7 +36,7 @@ ref int CPInput { get; }
 
 ### CPOutputMag
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToCPVelocity.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToCPVelocity.cs#L24)
 
 ```csharp
 ref int CPOutputMag { get; }
@@ -48,7 +48,7 @@ ref int CPOutputMag { get; }
 
 ### CPOutputVel
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToCPVelocity.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToCPVelocity.cs#L20)
 
 ```csharp
 ref int CPOutputVel { get; }
@@ -60,7 +60,7 @@ ref int CPOutputVel { get; }
 
 ### ComparisonVelocity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToCPVelocity.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToCPVelocity.cs#L28)
 
 ```csharp
 CParticleCollectionVecInput ComparisonVelocity { get; }
@@ -72,7 +72,7 @@ CParticleCollectionVecInput ComparisonVelocity { get; }
 
 ### Normalize
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToCPVelocity.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToCPVelocity.cs#L22)
 
 ```csharp
 ref bool Normalize { get; }

@@ -12,7 +12,7 @@ public interface CFuncTimescale : CBaseEntity, CEntityInstance, ISchemaClass<CEn
 
 ### Acceleration
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTimescale.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTimescale.cs#L20)
 
 ```csharp
 ref float Acceleration { get; }
@@ -24,7 +24,7 @@ ref float Acceleration { get; }
 
 ### BlendDeltaMultiplier
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTimescale.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTimescale.cs#L24)
 
 ```csharp
 ref float BlendDeltaMultiplier { get; }
@@ -36,7 +36,7 @@ ref float BlendDeltaMultiplier { get; }
 
 ### DesiredTimescale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTimescale.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTimescale.cs#L18)
 
 ```csharp
 ref float DesiredTimescale { get; }
@@ -48,7 +48,7 @@ ref float DesiredTimescale { get; }
 
 ### IsStarted
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTimescale.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTimescale.cs#L26)
 
 ```csharp
 ref bool IsStarted { get; }
@@ -60,7 +60,7 @@ ref bool IsStarted { get; }
 
 ### MinBlendRate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTimescale.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTimescale.cs#L22)
 
 ```csharp
 ref float MinBlendRate { get; }

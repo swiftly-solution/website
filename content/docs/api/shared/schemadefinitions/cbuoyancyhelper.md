@@ -12,7 +12,7 @@ public interface CBuoyancyHelper : ISchemaClass<CBuoyancyHelper>, ISchemaField, 
 
 ### FluidDensity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBuoyancyHelper.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBuoyancyHelper.cs#L20)
 
 ```csharp
 ref float FluidDensity { get; }
@@ -24,7 +24,7 @@ ref float FluidDensity { get; }
 
 ### FluidType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBuoyancyHelper.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBuoyancyHelper.cs#L18)
 
 ```csharp
 ref CUtlStringToken FluidType { get; }
@@ -36,7 +36,7 @@ ref CUtlStringToken FluidType { get; }
 
 ### FractionOfWheelSubmergedForWheelDrag
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBuoyancyHelper.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBuoyancyHelper.cs#L34)
 
 ```csharp
 ref CUtlVector<float> FractionOfWheelSubmergedForWheelDrag { get; }
@@ -48,7 +48,7 @@ ref CUtlVector<float> FractionOfWheelSubmergedForWheelDrag { get; }
 
 ### FractionOfWheelSubmergedForWheelFriction
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBuoyancyHelper.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBuoyancyHelper.cs#L30)
 
 ```csharp
 ref CUtlVector<float> FractionOfWheelSubmergedForWheelFriction { get; }
@@ -60,7 +60,7 @@ ref CUtlVector<float> FractionOfWheelSubmergedForWheelFriction { get; }
 
 ### NeutrallyBuoyant
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBuoyancyHelper.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBuoyancyHelper.cs#L28)
 
 ```csharp
 ref bool NeutrallyBuoyant { get; }
@@ -72,7 +72,7 @@ ref bool NeutrallyBuoyant { get; }
 
 ### NeutrallyBuoyantAngularDamping
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBuoyancyHelper.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBuoyancyHelper.cs#L26)
 
 ```csharp
 ref float NeutrallyBuoyantAngularDamping { get; }
@@ -84,7 +84,7 @@ ref float NeutrallyBuoyantAngularDamping { get; }
 
 ### NeutrallyBuoyantGravity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBuoyancyHelper.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBuoyancyHelper.cs#L22)
 
 ```csharp
 ref float NeutrallyBuoyantGravity { get; }
@@ -96,7 +96,7 @@ ref float NeutrallyBuoyantGravity { get; }
 
 ### NeutrallyBuoyantLinearDamping
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBuoyancyHelper.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBuoyancyHelper.cs#L24)
 
 ```csharp
 ref float NeutrallyBuoyantLinearDamping { get; }
@@ -108,7 +108,7 @@ ref float NeutrallyBuoyantLinearDamping { get; }
 
 ### WheelDrag
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBuoyancyHelper.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBuoyancyHelper.cs#L36)
 
 ```csharp
 ref CUtlVector<float> WheelDrag { get; }
@@ -120,7 +120,7 @@ ref CUtlVector<float> WheelDrag { get; }
 
 ### WheelFrictionScales
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBuoyancyHelper.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBuoyancyHelper.cs#L32)
 
 ```csharp
 ref CUtlVector<float> WheelFrictionScales { get; }

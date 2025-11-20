@@ -12,7 +12,7 @@ public interface CEnvSoundscapeProxy : CEnvSoundscape, CBaseEntity, CEntityInsta
 
 ### MainSoundscapeName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSoundscapeProxy.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSoundscapeProxy.cs#L18)
 
 ```csharp
 string MainSoundscapeName { get; set; }

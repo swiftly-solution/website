@@ -12,7 +12,7 @@ public interface CSoundAreaEntityOrientedBox : CSoundAreaEntityBase, CBaseEntity
 
 ### Max
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundAreaEntityOrientedBox.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundAreaEntityOrientedBox.cs#L20)
 
 ```csharp
 ref Vector Max { get; }
@@ -24,7 +24,7 @@ ref Vector Max { get; }
 
 ### Min
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundAreaEntityOrientedBox.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundAreaEntityOrientedBox.cs#L18)
 
 ```csharp
 ref Vector Min { get; }
@@ -38,7 +38,7 @@ ref Vector Min { get; }
 
 ### MaxUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundAreaEntityOrientedBox.cs#L22)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundAreaEntityOrientedBox.cs#L23)
 
 ```csharp
 void MaxUpdated()
@@ -46,7 +46,7 @@ void MaxUpdated()
 
 ### MinUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundAreaEntityOrientedBox.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundAreaEntityOrientedBox.cs#L22)
 
 ```csharp
 void MinUpdated()

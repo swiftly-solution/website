@@ -12,7 +12,7 @@ public interface CPulse_Chunk : ISchemaClass<CPulse_Chunk>, ISchemaField, ISchem
 
 ### InstructionEditorIDs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Chunk.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Chunk.cs#L22)
 
 ```csharp
 ref CUtlLeanVector<PulseDocNodeID_t, int> InstructionEditorIDs { get; }
@@ -24,7 +24,7 @@ ref CUtlLeanVector<PulseDocNodeID_t, int> InstructionEditorIDs { get; }
 
 ### Instructions
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Chunk.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Chunk.cs#L18)
 
 ```csharp
 ref CUtlLeanVector<PGDInstruction_t, int> Instructions { get; }
@@ -36,7 +36,7 @@ ref CUtlLeanVector<PGDInstruction_t, int> Instructions { get; }
 
 ### Registers
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Chunk.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Chunk.cs#L20)
 
 ```csharp
 ref CUtlLeanVector<CPulse_RegisterInfo, int> Registers { get; }

@@ -12,7 +12,7 @@ public interface DecalGroupOption_t : ISchemaClass<DecalGroupOption_t>, ISchemaF
 
 ### EnableAngleBetweenNormalAndGravityRange
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DecalGroupOption_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DecalGroupOption_t.cs#L24)
 
 ```csharp
 ref bool EnableAngleBetweenNormalAndGravityRange { get; }
@@ -24,7 +24,7 @@ ref bool EnableAngleBetweenNormalAndGravityRange { get; }
 
 ### Material
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DecalGroupOption_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DecalGroupOption_t.cs#L18)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeIMaterial2> Material { get; }
@@ -36,7 +36,7 @@ ref CStrongHandle<InfoForResourceTypeIMaterial2> Material { get; }
 
 ### MaxAngleBetweenNormalAndGravity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DecalGroupOption_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DecalGroupOption_t.cs#L28)
 
 ```csharp
 ref float MaxAngleBetweenNormalAndGravity { get; }
@@ -48,7 +48,7 @@ ref float MaxAngleBetweenNormalAndGravity { get; }
 
 ### MinAngleBetweenNormalAndGravity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DecalGroupOption_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DecalGroupOption_t.cs#L26)
 
 ```csharp
 ref float MinAngleBetweenNormalAndGravity { get; }
@@ -60,7 +60,7 @@ ref float MinAngleBetweenNormalAndGravity { get; }
 
 ### Probability
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DecalGroupOption_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DecalGroupOption_t.cs#L22)
 
 ```csharp
 ref float Probability { get; }
@@ -72,7 +72,7 @@ ref float Probability { get; }
 
 ### SequenceName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DecalGroupOption_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DecalGroupOption_t.cs#L20)
 
 ```csharp
 ref CGlobalSymbol SequenceName { get; }

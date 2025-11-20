@@ -12,7 +12,7 @@ public interface CPhysicsSpring : CBaseEntity, CEntityInstance, ISchemaClass<CEn
 
 ### DampingRatio
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsSpring.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsSpring.cs#L20)
 
 ```csharp
 ref float DampingRatio { get; }
@@ -24,7 +24,7 @@ ref float DampingRatio { get; }
 
 ### End
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsSpring.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsSpring.cs#L30)
 
 ```csharp
 ref Vector End { get; }
@@ -36,7 +36,7 @@ ref Vector End { get; }
 
 ### Frequency
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsSpring.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsSpring.cs#L18)
 
 ```csharp
 ref float Frequency { get; }
@@ -48,7 +48,7 @@ ref float Frequency { get; }
 
 ### NameAttachEnd
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsSpring.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsSpring.cs#L26)
 
 ```csharp
 string NameAttachEnd { get; set; }
@@ -60,7 +60,7 @@ string NameAttachEnd { get; set; }
 
 ### NameAttachStart
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsSpring.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsSpring.cs#L24)
 
 ```csharp
 string NameAttachStart { get; set; }
@@ -72,7 +72,7 @@ string NameAttachStart { get; set; }
 
 ### RestLength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsSpring.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsSpring.cs#L22)
 
 ```csharp
 ref float RestLength { get; }
@@ -84,7 +84,7 @@ ref float RestLength { get; }
 
 ### Start
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsSpring.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsSpring.cs#L28)
 
 ```csharp
 ref Vector Start { get; }
@@ -96,7 +96,7 @@ ref Vector Start { get; }
 
 ### TeleportTick
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsSpring.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsSpring.cs#L32)
 
 ```csharp
 ref uint TeleportTick { get; }

@@ -12,7 +12,7 @@ public interface EngineCountdownTimer : ISchemaClass<EngineCountdownTimer>, ISch
 
 ### Duration
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EngineCountdownTimer.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EngineCountdownTimer.cs#L18)
 
 ```csharp
 ref float Duration { get; }
@@ -24,7 +24,7 @@ ref float Duration { get; }
 
 ### Timescale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EngineCountdownTimer.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EngineCountdownTimer.cs#L22)
 
 ```csharp
 ref float Timescale { get; }
@@ -36,7 +36,7 @@ ref float Timescale { get; }
 
 ### Timestamp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EngineCountdownTimer.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EngineCountdownTimer.cs#L20)
 
 ```csharp
 ref float Timestamp { get; }
@@ -50,7 +50,7 @@ ref float Timestamp { get; }
 
 ### DurationUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EngineCountdownTimer.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EngineCountdownTimer.cs#L24)
 
 ```csharp
 void DurationUpdated()
@@ -58,7 +58,7 @@ void DurationUpdated()
 
 ### TimescaleUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EngineCountdownTimer.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EngineCountdownTimer.cs#L26)
 
 ```csharp
 void TimescaleUpdated()
@@ -66,7 +66,7 @@ void TimescaleUpdated()
 
 ### TimestampUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EngineCountdownTimer.cs#L24)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EngineCountdownTimer.cs#L25)
 
 ```csharp
 void TimestampUpdated()

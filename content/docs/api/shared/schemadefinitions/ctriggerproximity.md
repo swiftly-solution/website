@@ -12,7 +12,7 @@ public interface CTriggerProximity : CBaseTrigger, CBaseToggle, CBaseModelEntity
 
 ### MeasureTarget
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerProximity.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerProximity.cs#L18)
 
 ```csharp
 ref CHandle<CBaseEntity> MeasureTarget { get; }
@@ -24,7 +24,7 @@ ref CHandle<CBaseEntity> MeasureTarget { get; }
 
 ### MeasureTarget1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerProximity.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerProximity.cs#L20)
 
 ```csharp
 string MeasureTarget1 { get; set; }
@@ -36,7 +36,7 @@ string MeasureTarget1 { get; set; }
 
 ### NearestEntityDistance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerProximity.cs#L26)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerProximity.cs#L27)
 
 ```csharp
 SchemaUntypedField NearestEntityDistance { get; }
@@ -48,7 +48,7 @@ SchemaUntypedField NearestEntityDistance { get; }
 
 ### Radius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerProximity.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerProximity.cs#L22)
 
 ```csharp
 ref float Radius { get; }
@@ -60,7 +60,7 @@ ref float Radius { get; }
 
 ### Touchers
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerProximity.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerProximity.cs#L24)
 
 ```csharp
 ref int Touchers { get; }

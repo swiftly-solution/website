@@ -12,7 +12,7 @@ public interface VPhysXBodyPart_t : ISchemaClass<VPhysXBodyPart_t>, ISchemaField
 
 ### AngularDamping
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXBodyPart_t.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXBodyPart_t.cs#L32)
 
 ```csharp
 ref float AngularDamping { get; }
@@ -24,7 +24,7 @@ ref float AngularDamping { get; }
 
 ### AngularDrag
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXBodyPart_t.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXBodyPart_t.cs#L36)
 
 ```csharp
 ref float AngularDrag { get; }
@@ -36,7 +36,7 @@ ref float AngularDrag { get; }
 
 ### CollisionAttributeIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXBodyPart_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXBodyPart_t.cs#L24)
 
 ```csharp
 ref ushort CollisionAttributeIndex { get; }
@@ -48,7 +48,7 @@ ref ushort CollisionAttributeIndex { get; }
 
 ### Flags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXBodyPart_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXBodyPart_t.cs#L18)
 
 ```csharp
 ref uint Flags { get; }
@@ -60,7 +60,7 @@ ref uint Flags { get; }
 
 ### InertiaScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXBodyPart_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXBodyPart_t.cs#L28)
 
 ```csharp
 ref float InertiaScale { get; }
@@ -72,7 +72,7 @@ ref float InertiaScale { get; }
 
 ### LinearDamping
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXBodyPart_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXBodyPart_t.cs#L30)
 
 ```csharp
 ref float LinearDamping { get; }
@@ -84,7 +84,7 @@ ref float LinearDamping { get; }
 
 ### LinearDrag
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXBodyPart_t.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXBodyPart_t.cs#L34)
 
 ```csharp
 ref float LinearDrag { get; }
@@ -96,7 +96,7 @@ ref float LinearDrag { get; }
 
 ### Mass
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXBodyPart_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXBodyPart_t.cs#L20)
 
 ```csharp
 ref float Mass { get; }
@@ -108,7 +108,7 @@ ref float Mass { get; }
 
 ### MassCenterOverride
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXBodyPart_t.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXBodyPart_t.cs#L40)
 
 ```csharp
 ref Vector MassCenterOverride { get; }
@@ -120,7 +120,7 @@ ref Vector MassCenterOverride { get; }
 
 ### OverrideMassCenter
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXBodyPart_t.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXBodyPart_t.cs#L38)
 
 ```csharp
 ref bool OverrideMassCenter { get; }
@@ -132,7 +132,7 @@ ref bool OverrideMassCenter { get; }
 
 ### Reserved
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXBodyPart_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXBodyPart_t.cs#L26)
 
 ```csharp
 ref ushort Reserved { get; }
@@ -144,7 +144,7 @@ ref ushort Reserved { get; }
 
 ### RnShape
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXBodyPart_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXBodyPart_t.cs#L22)
 
 ```csharp
 VPhysics2ShapeDef_t RnShape { get; }

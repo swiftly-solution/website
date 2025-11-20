@@ -12,7 +12,7 @@ public interface CFootLockUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase, IS
 
 ### ApplyFootRotationLimits
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootLockUpdateNode.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootLockUpdateNode.cs#L46)
 
 ```csharp
 ref bool ApplyFootRotationLimits { get; }
@@ -24,7 +24,7 @@ ref bool ApplyFootRotationLimits { get; }
 
 ### ApplyHipShift
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootLockUpdateNode.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootLockUpdateNode.cs#L48)
 
 ```csharp
 ref bool ApplyHipShift { get; }
@@ -36,7 +36,7 @@ ref bool ApplyHipShift { get; }
 
 ### BlendTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootLockUpdateNode.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootLockUpdateNode.cs#L36)
 
 ```csharp
 ref float BlendTime { get; }
@@ -48,7 +48,7 @@ ref float BlendTime { get; }
 
 ### EnableRootHeightDamping
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootLockUpdateNode.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootLockUpdateNode.cs#L56)
 
 ```csharp
 ref bool EnableRootHeightDamping { get; }
@@ -60,7 +60,7 @@ ref bool EnableRootHeightDamping { get; }
 
 ### EnableVerticalCurvedPaths
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootLockUpdateNode.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootLockUpdateNode.cs#L54)
 
 ```csharp
 ref bool EnableVerticalCurvedPaths { get; }
@@ -72,7 +72,7 @@ ref bool EnableVerticalCurvedPaths { get; }
 
 ### FootSettings
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootLockUpdateNode.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootLockUpdateNode.cs#L20)
 
 ```csharp
 ref CUtlVector<FootFixedSettings> FootSettings { get; }
@@ -84,7 +84,7 @@ ref CUtlVector<FootFixedSettings> FootSettings { get; }
 
 ### HipShiftDamping
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootLockUpdateNode.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootLockUpdateNode.cs#L22)
 
 ```csharp
 CAnimInputDamping HipShiftDamping { get; }
@@ -96,7 +96,7 @@ CAnimInputDamping HipShiftDamping { get; }
 
 ### HipShiftScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootLockUpdateNode.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootLockUpdateNode.cs#L34)
 
 ```csharp
 ref float HipShiftScale { get; }
@@ -108,7 +108,7 @@ ref float HipShiftScale { get; }
 
 ### MaxRootHeightOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootLockUpdateNode.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootLockUpdateNode.cs#L38)
 
 ```csharp
 ref float MaxRootHeightOffset { get; }
@@ -120,7 +120,7 @@ ref float MaxRootHeightOffset { get; }
 
 ### MinRootHeightOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootLockUpdateNode.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootLockUpdateNode.cs#L40)
 
 ```csharp
 ref float MinRootHeightOffset { get; }
@@ -132,7 +132,7 @@ ref float MinRootHeightOffset { get; }
 
 ### ModulateStepHeight
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootLockUpdateNode.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootLockUpdateNode.cs#L50)
 
 ```csharp
 ref bool ModulateStepHeight { get; }
@@ -144,7 +144,7 @@ ref bool ModulateStepHeight { get; }
 
 ### OpFixedSettings
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootLockUpdateNode.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootLockUpdateNode.cs#L18)
 
 ```csharp
 FootLockPoseOpFixedSettings OpFixedSettings { get; }
@@ -156,7 +156,7 @@ FootLockPoseOpFixedSettings OpFixedSettings { get; }
 
 ### ResetChild
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootLockUpdateNode.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootLockUpdateNode.cs#L52)
 
 ```csharp
 ref bool ResetChild { get; }
@@ -168,7 +168,7 @@ ref bool ResetChild { get; }
 
 ### RootHeightDamping
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootLockUpdateNode.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootLockUpdateNode.cs#L24)
 
 ```csharp
 CAnimInputDamping RootHeightDamping { get; }
@@ -180,7 +180,7 @@ CAnimInputDamping RootHeightDamping { get; }
 
 ### StepHeightDecreaseScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootLockUpdateNode.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootLockUpdateNode.cs#L32)
 
 ```csharp
 ref float StepHeightDecreaseScale { get; }
@@ -192,7 +192,7 @@ ref float StepHeightDecreaseScale { get; }
 
 ### StepHeightIncreaseScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootLockUpdateNode.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootLockUpdateNode.cs#L30)
 
 ```csharp
 ref float StepHeightIncreaseScale { get; }
@@ -204,7 +204,7 @@ ref float StepHeightIncreaseScale { get; }
 
 ### StrideCurveLimitScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootLockUpdateNode.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootLockUpdateNode.cs#L28)
 
 ```csharp
 ref float StrideCurveLimitScale { get; }
@@ -216,7 +216,7 @@ ref float StrideCurveLimitScale { get; }
 
 ### StrideCurveScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootLockUpdateNode.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootLockUpdateNode.cs#L26)
 
 ```csharp
 ref float StrideCurveScale { get; }
@@ -228,7 +228,7 @@ ref float StrideCurveScale { get; }
 
 ### TiltPlanePitchSpringStrength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootLockUpdateNode.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootLockUpdateNode.cs#L42)
 
 ```csharp
 ref float TiltPlanePitchSpringStrength { get; }
@@ -240,7 +240,7 @@ ref float TiltPlanePitchSpringStrength { get; }
 
 ### TiltPlaneRollSpringStrength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootLockUpdateNode.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootLockUpdateNode.cs#L44)
 
 ```csharp
 ref float TiltPlaneRollSpringStrength { get; }

@@ -12,7 +12,7 @@ public interface C_OP_CreateParticleSystemRenderer : CParticleFunctionRenderer, 
 
 ### AggregationPos
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CreateParticleSystemRenderer.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CreateParticleSystemRenderer.cs#L26)
 
 ```csharp
 CPerParticleVecInput AggregationPos { get; }
@@ -24,7 +24,7 @@ CPerParticleVecInput AggregationPos { get; }
 
 ### CPs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CreateParticleSystemRenderer.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CreateParticleSystemRenderer.cs#L22)
 
 ```csharp
 ref CUtlLeanVector<CPAssignment_t, int> CPs { get; }
@@ -36,7 +36,7 @@ ref CUtlLeanVector<CPAssignment_t, int> CPs { get; }
 
 ### Effect
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CreateParticleSystemRenderer.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CreateParticleSystemRenderer.cs#L18)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> Effect { get; }
@@ -48,7 +48,7 @@ ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> Effect { get; }
 
 ### EventType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CreateParticleSystemRenderer.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CreateParticleSystemRenderer.cs#L20)
 
 ```csharp
 ref EventTypeSelection_t EventType { get; }
@@ -60,7 +60,7 @@ ref EventTypeSelection_t EventType { get; }
 
 ### ParticleConfig
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CreateParticleSystemRenderer.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CreateParticleSystemRenderer.cs#L24)
 
 ```csharp
 string ParticleConfig { get; set; }

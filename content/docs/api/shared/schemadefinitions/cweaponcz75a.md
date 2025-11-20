@@ -12,7 +12,7 @@ public interface CWeaponCZ75a : CCSWeaponBaseGun, CCSWeaponBase, CBasePlayerWeap
 
 ### MagazineRemoved
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CWeaponCZ75a.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CWeaponCZ75a.cs#L18)
 
 ```csharp
 ref bool MagazineRemoved { get; }
@@ -26,7 +26,7 @@ ref bool MagazineRemoved { get; }
 
 ### MagazineRemovedUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CWeaponCZ75a.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CWeaponCZ75a.cs#L20)
 
 ```csharp
 void MagazineRemovedUpdated()

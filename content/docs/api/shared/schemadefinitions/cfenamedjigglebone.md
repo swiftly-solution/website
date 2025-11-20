@@ -12,7 +12,7 @@ public interface CFeNamedJiggleBone : ISchemaClass<CFeNamedJiggleBone>, ISchemaF
 
 ### JiggleBone
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeNamedJiggleBone.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeNamedJiggleBone.cs#L24)
 
 ```csharp
 CFeJiggleBone JiggleBone { get; }
@@ -24,7 +24,7 @@ CFeJiggleBone JiggleBone { get; }
 
 ### JiggleParent
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeNamedJiggleBone.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeNamedJiggleBone.cs#L22)
 
 ```csharp
 ref uint JiggleParent { get; }
@@ -36,7 +36,7 @@ ref uint JiggleParent { get; }
 
 ### StrParentBone
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeNamedJiggleBone.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeNamedJiggleBone.cs#L18)
 
 ```csharp
 string StrParentBone { get; set; }
@@ -48,7 +48,7 @@ string StrParentBone { get; set; }
 
 ### Transform
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeNamedJiggleBone.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeNamedJiggleBone.cs#L20)
 
 ```csharp
 ref CTransform Transform { get; }

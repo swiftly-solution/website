@@ -12,7 +12,7 @@ public interface CNavVolumeBreadthFirstSearch : CNavVolumeCalculatedVector, CNav
 
 ### SearchDist
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavVolumeBreadthFirstSearch.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavVolumeBreadthFirstSearch.cs#L20)
 
 ```csharp
 ref float SearchDist { get; }
@@ -24,7 +24,7 @@ ref float SearchDist { get; }
 
 ### StartPos
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavVolumeBreadthFirstSearch.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavVolumeBreadthFirstSearch.cs#L18)
 
 ```csharp
 ref Vector StartPos { get; }

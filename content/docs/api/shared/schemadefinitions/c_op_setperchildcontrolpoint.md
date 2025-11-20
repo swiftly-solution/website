@@ -12,7 +12,7 @@ public interface C_OP_SetPerChildControlPoint : CParticleFunctionOperator, CPart
 
 ### ChildGroupID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetPerChildControlPoint.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetPerChildControlPoint.cs#L18)
 
 ```csharp
 ref int ChildGroupID { get; }
@@ -24,7 +24,7 @@ ref int ChildGroupID { get; }
 
 ### FirstControlPoint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetPerChildControlPoint.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetPerChildControlPoint.cs#L20)
 
 ```csharp
 ref int FirstControlPoint { get; }
@@ -36,7 +36,7 @@ ref int FirstControlPoint { get; }
 
 ### FirstSourcePoint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetPerChildControlPoint.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetPerChildControlPoint.cs#L26)
 
 ```csharp
 CParticleCollectionFloatInput FirstSourcePoint { get; }
@@ -48,7 +48,7 @@ CParticleCollectionFloatInput FirstSourcePoint { get; }
 
 ### NumBasedOnParticleCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetPerChildControlPoint.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetPerChildControlPoint.cs#L32)
 
 ```csharp
 ref bool NumBasedOnParticleCount { get; }
@@ -60,7 +60,7 @@ ref bool NumBasedOnParticleCount { get; }
 
 ### NumControlPoints
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetPerChildControlPoint.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetPerChildControlPoint.cs#L22)
 
 ```csharp
 ref int NumControlPoints { get; }
@@ -72,7 +72,7 @@ ref int NumControlPoints { get; }
 
 ### OrientationField
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetPerChildControlPoint.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetPerChildControlPoint.cs#L30)
 
 ```csharp
 ParticleAttributeIndex_t OrientationField { get; }
@@ -84,7 +84,7 @@ ParticleAttributeIndex_t OrientationField { get; }
 
 ### ParticleIncrement
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetPerChildControlPoint.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetPerChildControlPoint.cs#L24)
 
 ```csharp
 CParticleCollectionFloatInput ParticleIncrement { get; }
@@ -96,7 +96,7 @@ CParticleCollectionFloatInput ParticleIncrement { get; }
 
 ### SetOrientation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetPerChildControlPoint.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetPerChildControlPoint.cs#L28)
 
 ```csharp
 ref bool SetOrientation { get; }

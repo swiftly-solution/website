@@ -12,7 +12,7 @@ public interface C_OP_SnapshotRigidSkinToBones : CParticleFunctionOperator, CPar
 
 ### ControlPointNumber
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SnapshotRigidSkinToBones.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SnapshotRigidSkinToBones.cs#L22)
 
 ```csharp
 ref int ControlPointNumber { get; }
@@ -24,7 +24,7 @@ ref int ControlPointNumber { get; }
 
 ### TransformNormals
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SnapshotRigidSkinToBones.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SnapshotRigidSkinToBones.cs#L18)
 
 ```csharp
 ref bool TransformNormals { get; }
@@ -36,7 +36,7 @@ ref bool TransformNormals { get; }
 
 ### TransformRadii
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SnapshotRigidSkinToBones.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SnapshotRigidSkinToBones.cs#L20)
 
 ```csharp
 ref bool TransformRadii { get; }

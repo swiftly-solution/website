@@ -12,7 +12,7 @@ public interface CPulseCell_LimitCount__InstanceState_t : ISchemaClass<CPulseCel
 
 ### CurrentCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_LimitCount__InstanceState_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_LimitCount__InstanceState_t.cs#L18)
 
 ```csharp
 ref int CurrentCount { get; }

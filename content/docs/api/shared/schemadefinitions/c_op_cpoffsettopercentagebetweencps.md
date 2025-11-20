@@ -12,7 +12,7 @@ public interface C_OP_CPOffsetToPercentageBetweenCPs : CParticleFunctionOperator
 
 ### EndCP
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CPOffsetToPercentageBetweenCPs.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CPOffsetToPercentageBetweenCPs.cs#L26)
 
 ```csharp
 ref int EndCP { get; }
@@ -24,7 +24,7 @@ ref int EndCP { get; }
 
 ### InputBias
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CPOffsetToPercentageBetweenCPs.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CPOffsetToPercentageBetweenCPs.cs#L22)
 
 ```csharp
 ref float InputBias { get; }
@@ -36,7 +36,7 @@ ref float InputBias { get; }
 
 ### InputCP
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CPOffsetToPercentageBetweenCPs.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CPOffsetToPercentageBetweenCPs.cs#L32)
 
 ```csharp
 ref int InputCP { get; }
@@ -48,7 +48,7 @@ ref int InputCP { get; }
 
 ### InputMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CPOffsetToPercentageBetweenCPs.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CPOffsetToPercentageBetweenCPs.cs#L20)
 
 ```csharp
 ref float InputMax { get; }
@@ -60,7 +60,7 @@ ref float InputMax { get; }
 
 ### InputMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CPOffsetToPercentageBetweenCPs.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CPOffsetToPercentageBetweenCPs.cs#L18)
 
 ```csharp
 ref float InputMin { get; }
@@ -72,7 +72,7 @@ ref float InputMin { get; }
 
 ### Offset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CPOffsetToPercentageBetweenCPs.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CPOffsetToPercentageBetweenCPs.cs#L38)
 
 ```csharp
 ref Vector Offset { get; }
@@ -84,7 +84,7 @@ ref Vector Offset { get; }
 
 ### OffsetCP
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CPOffsetToPercentageBetweenCPs.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CPOffsetToPercentageBetweenCPs.cs#L28)
 
 ```csharp
 ref int OffsetCP { get; }
@@ -96,7 +96,7 @@ ref int OffsetCP { get; }
 
 ### OuputCP
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CPOffsetToPercentageBetweenCPs.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CPOffsetToPercentageBetweenCPs.cs#L30)
 
 ```csharp
 ref int OuputCP { get; }
@@ -108,7 +108,7 @@ ref int OuputCP { get; }
 
 ### RadialCheck
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CPOffsetToPercentageBetweenCPs.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CPOffsetToPercentageBetweenCPs.cs#L34)
 
 ```csharp
 ref bool RadialCheck { get; }
@@ -120,7 +120,7 @@ ref bool RadialCheck { get; }
 
 ### ScaleOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CPOffsetToPercentageBetweenCPs.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CPOffsetToPercentageBetweenCPs.cs#L36)
 
 ```csharp
 ref bool ScaleOffset { get; }
@@ -132,7 +132,7 @@ ref bool ScaleOffset { get; }
 
 ### StartCP
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CPOffsetToPercentageBetweenCPs.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CPOffsetToPercentageBetweenCPs.cs#L24)
 
 ```csharp
 ref int StartCP { get; }

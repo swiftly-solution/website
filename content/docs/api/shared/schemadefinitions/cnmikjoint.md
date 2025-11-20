@@ -12,7 +12,7 @@ public interface CNmIKJoint : ISchemaClass<CNmIKJoint>, ISchemaField, ISchemaCla
 
 ### BodyIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKJoint.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKJoint.cs#L20)
 
 ```csharp
 ref int BodyIndex { get; }
@@ -24,7 +24,7 @@ ref int BodyIndex { get; }
 
 ### MaxTwistLimit
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKJoint.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKJoint.cs#L28)
 
 ```csharp
 ref float MaxTwistLimit { get; }
@@ -36,7 +36,7 @@ ref float MaxTwistLimit { get; }
 
 ### MinTwistLimit
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKJoint.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKJoint.cs#L26)
 
 ```csharp
 ref float MinTwistLimit { get; }
@@ -48,7 +48,7 @@ ref float MinTwistLimit { get; }
 
 ### ParentIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKJoint.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKJoint.cs#L18)
 
 ```csharp
 ref int ParentIndex { get; }
@@ -60,7 +60,7 @@ ref int ParentIndex { get; }
 
 ### SwingLimit
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKJoint.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKJoint.cs#L24)
 
 ```csharp
 ref float SwingLimit { get; }
@@ -72,7 +72,7 @@ ref float SwingLimit { get; }
 
 ### Weight
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKJoint.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKJoint.cs#L30)
 
 ```csharp
 ref float Weight { get; }
@@ -84,7 +84,7 @@ ref float Weight { get; }
 
 ### XLocalFrame
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKJoint.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKJoint.cs#L22)
 
 ```csharp
 ref CTransform XLocalFrame { get; }

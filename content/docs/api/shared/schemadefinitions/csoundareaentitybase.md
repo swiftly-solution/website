@@ -12,7 +12,7 @@ public interface CSoundAreaEntityBase : CBaseEntity, CEntityInstance, ISchemaCla
 
 ### Disabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundAreaEntityBase.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundAreaEntityBase.cs#L18)
 
 ```csharp
 ref bool Disabled { get; }
@@ -24,7 +24,7 @@ ref bool Disabled { get; }
 
 ### Pos
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundAreaEntityBase.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundAreaEntityBase.cs#L22)
 
 ```csharp
 ref Vector Pos { get; }
@@ -36,7 +36,7 @@ ref Vector Pos { get; }
 
 ### SoundAreaType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundAreaEntityBase.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundAreaEntityBase.cs#L20)
 
 ```csharp
 string SoundAreaType { get; set; }
@@ -50,7 +50,7 @@ string SoundAreaType { get; set; }
 
 ### DisabledUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundAreaEntityBase.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundAreaEntityBase.cs#L24)
 
 ```csharp
 void DisabledUpdated()
@@ -58,7 +58,7 @@ void DisabledUpdated()
 
 ### PosUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundAreaEntityBase.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundAreaEntityBase.cs#L26)
 
 ```csharp
 void PosUpdated()
@@ -66,7 +66,7 @@ void PosUpdated()
 
 ### SoundAreaTypeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundAreaEntityBase.cs#L24)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundAreaEntityBase.cs#L25)
 
 ```csharp
 void SoundAreaTypeUpdated()

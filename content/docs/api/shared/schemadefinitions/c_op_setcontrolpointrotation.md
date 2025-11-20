@@ -12,7 +12,7 @@ public interface C_OP_SetControlPointRotation : CParticleFunctionPreEmission, CP
 
 ### CP
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointRotation.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointRotation.cs#L22)
 
 ```csharp
 ref int CP { get; }
@@ -24,7 +24,7 @@ ref int CP { get; }
 
 ### LocalCP
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointRotation.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointRotation.cs#L24)
 
 ```csharp
 ref int LocalCP { get; }
@@ -36,7 +36,7 @@ ref int LocalCP { get; }
 
 ### RotAxis
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointRotation.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointRotation.cs#L18)
 
 ```csharp
 CParticleCollectionVecInput RotAxis { get; }
@@ -48,7 +48,7 @@ CParticleCollectionVecInput RotAxis { get; }
 
 ### RotRate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointRotation.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointRotation.cs#L20)
 
 ```csharp
 CParticleCollectionFloatInput RotRate { get; }

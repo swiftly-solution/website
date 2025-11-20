@@ -12,7 +12,7 @@ public interface C_OP_RemapCPtoScalar : CParticleFunctionOperator, CParticleFunc
 
 ### CPInput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoScalar.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoScalar.cs#L18)
 
 ```csharp
 ref int CPInput { get; }
@@ -24,7 +24,7 @@ ref int CPInput { get; }
 
 ### EndTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoScalar.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoScalar.cs#L34)
 
 ```csharp
 ref float EndTime { get; }
@@ -36,7 +36,7 @@ ref float EndTime { get; }
 
 ### Field
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoScalar.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoScalar.cs#L22)
 
 ```csharp
 ref int Field { get; }
@@ -48,7 +48,7 @@ ref int Field { get; }
 
 ### FieldOutput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoScalar.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoScalar.cs#L20)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -60,7 +60,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 ### InputMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoScalar.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoScalar.cs#L26)
 
 ```csharp
 ref float InputMax { get; }
@@ -72,7 +72,7 @@ ref float InputMax { get; }
 
 ### InputMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoScalar.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoScalar.cs#L24)
 
 ```csharp
 ref float InputMin { get; }
@@ -84,7 +84,7 @@ ref float InputMin { get; }
 
 ### InterpRate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoScalar.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoScalar.cs#L36)
 
 ```csharp
 ref float InterpRate { get; }
@@ -96,7 +96,7 @@ ref float InterpRate { get; }
 
 ### OutputMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoScalar.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoScalar.cs#L30)
 
 ```csharp
 ref float OutputMax { get; }
@@ -108,7 +108,7 @@ ref float OutputMax { get; }
 
 ### OutputMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoScalar.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoScalar.cs#L28)
 
 ```csharp
 ref float OutputMin { get; }
@@ -120,7 +120,7 @@ ref float OutputMin { get; }
 
 ### SetMethod
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoScalar.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoScalar.cs#L38)
 
 ```csharp
 ref ParticleSetMethod_t SetMethod { get; }
@@ -132,7 +132,7 @@ ref ParticleSetMethod_t SetMethod { get; }
 
 ### StartTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoScalar.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoScalar.cs#L32)
 
 ```csharp
 ref float StartTime { get; }

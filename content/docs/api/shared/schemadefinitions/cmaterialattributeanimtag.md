@@ -12,7 +12,7 @@ public interface CMaterialAttributeAnimTag : CAnimTagBase, ISchemaClass<CAnimTag
 
 ### AttributeName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialAttributeAnimTag.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialAttributeAnimTag.cs#L18)
 
 ```csharp
 string AttributeName { get; set; }
@@ -24,7 +24,7 @@ string AttributeName { get; set; }
 
 ### AttributeType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialAttributeAnimTag.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialAttributeAnimTag.cs#L20)
 
 ```csharp
 ref MatterialAttributeTagType_t AttributeType { get; }
@@ -36,7 +36,7 @@ ref MatterialAttributeTagType_t AttributeType { get; }
 
 ### Color
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialAttributeAnimTag.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialAttributeAnimTag.cs#L24)
 
 ```csharp
 ref Color Color { get; }
@@ -48,7 +48,7 @@ ref Color Color { get; }
 
 ### Value
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialAttributeAnimTag.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialAttributeAnimTag.cs#L22)
 
 ```csharp
 ref float Value { get; }

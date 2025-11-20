@@ -12,7 +12,7 @@ public interface C_INIT_PointList : CParticleFunctionInitializer, CParticleFunct
 
 ### ClosedLoop
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PointList.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PointList.cs#L24)
 
 ```csharp
 ref bool ClosedLoop { get; }
@@ -24,7 +24,7 @@ ref bool ClosedLoop { get; }
 
 ### FieldOutput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PointList.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PointList.cs#L18)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -36,7 +36,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 ### NumPointsAlongPath
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PointList.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PointList.cs#L26)
 
 ```csharp
 ref int NumPointsAlongPath { get; }
@@ -48,7 +48,7 @@ ref int NumPointsAlongPath { get; }
 
 ### PlaceAlongPath
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PointList.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PointList.cs#L22)
 
 ```csharp
 ref bool PlaceAlongPath { get; }
@@ -60,7 +60,7 @@ ref bool PlaceAlongPath { get; }
 
 ### PointList
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PointList.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PointList.cs#L20)
 
 ```csharp
 ref CUtlVector<PointDefinition_t> PointList { get; }

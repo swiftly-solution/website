@@ -12,7 +12,7 @@ public interface C_OP_RenderScreenShake : CParticleFunctionRenderer, CParticleFu
 
 ### AmplitudeField
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderScreenShake.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderScreenShake.cs#L32)
 
 ```csharp
 ParticleAttributeIndex_t AmplitudeField { get; }
@@ -24,7 +24,7 @@ ParticleAttributeIndex_t AmplitudeField { get; }
 
 ### AmplitudeScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderScreenShake.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderScreenShake.cs#L24)
 
 ```csharp
 ref float AmplitudeScale { get; }
@@ -36,7 +36,7 @@ ref float AmplitudeScale { get; }
 
 ### DurationField
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderScreenShake.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderScreenShake.cs#L28)
 
 ```csharp
 ParticleAttributeIndex_t DurationField { get; }
@@ -48,7 +48,7 @@ ParticleAttributeIndex_t DurationField { get; }
 
 ### DurationScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderScreenShake.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderScreenShake.cs#L18)
 
 ```csharp
 ref float DurationScale { get; }
@@ -60,7 +60,7 @@ ref float DurationScale { get; }
 
 ### FilterCP
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderScreenShake.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderScreenShake.cs#L34)
 
 ```csharp
 ref int FilterCP { get; }
@@ -72,7 +72,7 @@ ref int FilterCP { get; }
 
 ### FrequencyField
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderScreenShake.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderScreenShake.cs#L30)
 
 ```csharp
 ParticleAttributeIndex_t FrequencyField { get; }
@@ -84,7 +84,7 @@ ParticleAttributeIndex_t FrequencyField { get; }
 
 ### FrequencyScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderScreenShake.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderScreenShake.cs#L22)
 
 ```csharp
 ref float FrequencyScale { get; }
@@ -96,7 +96,7 @@ ref float FrequencyScale { get; }
 
 ### RadiusField
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderScreenShake.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderScreenShake.cs#L26)
 
 ```csharp
 ParticleAttributeIndex_t RadiusField { get; }
@@ -108,7 +108,7 @@ ParticleAttributeIndex_t RadiusField { get; }
 
 ### RadiusScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderScreenShake.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderScreenShake.cs#L20)
 
 ```csharp
 ref float RadiusScale { get; }

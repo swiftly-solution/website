@@ -12,7 +12,7 @@ public interface CEnvSoundscape : CBaseEntity, CEntityInstance, ISchemaClass<CEn
 
 ### Disabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSoundscape.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSoundscape.cs#L34)
 
 ```csharp
 ref bool Disabled { get; }
@@ -24,7 +24,7 @@ ref bool Disabled { get; }
 
 ### OnPlay
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSoundscape.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSoundscape.cs#L18)
 
 ```csharp
 CEntityIOOutput OnPlay { get; }
@@ -36,7 +36,7 @@ CEntityIOOutput OnPlay { get; }
 
 ### OverrideWithEvent
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSoundscape.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSoundscape.cs#L24)
 
 ```csharp
 ref bool OverrideWithEvent { get; }
@@ -48,7 +48,7 @@ ref bool OverrideWithEvent { get; }
 
 ### PositionNames
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSoundscape.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSoundscape.cs#L30)
 
 ```csharp
 string PositionNames { get; set; }
@@ -60,7 +60,7 @@ string PositionNames { get; set; }
 
 ### ProxySoundscape
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSoundscape.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSoundscape.cs#L32)
 
 ```csharp
 ref CHandle<CEnvSoundscape> ProxySoundscape { get; }
@@ -72,7 +72,7 @@ ref CHandle<CEnvSoundscape> ProxySoundscape { get; }
 
 ### Radius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSoundscape.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSoundscape.cs#L20)
 
 ```csharp
 ref float Radius { get; }
@@ -84,7 +84,7 @@ ref float Radius { get; }
 
 ### SoundEventHash
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSoundscape.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSoundscape.cs#L38)
 
 ```csharp
 ref uint SoundEventHash { get; }
@@ -96,7 +96,7 @@ ref uint SoundEventHash { get; }
 
 ### SoundEventName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSoundscape.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSoundscape.cs#L22)
 
 ```csharp
 string SoundEventName { get; set; }
@@ -108,7 +108,7 @@ string SoundEventName { get; set; }
 
 ### SoundscapeEntityListId
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSoundscape.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSoundscape.cs#L28)
 
 ```csharp
 ref int SoundscapeEntityListId { get; }
@@ -120,7 +120,7 @@ ref int SoundscapeEntityListId { get; }
 
 ### SoundscapeIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSoundscape.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSoundscape.cs#L26)
 
 ```csharp
 ref int SoundscapeIndex { get; }
@@ -132,7 +132,7 @@ ref int SoundscapeIndex { get; }
 
 ### SoundscapeName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSoundscape.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSoundscape.cs#L36)
 
 ```csharp
 string SoundscapeName { get; set; }

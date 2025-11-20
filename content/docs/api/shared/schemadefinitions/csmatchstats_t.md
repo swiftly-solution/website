@@ -12,7 +12,7 @@ public interface CSMatchStats_t : CSPerRoundStats_t, ISchemaClass<CSPerRoundStat
 
 ### Enemy2Ks
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L28)
 
 ```csharp
 ref int Enemy2Ks { get; }
@@ -24,7 +24,7 @@ ref int Enemy2Ks { get; }
 
 ### Enemy3Ks
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L22)
 
 ```csharp
 ref int Enemy3Ks { get; }
@@ -36,7 +36,7 @@ ref int Enemy3Ks { get; }
 
 ### Enemy4Ks
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L20)
 
 ```csharp
 ref int Enemy4Ks { get; }
@@ -48,7 +48,7 @@ ref int Enemy4Ks { get; }
 
 ### Enemy5Ks
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L18)
 
 ```csharp
 ref int Enemy5Ks { get; }
@@ -60,7 +60,7 @@ ref int Enemy5Ks { get; }
 
 ### EnemyKnifeKills
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L24)
 
 ```csharp
 ref int EnemyKnifeKills { get; }
@@ -72,7 +72,7 @@ ref int EnemyKnifeKills { get; }
 
 ### EnemyTaserKills
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L26)
 
 ```csharp
 ref int EnemyTaserKills { get; }
@@ -84,7 +84,7 @@ ref int EnemyTaserKills { get; }
 
 ### EntryCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L56)
 
 ```csharp
 ref int EntryCount { get; }
@@ -96,7 +96,7 @@ ref int EntryCount { get; }
 
 ### EntryWins
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L58)
 
 ```csharp
 ref int EntryWins { get; }
@@ -108,7 +108,7 @@ ref int EntryWins { get; }
 
 ### Flash_Count
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L36)
 
 ```csharp
 ref int Flash_Count { get; }
@@ -120,7 +120,7 @@ ref int Flash_Count { get; }
 
 ### Flash_Successes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L38)
 
 ```csharp
 ref int Flash_Successes { get; }
@@ -132,7 +132,7 @@ ref int Flash_Successes { get; }
 
 ### HealthPointsDealtTotal
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L42)
 
 ```csharp
 ref float HealthPointsDealtTotal { get; }
@@ -144,7 +144,7 @@ ref float HealthPointsDealtTotal { get; }
 
 ### HealthPointsRemovedTotal
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L40)
 
 ```csharp
 ref float HealthPointsRemovedTotal { get; }
@@ -156,7 +156,7 @@ ref float HealthPointsRemovedTotal { get; }
 
 ### I1v1Count
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L48)
 
 ```csharp
 ref int I1v1Count { get; }
@@ -168,7 +168,7 @@ ref int I1v1Count { get; }
 
 ### I1v1Wins
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L50)
 
 ```csharp
 ref int I1v1Wins { get; }
@@ -180,7 +180,7 @@ ref int I1v1Wins { get; }
 
 ### I1v2Count
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L52)
 
 ```csharp
 ref int I1v2Count { get; }
@@ -192,7 +192,7 @@ ref int I1v2Count { get; }
 
 ### I1v2Wins
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L54)
 
 ```csharp
 ref int I1v2Wins { get; }
@@ -204,7 +204,7 @@ ref int I1v2Wins { get; }
 
 ### ShotsFiredTotal
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L44)
 
 ```csharp
 ref int ShotsFiredTotal { get; }
@@ -216,7 +216,7 @@ ref int ShotsFiredTotal { get; }
 
 ### ShotsOnTargetTotal
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L46)
 
 ```csharp
 ref int ShotsOnTargetTotal { get; }
@@ -228,7 +228,7 @@ ref int ShotsOnTargetTotal { get; }
 
 ### Utility_Count
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L30)
 
 ```csharp
 ref int Utility_Count { get; }
@@ -240,7 +240,7 @@ ref int Utility_Count { get; }
 
 ### Utility_Enemies
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L34)
 
 ```csharp
 ref int Utility_Enemies { get; }
@@ -252,7 +252,7 @@ ref int Utility_Enemies { get; }
 
 ### Utility_Successes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L32)
 
 ```csharp
 ref int Utility_Successes { get; }
@@ -266,7 +266,7 @@ ref int Utility_Successes { get; }
 
 ### Enemy3KsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L62)
 
 ```csharp
 void Enemy3KsUpdated()
@@ -274,7 +274,7 @@ void Enemy3KsUpdated()
 
 ### Enemy4KsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L60)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L61)
 
 ```csharp
 void Enemy4KsUpdated()
@@ -282,7 +282,7 @@ void Enemy4KsUpdated()
 
 ### Enemy5KsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L60)
 
 ```csharp
 void Enemy5KsUpdated()
@@ -290,7 +290,7 @@ void Enemy5KsUpdated()
 
 ### EnemyKnifeKillsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L62)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L63)
 
 ```csharp
 void EnemyKnifeKillsUpdated()
@@ -298,7 +298,7 @@ void EnemyKnifeKillsUpdated()
 
 ### EnemyTaserKillsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L64)
 
 ```csharp
 void EnemyTaserKillsUpdated()

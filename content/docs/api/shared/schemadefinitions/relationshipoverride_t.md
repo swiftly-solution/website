@@ -12,7 +12,7 @@ public interface RelationshipOverride_t : Relationship_t, ISchemaClass<Relations
 
 ### ClassType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RelationshipOverride_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RelationshipOverride_t.cs#L20)
 
 ```csharp
 ref Class_T ClassType { get; }
@@ -24,7 +24,7 @@ ref Class_T ClassType { get; }
 
 ### Entity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RelationshipOverride_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RelationshipOverride_t.cs#L18)
 
 ```csharp
 ref CHandle<CBaseEntity> Entity { get; }

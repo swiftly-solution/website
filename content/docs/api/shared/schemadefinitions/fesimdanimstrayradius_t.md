@@ -12,7 +12,7 @@ public interface FeSimdAnimStrayRadius_t : ISchemaClass<FeSimdAnimStrayRadius_t>
 
 ### MaxDist
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeSimdAnimStrayRadius_t.cs#L20)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeSimdAnimStrayRadius_t.cs#L21)
 
 ```csharp
 ref fltx4 MaxDist { get; }
@@ -24,7 +24,7 @@ ref fltx4 MaxDist { get; }
 
 ### Node
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeSimdAnimStrayRadius_t.cs#L18)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeSimdAnimStrayRadius_t.cs#L19)
 
 ```csharp
 SchemaUntypedField Node { get; }
@@ -36,7 +36,7 @@ SchemaUntypedField Node { get; }
 
 ### RelaxationFactor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeSimdAnimStrayRadius_t.cs#L22)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeSimdAnimStrayRadius_t.cs#L23)
 
 ```csharp
 ref fltx4 RelaxationFactor { get; }

@@ -12,7 +12,7 @@ public interface C_OP_SetVec : CParticleFunctionOperator, CParticleFunction, ISc
 
 ### InputValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetVec.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetVec.cs#L18)
 
 ```csharp
 CPerParticleVecInput InputValue { get; }
@@ -24,7 +24,7 @@ CPerParticleVecInput InputValue { get; }
 
 ### Lerp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetVec.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetVec.cs#L24)
 
 ```csharp
 CPerParticleFloatInput Lerp { get; }
@@ -36,7 +36,7 @@ CPerParticleFloatInput Lerp { get; }
 
 ### NormalizedOutput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetVec.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetVec.cs#L26)
 
 ```csharp
 ref bool NormalizedOutput { get; }
@@ -48,7 +48,7 @@ ref bool NormalizedOutput { get; }
 
 ### OutputField
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetVec.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetVec.cs#L20)
 
 ```csharp
 ParticleAttributeIndex_t OutputField { get; }
@@ -60,7 +60,7 @@ ParticleAttributeIndex_t OutputField { get; }
 
 ### SetMethod
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetVec.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetVec.cs#L22)
 
 ```csharp
 ref ParticleSetMethod_t SetMethod { get; }

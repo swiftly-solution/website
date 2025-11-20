@@ -12,7 +12,7 @@ public interface CPathMetricEvaluator : CMotionMetricEvaluator, ISchemaClass<CMo
 
 ### Distance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathMetricEvaluator.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathMetricEvaluator.cs#L20)
 
 ```csharp
 ref float Distance { get; }
@@ -24,7 +24,7 @@ ref float Distance { get; }
 
 ### ExtrapolateMovement
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathMetricEvaluator.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathMetricEvaluator.cs#L22)
 
 ```csharp
 ref bool ExtrapolateMovement { get; }
@@ -36,7 +36,7 @@ ref bool ExtrapolateMovement { get; }
 
 ### MinExtrapolationSpeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathMetricEvaluator.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathMetricEvaluator.cs#L24)
 
 ```csharp
 ref float MinExtrapolationSpeed { get; }
@@ -48,7 +48,7 @@ ref float MinExtrapolationSpeed { get; }
 
 ### PathTimeSamples
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathMetricEvaluator.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathMetricEvaluator.cs#L18)
 
 ```csharp
 ref CUtlVector<float> PathTimeSamples { get; }

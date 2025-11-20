@@ -12,7 +12,7 @@ public interface CBaseButton : CBaseToggle, CBaseModelEntity, CBaseEntity, CEnti
 
 ### Constraint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L54)
 
 ```csharp
 ref CHandle<CEntityInstance> Constraint { get; }
@@ -24,7 +24,7 @@ ref CHandle<CEntityInstance> Constraint { get; }
 
 ### ConstraintParent
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L56)
 
 ```csharp
 ref CHandle<CEntityInstance> ConstraintParent { get; }
@@ -36,7 +36,7 @@ ref CHandle<CEntityInstance> ConstraintParent { get; }
 
 ### Disabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L36)
 
 ```csharp
 ref bool Disabled { get; }
@@ -48,7 +48,7 @@ ref bool Disabled { get; }
 
 ### DisplayText
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L65)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L66)
 
 ```csharp
 string DisplayText { get; set; }
@@ -60,7 +60,7 @@ string DisplayText { get; set; }
 
 ### ForceNpcExclude
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L58)
 
 ```csharp
 ref bool ForceNpcExclude { get; }
@@ -72,7 +72,7 @@ ref bool ForceNpcExclude { get; }
 
 ### GlowEntity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L60)
 
 ```csharp
 string GlowEntity { get; set; }
@@ -84,7 +84,7 @@ string GlowEntity { get; set; }
 
 ### GlowEntity1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L62)
 
 ```csharp
 ref CHandle<CBaseModelEntity> GlowEntity1 { get; }
@@ -96,7 +96,7 @@ ref CHandle<CBaseModelEntity> GlowEntity1 { get; }
 
 ### Locked
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L34)
 
 ```csharp
 ref bool Locked { get; }
@@ -108,7 +108,7 @@ ref bool Locked { get; }
 
 ### LockedSound
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L28)
 
 ```csharp
 string LockedSound { get; set; }
@@ -120,7 +120,7 @@ string LockedSound { get; set; }
 
 ### Ls
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L24)
 
 ```csharp
 locksound_t Ls { get; }
@@ -132,7 +132,7 @@ locksound_t Ls { get; }
 
 ### MoveEntitySpace
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L18)
 
 ```csharp
 ref QAngle MoveEntitySpace { get; }
@@ -144,7 +144,7 @@ ref QAngle MoveEntitySpace { get; }
 
 ### OnDamaged
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L42)
 
 ```csharp
 CEntityIOOutput OnDamaged { get; }
@@ -156,7 +156,7 @@ CEntityIOOutput OnDamaged { get; }
 
 ### OnIn
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L48)
 
 ```csharp
 CEntityIOOutput OnIn { get; }
@@ -168,7 +168,7 @@ CEntityIOOutput OnIn { get; }
 
 ### OnOut
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L50)
 
 ```csharp
 CEntityIOOutput OnOut { get; }
@@ -180,7 +180,7 @@ CEntityIOOutput OnOut { get; }
 
 ### OnPressed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L44)
 
 ```csharp
 CEntityIOOutput OnPressed { get; }
@@ -192,7 +192,7 @@ CEntityIOOutput OnPressed { get; }
 
 ### OnUseLocked
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L46)
 
 ```csharp
 CEntityIOOutput OnUseLocked { get; }
@@ -204,7 +204,7 @@ CEntityIOOutput OnUseLocked { get; }
 
 ### OverrideAnticipationName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L32)
 
 ```csharp
 string OverrideAnticipationName { get; set; }
@@ -216,7 +216,7 @@ string OverrideAnticipationName { get; set; }
 
 ### Rotating
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L22)
 
 ```csharp
 ref bool Rotating { get; }
@@ -228,7 +228,7 @@ ref bool Rotating { get; }
 
 ### SolidBsp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L40)
 
 ```csharp
 ref bool SolidBsp { get; }
@@ -240,7 +240,7 @@ ref bool SolidBsp { get; }
 
 ### State
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L52)
 
 ```csharp
 ref int State { get; }
@@ -252,7 +252,7 @@ ref int State { get; }
 
 ### StayPushed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L20)
 
 ```csharp
 ref bool StayPushed { get; }
@@ -264,7 +264,7 @@ ref bool StayPushed { get; }
 
 ### UnlockedSound
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L30)
 
 ```csharp
 string UnlockedSound { get; set; }
@@ -276,7 +276,7 @@ string UnlockedSound { get; set; }
 
 ### Usable
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L64)
 
 ```csharp
 ref bool Usable { get; }
@@ -288,7 +288,7 @@ ref bool Usable { get; }
 
 ### UseLockedTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L38)
 
 ```csharp
 GameTime_t UseLockedTime { get; }
@@ -300,7 +300,7 @@ GameTime_t UseLockedTime { get; }
 
 ### UseSound
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L26)
 
 ```csharp
 string UseSound { get; set; }
@@ -314,7 +314,7 @@ string UseSound { get; set; }
 
 ### DisplayTextUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L69)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L70)
 
 ```csharp
 void DisplayTextUpdated()
@@ -322,7 +322,7 @@ void DisplayTextUpdated()
 
 ### GlowEntity1Updated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L67)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L68)
 
 ```csharp
 void GlowEntity1Updated()
@@ -330,7 +330,7 @@ void GlowEntity1Updated()
 
 ### UsableUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L68)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseButton.cs#L69)
 
 ```csharp
 void UsableUpdated()

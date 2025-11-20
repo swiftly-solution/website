@@ -12,7 +12,7 @@ public interface CGameGibManager : CBaseEntity, CEntityInstance, ISchemaClass<CE
 
 ### AllowNewGibs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameGibManager.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameGibManager.cs#L18)
 
 ```csharp
 ref bool AllowNewGibs { get; }
@@ -24,7 +24,7 @@ ref bool AllowNewGibs { get; }
 
 ### CurrentMaxPieces
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameGibManager.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameGibManager.cs#L20)
 
 ```csharp
 ref int CurrentMaxPieces { get; }
@@ -36,7 +36,7 @@ ref int CurrentMaxPieces { get; }
 
 ### LastFrame
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameGibManager.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameGibManager.cs#L24)
 
 ```csharp
 ref int LastFrame { get; }
@@ -48,7 +48,7 @@ ref int LastFrame { get; }
 
 ### MaxPieces
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameGibManager.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameGibManager.cs#L22)
 
 ```csharp
 ref int MaxPieces { get; }

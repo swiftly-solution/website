@@ -12,7 +12,7 @@ public interface C_OP_MovementMoveAlongSkinnedCPSnapshot : CParticleFunctionOper
 
 ### ControlPointNumber
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementMoveAlongSkinnedCPSnapshot.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementMoveAlongSkinnedCPSnapshot.cs#L18)
 
 ```csharp
 ref int ControlPointNumber { get; }
@@ -24,7 +24,7 @@ ref int ControlPointNumber { get; }
 
 ### Interpolation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementMoveAlongSkinnedCPSnapshot.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementMoveAlongSkinnedCPSnapshot.cs#L26)
 
 ```csharp
 CPerParticleFloatInput Interpolation { get; }
@@ -36,7 +36,7 @@ CPerParticleFloatInput Interpolation { get; }
 
 ### SetNormal
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementMoveAlongSkinnedCPSnapshot.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementMoveAlongSkinnedCPSnapshot.cs#L22)
 
 ```csharp
 ref bool SetNormal { get; }
@@ -48,7 +48,7 @@ ref bool SetNormal { get; }
 
 ### SetRadius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementMoveAlongSkinnedCPSnapshot.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementMoveAlongSkinnedCPSnapshot.cs#L24)
 
 ```csharp
 ref bool SetRadius { get; }
@@ -60,7 +60,7 @@ ref bool SetRadius { get; }
 
 ### SnapshotControlPointNumber
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementMoveAlongSkinnedCPSnapshot.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementMoveAlongSkinnedCPSnapshot.cs#L20)
 
 ```csharp
 ref int SnapshotControlPointNumber { get; }
@@ -72,7 +72,7 @@ ref int SnapshotControlPointNumber { get; }
 
 ### TValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementMoveAlongSkinnedCPSnapshot.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementMoveAlongSkinnedCPSnapshot.cs#L28)
 
 ```csharp
 CPerParticleFloatInput TValue { get; }

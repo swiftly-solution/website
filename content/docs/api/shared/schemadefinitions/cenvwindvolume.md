@@ -12,7 +12,7 @@ public interface CEnvWindVolume : CBaseEntity, CEntityInstance, ISchemaClass<CEn
 
 ### Active
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindVolume.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindVolume.cs#L18)
 
 ```csharp
 ref bool Active { get; }
@@ -24,7 +24,7 @@ ref bool Active { get; }
 
 ### BoxMaxs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindVolume.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindVolume.cs#L22)
 
 ```csharp
 ref Vector BoxMaxs { get; }
@@ -36,7 +36,7 @@ ref Vector BoxMaxs { get; }
 
 ### BoxMins
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindVolume.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindVolume.cs#L20)
 
 ```csharp
 ref Vector BoxMins { get; }
@@ -48,7 +48,7 @@ ref Vector BoxMins { get; }
 
 ### Shape
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindVolume.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindVolume.cs#L26)
 
 ```csharp
 ref int Shape { get; }
@@ -60,7 +60,7 @@ ref int Shape { get; }
 
 ### StartDisabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindVolume.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindVolume.cs#L24)
 
 ```csharp
 ref bool StartDisabled { get; }
@@ -72,7 +72,7 @@ ref bool StartDisabled { get; }
 
 ### WindDirectionVariationMultiplier
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindVolume.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindVolume.cs#L34)
 
 ```csharp
 ref float WindDirectionVariationMultiplier { get; }
@@ -84,7 +84,7 @@ ref float WindDirectionVariationMultiplier { get; }
 
 ### WindSpeedMultiplier
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindVolume.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindVolume.cs#L28)
 
 ```csharp
 ref float WindSpeedMultiplier { get; }
@@ -96,7 +96,7 @@ ref float WindSpeedMultiplier { get; }
 
 ### WindSpeedVariationMultiplier
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindVolume.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindVolume.cs#L32)
 
 ```csharp
 ref float WindSpeedVariationMultiplier { get; }
@@ -108,7 +108,7 @@ ref float WindSpeedVariationMultiplier { get; }
 
 ### WindTurbulenceMultiplier
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindVolume.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindVolume.cs#L30)
 
 ```csharp
 ref float WindTurbulenceMultiplier { get; }
@@ -122,7 +122,7 @@ ref float WindTurbulenceMultiplier { get; }
 
 ### ActiveUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindVolume.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindVolume.cs#L36)
 
 ```csharp
 void ActiveUpdated()
@@ -130,7 +130,7 @@ void ActiveUpdated()
 
 ### BoxMaxsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindVolume.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindVolume.cs#L38)
 
 ```csharp
 void BoxMaxsUpdated()
@@ -138,7 +138,7 @@ void BoxMaxsUpdated()
 
 ### BoxMinsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindVolume.cs#L36)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindVolume.cs#L37)
 
 ```csharp
 void BoxMinsUpdated()
@@ -146,7 +146,7 @@ void BoxMinsUpdated()
 
 ### ShapeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindVolume.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindVolume.cs#L40)
 
 ```csharp
 void ShapeUpdated()
@@ -154,7 +154,7 @@ void ShapeUpdated()
 
 ### StartDisabledUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindVolume.cs#L38)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindVolume.cs#L39)
 
 ```csharp
 void StartDisabledUpdated()
@@ -162,7 +162,7 @@ void StartDisabledUpdated()
 
 ### WindDirectionVariationMultiplierUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindVolume.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindVolume.cs#L44)
 
 ```csharp
 void WindDirectionVariationMultiplierUpdated()
@@ -170,7 +170,7 @@ void WindDirectionVariationMultiplierUpdated()
 
 ### WindSpeedMultiplierUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindVolume.cs#L40)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindVolume.cs#L41)
 
 ```csharp
 void WindSpeedMultiplierUpdated()
@@ -178,7 +178,7 @@ void WindSpeedMultiplierUpdated()
 
 ### WindSpeedVariationMultiplierUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindVolume.cs#L42)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindVolume.cs#L43)
 
 ```csharp
 void WindSpeedVariationMultiplierUpdated()
@@ -186,7 +186,7 @@ void WindSpeedVariationMultiplierUpdated()
 
 ### WindTurbulenceMultiplierUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindVolume.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindVolume.cs#L42)
 
 ```csharp
 void WindTurbulenceMultiplierUpdated()

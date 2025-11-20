@@ -12,7 +12,7 @@ public interface CBoneConstraintRbf : CBoneConstraintBase, ISchemaClass<CBoneCon
 
 ### InputBones
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneConstraintRbf.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneConstraintRbf.cs#L18)
 
 ```csharp
 ref CUtlVector<SchemaUntypedField> InputBones { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<SchemaUntypedField> InputBones { get; }
 
 ### OutputBones
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneConstraintRbf.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneConstraintRbf.cs#L20)
 
 ```csharp
 ref CUtlVector<SchemaUntypedField> OutputBones { get; }

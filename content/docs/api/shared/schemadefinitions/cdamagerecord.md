@@ -12,7 +12,7 @@ public interface CDamageRecord : ISchemaClass<CDamageRecord>, ISchemaField, ISch
 
 ### ActualHealthRemoved
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L38)
 
 ```csharp
 ref float ActualHealthRemoved { get; }
@@ -24,7 +24,7 @@ ref float ActualHealthRemoved { get; }
 
 ### BulletsDamage
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L34)
 
 ```csharp
 ref float BulletsDamage { get; }
@@ -36,7 +36,7 @@ ref float BulletsDamage { get; }
 
 ### Damage
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L36)
 
 ```csharp
 ref float Damage { get; }
@@ -48,7 +48,7 @@ ref float Damage { get; }
 
 ### DamagerXuid
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L30)
 
 ```csharp
 ref ulong DamagerXuid { get; }
@@ -60,7 +60,7 @@ ref ulong DamagerXuid { get; }
 
 ### IsOtherEnemy
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L44)
 
 ```csharp
 ref bool IsOtherEnemy { get; }
@@ -72,7 +72,7 @@ ref bool IsOtherEnemy { get; }
 
 ### KillType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L46)
 
 ```csharp
 ref EKillTypes_t KillType { get; }
@@ -84,7 +84,7 @@ ref EKillTypes_t KillType { get; }
 
 ### LastBulletUpdate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L42)
 
 ```csharp
 ref int LastBulletUpdate { get; }
@@ -96,7 +96,7 @@ ref int LastBulletUpdate { get; }
 
 ### NumHits
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L40)
 
 ```csharp
 ref int NumHits { get; }
@@ -108,7 +108,7 @@ ref int NumHits { get; }
 
 ### PlayerControllerDamager
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L22)
 
 ```csharp
 ref CHandle<CCSPlayerController> PlayerControllerDamager { get; }
@@ -120,7 +120,7 @@ ref CHandle<CCSPlayerController> PlayerControllerDamager { get; }
 
 ### PlayerControllerRecipient
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L24)
 
 ```csharp
 ref CHandle<CCSPlayerController> PlayerControllerRecipient { get; }
@@ -132,7 +132,7 @@ ref CHandle<CCSPlayerController> PlayerControllerRecipient { get; }
 
 ### PlayerDamager
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L18)
 
 ```csharp
 ref CHandle<CCSPlayerPawn> PlayerDamager { get; }
@@ -144,7 +144,7 @@ ref CHandle<CCSPlayerPawn> PlayerDamager { get; }
 
 ### PlayerDamagerName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L26)
 
 ```csharp
 string PlayerDamagerName { get; set; }
@@ -156,7 +156,7 @@ string PlayerDamagerName { get; set; }
 
 ### PlayerRecipient
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L20)
 
 ```csharp
 ref CHandle<CCSPlayerPawn> PlayerRecipient { get; }
@@ -168,7 +168,7 @@ ref CHandle<CCSPlayerPawn> PlayerRecipient { get; }
 
 ### PlayerRecipientName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L28)
 
 ```csharp
 string PlayerRecipientName { get; set; }
@@ -180,7 +180,7 @@ string PlayerRecipientName { get; set; }
 
 ### RecipientXuid
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L32)
 
 ```csharp
 ref ulong RecipientXuid { get; }
@@ -194,7 +194,7 @@ ref ulong RecipientXuid { get; }
 
 ### ActualHealthRemovedUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L56)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L57)
 
 ```csharp
 void ActualHealthRemovedUpdated()
@@ -202,7 +202,7 @@ void ActualHealthRemovedUpdated()
 
 ### DamageUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L56)
 
 ```csharp
 void DamageUpdated()
@@ -210,7 +210,7 @@ void DamageUpdated()
 
 ### DamagerXuidUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L54)
 
 ```csharp
 void DamagerXuidUpdated()
@@ -218,7 +218,7 @@ void DamagerXuidUpdated()
 
 ### IsOtherEnemyUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L60)
 
 ```csharp
 void IsOtherEnemyUpdated()
@@ -226,7 +226,7 @@ void IsOtherEnemyUpdated()
 
 ### KillTypeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L60)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L61)
 
 ```csharp
 void KillTypeUpdated()
@@ -234,7 +234,7 @@ void KillTypeUpdated()
 
 ### LastBulletUpdateUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L58)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L59)
 
 ```csharp
 void LastBulletUpdateUpdated()
@@ -242,7 +242,7 @@ void LastBulletUpdateUpdated()
 
 ### NumHitsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L58)
 
 ```csharp
 void NumHitsUpdated()
@@ -250,7 +250,7 @@ void NumHitsUpdated()
 
 ### PlayerControllerDamagerUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L50)
 
 ```csharp
 void PlayerControllerDamagerUpdated()
@@ -258,7 +258,7 @@ void PlayerControllerDamagerUpdated()
 
 ### PlayerControllerRecipientUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L50)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L51)
 
 ```csharp
 void PlayerControllerRecipientUpdated()
@@ -266,7 +266,7 @@ void PlayerControllerRecipientUpdated()
 
 ### PlayerDamagerNameUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L52)
 
 ```csharp
 void PlayerDamagerNameUpdated()
@@ -274,7 +274,7 @@ void PlayerDamagerNameUpdated()
 
 ### PlayerDamagerUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L48)
 
 ```csharp
 void PlayerDamagerUpdated()
@@ -282,7 +282,7 @@ void PlayerDamagerUpdated()
 
 ### PlayerRecipientNameUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L52)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L53)
 
 ```csharp
 void PlayerRecipientNameUpdated()
@@ -290,7 +290,7 @@ void PlayerRecipientNameUpdated()
 
 ### PlayerRecipientUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L48)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L49)
 
 ```csharp
 void PlayerRecipientUpdated()
@@ -298,7 +298,7 @@ void PlayerRecipientUpdated()
 
 ### RecipientXuidUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L54)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDamageRecord.cs#L55)
 
 ```csharp
 void RecipientXuidUpdated()

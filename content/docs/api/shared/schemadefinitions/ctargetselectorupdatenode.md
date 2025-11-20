@@ -12,7 +12,7 @@ public interface CTargetSelectorUpdateNode : CAnimUpdateNodeBase, ISchemaClass<C
 
 ### AngleMode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTargetSelectorUpdateNode.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTargetSelectorUpdateNode.cs#L18)
 
 ```csharp
 ref TargetSelectorAngleMode_t AngleMode { get; }
@@ -24,7 +24,7 @@ ref TargetSelectorAngleMode_t AngleMode { get; }
 
 ### Children
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTargetSelectorUpdateNode.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTargetSelectorUpdateNode.cs#L20)
 
 ```csharp
 ref CUtlVector<CAnimUpdateNodeRef> Children { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<CAnimUpdateNodeRef> Children { get; }
 
 ### DesiredMoveHeadingParameter
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTargetSelectorUpdateNode.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTargetSelectorUpdateNode.cs#L28)
 
 ```csharp
 CAnimParamHandle DesiredMoveHeadingParameter { get; }
@@ -48,7 +48,7 @@ CAnimParamHandle DesiredMoveHeadingParameter { get; }
 
 ### EnablePhaseMatching
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTargetSelectorUpdateNode.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTargetSelectorUpdateNode.cs#L34)
 
 ```csharp
 ref bool EnablePhaseMatching { get; }
@@ -60,7 +60,7 @@ ref bool EnablePhaseMatching { get; }
 
 ### MoveHeadingParameter
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTargetSelectorUpdateNode.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTargetSelectorUpdateNode.cs#L26)
 
 ```csharp
 CAnimParamHandle MoveHeadingParameter { get; }
@@ -72,7 +72,7 @@ CAnimParamHandle MoveHeadingParameter { get; }
 
 ### PhaseMatchingMaxRootMotionSkip
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTargetSelectorUpdateNode.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTargetSelectorUpdateNode.cs#L36)
 
 ```csharp
 ref float PhaseMatchingMaxRootMotionSkip { get; }
@@ -84,7 +84,7 @@ ref float PhaseMatchingMaxRootMotionSkip { get; }
 
 ### TargetFacePositionIsWorldSpace
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTargetSelectorUpdateNode.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTargetSelectorUpdateNode.cs#L32)
 
 ```csharp
 ref bool TargetFacePositionIsWorldSpace { get; }
@@ -96,7 +96,7 @@ ref bool TargetFacePositionIsWorldSpace { get; }
 
 ### TargetFacePositionParameter
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTargetSelectorUpdateNode.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTargetSelectorUpdateNode.cs#L24)
 
 ```csharp
 CAnimParamHandle TargetFacePositionParameter { get; }
@@ -108,7 +108,7 @@ CAnimParamHandle TargetFacePositionParameter { get; }
 
 ### TargetPosition
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTargetSelectorUpdateNode.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTargetSelectorUpdateNode.cs#L22)
 
 ```csharp
 CAnimParamHandle TargetPosition { get; }
@@ -120,7 +120,7 @@ CAnimParamHandle TargetPosition { get; }
 
 ### TargetPositionIsWorldSpace
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTargetSelectorUpdateNode.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTargetSelectorUpdateNode.cs#L30)
 
 ```csharp
 ref bool TargetPositionIsWorldSpace { get; }

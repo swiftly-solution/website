@@ -12,7 +12,7 @@ public interface CFlexOp : ISchemaClass<CFlexOp>, ISchemaField, ISchemaClass, IN
 
 ### Data
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFlexOp.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFlexOp.cs#L20)
 
 ```csharp
 ref int Data { get; }
@@ -24,7 +24,7 @@ ref int Data { get; }
 
 ### OpCode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFlexOp.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFlexOp.cs#L18)
 
 ```csharp
 ref FlexOpCode_t OpCode { get; }

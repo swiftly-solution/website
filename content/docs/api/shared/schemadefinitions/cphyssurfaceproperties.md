@@ -12,7 +12,7 @@ public interface CPhysSurfaceProperties : ISchemaClass<CPhysSurfaceProperties>, 
 
 ### AudioParams
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfaceProperties.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfaceProperties.cs#L34)
 
 ```csharp
 CPhysSurfacePropertiesAudio AudioParams { get; }
@@ -24,7 +24,7 @@ CPhysSurfacePropertiesAudio AudioParams { get; }
 
 ### AudioSounds
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfaceProperties.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfaceProperties.cs#L32)
 
 ```csharp
 CPhysSurfacePropertiesSoundNames AudioSounds { get; }
@@ -36,7 +36,7 @@ CPhysSurfacePropertiesSoundNames AudioSounds { get; }
 
 ### BaseNameHash
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfaceProperties.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfaceProperties.cs#L22)
 
 ```csharp
 ref uint BaseNameHash { get; }
@@ -48,7 +48,7 @@ ref uint BaseNameHash { get; }
 
 ### Description
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfaceProperties.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfaceProperties.cs#L26)
 
 ```csharp
 string Description { get; set; }
@@ -60,7 +60,7 @@ string Description { get; set; }
 
 ### Hidden
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfaceProperties.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfaceProperties.cs#L24)
 
 ```csharp
 ref bool Hidden { get; }
@@ -72,7 +72,7 @@ ref bool Hidden { get; }
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfaceProperties.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfaceProperties.cs#L18)
 
 ```csharp
 string Name { get; set; }
@@ -84,7 +84,7 @@ string Name { get; set; }
 
 ### NameHash
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfaceProperties.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfaceProperties.cs#L20)
 
 ```csharp
 ref uint NameHash { get; }
@@ -96,7 +96,7 @@ ref uint NameHash { get; }
 
 ### Physics
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfaceProperties.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfaceProperties.cs#L28)
 
 ```csharp
 CPhysSurfacePropertiesPhysics Physics { get; }
@@ -108,7 +108,7 @@ CPhysSurfacePropertiesPhysics Physics { get; }
 
 ### VehicleParams
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfaceProperties.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfaceProperties.cs#L30)
 
 ```csharp
 CPhysSurfacePropertiesVehicle VehicleParams { get; }

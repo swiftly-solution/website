@@ -12,7 +12,7 @@ public interface CAnimationGraphVisualizerLine : CAnimationGraphVisualizerPrimit
 
 ### Color
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGraphVisualizerLine.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGraphVisualizerLine.cs#L22)
 
 ```csharp
 ref Color Color { get; }
@@ -24,7 +24,7 @@ ref Color Color { get; }
 
 ### WsPositionEnd
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGraphVisualizerLine.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGraphVisualizerLine.cs#L20)
 
 ```csharp
 ref Vector WsPositionEnd { get; }
@@ -36,7 +36,7 @@ ref Vector WsPositionEnd { get; }
 
 ### WsPositionStart
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGraphVisualizerLine.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGraphVisualizerLine.cs#L18)
 
 ```csharp
 ref Vector WsPositionStart { get; }

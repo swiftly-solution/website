@@ -12,7 +12,7 @@ public interface CNmSnapWeaponNode__CDefinition : CNmPassthroughNode__CDefinitio
 
 ### BlendTimeSeconds
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSnapWeaponNode__CDefinition.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSnapWeaponNode__CDefinition.cs#L22)
 
 ```csharp
 ref float BlendTimeSeconds { get; }
@@ -24,7 +24,7 @@ ref float BlendTimeSeconds { get; }
 
 ### EnabledNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSnapWeaponNode__CDefinition.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSnapWeaponNode__CDefinition.cs#L18)
 
 ```csharp
 ref short EnabledNodeIdx { get; }
@@ -36,7 +36,7 @@ ref short EnabledNodeIdx { get; }
 
 ### LockLeftHandNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSnapWeaponNode__CDefinition.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSnapWeaponNode__CDefinition.cs#L20)
 
 ```csharp
 ref short LockLeftHandNodeIdx { get; }

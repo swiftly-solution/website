@@ -12,7 +12,7 @@ public interface CCSPlayerController_InGameMoneyServices : CPlayerControllerComp
 
 ### Account
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InGameMoneyServices.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InGameMoneyServices.cs#L22)
 
 ```csharp
 ref int Account { get; }
@@ -24,7 +24,7 @@ ref int Account { get; }
 
 ### CashSpentThisRound
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InGameMoneyServices.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InGameMoneyServices.cs#L28)
 
 ```csharp
 ref int CashSpentThisRound { get; }
@@ -36,7 +36,7 @@ ref int CashSpentThisRound { get; }
 
 ### MoneyEarnedForNextRound
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InGameMoneyServices.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InGameMoneyServices.cs#L20)
 
 ```csharp
 ref int MoneyEarnedForNextRound { get; }
@@ -48,7 +48,7 @@ ref int MoneyEarnedForNextRound { get; }
 
 ### ReceivesMoneyNextRound
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InGameMoneyServices.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InGameMoneyServices.cs#L18)
 
 ```csharp
 ref bool ReceivesMoneyNextRound { get; }
@@ -60,7 +60,7 @@ ref bool ReceivesMoneyNextRound { get; }
 
 ### StartAccount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InGameMoneyServices.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InGameMoneyServices.cs#L24)
 
 ```csharp
 ref int StartAccount { get; }
@@ -72,7 +72,7 @@ ref int StartAccount { get; }
 
 ### TotalCashSpent
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InGameMoneyServices.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InGameMoneyServices.cs#L26)
 
 ```csharp
 ref int TotalCashSpent { get; }
@@ -86,7 +86,7 @@ ref int TotalCashSpent { get; }
 
 ### AccountUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InGameMoneyServices.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InGameMoneyServices.cs#L30)
 
 ```csharp
 void AccountUpdated()
@@ -94,7 +94,7 @@ void AccountUpdated()
 
 ### CashSpentThisRoundUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InGameMoneyServices.cs#L32)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InGameMoneyServices.cs#L33)
 
 ```csharp
 void CashSpentThisRoundUpdated()
@@ -102,7 +102,7 @@ void CashSpentThisRoundUpdated()
 
 ### StartAccountUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InGameMoneyServices.cs#L30)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InGameMoneyServices.cs#L31)
 
 ```csharp
 void StartAccountUpdated()
@@ -110,7 +110,7 @@ void StartAccountUpdated()
 
 ### TotalCashSpentUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InGameMoneyServices.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InGameMoneyServices.cs#L32)
 
 ```csharp
 void TotalCashSpentUpdated()

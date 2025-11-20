@@ -12,7 +12,7 @@ public interface CPulseCell_Step_EntFire : CPulseCell_BaseFlow, CPulseCell_Base,
 
 ### Input
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Step_EntFire.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Step_EntFire.cs#L18)
 
 ```csharp
 string Input { get; set; }

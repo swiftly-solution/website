@@ -12,7 +12,7 @@ public interface CCommentaryAuto : CBaseEntity, CEntityInstance, ISchemaClass<CE
 
 ### OnCommentaryMidGame
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCommentaryAuto.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCommentaryAuto.cs#L20)
 
 ```csharp
 CEntityIOOutput OnCommentaryMidGame { get; }
@@ -24,7 +24,7 @@ CEntityIOOutput OnCommentaryMidGame { get; }
 
 ### OnCommentaryMultiplayerSpawn
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCommentaryAuto.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCommentaryAuto.cs#L22)
 
 ```csharp
 CEntityIOOutput OnCommentaryMultiplayerSpawn { get; }
@@ -36,7 +36,7 @@ CEntityIOOutput OnCommentaryMultiplayerSpawn { get; }
 
 ### OnCommentaryNewGame
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCommentaryAuto.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCommentaryAuto.cs#L18)
 
 ```csharp
 CEntityIOOutput OnCommentaryNewGame { get; }

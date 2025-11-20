@@ -12,7 +12,7 @@ public interface C_OP_SelectivelyEnableChildren : CParticleFunctionPreEmission, 
 
 ### ChildGroupID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SelectivelyEnableChildren.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SelectivelyEnableChildren.cs#L18)
 
 ```csharp
 CParticleCollectionFloatInput ChildGroupID { get; }
@@ -24,7 +24,7 @@ CParticleCollectionFloatInput ChildGroupID { get; }
 
 ### DestroyImmediately
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SelectivelyEnableChildren.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SelectivelyEnableChildren.cs#L26)
 
 ```csharp
 ref bool DestroyImmediately { get; }
@@ -36,7 +36,7 @@ ref bool DestroyImmediately { get; }
 
 ### FirstChild
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SelectivelyEnableChildren.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SelectivelyEnableChildren.cs#L20)
 
 ```csharp
 CParticleCollectionFloatInput FirstChild { get; }
@@ -48,7 +48,7 @@ CParticleCollectionFloatInput FirstChild { get; }
 
 ### NumChildrenToEnable
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SelectivelyEnableChildren.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SelectivelyEnableChildren.cs#L22)
 
 ```csharp
 CParticleCollectionFloatInput NumChildrenToEnable { get; }
@@ -60,7 +60,7 @@ CParticleCollectionFloatInput NumChildrenToEnable { get; }
 
 ### PlayEndcapOnStop
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SelectivelyEnableChildren.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SelectivelyEnableChildren.cs#L24)
 
 ```csharp
 ref bool PlayEndcapOnStop { get; }

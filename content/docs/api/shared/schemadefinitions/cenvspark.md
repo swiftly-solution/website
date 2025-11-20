@@ -12,7 +12,7 @@ public interface CEnvSpark : CPointEntity, CBaseEntity, CEntityInstance, ISchema
 
 ### Delay
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSpark.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSpark.cs#L18)
 
 ```csharp
 ref float Delay { get; }
@@ -24,7 +24,7 @@ ref float Delay { get; }
 
 ### Magnitude
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSpark.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSpark.cs#L20)
 
 ```csharp
 ref int Magnitude { get; }
@@ -36,7 +36,7 @@ ref int Magnitude { get; }
 
 ### OnSpark
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSpark.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSpark.cs#L26)
 
 ```csharp
 CEntityIOOutput OnSpark { get; }
@@ -48,7 +48,7 @@ CEntityIOOutput OnSpark { get; }
 
 ### TrailLength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSpark.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSpark.cs#L22)
 
 ```csharp
 ref int TrailLength { get; }
@@ -60,7 +60,7 @@ ref int TrailLength { get; }
 
 ### Type
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSpark.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSpark.cs#L24)
 
 ```csharp
 ref int Type { get; }

@@ -12,7 +12,7 @@ public interface PhysicsParticleId_t : ISchemaClass<PhysicsParticleId_t>, ISchem
 
 ### Value
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysicsParticleId_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysicsParticleId_t.cs#L18)
 
 ```csharp
 ref uint Value { get; }

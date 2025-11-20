@@ -10,7 +10,7 @@ public interface ISchedulerService
 
 ### Delay(int, Action)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L24)
 
 ```csharp
 CancellationTokenSource Delay(int delayTick, Action task)
@@ -27,7 +27,7 @@ CancellationTokenSource Delay(int delayTick, Action task)
 
 ### DelayAndRepeat(int, int, Action)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L42)
 
 ```csharp
 CancellationTokenSource DelayAndRepeat(int delayTick, int periodTick, Action task)
@@ -45,7 +45,7 @@ CancellationTokenSource DelayAndRepeat(int delayTick, int periodTick, Action tas
 
 ### DelayAndRepeatBySeconds(float, float, Action)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L68)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L75)
 
 ```csharp
 CancellationTokenSource DelayAndRepeatBySeconds(float delaySeconds, float periodSeconds, Action task)
@@ -63,7 +63,7 @@ CancellationTokenSource DelayAndRepeatBySeconds(float delaySeconds, float period
 
 ### DelayBySeconds(float, Action)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L46)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L53)
 
 ```csharp
 CancellationTokenSource DelayBySeconds(float delaySeconds, Action task)
@@ -80,7 +80,7 @@ CancellationTokenSource DelayBySeconds(float delaySeconds, Action task)
 
 ### NextTick(Action)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L9)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L10)
 
 ```csharp
 void NextTick(Action task)
@@ -90,9 +90,21 @@ void NextTick(Action task)
 
 - **task**: [Action](https://learn.microsoft.com/dotnet/api/system.action) - The task to execute.
 
+### NextWorldUpdate(Action)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L16)
+
+```csharp
+void NextWorldUpdate(Action task)
+```
+
+#### Parameters
+
+- **task**: [Action](https://learn.microsoft.com/dotnet/api/system.action) - The task to execute.
+
 ### Repeat(int, Action)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L26)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L33)
 
 ```csharp
 CancellationTokenSource Repeat(int periodTick, Action task)
@@ -109,7 +121,7 @@ CancellationTokenSource Repeat(int periodTick, Action task)
 
 ### RepeatBySeconds(float, Action)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L64)
 
 ```csharp
 CancellationTokenSource RepeatBySeconds(float periodSeconds, Action task)
@@ -126,7 +138,7 @@ CancellationTokenSource RepeatBySeconds(float periodSeconds, Action task)
 
 ### StopOnMapChange(CancellationTokenSource)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L74)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L81)
 
 ```csharp
 void StopOnMapChange(CancellationTokenSource cts)

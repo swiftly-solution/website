@@ -12,7 +12,7 @@ public interface PhysicsRagdollPose_t : ISchemaClass<PhysicsRagdollPose_t>, ISch
 
 ### Owner
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysicsRagdollPose_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysicsRagdollPose_t.cs#L20)
 
 ```csharp
 ref CHandle<CBaseEntity> Owner { get; }
@@ -24,7 +24,7 @@ ref CHandle<CBaseEntity> Owner { get; }
 
 ### SetFromDebugHistory
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysicsRagdollPose_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysicsRagdollPose_t.cs#L22)
 
 ```csharp
 ref bool SetFromDebugHistory { get; }
@@ -36,7 +36,7 @@ ref bool SetFromDebugHistory { get; }
 
 ### Transforms
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysicsRagdollPose_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysicsRagdollPose_t.cs#L18)
 
 ```csharp
 ref CUtlVector<CTransform> Transforms { get; }
@@ -50,7 +50,7 @@ ref CUtlVector<CTransform> Transforms { get; }
 
 ### OwnerUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysicsRagdollPose_t.cs#L24)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysicsRagdollPose_t.cs#L25)
 
 ```csharp
 void OwnerUpdated()
@@ -58,7 +58,7 @@ void OwnerUpdated()
 
 ### TransformsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysicsRagdollPose_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysicsRagdollPose_t.cs#L24)
 
 ```csharp
 void TransformsUpdated()

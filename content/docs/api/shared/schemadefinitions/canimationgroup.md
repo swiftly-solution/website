@@ -12,7 +12,7 @@ public interface CAnimationGroup : ISchemaClass<CAnimationGroup>, ISchemaField, 
 
 ### AdditionalExtRefs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGroup.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGroup.cs#L32)
 
 ```csharp
 ref CUtlVector<SchemaUntypedField> AdditionalExtRefs { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<SchemaUntypedField> AdditionalExtRefs { get; }
 
 ### DecodeKey
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGroup.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGroup.cs#L28)
 
 ```csharp
 CAnimKeyData DecodeKey { get; }
@@ -36,7 +36,7 @@ CAnimKeyData DecodeKey { get; }
 
 ### DirectHSeqGroup_Handle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGroup.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGroup.cs#L26)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCSequenceGroupData> DirectHSeqGroup_Handle { get; }
@@ -48,7 +48,7 @@ ref CStrongHandle<InfoForResourceTypeCSequenceGroupData> DirectHSeqGroup_Handle 
 
 ### Flags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGroup.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGroup.cs#L18)
 
 ```csharp
 ref uint Flags { get; }
@@ -60,7 +60,7 @@ ref uint Flags { get; }
 
 ### IncludedGroupArray_Handle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGroup.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGroup.cs#L24)
 
 ```csharp
 ref CUtlVector<CStrongHandle<InfoForResourceTypeCAnimationGroup>> IncludedGroupArray_Handle { get; }
@@ -72,7 +72,7 @@ ref CUtlVector<CStrongHandle<InfoForResourceTypeCAnimationGroup>> IncludedGroupA
 
 ### LocalHAnimArray_Handle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGroup.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGroup.cs#L22)
 
 ```csharp
 ref CUtlVector<CStrongHandle<InfoForResourceTypeCAnimData>> LocalHAnimArray_Handle { get; }
@@ -84,7 +84,7 @@ ref CUtlVector<CStrongHandle<InfoForResourceTypeCAnimData>> LocalHAnimArray_Hand
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGroup.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGroup.cs#L20)
 
 ```csharp
 ref CBufferString Name { get; }
@@ -96,7 +96,7 @@ ref CBufferString Name { get; }
 
 ### Scripts
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGroup.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGroup.cs#L30)
 
 ```csharp
 ref CUtlVector<CBufferString> Scripts { get; }

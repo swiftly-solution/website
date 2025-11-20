@@ -12,7 +12,7 @@ public interface CRagdollComponentUpdater : CAnimComponentUpdater, ISchemaClass<
 
 ### BoneIndices
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollComponentUpdater.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollComponentUpdater.cs#L22)
 
 ```csharp
 ref CUtlVector<int> BoneIndices { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<int> BoneIndices { get; }
 
 ### BoneNames
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollComponentUpdater.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollComponentUpdater.cs#L24)
 
 ```csharp
 ref CUtlVector<CUtlString> BoneNames { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<CUtlString> BoneNames { get; }
 
 ### BoneToWeightIndices
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollComponentUpdater.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollComponentUpdater.cs#L28)
 
 ```csharp
 ref CUtlVector<int> BoneToWeightIndices { get; }
@@ -48,7 +48,7 @@ ref CUtlVector<int> BoneToWeightIndices { get; }
 
 ### FollowAttachmentNodePaths
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollComponentUpdater.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollComponentUpdater.cs#L20)
 
 ```csharp
 ref CUtlVector<CAnimNodePath> FollowAttachmentNodePaths { get; }
@@ -60,7 +60,7 @@ ref CUtlVector<CAnimNodePath> FollowAttachmentNodePaths { get; }
 
 ### MaxStretch
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollComponentUpdater.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollComponentUpdater.cs#L34)
 
 ```csharp
 ref float MaxStretch { get; }
@@ -72,7 +72,7 @@ ref float MaxStretch { get; }
 
 ### RagdollNodePaths
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollComponentUpdater.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollComponentUpdater.cs#L18)
 
 ```csharp
 ref CUtlVector<CAnimNodePath> RagdollNodePaths { get; }
@@ -84,7 +84,7 @@ ref CUtlVector<CAnimNodePath> RagdollNodePaths { get; }
 
 ### SolidCollisionAtZeroWeight
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollComponentUpdater.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollComponentUpdater.cs#L36)
 
 ```csharp
 ref bool SolidCollisionAtZeroWeight { get; }
@@ -96,7 +96,7 @@ ref bool SolidCollisionAtZeroWeight { get; }
 
 ### SpringFrequencyMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollComponentUpdater.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollComponentUpdater.cs#L32)
 
 ```csharp
 ref float SpringFrequencyMax { get; }
@@ -108,7 +108,7 @@ ref float SpringFrequencyMax { get; }
 
 ### SpringFrequencyMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollComponentUpdater.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollComponentUpdater.cs#L30)
 
 ```csharp
 ref float SpringFrequencyMin { get; }
@@ -120,7 +120,7 @@ ref float SpringFrequencyMin { get; }
 
 ### WeightLists
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollComponentUpdater.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollComponentUpdater.cs#L26)
 
 ```csharp
 ref CUtlVector<WeightList> WeightLists { get; }

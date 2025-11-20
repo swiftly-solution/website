@@ -12,7 +12,7 @@ public interface CSoundEventEntity : CBaseEntity, CEntityInstance, ISchemaClass<
 
 ### AttachmentName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventEntity.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventEntity.cs#L32)
 
 ```csharp
 string AttachmentName { get; set; }
@@ -24,7 +24,7 @@ string AttachmentName { get; set; }
 
 ### ClientCullRadius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventEntity.cs#L38)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventEntity.cs#L39)
 
 ```csharp
 ref float ClientCullRadius { get; }
@@ -36,7 +36,7 @@ ref float ClientCullRadius { get; }
 
 ### EntityIndexSelection
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventEntity.cs#L44)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventEntity.cs#L45)
 
 ```csharp
 ref int EntityIndexSelection { get; }
@@ -48,7 +48,7 @@ ref int EntityIndexSelection { get; }
 
 ### OnGUIDChanged
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventEntity.cs#L34)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventEntity.cs#L35)
 
 ```csharp
 SchemaUntypedField OnGUIDChanged { get; }
@@ -60,7 +60,7 @@ SchemaUntypedField OnGUIDChanged { get; }
 
 ### OnSoundFinished
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventEntity.cs#L36)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventEntity.cs#L37)
 
 ```csharp
 CEntityIOOutput OnSoundFinished { get; }
@@ -72,7 +72,7 @@ CEntityIOOutput OnSoundFinished { get; }
 
 ### SaveRestore
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventEntity.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventEntity.cs#L24)
 
 ```csharp
 ref bool SaveRestore { get; }
@@ -84,7 +84,7 @@ ref bool SaveRestore { get; }
 
 ### SavedElapsedTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventEntity.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventEntity.cs#L28)
 
 ```csharp
 ref float SavedElapsedTime { get; }
@@ -96,7 +96,7 @@ ref float SavedElapsedTime { get; }
 
 ### SavedIsPlaying
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventEntity.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventEntity.cs#L26)
 
 ```csharp
 ref bool SavedIsPlaying { get; }
@@ -108,7 +108,7 @@ ref bool SavedIsPlaying { get; }
 
 ### SoundName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventEntity.cs#L40)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventEntity.cs#L41)
 
 ```csharp
 string SoundName { get; set; }
@@ -120,7 +120,7 @@ string SoundName { get; set; }
 
 ### Source
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventEntity.cs#L42)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventEntity.cs#L43)
 
 ```csharp
 ref CHandle<CEntityInstance> Source { get; }
@@ -132,7 +132,7 @@ ref CHandle<CEntityInstance> Source { get; }
 
 ### SourceEntityName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventEntity.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventEntity.cs#L30)
 
 ```csharp
 string SourceEntityName { get; set; }
@@ -144,7 +144,7 @@ string SourceEntityName { get; set; }
 
 ### StartOnSpawn
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventEntity.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventEntity.cs#L18)
 
 ```csharp
 ref bool StartOnSpawn { get; }
@@ -156,7 +156,7 @@ ref bool StartOnSpawn { get; }
 
 ### StopOnNew
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventEntity.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventEntity.cs#L22)
 
 ```csharp
 ref bool StopOnNew { get; }
@@ -168,7 +168,7 @@ ref bool StopOnNew { get; }
 
 ### ToLocalPlayer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventEntity.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventEntity.cs#L20)
 
 ```csharp
 ref bool ToLocalPlayer { get; }

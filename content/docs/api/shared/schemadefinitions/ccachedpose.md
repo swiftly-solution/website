@@ -12,7 +12,7 @@ public interface CCachedPose : ISchemaClass<CCachedPose>, ISchemaField, ISchemaC
 
 ### Cycle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCachedPose.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCachedPose.cs#L24)
 
 ```csharp
 ref float Cycle { get; }
@@ -24,7 +24,7 @@ ref float Cycle { get; }
 
 ### MorphWeights
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCachedPose.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCachedPose.cs#L20)
 
 ```csharp
 ref CUtlVector<float> MorphWeights { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<float> MorphWeights { get; }
 
 ### Sequence
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCachedPose.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCachedPose.cs#L22)
 
 ```csharp
 HSequence Sequence { get; }
@@ -48,7 +48,7 @@ HSequence Sequence { get; }
 
 ### Transforms
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCachedPose.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCachedPose.cs#L18)
 
 ```csharp
 ref CUtlVector<CTransform> Transforms { get; }

@@ -12,7 +12,7 @@ public interface CEntityComponentHelper : ISchemaClass<CEntityComponentHelper>, 
 
 ### Flags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityComponentHelper.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityComponentHelper.cs#L18)
 
 ```csharp
 ref uint Flags { get; }
@@ -24,7 +24,7 @@ ref uint Flags { get; }
 
 ### Info
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityComponentHelper.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityComponentHelper.cs#L20)
 
 ```csharp
 EntComponentInfo_t? Info { get; }
@@ -36,7 +36,7 @@ EntComponentInfo_t? Info { get; }
 
 ### Next
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityComponentHelper.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityComponentHelper.cs#L24)
 
 ```csharp
 CEntityComponentHelper? Next { get; }
@@ -48,7 +48,7 @@ CEntityComponentHelper? Next { get; }
 
 ### Priority
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityComponentHelper.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityComponentHelper.cs#L22)
 
 ```csharp
 ref int Priority { get; }

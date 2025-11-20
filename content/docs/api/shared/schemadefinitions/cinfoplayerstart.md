@@ -12,7 +12,7 @@ public interface CInfoPlayerStart : CPointEntity, CBaseEntity, CEntityInstance, 
 
 ### Disabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoPlayerStart.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoPlayerStart.cs#L18)
 
 ```csharp
 ref bool Disabled { get; }
@@ -24,7 +24,7 @@ ref bool Disabled { get; }
 
 ### IsMaster
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoPlayerStart.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoPlayerStart.cs#L20)
 
 ```csharp
 ref bool IsMaster { get; }
@@ -36,7 +36,7 @@ ref bool IsMaster { get; }
 
 ### PawnSubclass
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoPlayerStart.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoPlayerStart.cs#L22)
 
 ```csharp
 ref CGlobalSymbol PawnSubclass { get; }

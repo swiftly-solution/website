@@ -12,7 +12,7 @@ public interface lerpdata_t : ISchemaClass<lerpdata_t>, ISchemaField, ISchemaCla
 
 ### Ent
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/lerpdata_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/lerpdata_t.cs#L18)
 
 ```csharp
 ref CHandle<CBaseEntity> Ent { get; }
@@ -24,7 +24,7 @@ ref CHandle<CBaseEntity> Ent { get; }
 
 ### FXIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/lerpdata_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/lerpdata_t.cs#L28)
 
 ```csharp
 ParticleIndex_t FXIndex { get; }
@@ -36,7 +36,7 @@ ParticleIndex_t FXIndex { get; }
 
 ### MoveType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/lerpdata_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/lerpdata_t.cs#L20)
 
 ```csharp
 ref MoveType_t MoveType { get; }
@@ -48,7 +48,7 @@ ref MoveType_t MoveType { get; }
 
 ### StartOrigin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/lerpdata_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/lerpdata_t.cs#L24)
 
 ```csharp
 ref Vector StartOrigin { get; }
@@ -60,7 +60,7 @@ ref Vector StartOrigin { get; }
 
 ### StartRot
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/lerpdata_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/lerpdata_t.cs#L26)
 
 ```csharp
 ref Quaternion StartRot { get; }
@@ -72,7 +72,7 @@ ref Quaternion StartRot { get; }
 
 ### StartTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/lerpdata_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/lerpdata_t.cs#L22)
 
 ```csharp
 GameTime_t StartTime { get; }

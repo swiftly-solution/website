@@ -12,7 +12,7 @@ public interface CFuncMoveLinear : CBaseToggle, CBaseModelEntity, CBaseEntity, C
 
 ### AllowMovableNavMeshDockingOnEntireEntity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMoveLinear.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMoveLinear.cs#L40)
 
 ```csharp
 ref bool AllowMovableNavMeshDockingOnEntireEntity { get; }
@@ -24,7 +24,7 @@ ref bool AllowMovableNavMeshDockingOnEntireEntity { get; }
 
 ### AuthoredPosition
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMoveLinear.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMoveLinear.cs#L18)
 
 ```csharp
 ref MoveLinearAuthoredPos_t AuthoredPosition { get; }
@@ -36,7 +36,7 @@ ref MoveLinearAuthoredPos_t AuthoredPosition { get; }
 
 ### BlockDamage
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMoveLinear.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMoveLinear.cs#L30)
 
 ```csharp
 ref float BlockDamage { get; }
@@ -48,7 +48,7 @@ ref float BlockDamage { get; }
 
 ### CreateMovableNavMesh
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMoveLinear.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMoveLinear.cs#L38)
 
 ```csharp
 ref bool CreateMovableNavMesh { get; }
@@ -60,7 +60,7 @@ ref bool CreateMovableNavMesh { get; }
 
 ### CreateNavObstacle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMoveLinear.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMoveLinear.cs#L42)
 
 ```csharp
 ref bool CreateNavObstacle { get; }
@@ -72,7 +72,7 @@ ref bool CreateNavObstacle { get; }
 
 ### CurrentSound
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMoveLinear.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMoveLinear.cs#L28)
 
 ```csharp
 string CurrentSound { get; set; }
@@ -84,7 +84,7 @@ string CurrentSound { get; set; }
 
 ### MoveDirParentSpace
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMoveLinear.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMoveLinear.cs#L22)
 
 ```csharp
 ref Vector MoveDirParentSpace { get; }
@@ -96,7 +96,7 @@ ref Vector MoveDirParentSpace { get; }
 
 ### MoveEntitySpace
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMoveLinear.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMoveLinear.cs#L20)
 
 ```csharp
 ref QAngle MoveEntitySpace { get; }
@@ -108,7 +108,7 @@ ref QAngle MoveEntitySpace { get; }
 
 ### OnFullyClosed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMoveLinear.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMoveLinear.cs#L36)
 
 ```csharp
 CEntityIOOutput OnFullyClosed { get; }
@@ -120,7 +120,7 @@ CEntityIOOutput OnFullyClosed { get; }
 
 ### OnFullyOpen
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMoveLinear.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMoveLinear.cs#L34)
 
 ```csharp
 CEntityIOOutput OnFullyOpen { get; }
@@ -132,7 +132,7 @@ CEntityIOOutput OnFullyOpen { get; }
 
 ### SoundStart
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMoveLinear.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMoveLinear.cs#L24)
 
 ```csharp
 string SoundStart { get; set; }
@@ -144,7 +144,7 @@ string SoundStart { get; set; }
 
 ### SoundStop
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMoveLinear.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMoveLinear.cs#L26)
 
 ```csharp
 string SoundStop { get; set; }
@@ -156,7 +156,7 @@ string SoundStop { get; set; }
 
 ### StartPosition
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMoveLinear.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMoveLinear.cs#L32)
 
 ```csharp
 ref float StartPosition { get; }

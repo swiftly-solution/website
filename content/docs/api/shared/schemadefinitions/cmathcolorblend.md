@@ -12,7 +12,7 @@ public interface CMathColorBlend : CLogicalEntity, CServerOnlyEntity, CBaseEntit
 
 ### InMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathColorBlend.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathColorBlend.cs#L20)
 
 ```csharp
 ref float InMax { get; }
@@ -24,7 +24,7 @@ ref float InMax { get; }
 
 ### InMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathColorBlend.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathColorBlend.cs#L18)
 
 ```csharp
 ref float InMin { get; }
@@ -36,7 +36,7 @@ ref float InMin { get; }
 
 ### OutColor1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathColorBlend.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathColorBlend.cs#L22)
 
 ```csharp
 ref Color OutColor1 { get; }
@@ -48,7 +48,7 @@ ref Color OutColor1 { get; }
 
 ### OutColor2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathColorBlend.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathColorBlend.cs#L24)
 
 ```csharp
 ref Color OutColor2 { get; }
@@ -60,7 +60,7 @@ ref Color OutColor2 { get; }
 
 ### OutValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathColorBlend.cs#L26)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathColorBlend.cs#L27)
 
 ```csharp
 SchemaUntypedField OutValue { get; }

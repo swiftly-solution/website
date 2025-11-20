@@ -12,7 +12,7 @@ public interface CPhysBox : CBreakable, CBaseModelEntity, CBaseEntity, CEntityIn
 
 ### CarryingPlayer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBox.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBox.cs#L46)
 
 ```csharp
 ref CHandle<CBasePlayerPawn> CarryingPlayer { get; }
@@ -24,7 +24,7 @@ ref CHandle<CBasePlayerPawn> CarryingPlayer { get; }
 
 ### DamageToEnableMotion
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBox.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBox.cs#L20)
 
 ```csharp
 ref int DamageToEnableMotion { get; }
@@ -36,7 +36,7 @@ ref int DamageToEnableMotion { get; }
 
 ### DamageType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBox.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBox.cs#L18)
 
 ```csharp
 ref int DamageType { get; }
@@ -48,7 +48,7 @@ ref int DamageType { get; }
 
 ### EnableUseOutput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBox.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBox.cs#L30)
 
 ```csharp
 ref bool EnableUseOutput { get; }
@@ -60,7 +60,7 @@ ref bool EnableUseOutput { get; }
 
 ### ForceToEnableMotion
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBox.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBox.cs#L22)
 
 ```csharp
 ref float ForceToEnableMotion { get; }
@@ -72,7 +72,7 @@ ref float ForceToEnableMotion { get; }
 
 ### HoverPoseAngles
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBox.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBox.cs#L26)
 
 ```csharp
 ref QAngle HoverPoseAngles { get; }
@@ -84,7 +84,7 @@ ref QAngle HoverPoseAngles { get; }
 
 ### HoverPoseFlags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBox.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBox.cs#L32)
 
 ```csharp
 ref HoverPoseFlags_t HoverPoseFlags { get; }
@@ -96,7 +96,7 @@ ref HoverPoseFlags_t HoverPoseFlags { get; }
 
 ### HoverPosePosition
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBox.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBox.cs#L24)
 
 ```csharp
 ref Vector HoverPosePosition { get; }
@@ -108,7 +108,7 @@ ref Vector HoverPosePosition { get; }
 
 ### NotSolidToWorld
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBox.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBox.cs#L28)
 
 ```csharp
 ref bool NotSolidToWorld { get; }
@@ -120,7 +120,7 @@ ref bool NotSolidToWorld { get; }
 
 ### OnAwakened
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBox.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBox.cs#L38)
 
 ```csharp
 CEntityIOOutput OnAwakened { get; }
@@ -132,7 +132,7 @@ CEntityIOOutput OnAwakened { get; }
 
 ### OnDamaged
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBox.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBox.cs#L36)
 
 ```csharp
 CEntityIOOutput OnDamaged { get; }
@@ -144,7 +144,7 @@ CEntityIOOutput OnDamaged { get; }
 
 ### OnMotionEnabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBox.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBox.cs#L40)
 
 ```csharp
 CEntityIOOutput OnMotionEnabled { get; }
@@ -156,7 +156,7 @@ CEntityIOOutput OnMotionEnabled { get; }
 
 ### OnPlayerUse
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBox.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBox.cs#L42)
 
 ```csharp
 CEntityIOOutput OnPlayerUse { get; }
@@ -168,7 +168,7 @@ CEntityIOOutput OnPlayerUse { get; }
 
 ### OnStartTouch
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBox.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBox.cs#L44)
 
 ```csharp
 CEntityIOOutput OnStartTouch { get; }
@@ -180,7 +180,7 @@ CEntityIOOutput OnStartTouch { get; }
 
 ### TouchOutputPerEntityDelay
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBox.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBox.cs#L34)
 
 ```csharp
 ref float TouchOutputPerEntityDelay { get; }

@@ -12,7 +12,7 @@ public interface TextureControls_t : ISchemaClass<TextureControls_t>, ISchemaFie
 
 ### ClampUVs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureControls_t.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureControls_t.cs#L34)
 
 ```csharp
 ref bool ClampUVs { get; }
@@ -24,7 +24,7 @@ ref bool ClampUVs { get; }
 
 ### Distortion
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureControls_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureControls_t.cs#L30)
 
 ```csharp
 CParticleCollectionRendererFloatInput Distortion { get; }
@@ -36,7 +36,7 @@ CParticleCollectionRendererFloatInput Distortion { get; }
 
 ### FinalTextureOffsetU
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureControls_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureControls_t.cs#L22)
 
 ```csharp
 CParticleCollectionRendererFloatInput FinalTextureOffsetU { get; }
@@ -48,7 +48,7 @@ CParticleCollectionRendererFloatInput FinalTextureOffsetU { get; }
 
 ### FinalTextureOffsetV
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureControls_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureControls_t.cs#L24)
 
 ```csharp
 CParticleCollectionRendererFloatInput FinalTextureOffsetV { get; }
@@ -60,7 +60,7 @@ CParticleCollectionRendererFloatInput FinalTextureOffsetV { get; }
 
 ### FinalTextureScaleU
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureControls_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureControls_t.cs#L18)
 
 ```csharp
 CParticleCollectionRendererFloatInput FinalTextureScaleU { get; }
@@ -72,7 +72,7 @@ CParticleCollectionRendererFloatInput FinalTextureScaleU { get; }
 
 ### FinalTextureScaleV
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureControls_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureControls_t.cs#L20)
 
 ```csharp
 CParticleCollectionRendererFloatInput FinalTextureScaleV { get; }
@@ -84,7 +84,7 @@ CParticleCollectionRendererFloatInput FinalTextureScaleV { get; }
 
 ### FinalTextureUVRotation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureControls_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureControls_t.cs#L26)
 
 ```csharp
 CParticleCollectionRendererFloatInput FinalTextureUVRotation { get; }
@@ -96,7 +96,7 @@ CParticleCollectionRendererFloatInput FinalTextureUVRotation { get; }
 
 ### PerParticleBlend
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureControls_t.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureControls_t.cs#L36)
 
 ```csharp
 ref SpriteCardPerParticleScale_t PerParticleBlend { get; }
@@ -108,7 +108,7 @@ ref SpriteCardPerParticleScale_t PerParticleBlend { get; }
 
 ### PerParticleDistortion
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureControls_t.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureControls_t.cs#L48)
 
 ```csharp
 ref SpriteCardPerParticleScale_t PerParticleDistortion { get; }
@@ -120,7 +120,7 @@ ref SpriteCardPerParticleScale_t PerParticleDistortion { get; }
 
 ### PerParticleOffsetU
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureControls_t.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureControls_t.cs#L40)
 
 ```csharp
 ref SpriteCardPerParticleScale_t PerParticleOffsetU { get; }
@@ -132,7 +132,7 @@ ref SpriteCardPerParticleScale_t PerParticleOffsetU { get; }
 
 ### PerParticleOffsetV
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureControls_t.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureControls_t.cs#L42)
 
 ```csharp
 ref SpriteCardPerParticleScale_t PerParticleOffsetV { get; }
@@ -144,7 +144,7 @@ ref SpriteCardPerParticleScale_t PerParticleOffsetV { get; }
 
 ### PerParticleRotation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureControls_t.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureControls_t.cs#L44)
 
 ```csharp
 ref SpriteCardPerParticleScale_t PerParticleRotation { get; }
@@ -156,7 +156,7 @@ ref SpriteCardPerParticleScale_t PerParticleRotation { get; }
 
 ### PerParticleScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureControls_t.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureControls_t.cs#L38)
 
 ```csharp
 ref SpriteCardPerParticleScale_t PerParticleScale { get; }
@@ -168,7 +168,7 @@ ref SpriteCardPerParticleScale_t PerParticleScale { get; }
 
 ### PerParticleZoom
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureControls_t.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureControls_t.cs#L46)
 
 ```csharp
 ref SpriteCardPerParticleScale_t PerParticleZoom { get; }
@@ -180,7 +180,7 @@ ref SpriteCardPerParticleScale_t PerParticleZoom { get; }
 
 ### RandomizeOffsets
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureControls_t.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureControls_t.cs#L32)
 
 ```csharp
 ref bool RandomizeOffsets { get; }
@@ -192,7 +192,7 @@ ref bool RandomizeOffsets { get; }
 
 ### ZoomScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureControls_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureControls_t.cs#L28)
 
 ```csharp
 CParticleCollectionRendererFloatInput ZoomScale { get; }

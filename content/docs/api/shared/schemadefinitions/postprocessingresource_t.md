@@ -12,7 +12,7 @@ public interface PostProcessingResource_t : ISchemaClass<PostProcessingResource_
 
 ### BloomParams
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingResource_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingResource_t.cs#L24)
 
 ```csharp
 PostProcessingBloomParameters_t BloomParams { get; }
@@ -24,7 +24,7 @@ PostProcessingBloomParameters_t BloomParams { get; }
 
 ### ColorCorrectionVolumeData
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingResource_t.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingResource_t.cs#L36)
 
 ```csharp
 ref CUtlBinaryBlock ColorCorrectionVolumeData { get; }
@@ -36,7 +36,7 @@ ref CUtlBinaryBlock ColorCorrectionVolumeData { get; }
 
 ### ColorCorrectionVolumeDim
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingResource_t.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingResource_t.cs#L34)
 
 ```csharp
 ref int ColorCorrectionVolumeDim { get; }
@@ -48,7 +48,7 @@ ref int ColorCorrectionVolumeDim { get; }
 
 ### FogScatteringParams
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingResource_t.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingResource_t.cs#L42)
 
 ```csharp
 PostProcessingFogScatteringParameters_t FogScatteringParams { get; }
@@ -60,7 +60,7 @@ PostProcessingFogScatteringParameters_t FogScatteringParams { get; }
 
 ### HasBloomParams
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingResource_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingResource_t.cs#L22)
 
 ```csharp
 ref bool HasBloomParams { get; }
@@ -72,7 +72,7 @@ ref bool HasBloomParams { get; }
 
 ### HasColorCorrection
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingResource_t.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingResource_t.cs#L38)
 
 ```csharp
 ref bool HasColorCorrection { get; }
@@ -84,7 +84,7 @@ ref bool HasColorCorrection { get; }
 
 ### HasFogScatteringParams
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingResource_t.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingResource_t.cs#L40)
 
 ```csharp
 ref bool HasFogScatteringParams { get; }
@@ -96,7 +96,7 @@ ref bool HasFogScatteringParams { get; }
 
 ### HasLocalContrastParams
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingResource_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingResource_t.cs#L30)
 
 ```csharp
 ref bool HasLocalContrastParams { get; }
@@ -108,7 +108,7 @@ ref bool HasLocalContrastParams { get; }
 
 ### HasTonemapParams
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingResource_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingResource_t.cs#L18)
 
 ```csharp
 ref bool HasTonemapParams { get; }
@@ -120,7 +120,7 @@ ref bool HasTonemapParams { get; }
 
 ### HasVignetteParams
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingResource_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingResource_t.cs#L26)
 
 ```csharp
 ref bool HasVignetteParams { get; }
@@ -132,7 +132,7 @@ ref bool HasVignetteParams { get; }
 
 ### LocalConstrastParams
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingResource_t.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingResource_t.cs#L32)
 
 ```csharp
 PostProcessingLocalContrastParameters_t LocalConstrastParams { get; }
@@ -144,7 +144,7 @@ PostProcessingLocalContrastParameters_t LocalConstrastParams { get; }
 
 ### ToneMapParams
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingResource_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingResource_t.cs#L20)
 
 ```csharp
 PostProcessingTonemapParameters_t ToneMapParams { get; }
@@ -156,7 +156,7 @@ PostProcessingTonemapParameters_t ToneMapParams { get; }
 
 ### VignetteParams
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingResource_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingResource_t.cs#L28)
 
 ```csharp
 PostProcessingVignetteParameters_t VignetteParams { get; }

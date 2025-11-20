@@ -10,7 +10,7 @@ public interface IEngineService
 
 ### CurrentTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L58)
 
 ```csharp
 [Obsolete("Use GlobalVars.CurrentTime instead.")]
@@ -23,7 +23,7 @@ float CurrentTime { get; }
 
 ### GlobalVars
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L22)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L27)
 
 ```csharp
 ref CGlobalVars GlobalVars { get; }
@@ -48,7 +48,7 @@ string Map { get; }
 
 ### MaxPlayers
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L34)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L39)
 
 ```csharp
 [Obsolete("Use GlobalVars.MaxClients instead.")]
@@ -73,7 +73,7 @@ string? ServerIP { get; }
 
 ### TickCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L64)
 
 ```csharp
 [Obsolete("Use GlobalVars.TickCount instead.")]
@@ -84,11 +84,23 @@ int TickCount { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
+### WorkshopId
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L22)
+
+```csharp
+string WorkshopId { get; }
+```
+
+#### Property Value
+
+- [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ## Methods
 
 ### DispatchParticleEffect(string, ParticleAttachment_t, byte, CUtlSymbolLarge, CRecipientFilter, bool, int, CBaseEntity?)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L80)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L85)
 
 ```csharp
 void DispatchParticleEffect(string particleName, ParticleAttachment_t attachmentType, byte attachmentPoint, CUtlSymbolLarge attachmentName, CRecipientFilter filter, bool resetAllParticlesOnEntity = false, int splitScreenSlot = 0, CBaseEntity? entity = null)
@@ -107,7 +119,7 @@ void DispatchParticleEffect(string particleName, ParticleAttachment_t attachment
 
 ### ExecuteCommand(string)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L46)
 
 ```csharp
 void ExecuteCommand(string command)
@@ -119,7 +131,7 @@ void ExecuteCommand(string command)
 
 ### ExecuteCommandWithBuffer(string, Action)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L48)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L53)
 
 ```csharp
 void ExecuteCommandWithBuffer(string command, Action<string> bufferCallback)
@@ -132,7 +144,7 @@ void ExecuteCommandWithBuffer(string command, Action<string> bufferCallback)
 
 ### FindGameSystemByName(string)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L67)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L72)
 
 ```csharp
 nint? FindGameSystemByName(string name)
@@ -148,7 +160,7 @@ nint? FindGameSystemByName(string name)
 
 ### IsMapValid(string)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L34)
 
 ```csharp
 bool IsMapValid(string map)

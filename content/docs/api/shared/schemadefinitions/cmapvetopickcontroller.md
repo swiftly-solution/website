@@ -12,7 +12,7 @@ public interface CMapVetoPickController : CBaseEntity, CEntityInstance, ISchemaC
 
 ### AccountIDs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L34)
 
 ```csharp
 ISchemaFixedArray<int> AccountIDs { get; }
@@ -24,7 +24,7 @@ ISchemaFixedArray<int> AccountIDs { get; }
 
 ### CurrentPhase
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L50)
 
 ```csharp
 ref int CurrentPhase { get; }
@@ -36,7 +36,7 @@ ref int CurrentPhase { get; }
 
 ### DblPreMatchDraftSequenceTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L22)
 
 ```csharp
 ref double DblPreMatchDraftSequenceTime { get; }
@@ -48,7 +48,7 @@ ref double DblPreMatchDraftSequenceTime { get; }
 
 ### DraftType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L26)
 
 ```csharp
 ref int DraftType { get; }
@@ -60,7 +60,7 @@ ref int DraftType { get; }
 
 ### MapId0
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L36)
 
 ```csharp
 ISchemaFixedArray<int> MapId0 { get; }
@@ -72,7 +72,7 @@ ISchemaFixedArray<int> MapId0 { get; }
 
 ### MapId1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L38)
 
 ```csharp
 ISchemaFixedArray<int> MapId1 { get; }
@@ -84,7 +84,7 @@ ISchemaFixedArray<int> MapId1 { get; }
 
 ### MapId2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L40)
 
 ```csharp
 ISchemaFixedArray<int> MapId2 { get; }
@@ -96,7 +96,7 @@ ISchemaFixedArray<int> MapId2 { get; }
 
 ### MapId3
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L42)
 
 ```csharp
 ISchemaFixedArray<int> MapId3 { get; }
@@ -108,7 +108,7 @@ ISchemaFixedArray<int> MapId3 { get; }
 
 ### MapId4
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L44)
 
 ```csharp
 ISchemaFixedArray<int> MapId4 { get; }
@@ -120,7 +120,7 @@ ISchemaFixedArray<int> MapId4 { get; }
 
 ### MapId5
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L46)
 
 ```csharp
 ISchemaFixedArray<int> MapId5 { get; }
@@ -132,7 +132,7 @@ ISchemaFixedArray<int> MapId5 { get; }
 
 ### NeedToPlayFiveSecondsRemaining
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L20)
 
 ```csharp
 ref bool NeedToPlayFiveSecondsRemaining { get; }
@@ -144,7 +144,7 @@ ref bool NeedToPlayFiveSecondsRemaining { get; }
 
 ### OnLevelTransition
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L68)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L69)
 
 ```csharp
 SchemaUntypedField OnLevelTransition { get; }
@@ -156,7 +156,7 @@ SchemaUntypedField OnLevelTransition { get; }
 
 ### OnMapPicked
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L60)
 
 ```csharp
 SchemaUntypedField OnMapPicked { get; }
@@ -168,7 +168,7 @@ SchemaUntypedField OnMapPicked { get; }
 
 ### OnMapVetoed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L56)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L57)
 
 ```csharp
 SchemaUntypedField OnMapVetoed { get; }
@@ -180,7 +180,7 @@ SchemaUntypedField OnMapVetoed { get; }
 
 ### OnNewPhaseStarted
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L65)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L66)
 
 ```csharp
 SchemaUntypedField OnNewPhaseStarted { get; }
@@ -192,7 +192,7 @@ SchemaUntypedField OnNewPhaseStarted { get; }
 
 ### OnSidesPicked
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L62)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L63)
 
 ```csharp
 SchemaUntypedField OnSidesPicked { get; }
@@ -204,7 +204,7 @@ SchemaUntypedField OnSidesPicked { get; }
 
 ### PhaseDurationTicks
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L54)
 
 ```csharp
 ref int PhaseDurationTicks { get; }
@@ -216,7 +216,7 @@ ref int PhaseDurationTicks { get; }
 
 ### PhaseStartTick
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L52)
 
 ```csharp
 ref int PhaseStartTick { get; }
@@ -228,7 +228,7 @@ ref int PhaseStartTick { get; }
 
 ### PlayedIntroVcd
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L18)
 
 ```csharp
 ref bool PlayedIntroVcd { get; }
@@ -240,7 +240,7 @@ ref bool PlayedIntroVcd { get; }
 
 ### PreMatchDraftStateChanged
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L24)
 
 ```csharp
 ref bool PreMatchDraftStateChanged { get; }
@@ -252,7 +252,7 @@ ref bool PreMatchDraftStateChanged { get; }
 
 ### StartingSide0
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L48)
 
 ```csharp
 ISchemaFixedArray<int> StartingSide0 { get; }
@@ -264,7 +264,7 @@ ISchemaFixedArray<int> StartingSide0 { get; }
 
 ### TeamWinningCoinToss
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L28)
 
 ```csharp
 ref int TeamWinningCoinToss { get; }
@@ -276,7 +276,7 @@ ref int TeamWinningCoinToss { get; }
 
 ### TeamWithFirstChoice
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L30)
 
 ```csharp
 ISchemaFixedArray<int> TeamWithFirstChoice { get; }
@@ -288,7 +288,7 @@ ISchemaFixedArray<int> TeamWithFirstChoice { get; }
 
 ### VoteMapIdsList
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L32)
 
 ```csharp
 ISchemaFixedArray<int> VoteMapIdsList { get; }
@@ -302,7 +302,7 @@ ISchemaFixedArray<int> VoteMapIdsList { get; }
 
 ### AccountIDsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L74)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L75)
 
 ```csharp
 void AccountIDsUpdated()
@@ -310,7 +310,7 @@ void AccountIDsUpdated()
 
 ### CurrentPhaseUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L82)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L83)
 
 ```csharp
 void CurrentPhaseUpdated()
@@ -318,7 +318,7 @@ void CurrentPhaseUpdated()
 
 ### DraftTypeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L70)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L71)
 
 ```csharp
 void DraftTypeUpdated()
@@ -326,7 +326,7 @@ void DraftTypeUpdated()
 
 ### MapId0Updated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L75)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L76)
 
 ```csharp
 void MapId0Updated()
@@ -334,7 +334,7 @@ void MapId0Updated()
 
 ### MapId1Updated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L76)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L77)
 
 ```csharp
 void MapId1Updated()
@@ -342,7 +342,7 @@ void MapId1Updated()
 
 ### MapId2Updated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L77)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L78)
 
 ```csharp
 void MapId2Updated()
@@ -350,7 +350,7 @@ void MapId2Updated()
 
 ### MapId3Updated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L78)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L79)
 
 ```csharp
 void MapId3Updated()
@@ -358,7 +358,7 @@ void MapId3Updated()
 
 ### MapId4Updated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L79)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L80)
 
 ```csharp
 void MapId4Updated()
@@ -366,7 +366,7 @@ void MapId4Updated()
 
 ### MapId5Updated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L80)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L81)
 
 ```csharp
 void MapId5Updated()
@@ -374,7 +374,7 @@ void MapId5Updated()
 
 ### PhaseDurationTicksUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L84)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L85)
 
 ```csharp
 void PhaseDurationTicksUpdated()
@@ -382,7 +382,7 @@ void PhaseDurationTicksUpdated()
 
 ### PhaseStartTickUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L83)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L84)
 
 ```csharp
 void PhaseStartTickUpdated()
@@ -390,7 +390,7 @@ void PhaseStartTickUpdated()
 
 ### StartingSide0Updated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L81)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L82)
 
 ```csharp
 void StartingSide0Updated()
@@ -398,7 +398,7 @@ void StartingSide0Updated()
 
 ### TeamWinningCoinTossUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L71)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L72)
 
 ```csharp
 void TeamWinningCoinTossUpdated()
@@ -406,7 +406,7 @@ void TeamWinningCoinTossUpdated()
 
 ### TeamWithFirstChoiceUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L72)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L73)
 
 ```csharp
 void TeamWithFirstChoiceUpdated()
@@ -414,7 +414,7 @@ void TeamWithFirstChoiceUpdated()
 
 ### VoteMapIdsListUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L73)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapVetoPickController.cs#L74)
 
 ```csharp
 void VoteMapIdsListUpdated()

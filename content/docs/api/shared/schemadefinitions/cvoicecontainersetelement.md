@@ -12,7 +12,7 @@ public interface CVoiceContainerSetElement : ISchemaClass<CVoiceContainerSetElem
 
 ### Sound
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerSetElement.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerSetElement.cs#L18)
 
 ```csharp
 CSoundContainerReference Sound { get; }
@@ -24,7 +24,7 @@ CSoundContainerReference Sound { get; }
 
 ### VolumeDB
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerSetElement.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerSetElement.cs#L20)
 
 ```csharp
 ref float VolumeDB { get; }

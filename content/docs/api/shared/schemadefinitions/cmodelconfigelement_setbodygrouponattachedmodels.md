@@ -12,7 +12,7 @@ public interface CModelConfigElement_SetBodygroupOnAttachedModels : CModelConfig
 
 ### Choice
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_SetBodygroupOnAttachedModels.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_SetBodygroupOnAttachedModels.cs#L20)
 
 ```csharp
 ref int Choice { get; }
@@ -24,7 +24,7 @@ ref int Choice { get; }
 
 ### GroupName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_SetBodygroupOnAttachedModels.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_SetBodygroupOnAttachedModels.cs#L18)
 
 ```csharp
 string GroupName { get; set; }

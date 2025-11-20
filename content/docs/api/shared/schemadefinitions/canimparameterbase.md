@@ -12,7 +12,7 @@ public interface CAnimParameterBase : ISchemaClass<CAnimParameterBase>, ISchemaF
 
 ### Comment
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimParameterBase.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimParameterBase.cs#L20)
 
 ```csharp
 string Comment { get; set; }
@@ -24,7 +24,7 @@ string Comment { get; set; }
 
 ### ComponentName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimParameterBase.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimParameterBase.cs#L26)
 
 ```csharp
 string ComponentName { get; set; }
@@ -36,7 +36,7 @@ string ComponentName { get; set; }
 
 ### Group
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimParameterBase.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimParameterBase.cs#L22)
 
 ```csharp
 string Group { get; set; }
@@ -48,7 +48,7 @@ string Group { get; set; }
 
 ### Id
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimParameterBase.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimParameterBase.cs#L24)
 
 ```csharp
 AnimParamID Id { get; }
@@ -60,7 +60,7 @@ AnimParamID Id { get; }
 
 ### IsReferenced
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimParameterBase.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimParameterBase.cs#L30)
 
 ```csharp
 ref bool IsReferenced { get; }
@@ -72,7 +72,7 @@ ref bool IsReferenced { get; }
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimParameterBase.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimParameterBase.cs#L18)
 
 ```csharp
 ref CGlobalSymbol Name { get; }
@@ -84,7 +84,7 @@ ref CGlobalSymbol Name { get; }
 
 ### NetworkingRequested
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimParameterBase.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimParameterBase.cs#L28)
 
 ```csharp
 ref bool NetworkingRequested { get; }

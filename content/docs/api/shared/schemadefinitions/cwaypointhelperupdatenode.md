@@ -12,7 +12,7 @@ public interface CWayPointHelperUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBa
 
 ### EndCycle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CWayPointHelperUpdateNode.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CWayPointHelperUpdateNode.cs#L20)
 
 ```csharp
 ref float EndCycle { get; }
@@ -24,7 +24,7 @@ ref float EndCycle { get; }
 
 ### OnlyGoals
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CWayPointHelperUpdateNode.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CWayPointHelperUpdateNode.cs#L22)
 
 ```csharp
 ref bool OnlyGoals { get; }
@@ -36,7 +36,7 @@ ref bool OnlyGoals { get; }
 
 ### PreventOvershoot
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CWayPointHelperUpdateNode.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CWayPointHelperUpdateNode.cs#L24)
 
 ```csharp
 ref bool PreventOvershoot { get; }
@@ -48,7 +48,7 @@ ref bool PreventOvershoot { get; }
 
 ### PreventUndershoot
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CWayPointHelperUpdateNode.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CWayPointHelperUpdateNode.cs#L26)
 
 ```csharp
 ref bool PreventUndershoot { get; }
@@ -60,7 +60,7 @@ ref bool PreventUndershoot { get; }
 
 ### StartCycle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CWayPointHelperUpdateNode.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CWayPointHelperUpdateNode.cs#L18)
 
 ```csharp
 ref float StartCycle { get; }

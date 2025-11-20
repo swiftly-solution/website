@@ -12,7 +12,7 @@ public interface CAnimEncodeDifference : ISchemaClass<CAnimEncodeDifference>, IS
 
 ### BoneArray
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEncodeDifference.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEncodeDifference.cs#L18)
 
 ```csharp
 ref CUtlVector<CAnimBoneDifference> BoneArray { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<CAnimBoneDifference> BoneArray { get; }
 
 ### HasMorphBitArray
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEncodeDifference.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEncodeDifference.cs#L28)
 
 ```csharp
 ref CUtlVector<byte> HasMorphBitArray { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<byte> HasMorphBitArray { get; }
 
 ### HasMovementBitArray
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEncodeDifference.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEncodeDifference.cs#L26)
 
 ```csharp
 ref CUtlVector<byte> HasMovementBitArray { get; }
@@ -48,7 +48,7 @@ ref CUtlVector<byte> HasMovementBitArray { get; }
 
 ### HasRotationBitArray
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEncodeDifference.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEncodeDifference.cs#L24)
 
 ```csharp
 ref CUtlVector<byte> HasRotationBitArray { get; }
@@ -60,7 +60,7 @@ ref CUtlVector<byte> HasRotationBitArray { get; }
 
 ### HasUserBitArray
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEncodeDifference.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEncodeDifference.cs#L30)
 
 ```csharp
 ref CUtlVector<byte> HasUserBitArray { get; }
@@ -72,7 +72,7 @@ ref CUtlVector<byte> HasUserBitArray { get; }
 
 ### MorphArray
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEncodeDifference.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEncodeDifference.cs#L20)
 
 ```csharp
 ref CUtlVector<CAnimMorphDifference> MorphArray { get; }
@@ -84,7 +84,7 @@ ref CUtlVector<CAnimMorphDifference> MorphArray { get; }
 
 ### UserArray
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEncodeDifference.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEncodeDifference.cs#L22)
 
 ```csharp
 ref CUtlVector<CAnimUserDifference> UserArray { get; }

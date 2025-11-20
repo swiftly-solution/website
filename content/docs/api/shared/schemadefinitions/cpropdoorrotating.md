@@ -12,7 +12,7 @@ public interface CPropDoorRotating : CBasePropDoor, CDynamicProp, CBreakableProp
 
 ### AjarAngle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotating.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotating.cs#L30)
 
 ```csharp
 ref float AjarAngle { get; }
@@ -24,7 +24,7 @@ ref float AjarAngle { get; }
 
 ### AjarDoorShouldntAlwaysOpen
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotating.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotating.cs#L50)
 
 ```csharp
 ref bool AjarDoorShouldntAlwaysOpen { get; }
@@ -36,7 +36,7 @@ ref bool AjarDoorShouldntAlwaysOpen { get; }
 
 ### Axis
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotating.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotating.cs#L18)
 
 ```csharp
 ref Vector Axis { get; }
@@ -48,7 +48,7 @@ ref Vector Axis { get; }
 
 ### BackBoundsMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotating.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotating.cs#L48)
 
 ```csharp
 ref Vector BackBoundsMax { get; }
@@ -60,7 +60,7 @@ ref Vector BackBoundsMax { get; }
 
 ### BackBoundsMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotating.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotating.cs#L46)
 
 ```csharp
 ref Vector BackBoundsMin { get; }
@@ -72,7 +72,7 @@ ref Vector BackBoundsMin { get; }
 
 ### CurrentOpenDirection
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotating.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotating.cs#L26)
 
 ```csharp
 ref PropDoorRotatingOpenDirection_e CurrentOpenDirection { get; }
@@ -84,7 +84,7 @@ ref PropDoorRotatingOpenDirection_e CurrentOpenDirection { get; }
 
 ### DefaultCheckDirection
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotating.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotating.cs#L28)
 
 ```csharp
 ref doorCheck_e DefaultCheckDirection { get; }
@@ -96,7 +96,7 @@ ref doorCheck_e DefaultCheckDirection { get; }
 
 ### Distance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotating.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotating.cs#L20)
 
 ```csharp
 ref float Distance { get; }
@@ -108,7 +108,7 @@ ref float Distance { get; }
 
 ### EntityBlocker
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotating.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotating.cs#L52)
 
 ```csharp
 ref CHandle<CEntityBlocker> EntityBlocker { get; }
@@ -120,7 +120,7 @@ ref CHandle<CEntityBlocker> EntityBlocker { get; }
 
 ### ForwardBoundsMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotating.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotating.cs#L44)
 
 ```csharp
 ref Vector ForwardBoundsMax { get; }
@@ -132,7 +132,7 @@ ref Vector ForwardBoundsMax { get; }
 
 ### ForwardBoundsMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotating.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotating.cs#L42)
 
 ```csharp
 ref Vector ForwardBoundsMin { get; }
@@ -144,7 +144,7 @@ ref Vector ForwardBoundsMin { get; }
 
 ### Goal
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotating.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotating.cs#L40)
 
 ```csharp
 ref QAngle Goal { get; }
@@ -156,7 +156,7 @@ ref QAngle Goal { get; }
 
 ### OpenDirection
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotating.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotating.cs#L24)
 
 ```csharp
 ref PropDoorRotatingOpenDirection_e OpenDirection { get; }
@@ -168,7 +168,7 @@ ref PropDoorRotatingOpenDirection_e OpenDirection { get; }
 
 ### RotationAjarDeprecated
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotating.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotating.cs#L32)
 
 ```csharp
 ref QAngle RotationAjarDeprecated { get; }
@@ -180,7 +180,7 @@ ref QAngle RotationAjarDeprecated { get; }
 
 ### RotationClosed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotating.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotating.cs#L34)
 
 ```csharp
 ref QAngle RotationClosed { get; }
@@ -192,7 +192,7 @@ ref QAngle RotationClosed { get; }
 
 ### RotationOpenBack
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotating.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotating.cs#L38)
 
 ```csharp
 ref QAngle RotationOpenBack { get; }
@@ -204,7 +204,7 @@ ref QAngle RotationOpenBack { get; }
 
 ### RotationOpenForward
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotating.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotating.cs#L36)
 
 ```csharp
 ref QAngle RotationOpenForward { get; }
@@ -216,7 +216,7 @@ ref QAngle RotationOpenForward { get; }
 
 ### SpawnPosition
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotating.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotating.cs#L22)
 
 ```csharp
 ref PropDoorRotatingSpawnPos_t SpawnPosition { get; }

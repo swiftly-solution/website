@@ -12,7 +12,7 @@ public interface C_OP_ChladniWave : CParticleFunctionOperator, CParticleFunction
 
 ### B3D
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ChladniWave.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ChladniWave.cs#L36)
 
 ```csharp
 ref bool B3D { get; }
@@ -24,7 +24,7 @@ ref bool B3D { get; }
 
 ### FieldOutput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ChladniWave.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ChladniWave.cs#L18)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -36,7 +36,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 ### Harmonics
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ChladniWave.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ChladniWave.cs#L30)
 
 ```csharp
 CPerParticleVecInput Harmonics { get; }
@@ -48,7 +48,7 @@ CPerParticleVecInput Harmonics { get; }
 
 ### InputMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ChladniWave.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ChladniWave.cs#L22)
 
 ```csharp
 CPerParticleFloatInput InputMax { get; }
@@ -60,7 +60,7 @@ CPerParticleFloatInput InputMax { get; }
 
 ### InputMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ChladniWave.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ChladniWave.cs#L20)
 
 ```csharp
 CPerParticleFloatInput InputMin { get; }
@@ -72,7 +72,7 @@ CPerParticleFloatInput InputMin { get; }
 
 ### LocalSpaceControlPoint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ChladniWave.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ChladniWave.cs#L34)
 
 ```csharp
 ref int LocalSpaceControlPoint { get; }
@@ -84,7 +84,7 @@ ref int LocalSpaceControlPoint { get; }
 
 ### OutputMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ChladniWave.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ChladniWave.cs#L26)
 
 ```csharp
 CPerParticleFloatInput OutputMax { get; }
@@ -96,7 +96,7 @@ CPerParticleFloatInput OutputMax { get; }
 
 ### OutputMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ChladniWave.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ChladniWave.cs#L24)
 
 ```csharp
 CPerParticleFloatInput OutputMin { get; }
@@ -108,7 +108,7 @@ CPerParticleFloatInput OutputMin { get; }
 
 ### SetMethod
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ChladniWave.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ChladniWave.cs#L32)
 
 ```csharp
 ref ParticleSetMethod_t SetMethod { get; }
@@ -120,7 +120,7 @@ ref ParticleSetMethod_t SetMethod { get; }
 
 ### WaveLength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ChladniWave.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ChladniWave.cs#L28)
 
 ```csharp
 CPerParticleVecInput WaveLength { get; }

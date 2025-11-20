@@ -12,7 +12,7 @@ public interface CDirectPlaybackTagData : ISchemaClass<CDirectPlaybackTagData>, 
 
 ### SequenceName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDirectPlaybackTagData.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDirectPlaybackTagData.cs#L18)
 
 ```csharp
 string SequenceName { get; set; }
@@ -24,7 +24,7 @@ string SequenceName { get; set; }
 
 ### Tags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDirectPlaybackTagData.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDirectPlaybackTagData.cs#L20)
 
 ```csharp
 ref CUtlVector<TagSpan_t> Tags { get; }

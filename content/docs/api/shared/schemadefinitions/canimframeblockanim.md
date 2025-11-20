@@ -12,7 +12,7 @@ public interface CAnimFrameBlockAnim : ISchemaClass<CAnimFrameBlockAnim>, ISchem
 
 ### EndFrame
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimFrameBlockAnim.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimFrameBlockAnim.cs#L20)
 
 ```csharp
 ref int EndFrame { get; }
@@ -24,7 +24,7 @@ ref int EndFrame { get; }
 
 ### SegmentIndexArray
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimFrameBlockAnim.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimFrameBlockAnim.cs#L22)
 
 ```csharp
 ref CUtlVector<int> SegmentIndexArray { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<int> SegmentIndexArray { get; }
 
 ### StartFrame
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimFrameBlockAnim.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimFrameBlockAnim.cs#L18)
 
 ```csharp
 ref int StartFrame { get; }

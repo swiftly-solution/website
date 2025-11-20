@@ -12,7 +12,7 @@ public interface FeKelagerBend2_t : ISchemaClass<FeKelagerBend2_t>, ISchemaField
 
 ### Height0
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeKelagerBend2_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeKelagerBend2_t.cs#L20)
 
 ```csharp
 ref float Height0 { get; }
@@ -24,7 +24,7 @@ ref float Height0 { get; }
 
 ### Node
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeKelagerBend2_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeKelagerBend2_t.cs#L22)
 
 ```csharp
 ISchemaFixedArray<ushort> Node { get; }
@@ -36,7 +36,7 @@ ISchemaFixedArray<ushort> Node { get; }
 
 ### Reserved
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeKelagerBend2_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeKelagerBend2_t.cs#L24)
 
 ```csharp
 ref ushort Reserved { get; }
@@ -48,7 +48,7 @@ ref ushort Reserved { get; }
 
 ### Weight
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeKelagerBend2_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeKelagerBend2_t.cs#L18)
 
 ```csharp
 ISchemaFixedArray<float> Weight { get; }

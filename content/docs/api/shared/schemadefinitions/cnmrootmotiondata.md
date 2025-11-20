@@ -12,7 +12,7 @@ public interface CNmRootMotionData : ISchemaClass<CNmRootMotionData>, ISchemaFie
 
 ### AverageAngularVelocityRadians
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionData.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionData.cs#L24)
 
 ```csharp
 ref float AverageAngularVelocityRadians { get; }
@@ -24,7 +24,7 @@ ref float AverageAngularVelocityRadians { get; }
 
 ### AverageLinearVelocity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionData.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionData.cs#L22)
 
 ```csharp
 ref float AverageLinearVelocity { get; }
@@ -36,7 +36,7 @@ ref float AverageLinearVelocity { get; }
 
 ### NumFrames
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionData.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionData.cs#L20)
 
 ```csharp
 ref int NumFrames { get; }
@@ -48,7 +48,7 @@ ref int NumFrames { get; }
 
 ### TotalDelta
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionData.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionData.cs#L26)
 
 ```csharp
 ref CTransform TotalDelta { get; }
@@ -60,7 +60,7 @@ ref CTransform TotalDelta { get; }
 
 ### Transforms
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionData.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionData.cs#L18)
 
 ```csharp
 ref CUtlVector<CTransform> Transforms { get; }

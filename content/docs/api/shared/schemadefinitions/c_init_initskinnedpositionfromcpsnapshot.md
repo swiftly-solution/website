@@ -12,7 +12,7 @@ public interface C_INIT_InitSkinnedPositionFromCPSnapshot : CParticleFunctionIni
 
 ### BoneVelocity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitSkinnedPositionFromCPSnapshot.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitSkinnedPositionFromCPSnapshot.cs#L46)
 
 ```csharp
 ref float BoneVelocity { get; }
@@ -24,7 +24,7 @@ ref float BoneVelocity { get; }
 
 ### BoneVelocityMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitSkinnedPositionFromCPSnapshot.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitSkinnedPositionFromCPSnapshot.cs#L48)
 
 ```csharp
 ref float BoneVelocityMax { get; }
@@ -36,7 +36,7 @@ ref float BoneVelocityMax { get; }
 
 ### ControlPointNumber
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitSkinnedPositionFromCPSnapshot.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitSkinnedPositionFromCPSnapshot.cs#L20)
 
 ```csharp
 ref int ControlPointNumber { get; }
@@ -48,7 +48,7 @@ ref int ControlPointNumber { get; }
 
 ### CopyAlpha
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitSkinnedPositionFromCPSnapshot.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitSkinnedPositionFromCPSnapshot.cs#L52)
 
 ```csharp
 ref bool CopyAlpha { get; }
@@ -60,7 +60,7 @@ ref bool CopyAlpha { get; }
 
 ### CopyColor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitSkinnedPositionFromCPSnapshot.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitSkinnedPositionFromCPSnapshot.cs#L50)
 
 ```csharp
 ref bool CopyColor { get; }
@@ -72,7 +72,7 @@ ref bool CopyColor { get; }
 
 ### FullLoopIncrement
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitSkinnedPositionFromCPSnapshot.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitSkinnedPositionFromCPSnapshot.cs#L42)
 
 ```csharp
 ref int FullLoopIncrement { get; }
@@ -84,7 +84,7 @@ ref int FullLoopIncrement { get; }
 
 ### IgnoreDt
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitSkinnedPositionFromCPSnapshot.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitSkinnedPositionFromCPSnapshot.cs#L30)
 
 ```csharp
 ref bool IgnoreDt { get; }
@@ -96,7 +96,7 @@ ref bool IgnoreDt { get; }
 
 ### Increment
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitSkinnedPositionFromCPSnapshot.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitSkinnedPositionFromCPSnapshot.cs#L40)
 
 ```csharp
 ref float Increment { get; }
@@ -108,7 +108,7 @@ ref float Increment { get; }
 
 ### IndexType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitSkinnedPositionFromCPSnapshot.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitSkinnedPositionFromCPSnapshot.cs#L36)
 
 ```csharp
 ref SnapshotIndexType_t IndexType { get; }
@@ -120,7 +120,7 @@ ref SnapshotIndexType_t IndexType { get; }
 
 ### MaxNormalVelocity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitSkinnedPositionFromCPSnapshot.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitSkinnedPositionFromCPSnapshot.cs#L34)
 
 ```csharp
 ref float MaxNormalVelocity { get; }
@@ -132,7 +132,7 @@ ref float MaxNormalVelocity { get; }
 
 ### MinNormalVelocity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitSkinnedPositionFromCPSnapshot.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitSkinnedPositionFromCPSnapshot.cs#L32)
 
 ```csharp
 ref float MinNormalVelocity { get; }
@@ -144,7 +144,7 @@ ref float MinNormalVelocity { get; }
 
 ### Random
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitSkinnedPositionFromCPSnapshot.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitSkinnedPositionFromCPSnapshot.cs#L22)
 
 ```csharp
 ref bool Random { get; }
@@ -156,7 +156,7 @@ ref bool Random { get; }
 
 ### RandomSeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitSkinnedPositionFromCPSnapshot.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitSkinnedPositionFromCPSnapshot.cs#L24)
 
 ```csharp
 ref int RandomSeed { get; }
@@ -168,7 +168,7 @@ ref int RandomSeed { get; }
 
 ### ReadIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitSkinnedPositionFromCPSnapshot.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitSkinnedPositionFromCPSnapshot.cs#L38)
 
 ```csharp
 CPerParticleFloatInput ReadIndex { get; }
@@ -180,7 +180,7 @@ CPerParticleFloatInput ReadIndex { get; }
 
 ### Rigid
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitSkinnedPositionFromCPSnapshot.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitSkinnedPositionFromCPSnapshot.cs#L26)
 
 ```csharp
 ref bool Rigid { get; }
@@ -192,7 +192,7 @@ ref bool Rigid { get; }
 
 ### SetNormal
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitSkinnedPositionFromCPSnapshot.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitSkinnedPositionFromCPSnapshot.cs#L28)
 
 ```csharp
 ref bool SetNormal { get; }
@@ -204,7 +204,7 @@ ref bool SetNormal { get; }
 
 ### SetRadius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitSkinnedPositionFromCPSnapshot.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitSkinnedPositionFromCPSnapshot.cs#L54)
 
 ```csharp
 ref bool SetRadius { get; }
@@ -216,7 +216,7 @@ ref bool SetRadius { get; }
 
 ### SnapShotStartPoint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitSkinnedPositionFromCPSnapshot.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitSkinnedPositionFromCPSnapshot.cs#L44)
 
 ```csharp
 ref int SnapShotStartPoint { get; }
@@ -228,7 +228,7 @@ ref int SnapShotStartPoint { get; }
 
 ### SnapshotControlPointNumber
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitSkinnedPositionFromCPSnapshot.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitSkinnedPositionFromCPSnapshot.cs#L18)
 
 ```csharp
 ref int SnapshotControlPointNumber { get; }

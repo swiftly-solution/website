@@ -12,7 +12,7 @@ public interface CPathParticleRope : CBaseEntity, CEntityInstance, ISchemaClass<
 
 ### ColorTint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L32)
 
 ```csharp
 ref Color ColorTint { get; }
@@ -24,7 +24,7 @@ ref Color ColorTint { get; }
 
 ### EffectIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L36)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> EffectIndex { get; }
@@ -36,7 +36,7 @@ ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> EffectIndex { ge
 
 ### EffectName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L22)
 
 ```csharp
 string EffectName { get; set; }
@@ -48,7 +48,7 @@ string EffectName { get; set; }
 
 ### EffectState
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L34)
 
 ```csharp
 ref int EffectState { get; }
@@ -60,7 +60,7 @@ ref int EffectState { get; }
 
 ### MaxSimulationTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L20)
 
 ```csharp
 ref float MaxSimulationTime { get; }
@@ -72,7 +72,7 @@ ref float MaxSimulationTime { get; }
 
 ### ParticleSpacing
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L26)
 
 ```csharp
 ref float ParticleSpacing { get; }
@@ -84,7 +84,7 @@ ref float ParticleSpacing { get; }
 
 ### PathNodes_Color
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L44)
 
 ```csharp
 ref CUtlVector<Vector> PathNodes_Color { get; }
@@ -96,7 +96,7 @@ ref CUtlVector<Vector> PathNodes_Color { get; }
 
 ### PathNodes_Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L24)
 
 ```csharp
 ref CUtlVector<SchemaUntypedField> PathNodes_Name { get; }
@@ -108,7 +108,7 @@ ref CUtlVector<SchemaUntypedField> PathNodes_Name { get; }
 
 ### PathNodes_PinEnabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L46)
 
 ```csharp
 ref CUtlVector<bool> PathNodes_PinEnabled { get; }
@@ -120,7 +120,7 @@ ref CUtlVector<bool> PathNodes_PinEnabled { get; }
 
 ### PathNodes_Position
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L38)
 
 ```csharp
 ref CUtlVector<Vector> PathNodes_Position { get; }
@@ -132,7 +132,7 @@ ref CUtlVector<Vector> PathNodes_Position { get; }
 
 ### PathNodes_RadiusScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L48)
 
 ```csharp
 ref CUtlVector<float> PathNodes_RadiusScale { get; }
@@ -144,7 +144,7 @@ ref CUtlVector<float> PathNodes_RadiusScale { get; }
 
 ### PathNodes_TangentIn
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L40)
 
 ```csharp
 ref CUtlVector<Vector> PathNodes_TangentIn { get; }
@@ -156,7 +156,7 @@ ref CUtlVector<Vector> PathNodes_TangentIn { get; }
 
 ### PathNodes_TangentOut
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L42)
 
 ```csharp
 ref CUtlVector<Vector> PathNodes_TangentOut { get; }
@@ -168,7 +168,7 @@ ref CUtlVector<Vector> PathNodes_TangentOut { get; }
 
 ### Radius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L30)
 
 ```csharp
 ref float Radius { get; }
@@ -180,7 +180,7 @@ ref float Radius { get; }
 
 ### Slack
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L28)
 
 ```csharp
 ref float Slack { get; }
@@ -192,7 +192,7 @@ ref float Slack { get; }
 
 ### StartActive
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L18)
 
 ```csharp
 ref bool StartActive { get; }
@@ -206,7 +206,7 @@ ref bool StartActive { get; }
 
 ### ColorTintUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L52)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L53)
 
 ```csharp
 void ColorTintUpdated()
@@ -214,7 +214,7 @@ void ColorTintUpdated()
 
 ### EffectIndexUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L54)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L55)
 
 ```csharp
 void EffectIndexUpdated()
@@ -222,7 +222,7 @@ void EffectIndexUpdated()
 
 ### EffectStateUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L54)
 
 ```csharp
 void EffectStateUpdated()
@@ -230,7 +230,7 @@ void EffectStateUpdated()
 
 ### ParticleSpacingUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L50)
 
 ```csharp
 void ParticleSpacingUpdated()
@@ -238,7 +238,7 @@ void ParticleSpacingUpdated()
 
 ### PathNodes_ColorUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L58)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L59)
 
 ```csharp
 void PathNodes_ColorUpdated()
@@ -246,7 +246,7 @@ void PathNodes_ColorUpdated()
 
 ### PathNodes_PinEnabledUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L60)
 
 ```csharp
 void PathNodes_PinEnabledUpdated()
@@ -254,7 +254,7 @@ void PathNodes_PinEnabledUpdated()
 
 ### PathNodes_PositionUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L56)
 
 ```csharp
 void PathNodes_PositionUpdated()
@@ -262,7 +262,7 @@ void PathNodes_PositionUpdated()
 
 ### PathNodes_RadiusScaleUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L60)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L61)
 
 ```csharp
 void PathNodes_RadiusScaleUpdated()
@@ -270,7 +270,7 @@ void PathNodes_RadiusScaleUpdated()
 
 ### PathNodes_TangentInUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L56)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L57)
 
 ```csharp
 void PathNodes_TangentInUpdated()
@@ -278,7 +278,7 @@ void PathNodes_TangentInUpdated()
 
 ### PathNodes_TangentOutUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L58)
 
 ```csharp
 void PathNodes_TangentOutUpdated()
@@ -286,7 +286,7 @@ void PathNodes_TangentOutUpdated()
 
 ### RadiusUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L52)
 
 ```csharp
 void RadiusUpdated()
@@ -294,7 +294,7 @@ void RadiusUpdated()
 
 ### SlackUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L50)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParticleRope.cs#L51)
 
 ```csharp
 void SlackUpdated()

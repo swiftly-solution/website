@@ -12,7 +12,7 @@ public interface CNmFloatEaseNode__CDefinition : CNmFloatValueNode__CDefinition,
 
 ### EaseTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatEaseNode__CDefinition.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatEaseNode__CDefinition.cs#L18)
 
 ```csharp
 ref float EaseTime { get; }
@@ -24,7 +24,7 @@ ref float EaseTime { get; }
 
 ### EasingOp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatEaseNode__CDefinition.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatEaseNode__CDefinition.cs#L24)
 
 ```csharp
 ref NmEasingOperation_t EasingOp { get; }
@@ -36,7 +36,7 @@ ref NmEasingOperation_t EasingOp { get; }
 
 ### InputValueNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatEaseNode__CDefinition.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatEaseNode__CDefinition.cs#L22)
 
 ```csharp
 ref short InputValueNodeIdx { get; }
@@ -48,7 +48,7 @@ ref short InputValueNodeIdx { get; }
 
 ### StartValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatEaseNode__CDefinition.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatEaseNode__CDefinition.cs#L20)
 
 ```csharp
 ref float StartValue { get; }
@@ -60,7 +60,7 @@ ref float StartValue { get; }
 
 ### UseStartValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatEaseNode__CDefinition.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatEaseNode__CDefinition.cs#L26)
 
 ```csharp
 ref bool UseStartValue { get; }

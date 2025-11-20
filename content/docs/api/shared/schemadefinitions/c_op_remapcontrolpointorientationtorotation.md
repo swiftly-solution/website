@@ -12,7 +12,7 @@ public interface C_OP_RemapControlPointOrientationToRotation : CParticleFunction
 
 ### CP
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapControlPointOrientationToRotation.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapControlPointOrientationToRotation.cs#L18)
 
 ```csharp
 ref int CP { get; }
@@ -24,7 +24,7 @@ ref int CP { get; }
 
 ### Component
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapControlPointOrientationToRotation.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapControlPointOrientationToRotation.cs#L24)
 
 ```csharp
 ref int Component { get; }
@@ -36,7 +36,7 @@ ref int Component { get; }
 
 ### FieldOutput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapControlPointOrientationToRotation.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapControlPointOrientationToRotation.cs#L20)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -48,7 +48,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 ### OffsetRot
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapControlPointOrientationToRotation.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapControlPointOrientationToRotation.cs#L22)
 
 ```csharp
 ref float OffsetRot { get; }

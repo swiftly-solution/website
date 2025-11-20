@@ -12,7 +12,7 @@ public interface CPlayer_CameraServices : CPlayerPawnComponent, ISchemaClass<CPl
 
 ### Audio
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_CameraServices.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_CameraServices.cs#L32)
 
 ```csharp
 audioparams_t Audio { get; }
@@ -24,7 +24,7 @@ audioparams_t Audio { get; }
 
 ### ColorCorrectionCtrl
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_CameraServices.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_CameraServices.cs#L26)
 
 ```csharp
 ref CHandle<CColorCorrection> ColorCorrectionCtrl { get; }
@@ -36,7 +36,7 @@ ref CHandle<CColorCorrection> ColorCorrectionCtrl { get; }
 
 ### CsViewPunchAngle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_CameraServices.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_CameraServices.cs#L18)
 
 ```csharp
 ref QAngle CsViewPunchAngle { get; }
@@ -48,7 +48,7 @@ ref QAngle CsViewPunchAngle { get; }
 
 ### CsViewPunchAngleTick
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_CameraServices.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_CameraServices.cs#L20)
 
 ```csharp
 GameTick_t CsViewPunchAngleTick { get; }
@@ -60,7 +60,7 @@ GameTick_t CsViewPunchAngleTick { get; }
 
 ### CsViewPunchAngleTickRatio
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_CameraServices.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_CameraServices.cs#L22)
 
 ```csharp
 ref float CsViewPunchAngleTickRatio { get; }
@@ -72,7 +72,7 @@ ref float CsViewPunchAngleTickRatio { get; }
 
 ### OldPlayerViewOffsetZ
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_CameraServices.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_CameraServices.cs#L38)
 
 ```csharp
 ref float OldPlayerViewOffsetZ { get; }
@@ -84,7 +84,7 @@ ref float OldPlayerViewOffsetZ { get; }
 
 ### OldPlayerZ
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_CameraServices.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_CameraServices.cs#L36)
 
 ```csharp
 ref float OldPlayerZ { get; }
@@ -96,7 +96,7 @@ ref float OldPlayerZ { get; }
 
 ### PlayerFog
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_CameraServices.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_CameraServices.cs#L24)
 
 ```csharp
 fogplayerparams_t PlayerFog { get; }
@@ -108,7 +108,7 @@ fogplayerparams_t PlayerFog { get; }
 
 ### PostProcessingVolumes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_CameraServices.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_CameraServices.cs#L34)
 
 ```csharp
 ref CUtlVector<CHandle<CPostProcessingVolume>> PostProcessingVolumes { get; }
@@ -120,7 +120,7 @@ ref CUtlVector<CHandle<CPostProcessingVolume>> PostProcessingVolumes { get; }
 
 ### TonemapController
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_CameraServices.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_CameraServices.cs#L30)
 
 ```csharp
 ref CHandle<CTonemapController2> TonemapController { get; }
@@ -132,7 +132,7 @@ ref CHandle<CTonemapController2> TonemapController { get; }
 
 ### TriggerSoundscapeList
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_CameraServices.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_CameraServices.cs#L40)
 
 ```csharp
 ref CUtlVector<CHandle<CEnvSoundscapeTriggerable>> TriggerSoundscapeList { get; }
@@ -144,7 +144,7 @@ ref CUtlVector<CHandle<CEnvSoundscapeTriggerable>> TriggerSoundscapeList { get; 
 
 ### ViewEntity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_CameraServices.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_CameraServices.cs#L28)
 
 ```csharp
 ref CHandle<CBaseEntity> ViewEntity { get; }
@@ -158,7 +158,7 @@ ref CHandle<CBaseEntity> ViewEntity { get; }
 
 ### AudioUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_CameraServices.cs#L48)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_CameraServices.cs#L49)
 
 ```csharp
 void AudioUpdated()
@@ -166,7 +166,7 @@ void AudioUpdated()
 
 ### ColorCorrectionCtrlUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_CameraServices.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_CameraServices.cs#L46)
 
 ```csharp
 void ColorCorrectionCtrlUpdated()
@@ -174,7 +174,7 @@ void ColorCorrectionCtrlUpdated()
 
 ### CsViewPunchAngleTickRatioUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_CameraServices.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_CameraServices.cs#L44)
 
 ```csharp
 void CsViewPunchAngleTickRatioUpdated()
@@ -182,7 +182,7 @@ void CsViewPunchAngleTickRatioUpdated()
 
 ### CsViewPunchAngleTickUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_CameraServices.cs#L42)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_CameraServices.cs#L43)
 
 ```csharp
 void CsViewPunchAngleTickUpdated()
@@ -190,7 +190,7 @@ void CsViewPunchAngleTickUpdated()
 
 ### CsViewPunchAngleUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_CameraServices.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_CameraServices.cs#L42)
 
 ```csharp
 void CsViewPunchAngleUpdated()
@@ -198,7 +198,7 @@ void CsViewPunchAngleUpdated()
 
 ### PlayerFogUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_CameraServices.cs#L44)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_CameraServices.cs#L45)
 
 ```csharp
 void PlayerFogUpdated()
@@ -206,7 +206,7 @@ void PlayerFogUpdated()
 
 ### PostProcessingVolumesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_CameraServices.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_CameraServices.cs#L50)
 
 ```csharp
 void PostProcessingVolumesUpdated()
@@ -214,7 +214,7 @@ void PostProcessingVolumesUpdated()
 
 ### TonemapControllerUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_CameraServices.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_CameraServices.cs#L48)
 
 ```csharp
 void TonemapControllerUpdated()
@@ -222,7 +222,7 @@ void TonemapControllerUpdated()
 
 ### ViewEntityUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_CameraServices.cs#L46)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_CameraServices.cs#L47)
 
 ```csharp
 void ViewEntityUpdated()

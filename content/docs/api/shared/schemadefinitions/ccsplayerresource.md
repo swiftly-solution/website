@@ -12,7 +12,7 @@ public interface CCSPlayerResource : CBaseEntity, CEntityInstance, ISchemaClass<
 
 ### BombsiteCenterA
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerResource.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerResource.cs#L24)
 
 ```csharp
 ref Vector BombsiteCenterA { get; }
@@ -24,7 +24,7 @@ ref Vector BombsiteCenterA { get; }
 
 ### BombsiteCenterB
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerResource.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerResource.cs#L26)
 
 ```csharp
 ref Vector BombsiteCenterB { get; }
@@ -36,7 +36,7 @@ ref Vector BombsiteCenterB { get; }
 
 ### EndMatchNextMapAllVoted
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerResource.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerResource.cs#L34)
 
 ```csharp
 ref bool EndMatchNextMapAllVoted { get; }
@@ -48,7 +48,7 @@ ref bool EndMatchNextMapAllVoted { get; }
 
 ### FoundGoalPositions
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerResource.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerResource.cs#L36)
 
 ```csharp
 ref bool FoundGoalPositions { get; }
@@ -60,7 +60,7 @@ ref bool FoundGoalPositions { get; }
 
 ### HostageAlive
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerResource.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerResource.cs#L18)
 
 ```csharp
 ISchemaFixedArray<bool> HostageAlive { get; }
@@ -72,7 +72,7 @@ ISchemaFixedArray<bool> HostageAlive { get; }
 
 ### HostageEntityIDs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerResource.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerResource.cs#L22)
 
 ```csharp
 ISchemaFixedArray<uint> HostageEntityIDs { get; }
@@ -84,7 +84,7 @@ ISchemaFixedArray<uint> HostageEntityIDs { get; }
 
 ### HostageRescueX
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerResource.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerResource.cs#L28)
 
 ```csharp
 ISchemaFixedArray<int> HostageRescueX { get; }
@@ -96,7 +96,7 @@ ISchemaFixedArray<int> HostageRescueX { get; }
 
 ### HostageRescueY
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerResource.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerResource.cs#L30)
 
 ```csharp
 ISchemaFixedArray<int> HostageRescueY { get; }
@@ -108,7 +108,7 @@ ISchemaFixedArray<int> HostageRescueY { get; }
 
 ### HostageRescueZ
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerResource.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerResource.cs#L32)
 
 ```csharp
 ISchemaFixedArray<int> HostageRescueZ { get; }
@@ -120,7 +120,7 @@ ISchemaFixedArray<int> HostageRescueZ { get; }
 
 ### IsHostageFollowingSomeone
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerResource.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerResource.cs#L20)
 
 ```csharp
 ISchemaFixedArray<bool> IsHostageFollowingSomeone { get; }
@@ -134,7 +134,7 @@ ISchemaFixedArray<bool> IsHostageFollowingSomeone { get; }
 
 ### BombsiteCenterAUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerResource.cs#L40)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerResource.cs#L41)
 
 ```csharp
 void BombsiteCenterAUpdated()
@@ -142,7 +142,7 @@ void BombsiteCenterAUpdated()
 
 ### BombsiteCenterBUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerResource.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerResource.cs#L42)
 
 ```csharp
 void BombsiteCenterBUpdated()
@@ -150,7 +150,7 @@ void BombsiteCenterBUpdated()
 
 ### EndMatchNextMapAllVotedUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerResource.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerResource.cs#L46)
 
 ```csharp
 void EndMatchNextMapAllVotedUpdated()
@@ -158,7 +158,7 @@ void EndMatchNextMapAllVotedUpdated()
 
 ### HostageAliveUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerResource.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerResource.cs#L38)
 
 ```csharp
 void HostageAliveUpdated()
@@ -166,7 +166,7 @@ void HostageAliveUpdated()
 
 ### HostageEntityIDsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerResource.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerResource.cs#L40)
 
 ```csharp
 void HostageEntityIDsUpdated()
@@ -174,7 +174,7 @@ void HostageEntityIDsUpdated()
 
 ### HostageRescueXUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerResource.cs#L42)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerResource.cs#L43)
 
 ```csharp
 void HostageRescueXUpdated()
@@ -182,7 +182,7 @@ void HostageRescueXUpdated()
 
 ### HostageRescueYUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerResource.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerResource.cs#L44)
 
 ```csharp
 void HostageRescueYUpdated()
@@ -190,7 +190,7 @@ void HostageRescueYUpdated()
 
 ### HostageRescueZUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerResource.cs#L44)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerResource.cs#L45)
 
 ```csharp
 void HostageRescueZUpdated()
@@ -198,7 +198,7 @@ void HostageRescueZUpdated()
 
 ### IsHostageFollowingSomeoneUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerResource.cs#L38)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerResource.cs#L39)
 
 ```csharp
 void IsHostageFollowingSomeoneUpdated()

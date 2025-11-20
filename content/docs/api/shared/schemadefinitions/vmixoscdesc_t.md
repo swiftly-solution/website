@@ -12,7 +12,7 @@ public interface VMixOscDesc_t : ISchemaClass<VMixOscDesc_t>, ISchemaField, ISch
 
 ### Freq
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixOscDesc_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixOscDesc_t.cs#L20)
 
 ```csharp
 ref float Freq { get; }
@@ -24,7 +24,7 @@ ref float Freq { get; }
 
 ### OscType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixOscDesc_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixOscDesc_t.cs#L18)
 
 ```csharp
 ref VMixLFOShape_t OscType { get; }
@@ -36,7 +36,7 @@ ref VMixLFOShape_t OscType { get; }
 
 ### Phase
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixOscDesc_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixOscDesc_t.cs#L22)
 
 ```csharp
 ref float Phase { get; }

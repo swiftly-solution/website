@@ -12,7 +12,7 @@ public interface C_OP_DecayMaintainCount : CParticleFunctionOperator, CParticleF
 
 ### DecayDelay
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DecayMaintainCount.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DecayMaintainCount.cs#L20)
 
 ```csharp
 ref float DecayDelay { get; }
@@ -24,7 +24,7 @@ ref float DecayDelay { get; }
 
 ### KillNewest
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DecayMaintainCount.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DecayMaintainCount.cs#L30)
 
 ```csharp
 ref bool KillNewest { get; }
@@ -36,7 +36,7 @@ ref bool KillNewest { get; }
 
 ### LifespanDecay
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DecayMaintainCount.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DecayMaintainCount.cs#L26)
 
 ```csharp
 ref bool LifespanDecay { get; }
@@ -48,7 +48,7 @@ ref bool LifespanDecay { get; }
 
 ### ParticlesToMaintain
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DecayMaintainCount.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DecayMaintainCount.cs#L18)
 
 ```csharp
 ref int ParticlesToMaintain { get; }
@@ -60,7 +60,7 @@ ref int ParticlesToMaintain { get; }
 
 ### Scale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DecayMaintainCount.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DecayMaintainCount.cs#L28)
 
 ```csharp
 CParticleCollectionFloatInput Scale { get; }
@@ -72,7 +72,7 @@ CParticleCollectionFloatInput Scale { get; }
 
 ### SnapshotControlPoint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DecayMaintainCount.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DecayMaintainCount.cs#L22)
 
 ```csharp
 ref int SnapshotControlPoint { get; }
@@ -84,7 +84,7 @@ ref int SnapshotControlPoint { get; }
 
 ### StrSnapshotSubset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DecayMaintainCount.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DecayMaintainCount.cs#L24)
 
 ```csharp
 string StrSnapshotSubset { get; set; }

@@ -12,7 +12,7 @@ public interface CPhysMotor : CLogicalEntity, CServerOnlyEntity, CBaseEntity, CE
 
 ### AdditionalAcceleration
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMotor.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMotor.cs#L32)
 
 ```csharp
 ref float AdditionalAcceleration { get; }
@@ -24,7 +24,7 @@ ref float AdditionalAcceleration { get; }
 
 ### AnchorObject
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMotor.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMotor.cs#L24)
 
 ```csharp
 ref CHandle<CBaseEntity> AnchorObject { get; }
@@ -36,7 +36,7 @@ ref CHandle<CBaseEntity> AnchorObject { get; }
 
 ### AngularAcceleration
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMotor.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMotor.cs#L34)
 
 ```csharp
 ref float AngularAcceleration { get; }
@@ -48,7 +48,7 @@ ref float AngularAcceleration { get; }
 
 ### AttachedObject
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMotor.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMotor.cs#L22)
 
 ```csharp
 ref CHandle<CBaseEntity> AttachedObject { get; }
@@ -60,7 +60,7 @@ ref CHandle<CBaseEntity> AttachedObject { get; }
 
 ### Motor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMotor.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMotor.cs#L42)
 
 ```csharp
 CMotorController Motor { get; }
@@ -72,7 +72,7 @@ CMotorController Motor { get; }
 
 ### MotorFriction
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMotor.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMotor.cs#L30)
 
 ```csharp
 ref float MotorFriction { get; }
@@ -84,7 +84,7 @@ ref float MotorFriction { get; }
 
 ### NameAnchor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMotor.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMotor.cs#L20)
 
 ```csharp
 string NameAnchor { get; set; }
@@ -96,7 +96,7 @@ string NameAnchor { get; set; }
 
 ### NameAttach
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMotor.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMotor.cs#L18)
 
 ```csharp
 string NameAttach { get; set; }
@@ -108,7 +108,7 @@ string NameAttach { get; set; }
 
 ### SpeedWhenSpinUpOrSpinDownStarted
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMotor.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMotor.cs#L40)
 
 ```csharp
 ref float SpeedWhenSpinUpOrSpinDownStarted { get; }
@@ -120,7 +120,7 @@ ref float SpeedWhenSpinUpOrSpinDownStarted { get; }
 
 ### SpinDown
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMotor.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMotor.cs#L28)
 
 ```csharp
 ref float SpinDown { get; }
@@ -132,7 +132,7 @@ ref float SpinDown { get; }
 
 ### SpinUp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMotor.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMotor.cs#L26)
 
 ```csharp
 ref float SpinUp { get; }
@@ -144,7 +144,7 @@ ref float SpinUp { get; }
 
 ### TargetSpeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMotor.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMotor.cs#L38)
 
 ```csharp
 ref float TargetSpeed { get; }
@@ -156,7 +156,7 @@ ref float TargetSpeed { get; }
 
 ### TorqueScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMotor.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMotor.cs#L36)
 
 ```csharp
 ref float TorqueScale { get; }

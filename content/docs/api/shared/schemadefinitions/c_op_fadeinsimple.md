@@ -12,7 +12,7 @@ public interface C_OP_FadeInSimple : CParticleFunctionOperator, CParticleFunctio
 
 ### FadeInTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeInSimple.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeInSimple.cs#L18)
 
 ```csharp
 ref float FadeInTime { get; }
@@ -24,7 +24,7 @@ ref float FadeInTime { get; }
 
 ### FieldOutput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeInSimple.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeInSimple.cs#L20)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }

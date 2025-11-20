@@ -12,7 +12,7 @@ public interface CEnvWind : CBaseEntity, CEntityInstance, ISchemaClass<CEntityIn
 
 ### EnvWindShared
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWind.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWind.cs#L18)
 
 ```csharp
 CEnvWindShared EnvWindShared { get; }
@@ -26,7 +26,7 @@ CEnvWindShared EnvWindShared { get; }
 
 ### EnvWindSharedUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWind.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWind.cs#L20)
 
 ```csharp
 void EnvWindSharedUpdated()

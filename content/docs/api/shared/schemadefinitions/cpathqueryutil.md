@@ -12,7 +12,7 @@ public interface CPathQueryUtil : ISchemaClass<CPathQueryUtil>, ISchemaField, IS
 
 ### IsClosedLoop
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathQueryUtil.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathQueryUtil.cs#L26)
 
 ```csharp
 ref bool IsClosedLoop { get; }
@@ -24,7 +24,7 @@ ref bool IsClosedLoop { get; }
 
 ### PathSampleDistances
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathQueryUtil.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathQueryUtil.cs#L24)
 
 ```csharp
 ref CUtlVector<float> PathSampleDistances { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<float> PathSampleDistances { get; }
 
 ### PathSampleParameters
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathQueryUtil.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathQueryUtil.cs#L22)
 
 ```csharp
 ref CUtlVector<float> PathSampleParameters { get; }
@@ -48,7 +48,7 @@ ref CUtlVector<float> PathSampleParameters { get; }
 
 ### PathSamplePositions
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathQueryUtil.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathQueryUtil.cs#L20)
 
 ```csharp
 ref CUtlVector<Vector> PathSamplePositions { get; }
@@ -60,7 +60,7 @@ ref CUtlVector<Vector> PathSamplePositions { get; }
 
 ### PathToEntityTransform
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathQueryUtil.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathQueryUtil.cs#L18)
 
 ```csharp
 ref CTransform PathToEntityTransform { get; }

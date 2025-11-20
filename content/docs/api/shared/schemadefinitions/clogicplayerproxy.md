@@ -12,7 +12,7 @@ public interface CLogicPlayerProxy : CLogicalEntity, CServerOnlyEntity, CBaseEnt
 
 ### Player
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicPlayerProxy.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicPlayerProxy.cs#L18)
 
 ```csharp
 ref CHandle<CBaseEntity> Player { get; }
@@ -24,7 +24,7 @@ ref CHandle<CBaseEntity> Player { get; }
 
 ### PlayerDied
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicPlayerProxy.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicPlayerProxy.cs#L24)
 
 ```csharp
 CEntityIOOutput PlayerDied { get; }
@@ -36,7 +36,7 @@ CEntityIOOutput PlayerDied { get; }
 
 ### PlayerHasAmmo
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicPlayerProxy.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicPlayerProxy.cs#L20)
 
 ```csharp
 CEntityIOOutput PlayerHasAmmo { get; }
@@ -48,7 +48,7 @@ CEntityIOOutput PlayerHasAmmo { get; }
 
 ### PlayerHasNoAmmo
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicPlayerProxy.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicPlayerProxy.cs#L22)
 
 ```csharp
 CEntityIOOutput PlayerHasNoAmmo { get; }
@@ -60,7 +60,7 @@ CEntityIOOutput PlayerHasNoAmmo { get; }
 
 ### RequestedPlayerHealth
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicPlayerProxy.cs#L26)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicPlayerProxy.cs#L27)
 
 ```csharp
 SchemaUntypedField RequestedPlayerHealth { get; }

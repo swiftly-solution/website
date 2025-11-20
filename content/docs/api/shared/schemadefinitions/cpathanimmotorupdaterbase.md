@@ -12,7 +12,7 @@ public interface CPathAnimMotorUpdaterBase : CAnimMotorUpdaterBase, ISchemaClass
 
 ### LockToPath
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathAnimMotorUpdaterBase.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathAnimMotorUpdaterBase.cs#L18)
 
 ```csharp
 ref bool LockToPath { get; }

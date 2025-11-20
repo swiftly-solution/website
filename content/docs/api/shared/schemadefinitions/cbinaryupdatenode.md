@@ -12,7 +12,7 @@ public interface CBinaryUpdateNode : CAnimUpdateNodeBase, ISchemaClass<CAnimUpda
 
 ### Child1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBinaryUpdateNode.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBinaryUpdateNode.cs#L18)
 
 ```csharp
 CAnimUpdateNodeRef Child1 { get; }
@@ -24,7 +24,7 @@ CAnimUpdateNodeRef Child1 { get; }
 
 ### Child2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBinaryUpdateNode.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBinaryUpdateNode.cs#L20)
 
 ```csharp
 CAnimUpdateNodeRef Child2 { get; }
@@ -36,7 +36,7 @@ CAnimUpdateNodeRef Child2 { get; }
 
 ### ResetChild1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBinaryUpdateNode.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBinaryUpdateNode.cs#L26)
 
 ```csharp
 ref bool ResetChild1 { get; }
@@ -48,7 +48,7 @@ ref bool ResetChild1 { get; }
 
 ### ResetChild2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBinaryUpdateNode.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBinaryUpdateNode.cs#L28)
 
 ```csharp
 ref bool ResetChild2 { get; }
@@ -60,7 +60,7 @@ ref bool ResetChild2 { get; }
 
 ### TimingBehavior
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBinaryUpdateNode.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBinaryUpdateNode.cs#L22)
 
 ```csharp
 ref BinaryNodeTiming TimingBehavior { get; }
@@ -72,7 +72,7 @@ ref BinaryNodeTiming TimingBehavior { get; }
 
 ### TimingBlend
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBinaryUpdateNode.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBinaryUpdateNode.cs#L24)
 
 ```csharp
 ref float TimingBlend { get; }

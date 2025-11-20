@@ -12,7 +12,7 @@ public interface C_INIT_CreateOnModelAtHeight : CParticleFunctionInitializer, CP
 
 ### BiasType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModelAtHeight.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModelAtHeight.cs#L34)
 
 ```csharp
 ref ParticleHitboxBiasType_t BiasType { get; }
@@ -24,7 +24,7 @@ ref ParticleHitboxBiasType_t BiasType { get; }
 
 ### ControlPointNumber
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModelAtHeight.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModelAtHeight.cs#L22)
 
 ```csharp
 ref int ControlPointNumber { get; }
@@ -36,7 +36,7 @@ ref int ControlPointNumber { get; }
 
 ### DesiredHeight
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModelAtHeight.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModelAtHeight.cs#L28)
 
 ```csharp
 CParticleCollectionFloatInput DesiredHeight { get; }
@@ -48,7 +48,7 @@ CParticleCollectionFloatInput DesiredHeight { get; }
 
 ### DirectionBias
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModelAtHeight.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModelAtHeight.cs#L32)
 
 ```csharp
 CParticleCollectionVecInput DirectionBias { get; }
@@ -60,7 +60,7 @@ CParticleCollectionVecInput DirectionBias { get; }
 
 ### ForceZ
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModelAtHeight.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModelAtHeight.cs#L20)
 
 ```csharp
 ref bool ForceZ { get; }
@@ -72,7 +72,7 @@ ref bool ForceZ { get; }
 
 ### HeightCP
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModelAtHeight.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModelAtHeight.cs#L24)
 
 ```csharp
 ref int HeightCP { get; }
@@ -84,7 +84,7 @@ ref int HeightCP { get; }
 
 ### HitBoxScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModelAtHeight.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModelAtHeight.cs#L30)
 
 ```csharp
 CParticleCollectionVecInput HitBoxScale { get; }
@@ -96,7 +96,7 @@ CParticleCollectionVecInput HitBoxScale { get; }
 
 ### HitboxSetName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModelAtHeight.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModelAtHeight.cs#L40)
 
 ```csharp
 string HitboxSetName { get; set; }
@@ -108,7 +108,7 @@ string HitboxSetName { get; set; }
 
 ### HitboxVelocityScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModelAtHeight.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModelAtHeight.cs#L42)
 
 ```csharp
 CParticleCollectionFloatInput HitboxVelocityScale { get; }
@@ -120,7 +120,7 @@ CParticleCollectionFloatInput HitboxVelocityScale { get; }
 
 ### LocalCoords
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModelAtHeight.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModelAtHeight.cs#L36)
 
 ```csharp
 ref bool LocalCoords { get; }
@@ -132,7 +132,7 @@ ref bool LocalCoords { get; }
 
 ### MaxBoneVelocity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModelAtHeight.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModelAtHeight.cs#L44)
 
 ```csharp
 CParticleCollectionFloatInput MaxBoneVelocity { get; }
@@ -144,7 +144,7 @@ CParticleCollectionFloatInput MaxBoneVelocity { get; }
 
 ### PreferMovingBoxes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModelAtHeight.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModelAtHeight.cs#L38)
 
 ```csharp
 ref bool PreferMovingBoxes { get; }
@@ -156,7 +156,7 @@ ref bool PreferMovingBoxes { get; }
 
 ### UseBones
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModelAtHeight.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModelAtHeight.cs#L18)
 
 ```csharp
 ref bool UseBones { get; }
@@ -168,7 +168,7 @@ ref bool UseBones { get; }
 
 ### UseWaterHeight
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModelAtHeight.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModelAtHeight.cs#L26)
 
 ```csharp
 ref bool UseWaterHeight { get; }

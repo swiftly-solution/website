@@ -12,7 +12,7 @@ public interface CRectLight : CBarnLight, CBaseModelEntity, CBaseEntity, CEntity
 
 ### ShowLight
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRectLight.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRectLight.cs#L18)
 
 ```csharp
 ref bool ShowLight { get; }
@@ -26,7 +26,7 @@ ref bool ShowLight { get; }
 
 ### ShowLightUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRectLight.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRectLight.cs#L20)
 
 ```csharp
 void ShowLightUpdated()

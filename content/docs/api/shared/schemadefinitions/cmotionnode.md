@@ -12,7 +12,7 @@ public interface CMotionNode : ISchemaClass<CMotionNode>, ISchemaField, ISchemaC
 
 ### Id
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionNode.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionNode.cs#L20)
 
 ```csharp
 AnimNodeID Id { get; }
@@ -24,7 +24,7 @@ AnimNodeID Id { get; }
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionNode.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionNode.cs#L18)
 
 ```csharp
 string Name { get; set; }

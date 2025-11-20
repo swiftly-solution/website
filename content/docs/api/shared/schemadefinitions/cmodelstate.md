@@ -12,7 +12,7 @@ public interface CModelState : ISchemaClass<CModelState>, ISchemaField, ISchemaC
 
 ### BodyGroupChoices
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L26)
 
 ```csharp
 ref CUtlVector<int> BodyGroupChoices { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<int> BodyGroupChoices { get; }
 
 ### ClientClothCreationSuppressed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L22)
 
 ```csharp
 ref bool ClientClothCreationSuppressed { get; }
@@ -36,7 +36,7 @@ ref bool ClientClothCreationSuppressed { get; }
 
 ### ClothUpdateFlags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L32)
 
 ```csharp
 ref byte ClothUpdateFlags { get; }
@@ -48,7 +48,7 @@ ref byte ClothUpdateFlags { get; }
 
 ### ForceLOD
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L30)
 
 ```csharp
 ref byte ForceLOD { get; }
@@ -60,7 +60,7 @@ ref byte ForceLOD { get; }
 
 ### IdealMotionType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L28)
 
 ```csharp
 ref byte IdealMotionType { get; }
@@ -72,7 +72,7 @@ ref byte IdealMotionType { get; }
 
 ### MeshGroupMask
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L24)
 
 ```csharp
 ref ulong MeshGroupMask { get; }
@@ -84,7 +84,7 @@ ref ulong MeshGroupMask { get; }
 
 ### Model
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L18)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCModel> Model { get; }
@@ -96,7 +96,7 @@ ref CStrongHandle<InfoForResourceTypeCModel> Model { get; }
 
 ### ModelName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L20)
 
 ```csharp
 string ModelName { get; set; }
@@ -110,7 +110,7 @@ string ModelName { get; set; }
 
 ### BodyGroupChoicesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L36)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L37)
 
 ```csharp
 void BodyGroupChoicesUpdated()
@@ -118,7 +118,7 @@ void BodyGroupChoicesUpdated()
 
 ### ClientClothCreationSuppressedUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L34)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L35)
 
 ```csharp
 void ClientClothCreationSuppressedUpdated()
@@ -126,7 +126,7 @@ void ClientClothCreationSuppressedUpdated()
 
 ### IdealMotionTypeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L38)
 
 ```csharp
 void IdealMotionTypeUpdated()
@@ -134,7 +134,7 @@ void IdealMotionTypeUpdated()
 
 ### MeshGroupMaskUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L36)
 
 ```csharp
 void MeshGroupMaskUpdated()
@@ -142,7 +142,7 @@ void MeshGroupMaskUpdated()
 
 ### ModelUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L34)
 
 ```csharp
 void ModelUpdated()

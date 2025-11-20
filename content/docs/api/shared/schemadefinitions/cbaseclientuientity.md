@@ -12,7 +12,7 @@ public interface CBaseClientUIEntity : CBaseModelEntity, CBaseEntity, CEntityIns
 
 ### CustomOutput0
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseClientUIEntity.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseClientUIEntity.cs#L26)
 
 ```csharp
 CEntityIOOutput CustomOutput0 { get; }
@@ -24,7 +24,7 @@ CEntityIOOutput CustomOutput0 { get; }
 
 ### CustomOutput1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseClientUIEntity.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseClientUIEntity.cs#L28)
 
 ```csharp
 CEntityIOOutput CustomOutput1 { get; }
@@ -36,7 +36,7 @@ CEntityIOOutput CustomOutput1 { get; }
 
 ### CustomOutput2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseClientUIEntity.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseClientUIEntity.cs#L30)
 
 ```csharp
 CEntityIOOutput CustomOutput2 { get; }
@@ -48,7 +48,7 @@ CEntityIOOutput CustomOutput2 { get; }
 
 ### CustomOutput3
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseClientUIEntity.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseClientUIEntity.cs#L32)
 
 ```csharp
 CEntityIOOutput CustomOutput3 { get; }
@@ -60,7 +60,7 @@ CEntityIOOutput CustomOutput3 { get; }
 
 ### CustomOutput4
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseClientUIEntity.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseClientUIEntity.cs#L34)
 
 ```csharp
 CEntityIOOutput CustomOutput4 { get; }
@@ -72,7 +72,7 @@ CEntityIOOutput CustomOutput4 { get; }
 
 ### CustomOutput5
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseClientUIEntity.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseClientUIEntity.cs#L36)
 
 ```csharp
 CEntityIOOutput CustomOutput5 { get; }
@@ -84,7 +84,7 @@ CEntityIOOutput CustomOutput5 { get; }
 
 ### CustomOutput6
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseClientUIEntity.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseClientUIEntity.cs#L38)
 
 ```csharp
 CEntityIOOutput CustomOutput6 { get; }
@@ -96,7 +96,7 @@ CEntityIOOutput CustomOutput6 { get; }
 
 ### CustomOutput7
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseClientUIEntity.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseClientUIEntity.cs#L40)
 
 ```csharp
 CEntityIOOutput CustomOutput7 { get; }
@@ -108,7 +108,7 @@ CEntityIOOutput CustomOutput7 { get; }
 
 ### CustomOutput8
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseClientUIEntity.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseClientUIEntity.cs#L42)
 
 ```csharp
 CEntityIOOutput CustomOutput8 { get; }
@@ -120,7 +120,7 @@ CEntityIOOutput CustomOutput8 { get; }
 
 ### CustomOutput9
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseClientUIEntity.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseClientUIEntity.cs#L44)
 
 ```csharp
 CEntityIOOutput CustomOutput9 { get; }
@@ -132,7 +132,7 @@ CEntityIOOutput CustomOutput9 { get; }
 
 ### DialogXMLName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseClientUIEntity.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseClientUIEntity.cs#L20)
 
 ```csharp
 string DialogXMLName { get; set; }
@@ -144,7 +144,7 @@ string DialogXMLName { get; set; }
 
 ### Enabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseClientUIEntity.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseClientUIEntity.cs#L18)
 
 ```csharp
 ref bool Enabled { get; }
@@ -156,7 +156,7 @@ ref bool Enabled { get; }
 
 ### PanelClassName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseClientUIEntity.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseClientUIEntity.cs#L22)
 
 ```csharp
 string PanelClassName { get; set; }
@@ -168,7 +168,7 @@ string PanelClassName { get; set; }
 
 ### PanelID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseClientUIEntity.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseClientUIEntity.cs#L24)
 
 ```csharp
 string PanelID { get; set; }
@@ -182,7 +182,7 @@ string PanelID { get; set; }
 
 ### DialogXMLNameUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseClientUIEntity.cs#L46)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseClientUIEntity.cs#L47)
 
 ```csharp
 void DialogXMLNameUpdated()
@@ -190,7 +190,7 @@ void DialogXMLNameUpdated()
 
 ### EnabledUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseClientUIEntity.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseClientUIEntity.cs#L46)
 
 ```csharp
 void EnabledUpdated()
@@ -198,7 +198,7 @@ void EnabledUpdated()
 
 ### PanelClassNameUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseClientUIEntity.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseClientUIEntity.cs#L48)
 
 ```csharp
 void PanelClassNameUpdated()
@@ -206,7 +206,7 @@ void PanelClassNameUpdated()
 
 ### PanelIDUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseClientUIEntity.cs#L48)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseClientUIEntity.cs#L49)
 
 ```csharp
 void PanelIDUpdated()

@@ -12,7 +12,7 @@ public interface VMixPitchShiftDesc_t : ISchemaClass<VMixPitchShiftDesc_t>, ISch
 
 ### GrainSampleCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixPitchShiftDesc_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixPitchShiftDesc_t.cs#L18)
 
 ```csharp
 ref int GrainSampleCount { get; }
@@ -24,7 +24,7 @@ ref int GrainSampleCount { get; }
 
 ### PitchShift
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixPitchShiftDesc_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixPitchShiftDesc_t.cs#L20)
 
 ```csharp
 ref float PitchShift { get; }
@@ -36,7 +36,7 @@ ref float PitchShift { get; }
 
 ### ProcType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixPitchShiftDesc_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixPitchShiftDesc_t.cs#L24)
 
 ```csharp
 ref int ProcType { get; }
@@ -48,7 +48,7 @@ ref int ProcType { get; }
 
 ### Quality
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixPitchShiftDesc_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixPitchShiftDesc_t.cs#L22)
 
 ```csharp
 ref int Quality { get; }

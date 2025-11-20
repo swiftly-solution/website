@@ -12,7 +12,7 @@ public interface ModelEmbeddedMesh_t : ISchemaClass<ModelEmbeddedMesh_t>, ISchem
 
 ### DataBlock
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ModelEmbeddedMesh_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ModelEmbeddedMesh_t.cs#L22)
 
 ```csharp
 ref int DataBlock { get; }
@@ -24,7 +24,7 @@ ref int DataBlock { get; }
 
 ### IndexBuffers
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ModelEmbeddedMesh_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ModelEmbeddedMesh_t.cs#L28)
 
 ```csharp
 ref CUtlVector<ModelMeshBufferData_t> IndexBuffers { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<ModelMeshBufferData_t> IndexBuffers { get; }
 
 ### MeshIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ModelEmbeddedMesh_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ModelEmbeddedMesh_t.cs#L20)
 
 ```csharp
 ref int MeshIndex { get; }
@@ -48,7 +48,7 @@ ref int MeshIndex { get; }
 
 ### MorphBlock
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ModelEmbeddedMesh_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ModelEmbeddedMesh_t.cs#L24)
 
 ```csharp
 ref int MorphBlock { get; }
@@ -60,7 +60,7 @@ ref int MorphBlock { get; }
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ModelEmbeddedMesh_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ModelEmbeddedMesh_t.cs#L18)
 
 ```csharp
 string Name { get; set; }
@@ -72,7 +72,7 @@ string Name { get; set; }
 
 ### ToolsBuffers
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ModelEmbeddedMesh_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ModelEmbeddedMesh_t.cs#L30)
 
 ```csharp
 ref CUtlVector<ModelMeshBufferData_t> ToolsBuffers { get; }
@@ -84,7 +84,7 @@ ref CUtlVector<ModelMeshBufferData_t> ToolsBuffers { get; }
 
 ### ToolsVBBlock
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ModelEmbeddedMesh_t.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ModelEmbeddedMesh_t.cs#L34)
 
 ```csharp
 ref int ToolsVBBlock { get; }
@@ -96,7 +96,7 @@ ref int ToolsVBBlock { get; }
 
 ### VBIBBlock
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ModelEmbeddedMesh_t.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ModelEmbeddedMesh_t.cs#L32)
 
 ```csharp
 ref int VBIBBlock { get; }
@@ -108,7 +108,7 @@ ref int VBIBBlock { get; }
 
 ### VertexBuffers
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ModelEmbeddedMesh_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ModelEmbeddedMesh_t.cs#L26)
 
 ```csharp
 ref CUtlVector<ModelMeshBufferData_t> VertexBuffers { get; }

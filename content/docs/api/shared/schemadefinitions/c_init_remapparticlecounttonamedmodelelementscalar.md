@@ -12,7 +12,7 @@ public interface C_INIT_RemapParticleCountToNamedModelElementScalar : C_INIT_Rem
 
 ### Model
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapParticleCountToNamedModelElementScalar.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapParticleCountToNamedModelElementScalar.cs#L18)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCModel> Model { get; }
@@ -24,7 +24,7 @@ ref CStrongHandle<InfoForResourceTypeCModel> Model { get; }
 
 ### ModelFromRenderer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapParticleCountToNamedModelElementScalar.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapParticleCountToNamedModelElementScalar.cs#L24)
 
 ```csharp
 ref bool ModelFromRenderer { get; }
@@ -36,7 +36,7 @@ ref bool ModelFromRenderer { get; }
 
 ### OutputMaxName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapParticleCountToNamedModelElementScalar.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapParticleCountToNamedModelElementScalar.cs#L22)
 
 ```csharp
 string OutputMaxName { get; set; }
@@ -48,7 +48,7 @@ string OutputMaxName { get; set; }
 
 ### OutputMinName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapParticleCountToNamedModelElementScalar.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapParticleCountToNamedModelElementScalar.cs#L20)
 
 ```csharp
 string OutputMinName { get; set; }

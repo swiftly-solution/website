@@ -12,7 +12,7 @@ public interface CSimTimer : CSimpleSimTimer, ISchemaClass<CSimpleSimTimer>, ISc
 
 ### Interval
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSimTimer.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSimTimer.cs#L18)
 
 ```csharp
 ref float Interval { get; }

@@ -12,7 +12,7 @@ public interface C_INIT_PositionPlaceOnGround : CParticleFunctionInitializer, CP
 
 ### Attribute
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionPlaceOnGround.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionPlaceOnGround.cs#L32)
 
 ```csharp
 ParticleAttributeIndex_t Attribute { get; }
@@ -24,7 +24,7 @@ ParticleAttributeIndex_t Attribute { get; }
 
 ### CollisionGroupName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionPlaceOnGround.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionPlaceOnGround.cs#L22)
 
 ```csharp
 string CollisionGroupName { get; set; }
@@ -36,7 +36,7 @@ string CollisionGroupName { get; set; }
 
 ### IgnoreCP
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionPlaceOnGround.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionPlaceOnGround.cs#L46)
 
 ```csharp
 ref int IgnoreCP { get; }
@@ -48,7 +48,7 @@ ref int IgnoreCP { get; }
 
 ### IncludeWater
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionPlaceOnGround.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionPlaceOnGround.cs#L28)
 
 ```csharp
 ref bool IncludeWater { get; }
@@ -60,7 +60,7 @@ ref bool IncludeWater { get; }
 
 ### MaxTraceLength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionPlaceOnGround.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionPlaceOnGround.cs#L20)
 
 ```csharp
 CPerParticleFloatInput MaxTraceLength { get; }
@@ -72,7 +72,7 @@ CPerParticleFloatInput MaxTraceLength { get; }
 
 ### Offset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionPlaceOnGround.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionPlaceOnGround.cs#L18)
 
 ```csharp
 CPerParticleFloatInput Offset { get; }
@@ -84,7 +84,7 @@ CPerParticleFloatInput Offset { get; }
 
 ### OffsetByRadiusFactor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionPlaceOnGround.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionPlaceOnGround.cs#L42)
 
 ```csharp
 ref float OffsetByRadiusFactor { get; }
@@ -96,7 +96,7 @@ ref float OffsetByRadiusFactor { get; }
 
 ### OffsetonColOnly
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionPlaceOnGround.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionPlaceOnGround.cs#L40)
 
 ```csharp
 ref bool OffsetonColOnly { get; }
@@ -108,7 +108,7 @@ ref bool OffsetonColOnly { get; }
 
 ### PreserveOffsetCP
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionPlaceOnGround.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionPlaceOnGround.cs#L44)
 
 ```csharp
 ref int PreserveOffsetCP { get; }
@@ -120,7 +120,7 @@ ref int PreserveOffsetCP { get; }
 
 ### SetNormal
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionPlaceOnGround.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionPlaceOnGround.cs#L30)
 
 ```csharp
 ref bool SetNormal { get; }
@@ -132,7 +132,7 @@ ref bool SetNormal { get; }
 
 ### SetPXYZOnly
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionPlaceOnGround.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionPlaceOnGround.cs#L34)
 
 ```csharp
 ref bool SetPXYZOnly { get; }
@@ -144,7 +144,7 @@ ref bool SetPXYZOnly { get; }
 
 ### TraceAlongNormal
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionPlaceOnGround.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionPlaceOnGround.cs#L36)
 
 ```csharp
 ref bool TraceAlongNormal { get; }
@@ -156,7 +156,7 @@ ref bool TraceAlongNormal { get; }
 
 ### TraceDirectionAttribute
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionPlaceOnGround.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionPlaceOnGround.cs#L38)
 
 ```csharp
 ParticleAttributeIndex_t TraceDirectionAttribute { get; }
@@ -168,7 +168,7 @@ ParticleAttributeIndex_t TraceDirectionAttribute { get; }
 
 ### TraceMissBehavior
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionPlaceOnGround.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionPlaceOnGround.cs#L26)
 
 ```csharp
 ref ParticleTraceMissBehavior_t TraceMissBehavior { get; }
@@ -180,7 +180,7 @@ ref ParticleTraceMissBehavior_t TraceMissBehavior { get; }
 
 ### TraceSet
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionPlaceOnGround.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionPlaceOnGround.cs#L24)
 
 ```csharp
 ref ParticleTraceSet_t TraceSet { get; }

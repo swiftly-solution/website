@@ -12,7 +12,7 @@ public interface CBaseAnimGraph : CBaseModelEntity, CBaseEntity, CEntityInstance
 
 ### AnimGraphUpdateEnabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraph.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraph.cs#L22)
 
 ```csharp
 ref bool AnimGraphUpdateEnabled { get; }
@@ -24,7 +24,7 @@ ref bool AnimGraphUpdateEnabled { get; }
 
 ### AnimationUpdateScheduled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraph.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraph.cs#L28)
 
 ```csharp
 ref bool AnimationUpdateScheduled { get; }
@@ -36,7 +36,7 @@ ref bool AnimationUpdateScheduled { get; }
 
 ### ChoreoServices
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraph.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraph.cs#L20)
 
 ```csharp
 IChoreoServices? ChoreoServices { get; }
@@ -48,7 +48,7 @@ IChoreoServices? ChoreoServices { get; }
 
 ### Force
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraph.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraph.cs#L30)
 
 ```csharp
 ref Vector Force { get; }
@@ -60,7 +60,7 @@ ref Vector Force { get; }
 
 ### ForceBone
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraph.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraph.cs#L32)
 
 ```csharp
 ref int ForceBone { get; }
@@ -72,7 +72,7 @@ ref int ForceBone { get; }
 
 ### InitiallyPopulateInterpHistory
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraph.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraph.cs#L18)
 
 ```csharp
 ref bool InitiallyPopulateInterpHistory { get; }
@@ -84,7 +84,7 @@ ref bool InitiallyPopulateInterpHistory { get; }
 
 ### LastSlopeCheckPos
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraph.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraph.cs#L26)
 
 ```csharp
 ref Vector LastSlopeCheckPos { get; }
@@ -96,7 +96,7 @@ ref Vector LastSlopeCheckPos { get; }
 
 ### MaxSlopeDistance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraph.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraph.cs#L24)
 
 ```csharp
 ref float MaxSlopeDistance { get; }
@@ -108,7 +108,7 @@ ref float MaxSlopeDistance { get; }
 
 ### RagdollClientSide
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraph.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraph.cs#L38)
 
 ```csharp
 ref bool RagdollClientSide { get; }
@@ -120,7 +120,7 @@ ref bool RagdollClientSide { get; }
 
 ### RagdollEnabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraph.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraph.cs#L36)
 
 ```csharp
 ref bool RagdollEnabled { get; }
@@ -132,7 +132,7 @@ ref bool RagdollEnabled { get; }
 
 ### RagdollPose
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraph.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraph.cs#L34)
 
 ```csharp
 PhysicsRagdollPose_t RagdollPose { get; }
@@ -144,7 +144,7 @@ PhysicsRagdollPose_t RagdollPose { get; }
 
 ### XParentedRagdollRootInEntitySpace
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraph.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraph.cs#L40)
 
 ```csharp
 ref CTransform XParentedRagdollRootInEntitySpace { get; }
@@ -158,7 +158,7 @@ ref CTransform XParentedRagdollRootInEntitySpace { get; }
 
 ### AnimGraphUpdateEnabledUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraph.cs#L42)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraph.cs#L43)
 
 ```csharp
 void AnimGraphUpdateEnabledUpdated()
@@ -166,7 +166,7 @@ void AnimGraphUpdateEnabledUpdated()
 
 ### ForceBoneUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraph.cs#L44)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraph.cs#L45)
 
 ```csharp
 void ForceBoneUpdated()
@@ -174,7 +174,7 @@ void ForceBoneUpdated()
 
 ### ForceUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraph.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraph.cs#L44)
 
 ```csharp
 void ForceUpdated()
@@ -182,7 +182,7 @@ void ForceUpdated()
 
 ### InitiallyPopulateInterpHistoryUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraph.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraph.cs#L42)
 
 ```csharp
 void InitiallyPopulateInterpHistoryUpdated()
@@ -190,7 +190,7 @@ void InitiallyPopulateInterpHistoryUpdated()
 
 ### RagdollClientSideUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraph.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraph.cs#L48)
 
 ```csharp
 void RagdollClientSideUpdated()
@@ -198,7 +198,7 @@ void RagdollClientSideUpdated()
 
 ### RagdollEnabledUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraph.cs#L46)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraph.cs#L47)
 
 ```csharp
 void RagdollEnabledUpdated()
@@ -206,7 +206,7 @@ void RagdollEnabledUpdated()
 
 ### RagdollPoseUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraph.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraph.cs#L46)
 
 ```csharp
 void RagdollPoseUpdated()

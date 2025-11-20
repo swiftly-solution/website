@@ -12,7 +12,7 @@ public interface CNmSpeedScaleBaseNode__CDefinition : CNmPassthroughNode__CDefin
 
 ### DefaultInputValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSpeedScaleBaseNode__CDefinition.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSpeedScaleBaseNode__CDefinition.cs#L20)
 
 ```csharp
 ref float DefaultInputValue { get; }
@@ -24,7 +24,7 @@ ref float DefaultInputValue { get; }
 
 ### InputValueNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSpeedScaleBaseNode__CDefinition.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSpeedScaleBaseNode__CDefinition.cs#L18)
 
 ```csharp
 ref short InputValueNodeIdx { get; }

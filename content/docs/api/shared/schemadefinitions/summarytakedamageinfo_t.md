@@ -12,7 +12,7 @@ public interface SummaryTakeDamageInfo_t : ISchemaClass<SummaryTakeDamageInfo_t>
 
 ### Info
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SummaryTakeDamageInfo_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SummaryTakeDamageInfo_t.cs#L20)
 
 ```csharp
 ref CTakeDamageInfo Info { get; }
@@ -24,7 +24,7 @@ ref CTakeDamageInfo Info { get; }
 
 ### Result
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SummaryTakeDamageInfo_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SummaryTakeDamageInfo_t.cs#L22)
 
 ```csharp
 ref CTakeDamageResult Result { get; }
@@ -36,7 +36,7 @@ ref CTakeDamageResult Result { get; }
 
 ### SummarisedCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SummaryTakeDamageInfo_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SummaryTakeDamageInfo_t.cs#L18)
 
 ```csharp
 ref int SummarisedCount { get; }
@@ -48,7 +48,7 @@ ref int SummarisedCount { get; }
 
 ### Target
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SummaryTakeDamageInfo_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SummaryTakeDamageInfo_t.cs#L24)
 
 ```csharp
 ref CHandle<CBaseEntity> Target { get; }

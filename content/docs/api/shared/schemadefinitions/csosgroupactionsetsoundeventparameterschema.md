@@ -12,7 +12,7 @@ public interface CSosGroupActionSetSoundeventParameterSchema : CSosGroupActionSc
 
 ### MaxCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSetSoundeventParameterSchema.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSetSoundeventParameterSchema.cs#L18)
 
 ```csharp
 ref int MaxCount { get; }
@@ -24,7 +24,7 @@ ref int MaxCount { get; }
 
 ### MaxValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSetSoundeventParameterSchema.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSetSoundeventParameterSchema.cs#L22)
 
 ```csharp
 ref float MaxValue { get; }
@@ -36,7 +36,7 @@ ref float MaxValue { get; }
 
 ### MinValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSetSoundeventParameterSchema.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSetSoundeventParameterSchema.cs#L20)
 
 ```csharp
 ref float MinValue { get; }
@@ -48,7 +48,7 @@ ref float MinValue { get; }
 
 ### OpvarName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSetSoundeventParameterSchema.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSetSoundeventParameterSchema.cs#L24)
 
 ```csharp
 string OpvarName { get; set; }
@@ -60,7 +60,7 @@ string OpvarName { get; set; }
 
 ### SortType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSetSoundeventParameterSchema.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSetSoundeventParameterSchema.cs#L26)
 
 ```csharp
 ref SosActionSetParamSortType_t SortType { get; }

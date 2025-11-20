@@ -12,7 +12,7 @@ public interface CSSDSMsg_EndFrame : ISchemaClass<CSSDSMsg_EndFrame>, ISchemaFie
 
 ### Views
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_EndFrame.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_EndFrame.cs#L18)
 
 ```csharp
 ref CUtlVector<CSSDSEndFrameViewInfo> Views { get; }

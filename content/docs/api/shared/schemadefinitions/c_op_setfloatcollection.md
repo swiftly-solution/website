@@ -12,7 +12,7 @@ public interface C_OP_SetFloatCollection : CParticleFunctionOperator, CParticleF
 
 ### InputValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFloatCollection.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFloatCollection.cs#L18)
 
 ```csharp
 CParticleCollectionFloatInput InputValue { get; }
@@ -24,7 +24,7 @@ CParticleCollectionFloatInput InputValue { get; }
 
 ### Lerp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFloatCollection.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFloatCollection.cs#L24)
 
 ```csharp
 CParticleCollectionFloatInput Lerp { get; }
@@ -36,7 +36,7 @@ CParticleCollectionFloatInput Lerp { get; }
 
 ### OutputField
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFloatCollection.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFloatCollection.cs#L20)
 
 ```csharp
 ParticleAttributeIndex_t OutputField { get; }
@@ -48,7 +48,7 @@ ParticleAttributeIndex_t OutputField { get; }
 
 ### SetMethod
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFloatCollection.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFloatCollection.cs#L22)
 
 ```csharp
 ref ParticleSetMethod_t SetMethod { get; }

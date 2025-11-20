@@ -12,7 +12,7 @@ public interface CDynamicNavConnectionsVolume : CTriggerMultiple, CBaseTrigger, 
 
 ### ConnectionTarget
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicNavConnectionsVolume.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicNavConnectionsVolume.cs#L18)
 
 ```csharp
 string ConnectionTarget { get; set; }
@@ -24,7 +24,7 @@ string ConnectionTarget { get; set; }
 
 ### Connections
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicNavConnectionsVolume.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicNavConnectionsVolume.cs#L20)
 
 ```csharp
 ref CUtlVector<DynamicVolumeDef_t> Connections { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<DynamicVolumeDef_t> Connections { get; }
 
 ### ConnectionsEnabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicNavConnectionsVolume.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicNavConnectionsVolume.cs#L24)
 
 ```csharp
 ref bool ConnectionsEnabled { get; }
@@ -48,7 +48,7 @@ ref bool ConnectionsEnabled { get; }
 
 ### MaxConnectionDistance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicNavConnectionsVolume.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicNavConnectionsVolume.cs#L30)
 
 ```csharp
 ref float MaxConnectionDistance { get; }
@@ -60,7 +60,7 @@ ref float MaxConnectionDistance { get; }
 
 ### TargetAreaSearchRadius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicNavConnectionsVolume.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicNavConnectionsVolume.cs#L26)
 
 ```csharp
 ref float TargetAreaSearchRadius { get; }
@@ -72,7 +72,7 @@ ref float TargetAreaSearchRadius { get; }
 
 ### TransitionType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicNavConnectionsVolume.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicNavConnectionsVolume.cs#L22)
 
 ```csharp
 ref CGlobalSymbol TransitionType { get; }
@@ -84,7 +84,7 @@ ref CGlobalSymbol TransitionType { get; }
 
 ### UpdateDistance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicNavConnectionsVolume.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicNavConnectionsVolume.cs#L28)
 
 ```csharp
 ref float UpdateDistance { get; }

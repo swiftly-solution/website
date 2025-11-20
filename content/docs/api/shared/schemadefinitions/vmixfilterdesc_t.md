@@ -12,7 +12,7 @@ public interface VMixFilterDesc_t : ISchemaClass<VMixFilterDesc_t>, ISchemaField
 
 ### CutoffFreq
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixFilterDesc_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixFilterDesc_t.cs#L26)
 
 ```csharp
 ref float CutoffFreq { get; }
@@ -24,7 +24,7 @@ ref float CutoffFreq { get; }
 
 ### Enabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixFilterDesc_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixFilterDesc_t.cs#L22)
 
 ```csharp
 ref bool Enabled { get; }
@@ -36,7 +36,7 @@ ref bool Enabled { get; }
 
 ### FilterSlope
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixFilterDesc_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixFilterDesc_t.cs#L20)
 
 ```csharp
 ref VMixFilterSlope_t FilterSlope { get; }
@@ -48,7 +48,7 @@ ref VMixFilterSlope_t FilterSlope { get; }
 
 ### FilterType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixFilterDesc_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixFilterDesc_t.cs#L18)
 
 ```csharp
 ref VMixFilterType_t FilterType { get; }
@@ -60,7 +60,7 @@ ref VMixFilterType_t FilterType { get; }
 
 ### FldbGain
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixFilterDesc_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixFilterDesc_t.cs#L24)
 
 ```csharp
 ref float FldbGain { get; }
@@ -72,7 +72,7 @@ ref float FldbGain { get; }
 
 ### Q
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixFilterDesc_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixFilterDesc_t.cs#L28)
 
 ```csharp
 ref float Q { get; }

@@ -12,7 +12,7 @@ public interface CSubtractUpdateNode : CBinaryUpdateNode, CAnimUpdateNodeBase, I
 
 ### ApplyChannelsSeparately
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSubtractUpdateNode.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSubtractUpdateNode.cs#L22)
 
 ```csharp
 ref bool ApplyChannelsSeparately { get; }
@@ -24,7 +24,7 @@ ref bool ApplyChannelsSeparately { get; }
 
 ### ApplyToFootMotion
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSubtractUpdateNode.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSubtractUpdateNode.cs#L20)
 
 ```csharp
 ref bool ApplyToFootMotion { get; }
@@ -36,7 +36,7 @@ ref bool ApplyToFootMotion { get; }
 
 ### FootMotionTiming
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSubtractUpdateNode.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSubtractUpdateNode.cs#L18)
 
 ```csharp
 ref BinaryNodeChildOption FootMotionTiming { get; }
@@ -48,7 +48,7 @@ ref BinaryNodeChildOption FootMotionTiming { get; }
 
 ### UseModelSpace
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSubtractUpdateNode.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSubtractUpdateNode.cs#L24)
 
 ```csharp
 ref bool UseModelSpace { get; }

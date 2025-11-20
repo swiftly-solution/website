@@ -12,7 +12,7 @@ public interface CFuncElectrifiedVolume : CFuncBrush, CBaseModelEntity, CBaseEnt
 
 ### EffectInterpenetrateName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncElectrifiedVolume.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncElectrifiedVolume.cs#L20)
 
 ```csharp
 string EffectInterpenetrateName { get; set; }
@@ -24,7 +24,7 @@ string EffectInterpenetrateName { get; set; }
 
 ### EffectName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncElectrifiedVolume.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncElectrifiedVolume.cs#L18)
 
 ```csharp
 string EffectName { get; set; }
@@ -36,7 +36,7 @@ string EffectName { get; set; }
 
 ### EffectSource
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncElectrifiedVolume.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncElectrifiedVolume.cs#L24)
 
 ```csharp
 string EffectSource { get; set; }
@@ -48,7 +48,7 @@ string EffectSource { get; set; }
 
 ### EffectZapName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncElectrifiedVolume.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncElectrifiedVolume.cs#L22)
 
 ```csharp
 string EffectZapName { get; set; }
@@ -62,7 +62,7 @@ string EffectZapName { get; set; }
 
 ### EffectNameUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncElectrifiedVolume.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncElectrifiedVolume.cs#L26)
 
 ```csharp
 void EffectNameUpdated()

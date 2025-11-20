@@ -12,7 +12,7 @@ public interface DynamicVolumeDef_t : ISchemaClass<DynamicVolumeDef_t>, ISchemaF
 
 ### AreaDst
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DynamicVolumeDef_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DynamicVolumeDef_t.cs#L30)
 
 ```csharp
 ref uint AreaDst { get; }
@@ -24,7 +24,7 @@ ref uint AreaDst { get; }
 
 ### AreaSrc
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DynamicVolumeDef_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DynamicVolumeDef_t.cs#L28)
 
 ```csharp
 ref uint AreaSrc { get; }
@@ -36,7 +36,7 @@ ref uint AreaSrc { get; }
 
 ### Attached
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DynamicVolumeDef_t.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DynamicVolumeDef_t.cs#L32)
 
 ```csharp
 ref bool Attached { get; }
@@ -48,7 +48,7 @@ ref bool Attached { get; }
 
 ### HullIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DynamicVolumeDef_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DynamicVolumeDef_t.cs#L22)
 
 ```csharp
 ref int HullIdx { get; }
@@ -60,7 +60,7 @@ ref int HullIdx { get; }
 
 ### Source
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DynamicVolumeDef_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DynamicVolumeDef_t.cs#L18)
 
 ```csharp
 ref CHandle<CBaseEntity> Source { get; }
@@ -72,7 +72,7 @@ ref CHandle<CBaseEntity> Source { get; }
 
 ### SourceAnchorPos
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DynamicVolumeDef_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DynamicVolumeDef_t.cs#L24)
 
 ```csharp
 ref Vector SourceAnchorPos { get; }
@@ -84,7 +84,7 @@ ref Vector SourceAnchorPos { get; }
 
 ### Target
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DynamicVolumeDef_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DynamicVolumeDef_t.cs#L20)
 
 ```csharp
 ref CHandle<CBaseEntity> Target { get; }
@@ -96,7 +96,7 @@ ref CHandle<CBaseEntity> Target { get; }
 
 ### TargetAnchorPos
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DynamicVolumeDef_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DynamicVolumeDef_t.cs#L26)
 
 ```csharp
 ref Vector TargetAnchorPos { get; }

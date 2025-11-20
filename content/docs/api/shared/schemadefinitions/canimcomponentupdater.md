@@ -12,7 +12,7 @@ public interface CAnimComponentUpdater : ISchemaClass<CAnimComponentUpdater>, IS
 
 ### Id
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimComponentUpdater.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimComponentUpdater.cs#L20)
 
 ```csharp
 AnimComponentID Id { get; }
@@ -24,7 +24,7 @@ AnimComponentID Id { get; }
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimComponentUpdater.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimComponentUpdater.cs#L18)
 
 ```csharp
 string Name { get; set; }
@@ -36,7 +36,7 @@ string Name { get; set; }
 
 ### NetworkMode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimComponentUpdater.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimComponentUpdater.cs#L22)
 
 ```csharp
 ref AnimNodeNetworkMode NetworkMode { get; }
@@ -48,7 +48,7 @@ ref AnimNodeNetworkMode NetworkMode { get; }
 
 ### StartEnabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimComponentUpdater.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimComponentUpdater.cs#L24)
 
 ```csharp
 ref bool StartEnabled { get; }

@@ -12,7 +12,7 @@ public interface CLogicGameEvent : CLogicalEntity, CServerOnlyEntity, CBaseEntit
 
 ### EventName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicGameEvent.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicGameEvent.cs#L18)
 
 ```csharp
 string EventName { get; set; }

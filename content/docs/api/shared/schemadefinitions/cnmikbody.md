@@ -12,7 +12,7 @@ public interface CNmIKBody : ISchemaClass<CNmIKBody>, ISchemaField, ISchemaClass
 
 ### LocalMassCenter
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKBody.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKBody.cs#L20)
 
 ```csharp
 ref Vector LocalMassCenter { get; }
@@ -24,7 +24,7 @@ ref Vector LocalMassCenter { get; }
 
 ### Mass
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKBody.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKBody.cs#L18)
 
 ```csharp
 ref float Mass { get; }
@@ -36,7 +36,7 @@ ref float Mass { get; }
 
 ### Radius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKBody.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKBody.cs#L22)
 
 ```csharp
 ref Vector Radius { get; }
@@ -48,7 +48,7 @@ ref Vector Radius { get; }
 
 ### Resistance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKBody.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKBody.cs#L24)
 
 ```csharp
 ref float Resistance { get; }

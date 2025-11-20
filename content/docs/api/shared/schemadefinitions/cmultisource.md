@@ -12,7 +12,7 @@ public interface CMultiSource : CLogicalEntity, CServerOnlyEntity, CBaseEntity, 
 
 ### Globalstate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMultiSource.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMultiSource.cs#L26)
 
 ```csharp
 string Globalstate { get; set; }
@@ -24,7 +24,7 @@ string Globalstate { get; set; }
 
 ### OnTrigger
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMultiSource.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMultiSource.cs#L22)
 
 ```csharp
 CEntityIOOutput OnTrigger { get; }
@@ -36,7 +36,7 @@ CEntityIOOutput OnTrigger { get; }
 
 ### RgEntities
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMultiSource.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMultiSource.cs#L18)
 
 ```csharp
 ISchemaFixedArray<CHandle<CBaseEntity>> RgEntities { get; }
@@ -48,7 +48,7 @@ ISchemaFixedArray<CHandle<CBaseEntity>> RgEntities { get; }
 
 ### RgTriggered
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMultiSource.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMultiSource.cs#L20)
 
 ```csharp
 ISchemaFixedArray<int> RgTriggered { get; }
@@ -60,7 +60,7 @@ ISchemaFixedArray<int> RgTriggered { get; }
 
 ### Total
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMultiSource.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMultiSource.cs#L24)
 
 ```csharp
 ref int Total { get; }

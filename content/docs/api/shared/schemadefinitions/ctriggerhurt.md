@@ -12,7 +12,7 @@ public interface CTriggerHurt : CBaseTrigger, CBaseToggle, CBaseModelEntity, CBa
 
 ### BitsDamageInflict
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerHurt.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerHurt.cs#L28)
 
 ```csharp
 ref DamageTypes_t BitsDamageInflict { get; }
@@ -24,7 +24,7 @@ ref DamageTypes_t BitsDamageInflict { get; }
 
 ### Damage
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerHurt.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerHurt.cs#L20)
 
 ```csharp
 ref float Damage { get; }
@@ -36,7 +36,7 @@ ref float Damage { get; }
 
 ### DamageCap
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerHurt.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerHurt.cs#L22)
 
 ```csharp
 ref float DamageCap { get; }
@@ -48,7 +48,7 @@ ref float DamageCap { get; }
 
 ### DamageForce
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerHurt.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerHurt.cs#L34)
 
 ```csharp
 ref Vector DamageForce { get; }
@@ -60,7 +60,7 @@ ref Vector DamageForce { get; }
 
 ### DamageModel
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerHurt.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerHurt.cs#L30)
 
 ```csharp
 ref int DamageModel { get; }
@@ -72,7 +72,7 @@ ref int DamageModel { get; }
 
 ### ForgivenessDelay
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerHurt.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerHurt.cs#L26)
 
 ```csharp
 ref float ForgivenessDelay { get; }
@@ -84,7 +84,7 @@ ref float ForgivenessDelay { get; }
 
 ### HurtEntities
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerHurt.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerHurt.cs#L44)
 
 ```csharp
 ref CUtlVector<CHandle<CBaseEntity>> HurtEntities { get; }
@@ -96,7 +96,7 @@ ref CUtlVector<CHandle<CBaseEntity>> HurtEntities { get; }
 
 ### HurtThinkPeriod
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerHurt.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerHurt.cs#L38)
 
 ```csharp
 ref float HurtThinkPeriod { get; }
@@ -108,7 +108,7 @@ ref float HurtThinkPeriod { get; }
 
 ### LastDmgTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerHurt.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerHurt.cs#L24)
 
 ```csharp
 GameTime_t LastDmgTime { get; }
@@ -120,7 +120,7 @@ GameTime_t LastDmgTime { get; }
 
 ### NoDmgForce
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerHurt.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerHurt.cs#L32)
 
 ```csharp
 ref bool NoDmgForce { get; }
@@ -132,7 +132,7 @@ ref bool NoDmgForce { get; }
 
 ### OnHurt
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerHurt.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerHurt.cs#L40)
 
 ```csharp
 CEntityIOOutput OnHurt { get; }
@@ -144,7 +144,7 @@ CEntityIOOutput OnHurt { get; }
 
 ### OnHurtPlayer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerHurt.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerHurt.cs#L42)
 
 ```csharp
 CEntityIOOutput OnHurtPlayer { get; }
@@ -156,7 +156,7 @@ CEntityIOOutput OnHurtPlayer { get; }
 
 ### OriginalDamage
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerHurt.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerHurt.cs#L18)
 
 ```csharp
 ref float OriginalDamage { get; }
@@ -168,7 +168,7 @@ ref float OriginalDamage { get; }
 
 ### ThinkAlways
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerHurt.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerHurt.cs#L36)
 
 ```csharp
 ref bool ThinkAlways { get; }

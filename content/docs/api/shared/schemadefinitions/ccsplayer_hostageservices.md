@@ -12,7 +12,7 @@ public interface CCSPlayer_HostageServices : CPlayerPawnComponent, ISchemaClass<
 
 ### CarriedHostage
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_HostageServices.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_HostageServices.cs#L18)
 
 ```csharp
 ref CHandle<CBaseEntity> CarriedHostage { get; }
@@ -24,7 +24,7 @@ ref CHandle<CBaseEntity> CarriedHostage { get; }
 
 ### CarriedHostageProp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_HostageServices.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_HostageServices.cs#L20)
 
 ```csharp
 ref CHandle<CBaseEntity> CarriedHostageProp { get; }
@@ -38,7 +38,7 @@ ref CHandle<CBaseEntity> CarriedHostageProp { get; }
 
 ### CarriedHostagePropUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_HostageServices.cs#L22)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_HostageServices.cs#L23)
 
 ```csharp
 void CarriedHostagePropUpdated()
@@ -46,7 +46,7 @@ void CarriedHostagePropUpdated()
 
 ### CarriedHostageUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_HostageServices.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_HostageServices.cs#L22)
 
 ```csharp
 void CarriedHostageUpdated()

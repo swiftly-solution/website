@@ -12,7 +12,7 @@ public interface CBaseConstraint : CBoneConstraintBase, ISchemaClass<CBoneConstr
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseConstraint.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseConstraint.cs#L18)
 
 ```csharp
 string Name { get; set; }
@@ -24,7 +24,7 @@ string Name { get; set; }
 
 ### Slaves
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseConstraint.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseConstraint.cs#L22)
 
 ```csharp
 ref CUtlLeanVector<CConstraintSlave, int> Slaves { get; }
@@ -36,7 +36,7 @@ ref CUtlLeanVector<CConstraintSlave, int> Slaves { get; }
 
 ### Targets
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseConstraint.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseConstraint.cs#L24)
 
 ```csharp
 ref CUtlVector<CConstraintTarget> Targets { get; }
@@ -48,7 +48,7 @@ ref CUtlVector<CConstraintTarget> Targets { get; }
 
 ### UpVector
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseConstraint.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseConstraint.cs#L20)
 
 ```csharp
 ref Vector UpVector { get; }

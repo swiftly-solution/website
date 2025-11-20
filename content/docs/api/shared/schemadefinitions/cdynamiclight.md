@@ -12,7 +12,7 @@ public interface CDynamicLight : CBaseModelEntity, CBaseEntity, CEntityInstance,
 
 ### ActualFlags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicLight.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicLight.cs#L18)
 
 ```csharp
 ref byte ActualFlags { get; }
@@ -24,7 +24,7 @@ ref byte ActualFlags { get; }
 
 ### Exponent
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicLight.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicLight.cs#L28)
 
 ```csharp
 ref int Exponent { get; }
@@ -36,7 +36,7 @@ ref int Exponent { get; }
 
 ### Flags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicLight.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicLight.cs#L20)
 
 ```csharp
 ref byte Flags { get; }
@@ -48,7 +48,7 @@ ref byte Flags { get; }
 
 ### InnerAngle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicLight.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicLight.cs#L30)
 
 ```csharp
 ref float InnerAngle { get; }
@@ -60,7 +60,7 @@ ref float InnerAngle { get; }
 
 ### LightStyle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicLight.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicLight.cs#L22)
 
 ```csharp
 ref byte LightStyle { get; }
@@ -72,7 +72,7 @@ ref byte LightStyle { get; }
 
 ### True
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicLight.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicLight.cs#L24)
 
 ```csharp
 ref bool On { get; }
@@ -84,7 +84,7 @@ ref bool On { get; }
 
 ### OuterAngle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicLight.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicLight.cs#L32)
 
 ```csharp
 ref float OuterAngle { get; }
@@ -96,7 +96,7 @@ ref float OuterAngle { get; }
 
 ### Radius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicLight.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicLight.cs#L26)
 
 ```csharp
 ref float Radius { get; }
@@ -108,7 +108,7 @@ ref float Radius { get; }
 
 ### SpotRadius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicLight.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicLight.cs#L34)
 
 ```csharp
 ref float SpotRadius { get; }
@@ -122,7 +122,7 @@ ref float SpotRadius { get; }
 
 ### ExponentUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicLight.cs#L38)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicLight.cs#L39)
 
 ```csharp
 void ExponentUpdated()
@@ -130,7 +130,7 @@ void ExponentUpdated()
 
 ### FlagsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicLight.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicLight.cs#L36)
 
 ```csharp
 void FlagsUpdated()
@@ -138,7 +138,7 @@ void FlagsUpdated()
 
 ### InnerAngleUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicLight.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicLight.cs#L40)
 
 ```csharp
 void InnerAngleUpdated()
@@ -146,7 +146,7 @@ void InnerAngleUpdated()
 
 ### LightStyleUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicLight.cs#L36)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicLight.cs#L37)
 
 ```csharp
 void LightStyleUpdated()
@@ -154,7 +154,7 @@ void LightStyleUpdated()
 
 ### OuterAngleUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicLight.cs#L40)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicLight.cs#L41)
 
 ```csharp
 void OuterAngleUpdated()
@@ -162,7 +162,7 @@ void OuterAngleUpdated()
 
 ### RadiusUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicLight.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicLight.cs#L38)
 
 ```csharp
 void RadiusUpdated()
@@ -170,7 +170,7 @@ void RadiusUpdated()
 
 ### SpotRadiusUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicLight.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicLight.cs#L42)
 
 ```csharp
 void SpotRadiusUpdated()

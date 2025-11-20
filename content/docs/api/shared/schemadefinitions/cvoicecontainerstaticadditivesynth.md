@@ -12,7 +12,7 @@ public interface CVoiceContainerStaticAdditiveSynth : CVoiceContainerBase, ISche
 
 ### Tones
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerStaticAdditiveSynth.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerStaticAdditiveSynth.cs#L18)
 
 ```csharp
 ref CUtlVector<CVoiceContainerStaticAdditiveSynth__CTone> Tones { get; }

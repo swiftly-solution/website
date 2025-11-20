@@ -12,7 +12,7 @@ public interface CRelativeLocation : ISchemaClass<CRelativeLocation>, ISchemaFie
 
 ### Entity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRelativeLocation.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRelativeLocation.cs#L24)
 
 ```csharp
 ref CHandle<CBaseEntity> Entity { get; }
@@ -24,7 +24,7 @@ ref CHandle<CBaseEntity> Entity { get; }
 
 ### RelativeOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRelativeLocation.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRelativeLocation.cs#L20)
 
 ```csharp
 ref Vector RelativeOffset { get; }
@@ -36,7 +36,7 @@ ref Vector RelativeOffset { get; }
 
 ### Type
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRelativeLocation.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRelativeLocation.cs#L18)
 
 ```csharp
 ref RelativeLocationType_t Type { get; }
@@ -48,7 +48,7 @@ ref RelativeLocationType_t Type { get; }
 
 ### WorldSpacePos
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRelativeLocation.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRelativeLocation.cs#L22)
 
 ```csharp
 ref Vector WorldSpacePos { get; }

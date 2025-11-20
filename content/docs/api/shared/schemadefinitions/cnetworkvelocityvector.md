@@ -12,7 +12,7 @@ public interface CNetworkVelocityVector : ISchemaClass<CNetworkVelocityVector>, 
 
 ### X
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkVelocityVector.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkVelocityVector.cs#L18)
 
 ```csharp
 ref CNetworkedQuantizedFloat X { get; }
@@ -24,7 +24,7 @@ ref CNetworkedQuantizedFloat X { get; }
 
 ### Y
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkVelocityVector.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkVelocityVector.cs#L20)
 
 ```csharp
 ref CNetworkedQuantizedFloat Y { get; }
@@ -36,7 +36,7 @@ ref CNetworkedQuantizedFloat Y { get; }
 
 ### Z
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkVelocityVector.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkVelocityVector.cs#L22)
 
 ```csharp
 ref CNetworkedQuantizedFloat Z { get; }
@@ -50,7 +50,7 @@ ref CNetworkedQuantizedFloat Z { get; }
 
 ### XUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkVelocityVector.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkVelocityVector.cs#L24)
 
 ```csharp
 void XUpdated()
@@ -58,7 +58,7 @@ void XUpdated()
 
 ### YUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkVelocityVector.cs#L24)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkVelocityVector.cs#L25)
 
 ```csharp
 void YUpdated()
@@ -66,7 +66,7 @@ void YUpdated()
 
 ### ZUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkVelocityVector.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkVelocityVector.cs#L26)
 
 ```csharp
 void ZUpdated()

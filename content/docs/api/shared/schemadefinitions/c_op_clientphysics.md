@@ -12,7 +12,7 @@ public interface C_OP_ClientPhysics : CParticleFunctionRenderer, CParticleFuncti
 
 ### ColorBlendType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ClientPhysics.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ClientPhysics.cs#L40)
 
 ```csharp
 ref ParticleColorBlendType_t ColorBlendType { get; }
@@ -24,7 +24,7 @@ ref ParticleColorBlendType_t ColorBlendType { get; }
 
 ### ControlPoint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ClientPhysics.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ClientPhysics.cs#L36)
 
 ```csharp
 ref int ControlPoint { get; }
@@ -36,7 +36,7 @@ ref int ControlPoint { get; }
 
 ### DeleteSim
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ClientPhysics.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ClientPhysics.cs#L34)
 
 ```csharp
 ref bool DeleteSim { get; }
@@ -48,7 +48,7 @@ ref bool DeleteSim { get; }
 
 ### ForcedSimId
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ClientPhysics.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ClientPhysics.cs#L38)
 
 ```csharp
 ref int ForcedSimId { get; }
@@ -60,7 +60,7 @@ ref int ForcedSimId { get; }
 
 ### ForcedStatusEffects
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ClientPhysics.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ClientPhysics.cs#L42)
 
 ```csharp
 ref ParticleAttrBoxFlags_t ForcedStatusEffects { get; }
@@ -72,7 +72,7 @@ ref ParticleAttrBoxFlags_t ForcedStatusEffects { get; }
 
 ### KillParticles
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ClientPhysics.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ClientPhysics.cs#L32)
 
 ```csharp
 ref bool KillParticles { get; }
@@ -84,7 +84,7 @@ ref bool KillParticles { get; }
 
 ### MaxParticleCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ClientPhysics.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ClientPhysics.cs#L28)
 
 ```csharp
 ref int MaxParticleCount { get; }
@@ -96,7 +96,7 @@ ref int MaxParticleCount { get; }
 
 ### PlayerWakeRadius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ClientPhysics.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ClientPhysics.cs#L22)
 
 ```csharp
 CParticleCollectionFloatInput PlayerWakeRadius { get; }
@@ -108,7 +108,7 @@ CParticleCollectionFloatInput PlayerWakeRadius { get; }
 
 ### RespectExclusionVolumes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ClientPhysics.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ClientPhysics.cs#L30)
 
 ```csharp
 ref bool RespectExclusionVolumes { get; }
@@ -120,7 +120,7 @@ ref bool RespectExclusionVolumes { get; }
 
 ### StartAsleep
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ClientPhysics.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ClientPhysics.cs#L20)
 
 ```csharp
 ref bool StartAsleep { get; }
@@ -132,7 +132,7 @@ ref bool StartAsleep { get; }
 
 ### StrPhysicsType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ClientPhysics.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ClientPhysics.cs#L18)
 
 ```csharp
 string StrPhysicsType { get; set; }
@@ -144,7 +144,7 @@ string StrPhysicsType { get; set; }
 
 ### UseHighQualitySimulation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ClientPhysics.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ClientPhysics.cs#L26)
 
 ```csharp
 ref bool UseHighQualitySimulation { get; }
@@ -156,7 +156,7 @@ ref bool UseHighQualitySimulation { get; }
 
 ### VehicleWakeRadius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ClientPhysics.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ClientPhysics.cs#L24)
 
 ```csharp
 CParticleCollectionFloatInput VehicleWakeRadius { get; }

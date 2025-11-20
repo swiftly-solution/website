@@ -12,7 +12,7 @@ public interface CAnimAttachment : ISchemaClass<CAnimAttachment>, ISchemaField, 
 
 ### InfluenceIndices
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimAttachment.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimAttachment.cs#L22)
 
 ```csharp
 ISchemaFixedArray<int> InfluenceIndices { get; }
@@ -24,7 +24,7 @@ ISchemaFixedArray<int> InfluenceIndices { get; }
 
 ### InfluenceOffsets
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimAttachment.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimAttachment.cs#L20)
 
 ```csharp
 ISchemaFixedArray<Vector> InfluenceOffsets { get; }
@@ -36,7 +36,7 @@ ISchemaFixedArray<Vector> InfluenceOffsets { get; }
 
 ### InfluenceRotations
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimAttachment.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimAttachment.cs#L18)
 
 ```csharp
 ISchemaFixedArray<Quaternion> InfluenceRotations { get; }
@@ -48,7 +48,7 @@ ISchemaFixedArray<Quaternion> InfluenceRotations { get; }
 
 ### InfluenceWeights
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimAttachment.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimAttachment.cs#L24)
 
 ```csharp
 ISchemaFixedArray<float> InfluenceWeights { get; }
@@ -60,7 +60,7 @@ ISchemaFixedArray<float> InfluenceWeights { get; }
 
 ### NumInfluences
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimAttachment.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimAttachment.cs#L26)
 
 ```csharp
 ref byte NumInfluences { get; }

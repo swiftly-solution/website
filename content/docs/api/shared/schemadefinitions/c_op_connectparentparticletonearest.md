@@ -12,7 +12,7 @@ public interface C_OP_ConnectParentParticleToNearest : CParticleFunctionOperator
 
 ### FirstControlPoint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConnectParentParticleToNearest.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConnectParentParticleToNearest.cs#L18)
 
 ```csharp
 ref int FirstControlPoint { get; }
@@ -24,7 +24,7 @@ ref int FirstControlPoint { get; }
 
 ### ParentRadiusScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConnectParentParticleToNearest.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConnectParentParticleToNearest.cs#L26)
 
 ```csharp
 CParticleCollectionFloatInput ParentRadiusScale { get; }
@@ -36,7 +36,7 @@ CParticleCollectionFloatInput ParentRadiusScale { get; }
 
 ### RadiusScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConnectParentParticleToNearest.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConnectParentParticleToNearest.cs#L24)
 
 ```csharp
 CParticleCollectionFloatInput RadiusScale { get; }
@@ -48,7 +48,7 @@ CParticleCollectionFloatInput RadiusScale { get; }
 
 ### SecondControlPoint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConnectParentParticleToNearest.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConnectParentParticleToNearest.cs#L20)
 
 ```csharp
 ref int SecondControlPoint { get; }
@@ -60,7 +60,7 @@ ref int SecondControlPoint { get; }
 
 ### UseRadius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConnectParentParticleToNearest.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConnectParentParticleToNearest.cs#L22)
 
 ```csharp
 ref bool UseRadius { get; }

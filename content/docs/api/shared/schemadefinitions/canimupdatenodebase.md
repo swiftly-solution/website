@@ -12,7 +12,7 @@ public interface CAnimUpdateNodeBase : ISchemaClass<CAnimUpdateNodeBase>, ISchem
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimUpdateNodeBase.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimUpdateNodeBase.cs#L22)
 
 ```csharp
 string Name { get; set; }
@@ -24,7 +24,7 @@ string Name { get; set; }
 
 ### NetworkMode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimUpdateNodeBase.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimUpdateNodeBase.cs#L20)
 
 ```csharp
 ref AnimNodeNetworkMode NetworkMode { get; }
@@ -36,7 +36,7 @@ ref AnimNodeNetworkMode NetworkMode { get; }
 
 ### NodePath
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimUpdateNodeBase.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimUpdateNodeBase.cs#L18)
 
 ```csharp
 CAnimNodePath NodePath { get; }

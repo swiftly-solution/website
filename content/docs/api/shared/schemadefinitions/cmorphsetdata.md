@@ -12,7 +12,7 @@ public interface CMorphSetData : ISchemaClass<CMorphSetData>, ISchemaField, ISch
 
 ### BundleTypes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphSetData.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphSetData.cs#L22)
 
 ```csharp
 ref CUtlVector<MorphBundleType_t> BundleTypes { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<MorphBundleType_t> BundleTypes { get; }
 
 ### FlexControllers
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphSetData.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphSetData.cs#L30)
 
 ```csharp
 ref CUtlVector<CFlexController> FlexControllers { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<CFlexController> FlexControllers { get; }
 
 ### FlexDesc
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphSetData.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphSetData.cs#L28)
 
 ```csharp
 ref CUtlVector<CFlexDesc> FlexDesc { get; }
@@ -48,7 +48,7 @@ ref CUtlVector<CFlexDesc> FlexDesc { get; }
 
 ### FlexRules
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphSetData.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphSetData.cs#L32)
 
 ```csharp
 ref CUtlVector<CFlexRule> FlexRules { get; }
@@ -60,7 +60,7 @@ ref CUtlVector<CFlexRule> FlexRules { get; }
 
 ### Height
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphSetData.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphSetData.cs#L20)
 
 ```csharp
 ref int Height { get; }
@@ -72,7 +72,7 @@ ref int Height { get; }
 
 ### MorphDatas
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphSetData.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphSetData.cs#L24)
 
 ```csharp
 ref CUtlVector<CMorphData> MorphDatas { get; }
@@ -84,7 +84,7 @@ ref CUtlVector<CMorphData> MorphDatas { get; }
 
 ### TextureAtlas
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphSetData.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphSetData.cs#L26)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureAtlas { get; }
@@ -96,7 +96,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureAtlas { get; }
 
 ### Width
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphSetData.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphSetData.cs#L18)
 
 ```csharp
 ref int Width { get; }

@@ -12,7 +12,7 @@ public interface CParticleMassCalculationParameters : ISchemaClass<CParticleMass
 
 ### MassMode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleMassCalculationParameters.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleMassCalculationParameters.cs#L18)
 
 ```csharp
 ref ParticleMassMode_t MassMode { get; }
@@ -24,7 +24,7 @@ ref ParticleMassMode_t MassMode { get; }
 
 ### NominalRadius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleMassCalculationParameters.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleMassCalculationParameters.cs#L22)
 
 ```csharp
 CPerParticleFloatInput NominalRadius { get; }
@@ -36,7 +36,7 @@ CPerParticleFloatInput NominalRadius { get; }
 
 ### Radius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleMassCalculationParameters.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleMassCalculationParameters.cs#L20)
 
 ```csharp
 CPerParticleFloatInput Radius { get; }
@@ -48,7 +48,7 @@ CPerParticleFloatInput Radius { get; }
 
 ### Scale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleMassCalculationParameters.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleMassCalculationParameters.cs#L24)
 
 ```csharp
 CPerParticleFloatInput Scale { get; }

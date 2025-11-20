@@ -12,7 +12,7 @@ public interface C_INIT_RemapInitialDirectionToTransformToVector : CParticleFunc
 
 ### FieldOutput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapInitialDirectionToTransformToVector.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapInitialDirectionToTransformToVector.cs#L20)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -24,7 +24,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 ### Normalize
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapInitialDirectionToTransformToVector.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapInitialDirectionToTransformToVector.cs#L28)
 
 ```csharp
 ref bool Normalize { get; }
@@ -36,7 +36,7 @@ ref bool Normalize { get; }
 
 ### OffsetAxis
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapInitialDirectionToTransformToVector.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapInitialDirectionToTransformToVector.cs#L26)
 
 ```csharp
 ref Vector OffsetAxis { get; }
@@ -48,7 +48,7 @@ ref Vector OffsetAxis { get; }
 
 ### OffsetRot
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapInitialDirectionToTransformToVector.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapInitialDirectionToTransformToVector.cs#L24)
 
 ```csharp
 ref float OffsetRot { get; }
@@ -60,7 +60,7 @@ ref float OffsetRot { get; }
 
 ### Scale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapInitialDirectionToTransformToVector.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapInitialDirectionToTransformToVector.cs#L22)
 
 ```csharp
 ref float Scale { get; }
@@ -72,7 +72,7 @@ ref float Scale { get; }
 
 ### TransformInput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapInitialDirectionToTransformToVector.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapInitialDirectionToTransformToVector.cs#L18)
 
 ```csharp
 CParticleTransformInput TransformInput { get; }

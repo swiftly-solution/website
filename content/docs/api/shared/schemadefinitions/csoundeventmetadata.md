@@ -12,7 +12,7 @@ public interface CSoundEventMetaData : ISchemaClass<CSoundEventMetaData>, ISchem
 
 ### SoundEventVMix
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventMetaData.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventMetaData.cs#L18)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCVMixListResource> SoundEventVMix { get; }

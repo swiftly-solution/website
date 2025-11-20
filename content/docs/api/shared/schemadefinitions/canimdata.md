@@ -12,7 +12,7 @@ public interface CAnimData : ISchemaClass<CAnimData>, ISchemaField, ISchemaClass
 
 ### AnimArray
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimData.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimData.cs#L20)
 
 ```csharp
 ref CUtlVector<CAnimDesc> AnimArray { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<CAnimDesc> AnimArray { get; }
 
 ### DecoderArray
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimData.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimData.cs#L22)
 
 ```csharp
 ref CUtlVector<CAnimDecoder> DecoderArray { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<CAnimDecoder> DecoderArray { get; }
 
 ### MaxUniqueFrameIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimData.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimData.cs#L24)
 
 ```csharp
 ref int MaxUniqueFrameIndex { get; }
@@ -48,7 +48,7 @@ ref int MaxUniqueFrameIndex { get; }
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimData.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimData.cs#L18)
 
 ```csharp
 ref CBufferString Name { get; }
@@ -60,7 +60,7 @@ ref CBufferString Name { get; }
 
 ### SegmentArray
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimData.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimData.cs#L26)
 
 ```csharp
 ref CUtlVector<CAnimFrameSegment> SegmentArray { get; }

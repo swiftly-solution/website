@@ -12,7 +12,7 @@ public interface C_INIT_CreatePhyllotaxis : CParticleFunctionInitializer, CParti
 
 ### Component
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreatePhyllotaxis.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreatePhyllotaxis.cs#L22)
 
 ```csharp
 ref int Component { get; }
@@ -24,7 +24,7 @@ ref int Component { get; }
 
 ### ControlPointNumber
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreatePhyllotaxis.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreatePhyllotaxis.cs#L18)
 
 ```csharp
 ref int ControlPointNumber { get; }
@@ -36,7 +36,7 @@ ref int ControlPointNumber { get; }
 
 ### DistBias
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreatePhyllotaxis.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreatePhyllotaxis.cs#L38)
 
 ```csharp
 ref float DistBias { get; }
@@ -48,7 +48,7 @@ ref float DistBias { get; }
 
 ### FpointAngle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreatePhyllotaxis.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreatePhyllotaxis.cs#L30)
 
 ```csharp
 ref float FpointAngle { get; }
@@ -60,7 +60,7 @@ ref float FpointAngle { get; }
 
 ### FsizeOverall
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreatePhyllotaxis.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreatePhyllotaxis.cs#L32)
 
 ```csharp
 ref float FsizeOverall { get; }
@@ -72,7 +72,7 @@ ref float FsizeOverall { get; }
 
 ### MinRad
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreatePhyllotaxis.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreatePhyllotaxis.cs#L36)
 
 ```csharp
 ref float MinRad { get; }
@@ -84,7 +84,7 @@ ref float MinRad { get; }
 
 ### RadBias
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreatePhyllotaxis.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreatePhyllotaxis.cs#L34)
 
 ```csharp
 ref float RadBias { get; }
@@ -96,7 +96,7 @@ ref float RadBias { get; }
 
 ### RadCentCore
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreatePhyllotaxis.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreatePhyllotaxis.cs#L24)
 
 ```csharp
 ref float RadCentCore { get; }
@@ -108,7 +108,7 @@ ref float RadCentCore { get; }
 
 ### RadPerPoint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreatePhyllotaxis.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreatePhyllotaxis.cs#L26)
 
 ```csharp
 ref float RadPerPoint { get; }
@@ -120,7 +120,7 @@ ref float RadPerPoint { get; }
 
 ### RadPerPointTo
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreatePhyllotaxis.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreatePhyllotaxis.cs#L28)
 
 ```csharp
 ref float RadPerPointTo { get; }
@@ -132,7 +132,7 @@ ref float RadPerPointTo { get; }
 
 ### ScaleCP
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreatePhyllotaxis.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreatePhyllotaxis.cs#L20)
 
 ```csharp
 ref int ScaleCP { get; }
@@ -144,7 +144,7 @@ ref int ScaleCP { get; }
 
 ### UseLocalCoords
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreatePhyllotaxis.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreatePhyllotaxis.cs#L40)
 
 ```csharp
 ref bool UseLocalCoords { get; }
@@ -156,7 +156,7 @@ ref bool UseLocalCoords { get; }
 
 ### UseOrigRadius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreatePhyllotaxis.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreatePhyllotaxis.cs#L44)
 
 ```csharp
 ref bool UseOrigRadius { get; }
@@ -168,7 +168,7 @@ ref bool UseOrigRadius { get; }
 
 ### UseWithContEmit
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreatePhyllotaxis.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreatePhyllotaxis.cs#L42)
 
 ```csharp
 ref bool UseWithContEmit { get; }

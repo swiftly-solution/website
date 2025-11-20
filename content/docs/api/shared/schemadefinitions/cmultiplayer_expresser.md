@@ -12,7 +12,7 @@ public interface CMultiplayer_Expresser : CAI_ExpresserWithFollowup, CAI_Express
 
 ### AllowMultipleScenes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMultiplayer_Expresser.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMultiplayer_Expresser.cs#L18)
 
 ```csharp
 ref bool AllowMultipleScenes { get; }

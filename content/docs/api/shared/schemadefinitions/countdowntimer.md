@@ -12,7 +12,7 @@ public interface CountdownTimer : ISchemaClass<CountdownTimer>, ISchemaField, IS
 
 ### Duration
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CountdownTimer.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CountdownTimer.cs#L18)
 
 ```csharp
 ref float Duration { get; }
@@ -24,7 +24,7 @@ ref float Duration { get; }
 
 ### Timescale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CountdownTimer.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CountdownTimer.cs#L22)
 
 ```csharp
 ref float Timescale { get; }
@@ -36,7 +36,7 @@ ref float Timescale { get; }
 
 ### Timestamp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CountdownTimer.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CountdownTimer.cs#L20)
 
 ```csharp
 GameTime_t Timestamp { get; }
@@ -48,7 +48,7 @@ GameTime_t Timestamp { get; }
 
 ### WorldGroupId
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CountdownTimer.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CountdownTimer.cs#L24)
 
 ```csharp
 ref uint WorldGroupId { get; }
@@ -62,7 +62,7 @@ ref uint WorldGroupId { get; }
 
 ### DurationUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CountdownTimer.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CountdownTimer.cs#L26)
 
 ```csharp
 void DurationUpdated()
@@ -70,7 +70,7 @@ void DurationUpdated()
 
 ### TimescaleUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CountdownTimer.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CountdownTimer.cs#L28)
 
 ```csharp
 void TimescaleUpdated()
@@ -78,7 +78,7 @@ void TimescaleUpdated()
 
 ### TimestampUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CountdownTimer.cs#L26)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CountdownTimer.cs#L27)
 
 ```csharp
 void TimestampUpdated()
@@ -86,7 +86,7 @@ void TimestampUpdated()
 
 ### WorldGroupIdUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CountdownTimer.cs#L28)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CountdownTimer.cs#L29)
 
 ```csharp
 void WorldGroupIdUpdated()

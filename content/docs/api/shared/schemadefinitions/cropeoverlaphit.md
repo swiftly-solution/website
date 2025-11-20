@@ -12,7 +12,7 @@ public interface CRopeOverlapHit : ISchemaClass<CRopeOverlapHit>, ISchemaField, 
 
 ### Entity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeOverlapHit.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeOverlapHit.cs#L18)
 
 ```csharp
 ref CHandle<CBaseEntity> Entity { get; }
@@ -24,7 +24,7 @@ ref CHandle<CBaseEntity> Entity { get; }
 
 ### OverlappingLinks
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeOverlapHit.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeOverlapHit.cs#L20)
 
 ```csharp
 ref CUtlVector<int> OverlappingLinks { get; }

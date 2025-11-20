@@ -12,7 +12,7 @@ public interface C_OP_OscillateScalarSimple : CParticleFunctionOperator, CPartic
 
 ### Field
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateScalarSimple.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateScalarSimple.cs#L22)
 
 ```csharp
 ParticleAttributeIndex_t Field { get; }
@@ -24,7 +24,7 @@ ParticleAttributeIndex_t Field { get; }
 
 ### Frequency
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateScalarSimple.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateScalarSimple.cs#L20)
 
 ```csharp
 ref float Frequency { get; }
@@ -36,7 +36,7 @@ ref float Frequency { get; }
 
 ### OscAdd
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateScalarSimple.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateScalarSimple.cs#L26)
 
 ```csharp
 ref float OscAdd { get; }
@@ -48,7 +48,7 @@ ref float OscAdd { get; }
 
 ### OscMult
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateScalarSimple.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateScalarSimple.cs#L24)
 
 ```csharp
 ref float OscMult { get; }
@@ -60,7 +60,7 @@ ref float OscMult { get; }
 
 ### Rate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateScalarSimple.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateScalarSimple.cs#L18)
 
 ```csharp
 ref float Rate { get; }

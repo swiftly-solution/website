@@ -12,7 +12,7 @@ public interface CSoundEnvelope : ISchemaClass<CSoundEnvelope>, ISchemaField, IS
 
 ### Current
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEnvelope.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEnvelope.cs#L18)
 
 ```csharp
 ref float Current { get; }
@@ -24,7 +24,7 @@ ref float Current { get; }
 
 ### Forceupdate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEnvelope.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEnvelope.cs#L24)
 
 ```csharp
 ref bool Forceupdate { get; }
@@ -36,7 +36,7 @@ ref bool Forceupdate { get; }
 
 ### Rate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEnvelope.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEnvelope.cs#L22)
 
 ```csharp
 ref float Rate { get; }
@@ -48,7 +48,7 @@ ref float Rate { get; }
 
 ### Target
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEnvelope.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEnvelope.cs#L20)
 
 ```csharp
 ref float Target { get; }

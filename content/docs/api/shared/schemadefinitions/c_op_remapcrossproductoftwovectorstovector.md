@@ -12,7 +12,7 @@ public interface C_OP_RemapCrossProductOfTwoVectorsToVector : CParticleFunctionO
 
 ### FieldOutput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCrossProductOfTwoVectorsToVector.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCrossProductOfTwoVectorsToVector.cs#L22)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -24,7 +24,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 ### InputVec1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCrossProductOfTwoVectorsToVector.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCrossProductOfTwoVectorsToVector.cs#L18)
 
 ```csharp
 CPerParticleVecInput InputVec1 { get; }
@@ -36,7 +36,7 @@ CPerParticleVecInput InputVec1 { get; }
 
 ### InputVec2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCrossProductOfTwoVectorsToVector.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCrossProductOfTwoVectorsToVector.cs#L20)
 
 ```csharp
 CPerParticleVecInput InputVec2 { get; }
@@ -48,7 +48,7 @@ CPerParticleVecInput InputVec2 { get; }
 
 ### Normalize
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCrossProductOfTwoVectorsToVector.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCrossProductOfTwoVectorsToVector.cs#L24)
 
 ```csharp
 ref bool Normalize { get; }

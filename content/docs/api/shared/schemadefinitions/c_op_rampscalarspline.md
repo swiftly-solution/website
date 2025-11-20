@@ -12,7 +12,7 @@ public interface C_OP_RampScalarSpline : CParticleFunctionOperator, CParticleFun
 
 ### Bias
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarSpline.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarSpline.cs#L30)
 
 ```csharp
 ref float Bias { get; }
@@ -24,7 +24,7 @@ ref float Bias { get; }
 
 ### EaseOut
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarSpline.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarSpline.cs#L36)
 
 ```csharp
 ref bool EaseOut { get; }
@@ -36,7 +36,7 @@ ref bool EaseOut { get; }
 
 ### EndTime_max
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarSpline.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarSpline.cs#L28)
 
 ```csharp
 ref float EndTime_max { get; }
@@ -48,7 +48,7 @@ ref float EndTime_max { get; }
 
 ### EndTime_min
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarSpline.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarSpline.cs#L26)
 
 ```csharp
 ref float EndTime_min { get; }
@@ -60,7 +60,7 @@ ref float EndTime_min { get; }
 
 ### Field
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarSpline.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarSpline.cs#L32)
 
 ```csharp
 ParticleAttributeIndex_t Field { get; }
@@ -72,7 +72,7 @@ ParticleAttributeIndex_t Field { get; }
 
 ### ProportionalOp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarSpline.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarSpline.cs#L34)
 
 ```csharp
 ref bool ProportionalOp { get; }
@@ -84,7 +84,7 @@ ref bool ProportionalOp { get; }
 
 ### RateMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarSpline.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarSpline.cs#L20)
 
 ```csharp
 ref float RateMax { get; }
@@ -96,7 +96,7 @@ ref float RateMax { get; }
 
 ### RateMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarSpline.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarSpline.cs#L18)
 
 ```csharp
 ref float RateMin { get; }
@@ -108,7 +108,7 @@ ref float RateMin { get; }
 
 ### StartTime_max
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarSpline.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarSpline.cs#L24)
 
 ```csharp
 ref float StartTime_max { get; }
@@ -120,7 +120,7 @@ ref float StartTime_max { get; }
 
 ### StartTime_min
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarSpline.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarSpline.cs#L22)
 
 ```csharp
 ref float StartTime_min { get; }

@@ -12,7 +12,7 @@ public interface CConstraintSlave : ISchemaClass<CConstraintSlave>, ISchemaField
 
 ### BaseOrientation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstraintSlave.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstraintSlave.cs#L18)
 
 ```csharp
 ref Quaternion BaseOrientation { get; }
@@ -24,7 +24,7 @@ ref Quaternion BaseOrientation { get; }
 
 ### BasePosition
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstraintSlave.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstraintSlave.cs#L20)
 
 ```csharp
 ref Vector BasePosition { get; }
@@ -36,7 +36,7 @@ ref Vector BasePosition { get; }
 
 ### BoneHash
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstraintSlave.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstraintSlave.cs#L22)
 
 ```csharp
 ref uint BoneHash { get; }
@@ -48,7 +48,7 @@ ref uint BoneHash { get; }
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstraintSlave.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstraintSlave.cs#L26)
 
 ```csharp
 string Name { get; set; }
@@ -60,7 +60,7 @@ string Name { get; set; }
 
 ### Weight
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstraintSlave.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstraintSlave.cs#L24)
 
 ```csharp
 ref float Weight { get; }

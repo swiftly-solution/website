@@ -12,7 +12,7 @@ public interface CAnimGraphDebugReplay : ISchemaClass<CAnimGraphDebugReplay>, IS
 
 ### AnimGraphFileName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphDebugReplay.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphDebugReplay.cs#L18)
 
 ```csharp
 string AnimGraphFileName { get; set; }
@@ -24,7 +24,7 @@ string AnimGraphFileName { get; set; }
 
 ### FrameCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphDebugReplay.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphDebugReplay.cs#L26)
 
 ```csharp
 ref int FrameCount { get; }
@@ -36,7 +36,7 @@ ref int FrameCount { get; }
 
 ### FrameList
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphDebugReplay.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphDebugReplay.cs#L20)
 
 ```csharp
 ref CUtlVector<SchemaUntypedField> FrameList { get; }
@@ -48,7 +48,7 @@ ref CUtlVector<SchemaUntypedField> FrameList { get; }
 
 ### StartIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphDebugReplay.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphDebugReplay.cs#L22)
 
 ```csharp
 ref int StartIndex { get; }
@@ -60,7 +60,7 @@ ref int StartIndex { get; }
 
 ### WriteIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphDebugReplay.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphDebugReplay.cs#L24)
 
 ```csharp
 ref int WriteIndex { get; }

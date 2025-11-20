@@ -12,7 +12,7 @@ public interface C_OP_ExternalGameImpulseForce : CParticleFunctionForce, CPartic
 
 ### Explosions
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ExternalGameImpulseForce.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ExternalGameImpulseForce.cs#L24)
 
 ```csharp
 ref bool Explosions { get; }
@@ -24,7 +24,7 @@ ref bool Explosions { get; }
 
 ### ForceScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ExternalGameImpulseForce.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ExternalGameImpulseForce.cs#L18)
 
 ```csharp
 CPerParticleFloatInput ForceScale { get; }
@@ -36,7 +36,7 @@ CPerParticleFloatInput ForceScale { get; }
 
 ### Particles
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ExternalGameImpulseForce.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ExternalGameImpulseForce.cs#L26)
 
 ```csharp
 ref bool Particles { get; }
@@ -48,7 +48,7 @@ ref bool Particles { get; }
 
 ### Ropes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ExternalGameImpulseForce.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ExternalGameImpulseForce.cs#L20)
 
 ```csharp
 ref bool Ropes { get; }
@@ -60,7 +60,7 @@ ref bool Ropes { get; }
 
 ### RopesZOnly
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ExternalGameImpulseForce.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ExternalGameImpulseForce.cs#L22)
 
 ```csharp
 ref bool RopesZOnly { get; }

@@ -12,7 +12,7 @@ public interface CDampedPathAnimMotorUpdater : CPathAnimMotorUpdaterBase, CAnimM
 
 ### AnticipationHeadingParam
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDampedPathAnimMotorUpdater.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDampedPathAnimMotorUpdater.cs#L24)
 
 ```csharp
 CAnimParamHandle AnticipationHeadingParam { get; }
@@ -24,7 +24,7 @@ CAnimParamHandle AnticipationHeadingParam { get; }
 
 ### AnticipationPosParam
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDampedPathAnimMotorUpdater.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDampedPathAnimMotorUpdater.cs#L22)
 
 ```csharp
 CAnimParamHandle AnticipationPosParam { get; }
@@ -36,7 +36,7 @@ CAnimParamHandle AnticipationPosParam { get; }
 
 ### AnticipationTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDampedPathAnimMotorUpdater.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDampedPathAnimMotorUpdater.cs#L18)
 
 ```csharp
 ref float AnticipationTime { get; }
@@ -48,7 +48,7 @@ ref float AnticipationTime { get; }
 
 ### MaxSpringTension
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDampedPathAnimMotorUpdater.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDampedPathAnimMotorUpdater.cs#L30)
 
 ```csharp
 ref float MaxSpringTension { get; }
@@ -60,7 +60,7 @@ ref float MaxSpringTension { get; }
 
 ### MinSpeedScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDampedPathAnimMotorUpdater.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDampedPathAnimMotorUpdater.cs#L20)
 
 ```csharp
 ref float MinSpeedScale { get; }
@@ -72,7 +72,7 @@ ref float MinSpeedScale { get; }
 
 ### MinSpringTension
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDampedPathAnimMotorUpdater.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDampedPathAnimMotorUpdater.cs#L28)
 
 ```csharp
 ref float MinSpringTension { get; }
@@ -84,7 +84,7 @@ ref float MinSpringTension { get; }
 
 ### SpringConstant
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDampedPathAnimMotorUpdater.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDampedPathAnimMotorUpdater.cs#L26)
 
 ```csharp
 ref float SpringConstant { get; }

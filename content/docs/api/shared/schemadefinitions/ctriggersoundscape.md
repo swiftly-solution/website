@@ -12,7 +12,7 @@ public interface CTriggerSoundscape : CBaseTrigger, CBaseToggle, CBaseModelEntit
 
 ### Soundscape
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSoundscape.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSoundscape.cs#L18)
 
 ```csharp
 ref CHandle<CEnvSoundscapeTriggerable> Soundscape { get; }
@@ -24,7 +24,7 @@ ref CHandle<CEnvSoundscapeTriggerable> Soundscape { get; }
 
 ### SoundscapeName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSoundscape.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSoundscape.cs#L20)
 
 ```csharp
 string SoundscapeName { get; set; }
@@ -36,7 +36,7 @@ string SoundscapeName { get; set; }
 
 ### Spectators
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSoundscape.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSoundscape.cs#L22)
 
 ```csharp
 ref CUtlVector<CHandle<CBasePlayerPawn>> Spectators { get; }

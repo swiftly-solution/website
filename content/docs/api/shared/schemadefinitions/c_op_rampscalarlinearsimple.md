@@ -12,7 +12,7 @@ public interface C_OP_RampScalarLinearSimple : CParticleFunctionOperator, CParti
 
 ### EndTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarLinearSimple.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarLinearSimple.cs#L22)
 
 ```csharp
 ref float EndTime { get; }
@@ -24,7 +24,7 @@ ref float EndTime { get; }
 
 ### Field
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarLinearSimple.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarLinearSimple.cs#L24)
 
 ```csharp
 ParticleAttributeIndex_t Field { get; }
@@ -36,7 +36,7 @@ ParticleAttributeIndex_t Field { get; }
 
 ### Rate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarLinearSimple.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarLinearSimple.cs#L18)
 
 ```csharp
 ref float Rate { get; }
@@ -48,7 +48,7 @@ ref float Rate { get; }
 
 ### StartTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarLinearSimple.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarLinearSimple.cs#L20)
 
 ```csharp
 ref float StartTime { get; }

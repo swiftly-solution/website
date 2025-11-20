@@ -12,7 +12,7 @@ public interface CPlatTrigger : CBaseModelEntity, CBaseEntity, CEntityInstance, 
 
 ### Platform
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlatTrigger.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlatTrigger.cs#L18)
 
 ```csharp
 ref CHandle<CFuncPlat> Platform { get; }

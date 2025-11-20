@@ -12,7 +12,7 @@ public interface CSeqAutoLayerFlag : ISchemaClass<CSeqAutoLayerFlag>, ISchemaFie
 
 ### FetchFrame
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayerFlag.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayerFlag.cs#L30)
 
 ```csharp
 ref bool FetchFrame { get; }
@@ -24,7 +24,7 @@ ref bool FetchFrame { get; }
 
 ### Local
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayerFlag.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayerFlag.cs#L26)
 
 ```csharp
 ref bool Local { get; }
@@ -36,7 +36,7 @@ ref bool Local { get; }
 
 ### NoBlend
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayerFlag.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayerFlag.cs#L24)
 
 ```csharp
 ref bool NoBlend { get; }
@@ -48,7 +48,7 @@ ref bool NoBlend { get; }
 
 ### Pose
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayerFlag.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayerFlag.cs#L28)
 
 ```csharp
 ref bool Pose { get; }
@@ -60,7 +60,7 @@ ref bool Pose { get; }
 
 ### Post
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayerFlag.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayerFlag.cs#L18)
 
 ```csharp
 ref bool Post { get; }
@@ -72,7 +72,7 @@ ref bool Post { get; }
 
 ### Spline
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayerFlag.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayerFlag.cs#L20)
 
 ```csharp
 ref bool Spline { get; }
@@ -84,7 +84,7 @@ ref bool Spline { get; }
 
 ### Subtract
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayerFlag.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayerFlag.cs#L32)
 
 ```csharp
 ref bool Subtract { get; }
@@ -96,7 +96,7 @@ ref bool Subtract { get; }
 
 ### XFade
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayerFlag.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayerFlag.cs#L22)
 
 ```csharp
 ref bool XFade { get; }

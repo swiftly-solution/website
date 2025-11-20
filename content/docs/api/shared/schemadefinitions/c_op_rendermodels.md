@@ -12,7 +12,7 @@ public interface C_OP_RenderModels : CParticleFunctionRenderer, CParticleFunctio
 
 ### AcceptsDecals
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L105)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L106)
 
 ```csharp
 ref bool AcceptsDecals { get; }
@@ -24,7 +24,7 @@ ref bool AcceptsDecals { get; }
 
 ### ActivityName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L69)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L70)
 
 ```csharp
 string ActivityName { get; set; }
@@ -36,7 +36,7 @@ string ActivityName { get; set; }
 
 ### AllowApproximateTransforms
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L111)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L112)
 
 ```csharp
 ref bool AllowApproximateTransforms { get; }
@@ -48,7 +48,7 @@ ref bool AllowApproximateTransforms { get; }
 
 ### Alpha2Field
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L121)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L122)
 
 ```csharp
 ParticleAttributeIndex_t Alpha2Field { get; }
@@ -60,7 +60,7 @@ ParticleAttributeIndex_t Alpha2Field { get; }
 
 ### AlphaScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L117)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L118)
 
 ```csharp
 CParticleCollectionFloatInput AlphaScale { get; }
@@ -72,7 +72,7 @@ CParticleCollectionFloatInput AlphaScale { get; }
 
 ### Animated
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L52)
 
 ```csharp
 ref bool Animated { get; }
@@ -84,7 +84,7 @@ ref bool Animated { get; }
 
 ### AnimationField
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L65)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L66)
 
 ```csharp
 ParticleAttributeIndex_t AnimationField { get; }
@@ -96,7 +96,7 @@ ParticleAttributeIndex_t AnimationField { get; }
 
 ### AnimationRate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L54)
 
 ```csharp
 CPerParticleFloatInput AnimationRate { get; }
@@ -108,7 +108,7 @@ CPerParticleFloatInput AnimationRate { get; }
 
 ### AnimationScaleField
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L64)
 
 ```csharp
 ParticleAttributeIndex_t AnimationScaleField { get; }
@@ -120,7 +120,7 @@ ParticleAttributeIndex_t AnimationScaleField { get; }
 
 ### BodyGroupField
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L28)
 
 ```csharp
 ParticleAttributeIndex_t BodyGroupField { get; }
@@ -132,7 +132,7 @@ ParticleAttributeIndex_t BodyGroupField { get; }
 
 ### CenterOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L36)
 
 ```csharp
 ref bool CenterOffset { get; }
@@ -144,7 +144,7 @@ ref bool CenterOffset { get; }
 
 ### ClothEffectName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L75)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L76)
 
 ```csharp
 string ClothEffectName { get; set; }
@@ -156,7 +156,7 @@ string ClothEffectName { get; set; }
 
 ### ColorBlendType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L125)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L126)
 
 ```csharp
 ref ParticleColorBlendType_t ColorBlendType { get; }
@@ -168,7 +168,7 @@ ref ParticleColorBlendType_t ColorBlendType { get; }
 
 ### ColorScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L123)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L124)
 
 ```csharp
 CParticleCollectionVecInput ColorScale { get; }
@@ -180,7 +180,7 @@ CParticleCollectionVecInput ColorScale { get; }
 
 ### ComponentScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L46)
 
 ```csharp
 CPerParticleVecInput ComponentScale { get; }
@@ -192,7 +192,7 @@ CPerParticleVecInput ComponentScale { get; }
 
 ### DisableDepthPrepass
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L103)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L104)
 
 ```csharp
 ref bool DisableDepthPrepass { get; }
@@ -204,7 +204,7 @@ ref bool DisableDepthPrepass { get; }
 
 ### DisableShadows
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L101)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L102)
 
 ```csharp
 ref bool DisableShadows { get; }
@@ -216,7 +216,7 @@ ref bool DisableShadows { get; }
 
 ### DoNotDrawInParticlePass
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L109)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L110)
 
 ```csharp
 ref bool DoNotDrawInParticlePass { get; }
@@ -228,7 +228,7 @@ ref bool DoNotDrawInParticlePass { get; }
 
 ### EconSlotName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L93)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L94)
 
 ```csharp
 string EconSlotName { get; set; }
@@ -240,7 +240,7 @@ string EconSlotName { get; set; }
 
 ### EnableClothSimulation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L73)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L74)
 
 ```csharp
 ref bool EnableClothSimulation { get; }
@@ -252,7 +252,7 @@ ref bool EnableClothSimulation { get; }
 
 ### ForceDrawInterlevedWithSiblings
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L107)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L108)
 
 ```csharp
 ref bool ForceDrawInterlevedWithSiblings { get; }
@@ -264,7 +264,7 @@ ref bool ForceDrawInterlevedWithSiblings { get; }
 
 ### ForceLoopingAnimation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L58)
 
 ```csharp
 ref bool ForceLoopingAnimation { get; }
@@ -276,7 +276,7 @@ ref bool ForceLoopingAnimation { get; }
 
 ### IgnoreNormal
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L32)
 
 ```csharp
 ref bool IgnoreNormal { get; }
@@ -288,7 +288,7 @@ ref bool IgnoreNormal { get; }
 
 ### IgnoreRadius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L42)
 
 ```csharp
 ref bool IgnoreRadius { get; }
@@ -300,7 +300,7 @@ ref bool IgnoreRadius { get; }
 
 ### LOD
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L91)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L92)
 
 ```csharp
 ref int LOD { get; }
@@ -312,7 +312,7 @@ ref int LOD { get; }
 
 ### LocalOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L38)
 
 ```csharp
 CPerParticleVecInput LocalOffset { get; }
@@ -324,7 +324,7 @@ CPerParticleVecInput LocalOffset { get; }
 
 ### LocalRotation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L40)
 
 ```csharp
 CPerParticleVecInput LocalRotation { get; }
@@ -336,7 +336,7 @@ CPerParticleVecInput LocalRotation { get; }
 
 ### LocalScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L48)
 
 ```csharp
 ref bool LocalScale { get; }
@@ -348,7 +348,7 @@ ref bool LocalScale { get; }
 
 ### ManualAnimFrame
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L62)
 
 ```csharp
 ref bool ManualAnimFrame { get; }
@@ -360,7 +360,7 @@ ref bool ManualAnimFrame { get; }
 
 ### ManualFrameField
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L67)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L68)
 
 ```csharp
 ParticleAttributeIndex_t ManualFrameField { get; }
@@ -372,7 +372,7 @@ ParticleAttributeIndex_t ManualFrameField { get; }
 
 ### ManualModelSelection
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L87)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L88)
 
 ```csharp
 CPerParticleFloatInput ManualModelSelection { get; }
@@ -384,7 +384,7 @@ CPerParticleFloatInput ManualModelSelection { get; }
 
 ### MaterialVars
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L83)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L84)
 
 ```csharp
 ref CUtlVector<MaterialVariable_t> MaterialVars { get; }
@@ -396,7 +396,7 @@ ref CUtlVector<MaterialVariable_t> MaterialVars { get; }
 
 ### ModelInput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L89)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L90)
 
 ```csharp
 CParticleModelInput ModelInput { get; }
@@ -408,7 +408,7 @@ CParticleModelInput ModelInput { get; }
 
 ### ModelList
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L26)
 
 ```csharp
 ref CUtlVector<ModelReference_t> ModelList { get; }
@@ -420,7 +420,7 @@ ref CUtlVector<ModelReference_t> ModelList { get; }
 
 ### ModelScaleCP
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L44)
 
 ```csharp
 ref int ModelScaleCP { get; }
@@ -432,7 +432,7 @@ ref int ModelScaleCP { get; }
 
 ### OnlyRenderInEffecsGameOverlay
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L24)
 
 ```csharp
 ref bool OnlyRenderInEffecsGameOverlay { get; }
@@ -444,7 +444,7 @@ ref bool OnlyRenderInEffecsGameOverlay { get; }
 
 ### OnlyRenderInEffectsBloomPass
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L18)
 
 ```csharp
 ref bool OnlyRenderInEffectsBloomPass { get; }
@@ -456,7 +456,7 @@ ref bool OnlyRenderInEffectsBloomPass { get; }
 
 ### OnlyRenderInEffectsWaterPass
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L20)
 
 ```csharp
 ref bool OnlyRenderInEffectsWaterPass { get; }
@@ -468,7 +468,7 @@ ref bool OnlyRenderInEffectsWaterPass { get; }
 
 ### OrientZ
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L34)
 
 ```csharp
 ref bool OrientZ { get; }
@@ -480,7 +480,7 @@ ref bool OrientZ { get; }
 
 ### OriginalModel
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L95)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L96)
 
 ```csharp
 ref bool OriginalModel { get; }
@@ -492,7 +492,7 @@ ref bool OriginalModel { get; }
 
 ### OverrideMaterial
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L77)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L78)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeIMaterial2> OverrideMaterial { get; }
@@ -504,7 +504,7 @@ ref CStrongHandle<InfoForResourceTypeIMaterial2> OverrideMaterial { get; }
 
 ### OverrideTranslucentMaterials
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L79)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L80)
 
 ```csharp
 ref bool OverrideTranslucentMaterials { get; }
@@ -516,7 +516,7 @@ ref bool OverrideTranslucentMaterials { get; }
 
 ### RadiusScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L115)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L116)
 
 ```csharp
 CParticleCollectionFloatInput RadiusScale { get; }
@@ -528,7 +528,7 @@ CParticleCollectionFloatInput RadiusScale { get; }
 
 ### RenderAttribute
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L113)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L114)
 
 ```csharp
 string RenderAttribute { get; set; }
@@ -540,7 +540,7 @@ string RenderAttribute { get; set; }
 
 ### RenderFilter
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L85)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L86)
 
 ```csharp
 CPerParticleFloatInput RenderFilter { get; }
@@ -552,7 +552,7 @@ CPerParticleFloatInput RenderFilter { get; }
 
 ### ResetAnimOnStop
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L60)
 
 ```csharp
 ref bool ResetAnimOnStop { get; }
@@ -564,7 +564,7 @@ ref bool ResetAnimOnStop { get; }
 
 ### RollScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L119)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L120)
 
 ```csharp
 CParticleCollectionFloatInput RollScale { get; }
@@ -576,7 +576,7 @@ CParticleCollectionFloatInput RollScale { get; }
 
 ### ScaleAnimationRate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L56)
 
 ```csharp
 ref bool ScaleAnimationRate { get; }
@@ -588,7 +588,7 @@ ref bool ScaleAnimationRate { get; }
 
 ### SequenceName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L71)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L72)
 
 ```csharp
 string SequenceName { get; set; }
@@ -600,7 +600,7 @@ string SequenceName { get; set; }
 
 ### SizeCullBloat
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L50)
 
 ```csharp
 ref int SizeCullBloat { get; }
@@ -612,7 +612,7 @@ ref int SizeCullBloat { get; }
 
 ### Skin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L81)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L82)
 
 ```csharp
 CPerParticleFloatInput Skin { get; }
@@ -624,7 +624,7 @@ CPerParticleFloatInput Skin { get; }
 
 ### SubModelField
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L30)
 
 ```csharp
 ParticleAttributeIndex_t SubModelField { get; }
@@ -636,7 +636,7 @@ ParticleAttributeIndex_t SubModelField { get; }
 
 ### SubModelFieldType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L99)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L100)
 
 ```csharp
 ref RenderModelSubModelFieldType_t SubModelFieldType { get; }
@@ -648,7 +648,7 @@ ref RenderModelSubModelFieldType_t SubModelFieldType { get; }
 
 ### SuppressTint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L97)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L98)
 
 ```csharp
 ref bool SuppressTint { get; }
@@ -660,7 +660,7 @@ ref bool SuppressTint { get; }
 
 ### UseMixedResolutionRendering
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderModels.cs#L22)
 
 ```csharp
 ref bool UseMixedResolutionRendering { get; }

@@ -12,7 +12,7 @@ public interface CSeqS1SeqDesc : ISchemaClass<CSeqS1SeqDesc>, ISchemaField, ISch
 
 ### ActivityArray
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqS1SeqDesc.cs#L36)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqS1SeqDesc.cs#L37)
 
 ```csharp
 ref CUtlVector<CAnimActivity> ActivityArray { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<CAnimActivity> ActivityArray { get; }
 
 ### AutoLayerArray
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqS1SeqDesc.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqS1SeqDesc.cs#L26)
 
 ```csharp
 ref CUtlVector<CSeqAutoLayer> AutoLayerArray { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<CSeqAutoLayer> AutoLayerArray { get; }
 
 ### Fetch
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqS1SeqDesc.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqS1SeqDesc.cs#L22)
 
 ```csharp
 CSeqMultiFetch Fetch { get; }
@@ -48,7 +48,7 @@ CSeqMultiFetch Fetch { get; }
 
 ### Flags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqS1SeqDesc.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqS1SeqDesc.cs#L20)
 
 ```csharp
 CSeqSeqDescFlag Flags { get; }
@@ -60,7 +60,7 @@ CSeqSeqDescFlag Flags { get; }
 
 ### FootMotion
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqS1SeqDesc.cs#L38)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqS1SeqDesc.cs#L39)
 
 ```csharp
 ref CUtlVector<CFootMotion> FootMotion { get; }
@@ -72,7 +72,7 @@ ref CUtlVector<CFootMotion> FootMotion { get; }
 
 ### IKLockArray
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqS1SeqDesc.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqS1SeqDesc.cs#L28)
 
 ```csharp
 ref CUtlVector<CSeqIKLock> IKLockArray { get; }
@@ -84,7 +84,7 @@ ref CUtlVector<CSeqIKLock> IKLockArray { get; }
 
 ### LegacyKeyValueText
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqS1SeqDesc.cs#L34)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqS1SeqDesc.cs#L35)
 
 ```csharp
 ref CBufferString LegacyKeyValueText { get; }
@@ -96,7 +96,7 @@ ref CBufferString LegacyKeyValueText { get; }
 
 ### LocalWeightlist
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqS1SeqDesc.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqS1SeqDesc.cs#L24)
 
 ```csharp
 ref int LocalWeightlist { get; }
@@ -108,7 +108,7 @@ ref int LocalWeightlist { get; }
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqS1SeqDesc.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqS1SeqDesc.cs#L18)
 
 ```csharp
 ref CBufferString Name { get; }
@@ -120,7 +120,7 @@ ref CBufferString Name { get; }
 
 ### SequenceKeys
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqS1SeqDesc.cs#L32)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqS1SeqDesc.cs#L33)
 
 ```csharp
 SchemaUntypedField SequenceKeys { get; }
@@ -132,7 +132,7 @@ SchemaUntypedField SequenceKeys { get; }
 
 ### Transition
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqS1SeqDesc.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqS1SeqDesc.cs#L30)
 
 ```csharp
 CSeqTransition Transition { get; }

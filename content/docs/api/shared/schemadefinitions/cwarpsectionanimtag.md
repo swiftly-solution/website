@@ -12,7 +12,7 @@ public interface CWarpSectionAnimTag : CWarpSectionAnimTagBase, CAnimTagBase, IS
 
 ### WarpOrientation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CWarpSectionAnimTag.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CWarpSectionAnimTag.cs#L20)
 
 ```csharp
 ref bool WarpOrientation { get; }
@@ -24,7 +24,7 @@ ref bool WarpOrientation { get; }
 
 ### WarpPosition
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CWarpSectionAnimTag.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CWarpSectionAnimTag.cs#L18)
 
 ```csharp
 ref bool WarpPosition { get; }

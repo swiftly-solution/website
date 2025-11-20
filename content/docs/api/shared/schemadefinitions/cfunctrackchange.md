@@ -12,7 +12,7 @@ public interface CFuncTrackChange : CFuncPlatRot, CFuncPlat, CBasePlatTrain, CBa
 
 ### Code
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackChange.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackChange.cs#L30)
 
 ```csharp
 ref TRAIN_CODE Code { get; }
@@ -24,7 +24,7 @@ ref TRAIN_CODE Code { get; }
 
 ### TargetState
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackChange.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackChange.cs#L32)
 
 ```csharp
 ref int TargetState { get; }
@@ -36,7 +36,7 @@ ref int TargetState { get; }
 
 ### TrackBottom
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackChange.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackChange.cs#L20)
 
 ```csharp
 CPathTrack? TrackBottom { get; }
@@ -48,7 +48,7 @@ CPathTrack? TrackBottom { get; }
 
 ### TrackBottomName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackChange.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackChange.cs#L26)
 
 ```csharp
 string TrackBottomName { get; set; }
@@ -60,7 +60,7 @@ string TrackBottomName { get; set; }
 
 ### TrackTop
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackChange.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackChange.cs#L18)
 
 ```csharp
 CPathTrack? TrackTop { get; }
@@ -72,7 +72,7 @@ CPathTrack? TrackTop { get; }
 
 ### TrackTopName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackChange.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackChange.cs#L24)
 
 ```csharp
 string TrackTopName { get; set; }
@@ -84,7 +84,7 @@ string TrackTopName { get; set; }
 
 ### Train
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackChange.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackChange.cs#L22)
 
 ```csharp
 CFuncTrackTrain? Train { get; }
@@ -96,7 +96,7 @@ CFuncTrackTrain? Train { get; }
 
 ### TrainName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackChange.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackChange.cs#L28)
 
 ```csharp
 string TrainName { get; set; }
@@ -108,7 +108,7 @@ string TrainName { get; set; }
 
 ### Use
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackChange.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackChange.cs#L34)
 
 ```csharp
 ref int Use { get; }

@@ -12,7 +12,7 @@ public interface PostProcessingFogScatteringParameters_t : ISchemaClass<PostProc
 
 ### CubemapScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingFogScatteringParameters_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingFogScatteringParameters_t.cs#L22)
 
 ```csharp
 ref float CubemapScale { get; }
@@ -24,7 +24,7 @@ ref float CubemapScale { get; }
 
 ### GradientScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingFogScatteringParameters_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingFogScatteringParameters_t.cs#L26)
 
 ```csharp
 ref float GradientScale { get; }
@@ -36,7 +36,7 @@ ref float GradientScale { get; }
 
 ### Radius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingFogScatteringParameters_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingFogScatteringParameters_t.cs#L18)
 
 ```csharp
 ref float Radius { get; }
@@ -48,7 +48,7 @@ ref float Radius { get; }
 
 ### Scale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingFogScatteringParameters_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingFogScatteringParameters_t.cs#L20)
 
 ```csharp
 ref float Scale { get; }
@@ -60,7 +60,7 @@ ref float Scale { get; }
 
 ### VolumetricScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingFogScatteringParameters_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingFogScatteringParameters_t.cs#L24)
 
 ```csharp
 ref float VolumetricScale { get; }

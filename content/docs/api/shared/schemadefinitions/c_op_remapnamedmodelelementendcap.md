@@ -12,7 +12,7 @@ public interface C_OP_RemapNamedModelElementEndCap : CParticleFunctionOperator, 
 
 ### FallbackNames
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapNamedModelElementEndCap.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapNamedModelElementEndCap.cs#L24)
 
 ```csharp
 ref CUtlVector<CUtlString> FallbackNames { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<CUtlString> FallbackNames { get; }
 
 ### FieldInput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapNamedModelElementEndCap.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapNamedModelElementEndCap.cs#L28)
 
 ```csharp
 ParticleAttributeIndex_t FieldInput { get; }
@@ -36,7 +36,7 @@ ParticleAttributeIndex_t FieldInput { get; }
 
 ### FieldOutput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapNamedModelElementEndCap.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapNamedModelElementEndCap.cs#L30)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -48,7 +48,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 ### InNames
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapNamedModelElementEndCap.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapNamedModelElementEndCap.cs#L20)
 
 ```csharp
 ref CUtlVector<CUtlString> InNames { get; }
@@ -60,7 +60,7 @@ ref CUtlVector<CUtlString> InNames { get; }
 
 ### Model
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapNamedModelElementEndCap.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapNamedModelElementEndCap.cs#L18)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCModel> Model { get; }
@@ -72,7 +72,7 @@ ref CStrongHandle<InfoForResourceTypeCModel> Model { get; }
 
 ### ModelFromRenderer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapNamedModelElementEndCap.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapNamedModelElementEndCap.cs#L26)
 
 ```csharp
 ref bool ModelFromRenderer { get; }
@@ -84,7 +84,7 @@ ref bool ModelFromRenderer { get; }
 
 ### OutNames
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapNamedModelElementEndCap.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapNamedModelElementEndCap.cs#L22)
 
 ```csharp
 ref CUtlVector<CUtlString> OutNames { get; }

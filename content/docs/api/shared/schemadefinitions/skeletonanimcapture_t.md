@@ -12,7 +12,7 @@ public interface SkeletonAnimCapture_t : ISchemaClass<SkeletonAnimCapture_t>, IS
 
 ### CaptureName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t.cs#L26)
 
 ```csharp
 string CaptureName { get; set; }
@@ -24,7 +24,7 @@ string CaptureName { get; set; }
 
 ### EntIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t.cs#L18)
 
 ```csharp
 ref uint EntIndex { get; }
@@ -36,7 +36,7 @@ ref uint EntIndex { get; }
 
 ### EntParent
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t.cs#L20)
 
 ```csharp
 ref uint EntParent { get; }
@@ -48,7 +48,7 @@ ref uint EntParent { get; }
 
 ### FeModelInitPose
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t.cs#L30)
 
 ```csharp
 ref CUtlVector<SkeletonAnimCapture_t__Bone_t> FeModelInitPose { get; }
@@ -60,7 +60,7 @@ ref CUtlVector<SkeletonAnimCapture_t__Bone_t> FeModelInitPose { get; }
 
 ### FlexControllers
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t.cs#L32)
 
 ```csharp
 ref int FlexControllers { get; }
@@ -72,7 +72,7 @@ ref int FlexControllers { get; }
 
 ### Frames
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t.cs#L36)
 
 ```csharp
 ref CUtlVector<SkeletonAnimCapture_t__Frame_t> Frames { get; }
@@ -84,7 +84,7 @@ ref CUtlVector<SkeletonAnimCapture_t__Frame_t> Frames { get; }
 
 ### ImportedCollision
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t.cs#L22)
 
 ```csharp
 ref CUtlVector<uint> ImportedCollision { get; }
@@ -96,7 +96,7 @@ ref CUtlVector<uint> ImportedCollision { get; }
 
 ### ModelBindPose
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t.cs#L28)
 
 ```csharp
 ref CUtlVector<SkeletonAnimCapture_t__Bone_t> ModelBindPose { get; }
@@ -108,7 +108,7 @@ ref CUtlVector<SkeletonAnimCapture_t__Bone_t> ModelBindPose { get; }
 
 ### ModelName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t.cs#L24)
 
 ```csharp
 string ModelName { get; set; }
@@ -120,7 +120,7 @@ string ModelName { get; set; }
 
 ### Predicted
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t.cs#L34)
 
 ```csharp
 ref bool Predicted { get; }

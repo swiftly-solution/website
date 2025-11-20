@@ -12,7 +12,7 @@ public interface C_INIT_GlobalScale : CParticleFunctionInitializer, CParticleFun
 
 ### ControlPointNumber
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_GlobalScale.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_GlobalScale.cs#L22)
 
 ```csharp
 ref int ControlPointNumber { get; }
@@ -24,7 +24,7 @@ ref int ControlPointNumber { get; }
 
 ### Scale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_GlobalScale.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_GlobalScale.cs#L18)
 
 ```csharp
 ref float Scale { get; }
@@ -36,7 +36,7 @@ ref float Scale { get; }
 
 ### ScaleControlPointNumber
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_GlobalScale.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_GlobalScale.cs#L20)
 
 ```csharp
 ref int ScaleControlPointNumber { get; }
@@ -48,7 +48,7 @@ ref int ScaleControlPointNumber { get; }
 
 ### ScalePosition
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_GlobalScale.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_GlobalScale.cs#L26)
 
 ```csharp
 ref bool ScalePosition { get; }
@@ -60,7 +60,7 @@ ref bool ScalePosition { get; }
 
 ### ScaleRadius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_GlobalScale.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_GlobalScale.cs#L24)
 
 ```csharp
 ref bool ScaleRadius { get; }
@@ -72,7 +72,7 @@ ref bool ScaleRadius { get; }
 
 ### ScaleVelocity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_GlobalScale.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_GlobalScale.cs#L28)
 
 ```csharp
 ref bool ScaleVelocity { get; }

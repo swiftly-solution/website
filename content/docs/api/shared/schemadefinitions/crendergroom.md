@@ -12,7 +12,7 @@ public interface CRenderGroom : ISchemaClass<CRenderGroom>, ISchemaField, ISchem
 
 ### AttachBoneIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderGroom.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderGroom.cs#L38)
 
 ```csharp
 ref int AttachBoneIdx { get; }
@@ -24,7 +24,7 @@ ref int AttachBoneIdx { get; }
 
 ### AttachMeshDrawCallIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderGroom.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderGroom.cs#L42)
 
 ```csharp
 ref int AttachMeshDrawCallIdx { get; }
@@ -36,7 +36,7 @@ ref int AttachMeshDrawCallIdx { get; }
 
 ### AttachMeshIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderGroom.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderGroom.cs#L40)
 
 ```csharp
 ref int AttachMeshIdx { get; }
@@ -48,7 +48,7 @@ ref int AttachMeshIdx { get; }
 
 ### EnableSimulation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderGroom.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderGroom.cs#L44)
 
 ```csharp
 ref bool EnableSimulation { get; }
@@ -60,7 +60,7 @@ ref bool EnableSimulation { get; }
 
 ### GroomGroupID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderGroom.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderGroom.cs#L36)
 
 ```csharp
 ref int GroomGroupID { get; }
@@ -72,7 +72,7 @@ ref int GroomGroupID { get; }
 
 ### GuideHairCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderGroom.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderGroom.cs#L28)
 
 ```csharp
 ref int GuideHairCount { get; }
@@ -84,7 +84,7 @@ ref int GuideHairCount { get; }
 
 ### HairCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderGroom.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderGroom.cs#L30)
 
 ```csharp
 ref int HairCount { get; }
@@ -96,7 +96,7 @@ ref int HairCount { get; }
 
 ### HairPositionOffsets
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderGroom.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderGroom.cs#L20)
 
 ```csharp
 ref CUtlVector<uint> HairPositionOffsets { get; }
@@ -108,7 +108,7 @@ ref CUtlVector<uint> HairPositionOffsets { get; }
 
 ### Hairs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderGroom.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderGroom.cs#L18)
 
 ```csharp
 ref CUtlVector<RenderHairStrandInfo_t> Hairs { get; }
@@ -120,7 +120,7 @@ ref CUtlVector<RenderHairStrandInfo_t> Hairs { get; }
 
 ### MaxSegmentsPerHairStrand
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderGroom.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderGroom.cs#L26)
 
 ```csharp
 ref int MaxSegmentsPerHairStrand { get; }
@@ -132,7 +132,7 @@ ref int MaxSegmentsPerHairStrand { get; }
 
 ### SimParamsMat
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderGroom.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderGroom.cs#L22)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeIMaterial2> SimParamsMat { get; }
@@ -144,7 +144,7 @@ ref CStrongHandle<InfoForResourceTypeIMaterial2> SimParamsMat { get; }
 
 ### StrandSegmentCountHist
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderGroom.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderGroom.cs#L24)
 
 ```csharp
 ref CUtlVector<int> StrandSegmentCountHist { get; }
@@ -156,7 +156,7 @@ ref CUtlVector<int> StrandSegmentCountHist { get; }
 
 ### TotalSegmentCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderGroom.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderGroom.cs#L34)
 
 ```csharp
 ref int TotalSegmentCount { get; }
@@ -168,7 +168,7 @@ ref int TotalSegmentCount { get; }
 
 ### TotalVertexCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderGroom.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderGroom.cs#L32)
 
 ```csharp
 ref int TotalVertexCount { get; }

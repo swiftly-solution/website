@@ -12,7 +12,7 @@ public interface CSoundEventParameter : CBaseEntity, CEntityInstance, ISchemaCla
 
 ### FloatValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventParameter.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventParameter.cs#L20)
 
 ```csharp
 ref float FloatValue { get; }
@@ -24,7 +24,7 @@ ref float FloatValue { get; }
 
 ### ParamName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventParameter.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventParameter.cs#L18)
 
 ```csharp
 string ParamName { get; set; }

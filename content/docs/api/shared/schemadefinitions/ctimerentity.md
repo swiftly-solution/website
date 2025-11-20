@@ -12,7 +12,7 @@ public interface CTimerEntity : CLogicalEntity, CServerOnlyEntity, CBaseEntity, 
 
 ### Disabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimerEntity.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimerEntity.cs#L24)
 
 ```csharp
 ref int Disabled { get; }
@@ -24,7 +24,7 @@ ref int Disabled { get; }
 
 ### InitialDelay
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimerEntity.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimerEntity.cs#L26)
 
 ```csharp
 ref float InitialDelay { get; }
@@ -36,7 +36,7 @@ ref float InitialDelay { get; }
 
 ### LowerRandomBound
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimerEntity.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimerEntity.cs#L36)
 
 ```csharp
 ref float LowerRandomBound { get; }
@@ -48,7 +48,7 @@ ref float LowerRandomBound { get; }
 
 ### OnTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimerEntity.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimerEntity.cs#L18)
 
 ```csharp
 CEntityIOOutput OnTimer { get; }
@@ -60,7 +60,7 @@ CEntityIOOutput OnTimer { get; }
 
 ### OnTimerHigh
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimerEntity.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimerEntity.cs#L20)
 
 ```csharp
 CEntityIOOutput OnTimerHigh { get; }
@@ -72,7 +72,7 @@ CEntityIOOutput OnTimerHigh { get; }
 
 ### OnTimerLow
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimerEntity.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimerEntity.cs#L22)
 
 ```csharp
 CEntityIOOutput OnTimerLow { get; }
@@ -84,7 +84,7 @@ CEntityIOOutput OnTimerLow { get; }
 
 ### PauseAfterFiring
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimerEntity.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimerEntity.cs#L34)
 
 ```csharp
 ref bool PauseAfterFiring { get; }
@@ -96,7 +96,7 @@ ref bool PauseAfterFiring { get; }
 
 ### Paused
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimerEntity.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimerEntity.cs#L42)
 
 ```csharp
 ref bool Paused { get; }
@@ -108,7 +108,7 @@ ref bool Paused { get; }
 
 ### RefireTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimerEntity.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimerEntity.cs#L28)
 
 ```csharp
 ref float RefireTime { get; }
@@ -120,7 +120,7 @@ ref float RefireTime { get; }
 
 ### RemainingTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimerEntity.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimerEntity.cs#L40)
 
 ```csharp
 ref float RemainingTime { get; }
@@ -132,7 +132,7 @@ ref float RemainingTime { get; }
 
 ### UpDownState
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimerEntity.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimerEntity.cs#L30)
 
 ```csharp
 ref bool UpDownState { get; }
@@ -144,7 +144,7 @@ ref bool UpDownState { get; }
 
 ### UpperRandomBound
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimerEntity.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimerEntity.cs#L38)
 
 ```csharp
 ref float UpperRandomBound { get; }
@@ -156,7 +156,7 @@ ref float UpperRandomBound { get; }
 
 ### UseRandomTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimerEntity.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimerEntity.cs#L32)
 
 ```csharp
 ref int UseRandomTime { get; }

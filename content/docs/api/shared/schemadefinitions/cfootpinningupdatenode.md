@@ -12,7 +12,7 @@ public interface CFootPinningUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase,
 
 ### Params
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootPinningUpdateNode.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootPinningUpdateNode.cs#L22)
 
 ```csharp
 ref CUtlVector<CAnimParamHandle> Params { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<CAnimParamHandle> Params { get; }
 
 ### PoseOpFixedData
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootPinningUpdateNode.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootPinningUpdateNode.cs#L18)
 
 ```csharp
 FootPinningPoseOpFixedData_t PoseOpFixedData { get; }
@@ -36,7 +36,7 @@ FootPinningPoseOpFixedData_t PoseOpFixedData { get; }
 
 ### ResetChild
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootPinningUpdateNode.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootPinningUpdateNode.cs#L24)
 
 ```csharp
 ref bool ResetChild { get; }
@@ -48,7 +48,7 @@ ref bool ResetChild { get; }
 
 ### TimingSource
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootPinningUpdateNode.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootPinningUpdateNode.cs#L20)
 
 ```csharp
 ref FootPinningTimingSource TimingSource { get; }

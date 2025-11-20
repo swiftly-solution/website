@@ -12,7 +12,7 @@ public interface CLogicBranchList : CLogicalEntity, CServerOnlyEntity, CBaseEnti
 
 ### LastState
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicBranchList.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicBranchList.cs#L22)
 
 ```csharp
 ref CLogicBranchList__LogicBranchListenerLastState_t LastState { get; }
@@ -24,7 +24,7 @@ ref CLogicBranchList__LogicBranchListenerLastState_t LastState { get; }
 
 ### LogicBranchList
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicBranchList.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicBranchList.cs#L20)
 
 ```csharp
 ref CUtlVector<CHandle<CBaseEntity>> LogicBranchList { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<CHandle<CBaseEntity>> LogicBranchList { get; }
 
 ### LogicBranchNames
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicBranchList.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicBranchList.cs#L18)
 
 ```csharp
 string LogicBranchNames { get; set; }
@@ -48,7 +48,7 @@ string LogicBranchNames { get; set; }
 
 ### OnAllFalse
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicBranchList.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicBranchList.cs#L26)
 
 ```csharp
 CEntityIOOutput OnAllFalse { get; }
@@ -60,7 +60,7 @@ CEntityIOOutput OnAllFalse { get; }
 
 ### OnAllTrue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicBranchList.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicBranchList.cs#L24)
 
 ```csharp
 CEntityIOOutput OnAllTrue { get; }
@@ -72,7 +72,7 @@ CEntityIOOutput OnAllTrue { get; }
 
 ### OnMixed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicBranchList.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicBranchList.cs#L28)
 
 ```csharp
 CEntityIOOutput OnMixed { get; }

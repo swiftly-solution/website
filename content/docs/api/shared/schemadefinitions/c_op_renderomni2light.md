@@ -12,7 +12,7 @@ public interface C_OP_RenderOmni2Light : CParticleFunctionRenderer, CParticleFun
 
 ### BrightnessCandelas
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderOmni2Light.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderOmni2Light.cs#L28)
 
 ```csharp
 CPerParticleFloatInput BrightnessCandelas { get; }
@@ -24,7 +24,7 @@ CPerParticleFloatInput BrightnessCandelas { get; }
 
 ### BrightnessLumens
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderOmni2Light.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderOmni2Light.cs#L26)
 
 ```csharp
 CPerParticleFloatInput BrightnessLumens { get; }
@@ -36,7 +36,7 @@ CPerParticleFloatInput BrightnessLumens { get; }
 
 ### BrightnessUnit
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderOmni2Light.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderOmni2Light.cs#L24)
 
 ```csharp
 ref ParticleLightUnitChoiceList_t BrightnessUnit { get; }
@@ -48,7 +48,7 @@ ref ParticleLightUnitChoiceList_t BrightnessUnit { get; }
 
 ### CastShadows
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderOmni2Light.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderOmni2Light.cs#L30)
 
 ```csharp
 ref bool CastShadows { get; }
@@ -60,7 +60,7 @@ ref bool CastShadows { get; }
 
 ### ColorBlend
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderOmni2Light.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderOmni2Light.cs#L20)
 
 ```csharp
 CParticleCollectionVecInput ColorBlend { get; }
@@ -72,7 +72,7 @@ CParticleCollectionVecInput ColorBlend { get; }
 
 ### ColorBlendType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderOmni2Light.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderOmni2Light.cs#L22)
 
 ```csharp
 ref ParticleColorBlendType_t ColorBlendType { get; }
@@ -84,7 +84,7 @@ ref ParticleColorBlendType_t ColorBlendType { get; }
 
 ### Fog
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderOmni2Light.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderOmni2Light.cs#L32)
 
 ```csharp
 ref bool Fog { get; }
@@ -96,7 +96,7 @@ ref bool Fog { get; }
 
 ### FogScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderOmni2Light.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderOmni2Light.cs#L34)
 
 ```csharp
 CPerParticleFloatInput FogScale { get; }
@@ -108,7 +108,7 @@ CPerParticleFloatInput FogScale { get; }
 
 ### InnerConeAngle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderOmni2Light.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderOmni2Light.cs#L42)
 
 ```csharp
 CPerParticleFloatInput InnerConeAngle { get; }
@@ -120,7 +120,7 @@ CPerParticleFloatInput InnerConeAngle { get; }
 
 ### LightCookie
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderOmni2Light.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderOmni2Light.cs#L46)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCTextureBase> LightCookie { get; }
@@ -132,7 +132,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> LightCookie { get; }
 
 ### LightType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderOmni2Light.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderOmni2Light.cs#L18)
 
 ```csharp
 ref ParticleOmni2LightTypeChoiceList_t LightType { get; }
@@ -144,7 +144,7 @@ ref ParticleOmni2LightTypeChoiceList_t LightType { get; }
 
 ### LuminaireRadius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderOmni2Light.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderOmni2Light.cs#L36)
 
 ```csharp
 CPerParticleFloatInput LuminaireRadius { get; }
@@ -156,7 +156,7 @@ CPerParticleFloatInput LuminaireRadius { get; }
 
 ### OuterConeAngle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderOmni2Light.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderOmni2Light.cs#L44)
 
 ```csharp
 CPerParticleFloatInput OuterConeAngle { get; }
@@ -168,7 +168,7 @@ CPerParticleFloatInput OuterConeAngle { get; }
 
 ### Range
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderOmni2Light.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderOmni2Light.cs#L40)
 
 ```csharp
 CPerParticleFloatInput Range { get; }
@@ -180,7 +180,7 @@ CPerParticleFloatInput Range { get; }
 
 ### Skirt
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderOmni2Light.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderOmni2Light.cs#L38)
 
 ```csharp
 CPerParticleFloatInput Skirt { get; }
@@ -192,7 +192,7 @@ CPerParticleFloatInput Skirt { get; }
 
 ### SphericalCookie
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderOmni2Light.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderOmni2Light.cs#L48)
 
 ```csharp
 ref bool SphericalCookie { get; }

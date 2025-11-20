@@ -12,7 +12,7 @@ public interface CSceneObjectData : ISchemaClass<CSceneObjectData>, ISchemaField
 
 ### DrawBounds
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneObjectData.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneObjectData.cs#L24)
 
 ```csharp
 ref CUtlLeanVector<AABB_t, int> DrawBounds { get; }
@@ -24,7 +24,7 @@ ref CUtlLeanVector<AABB_t, int> DrawBounds { get; }
 
 ### DrawCalls
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneObjectData.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneObjectData.cs#L22)
 
 ```csharp
 ref CUtlLeanVector<CMaterialDrawDescriptor, int> DrawCalls { get; }
@@ -36,7 +36,7 @@ ref CUtlLeanVector<CMaterialDrawDescriptor, int> DrawCalls { get; }
 
 ### MaxBounds
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneObjectData.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneObjectData.cs#L20)
 
 ```csharp
 ref Vector MaxBounds { get; }
@@ -48,7 +48,7 @@ ref Vector MaxBounds { get; }
 
 ### Meshlets
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneObjectData.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneObjectData.cs#L26)
 
 ```csharp
 ref CUtlLeanVector<CMeshletDescriptor, int> Meshlets { get; }
@@ -60,7 +60,7 @@ ref CUtlLeanVector<CMeshletDescriptor, int> Meshlets { get; }
 
 ### MinBounds
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneObjectData.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneObjectData.cs#L18)
 
 ```csharp
 ref Vector MinBounds { get; }
@@ -72,7 +72,7 @@ ref Vector MinBounds { get; }
 
 ### TintColor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneObjectData.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneObjectData.cs#L28)
 
 ```csharp
 ref Vector4D TintColor { get; }

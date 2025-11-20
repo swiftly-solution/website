@@ -12,7 +12,7 @@ public interface CBoneConstraintDotToMorph : CBoneConstraintBase, ISchemaClass<C
 
 ### BoneName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneConstraintDotToMorph.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneConstraintDotToMorph.cs#L18)
 
 ```csharp
 string BoneName { get; set; }
@@ -24,7 +24,7 @@ string BoneName { get; set; }
 
 ### MorphChannelName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneConstraintDotToMorph.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneConstraintDotToMorph.cs#L22)
 
 ```csharp
 string MorphChannelName { get; set; }
@@ -36,7 +36,7 @@ string MorphChannelName { get; set; }
 
 ### Remap
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneConstraintDotToMorph.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneConstraintDotToMorph.cs#L24)
 
 ```csharp
 ISchemaFixedArray<float> Remap { get; }
@@ -48,7 +48,7 @@ ISchemaFixedArray<float> Remap { get; }
 
 ### TargetBoneName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneConstraintDotToMorph.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneConstraintDotToMorph.cs#L20)
 
 ```csharp
 string TargetBoneName { get; set; }

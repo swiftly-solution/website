@@ -12,7 +12,7 @@ public interface CLogicDistanceCheck : CLogicalEntity, CServerOnlyEntity, CBaseE
 
 ### EntityA
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicDistanceCheck.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicDistanceCheck.cs#L18)
 
 ```csharp
 string EntityA { get; set; }
@@ -24,7 +24,7 @@ string EntityA { get; set; }
 
 ### EntityB
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicDistanceCheck.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicDistanceCheck.cs#L20)
 
 ```csharp
 string EntityB { get; set; }
@@ -36,7 +36,7 @@ string EntityB { get; set; }
 
 ### InZone1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicDistanceCheck.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicDistanceCheck.cs#L26)
 
 ```csharp
 CEntityIOOutput InZone1 { get; }
@@ -48,7 +48,7 @@ CEntityIOOutput InZone1 { get; }
 
 ### InZone2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicDistanceCheck.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicDistanceCheck.cs#L28)
 
 ```csharp
 CEntityIOOutput InZone2 { get; }
@@ -60,7 +60,7 @@ CEntityIOOutput InZone2 { get; }
 
 ### InZone3
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicDistanceCheck.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicDistanceCheck.cs#L30)
 
 ```csharp
 CEntityIOOutput InZone3 { get; }
@@ -72,7 +72,7 @@ CEntityIOOutput InZone3 { get; }
 
 ### Zone1Distance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicDistanceCheck.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicDistanceCheck.cs#L22)
 
 ```csharp
 ref float Zone1Distance { get; }
@@ -84,7 +84,7 @@ ref float Zone1Distance { get; }
 
 ### Zone2Distance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicDistanceCheck.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicDistanceCheck.cs#L24)
 
 ```csharp
 ref float Zone2Distance { get; }

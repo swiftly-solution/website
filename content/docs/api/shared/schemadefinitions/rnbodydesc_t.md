@@ -12,7 +12,7 @@ public interface RnBodyDesc_t : ISchemaClass<RnBodyDesc_t>, ISchemaField, ISchem
 
 ### AngularBuoyancyDrag
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L50)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L51)
 
 ```csharp
 ref float AngularBuoyancyDrag { get; }
@@ -24,7 +24,7 @@ ref float AngularBuoyancyDrag { get; }
 
 ### AngularDamping
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L42)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L43)
 
 ```csharp
 ref float AngularDamping { get; }
@@ -36,7 +36,7 @@ ref float AngularDamping { get; }
 
 ### AngularDrag
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L46)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L47)
 
 ```csharp
 ref float AngularDrag { get; }
@@ -48,7 +48,7 @@ ref float AngularDrag { get; }
 
 ### AngularVelocity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L26)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L27)
 
 ```csharp
 ref Vector AngularVelocity { get; }
@@ -60,7 +60,7 @@ ref Vector AngularVelocity { get; }
 
 ### BodyType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L62)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L63)
 
 ```csharp
 ref int BodyType { get; }
@@ -72,7 +72,7 @@ ref int BodyType { get; }
 
 ### BuoyancyDragEnabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L82)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L83)
 
 ```csharp
 ref bool BuoyancyDragEnabled { get; }
@@ -84,7 +84,7 @@ ref bool BuoyancyDragEnabled { get; }
 
 ### BuoyancyFactor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L56)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L57)
 
 ```csharp
 ref float BuoyancyFactor { get; }
@@ -96,7 +96,7 @@ ref float BuoyancyFactor { get; }
 
 ### DebugName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L18)
 
 ```csharp
 string DebugName { get; set; }
@@ -108,7 +108,7 @@ string DebugName { get; set; }
 
 ### DragEnabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L80)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L81)
 
 ```csharp
 ref bool DragEnabled { get; }
@@ -120,7 +120,7 @@ ref bool DragEnabled { get; }
 
 ### DynamicContinuousContactBehavior
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L90)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L91)
 
 ```csharp
 ref DynamicContinuousContactBehavior_t DynamicContinuousContactBehavior { get; }
@@ -132,7 +132,7 @@ ref DynamicContinuousContactBehavior_t DynamicContinuousContactBehavior { get; }
 
 ### Enabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L74)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L75)
 
 ```csharp
 ref bool Enabled { get; }
@@ -144,7 +144,7 @@ ref bool Enabled { get; }
 
 ### GameFlags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L66)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L67)
 
 ```csharp
 ref uint GameFlags { get; }
@@ -156,7 +156,7 @@ ref uint GameFlags { get; }
 
 ### GameIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L64)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L65)
 
 ```csharp
 ref uint GameIndex { get; }
@@ -168,7 +168,7 @@ ref uint GameIndex { get; }
 
 ### GameMass
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L34)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L35)
 
 ```csharp
 ref float GameMass { get; }
@@ -180,7 +180,7 @@ ref float GameMass { get; }
 
 ### Gravity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L84)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L85)
 
 ```csharp
 ref Vector Gravity { get; }
@@ -192,7 +192,7 @@ ref Vector Gravity { get; }
 
 ### GravityScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L58)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L59)
 
 ```csharp
 ref float GravityScale { get; }
@@ -204,7 +204,7 @@ ref float GravityScale { get; }
 
 ### HasShadowController
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L88)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L89)
 
 ```csharp
 ref bool HasShadowController { get; }
@@ -216,7 +216,7 @@ ref bool HasShadowController { get; }
 
 ### InertiaScaleInv
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L38)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L39)
 
 ```csharp
 ref float InertiaScaleInv { get; }
@@ -228,7 +228,7 @@ ref float InertiaScaleInv { get; }
 
 ### IsContinuousEnabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L78)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L79)
 
 ```csharp
 ref bool IsContinuousEnabled { get; }
@@ -240,7 +240,7 @@ ref bool IsContinuousEnabled { get; }
 
 ### LastAwakeForceAccum
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L52)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L53)
 
 ```csharp
 ref Vector LastAwakeForceAccum { get; }
@@ -252,7 +252,7 @@ ref Vector LastAwakeForceAccum { get; }
 
 ### LastAwakeTorqueAccum
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L54)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L55)
 
 ```csharp
 ref Vector LastAwakeTorqueAccum { get; }
@@ -264,7 +264,7 @@ ref Vector LastAwakeTorqueAccum { get; }
 
 ### LinearBuoyancyDrag
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L48)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L49)
 
 ```csharp
 ref float LinearBuoyancyDrag { get; }
@@ -276,7 +276,7 @@ ref float LinearBuoyancyDrag { get; }
 
 ### LinearDamping
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L40)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L41)
 
 ```csharp
 ref float LinearDamping { get; }
@@ -288,7 +288,7 @@ ref float LinearDamping { get; }
 
 ### LinearDrag
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L44)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L45)
 
 ```csharp
 ref float LinearDrag { get; }
@@ -300,7 +300,7 @@ ref float LinearDrag { get; }
 
 ### LinearVelocity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L24)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L25)
 
 ```csharp
 ref Vector LinearVelocity { get; }
@@ -312,7 +312,7 @@ ref Vector LinearVelocity { get; }
 
 ### LocalInertiaInv
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L30)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L31)
 
 ```csharp
 ISchemaFixedArray<Vector> LocalInertiaInv { get; }
@@ -324,7 +324,7 @@ ISchemaFixedArray<Vector> LocalInertiaInv { get; }
 
 ### LocalMassCenter
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L28)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L29)
 
 ```csharp
 ref Vector LocalMassCenter { get; }
@@ -336,7 +336,7 @@ ref Vector LocalMassCenter { get; }
 
 ### MassInv
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L32)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L33)
 
 ```csharp
 ref float MassInv { get; }
@@ -348,7 +348,7 @@ ref float MassInv { get; }
 
 ### MassPriority
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L72)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L73)
 
 ```csharp
 ref byte MassPriority { get; }
@@ -360,7 +360,7 @@ ref byte MassPriority { get; }
 
 ### MassScaleInv
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L36)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L37)
 
 ```csharp
 ref float MassScaleInv { get; }
@@ -372,7 +372,7 @@ ref float MassScaleInv { get; }
 
 ### MinPositionIterations
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L70)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L71)
 
 ```csharp
 ref byte MinPositionIterations { get; }
@@ -384,7 +384,7 @@ ref byte MinPositionIterations { get; }
 
 ### MinVelocityIterations
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L68)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L69)
 
 ```csharp
 ref byte MinVelocityIterations { get; }
@@ -396,7 +396,7 @@ ref byte MinVelocityIterations { get; }
 
 ### Orientation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L22)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L23)
 
 ```csharp
 SchemaUntypedField Orientation { get; }
@@ -408,7 +408,7 @@ SchemaUntypedField Orientation { get; }
 
 ### Position
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L20)
 
 ```csharp
 ref Vector Position { get; }
@@ -420,7 +420,7 @@ ref Vector Position { get; }
 
 ### Sleeping
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L76)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L77)
 
 ```csharp
 ref bool Sleeping { get; }
@@ -432,7 +432,7 @@ ref bool Sleeping { get; }
 
 ### SpeculativeEnabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L86)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L87)
 
 ```csharp
 ref bool SpeculativeEnabled { get; }
@@ -444,7 +444,7 @@ ref bool SpeculativeEnabled { get; }
 
 ### TimeScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L60)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L61)
 
 ```csharp
 ref float TimeScale { get; }

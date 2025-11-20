@@ -12,7 +12,7 @@ public interface C_OP_SetParentControlPointsToChildCP : CParticleFunctionPreEmis
 
 ### ChildControlPoint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetParentControlPointsToChildCP.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetParentControlPointsToChildCP.cs#L20)
 
 ```csharp
 ref int ChildControlPoint { get; }
@@ -24,7 +24,7 @@ ref int ChildControlPoint { get; }
 
 ### ChildGroupID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetParentControlPointsToChildCP.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetParentControlPointsToChildCP.cs#L18)
 
 ```csharp
 ref int ChildGroupID { get; }
@@ -36,7 +36,7 @@ ref int ChildGroupID { get; }
 
 ### FirstSourcePoint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetParentControlPointsToChildCP.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetParentControlPointsToChildCP.cs#L24)
 
 ```csharp
 ref int FirstSourcePoint { get; }
@@ -48,7 +48,7 @@ ref int FirstSourcePoint { get; }
 
 ### NumControlPoints
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetParentControlPointsToChildCP.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetParentControlPointsToChildCP.cs#L22)
 
 ```csharp
 ref int NumControlPoints { get; }
@@ -60,7 +60,7 @@ ref int NumControlPoints { get; }
 
 ### SetOrientation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetParentControlPointsToChildCP.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetParentControlPointsToChildCP.cs#L26)
 
 ```csharp
 ref bool SetOrientation { get; }

@@ -12,7 +12,7 @@ public interface C_OP_MaintainSequentialPath : CParticleFunctionOperator, CParti
 
 ### CohesionStrength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MaintainSequentialPath.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MaintainSequentialPath.cs#L22)
 
 ```csharp
 ref float CohesionStrength { get; }
@@ -24,7 +24,7 @@ ref float CohesionStrength { get; }
 
 ### Loop
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MaintainSequentialPath.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MaintainSequentialPath.cs#L26)
 
 ```csharp
 ref bool Loop { get; }
@@ -36,7 +36,7 @@ ref bool Loop { get; }
 
 ### MaxDistance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MaintainSequentialPath.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MaintainSequentialPath.cs#L18)
 
 ```csharp
 ref float MaxDistance { get; }
@@ -48,7 +48,7 @@ ref float MaxDistance { get; }
 
 ### NumToAssign
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MaintainSequentialPath.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MaintainSequentialPath.cs#L20)
 
 ```csharp
 ref float NumToAssign { get; }
@@ -60,7 +60,7 @@ ref float NumToAssign { get; }
 
 ### PathParams
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MaintainSequentialPath.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MaintainSequentialPath.cs#L30)
 
 ```csharp
 CPathParameters PathParams { get; }
@@ -72,7 +72,7 @@ CPathParameters PathParams { get; }
 
 ### Tolerance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MaintainSequentialPath.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MaintainSequentialPath.cs#L24)
 
 ```csharp
 ref float Tolerance { get; }
@@ -84,7 +84,7 @@ ref float Tolerance { get; }
 
 ### UseParticleCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MaintainSequentialPath.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MaintainSequentialPath.cs#L28)
 
 ```csharp
 ref bool UseParticleCount { get; }

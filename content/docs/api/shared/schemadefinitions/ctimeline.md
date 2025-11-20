@@ -12,7 +12,7 @@ public interface CTimeline : IntervalTimer, ISchemaClass<IntervalTimer>, ISchema
 
 ### BucketCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimeline.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimeline.cs#L22)
 
 ```csharp
 ref int BucketCount { get; }
@@ -24,7 +24,7 @@ ref int BucketCount { get; }
 
 ### CompressionType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimeline.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimeline.cs#L28)
 
 ```csharp
 ref TimelineCompression_t CompressionType { get; }
@@ -36,7 +36,7 @@ ref TimelineCompression_t CompressionType { get; }
 
 ### FinalValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimeline.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimeline.cs#L26)
 
 ```csharp
 ref float FinalValue { get; }
@@ -48,7 +48,7 @@ ref float FinalValue { get; }
 
 ### Interval
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimeline.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimeline.cs#L24)
 
 ```csharp
 ref float Interval { get; }
@@ -60,7 +60,7 @@ ref float Interval { get; }
 
 ### Stopped
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimeline.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimeline.cs#L30)
 
 ```csharp
 ref bool Stopped { get; }
@@ -72,7 +72,7 @@ ref bool Stopped { get; }
 
 ### ValueCounts
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimeline.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimeline.cs#L20)
 
 ```csharp
 ISchemaFixedArray<int> ValueCounts { get; }
@@ -84,7 +84,7 @@ ISchemaFixedArray<int> ValueCounts { get; }
 
 ### Values
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimeline.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimeline.cs#L18)
 
 ```csharp
 ISchemaFixedArray<float> Values { get; }
@@ -98,7 +98,7 @@ ISchemaFixedArray<float> Values { get; }
 
 ### BucketCountUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimeline.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimeline.cs#L34)
 
 ```csharp
 void BucketCountUpdated()
@@ -106,7 +106,7 @@ void BucketCountUpdated()
 
 ### CompressionTypeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimeline.cs#L36)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimeline.cs#L37)
 
 ```csharp
 void CompressionTypeUpdated()
@@ -114,7 +114,7 @@ void CompressionTypeUpdated()
 
 ### FinalValueUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimeline.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimeline.cs#L36)
 
 ```csharp
 void FinalValueUpdated()
@@ -122,7 +122,7 @@ void FinalValueUpdated()
 
 ### IntervalUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimeline.cs#L34)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimeline.cs#L35)
 
 ```csharp
 void IntervalUpdated()
@@ -130,7 +130,7 @@ void IntervalUpdated()
 
 ### StoppedUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimeline.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimeline.cs#L38)
 
 ```csharp
 void StoppedUpdated()
@@ -138,7 +138,7 @@ void StoppedUpdated()
 
 ### ValueCountsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimeline.cs#L32)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimeline.cs#L33)
 
 ```csharp
 void ValueCountsUpdated()
@@ -146,7 +146,7 @@ void ValueCountsUpdated()
 
 ### ValuesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimeline.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimeline.cs#L32)
 
 ```csharp
 void ValuesUpdated()

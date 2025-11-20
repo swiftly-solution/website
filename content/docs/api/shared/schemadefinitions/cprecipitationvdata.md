@@ -12,7 +12,7 @@ public interface CPrecipitationVData : CEntitySubclassVDataBase, ISchemaClass<CE
 
 ### AttachType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPrecipitationVData.cs#L22)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPrecipitationVData.cs#L23)
 
 ```csharp
 ref ParticleAttachment_t AttachType { get; }
@@ -24,7 +24,7 @@ ref ParticleAttachment_t AttachType { get; }
 
 ### BatchSameVolumeType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPrecipitationVData.cs#L24)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPrecipitationVData.cs#L25)
 
 ```csharp
 ref bool BatchSameVolumeType { get; }
@@ -36,7 +36,7 @@ ref bool BatchSameVolumeType { get; }
 
 ### InnerDistance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPrecipitationVData.cs#L20)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPrecipitationVData.cs#L21)
 
 ```csharp
 ref float InnerDistance { get; }
@@ -48,7 +48,7 @@ ref float InnerDistance { get; }
 
 ### Modifier
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPrecipitationVData.cs#L30)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPrecipitationVData.cs#L31)
 
 ```csharp
 string Modifier { get; set; }
@@ -60,7 +60,7 @@ string Modifier { get; set; }
 
 ### ParticlePrecipitationEffect
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPrecipitationVData.cs#L18)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPrecipitationVData.cs#L19)
 
 ```csharp
 SchemaUntypedField ParticlePrecipitationEffect { get; }
@@ -72,7 +72,7 @@ SchemaUntypedField ParticlePrecipitationEffect { get; }
 
 ### RTEnvCP
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPrecipitationVData.cs#L26)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPrecipitationVData.cs#L27)
 
 ```csharp
 ref int RTEnvCP { get; }
@@ -84,7 +84,7 @@ ref int RTEnvCP { get; }
 
 ### RTEnvCPComponent
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPrecipitationVData.cs#L28)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPrecipitationVData.cs#L29)
 
 ```csharp
 ref int RTEnvCPComponent { get; }

@@ -12,7 +12,7 @@ public interface CMotionGraphGroup : ISchemaClass<CMotionGraphGroup>, ISchemaFie
 
 ### IsActiveScript
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionGraphGroup.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionGraphGroup.cs#L26)
 
 ```csharp
 AnimScriptHandle IsActiveScript { get; }
@@ -24,7 +24,7 @@ AnimScriptHandle IsActiveScript { get; }
 
 ### MotionGraphConfigs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionGraphGroup.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionGraphGroup.cs#L22)
 
 ```csharp
 ref CUtlVector<CMotionGraphConfig> MotionGraphConfigs { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<CMotionGraphConfig> MotionGraphConfigs { get; }
 
 ### MotionGraphs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionGraphGroup.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionGraphGroup.cs#L20)
 
 ```csharp
 ref CUtlVector<SchemaUntypedField> MotionGraphs { get; }
@@ -48,7 +48,7 @@ ref CUtlVector<SchemaUntypedField> MotionGraphs { get; }
 
 ### SampleToConfig
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionGraphGroup.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionGraphGroup.cs#L24)
 
 ```csharp
 ref CUtlVector<int> SampleToConfig { get; }
@@ -60,7 +60,7 @@ ref CUtlVector<int> SampleToConfig { get; }
 
 ### SearchDB
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionGraphGroup.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionGraphGroup.cs#L18)
 
 ```csharp
 CMotionSearchDB SearchDB { get; }

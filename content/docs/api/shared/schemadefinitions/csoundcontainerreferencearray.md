@@ -12,7 +12,7 @@ public interface CSoundContainerReferenceArray : ISchemaClass<CSoundContainerRef
 
 ### Sounds
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundContainerReferenceArray.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundContainerReferenceArray.cs#L20)
 
 ```csharp
 ref CUtlVector<CStrongHandle<InfoForResourceTypeCVoiceContainerBase>> Sounds { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<CStrongHandle<InfoForResourceTypeCVoiceContainerBase>> Sounds { g
 
 ### Sounds1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundContainerReferenceArray.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundContainerReferenceArray.cs#L22)
 
 ```csharp
 ref CUtlVector<PointerTo<CVoiceContainerBase>> Sounds1 { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<PointerTo<CVoiceContainerBase>> Sounds1 { get; }
 
 ### UseReference
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundContainerReferenceArray.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundContainerReferenceArray.cs#L18)
 
 ```csharp
 ref bool UseReference { get; }

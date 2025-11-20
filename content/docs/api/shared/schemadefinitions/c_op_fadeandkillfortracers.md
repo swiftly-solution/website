@@ -12,7 +12,7 @@ public interface C_OP_FadeAndKillForTracers : CParticleFunctionOperator, CPartic
 
 ### EndAlpha
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeAndKillForTracers.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeAndKillForTracers.cs#L28)
 
 ```csharp
 ref float EndAlpha { get; }
@@ -24,7 +24,7 @@ ref float EndAlpha { get; }
 
 ### EndFadeInTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeAndKillForTracers.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeAndKillForTracers.cs#L20)
 
 ```csharp
 ref float EndFadeInTime { get; }
@@ -36,7 +36,7 @@ ref float EndFadeInTime { get; }
 
 ### EndFadeOutTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeAndKillForTracers.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeAndKillForTracers.cs#L24)
 
 ```csharp
 ref float EndFadeOutTime { get; }
@@ -48,7 +48,7 @@ ref float EndFadeOutTime { get; }
 
 ### StartAlpha
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeAndKillForTracers.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeAndKillForTracers.cs#L26)
 
 ```csharp
 ref float StartAlpha { get; }
@@ -60,7 +60,7 @@ ref float StartAlpha { get; }
 
 ### StartFadeInTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeAndKillForTracers.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeAndKillForTracers.cs#L18)
 
 ```csharp
 ref float StartFadeInTime { get; }
@@ -72,7 +72,7 @@ ref float StartFadeInTime { get; }
 
 ### StartFadeOutTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeAndKillForTracers.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeAndKillForTracers.cs#L22)
 
 ```csharp
 ref float StartFadeOutTime { get; }

@@ -12,7 +12,7 @@ public interface FunctionInfo_t : ISchemaClass<FunctionInfo_t>, ISchemaField, IS
 
 ### Index
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FunctionInfo_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FunctionInfo_t.cs#L24)
 
 ```csharp
 FuseFunctionIndex_t Index { get; }
@@ -24,7 +24,7 @@ FuseFunctionIndex_t Index { get; }
 
 ### IsPure
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FunctionInfo_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FunctionInfo_t.cs#L26)
 
 ```csharp
 ref bool IsPure { get; }
@@ -36,7 +36,7 @@ ref bool IsPure { get; }
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FunctionInfo_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FunctionInfo_t.cs#L18)
 
 ```csharp
 string Name { get; set; }
@@ -48,7 +48,7 @@ string Name { get; set; }
 
 ### NameToken
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FunctionInfo_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FunctionInfo_t.cs#L20)
 
 ```csharp
 ref CUtlStringToken NameToken { get; }
@@ -60,7 +60,7 @@ ref CUtlStringToken NameToken { get; }
 
 ### ParamCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FunctionInfo_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FunctionInfo_t.cs#L22)
 
 ```csharp
 ref int ParamCount { get; }

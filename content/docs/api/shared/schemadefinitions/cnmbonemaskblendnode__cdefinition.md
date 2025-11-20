@@ -12,7 +12,7 @@ public interface CNmBoneMaskBlendNode__CDefinition : CNmBoneMaskValueNode__CDefi
 
 ### BlendWeightValueNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmBoneMaskBlendNode__CDefinition.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmBoneMaskBlendNode__CDefinition.cs#L22)
 
 ```csharp
 ref short BlendWeightValueNodeIdx { get; }
@@ -24,7 +24,7 @@ ref short BlendWeightValueNodeIdx { get; }
 
 ### SourceMaskNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmBoneMaskBlendNode__CDefinition.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmBoneMaskBlendNode__CDefinition.cs#L18)
 
 ```csharp
 ref short SourceMaskNodeIdx { get; }
@@ -36,7 +36,7 @@ ref short SourceMaskNodeIdx { get; }
 
 ### TargetMaskNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmBoneMaskBlendNode__CDefinition.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmBoneMaskBlendNode__CDefinition.cs#L20)
 
 ```csharp
 ref short TargetMaskNodeIdx { get; }

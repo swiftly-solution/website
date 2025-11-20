@@ -12,7 +12,7 @@ public interface CHitBox : ISchemaClass<CHitBox>, ISchemaField, ISchemaClass, IN
 
 ### BoneName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitBox.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitBox.cs#L22)
 
 ```csharp
 string BoneName { get; set; }
@@ -24,7 +24,7 @@ string BoneName { get; set; }
 
 ### BoneNameHash
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitBox.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitBox.cs#L30)
 
 ```csharp
 ref uint BoneNameHash { get; }
@@ -36,7 +36,7 @@ ref uint BoneNameHash { get; }
 
 ### CRC
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitBox.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitBox.cs#L38)
 
 ```csharp
 ref uint CRC { get; }
@@ -48,7 +48,7 @@ ref uint CRC { get; }
 
 ### CRenderColor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitBox.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitBox.cs#L40)
 
 ```csharp
 ref Color CRenderColor { get; }
@@ -60,7 +60,7 @@ ref Color CRenderColor { get; }
 
 ### GroupId
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitBox.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitBox.cs#L32)
 
 ```csharp
 ref int GroupId { get; }
@@ -72,7 +72,7 @@ ref int GroupId { get; }
 
 ### HitBoxIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitBox.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitBox.cs#L42)
 
 ```csharp
 ref ushort HitBoxIndex { get; }
@@ -84,7 +84,7 @@ ref ushort HitBoxIndex { get; }
 
 ### MaxBounds
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitBox.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitBox.cs#L26)
 
 ```csharp
 ref Vector MaxBounds { get; }
@@ -96,7 +96,7 @@ ref Vector MaxBounds { get; }
 
 ### MinBounds
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitBox.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitBox.cs#L24)
 
 ```csharp
 ref Vector MinBounds { get; }
@@ -108,7 +108,7 @@ ref Vector MinBounds { get; }
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitBox.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitBox.cs#L18)
 
 ```csharp
 string Name { get; set; }
@@ -120,7 +120,7 @@ string Name { get; set; }
 
 ### ShapeRadius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitBox.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitBox.cs#L28)
 
 ```csharp
 ref float ShapeRadius { get; }
@@ -132,7 +132,7 @@ ref float ShapeRadius { get; }
 
 ### ShapeType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitBox.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitBox.cs#L34)
 
 ```csharp
 ref byte ShapeType { get; }
@@ -144,7 +144,7 @@ ref byte ShapeType { get; }
 
 ### SurfaceProperty
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitBox.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitBox.cs#L20)
 
 ```csharp
 string SurfaceProperty { get; set; }
@@ -156,7 +156,7 @@ string SurfaceProperty { get; set; }
 
 ### TranslationOnly
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitBox.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitBox.cs#L36)
 
 ```csharp
 ref bool TranslationOnly { get; }

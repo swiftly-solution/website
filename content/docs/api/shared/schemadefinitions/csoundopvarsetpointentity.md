@@ -12,7 +12,7 @@ public interface CSoundOpvarSetPointEntity : CSoundOpvarSetPointBase, CBaseEntit
 
 ### AutoDisable
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointEntity.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointEntity.cs#L22)
 
 ```csharp
 ref bool AutoDisable { get; }
@@ -24,7 +24,7 @@ ref bool AutoDisable { get; }
 
 ### DistanceMapMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointEntity.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointEntity.cs#L30)
 
 ```csharp
 ref float DistanceMapMax { get; }
@@ -36,7 +36,7 @@ ref float DistanceMapMax { get; }
 
 ### DistanceMapMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointEntity.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointEntity.cs#L28)
 
 ```csharp
 ref float DistanceMapMin { get; }
@@ -48,7 +48,7 @@ ref float DistanceMapMin { get; }
 
 ### DistanceMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointEntity.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointEntity.cs#L26)
 
 ```csharp
 ref float DistanceMax { get; }
@@ -60,7 +60,7 @@ ref float DistanceMax { get; }
 
 ### DistanceMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointEntity.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointEntity.cs#L24)
 
 ```csharp
 ref float DistanceMin { get; }
@@ -72,7 +72,7 @@ ref float DistanceMin { get; }
 
 ### DynamicEntity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointEntity.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointEntity.cs#L52)
 
 ```csharp
 ref CHandle<CEntityInstance> DynamicEntity { get; }
@@ -84,7 +84,7 @@ ref CHandle<CEntityInstance> DynamicEntity { get; }
 
 ### DynamicEntityName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointEntity.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointEntity.cs#L54)
 
 ```csharp
 string DynamicEntityName { get; set; }
@@ -96,7 +96,7 @@ string DynamicEntityName { get; set; }
 
 ### DynamicMaximumOcclusion
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointEntity.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointEntity.cs#L50)
 
 ```csharp
 ref float DynamicMaximumOcclusion { get; }
@@ -108,7 +108,7 @@ ref float DynamicMaximumOcclusion { get; }
 
 ### DynamicProxyPoint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointEntity.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointEntity.cs#L48)
 
 ```csharp
 ref Vector DynamicProxyPoint { get; }
@@ -120,7 +120,7 @@ ref Vector DynamicProxyPoint { get; }
 
 ### OcclusionMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointEntity.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointEntity.cs#L36)
 
 ```csharp
 ref float OcclusionMax { get; }
@@ -132,7 +132,7 @@ ref float OcclusionMax { get; }
 
 ### OcclusionMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointEntity.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointEntity.cs#L34)
 
 ```csharp
 ref float OcclusionMin { get; }
@@ -144,7 +144,7 @@ ref float OcclusionMin { get; }
 
 ### OcclusionRadius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointEntity.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointEntity.cs#L32)
 
 ```csharp
 ref float OcclusionRadius { get; }
@@ -156,7 +156,7 @@ ref float OcclusionRadius { get; }
 
 ### OnEnter
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointEntity.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointEntity.cs#L18)
 
 ```csharp
 CEntityIOOutput OnEnter { get; }
@@ -168,7 +168,7 @@ CEntityIOOutput OnEnter { get; }
 
 ### OnExit
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointEntity.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointEntity.cs#L20)
 
 ```csharp
 CEntityIOOutput OnExit { get; }
@@ -180,7 +180,7 @@ CEntityIOOutput OnExit { get; }
 
 ### PathingDirection
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointEntity.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointEntity.cs#L62)
 
 ```csharp
 ref Vector PathingDirection { get; }
@@ -192,7 +192,7 @@ ref Vector PathingDirection { get; }
 
 ### PathingDistanceNormFactor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointEntity.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointEntity.cs#L56)
 
 ```csharp
 ref float PathingDistanceNormFactor { get; }
@@ -204,7 +204,7 @@ ref float PathingDistanceNormFactor { get; }
 
 ### PathingListenerPos
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointEntity.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointEntity.cs#L60)
 
 ```csharp
 ref Vector PathingListenerPos { get; }
@@ -216,7 +216,7 @@ ref Vector PathingListenerPos { get; }
 
 ### PathingSourceIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointEntity.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointEntity.cs#L64)
 
 ```csharp
 ref int PathingSourceIndex { get; }
@@ -228,7 +228,7 @@ ref int PathingSourceIndex { get; }
 
 ### PathingSourcePos
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointEntity.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointEntity.cs#L58)
 
 ```csharp
 ref Vector PathingSourcePos { get; }
@@ -240,7 +240,7 @@ ref Vector PathingSourcePos { get; }
 
 ### Reloading
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointEntity.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointEntity.cs#L42)
 
 ```csharp
 ref bool Reloading { get; }
@@ -252,7 +252,7 @@ ref bool Reloading { get; }
 
 ### SetValueOnDisable
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointEntity.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointEntity.cs#L40)
 
 ```csharp
 ref bool SetValueOnDisable { get; }
@@ -264,7 +264,7 @@ ref bool SetValueOnDisable { get; }
 
 ### SimulationMode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointEntity.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointEntity.cs#L44)
 
 ```csharp
 ref int SimulationMode { get; }
@@ -276,7 +276,7 @@ ref int SimulationMode { get; }
 
 ### ValSetOnDisable
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointEntity.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointEntity.cs#L38)
 
 ```csharp
 ref float ValSetOnDisable { get; }
@@ -288,7 +288,7 @@ ref float ValSetOnDisable { get; }
 
 ### VisibilitySamples
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointEntity.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointEntity.cs#L46)
 
 ```csharp
 ref int VisibilitySamples { get; }

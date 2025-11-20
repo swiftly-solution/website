@@ -12,7 +12,7 @@ public interface EntityIOConnectionData_t : ISchemaClass<EntityIOConnectionData_
 
 ### Delay
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityIOConnectionData_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityIOConnectionData_t.cs#L28)
 
 ```csharp
 ref float Delay { get; }
@@ -24,7 +24,7 @@ ref float Delay { get; }
 
 ### InputName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityIOConnectionData_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityIOConnectionData_t.cs#L24)
 
 ```csharp
 string InputName { get; set; }
@@ -36,7 +36,7 @@ string InputName { get; set; }
 
 ### OutputName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityIOConnectionData_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityIOConnectionData_t.cs#L18)
 
 ```csharp
 string OutputName { get; set; }
@@ -48,7 +48,7 @@ string OutputName { get; set; }
 
 ### OverrideParam
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityIOConnectionData_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityIOConnectionData_t.cs#L26)
 
 ```csharp
 string OverrideParam { get; set; }
@@ -60,7 +60,7 @@ string OverrideParam { get; set; }
 
 ### ParamMap
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityIOConnectionData_t.cs#L32)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityIOConnectionData_t.cs#L33)
 
 ```csharp
 SchemaUntypedField ParamMap { get; }
@@ -72,7 +72,7 @@ SchemaUntypedField ParamMap { get; }
 
 ### TargetName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityIOConnectionData_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityIOConnectionData_t.cs#L22)
 
 ```csharp
 string TargetName { get; set; }
@@ -84,7 +84,7 @@ string TargetName { get; set; }
 
 ### TargetType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityIOConnectionData_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityIOConnectionData_t.cs#L20)
 
 ```csharp
 ref uint TargetType { get; }
@@ -96,7 +96,7 @@ ref uint TargetType { get; }
 
 ### TimesToFire
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityIOConnectionData_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityIOConnectionData_t.cs#L30)
 
 ```csharp
 ref int TimesToFire { get; }

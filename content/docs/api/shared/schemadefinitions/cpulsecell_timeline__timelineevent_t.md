@@ -12,7 +12,7 @@ public interface CPulseCell_Timeline__TimelineEvent_t : ISchemaClass<CPulseCell_
 
 ### EventOutflow
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Timeline__TimelineEvent_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Timeline__TimelineEvent_t.cs#L20)
 
 ```csharp
 CPulse_OutflowConnection EventOutflow { get; }
@@ -24,7 +24,7 @@ CPulse_OutflowConnection EventOutflow { get; }
 
 ### TimeFromPrevious
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Timeline__TimelineEvent_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Timeline__TimelineEvent_t.cs#L18)
 
 ```csharp
 ref float TimeFromPrevious { get; }

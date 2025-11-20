@@ -12,7 +12,7 @@ public interface CAnimationGraphVisualizerPrimitiveBase : ISchemaClass<CAnimatio
 
 ### OwningAnimNodePathCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGraphVisualizerPrimitiveBase.cs#L22)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGraphVisualizerPrimitiveBase.cs#L23)
 
 ```csharp
 ref int OwningAnimNodePathCount { get; }
@@ -24,7 +24,7 @@ ref int OwningAnimNodePathCount { get; }
 
 ### OwningAnimNodePaths
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGraphVisualizerPrimitiveBase.cs#L20)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGraphVisualizerPrimitiveBase.cs#L21)
 
 ```csharp
 SchemaUntypedField OwningAnimNodePaths { get; }
@@ -36,7 +36,7 @@ SchemaUntypedField OwningAnimNodePaths { get; }
 
 ### Type
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGraphVisualizerPrimitiveBase.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGraphVisualizerPrimitiveBase.cs#L18)
 
 ```csharp
 ref CAnimationGraphVisualizerPrimitiveType Type { get; }

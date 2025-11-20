@@ -12,7 +12,7 @@ public interface CDSPMixgroupModifier : ISchemaClass<CDSPMixgroupModifier>, ISch
 
 ### ListenerReverbModifierWhenSourceReverbIsActive
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDSPMixgroupModifier.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDSPMixgroupModifier.cs#L28)
 
 ```csharp
 ref float ListenerReverbModifierWhenSourceReverbIsActive { get; }
@@ -24,7 +24,7 @@ ref float ListenerReverbModifierWhenSourceReverbIsActive { get; }
 
 ### Mixgroup
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDSPMixgroupModifier.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDSPMixgroupModifier.cs#L18)
 
 ```csharp
 string Mixgroup { get; set; }
@@ -36,7 +36,7 @@ string Mixgroup { get; set; }
 
 ### Modifier
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDSPMixgroupModifier.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDSPMixgroupModifier.cs#L20)
 
 ```csharp
 ref float Modifier { get; }
@@ -48,7 +48,7 @@ ref float Modifier { get; }
 
 ### ModifierMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDSPMixgroupModifier.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDSPMixgroupModifier.cs#L22)
 
 ```csharp
 ref float ModifierMin { get; }
@@ -60,7 +60,7 @@ ref float ModifierMin { get; }
 
 ### SourceModifier
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDSPMixgroupModifier.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDSPMixgroupModifier.cs#L24)
 
 ```csharp
 ref float SourceModifier { get; }
@@ -72,7 +72,7 @@ ref float SourceModifier { get; }
 
 ### SourceModifierMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDSPMixgroupModifier.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDSPMixgroupModifier.cs#L26)
 
 ```csharp
 ref float SourceModifierMin { get; }

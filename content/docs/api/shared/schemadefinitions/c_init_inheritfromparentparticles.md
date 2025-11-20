@@ -12,7 +12,7 @@ public interface C_INIT_InheritFromParentParticles : CParticleFunctionInitialize
 
 ### FieldOutput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InheritFromParentParticles.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InheritFromParentParticles.cs#L20)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -24,7 +24,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 ### Increment
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InheritFromParentParticles.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InheritFromParentParticles.cs#L22)
 
 ```csharp
 ref int Increment { get; }
@@ -36,7 +36,7 @@ ref int Increment { get; }
 
 ### RandomDistribution
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InheritFromParentParticles.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InheritFromParentParticles.cs#L24)
 
 ```csharp
 ref bool RandomDistribution { get; }
@@ -48,7 +48,7 @@ ref bool RandomDistribution { get; }
 
 ### RandomSeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InheritFromParentParticles.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InheritFromParentParticles.cs#L26)
 
 ```csharp
 ref int RandomSeed { get; }
@@ -60,7 +60,7 @@ ref int RandomSeed { get; }
 
 ### Scale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InheritFromParentParticles.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InheritFromParentParticles.cs#L18)
 
 ```csharp
 ref float Scale { get; }

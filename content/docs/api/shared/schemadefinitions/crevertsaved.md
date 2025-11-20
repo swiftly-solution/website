@@ -12,7 +12,7 @@ public interface CRevertSaved : CModelPointEntity, CBaseModelEntity, CBaseEntity
 
 ### Duration
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRevertSaved.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRevertSaved.cs#L20)
 
 ```csharp
 ref float Duration { get; }
@@ -24,7 +24,7 @@ ref float Duration { get; }
 
 ### HoldTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRevertSaved.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRevertSaved.cs#L22)
 
 ```csharp
 ref float HoldTime { get; }
@@ -36,7 +36,7 @@ ref float HoldTime { get; }
 
 ### LoadTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRevertSaved.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRevertSaved.cs#L18)
 
 ```csharp
 ref float LoadTime { get; }

@@ -12,7 +12,7 @@ public interface C_OP_Diffusion : CParticleFunctionOperator, CParticleFunction, 
 
 ### FieldOutput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_Diffusion.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_Diffusion.cs#L20)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -24,7 +24,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 ### RadiusScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_Diffusion.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_Diffusion.cs#L18)
 
 ```csharp
 ref float RadiusScale { get; }
@@ -36,7 +36,7 @@ ref float RadiusScale { get; }
 
 ### VoxelGridResolution
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_Diffusion.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_Diffusion.cs#L22)
 
 ```csharp
 ref int VoxelGridResolution { get; }

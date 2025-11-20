@@ -12,7 +12,7 @@ public interface PermModelExtPart_t : ISchemaClass<PermModelExtPart_t>, ISchemaF
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelExtPart_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelExtPart_t.cs#L20)
 
 ```csharp
 string Name { get; set; }
@@ -24,7 +24,7 @@ string Name { get; set; }
 
 ### Parent
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelExtPart_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelExtPart_t.cs#L22)
 
 ```csharp
 ref int Parent { get; }
@@ -36,7 +36,7 @@ ref int Parent { get; }
 
 ### RefModel
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelExtPart_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelExtPart_t.cs#L24)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCModel> RefModel { get; }
@@ -48,7 +48,7 @@ ref CStrongHandle<InfoForResourceTypeCModel> RefModel { get; }
 
 ### Transform
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelExtPart_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelExtPart_t.cs#L18)
 
 ```csharp
 ref CTransform Transform { get; }

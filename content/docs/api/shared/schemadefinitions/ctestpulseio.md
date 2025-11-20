@@ -12,7 +12,7 @@ public interface CTestPulseIO : CLogicalEntity, CServerOnlyEntity, CBaseEntity, 
 
 ### AllowEmptyInputs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestPulseIO.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestPulseIO.cs#L32)
 
 ```csharp
 ref bool AllowEmptyInputs { get; }
@@ -24,7 +24,7 @@ ref bool AllowEmptyInputs { get; }
 
 ### OnVariantBool
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestPulseIO.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestPulseIO.cs#L20)
 
 ```csharp
 CEntityIOOutput OnVariantBool { get; }
@@ -36,7 +36,7 @@ CEntityIOOutput OnVariantBool { get; }
 
 ### OnVariantColor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestPulseIO.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestPulseIO.cs#L28)
 
 ```csharp
 CEntityIOOutput OnVariantColor { get; }
@@ -48,7 +48,7 @@ CEntityIOOutput OnVariantColor { get; }
 
 ### OnVariantFloat
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestPulseIO.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestPulseIO.cs#L24)
 
 ```csharp
 CEntityIOOutput OnVariantFloat { get; }
@@ -60,7 +60,7 @@ CEntityIOOutput OnVariantFloat { get; }
 
 ### OnVariantInt
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestPulseIO.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestPulseIO.cs#L22)
 
 ```csharp
 CEntityIOOutput OnVariantInt { get; }
@@ -72,7 +72,7 @@ CEntityIOOutput OnVariantInt { get; }
 
 ### OnVariantString
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestPulseIO.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestPulseIO.cs#L26)
 
 ```csharp
 CEntityIOOutput OnVariantString { get; }
@@ -84,7 +84,7 @@ CEntityIOOutput OnVariantString { get; }
 
 ### OnVariantVector
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestPulseIO.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestPulseIO.cs#L30)
 
 ```csharp
 CEntityIOOutput OnVariantVector { get; }
@@ -96,7 +96,7 @@ CEntityIOOutput OnVariantVector { get; }
 
 ### OnVariantVoid
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestPulseIO.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestPulseIO.cs#L18)
 
 ```csharp
 CEntityIOOutput OnVariantVoid { get; }

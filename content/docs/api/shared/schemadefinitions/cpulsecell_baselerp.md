@@ -12,7 +12,7 @@ public interface CPulseCell_BaseLerp : CPulseCell_BaseYieldingInflow, CPulseCell
 
 ### WakeResume
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_BaseLerp.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_BaseLerp.cs#L18)
 
 ```csharp
 CPulse_ResumePoint WakeResume { get; }

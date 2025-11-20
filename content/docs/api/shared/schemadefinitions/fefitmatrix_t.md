@@ -12,7 +12,7 @@ public interface FeFitMatrix_t : ISchemaClass<FeFitMatrix_t>, ISchemaField, ISch
 
 ### BeginDynamic
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeFitMatrix_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeFitMatrix_t.cs#L26)
 
 ```csharp
 ref ushort BeginDynamic { get; }
@@ -24,7 +24,7 @@ ref ushort BeginDynamic { get; }
 
 ### Bone
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeFitMatrix_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeFitMatrix_t.cs#L18)
 
 ```csharp
 ref CTransform Bone { get; }
@@ -36,7 +36,7 @@ ref CTransform Bone { get; }
 
 ### Center
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeFitMatrix_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeFitMatrix_t.cs#L20)
 
 ```csharp
 ref Vector Center { get; }
@@ -48,7 +48,7 @@ ref Vector Center { get; }
 
 ### End
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeFitMatrix_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeFitMatrix_t.cs#L22)
 
 ```csharp
 ref ushort End { get; }
@@ -60,7 +60,7 @@ ref ushort End { get; }
 
 ### Node
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeFitMatrix_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeFitMatrix_t.cs#L24)
 
 ```csharp
 ref ushort Node { get; }

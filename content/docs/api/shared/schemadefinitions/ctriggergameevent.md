@@ -12,7 +12,7 @@ public interface CTriggerGameEvent : CBaseTrigger, CBaseToggle, CBaseModelEntity
 
 ### StrEndTouchEventName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerGameEvent.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerGameEvent.cs#L20)
 
 ```csharp
 string StrEndTouchEventName { get; set; }
@@ -24,7 +24,7 @@ string StrEndTouchEventName { get; set; }
 
 ### StrStartTouchEventName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerGameEvent.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerGameEvent.cs#L18)
 
 ```csharp
 string StrStartTouchEventName { get; set; }
@@ -36,7 +36,7 @@ string StrStartTouchEventName { get; set; }
 
 ### StrTriggerID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerGameEvent.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerGameEvent.cs#L22)
 
 ```csharp
 string StrTriggerID { get; set; }
@@ -50,7 +50,7 @@ string StrTriggerID { get; set; }
 
 ### StrEndTouchEventNameUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerGameEvent.cs#L24)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerGameEvent.cs#L25)
 
 ```csharp
 void StrEndTouchEventNameUpdated()
@@ -58,7 +58,7 @@ void StrEndTouchEventNameUpdated()
 
 ### StrStartTouchEventNameUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerGameEvent.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerGameEvent.cs#L24)
 
 ```csharp
 void StrStartTouchEventNameUpdated()
@@ -66,7 +66,7 @@ void StrStartTouchEventNameUpdated()
 
 ### StrTriggerIDUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerGameEvent.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerGameEvent.cs#L26)
 
 ```csharp
 void StrTriggerIDUpdated()

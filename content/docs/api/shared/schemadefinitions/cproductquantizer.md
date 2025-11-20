@@ -12,7 +12,7 @@ public interface CProductQuantizer : ISchemaClass<CProductQuantizer>, ISchemaFie
 
 ### Dimensions
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CProductQuantizer.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CProductQuantizer.cs#L20)
 
 ```csharp
 ref int Dimensions { get; }
@@ -24,7 +24,7 @@ ref int Dimensions { get; }
 
 ### SubQuantizers
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CProductQuantizer.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CProductQuantizer.cs#L18)
 
 ```csharp
 ref CUtlVector<CVectorQuantizer> SubQuantizers { get; }

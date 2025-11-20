@@ -12,7 +12,7 @@ public interface CMaterialDrawDescriptor__RigidMeshPart_t : ISchemaClass<CMateri
 
 ### BoneIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor__RigidMeshPart_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor__RigidMeshPart_t.cs#L20)
 
 ```csharp
 ref short BoneIndex { get; }
@@ -24,7 +24,7 @@ ref short BoneIndex { get; }
 
 ### PrimitiveCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor__RigidMeshPart_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor__RigidMeshPart_t.cs#L24)
 
 ```csharp
 ref uint PrimitiveCount { get; }
@@ -36,7 +36,7 @@ ref uint PrimitiveCount { get; }
 
 ### RigidBLASIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor__RigidMeshPart_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor__RigidMeshPart_t.cs#L18)
 
 ```csharp
 ref ushort RigidBLASIndex { get; }
@@ -48,7 +48,7 @@ ref ushort RigidBLASIndex { get; }
 
 ### StartIndexOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor__RigidMeshPart_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor__RigidMeshPart_t.cs#L22)
 
 ```csharp
 ref uint StartIndexOffset { get; }

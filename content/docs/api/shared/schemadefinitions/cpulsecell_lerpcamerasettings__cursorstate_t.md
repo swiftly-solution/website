@@ -12,7 +12,7 @@ public interface CPulseCell_LerpCameraSettings__CursorState_t : CPulseCell_BaseL
 
 ### Camera
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_LerpCameraSettings__CursorState_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_LerpCameraSettings__CursorState_t.cs#L18)
 
 ```csharp
 ref CHandle<CPointCamera> Camera { get; }
@@ -24,7 +24,7 @@ ref CHandle<CPointCamera> Camera { get; }
 
 ### OverlaidEnd
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_LerpCameraSettings__CursorState_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_LerpCameraSettings__CursorState_t.cs#L22)
 
 ```csharp
 PointCameraSettings_t OverlaidEnd { get; }
@@ -36,7 +36,7 @@ PointCameraSettings_t OverlaidEnd { get; }
 
 ### OverlaidStart
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_LerpCameraSettings__CursorState_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_LerpCameraSettings__CursorState_t.cs#L20)
 
 ```csharp
 PointCameraSettings_t OverlaidStart { get; }

@@ -12,7 +12,7 @@ public interface Relationship_t : ISchemaClass<Relationship_t>, ISchemaField, IS
 
 ### Disposition
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/Relationship_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/Relationship_t.cs#L18)
 
 ```csharp
 ref Disposition_t Disposition { get; }
@@ -24,7 +24,7 @@ ref Disposition_t Disposition { get; }
 
 ### Priority
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/Relationship_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/Relationship_t.cs#L20)
 
 ```csharp
 ref int Priority { get; }

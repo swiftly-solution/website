@@ -15,7 +15,7 @@ public struct CSteamID : IEquatable<CSteamID>, IComparable<CSteamID>
 
 ### CSteamID(AccountID_t, EUniverse, EAccountType)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L127)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L166)
 
 ```csharp
 public CSteamID(AccountID_t unAccountID, EUniverse eUniverse, EAccountType eAccountType)
@@ -29,7 +29,7 @@ public CSteamID(AccountID_t unAccountID, EUniverse eUniverse, EAccountType eAcco
 
 ### CSteamID(AccountID_t, uint, EUniverse, EAccountType)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L133)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L172)
 
 ```csharp
 public CSteamID(AccountID_t unAccountID, uint unAccountInstance, EUniverse eUniverse, EAccountType eAccountType)
@@ -44,7 +44,7 @@ public CSteamID(AccountID_t unAccountID, uint unAccountInstance, EUniverse eUniv
 
 ### CSteamID(ulong)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L142)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L181)
 
 ```csharp
 public CSteamID(ulong ulSteamID)
@@ -56,7 +56,7 @@ public CSteamID(ulong ulSteamID)
 
 ### CSteamID(string)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L147)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L186)
 
 ```csharp
 public CSteamID(string sSteamID)
@@ -70,7 +70,7 @@ public CSteamID(string sSteamID)
 
 ### LanModeGS
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L122)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L161)
 
 ```csharp
 public static readonly CSteamID LanModeGS
@@ -82,7 +82,7 @@ public static readonly CSteamID LanModeGS
 
 ### Nil
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L120)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L159)
 
 ```csharp
 public static readonly CSteamID Nil
@@ -94,7 +94,7 @@ public static readonly CSteamID Nil
 
 ### NonSteamGS
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L124)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L163)
 
 ```csharp
 public static readonly CSteamID NonSteamGS
@@ -106,7 +106,7 @@ public static readonly CSteamID NonSteamGS
 
 ### NotInitYetGS
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L123)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L162)
 
 ```csharp
 public static readonly CSteamID NotInitYetGS
@@ -118,7 +118,7 @@ public static readonly CSteamID NotInitYetGS
 
 ### OutofDateGS
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L121)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L160)
 
 ```csharp
 public static readonly CSteamID OutofDateGS
@@ -130,7 +130,7 @@ public static readonly CSteamID OutofDateGS
 
 ### m_SteamID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L125)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L164)
 
 ```csharp
 public ulong m_SteamID
@@ -144,7 +144,7 @@ public ulong m_SteamID
 
 ### BAnonAccount()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L277)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L316)
 
 ```csharp
 public bool BAnonAccount()
@@ -156,7 +156,7 @@ public bool BAnonAccount()
 
 ### BAnonGameServerAccount()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L224)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L263)
 
 ```csharp
 public bool BAnonGameServerAccount()
@@ -168,7 +168,7 @@ public bool BAnonGameServerAccount()
 
 ### BAnonUserAccount()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L285)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L324)
 
 ```csharp
 public bool BAnonUserAccount()
@@ -180,7 +180,7 @@ public bool BAnonUserAccount()
 
 ### BBlankAnonAccount()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L200)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L239)
 
 ```csharp
 public bool BBlankAnonAccount()
@@ -192,7 +192,7 @@ public bool BBlankAnonAccount()
 
 ### BChatAccount()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L250)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L289)
 
 ```csharp
 public bool BChatAccount()
@@ -204,7 +204,7 @@ public bool BChatAccount()
 
 ### BClanAccount()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L241)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L280)
 
 ```csharp
 public bool BClanAccount()
@@ -216,7 +216,7 @@ public bool BClanAccount()
 
 ### BConsoleUserAccount()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L293)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L332)
 
 ```csharp
 public bool BConsoleUserAccount()
@@ -228,7 +228,7 @@ public bool BConsoleUserAccount()
 
 ### BContentServerAccount()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L232)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L271)
 
 ```csharp
 public bool BContentServerAccount()
@@ -240,7 +240,7 @@ public bool BContentServerAccount()
 
 ### BGameServerAccount()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L208)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L247)
 
 ```csharp
 public bool BGameServerAccount()
@@ -252,7 +252,7 @@ public bool BGameServerAccount()
 
 ### BIndividualAccount()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L268)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L307)
 
 ```csharp
 public bool BIndividualAccount()
@@ -264,7 +264,7 @@ public bool BIndividualAccount()
 
 ### BPersistentGameServerAccount()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L216)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L255)
 
 ```csharp
 public bool BPersistentGameServerAccount()
@@ -276,7 +276,7 @@ public bool BPersistentGameServerAccount()
 
 ### Clear()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L176)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L215)
 
 ```csharp
 public void Clear()
@@ -284,7 +284,7 @@ public void Clear()
 
 ### CompareTo(CSteamID)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L428)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L473)
 
 ```csharp
 public int CompareTo(CSteamID other)
@@ -302,7 +302,7 @@ public int CompareTo(CSteamID other)
 
 ### CreateBlankAnonLogon(EUniverse)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L181)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L220)
 
 ```csharp
 public void CreateBlankAnonLogon(EUniverse eUniverse)
@@ -314,7 +314,7 @@ public void CreateBlankAnonLogon(EUniverse eUniverse)
 
 ### CreateBlankAnonUserLogon(EUniverse)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L189)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L228)
 
 ```csharp
 public void CreateBlankAnonUserLogon(EUniverse eUniverse)
@@ -326,7 +326,7 @@ public void CreateBlankAnonUserLogon(EUniverse eUniverse)
 
 ### Equals(object)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L394)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L439)
 
 ```csharp
 public override bool Equals(object other)
@@ -342,7 +342,7 @@ public override bool Equals(object other)
 
 ### Equals(CSteamID)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L423)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L468)
 
 ```csharp
 public bool Equals(CSteamID other)
@@ -358,7 +358,7 @@ public bool Equals(CSteamID other)
 
 ### GetAccountID()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L319)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L358)
 
 ```csharp
 public AccountID_t GetAccountID()
@@ -370,7 +370,7 @@ public AccountID_t GetAccountID()
 
 ### GetEAccountType()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L329)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L368)
 
 ```csharp
 public EAccountType GetEAccountType()
@@ -382,7 +382,7 @@ public EAccountType GetEAccountType()
 
 ### GetEUniverse()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L334)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L373)
 
 ```csharp
 public EUniverse GetEUniverse()
@@ -394,7 +394,7 @@ public EUniverse GetEUniverse()
 
 ### GetHashCode()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L399)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L444)
 
 ```csharp
 public override int GetHashCode()
@@ -406,7 +406,7 @@ public override int GetHashCode()
 
 ### GetSteamID()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L373)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L413)
 
 ```csharp
 public string GetSteamID()
@@ -418,7 +418,7 @@ public string GetSteamID()
 
 ### GetSteamID3()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L378)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L418)
 
 ```csharp
 public string GetSteamID3()
@@ -430,7 +430,7 @@ public string GetSteamID3()
 
 ### GetSteamID32()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L383)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L423)
 
 ```csharp
 public uint GetSteamID32()
@@ -442,7 +442,7 @@ public uint GetSteamID32()
 
 ### GetSteamID64()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L368)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L408)
 
 ```csharp
 public ulong GetSteamID64()
@@ -452,9 +452,21 @@ public ulong GetSteamID64()
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
+### GetSteamIDOnline()
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L428)
+
+```csharp
+public string GetSteamIDOnline()
+```
+
+#### Returns
+
+- [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### GetUnAccountInstance()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L324)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L363)
 
 ```csharp
 public uint GetUnAccountInstance()
@@ -466,7 +478,7 @@ public uint GetUnAccountInstance()
 
 ### InstancedSet(AccountID_t, uint, EUniverse, EAccountType)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L168)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L207)
 
 ```csharp
 public void InstancedSet(AccountID_t unAccountID, uint unInstance, EUniverse eUniverse, EAccountType eAccountType)
@@ -481,7 +493,7 @@ public void InstancedSet(AccountID_t unAccountID, uint unInstance, EUniverse eUn
 
 ### IsLobby()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L258)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L297)
 
 ```csharp
 public bool IsLobby()
@@ -493,7 +505,7 @@ public bool IsLobby()
 
 ### IsValid()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L339)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L379)
 
 ```csharp
 public bool IsValid()
@@ -505,7 +517,7 @@ public bool IsValid()
 
 ### Set(AccountID_t, EUniverse, EAccountType)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L152)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L191)
 
 ```csharp
 public void Set(AccountID_t unAccountID, EUniverse eUniverse, EAccountType eAccountType)
@@ -519,7 +531,7 @@ public void Set(AccountID_t unAccountID, EUniverse eUniverse, EAccountType eAcco
 
 ### SetAccountID(AccountID_t)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L298)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L337)
 
 ```csharp
 public void SetAccountID(AccountID_t other)
@@ -531,7 +543,7 @@ public void SetAccountID(AccountID_t other)
 
 ### SetAccountInstance(uint)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L303)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L342)
 
 ```csharp
 public void SetAccountInstance(uint other)
@@ -543,7 +555,7 @@ public void SetAccountInstance(uint other)
 
 ### SetEAccountType(EAccountType)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L309)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L348)
 
 ```csharp
 public void SetEAccountType(EAccountType other)
@@ -555,7 +567,7 @@ public void SetEAccountType(EAccountType other)
 
 ### SetEUniverse(EUniverse)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L314)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L353)
 
 ```csharp
 public void SetEUniverse(EUniverse other)
@@ -567,7 +579,7 @@ public void SetEUniverse(EUniverse other)
 
 ### ToString()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L389)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L434)
 
 ```csharp
 public override string ToString()
@@ -581,7 +593,7 @@ public override string ToString()
 
 ### operator ==(CSteamID, CSteamID)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L404)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L449)
 
 ```csharp
 public static bool operator ==(CSteamID x, CSteamID y)
@@ -598,7 +610,7 @@ public static bool operator ==(CSteamID x, CSteamID y)
 
 ### explicit operator CSteamID(ulong)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L414)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L459)
 
 ```csharp
 public static explicit operator CSteamID(ulong value)
@@ -614,7 +626,7 @@ public static explicit operator CSteamID(ulong value)
 
 ### explicit operator ulong(CSteamID)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L418)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L463)
 
 ```csharp
 public static explicit operator ulong(CSteamID that)
@@ -630,7 +642,7 @@ public static explicit operator ulong(CSteamID that)
 
 ### operator !=(CSteamID, CSteamID)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L409)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/SteamAPI/Types/SteamClientPublic/CSteamID.cs#L454)
 
 ```csharp
 public static bool operator !=(CSteamID x, CSteamID y)

@@ -12,7 +12,7 @@ public interface RnCapsule_t : ISchemaClass<RnCapsule_t>, ISchemaField, ISchemaC
 
 ### Center
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnCapsule_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnCapsule_t.cs#L18)
 
 ```csharp
 ISchemaFixedArray<Vector> Center { get; }
@@ -24,7 +24,7 @@ ISchemaFixedArray<Vector> Center { get; }
 
 ### Radius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnCapsule_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnCapsule_t.cs#L20)
 
 ```csharp
 ref float Radius { get; }

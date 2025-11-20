@@ -12,7 +12,7 @@ public interface C_OP_InterpolateRadius : CParticleFunctionOperator, CParticleFu
 
 ### Bias
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InterpolateRadius.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InterpolateRadius.cs#L28)
 
 ```csharp
 ref float Bias { get; }
@@ -24,7 +24,7 @@ ref float Bias { get; }
 
 ### EaseInAndOut
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InterpolateRadius.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InterpolateRadius.cs#L26)
 
 ```csharp
 ref bool EaseInAndOut { get; }
@@ -36,7 +36,7 @@ ref bool EaseInAndOut { get; }
 
 ### EndScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InterpolateRadius.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InterpolateRadius.cs#L24)
 
 ```csharp
 ref float EndScale { get; }
@@ -48,7 +48,7 @@ ref float EndScale { get; }
 
 ### EndTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InterpolateRadius.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InterpolateRadius.cs#L20)
 
 ```csharp
 ref float EndTime { get; }
@@ -60,7 +60,7 @@ ref float EndTime { get; }
 
 ### StartScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InterpolateRadius.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InterpolateRadius.cs#L22)
 
 ```csharp
 ref float StartScale { get; }
@@ -72,7 +72,7 @@ ref float StartScale { get; }
 
 ### StartTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InterpolateRadius.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InterpolateRadius.cs#L18)
 
 ```csharp
 ref float StartTime { get; }

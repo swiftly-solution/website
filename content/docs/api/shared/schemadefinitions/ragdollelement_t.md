@@ -12,7 +12,7 @@ public interface ragdollelement_t : ISchemaClass<ragdollelement_t>, ISchemaField
 
 ### Height
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ragdollelement_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ragdollelement_t.cs#L24)
 
 ```csharp
 ref int Height { get; }
@@ -24,7 +24,7 @@ ref int Height { get; }
 
 ### OriginParentSpace
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ragdollelement_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ragdollelement_t.cs#L18)
 
 ```csharp
 ref Vector OriginParentSpace { get; }
@@ -36,7 +36,7 @@ ref Vector OriginParentSpace { get; }
 
 ### ParentIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ragdollelement_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ragdollelement_t.cs#L20)
 
 ```csharp
 ref int ParentIndex { get; }
@@ -48,7 +48,7 @@ ref int ParentIndex { get; }
 
 ### Radius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ragdollelement_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ragdollelement_t.cs#L22)
 
 ```csharp
 ref float Radius { get; }

@@ -12,7 +12,7 @@ public interface VMixDynamics3BandDesc_t : ISchemaClass<VMixDynamics3BandDesc_t>
 
 ### BandDesc
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamics3BandDesc_t.cs#L36)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamics3BandDesc_t.cs#L37)
 
 ```csharp
 SchemaUntypedField BandDesc { get; }
@@ -24,7 +24,7 @@ SchemaUntypedField BandDesc { get; }
 
 ### Depth
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamics3BandDesc_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamics3BandDesc_t.cs#L24)
 
 ```csharp
 ref float Depth { get; }
@@ -36,7 +36,7 @@ ref float Depth { get; }
 
 ### FldbGainOutput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamics3BandDesc_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamics3BandDesc_t.cs#L18)
 
 ```csharp
 ref float FldbGainOutput { get; }
@@ -48,7 +48,7 @@ ref float FldbGainOutput { get; }
 
 ### FldbKneeWidth
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamics3BandDesc_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamics3BandDesc_t.cs#L22)
 
 ```csharp
 ref float FldbKneeWidth { get; }
@@ -60,7 +60,7 @@ ref float FldbKneeWidth { get; }
 
 ### HighCutoffFreq
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamics3BandDesc_t.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamics3BandDesc_t.cs#L32)
 
 ```csharp
 ref float HighCutoffFreq { get; }
@@ -72,7 +72,7 @@ ref float HighCutoffFreq { get; }
 
 ### LowCutoffFreq
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamics3BandDesc_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamics3BandDesc_t.cs#L30)
 
 ```csharp
 ref float LowCutoffFreq { get; }
@@ -84,7 +84,7 @@ ref float LowCutoffFreq { get; }
 
 ### PeakMode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamics3BandDesc_t.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamics3BandDesc_t.cs#L34)
 
 ```csharp
 ref bool PeakMode { get; }
@@ -96,7 +96,7 @@ ref bool PeakMode { get; }
 
 ### RMSTimeMS
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamics3BandDesc_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamics3BandDesc_t.cs#L20)
 
 ```csharp
 ref float RMSTimeMS { get; }
@@ -108,7 +108,7 @@ ref float RMSTimeMS { get; }
 
 ### TimeScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamics3BandDesc_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamics3BandDesc_t.cs#L28)
 
 ```csharp
 ref float TimeScale { get; }
@@ -120,7 +120,7 @@ ref float TimeScale { get; }
 
 ### WetMix
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamics3BandDesc_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamics3BandDesc_t.cs#L26)
 
 ```csharp
 ref float WetMix { get; }

@@ -12,7 +12,7 @@ public interface CGeneralRandomRotation : CParticleFunctionInitializer, CParticl
 
 ### Degrees
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGeneralRandomRotation.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGeneralRandomRotation.cs#L20)
 
 ```csharp
 ref float Degrees { get; }
@@ -24,7 +24,7 @@ ref float Degrees { get; }
 
 ### DegreesMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGeneralRandomRotation.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGeneralRandomRotation.cs#L24)
 
 ```csharp
 ref float DegreesMax { get; }
@@ -36,7 +36,7 @@ ref float DegreesMax { get; }
 
 ### DegreesMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGeneralRandomRotation.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGeneralRandomRotation.cs#L22)
 
 ```csharp
 ref float DegreesMin { get; }
@@ -48,7 +48,7 @@ ref float DegreesMin { get; }
 
 ### FieldOutput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGeneralRandomRotation.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGeneralRandomRotation.cs#L18)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -60,7 +60,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 ### RandomlyFlipDirection
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGeneralRandomRotation.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGeneralRandomRotation.cs#L28)
 
 ```csharp
 ref bool RandomlyFlipDirection { get; }
@@ -72,7 +72,7 @@ ref bool RandomlyFlipDirection { get; }
 
 ### RotationRandExponent
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGeneralRandomRotation.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGeneralRandomRotation.cs#L26)
 
 ```csharp
 ref float RotationRandExponent { get; }

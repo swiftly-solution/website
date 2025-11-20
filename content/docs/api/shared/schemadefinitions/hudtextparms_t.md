@@ -12,7 +12,7 @@ public interface hudtextparms_t : ISchemaClass<hudtextparms_t>, ISchemaField, IS
 
 ### Channel
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/hudtextparms_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/hudtextparms_t.cs#L24)
 
 ```csharp
 ref byte Channel { get; }
@@ -24,7 +24,7 @@ ref byte Channel { get; }
 
 ### Color1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/hudtextparms_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/hudtextparms_t.cs#L18)
 
 ```csharp
 ref Color Color1 { get; }
@@ -36,7 +36,7 @@ ref Color Color1 { get; }
 
 ### Color2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/hudtextparms_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/hudtextparms_t.cs#L20)
 
 ```csharp
 ref Color Color2 { get; }
@@ -48,7 +48,7 @@ ref Color Color2 { get; }
 
 ### Effect
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/hudtextparms_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/hudtextparms_t.cs#L22)
 
 ```csharp
 ref byte Effect { get; }
@@ -60,7 +60,7 @@ ref byte Effect { get; }
 
 ### X
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/hudtextparms_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/hudtextparms_t.cs#L26)
 
 ```csharp
 ref float X { get; }
@@ -72,7 +72,7 @@ ref float X { get; }
 
 ### Y
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/hudtextparms_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/hudtextparms_t.cs#L28)
 
 ```csharp
 ref float Y { get; }

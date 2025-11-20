@@ -12,7 +12,7 @@ public interface CParticleFunction : ISchemaClass<CParticleFunction>, ISchemaFie
 
 ### DisableOperator
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFunction.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFunction.cs#L46)
 
 ```csharp
 ref bool DisableOperator { get; }
@@ -24,7 +24,7 @@ ref bool DisableOperator { get; }
 
 ### NormalizeToStopTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFunction.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFunction.cs#L32)
 
 ```csharp
 ref bool NormalizeToStopTime { get; }
@@ -36,7 +36,7 @@ ref bool NormalizeToStopTime { get; }
 
 ### Notes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFunction.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFunction.cs#L48)
 
 ```csharp
 string Notes { get; set; }
@@ -48,7 +48,7 @@ string Notes { get; set; }
 
 ### OpEndCapState
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFunction.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFunction.cs#L20)
 
 ```csharp
 ref ParticleEndcapMode_t OpEndCapState { get; }
@@ -60,7 +60,7 @@ ref ParticleEndcapMode_t OpEndCapState { get; }
 
 ### OpEndFadeInTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFunction.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFunction.cs#L24)
 
 ```csharp
 ref float OpEndFadeInTime { get; }
@@ -72,7 +72,7 @@ ref float OpEndFadeInTime { get; }
 
 ### OpEndFadeOutTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFunction.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFunction.cs#L28)
 
 ```csharp
 ref float OpEndFadeOutTime { get; }
@@ -84,7 +84,7 @@ ref float OpEndFadeOutTime { get; }
 
 ### OpFadeOscillatePeriod
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFunction.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFunction.cs#L30)
 
 ```csharp
 ref float OpFadeOscillatePeriod { get; }
@@ -96,7 +96,7 @@ ref float OpFadeOscillatePeriod { get; }
 
 ### OpStartFadeInTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFunction.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFunction.cs#L22)
 
 ```csharp
 ref float OpStartFadeInTime { get; }
@@ -108,7 +108,7 @@ ref float OpStartFadeInTime { get; }
 
 ### OpStartFadeOutTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFunction.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFunction.cs#L26)
 
 ```csharp
 ref float OpStartFadeOutTime { get; }
@@ -120,7 +120,7 @@ ref float OpStartFadeOutTime { get; }
 
 ### OpStrength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFunction.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFunction.cs#L18)
 
 ```csharp
 CParticleCollectionFloatInput OpStrength { get; }
@@ -132,7 +132,7 @@ CParticleCollectionFloatInput OpStrength { get; }
 
 ### OpTimeOffsetMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFunction.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFunction.cs#L36)
 
 ```csharp
 ref float OpTimeOffsetMax { get; }
@@ -144,7 +144,7 @@ ref float OpTimeOffsetMax { get; }
 
 ### OpTimeOffsetMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFunction.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFunction.cs#L34)
 
 ```csharp
 ref float OpTimeOffsetMin { get; }
@@ -156,7 +156,7 @@ ref float OpTimeOffsetMin { get; }
 
 ### OpTimeOffsetSeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFunction.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFunction.cs#L38)
 
 ```csharp
 ref int OpTimeOffsetSeed { get; }
@@ -168,7 +168,7 @@ ref int OpTimeOffsetSeed { get; }
 
 ### OpTimeScaleMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFunction.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFunction.cs#L44)
 
 ```csharp
 ref float OpTimeScaleMax { get; }
@@ -180,7 +180,7 @@ ref float OpTimeScaleMax { get; }
 
 ### OpTimeScaleMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFunction.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFunction.cs#L42)
 
 ```csharp
 ref float OpTimeScaleMin { get; }
@@ -192,7 +192,7 @@ ref float OpTimeScaleMin { get; }
 
 ### OpTimeScaleSeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFunction.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFunction.cs#L40)
 
 ```csharp
 ref int OpTimeScaleSeed { get; }

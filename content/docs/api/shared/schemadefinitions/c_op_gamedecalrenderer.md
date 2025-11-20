@@ -12,7 +12,7 @@ public interface C_OP_GameDecalRenderer : CParticleFunctionRenderer, CParticleFu
 
 ### CollisionGroup
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_GameDecalRenderer.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_GameDecalRenderer.cs#L24)
 
 ```csharp
 ref ParticleCollisionGroup_t CollisionGroup { get; }
@@ -24,7 +24,7 @@ ref ParticleCollisionGroup_t CollisionGroup { get; }
 
 ### DecalGroupIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_GameDecalRenderer.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_GameDecalRenderer.cs#L34)
 
 ```csharp
 CPerParticleFloatInput DecalGroupIndex { get; }
@@ -36,7 +36,7 @@ CPerParticleFloatInput DecalGroupIndex { get; }
 
 ### DecalGroupName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_GameDecalRenderer.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_GameDecalRenderer.cs#L18)
 
 ```csharp
 ref CGlobalSymbol DecalGroupName { get; }
@@ -48,7 +48,7 @@ ref CGlobalSymbol DecalGroupName { get; }
 
 ### DecalRotation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_GameDecalRenderer.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_GameDecalRenderer.cs#L36)
 
 ```csharp
 CPerParticleFloatInput DecalRotation { get; }
@@ -60,7 +60,7 @@ CPerParticleFloatInput DecalRotation { get; }
 
 ### DecalSize
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_GameDecalRenderer.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_GameDecalRenderer.cs#L32)
 
 ```csharp
 CPerParticleFloatInput DecalSize { get; }
@@ -72,7 +72,7 @@ CPerParticleFloatInput DecalSize { get; }
 
 ### EndPos
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_GameDecalRenderer.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_GameDecalRenderer.cs#L28)
 
 ```csharp
 CPerParticleVecInput EndPos { get; }
@@ -84,7 +84,7 @@ CPerParticleVecInput EndPos { get; }
 
 ### EventType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_GameDecalRenderer.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_GameDecalRenderer.cs#L20)
 
 ```csharp
 ref EventTypeSelection_t EventType { get; }
@@ -96,7 +96,7 @@ ref EventTypeSelection_t EventType { get; }
 
 ### InteractionMask
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_GameDecalRenderer.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_GameDecalRenderer.cs#L22)
 
 ```csharp
 ref ParticleCollisionMask_t InteractionMask { get; }
@@ -108,7 +108,7 @@ ref ParticleCollisionMask_t InteractionMask { get; }
 
 ### ModulationColor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_GameDecalRenderer.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_GameDecalRenderer.cs#L38)
 
 ```csharp
 CPerParticleVecInput ModulationColor { get; }
@@ -120,7 +120,7 @@ CPerParticleVecInput ModulationColor { get; }
 
 ### NoDecalsOnOwner
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_GameDecalRenderer.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_GameDecalRenderer.cs#L46)
 
 ```csharp
 ref bool NoDecalsOnOwner { get; }
@@ -132,7 +132,7 @@ ref bool NoDecalsOnOwner { get; }
 
 ### RandomDecalRotation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_GameDecalRenderer.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_GameDecalRenderer.cs#L42)
 
 ```csharp
 ref bool RandomDecalRotation { get; }
@@ -144,7 +144,7 @@ ref bool RandomDecalRotation { get; }
 
 ### RandomlySelectDecalInGroup
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_GameDecalRenderer.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_GameDecalRenderer.cs#L44)
 
 ```csharp
 ref bool RandomlySelectDecalInGroup { get; }
@@ -156,7 +156,7 @@ ref bool RandomlySelectDecalInGroup { get; }
 
 ### StartPos
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_GameDecalRenderer.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_GameDecalRenderer.cs#L26)
 
 ```csharp
 CPerParticleVecInput StartPos { get; }
@@ -168,7 +168,7 @@ CPerParticleVecInput StartPos { get; }
 
 ### TraceBloat
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_GameDecalRenderer.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_GameDecalRenderer.cs#L30)
 
 ```csharp
 CPerParticleFloatInput TraceBloat { get; }
@@ -180,7 +180,7 @@ CPerParticleFloatInput TraceBloat { get; }
 
 ### UseGameDefaultDecalSize
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_GameDecalRenderer.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_GameDecalRenderer.cs#L40)
 
 ```csharp
 ref bool UseGameDefaultDecalSize { get; }
@@ -192,7 +192,7 @@ ref bool UseGameDefaultDecalSize { get; }
 
 ### VisualizeTraces
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_GameDecalRenderer.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_GameDecalRenderer.cs#L48)
 
 ```csharp
 ref bool VisualizeTraces { get; }

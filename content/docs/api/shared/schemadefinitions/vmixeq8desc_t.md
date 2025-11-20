@@ -12,7 +12,7 @@ public interface VMixEQ8Desc_t : ISchemaClass<VMixEQ8Desc_t>, ISchemaField, ISch
 
 ### Stages
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixEQ8Desc_t.cs#L18)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixEQ8Desc_t.cs#L19)
 
 ```csharp
 SchemaUntypedField Stages { get; }

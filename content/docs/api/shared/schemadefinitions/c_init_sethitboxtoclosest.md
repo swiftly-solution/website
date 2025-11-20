@@ -12,7 +12,7 @@ public interface C_INIT_SetHitboxToClosest : CParticleFunctionInitializer, CPart
 
 ### ControlPointNumber
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToClosest.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToClosest.cs#L18)
 
 ```csharp
 ref int ControlPointNumber { get; }
@@ -24,7 +24,7 @@ ref int ControlPointNumber { get; }
 
 ### DesiredHitbox
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToClosest.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToClosest.cs#L20)
 
 ```csharp
 ref int DesiredHitbox { get; }
@@ -36,7 +36,7 @@ ref int DesiredHitbox { get; }
 
 ### HitBoxScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToClosest.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToClosest.cs#L22)
 
 ```csharp
 CParticleCollectionVecInput HitBoxScale { get; }
@@ -48,7 +48,7 @@ CParticleCollectionVecInput HitBoxScale { get; }
 
 ### HitboxSetName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToClosest.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToClosest.cs#L24)
 
 ```csharp
 string HitboxSetName { get; set; }
@@ -60,7 +60,7 @@ string HitboxSetName { get; set; }
 
 ### HybridRatio
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToClosest.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToClosest.cs#L32)
 
 ```csharp
 CParticleCollectionFloatInput HybridRatio { get; }
@@ -72,7 +72,7 @@ CParticleCollectionFloatInput HybridRatio { get; }
 
 ### TestType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToClosest.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToClosest.cs#L30)
 
 ```csharp
 ref ClosestPointTestType_t TestType { get; }
@@ -84,7 +84,7 @@ ref ClosestPointTestType_t TestType { get; }
 
 ### UpdatePosition
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToClosest.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToClosest.cs#L34)
 
 ```csharp
 ref bool UpdatePosition { get; }
@@ -96,7 +96,7 @@ ref bool UpdatePosition { get; }
 
 ### UseBones
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToClosest.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToClosest.cs#L26)
 
 ```csharp
 ref bool UseBones { get; }
@@ -108,7 +108,7 @@ ref bool UseBones { get; }
 
 ### UseClosestPointOnHitbox
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToClosest.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToClosest.cs#L28)
 
 ```csharp
 ref bool UseClosestPointOnHitbox { get; }

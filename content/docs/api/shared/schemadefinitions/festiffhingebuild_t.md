@@ -12,7 +12,7 @@ public interface FeStiffHingeBuild_t : ISchemaClass<FeStiffHingeBuild_t>, ISchem
 
 ### MaxAngle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeStiffHingeBuild_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeStiffHingeBuild_t.cs#L18)
 
 ```csharp
 ref float MaxAngle { get; }
@@ -24,7 +24,7 @@ ref float MaxAngle { get; }
 
 ### MotionBias
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeStiffHingeBuild_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeStiffHingeBuild_t.cs#L22)
 
 ```csharp
 ISchemaFixedArray<float> MotionBias { get; }
@@ -36,7 +36,7 @@ ISchemaFixedArray<float> MotionBias { get; }
 
 ### Node
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeStiffHingeBuild_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeStiffHingeBuild_t.cs#L24)
 
 ```csharp
 ISchemaFixedArray<ushort> Node { get; }
@@ -48,7 +48,7 @@ ISchemaFixedArray<ushort> Node { get; }
 
 ### Strength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeStiffHingeBuild_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeStiffHingeBuild_t.cs#L20)
 
 ```csharp
 ref float Strength { get; }

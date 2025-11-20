@@ -12,7 +12,7 @@ public interface C_OP_ColorInterpolate : CParticleFunctionOperator, CParticleFun
 
 ### ColorFade
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ColorInterpolate.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ColorInterpolate.cs#L18)
 
 ```csharp
 ref Color ColorFade { get; }
@@ -24,7 +24,7 @@ ref Color ColorFade { get; }
 
 ### EaseInOut
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ColorInterpolate.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ColorInterpolate.cs#L26)
 
 ```csharp
 ref bool EaseInOut { get; }
@@ -36,7 +36,7 @@ ref bool EaseInOut { get; }
 
 ### FadeEndTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ColorInterpolate.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ColorInterpolate.cs#L22)
 
 ```csharp
 ref float FadeEndTime { get; }
@@ -48,7 +48,7 @@ ref float FadeEndTime { get; }
 
 ### FadeStartTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ColorInterpolate.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ColorInterpolate.cs#L20)
 
 ```csharp
 ref float FadeStartTime { get; }
@@ -60,7 +60,7 @@ ref float FadeStartTime { get; }
 
 ### FieldOutput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ColorInterpolate.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ColorInterpolate.cs#L24)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }

@@ -12,7 +12,7 @@ public interface CNmClip__ModelSpaceSamplingChainLink_t : ISchemaClass<CNmClip__
 
 ### BoneIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClip__ModelSpaceSamplingChainLink_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClip__ModelSpaceSamplingChainLink_t.cs#L18)
 
 ```csharp
 ref int BoneIdx { get; }
@@ -24,7 +24,7 @@ ref int BoneIdx { get; }
 
 ### ParentBoneIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClip__ModelSpaceSamplingChainLink_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClip__ModelSpaceSamplingChainLink_t.cs#L20)
 
 ```csharp
 ref int ParentBoneIdx { get; }
@@ -36,7 +36,7 @@ ref int ParentBoneIdx { get; }
 
 ### ParentChainLinkIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClip__ModelSpaceSamplingChainLink_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClip__ModelSpaceSamplingChainLink_t.cs#L22)
 
 ```csharp
 ref int ParentChainLinkIdx { get; }

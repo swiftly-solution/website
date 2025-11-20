@@ -12,7 +12,7 @@ public interface VMixDualCompressorDesc_t : ISchemaClass<VMixDualCompressorDesc_
 
 ### BandDesc
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDualCompressorDesc_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDualCompressorDesc_t.cs#L26)
 
 ```csharp
 VMixDynamicsBand_t BandDesc { get; }
@@ -24,7 +24,7 @@ VMixDynamicsBand_t BandDesc { get; }
 
 ### FldbKneeWidth
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDualCompressorDesc_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDualCompressorDesc_t.cs#L20)
 
 ```csharp
 ref float FldbKneeWidth { get; }
@@ -36,7 +36,7 @@ ref float FldbKneeWidth { get; }
 
 ### PeakMode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDualCompressorDesc_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDualCompressorDesc_t.cs#L24)
 
 ```csharp
 ref bool PeakMode { get; }
@@ -48,7 +48,7 @@ ref bool PeakMode { get; }
 
 ### RMSTimeMS
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDualCompressorDesc_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDualCompressorDesc_t.cs#L18)
 
 ```csharp
 ref float RMSTimeMS { get; }
@@ -60,7 +60,7 @@ ref float RMSTimeMS { get; }
 
 ### WetMix
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDualCompressorDesc_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDualCompressorDesc_t.cs#L22)
 
 ```csharp
 ref float WetMix { get; }

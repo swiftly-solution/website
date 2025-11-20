@@ -12,7 +12,7 @@ public interface VelocitySampler : ISchemaClass<VelocitySampler>, ISchemaField, 
 
 ### IdealSampleRate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VelocitySampler.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VelocitySampler.cs#L22)
 
 ```csharp
 ref float IdealSampleRate { get; }
@@ -24,7 +24,7 @@ ref float IdealSampleRate { get; }
 
 ### PrevSample
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VelocitySampler.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VelocitySampler.cs#L18)
 
 ```csharp
 ref Vector PrevSample { get; }
@@ -36,7 +36,7 @@ ref Vector PrevSample { get; }
 
 ### PrevSampleTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VelocitySampler.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VelocitySampler.cs#L20)
 
 ```csharp
 GameTime_t PrevSampleTime { get; }

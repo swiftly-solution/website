@@ -12,7 +12,7 @@ public interface CCitadelSoundOpvarSetOBB : CBaseEntity, CEntityInstance, ISchem
 
 ### AABBDirection
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCitadelSoundOpvarSetOBB.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCitadelSoundOpvarSetOBB.cs#L32)
 
 ```csharp
 ref int AABBDirection { get; }
@@ -24,7 +24,7 @@ ref int AABBDirection { get; }
 
 ### DistanceInnerMaxs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCitadelSoundOpvarSetOBB.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCitadelSoundOpvarSetOBB.cs#L26)
 
 ```csharp
 ref Vector DistanceInnerMaxs { get; }
@@ -36,7 +36,7 @@ ref Vector DistanceInnerMaxs { get; }
 
 ### DistanceInnerMins
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCitadelSoundOpvarSetOBB.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCitadelSoundOpvarSetOBB.cs#L24)
 
 ```csharp
 ref Vector DistanceInnerMins { get; }
@@ -48,7 +48,7 @@ ref Vector DistanceInnerMins { get; }
 
 ### DistanceOuterMaxs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCitadelSoundOpvarSetOBB.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCitadelSoundOpvarSetOBB.cs#L30)
 
 ```csharp
 ref Vector DistanceOuterMaxs { get; }
@@ -60,7 +60,7 @@ ref Vector DistanceOuterMaxs { get; }
 
 ### DistanceOuterMins
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCitadelSoundOpvarSetOBB.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCitadelSoundOpvarSetOBB.cs#L28)
 
 ```csharp
 ref Vector DistanceOuterMins { get; }
@@ -72,7 +72,7 @@ ref Vector DistanceOuterMins { get; }
 
 ### OperatorName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCitadelSoundOpvarSetOBB.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCitadelSoundOpvarSetOBB.cs#L20)
 
 ```csharp
 string OperatorName { get; set; }
@@ -84,7 +84,7 @@ string OperatorName { get; set; }
 
 ### OpvarName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCitadelSoundOpvarSetOBB.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCitadelSoundOpvarSetOBB.cs#L22)
 
 ```csharp
 string OpvarName { get; set; }
@@ -96,7 +96,7 @@ string OpvarName { get; set; }
 
 ### StackName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCitadelSoundOpvarSetOBB.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCitadelSoundOpvarSetOBB.cs#L18)
 
 ```csharp
 string StackName { get; set; }
@@ -110,7 +110,7 @@ string StackName { get; set; }
 
 ### AABBDirectionUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCitadelSoundOpvarSetOBB.cs#L40)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCitadelSoundOpvarSetOBB.cs#L41)
 
 ```csharp
 void AABBDirectionUpdated()
@@ -118,7 +118,7 @@ void AABBDirectionUpdated()
 
 ### DistanceInnerMaxsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCitadelSoundOpvarSetOBB.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCitadelSoundOpvarSetOBB.cs#L38)
 
 ```csharp
 void DistanceInnerMaxsUpdated()
@@ -126,7 +126,7 @@ void DistanceInnerMaxsUpdated()
 
 ### DistanceInnerMinsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCitadelSoundOpvarSetOBB.cs#L36)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCitadelSoundOpvarSetOBB.cs#L37)
 
 ```csharp
 void DistanceInnerMinsUpdated()
@@ -134,7 +134,7 @@ void DistanceInnerMinsUpdated()
 
 ### DistanceOuterMaxsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCitadelSoundOpvarSetOBB.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCitadelSoundOpvarSetOBB.cs#L40)
 
 ```csharp
 void DistanceOuterMaxsUpdated()
@@ -142,7 +142,7 @@ void DistanceOuterMaxsUpdated()
 
 ### DistanceOuterMinsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCitadelSoundOpvarSetOBB.cs#L38)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCitadelSoundOpvarSetOBB.cs#L39)
 
 ```csharp
 void DistanceOuterMinsUpdated()
@@ -150,7 +150,7 @@ void DistanceOuterMinsUpdated()
 
 ### OperatorNameUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCitadelSoundOpvarSetOBB.cs#L34)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCitadelSoundOpvarSetOBB.cs#L35)
 
 ```csharp
 void OperatorNameUpdated()
@@ -158,7 +158,7 @@ void OperatorNameUpdated()
 
 ### OpvarNameUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCitadelSoundOpvarSetOBB.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCitadelSoundOpvarSetOBB.cs#L36)
 
 ```csharp
 void OpvarNameUpdated()
@@ -166,7 +166,7 @@ void OpvarNameUpdated()
 
 ### StackNameUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCitadelSoundOpvarSetOBB.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCitadelSoundOpvarSetOBB.cs#L34)
 
 ```csharp
 void StackNameUpdated()

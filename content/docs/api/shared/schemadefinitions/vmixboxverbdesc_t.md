@@ -12,7 +12,7 @@ public interface VMixBoxverbDesc_t : ISchemaClass<VMixBoxverbDesc_t>, ISchemaFie
 
 ### Complexity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixBoxverbDesc_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixBoxverbDesc_t.cs#L22)
 
 ```csharp
 ref float Complexity { get; }
@@ -24,7 +24,7 @@ ref float Complexity { get; }
 
 ### Depth
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixBoxverbDesc_t.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixBoxverbDesc_t.cs#L38)
 
 ```csharp
 ref float Depth { get; }
@@ -36,7 +36,7 @@ ref float Depth { get; }
 
 ### Diffusion
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixBoxverbDesc_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixBoxverbDesc_t.cs#L24)
 
 ```csharp
 ref float Diffusion { get; }
@@ -48,7 +48,7 @@ ref float Diffusion { get; }
 
 ### FeedbackDepth
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixBoxverbDesc_t.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixBoxverbDesc_t.cs#L46)
 
 ```csharp
 ref float FeedbackDepth { get; }
@@ -60,7 +60,7 @@ ref float FeedbackDepth { get; }
 
 ### FeedbackHeight
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixBoxverbDesc_t.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixBoxverbDesc_t.cs#L44)
 
 ```csharp
 ref float FeedbackHeight { get; }
@@ -72,7 +72,7 @@ ref float FeedbackHeight { get; }
 
 ### FeedbackScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixBoxverbDesc_t.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixBoxverbDesc_t.cs#L40)
 
 ```csharp
 ref float FeedbackScale { get; }
@@ -84,7 +84,7 @@ ref float FeedbackScale { get; }
 
 ### FeedbackWidth
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixBoxverbDesc_t.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixBoxverbDesc_t.cs#L42)
 
 ```csharp
 ref float FeedbackWidth { get; }
@@ -96,7 +96,7 @@ ref float FeedbackWidth { get; }
 
 ### FilterType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixBoxverbDesc_t.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixBoxverbDesc_t.cs#L32)
 
 ```csharp
 VMixFilterDesc_t FilterType { get; }
@@ -108,7 +108,7 @@ VMixFilterDesc_t FilterType { get; }
 
 ### Height
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixBoxverbDesc_t.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixBoxverbDesc_t.cs#L36)
 
 ```csharp
 ref float Height { get; }
@@ -120,7 +120,7 @@ ref float Height { get; }
 
 ### ModDepth
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixBoxverbDesc_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixBoxverbDesc_t.cs#L26)
 
 ```csharp
 ref float ModDepth { get; }
@@ -132,7 +132,7 @@ ref float ModDepth { get; }
 
 ### ModRate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixBoxverbDesc_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixBoxverbDesc_t.cs#L28)
 
 ```csharp
 ref float ModRate { get; }
@@ -144,7 +144,7 @@ ref float ModRate { get; }
 
 ### OutputGain
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixBoxverbDesc_t.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixBoxverbDesc_t.cs#L48)
 
 ```csharp
 ref float OutputGain { get; }
@@ -156,7 +156,7 @@ ref float OutputGain { get; }
 
 ### Parallel
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixBoxverbDesc_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixBoxverbDesc_t.cs#L30)
 
 ```csharp
 ref bool Parallel { get; }
@@ -168,7 +168,7 @@ ref bool Parallel { get; }
 
 ### SizeMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixBoxverbDesc_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixBoxverbDesc_t.cs#L18)
 
 ```csharp
 ref float SizeMax { get; }
@@ -180,7 +180,7 @@ ref float SizeMax { get; }
 
 ### SizeMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixBoxverbDesc_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixBoxverbDesc_t.cs#L20)
 
 ```csharp
 ref float SizeMin { get; }
@@ -192,7 +192,7 @@ ref float SizeMin { get; }
 
 ### Taps
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixBoxverbDesc_t.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixBoxverbDesc_t.cs#L50)
 
 ```csharp
 ref float Taps { get; }
@@ -204,7 +204,7 @@ ref float Taps { get; }
 
 ### Width
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixBoxverbDesc_t.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixBoxverbDesc_t.cs#L34)
 
 ```csharp
 ref float Width { get; }

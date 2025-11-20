@@ -12,7 +12,7 @@ public interface BakedLightingInfo_t : ISchemaClass<BakedLightingInfo_t>, ISchem
 
 ### BakedShadows
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BakedLightingInfo_t.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BakedLightingInfo_t.cs#L38)
 
 ```csharp
 ref CUtlVector<BakedLightingInfo_t__BakedShadowAssignment_t> BakedShadows { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<BakedLightingInfo_t__BakedShadowAssignment_t> BakedShadows { get;
 
 ### BakedShadowsGamma20
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BakedLightingInfo_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BakedLightingInfo_t.cs#L26)
 
 ```csharp
 ref bool BakedShadowsGamma20 { get; }
@@ -36,7 +36,7 @@ ref bool BakedShadowsGamma20 { get; }
 
 ### ChartPackIterations
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BakedLightingInfo_t.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BakedLightingInfo_t.cs#L32)
 
 ```csharp
 ref byte ChartPackIterations { get; }
@@ -48,7 +48,7 @@ ref byte ChartPackIterations { get; }
 
 ### CompressionEnabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BakedLightingInfo_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BakedLightingInfo_t.cs#L28)
 
 ```csharp
 ref bool CompressionEnabled { get; }
@@ -60,7 +60,7 @@ ref bool CompressionEnabled { get; }
 
 ### HasLightmaps
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BakedLightingInfo_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BakedLightingInfo_t.cs#L24)
 
 ```csharp
 ref bool HasLightmaps { get; }
@@ -72,7 +72,7 @@ ref bool HasLightmaps { get; }
 
 ### LightMaps
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BakedLightingInfo_t.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BakedLightingInfo_t.cs#L36)
 
 ```csharp
 ref CUtlVector<CStrongHandle<InfoForResourceTypeCTextureBase>> LightMaps { get; }
@@ -84,7 +84,7 @@ ref CUtlVector<CStrongHandle<InfoForResourceTypeCTextureBase>> LightMaps { get; 
 
 ### LightmapGameVersionNumber
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BakedLightingInfo_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BakedLightingInfo_t.cs#L20)
 
 ```csharp
 ref uint LightmapGameVersionNumber { get; }
@@ -96,7 +96,7 @@ ref uint LightmapGameVersionNumber { get; }
 
 ### LightmapUvScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BakedLightingInfo_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BakedLightingInfo_t.cs#L22)
 
 ```csharp
 ref Vector2D LightmapUvScale { get; }
@@ -108,7 +108,7 @@ ref Vector2D LightmapUvScale { get; }
 
 ### LightmapVersionNumber
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BakedLightingInfo_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BakedLightingInfo_t.cs#L18)
 
 ```csharp
 ref uint LightmapVersionNumber { get; }
@@ -120,7 +120,7 @@ ref uint LightmapVersionNumber { get; }
 
 ### SHLightmaps
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BakedLightingInfo_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BakedLightingInfo_t.cs#L30)
 
 ```csharp
 ref bool SHLightmaps { get; }
@@ -132,7 +132,7 @@ ref bool SHLightmaps { get; }
 
 ### VradQuality
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BakedLightingInfo_t.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BakedLightingInfo_t.cs#L34)
 
 ```csharp
 ref byte VradQuality { get; }

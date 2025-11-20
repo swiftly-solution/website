@@ -12,7 +12,7 @@ public interface CPointEntityFinder : CBaseEntity, CEntityInstance, ISchemaClass
 
 ### Entity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointEntityFinder.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointEntityFinder.cs#L18)
 
 ```csharp
 ref CHandle<CBaseEntity> Entity { get; }
@@ -24,7 +24,7 @@ ref CHandle<CBaseEntity> Entity { get; }
 
 ### Filter
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointEntityFinder.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointEntityFinder.cs#L22)
 
 ```csharp
 ref CHandle<CBaseFilter> Filter { get; }
@@ -36,7 +36,7 @@ ref CHandle<CBaseFilter> Filter { get; }
 
 ### FilterName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointEntityFinder.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointEntityFinder.cs#L20)
 
 ```csharp
 string FilterName { get; set; }
@@ -48,7 +48,7 @@ string FilterName { get; set; }
 
 ### FindMethod
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointEntityFinder.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointEntityFinder.cs#L28)
 
 ```csharp
 ref EntFinderMethod_t FindMethod { get; }
@@ -60,7 +60,7 @@ ref EntFinderMethod_t FindMethod { get; }
 
 ### OnFoundEntity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointEntityFinder.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointEntityFinder.cs#L30)
 
 ```csharp
 CEntityIOOutput OnFoundEntity { get; }
@@ -72,7 +72,7 @@ CEntityIOOutput OnFoundEntity { get; }
 
 ### RefName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointEntityFinder.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointEntityFinder.cs#L24)
 
 ```csharp
 string RefName { get; set; }
@@ -84,7 +84,7 @@ string RefName { get; set; }
 
 ### Reference
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointEntityFinder.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointEntityFinder.cs#L26)
 
 ```csharp
 ref CHandle<CBaseEntity> Reference { get; }

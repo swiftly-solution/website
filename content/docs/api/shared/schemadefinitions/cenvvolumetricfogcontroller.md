@@ -12,7 +12,7 @@ public interface CEnvVolumetricFogController : CBaseEntity, CEntityInstance, ISc
 
 ### Active
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L48)
 
 ```csharp
 ref bool Active { get; }
@@ -24,7 +24,7 @@ ref bool Active { get; }
 
 ### Anisotropy
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L22)
 
 ```csharp
 ref float Anisotropy { get; }
@@ -36,7 +36,7 @@ ref float Anisotropy { get; }
 
 ### BoxMaxs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L46)
 
 ```csharp
 ref Vector BoxMaxs { get; }
@@ -48,7 +48,7 @@ ref Vector BoxMaxs { get; }
 
 ### BoxMins
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L44)
 
 ```csharp
 ref Vector BoxMins { get; }
@@ -60,7 +60,7 @@ ref Vector BoxMins { get; }
 
 ### DefaultAnisotropy
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L62)
 
 ```csharp
 ref float DefaultAnisotropy { get; }
@@ -72,7 +72,7 @@ ref float DefaultAnisotropy { get; }
 
 ### DefaultDrawDistance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L65)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L66)
 
 ```csharp
 ref float DefaultDrawDistance { get; }
@@ -84,7 +84,7 @@ ref float DefaultDrawDistance { get; }
 
 ### DefaultScattering
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L64)
 
 ```csharp
 ref float DefaultScattering { get; }
@@ -96,7 +96,7 @@ ref float DefaultScattering { get; }
 
 ### DrawDistance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L26)
 
 ```csharp
 ref float DrawDistance { get; }
@@ -108,7 +108,7 @@ ref float DrawDistance { get; }
 
 ### EnableIndirect
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L69)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L70)
 
 ```csharp
 ref bool EnableIndirect { get; }
@@ -120,7 +120,7 @@ ref bool EnableIndirect { get; }
 
 ### FadeInEnd
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L30)
 
 ```csharp
 ref float FadeInEnd { get; }
@@ -132,7 +132,7 @@ ref float FadeInEnd { get; }
 
 ### FadeInStart
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L28)
 
 ```csharp
 ref float FadeInStart { get; }
@@ -144,7 +144,7 @@ ref float FadeInStart { get; }
 
 ### FadeSpeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L24)
 
 ```csharp
 ref float FadeSpeed { get; }
@@ -156,7 +156,7 @@ ref float FadeSpeed { get; }
 
 ### FirstTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L87)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L88)
 
 ```csharp
 ref bool FirstTime { get; }
@@ -168,7 +168,7 @@ ref bool FirstTime { get; }
 
 ### FirstVolumeSliceThickness
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L36)
 
 ```csharp
 ref float FirstVolumeSliceThickness { get; }
@@ -180,7 +180,7 @@ ref float FirstVolumeSliceThickness { get; }
 
 ### FogIndirectTexture
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L73)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L74)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCTextureBase> FogIndirectTexture { get; }
@@ -192,7 +192,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> FogIndirectTexture { get; }
 
 ### ForceRefreshCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L75)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L76)
 
 ```csharp
 ref int ForceRefreshCount { get; }
@@ -204,7 +204,7 @@ ref int ForceRefreshCount { get; }
 
 ### IndirectStrength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L32)
 
 ```csharp
 ref float IndirectStrength { get; }
@@ -216,7 +216,7 @@ ref float IndirectStrength { get; }
 
 ### IndirectTextureDimX
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L38)
 
 ```csharp
 ref int IndirectTextureDimX { get; }
@@ -228,7 +228,7 @@ ref int IndirectTextureDimX { get; }
 
 ### IndirectTextureDimY
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L40)
 
 ```csharp
 ref int IndirectTextureDimY { get; }
@@ -240,7 +240,7 @@ ref int IndirectTextureDimY { get; }
 
 ### IndirectTextureDimZ
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L42)
 
 ```csharp
 ref int IndirectTextureDimZ { get; }
@@ -252,7 +252,7 @@ ref int IndirectTextureDimZ { get; }
 
 ### IsMaster
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L71)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L72)
 
 ```csharp
 ref bool IsMaster { get; }
@@ -264,7 +264,7 @@ ref bool IsMaster { get; }
 
 ### NoiseScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L81)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L82)
 
 ```csharp
 ref Vector NoiseScale { get; }
@@ -276,7 +276,7 @@ ref Vector NoiseScale { get; }
 
 ### NoiseSpeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L77)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L78)
 
 ```csharp
 ref float NoiseSpeed { get; }
@@ -288,7 +288,7 @@ ref float NoiseSpeed { get; }
 
 ### NoiseStrength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L79)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L80)
 
 ```csharp
 ref float NoiseStrength { get; }
@@ -300,7 +300,7 @@ ref float NoiseStrength { get; }
 
 ### Scattering
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L18)
 
 ```csharp
 ref float Scattering { get; }
@@ -312,7 +312,7 @@ ref float Scattering { get; }
 
 ### StartAnisoTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L50)
 
 ```csharp
 GameTime_t StartAnisoTime { get; }
@@ -324,7 +324,7 @@ GameTime_t StartAnisoTime { get; }
 
 ### StartAnisotropy
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L56)
 
 ```csharp
 ref float StartAnisotropy { get; }
@@ -336,7 +336,7 @@ ref float StartAnisotropy { get; }
 
 ### StartDisabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L67)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L68)
 
 ```csharp
 ref bool StartDisabled { get; }
@@ -348,7 +348,7 @@ ref bool StartDisabled { get; }
 
 ### StartDrawDistance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L60)
 
 ```csharp
 ref float StartDrawDistance { get; }
@@ -360,7 +360,7 @@ ref float StartDrawDistance { get; }
 
 ### StartDrawDistanceTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L54)
 
 ```csharp
 GameTime_t StartDrawDistanceTime { get; }
@@ -372,7 +372,7 @@ GameTime_t StartDrawDistanceTime { get; }
 
 ### StartScatterTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L52)
 
 ```csharp
 GameTime_t StartScatterTime { get; }
@@ -384,7 +384,7 @@ GameTime_t StartScatterTime { get; }
 
 ### StartScattering
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L58)
 
 ```csharp
 ref float StartScattering { get; }
@@ -396,7 +396,7 @@ ref float StartScattering { get; }
 
 ### TintColor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L20)
 
 ```csharp
 ref Color TintColor { get; }
@@ -408,7 +408,7 @@ ref Color TintColor { get; }
 
 ### VolumeDepth
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L34)
 
 ```csharp
 ref int VolumeDepth { get; }
@@ -420,7 +420,7 @@ ref int VolumeDepth { get; }
 
 ### WindDirection
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L85)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L86)
 
 ```csharp
 ref Vector WindDirection { get; }
@@ -432,7 +432,7 @@ ref Vector WindDirection { get; }
 
 ### WindSpeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L83)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L84)
 
 ```csharp
 ref float WindSpeed { get; }
@@ -446,7 +446,7 @@ ref float WindSpeed { get; }
 
 ### ActiveUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L104)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L105)
 
 ```csharp
 void ActiveUpdated()
@@ -454,7 +454,7 @@ void ActiveUpdated()
 
 ### AnisotropyUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L91)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L92)
 
 ```csharp
 void AnisotropyUpdated()
@@ -462,7 +462,7 @@ void AnisotropyUpdated()
 
 ### BoxMaxsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L103)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L104)
 
 ```csharp
 void BoxMaxsUpdated()
@@ -470,7 +470,7 @@ void BoxMaxsUpdated()
 
 ### BoxMinsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L102)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L103)
 
 ```csharp
 void BoxMinsUpdated()
@@ -478,7 +478,7 @@ void BoxMinsUpdated()
 
 ### DefaultAnisotropyUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L111)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L112)
 
 ```csharp
 void DefaultAnisotropyUpdated()
@@ -486,7 +486,7 @@ void DefaultAnisotropyUpdated()
 
 ### DefaultDrawDistanceUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L113)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L114)
 
 ```csharp
 void DefaultDrawDistanceUpdated()
@@ -494,7 +494,7 @@ void DefaultDrawDistanceUpdated()
 
 ### DefaultScatteringUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L112)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L113)
 
 ```csharp
 void DefaultScatteringUpdated()
@@ -502,7 +502,7 @@ void DefaultScatteringUpdated()
 
 ### DrawDistanceUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L93)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L94)
 
 ```csharp
 void DrawDistanceUpdated()
@@ -510,7 +510,7 @@ void DrawDistanceUpdated()
 
 ### EnableIndirectUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L115)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L116)
 
 ```csharp
 void EnableIndirectUpdated()
@@ -518,7 +518,7 @@ void EnableIndirectUpdated()
 
 ### FadeInEndUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L95)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L96)
 
 ```csharp
 void FadeInEndUpdated()
@@ -526,7 +526,7 @@ void FadeInEndUpdated()
 
 ### FadeInStartUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L94)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L95)
 
 ```csharp
 void FadeInStartUpdated()
@@ -534,7 +534,7 @@ void FadeInStartUpdated()
 
 ### FadeSpeedUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L92)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L93)
 
 ```csharp
 void FadeSpeedUpdated()
@@ -542,7 +542,7 @@ void FadeSpeedUpdated()
 
 ### FirstVolumeSliceThicknessUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L98)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L99)
 
 ```csharp
 void FirstVolumeSliceThicknessUpdated()
@@ -550,7 +550,7 @@ void FirstVolumeSliceThicknessUpdated()
 
 ### FogIndirectTextureUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L117)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L118)
 
 ```csharp
 void FogIndirectTextureUpdated()
@@ -558,7 +558,7 @@ void FogIndirectTextureUpdated()
 
 ### ForceRefreshCountUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L118)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L119)
 
 ```csharp
 void ForceRefreshCountUpdated()
@@ -566,7 +566,7 @@ void ForceRefreshCountUpdated()
 
 ### IndirectStrengthUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L96)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L97)
 
 ```csharp
 void IndirectStrengthUpdated()
@@ -574,7 +574,7 @@ void IndirectStrengthUpdated()
 
 ### IndirectTextureDimXUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L99)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L100)
 
 ```csharp
 void IndirectTextureDimXUpdated()
@@ -582,7 +582,7 @@ void IndirectTextureDimXUpdated()
 
 ### IndirectTextureDimYUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L100)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L101)
 
 ```csharp
 void IndirectTextureDimYUpdated()
@@ -590,7 +590,7 @@ void IndirectTextureDimYUpdated()
 
 ### IndirectTextureDimZUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L101)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L102)
 
 ```csharp
 void IndirectTextureDimZUpdated()
@@ -598,7 +598,7 @@ void IndirectTextureDimZUpdated()
 
 ### IsMasterUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L116)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L117)
 
 ```csharp
 void IsMasterUpdated()
@@ -606,7 +606,7 @@ void IsMasterUpdated()
 
 ### NoiseScaleUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L121)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L122)
 
 ```csharp
 void NoiseScaleUpdated()
@@ -614,7 +614,7 @@ void NoiseScaleUpdated()
 
 ### NoiseSpeedUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L119)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L120)
 
 ```csharp
 void NoiseSpeedUpdated()
@@ -622,7 +622,7 @@ void NoiseSpeedUpdated()
 
 ### NoiseStrengthUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L120)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L121)
 
 ```csharp
 void NoiseStrengthUpdated()
@@ -630,7 +630,7 @@ void NoiseStrengthUpdated()
 
 ### ScatteringUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L89)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L90)
 
 ```csharp
 void ScatteringUpdated()
@@ -638,7 +638,7 @@ void ScatteringUpdated()
 
 ### StartAnisoTimeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L105)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L106)
 
 ```csharp
 void StartAnisoTimeUpdated()
@@ -646,7 +646,7 @@ void StartAnisoTimeUpdated()
 
 ### StartAnisotropyUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L108)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L109)
 
 ```csharp
 void StartAnisotropyUpdated()
@@ -654,7 +654,7 @@ void StartAnisotropyUpdated()
 
 ### StartDisabledUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L114)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L115)
 
 ```csharp
 void StartDisabledUpdated()
@@ -662,7 +662,7 @@ void StartDisabledUpdated()
 
 ### StartDrawDistanceTimeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L107)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L108)
 
 ```csharp
 void StartDrawDistanceTimeUpdated()
@@ -670,7 +670,7 @@ void StartDrawDistanceTimeUpdated()
 
 ### StartDrawDistanceUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L110)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L111)
 
 ```csharp
 void StartDrawDistanceUpdated()
@@ -678,7 +678,7 @@ void StartDrawDistanceUpdated()
 
 ### StartScatterTimeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L106)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L107)
 
 ```csharp
 void StartScatterTimeUpdated()
@@ -686,7 +686,7 @@ void StartScatterTimeUpdated()
 
 ### StartScatteringUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L109)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L110)
 
 ```csharp
 void StartScatteringUpdated()
@@ -694,7 +694,7 @@ void StartScatteringUpdated()
 
 ### TintColorUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L90)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L91)
 
 ```csharp
 void TintColorUpdated()
@@ -702,7 +702,7 @@ void TintColorUpdated()
 
 ### VolumeDepthUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L97)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L98)
 
 ```csharp
 void VolumeDepthUpdated()
@@ -710,7 +710,7 @@ void VolumeDepthUpdated()
 
 ### WindDirectionUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L123)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L124)
 
 ```csharp
 void WindDirectionUpdated()
@@ -718,7 +718,7 @@ void WindDirectionUpdated()
 
 ### WindSpeedUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L122)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvVolumetricFogController.cs#L123)
 
 ```csharp
 void WindSpeedUpdated()

@@ -12,7 +12,7 @@ public interface CPhysConstraint : CLogicalEntity, CServerOnlyEntity, CBaseEntit
 
 ### Attach1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L22)
 
 ```csharp
 ref CHandle<CBaseEntity> Attach1 { get; }
@@ -24,7 +24,7 @@ ref CHandle<CBaseEntity> Attach1 { get; }
 
 ### Attach2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L24)
 
 ```csharp
 ref CHandle<CBaseEntity> Attach2 { get; }
@@ -36,7 +36,7 @@ ref CHandle<CBaseEntity> Attach2 { get; }
 
 ### BreakSound
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L30)
 
 ```csharp
 string BreakSound { get; set; }
@@ -48,7 +48,7 @@ string BreakSound { get; set; }
 
 ### ForceLimit
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L32)
 
 ```csharp
 ref float ForceLimit { get; }
@@ -60,7 +60,7 @@ ref float ForceLimit { get; }
 
 ### MinTeleportDistance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L36)
 
 ```csharp
 ref float MinTeleportDistance { get; }
@@ -72,7 +72,7 @@ ref float MinTeleportDistance { get; }
 
 ### NameAttach1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L18)
 
 ```csharp
 string NameAttach1 { get; set; }
@@ -84,7 +84,7 @@ string NameAttach1 { get; set; }
 
 ### NameAttach2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L20)
 
 ```csharp
 string NameAttach2 { get; set; }
@@ -96,7 +96,7 @@ string NameAttach2 { get; set; }
 
 ### NameAttachment1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L26)
 
 ```csharp
 string NameAttachment1 { get; set; }
@@ -108,7 +108,7 @@ string NameAttachment1 { get; set; }
 
 ### NameAttachment2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L28)
 
 ```csharp
 string NameAttachment2 { get; set; }
@@ -120,7 +120,7 @@ string NameAttachment2 { get; set; }
 
 ### OnBreak
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L42)
 
 ```csharp
 CEntityIOOutput OnBreak { get; }
@@ -132,7 +132,7 @@ CEntityIOOutput OnBreak { get; }
 
 ### SnapObjectPositions
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L38)
 
 ```csharp
 ref bool SnapObjectPositions { get; }
@@ -144,7 +144,7 @@ ref bool SnapObjectPositions { get; }
 
 ### TorqueLimit
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L34)
 
 ```csharp
 ref float TorqueLimit { get; }
@@ -156,7 +156,7 @@ ref float TorqueLimit { get; }
 
 ### TreatEntity1AsInfiniteMass
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L40)
 
 ```csharp
 ref bool TreatEntity1AsInfiniteMass { get; }

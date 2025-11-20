@@ -12,7 +12,7 @@ public interface CAttachment : ISchemaClass<CAttachment>, ISchemaField, ISchemaC
 
 ### IgnoreRotation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttachment.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttachment.cs#L32)
 
 ```csharp
 ref bool IgnoreRotation { get; }
@@ -24,7 +24,7 @@ ref bool IgnoreRotation { get; }
 
 ### InfluenceNames
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttachment.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttachment.cs#L20)
 
 ```csharp
 string InfluenceNames { get; set; }
@@ -36,7 +36,7 @@ string InfluenceNames { get; set; }
 
 ### InfluenceOffsets
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttachment.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttachment.cs#L24)
 
 ```csharp
 ISchemaFixedArray<Vector> InfluenceOffsets { get; }
@@ -48,7 +48,7 @@ ISchemaFixedArray<Vector> InfluenceOffsets { get; }
 
 ### InfluenceRootTransform
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttachment.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttachment.cs#L28)
 
 ```csharp
 ISchemaFixedArray<bool> InfluenceRootTransform { get; }
@@ -60,7 +60,7 @@ ISchemaFixedArray<bool> InfluenceRootTransform { get; }
 
 ### InfluenceRotations
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttachment.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttachment.cs#L22)
 
 ```csharp
 ISchemaFixedArray<Quaternion> InfluenceRotations { get; }
@@ -72,7 +72,7 @@ ISchemaFixedArray<Quaternion> InfluenceRotations { get; }
 
 ### InfluenceWeights
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttachment.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttachment.cs#L26)
 
 ```csharp
 ISchemaFixedArray<float> InfluenceWeights { get; }
@@ -84,7 +84,7 @@ ISchemaFixedArray<float> InfluenceWeights { get; }
 
 ### Influences
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttachment.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttachment.cs#L30)
 
 ```csharp
 ref byte Influences { get; }
@@ -96,7 +96,7 @@ ref byte Influences { get; }
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttachment.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttachment.cs#L18)
 
 ```csharp
 string Name { get; set; }

@@ -12,7 +12,7 @@ public interface CTriggerImpact : CTriggerMultiple, CBaseTrigger, CBaseToggle, C
 
 ### Magnitude
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerImpact.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerImpact.cs#L18)
 
 ```csharp
 ref float Magnitude { get; }
@@ -24,7 +24,7 @@ ref float Magnitude { get; }
 
 ### Noise
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerImpact.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerImpact.cs#L20)
 
 ```csharp
 ref float Noise { get; }
@@ -36,7 +36,7 @@ ref float Noise { get; }
 
 ### OutputForce
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerImpact.cs#L24)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerImpact.cs#L25)
 
 ```csharp
 SchemaUntypedField OutputForce { get; }
@@ -48,7 +48,7 @@ SchemaUntypedField OutputForce { get; }
 
 ### Viewkick
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerImpact.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerImpact.cs#L22)
 
 ```csharp
 ref float Viewkick { get; }

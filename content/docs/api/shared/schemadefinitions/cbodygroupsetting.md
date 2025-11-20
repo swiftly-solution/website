@@ -12,7 +12,7 @@ public interface CBodyGroupSetting : ISchemaClass<CBodyGroupSetting>, ISchemaFie
 
 ### BodyGroupName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBodyGroupSetting.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBodyGroupSetting.cs#L18)
 
 ```csharp
 string BodyGroupName { get; set; }
@@ -24,7 +24,7 @@ string BodyGroupName { get; set; }
 
 ### BodyGroupOption
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBodyGroupSetting.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBodyGroupSetting.cs#L20)
 
 ```csharp
 ref int BodyGroupOption { get; }

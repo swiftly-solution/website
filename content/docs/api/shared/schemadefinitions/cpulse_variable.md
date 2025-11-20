@@ -12,7 +12,7 @@ public interface CPulse_Variable : ISchemaClass<CPulse_Variable>, ISchemaField, 
 
 ### DefaultValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Variable.cs#L26)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Variable.cs#L27)
 
 ```csharp
 SchemaUntypedField DefaultValue { get; }
@@ -24,7 +24,7 @@ SchemaUntypedField DefaultValue { get; }
 
 ### Description
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Variable.cs#L20)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Variable.cs#L21)
 
 ```csharp
 string Description { get; set; }
@@ -36,7 +36,7 @@ string Description { get; set; }
 
 ### EditorNodeID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Variable.cs#L34)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Variable.cs#L35)
 
 ```csharp
 PulseDocNodeID_t EditorNodeID { get; }
@@ -48,7 +48,7 @@ PulseDocNodeID_t EditorNodeID { get; }
 
 ### IsObservable
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Variable.cs#L32)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Variable.cs#L33)
 
 ```csharp
 ref bool IsObservable { get; }
@@ -60,7 +60,7 @@ ref bool IsObservable { get; }
 
 ### IsPublicBlackboardVariable
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Variable.cs#L30)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Variable.cs#L31)
 
 ```csharp
 ref bool IsPublicBlackboardVariable { get; }
@@ -72,7 +72,7 @@ ref bool IsPublicBlackboardVariable { get; }
 
 ### KeysSource
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Variable.cs#L28)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Variable.cs#L29)
 
 ```csharp
 ref PulseVariableKeysSource_t KeysSource { get; }
@@ -84,7 +84,7 @@ ref PulseVariableKeysSource_t KeysSource { get; }
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Variable.cs#L18)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Variable.cs#L19)
 
 ```csharp
 SchemaUntypedField Name { get; }
@@ -96,7 +96,7 @@ SchemaUntypedField Name { get; }
 
 ### Type
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Variable.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Variable.cs#L24)
 
 ```csharp
 SchemaUntypedField Type { get; }

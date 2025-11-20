@@ -12,7 +12,7 @@ public interface C_OP_SetControlPointToVectorExpression : CParticleFunctionPreEm
 
 ### Expression
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToVectorExpression.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToVectorExpression.cs#L18)
 
 ```csharp
 ref VectorExpressionType_t Expression { get; }
@@ -24,7 +24,7 @@ ref VectorExpressionType_t Expression { get; }
 
 ### Input1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToVectorExpression.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToVectorExpression.cs#L22)
 
 ```csharp
 CParticleCollectionVecInput Input1 { get; }
@@ -36,7 +36,7 @@ CParticleCollectionVecInput Input1 { get; }
 
 ### Input2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToVectorExpression.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToVectorExpression.cs#L24)
 
 ```csharp
 CParticleCollectionVecInput Input2 { get; }
@@ -48,7 +48,7 @@ CParticleCollectionVecInput Input2 { get; }
 
 ### Lerp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToVectorExpression.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToVectorExpression.cs#L26)
 
 ```csharp
 CPerParticleFloatInput Lerp { get; }
@@ -60,7 +60,7 @@ CPerParticleFloatInput Lerp { get; }
 
 ### NormalizedOutput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToVectorExpression.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToVectorExpression.cs#L28)
 
 ```csharp
 ref bool NormalizedOutput { get; }
@@ -72,7 +72,7 @@ ref bool NormalizedOutput { get; }
 
 ### OutputCP
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToVectorExpression.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToVectorExpression.cs#L20)
 
 ```csharp
 ref int OutputCP { get; }

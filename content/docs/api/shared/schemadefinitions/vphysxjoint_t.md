@@ -12,7 +12,7 @@ public interface VPhysXJoint_t : ISchemaClass<VPhysXJoint_t>, ISchemaField, ISch
 
 ### AngularDampingRatio
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L65)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L66)
 
 ```csharp
 ref float AngularDampingRatio { get; }
@@ -24,7 +24,7 @@ ref float AngularDampingRatio { get; }
 
 ### AngularFrequency
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L64)
 
 ```csharp
 ref float AngularFrequency { get; }
@@ -36,7 +36,7 @@ ref float AngularFrequency { get; }
 
 ### AngularTargetVelocity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L56)
 
 ```csharp
 ref Vector AngularTargetVelocity { get; }
@@ -48,7 +48,7 @@ ref Vector AngularTargetVelocity { get; }
 
 ### Body1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L20)
 
 ```csharp
 ref ushort Body1 { get; }
@@ -60,7 +60,7 @@ ref ushort Body1 { get; }
 
 ### Body2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L22)
 
 ```csharp
 ref ushort Body2 { get; }
@@ -72,7 +72,7 @@ ref ushort Body2 { get; }
 
 ### ElasticDamping
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L71)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L72)
 
 ```csharp
 ref float ElasticDamping { get; }
@@ -84,7 +84,7 @@ ref float ElasticDamping { get; }
 
 ### Elasticity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L69)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L70)
 
 ```csharp
 ref float Elasticity { get; }
@@ -96,7 +96,7 @@ ref float Elasticity { get; }
 
 ### EnableAngularMotor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L54)
 
 ```csharp
 ref bool EnableAngularMotor { get; }
@@ -108,7 +108,7 @@ ref bool EnableAngularMotor { get; }
 
 ### EnableCollision
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L30)
 
 ```csharp
 ref bool EnableCollision { get; }
@@ -120,7 +120,7 @@ ref bool EnableCollision { get; }
 
 ### EnableLinearLimit
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L36)
 
 ```csharp
 ref bool EnableLinearLimit { get; }
@@ -132,7 +132,7 @@ ref bool EnableLinearLimit { get; }
 
 ### EnableLinearMotor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L40)
 
 ```csharp
 ref bool EnableLinearMotor { get; }
@@ -144,7 +144,7 @@ ref bool EnableLinearMotor { get; }
 
 ### EnableSwingLimit
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L46)
 
 ```csharp
 ref bool EnableSwingLimit { get; }
@@ -156,7 +156,7 @@ ref bool EnableSwingLimit { get; }
 
 ### EnableTwistLimit
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L50)
 
 ```csharp
 ref bool EnableTwistLimit { get; }
@@ -168,7 +168,7 @@ ref bool EnableTwistLimit { get; }
 
 ### Flags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L24)
 
 ```csharp
 ref ushort Flags { get; }
@@ -180,7 +180,7 @@ ref ushort Flags { get; }
 
 ### Frame1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L26)
 
 ```csharp
 ref CTransform Frame1 { get; }
@@ -192,7 +192,7 @@ ref CTransform Frame1 { get; }
 
 ### Frame2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L28)
 
 ```csharp
 ref CTransform Frame2 { get; }
@@ -204,7 +204,7 @@ ref CTransform Frame2 { get; }
 
 ### Friction
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L67)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L68)
 
 ```csharp
 ref float Friction { get; }
@@ -216,7 +216,7 @@ ref float Friction { get; }
 
 ### IsAngularConstraintDisabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L34)
 
 ```csharp
 ref bool IsAngularConstraintDisabled { get; }
@@ -228,7 +228,7 @@ ref bool IsAngularConstraintDisabled { get; }
 
 ### IsLinearConstraintDisabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L32)
 
 ```csharp
 ref bool IsLinearConstraintDisabled { get; }
@@ -240,7 +240,7 @@ ref bool IsLinearConstraintDisabled { get; }
 
 ### LinearDampingRatio
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L62)
 
 ```csharp
 ref float LinearDampingRatio { get; }
@@ -252,7 +252,7 @@ ref float LinearDampingRatio { get; }
 
 ### LinearFrequency
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L60)
 
 ```csharp
 ref float LinearFrequency { get; }
@@ -264,7 +264,7 @@ ref float LinearFrequency { get; }
 
 ### LinearLimit
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L38)
 
 ```csharp
 VPhysXRange_t LinearLimit { get; }
@@ -276,7 +276,7 @@ VPhysXRange_t LinearLimit { get; }
 
 ### LinearTargetVelocity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L42)
 
 ```csharp
 ref Vector LinearTargetVelocity { get; }
@@ -288,7 +288,7 @@ ref Vector LinearTargetVelocity { get; }
 
 ### MaxForce
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L44)
 
 ```csharp
 ref float MaxForce { get; }
@@ -300,7 +300,7 @@ ref float MaxForce { get; }
 
 ### MaxTorque
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L58)
 
 ```csharp
 ref float MaxTorque { get; }
@@ -312,7 +312,7 @@ ref float MaxTorque { get; }
 
 ### Plasticity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L73)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L74)
 
 ```csharp
 ref float Plasticity { get; }
@@ -324,7 +324,7 @@ ref float Plasticity { get; }
 
 ### SwingLimit
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L48)
 
 ```csharp
 VPhysXRange_t SwingLimit { get; }
@@ -336,7 +336,7 @@ VPhysXRange_t SwingLimit { get; }
 
 ### Tag
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L75)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L76)
 
 ```csharp
 string Tag { get; set; }
@@ -348,7 +348,7 @@ string Tag { get; set; }
 
 ### TwistLimit
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L52)
 
 ```csharp
 VPhysXRange_t TwistLimit { get; }
@@ -360,7 +360,7 @@ VPhysXRange_t TwistLimit { get; }
 
 ### Type
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXJoint_t.cs#L18)
 
 ```csharp
 ref ushort Type { get; }

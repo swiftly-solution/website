@@ -12,7 +12,7 @@ public interface CPulse_OutputConnection : ISchemaClass<CPulse_OutputConnection>
 
 ### Param
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_OutputConnection.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_OutputConnection.cs#L28)
 
 ```csharp
 SchemaUntypedField Param { get; }
@@ -24,7 +24,7 @@ SchemaUntypedField Param { get; }
 
 ### SourceOutput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_OutputConnection.cs#L18)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_OutputConnection.cs#L19)
 
 ```csharp
 SchemaUntypedField SourceOutput { get; }
@@ -36,7 +36,7 @@ SchemaUntypedField SourceOutput { get; }
 
 ### TargetEntity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_OutputConnection.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_OutputConnection.cs#L22)
 
 ```csharp
 SchemaUntypedField TargetEntity { get; }
@@ -48,7 +48,7 @@ SchemaUntypedField TargetEntity { get; }
 
 ### TargetInput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_OutputConnection.cs#L24)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_OutputConnection.cs#L25)
 
 ```csharp
 SchemaUntypedField TargetInput { get; }

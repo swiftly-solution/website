@@ -12,7 +12,7 @@ public interface CAudioSentence : ISchemaClass<CAudioSentence>, ISchemaField, IS
 
 ### EmphasisSamples
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioSentence.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioSentence.cs#L22)
 
 ```csharp
 ref CUtlVector<CAudioEmphasisSample> EmphasisSamples { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<CAudioEmphasisSample> EmphasisSamples { get; }
 
 ### MorphData
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioSentence.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioSentence.cs#L24)
 
 ```csharp
 CAudioMorphData MorphData { get; }
@@ -36,7 +36,7 @@ CAudioMorphData MorphData { get; }
 
 ### RunTimePhonemes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioSentence.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioSentence.cs#L20)
 
 ```csharp
 ref CUtlVector<CAudioPhonemeTag> RunTimePhonemes { get; }
@@ -48,7 +48,7 @@ ref CUtlVector<CAudioPhonemeTag> RunTimePhonemes { get; }
 
 ### ShouldVoiceDuck
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioSentence.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioSentence.cs#L18)
 
 ```csharp
 ref bool ShouldVoiceDuck { get; }

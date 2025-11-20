@@ -12,7 +12,7 @@ public interface CFutureVelocityMetricEvaluator : CMotionMetricEvaluator, ISchem
 
 ### Distance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFutureVelocityMetricEvaluator.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFutureVelocityMetricEvaluator.cs#L18)
 
 ```csharp
 ref float Distance { get; }
@@ -24,7 +24,7 @@ ref float Distance { get; }
 
 ### Mode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFutureVelocityMetricEvaluator.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFutureVelocityMetricEvaluator.cs#L24)
 
 ```csharp
 ref VelocityMetricMode Mode { get; }
@@ -36,7 +36,7 @@ ref VelocityMetricMode Mode { get; }
 
 ### StoppingDistance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFutureVelocityMetricEvaluator.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFutureVelocityMetricEvaluator.cs#L20)
 
 ```csharp
 ref float StoppingDistance { get; }
@@ -48,7 +48,7 @@ ref float StoppingDistance { get; }
 
 ### TargetSpeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFutureVelocityMetricEvaluator.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFutureVelocityMetricEvaluator.cs#L22)
 
 ```csharp
 ref float TargetSpeed { get; }

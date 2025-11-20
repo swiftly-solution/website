@@ -12,7 +12,7 @@ public interface CFuncPlatRot : CFuncPlat, CBasePlatTrain, CBaseToggle, CBaseMod
 
 ### End
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncPlatRot.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncPlatRot.cs#L18)
 
 ```csharp
 ref QAngle End { get; }
@@ -24,7 +24,7 @@ ref QAngle End { get; }
 
 ### Start
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncPlatRot.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncPlatRot.cs#L20)
 
 ```csharp
 ref QAngle Start { get; }

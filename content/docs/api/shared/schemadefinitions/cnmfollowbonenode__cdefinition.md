@@ -12,7 +12,7 @@ public interface CNmFollowBoneNode__CDefinition : CNmPassthroughNode__CDefinitio
 
 ### Bone
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFollowBoneNode__CDefinition.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFollowBoneNode__CDefinition.cs#L18)
 
 ```csharp
 ref CGlobalSymbol Bone { get; }
@@ -24,7 +24,7 @@ ref CGlobalSymbol Bone { get; }
 
 ### EnabledNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFollowBoneNode__CDefinition.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFollowBoneNode__CDefinition.cs#L22)
 
 ```csharp
 ref short EnabledNodeIdx { get; }
@@ -36,7 +36,7 @@ ref short EnabledNodeIdx { get; }
 
 ### FollowTargetBone
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFollowBoneNode__CDefinition.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFollowBoneNode__CDefinition.cs#L20)
 
 ```csharp
 ref CGlobalSymbol FollowTargetBone { get; }
@@ -48,7 +48,7 @@ ref CGlobalSymbol FollowTargetBone { get; }
 
 ### Mode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFollowBoneNode__CDefinition.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFollowBoneNode__CDefinition.cs#L24)
 
 ```csharp
 ref NmFollowBoneMode_t Mode { get; }

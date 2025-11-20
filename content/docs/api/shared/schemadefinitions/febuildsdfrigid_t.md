@@ -12,7 +12,7 @@ public interface FeBuildSDFRigid_t : FeSDFRigid_t, ISchemaClass<FeSDFRigid_t>, I
 
 ### AntitunnelGroupBits
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeBuildSDFRigid_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeBuildSDFRigid_t.cs#L22)
 
 ```csharp
 ref uint AntitunnelGroupBits { get; }
@@ -24,7 +24,7 @@ ref uint AntitunnelGroupBits { get; }
 
 ### Priority
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeBuildSDFRigid_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeBuildSDFRigid_t.cs#L18)
 
 ```csharp
 ref int Priority { get; }
@@ -36,7 +36,7 @@ ref int Priority { get; }
 
 ### VertexMapHash
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeBuildSDFRigid_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeBuildSDFRigid_t.cs#L20)
 
 ```csharp
 ref uint VertexMapHash { get; }

@@ -12,7 +12,7 @@ public interface EventSetTime_t : ISchemaClass<EventSetTime_t>, ISchemaField, IS
 
 ### ClientOutputFrames
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventSetTime_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventSetTime_t.cs#L20)
 
 ```csharp
 ref int ClientOutputFrames { get; }
@@ -24,7 +24,7 @@ ref int ClientOutputFrames { get; }
 
 ### LoopState
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventSetTime_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventSetTime_t.cs#L18)
 
 ```csharp
 EngineLoopState_t LoopState { get; }
@@ -36,7 +36,7 @@ EngineLoopState_t LoopState { get; }
 
 ### RealTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventSetTime_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventSetTime_t.cs#L22)
 
 ```csharp
 ref double RealTime { get; }
@@ -48,7 +48,7 @@ ref double RealTime { get; }
 
 ### RenderFrameTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventSetTime_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventSetTime_t.cs#L26)
 
 ```csharp
 ref double RenderFrameTime { get; }
@@ -60,7 +60,7 @@ ref double RenderFrameTime { get; }
 
 ### RenderFrameTimeUnbounded
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventSetTime_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventSetTime_t.cs#L28)
 
 ```csharp
 ref double RenderFrameTimeUnbounded { get; }
@@ -72,7 +72,7 @@ ref double RenderFrameTimeUnbounded { get; }
 
 ### RenderFrameTimeUnscaled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventSetTime_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventSetTime_t.cs#L30)
 
 ```csharp
 ref double RenderFrameTimeUnscaled { get; }
@@ -84,7 +84,7 @@ ref double RenderFrameTimeUnscaled { get; }
 
 ### RenderTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventSetTime_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventSetTime_t.cs#L24)
 
 ```csharp
 ref double RenderTime { get; }
@@ -96,7 +96,7 @@ ref double RenderTime { get; }
 
 ### TickRemainder
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventSetTime_t.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventSetTime_t.cs#L32)
 
 ```csharp
 ref double TickRemainder { get; }

@@ -12,7 +12,7 @@ public interface VPhysXAggregateData_t : ISchemaClass<VPhysXAggregateData_t>, IS
 
 ### BindPose
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXAggregateData_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXAggregateData_t.cs#L30)
 
 ```csharp
 ref CUtlVector<matrix3x4_t> BindPose { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<matrix3x4_t> BindPose { get; }
 
 ### BoneNames
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXAggregateData_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXAggregateData_t.cs#L24)
 
 ```csharp
 ref CUtlVector<CUtlString> BoneNames { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<CUtlString> BoneNames { get; }
 
 ### BoneParents
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXAggregateData_t.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXAggregateData_t.cs#L42)
 
 ```csharp
 ref CUtlVector<ushort> BoneParents { get; }
@@ -48,7 +48,7 @@ ref CUtlVector<ushort> BoneParents { get; }
 
 ### BonesHash
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXAggregateData_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXAggregateData_t.cs#L22)
 
 ```csharp
 ref CUtlVector<uint> BonesHash { get; }
@@ -60,7 +60,7 @@ ref CUtlVector<uint> BonesHash { get; }
 
 ### CollisionAttributes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXAggregateData_t.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXAggregateData_t.cs#L46)
 
 ```csharp
 ref CUtlVector<VPhysXCollisionAttributes_t> CollisionAttributes { get; }
@@ -72,7 +72,7 @@ ref CUtlVector<VPhysXCollisionAttributes_t> CollisionAttributes { get; }
 
 ### Constraints2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXAggregateData_t.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXAggregateData_t.cs#L36)
 
 ```csharp
 ref CUtlVector<VPhysXConstraint2_t> Constraints2 { get; }
@@ -84,7 +84,7 @@ ref CUtlVector<VPhysXConstraint2_t> Constraints2 { get; }
 
 ### DebugPartNames
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXAggregateData_t.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXAggregateData_t.cs#L48)
 
 ```csharp
 ref CUtlVector<CUtlString> DebugPartNames { get; }
@@ -96,7 +96,7 @@ ref CUtlVector<CUtlString> DebugPartNames { get; }
 
 ### EmbeddedKeyvalues
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXAggregateData_t.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXAggregateData_t.cs#L50)
 
 ```csharp
 string EmbeddedKeyvalues { get; set; }
@@ -108,7 +108,7 @@ string EmbeddedKeyvalues { get; set; }
 
 ### FeModel
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXAggregateData_t.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXAggregateData_t.cs#L40)
 
 ```csharp
 PhysFeModelDesc_t? FeModel { get; }
@@ -120,7 +120,7 @@ PhysFeModelDesc_t? FeModel { get; }
 
 ### Flags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXAggregateData_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXAggregateData_t.cs#L18)
 
 ```csharp
 ref ushort Flags { get; }
@@ -132,7 +132,7 @@ ref ushort Flags { get; }
 
 ### IndexHash
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXAggregateData_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXAggregateData_t.cs#L28)
 
 ```csharp
 ref CUtlVector<ushort> IndexHash { get; }
@@ -144,7 +144,7 @@ ref CUtlVector<ushort> IndexHash { get; }
 
 ### IndexNames
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXAggregateData_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXAggregateData_t.cs#L26)
 
 ```csharp
 ref CUtlVector<ushort> IndexNames { get; }
@@ -156,7 +156,7 @@ ref CUtlVector<ushort> IndexNames { get; }
 
 ### Joints
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXAggregateData_t.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXAggregateData_t.cs#L38)
 
 ```csharp
 ref CUtlVector<VPhysXJoint_t> Joints { get; }
@@ -168,7 +168,7 @@ ref CUtlVector<VPhysXJoint_t> Joints { get; }
 
 ### Parts
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXAggregateData_t.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXAggregateData_t.cs#L32)
 
 ```csharp
 ref CUtlVector<VPhysXBodyPart_t> Parts { get; }
@@ -180,7 +180,7 @@ ref CUtlVector<VPhysXBodyPart_t> Parts { get; }
 
 ### RefCounter
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXAggregateData_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXAggregateData_t.cs#L20)
 
 ```csharp
 ref ushort RefCounter { get; }
@@ -192,7 +192,7 @@ ref ushort RefCounter { get; }
 
 ### ShapeMarkups
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXAggregateData_t.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXAggregateData_t.cs#L34)
 
 ```csharp
 ref CUtlVector<PhysShapeMarkup_t> ShapeMarkups { get; }
@@ -204,7 +204,7 @@ ref CUtlVector<PhysShapeMarkup_t> ShapeMarkups { get; }
 
 ### SurfacePropertyHashes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXAggregateData_t.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXAggregateData_t.cs#L44)
 
 ```csharp
 ref CUtlVector<uint> SurfacePropertyHashes { get; }

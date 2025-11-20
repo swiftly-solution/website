@@ -12,7 +12,7 @@ public interface SpawnPoint : CServerOnlyPointEntity, CServerOnlyEntity, CBaseEn
 
 ### Enabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SpawnPoint.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SpawnPoint.cs#L20)
 
 ```csharp
 ref bool Enabled { get; }
@@ -24,7 +24,7 @@ ref bool Enabled { get; }
 
 ### Priority
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SpawnPoint.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SpawnPoint.cs#L18)
 
 ```csharp
 ref int Priority { get; }
@@ -36,7 +36,7 @@ ref int Priority { get; }
 
 ### Type
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SpawnPoint.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SpawnPoint.cs#L22)
 
 ```csharp
 ref int Type { get; }

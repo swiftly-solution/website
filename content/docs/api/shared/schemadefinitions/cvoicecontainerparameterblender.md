@@ -12,7 +12,7 @@ public interface CVoiceContainerParameterBlender : CVoiceContainerBase, ISchemaC
 
 ### Curve1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerParameterBlender.cs#L24)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerParameterBlender.cs#L25)
 
 ```csharp
 SchemaUntypedField Curve1 { get; }
@@ -24,7 +24,7 @@ SchemaUntypedField Curve1 { get; }
 
 ### Curve2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerParameterBlender.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerParameterBlender.cs#L28)
 
 ```csharp
 SchemaUntypedField Curve2 { get; }
@@ -36,7 +36,7 @@ SchemaUntypedField Curve2 { get; }
 
 ### Curve3
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerParameterBlender.cs#L32)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerParameterBlender.cs#L33)
 
 ```csharp
 SchemaUntypedField Curve3 { get; }
@@ -48,7 +48,7 @@ SchemaUntypedField Curve3 { get; }
 
 ### Curve4
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerParameterBlender.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerParameterBlender.cs#L36)
 
 ```csharp
 SchemaUntypedField Curve4 { get; }
@@ -60,7 +60,7 @@ SchemaUntypedField Curve4 { get; }
 
 ### EnableDistanceBlend
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerParameterBlender.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerParameterBlender.cs#L30)
 
 ```csharp
 ref bool EnableDistanceBlend { get; }
@@ -72,7 +72,7 @@ ref bool EnableDistanceBlend { get; }
 
 ### EnableOcclusionBlend
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerParameterBlender.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerParameterBlender.cs#L22)
 
 ```csharp
 ref bool EnableOcclusionBlend { get; }
@@ -84,7 +84,7 @@ ref bool EnableOcclusionBlend { get; }
 
 ### FirstSound
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerParameterBlender.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerParameterBlender.cs#L18)
 
 ```csharp
 CSoundContainerReference FirstSound { get; }
@@ -96,7 +96,7 @@ CSoundContainerReference FirstSound { get; }
 
 ### SecondSound
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerParameterBlender.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerParameterBlender.cs#L20)
 
 ```csharp
 CSoundContainerReference SecondSound { get; }

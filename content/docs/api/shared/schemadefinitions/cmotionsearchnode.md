@@ -12,7 +12,7 @@ public interface CMotionSearchNode : ISchemaClass<CMotionSearchNode>, ISchemaFie
 
 ### Children
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionSearchNode.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionSearchNode.cs#L18)
 
 ```csharp
 ref CUtlVector<PointerTo<CMotionSearchNode>> Children { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<PointerTo<CMotionSearchNode>> Children { get; }
 
 ### Quantizer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionSearchNode.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionSearchNode.cs#L20)
 
 ```csharp
 CVectorQuantizer Quantizer { get; }
@@ -36,7 +36,7 @@ CVectorQuantizer Quantizer { get; }
 
 ### SampleCodes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionSearchNode.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionSearchNode.cs#L22)
 
 ```csharp
 ref CUtlVector<CUtlVector<SampleCode>> SampleCodes { get; }
@@ -48,7 +48,7 @@ ref CUtlVector<CUtlVector<SampleCode>> SampleCodes { get; }
 
 ### SampleIndices
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionSearchNode.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionSearchNode.cs#L24)
 
 ```csharp
 ref CUtlVector<CUtlVector<int>> SampleIndices { get; }
@@ -60,7 +60,7 @@ ref CUtlVector<CUtlVector<int>> SampleIndices { get; }
 
 ### SelectableSamples
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionSearchNode.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionSearchNode.cs#L26)
 
 ```csharp
 ref CUtlVector<int> SelectableSamples { get; }

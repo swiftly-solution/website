@@ -12,7 +12,7 @@ public interface CSAdditionalMatchStats_t : CSAdditionalPerRoundStats_t, ISchema
 
 ### MaxNumRoundsSurvived
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalMatchStats_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalMatchStats_t.cs#L20)
 
 ```csharp
 ref int MaxNumRoundsSurvived { get; }
@@ -24,7 +24,7 @@ ref int MaxNumRoundsSurvived { get; }
 
 ### NumClutchKills
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalMatchStats_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalMatchStats_t.cs#L30)
 
 ```csharp
 ref int NumClutchKills { get; }
@@ -36,7 +36,7 @@ ref int NumClutchKills { get; }
 
 ### NumFirstKills
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalMatchStats_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalMatchStats_t.cs#L28)
 
 ```csharp
 ref int NumFirstKills { get; }
@@ -48,7 +48,7 @@ ref int NumFirstKills { get; }
 
 ### NumPistolKills
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalMatchStats_t.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalMatchStats_t.cs#L32)
 
 ```csharp
 ref int NumPistolKills { get; }
@@ -60,7 +60,7 @@ ref int NumPistolKills { get; }
 
 ### NumRoundsSurvived
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalMatchStats_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalMatchStats_t.cs#L18)
 
 ```csharp
 ref int NumRoundsSurvived { get; }
@@ -72,7 +72,7 @@ ref int NumRoundsSurvived { get; }
 
 ### NumRoundsSurvivedTotal
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalMatchStats_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalMatchStats_t.cs#L22)
 
 ```csharp
 ref int NumRoundsSurvivedTotal { get; }
@@ -84,7 +84,7 @@ ref int NumRoundsSurvivedTotal { get; }
 
 ### NumSniperKills
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalMatchStats_t.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalMatchStats_t.cs#L34)
 
 ```csharp
 ref int NumSniperKills { get; }
@@ -96,7 +96,7 @@ ref int NumSniperKills { get; }
 
 ### NumSuicides
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalMatchStats_t.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalMatchStats_t.cs#L36)
 
 ```csharp
 ref int NumSuicides { get; }
@@ -108,7 +108,7 @@ ref int NumSuicides { get; }
 
 ### NumTeamKills
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalMatchStats_t.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalMatchStats_t.cs#L38)
 
 ```csharp
 ref int NumTeamKills { get; }
@@ -120,7 +120,7 @@ ref int NumTeamKills { get; }
 
 ### RoundsWonWithoutPurchase
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalMatchStats_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalMatchStats_t.cs#L24)
 
 ```csharp
 ref int RoundsWonWithoutPurchase { get; }
@@ -132,7 +132,7 @@ ref int RoundsWonWithoutPurchase { get; }
 
 ### RoundsWonWithoutPurchaseTotal
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalMatchStats_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalMatchStats_t.cs#L26)
 
 ```csharp
 ref int RoundsWonWithoutPurchaseTotal { get; }
@@ -144,7 +144,7 @@ ref int RoundsWonWithoutPurchaseTotal { get; }
 
 ### TeamDamage
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalMatchStats_t.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalMatchStats_t.cs#L40)
 
 ```csharp
 ref float TeamDamage { get; }

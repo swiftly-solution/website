@@ -12,7 +12,7 @@ public interface C_OP_RampScalarSplineSimple : CParticleFunctionOperator, CParti
 
 ### EaseOut
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarSplineSimple.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarSplineSimple.cs#L26)
 
 ```csharp
 ref bool EaseOut { get; }
@@ -24,7 +24,7 @@ ref bool EaseOut { get; }
 
 ### EndTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarSplineSimple.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarSplineSimple.cs#L22)
 
 ```csharp
 ref float EndTime { get; }
@@ -36,7 +36,7 @@ ref float EndTime { get; }
 
 ### Field
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarSplineSimple.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarSplineSimple.cs#L24)
 
 ```csharp
 ParticleAttributeIndex_t Field { get; }
@@ -48,7 +48,7 @@ ParticleAttributeIndex_t Field { get; }
 
 ### Rate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarSplineSimple.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarSplineSimple.cs#L18)
 
 ```csharp
 ref float Rate { get; }
@@ -60,7 +60,7 @@ ref float Rate { get; }
 
 ### StartTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarSplineSimple.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarSplineSimple.cs#L20)
 
 ```csharp
 ref float StartTime { get; }

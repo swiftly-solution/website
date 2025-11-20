@@ -12,7 +12,7 @@ public interface CMarkupVolumeTagged : CMarkupVolume, CBaseModelEntity, CBaseEnt
 
 ### GroupByPrefab
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeTagged.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeTagged.cs#L24)
 
 ```csharp
 ref bool GroupByPrefab { get; }
@@ -24,7 +24,7 @@ ref bool GroupByPrefab { get; }
 
 ### GroupByVolume
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeTagged.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeTagged.cs#L26)
 
 ```csharp
 ref bool GroupByVolume { get; }
@@ -36,7 +36,7 @@ ref bool GroupByVolume { get; }
 
 ### GroupNames
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeTagged.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeTagged.cs#L18)
 
 ```csharp
 ref CUtlVector<CGlobalSymbol> GroupNames { get; }
@@ -48,7 +48,7 @@ ref CUtlVector<CGlobalSymbol> GroupNames { get; }
 
 ### GroupOtherGroups
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeTagged.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeTagged.cs#L28)
 
 ```csharp
 ref bool GroupOtherGroups { get; }
@@ -60,7 +60,7 @@ ref bool GroupOtherGroups { get; }
 
 ### IsGroup
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeTagged.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeTagged.cs#L22)
 
 ```csharp
 ref bool IsGroup { get; }
@@ -72,7 +72,7 @@ ref bool IsGroup { get; }
 
 ### IsInGroup
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeTagged.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeTagged.cs#L30)
 
 ```csharp
 ref bool IsInGroup { get; }
@@ -84,7 +84,7 @@ ref bool IsInGroup { get; }
 
 ### Tags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeTagged.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeTagged.cs#L20)
 
 ```csharp
 ref CUtlVector<CGlobalSymbol> Tags { get; }

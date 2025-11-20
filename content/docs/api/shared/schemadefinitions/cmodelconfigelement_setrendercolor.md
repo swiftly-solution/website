@@ -12,7 +12,7 @@ public interface CModelConfigElement_SetRenderColor : CModelConfigElement, ISche
 
 ### Color
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_SetRenderColor.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_SetRenderColor.cs#L18)
 
 ```csharp
 ref Color Color { get; }

@@ -12,7 +12,7 @@ public interface CNmFloatComparisonNode__CDefinition : CNmBoolValueNode__CDefini
 
 ### ComparandValueNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatComparisonNode__CDefinition.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatComparisonNode__CDefinition.cs#L20)
 
 ```csharp
 ref short ComparandValueNodeIdx { get; }
@@ -24,7 +24,7 @@ ref short ComparandValueNodeIdx { get; }
 
 ### Comparison
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatComparisonNode__CDefinition.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatComparisonNode__CDefinition.cs#L22)
 
 ```csharp
 ref CNmFloatComparisonNode__Comparison_t Comparison { get; }
@@ -36,7 +36,7 @@ ref CNmFloatComparisonNode__Comparison_t Comparison { get; }
 
 ### ComparisonValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatComparisonNode__CDefinition.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatComparisonNode__CDefinition.cs#L26)
 
 ```csharp
 ref float ComparisonValue { get; }
@@ -48,7 +48,7 @@ ref float ComparisonValue { get; }
 
 ### Epsilon
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatComparisonNode__CDefinition.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatComparisonNode__CDefinition.cs#L24)
 
 ```csharp
 ref float Epsilon { get; }
@@ -60,7 +60,7 @@ ref float Epsilon { get; }
 
 ### InputValueNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatComparisonNode__CDefinition.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatComparisonNode__CDefinition.cs#L18)
 
 ```csharp
 ref short InputValueNodeIdx { get; }

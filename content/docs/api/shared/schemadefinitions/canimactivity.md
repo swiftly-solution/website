@@ -12,7 +12,7 @@ public interface CAnimActivity : ISchemaClass<CAnimActivity>, ISchemaField, ISch
 
 ### Activity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimActivity.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimActivity.cs#L20)
 
 ```csharp
 ref int Activity { get; }
@@ -24,7 +24,7 @@ ref int Activity { get; }
 
 ### Flags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimActivity.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimActivity.cs#L22)
 
 ```csharp
 ref int Flags { get; }
@@ -36,7 +36,7 @@ ref int Flags { get; }
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimActivity.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimActivity.cs#L18)
 
 ```csharp
 ref CBufferString Name { get; }
@@ -48,7 +48,7 @@ ref CBufferString Name { get; }
 
 ### Weight
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimActivity.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimActivity.cs#L24)
 
 ```csharp
 ref int Weight { get; }

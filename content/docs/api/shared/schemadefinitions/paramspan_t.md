@@ -12,7 +12,7 @@ public interface ParamSpan_t : ISchemaClass<ParamSpan_t>, ISchemaField, ISchemaC
 
 ### EndCycle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParamSpan_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParamSpan_t.cs#L26)
 
 ```csharp
 ref float EndCycle { get; }
@@ -24,7 +24,7 @@ ref float EndCycle { get; }
 
 ### Param
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParamSpan_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParamSpan_t.cs#L20)
 
 ```csharp
 CAnimParamHandle Param { get; }
@@ -36,7 +36,7 @@ CAnimParamHandle Param { get; }
 
 ### ParamType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParamSpan_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParamSpan_t.cs#L22)
 
 ```csharp
 ref AnimParamType_t ParamType { get; }
@@ -48,7 +48,7 @@ ref AnimParamType_t ParamType { get; }
 
 ### Samples
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParamSpan_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParamSpan_t.cs#L18)
 
 ```csharp
 ref CUtlVector<ParamSpanSample_t> Samples { get; }
@@ -60,7 +60,7 @@ ref CUtlVector<ParamSpanSample_t> Samples { get; }
 
 ### StartCycle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParamSpan_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParamSpan_t.cs#L24)
 
 ```csharp
 ref float StartCycle { get; }

@@ -12,7 +12,7 @@ public interface CFootstepLandedAnimTag : CAnimTagBase, ISchemaClass<CAnimTagBas
 
 ### BoneName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootstepLandedAnimTag.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootstepLandedAnimTag.cs#L24)
 
 ```csharp
 string BoneName { get; set; }
@@ -24,7 +24,7 @@ string BoneName { get; set; }
 
 ### DebugAnimSourceString
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootstepLandedAnimTag.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootstepLandedAnimTag.cs#L22)
 
 ```csharp
 string DebugAnimSourceString { get; set; }
@@ -36,7 +36,7 @@ string DebugAnimSourceString { get; set; }
 
 ### FootstepType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootstepLandedAnimTag.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootstepLandedAnimTag.cs#L18)
 
 ```csharp
 ref FootstepLandedFootSoundType_t FootstepType { get; }
@@ -48,7 +48,7 @@ ref FootstepLandedFootSoundType_t FootstepType { get; }
 
 ### OverrideSoundName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootstepLandedAnimTag.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootstepLandedAnimTag.cs#L20)
 
 ```csharp
 string OverrideSoundName { get; set; }

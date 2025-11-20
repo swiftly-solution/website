@@ -12,7 +12,7 @@ public interface C_OP_PlaneCull : CParticleFunctionOperator, CParticleFunction, 
 
 ### LocalSpace
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PlaneCull.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PlaneCull.cs#L22)
 
 ```csharp
 ref bool LocalSpace { get; }
@@ -24,7 +24,7 @@ ref bool LocalSpace { get; }
 
 ### PlaneControlPoint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PlaneCull.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PlaneCull.cs#L18)
 
 ```csharp
 ref int PlaneControlPoint { get; }
@@ -36,7 +36,7 @@ ref int PlaneControlPoint { get; }
 
 ### PlaneDirection
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PlaneCull.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PlaneCull.cs#L20)
 
 ```csharp
 ref Vector PlaneDirection { get; }
@@ -48,7 +48,7 @@ ref Vector PlaneDirection { get; }
 
 ### PlaneOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PlaneCull.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PlaneCull.cs#L24)
 
 ```csharp
 ref float PlaneOffset { get; }

@@ -12,7 +12,7 @@ public interface RnHull_t : ISchemaClass<RnHull_t>, ISchemaField, ISchemaClass, 
 
 ### Bounds
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnHull_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnHull_t.cs#L22)
 
 ```csharp
 AABB_t Bounds { get; }
@@ -24,7 +24,7 @@ AABB_t Bounds { get; }
 
 ### Centroid
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnHull_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnHull_t.cs#L18)
 
 ```csharp
 ref Vector Centroid { get; }
@@ -36,7 +36,7 @@ ref Vector Centroid { get; }
 
 ### Edges
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnHull_t.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnHull_t.cs#L36)
 
 ```csharp
 ref CUtlVector<RnHalfEdge_t> Edges { get; }
@@ -48,7 +48,7 @@ ref CUtlVector<RnHalfEdge_t> Edges { get; }
 
 ### FacePlanes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnHull_t.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnHull_t.cs#L40)
 
 ```csharp
 ref CUtlVector<RnPlane_t> FacePlanes { get; }
@@ -60,7 +60,7 @@ ref CUtlVector<RnPlane_t> FacePlanes { get; }
 
 ### Faces
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnHull_t.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnHull_t.cs#L38)
 
 ```csharp
 ref CUtlVector<RnFace_t> Faces { get; }
@@ -72,7 +72,7 @@ ref CUtlVector<RnFace_t> Faces { get; }
 
 ### Flags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnHull_t.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnHull_t.cs#L42)
 
 ```csharp
 ref uint Flags { get; }
@@ -84,7 +84,7 @@ ref uint Flags { get; }
 
 ### MassProperties
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnHull_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnHull_t.cs#L26)
 
 ```csharp
 ref matrix3x4_t MassProperties { get; }
@@ -96,7 +96,7 @@ ref matrix3x4_t MassProperties { get; }
 
 ### MaxAngularRadius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnHull_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnHull_t.cs#L20)
 
 ```csharp
 ref float MaxAngularRadius { get; }
@@ -108,7 +108,7 @@ ref float MaxAngularRadius { get; }
 
 ### OrthographicAreas
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnHull_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnHull_t.cs#L24)
 
 ```csharp
 ref Vector OrthographicAreas { get; }
@@ -120,7 +120,7 @@ ref Vector OrthographicAreas { get; }
 
 ### RegionSVM
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnHull_t.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnHull_t.cs#L44)
 
 ```csharp
 CRegionSVM? RegionSVM { get; }
@@ -132,7 +132,7 @@ CRegionSVM? RegionSVM { get; }
 
 ### SurfaceArea
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnHull_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnHull_t.cs#L30)
 
 ```csharp
 ref float SurfaceArea { get; }
@@ -144,7 +144,7 @@ ref float SurfaceArea { get; }
 
 ### VertexPositions
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnHull_t.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnHull_t.cs#L34)
 
 ```csharp
 ref CUtlVector<Vector> VertexPositions { get; }
@@ -156,7 +156,7 @@ ref CUtlVector<Vector> VertexPositions { get; }
 
 ### Vertices
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnHull_t.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnHull_t.cs#L32)
 
 ```csharp
 ref CUtlVector<RnVertex_t> Vertices { get; }
@@ -168,7 +168,7 @@ ref CUtlVector<RnVertex_t> Vertices { get; }
 
 ### Volume
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnHull_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnHull_t.cs#L28)
 
 ```csharp
 ref float Volume { get; }

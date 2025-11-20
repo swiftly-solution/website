@@ -12,7 +12,7 @@ public interface AnimationDecodeDebugDumpElement_t : ISchemaClass<AnimationDecod
 
 ### DecodeOps
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimationDecodeDebugDumpElement_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimationDecodeDebugDumpElement_t.cs#L24)
 
 ```csharp
 ref CUtlVector<CUtlString> DecodeOps { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<CUtlString> DecodeOps { get; }
 
 ### DecodedAnims
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimationDecodeDebugDumpElement_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimationDecodeDebugDumpElement_t.cs#L28)
 
 ```csharp
 ref CUtlVector<CUtlString> DecodedAnims { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<CUtlString> DecodedAnims { get; }
 
 ### EntityIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimationDecodeDebugDumpElement_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimationDecodeDebugDumpElement_t.cs#L18)
 
 ```csharp
 ref int EntityIndex { get; }
@@ -48,7 +48,7 @@ ref int EntityIndex { get; }
 
 ### InternalOps
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimationDecodeDebugDumpElement_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimationDecodeDebugDumpElement_t.cs#L26)
 
 ```csharp
 ref CUtlVector<CUtlString> InternalOps { get; }
@@ -60,7 +60,7 @@ ref CUtlVector<CUtlString> InternalOps { get; }
 
 ### ModelName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimationDecodeDebugDumpElement_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimationDecodeDebugDumpElement_t.cs#L20)
 
 ```csharp
 string ModelName { get; set; }
@@ -72,7 +72,7 @@ string ModelName { get; set; }
 
 ### PoseParams
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimationDecodeDebugDumpElement_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimationDecodeDebugDumpElement_t.cs#L22)
 
 ```csharp
 ref CUtlVector<CUtlString> PoseParams { get; }

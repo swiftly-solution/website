@@ -12,7 +12,7 @@ public interface MaterialOverride_t : BaseSceneObjectOverride_t, ISchemaClass<Ba
 
 ### DrawCallIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialOverride_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialOverride_t.cs#L20)
 
 ```csharp
 ref uint DrawCallIndex { get; }
@@ -24,7 +24,7 @@ ref uint DrawCallIndex { get; }
 
 ### LinearTintColor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialOverride_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialOverride_t.cs#L24)
 
 ```csharp
 ref Vector LinearTintColor { get; }
@@ -36,7 +36,7 @@ ref Vector LinearTintColor { get; }
 
 ### Material
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialOverride_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialOverride_t.cs#L22)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeIMaterial2> Material { get; }
@@ -48,7 +48,7 @@ ref CStrongHandle<InfoForResourceTypeIMaterial2> Material { get; }
 
 ### SubSceneObject
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialOverride_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialOverride_t.cs#L18)
 
 ```csharp
 ref uint SubSceneObject { get; }

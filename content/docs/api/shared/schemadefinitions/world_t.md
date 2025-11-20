@@ -12,7 +12,7 @@ public interface World_t : ISchemaClass<World_t>, ISchemaField, ISchemaClass, IN
 
 ### BuilderParams
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/World_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/World_t.cs#L18)
 
 ```csharp
 WorldBuilderParams_t BuilderParams { get; }
@@ -24,7 +24,7 @@ WorldBuilderParams_t BuilderParams { get; }
 
 ### EntityLumps
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/World_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/World_t.cs#L24)
 
 ```csharp
 ref CUtlVector<CStrongHandle<InfoForResourceTypeCEntityLump>> EntityLumps { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<CStrongHandle<InfoForResourceTypeCEntityLump>> EntityLumps { get;
 
 ### WorldLightingInfo
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/World_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/World_t.cs#L22)
 
 ```csharp
 BakedLightingInfo_t WorldLightingInfo { get; }
@@ -48,7 +48,7 @@ BakedLightingInfo_t WorldLightingInfo { get; }
 
 ### WorldNodes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/World_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/World_t.cs#L20)
 
 ```csharp
 ref CUtlVector<NodeData_t> WorldNodes { get; }

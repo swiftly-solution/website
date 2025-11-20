@@ -12,7 +12,7 @@ public interface CEnvTilt : CPointEntity, CBaseEntity, CEntityInstance, ISchemaC
 
 ### Duration
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvTilt.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvTilt.cs#L18)
 
 ```csharp
 ref float Duration { get; }
@@ -24,7 +24,7 @@ ref float Duration { get; }
 
 ### Radius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvTilt.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvTilt.cs#L20)
 
 ```csharp
 ref float Radius { get; }
@@ -36,7 +36,7 @@ ref float Radius { get; }
 
 ### StopTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvTilt.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvTilt.cs#L24)
 
 ```csharp
 GameTime_t StopTime { get; }
@@ -48,7 +48,7 @@ GameTime_t StopTime { get; }
 
 ### TiltTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvTilt.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvTilt.cs#L22)
 
 ```csharp
 ref float TiltTime { get; }

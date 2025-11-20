@@ -12,7 +12,7 @@ public interface CLookComponentUpdater : CAnimComponentUpdater, ISchemaClass<CAn
 
 ### LookDirection
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLookComponentUpdater.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLookComponentUpdater.cs#L28)
 
 ```csharp
 CAnimParamHandle LookDirection { get; }
@@ -24,7 +24,7 @@ CAnimParamHandle LookDirection { get; }
 
 ### LookDistance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLookComponentUpdater.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLookComponentUpdater.cs#L26)
 
 ```csharp
 CAnimParamHandle LookDistance { get; }
@@ -36,7 +36,7 @@ CAnimParamHandle LookDistance { get; }
 
 ### LookHeading
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLookComponentUpdater.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLookComponentUpdater.cs#L18)
 
 ```csharp
 CAnimParamHandle LookHeading { get; }
@@ -48,7 +48,7 @@ CAnimParamHandle LookHeading { get; }
 
 ### LookHeadingNormalized
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLookComponentUpdater.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLookComponentUpdater.cs#L20)
 
 ```csharp
 CAnimParamHandle LookHeadingNormalized { get; }
@@ -60,7 +60,7 @@ CAnimParamHandle LookHeadingNormalized { get; }
 
 ### LookHeadingVelocity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLookComponentUpdater.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLookComponentUpdater.cs#L22)
 
 ```csharp
 CAnimParamHandle LookHeadingVelocity { get; }
@@ -72,7 +72,7 @@ CAnimParamHandle LookHeadingVelocity { get; }
 
 ### LookPitch
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLookComponentUpdater.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLookComponentUpdater.cs#L24)
 
 ```csharp
 CAnimParamHandle LookPitch { get; }
@@ -84,7 +84,7 @@ CAnimParamHandle LookPitch { get; }
 
 ### LookTarget
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLookComponentUpdater.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLookComponentUpdater.cs#L30)
 
 ```csharp
 CAnimParamHandle LookTarget { get; }
@@ -96,7 +96,7 @@ CAnimParamHandle LookTarget { get; }
 
 ### LookTargetWorldSpace
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLookComponentUpdater.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLookComponentUpdater.cs#L32)
 
 ```csharp
 CAnimParamHandle LookTargetWorldSpace { get; }
@@ -108,7 +108,7 @@ CAnimParamHandle LookTargetWorldSpace { get; }
 
 ### NetworkLookTarget
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLookComponentUpdater.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLookComponentUpdater.cs#L34)
 
 ```csharp
 ref bool NetworkLookTarget { get; }

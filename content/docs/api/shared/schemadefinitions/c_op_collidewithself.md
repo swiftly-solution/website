@@ -12,7 +12,7 @@ public interface C_OP_CollideWithSelf : CParticleFunctionConstraint, CParticleFu
 
 ### MinimumSpeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CollideWithSelf.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CollideWithSelf.cs#L20)
 
 ```csharp
 CPerParticleFloatInput MinimumSpeed { get; }
@@ -24,7 +24,7 @@ CPerParticleFloatInput MinimumSpeed { get; }
 
 ### RadiusScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CollideWithSelf.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CollideWithSelf.cs#L18)
 
 ```csharp
 CPerParticleFloatInput RadiusScale { get; }

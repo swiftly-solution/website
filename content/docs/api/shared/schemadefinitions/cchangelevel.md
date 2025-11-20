@@ -12,7 +12,7 @@ public interface CChangeLevel : CBaseTrigger, CBaseToggle, CBaseModelEntity, CBa
 
 ### LandmarkName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChangeLevel.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChangeLevel.cs#L20)
 
 ```csharp
 string LandmarkName { get; set; }
@@ -24,7 +24,7 @@ string LandmarkName { get; set; }
 
 ### MapName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChangeLevel.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChangeLevel.cs#L18)
 
 ```csharp
 string MapName { get; set; }
@@ -36,7 +36,7 @@ string MapName { get; set; }
 
 ### NewChapter
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChangeLevel.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChangeLevel.cs#L28)
 
 ```csharp
 ref bool NewChapter { get; }
@@ -48,7 +48,7 @@ ref bool NewChapter { get; }
 
 ### NoTouch
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChangeLevel.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChangeLevel.cs#L26)
 
 ```csharp
 ref bool NoTouch { get; }
@@ -60,7 +60,7 @@ ref bool NoTouch { get; }
 
 ### OnChangeLevel
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChangeLevel.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChangeLevel.cs#L22)
 
 ```csharp
 CEntityIOOutput OnChangeLevel { get; }
@@ -72,7 +72,7 @@ CEntityIOOutput OnChangeLevel { get; }
 
 ### OnChangeLevelFired
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChangeLevel.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChangeLevel.cs#L30)
 
 ```csharp
 ref bool OnChangeLevelFired { get; }
@@ -84,7 +84,7 @@ ref bool OnChangeLevelFired { get; }
 
 ### Touched
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChangeLevel.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChangeLevel.cs#L24)
 
 ```csharp
 ref bool Touched { get; }

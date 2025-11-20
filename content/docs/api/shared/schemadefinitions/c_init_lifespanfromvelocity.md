@@ -12,7 +12,7 @@ public interface C_INIT_LifespanFromVelocity : CParticleFunctionInitializer, CPa
 
 ### CollisionGroupName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_LifespanFromVelocity.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_LifespanFromVelocity.cs#L28)
 
 ```csharp
 string CollisionGroupName { get; set; }
@@ -24,7 +24,7 @@ string CollisionGroupName { get; set; }
 
 ### ComponentScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_LifespanFromVelocity.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_LifespanFromVelocity.cs#L18)
 
 ```csharp
 ref Vector ComponentScale { get; }
@@ -36,7 +36,7 @@ ref Vector ComponentScale { get; }
 
 ### IncludeWater
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_LifespanFromVelocity.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_LifespanFromVelocity.cs#L32)
 
 ```csharp
 ref bool IncludeWater { get; }
@@ -48,7 +48,7 @@ ref bool IncludeWater { get; }
 
 ### MaxPlanes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_LifespanFromVelocity.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_LifespanFromVelocity.cs#L26)
 
 ```csharp
 ref int MaxPlanes { get; }
@@ -60,7 +60,7 @@ ref int MaxPlanes { get; }
 
 ### MaxTraceLength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_LifespanFromVelocity.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_LifespanFromVelocity.cs#L22)
 
 ```csharp
 ref float MaxTraceLength { get; }
@@ -72,7 +72,7 @@ ref float MaxTraceLength { get; }
 
 ### TraceOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_LifespanFromVelocity.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_LifespanFromVelocity.cs#L20)
 
 ```csharp
 ref float TraceOffset { get; }
@@ -84,7 +84,7 @@ ref float TraceOffset { get; }
 
 ### TraceSet
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_LifespanFromVelocity.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_LifespanFromVelocity.cs#L30)
 
 ```csharp
 ref ParticleTraceSet_t TraceSet { get; }
@@ -96,7 +96,7 @@ ref ParticleTraceSet_t TraceSet { get; }
 
 ### TraceTolerance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_LifespanFromVelocity.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_LifespanFromVelocity.cs#L24)
 
 ```csharp
 ref float TraceTolerance { get; }

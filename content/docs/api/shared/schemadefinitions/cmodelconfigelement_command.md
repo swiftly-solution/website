@@ -12,7 +12,7 @@ public interface CModelConfigElement_Command : CModelConfigElement, ISchemaClass
 
 ### Args
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_Command.cs#L20)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_Command.cs#L21)
 
 ```csharp
 SchemaUntypedField Args { get; }
@@ -24,7 +24,7 @@ SchemaUntypedField Args { get; }
 
 ### Command
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_Command.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_Command.cs#L18)
 
 ```csharp
 string Command { get; set; }

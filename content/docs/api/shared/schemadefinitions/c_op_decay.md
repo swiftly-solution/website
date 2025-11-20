@@ -12,7 +12,7 @@ public interface C_OP_Decay : CParticleFunctionOperator, CParticleFunction, ISch
 
 ### ForcePreserveParticleOrder
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_Decay.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_Decay.cs#L20)
 
 ```csharp
 ref bool ForcePreserveParticleOrder { get; }
@@ -24,7 +24,7 @@ ref bool ForcePreserveParticleOrder { get; }
 
 ### RopeDecay
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_Decay.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_Decay.cs#L18)
 
 ```csharp
 ref bool RopeDecay { get; }

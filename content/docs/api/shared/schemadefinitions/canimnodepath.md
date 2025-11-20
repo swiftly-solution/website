@@ -12,7 +12,7 @@ public interface CAnimNodePath : ISchemaClass<CAnimNodePath>, ISchemaField, ISch
 
 ### Count
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimNodePath.cs#L20)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimNodePath.cs#L21)
 
 ```csharp
 ref int Count { get; }
@@ -24,7 +24,7 @@ ref int Count { get; }
 
 ### Path
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimNodePath.cs#L18)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimNodePath.cs#L19)
 
 ```csharp
 SchemaUntypedField Path { get; }

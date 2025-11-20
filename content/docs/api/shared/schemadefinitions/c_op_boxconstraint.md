@@ -12,7 +12,7 @@ public interface C_OP_BoxConstraint : CParticleFunctionConstraint, CParticleFunc
 
 ### AccountForRadius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_BoxConstraint.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_BoxConstraint.cs#L26)
 
 ```csharp
 ref bool AccountForRadius { get; }
@@ -24,7 +24,7 @@ ref bool AccountForRadius { get; }
 
 ### CP
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_BoxConstraint.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_BoxConstraint.cs#L22)
 
 ```csharp
 ref int CP { get; }
@@ -36,7 +36,7 @@ ref int CP { get; }
 
 ### LocalSpace
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_BoxConstraint.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_BoxConstraint.cs#L24)
 
 ```csharp
 ref bool LocalSpace { get; }
@@ -48,7 +48,7 @@ ref bool LocalSpace { get; }
 
 ### Max
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_BoxConstraint.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_BoxConstraint.cs#L20)
 
 ```csharp
 CParticleCollectionVecInput Max { get; }
@@ -60,7 +60,7 @@ CParticleCollectionVecInput Max { get; }
 
 ### Min
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_BoxConstraint.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_BoxConstraint.cs#L18)
 
 ```csharp
 CParticleCollectionVecInput Min { get; }

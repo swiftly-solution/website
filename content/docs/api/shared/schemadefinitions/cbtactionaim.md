@@ -12,7 +12,7 @@ public interface CBtActionAim : CBtNode, ISchemaClass<CBtNode>, ISchemaClass<CBt
 
 ### Acquired
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionAim.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionAim.cs#L40)
 
 ```csharp
 ref bool Acquired { get; }
@@ -24,7 +24,7 @@ ref bool Acquired { get; }
 
 ### AimReadyKey
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionAim.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionAim.cs#L20)
 
 ```csharp
 string AimReadyKey { get; set; }
@@ -36,7 +36,7 @@ string AimReadyKey { get; set; }
 
 ### AimTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionAim.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionAim.cs#L34)
 
 ```csharp
 CountdownTimer AimTimer { get; }
@@ -48,7 +48,7 @@ CountdownTimer AimTimer { get; }
 
 ### DoneAiming
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionAim.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionAim.cs#L24)
 
 ```csharp
 ref bool DoneAiming { get; }
@@ -60,7 +60,7 @@ ref bool DoneAiming { get; }
 
 ### FocusIntervalTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionAim.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionAim.cs#L38)
 
 ```csharp
 CountdownTimer FocusIntervalTimer { get; }
@@ -72,7 +72,7 @@ CountdownTimer FocusIntervalTimer { get; }
 
 ### LerpStartTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionAim.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionAim.cs#L26)
 
 ```csharp
 ref float LerpStartTime { get; }
@@ -84,7 +84,7 @@ ref float LerpStartTime { get; }
 
 ### NextLookTarget
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionAim.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionAim.cs#L32)
 
 ```csharp
 ref QAngle NextLookTarget { get; }
@@ -96,7 +96,7 @@ ref QAngle NextLookTarget { get; }
 
 ### NextLookTargetLerpTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionAim.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionAim.cs#L28)
 
 ```csharp
 ref float NextLookTargetLerpTime { get; }
@@ -108,7 +108,7 @@ ref float NextLookTargetLerpTime { get; }
 
 ### PenaltyReductionRatio
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionAim.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionAim.cs#L30)
 
 ```csharp
 ref float PenaltyReductionRatio { get; }
@@ -120,7 +120,7 @@ ref float PenaltyReductionRatio { get; }
 
 ### SensorInputKey
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionAim.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionAim.cs#L18)
 
 ```csharp
 string SensorInputKey { get; set; }
@@ -132,7 +132,7 @@ string SensorInputKey { get; set; }
 
 ### SniperHoldTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionAim.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionAim.cs#L36)
 
 ```csharp
 CountdownTimer SniperHoldTimer { get; }
@@ -144,7 +144,7 @@ CountdownTimer SniperHoldTimer { get; }
 
 ### ZoomCooldownTimestamp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionAim.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionAim.cs#L22)
 
 ```csharp
 ref float ZoomCooldownTimestamp { get; }

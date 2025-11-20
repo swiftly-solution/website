@@ -12,7 +12,7 @@ public interface RnSoftbodyCapsule_t : ISchemaClass<RnSoftbodyCapsule_t>, ISchem
 
 ### Center
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnSoftbodyCapsule_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnSoftbodyCapsule_t.cs#L18)
 
 ```csharp
 ISchemaFixedArray<Vector> Center { get; }
@@ -24,7 +24,7 @@ ISchemaFixedArray<Vector> Center { get; }
 
 ### Particle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnSoftbodyCapsule_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnSoftbodyCapsule_t.cs#L22)
 
 ```csharp
 ISchemaFixedArray<ushort> Particle { get; }
@@ -36,7 +36,7 @@ ISchemaFixedArray<ushort> Particle { get; }
 
 ### Radius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnSoftbodyCapsule_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnSoftbodyCapsule_t.cs#L20)
 
 ```csharp
 ref float Radius { get; }

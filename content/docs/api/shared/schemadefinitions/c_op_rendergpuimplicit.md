@@ -12,7 +12,7 @@ public interface C_OP_RenderGpuImplicit : CParticleFunctionRenderer, CParticleFu
 
 ### GridSize
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderGpuImplicit.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderGpuImplicit.cs#L24)
 
 ```csharp
 CParticleCollectionRendererFloatInput GridSize { get; }
@@ -24,7 +24,7 @@ CParticleCollectionRendererFloatInput GridSize { get; }
 
 ### IndexCountKb
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderGpuImplicit.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderGpuImplicit.cs#L22)
 
 ```csharp
 ref uint IndexCountKb { get; }
@@ -36,7 +36,7 @@ ref uint IndexCountKb { get; }
 
 ### IsosurfaceThreshold
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderGpuImplicit.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderGpuImplicit.cs#L28)
 
 ```csharp
 CParticleCollectionRendererFloatInput IsosurfaceThreshold { get; }
@@ -48,7 +48,7 @@ CParticleCollectionRendererFloatInput IsosurfaceThreshold { get; }
 
 ### Material
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderGpuImplicit.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderGpuImplicit.cs#L32)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeIMaterial2> Material { get; }
@@ -60,7 +60,7 @@ ref CStrongHandle<InfoForResourceTypeIMaterial2> Material { get; }
 
 ### RadiusScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderGpuImplicit.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderGpuImplicit.cs#L26)
 
 ```csharp
 CParticleCollectionRendererFloatInput RadiusScale { get; }
@@ -72,7 +72,7 @@ CParticleCollectionRendererFloatInput RadiusScale { get; }
 
 ### ScaleCP
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderGpuImplicit.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderGpuImplicit.cs#L30)
 
 ```csharp
 ref int ScaleCP { get; }
@@ -84,7 +84,7 @@ ref int ScaleCP { get; }
 
 ### UsePerParticleRadius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderGpuImplicit.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderGpuImplicit.cs#L18)
 
 ```csharp
 ref bool UsePerParticleRadius { get; }
@@ -96,7 +96,7 @@ ref bool UsePerParticleRadius { get; }
 
 ### VertexCountKb
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderGpuImplicit.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderGpuImplicit.cs#L20)
 
 ```csharp
 ref uint VertexCountKb { get; }

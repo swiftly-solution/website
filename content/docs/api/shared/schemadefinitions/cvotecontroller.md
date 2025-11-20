@@ -12,7 +12,7 @@ public interface CVoteController : CBaseEntity, CEntityInstance, ISchemaClass<CE
 
 ### AcceptingVotesTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoteController.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoteController.cs#L28)
 
 ```csharp
 CountdownTimer AcceptingVotesTimer { get; }
@@ -24,7 +24,7 @@ CountdownTimer AcceptingVotesTimer { get; }
 
 ### ActiveIssueIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoteController.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoteController.cs#L18)
 
 ```csharp
 ref int ActiveIssueIndex { get; }
@@ -36,7 +36,7 @@ ref int ActiveIssueIndex { get; }
 
 ### ExecuteCommandTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoteController.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoteController.cs#L30)
 
 ```csharp
 CountdownTimer ExecuteCommandTimer { get; }
@@ -48,7 +48,7 @@ CountdownTimer ExecuteCommandTimer { get; }
 
 ### HighestCountIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoteController.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoteController.cs#L40)
 
 ```csharp
 ref int HighestCountIndex { get; }
@@ -60,7 +60,7 @@ ref int HighestCountIndex { get; }
 
 ### IsYesNoVote
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoteController.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoteController.cs#L26)
 
 ```csharp
 ref bool IsYesNoVote { get; }
@@ -72,7 +72,7 @@ ref bool IsYesNoVote { get; }
 
 ### OnlyTeamToVote
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoteController.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoteController.cs#L20)
 
 ```csharp
 ref int OnlyTeamToVote { get; }
@@ -84,7 +84,7 @@ ref int OnlyTeamToVote { get; }
 
 ### PlayerHoldingVote
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoteController.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoteController.cs#L36)
 
 ```csharp
 ref uint PlayerHoldingVote { get; }
@@ -96,7 +96,7 @@ ref uint PlayerHoldingVote { get; }
 
 ### PlayerOverrideForVote
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoteController.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoteController.cs#L38)
 
 ```csharp
 ref uint PlayerOverrideForVote { get; }
@@ -108,7 +108,7 @@ ref uint PlayerOverrideForVote { get; }
 
 ### PotentialIssues
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoteController.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoteController.cs#L42)
 
 ```csharp
 ref CUtlVector<PointerTo<CBaseIssue>> PotentialIssues { get; }
@@ -120,7 +120,7 @@ ref CUtlVector<PointerTo<CBaseIssue>> PotentialIssues { get; }
 
 ### PotentialVotes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoteController.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoteController.cs#L24)
 
 ```csharp
 ref int PotentialVotes { get; }
@@ -132,7 +132,7 @@ ref int PotentialVotes { get; }
 
 ### ResetVoteTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoteController.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoteController.cs#L32)
 
 ```csharp
 CountdownTimer ResetVoteTimer { get; }
@@ -144,7 +144,7 @@ CountdownTimer ResetVoteTimer { get; }
 
 ### VoteOptionCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoteController.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoteController.cs#L22)
 
 ```csharp
 ISchemaFixedArray<int> VoteOptionCount { get; }
@@ -156,7 +156,7 @@ ISchemaFixedArray<int> VoteOptionCount { get; }
 
 ### VoteOptions
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoteController.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoteController.cs#L44)
 
 ```csharp
 ref CUtlVector<CString> VoteOptions { get; }
@@ -168,7 +168,7 @@ ref CUtlVector<CString> VoteOptions { get; }
 
 ### VotesCast
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoteController.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoteController.cs#L34)
 
 ```csharp
 ISchemaFixedArray<int> VotesCast { get; }
@@ -182,7 +182,7 @@ ISchemaFixedArray<int> VotesCast { get; }
 
 ### ActiveIssueIndexUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoteController.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoteController.cs#L46)
 
 ```csharp
 void ActiveIssueIndexUpdated()
@@ -190,7 +190,7 @@ void ActiveIssueIndexUpdated()
 
 ### IsYesNoVoteUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoteController.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoteController.cs#L50)
 
 ```csharp
 void IsYesNoVoteUpdated()
@@ -198,7 +198,7 @@ void IsYesNoVoteUpdated()
 
 ### OnlyTeamToVoteUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoteController.cs#L46)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoteController.cs#L47)
 
 ```csharp
 void OnlyTeamToVoteUpdated()
@@ -206,7 +206,7 @@ void OnlyTeamToVoteUpdated()
 
 ### PotentialVotesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoteController.cs#L48)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoteController.cs#L49)
 
 ```csharp
 void PotentialVotesUpdated()
@@ -214,7 +214,7 @@ void PotentialVotesUpdated()
 
 ### VoteOptionCountUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoteController.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoteController.cs#L48)
 
 ```csharp
 void VoteOptionCountUpdated()

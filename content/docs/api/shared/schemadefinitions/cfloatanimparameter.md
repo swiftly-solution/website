@@ -12,7 +12,7 @@ public interface CFloatAnimParameter : CConcreteAnimParameter, CAnimParameterBas
 
 ### DefaultValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFloatAnimParameter.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFloatAnimParameter.cs#L18)
 
 ```csharp
 ref float DefaultValue { get; }
@@ -24,7 +24,7 @@ ref float DefaultValue { get; }
 
 ### Interpolate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFloatAnimParameter.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFloatAnimParameter.cs#L24)
 
 ```csharp
 ref bool Interpolate { get; }
@@ -36,7 +36,7 @@ ref bool Interpolate { get; }
 
 ### MaxValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFloatAnimParameter.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFloatAnimParameter.cs#L22)
 
 ```csharp
 ref float MaxValue { get; }
@@ -48,7 +48,7 @@ ref float MaxValue { get; }
 
 ### MinValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFloatAnimParameter.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFloatAnimParameter.cs#L20)
 
 ```csharp
 ref float MinValue { get; }

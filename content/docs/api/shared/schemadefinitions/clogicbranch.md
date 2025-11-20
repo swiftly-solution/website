@@ -12,7 +12,7 @@ public interface CLogicBranch : CLogicalEntity, CServerOnlyEntity, CBaseEntity, 
 
 ### InValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicBranch.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicBranch.cs#L18)
 
 ```csharp
 ref bool InValue { get; }
@@ -24,7 +24,7 @@ ref bool InValue { get; }
 
 ### Listeners
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicBranch.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicBranch.cs#L20)
 
 ```csharp
 ref CUtlVector<CHandle<CBaseEntity>> Listeners { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<CHandle<CBaseEntity>> Listeners { get; }
 
 ### OnFalse
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicBranch.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicBranch.cs#L24)
 
 ```csharp
 CEntityIOOutput OnFalse { get; }
@@ -48,7 +48,7 @@ CEntityIOOutput OnFalse { get; }
 
 ### OnTrue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicBranch.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicBranch.cs#L22)
 
 ```csharp
 CEntityIOOutput OnTrue { get; }

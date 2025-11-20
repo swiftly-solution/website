@@ -12,7 +12,7 @@ public interface CSkillFloat : ISchemaClass<CSkillFloat>, ISchemaField, ISchemaC
 
 ### Value
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkillFloat.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkillFloat.cs#L18)
 
 ```csharp
 ISchemaFixedArray<float> Value { get; }

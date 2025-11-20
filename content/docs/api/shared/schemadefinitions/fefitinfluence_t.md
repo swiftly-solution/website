@@ -12,7 +12,7 @@ public interface FeFitInfluence_t : ISchemaClass<FeFitInfluence_t>, ISchemaField
 
 ### MatrixNode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeFitInfluence_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeFitInfluence_t.cs#L22)
 
 ```csharp
 ref uint MatrixNode { get; }
@@ -24,7 +24,7 @@ ref uint MatrixNode { get; }
 
 ### VertexNode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeFitInfluence_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeFitInfluence_t.cs#L18)
 
 ```csharp
 ref uint VertexNode { get; }
@@ -36,7 +36,7 @@ ref uint VertexNode { get; }
 
 ### Weight
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeFitInfluence_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeFitInfluence_t.cs#L20)
 
 ```csharp
 ref float Weight { get; }

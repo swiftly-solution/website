@@ -12,7 +12,7 @@ public interface CNmIDSwitchNode__CDefinition : CNmIDValueNode__CDefinition, CNm
 
 ### FalseValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDSwitchNode__CDefinition.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDSwitchNode__CDefinition.cs#L24)
 
 ```csharp
 ref CGlobalSymbol FalseValue { get; }
@@ -24,7 +24,7 @@ ref CGlobalSymbol FalseValue { get; }
 
 ### FalseValueNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDSwitchNode__CDefinition.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDSwitchNode__CDefinition.cs#L22)
 
 ```csharp
 ref short FalseValueNodeIdx { get; }
@@ -36,7 +36,7 @@ ref short FalseValueNodeIdx { get; }
 
 ### SwitchValueNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDSwitchNode__CDefinition.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDSwitchNode__CDefinition.cs#L18)
 
 ```csharp
 ref short SwitchValueNodeIdx { get; }
@@ -48,7 +48,7 @@ ref short SwitchValueNodeIdx { get; }
 
 ### TrueValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDSwitchNode__CDefinition.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDSwitchNode__CDefinition.cs#L26)
 
 ```csharp
 ref CGlobalSymbol TrueValue { get; }
@@ -60,7 +60,7 @@ ref CGlobalSymbol TrueValue { get; }
 
 ### TrueValueNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDSwitchNode__CDefinition.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDSwitchNode__CDefinition.cs#L20)
 
 ```csharp
 ref short TrueValueNodeIdx { get; }

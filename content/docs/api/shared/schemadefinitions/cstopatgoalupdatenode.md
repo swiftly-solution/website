@@ -12,7 +12,7 @@ public interface CStopAtGoalUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase, 
 
 ### Damping
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStopAtGoalUpdateNode.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStopAtGoalUpdateNode.cs#L26)
 
 ```csharp
 CAnimInputDamping Damping { get; }
@@ -24,7 +24,7 @@ CAnimInputDamping Damping { get; }
 
 ### InnerRadius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStopAtGoalUpdateNode.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStopAtGoalUpdateNode.cs#L20)
 
 ```csharp
 ref float InnerRadius { get; }
@@ -36,7 +36,7 @@ ref float InnerRadius { get; }
 
 ### MaxScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStopAtGoalUpdateNode.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStopAtGoalUpdateNode.cs#L22)
 
 ```csharp
 ref float MaxScale { get; }
@@ -48,7 +48,7 @@ ref float MaxScale { get; }
 
 ### MinScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStopAtGoalUpdateNode.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStopAtGoalUpdateNode.cs#L24)
 
 ```csharp
 ref float MinScale { get; }
@@ -60,7 +60,7 @@ ref float MinScale { get; }
 
 ### OuterRadius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStopAtGoalUpdateNode.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStopAtGoalUpdateNode.cs#L18)
 
 ```csharp
 ref float OuterRadius { get; }

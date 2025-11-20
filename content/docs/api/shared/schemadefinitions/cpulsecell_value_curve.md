@@ -12,7 +12,7 @@ public interface CPulseCell_Value_Curve : CPulseCell_BaseValue, CPulseCell_Base,
 
 ### Curve
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Value_Curve.cs#L18)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Value_Curve.cs#L19)
 
 ```csharp
 SchemaUntypedField Curve { get; }

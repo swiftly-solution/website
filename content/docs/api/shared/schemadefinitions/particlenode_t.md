@@ -12,7 +12,7 @@ public interface ParticleNode_t : ISchemaClass<ParticleNode_t>, ISchemaField, IS
 
 ### EndcapTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNode_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNode_t.cs#L28)
 
 ```csharp
 ref float EndcapTime { get; }
@@ -24,7 +24,7 @@ ref float EndcapTime { get; }
 
 ### Entity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNode_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNode_t.cs#L18)
 
 ```csharp
 ref CHandle<CBaseEntity> Entity { get; }
@@ -36,7 +36,7 @@ ref CHandle<CBaseEntity> Entity { get; }
 
 ### GrowthDuration
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNode_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNode_t.cs#L24)
 
 ```csharp
 ref float GrowthDuration { get; }
@@ -48,7 +48,7 @@ ref float GrowthDuration { get; }
 
 ### GrowthOrigin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNode_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNode_t.cs#L26)
 
 ```csharp
 ref Vector GrowthOrigin { get; }
@@ -60,7 +60,7 @@ ref Vector GrowthOrigin { get; }
 
 ### Index
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNode_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNode_t.cs#L20)
 
 ```csharp
 ParticleIndex_t Index { get; }
@@ -72,7 +72,7 @@ ParticleIndex_t Index { get; }
 
 ### MarkedForDelete
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNode_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNode_t.cs#L30)
 
 ```csharp
 ref bool MarkedForDelete { get; }
@@ -84,7 +84,7 @@ ref bool MarkedForDelete { get; }
 
 ### StartTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNode_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNode_t.cs#L22)
 
 ```csharp
 GameTime_t StartTime { get; }

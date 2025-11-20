@@ -12,7 +12,7 @@ public interface C_OP_RepeatedTriggerChildGroup : CParticleFunctionPreEmission, 
 
 ### ChildGroupID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RepeatedTriggerChildGroup.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RepeatedTriggerChildGroup.cs#L18)
 
 ```csharp
 ref int ChildGroupID { get; }
@@ -24,7 +24,7 @@ ref int ChildGroupID { get; }
 
 ### ClusterCooldown
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RepeatedTriggerChildGroup.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RepeatedTriggerChildGroup.cs#L24)
 
 ```csharp
 CParticleCollectionFloatInput ClusterCooldown { get; }
@@ -36,7 +36,7 @@ CParticleCollectionFloatInput ClusterCooldown { get; }
 
 ### ClusterRefireTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RepeatedTriggerChildGroup.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RepeatedTriggerChildGroup.cs#L20)
 
 ```csharp
 CParticleCollectionFloatInput ClusterRefireTime { get; }
@@ -48,7 +48,7 @@ CParticleCollectionFloatInput ClusterRefireTime { get; }
 
 ### ClusterSize
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RepeatedTriggerChildGroup.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RepeatedTriggerChildGroup.cs#L22)
 
 ```csharp
 CParticleCollectionFloatInput ClusterSize { get; }
@@ -60,7 +60,7 @@ CParticleCollectionFloatInput ClusterSize { get; }
 
 ### LimitChildCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RepeatedTriggerChildGroup.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RepeatedTriggerChildGroup.cs#L26)
 
 ```csharp
 ref bool LimitChildCount { get; }

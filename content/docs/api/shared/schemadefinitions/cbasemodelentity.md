@@ -12,7 +12,7 @@ public interface CBaseModelEntity : CBaseEntity, CEntityInstance, ISchemaClass<C
 
 ### AddDecal
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L83)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L84)
 
 ```csharp
 ref int AddDecal { get; }
@@ -24,7 +24,7 @@ ref int AddDecal { get; }
 
 ### AllowFadeInView
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L58)
 
 ```csharp
 ref bool AllowFadeInView { get; }
@@ -36,7 +36,7 @@ ref bool AllowFadeInView { get; }
 
 ### CHitboxComponent
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L20)
 
 ```csharp
 CHitboxComponent CHitboxComponent { get; }
@@ -48,7 +48,7 @@ CHitboxComponent CHitboxComponent { get; }
 
 ### CRenderComponent
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L18)
 
 ```csharp
 CRenderComponent? CRenderComponent { get; }
@@ -60,7 +60,7 @@ CRenderComponent? CRenderComponent { get; }
 
 ### Collision
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L67)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L68)
 
 ```csharp
 CCollisionProperty Collision { get; }
@@ -72,7 +72,7 @@ CCollisionProperty Collision { get; }
 
 ### ConfigEntitiesToPropagateMaterialDecalsTo
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L93)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L94)
 
 ```csharp
 ref CUtlVector<CHandle<CBaseModelEntity>> ConfigEntitiesToPropagateMaterialDecalsTo { get; }
@@ -84,7 +84,7 @@ ref CUtlVector<CHandle<CBaseModelEntity>> ConfigEntitiesToPropagateMaterialDecal
 
 ### DecalForwardAxis
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L87)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L88)
 
 ```csharp
 ref Vector DecalForwardAxis { get; }
@@ -96,7 +96,7 @@ ref Vector DecalForwardAxis { get; }
 
 ### DecalMode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L89)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L90)
 
 ```csharp
 ref DecalMode_t DecalMode { get; }
@@ -108,7 +108,7 @@ ref DecalMode_t DecalMode { get; }
 
 ### DecalPosition
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L85)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L86)
 
 ```csharp
 ref Vector DecalPosition { get; }
@@ -120,7 +120,7 @@ ref Vector DecalPosition { get; }
 
 ### DestructiblePartInitialStateDestructed0
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L22)
 
 ```csharp
 ref HitGroup_t DestructiblePartInitialStateDestructed0 { get; }
@@ -132,7 +132,7 @@ ref HitGroup_t DestructiblePartInitialStateDestructed0 { get; }
 
 ### DestructiblePartInitialStateDestructed0_PartIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L32)
 
 ```csharp
 ref int DestructiblePartInitialStateDestructed0_PartIndex { get; }
@@ -144,7 +144,7 @@ ref int DestructiblePartInitialStateDestructed0_PartIndex { get; }
 
 ### DestructiblePartInitialStateDestructed1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L24)
 
 ```csharp
 ref HitGroup_t DestructiblePartInitialStateDestructed1 { get; }
@@ -156,7 +156,7 @@ ref HitGroup_t DestructiblePartInitialStateDestructed1 { get; }
 
 ### DestructiblePartInitialStateDestructed1_PartIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L34)
 
 ```csharp
 ref int DestructiblePartInitialStateDestructed1_PartIndex { get; }
@@ -168,7 +168,7 @@ ref int DestructiblePartInitialStateDestructed1_PartIndex { get; }
 
 ### DestructiblePartInitialStateDestructed2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L26)
 
 ```csharp
 ref HitGroup_t DestructiblePartInitialStateDestructed2 { get; }
@@ -180,7 +180,7 @@ ref HitGroup_t DestructiblePartInitialStateDestructed2 { get; }
 
 ### DestructiblePartInitialStateDestructed2_PartIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L36)
 
 ```csharp
 ref int DestructiblePartInitialStateDestructed2_PartIndex { get; }
@@ -192,7 +192,7 @@ ref int DestructiblePartInitialStateDestructed2_PartIndex { get; }
 
 ### DestructiblePartInitialStateDestructed3
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L28)
 
 ```csharp
 ref HitGroup_t DestructiblePartInitialStateDestructed3 { get; }
@@ -204,7 +204,7 @@ ref HitGroup_t DestructiblePartInitialStateDestructed3 { get; }
 
 ### DestructiblePartInitialStateDestructed3_PartIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L38)
 
 ```csharp
 ref int DestructiblePartInitialStateDestructed3_PartIndex { get; }
@@ -216,7 +216,7 @@ ref int DestructiblePartInitialStateDestructed3_PartIndex { get; }
 
 ### DestructiblePartInitialStateDestructed4
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L30)
 
 ```csharp
 ref HitGroup_t DestructiblePartInitialStateDestructed4 { get; }
@@ -228,7 +228,7 @@ ref HitGroup_t DestructiblePartInitialStateDestructed4 { get; }
 
 ### DestructiblePartInitialStateDestructed4_PartIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L40)
 
 ```csharp
 ref int DestructiblePartInitialStateDestructed4_PartIndex { get; }
@@ -240,7 +240,7 @@ ref int DestructiblePartInitialStateDestructed4_PartIndex { get; }
 
 ### DestructiblePartsSystemComponent
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L42)
 
 ```csharp
 CDestructiblePartsComponent? DestructiblePartsSystemComponent { get; }
@@ -252,7 +252,7 @@ CDestructiblePartsComponent? DestructiblePartsSystemComponent { get; }
 
 ### DisabledHitGroups
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L97)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L98)
 
 ```csharp
 ISchemaFixedArray<uint> DisabledHitGroups { get; }
@@ -264,7 +264,7 @@ ISchemaFixedArray<uint> DisabledHitGroups { get; }
 
 ### DissolveStartTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L50)
 
 ```csharp
 GameTime_t DissolveStartTime { get; }
@@ -276,7 +276,7 @@ GameTime_t DissolveStartTime { get; }
 
 ### FadeMaxDist
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L75)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L76)
 
 ```csharp
 ref float FadeMaxDist { get; }
@@ -288,7 +288,7 @@ ref float FadeMaxDist { get; }
 
 ### FadeMinDist
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L73)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L74)
 
 ```csharp
 ref float FadeMinDist { get; }
@@ -300,7 +300,7 @@ ref float FadeMinDist { get; }
 
 ### FadeScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L77)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L78)
 
 ```csharp
 ref float FadeScale { get; }
@@ -312,7 +312,7 @@ ref float FadeScale { get; }
 
 ### Glow
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L69)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L70)
 
 ```csharp
 CGlowProperty Glow { get; }
@@ -324,7 +324,7 @@ CGlowProperty Glow { get; }
 
 ### GlowBackfaceMult
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L71)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L72)
 
 ```csharp
 ref float GlowBackfaceMult { get; }
@@ -336,7 +336,7 @@ ref float GlowBackfaceMult { get; }
 
 ### LastDamagePosition
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L48)
 
 ```csharp
 ref Vector LastDamagePosition { get; }
@@ -348,7 +348,7 @@ ref Vector LastDamagePosition { get; }
 
 ### LastDamageSourceName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L46)
 
 ```csharp
 ref CGlobalSymbol LastDamageSourceName { get; }
@@ -360,7 +360,7 @@ ref CGlobalSymbol LastDamageSourceName { get; }
 
 ### LastHitGroup
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L44)
 
 ```csharp
 ref HitGroup_t LastHitGroup { get; }
@@ -372,7 +372,7 @@ ref HitGroup_t LastHitGroup { get; }
 
 ### NoInterpolate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L65)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L66)
 
 ```csharp
 ref bool NoInterpolate { get; }
@@ -384,7 +384,7 @@ ref bool NoInterpolate { get; }
 
 ### ObjectCulling
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L81)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L82)
 
 ```csharp
 ref byte ObjectCulling { get; }
@@ -396,7 +396,7 @@ ref byte ObjectCulling { get; }
 
 ### OnIgnite
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L52)
 
 ```csharp
 CEntityIOOutput OnIgnite { get; }
@@ -408,7 +408,7 @@ CEntityIOOutput OnIgnite { get; }
 
 ### Render
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L60)
 
 ```csharp
 ref Color Render { get; }
@@ -420,7 +420,7 @@ ref Color Render { get; }
 
 ### RenderAttributes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L62)
 
 ```csharp
 ref CUtlVector<EntityRenderAttribute_t> RenderAttributes { get; }
@@ -432,7 +432,7 @@ ref CUtlVector<EntityRenderAttribute_t> RenderAttributes { get; }
 
 ### RenderFX
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L56)
 
 ```csharp
 ref RenderFx_t RenderFX { get; }
@@ -444,7 +444,7 @@ ref RenderFx_t RenderFX { get; }
 
 ### RenderMode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L54)
 
 ```csharp
 ref RenderMode_t RenderMode { get; }
@@ -456,7 +456,7 @@ ref RenderMode_t RenderMode { get; }
 
 ### RenderToCubemaps
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L64)
 
 ```csharp
 ref bool RenderToCubemaps { get; }
@@ -468,7 +468,7 @@ ref bool RenderToCubemaps { get; }
 
 ### RequiredDecalMode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L91)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L92)
 
 ```csharp
 ref DecalMode_t RequiredDecalMode { get; }
@@ -480,7 +480,7 @@ ref DecalMode_t RequiredDecalMode { get; }
 
 ### ShadowStrength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L79)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L80)
 
 ```csharp
 ref float ShadowStrength { get; }
@@ -492,7 +492,7 @@ ref float ShadowStrength { get; }
 
 ### ViewOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L95)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L96)
 
 ```csharp
 CNetworkViewOffsetVector ViewOffset { get; }
@@ -506,7 +506,7 @@ CNetworkViewOffsetVector ViewOffset { get; }
 
 ### AddDecalUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L116)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L117)
 
 ```csharp
 void AddDecalUpdated()
@@ -514,7 +514,7 @@ void AddDecalUpdated()
 
 ### CHitboxComponentUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L100)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L101)
 
 ```csharp
 void CHitboxComponentUpdated()
@@ -522,7 +522,7 @@ void CHitboxComponentUpdated()
 
 ### CRenderComponentUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L99)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L100)
 
 ```csharp
 void CRenderComponentUpdated()
@@ -530,7 +530,7 @@ void CRenderComponentUpdated()
 
 ### CollisionUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L108)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L109)
 
 ```csharp
 void CollisionUpdated()
@@ -538,7 +538,7 @@ void CollisionUpdated()
 
 ### ConfigEntitiesToPropagateMaterialDecalsToUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L121)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L122)
 
 ```csharp
 void ConfigEntitiesToPropagateMaterialDecalsToUpdated()
@@ -546,7 +546,7 @@ void ConfigEntitiesToPropagateMaterialDecalsToUpdated()
 
 ### DecalForwardAxisUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L118)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L119)
 
 ```csharp
 void DecalForwardAxisUpdated()
@@ -554,7 +554,7 @@ void DecalForwardAxisUpdated()
 
 ### DecalModeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L119)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L120)
 
 ```csharp
 void DecalModeUpdated()
@@ -562,7 +562,7 @@ void DecalModeUpdated()
 
 ### DecalPositionUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L117)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L118)
 
 ```csharp
 void DecalPositionUpdated()
@@ -570,7 +570,7 @@ void DecalPositionUpdated()
 
 ### DestructiblePartsSystemComponentUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L101)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L102)
 
 ```csharp
 void DestructiblePartsSystemComponentUpdated()
@@ -578,7 +578,7 @@ void DestructiblePartsSystemComponentUpdated()
 
 ### DisabledHitGroupsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L123)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L124)
 
 ```csharp
 void DisabledHitGroupsUpdated()
@@ -586,7 +586,7 @@ void DisabledHitGroupsUpdated()
 
 ### FadeMaxDistUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L112)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L113)
 
 ```csharp
 void FadeMaxDistUpdated()
@@ -594,7 +594,7 @@ void FadeMaxDistUpdated()
 
 ### FadeMinDistUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L111)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L112)
 
 ```csharp
 void FadeMinDistUpdated()
@@ -602,7 +602,7 @@ void FadeMinDistUpdated()
 
 ### FadeScaleUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L113)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L114)
 
 ```csharp
 void FadeScaleUpdated()
@@ -610,7 +610,7 @@ void FadeScaleUpdated()
 
 ### GlowBackfaceMultUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L110)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L111)
 
 ```csharp
 void GlowBackfaceMultUpdated()
@@ -618,7 +618,7 @@ void GlowBackfaceMultUpdated()
 
 ### GlowUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L109)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L110)
 
 ```csharp
 void GlowUpdated()
@@ -626,7 +626,7 @@ void GlowUpdated()
 
 ### NoInterpolateUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L107)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L108)
 
 ```csharp
 void NoInterpolateUpdated()
@@ -634,7 +634,7 @@ void NoInterpolateUpdated()
 
 ### ObjectCullingUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L115)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L116)
 
 ```csharp
 void ObjectCullingUpdated()
@@ -642,7 +642,7 @@ void ObjectCullingUpdated()
 
 ### RenderAttributesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L105)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L106)
 
 ```csharp
 void RenderAttributesUpdated()
@@ -650,7 +650,7 @@ void RenderAttributesUpdated()
 
 ### RenderFXUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L103)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L104)
 
 ```csharp
 void RenderFXUpdated()
@@ -658,7 +658,7 @@ void RenderFXUpdated()
 
 ### RenderModeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L102)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L103)
 
 ```csharp
 void RenderModeUpdated()
@@ -666,7 +666,7 @@ void RenderModeUpdated()
 
 ### RenderToCubemapsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L106)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L107)
 
 ```csharp
 void RenderToCubemapsUpdated()
@@ -674,7 +674,7 @@ void RenderToCubemapsUpdated()
 
 ### RenderUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L104)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L105)
 
 ```csharp
 void RenderUpdated()
@@ -682,7 +682,7 @@ void RenderUpdated()
 
 ### RequiredDecalModeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L120)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L121)
 
 ```csharp
 void RequiredDecalModeUpdated()
@@ -727,7 +727,7 @@ void SetScale(float scale)
 
 ### ShadowStrengthUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L114)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L115)
 
 ```csharp
 void ShadowStrengthUpdated()
@@ -735,7 +735,7 @@ void ShadowStrengthUpdated()
 
 ### ViewOffsetUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L122)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L123)
 
 ```csharp
 void ViewOffsetUpdated()

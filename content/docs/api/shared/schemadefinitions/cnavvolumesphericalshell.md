@@ -12,7 +12,7 @@ public interface CNavVolumeSphericalShell : CNavVolumeSphere, CNavVolume, ISchem
 
 ### RadiusInner
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavVolumeSphericalShell.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavVolumeSphericalShell.cs#L18)
 
 ```csharp
 ref float RadiusInner { get; }

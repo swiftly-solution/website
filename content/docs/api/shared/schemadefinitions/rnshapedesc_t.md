@@ -12,7 +12,7 @@ public interface RnShapeDesc_t : ISchemaClass<RnShapeDesc_t>, ISchemaField, ISch
 
 ### CollisionAttributeIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnShapeDesc_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnShapeDesc_t.cs#L18)
 
 ```csharp
 ref uint CollisionAttributeIndex { get; }
@@ -24,7 +24,7 @@ ref uint CollisionAttributeIndex { get; }
 
 ### SurfacePropertyIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnShapeDesc_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnShapeDesc_t.cs#L20)
 
 ```csharp
 ref uint SurfacePropertyIndex { get; }
@@ -36,7 +36,7 @@ ref uint SurfacePropertyIndex { get; }
 
 ### ToolMaterialHash
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnShapeDesc_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnShapeDesc_t.cs#L28)
 
 ```csharp
 ref uint ToolMaterialHash { get; }
@@ -48,7 +48,7 @@ ref uint ToolMaterialHash { get; }
 
 ### UserFriendlyName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnShapeDesc_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnShapeDesc_t.cs#L22)
 
 ```csharp
 string UserFriendlyName { get; set; }
@@ -60,7 +60,7 @@ string UserFriendlyName { get; set; }
 
 ### UserFriendlyNameLong
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnShapeDesc_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnShapeDesc_t.cs#L26)
 
 ```csharp
 ref bool UserFriendlyNameLong { get; }
@@ -72,7 +72,7 @@ ref bool UserFriendlyNameLong { get; }
 
 ### UserFriendlyNameSealed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnShapeDesc_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnShapeDesc_t.cs#L24)
 
 ```csharp
 ref bool UserFriendlyNameSealed { get; }

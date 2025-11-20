@@ -12,7 +12,7 @@ public interface CSoundOpvarSetAutoRoomEntity : CSoundOpvarSetPointEntity, CSoun
 
 ### DoorwayPairs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetAutoRoomEntity.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetAutoRoomEntity.cs#L20)
 
 ```csharp
 ref CUtlVector<AutoRoomDoorwayPairs_t> DoorwayPairs { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<AutoRoomDoorwayPairs_t> DoorwayPairs { get; }
 
 ### HeightTolerance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetAutoRoomEntity.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetAutoRoomEntity.cs#L24)
 
 ```csharp
 ref float HeightTolerance { get; }
@@ -36,7 +36,7 @@ ref float HeightTolerance { get; }
 
 ### Size
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetAutoRoomEntity.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetAutoRoomEntity.cs#L22)
 
 ```csharp
 ref float Size { get; }
@@ -48,7 +48,7 @@ ref float Size { get; }
 
 ### SizeSqr
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetAutoRoomEntity.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetAutoRoomEntity.cs#L26)
 
 ```csharp
 ref float SizeSqr { get; }
@@ -60,7 +60,7 @@ ref float SizeSqr { get; }
 
 ### TraceResults
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetAutoRoomEntity.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetAutoRoomEntity.cs#L18)
 
 ```csharp
 ref CUtlVector<SoundOpvarTraceResult_t> TraceResults { get; }

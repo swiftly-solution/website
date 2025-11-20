@@ -12,7 +12,7 @@ public interface CRenderComponent : CEntityComponent, ISchemaClass<CEntityCompon
 
 ### EnableRendering
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderComponent.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderComponent.cs#L24)
 
 ```csharp
 ref bool EnableRendering { get; }
@@ -24,7 +24,7 @@ ref bool EnableRendering { get; }
 
 ### InterpolationReadyToDraw
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderComponent.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderComponent.cs#L26)
 
 ```csharp
 ref bool InterpolationReadyToDraw { get; }
@@ -36,7 +36,7 @@ ref bool InterpolationReadyToDraw { get; }
 
 ### IsRenderingWithViewModels
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderComponent.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderComponent.cs#L20)
 
 ```csharp
 ref bool IsRenderingWithViewModels { get; }
@@ -48,7 +48,7 @@ ref bool IsRenderingWithViewModels { get; }
 
 ### SplitscreenFlags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderComponent.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderComponent.cs#L22)
 
 ```csharp
 ref uint SplitscreenFlags { get; }
@@ -60,7 +60,7 @@ ref uint SplitscreenFlags { get; }
 
 ### __m_pChainEntity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderComponent.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderComponent.cs#L18)
 
 ```csharp
 ref CNetworkVarChainer __m_pChainEntity { get; }

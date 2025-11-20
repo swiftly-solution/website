@@ -12,7 +12,7 @@ public interface C_INIT_RadiusFromCPObject : CParticleFunctionInitializer, CPart
 
 ### ControlPoint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RadiusFromCPObject.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RadiusFromCPObject.cs#L18)
 
 ```csharp
 ref int ControlPoint { get; }

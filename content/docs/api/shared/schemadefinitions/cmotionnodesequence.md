@@ -12,7 +12,7 @@ public interface CMotionNodeSequence : CMotionNode, ISchemaClass<CMotionNode>, I
 
 ### PlaybackSpeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionNodeSequence.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionNodeSequence.cs#L22)
 
 ```csharp
 ref float PlaybackSpeed { get; }
@@ -24,7 +24,7 @@ ref float PlaybackSpeed { get; }
 
 ### Sequence
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionNodeSequence.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionNodeSequence.cs#L20)
 
 ```csharp
 HSequence Sequence { get; }
@@ -36,7 +36,7 @@ HSequence Sequence { get; }
 
 ### Tags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionNodeSequence.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionNodeSequence.cs#L18)
 
 ```csharp
 ref CUtlVector<TagSpan_t> Tags { get; }

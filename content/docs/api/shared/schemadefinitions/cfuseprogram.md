@@ -12,7 +12,7 @@ public interface CFuseProgram : ISchemaClass<CFuseProgram>, ISchemaField, ISchem
 
 ### MaxTempVarsUsed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuseProgram.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuseProgram.cs#L24)
 
 ```csharp
 ref int MaxTempVarsUsed { get; }
@@ -24,7 +24,7 @@ ref int MaxTempVarsUsed { get; }
 
 ### ProgramBuffer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuseProgram.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuseProgram.cs#L18)
 
 ```csharp
 ref CUtlVector<byte> ProgramBuffer { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<byte> ProgramBuffer { get; }
 
 ### VariablesRead
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuseProgram.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuseProgram.cs#L20)
 
 ```csharp
 ref CUtlVector<FuseVariableIndex_t> VariablesRead { get; }
@@ -48,7 +48,7 @@ ref CUtlVector<FuseVariableIndex_t> VariablesRead { get; }
 
 ### VariablesWritten
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuseProgram.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuseProgram.cs#L22)
 
 ```csharp
 ref CUtlVector<FuseVariableIndex_t> VariablesWritten { get; }

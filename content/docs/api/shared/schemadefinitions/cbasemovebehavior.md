@@ -12,7 +12,7 @@ public interface CBaseMoveBehavior : CPathKeyFrame, CLogicalEntity, CServerOnlyE
 
 ### AnimEndTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseMoveBehavior.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseMoveBehavior.cs#L24)
 
 ```csharp
 ref float AnimEndTime { get; }
@@ -24,7 +24,7 @@ ref float AnimEndTime { get; }
 
 ### AnimStartTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseMoveBehavior.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseMoveBehavior.cs#L22)
 
 ```csharp
 ref float AnimStartTime { get; }
@@ -36,7 +36,7 @@ ref float AnimStartTime { get; }
 
 ### AverageSpeedAcrossFrame
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseMoveBehavior.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseMoveBehavior.cs#L26)
 
 ```csharp
 ref float AverageSpeedAcrossFrame { get; }
@@ -48,7 +48,7 @@ ref float AverageSpeedAcrossFrame { get; }
 
 ### CurrentKeyFrame
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseMoveBehavior.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseMoveBehavior.cs#L28)
 
 ```csharp
 CPathKeyFrame? CurrentKeyFrame { get; }
@@ -60,7 +60,7 @@ CPathKeyFrame? CurrentKeyFrame { get; }
 
 ### Direction
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseMoveBehavior.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseMoveBehavior.cs#L38)
 
 ```csharp
 ref int Direction { get; }
@@ -72,7 +72,7 @@ ref int Direction { get; }
 
 ### PositionInterpolator
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseMoveBehavior.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseMoveBehavior.cs#L18)
 
 ```csharp
 ref int PositionInterpolator { get; }
@@ -84,7 +84,7 @@ ref int PositionInterpolator { get; }
 
 ### PostKeyFrame
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseMoveBehavior.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseMoveBehavior.cs#L34)
 
 ```csharp
 CPathKeyFrame? PostKeyFrame { get; }
@@ -96,7 +96,7 @@ CPathKeyFrame? PostKeyFrame { get; }
 
 ### PreKeyFrame
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseMoveBehavior.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseMoveBehavior.cs#L32)
 
 ```csharp
 CPathKeyFrame? PreKeyFrame { get; }
@@ -108,7 +108,7 @@ CPathKeyFrame? PreKeyFrame { get; }
 
 ### RotationInterpolator
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseMoveBehavior.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseMoveBehavior.cs#L20)
 
 ```csharp
 ref int RotationInterpolator { get; }
@@ -120,7 +120,7 @@ ref int RotationInterpolator { get; }
 
 ### TargetKeyFrame
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseMoveBehavior.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseMoveBehavior.cs#L30)
 
 ```csharp
 CPathKeyFrame? TargetKeyFrame { get; }
@@ -132,7 +132,7 @@ CPathKeyFrame? TargetKeyFrame { get; }
 
 ### TimeIntoFrame
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseMoveBehavior.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseMoveBehavior.cs#L36)
 
 ```csharp
 ref float TimeIntoFrame { get; }

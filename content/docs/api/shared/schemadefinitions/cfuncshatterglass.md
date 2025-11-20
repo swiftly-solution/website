@@ -12,7 +12,7 @@ public interface CFuncShatterglass : CBaseModelEntity, CBaseEntity, CEntityInsta
 
 ### BreakShardless
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L38)
 
 ```csharp
 ref bool BreakShardless { get; }
@@ -24,7 +24,7 @@ ref bool BreakShardless { get; }
 
 ### BreakSilent
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L36)
 
 ```csharp
 ref bool BreakSilent { get; }
@@ -36,7 +36,7 @@ ref bool BreakSilent { get; }
 
 ### Broken
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L40)
 
 ```csharp
 ref bool Broken { get; }
@@ -48,7 +48,7 @@ ref bool Broken { get; }
 
 ### DamagePositioningEntityName01
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L50)
 
 ```csharp
 string DamagePositioningEntityName01 { get; set; }
@@ -60,7 +60,7 @@ string DamagePositioningEntityName01 { get; set; }
 
 ### DamagePositioningEntityName02
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L52)
 
 ```csharp
 string DamagePositioningEntityName02 { get; set; }
@@ -72,7 +72,7 @@ string DamagePositioningEntityName02 { get; set; }
 
 ### DamagePositioningEntityName03
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L54)
 
 ```csharp
 string DamagePositioningEntityName03 { get; set; }
@@ -84,7 +84,7 @@ string DamagePositioningEntityName03 { get; set; }
 
 ### DamagePositioningEntityName04
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L56)
 
 ```csharp
 string DamagePositioningEntityName04 { get; set; }
@@ -96,7 +96,7 @@ string DamagePositioningEntityName04 { get; set; }
 
 ### ExtraDamagePositions
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L60)
 
 ```csharp
 ref CUtlVector<Vector> ExtraDamagePositions { get; }
@@ -108,7 +108,7 @@ ref CUtlVector<Vector> ExtraDamagePositions { get; }
 
 ### GlassInFrame
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L44)
 
 ```csharp
 ref bool GlassInFrame { get; }
@@ -120,7 +120,7 @@ ref bool GlassInFrame { get; }
 
 ### GlassNavIgnore
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L42)
 
 ```csharp
 ref bool GlassNavIgnore { get; }
@@ -132,7 +132,7 @@ ref bool GlassNavIgnore { get; }
 
 ### GlassThickness
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L32)
 
 ```csharp
 ref float GlassThickness { get; }
@@ -144,7 +144,7 @@ ref float GlassThickness { get; }
 
 ### InitAtTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L30)
 
 ```csharp
 GameTime_t InitAtTime { get; }
@@ -156,7 +156,7 @@ GameTime_t InitAtTime { get; }
 
 ### InitialDamagePositions
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L58)
 
 ```csharp
 ref CUtlVector<Vector> InitialDamagePositions { get; }
@@ -168,7 +168,7 @@ ref CUtlVector<Vector> InitialDamagePositions { get; }
 
 ### InitialDamageType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L48)
 
 ```csharp
 ref byte InitialDamageType { get; }
@@ -180,7 +180,7 @@ ref byte InitialDamageType { get; }
 
 ### InitialPanelVertices
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L62)
 
 ```csharp
 ref CUtlVector<Vector4D> InitialPanelVertices { get; }
@@ -192,7 +192,7 @@ ref CUtlVector<Vector4D> InitialPanelVertices { get; }
 
 ### LastCleanupTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L28)
 
 ```csharp
 GameTime_t LastCleanupTime { get; }
@@ -204,7 +204,7 @@ GameTime_t LastCleanupTime { get; }
 
 ### LastShatterSoundEmitTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L26)
 
 ```csharp
 GameTime_t LastShatterSoundEmitTime { get; }
@@ -216,7 +216,7 @@ GameTime_t LastShatterSoundEmitTime { get; }
 
 ### MatPanelTransform
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L18)
 
 ```csharp
 ref matrix3x4_t MatPanelTransform { get; }
@@ -228,7 +228,7 @@ ref matrix3x4_t MatPanelTransform { get; }
 
 ### MatPanelTransformWsTemp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L20)
 
 ```csharp
 ref matrix3x4_t MatPanelTransformWsTemp { get; }
@@ -240,7 +240,7 @@ ref matrix3x4_t MatPanelTransformWsTemp { get; }
 
 ### MaterialDamageBase
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L67)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L68)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeIMaterial2> MaterialDamageBase { get; }
@@ -252,7 +252,7 @@ ref CStrongHandle<InfoForResourceTypeIMaterial2> MaterialDamageBase { get; }
 
 ### OnBroken
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L64)
 
 ```csharp
 CEntityIOOutput OnBroken { get; }
@@ -264,7 +264,7 @@ CEntityIOOutput OnBroken { get; }
 
 ### PanelSize
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L24)
 
 ```csharp
 ref Vector2D PanelSize { get; }
@@ -276,7 +276,7 @@ ref Vector2D PanelSize { get; }
 
 ### ShatterGlassShards
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L22)
 
 ```csharp
 ref CUtlVector<uint> ShatterGlassShards { get; }
@@ -288,7 +288,7 @@ ref CUtlVector<uint> ShatterGlassShards { get; }
 
 ### SpawnInvulnerability
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L34)
 
 ```csharp
 ref float SpawnInvulnerability { get; }
@@ -300,7 +300,7 @@ ref float SpawnInvulnerability { get; }
 
 ### StartBroken
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L46)
 
 ```csharp
 ref bool StartBroken { get; }
@@ -312,7 +312,7 @@ ref bool StartBroken { get; }
 
 ### SurfaceType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L65)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncShatterglass.cs#L66)
 
 ```csharp
 ref byte SurfaceType { get; }

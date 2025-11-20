@@ -12,7 +12,7 @@ public interface LookAtOpFixedSettings_t : ISchemaClass<LookAtOpFixedSettings_t>
 
 ### Attachment
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/LookAtOpFixedSettings_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/LookAtOpFixedSettings_t.cs#L18)
 
 ```csharp
 CAnimAttachment Attachment { get; }
@@ -24,7 +24,7 @@ CAnimAttachment Attachment { get; }
 
 ### Bones
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/LookAtOpFixedSettings_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/LookAtOpFixedSettings_t.cs#L22)
 
 ```csharp
 ref CUtlVector<LookAtBone_t> Bones { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<LookAtBone_t> Bones { get; }
 
 ### Damping
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/LookAtOpFixedSettings_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/LookAtOpFixedSettings_t.cs#L20)
 
 ```csharp
 CAnimInputDamping Damping { get; }
@@ -48,7 +48,7 @@ CAnimInputDamping Damping { get; }
 
 ### HysteresisInnerAngle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/LookAtOpFixedSettings_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/LookAtOpFixedSettings_t.cs#L28)
 
 ```csharp
 ref float HysteresisInnerAngle { get; }
@@ -60,7 +60,7 @@ ref float HysteresisInnerAngle { get; }
 
 ### HysteresisOuterAngle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/LookAtOpFixedSettings_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/LookAtOpFixedSettings_t.cs#L30)
 
 ```csharp
 ref float HysteresisOuterAngle { get; }
@@ -72,7 +72,7 @@ ref float HysteresisOuterAngle { get; }
 
 ### MaintainUpDirection
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/LookAtOpFixedSettings_t.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/LookAtOpFixedSettings_t.cs#L34)
 
 ```csharp
 ref bool MaintainUpDirection { get; }
@@ -84,7 +84,7 @@ ref bool MaintainUpDirection { get; }
 
 ### PitchLimit
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/LookAtOpFixedSettings_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/LookAtOpFixedSettings_t.cs#L26)
 
 ```csharp
 ref float PitchLimit { get; }
@@ -96,7 +96,7 @@ ref float PitchLimit { get; }
 
 ### RotateYawForward
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/LookAtOpFixedSettings_t.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/LookAtOpFixedSettings_t.cs#L32)
 
 ```csharp
 ref bool RotateYawForward { get; }
@@ -108,7 +108,7 @@ ref bool RotateYawForward { get; }
 
 ### TargetIsPosition
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/LookAtOpFixedSettings_t.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/LookAtOpFixedSettings_t.cs#L36)
 
 ```csharp
 ref bool TargetIsPosition { get; }
@@ -120,7 +120,7 @@ ref bool TargetIsPosition { get; }
 
 ### UseHysteresis
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/LookAtOpFixedSettings_t.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/LookAtOpFixedSettings_t.cs#L38)
 
 ```csharp
 ref bool UseHysteresis { get; }
@@ -132,7 +132,7 @@ ref bool UseHysteresis { get; }
 
 ### YawLimit
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/LookAtOpFixedSettings_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/LookAtOpFixedSettings_t.cs#L24)
 
 ```csharp
 ref float YawLimit { get; }

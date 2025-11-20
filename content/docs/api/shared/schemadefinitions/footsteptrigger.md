@@ -12,7 +12,7 @@ public interface FootStepTrigger : ISchemaClass<FootStepTrigger>, ISchemaField, 
 
 ### FootIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootStepTrigger.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootStepTrigger.cs#L20)
 
 ```csharp
 ref int FootIndex { get; }
@@ -24,7 +24,7 @@ ref int FootIndex { get; }
 
 ### Tags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootStepTrigger.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootStepTrigger.cs#L18)
 
 ```csharp
 ref CUtlVector<int> Tags { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<int> Tags { get; }
 
 ### TriggerPhase
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootStepTrigger.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootStepTrigger.cs#L22)
 
 ```csharp
 ref StepPhase TriggerPhase { get; }

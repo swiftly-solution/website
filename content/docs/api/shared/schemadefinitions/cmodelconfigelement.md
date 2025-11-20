@@ -12,7 +12,7 @@ public interface CModelConfigElement : ISchemaClass<CModelConfigElement>, ISchem
 
 ### ElementName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement.cs#L18)
 
 ```csharp
 string ElementName { get; set; }
@@ -24,7 +24,7 @@ string ElementName { get; set; }
 
 ### NestedElements
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement.cs#L20)
 
 ```csharp
 ref CUtlVector<PointerTo<CModelConfigElement>> NestedElements { get; }

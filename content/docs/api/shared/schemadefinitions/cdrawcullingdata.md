@@ -12,7 +12,7 @@ public interface CDrawCullingData : ISchemaClass<CDrawCullingData>, ISchemaField
 
 ### ConeAxis
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDrawCullingData.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDrawCullingData.cs#L18)
 
 ```csharp
 ISchemaFixedArray<byte> ConeAxis { get; }
@@ -24,7 +24,7 @@ ISchemaFixedArray<byte> ConeAxis { get; }
 
 ### ConeCutoff
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDrawCullingData.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDrawCullingData.cs#L20)
 
 ```csharp
 ref byte ConeCutoff { get; }

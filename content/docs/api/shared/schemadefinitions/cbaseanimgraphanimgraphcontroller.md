@@ -12,7 +12,7 @@ public interface CBaseAnimGraphAnimGraphController : CAnimGraphControllerBase, I
 
 ### DestructiblePartDestroyedHitGroup
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphAnimGraphController.cs#L18)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphAnimGraphController.cs#L19)
 
 ```csharp
 SchemaUntypedField DestructiblePartDestroyedHitGroup { get; }
@@ -24,7 +24,7 @@ SchemaUntypedField DestructiblePartDestroyedHitGroup { get; }
 
 ### DestructiblePartDestroyedPartIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphAnimGraphController.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphAnimGraphController.cs#L22)
 
 ```csharp
 SchemaUntypedField DestructiblePartDestroyedPartIndex { get; }
@@ -36,7 +36,7 @@ SchemaUntypedField DestructiblePartDestroyedPartIndex { get; }
 
 ### HITGROUP_CHEST_Destroyed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphAnimGraphController.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphAnimGraphController.cs#L34)
 
 ```csharp
 SchemaUntypedField HITGROUP_CHEST_Destroyed { get; }
@@ -48,7 +48,7 @@ SchemaUntypedField HITGROUP_CHEST_Destroyed { get; }
 
 ### HITGROUP_GEAR_Destroyed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphAnimGraphController.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphAnimGraphController.cs#L58)
 
 ```csharp
 SchemaUntypedField HITGROUP_GEAR_Destroyed { get; }
@@ -60,7 +60,7 @@ SchemaUntypedField HITGROUP_GEAR_Destroyed { get; }
 
 ### HITGROUP_GENERIC_Destroyed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphAnimGraphController.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphAnimGraphController.cs#L28)
 
 ```csharp
 SchemaUntypedField HITGROUP_GENERIC_Destroyed { get; }
@@ -72,7 +72,7 @@ SchemaUntypedField HITGROUP_GENERIC_Destroyed { get; }
 
 ### HITGROUP_HEAD_Destroyed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphAnimGraphController.cs#L30)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphAnimGraphController.cs#L31)
 
 ```csharp
 SchemaUntypedField HITGROUP_HEAD_Destroyed { get; }
@@ -84,7 +84,7 @@ SchemaUntypedField HITGROUP_HEAD_Destroyed { get; }
 
 ### HITGROUP_INVALID_Destroyed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphAnimGraphController.cs#L24)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphAnimGraphController.cs#L25)
 
 ```csharp
 SchemaUntypedField HITGROUP_INVALID_Destroyed { get; }
@@ -96,7 +96,7 @@ SchemaUntypedField HITGROUP_INVALID_Destroyed { get; }
 
 ### HITGROUP_LEFTARM_Destroyed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphAnimGraphController.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphAnimGraphController.cs#L40)
 
 ```csharp
 SchemaUntypedField HITGROUP_LEFTARM_Destroyed { get; }
@@ -108,7 +108,7 @@ SchemaUntypedField HITGROUP_LEFTARM_Destroyed { get; }
 
 ### HITGROUP_LEFTLEG_Destroyed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphAnimGraphController.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphAnimGraphController.cs#L46)
 
 ```csharp
 SchemaUntypedField HITGROUP_LEFTLEG_Destroyed { get; }
@@ -120,7 +120,7 @@ SchemaUntypedField HITGROUP_LEFTLEG_Destroyed { get; }
 
 ### HITGROUP_NECK_Destroyed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphAnimGraphController.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphAnimGraphController.cs#L52)
 
 ```csharp
 SchemaUntypedField HITGROUP_NECK_Destroyed { get; }
@@ -132,7 +132,7 @@ SchemaUntypedField HITGROUP_NECK_Destroyed { get; }
 
 ### HITGROUP_RIGHTARM_Destroyed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphAnimGraphController.cs#L42)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphAnimGraphController.cs#L43)
 
 ```csharp
 SchemaUntypedField HITGROUP_RIGHTARM_Destroyed { get; }
@@ -144,7 +144,7 @@ SchemaUntypedField HITGROUP_RIGHTARM_Destroyed { get; }
 
 ### HITGROUP_RIGHTLEG_Destroyed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphAnimGraphController.cs#L48)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphAnimGraphController.cs#L49)
 
 ```csharp
 SchemaUntypedField HITGROUP_RIGHTLEG_Destroyed { get; }
@@ -156,7 +156,7 @@ SchemaUntypedField HITGROUP_RIGHTLEG_Destroyed { get; }
 
 ### HITGROUP_SPECIAL_Destroyed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphAnimGraphController.cs#L60)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphAnimGraphController.cs#L61)
 
 ```csharp
 SchemaUntypedField HITGROUP_SPECIAL_Destroyed { get; }
@@ -168,7 +168,7 @@ SchemaUntypedField HITGROUP_SPECIAL_Destroyed { get; }
 
 ### HITGROUP_STOMACH_Destroyed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphAnimGraphController.cs#L36)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphAnimGraphController.cs#L37)
 
 ```csharp
 SchemaUntypedField HITGROUP_STOMACH_Destroyed { get; }
@@ -180,7 +180,7 @@ SchemaUntypedField HITGROUP_STOMACH_Destroyed { get; }
 
 ### HITGROUP_UNUSED_Destroyed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphAnimGraphController.cs#L54)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseAnimGraphAnimGraphController.cs#L55)
 
 ```csharp
 SchemaUntypedField HITGROUP_UNUSED_Destroyed { get; }

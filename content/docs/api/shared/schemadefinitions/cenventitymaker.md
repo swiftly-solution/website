@@ -12,7 +12,7 @@ public interface CEnvEntityMaker : CPointEntity, CBaseEntity, CEntityInstance, I
 
 ### BlockerOrigin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvEntityMaker.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvEntityMaker.cs#L26)
 
 ```csharp
 ref Vector BlockerOrigin { get; }
@@ -24,7 +24,7 @@ ref Vector BlockerOrigin { get; }
 
 ### CurrentBlocker
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvEntityMaker.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvEntityMaker.cs#L24)
 
 ```csharp
 ref CHandle<CBaseEntity> CurrentBlocker { get; }
@@ -36,7 +36,7 @@ ref CHandle<CBaseEntity> CurrentBlocker { get; }
 
 ### CurrentInstance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvEntityMaker.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvEntityMaker.cs#L22)
 
 ```csharp
 ref CHandle<CBaseEntity> CurrentInstance { get; }
@@ -48,7 +48,7 @@ ref CHandle<CBaseEntity> CurrentInstance { get; }
 
 ### EntityMaxs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvEntityMaker.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvEntityMaker.cs#L20)
 
 ```csharp
 ref Vector EntityMaxs { get; }
@@ -60,7 +60,7 @@ ref Vector EntityMaxs { get; }
 
 ### EntityMins
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvEntityMaker.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvEntityMaker.cs#L18)
 
 ```csharp
 ref Vector EntityMins { get; }
@@ -72,7 +72,7 @@ ref Vector EntityMins { get; }
 
 ### OutputOnFailedSpawn
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvEntityMaker.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvEntityMaker.cs#L40)
 
 ```csharp
 CEntityIOOutput OutputOnFailedSpawn { get; }
@@ -84,7 +84,7 @@ CEntityIOOutput OutputOnFailedSpawn { get; }
 
 ### OutputOnSpawned
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvEntityMaker.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvEntityMaker.cs#L38)
 
 ```csharp
 CEntityIOOutput OutputOnSpawned { get; }
@@ -96,7 +96,7 @@ CEntityIOOutput OutputOnSpawned { get; }
 
 ### PostSpawnDirection
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvEntityMaker.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvEntityMaker.cs#L28)
 
 ```csharp
 ref QAngle PostSpawnDirection { get; }
@@ -108,7 +108,7 @@ ref QAngle PostSpawnDirection { get; }
 
 ### PostSpawnDirectionVariance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvEntityMaker.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvEntityMaker.cs#L30)
 
 ```csharp
 ref float PostSpawnDirectionVariance { get; }
@@ -120,7 +120,7 @@ ref float PostSpawnDirectionVariance { get; }
 
 ### PostSpawnSpeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvEntityMaker.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvEntityMaker.cs#L32)
 
 ```csharp
 ref float PostSpawnSpeed { get; }
@@ -132,7 +132,7 @@ ref float PostSpawnSpeed { get; }
 
 ### PostSpawnUseAngles
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvEntityMaker.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvEntityMaker.cs#L34)
 
 ```csharp
 ref bool PostSpawnUseAngles { get; }
@@ -144,7 +144,7 @@ ref bool PostSpawnUseAngles { get; }
 
 ### Template
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvEntityMaker.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvEntityMaker.cs#L36)
 
 ```csharp
 string Template { get; set; }

@@ -12,7 +12,7 @@ public interface CHintMessage : ISchemaClass<CHintMessage>, ISchemaField, ISchem
 
 ### Args
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHintMessage.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHintMessage.cs#L20)
 
 ```csharp
 ref CUtlVector<CString> Args { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<CString> Args { get; }
 
 ### Duration
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHintMessage.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHintMessage.cs#L22)
 
 ```csharp
 ref float Duration { get; }
@@ -36,7 +36,7 @@ ref float Duration { get; }
 
 ### HintString
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHintMessage.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHintMessage.cs#L18)
 
 ```csharp
 string HintString { get; set; }

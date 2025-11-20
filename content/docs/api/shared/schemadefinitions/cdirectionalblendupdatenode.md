@@ -12,7 +12,7 @@ public interface CDirectionalBlendUpdateNode : CLeafUpdateNode, CAnimUpdateNodeB
 
 ### BlendValueSource
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDirectionalBlendUpdateNode.cs#L22)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDirectionalBlendUpdateNode.cs#L23)
 
 ```csharp
 ref AnimValueSource BlendValueSource { get; }
@@ -24,7 +24,7 @@ ref AnimValueSource BlendValueSource { get; }
 
 ### Damping
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDirectionalBlendUpdateNode.cs#L20)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDirectionalBlendUpdateNode.cs#L21)
 
 ```csharp
 CAnimInputDamping Damping { get; }
@@ -36,7 +36,7 @@ CAnimInputDamping Damping { get; }
 
 ### Duration
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDirectionalBlendUpdateNode.cs#L28)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDirectionalBlendUpdateNode.cs#L29)
 
 ```csharp
 ref float Duration { get; }
@@ -48,7 +48,7 @@ ref float Duration { get; }
 
 ### LockBlendOnReset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDirectionalBlendUpdateNode.cs#L32)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDirectionalBlendUpdateNode.cs#L33)
 
 ```csharp
 ref bool LockBlendOnReset { get; }
@@ -60,7 +60,7 @@ ref bool LockBlendOnReset { get; }
 
 ### Loop
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDirectionalBlendUpdateNode.cs#L30)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDirectionalBlendUpdateNode.cs#L31)
 
 ```csharp
 ref bool Loop { get; }
@@ -72,7 +72,7 @@ ref bool Loop { get; }
 
 ### ParamIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDirectionalBlendUpdateNode.cs#L24)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDirectionalBlendUpdateNode.cs#L25)
 
 ```csharp
 CAnimParamHandle ParamIndex { get; }
@@ -84,7 +84,7 @@ CAnimParamHandle ParamIndex { get; }
 
 ### PlaybackSpeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDirectionalBlendUpdateNode.cs#L26)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDirectionalBlendUpdateNode.cs#L27)
 
 ```csharp
 ref float PlaybackSpeed { get; }
@@ -96,7 +96,7 @@ ref float PlaybackSpeed { get; }
 
 ### Sequences
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDirectionalBlendUpdateNode.cs#L18)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDirectionalBlendUpdateNode.cs#L19)
 
 ```csharp
 SchemaUntypedField Sequences { get; }

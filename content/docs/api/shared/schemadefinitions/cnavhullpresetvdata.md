@@ -12,7 +12,7 @@ public interface CNavHullPresetVData : ISchemaClass<CNavHullPresetVData>, ISchem
 
 ### NavHulls
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavHullPresetVData.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavHullPresetVData.cs#L18)
 
 ```csharp
 ref CUtlVector<CUtlString> NavHulls { get; }

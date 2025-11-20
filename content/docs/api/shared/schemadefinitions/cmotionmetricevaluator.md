@@ -12,7 +12,7 @@ public interface CMotionMetricEvaluator : ISchemaClass<CMotionMetricEvaluator>, 
 
 ### DimensionStartIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMetricEvaluator.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMetricEvaluator.cs#L24)
 
 ```csharp
 ref int DimensionStartIndex { get; }
@@ -24,7 +24,7 @@ ref int DimensionStartIndex { get; }
 
 ### Means
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMetricEvaluator.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMetricEvaluator.cs#L18)
 
 ```csharp
 ref CUtlVector<float> Means { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<float> Means { get; }
 
 ### StandardDeviations
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMetricEvaluator.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMetricEvaluator.cs#L20)
 
 ```csharp
 ref CUtlVector<float> StandardDeviations { get; }
@@ -48,7 +48,7 @@ ref CUtlVector<float> StandardDeviations { get; }
 
 ### Weight
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMetricEvaluator.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMetricEvaluator.cs#L22)
 
 ```csharp
 ref float Weight { get; }

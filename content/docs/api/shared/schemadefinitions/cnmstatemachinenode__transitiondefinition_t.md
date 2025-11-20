@@ -12,7 +12,7 @@ public interface CNmStateMachineNode__TransitionDefinition_t : ISchemaClass<CNmS
 
 ### CanBeForced
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateMachineNode__TransitionDefinition_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateMachineNode__TransitionDefinition_t.cs#L24)
 
 ```csharp
 ref bool CanBeForced { get; }
@@ -24,7 +24,7 @@ ref bool CanBeForced { get; }
 
 ### ConditionNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateMachineNode__TransitionDefinition_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateMachineNode__TransitionDefinition_t.cs#L20)
 
 ```csharp
 ref short ConditionNodeIdx { get; }
@@ -36,7 +36,7 @@ ref short ConditionNodeIdx { get; }
 
 ### TargetStateIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateMachineNode__TransitionDefinition_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateMachineNode__TransitionDefinition_t.cs#L18)
 
 ```csharp
 ref short TargetStateIdx { get; }
@@ -48,7 +48,7 @@ ref short TargetStateIdx { get; }
 
 ### TransitionNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateMachineNode__TransitionDefinition_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateMachineNode__TransitionDefinition_t.cs#L22)
 
 ```csharp
 ref short TransitionNodeIdx { get; }

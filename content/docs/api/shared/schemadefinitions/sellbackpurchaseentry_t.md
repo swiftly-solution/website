@@ -12,7 +12,7 @@ public interface SellbackPurchaseEntry_t : ISchemaClass<SellbackPurchaseEntry_t>
 
 ### Cost
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SellbackPurchaseEntry_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SellbackPurchaseEntry_t.cs#L20)
 
 ```csharp
 ref int Cost { get; }
@@ -24,7 +24,7 @@ ref int Cost { get; }
 
 ### DefIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SellbackPurchaseEntry_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SellbackPurchaseEntry_t.cs#L18)
 
 ```csharp
 ref ushort DefIdx { get; }
@@ -36,7 +36,7 @@ ref ushort DefIdx { get; }
 
 ### Item
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SellbackPurchaseEntry_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SellbackPurchaseEntry_t.cs#L26)
 
 ```csharp
 ref CHandle<CEntityInstance> Item { get; }
@@ -48,7 +48,7 @@ ref CHandle<CEntityInstance> Item { get; }
 
 ### PrevArmor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SellbackPurchaseEntry_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SellbackPurchaseEntry_t.cs#L22)
 
 ```csharp
 ref int PrevArmor { get; }
@@ -60,7 +60,7 @@ ref int PrevArmor { get; }
 
 ### PrevHelmet
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SellbackPurchaseEntry_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SellbackPurchaseEntry_t.cs#L24)
 
 ```csharp
 ref bool PrevHelmet { get; }
@@ -74,7 +74,7 @@ ref bool PrevHelmet { get; }
 
 ### CostUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SellbackPurchaseEntry_t.cs#L28)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SellbackPurchaseEntry_t.cs#L29)
 
 ```csharp
 void CostUpdated()
@@ -82,7 +82,7 @@ void CostUpdated()
 
 ### DefIdxUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SellbackPurchaseEntry_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SellbackPurchaseEntry_t.cs#L28)
 
 ```csharp
 void DefIdxUpdated()
@@ -90,7 +90,7 @@ void DefIdxUpdated()
 
 ### ItemUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SellbackPurchaseEntry_t.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SellbackPurchaseEntry_t.cs#L32)
 
 ```csharp
 void ItemUpdated()
@@ -98,7 +98,7 @@ void ItemUpdated()
 
 ### PrevArmorUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SellbackPurchaseEntry_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SellbackPurchaseEntry_t.cs#L30)
 
 ```csharp
 void PrevArmorUpdated()
@@ -106,7 +106,7 @@ void PrevArmorUpdated()
 
 ### PrevHelmetUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SellbackPurchaseEntry_t.cs#L30)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SellbackPurchaseEntry_t.cs#L31)
 
 ```csharp
 void PrevHelmetUpdated()

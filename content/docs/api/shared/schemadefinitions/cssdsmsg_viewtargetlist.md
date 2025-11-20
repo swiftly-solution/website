@@ -12,7 +12,7 @@ public interface CSSDSMsg_ViewTargetList : ISchemaClass<CSSDSMsg_ViewTargetList>
 
 ### Targets
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewTargetList.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewTargetList.cs#L22)
 
 ```csharp
 ref CUtlVector<CSSDSMsg_ViewTarget> Targets { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<CSSDSMsg_ViewTarget> Targets { get; }
 
 ### ViewId
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewTargetList.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewTargetList.cs#L18)
 
 ```csharp
 SceneViewId_t ViewId { get; }
@@ -36,7 +36,7 @@ SceneViewId_t ViewId { get; }
 
 ### ViewName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewTargetList.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewTargetList.cs#L20)
 
 ```csharp
 string ViewName { get; set; }

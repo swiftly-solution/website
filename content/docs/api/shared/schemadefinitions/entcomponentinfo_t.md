@@ -12,7 +12,7 @@ public interface EntComponentInfo_t : ISchemaClass<EntComponentInfo_t>, ISchemaF
 
 ### BaseClassComponentHelper
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntComponentInfo_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntComponentInfo_t.cs#L30)
 
 ```csharp
 CEntityComponentHelper? BaseClassComponentHelper { get; }
@@ -24,7 +24,7 @@ CEntityComponentHelper? BaseClassComponentHelper { get; }
 
 ### CPPClassname
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntComponentInfo_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntComponentInfo_t.cs#L20)
 
 ```csharp
 string CPPClassname { get; set; }
@@ -36,7 +36,7 @@ string CPPClassname { get; set; }
 
 ### Flags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntComponentInfo_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntComponentInfo_t.cs#L28)
 
 ```csharp
 ref uint Flags { get; }
@@ -48,7 +48,7 @@ ref uint Flags { get; }
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntComponentInfo_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntComponentInfo_t.cs#L18)
 
 ```csharp
 string Name { get; set; }
@@ -60,7 +60,7 @@ string Name { get; set; }
 
 ### NetworkDataReferencedDescription
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntComponentInfo_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntComponentInfo_t.cs#L22)
 
 ```csharp
 string NetworkDataReferencedDescription { get; set; }
@@ -72,7 +72,7 @@ string NetworkDataReferencedDescription { get; set; }
 
 ### NetworkDataReferencedPtrPropDescription
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntComponentInfo_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntComponentInfo_t.cs#L24)
 
 ```csharp
 string NetworkDataReferencedPtrPropDescription { get; set; }
@@ -84,7 +84,7 @@ string NetworkDataReferencedPtrPropDescription { get; set; }
 
 ### RuntimeIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntComponentInfo_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntComponentInfo_t.cs#L26)
 
 ```csharp
 ref int RuntimeIndex { get; }

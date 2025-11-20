@@ -12,7 +12,7 @@ public interface CAnimReplayFrame : ISchemaClass<CAnimReplayFrame>, ISchemaField
 
 ### InputDataBlocks
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimReplayFrame.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimReplayFrame.cs#L18)
 
 ```csharp
 ref CUtlVector<CUtlBinaryBlock> InputDataBlocks { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<CUtlBinaryBlock> InputDataBlocks { get; }
 
 ### InstanceData
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimReplayFrame.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimReplayFrame.cs#L20)
 
 ```csharp
 ref CUtlBinaryBlock InstanceData { get; }
@@ -36,7 +36,7 @@ ref CUtlBinaryBlock InstanceData { get; }
 
 ### LocalToWorldTransform
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimReplayFrame.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimReplayFrame.cs#L24)
 
 ```csharp
 ref CTransform LocalToWorldTransform { get; }
@@ -48,7 +48,7 @@ ref CTransform LocalToWorldTransform { get; }
 
 ### StartingLocalToWorldTransform
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimReplayFrame.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimReplayFrame.cs#L22)
 
 ```csharp
 ref CTransform StartingLocalToWorldTransform { get; }
@@ -60,7 +60,7 @@ ref CTransform StartingLocalToWorldTransform { get; }
 
 ### TimeStamp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimReplayFrame.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimReplayFrame.cs#L26)
 
 ```csharp
 ref float TimeStamp { get; }

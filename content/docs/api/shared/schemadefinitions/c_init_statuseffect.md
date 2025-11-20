@@ -12,7 +12,7 @@ public interface C_INIT_StatusEffect : CParticleFunctionInitializer, CParticleFu
 
 ### AmbientScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffect.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffect.cs#L32)
 
 ```csharp
 ref float AmbientScale { get; }
@@ -24,7 +24,7 @@ ref float AmbientScale { get; }
 
 ### ColorWarpIntensity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffect.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffect.cs#L26)
 
 ```csharp
 ref float ColorWarpIntensity { get; }
@@ -36,7 +36,7 @@ ref float ColorWarpIntensity { get; }
 
 ### Detail2BlendFactor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffect.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffect.cs#L24)
 
 ```csharp
 ref float Detail2BlendFactor { get; }
@@ -48,7 +48,7 @@ ref float Detail2BlendFactor { get; }
 
 ### Detail2Combo
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffect.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffect.cs#L18)
 
 ```csharp
 ref Detail2Combo_t Detail2Combo { get; }
@@ -60,7 +60,7 @@ ref Detail2Combo_t Detail2Combo { get; }
 
 ### Detail2Rotation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffect.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffect.cs#L20)
 
 ```csharp
 ref float Detail2Rotation { get; }
@@ -72,7 +72,7 @@ ref float Detail2Rotation { get; }
 
 ### Detail2Scale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffect.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffect.cs#L22)
 
 ```csharp
 ref float Detail2Scale { get; }
@@ -84,7 +84,7 @@ ref float Detail2Scale { get; }
 
 ### DiffuseWarpBlendToFull
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffect.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffect.cs#L28)
 
 ```csharp
 ref float DiffuseWarpBlendToFull { get; }
@@ -96,7 +96,7 @@ ref float DiffuseWarpBlendToFull { get; }
 
 ### EnvMapIntensity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffect.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffect.cs#L30)
 
 ```csharp
 ref float EnvMapIntensity { get; }
@@ -108,7 +108,7 @@ ref float EnvMapIntensity { get; }
 
 ### MetalnessBlendToFull
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffect.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffect.cs#L50)
 
 ```csharp
 ref float MetalnessBlendToFull { get; }
@@ -120,7 +120,7 @@ ref float MetalnessBlendToFull { get; }
 
 ### ReflectionsTintByBaseBlendToNone
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffect.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffect.cs#L48)
 
 ```csharp
 ref float ReflectionsTintByBaseBlendToNone { get; }
@@ -132,7 +132,7 @@ ref float ReflectionsTintByBaseBlendToNone { get; }
 
 ### RimLightColor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffect.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffect.cs#L44)
 
 ```csharp
 ref Color RimLightColor { get; }
@@ -144,7 +144,7 @@ ref Color RimLightColor { get; }
 
 ### RimLightScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffect.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffect.cs#L46)
 
 ```csharp
 ref float RimLightScale { get; }
@@ -156,7 +156,7 @@ ref float RimLightScale { get; }
 
 ### SelfIllumBlendToFull
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffect.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffect.cs#L52)
 
 ```csharp
 ref float SelfIllumBlendToFull { get; }
@@ -168,7 +168,7 @@ ref float SelfIllumBlendToFull { get; }
 
 ### SpecularBlendToFull
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffect.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffect.cs#L42)
 
 ```csharp
 ref float SpecularBlendToFull { get; }
@@ -180,7 +180,7 @@ ref float SpecularBlendToFull { get; }
 
 ### SpecularColor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffect.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffect.cs#L34)
 
 ```csharp
 ref Color SpecularColor { get; }
@@ -192,7 +192,7 @@ ref Color SpecularColor { get; }
 
 ### SpecularExponent
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffect.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffect.cs#L38)
 
 ```csharp
 ref float SpecularExponent { get; }
@@ -204,7 +204,7 @@ ref float SpecularExponent { get; }
 
 ### SpecularExponentBlendToFull
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffect.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffect.cs#L40)
 
 ```csharp
 ref float SpecularExponentBlendToFull { get; }
@@ -216,7 +216,7 @@ ref float SpecularExponentBlendToFull { get; }
 
 ### SpecularScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffect.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffect.cs#L36)
 
 ```csharp
 ref float SpecularScale { get; }

@@ -12,7 +12,7 @@ public interface C_OP_ExternalWindForce : CParticleFunctionForce, CParticleFunct
 
 ### BuoyancyForce
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ExternalWindForce.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ExternalWindForce.cs#L38)
 
 ```csharp
 CPerParticleVecInput BuoyancyForce { get; }
@@ -24,7 +24,7 @@ CPerParticleVecInput BuoyancyForce { get; }
 
 ### DampenNearWaterPlane
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ExternalWindForce.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ExternalWindForce.cs#L26)
 
 ```csharp
 ref bool DampenNearWaterPlane { get; }
@@ -36,7 +36,7 @@ ref bool DampenNearWaterPlane { get; }
 
 ### GravityForce
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ExternalWindForce.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ExternalWindForce.cs#L30)
 
 ```csharp
 CPerParticleVecInput GravityForce { get; }
@@ -48,7 +48,7 @@ CPerParticleVecInput GravityForce { get; }
 
 ### LocalBuoyancyScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ExternalWindForce.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ExternalWindForce.cs#L36)
 
 ```csharp
 CPerParticleFloatInput LocalBuoyancyScale { get; }
@@ -60,7 +60,7 @@ CPerParticleFloatInput LocalBuoyancyScale { get; }
 
 ### LocalGravityScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ExternalWindForce.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ExternalWindForce.cs#L34)
 
 ```csharp
 CPerParticleFloatInput LocalGravityScale { get; }
@@ -72,7 +72,7 @@ CPerParticleFloatInput LocalGravityScale { get; }
 
 ### SampleGravity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ExternalWindForce.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ExternalWindForce.cs#L28)
 
 ```csharp
 ref bool SampleGravity { get; }
@@ -84,7 +84,7 @@ ref bool SampleGravity { get; }
 
 ### SamplePosition
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ExternalWindForce.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ExternalWindForce.cs#L18)
 
 ```csharp
 CPerParticleVecInput SamplePosition { get; }
@@ -96,7 +96,7 @@ CPerParticleVecInput SamplePosition { get; }
 
 ### SampleWater
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ExternalWindForce.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ExternalWindForce.cs#L24)
 
 ```csharp
 ref bool SampleWater { get; }
@@ -108,7 +108,7 @@ ref bool SampleWater { get; }
 
 ### SampleWind
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ExternalWindForce.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ExternalWindForce.cs#L22)
 
 ```csharp
 ref bool SampleWind { get; }
@@ -120,7 +120,7 @@ ref bool SampleWind { get; }
 
 ### Scale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ExternalWindForce.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ExternalWindForce.cs#L20)
 
 ```csharp
 CPerParticleVecInput Scale { get; }
@@ -132,7 +132,7 @@ CPerParticleVecInput Scale { get; }
 
 ### UseBasicMovementGravity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ExternalWindForce.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ExternalWindForce.cs#L32)
 
 ```csharp
 ref bool UseBasicMovementGravity { get; }

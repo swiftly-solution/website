@@ -12,7 +12,7 @@ public interface CModelConfigElement_SetMaterialGroup : CModelConfigElement, ISc
 
 ### MaterialGroupName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_SetMaterialGroup.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_SetMaterialGroup.cs#L18)
 
 ```csharp
 string MaterialGroupName { get; set; }

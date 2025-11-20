@@ -12,7 +12,7 @@ public interface CInfoSpawnGroupLoadUnload : CLogicalEntity, CServerOnlyEntity, 
 
 ### AutoActivate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoSpawnGroupLoadUnload.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoSpawnGroupLoadUnload.cs#L36)
 
 ```csharp
 ref bool AutoActivate { get; }
@@ -24,7 +24,7 @@ ref bool AutoActivate { get; }
 
 ### FixedSpawnGroupName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoSpawnGroupLoadUnload.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoSpawnGroupLoadUnload.cs#L32)
 
 ```csharp
 string FixedSpawnGroupName { get; set; }
@@ -36,7 +36,7 @@ string FixedSpawnGroupName { get; set; }
 
 ### LandmarkName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoSpawnGroupLoadUnload.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoSpawnGroupLoadUnload.cs#L30)
 
 ```csharp
 string LandmarkName { get; set; }
@@ -48,7 +48,7 @@ string LandmarkName { get; set; }
 
 ### OnSpawnGroupLoadFinished
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoSpawnGroupLoadUnload.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoSpawnGroupLoadUnload.cs#L20)
 
 ```csharp
 CEntityIOOutput OnSpawnGroupLoadFinished { get; }
@@ -60,7 +60,7 @@ CEntityIOOutput OnSpawnGroupLoadFinished { get; }
 
 ### OnSpawnGroupLoadStarted
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoSpawnGroupLoadUnload.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoSpawnGroupLoadUnload.cs#L18)
 
 ```csharp
 CEntityIOOutput OnSpawnGroupLoadStarted { get; }
@@ -72,7 +72,7 @@ CEntityIOOutput OnSpawnGroupLoadStarted { get; }
 
 ### OnSpawnGroupUnloadFinished
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoSpawnGroupLoadUnload.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoSpawnGroupLoadUnload.cs#L24)
 
 ```csharp
 CEntityIOOutput OnSpawnGroupUnloadFinished { get; }
@@ -84,7 +84,7 @@ CEntityIOOutput OnSpawnGroupUnloadFinished { get; }
 
 ### OnSpawnGroupUnloadStarted
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoSpawnGroupLoadUnload.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoSpawnGroupLoadUnload.cs#L22)
 
 ```csharp
 CEntityIOOutput OnSpawnGroupUnloadStarted { get; }
@@ -96,7 +96,7 @@ CEntityIOOutput OnSpawnGroupUnloadStarted { get; }
 
 ### QueueActiveSpawnGroupChange
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoSpawnGroupLoadUnload.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoSpawnGroupLoadUnload.cs#L40)
 
 ```csharp
 ref bool QueueActiveSpawnGroupChange { get; }
@@ -108,7 +108,7 @@ ref bool QueueActiveSpawnGroupChange { get; }
 
 ### QueueFinishLoading
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoSpawnGroupLoadUnload.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoSpawnGroupLoadUnload.cs#L42)
 
 ```csharp
 ref bool QueueFinishLoading { get; }
@@ -120,7 +120,7 @@ ref bool QueueFinishLoading { get; }
 
 ### SpawnGroupFilterName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoSpawnGroupLoadUnload.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoSpawnGroupLoadUnload.cs#L28)
 
 ```csharp
 string SpawnGroupFilterName { get; set; }
@@ -132,7 +132,7 @@ string SpawnGroupFilterName { get; set; }
 
 ### SpawnGroupName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoSpawnGroupLoadUnload.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoSpawnGroupLoadUnload.cs#L26)
 
 ```csharp
 string SpawnGroupName { get; set; }
@@ -144,7 +144,7 @@ string SpawnGroupName { get; set; }
 
 ### TimeoutInterval
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoSpawnGroupLoadUnload.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoSpawnGroupLoadUnload.cs#L34)
 
 ```csharp
 ref float TimeoutInterval { get; }
@@ -156,7 +156,7 @@ ref float TimeoutInterval { get; }
 
 ### UnloadingStarted
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoSpawnGroupLoadUnload.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoSpawnGroupLoadUnload.cs#L38)
 
 ```csharp
 ref bool UnloadingStarted { get; }

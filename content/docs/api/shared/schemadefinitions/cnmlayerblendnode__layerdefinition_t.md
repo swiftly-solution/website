@@ -12,7 +12,7 @@ public interface CNmLayerBlendNode__LayerDefinition_t : ISchemaClass<CNmLayerBle
 
 ### BlendMode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmLayerBlendNode__LayerDefinition_t.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmLayerBlendNode__LayerDefinition_t.cs#L32)
 
 ```csharp
 ref NmPoseBlendMode_t BlendMode { get; }
@@ -24,7 +24,7 @@ ref NmPoseBlendMode_t BlendMode { get; }
 
 ### BoneMaskValueNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmLayerBlendNode__LayerDefinition_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmLayerBlendNode__LayerDefinition_t.cs#L22)
 
 ```csharp
 ref short BoneMaskValueNodeIdx { get; }
@@ -36,7 +36,7 @@ ref short BoneMaskValueNodeIdx { get; }
 
 ### IgnoreEvents
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmLayerBlendNode__LayerDefinition_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmLayerBlendNode__LayerDefinition_t.cs#L28)
 
 ```csharp
 ref bool IgnoreEvents { get; }
@@ -48,7 +48,7 @@ ref bool IgnoreEvents { get; }
 
 ### InputNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmLayerBlendNode__LayerDefinition_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmLayerBlendNode__LayerDefinition_t.cs#L18)
 
 ```csharp
 ref short InputNodeIdx { get; }
@@ -60,7 +60,7 @@ ref short InputNodeIdx { get; }
 
 ### IsStateMachineLayer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmLayerBlendNode__LayerDefinition_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmLayerBlendNode__LayerDefinition_t.cs#L30)
 
 ```csharp
 ref bool IsStateMachineLayer { get; }
@@ -72,7 +72,7 @@ ref bool IsStateMachineLayer { get; }
 
 ### IsSynchronized
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmLayerBlendNode__LayerDefinition_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmLayerBlendNode__LayerDefinition_t.cs#L26)
 
 ```csharp
 ref bool IsSynchronized { get; }
@@ -84,7 +84,7 @@ ref bool IsSynchronized { get; }
 
 ### RootMotionWeightValueNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmLayerBlendNode__LayerDefinition_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmLayerBlendNode__LayerDefinition_t.cs#L24)
 
 ```csharp
 ref short RootMotionWeightValueNodeIdx { get; }
@@ -96,7 +96,7 @@ ref short RootMotionWeightValueNodeIdx { get; }
 
 ### WeightValueNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmLayerBlendNode__LayerDefinition_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmLayerBlendNode__LayerDefinition_t.cs#L20)
 
 ```csharp
 ref short WeightValueNodeIdx { get; }

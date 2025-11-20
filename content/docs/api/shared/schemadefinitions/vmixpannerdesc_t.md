@@ -12,7 +12,7 @@ public interface VMixPannerDesc_t : ISchemaClass<VMixPannerDesc_t>, ISchemaField
 
 ### Strength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixPannerDesc_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixPannerDesc_t.cs#L20)
 
 ```csharp
 ref float Strength { get; }
@@ -24,7 +24,7 @@ ref float Strength { get; }
 
 ### Type
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixPannerDesc_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixPannerDesc_t.cs#L18)
 
 ```csharp
 ref VMixPannerType_t Type { get; }

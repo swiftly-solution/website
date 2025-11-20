@@ -12,7 +12,7 @@ public interface CSmokeGrenadeProjectile : CBaseCSGrenadeProjectile, CBaseGrenad
 
 ### DidGroundScorch
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmokeGrenadeProjectile.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmokeGrenadeProjectile.cs#L40)
 
 ```csharp
 ref bool DidGroundScorch { get; }
@@ -24,7 +24,7 @@ ref bool DidGroundScorch { get; }
 
 ### DidSmokeEffect
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmokeGrenadeProjectile.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmokeGrenadeProjectile.cs#L20)
 
 ```csharp
 ref bool DidSmokeEffect { get; }
@@ -36,7 +36,7 @@ ref bool DidSmokeEffect { get; }
 
 ### ExplodeFromInferno
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmokeGrenadeProjectile.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmokeGrenadeProjectile.cs#L38)
 
 ```csharp
 ref bool ExplodeFromInferno { get; }
@@ -48,7 +48,7 @@ ref bool ExplodeFromInferno { get; }
 
 ### FllastSimulationTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmokeGrenadeProjectile.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmokeGrenadeProjectile.cs#L36)
 
 ```csharp
 GameTime_t FllastSimulationTime { get; }
@@ -60,7 +60,7 @@ GameTime_t FllastSimulationTime { get; }
 
 ### LastBounce
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmokeGrenadeProjectile.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmokeGrenadeProjectile.cs#L34)
 
 ```csharp
 GameTime_t LastBounce { get; }
@@ -72,7 +72,7 @@ GameTime_t LastBounce { get; }
 
 ### RandomSeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmokeGrenadeProjectile.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmokeGrenadeProjectile.cs#L22)
 
 ```csharp
 ref int RandomSeed { get; }
@@ -84,7 +84,7 @@ ref int RandomSeed { get; }
 
 ### SmokeColor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmokeGrenadeProjectile.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmokeGrenadeProjectile.cs#L24)
 
 ```csharp
 ref Vector SmokeColor { get; }
@@ -96,7 +96,7 @@ ref Vector SmokeColor { get; }
 
 ### SmokeDetonationPos
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmokeGrenadeProjectile.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmokeGrenadeProjectile.cs#L26)
 
 ```csharp
 ref Vector SmokeDetonationPos { get; }
@@ -108,7 +108,7 @@ ref Vector SmokeDetonationPos { get; }
 
 ### SmokeEffectTickBegin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmokeGrenadeProjectile.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmokeGrenadeProjectile.cs#L18)
 
 ```csharp
 ref int SmokeEffectTickBegin { get; }
@@ -120,7 +120,7 @@ ref int SmokeEffectTickBegin { get; }
 
 ### VoxelFrameData
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmokeGrenadeProjectile.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmokeGrenadeProjectile.cs#L28)
 
 ```csharp
 ref CUtlVector<byte> VoxelFrameData { get; }
@@ -132,7 +132,7 @@ ref CUtlVector<byte> VoxelFrameData { get; }
 
 ### VoxelFrameDataSize
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmokeGrenadeProjectile.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmokeGrenadeProjectile.cs#L30)
 
 ```csharp
 ref int VoxelFrameDataSize { get; }
@@ -144,7 +144,7 @@ ref int VoxelFrameDataSize { get; }
 
 ### VoxelUpdate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmokeGrenadeProjectile.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmokeGrenadeProjectile.cs#L32)
 
 ```csharp
 ref int VoxelUpdate { get; }
@@ -158,15 +158,35 @@ ref int VoxelUpdate { get; }
 
 ### DidSmokeEffectUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmokeGrenadeProjectile.cs#L42)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmokeGrenadeProjectile.cs#L43)
 
 ```csharp
 void DidSmokeEffectUpdated()
 ```
 
+### EmitGrenade(Vector, QAngle, Vector, Team, CBasePlayerPawn?)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CSmokeGrenadeProjectile.cs#L18)
+
+```csharp
+public static CSmokeGrenadeProjectile EmitGrenade(Vector pos, QAngle angle, Vector velocity, Team team, CBasePlayerPawn? owner)
+```
+
+#### Parameters
+
+- **pos**: [Vector](/docs/api/shared/natives/vector) - The position where the smoke grenade projectile will be created.
+- **angle**: [QAngle](/docs/api/shared/natives/qangle) - The angle at which the smoke grenade projectile will be created.
+- **velocity**: [Vector](/docs/api/shared/natives/vector) - The velocity of the smoke grenade projectile.
+- **team**: [Team](/docs/api/shared/players/team) - The team associated with the smoke grenade projectile.
+- **owner**: [CBasePlayerPawn](/docs/api/shared/schemadefinitions/cbaseplayerpawn)? - The owner of the smoke grenade projectile.
+
+#### Returns
+
+- [CSmokeGrenadeProjectile](/docs/api/shared/schemadefinitions/csmokegrenadeprojectile) - The created smoke grenade projectile.
+
 ### RandomSeedUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmokeGrenadeProjectile.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmokeGrenadeProjectile.cs#L44)
 
 ```csharp
 void RandomSeedUpdated()
@@ -174,7 +194,7 @@ void RandomSeedUpdated()
 
 ### SmokeColorUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmokeGrenadeProjectile.cs#L44)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmokeGrenadeProjectile.cs#L45)
 
 ```csharp
 void SmokeColorUpdated()
@@ -182,7 +202,7 @@ void SmokeColorUpdated()
 
 ### SmokeDetonationPosUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmokeGrenadeProjectile.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmokeGrenadeProjectile.cs#L46)
 
 ```csharp
 void SmokeDetonationPosUpdated()
@@ -190,7 +210,7 @@ void SmokeDetonationPosUpdated()
 
 ### SmokeEffectTickBeginUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmokeGrenadeProjectile.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmokeGrenadeProjectile.cs#L42)
 
 ```csharp
 void SmokeEffectTickBeginUpdated()
@@ -198,7 +218,7 @@ void SmokeEffectTickBeginUpdated()
 
 ### VoxelFrameDataSizeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmokeGrenadeProjectile.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmokeGrenadeProjectile.cs#L48)
 
 ```csharp
 void VoxelFrameDataSizeUpdated()
@@ -206,7 +226,7 @@ void VoxelFrameDataSizeUpdated()
 
 ### VoxelFrameDataUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmokeGrenadeProjectile.cs#L46)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmokeGrenadeProjectile.cs#L47)
 
 ```csharp
 void VoxelFrameDataUpdated()
@@ -214,7 +234,7 @@ void VoxelFrameDataUpdated()
 
 ### VoxelUpdateUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmokeGrenadeProjectile.cs#L48)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSmokeGrenadeProjectile.cs#L49)
 
 ```csharp
 void VoxelUpdateUpdated()

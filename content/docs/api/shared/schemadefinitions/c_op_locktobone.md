@@ -12,7 +12,7 @@ public interface C_OP_LockToBone : CParticleFunctionOperator, CParticleFunction,
 
 ### FieldOutput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToBone.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToBone.cs#L36)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -24,7 +24,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 ### FieldOutputPrev
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToBone.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToBone.cs#L38)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutputPrev { get; }
@@ -36,7 +36,7 @@ ParticleAttributeIndex_t FieldOutputPrev { get; }
 
 ### HitboxSetName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToBone.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToBone.cs#L30)
 
 ```csharp
 string HitboxSetName { get; set; }
@@ -48,7 +48,7 @@ string HitboxSetName { get; set; }
 
 ### JumpThreshold
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToBone.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToBone.cs#L26)
 
 ```csharp
 ref float JumpThreshold { get; }
@@ -60,7 +60,7 @@ ref float JumpThreshold { get; }
 
 ### LifeTimeFadeEnd
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToBone.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToBone.cs#L24)
 
 ```csharp
 ref float LifeTimeFadeEnd { get; }
@@ -72,7 +72,7 @@ ref float LifeTimeFadeEnd { get; }
 
 ### LifeTimeFadeStart
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToBone.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToBone.cs#L22)
 
 ```csharp
 ref float LifeTimeFadeStart { get; }
@@ -84,7 +84,7 @@ ref float LifeTimeFadeStart { get; }
 
 ### ModelInput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToBone.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToBone.cs#L18)
 
 ```csharp
 CParticleModelInput ModelInput { get; }
@@ -96,7 +96,7 @@ CParticleModelInput ModelInput { get; }
 
 ### PrevPosScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToBone.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToBone.cs#L28)
 
 ```csharp
 ref float PrevPosScale { get; }
@@ -108,7 +108,7 @@ ref float PrevPosScale { get; }
 
 ### Rigid
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToBone.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToBone.cs#L32)
 
 ```csharp
 ref bool Rigid { get; }
@@ -120,7 +120,7 @@ ref bool Rigid { get; }
 
 ### RigidRotationLock
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToBone.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToBone.cs#L42)
 
 ```csharp
 ref bool RigidRotationLock { get; }
@@ -132,7 +132,7 @@ ref bool RigidRotationLock { get; }
 
 ### RotLerp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToBone.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToBone.cs#L46)
 
 ```csharp
 CPerParticleFloatInput RotLerp { get; }
@@ -144,7 +144,7 @@ CPerParticleFloatInput RotLerp { get; }
 
 ### Rotation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToBone.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToBone.cs#L44)
 
 ```csharp
 CPerParticleVecInput Rotation { get; }
@@ -156,7 +156,7 @@ CPerParticleVecInput Rotation { get; }
 
 ### RotationSetType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToBone.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToBone.cs#L40)
 
 ```csharp
 ref ParticleRotationLockType_t RotationSetType { get; }
@@ -168,7 +168,7 @@ ref ParticleRotationLockType_t RotationSetType { get; }
 
 ### TransformInput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToBone.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToBone.cs#L20)
 
 ```csharp
 CParticleTransformInput TransformInput { get; }
@@ -180,7 +180,7 @@ CParticleTransformInput TransformInput { get; }
 
 ### UseBones
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToBone.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToBone.cs#L34)
 
 ```csharp
 ref bool UseBones { get; }

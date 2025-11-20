@@ -12,7 +12,7 @@ public interface CCSGameModeRules_Deathmatch : CCSGameModeRules, ISchemaClass<CC
 
 ### DMBonusStartTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameModeRules_Deathmatch.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameModeRules_Deathmatch.cs#L18)
 
 ```csharp
 GameTime_t DMBonusStartTime { get; }
@@ -24,7 +24,7 @@ GameTime_t DMBonusStartTime { get; }
 
 ### DMBonusTimeLength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameModeRules_Deathmatch.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameModeRules_Deathmatch.cs#L20)
 
 ```csharp
 ref float DMBonusTimeLength { get; }
@@ -36,7 +36,7 @@ ref float DMBonusTimeLength { get; }
 
 ### DMBonusWeapon
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameModeRules_Deathmatch.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameModeRules_Deathmatch.cs#L22)
 
 ```csharp
 string DMBonusWeapon { get; set; }
@@ -50,7 +50,7 @@ string DMBonusWeapon { get; set; }
 
 ### DMBonusStartTimeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameModeRules_Deathmatch.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameModeRules_Deathmatch.cs#L24)
 
 ```csharp
 void DMBonusStartTimeUpdated()
@@ -58,7 +58,7 @@ void DMBonusStartTimeUpdated()
 
 ### DMBonusTimeLengthUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameModeRules_Deathmatch.cs#L24)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameModeRules_Deathmatch.cs#L25)
 
 ```csharp
 void DMBonusTimeLengthUpdated()
@@ -66,7 +66,7 @@ void DMBonusTimeLengthUpdated()
 
 ### DMBonusWeaponUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameModeRules_Deathmatch.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameModeRules_Deathmatch.cs#L26)
 
 ```csharp
 void DMBonusWeaponUpdated()

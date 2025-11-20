@@ -12,7 +12,7 @@ public interface PulseGraphExecutionHistoryCursorDesc_t : ISchemaClass<PulseGrap
 
 ### AncestorCursorIDs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseGraphExecutionHistoryCursorDesc_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseGraphExecutionHistoryCursorDesc_t.cs#L18)
 
 ```csharp
 ref CUtlVector<PulseCursorID_t> AncestorCursorIDs { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<PulseCursorID_t> AncestorCursorIDs { get; }
 
 ### LastReferenced
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseGraphExecutionHistoryCursorDesc_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseGraphExecutionHistoryCursorDesc_t.cs#L24)
 
 ```csharp
 ref float LastReferenced { get; }
@@ -36,7 +36,7 @@ ref float LastReferenced { get; }
 
 ### LastValidEntryIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseGraphExecutionHistoryCursorDesc_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseGraphExecutionHistoryCursorDesc_t.cs#L26)
 
 ```csharp
 ref int LastValidEntryIdx { get; }
@@ -48,7 +48,7 @@ ref int LastValidEntryIdx { get; }
 
 ### RetiredAtNodeID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseGraphExecutionHistoryCursorDesc_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseGraphExecutionHistoryCursorDesc_t.cs#L22)
 
 ```csharp
 PulseDocNodeID_t RetiredAtNodeID { get; }
@@ -60,7 +60,7 @@ PulseDocNodeID_t RetiredAtNodeID { get; }
 
 ### SpawnNodeID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseGraphExecutionHistoryCursorDesc_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseGraphExecutionHistoryCursorDesc_t.cs#L20)
 
 ```csharp
 PulseDocNodeID_t SpawnNodeID { get; }

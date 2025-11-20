@@ -12,7 +12,7 @@ public interface FeVertexMapDesc_t : ISchemaClass<FeVertexMapDesc_t>, ISchemaFie
 
 ### CenterOfMass
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeVertexMapDesc_t.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeVertexMapDesc_t.cs#L34)
 
 ```csharp
 ref Vector CenterOfMass { get; }
@@ -24,7 +24,7 @@ ref Vector CenterOfMass { get; }
 
 ### Color
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeVertexMapDesc_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeVertexMapDesc_t.cs#L22)
 
 ```csharp
 ref uint Color { get; }
@@ -36,7 +36,7 @@ ref uint Color { get; }
 
 ### Flags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeVertexMapDesc_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeVertexMapDesc_t.cs#L24)
 
 ```csharp
 ref uint Flags { get; }
@@ -48,7 +48,7 @@ ref uint Flags { get; }
 
 ### MapOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeVertexMapDesc_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeVertexMapDesc_t.cs#L30)
 
 ```csharp
 ref uint MapOffset { get; }
@@ -60,7 +60,7 @@ ref uint MapOffset { get; }
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeVertexMapDesc_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeVertexMapDesc_t.cs#L18)
 
 ```csharp
 string Name { get; set; }
@@ -72,7 +72,7 @@ string Name { get; set; }
 
 ### NameHash
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeVertexMapDesc_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeVertexMapDesc_t.cs#L20)
 
 ```csharp
 ref uint NameHash { get; }
@@ -84,7 +84,7 @@ ref uint NameHash { get; }
 
 ### NodeListCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeVertexMapDesc_t.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeVertexMapDesc_t.cs#L40)
 
 ```csharp
 ref ushort NodeListCount { get; }
@@ -96,7 +96,7 @@ ref ushort NodeListCount { get; }
 
 ### NodeListOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeVertexMapDesc_t.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeVertexMapDesc_t.cs#L32)
 
 ```csharp
 ref uint NodeListOffset { get; }
@@ -108,7 +108,7 @@ ref uint NodeListOffset { get; }
 
 ### ScaleSourceNode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeVertexMapDesc_t.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeVertexMapDesc_t.cs#L38)
 
 ```csharp
 ref short ScaleSourceNode { get; }
@@ -120,7 +120,7 @@ ref short ScaleSourceNode { get; }
 
 ### VertexBase
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeVertexMapDesc_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeVertexMapDesc_t.cs#L26)
 
 ```csharp
 ref ushort VertexBase { get; }
@@ -132,7 +132,7 @@ ref ushort VertexBase { get; }
 
 ### VertexCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeVertexMapDesc_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeVertexMapDesc_t.cs#L28)
 
 ```csharp
 ref ushort VertexCount { get; }
@@ -144,7 +144,7 @@ ref ushort VertexCount { get; }
 
 ### VolumetricSolveStrength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeVertexMapDesc_t.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeVertexMapDesc_t.cs#L36)
 
 ```csharp
 ref float VolumetricSolveStrength { get; }

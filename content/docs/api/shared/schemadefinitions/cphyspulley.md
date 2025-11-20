@@ -12,7 +12,7 @@ public interface CPhysPulley : CPhysConstraint, CLogicalEntity, CServerOnlyEntit
 
 ### AddLength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysPulley.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysPulley.cs#L22)
 
 ```csharp
 ref float AddLength { get; }
@@ -24,7 +24,7 @@ ref float AddLength { get; }
 
 ### GearRatio
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysPulley.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysPulley.cs#L24)
 
 ```csharp
 ref float GearRatio { get; }
@@ -36,7 +36,7 @@ ref float GearRatio { get; }
 
 ### Offset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysPulley.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysPulley.cs#L20)
 
 ```csharp
 ISchemaFixedArray<Vector> Offset { get; }
@@ -48,7 +48,7 @@ ISchemaFixedArray<Vector> Offset { get; }
 
 ### Position2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysPulley.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysPulley.cs#L18)
 
 ```csharp
 ref Vector Position2 { get; }

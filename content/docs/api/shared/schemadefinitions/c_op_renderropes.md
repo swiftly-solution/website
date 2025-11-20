@@ -12,7 +12,7 @@ public interface C_OP_RenderRopes : CBaseRendererSource2, CParticleFunctionRende
 
 ### ClampV
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L48)
 
 ```csharp
 ref bool ClampV { get; }
@@ -24,7 +24,7 @@ ref bool ClampV { get; }
 
 ### ClosedLoop
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L67)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L68)
 
 ```csharp
 ref bool ClosedLoop { get; }
@@ -36,7 +36,7 @@ ref bool ClosedLoop { get; }
 
 ### DrawAsOpaque
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L77)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L78)
 
 ```csharp
 ref bool DrawAsOpaque { get; }
@@ -48,7 +48,7 @@ ref bool DrawAsOpaque { get; }
 
 ### EnableFadingAndClamping
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L18)
 
 ```csharp
 ref bool EnableFadingAndClamping { get; }
@@ -60,7 +60,7 @@ ref bool EnableFadingAndClamping { get; }
 
 ### EndFadeDot
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L30)
 
 ```csharp
 ref float EndFadeDot { get; }
@@ -72,7 +72,7 @@ ref float EndFadeDot { get; }
 
 ### EndFadeSize
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L26)
 
 ```csharp
 ref float EndFadeSize { get; }
@@ -84,7 +84,7 @@ ref float EndFadeSize { get; }
 
 ### GenerateNormals
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L79)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L80)
 
 ```csharp
 ref bool GenerateNormals { get; }
@@ -96,7 +96,7 @@ ref bool GenerateNormals { get; }
 
 ### MaxSize
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L22)
 
 ```csharp
 ref float MaxSize { get; }
@@ -108,7 +108,7 @@ ref float MaxSize { get; }
 
 ### MaxTesselation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L36)
 
 ```csharp
 ref int MaxTesselation { get; }
@@ -120,7 +120,7 @@ ref int MaxTesselation { get; }
 
 ### MinSize
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L20)
 
 ```csharp
 ref float MinSize { get; }
@@ -132,7 +132,7 @@ ref float MinSize { get; }
 
 ### MinTesselation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L34)
 
 ```csharp
 ref int MinTesselation { get; }
@@ -144,7 +144,7 @@ ref int MinTesselation { get; }
 
 ### OrientationType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L73)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L74)
 
 ```csharp
 ref ParticleOrientationChoiceList_t OrientationType { get; }
@@ -156,7 +156,7 @@ ref ParticleOrientationChoiceList_t OrientationType { get; }
 
 ### RadiusTaper
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L32)
 
 ```csharp
 ref float RadiusTaper { get; }
@@ -168,7 +168,7 @@ ref float RadiusTaper { get; }
 
 ### ReverseOrder
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L65)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L66)
 
 ```csharp
 ref bool ReverseOrder { get; }
@@ -180,7 +180,7 @@ ref bool ReverseOrder { get; }
 
 ### ScalarAttributeTextureCoordScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L64)
 
 ```csharp
 ref float ScalarAttributeTextureCoordScale { get; }
@@ -192,7 +192,7 @@ ref float ScalarAttributeTextureCoordScale { get; }
 
 ### ScalarFieldForTextureCoordinate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L62)
 
 ```csharp
 ParticleAttributeIndex_t ScalarFieldForTextureCoordinate { get; }
@@ -204,7 +204,7 @@ ParticleAttributeIndex_t ScalarFieldForTextureCoordinate { get; }
 
 ### ScaleCP1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L50)
 
 ```csharp
 ref int ScaleCP1 { get; }
@@ -216,7 +216,7 @@ ref int ScaleCP1 { get; }
 
 ### ScaleCP2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L52)
 
 ```csharp
 ref int ScaleCP2 { get; }
@@ -228,7 +228,7 @@ ref int ScaleCP2 { get; }
 
 ### ScaleVOffsetByControlPointDistance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L58)
 
 ```csharp
 ref float ScaleVOffsetByControlPointDistance { get; }
@@ -240,7 +240,7 @@ ref float ScaleVOffsetByControlPointDistance { get; }
 
 ### ScaleVScrollByControlPointDistance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L56)
 
 ```csharp
 ref float ScaleVScrollByControlPointDistance { get; }
@@ -252,7 +252,7 @@ ref float ScaleVScrollByControlPointDistance { get; }
 
 ### ScaleVSizeByControlPointDistance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L54)
 
 ```csharp
 ref float ScaleVSizeByControlPointDistance { get; }
@@ -264,7 +264,7 @@ ref float ScaleVSizeByControlPointDistance { get; }
 
 ### SortBySegmentID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L71)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L72)
 
 ```csharp
 ref bool SortBySegmentID { get; }
@@ -276,7 +276,7 @@ ref bool SortBySegmentID { get; }
 
 ### SplitField
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L69)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L70)
 
 ```csharp
 ParticleAttributeIndex_t SplitField { get; }
@@ -288,7 +288,7 @@ ParticleAttributeIndex_t SplitField { get; }
 
 ### StartFadeDot
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L28)
 
 ```csharp
 ref float StartFadeDot { get; }
@@ -300,7 +300,7 @@ ref float StartFadeDot { get; }
 
 ### StartFadeSize
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L24)
 
 ```csharp
 ref float StartFadeSize { get; }
@@ -312,7 +312,7 @@ ref float StartFadeSize { get; }
 
 ### TessScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L38)
 
 ```csharp
 ref float TessScale { get; }
@@ -324,7 +324,7 @@ ref float TessScale { get; }
 
 ### TextureVOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L44)
 
 ```csharp
 CParticleCollectionRendererFloatInput TextureVOffset { get; }
@@ -336,7 +336,7 @@ CParticleCollectionRendererFloatInput TextureVOffset { get; }
 
 ### TextureVParamsCP
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L46)
 
 ```csharp
 ref int TextureVParamsCP { get; }
@@ -348,7 +348,7 @@ ref int TextureVParamsCP { get; }
 
 ### TextureVScrollRate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L42)
 
 ```csharp
 CParticleCollectionRendererFloatInput TextureVScrollRate { get; }
@@ -360,7 +360,7 @@ CParticleCollectionRendererFloatInput TextureVScrollRate { get; }
 
 ### TextureVWorldSize
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L40)
 
 ```csharp
 CParticleCollectionRendererFloatInput TextureVWorldSize { get; }
@@ -372,7 +372,7 @@ CParticleCollectionRendererFloatInput TextureVWorldSize { get; }
 
 ### UseScalarForTextureCoordinate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L60)
 
 ```csharp
 ref bool UseScalarForTextureCoordinate { get; }
@@ -384,7 +384,7 @@ ref bool UseScalarForTextureCoordinate { get; }
 
 ### VectorFieldForOrientation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L75)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderRopes.cs#L76)
 
 ```csharp
 ParticleAttributeIndex_t VectorFieldForOrientation { get; }

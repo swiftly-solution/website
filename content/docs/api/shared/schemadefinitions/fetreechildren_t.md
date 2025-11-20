@@ -12,7 +12,7 @@ public interface FeTreeChildren_t : ISchemaClass<FeTreeChildren_t>, ISchemaField
 
 ### Child
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeTreeChildren_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeTreeChildren_t.cs#L18)
 
 ```csharp
 ISchemaFixedArray<ushort> Child { get; }

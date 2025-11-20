@@ -12,7 +12,7 @@ public interface C_OP_UpdateLightSource : CParticleFunctionOperator, CParticleFu
 
 ### BrightnessScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_UpdateLightSource.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_UpdateLightSource.cs#L20)
 
 ```csharp
 ref float BrightnessScale { get; }
@@ -24,7 +24,7 @@ ref float BrightnessScale { get; }
 
 ### ColorTint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_UpdateLightSource.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_UpdateLightSource.cs#L18)
 
 ```csharp
 ref Color ColorTint { get; }
@@ -36,7 +36,7 @@ ref Color ColorTint { get; }
 
 ### MaximumLightingRadius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_UpdateLightSource.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_UpdateLightSource.cs#L26)
 
 ```csharp
 ref float MaximumLightingRadius { get; }
@@ -48,7 +48,7 @@ ref float MaximumLightingRadius { get; }
 
 ### MinimumLightingRadius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_UpdateLightSource.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_UpdateLightSource.cs#L24)
 
 ```csharp
 ref float MinimumLightingRadius { get; }
@@ -60,7 +60,7 @@ ref float MinimumLightingRadius { get; }
 
 ### PositionDampingConstant
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_UpdateLightSource.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_UpdateLightSource.cs#L28)
 
 ```csharp
 ref float PositionDampingConstant { get; }
@@ -72,7 +72,7 @@ ref float PositionDampingConstant { get; }
 
 ### RadiusScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_UpdateLightSource.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_UpdateLightSource.cs#L22)
 
 ```csharp
 ref float RadiusScale { get; }

@@ -12,7 +12,7 @@ public interface CDspPresetModifierList : ISchemaClass<CDspPresetModifierList>, 
 
 ### DspName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDspPresetModifierList.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDspPresetModifierList.cs#L18)
 
 ```csharp
 string DspName { get; set; }
@@ -24,7 +24,7 @@ string DspName { get; set; }
 
 ### Modifiers
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDspPresetModifierList.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDspPresetModifierList.cs#L20)
 
 ```csharp
 ref CUtlVector<CDSPMixgroupModifier> Modifiers { get; }

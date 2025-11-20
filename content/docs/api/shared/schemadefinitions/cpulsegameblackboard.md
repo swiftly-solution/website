@@ -12,7 +12,7 @@ public interface CPulseGameBlackboard : CBaseEntity, CEntityInstance, ISchemaCla
 
 ### StrGraphName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGameBlackboard.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGameBlackboard.cs#L18)
 
 ```csharp
 string StrGraphName { get; set; }
@@ -24,7 +24,7 @@ string StrGraphName { get; set; }
 
 ### StrStateBlob
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGameBlackboard.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGameBlackboard.cs#L20)
 
 ```csharp
 string StrStateBlob { get; set; }
@@ -38,7 +38,7 @@ string StrStateBlob { get; set; }
 
 ### StrGraphNameUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGameBlackboard.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGameBlackboard.cs#L22)
 
 ```csharp
 void StrGraphNameUpdated()
@@ -46,7 +46,7 @@ void StrGraphNameUpdated()
 
 ### StrStateBlobUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGameBlackboard.cs#L22)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGameBlackboard.cs#L23)
 
 ```csharp
 void StrStateBlobUpdated()

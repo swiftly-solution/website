@@ -12,7 +12,7 @@ public interface CAnimFoot : ISchemaClass<CAnimFoot>, ISchemaField, ISchemaClass
 
 ### AnkleBoneIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimFoot.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimFoot.cs#L24)
 
 ```csharp
 ref int AnkleBoneIndex { get; }
@@ -24,7 +24,7 @@ ref int AnkleBoneIndex { get; }
 
 ### BallOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimFoot.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimFoot.cs#L20)
 
 ```csharp
 ref Vector BallOffset { get; }
@@ -36,7 +36,7 @@ ref Vector BallOffset { get; }
 
 ### HeelOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimFoot.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimFoot.cs#L22)
 
 ```csharp
 ref Vector HeelOffset { get; }
@@ -48,7 +48,7 @@ ref Vector HeelOffset { get; }
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimFoot.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimFoot.cs#L18)
 
 ```csharp
 string Name { get; set; }
@@ -60,7 +60,7 @@ string Name { get; set; }
 
 ### ToeBoneIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimFoot.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimFoot.cs#L26)
 
 ```csharp
 ref int ToeBoneIndex { get; }

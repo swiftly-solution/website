@@ -12,7 +12,7 @@ public interface CEnvLaser : CBeam, CBaseModelEntity, CBaseEntity, CEntityInstan
 
 ### FirePosition
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvLaser.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvLaser.cs#L24)
 
 ```csharp
 ref Vector FirePosition { get; }
@@ -24,7 +24,7 @@ ref Vector FirePosition { get; }
 
 ### LaserTarget
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvLaser.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvLaser.cs#L18)
 
 ```csharp
 string LaserTarget { get; set; }
@@ -36,7 +36,7 @@ string LaserTarget { get; set; }
 
 ### Sprite
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvLaser.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvLaser.cs#L20)
 
 ```csharp
 CSprite? Sprite { get; }
@@ -48,7 +48,7 @@ CSprite? Sprite { get; }
 
 ### SpriteName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvLaser.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvLaser.cs#L22)
 
 ```csharp
 string SpriteName { get; set; }
@@ -60,7 +60,7 @@ string SpriteName { get; set; }
 
 ### StartFrame
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvLaser.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvLaser.cs#L26)
 
 ```csharp
 ref float StartFrame { get; }

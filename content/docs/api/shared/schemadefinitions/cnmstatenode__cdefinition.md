@@ -12,7 +12,7 @@ public interface CNmStateNode__CDefinition : CNmPoseNode__CDefinition, CNmGraphN
 
 ### ChildNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateNode__CDefinition.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateNode__CDefinition.cs#L18)
 
 ```csharp
 ref short ChildNodeIdx { get; }
@@ -24,7 +24,7 @@ ref short ChildNodeIdx { get; }
 
 ### EntryEvents
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateNode__CDefinition.cs#L20)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateNode__CDefinition.cs#L21)
 
 ```csharp
 SchemaUntypedField EntryEvents { get; }
@@ -36,7 +36,7 @@ SchemaUntypedField EntryEvents { get; }
 
 ### ExecuteEvents
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateNode__CDefinition.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateNode__CDefinition.cs#L24)
 
 ```csharp
 SchemaUntypedField ExecuteEvents { get; }
@@ -48,7 +48,7 @@ SchemaUntypedField ExecuteEvents { get; }
 
 ### ExitEvents
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateNode__CDefinition.cs#L26)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateNode__CDefinition.cs#L27)
 
 ```csharp
 SchemaUntypedField ExitEvents { get; }
@@ -60,7 +60,7 @@ SchemaUntypedField ExitEvents { get; }
 
 ### IsOffState
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateNode__CDefinition.cs#L40)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateNode__CDefinition.cs#L41)
 
 ```csharp
 ref bool IsOffState { get; }
@@ -72,7 +72,7 @@ ref bool IsOffState { get; }
 
 ### LayerBoneMaskNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateNode__CDefinition.cs#L38)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateNode__CDefinition.cs#L39)
 
 ```csharp
 ref short LayerBoneMaskNodeIdx { get; }
@@ -84,7 +84,7 @@ ref short LayerBoneMaskNodeIdx { get; }
 
 ### LayerRootMotionWeightNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateNode__CDefinition.cs#L36)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateNode__CDefinition.cs#L37)
 
 ```csharp
 ref short LayerRootMotionWeightNodeIdx { get; }
@@ -96,7 +96,7 @@ ref short LayerRootMotionWeightNodeIdx { get; }
 
 ### LayerWeightNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateNode__CDefinition.cs#L34)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateNode__CDefinition.cs#L35)
 
 ```csharp
 ref short LayerWeightNodeIdx { get; }
@@ -108,7 +108,7 @@ ref short LayerWeightNodeIdx { get; }
 
 ### TimedElapsedEvents
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateNode__CDefinition.cs#L32)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateNode__CDefinition.cs#L33)
 
 ```csharp
 SchemaUntypedField TimedElapsedEvents { get; }
@@ -120,7 +120,7 @@ SchemaUntypedField TimedElapsedEvents { get; }
 
 ### TimedRemainingEvents
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateNode__CDefinition.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateNode__CDefinition.cs#L30)
 
 ```csharp
 SchemaUntypedField TimedRemainingEvents { get; }
@@ -132,7 +132,7 @@ SchemaUntypedField TimedRemainingEvents { get; }
 
 ### UseActualElapsedTimeInStateForTimedEvents
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateNode__CDefinition.cs#L42)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateNode__CDefinition.cs#L43)
 
 ```csharp
 ref bool UseActualElapsedTimeInStateForTimedEvents { get; }

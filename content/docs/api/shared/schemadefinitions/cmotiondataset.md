@@ -12,7 +12,7 @@ public interface CMotionDataSet : ISchemaClass<CMotionDataSet>, ISchemaField, IS
 
 ### DimensionCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionDataSet.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionDataSet.cs#L20)
 
 ```csharp
 ref int DimensionCount { get; }
@@ -24,7 +24,7 @@ ref int DimensionCount { get; }
 
 ### Groups
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionDataSet.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionDataSet.cs#L18)
 
 ```csharp
 ref CUtlVector<CMotionGraphGroup> Groups { get; }

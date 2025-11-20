@@ -12,7 +12,7 @@ public interface C_OP_PinParticleToCP : CParticleFunctionOperator, CParticleFunc
 
 ### Age
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PinParticleToCP.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PinParticleToCP.cs#L34)
 
 ```csharp
 CParticleCollectionFloatInput Age { get; }
@@ -24,7 +24,7 @@ CParticleCollectionFloatInput Age { get; }
 
 ### BreakControlPointNumber
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PinParticleToCP.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PinParticleToCP.cs#L36)
 
 ```csharp
 ref int BreakControlPointNumber { get; }
@@ -36,7 +36,7 @@ ref int BreakControlPointNumber { get; }
 
 ### BreakControlPointNumber2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PinParticleToCP.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PinParticleToCP.cs#L38)
 
 ```csharp
 ref int BreakControlPointNumber2 { get; }
@@ -48,7 +48,7 @@ ref int BreakControlPointNumber2 { get; }
 
 ### BreakDistance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PinParticleToCP.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PinParticleToCP.cs#L30)
 
 ```csharp
 CParticleCollectionFloatInput BreakDistance { get; }
@@ -60,7 +60,7 @@ CParticleCollectionFloatInput BreakDistance { get; }
 
 ### BreakSpeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PinParticleToCP.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PinParticleToCP.cs#L32)
 
 ```csharp
 CParticleCollectionFloatInput BreakSpeed { get; }
@@ -72,7 +72,7 @@ CParticleCollectionFloatInput BreakSpeed { get; }
 
 ### BreakValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PinParticleToCP.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PinParticleToCP.cs#L40)
 
 ```csharp
 CParticleCollectionFloatInput BreakValue { get; }
@@ -84,7 +84,7 @@ CParticleCollectionFloatInput BreakValue { get; }
 
 ### ControlPointNumber
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PinParticleToCP.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PinParticleToCP.cs#L18)
 
 ```csharp
 ref int ControlPointNumber { get; }
@@ -96,7 +96,7 @@ ref int ControlPointNumber { get; }
 
 ### Interpolation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PinParticleToCP.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PinParticleToCP.cs#L42)
 
 ```csharp
 CPerParticleFloatInput Interpolation { get; }
@@ -108,7 +108,7 @@ CPerParticleFloatInput Interpolation { get; }
 
 ### Offset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PinParticleToCP.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PinParticleToCP.cs#L20)
 
 ```csharp
 CParticleCollectionVecInput Offset { get; }
@@ -120,7 +120,7 @@ CParticleCollectionVecInput Offset { get; }
 
 ### OffsetLocal
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PinParticleToCP.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PinParticleToCP.cs#L22)
 
 ```csharp
 ref bool OffsetLocal { get; }
@@ -132,7 +132,7 @@ ref bool OffsetLocal { get; }
 
 ### ParticleNumber
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PinParticleToCP.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PinParticleToCP.cs#L26)
 
 ```csharp
 CParticleCollectionFloatInput ParticleNumber { get; }
@@ -144,7 +144,7 @@ CParticleCollectionFloatInput ParticleNumber { get; }
 
 ### ParticleSelection
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PinParticleToCP.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PinParticleToCP.cs#L24)
 
 ```csharp
 ref ParticleSelection_t ParticleSelection { get; }
@@ -156,7 +156,7 @@ ref ParticleSelection_t ParticleSelection { get; }
 
 ### PinBreakType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PinParticleToCP.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PinParticleToCP.cs#L28)
 
 ```csharp
 ref ParticlePinDistance_t PinBreakType { get; }
@@ -168,7 +168,7 @@ ref ParticlePinDistance_t PinBreakType { get; }
 
 ### RetainInitialVelocity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PinParticleToCP.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PinParticleToCP.cs#L44)
 
 ```csharp
 ref bool RetainInitialVelocity { get; }

@@ -12,7 +12,7 @@ public interface CEnvHudHint : CPointEntity, CBaseEntity, CEntityInstance, ISche
 
 ### Message
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvHudHint.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvHudHint.cs#L18)
 
 ```csharp
 string Message { get; set; }

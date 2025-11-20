@@ -12,7 +12,7 @@ public interface RnSoftbodySpring_t : ISchemaClass<RnSoftbodySpring_t>, ISchemaF
 
 ### Length
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnSoftbodySpring_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnSoftbodySpring_t.cs#L20)
 
 ```csharp
 ref float Length { get; }
@@ -24,7 +24,7 @@ ref float Length { get; }
 
 ### Particle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnSoftbodySpring_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnSoftbodySpring_t.cs#L18)
 
 ```csharp
 ISchemaFixedArray<ushort> Particle { get; }

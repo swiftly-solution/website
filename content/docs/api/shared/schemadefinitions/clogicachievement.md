@@ -12,7 +12,7 @@ public interface CLogicAchievement : CLogicalEntity, CServerOnlyEntity, CBaseEnt
 
 ### AchievementEventID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicAchievement.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicAchievement.cs#L20)
 
 ```csharp
 string AchievementEventID { get; set; }
@@ -24,7 +24,7 @@ string AchievementEventID { get; set; }
 
 ### Disabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicAchievement.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicAchievement.cs#L18)
 
 ```csharp
 ref bool Disabled { get; }
@@ -36,7 +36,7 @@ ref bool Disabled { get; }
 
 ### OnFired
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicAchievement.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicAchievement.cs#L22)
 
 ```csharp
 CEntityIOOutput OnFired { get; }

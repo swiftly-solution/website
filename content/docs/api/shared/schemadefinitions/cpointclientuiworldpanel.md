@@ -12,7 +12,7 @@ public interface CPointClientUIWorldPanel : CBaseClientUIEntity, CBaseModelEntit
 
 ### AllowInteractionFromAllSceneWorlds
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L42)
 
 ```csharp
 ref bool AllowInteractionFromAllSceneWorlds { get; }
@@ -24,7 +24,7 @@ ref bool AllowInteractionFromAllSceneWorlds { get; }
 
 ### CSSClasses
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L44)
 
 ```csharp
 ref CUtlVector<SchemaUntypedField> CSSClasses { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<SchemaUntypedField> CSSClasses { get; }
 
 ### DPI
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L28)
 
 ```csharp
 ref float DPI { get; }
@@ -48,7 +48,7 @@ ref float DPI { get; }
 
 ### DepthOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L32)
 
 ```csharp
 ref float DepthOffset { get; }
@@ -60,7 +60,7 @@ ref float DepthOffset { get; }
 
 ### DisableMipGen
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L62)
 
 ```csharp
 ref bool DisableMipGen { get; }
@@ -72,7 +72,7 @@ ref bool DisableMipGen { get; }
 
 ### ExcludeFromSaveGames
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L56)
 
 ```csharp
 ref bool ExcludeFromSaveGames { get; }
@@ -84,7 +84,7 @@ ref bool ExcludeFromSaveGames { get; }
 
 ### ExplicitImageLayout
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L64)
 
 ```csharp
 ref int ExplicitImageLayout { get; }
@@ -96,7 +96,7 @@ ref int ExplicitImageLayout { get; }
 
 ### FollowPlayerAcrossTeleport
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L22)
 
 ```csharp
 ref bool FollowPlayerAcrossTeleport { get; }
@@ -108,7 +108,7 @@ ref bool FollowPlayerAcrossTeleport { get; }
 
 ### Grabbable
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L58)
 
 ```csharp
 ref bool Grabbable { get; }
@@ -120,7 +120,7 @@ ref bool Grabbable { get; }
 
 ### Height
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L26)
 
 ```csharp
 ref float Height { get; }
@@ -132,7 +132,7 @@ ref float Height { get; }
 
 ### HorizontalAlign
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L36)
 
 ```csharp
 ref uint HorizontalAlign { get; }
@@ -144,7 +144,7 @@ ref uint HorizontalAlign { get; }
 
 ### IgnoreInput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L18)
 
 ```csharp
 ref bool IgnoreInput { get; }
@@ -156,7 +156,7 @@ ref bool IgnoreInput { get; }
 
 ### InteractDistance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L30)
 
 ```csharp
 ref float InteractDistance { get; }
@@ -168,7 +168,7 @@ ref float InteractDistance { get; }
 
 ### Lit
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L20)
 
 ```csharp
 ref bool Lit { get; }
@@ -180,7 +180,7 @@ ref bool Lit { get; }
 
 ### NoDepth
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L48)
 
 ```csharp
 ref bool NoDepth { get; }
@@ -192,7 +192,7 @@ ref bool NoDepth { get; }
 
 ### OnlyRenderToTexture
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L60)
 
 ```csharp
 ref bool OnlyRenderToTexture { get; }
@@ -204,7 +204,7 @@ ref bool OnlyRenderToTexture { get; }
 
 ### Opaque
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L46)
 
 ```csharp
 ref bool Opaque { get; }
@@ -216,7 +216,7 @@ ref bool Opaque { get; }
 
 ### Orientation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L40)
 
 ```csharp
 ref uint Orientation { get; }
@@ -228,7 +228,7 @@ ref uint Orientation { get; }
 
 ### OwnerContext
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L34)
 
 ```csharp
 ref uint OwnerContext { get; }
@@ -240,7 +240,7 @@ ref uint OwnerContext { get; }
 
 ### RenderBackface
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L52)
 
 ```csharp
 ref bool RenderBackface { get; }
@@ -252,7 +252,7 @@ ref bool RenderBackface { get; }
 
 ### UseOffScreenIndicator
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L54)
 
 ```csharp
 ref bool UseOffScreenIndicator { get; }
@@ -264,7 +264,7 @@ ref bool UseOffScreenIndicator { get; }
 
 ### VerticalAlign
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L38)
 
 ```csharp
 ref uint VerticalAlign { get; }
@@ -276,7 +276,7 @@ ref uint VerticalAlign { get; }
 
 ### VisibleWhenParentNoDraw
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L50)
 
 ```csharp
 ref bool VisibleWhenParentNoDraw { get; }
@@ -288,7 +288,7 @@ ref bool VisibleWhenParentNoDraw { get; }
 
 ### Width
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L24)
 
 ```csharp
 ref float Width { get; }
@@ -302,7 +302,7 @@ ref float Width { get; }
 
 ### AllowInteractionFromAllSceneWorldsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L77)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L78)
 
 ```csharp
 void AllowInteractionFromAllSceneWorldsUpdated()
@@ -310,7 +310,7 @@ void AllowInteractionFromAllSceneWorldsUpdated()
 
 ### CSSClassesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L78)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L79)
 
 ```csharp
 void CSSClassesUpdated()
@@ -318,7 +318,7 @@ void CSSClassesUpdated()
 
 ### DPIUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L70)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L71)
 
 ```csharp
 void DPIUpdated()
@@ -326,7 +326,7 @@ void DPIUpdated()
 
 ### DepthOffsetUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L72)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L73)
 
 ```csharp
 void DepthOffsetUpdated()
@@ -334,7 +334,7 @@ void DepthOffsetUpdated()
 
 ### DisableMipGenUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L87)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L88)
 
 ```csharp
 void DisableMipGenUpdated()
@@ -342,7 +342,7 @@ void DisableMipGenUpdated()
 
 ### ExcludeFromSaveGamesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L84)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L85)
 
 ```csharp
 void ExcludeFromSaveGamesUpdated()
@@ -350,7 +350,7 @@ void ExcludeFromSaveGamesUpdated()
 
 ### ExplicitImageLayoutUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L88)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L89)
 
 ```csharp
 void ExplicitImageLayoutUpdated()
@@ -358,7 +358,7 @@ void ExplicitImageLayoutUpdated()
 
 ### FollowPlayerAcrossTeleportUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L67)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L68)
 
 ```csharp
 void FollowPlayerAcrossTeleportUpdated()
@@ -366,7 +366,7 @@ void FollowPlayerAcrossTeleportUpdated()
 
 ### GrabbableUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L85)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L86)
 
 ```csharp
 void GrabbableUpdated()
@@ -374,7 +374,7 @@ void GrabbableUpdated()
 
 ### HeightUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L69)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L70)
 
 ```csharp
 void HeightUpdated()
@@ -382,7 +382,7 @@ void HeightUpdated()
 
 ### HorizontalAlignUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L74)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L75)
 
 ```csharp
 void HorizontalAlignUpdated()
@@ -390,7 +390,7 @@ void HorizontalAlignUpdated()
 
 ### IgnoreInputUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L65)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L66)
 
 ```csharp
 void IgnoreInputUpdated()
@@ -398,7 +398,7 @@ void IgnoreInputUpdated()
 
 ### InteractDistanceUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L71)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L72)
 
 ```csharp
 void InteractDistanceUpdated()
@@ -406,7 +406,7 @@ void InteractDistanceUpdated()
 
 ### LitUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L66)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L67)
 
 ```csharp
 void LitUpdated()
@@ -414,7 +414,7 @@ void LitUpdated()
 
 ### NoDepthUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L80)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L81)
 
 ```csharp
 void NoDepthUpdated()
@@ -422,7 +422,7 @@ void NoDepthUpdated()
 
 ### OnlyRenderToTextureUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L86)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L87)
 
 ```csharp
 void OnlyRenderToTextureUpdated()
@@ -430,7 +430,7 @@ void OnlyRenderToTextureUpdated()
 
 ### OpaqueUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L79)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L80)
 
 ```csharp
 void OpaqueUpdated()
@@ -438,7 +438,7 @@ void OpaqueUpdated()
 
 ### OrientationUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L76)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L77)
 
 ```csharp
 void OrientationUpdated()
@@ -446,7 +446,7 @@ void OrientationUpdated()
 
 ### OwnerContextUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L73)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L74)
 
 ```csharp
 void OwnerContextUpdated()
@@ -454,7 +454,7 @@ void OwnerContextUpdated()
 
 ### RenderBackfaceUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L82)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L83)
 
 ```csharp
 void RenderBackfaceUpdated()
@@ -462,7 +462,7 @@ void RenderBackfaceUpdated()
 
 ### UseOffScreenIndicatorUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L83)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L84)
 
 ```csharp
 void UseOffScreenIndicatorUpdated()
@@ -470,7 +470,7 @@ void UseOffScreenIndicatorUpdated()
 
 ### VerticalAlignUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L75)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L76)
 
 ```csharp
 void VerticalAlignUpdated()
@@ -478,7 +478,7 @@ void VerticalAlignUpdated()
 
 ### VisibleWhenParentNoDrawUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L81)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L82)
 
 ```csharp
 void VisibleWhenParentNoDrawUpdated()
@@ -486,7 +486,7 @@ void VisibleWhenParentNoDrawUpdated()
 
 ### WidthUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L68)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldPanel.cs#L69)
 
 ```csharp
 void WidthUpdated()

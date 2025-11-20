@@ -12,7 +12,7 @@ public interface CMotionNodeBlend1D : CMotionNode, ISchemaClass<CMotionNode>, IS
 
 ### BlendItems
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionNodeBlend1D.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionNodeBlend1D.cs#L18)
 
 ```csharp
 ref CUtlVector<MotionBlendItem> BlendItems { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<MotionBlendItem> BlendItems { get; }
 
 ### ParamIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionNodeBlend1D.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionNodeBlend1D.cs#L20)
 
 ```csharp
 ref int ParamIndex { get; }

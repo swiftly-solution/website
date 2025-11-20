@@ -12,7 +12,7 @@ public interface EntitySpottedState_t : ISchemaClass<EntitySpottedState_t>, ISch
 
 ### Spotted
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntitySpottedState_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntitySpottedState_t.cs#L18)
 
 ```csharp
 ref bool Spotted { get; }
@@ -24,7 +24,7 @@ ref bool Spotted { get; }
 
 ### SpottedByMask
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntitySpottedState_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntitySpottedState_t.cs#L20)
 
 ```csharp
 ISchemaFixedArray<uint> SpottedByMask { get; }
@@ -38,7 +38,7 @@ ISchemaFixedArray<uint> SpottedByMask { get; }
 
 ### SpottedByMaskUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntitySpottedState_t.cs#L22)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntitySpottedState_t.cs#L23)
 
 ```csharp
 void SpottedByMaskUpdated()
@@ -46,7 +46,7 @@ void SpottedByMaskUpdated()
 
 ### SpottedUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntitySpottedState_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntitySpottedState_t.cs#L22)
 
 ```csharp
 void SpottedUpdated()

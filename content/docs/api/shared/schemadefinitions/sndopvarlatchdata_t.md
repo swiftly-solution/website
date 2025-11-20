@@ -12,7 +12,7 @@ public interface sndopvarlatchdata_t : ISchemaClass<sndopvarlatchdata_t>, ISchem
 
 ### Operator
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/sndopvarlatchdata_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/sndopvarlatchdata_t.cs#L20)
 
 ```csharp
 string Operator { get; set; }
@@ -24,7 +24,7 @@ string Operator { get; set; }
 
 ### Opvar
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/sndopvarlatchdata_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/sndopvarlatchdata_t.cs#L22)
 
 ```csharp
 string Opvar { get; set; }
@@ -36,7 +36,7 @@ string Opvar { get; set; }
 
 ### Pos
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/sndopvarlatchdata_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/sndopvarlatchdata_t.cs#L26)
 
 ```csharp
 ref Vector Pos { get; }
@@ -48,7 +48,7 @@ ref Vector Pos { get; }
 
 ### Stack
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/sndopvarlatchdata_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/sndopvarlatchdata_t.cs#L18)
 
 ```csharp
 string Stack { get; set; }
@@ -60,7 +60,7 @@ string Stack { get; set; }
 
 ### Val
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/sndopvarlatchdata_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/sndopvarlatchdata_t.cs#L24)
 
 ```csharp
 ref float Val { get; }

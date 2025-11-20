@@ -12,7 +12,7 @@ public interface CNmFloatRemapNode__CDefinition : CNmFloatValueNode__CDefinition
 
 ### InputRange
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatRemapNode__CDefinition.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatRemapNode__CDefinition.cs#L20)
 
 ```csharp
 CNmFloatRemapNode__RemapRange_t InputRange { get; }
@@ -24,7 +24,7 @@ CNmFloatRemapNode__RemapRange_t InputRange { get; }
 
 ### InputValueNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatRemapNode__CDefinition.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatRemapNode__CDefinition.cs#L18)
 
 ```csharp
 ref short InputValueNodeIdx { get; }
@@ -36,7 +36,7 @@ ref short InputValueNodeIdx { get; }
 
 ### OutputRange
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatRemapNode__CDefinition.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatRemapNode__CDefinition.cs#L22)
 
 ```csharp
 CNmFloatRemapNode__RemapRange_t OutputRange { get; }

@@ -12,7 +12,7 @@ public interface C_OP_RemapExternalWindToCP : CParticleFunctionPreEmission, CPar
 
 ### CP
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapExternalWindToCP.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapExternalWindToCP.cs#L18)
 
 ```csharp
 ref int CP { get; }
@@ -24,7 +24,7 @@ ref int CP { get; }
 
 ### CPOutput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapExternalWindToCP.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapExternalWindToCP.cs#L20)
 
 ```csharp
 ref int CPOutput { get; }
@@ -36,7 +36,7 @@ ref int CPOutput { get; }
 
 ### OutVectorField
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapExternalWindToCP.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapExternalWindToCP.cs#L26)
 
 ```csharp
 ref int OutVectorField { get; }
@@ -48,7 +48,7 @@ ref int OutVectorField { get; }
 
 ### Scale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapExternalWindToCP.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapExternalWindToCP.cs#L22)
 
 ```csharp
 CParticleCollectionVecInput Scale { get; }
@@ -60,7 +60,7 @@ CParticleCollectionVecInput Scale { get; }
 
 ### SetMagnitude
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapExternalWindToCP.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapExternalWindToCP.cs#L24)
 
 ```csharp
 ref bool SetMagnitude { get; }

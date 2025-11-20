@@ -12,7 +12,7 @@ public interface CAnimDemoCaptureSettings : ISchemaClass<CAnimDemoCaptureSetting
 
 ### BaseSequence
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDemoCaptureSettings.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDemoCaptureSettings.cs#L38)
 
 ```csharp
 string BaseSequence { get; set; }
@@ -24,7 +24,7 @@ string BaseSequence { get; set; }
 
 ### BaseSequenceFrame
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDemoCaptureSettings.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDemoCaptureSettings.cs#L40)
 
 ```csharp
 ref int BaseSequenceFrame { get; }
@@ -36,7 +36,7 @@ ref int BaseSequenceFrame { get; }
 
 ### BoneSelectionMode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDemoCaptureSettings.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDemoCaptureSettings.cs#L42)
 
 ```csharp
 ref EDemoBoneSelectionMode BoneSelectionMode { get; }
@@ -48,7 +48,7 @@ ref EDemoBoneSelectionMode BoneSelectionMode { get; }
 
 ### Bones
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDemoCaptureSettings.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDemoCaptureSettings.cs#L44)
 
 ```csharp
 ref CUtlVector<BoneDemoCaptureSettings_t> Bones { get; }
@@ -60,7 +60,7 @@ ref CUtlVector<BoneDemoCaptureSettings_t> Bones { get; }
 
 ### ErrorRangeQuantizationRotation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDemoCaptureSettings.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDemoCaptureSettings.cs#L28)
 
 ```csharp
 ref Vector2D ErrorRangeQuantizationRotation { get; }
@@ -72,7 +72,7 @@ ref Vector2D ErrorRangeQuantizationRotation { get; }
 
 ### ErrorRangeQuantizationScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDemoCaptureSettings.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDemoCaptureSettings.cs#L32)
 
 ```csharp
 ref Vector2D ErrorRangeQuantizationScale { get; }
@@ -84,7 +84,7 @@ ref Vector2D ErrorRangeQuantizationScale { get; }
 
 ### ErrorRangeQuantizationTranslation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDemoCaptureSettings.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDemoCaptureSettings.cs#L30)
 
 ```csharp
 ref Vector2D ErrorRangeQuantizationTranslation { get; }
@@ -96,7 +96,7 @@ ref Vector2D ErrorRangeQuantizationTranslation { get; }
 
 ### ErrorRangeSplineRotation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDemoCaptureSettings.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDemoCaptureSettings.cs#L18)
 
 ```csharp
 ref Vector2D ErrorRangeSplineRotation { get; }
@@ -108,7 +108,7 @@ ref Vector2D ErrorRangeSplineRotation { get; }
 
 ### ErrorRangeSplineScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDemoCaptureSettings.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDemoCaptureSettings.cs#L22)
 
 ```csharp
 ref Vector2D ErrorRangeSplineScale { get; }
@@ -120,7 +120,7 @@ ref Vector2D ErrorRangeSplineScale { get; }
 
 ### ErrorRangeSplineTranslation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDemoCaptureSettings.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDemoCaptureSettings.cs#L20)
 
 ```csharp
 ref Vector2D ErrorRangeSplineTranslation { get; }
@@ -132,7 +132,7 @@ ref Vector2D ErrorRangeSplineTranslation { get; }
 
 ### IkChains
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDemoCaptureSettings.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDemoCaptureSettings.cs#L46)
 
 ```csharp
 ref CUtlVector<IKDemoCaptureSettings_t> IkChains { get; }
@@ -144,7 +144,7 @@ ref CUtlVector<IKDemoCaptureSettings_t> IkChains { get; }
 
 ### IkRotation_MaxQuantizationError
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDemoCaptureSettings.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDemoCaptureSettings.cs#L34)
 
 ```csharp
 ref float IkRotation_MaxQuantizationError { get; }
@@ -156,7 +156,7 @@ ref float IkRotation_MaxQuantizationError { get; }
 
 ### IkRotation_MaxSplineError
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDemoCaptureSettings.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDemoCaptureSettings.cs#L24)
 
 ```csharp
 ref float IkRotation_MaxSplineError { get; }
@@ -168,7 +168,7 @@ ref float IkRotation_MaxSplineError { get; }
 
 ### IkTranslation_MaxQuantizationError
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDemoCaptureSettings.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDemoCaptureSettings.cs#L36)
 
 ```csharp
 ref float IkTranslation_MaxQuantizationError { get; }
@@ -180,7 +180,7 @@ ref float IkTranslation_MaxQuantizationError { get; }
 
 ### IkTranslation_MaxSplineError
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDemoCaptureSettings.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDemoCaptureSettings.cs#L26)
 
 ```csharp
 ref float IkTranslation_MaxSplineError { get; }

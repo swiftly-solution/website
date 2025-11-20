@@ -12,7 +12,7 @@ public interface CPulse_DomainValue : ISchemaClass<CPulse_DomainValue>, ISchemaF
 
 ### RequiredRuntimeType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_DomainValue.cs#L22)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_DomainValue.cs#L23)
 
 ```csharp
 SchemaUntypedField RequiredRuntimeType { get; }
@@ -24,7 +24,7 @@ SchemaUntypedField RequiredRuntimeType { get; }
 
 ### Type
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_DomainValue.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_DomainValue.cs#L18)
 
 ```csharp
 ref PulseDomainValueType_t Type { get; }
@@ -36,7 +36,7 @@ ref PulseDomainValueType_t Type { get; }
 
 ### Value
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_DomainValue.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_DomainValue.cs#L20)
 
 ```csharp
 ref CGlobalSymbol Value { get; }

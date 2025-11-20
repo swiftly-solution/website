@@ -12,7 +12,7 @@ public interface CQuaternionAnimParameter : CConcreteAnimParameter, CAnimParamet
 
 ### DefaultValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CQuaternionAnimParameter.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CQuaternionAnimParameter.cs#L18)
 
 ```csharp
 ref Quaternion DefaultValue { get; }
@@ -24,7 +24,7 @@ ref Quaternion DefaultValue { get; }
 
 ### Interpolate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CQuaternionAnimParameter.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CQuaternionAnimParameter.cs#L20)
 
 ```csharp
 ref bool Interpolate { get; }

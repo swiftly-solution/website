@@ -12,7 +12,7 @@ public interface CClothSettingsAnimTag : CAnimTagBase, ISchemaClass<CAnimTagBase
 
 ### EaseIn
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CClothSettingsAnimTag.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CClothSettingsAnimTag.cs#L20)
 
 ```csharp
 ref float EaseIn { get; }
@@ -24,7 +24,7 @@ ref float EaseIn { get; }
 
 ### EaseOut
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CClothSettingsAnimTag.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CClothSettingsAnimTag.cs#L22)
 
 ```csharp
 ref float EaseOut { get; }
@@ -36,7 +36,7 @@ ref float EaseOut { get; }
 
 ### Stiffness
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CClothSettingsAnimTag.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CClothSettingsAnimTag.cs#L18)
 
 ```csharp
 ref float Stiffness { get; }
@@ -48,7 +48,7 @@ ref float Stiffness { get; }
 
 ### VertexSet
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CClothSettingsAnimTag.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CClothSettingsAnimTag.cs#L24)
 
 ```csharp
 string VertexSet { get; set; }

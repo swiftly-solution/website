@@ -12,7 +12,7 @@ public interface FeVertexMapBuild_t : ISchemaClass<FeVertexMapBuild_t>, ISchemaF
 
 ### Color
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeVertexMapBuild_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeVertexMapBuild_t.cs#L22)
 
 ```csharp
 ref Color Color { get; }
@@ -24,7 +24,7 @@ ref Color Color { get; }
 
 ### NameHash
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeVertexMapBuild_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeVertexMapBuild_t.cs#L20)
 
 ```csharp
 ref uint NameHash { get; }
@@ -36,7 +36,7 @@ ref uint NameHash { get; }
 
 ### ScaleSourceNode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeVertexMapBuild_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeVertexMapBuild_t.cs#L26)
 
 ```csharp
 ref int ScaleSourceNode { get; }
@@ -48,7 +48,7 @@ ref int ScaleSourceNode { get; }
 
 ### VertexMapName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeVertexMapBuild_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeVertexMapBuild_t.cs#L18)
 
 ```csharp
 string VertexMapName { get; set; }
@@ -60,7 +60,7 @@ string VertexMapName { get; set; }
 
 ### VolumetricSolveStrength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeVertexMapBuild_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeVertexMapBuild_t.cs#L24)
 
 ```csharp
 ref float VolumetricSolveStrength { get; }
@@ -72,7 +72,7 @@ ref float VolumetricSolveStrength { get; }
 
 ### Weights
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeVertexMapBuild_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeVertexMapBuild_t.cs#L28)
 
 ```csharp
 ref CUtlVector<float> Weights { get; }

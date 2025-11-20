@@ -12,7 +12,7 @@ public interface CSosGroupActionSoundeventClusterSchema : CSosGroupActionSchema,
 
 ### ClusterEpsilon
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventClusterSchema.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventClusterSchema.cs#L20)
 
 ```csharp
 ref float ClusterEpsilon { get; }
@@ -24,7 +24,7 @@ ref float ClusterEpsilon { get; }
 
 ### ClusterSizeOpvar
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventClusterSchema.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventClusterSchema.cs#L26)
 
 ```csharp
 string ClusterSizeOpvar { get; set; }
@@ -36,7 +36,7 @@ string ClusterSizeOpvar { get; set; }
 
 ### GroupBoundingBoxMaxsOpvar
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventClusterSchema.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventClusterSchema.cs#L30)
 
 ```csharp
 string GroupBoundingBoxMaxsOpvar { get; set; }
@@ -48,7 +48,7 @@ string GroupBoundingBoxMaxsOpvar { get; set; }
 
 ### GroupBoundingBoxMinsOpvar
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventClusterSchema.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventClusterSchema.cs#L28)
 
 ```csharp
 string GroupBoundingBoxMinsOpvar { get; set; }
@@ -60,7 +60,7 @@ string GroupBoundingBoxMinsOpvar { get; set; }
 
 ### MinNearby
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventClusterSchema.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventClusterSchema.cs#L18)
 
 ```csharp
 ref int MinNearby { get; }
@@ -72,7 +72,7 @@ ref int MinNearby { get; }
 
 ### ShouldPlayClusterChild
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventClusterSchema.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventClusterSchema.cs#L24)
 
 ```csharp
 string ShouldPlayClusterChild { get; set; }
@@ -84,7 +84,7 @@ string ShouldPlayClusterChild { get; set; }
 
 ### ShouldPlayOpvar
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventClusterSchema.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventClusterSchema.cs#L22)
 
 ```csharp
 string ShouldPlayOpvar { get; set; }

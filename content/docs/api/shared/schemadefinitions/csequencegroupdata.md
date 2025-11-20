@@ -12,7 +12,7 @@ public interface CSequenceGroupData : ISchemaClass<CSequenceGroupData>, ISchemaF
 
 ### Flags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L20)
 
 ```csharp
 ref uint Flags { get; }
@@ -24,7 +24,7 @@ ref uint Flags { get; }
 
 ### KeyValues
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L42)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L43)
 
 ```csharp
 SchemaUntypedField KeyValues { get; }
@@ -36,7 +36,7 @@ SchemaUntypedField KeyValues { get; }
 
 ### LocalBoneMaskArray
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L32)
 
 ```csharp
 ref CUtlVector<CSeqBoneMaskList> LocalBoneMaskArray { get; }
@@ -48,7 +48,7 @@ ref CUtlVector<CSeqBoneMaskList> LocalBoneMaskArray { get; }
 
 ### LocalBoneNameArray
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L36)
 
 ```csharp
 ref CUtlVector<CBufferString> LocalBoneNameArray { get; }
@@ -60,7 +60,7 @@ ref CUtlVector<CBufferString> LocalBoneNameArray { get; }
 
 ### LocalCmdSeqDescArray
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L30)
 
 ```csharp
 ref CUtlVector<CSeqCmdSeqDesc> LocalCmdSeqDescArray { get; }
@@ -72,7 +72,7 @@ ref CUtlVector<CSeqCmdSeqDesc> LocalCmdSeqDescArray { get; }
 
 ### LocalIKAutoplayLockArray
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L44)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L45)
 
 ```csharp
 ref CUtlVector<CSeqIKLock> LocalIKAutoplayLockArray { get; }
@@ -84,7 +84,7 @@ ref CUtlVector<CSeqIKLock> LocalIKAutoplayLockArray { get; }
 
 ### LocalMultiSeqDescArray
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L26)
 
 ```csharp
 ref CUtlVector<CSeqS1SeqDesc> LocalMultiSeqDescArray { get; }
@@ -96,7 +96,7 @@ ref CUtlVector<CSeqS1SeqDesc> LocalMultiSeqDescArray { get; }
 
 ### LocalNodeName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L38)
 
 ```csharp
 ref CBufferString LocalNodeName { get; }
@@ -108,7 +108,7 @@ ref CBufferString LocalNodeName { get; }
 
 ### LocalPoseParamArray
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L40)
 
 ```csharp
 ref CUtlVector<CSeqPoseParamDesc> LocalPoseParamArray { get; }
@@ -120,7 +120,7 @@ ref CUtlVector<CSeqPoseParamDesc> LocalPoseParamArray { get; }
 
 ### LocalS1SeqDescArray
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L24)
 
 ```csharp
 ref CUtlVector<CSeqS1SeqDesc> LocalS1SeqDescArray { get; }
@@ -132,7 +132,7 @@ ref CUtlVector<CSeqS1SeqDesc> LocalS1SeqDescArray { get; }
 
 ### LocalScaleSetArray
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L34)
 
 ```csharp
 ref CUtlVector<CSeqScaleSet> LocalScaleSetArray { get; }
@@ -144,7 +144,7 @@ ref CUtlVector<CSeqScaleSet> LocalScaleSetArray { get; }
 
 ### LocalSequenceNameArray
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L22)
 
 ```csharp
 ref CUtlVector<CBufferString> LocalSequenceNameArray { get; }
@@ -156,7 +156,7 @@ ref CUtlVector<CBufferString> LocalSequenceNameArray { get; }
 
 ### LocalSynthAnimDescArray
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L28)
 
 ```csharp
 ref CUtlVector<CSeqSynthAnimDesc> LocalSynthAnimDescArray { get; }
@@ -168,7 +168,7 @@ ref CUtlVector<CSeqSynthAnimDesc> LocalSynthAnimDescArray { get; }
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L18)
 
 ```csharp
 ref CBufferString Name { get; }

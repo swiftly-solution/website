@@ -12,7 +12,7 @@ public interface ParticleNamedValueSource_t : ISchemaClass<ParticleNamedValueSou
 
 ### DefaultConfig
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNamedValueSource_t.cs#L24)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNamedValueSource_t.cs#L25)
 
 ```csharp
 ParticleNamedValueConfiguration_t DefaultConfig { get; }
@@ -24,7 +24,7 @@ ParticleNamedValueConfiguration_t DefaultConfig { get; }
 
 ### IsPublic
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNamedValueSource_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNamedValueSource_t.cs#L20)
 
 ```csharp
 ref bool IsPublic { get; }
@@ -36,7 +36,7 @@ ref bool IsPublic { get; }
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNamedValueSource_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNamedValueSource_t.cs#L18)
 
 ```csharp
 string Name { get; set; }
@@ -48,7 +48,7 @@ string Name { get; set; }
 
 ### ValueType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNamedValueSource_t.cs#L22)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNamedValueSource_t.cs#L23)
 
 ```csharp
 SchemaUntypedField ValueType { get; }

@@ -12,7 +12,7 @@ public interface CSplineConstraint : CPhysConstraint, CLogicalEntity, CServerOnl
 
 ### AnchorOffsetRestore
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L18)
 
 ```csharp
 ref Vector AnchorOffsetRestore { get; }
@@ -24,7 +24,7 @@ ref Vector AnchorOffsetRestore { get; }
 
 ### EnableAngularConstraint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L26)
 
 ```csharp
 ref bool EnableAngularConstraint { get; }
@@ -36,7 +36,7 @@ ref bool EnableAngularConstraint { get; }
 
 ### EnableLateralConstraint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L22)
 
 ```csharp
 ref bool EnableLateralConstraint { get; }
@@ -48,7 +48,7 @@ ref bool EnableLateralConstraint { get; }
 
 ### EnableLimit
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L28)
 
 ```csharp
 ref bool EnableLimit { get; }
@@ -60,7 +60,7 @@ ref bool EnableLimit { get; }
 
 ### EnableVerticalConstraint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L24)
 
 ```csharp
 ref bool EnableVerticalConstraint { get; }
@@ -72,7 +72,7 @@ ref bool EnableVerticalConstraint { get; }
 
 ### FireEventsOnPath
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L30)
 
 ```csharp
 ref bool FireEventsOnPath { get; }
@@ -84,7 +84,7 @@ ref bool FireEventsOnPath { get; }
 
 ### JointFriction
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L36)
 
 ```csharp
 ref float JointFriction { get; }
@@ -96,7 +96,7 @@ ref float JointFriction { get; }
 
 ### LinarDampingRatio
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L34)
 
 ```csharp
 ref float LinarDampingRatio { get; }
@@ -108,7 +108,7 @@ ref float LinarDampingRatio { get; }
 
 ### LinearFrequency
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L32)
 
 ```csharp
 ref float LinearFrequency { get; }
@@ -120,7 +120,7 @@ ref float LinearFrequency { get; }
 
 ### PreSolveAnchorPos
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L40)
 
 ```csharp
 ref Vector PreSolveAnchorPos { get; }
@@ -132,7 +132,7 @@ ref Vector PreSolveAnchorPos { get; }
 
 ### SplineEntity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L20)
 
 ```csharp
 ref CHandle<CBaseEntity> SplineEntity { get; }
@@ -144,7 +144,7 @@ ref CHandle<CBaseEntity> SplineEntity { get; }
 
 ### StartTransitionTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L42)
 
 ```csharp
 GameTime_t StartTransitionTime { get; }
@@ -156,7 +156,7 @@ GameTime_t StartTransitionTime { get; }
 
 ### TangentSpaceAnchorAtTransitionStart
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L44)
 
 ```csharp
 ref Vector TangentSpaceAnchorAtTransitionStart { get; }
@@ -168,7 +168,7 @@ ref Vector TangentSpaceAnchorAtTransitionStart { get; }
 
 ### TransitionTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L38)
 
 ```csharp
 ref float TransitionTime { get; }

@@ -12,7 +12,7 @@ public interface CSosGroupActionSoundeventCountSchema : CSosGroupActionSchema, I
 
 ### ExcludeStoppedSounds
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventCountSchema.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventCountSchema.cs#L18)
 
 ```csharp
 ref bool ExcludeStoppedSounds { get; }
@@ -24,7 +24,7 @@ ref bool ExcludeStoppedSounds { get; }
 
 ### StrCountKeyName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventCountSchema.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventCountSchema.cs#L20)
 
 ```csharp
 string StrCountKeyName { get; set; }

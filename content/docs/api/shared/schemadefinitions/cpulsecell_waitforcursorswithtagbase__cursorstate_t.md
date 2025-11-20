@@ -12,7 +12,7 @@ public interface CPulseCell_WaitForCursorsWithTagBase__CursorState_t : ISchemaCl
 
 ### TagName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_WaitForCursorsWithTagBase__CursorState_t.cs#L18)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_WaitForCursorsWithTagBase__CursorState_t.cs#L19)
 
 ```csharp
 SchemaUntypedField TagName { get; }

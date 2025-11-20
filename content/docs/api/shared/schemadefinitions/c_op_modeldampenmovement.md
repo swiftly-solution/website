@@ -12,7 +12,7 @@ public interface C_OP_ModelDampenMovement : CParticleFunctionOperator, CParticle
 
 ### BoundBox
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ModelDampenMovement.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ModelDampenMovement.cs#L20)
 
 ```csharp
 ref bool BoundBox { get; }
@@ -24,7 +24,7 @@ ref bool BoundBox { get; }
 
 ### ControlPointNumber
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ModelDampenMovement.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ModelDampenMovement.cs#L18)
 
 ```csharp
 ref int ControlPointNumber { get; }
@@ -36,7 +36,7 @@ ref int ControlPointNumber { get; }
 
 ### Drag
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ModelDampenMovement.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ModelDampenMovement.cs#L30)
 
 ```csharp
 ref float Drag { get; }
@@ -48,7 +48,7 @@ ref float Drag { get; }
 
 ### HitboxSetName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ModelDampenMovement.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ModelDampenMovement.cs#L26)
 
 ```csharp
 string HitboxSetName { get; set; }
@@ -60,7 +60,7 @@ string HitboxSetName { get; set; }
 
 ### Outside
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ModelDampenMovement.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ModelDampenMovement.cs#L22)
 
 ```csharp
 ref bool Outside { get; }
@@ -72,7 +72,7 @@ ref bool Outside { get; }
 
 ### PosOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ModelDampenMovement.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ModelDampenMovement.cs#L28)
 
 ```csharp
 CPerParticleVecInput PosOffset { get; }
@@ -84,7 +84,7 @@ CPerParticleVecInput PosOffset { get; }
 
 ### UseBones
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ModelDampenMovement.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ModelDampenMovement.cs#L24)
 
 ```csharp
 ref bool UseBones { get; }

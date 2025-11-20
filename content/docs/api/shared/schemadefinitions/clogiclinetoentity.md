@@ -12,7 +12,7 @@ public interface CLogicLineToEntity : CLogicalEntity, CServerOnlyEntity, CBaseEn
 
 ### EndEntity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicLineToEntity.cs#L24)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicLineToEntity.cs#L25)
 
 ```csharp
 ref CHandle<CBaseEntity> EndEntity { get; }
@@ -24,7 +24,7 @@ ref CHandle<CBaseEntity> EndEntity { get; }
 
 ### Line
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicLineToEntity.cs#L18)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicLineToEntity.cs#L19)
 
 ```csharp
 SchemaUntypedField Line { get; }
@@ -36,7 +36,7 @@ SchemaUntypedField Line { get; }
 
 ### SourceName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicLineToEntity.cs#L20)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicLineToEntity.cs#L21)
 
 ```csharp
 string SourceName { get; set; }
@@ -48,7 +48,7 @@ string SourceName { get; set; }
 
 ### StartEntity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicLineToEntity.cs#L22)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicLineToEntity.cs#L23)
 
 ```csharp
 ref CHandle<CBaseEntity> StartEntity { get; }

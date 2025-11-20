@@ -12,7 +12,7 @@ public interface CMapSharedEnvironment : CLogicalEntity, CServerOnlyEntity, CBas
 
 ### TargetMapName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapSharedEnvironment.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMapSharedEnvironment.cs#L18)
 
 ```csharp
 string TargetMapName { get; set; }

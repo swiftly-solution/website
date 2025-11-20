@@ -12,7 +12,7 @@ public interface CSeqBoneMaskList : ISchemaClass<CSeqBoneMaskList>, ISchemaField
 
 ### BoneWeightArray
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqBoneMaskList.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqBoneMaskList.cs#L22)
 
 ```csharp
 ref CUtlVector<float> BoneWeightArray { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<float> BoneWeightArray { get; }
 
 ### DefaultMorphCtrlWeight
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqBoneMaskList.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqBoneMaskList.cs#L24)
 
 ```csharp
 ref float DefaultMorphCtrlWeight { get; }
@@ -36,7 +36,7 @@ ref float DefaultMorphCtrlWeight { get; }
 
 ### LocalBoneArray
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqBoneMaskList.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqBoneMaskList.cs#L20)
 
 ```csharp
 ref CUtlVector<short> LocalBoneArray { get; }
@@ -48,7 +48,7 @@ ref CUtlVector<short> LocalBoneArray { get; }
 
 ### MorphCtrlWeightArray
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqBoneMaskList.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqBoneMaskList.cs#L26)
 
 ```csharp
 ref CUtlVector<SchemaUntypedField> MorphCtrlWeightArray { get; }
@@ -60,7 +60,7 @@ ref CUtlVector<SchemaUntypedField> MorphCtrlWeightArray { get; }
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqBoneMaskList.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqBoneMaskList.cs#L18)
 
 ```csharp
 ref CBufferString Name { get; }

@@ -12,7 +12,7 @@ public interface CPlayerSprayDecal : CModelPointEntity, CBaseModelEntity, CBaseE
 
 ### AccountID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L20)
 
 ```csharp
 ref uint AccountID { get; }
@@ -24,7 +24,7 @@ ref uint AccountID { get; }
 
 ### CreationTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L40)
 
 ```csharp
 ref float CreationTime { get; }
@@ -36,7 +36,7 @@ ref float CreationTime { get; }
 
 ### EndPos
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L26)
 
 ```csharp
 ref Vector EndPos { get; }
@@ -48,7 +48,7 @@ ref Vector EndPos { get; }
 
 ### Entity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L36)
 
 ```csharp
 ref int Entity { get; }
@@ -60,7 +60,7 @@ ref int Entity { get; }
 
 ### Hitbox
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L38)
 
 ```csharp
 ref int Hitbox { get; }
@@ -72,7 +72,7 @@ ref int Hitbox { get; }
 
 ### Left
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L30)
 
 ```csharp
 ref Vector Left { get; }
@@ -84,7 +84,7 @@ ref Vector Left { get; }
 
 ### Normal
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L32)
 
 ```csharp
 ref Vector Normal { get; }
@@ -96,7 +96,7 @@ ref Vector Normal { get; }
 
 ### Player
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L34)
 
 ```csharp
 ref int Player { get; }
@@ -108,7 +108,7 @@ ref int Player { get; }
 
 ### RtGcTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L24)
 
 ```csharp
 ref uint RtGcTime { get; }
@@ -120,7 +120,7 @@ ref uint RtGcTime { get; }
 
 ### Signature
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L46)
 
 ```csharp
 ISchemaFixedArray<byte> Signature { get; }
@@ -132,7 +132,7 @@ ISchemaFixedArray<byte> Signature { get; }
 
 ### Start
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L28)
 
 ```csharp
 ref Vector Start { get; }
@@ -144,7 +144,7 @@ ref Vector Start { get; }
 
 ### TintID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L42)
 
 ```csharp
 ref int TintID { get; }
@@ -156,7 +156,7 @@ ref int TintID { get; }
 
 ### TraceID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L22)
 
 ```csharp
 ref uint TraceID { get; }
@@ -168,7 +168,7 @@ ref uint TraceID { get; }
 
 ### UniqueID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L18)
 
 ```csharp
 ref int UniqueID { get; }
@@ -180,7 +180,7 @@ ref int UniqueID { get; }
 
 ### Version
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L44)
 
 ```csharp
 ref byte Version { get; }
@@ -194,7 +194,7 @@ ref byte Version { get; }
 
 ### AccountIDUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L48)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L49)
 
 ```csharp
 void AccountIDUpdated()
@@ -202,7 +202,7 @@ void AccountIDUpdated()
 
 ### CreationTimeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L58)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L59)
 
 ```csharp
 void CreationTimeUpdated()
@@ -210,7 +210,7 @@ void CreationTimeUpdated()
 
 ### EndPosUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L52)
 
 ```csharp
 void EndPosUpdated()
@@ -218,7 +218,7 @@ void EndPosUpdated()
 
 ### EntityUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L56)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L57)
 
 ```csharp
 void EntityUpdated()
@@ -226,7 +226,7 @@ void EntityUpdated()
 
 ### HitboxUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L58)
 
 ```csharp
 void HitboxUpdated()
@@ -234,7 +234,7 @@ void HitboxUpdated()
 
 ### LeftUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L54)
 
 ```csharp
 void LeftUpdated()
@@ -242,7 +242,7 @@ void LeftUpdated()
 
 ### NormalUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L54)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L55)
 
 ```csharp
 void NormalUpdated()
@@ -250,7 +250,7 @@ void NormalUpdated()
 
 ### PlayerUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L56)
 
 ```csharp
 void PlayerUpdated()
@@ -258,7 +258,7 @@ void PlayerUpdated()
 
 ### RtGcTimeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L50)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L51)
 
 ```csharp
 void RtGcTimeUpdated()
@@ -266,7 +266,7 @@ void RtGcTimeUpdated()
 
 ### SignatureUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L62)
 
 ```csharp
 void SignatureUpdated()
@@ -274,7 +274,7 @@ void SignatureUpdated()
 
 ### StartUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L52)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L53)
 
 ```csharp
 void StartUpdated()
@@ -282,7 +282,7 @@ void StartUpdated()
 
 ### TintIDUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L60)
 
 ```csharp
 void TintIDUpdated()
@@ -290,7 +290,7 @@ void TintIDUpdated()
 
 ### TraceIDUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L50)
 
 ```csharp
 void TraceIDUpdated()
@@ -298,7 +298,7 @@ void TraceIDUpdated()
 
 ### UniqueIDUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L48)
 
 ```csharp
 void UniqueIDUpdated()
@@ -306,7 +306,7 @@ void UniqueIDUpdated()
 
 ### VersionUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L60)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerSprayDecal.cs#L61)
 
 ```csharp
 void VersionUpdated()

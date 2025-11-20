@@ -12,7 +12,7 @@ public interface C_OP_SetPerChildControlPointFromAttribute : CParticleFunctionOp
 
 ### AttributeToRead
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetPerChildControlPointFromAttribute.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetPerChildControlPointFromAttribute.cs#L30)
 
 ```csharp
 ParticleAttributeIndex_t AttributeToRead { get; }
@@ -24,7 +24,7 @@ ParticleAttributeIndex_t AttributeToRead { get; }
 
 ### CPField
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetPerChildControlPointFromAttribute.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetPerChildControlPointFromAttribute.cs#L32)
 
 ```csharp
 ref int CPField { get; }
@@ -36,7 +36,7 @@ ref int CPField { get; }
 
 ### ChildGroupID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetPerChildControlPointFromAttribute.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetPerChildControlPointFromAttribute.cs#L18)
 
 ```csharp
 ref int ChildGroupID { get; }
@@ -48,7 +48,7 @@ ref int ChildGroupID { get; }
 
 ### FirstControlPoint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetPerChildControlPointFromAttribute.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetPerChildControlPointFromAttribute.cs#L20)
 
 ```csharp
 ref int FirstControlPoint { get; }
@@ -60,7 +60,7 @@ ref int FirstControlPoint { get; }
 
 ### FirstSourcePoint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetPerChildControlPointFromAttribute.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetPerChildControlPointFromAttribute.cs#L26)
 
 ```csharp
 ref int FirstSourcePoint { get; }
@@ -72,7 +72,7 @@ ref int FirstSourcePoint { get; }
 
 ### NumBasedOnParticleCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetPerChildControlPointFromAttribute.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetPerChildControlPointFromAttribute.cs#L28)
 
 ```csharp
 ref bool NumBasedOnParticleCount { get; }
@@ -84,7 +84,7 @@ ref bool NumBasedOnParticleCount { get; }
 
 ### NumControlPoints
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetPerChildControlPointFromAttribute.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetPerChildControlPointFromAttribute.cs#L22)
 
 ```csharp
 ref int NumControlPoints { get; }
@@ -96,7 +96,7 @@ ref int NumControlPoints { get; }
 
 ### ParticleIncrement
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetPerChildControlPointFromAttribute.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetPerChildControlPointFromAttribute.cs#L24)
 
 ```csharp
 ref int ParticleIncrement { get; }

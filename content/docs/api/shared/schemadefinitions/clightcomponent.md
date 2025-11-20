@@ -12,7 +12,7 @@ public interface CLightComponent : CEntityComponent, ISchemaClass<CEntityCompone
 
 ### AllowSSTGeneration
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L101)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L102)
 
 ```csharp
 ref bool AllowSSTGeneration { get; }
@@ -24,7 +24,7 @@ ref bool AllowSSTGeneration { get; }
 
 ### Attenuation0
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L34)
 
 ```csharp
 ref float Attenuation0 { get; }
@@ -36,7 +36,7 @@ ref float Attenuation0 { get; }
 
 ### Attenuation1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L36)
 
 ```csharp
 ref float Attenuation1 { get; }
@@ -48,7 +48,7 @@ ref float Attenuation1 { get; }
 
 ### Attenuation2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L38)
 
 ```csharp
 ref float Attenuation2 { get; }
@@ -60,7 +60,7 @@ ref float Attenuation2 { get; }
 
 ### BakedShadowIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L93)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L94)
 
 ```csharp
 ref int BakedShadowIndex { get; }
@@ -72,7 +72,7 @@ ref int BakedShadowIndex { get; }
 
 ### Brightness
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L24)
 
 ```csharp
 ref float Brightness { get; }
@@ -84,7 +84,7 @@ ref float Brightness { get; }
 
 ### BrightnessMult
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L28)
 
 ```csharp
 ref float BrightnessMult { get; }
@@ -96,7 +96,7 @@ ref float BrightnessMult { get; }
 
 ### BrightnessScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L26)
 
 ```csharp
 ref float BrightnessScale { get; }
@@ -108,7 +108,7 @@ ref float BrightnessScale { get; }
 
 ### CapsuleLength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L151)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L152)
 
 ```csharp
 ref float CapsuleLength { get; }
@@ -120,7 +120,7 @@ ref float CapsuleLength { get; }
 
 ### CascadeRenderStaticObjects
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L67)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L68)
 
 ```csharp
 ref int CascadeRenderStaticObjects { get; }
@@ -132,7 +132,7 @@ ref int CascadeRenderStaticObjects { get; }
 
 ### Cascades
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L46)
 
 ```csharp
 ref int Cascades { get; }
@@ -144,7 +144,7 @@ ref int Cascades { get; }
 
 ### CastShadows
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L48)
 
 ```csharp
 ref int CastShadows { get; }
@@ -156,7 +156,7 @@ ref int CastShadows { get; }
 
 ### Color
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L20)
 
 ```csharp
 ref Color Color { get; }
@@ -168,7 +168,7 @@ ref Color Color { get; }
 
 ### DirectLight
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L103)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L104)
 
 ```csharp
 ref int DirectLight { get; }
@@ -180,7 +180,7 @@ ref int DirectLight { get; }
 
 ### Enabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L115)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L116)
 
 ```csharp
 ref bool Enabled { get; }
@@ -192,7 +192,7 @@ ref bool Enabled { get; }
 
 ### FadeMaxDist
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L109)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L110)
 
 ```csharp
 ref float FadeMaxDist { get; }
@@ -204,7 +204,7 @@ ref float FadeMaxDist { get; }
 
 ### FadeMinDist
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L107)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L108)
 
 ```csharp
 ref float FadeMinDist { get; }
@@ -216,7 +216,7 @@ ref float FadeMinDist { get; }
 
 ### Falloff
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L32)
 
 ```csharp
 ref float Falloff { get; }
@@ -228,7 +228,7 @@ ref float Falloff { get; }
 
 ### Flicker
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L117)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L118)
 
 ```csharp
 ref bool Flicker { get; }
@@ -240,7 +240,7 @@ ref bool Flicker { get; }
 
 ### FogContributionStength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L135)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L136)
 
 ```csharp
 ref float FogContributionStength { get; }
@@ -252,7 +252,7 @@ ref float FogContributionStength { get; }
 
 ### FogLightingMode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L133)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L134)
 
 ```csharp
 ref int FogLightingMode { get; }
@@ -264,7 +264,7 @@ ref int FogLightingMode { get; }
 
 ### IndirectLight
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L105)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L106)
 
 ```csharp
 ref int IndirectLight { get; }
@@ -276,7 +276,7 @@ ref int IndirectLight { get; }
 
 ### LightCookie
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L44)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCTextureBase> LightCookie { get; }
@@ -288,7 +288,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> LightCookie { get; }
 
 ### LightMapUniqueId
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L97)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L98)
 
 ```csharp
 ref int LightMapUniqueId { get; }
@@ -300,7 +300,7 @@ ref int LightMapUniqueId { get; }
 
 ### LightPathUniqueId
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L95)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L96)
 
 ```csharp
 ref int LightPathUniqueId { get; }
@@ -312,7 +312,7 @@ ref int LightPathUniqueId { get; }
 
 ### LightStyleStartTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L149)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L150)
 
 ```csharp
 GameTime_t LightStyleStartTime { get; }
@@ -324,7 +324,7 @@ GameTime_t LightStyleStartTime { get; }
 
 ### MinRoughness
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L153)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L154)
 
 ```csharp
 ref float MinRoughness { get; }
@@ -336,7 +336,7 @@ ref float MinRoughness { get; }
 
 ### MixedShadows
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L147)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L148)
 
 ```csharp
 ref bool MixedShadows { get; }
@@ -348,7 +348,7 @@ ref bool MixedShadows { get; }
 
 ### NearClipPlane
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L137)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L138)
 
 ```csharp
 ref float NearClipPlane { get; }
@@ -360,7 +360,7 @@ ref float NearClipPlane { get; }
 
 ### OrthoLightHeight
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L62)
 
 ```csharp
 ref float OrthoLightHeight { get; }
@@ -372,7 +372,7 @@ ref float OrthoLightHeight { get; }
 
 ### OrthoLightWidth
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L60)
 
 ```csharp
 ref float OrthoLightWidth { get; }
@@ -384,7 +384,7 @@ ref float OrthoLightWidth { get; }
 
 ### Pattern
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L65)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L66)
 
 ```csharp
 string Pattern { get; set; }
@@ -396,7 +396,7 @@ string Pattern { get; set; }
 
 ### Phi
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L42)
 
 ```csharp
 ref float Phi { get; }
@@ -408,7 +408,7 @@ ref float Phi { get; }
 
 ### PrecomputedBoundsMaxs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L123)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L124)
 
 ```csharp
 ref Vector PrecomputedBoundsMaxs { get; }
@@ -420,7 +420,7 @@ ref Vector PrecomputedBoundsMaxs { get; }
 
 ### PrecomputedBoundsMins
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L121)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L122)
 
 ```csharp
 ref Vector PrecomputedBoundsMins { get; }
@@ -432,7 +432,7 @@ ref Vector PrecomputedBoundsMins { get; }
 
 ### PrecomputedFieldsValid
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L119)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L120)
 
 ```csharp
 ref bool PrecomputedFieldsValid { get; }
@@ -444,7 +444,7 @@ ref bool PrecomputedFieldsValid { get; }
 
 ### PrecomputedMaxRange
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L131)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L132)
 
 ```csharp
 ref float PrecomputedMaxRange { get; }
@@ -456,7 +456,7 @@ ref float PrecomputedMaxRange { get; }
 
 ### PrecomputedOBBAngles
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L127)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L128)
 
 ```csharp
 ref QAngle PrecomputedOBBAngles { get; }
@@ -468,7 +468,7 @@ ref QAngle PrecomputedOBBAngles { get; }
 
 ### PrecomputedOBBExtent
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L129)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L130)
 
 ```csharp
 ref Vector PrecomputedOBBExtent { get; }
@@ -480,7 +480,7 @@ ref Vector PrecomputedOBBExtent { get; }
 
 ### PrecomputedOBBOrigin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L125)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L126)
 
 ```csharp
 ref Vector PrecomputedOBBOrigin { get; }
@@ -492,7 +492,7 @@ ref Vector PrecomputedOBBOrigin { get; }
 
 ### PvsModifyEntity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L155)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L156)
 
 ```csharp
 ref bool PvsModifyEntity { get; }
@@ -504,7 +504,7 @@ ref bool PvsModifyEntity { get; }
 
 ### Range
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L30)
 
 ```csharp
 ref float Range { get; }
@@ -516,7 +516,7 @@ ref float Range { get; }
 
 ### RenderDiffuse
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L54)
 
 ```csharp
 ref bool RenderDiffuse { get; }
@@ -528,7 +528,7 @@ ref bool RenderDiffuse { get; }
 
 ### RenderSpecular
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L56)
 
 ```csharp
 ref int RenderSpecular { get; }
@@ -540,7 +540,7 @@ ref int RenderSpecular { get; }
 
 ### RenderToCubemaps
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L99)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L100)
 
 ```csharp
 ref bool RenderToCubemaps { get; }
@@ -552,7 +552,7 @@ ref bool RenderToCubemaps { get; }
 
 ### RenderTransmissive
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L58)
 
 ```csharp
 ref bool RenderTransmissive { get; }
@@ -564,7 +564,7 @@ ref bool RenderTransmissive { get; }
 
 ### SecondaryColor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L22)
 
 ```csharp
 ref Color SecondaryColor { get; }
@@ -576,7 +576,7 @@ ref Color SecondaryColor { get; }
 
 ### ShadowCascadeCrossFade
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L69)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L70)
 
 ```csharp
 ref float ShadowCascadeCrossFade { get; }
@@ -588,7 +588,7 @@ ref float ShadowCascadeCrossFade { get; }
 
 ### ShadowCascadeDistance0
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L73)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L74)
 
 ```csharp
 ref float ShadowCascadeDistance0 { get; }
@@ -600,7 +600,7 @@ ref float ShadowCascadeDistance0 { get; }
 
 ### ShadowCascadeDistance1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L75)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L76)
 
 ```csharp
 ref float ShadowCascadeDistance1 { get; }
@@ -612,7 +612,7 @@ ref float ShadowCascadeDistance1 { get; }
 
 ### ShadowCascadeDistance2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L77)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L78)
 
 ```csharp
 ref float ShadowCascadeDistance2 { get; }
@@ -624,7 +624,7 @@ ref float ShadowCascadeDistance2 { get; }
 
 ### ShadowCascadeDistance3
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L79)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L80)
 
 ```csharp
 ref float ShadowCascadeDistance3 { get; }
@@ -636,7 +636,7 @@ ref float ShadowCascadeDistance3 { get; }
 
 ### ShadowCascadeDistanceFade
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L71)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L72)
 
 ```csharp
 ref float ShadowCascadeDistanceFade { get; }
@@ -648,7 +648,7 @@ ref float ShadowCascadeDistanceFade { get; }
 
 ### ShadowCascadeResolution0
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L81)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L82)
 
 ```csharp
 ref int ShadowCascadeResolution0 { get; }
@@ -660,7 +660,7 @@ ref int ShadowCascadeResolution0 { get; }
 
 ### ShadowCascadeResolution1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L83)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L84)
 
 ```csharp
 ref int ShadowCascadeResolution1 { get; }
@@ -672,7 +672,7 @@ ref int ShadowCascadeResolution1 { get; }
 
 ### ShadowCascadeResolution2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L85)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L86)
 
 ```csharp
 ref int ShadowCascadeResolution2 { get; }
@@ -684,7 +684,7 @@ ref int ShadowCascadeResolution2 { get; }
 
 ### ShadowCascadeResolution3
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L87)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L88)
 
 ```csharp
 ref int ShadowCascadeResolution3 { get; }
@@ -696,7 +696,7 @@ ref int ShadowCascadeResolution3 { get; }
 
 ### ShadowFadeMaxDist
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L113)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L114)
 
 ```csharp
 ref float ShadowFadeMaxDist { get; }
@@ -708,7 +708,7 @@ ref float ShadowFadeMaxDist { get; }
 
 ### ShadowFadeMinDist
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L111)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L112)
 
 ```csharp
 ref float ShadowFadeMinDist { get; }
@@ -720,7 +720,7 @@ ref float ShadowFadeMinDist { get; }
 
 ### ShadowHeight
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L52)
 
 ```csharp
 ref int ShadowHeight { get; }
@@ -732,7 +732,7 @@ ref int ShadowHeight { get; }
 
 ### ShadowPriority
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L91)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L92)
 
 ```csharp
 ref int ShadowPriority { get; }
@@ -744,7 +744,7 @@ ref int ShadowPriority { get; }
 
 ### ShadowWidth
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L50)
 
 ```csharp
 ref int ShadowWidth { get; }
@@ -756,7 +756,7 @@ ref int ShadowWidth { get; }
 
 ### SkyAmbientBounce
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L143)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L144)
 
 ```csharp
 ref Color SkyAmbientBounce { get; }
@@ -768,7 +768,7 @@ ref Color SkyAmbientBounce { get; }
 
 ### SkyColor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L139)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L140)
 
 ```csharp
 ref Color SkyColor { get; }
@@ -780,7 +780,7 @@ ref Color SkyColor { get; }
 
 ### SkyIntensity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L141)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L142)
 
 ```csharp
 ref float SkyIntensity { get; }
@@ -792,7 +792,7 @@ ref float SkyIntensity { get; }
 
 ### Style
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L64)
 
 ```csharp
 ref int Style { get; }
@@ -804,7 +804,7 @@ ref int Style { get; }
 
 ### Theta
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L40)
 
 ```csharp
 ref float Theta { get; }
@@ -816,7 +816,7 @@ ref float Theta { get; }
 
 ### UseSecondaryColor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L145)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L146)
 
 ```csharp
 ref bool UseSecondaryColor { get; }
@@ -828,7 +828,7 @@ ref bool UseSecondaryColor { get; }
 
 ### UsesBakedShadowing
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L89)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L90)
 
 ```csharp
 ref bool UsesBakedShadowing { get; }
@@ -840,7 +840,7 @@ ref bool UsesBakedShadowing { get; }
 
 ### __m_pChainEntity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L18)
 
 ```csharp
 ref CNetworkVarChainer __m_pChainEntity { get; }
@@ -854,7 +854,7 @@ ref CNetworkVarChainer __m_pChainEntity { get; }
 
 ### AllowSSTGenerationUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L198)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L199)
 
 ```csharp
 void AllowSSTGenerationUpdated()
@@ -862,7 +862,7 @@ void AllowSSTGenerationUpdated()
 
 ### Attenuation0Updated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L164)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L165)
 
 ```csharp
 void Attenuation0Updated()
@@ -870,7 +870,7 @@ void Attenuation0Updated()
 
 ### Attenuation1Updated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L165)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L166)
 
 ```csharp
 void Attenuation1Updated()
@@ -878,7 +878,7 @@ void Attenuation1Updated()
 
 ### Attenuation2Updated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L166)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L167)
 
 ```csharp
 void Attenuation2Updated()
@@ -886,7 +886,7 @@ void Attenuation2Updated()
 
 ### BakedShadowIndexUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L194)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L195)
 
 ```csharp
 void BakedShadowIndexUpdated()
@@ -894,7 +894,7 @@ void BakedShadowIndexUpdated()
 
 ### BrightnessMultUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L161)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L162)
 
 ```csharp
 void BrightnessMultUpdated()
@@ -902,7 +902,7 @@ void BrightnessMultUpdated()
 
 ### BrightnessScaleUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L160)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L161)
 
 ```csharp
 void BrightnessScaleUpdated()
@@ -910,7 +910,7 @@ void BrightnessScaleUpdated()
 
 ### BrightnessUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L159)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L160)
 
 ```csharp
 void BrightnessUpdated()
@@ -918,7 +918,7 @@ void BrightnessUpdated()
 
 ### CapsuleLengthUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L223)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L224)
 
 ```csharp
 void CapsuleLengthUpdated()
@@ -926,7 +926,7 @@ void CapsuleLengthUpdated()
 
 ### CascadeRenderStaticObjectsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L181)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L182)
 
 ```csharp
 void CascadeRenderStaticObjectsUpdated()
@@ -934,7 +934,7 @@ void CascadeRenderStaticObjectsUpdated()
 
 ### CascadesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L170)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L171)
 
 ```csharp
 void CascadesUpdated()
@@ -942,7 +942,7 @@ void CascadesUpdated()
 
 ### CastShadowsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L171)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L172)
 
 ```csharp
 void CastShadowsUpdated()
@@ -950,7 +950,7 @@ void CastShadowsUpdated()
 
 ### ColorUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L157)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L158)
 
 ```csharp
 void ColorUpdated()
@@ -958,7 +958,7 @@ void ColorUpdated()
 
 ### DirectLightUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L199)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L200)
 
 ```csharp
 void DirectLightUpdated()
@@ -966,7 +966,7 @@ void DirectLightUpdated()
 
 ### EnabledUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L205)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L206)
 
 ```csharp
 void EnabledUpdated()
@@ -974,7 +974,7 @@ void EnabledUpdated()
 
 ### FadeMaxDistUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L202)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L203)
 
 ```csharp
 void FadeMaxDistUpdated()
@@ -982,7 +982,7 @@ void FadeMaxDistUpdated()
 
 ### FadeMinDistUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L201)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L202)
 
 ```csharp
 void FadeMinDistUpdated()
@@ -990,7 +990,7 @@ void FadeMinDistUpdated()
 
 ### FalloffUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L163)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L164)
 
 ```csharp
 void FalloffUpdated()
@@ -998,7 +998,7 @@ void FalloffUpdated()
 
 ### FlickerUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L206)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L207)
 
 ```csharp
 void FlickerUpdated()
@@ -1006,7 +1006,7 @@ void FlickerUpdated()
 
 ### FogContributionStengthUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L215)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L216)
 
 ```csharp
 void FogContributionStengthUpdated()
@@ -1014,7 +1014,7 @@ void FogContributionStengthUpdated()
 
 ### FogLightingModeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L214)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L215)
 
 ```csharp
 void FogLightingModeUpdated()
@@ -1022,7 +1022,7 @@ void FogLightingModeUpdated()
 
 ### IndirectLightUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L200)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L201)
 
 ```csharp
 void IndirectLightUpdated()
@@ -1030,7 +1030,7 @@ void IndirectLightUpdated()
 
 ### LightCookieUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L169)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L170)
 
 ```csharp
 void LightCookieUpdated()
@@ -1038,7 +1038,7 @@ void LightCookieUpdated()
 
 ### LightMapUniqueIdUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L196)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L197)
 
 ```csharp
 void LightMapUniqueIdUpdated()
@@ -1046,7 +1046,7 @@ void LightMapUniqueIdUpdated()
 
 ### LightPathUniqueIdUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L195)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L196)
 
 ```csharp
 void LightPathUniqueIdUpdated()
@@ -1054,7 +1054,7 @@ void LightPathUniqueIdUpdated()
 
 ### LightStyleStartTimeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L222)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L223)
 
 ```csharp
 void LightStyleStartTimeUpdated()
@@ -1062,7 +1062,7 @@ void LightStyleStartTimeUpdated()
 
 ### MinRoughnessUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L224)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L225)
 
 ```csharp
 void MinRoughnessUpdated()
@@ -1070,7 +1070,7 @@ void MinRoughnessUpdated()
 
 ### MixedShadowsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L221)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L222)
 
 ```csharp
 void MixedShadowsUpdated()
@@ -1078,7 +1078,7 @@ void MixedShadowsUpdated()
 
 ### NearClipPlaneUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L216)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L217)
 
 ```csharp
 void NearClipPlaneUpdated()
@@ -1086,7 +1086,7 @@ void NearClipPlaneUpdated()
 
 ### OrthoLightHeightUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L178)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L179)
 
 ```csharp
 void OrthoLightHeightUpdated()
@@ -1094,7 +1094,7 @@ void OrthoLightHeightUpdated()
 
 ### OrthoLightWidthUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L177)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L178)
 
 ```csharp
 void OrthoLightWidthUpdated()
@@ -1102,7 +1102,7 @@ void OrthoLightWidthUpdated()
 
 ### PatternUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L180)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L181)
 
 ```csharp
 void PatternUpdated()
@@ -1110,7 +1110,7 @@ void PatternUpdated()
 
 ### PhiUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L168)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L169)
 
 ```csharp
 void PhiUpdated()
@@ -1118,7 +1118,7 @@ void PhiUpdated()
 
 ### PrecomputedBoundsMaxsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L209)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L210)
 
 ```csharp
 void PrecomputedBoundsMaxsUpdated()
@@ -1126,7 +1126,7 @@ void PrecomputedBoundsMaxsUpdated()
 
 ### PrecomputedBoundsMinsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L208)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L209)
 
 ```csharp
 void PrecomputedBoundsMinsUpdated()
@@ -1134,7 +1134,7 @@ void PrecomputedBoundsMinsUpdated()
 
 ### PrecomputedFieldsValidUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L207)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L208)
 
 ```csharp
 void PrecomputedFieldsValidUpdated()
@@ -1142,7 +1142,7 @@ void PrecomputedFieldsValidUpdated()
 
 ### PrecomputedMaxRangeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L213)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L214)
 
 ```csharp
 void PrecomputedMaxRangeUpdated()
@@ -1150,7 +1150,7 @@ void PrecomputedMaxRangeUpdated()
 
 ### PrecomputedOBBAnglesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L211)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L212)
 
 ```csharp
 void PrecomputedOBBAnglesUpdated()
@@ -1158,7 +1158,7 @@ void PrecomputedOBBAnglesUpdated()
 
 ### PrecomputedOBBExtentUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L212)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L213)
 
 ```csharp
 void PrecomputedOBBExtentUpdated()
@@ -1166,7 +1166,7 @@ void PrecomputedOBBExtentUpdated()
 
 ### PrecomputedOBBOriginUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L210)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L211)
 
 ```csharp
 void PrecomputedOBBOriginUpdated()
@@ -1174,7 +1174,7 @@ void PrecomputedOBBOriginUpdated()
 
 ### RangeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L162)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L163)
 
 ```csharp
 void RangeUpdated()
@@ -1182,7 +1182,7 @@ void RangeUpdated()
 
 ### RenderDiffuseUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L174)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L175)
 
 ```csharp
 void RenderDiffuseUpdated()
@@ -1190,7 +1190,7 @@ void RenderDiffuseUpdated()
 
 ### RenderSpecularUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L175)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L176)
 
 ```csharp
 void RenderSpecularUpdated()
@@ -1198,7 +1198,7 @@ void RenderSpecularUpdated()
 
 ### RenderToCubemapsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L197)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L198)
 
 ```csharp
 void RenderToCubemapsUpdated()
@@ -1206,7 +1206,7 @@ void RenderToCubemapsUpdated()
 
 ### RenderTransmissiveUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L176)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L177)
 
 ```csharp
 void RenderTransmissiveUpdated()
@@ -1214,7 +1214,7 @@ void RenderTransmissiveUpdated()
 
 ### SecondaryColorUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L158)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L159)
 
 ```csharp
 void SecondaryColorUpdated()
@@ -1222,7 +1222,7 @@ void SecondaryColorUpdated()
 
 ### ShadowCascadeCrossFadeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L182)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L183)
 
 ```csharp
 void ShadowCascadeCrossFadeUpdated()
@@ -1230,7 +1230,7 @@ void ShadowCascadeCrossFadeUpdated()
 
 ### ShadowCascadeDistance0Updated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L184)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L185)
 
 ```csharp
 void ShadowCascadeDistance0Updated()
@@ -1238,7 +1238,7 @@ void ShadowCascadeDistance0Updated()
 
 ### ShadowCascadeDistance1Updated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L185)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L186)
 
 ```csharp
 void ShadowCascadeDistance1Updated()
@@ -1246,7 +1246,7 @@ void ShadowCascadeDistance1Updated()
 
 ### ShadowCascadeDistance2Updated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L186)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L187)
 
 ```csharp
 void ShadowCascadeDistance2Updated()
@@ -1254,7 +1254,7 @@ void ShadowCascadeDistance2Updated()
 
 ### ShadowCascadeDistance3Updated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L187)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L188)
 
 ```csharp
 void ShadowCascadeDistance3Updated()
@@ -1262,7 +1262,7 @@ void ShadowCascadeDistance3Updated()
 
 ### ShadowCascadeDistanceFadeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L183)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L184)
 
 ```csharp
 void ShadowCascadeDistanceFadeUpdated()
@@ -1270,7 +1270,7 @@ void ShadowCascadeDistanceFadeUpdated()
 
 ### ShadowCascadeResolution0Updated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L188)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L189)
 
 ```csharp
 void ShadowCascadeResolution0Updated()
@@ -1278,7 +1278,7 @@ void ShadowCascadeResolution0Updated()
 
 ### ShadowCascadeResolution1Updated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L189)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L190)
 
 ```csharp
 void ShadowCascadeResolution1Updated()
@@ -1286,7 +1286,7 @@ void ShadowCascadeResolution1Updated()
 
 ### ShadowCascadeResolution2Updated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L190)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L191)
 
 ```csharp
 void ShadowCascadeResolution2Updated()
@@ -1294,7 +1294,7 @@ void ShadowCascadeResolution2Updated()
 
 ### ShadowCascadeResolution3Updated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L191)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L192)
 
 ```csharp
 void ShadowCascadeResolution3Updated()
@@ -1302,7 +1302,7 @@ void ShadowCascadeResolution3Updated()
 
 ### ShadowFadeMaxDistUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L204)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L205)
 
 ```csharp
 void ShadowFadeMaxDistUpdated()
@@ -1310,7 +1310,7 @@ void ShadowFadeMaxDistUpdated()
 
 ### ShadowFadeMinDistUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L203)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L204)
 
 ```csharp
 void ShadowFadeMinDistUpdated()
@@ -1318,7 +1318,7 @@ void ShadowFadeMinDistUpdated()
 
 ### ShadowHeightUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L173)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L174)
 
 ```csharp
 void ShadowHeightUpdated()
@@ -1326,7 +1326,7 @@ void ShadowHeightUpdated()
 
 ### ShadowPriorityUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L193)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L194)
 
 ```csharp
 void ShadowPriorityUpdated()
@@ -1334,7 +1334,7 @@ void ShadowPriorityUpdated()
 
 ### ShadowWidthUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L172)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L173)
 
 ```csharp
 void ShadowWidthUpdated()
@@ -1342,7 +1342,7 @@ void ShadowWidthUpdated()
 
 ### SkyAmbientBounceUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L219)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L220)
 
 ```csharp
 void SkyAmbientBounceUpdated()
@@ -1350,7 +1350,7 @@ void SkyAmbientBounceUpdated()
 
 ### SkyColorUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L217)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L218)
 
 ```csharp
 void SkyColorUpdated()
@@ -1358,7 +1358,7 @@ void SkyColorUpdated()
 
 ### SkyIntensityUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L218)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L219)
 
 ```csharp
 void SkyIntensityUpdated()
@@ -1366,7 +1366,7 @@ void SkyIntensityUpdated()
 
 ### StyleUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L179)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L180)
 
 ```csharp
 void StyleUpdated()
@@ -1374,7 +1374,7 @@ void StyleUpdated()
 
 ### ThetaUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L167)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L168)
 
 ```csharp
 void ThetaUpdated()
@@ -1382,7 +1382,7 @@ void ThetaUpdated()
 
 ### UseSecondaryColorUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L220)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L221)
 
 ```csharp
 void UseSecondaryColorUpdated()
@@ -1390,7 +1390,7 @@ void UseSecondaryColorUpdated()
 
 ### UsesBakedShadowingUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L192)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L193)
 
 ```csharp
 void UsesBakedShadowingUpdated()

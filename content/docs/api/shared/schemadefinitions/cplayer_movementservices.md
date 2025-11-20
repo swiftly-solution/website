@@ -12,7 +12,7 @@ public interface CPlayer_MovementServices : CPlayerPawnComponent, ISchemaClass<C
 
 ### ButtonDoublePressed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices.cs#L26)
 
 ```csharp
 ref ulong ButtonDoublePressed { get; }
@@ -24,7 +24,7 @@ ref ulong ButtonDoublePressed { get; }
 
 ### ButtonPressedCmdNumber
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices.cs#L28)
 
 ```csharp
 ISchemaFixedArray<uint> ButtonPressedCmdNumber { get; }
@@ -36,7 +36,7 @@ ISchemaFixedArray<uint> ButtonPressedCmdNumber { get; }
 
 ### Buttons
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices.cs#L20)
 
 ```csharp
 CInButtonState Buttons { get; }
@@ -48,7 +48,7 @@ CInButtonState Buttons { get; }
 
 ### ForceSubtickMoveWhen
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices.cs#L36)
 
 ```csharp
 ISchemaFixedArray<float> ForceSubtickMoveWhen { get; }
@@ -60,7 +60,7 @@ ISchemaFixedArray<float> ForceSubtickMoveWhen { get; }
 
 ### ForwardMove
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices.cs#L38)
 
 ```csharp
 ref float ForwardMove { get; }
@@ -72,7 +72,7 @@ ref float ForwardMove { get; }
 
 ### Impulse
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices.cs#L18)
 
 ```csharp
 ref int Impulse { get; }
@@ -84,7 +84,7 @@ ref int Impulse { get; }
 
 ### LastCommandNumberProcessed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices.cs#L30)
 
 ```csharp
 ref uint LastCommandNumberProcessed { get; }
@@ -96,7 +96,7 @@ ref uint LastCommandNumberProcessed { get; }
 
 ### LastMovementImpulses
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices.cs#L44)
 
 ```csharp
 ref Vector LastMovementImpulses { get; }
@@ -108,7 +108,7 @@ ref Vector LastMovementImpulses { get; }
 
 ### LeftMove
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices.cs#L40)
 
 ```csharp
 ref float LeftMove { get; }
@@ -120,7 +120,7 @@ ref float LeftMove { get; }
 
 ### Maxspeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices.cs#L34)
 
 ```csharp
 ref float Maxspeed { get; }
@@ -132,7 +132,7 @@ ref float Maxspeed { get; }
 
 ### OldViewAngles
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices.cs#L46)
 
 ```csharp
 ref QAngle OldViewAngles { get; }
@@ -144,7 +144,7 @@ ref QAngle OldViewAngles { get; }
 
 ### QueuedButtonChangeMask
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices.cs#L24)
 
 ```csharp
 ref ulong QueuedButtonChangeMask { get; }
@@ -156,7 +156,7 @@ ref ulong QueuedButtonChangeMask { get; }
 
 ### QueuedButtonDownMask
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices.cs#L22)
 
 ```csharp
 ref ulong QueuedButtonDownMask { get; }
@@ -168,7 +168,7 @@ ref ulong QueuedButtonDownMask { get; }
 
 ### ToggleButtonDownMask
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices.cs#L32)
 
 ```csharp
 ref ulong ToggleButtonDownMask { get; }
@@ -180,7 +180,7 @@ ref ulong ToggleButtonDownMask { get; }
 
 ### UpMove
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices.cs#L42)
 
 ```csharp
 ref float UpMove { get; }
@@ -194,7 +194,7 @@ ref float UpMove { get; }
 
 ### ForceSubtickMoveWhenUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices.cs#L50)
 
 ```csharp
 void ForceSubtickMoveWhenUpdated()
@@ -202,7 +202,7 @@ void ForceSubtickMoveWhenUpdated()
 
 ### MaxspeedUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices.cs#L48)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices.cs#L49)
 
 ```csharp
 void MaxspeedUpdated()
@@ -210,7 +210,7 @@ void MaxspeedUpdated()
 
 ### ToggleButtonDownMaskUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices.cs#L48)
 
 ```csharp
 void ToggleButtonDownMaskUpdated()

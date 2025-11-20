@@ -12,7 +12,7 @@ public interface AnimScriptHandle : ISchemaClass<AnimScriptHandle>, ISchemaField
 
 ### Id
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimScriptHandle.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimScriptHandle.cs#L18)
 
 ```csharp
 ref uint Id { get; }

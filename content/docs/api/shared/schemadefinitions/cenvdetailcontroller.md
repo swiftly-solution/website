@@ -12,7 +12,7 @@ public interface CEnvDetailController : CBaseEntity, CEntityInstance, ISchemaCla
 
 ### FadeEndDist
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvDetailController.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvDetailController.cs#L20)
 
 ```csharp
 ref float FadeEndDist { get; }
@@ -24,7 +24,7 @@ ref float FadeEndDist { get; }
 
 ### FadeStartDist
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvDetailController.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvDetailController.cs#L18)
 
 ```csharp
 ref float FadeStartDist { get; }
@@ -38,7 +38,7 @@ ref float FadeStartDist { get; }
 
 ### FadeEndDistUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvDetailController.cs#L22)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvDetailController.cs#L23)
 
 ```csharp
 void FadeEndDistUpdated()
@@ -46,7 +46,7 @@ void FadeEndDistUpdated()
 
 ### FadeStartDistUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvDetailController.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvDetailController.cs#L22)
 
 ```csharp
 void FadeStartDistUpdated()

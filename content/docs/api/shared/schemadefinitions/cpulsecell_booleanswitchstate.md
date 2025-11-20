@@ -12,7 +12,7 @@ public interface CPulseCell_BooleanSwitchState : CPulseCell_BaseState, CPulseCel
 
 ### Condition
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_BooleanSwitchState.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_BooleanSwitchState.cs#L18)
 
 ```csharp
 PulseObservableBoolExpression_t Condition { get; }
@@ -24,7 +24,7 @@ PulseObservableBoolExpression_t Condition { get; }
 
 ### SubGraph
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_BooleanSwitchState.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_BooleanSwitchState.cs#L20)
 
 ```csharp
 CPulse_OutflowConnection SubGraph { get; }
@@ -36,7 +36,7 @@ CPulse_OutflowConnection SubGraph { get; }
 
 ### WhenFalse
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_BooleanSwitchState.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_BooleanSwitchState.cs#L24)
 
 ```csharp
 CPulse_OutflowConnection WhenFalse { get; }
@@ -48,7 +48,7 @@ CPulse_OutflowConnection WhenFalse { get; }
 
 ### WhenTrue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_BooleanSwitchState.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_BooleanSwitchState.cs#L22)
 
 ```csharp
 CPulse_OutflowConnection WhenTrue { get; }

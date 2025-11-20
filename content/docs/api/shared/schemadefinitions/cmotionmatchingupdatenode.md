@@ -12,7 +12,7 @@ public interface CMotionMatchingUpdateNode : CLeafUpdateNode, CAnimUpdateNodeBas
 
 ### BlendCurve
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMatchingUpdateNode.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMatchingUpdateNode.cs#L32)
 
 ```csharp
 CBlendCurve BlendCurve { get; }
@@ -24,7 +24,7 @@ CBlendCurve BlendCurve { get; }
 
 ### BlendTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMatchingUpdateNode.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMatchingUpdateNode.cs#L36)
 
 ```csharp
 ref float BlendTime { get; }
@@ -36,7 +36,7 @@ ref float BlendTime { get; }
 
 ### DataSet
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMatchingUpdateNode.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMatchingUpdateNode.cs#L18)
 
 ```csharp
 CMotionDataSet DataSet { get; }
@@ -48,7 +48,7 @@ CMotionDataSet DataSet { get; }
 
 ### DistanceScale_Damping
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMatchingUpdateNode.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMatchingUpdateNode.cs#L52)
 
 ```csharp
 CAnimInputDamping DistanceScale_Damping { get; }
@@ -60,7 +60,7 @@ CAnimInputDamping DistanceScale_Damping { get; }
 
 ### DistanceScale_InnerRadius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMatchingUpdateNode.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMatchingUpdateNode.cs#L56)
 
 ```csharp
 ref float DistanceScale_InnerRadius { get; }
@@ -72,7 +72,7 @@ ref float DistanceScale_InnerRadius { get; }
 
 ### DistanceScale_MaxScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMatchingUpdateNode.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMatchingUpdateNode.cs#L58)
 
 ```csharp
 ref float DistanceScale_MaxScale { get; }
@@ -84,7 +84,7 @@ ref float DistanceScale_MaxScale { get; }
 
 ### DistanceScale_MinScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMatchingUpdateNode.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMatchingUpdateNode.cs#L60)
 
 ```csharp
 ref float DistanceScale_MinScale { get; }
@@ -96,7 +96,7 @@ ref float DistanceScale_MinScale { get; }
 
 ### DistanceScale_OuterRadius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMatchingUpdateNode.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMatchingUpdateNode.cs#L54)
 
 ```csharp
 ref float DistanceScale_OuterRadius { get; }
@@ -108,7 +108,7 @@ ref float DistanceScale_OuterRadius { get; }
 
 ### EnableDistanceScaling
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMatchingUpdateNode.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMatchingUpdateNode.cs#L62)
 
 ```csharp
 ref bool EnableDistanceScaling { get; }
@@ -120,7 +120,7 @@ ref bool EnableDistanceScaling { get; }
 
 ### EnableRotationCorrection
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMatchingUpdateNode.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMatchingUpdateNode.cs#L44)
 
 ```csharp
 ref bool EnableRotationCorrection { get; }
@@ -132,7 +132,7 @@ ref bool EnableRotationCorrection { get; }
 
 ### GoalAssist
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMatchingUpdateNode.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMatchingUpdateNode.cs#L46)
 
 ```csharp
 ref bool GoalAssist { get; }
@@ -144,7 +144,7 @@ ref bool GoalAssist { get; }
 
 ### GoalAssistDistance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMatchingUpdateNode.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMatchingUpdateNode.cs#L48)
 
 ```csharp
 ref float GoalAssistDistance { get; }
@@ -156,7 +156,7 @@ ref float GoalAssistDistance { get; }
 
 ### GoalAssistTolerance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMatchingUpdateNode.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMatchingUpdateNode.cs#L50)
 
 ```csharp
 ref float GoalAssistTolerance { get; }
@@ -168,7 +168,7 @@ ref float GoalAssistTolerance { get; }
 
 ### LockClipWhenWaning
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMatchingUpdateNode.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMatchingUpdateNode.cs#L38)
 
 ```csharp
 ref bool LockClipWhenWaning { get; }
@@ -180,7 +180,7 @@ ref bool LockClipWhenWaning { get; }
 
 ### Metrics
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMatchingUpdateNode.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMatchingUpdateNode.cs#L20)
 
 ```csharp
 ref CUtlVector<SchemaUntypedField> Metrics { get; }
@@ -192,7 +192,7 @@ ref CUtlVector<SchemaUntypedField> Metrics { get; }
 
 ### ReselectionTimeWindow
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMatchingUpdateNode.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMatchingUpdateNode.cs#L42)
 
 ```csharp
 ref float ReselectionTimeWindow { get; }
@@ -204,7 +204,7 @@ ref float ReselectionTimeWindow { get; }
 
 ### SampleRate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMatchingUpdateNode.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMatchingUpdateNode.cs#L34)
 
 ```csharp
 ref float SampleRate { get; }
@@ -216,7 +216,7 @@ ref float SampleRate { get; }
 
 ### SearchEveryTick
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMatchingUpdateNode.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMatchingUpdateNode.cs#L24)
 
 ```csharp
 ref bool SearchEveryTick { get; }
@@ -228,7 +228,7 @@ ref bool SearchEveryTick { get; }
 
 ### SearchInterval
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMatchingUpdateNode.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMatchingUpdateNode.cs#L26)
 
 ```csharp
 ref float SearchInterval { get; }
@@ -240,7 +240,7 @@ ref float SearchInterval { get; }
 
 ### SearchWhenClipEnds
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMatchingUpdateNode.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMatchingUpdateNode.cs#L28)
 
 ```csharp
 ref bool SearchWhenClipEnds { get; }
@@ -252,7 +252,7 @@ ref bool SearchWhenClipEnds { get; }
 
 ### SearchWhenGoalChanges
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMatchingUpdateNode.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMatchingUpdateNode.cs#L30)
 
 ```csharp
 ref bool SearchWhenGoalChanges { get; }
@@ -264,7 +264,7 @@ ref bool SearchWhenGoalChanges { get; }
 
 ### SelectionThreshold
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMatchingUpdateNode.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMatchingUpdateNode.cs#L40)
 
 ```csharp
 ref float SelectionThreshold { get; }
@@ -276,7 +276,7 @@ ref float SelectionThreshold { get; }
 
 ### Weights
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMatchingUpdateNode.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionMatchingUpdateNode.cs#L22)
 
 ```csharp
 ref CUtlVector<float> Weights { get; }

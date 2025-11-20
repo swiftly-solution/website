@@ -12,7 +12,7 @@ public interface CAnimMotorUpdaterBase : ISchemaClass<CAnimMotorUpdaterBase>, IS
 
 ### Default
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimMotorUpdaterBase.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimMotorUpdaterBase.cs#L20)
 
 ```csharp
 ref bool Default { get; }
@@ -24,7 +24,7 @@ ref bool Default { get; }
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimMotorUpdaterBase.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimMotorUpdaterBase.cs#L18)
 
 ```csharp
 string Name { get; set; }

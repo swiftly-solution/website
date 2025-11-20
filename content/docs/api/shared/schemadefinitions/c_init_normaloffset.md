@@ -12,7 +12,7 @@ public interface C_INIT_NormalOffset : CParticleFunctionInitializer, CParticleFu
 
 ### ControlPointNumber
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_NormalOffset.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_NormalOffset.cs#L22)
 
 ```csharp
 ref int ControlPointNumber { get; }
@@ -24,7 +24,7 @@ ref int ControlPointNumber { get; }
 
 ### LocalCoords
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_NormalOffset.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_NormalOffset.cs#L24)
 
 ```csharp
 ref bool LocalCoords { get; }
@@ -36,7 +36,7 @@ ref bool LocalCoords { get; }
 
 ### Normalize
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_NormalOffset.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_NormalOffset.cs#L26)
 
 ```csharp
 ref bool Normalize { get; }
@@ -48,7 +48,7 @@ ref bool Normalize { get; }
 
 ### OffsetMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_NormalOffset.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_NormalOffset.cs#L20)
 
 ```csharp
 ref Vector OffsetMax { get; }
@@ -60,7 +60,7 @@ ref Vector OffsetMax { get; }
 
 ### OffsetMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_NormalOffset.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_NormalOffset.cs#L18)
 
 ```csharp
 ref Vector OffsetMin { get; }

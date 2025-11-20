@@ -12,7 +12,7 @@ public interface VMixDelayDesc_t : ISchemaClass<VMixDelayDesc_t>, ISchemaField, 
 
 ### Delay
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDelayDesc_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDelayDesc_t.cs#L22)
 
 ```csharp
 ref float Delay { get; }
@@ -24,7 +24,7 @@ ref float Delay { get; }
 
 ### DelayGain
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDelayDesc_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDelayDesc_t.cs#L26)
 
 ```csharp
 ref float DelayGain { get; }
@@ -36,7 +36,7 @@ ref float DelayGain { get; }
 
 ### DirectGain
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDelayDesc_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDelayDesc_t.cs#L24)
 
 ```csharp
 ref float DirectGain { get; }
@@ -48,7 +48,7 @@ ref float DirectGain { get; }
 
 ### EnableFilter
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDelayDesc_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDelayDesc_t.cs#L20)
 
 ```csharp
 ref bool EnableFilter { get; }
@@ -60,7 +60,7 @@ ref bool EnableFilter { get; }
 
 ### FeedbackFilter
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDelayDesc_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDelayDesc_t.cs#L18)
 
 ```csharp
 VMixFilterDesc_t FeedbackFilter { get; }
@@ -72,7 +72,7 @@ VMixFilterDesc_t FeedbackFilter { get; }
 
 ### FeedbackGain
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDelayDesc_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDelayDesc_t.cs#L28)
 
 ```csharp
 ref float FeedbackGain { get; }
@@ -84,7 +84,7 @@ ref float FeedbackGain { get; }
 
 ### Width
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDelayDesc_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDelayDesc_t.cs#L30)
 
 ```csharp
 ref float Width { get; }

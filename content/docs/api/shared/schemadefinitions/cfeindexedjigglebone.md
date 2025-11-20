@@ -12,7 +12,7 @@ public interface CFeIndexedJiggleBone : ISchemaClass<CFeIndexedJiggleBone>, ISch
 
 ### JiggleBone
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeIndexedJiggleBone.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeIndexedJiggleBone.cs#L22)
 
 ```csharp
 CFeJiggleBone JiggleBone { get; }
@@ -24,7 +24,7 @@ CFeJiggleBone JiggleBone { get; }
 
 ### JiggleParent
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeIndexedJiggleBone.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeIndexedJiggleBone.cs#L20)
 
 ```csharp
 ref uint JiggleParent { get; }
@@ -36,7 +36,7 @@ ref uint JiggleParent { get; }
 
 ### Node
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeIndexedJiggleBone.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeIndexedJiggleBone.cs#L18)
 
 ```csharp
 ref uint Node { get; }

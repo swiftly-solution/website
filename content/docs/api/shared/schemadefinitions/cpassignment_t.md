@@ -12,7 +12,7 @@ public interface CPAssignment_t : ISchemaClass<CPAssignment_t>, ISchemaField, IS
 
 ### CPNumber
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPAssignment_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPAssignment_t.cs#L18)
 
 ```csharp
 ref int CPNumber { get; }
@@ -24,7 +24,7 @@ ref int CPNumber { get; }
 
 ### OrientationMode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPAssignment_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPAssignment_t.cs#L22)
 
 ```csharp
 ref ParticleOrientationSetMode_t OrientationMode { get; }
@@ -36,7 +36,7 @@ ref ParticleOrientationSetMode_t OrientationMode { get; }
 
 ### Pos
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPAssignment_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPAssignment_t.cs#L20)
 
 ```csharp
 CPerParticleVecInput Pos { get; }

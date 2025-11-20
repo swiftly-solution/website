@@ -12,7 +12,7 @@ public interface CBasePlayerPawn : CBaseCombatCharacter, CBaseFlex, CBaseAnimGra
 
 ### AutoaimServices
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L22)
 
 ```csharp
 CPlayer_AutoaimServices? AutoaimServices { get; }
@@ -24,7 +24,7 @@ CPlayer_AutoaimServices? AutoaimServices { get; }
 
 ### CameraServices
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L32)
 
 ```csharp
 CPlayer_CameraServices? CameraServices { get; }
@@ -36,7 +36,7 @@ CPlayer_CameraServices? CameraServices { get; }
 
 ### Controller
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L56)
 
 ```csharp
 ref CHandle<CBasePlayerController> Controller { get; }
@@ -48,7 +48,7 @@ ref CHandle<CBasePlayerController> Controller { get; }
 
 ### DeathTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L48)
 
 ```csharp
 GameTime_t DeathTime { get; }
@@ -60,7 +60,7 @@ GameTime_t DeathTime { get; }
 
 ### DefaultController
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L58)
 
 ```csharp
 ref CHandle<CBasePlayerController> DefaultController { get; }
@@ -72,7 +72,7 @@ ref CHandle<CBasePlayerController> DefaultController { get; }
 
 ### Expresser
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L54)
 
 ```csharp
 CAI_Expresser? Expresser { get; }
@@ -84,7 +84,7 @@ CAI_Expresser? Expresser { get; }
 
 ### FlashlightServices
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L30)
 
 ```csharp
 CPlayer_FlashlightServices? FlashlightServices { get; }
@@ -96,7 +96,7 @@ CPlayer_FlashlightServices? FlashlightServices { get; }
 
 ### HideHUD
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L42)
 
 ```csharp
 ref uint HideHUD { get; }
@@ -108,7 +108,7 @@ ref uint HideHUD { get; }
 
 ### HltvReplayDelay
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L60)
 
 ```csharp
 ref float HltvReplayDelay { get; }
@@ -120,7 +120,7 @@ ref float HltvReplayDelay { get; }
 
 ### HltvReplayEnd
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L62)
 
 ```csharp
 ref float HltvReplayEnd { get; }
@@ -132,7 +132,7 @@ ref float HltvReplayEnd { get; }
 
 ### HltvReplayEntity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L64)
 
 ```csharp
 ref uint HltvReplayEntity { get; }
@@ -144,7 +144,7 @@ ref uint HltvReplayEntity { get; }
 
 ### InitHUD
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L52)
 
 ```csharp
 ref bool InitHUD { get; }
@@ -156,7 +156,7 @@ ref bool InitHUD { get; }
 
 ### ItemServices
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L20)
 
 ```csharp
 CPlayer_ItemServices? ItemServices { get; }
@@ -168,7 +168,7 @@ CPlayer_ItemServices? ItemServices { get; }
 
 ### MovementServices
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L34)
 
 ```csharp
 CPlayer_MovementServices? MovementServices { get; }
@@ -180,7 +180,7 @@ CPlayer_MovementServices? MovementServices { get; }
 
 ### NextSuicideTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L50)
 
 ```csharp
 GameTime_t NextSuicideTime { get; }
@@ -192,7 +192,7 @@ GameTime_t NextSuicideTime { get; }
 
 ### ObserverServices
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L24)
 
 ```csharp
 CPlayer_ObserverServices? ObserverServices { get; }
@@ -204,7 +204,7 @@ CPlayer_ObserverServices? ObserverServices { get; }
 
 ### ServerViewAngleChanges
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L36)
 
 ```csharp
 ref CUtlVector<ViewAngleServerChange_t> ServerViewAngleChanges { get; }
@@ -216,7 +216,7 @@ ref CUtlVector<ViewAngleServerChange_t> ServerViewAngleChanges { get; }
 
 ### Skybox3d
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L44)
 
 ```csharp
 sky3dparams_t Skybox3d { get; }
@@ -228,7 +228,7 @@ sky3dparams_t Skybox3d { get; }
 
 ### SndOpvarLatchData
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L65)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L66)
 
 ```csharp
 ref CUtlVector<sndopvarlatchdata_t> SndOpvarLatchData { get; }
@@ -240,7 +240,7 @@ ref CUtlVector<sndopvarlatchdata_t> SndOpvarLatchData { get; }
 
 ### TimeLastHurt
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L46)
 
 ```csharp
 GameTime_t TimeLastHurt { get; }
@@ -252,7 +252,7 @@ GameTime_t TimeLastHurt { get; }
 
 ### UseServices
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L28)
 
 ```csharp
 CPlayer_UseServices? UseServices { get; }
@@ -264,7 +264,7 @@ CPlayer_UseServices? UseServices { get; }
 
 ### V_angle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L38)
 
 ```csharp
 ref QAngle V_angle { get; }
@@ -276,7 +276,7 @@ ref QAngle V_angle { get; }
 
 ### V_anglePrevious
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L40)
 
 ```csharp
 ref QAngle V_anglePrevious { get; }
@@ -288,7 +288,7 @@ ref QAngle V_anglePrevious { get; }
 
 ### WaterServices
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L26)
 
 ```csharp
 CPlayer_WaterServices? WaterServices { get; }
@@ -300,7 +300,7 @@ CPlayer_WaterServices? WaterServices { get; }
 
 ### WeaponServices
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L18)
 
 ```csharp
 CPlayer_WeaponServices? WeaponServices { get; }
@@ -314,7 +314,7 @@ CPlayer_WeaponServices? WeaponServices { get; }
 
 ### AutoaimServicesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L69)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L70)
 
 ```csharp
 void AutoaimServicesUpdated()
@@ -322,7 +322,7 @@ void AutoaimServicesUpdated()
 
 ### CameraServicesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L74)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L75)
 
 ```csharp
 void CameraServicesUpdated()
@@ -343,7 +343,7 @@ void CommitSuicide(bool explode, bool force)
 
 ### ControllerUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L80)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L81)
 
 ```csharp
 void ControllerUpdated()
@@ -351,7 +351,7 @@ void ControllerUpdated()
 
 ### DeathTimeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L79)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L80)
 
 ```csharp
 void DeathTimeUpdated()
@@ -359,7 +359,7 @@ void DeathTimeUpdated()
 
 ### DefaultControllerUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L81)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L82)
 
 ```csharp
 void DefaultControllerUpdated()
@@ -367,7 +367,7 @@ void DefaultControllerUpdated()
 
 ### FlashlightServicesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L73)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L74)
 
 ```csharp
 void FlashlightServicesUpdated()
@@ -375,7 +375,7 @@ void FlashlightServicesUpdated()
 
 ### HideHUDUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L77)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L78)
 
 ```csharp
 void HideHUDUpdated()
@@ -383,7 +383,7 @@ void HideHUDUpdated()
 
 ### ItemServicesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L68)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L69)
 
 ```csharp
 void ItemServicesUpdated()
@@ -391,7 +391,7 @@ void ItemServicesUpdated()
 
 ### MovementServicesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L75)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L76)
 
 ```csharp
 void MovementServicesUpdated()
@@ -399,7 +399,7 @@ void MovementServicesUpdated()
 
 ### ObserverServicesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L70)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L71)
 
 ```csharp
 void ObserverServicesUpdated()
@@ -407,7 +407,7 @@ void ObserverServicesUpdated()
 
 ### ServerViewAngleChangesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L76)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L77)
 
 ```csharp
 void ServerViewAngleChangesUpdated()
@@ -415,7 +415,7 @@ void ServerViewAngleChangesUpdated()
 
 ### Skybox3dUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L78)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L79)
 
 ```csharp
 void Skybox3dUpdated()
@@ -423,7 +423,7 @@ void Skybox3dUpdated()
 
 ### UseServicesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L72)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L73)
 
 ```csharp
 void UseServicesUpdated()
@@ -431,7 +431,7 @@ void UseServicesUpdated()
 
 ### WaterServicesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L71)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L72)
 
 ```csharp
 void WaterServicesUpdated()
@@ -439,7 +439,7 @@ void WaterServicesUpdated()
 
 ### WeaponServicesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L67)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L68)
 
 ```csharp
 void WeaponServicesUpdated()

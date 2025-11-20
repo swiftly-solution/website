@@ -12,7 +12,7 @@ public interface CAimMatrixUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase, I
 
 ### LockWhenWaning
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAimMatrixUpdateNode.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAimMatrixUpdateNode.cs#L28)
 
 ```csharp
 ref bool LockWhenWaning { get; }
@@ -24,7 +24,7 @@ ref bool LockWhenWaning { get; }
 
 ### OpFixedSettings
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAimMatrixUpdateNode.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAimMatrixUpdateNode.cs#L18)
 
 ```csharp
 AimMatrixOpFixedSettings_t OpFixedSettings { get; }
@@ -36,7 +36,7 @@ AimMatrixOpFixedSettings_t OpFixedSettings { get; }
 
 ### ParamIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAimMatrixUpdateNode.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAimMatrixUpdateNode.cs#L22)
 
 ```csharp
 CAnimParamHandle ParamIndex { get; }
@@ -48,7 +48,7 @@ CAnimParamHandle ParamIndex { get; }
 
 ### ResetChild
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAimMatrixUpdateNode.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAimMatrixUpdateNode.cs#L26)
 
 ```csharp
 ref bool ResetChild { get; }
@@ -60,7 +60,7 @@ ref bool ResetChild { get; }
 
 ### Sequence
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAimMatrixUpdateNode.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAimMatrixUpdateNode.cs#L24)
 
 ```csharp
 HSequence Sequence { get; }
@@ -72,7 +72,7 @@ HSequence Sequence { get; }
 
 ### Target
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAimMatrixUpdateNode.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAimMatrixUpdateNode.cs#L20)
 
 ```csharp
 ref AnimVectorSource Target { get; }

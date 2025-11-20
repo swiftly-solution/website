@@ -12,7 +12,7 @@ public interface CPulseCell_Outflow_ListenForAnimgraphTag : CPulseCell_BaseYield
 
 ### OnCanceled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ListenForAnimgraphTag.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ListenForAnimgraphTag.cs#L22)
 
 ```csharp
 CPulse_ResumePoint OnCanceled { get; }
@@ -24,7 +24,7 @@ CPulse_ResumePoint OnCanceled { get; }
 
 ### OnEnd
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ListenForAnimgraphTag.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ListenForAnimgraphTag.cs#L20)
 
 ```csharp
 CPulse_ResumePoint OnEnd { get; }
@@ -36,7 +36,7 @@ CPulse_ResumePoint OnEnd { get; }
 
 ### OnStart
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ListenForAnimgraphTag.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ListenForAnimgraphTag.cs#L18)
 
 ```csharp
 CPulse_ResumePoint OnStart { get; }
@@ -48,7 +48,7 @@ CPulse_ResumePoint OnStart { get; }
 
 ### TagName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ListenForAnimgraphTag.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ListenForAnimgraphTag.cs#L24)
 
 ```csharp
 ref CGlobalSymbol TagName { get; }

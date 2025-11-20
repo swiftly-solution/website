@@ -12,7 +12,7 @@ public interface CRegionSVM : ISchemaClass<CRegionSVM>, ISchemaField, ISchemaCla
 
 ### Nodes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRegionSVM.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRegionSVM.cs#L20)
 
 ```csharp
 ref CUtlVector<uint> Nodes { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<uint> Nodes { get; }
 
 ### Planes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRegionSVM.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRegionSVM.cs#L18)
 
 ```csharp
 ref CUtlVector<RnPlane_t> Planes { get; }

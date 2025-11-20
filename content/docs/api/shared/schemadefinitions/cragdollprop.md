@@ -12,7 +12,7 @@ public interface CRagdollProp : CBaseAnimGraph, CBaseModelEntity, CBaseEntity, C
 
 ### AllAsleep
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L30)
 
 ```csharp
 ref bool AllAsleep { get; }
@@ -24,7 +24,7 @@ ref bool AllAsleep { get; }
 
 ### AllowStretch
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L58)
 
 ```csharp
 ref bool AllowStretch { get; }
@@ -36,7 +36,7 @@ ref bool AllowStretch { get; }
 
 ### AwakeTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L48)
 
 ```csharp
 GameTime_t AwakeTime { get; }
@@ -48,7 +48,7 @@ GameTime_t AwakeTime { get; }
 
 ### BlendWeight
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L60)
 
 ```csharp
 ref float BlendWeight { get; }
@@ -60,7 +60,7 @@ ref float BlendWeight { get; }
 
 ### DamageEntity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L34)
 
 ```csharp
 ref CHandle<CBaseEntity> DamageEntity { get; }
@@ -72,7 +72,7 @@ ref CHandle<CBaseEntity> DamageEntity { get; }
 
 ### DefaultFadeScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L62)
 
 ```csharp
 ref float DefaultFadeScale { get; }
@@ -84,7 +84,7 @@ ref float DefaultFadeScale { get; }
 
 ### FadeOutStartTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L42)
 
 ```csharp
 GameTime_t FadeOutStartTime { get; }
@@ -96,7 +96,7 @@ GameTime_t FadeOutStartTime { get; }
 
 ### FadeTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L44)
 
 ```csharp
 ref float FadeTime { get; }
@@ -108,7 +108,7 @@ ref float FadeTime { get; }
 
 ### FirstCollisionAfterLaunch
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L32)
 
 ```csharp
 ref bool FirstCollisionAfterLaunch { get; }
@@ -120,7 +120,7 @@ ref bool FirstCollisionAfterLaunch { get; }
 
 ### HasBeenPhysgunned
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L56)
 
 ```csharp
 ref bool HasBeenPhysgunned { get; }
@@ -132,7 +132,7 @@ ref bool HasBeenPhysgunned { get; }
 
 ### Killer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L36)
 
 ```csharp
 ref CHandle<CBaseEntity> Killer { get; }
@@ -144,7 +144,7 @@ ref CHandle<CBaseEntity> Killer { get; }
 
 ### LastOrigin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L46)
 
 ```csharp
 ref Vector LastOrigin { get; }
@@ -156,7 +156,7 @@ ref Vector LastOrigin { get; }
 
 ### LastOriginChangeTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L50)
 
 ```csharp
 GameTime_t LastOriginChangeTime { get; }
@@ -168,7 +168,7 @@ GameTime_t LastOriginChangeTime { get; }
 
 ### LastPhysicsInfluenceTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L40)
 
 ```csharp
 GameTime_t LastPhysicsInfluenceTime { get; }
@@ -180,7 +180,7 @@ GameTime_t LastPhysicsInfluenceTime { get; }
 
 ### LastUpdateTickCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L28)
 
 ```csharp
 ref uint LastUpdateTickCount { get; }
@@ -192,7 +192,7 @@ ref uint LastUpdateTickCount { get; }
 
 ### PhysicsAttacker
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L38)
 
 ```csharp
 ref CHandle<CBasePlayerPawn> PhysicsAttacker { get; }
@@ -204,7 +204,7 @@ ref CHandle<CBasePlayerPawn> PhysicsAttacker { get; }
 
 ### RagAngles
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L26)
 
 ```csharp
 ref CUtlVector<QAngle> RagAngles { get; }
@@ -216,7 +216,7 @@ ref CUtlVector<QAngle> RagAngles { get; }
 
 ### RagEnabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L22)
 
 ```csharp
 ref CUtlVector<bool> RagEnabled { get; }
@@ -228,7 +228,7 @@ ref CUtlVector<bool> RagEnabled { get; }
 
 ### RagPos
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L24)
 
 ```csharp
 ref CUtlVector<Vector> RagPos { get; }
@@ -240,7 +240,7 @@ ref CUtlVector<Vector> RagPos { get; }
 
 ### Ragdoll
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L18)
 
 ```csharp
 ragdoll_t Ragdoll { get; }
@@ -252,7 +252,7 @@ ragdoll_t Ragdoll { get; }
 
 ### RagdollMaxs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L65)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L66)
 
 ```csharp
 ref CUtlVector<Vector> RagdollMaxs { get; }
@@ -264,7 +264,7 @@ ref CUtlVector<Vector> RagdollMaxs { get; }
 
 ### RagdollMins
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L64)
 
 ```csharp
 ref CUtlVector<Vector> RagdollMins { get; }
@@ -276,7 +276,7 @@ ref CUtlVector<Vector> RagdollMins { get; }
 
 ### ShouldDeleteActivationRecord
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L67)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L68)
 
 ```csharp
 ref bool ShouldDeleteActivationRecord { get; }
@@ -288,7 +288,7 @@ ref bool ShouldDeleteActivationRecord { get; }
 
 ### StartDisabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L20)
 
 ```csharp
 ref bool StartDisabled { get; }
@@ -300,7 +300,7 @@ ref bool StartDisabled { get; }
 
 ### StrOriginClassName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L52)
 
 ```csharp
 string StrOriginClassName { get; set; }
@@ -312,7 +312,7 @@ string StrOriginClassName { get; set; }
 
 ### StrSourceClassName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L54)
 
 ```csharp
 string StrSourceClassName { get; set; }
@@ -326,7 +326,7 @@ string StrSourceClassName { get; set; }
 
 ### BlendWeightUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L72)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L73)
 
 ```csharp
 void BlendWeightUpdated()
@@ -334,7 +334,7 @@ void BlendWeightUpdated()
 
 ### RagAnglesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L71)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L72)
 
 ```csharp
 void RagAnglesUpdated()
@@ -342,7 +342,7 @@ void RagAnglesUpdated()
 
 ### RagEnabledUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L69)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L70)
 
 ```csharp
 void RagEnabledUpdated()
@@ -350,7 +350,7 @@ void RagEnabledUpdated()
 
 ### RagPosUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L70)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollProp.cs#L71)
 
 ```csharp
 void RagPosUpdated()

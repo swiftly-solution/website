@@ -12,7 +12,7 @@ public interface CSeqScaleSet : ISchemaClass<CSeqScaleSet>, ISchemaField, ISchem
 
 ### BoneScaleArray
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqScaleSet.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqScaleSet.cs#L26)
 
 ```csharp
 ref CUtlVector<float> BoneScaleArray { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<float> BoneScaleArray { get; }
 
 ### LocalBoneArray
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqScaleSet.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqScaleSet.cs#L24)
 
 ```csharp
 ref CUtlVector<short> LocalBoneArray { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<short> LocalBoneArray { get; }
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqScaleSet.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqScaleSet.cs#L18)
 
 ```csharp
 ref CBufferString Name { get; }
@@ -48,7 +48,7 @@ ref CBufferString Name { get; }
 
 ### RootOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqScaleSet.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqScaleSet.cs#L20)
 
 ```csharp
 ref bool RootOffset { get; }
@@ -60,7 +60,7 @@ ref bool RootOffset { get; }
 
 ### RootOffset1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqScaleSet.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqScaleSet.cs#L22)
 
 ```csharp
 ref Vector RootOffset1 { get; }

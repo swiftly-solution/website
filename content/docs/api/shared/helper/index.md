@@ -50,7 +50,7 @@ public static string Colored(this string text)
 
 ### EstimateTextWidth(string)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Helper.cs#L123)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Helper.cs#L133)
 
 ```csharp
 public static float EstimateTextWidth(string text)
@@ -66,7 +66,7 @@ public static float EstimateTextWidth(string text)
 
 ### GetCharWidth(char)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Helper.cs#L97)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Helper.cs#L107)
 
 ```csharp
 public static float GetCharWidth(char c)
@@ -80,9 +80,25 @@ public static float GetCharWidth(char c)
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single) - The estimated display width in relative units.
 
+### GetSchemaSize()
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Helper.cs#L96)
+
+```csharp
+public static int GetSchemaSize<T>() where T : ISchemaClass<T>
+```
+
+#### Returns
+
+- [int](https://learn.microsoft.com/dotnet/api/system.int32) - The size of the schema class.
+
+#### Type Parameters
+
+- **T**:  - The schema class to get the size of.
+
 ### ParseHexColor(string, bool)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Helper.cs#L131)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Helper.cs#L141)
 
 ```csharp
 public static (int? r, int? g, int? b, int? a) ParseHexColor(string hexColor, bool alphaFirst = false)

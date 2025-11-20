@@ -12,7 +12,7 @@ public interface C_INIT_CreateAlongPath : CParticleFunctionInitializer, CParticl
 
 ### EndOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateAlongPath.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateAlongPath.cs#L24)
 
 ```csharp
 ref Vector EndOffset { get; }
@@ -24,7 +24,7 @@ ref Vector EndOffset { get; }
 
 ### MaxDistance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateAlongPath.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateAlongPath.cs#L18)
 
 ```csharp
 ref float MaxDistance { get; }
@@ -36,7 +36,7 @@ ref float MaxDistance { get; }
 
 ### PathParams
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateAlongPath.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateAlongPath.cs#L20)
 
 ```csharp
 CPathParameters PathParams { get; }
@@ -48,7 +48,7 @@ CPathParameters PathParams { get; }
 
 ### SaveOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateAlongPath.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateAlongPath.cs#L26)
 
 ```csharp
 ref bool SaveOffset { get; }
@@ -60,7 +60,7 @@ ref bool SaveOffset { get; }
 
 ### UseRandomCPs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateAlongPath.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateAlongPath.cs#L22)
 
 ```csharp
 ref bool UseRandomCPs { get; }

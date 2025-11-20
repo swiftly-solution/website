@@ -12,7 +12,7 @@ public interface CNmAndNode__CDefinition : CNmBoolValueNode__CDefinition, CNmVal
 
 ### ConditionNodeIndices
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmAndNode__CDefinition.cs#L18)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmAndNode__CDefinition.cs#L19)
 
 ```csharp
 SchemaUntypedField ConditionNodeIndices { get; }

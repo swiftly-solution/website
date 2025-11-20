@@ -12,7 +12,7 @@ public interface VMixShaperDesc_t : ISchemaClass<VMixShaperDesc_t>, ISchemaField
 
 ### FldbDrive
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixShaperDesc_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixShaperDesc_t.cs#L20)
 
 ```csharp
 ref float FldbDrive { get; }
@@ -24,7 +24,7 @@ ref float FldbDrive { get; }
 
 ### FldbOutputGain
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixShaperDesc_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixShaperDesc_t.cs#L22)
 
 ```csharp
 ref float FldbOutputGain { get; }
@@ -36,7 +36,7 @@ ref float FldbOutputGain { get; }
 
 ### OversampleFactor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixShaperDesc_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixShaperDesc_t.cs#L26)
 
 ```csharp
 ref int OversampleFactor { get; }
@@ -48,7 +48,7 @@ ref int OversampleFactor { get; }
 
 ### Shape
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixShaperDesc_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixShaperDesc_t.cs#L18)
 
 ```csharp
 ref int Shape { get; }
@@ -60,7 +60,7 @@ ref int Shape { get; }
 
 ### WetMix
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixShaperDesc_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixShaperDesc_t.cs#L24)
 
 ```csharp
 ref float WetMix { get; }

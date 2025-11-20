@@ -12,7 +12,7 @@ public interface CTestEffect : CBaseEntity, CEntityInstance, ISchemaClass<CEntit
 
 ### Beam
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestEffect.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestEffect.cs#L20)
 
 ```csharp
 ref int Beam { get; }
@@ -24,7 +24,7 @@ ref int Beam { get; }
 
 ### Beam1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestEffect.cs#L22)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestEffect.cs#L23)
 
 ```csharp
 SchemaUntypedField Beam1 { get; }
@@ -36,7 +36,7 @@ SchemaUntypedField Beam1 { get; }
 
 ### BeamTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestEffect.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestEffect.cs#L26)
 
 ```csharp
 SchemaUntypedField BeamTime { get; }
@@ -48,7 +48,7 @@ SchemaUntypedField BeamTime { get; }
 
 ### Loop
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestEffect.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestEffect.cs#L18)
 
 ```csharp
 ref int Loop { get; }
@@ -60,7 +60,7 @@ ref int Loop { get; }
 
 ### StartTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestEffect.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestEffect.cs#L28)
 
 ```csharp
 GameTime_t StartTime { get; }

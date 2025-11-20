@@ -12,7 +12,7 @@ public interface FeEdgeDesc_t : ISchemaClass<FeEdgeDesc_t>, ISchemaField, ISchem
 
 ### Edge
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeEdgeDesc_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeEdgeDesc_t.cs#L18)
 
 ```csharp
 ISchemaFixedArray<ushort> Edge { get; }
@@ -24,7 +24,7 @@ ISchemaFixedArray<ushort> Edge { get; }
 
 ### Side
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeEdgeDesc_t.cs#L20)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeEdgeDesc_t.cs#L21)
 
 ```csharp
 SchemaUntypedField Side { get; }
@@ -36,7 +36,7 @@ SchemaUntypedField Side { get; }
 
 ### VirtElem
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeEdgeDesc_t.cs#L22)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeEdgeDesc_t.cs#L23)
 
 ```csharp
 ISchemaFixedArray<ushort> VirtElem { get; }

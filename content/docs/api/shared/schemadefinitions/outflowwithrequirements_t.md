@@ -12,7 +12,7 @@ public interface OutflowWithRequirements_t : ISchemaClass<OutflowWithRequirement
 
 ### Connection
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/OutflowWithRequirements_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/OutflowWithRequirements_t.cs#L18)
 
 ```csharp
 CPulse_OutflowConnection Connection { get; }
@@ -24,7 +24,7 @@ CPulse_OutflowConnection Connection { get; }
 
 ### CursorStateBlockIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/OutflowWithRequirements_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/OutflowWithRequirements_t.cs#L24)
 
 ```csharp
 ref CUtlVector<int> CursorStateBlockIndex { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<int> CursorStateBlockIndex { get; }
 
 ### DestinationFlowNodeID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/OutflowWithRequirements_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/OutflowWithRequirements_t.cs#L20)
 
 ```csharp
 PulseDocNodeID_t DestinationFlowNodeID { get; }
@@ -48,7 +48,7 @@ PulseDocNodeID_t DestinationFlowNodeID { get; }
 
 ### RequirementNodeIDs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/OutflowWithRequirements_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/OutflowWithRequirements_t.cs#L22)
 
 ```csharp
 ref CUtlVector<PulseDocNodeID_t> RequirementNodeIDs { get; }

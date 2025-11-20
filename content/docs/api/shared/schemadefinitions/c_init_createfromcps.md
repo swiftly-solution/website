@@ -12,7 +12,7 @@ public interface C_INIT_CreateFromCPs : CParticleFunctionInitializer, CParticleF
 
 ### DynamicCPCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateFromCPs.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateFromCPs.cs#L24)
 
 ```csharp
 CParticleCollectionFloatInput DynamicCPCount { get; }
@@ -24,7 +24,7 @@ CParticleCollectionFloatInput DynamicCPCount { get; }
 
 ### Increment
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateFromCPs.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateFromCPs.cs#L18)
 
 ```csharp
 ref int Increment { get; }
@@ -36,7 +36,7 @@ ref int Increment { get; }
 
 ### MaxCP
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateFromCPs.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateFromCPs.cs#L22)
 
 ```csharp
 ref int MaxCP { get; }
@@ -48,7 +48,7 @@ ref int MaxCP { get; }
 
 ### MinCP
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateFromCPs.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateFromCPs.cs#L20)
 
 ```csharp
 ref int MinCP { get; }

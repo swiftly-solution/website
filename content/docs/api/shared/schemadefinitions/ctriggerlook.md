@@ -12,7 +12,7 @@ public interface CTriggerLook : CTriggerOnce, CTriggerMultiple, CBaseTrigger, CB
 
 ### B2DFOV
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLook.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLook.cs#L34)
 
 ```csharp
 ref bool B2DFOV { get; }
@@ -24,7 +24,7 @@ ref bool B2DFOV { get; }
 
 ### FieldOfView
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLook.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLook.cs#L20)
 
 ```csharp
 ref float FieldOfView { get; }
@@ -36,7 +36,7 @@ ref float FieldOfView { get; }
 
 ### IsLooking
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLook.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLook.cs#L32)
 
 ```csharp
 ref bool IsLooking { get; }
@@ -48,7 +48,7 @@ ref bool IsLooking { get; }
 
 ### LookTarget
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLook.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLook.cs#L18)
 
 ```csharp
 ref CHandle<CBaseEntity> LookTarget { get; }
@@ -60,7 +60,7 @@ ref CHandle<CBaseEntity> LookTarget { get; }
 
 ### LookTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLook.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLook.cs#L22)
 
 ```csharp
 ref float LookTime { get; }
@@ -72,7 +72,7 @@ ref float LookTime { get; }
 
 ### LookTimeLast
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLook.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLook.cs#L26)
 
 ```csharp
 GameTime_t LookTimeLast { get; }
@@ -84,7 +84,7 @@ GameTime_t LookTimeLast { get; }
 
 ### LookTimeTotal
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLook.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLook.cs#L24)
 
 ```csharp
 ref float LookTimeTotal { get; }
@@ -96,7 +96,7 @@ ref float LookTimeTotal { get; }
 
 ### OnEndLook
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLook.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLook.cs#L46)
 
 ```csharp
 CEntityIOOutput OnEndLook { get; }
@@ -108,7 +108,7 @@ CEntityIOOutput OnEndLook { get; }
 
 ### OnStartLook
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLook.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLook.cs#L44)
 
 ```csharp
 CEntityIOOutput OnStartLook { get; }
@@ -120,7 +120,7 @@ CEntityIOOutput OnStartLook { get; }
 
 ### OnTimeout
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLook.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLook.cs#L42)
 
 ```csharp
 CEntityIOOutput OnTimeout { get; }
@@ -132,7 +132,7 @@ CEntityIOOutput OnTimeout { get; }
 
 ### TestAllVisibleOcclusion
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLook.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLook.cs#L40)
 
 ```csharp
 ref bool TestAllVisibleOcclusion { get; }
@@ -144,7 +144,7 @@ ref bool TestAllVisibleOcclusion { get; }
 
 ### TestOcclusion
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLook.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLook.cs#L38)
 
 ```csharp
 ref bool TestOcclusion { get; }
@@ -156,7 +156,7 @@ ref bool TestOcclusion { get; }
 
 ### TimeoutDuration
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLook.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLook.cs#L28)
 
 ```csharp
 ref float TimeoutDuration { get; }
@@ -168,7 +168,7 @@ ref float TimeoutDuration { get; }
 
 ### TimeoutFired
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLook.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLook.cs#L30)
 
 ```csharp
 ref bool TimeoutFired { get; }
@@ -180,7 +180,7 @@ ref bool TimeoutFired { get; }
 
 ### UseVelocity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLook.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLook.cs#L36)
 
 ```csharp
 ref bool UseVelocity { get; }
@@ -194,7 +194,7 @@ ref bool UseVelocity { get; }
 
 ### TestAllVisibleOcclusionUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLook.cs#L48)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLook.cs#L49)
 
 ```csharp
 void TestAllVisibleOcclusionUpdated()
@@ -202,7 +202,7 @@ void TestAllVisibleOcclusionUpdated()
 
 ### TestOcclusionUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLook.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLook.cs#L48)
 
 ```csharp
 void TestOcclusionUpdated()

@@ -12,7 +12,7 @@ public interface CTestBlendContainer : CVoiceContainerBase, ISchemaClass<CVoiceC
 
 ### FirstSound
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestBlendContainer.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestBlendContainer.cs#L18)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCVoiceContainerBase> FirstSound { get; }
@@ -24,7 +24,7 @@ ref CStrongHandle<InfoForResourceTypeCVoiceContainerBase> FirstSound { get; }
 
 ### SecondSound
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestBlendContainer.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestBlendContainer.cs#L20)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCVoiceContainerBase> SecondSound { get; }

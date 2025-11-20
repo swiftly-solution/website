@@ -12,7 +12,7 @@ public interface VMixVocoderDesc_t : ISchemaClass<VMixVocoderDesc_t>, ISchemaFie
 
 ### AttackTimeMS
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixVocoderDesc_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixVocoderDesc_t.cs#L30)
 
 ```csharp
 ref float AttackTimeMS { get; }
@@ -24,7 +24,7 @@ ref float AttackTimeMS { get; }
 
 ### BandCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixVocoderDesc_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixVocoderDesc_t.cs#L18)
 
 ```csharp
 ref int BandCount { get; }
@@ -36,7 +36,7 @@ ref int BandCount { get; }
 
 ### Bandwidth
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixVocoderDesc_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixVocoderDesc_t.cs#L20)
 
 ```csharp
 ref float Bandwidth { get; }
@@ -48,7 +48,7 @@ ref float Bandwidth { get; }
 
 ### DebugBand
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixVocoderDesc_t.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixVocoderDesc_t.cs#L34)
 
 ```csharp
 ref int DebugBand { get; }
@@ -60,7 +60,7 @@ ref int DebugBand { get; }
 
 ### FldBModGain
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixVocoderDesc_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixVocoderDesc_t.cs#L22)
 
 ```csharp
 ref float FldBModGain { get; }
@@ -72,7 +72,7 @@ ref float FldBModGain { get; }
 
 ### FldBUnvoicedGain
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixVocoderDesc_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixVocoderDesc_t.cs#L28)
 
 ```csharp
 ref float FldBUnvoicedGain { get; }
@@ -84,7 +84,7 @@ ref float FldBUnvoicedGain { get; }
 
 ### FreqRangeEnd
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixVocoderDesc_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixVocoderDesc_t.cs#L26)
 
 ```csharp
 ref float FreqRangeEnd { get; }
@@ -96,7 +96,7 @@ ref float FreqRangeEnd { get; }
 
 ### FreqRangeStart
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixVocoderDesc_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixVocoderDesc_t.cs#L24)
 
 ```csharp
 ref float FreqRangeStart { get; }
@@ -108,7 +108,7 @@ ref float FreqRangeStart { get; }
 
 ### PeakMode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixVocoderDesc_t.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixVocoderDesc_t.cs#L36)
 
 ```csharp
 ref bool PeakMode { get; }
@@ -120,7 +120,7 @@ ref bool PeakMode { get; }
 
 ### ReleaseTimeMS
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixVocoderDesc_t.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixVocoderDesc_t.cs#L32)
 
 ```csharp
 ref float ReleaseTimeMS { get; }

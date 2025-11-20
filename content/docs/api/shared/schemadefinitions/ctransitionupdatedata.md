@@ -12,7 +12,7 @@ public interface CTransitionUpdateData : ISchemaClass<CTransitionUpdateData>, IS
 
 ### DestStateIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTransitionUpdateData.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTransitionUpdateData.cs#L20)
 
 ```csharp
 ref byte DestStateIndex { get; }
@@ -24,7 +24,7 @@ ref byte DestStateIndex { get; }
 
 ### Disabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTransitionUpdateData.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTransitionUpdateData.cs#L26)
 
 ```csharp
 SchemaUntypedField Disabled { get; }
@@ -36,7 +36,7 @@ SchemaUntypedField Disabled { get; }
 
 ### HandshakeMaskToDisableFirst
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTransitionUpdateData.cs#L22)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTransitionUpdateData.cs#L23)
 
 ```csharp
 SchemaUntypedField HandshakeMaskToDisableFirst { get; }
@@ -48,7 +48,7 @@ SchemaUntypedField HandshakeMaskToDisableFirst { get; }
 
 ### SrcStateIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTransitionUpdateData.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTransitionUpdateData.cs#L18)
 
 ```csharp
 ref byte SrcStateIndex { get; }

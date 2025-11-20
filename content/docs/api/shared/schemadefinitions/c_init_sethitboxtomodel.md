@@ -12,7 +12,7 @@ public interface C_INIT_SetHitboxToModel : CParticleFunctionInitializer, CPartic
 
 ### ControlPointNumber
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToModel.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToModel.cs#L18)
 
 ```csharp
 ref int ControlPointNumber { get; }
@@ -24,7 +24,7 @@ ref int ControlPointNumber { get; }
 
 ### DesiredHitbox
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToModel.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToModel.cs#L24)
 
 ```csharp
 ref int DesiredHitbox { get; }
@@ -36,7 +36,7 @@ ref int DesiredHitbox { get; }
 
 ### DirectionBias
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToModel.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToModel.cs#L28)
 
 ```csharp
 ref Vector DirectionBias { get; }
@@ -48,7 +48,7 @@ ref Vector DirectionBias { get; }
 
 ### EvenDistribution
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToModel.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToModel.cs#L22)
 
 ```csharp
 ref bool EvenDistribution { get; }
@@ -60,7 +60,7 @@ ref bool EvenDistribution { get; }
 
 ### ForceInModel
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToModel.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToModel.cs#L20)
 
 ```csharp
 ref int ForceInModel { get; }
@@ -72,7 +72,7 @@ ref int ForceInModel { get; }
 
 ### HitBoxScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToModel.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToModel.cs#L26)
 
 ```csharp
 CParticleCollectionVecInput HitBoxScale { get; }
@@ -84,7 +84,7 @@ CParticleCollectionVecInput HitBoxScale { get; }
 
 ### HitboxSetName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToModel.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToModel.cs#L34)
 
 ```csharp
 string HitboxSetName { get; set; }
@@ -96,7 +96,7 @@ string HitboxSetName { get; set; }
 
 ### MaintainHitbox
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToModel.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToModel.cs#L30)
 
 ```csharp
 ref bool MaintainHitbox { get; }
@@ -108,7 +108,7 @@ ref bool MaintainHitbox { get; }
 
 ### ShellSize
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToModel.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToModel.cs#L36)
 
 ```csharp
 CParticleCollectionFloatInput ShellSize { get; }
@@ -120,7 +120,7 @@ CParticleCollectionFloatInput ShellSize { get; }
 
 ### UseBones
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToModel.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToModel.cs#L32)
 
 ```csharp
 ref bool UseBones { get; }

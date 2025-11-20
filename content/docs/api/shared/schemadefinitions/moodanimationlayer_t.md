@@ -12,7 +12,7 @@ public interface MoodAnimationLayer_t : ISchemaClass<MoodAnimationLayer_t>, ISch
 
 ### ActiveListening
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MoodAnimationLayer_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MoodAnimationLayer_t.cs#L20)
 
 ```csharp
 ref bool ActiveListening { get; }
@@ -24,7 +24,7 @@ ref bool ActiveListening { get; }
 
 ### ActiveTalking
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MoodAnimationLayer_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MoodAnimationLayer_t.cs#L22)
 
 ```csharp
 ref bool ActiveTalking { get; }
@@ -36,7 +36,7 @@ ref bool ActiveTalking { get; }
 
 ### DurationScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MoodAnimationLayer_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MoodAnimationLayer_t.cs#L28)
 
 ```csharp
 CRangeFloat DurationScale { get; }
@@ -48,7 +48,7 @@ CRangeFloat DurationScale { get; }
 
 ### EndOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MoodAnimationLayer_t.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MoodAnimationLayer_t.cs#L36)
 
 ```csharp
 CRangeFloat EndOffset { get; }
@@ -60,7 +60,7 @@ CRangeFloat EndOffset { get; }
 
 ### FadeIn
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MoodAnimationLayer_t.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MoodAnimationLayer_t.cs#L38)
 
 ```csharp
 ref float FadeIn { get; }
@@ -72,7 +72,7 @@ ref float FadeIn { get; }
 
 ### FadeOut
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MoodAnimationLayer_t.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MoodAnimationLayer_t.cs#L40)
 
 ```csharp
 ref float FadeOut { get; }
@@ -84,7 +84,7 @@ ref float FadeOut { get; }
 
 ### Intensity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MoodAnimationLayer_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MoodAnimationLayer_t.cs#L26)
 
 ```csharp
 CRangeFloat Intensity { get; }
@@ -96,7 +96,7 @@ CRangeFloat Intensity { get; }
 
 ### LayerAnimations
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MoodAnimationLayer_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MoodAnimationLayer_t.cs#L24)
 
 ```csharp
 ref CUtlVector<MoodAnimation_t> LayerAnimations { get; }
@@ -108,7 +108,7 @@ ref CUtlVector<MoodAnimation_t> LayerAnimations { get; }
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MoodAnimationLayer_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MoodAnimationLayer_t.cs#L18)
 
 ```csharp
 string Name { get; set; }
@@ -120,7 +120,7 @@ string Name { get; set; }
 
 ### NextStart
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MoodAnimationLayer_t.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MoodAnimationLayer_t.cs#L32)
 
 ```csharp
 CRangeFloat NextStart { get; }
@@ -132,7 +132,7 @@ CRangeFloat NextStart { get; }
 
 ### ScaleWithInts
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MoodAnimationLayer_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MoodAnimationLayer_t.cs#L30)
 
 ```csharp
 ref bool ScaleWithInts { get; }
@@ -144,7 +144,7 @@ ref bool ScaleWithInts { get; }
 
 ### StartOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MoodAnimationLayer_t.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MoodAnimationLayer_t.cs#L34)
 
 ```csharp
 CRangeFloat StartOffset { get; }

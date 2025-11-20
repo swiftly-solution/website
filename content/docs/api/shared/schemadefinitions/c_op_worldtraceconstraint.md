@@ -12,7 +12,7 @@ public interface C_OP_WorldTraceConstraint : CParticleFunctionConstraint, CParti
 
 ### BounceAmount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L50)
 
 ```csharp
 CPerParticleFloatInput BounceAmount { get; }
@@ -24,7 +24,7 @@ CPerParticleFloatInput BounceAmount { get; }
 
 ### BrushOnly
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L32)
 
 ```csharp
 ref bool BrushOnly { get; }
@@ -36,7 +36,7 @@ ref bool BrushOnly { get; }
 
 ### CP
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L18)
 
 ```csharp
 ref int CP { get; }
@@ -48,7 +48,7 @@ ref int CP { get; }
 
 ### CollisionConfirmationSpeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L44)
 
 ```csharp
 ref float CollisionConfirmationSpeed { get; }
@@ -60,7 +60,7 @@ ref float CollisionConfirmationSpeed { get; }
 
 ### CollisionGroupName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L28)
 
 ```csharp
 string CollisionGroupName { get; set; }
@@ -72,7 +72,7 @@ string CollisionGroupName { get; set; }
 
 ### CollisionMode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L22)
 
 ```csharp
 ref ParticleCollisionMode_t CollisionMode { get; }
@@ -84,7 +84,7 @@ ref ParticleCollisionMode_t CollisionMode { get; }
 
 ### CollisionModeMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L24)
 
 ```csharp
 ref ParticleCollisionMode_t CollisionModeMin { get; }
@@ -96,7 +96,7 @@ ref ParticleCollisionMode_t CollisionModeMin { get; }
 
 ### CpMovementTolerance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L38)
 
 ```csharp
 ref float CpMovementTolerance { get; }
@@ -108,7 +108,7 @@ ref float CpMovementTolerance { get; }
 
 ### CpOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L20)
 
 ```csharp
 ref Vector CpOffset { get; }
@@ -120,7 +120,7 @@ ref Vector CpOffset { get; }
 
 ### DecayBounce
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L56)
 
 ```csharp
 ref bool DecayBounce { get; }
@@ -132,7 +132,7 @@ ref bool DecayBounce { get; }
 
 ### EntityStickDataField
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L67)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L68)
 
 ```csharp
 ParticleAttributeIndex_t EntityStickDataField { get; }
@@ -144,7 +144,7 @@ ParticleAttributeIndex_t EntityStickDataField { get; }
 
 ### EntityStickNormalField
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L69)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L70)
 
 ```csharp
 ParticleAttributeIndex_t EntityStickNormalField { get; }
@@ -156,7 +156,7 @@ ParticleAttributeIndex_t EntityStickNormalField { get; }
 
 ### IgnoreCP
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L36)
 
 ```csharp
 ref int IgnoreCP { get; }
@@ -168,7 +168,7 @@ ref int IgnoreCP { get; }
 
 ### IncludeWater
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L34)
 
 ```csharp
 ref bool IncludeWater { get; }
@@ -180,7 +180,7 @@ ref bool IncludeWater { get; }
 
 ### KillonContact
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L58)
 
 ```csharp
 ref bool KillonContact { get; }
@@ -192,7 +192,7 @@ ref bool KillonContact { get; }
 
 ### MaxTracesPerFrame
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L46)
 
 ```csharp
 ref float MaxTracesPerFrame { get; }
@@ -204,7 +204,7 @@ ref float MaxTracesPerFrame { get; }
 
 ### MinSpeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L60)
 
 ```csharp
 ref float MinSpeed { get; }
@@ -216,7 +216,7 @@ ref float MinSpeed { get; }
 
 ### RadiusScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L48)
 
 ```csharp
 CPerParticleFloatInput RadiusScale { get; }
@@ -228,7 +228,7 @@ CPerParticleFloatInput RadiusScale { get; }
 
 ### RandomDirScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L54)
 
 ```csharp
 CPerParticleFloatInput RandomDirScale { get; }
@@ -240,7 +240,7 @@ CPerParticleFloatInput RandomDirScale { get; }
 
 ### RetestRate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L40)
 
 ```csharp
 ref float RetestRate { get; }
@@ -252,7 +252,7 @@ ref float RetestRate { get; }
 
 ### SetNormal
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L62)
 
 ```csharp
 ref bool SetNormal { get; }
@@ -264,7 +264,7 @@ ref bool SetNormal { get; }
 
 ### SlideAmount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L52)
 
 ```csharp
 CPerParticleFloatInput SlideAmount { get; }
@@ -276,7 +276,7 @@ CPerParticleFloatInput SlideAmount { get; }
 
 ### StickOnCollisionField
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L64)
 
 ```csharp
 ParticleAttributeIndex_t StickOnCollisionField { get; }
@@ -288,7 +288,7 @@ ParticleAttributeIndex_t StickOnCollisionField { get; }
 
 ### StopSpeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L65)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L66)
 
 ```csharp
 CPerParticleFloatInput StopSpeed { get; }
@@ -300,7 +300,7 @@ CPerParticleFloatInput StopSpeed { get; }
 
 ### TraceSet
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L26)
 
 ```csharp
 ref ParticleTraceSet_t TraceSet { get; }
@@ -312,7 +312,7 @@ ref ParticleTraceSet_t TraceSet { get; }
 
 ### TraceTolerance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L42)
 
 ```csharp
 ref float TraceTolerance { get; }
@@ -324,7 +324,7 @@ ref float TraceTolerance { get; }
 
 ### WorldOnly
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L30)
 
 ```csharp
 ref bool WorldOnly { get; }

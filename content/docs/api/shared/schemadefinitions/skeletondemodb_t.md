@@ -12,7 +12,7 @@ public interface SkeletonDemoDb_t : ISchemaClass<SkeletonDemoDb_t>, ISchemaField
 
 ### AnimCaptures
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonDemoDb_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonDemoDb_t.cs#L18)
 
 ```csharp
 ref CUtlVector<PointerTo<SkeletonAnimCapture_t>> AnimCaptures { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<PointerTo<SkeletonAnimCapture_t>> AnimCaptures { get; }
 
 ### CameraTrack
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonDemoDb_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonDemoDb_t.cs#L20)
 
 ```csharp
 ref CUtlVector<SkeletonAnimCapture_t__Camera_t> CameraTrack { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<SkeletonAnimCapture_t__Camera_t> CameraTrack { get; }
 
 ### RecordingTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonDemoDb_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonDemoDb_t.cs#L22)
 
 ```csharp
 ref float RecordingTime { get; }

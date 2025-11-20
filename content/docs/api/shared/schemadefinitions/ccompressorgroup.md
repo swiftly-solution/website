@@ -12,7 +12,7 @@ public interface CCompressorGroup : ISchemaClass<CCompressorGroup>, ISchemaField
 
 ### BoolCompressor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCompressorGroup.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCompressorGroup.cs#L44)
 
 ```csharp
 ref CUtlVector<PointerTo<SchemaUntypedField>> BoolCompressor { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<PointerTo<SchemaUntypedField>> BoolCompressor { get; }
 
 ### ChannelClass
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCompressorGroup.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCompressorGroup.cs#L20)
 
 ```csharp
 ref CUtlVector<CString> ChannelClass { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<CString> ChannelClass { get; }
 
 ### ColorCompressor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCompressorGroup.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCompressorGroup.cs#L46)
 
 ```csharp
 ref CUtlVector<PointerTo<SchemaUntypedField>> ColorCompressor { get; }
@@ -48,7 +48,7 @@ ref CUtlVector<PointerTo<SchemaUntypedField>> ColorCompressor { get; }
 
 ### CompressorIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCompressorGroup.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCompressorGroup.cs#L30)
 
 ```csharp
 ref CUtlVector<int> CompressorIndex { get; }
@@ -60,7 +60,7 @@ ref CUtlVector<int> CompressorIndex { get; }
 
 ### ElementMask
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCompressorGroup.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCompressorGroup.cs#L36)
 
 ```csharp
 ref CUtlVector<uint> ElementMask { get; }
@@ -72,7 +72,7 @@ ref CUtlVector<uint> ElementMask { get; }
 
 ### ElementNames
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCompressorGroup.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCompressorGroup.cs#L32)
 
 ```csharp
 ref CUtlVector<CUtlVector<CString>> ElementNames { get; }
@@ -84,7 +84,7 @@ ref CUtlVector<CUtlVector<CString>> ElementNames { get; }
 
 ### ElementUniqueID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCompressorGroup.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCompressorGroup.cs#L34)
 
 ```csharp
 ref CUtlVector<CUtlVector<int>> ElementUniqueID { get; }
@@ -96,7 +96,7 @@ ref CUtlVector<CUtlVector<int>> ElementUniqueID { get; }
 
 ### Flags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCompressorGroup.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCompressorGroup.cs#L26)
 
 ```csharp
 ref CUtlVector<int> Flags { get; }
@@ -108,7 +108,7 @@ ref CUtlVector<int> Flags { get; }
 
 ### Grouping
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCompressorGroup.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCompressorGroup.cs#L28)
 
 ```csharp
 ref CUtlVector<CUtlString> Grouping { get; }
@@ -120,7 +120,7 @@ ref CUtlVector<CUtlString> Grouping { get; }
 
 ### IntCompressor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCompressorGroup.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCompressorGroup.cs#L42)
 
 ```csharp
 ref CUtlVector<PointerTo<SchemaUntypedField>> IntCompressor { get; }
@@ -132,7 +132,7 @@ ref CUtlVector<PointerTo<SchemaUntypedField>> IntCompressor { get; }
 
 ### QuaternionCompressor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCompressorGroup.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCompressorGroup.cs#L40)
 
 ```csharp
 ref CUtlVector<PointerTo<SchemaUntypedField>> QuaternionCompressor { get; }
@@ -144,7 +144,7 @@ ref CUtlVector<PointerTo<SchemaUntypedField>> QuaternionCompressor { get; }
 
 ### TotalElementCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCompressorGroup.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCompressorGroup.cs#L18)
 
 ```csharp
 ref int TotalElementCount { get; }
@@ -156,7 +156,7 @@ ref int TotalElementCount { get; }
 
 ### Type
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCompressorGroup.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCompressorGroup.cs#L24)
 
 ```csharp
 ref CUtlVector<fieldtype_t> Type { get; }
@@ -168,7 +168,7 @@ ref CUtlVector<fieldtype_t> Type { get; }
 
 ### VariableName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCompressorGroup.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCompressorGroup.cs#L22)
 
 ```csharp
 ref CUtlVector<CString> VariableName { get; }
@@ -180,7 +180,7 @@ ref CUtlVector<CString> VariableName { get; }
 
 ### Vector2DCompressor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCompressorGroup.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCompressorGroup.cs#L48)
 
 ```csharp
 ref CUtlVector<PointerTo<SchemaUntypedField>> Vector2DCompressor { get; }
@@ -192,7 +192,7 @@ ref CUtlVector<PointerTo<SchemaUntypedField>> Vector2DCompressor { get; }
 
 ### Vector4DCompressor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCompressorGroup.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCompressorGroup.cs#L50)
 
 ```csharp
 ref CUtlVector<PointerTo<SchemaUntypedField>> Vector4DCompressor { get; }
@@ -204,7 +204,7 @@ ref CUtlVector<PointerTo<SchemaUntypedField>> Vector4DCompressor { get; }
 
 ### VectorCompressor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCompressorGroup.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCompressorGroup.cs#L38)
 
 ```csharp
 ref CUtlVector<PointerTo<SchemaUntypedField>> VectorCompressor { get; }

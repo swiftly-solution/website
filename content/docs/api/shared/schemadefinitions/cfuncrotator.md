@@ -12,7 +12,7 @@ public interface CFuncRotator : CBaseModelEntity, CBaseEntity, CEntityInstance, 
 
 ### AngularVelocity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L71)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L72)
 
 ```csharp
 ref QAngle AngularVelocity { get; }
@@ -24,7 +24,7 @@ ref QAngle AngularVelocity { get; }
 
 ### DistanceAlongArcTraveled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L28)
 
 ```csharp
 ref float DistanceAlongArcTraveled { get; }
@@ -36,7 +36,7 @@ ref float DistanceAlongArcTraveled { get; }
 
 ### HasTargetOverride
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L65)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L66)
 
 ```csharp
 ref bool HasTargetOverride { get; }
@@ -48,7 +48,7 @@ ref bool HasTargetOverride { get; }
 
 ### IsReversing
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L22)
 
 ```csharp
 ref bool IsReversing { get; }
@@ -60,7 +60,7 @@ ref bool IsReversing { get; }
 
 ### IsRotating
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L20)
 
 ```csharp
 ref bool IsRotating { get; }
@@ -72,7 +72,7 @@ ref bool IsRotating { get; }
 
 ### LSInit
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L40)
 
 ```csharp
 ref Quaternion LSInit { get; }
@@ -84,7 +84,7 @@ ref Quaternion LSInit { get; }
 
 ### LSOrientation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L42)
 
 ```csharp
 ref Quaternion LSOrientation { get; }
@@ -96,7 +96,7 @@ ref Quaternion LSOrientation { get; }
 
 ### LSPrevChange
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L34)
 
 ```csharp
 ref Quaternion LSPrevChange { get; }
@@ -108,7 +108,7 @@ ref Quaternion LSPrevChange { get; }
 
 ### LookAtForcedUp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L73)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L74)
 
 ```csharp
 ref Vector LookAtForcedUp { get; }
@@ -120,7 +120,7 @@ ref Vector LookAtForcedUp { get; }
 
 ### OnOscillate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L48)
 
 ```csharp
 CEntityIOOutput OnOscillate { get; }
@@ -132,7 +132,7 @@ CEntityIOOutput OnOscillate { get; }
 
 ### OnOscillateEndArrive
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L54)
 
 ```csharp
 CEntityIOOutput OnOscillateEndArrive { get; }
@@ -144,7 +144,7 @@ CEntityIOOutput OnOscillateEndArrive { get; }
 
 ### OnOscillateEndDepart
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L56)
 
 ```csharp
 CEntityIOOutput OnOscillateEndDepart { get; }
@@ -156,7 +156,7 @@ CEntityIOOutput OnOscillateEndDepart { get; }
 
 ### OnOscillateStartArrive
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L50)
 
 ```csharp
 CEntityIOOutput OnOscillateStartArrive { get; }
@@ -168,7 +168,7 @@ CEntityIOOutput OnOscillateStartArrive { get; }
 
 ### OnOscillateStartDepart
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L52)
 
 ```csharp
 CEntityIOOutput OnOscillateStartDepart { get; }
@@ -180,7 +180,7 @@ CEntityIOOutput OnOscillateStartDepart { get; }
 
 ### OnRotationCompleted
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L46)
 
 ```csharp
 CEntityIOOutput OnRotationCompleted { get; }
@@ -192,7 +192,7 @@ CEntityIOOutput OnRotationCompleted { get; }
 
 ### OnRotationStarted
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L44)
 
 ```csharp
 CEntityIOOutput OnRotationStarted { get; }
@@ -204,7 +204,7 @@ CEntityIOOutput OnRotationStarted { get; }
 
 ### OrientationOverride
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L67)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L68)
 
 ```csharp
 ref Quaternion OrientationOverride { get; }
@@ -216,7 +216,7 @@ ref Quaternion OrientationOverride { get; }
 
 ### OscillateCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L60)
 
 ```csharp
 ref int OscillateCount { get; }
@@ -228,7 +228,7 @@ ref int OscillateCount { get; }
 
 ### OscillateDepart
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L58)
 
 ```csharp
 ref bool OscillateDepart { get; }
@@ -240,7 +240,7 @@ ref bool OscillateDepart { get; }
 
 ### PrevRotateType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L64)
 
 ```csharp
 ref CFuncRotator__Rotate_t PrevRotateType { get; }
@@ -252,7 +252,7 @@ ref CFuncRotator__Rotate_t PrevRotateType { get; }
 
 ### RecordHistory
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L77)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L78)
 
 ```csharp
 ref bool RecordHistory { get; }
@@ -264,7 +264,7 @@ ref bool RecordHistory { get; }
 
 ### ReturningToPreviousOrientation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L81)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L82)
 
 ```csharp
 ref bool ReturningToPreviousOrientation { get; }
@@ -276,7 +276,7 @@ ref bool ReturningToPreviousOrientation { get; }
 
 ### RotateType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L62)
 
 ```csharp
 ref CFuncRotator__Rotate_t RotateType { get; }
@@ -288,7 +288,7 @@ ref CFuncRotator__Rotate_t RotateType { get; }
 
 ### RotatorHistory
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L79)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L80)
 
 ```csharp
 ref CUtlVector<RotatorHistoryEntry_t> RotatorHistory { get; }
@@ -300,7 +300,7 @@ ref CUtlVector<RotatorHistoryEntry_t> RotatorHistory { get; }
 
 ### RotatorQueue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L83)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L84)
 
 ```csharp
 ref CUtlVector<RotatorQueueEntry_t> RotatorQueue { get; }
@@ -312,7 +312,7 @@ ref CUtlVector<RotatorQueueEntry_t> RotatorQueue { get; }
 
 ### RotatorQueueHistory
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L85)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L86)
 
 ```csharp
 ref CUtlVector<RotatorHistoryEntry_t> RotatorQueueHistory { get; }
@@ -324,7 +324,7 @@ ref CUtlVector<RotatorHistoryEntry_t> RotatorQueueHistory { get; }
 
 ### RotatorTarget
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L18)
 
 ```csharp
 ref CHandle<CBaseEntity> RotatorTarget { get; }
@@ -336,7 +336,7 @@ ref CHandle<CBaseEntity> RotatorTarget { get; }
 
 ### SpaceOverride
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L69)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L70)
 
 ```csharp
 ref RotatorTargetSpace_t SpaceOverride { get; }
@@ -348,7 +348,7 @@ ref RotatorTargetSpace_t SpaceOverride { get; }
 
 ### StrRotatorTarget
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L75)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L76)
 
 ```csharp
 string StrRotatorTarget { get; set; }
@@ -360,7 +360,7 @@ string StrRotatorTarget { get; set; }
 
 ### TimeRotationStart
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L32)
 
 ```csharp
 GameTime_t TimeRotationStart { get; }
@@ -372,7 +372,7 @@ GameTime_t TimeRotationStart { get; }
 
 ### TimeToReachMaxSpeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L24)
 
 ```csharp
 ref float TimeToReachMaxSpeed { get; }
@@ -384,7 +384,7 @@ ref float TimeToReachMaxSpeed { get; }
 
 ### TimeToReachZeroSpeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L26)
 
 ```csharp
 ref float TimeToReachZeroSpeed { get; }
@@ -396,7 +396,7 @@ ref float TimeToReachZeroSpeed { get; }
 
 ### TimeToWaitOscillate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L30)
 
 ```csharp
 ref float TimeToWaitOscillate { get; }
@@ -408,7 +408,7 @@ ref float TimeToWaitOscillate { get; }
 
 ### WSInit
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L38)
 
 ```csharp
 ref Quaternion WSInit { get; }
@@ -420,7 +420,7 @@ ref Quaternion WSInit { get; }
 
 ### WSPrev
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L36)
 
 ```csharp
 ref Quaternion WSPrev { get; }

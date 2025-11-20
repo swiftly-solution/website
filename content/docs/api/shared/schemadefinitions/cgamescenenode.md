@@ -12,7 +12,7 @@ public interface CGameSceneNode : ISchemaClass<CGameSceneNode>, ISchemaField, IS
 
 ### AbsOrigin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L36)
 
 ```csharp
 ref Vector AbsOrigin { get; }
@@ -24,7 +24,7 @@ ref Vector AbsOrigin { get; }
 
 ### AbsRotation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L38)
 
 ```csharp
 ref QAngle AbsRotation { get; }
@@ -36,7 +36,7 @@ ref QAngle AbsRotation { get; }
 
 ### AbsScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L40)
 
 ```csharp
 ref float AbsScale { get; }
@@ -48,7 +48,7 @@ ref float AbsScale { get; }
 
 ### BoneMergeFlex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L68)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L69)
 
 ```csharp
 SchemaUntypedField BoneMergeFlex { get; }
@@ -60,7 +60,7 @@ SchemaUntypedField BoneMergeFlex { get; }
 
 ### Child
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L24)
 
 ```csharp
 CGameSceneNode? Child { get; }
@@ -72,7 +72,7 @@ CGameSceneNode? Child { get; }
 
 ### ClientLocalScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L88)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L89)
 
 ```csharp
 ref float ClientLocalScale { get; }
@@ -84,7 +84,7 @@ ref float ClientLocalScale { get; }
 
 ### DebugAbsOriginChanges
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L44)
 
 ```csharp
 ref bool DebugAbsOriginChanges { get; }
@@ -96,7 +96,7 @@ ref bool DebugAbsOriginChanges { get; }
 
 ### DirtyBoneMergeBoneToRoot
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L74)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L75)
 
 ```csharp
 SchemaUntypedField DirtyBoneMergeBoneToRoot { get; }
@@ -108,7 +108,7 @@ SchemaUntypedField DirtyBoneMergeBoneToRoot { get; }
 
 ### DirtyBoneMergeInfo
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L54)
 
 ```csharp
 SchemaUntypedField DirtyBoneMergeInfo { get; }
@@ -120,7 +120,7 @@ SchemaUntypedField DirtyBoneMergeInfo { get; }
 
 ### DirtyHierarchy
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L50)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L51)
 
 ```csharp
 SchemaUntypedField DirtyHierarchy { get; }
@@ -132,7 +132,7 @@ SchemaUntypedField DirtyHierarchy { get; }
 
 ### DoNotSetAnimTimeInInvalidatePhysicsCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L80)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L81)
 
 ```csharp
 ref byte DoNotSetAnimTimeInInvalidatePhysicsCount { get; }
@@ -144,7 +144,7 @@ ref byte DoNotSetAnimTimeInInvalidatePhysicsCount { get; }
 
 ### Dormant
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L46)
 
 ```csharp
 ref bool Dormant { get; }
@@ -156,7 +156,7 @@ ref bool Dormant { get; }
 
 ### ForceParentToBeNetworked
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L48)
 
 ```csharp
 ref bool ForceParentToBeNetworked { get; }
@@ -168,7 +168,7 @@ ref bool ForceParentToBeNetworked { get; }
 
 ### HierarchicalDepth
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L76)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L77)
 
 ```csharp
 ref byte HierarchicalDepth { get; }
@@ -180,7 +180,7 @@ ref byte HierarchicalDepth { get; }
 
 ### HierarchyAttachName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L84)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L85)
 
 ```csharp
 ref CUtlStringToken HierarchyAttachName { get; }
@@ -192,7 +192,7 @@ ref CUtlStringToken HierarchyAttachName { get; }
 
 ### HierarchyType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L78)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L79)
 
 ```csharp
 ref byte HierarchyType { get; }
@@ -204,7 +204,7 @@ ref byte HierarchyType { get; }
 
 ### LatchAbsOrigin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L71)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L72)
 
 ```csharp
 SchemaUntypedField LatchAbsOrigin { get; }
@@ -216,7 +216,7 @@ SchemaUntypedField LatchAbsOrigin { get; }
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L82)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L83)
 
 ```csharp
 ref CUtlStringToken Name { get; }
@@ -228,7 +228,7 @@ ref CUtlStringToken Name { get; }
 
 ### NetworkedAnglesChanged
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L60)
 
 ```csharp
 SchemaUntypedField NetworkedAnglesChanged { get; }
@@ -240,7 +240,7 @@ SchemaUntypedField NetworkedAnglesChanged { get; }
 
 ### NetworkedPositionChanged
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L56)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L57)
 
 ```csharp
 SchemaUntypedField NetworkedPositionChanged { get; }
@@ -252,7 +252,7 @@ SchemaUntypedField NetworkedPositionChanged { get; }
 
 ### NetworkedScaleChanged
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L62)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L63)
 
 ```csharp
 SchemaUntypedField NetworkedScaleChanged { get; }
@@ -264,7 +264,7 @@ SchemaUntypedField NetworkedScaleChanged { get; }
 
 ### NextSibling
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L26)
 
 ```csharp
 CGameSceneNode? NextSibling { get; }
@@ -276,7 +276,7 @@ CGameSceneNode? NextSibling { get; }
 
 ### NodeToWorld
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L18)
 
 ```csharp
 ref CTransform NodeToWorld { get; }
@@ -288,7 +288,7 @@ ref CTransform NodeToWorld { get; }
 
 ### Origin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L30)
 
 ```csharp
 CNetworkOriginCellCoordQuantizedVector Origin { get; }
@@ -300,7 +300,7 @@ CNetworkOriginCellCoordQuantizedVector Origin { get; }
 
 ### Owner
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L20)
 
 ```csharp
 CEntityInstance? Owner { get; }
@@ -312,7 +312,7 @@ CEntityInstance? Owner { get; }
 
 ### Parent
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L22)
 
 ```csharp
 CGameSceneNode? Parent { get; }
@@ -324,7 +324,7 @@ CGameSceneNode? Parent { get; }
 
 ### Parent1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L28)
 
 ```csharp
 CGameSceneNodeHandle Parent1 { get; }
@@ -336,7 +336,7 @@ CGameSceneNodeHandle Parent1 { get; }
 
 ### ParentAttachmentOrBone
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L42)
 
 ```csharp
 ref short ParentAttachmentOrBone { get; }
@@ -348,7 +348,7 @@ ref short ParentAttachmentOrBone { get; }
 
 ### RenderOrigin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L90)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L91)
 
 ```csharp
 ref Vector RenderOrigin { get; }
@@ -360,7 +360,7 @@ ref Vector RenderOrigin { get; }
 
 ### Rotation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L32)
 
 ```csharp
 ref QAngle Rotation { get; }
@@ -372,7 +372,7 @@ ref QAngle Rotation { get; }
 
 ### Scale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L34)
 
 ```csharp
 ref float Scale { get; }
@@ -384,7 +384,7 @@ ref float Scale { get; }
 
 ### WillBeCallingPostDataUpdate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L65)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L66)
 
 ```csharp
 SchemaUntypedField WillBeCallingPostDataUpdate { get; }
@@ -396,7 +396,7 @@ SchemaUntypedField WillBeCallingPostDataUpdate { get; }
 
 ### ZOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L86)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L87)
 
 ```csharp
 ref float ZOffset { get; }
@@ -422,7 +422,7 @@ CSkeletonInstance GetSkeletonInstance()
 
 ### HierarchyAttachNameUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L97)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L98)
 
 ```csharp
 void HierarchyAttachNameUpdated()
@@ -430,7 +430,7 @@ void HierarchyAttachNameUpdated()
 
 ### NameUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L96)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L97)
 
 ```csharp
 void NameUpdated()
@@ -438,7 +438,7 @@ void NameUpdated()
 
 ### OriginUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L93)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L94)
 
 ```csharp
 void OriginUpdated()
@@ -446,7 +446,7 @@ void OriginUpdated()
 
 ### Parent1Updated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L92)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L93)
 
 ```csharp
 void Parent1Updated()
@@ -454,7 +454,7 @@ void Parent1Updated()
 
 ### RotationUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L94)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L95)
 
 ```csharp
 void RotationUpdated()
@@ -462,7 +462,7 @@ void RotationUpdated()
 
 ### ScaleUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L95)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNode.cs#L96)
 
 ```csharp
 void ScaleUpdated()

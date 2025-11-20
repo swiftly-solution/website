@@ -12,7 +12,7 @@ public interface CSeqMultiFetchFlag : ISchemaClass<CSeqMultiFetchFlag>, ISchemaF
 
 ### B0D
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqMultiFetchFlag.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqMultiFetchFlag.cs#L22)
 
 ```csharp
 ref bool B0D { get; }
@@ -24,7 +24,7 @@ ref bool B0D { get; }
 
 ### B1D
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqMultiFetchFlag.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqMultiFetchFlag.cs#L24)
 
 ```csharp
 ref bool B1D { get; }
@@ -36,7 +36,7 @@ ref bool B1D { get; }
 
 ### B2D
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqMultiFetchFlag.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqMultiFetchFlag.cs#L26)
 
 ```csharp
 ref bool B2D { get; }
@@ -48,7 +48,7 @@ ref bool B2D { get; }
 
 ### B2D_TRI
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqMultiFetchFlag.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqMultiFetchFlag.cs#L28)
 
 ```csharp
 ref bool B2D_TRI { get; }
@@ -60,7 +60,7 @@ ref bool B2D_TRI { get; }
 
 ### Cylepose
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqMultiFetchFlag.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqMultiFetchFlag.cs#L20)
 
 ```csharp
 ref bool Cylepose { get; }
@@ -72,7 +72,7 @@ ref bool Cylepose { get; }
 
 ### Realtime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqMultiFetchFlag.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqMultiFetchFlag.cs#L18)
 
 ```csharp
 ref bool Realtime { get; }

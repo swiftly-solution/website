@@ -12,7 +12,7 @@ public interface CEnvFade : CLogicalEntity, CServerOnlyEntity, CBaseEntity, CEnt
 
 ### Duration
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvFade.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvFade.cs#L20)
 
 ```csharp
 ref float Duration { get; }
@@ -24,7 +24,7 @@ ref float Duration { get; }
 
 ### FadeColor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvFade.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvFade.cs#L18)
 
 ```csharp
 ref Color FadeColor { get; }
@@ -36,7 +36,7 @@ ref Color FadeColor { get; }
 
 ### HoldDuration
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvFade.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvFade.cs#L22)
 
 ```csharp
 ref float HoldDuration { get; }
@@ -48,7 +48,7 @@ ref float HoldDuration { get; }
 
 ### OnBeginFade
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvFade.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvFade.cs#L24)
 
 ```csharp
 CEntityIOOutput OnBeginFade { get; }
@@ -62,7 +62,7 @@ CEntityIOOutput OnBeginFade { get; }
 
 ### FadeColorUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvFade.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvFade.cs#L26)
 
 ```csharp
 void FadeColorUpdated()

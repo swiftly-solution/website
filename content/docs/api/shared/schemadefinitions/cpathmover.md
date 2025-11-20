@@ -12,7 +12,7 @@ public interface CPathMover : CPathSimple, CBaseEntity, CEntityInstance, ISchema
 
 ### Movers
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathMover.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathMover.cs#L20)
 
 ```csharp
 ref CUtlVector<CHandle<CFuncMover>> Movers { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<CHandle<CFuncMover>> Movers { get; }
 
 ### PathNodes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathMover.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathMover.cs#L18)
 
 ```csharp
 ref CUtlVector<CHandle<CMoverPathNode>> PathNodes { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<CHandle<CMoverPathNode>> PathNodes { get; }
 
 ### XInitialPathWorldToLocal
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathMover.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathMover.cs#L22)
 
 ```csharp
 ref CTransform XInitialPathWorldToLocal { get; }

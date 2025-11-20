@@ -12,7 +12,7 @@ public interface CPulseCell_Step_CallExternalMethod : CPulseCell_BaseYieldingInf
 
 ### AsyncCallMode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Step_CallExternalMethod.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Step_CallExternalMethod.cs#L26)
 
 ```csharp
 ref PulseMethodCallMode_t AsyncCallMode { get; }
@@ -24,7 +24,7 @@ ref PulseMethodCallMode_t AsyncCallMode { get; }
 
 ### ExpectedArgs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Step_CallExternalMethod.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Step_CallExternalMethod.cs#L24)
 
 ```csharp
 ref CUtlLeanVector<CPulseRuntimeMethodArg, int> ExpectedArgs { get; }
@@ -36,7 +36,7 @@ ref CUtlLeanVector<CPulseRuntimeMethodArg, int> ExpectedArgs { get; }
 
 ### GameBlackboard
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Step_CallExternalMethod.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Step_CallExternalMethod.cs#L22)
 
 ```csharp
 SchemaUntypedField GameBlackboard { get; }
@@ -48,7 +48,7 @@ SchemaUntypedField GameBlackboard { get; }
 
 ### MethodName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Step_CallExternalMethod.cs#L18)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Step_CallExternalMethod.cs#L19)
 
 ```csharp
 SchemaUntypedField MethodName { get; }
@@ -60,7 +60,7 @@ SchemaUntypedField MethodName { get; }
 
 ### OnFinished
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Step_CallExternalMethod.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Step_CallExternalMethod.cs#L28)
 
 ```csharp
 CPulse_ResumePoint OnFinished { get; }

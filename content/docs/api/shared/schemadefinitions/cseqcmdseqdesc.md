@@ -12,7 +12,7 @@ public interface CSeqCmdSeqDesc : ISchemaClass<CSeqCmdSeqDesc>, ISchemaField, IS
 
 ### ActivityArray
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqCmdSeqDesc.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqCmdSeqDesc.cs#L38)
 
 ```csharp
 ref CUtlVector<CAnimActivity> ActivityArray { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<CAnimActivity> ActivityArray { get; }
 
 ### CmdLayerArray
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqCmdSeqDesc.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqCmdSeqDesc.cs#L34)
 
 ```csharp
 ref CUtlVector<CSeqCmdLayer> CmdLayerArray { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<CSeqCmdLayer> CmdLayerArray { get; }
 
 ### EventArray
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqCmdSeqDesc.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqCmdSeqDesc.cs#L36)
 
 ```csharp
 ref CUtlVector<CAnimEventDefinition> EventArray { get; }
@@ -48,7 +48,7 @@ ref CUtlVector<CAnimEventDefinition> EventArray { get; }
 
 ### FPS
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqCmdSeqDesc.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqCmdSeqDesc.cs#L28)
 
 ```csharp
 ref float FPS { get; }
@@ -60,7 +60,7 @@ ref float FPS { get; }
 
 ### Flags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqCmdSeqDesc.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqCmdSeqDesc.cs#L20)
 
 ```csharp
 CSeqSeqDescFlag Flags { get; }
@@ -72,7 +72,7 @@ CSeqSeqDescFlag Flags { get; }
 
 ### FrameCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqCmdSeqDesc.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqCmdSeqDesc.cs#L26)
 
 ```csharp
 ref short FrameCount { get; }
@@ -84,7 +84,7 @@ ref short FrameCount { get; }
 
 ### FrameRangeSequence
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqCmdSeqDesc.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqCmdSeqDesc.cs#L24)
 
 ```csharp
 ref short FrameRangeSequence { get; }
@@ -96,7 +96,7 @@ ref short FrameRangeSequence { get; }
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqCmdSeqDesc.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqCmdSeqDesc.cs#L18)
 
 ```csharp
 ref CBufferString Name { get; }
@@ -108,7 +108,7 @@ ref CBufferString Name { get; }
 
 ### NumLocalResults
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqCmdSeqDesc.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqCmdSeqDesc.cs#L32)
 
 ```csharp
 ref short NumLocalResults { get; }
@@ -120,7 +120,7 @@ ref short NumLocalResults { get; }
 
 ### PoseSettingArray
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqCmdSeqDesc.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqCmdSeqDesc.cs#L40)
 
 ```csharp
 ref CUtlVector<CSeqPoseSetting> PoseSettingArray { get; }
@@ -132,7 +132,7 @@ ref CUtlVector<CSeqPoseSetting> PoseSettingArray { get; }
 
 ### SubCycles
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqCmdSeqDesc.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqCmdSeqDesc.cs#L30)
 
 ```csharp
 ref short SubCycles { get; }
@@ -144,7 +144,7 @@ ref short SubCycles { get; }
 
 ### Transition
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqCmdSeqDesc.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqCmdSeqDesc.cs#L22)
 
 ```csharp
 CSeqTransition Transition { get; }

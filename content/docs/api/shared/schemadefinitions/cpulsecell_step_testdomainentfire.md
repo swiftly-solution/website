@@ -12,7 +12,7 @@ public interface CPulseCell_Step_TestDomainEntFire : CPulseCell_BaseFlow, CPulse
 
 ### Input
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Step_TestDomainEntFire.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Step_TestDomainEntFire.cs#L18)
 
 ```csharp
 string Input { get; set; }

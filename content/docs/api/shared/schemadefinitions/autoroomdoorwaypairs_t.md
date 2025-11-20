@@ -12,7 +12,7 @@ public interface AutoRoomDoorwayPairs_t : ISchemaClass<AutoRoomDoorwayPairs_t>, 
 
 ### P1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AutoRoomDoorwayPairs_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AutoRoomDoorwayPairs_t.cs#L18)
 
 ```csharp
 ref Vector P1 { get; }
@@ -24,7 +24,7 @@ ref Vector P1 { get; }
 
 ### P2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AutoRoomDoorwayPairs_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AutoRoomDoorwayPairs_t.cs#L20)
 
 ```csharp
 ref Vector P2 { get; }

@@ -12,7 +12,7 @@ public interface CCSPlayer_RadioServices : CPlayerPawnComponent, ISchemaClass<CP
 
 ### C4PlantTalkTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_RadioServices.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_RadioServices.cs#L22)
 
 ```csharp
 GameTime_t C4PlantTalkTimer { get; }
@@ -24,7 +24,7 @@ GameTime_t C4PlantTalkTimer { get; }
 
 ### DefusingTalkTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_RadioServices.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_RadioServices.cs#L20)
 
 ```csharp
 GameTime_t DefusingTalkTimer { get; }
@@ -36,7 +36,7 @@ GameTime_t DefusingTalkTimer { get; }
 
 ### GotHostageTalkTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_RadioServices.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_RadioServices.cs#L18)
 
 ```csharp
 GameTime_t GotHostageTalkTimer { get; }
@@ -48,7 +48,7 @@ GameTime_t GotHostageTalkTimer { get; }
 
 ### IgnoreRadio
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_RadioServices.cs#L26)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_RadioServices.cs#L27)
 
 ```csharp
 ref bool IgnoreRadio { get; }
@@ -60,7 +60,7 @@ ref bool IgnoreRadio { get; }
 
 ### RadioTokenSlots
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_RadioServices.cs#L24)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_RadioServices.cs#L25)
 
 ```csharp
 SchemaUntypedField RadioTokenSlots { get; }

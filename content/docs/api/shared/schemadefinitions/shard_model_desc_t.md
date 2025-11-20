@@ -12,7 +12,7 @@ public interface shard_model_desc_t : ISchemaClass<shard_model_desc_t>, ISchemaF
 
 ### GlassHalfThickness
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L36)
 
 ```csharp
 ref float GlassHalfThickness { get; }
@@ -24,7 +24,7 @@ ref float GlassHalfThickness { get; }
 
 ### HasParent
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L38)
 
 ```csharp
 ref bool HasParent { get; }
@@ -36,7 +36,7 @@ ref bool HasParent { get; }
 
 ### InitialPanelVertices
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L34)
 
 ```csharp
 ref CUtlVector<Vector4D> InitialPanelVertices { get; }
@@ -48,7 +48,7 @@ ref CUtlVector<Vector4D> InitialPanelVertices { get; }
 
 ### MaterialBase
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L20)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeIMaterial2> MaterialBase { get; }
@@ -60,7 +60,7 @@ ref CStrongHandle<InfoForResourceTypeIMaterial2> MaterialBase { get; }
 
 ### MaterialDamageOverlay
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L22)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeIMaterial2> MaterialDamageOverlay { get; }
@@ -72,7 +72,7 @@ ref CStrongHandle<InfoForResourceTypeIMaterial2> MaterialDamageOverlay { get; }
 
 ### ModelID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L18)
 
 ```csharp
 ref int ModelID { get; }
@@ -84,7 +84,7 @@ ref int ModelID { get; }
 
 ### PanelSize
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L26)
 
 ```csharp
 ref Vector2D PanelSize { get; }
@@ -96,7 +96,7 @@ ref Vector2D PanelSize { get; }
 
 ### PanelVertices
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L32)
 
 ```csharp
 ref CUtlVector<Vector2D> PanelVertices { get; }
@@ -108,7 +108,7 @@ ref CUtlVector<Vector2D> PanelVertices { get; }
 
 ### ParentFrozen
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L40)
 
 ```csharp
 ref bool ParentFrozen { get; }
@@ -120,7 +120,7 @@ ref bool ParentFrozen { get; }
 
 ### Solid
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L24)
 
 ```csharp
 ref ShardSolid_t Solid { get; }
@@ -132,7 +132,7 @@ ref ShardSolid_t Solid { get; }
 
 ### StressPositionA
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L28)
 
 ```csharp
 ref Vector2D StressPositionA { get; }
@@ -144,7 +144,7 @@ ref Vector2D StressPositionA { get; }
 
 ### StressPositionB
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L30)
 
 ```csharp
 ref Vector2D StressPositionB { get; }
@@ -156,7 +156,7 @@ ref Vector2D StressPositionB { get; }
 
 ### SurfacePropStringToken
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L42)
 
 ```csharp
 ref CUtlStringToken SurfacePropStringToken { get; }
@@ -170,7 +170,7 @@ ref CUtlStringToken SurfacePropStringToken { get; }
 
 ### GlassHalfThicknessUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L52)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L53)
 
 ```csharp
 void GlassHalfThicknessUpdated()
@@ -178,7 +178,7 @@ void GlassHalfThicknessUpdated()
 
 ### HasParentUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L54)
 
 ```csharp
 void HasParentUpdated()
@@ -186,7 +186,7 @@ void HasParentUpdated()
 
 ### InitialPanelVerticesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L52)
 
 ```csharp
 void InitialPanelVerticesUpdated()
@@ -194,7 +194,7 @@ void InitialPanelVerticesUpdated()
 
 ### MaterialBaseUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L44)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L45)
 
 ```csharp
 void MaterialBaseUpdated()
@@ -202,7 +202,7 @@ void MaterialBaseUpdated()
 
 ### MaterialDamageOverlayUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L46)
 
 ```csharp
 void MaterialDamageOverlayUpdated()
@@ -210,7 +210,7 @@ void MaterialDamageOverlayUpdated()
 
 ### ModelIDUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L44)
 
 ```csharp
 void ModelIDUpdated()
@@ -218,7 +218,7 @@ void ModelIDUpdated()
 
 ### PanelSizeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L48)
 
 ```csharp
 void PanelSizeUpdated()
@@ -226,7 +226,7 @@ void PanelSizeUpdated()
 
 ### PanelVerticesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L50)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L51)
 
 ```csharp
 void PanelVerticesUpdated()
@@ -234,7 +234,7 @@ void PanelVerticesUpdated()
 
 ### ParentFrozenUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L54)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L55)
 
 ```csharp
 void ParentFrozenUpdated()
@@ -242,7 +242,7 @@ void ParentFrozenUpdated()
 
 ### SolidUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L46)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L47)
 
 ```csharp
 void SolidUpdated()
@@ -250,7 +250,7 @@ void SolidUpdated()
 
 ### StressPositionAUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L48)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L49)
 
 ```csharp
 void StressPositionAUpdated()
@@ -258,7 +258,7 @@ void StressPositionAUpdated()
 
 ### StressPositionBUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L50)
 
 ```csharp
 void StressPositionBUpdated()
@@ -266,7 +266,7 @@ void StressPositionBUpdated()
 
 ### SurfacePropStringTokenUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/shard_model_desc_t.cs#L56)
 
 ```csharp
 void SurfacePropStringTokenUpdated()

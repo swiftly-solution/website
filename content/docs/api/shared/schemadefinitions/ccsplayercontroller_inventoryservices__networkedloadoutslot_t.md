@@ -12,7 +12,7 @@ public interface CCSPlayerController_InventoryServices__NetworkedLoadoutSlot_t :
 
 ### Item
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InventoryServices__NetworkedLoadoutSlot_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InventoryServices__NetworkedLoadoutSlot_t.cs#L18)
 
 ```csharp
 CEconItemView? Item { get; }
@@ -24,7 +24,7 @@ CEconItemView? Item { get; }
 
 ### Slot
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InventoryServices__NetworkedLoadoutSlot_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InventoryServices__NetworkedLoadoutSlot_t.cs#L22)
 
 ```csharp
 ref ushort Slot { get; }
@@ -36,7 +36,7 @@ ref ushort Slot { get; }
 
 ### Team
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InventoryServices__NetworkedLoadoutSlot_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InventoryServices__NetworkedLoadoutSlot_t.cs#L20)
 
 ```csharp
 ref ushort Team { get; }

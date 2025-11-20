@@ -12,7 +12,7 @@ public interface CAudioMorphData : ISchemaClass<CAudioMorphData>, ISchemaField, 
 
 ### EaseIn
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioMorphData.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioMorphData.cs#L26)
 
 ```csharp
 ref float EaseIn { get; }
@@ -24,7 +24,7 @@ ref float EaseIn { get; }
 
 ### EaseOut
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioMorphData.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioMorphData.cs#L28)
 
 ```csharp
 ref float EaseOut { get; }
@@ -36,7 +36,7 @@ ref float EaseOut { get; }
 
 ### NameHashCodes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioMorphData.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioMorphData.cs#L20)
 
 ```csharp
 ref CUtlVector<uint> NameHashCodes { get; }
@@ -48,7 +48,7 @@ ref CUtlVector<uint> NameHashCodes { get; }
 
 ### NameStrings
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioMorphData.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioMorphData.cs#L22)
 
 ```csharp
 ref CUtlVector<CUtlString> NameStrings { get; }
@@ -60,7 +60,7 @@ ref CUtlVector<CUtlString> NameStrings { get; }
 
 ### Samples
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioMorphData.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioMorphData.cs#L24)
 
 ```csharp
 ref CUtlVector<CUtlVector<float>> Samples { get; }
@@ -72,7 +72,7 @@ ref CUtlVector<CUtlVector<float>> Samples { get; }
 
 ### Times
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioMorphData.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioMorphData.cs#L18)
 
 ```csharp
 ref CUtlVector<float> Times { get; }

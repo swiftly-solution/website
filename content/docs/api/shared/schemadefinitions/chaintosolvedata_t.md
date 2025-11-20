@@ -12,7 +12,7 @@ public interface ChainToSolveData_t : ISchemaClass<ChainToSolveData_t>, ISchemaF
 
 ### ChainIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ChainToSolveData_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ChainToSolveData_t.cs#L18)
 
 ```csharp
 ref int ChainIndex { get; }
@@ -24,7 +24,7 @@ ref int ChainIndex { get; }
 
 ### DebugNormalizedValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ChainToSolveData_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ChainToSolveData_t.cs#L26)
 
 ```csharp
 ref float DebugNormalizedValue { get; }
@@ -36,7 +36,7 @@ ref float DebugNormalizedValue { get; }
 
 ### DebugOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ChainToSolveData_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ChainToSolveData_t.cs#L28)
 
 ```csharp
 ref Vector DebugOffset { get; }
@@ -48,7 +48,7 @@ ref Vector DebugOffset { get; }
 
 ### DebugSetting
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ChainToSolveData_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ChainToSolveData_t.cs#L24)
 
 ```csharp
 ref SolveIKChainAnimNodeDebugSetting DebugSetting { get; }
@@ -60,7 +60,7 @@ ref SolveIKChainAnimNodeDebugSetting DebugSetting { get; }
 
 ### SolverSettings
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ChainToSolveData_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ChainToSolveData_t.cs#L20)
 
 ```csharp
 IKSolverSettings_t SolverSettings { get; }
@@ -72,7 +72,7 @@ IKSolverSettings_t SolverSettings { get; }
 
 ### TargetSettings
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ChainToSolveData_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ChainToSolveData_t.cs#L22)
 
 ```csharp
 IKTargetSettings_t TargetSettings { get; }

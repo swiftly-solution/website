@@ -12,7 +12,7 @@ public interface CEnvBeverage : CBaseEntity, CEntityInstance, ISchemaClass<CEnti
 
 ### BeverageType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvBeverage.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvBeverage.cs#L20)
 
 ```csharp
 ref int BeverageType { get; }
@@ -24,7 +24,7 @@ ref int BeverageType { get; }
 
 ### CanInDispenser
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvBeverage.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvBeverage.cs#L18)
 
 ```csharp
 ref bool CanInDispenser { get; }

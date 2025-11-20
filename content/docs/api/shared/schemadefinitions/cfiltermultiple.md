@@ -12,7 +12,7 @@ public interface CFilterMultiple : CBaseFilter, CLogicalEntity, CServerOnlyEntit
 
 ### Filter
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFilterMultiple.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFilterMultiple.cs#L22)
 
 ```csharp
 ISchemaFixedArray<CHandle<CBaseEntity>> Filter { get; }
@@ -24,7 +24,7 @@ ISchemaFixedArray<CHandle<CBaseEntity>> Filter { get; }
 
 ### FilterName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFilterMultiple.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFilterMultiple.cs#L20)
 
 ```csharp
 string FilterName { get; set; }
@@ -36,7 +36,7 @@ string FilterName { get; set; }
 
 ### FilterType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFilterMultiple.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFilterMultiple.cs#L18)
 
 ```csharp
 ref filter_t FilterType { get; }

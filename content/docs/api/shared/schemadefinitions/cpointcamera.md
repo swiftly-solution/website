@@ -12,7 +12,7 @@ public interface CPointCamera : CBaseEntity, CEntityInstance, ISchemaClass<CEnti
 
 ### Active
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L32)
 
 ```csharp
 ref bool Active { get; }
@@ -24,7 +24,7 @@ ref bool Active { get; }
 
 ### AlignWithParent
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L48)
 
 ```csharp
 ref bool AlignWithParent { get; }
@@ -36,7 +36,7 @@ ref bool AlignWithParent { get; }
 
 ### AspectRatio
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L36)
 
 ```csharp
 ref float AspectRatio { get; }
@@ -48,7 +48,7 @@ ref float AspectRatio { get; }
 
 ### Brightness
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L40)
 
 ```csharp
 ref float Brightness { get; }
@@ -60,7 +60,7 @@ ref float Brightness { get; }
 
 ### CanHLTVUse
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L46)
 
 ```csharp
 ref bool CanHLTVUse { get; }
@@ -72,7 +72,7 @@ ref bool CanHLTVUse { get; }
 
 ### DegreesPerSecond
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L64)
 
 ```csharp
 ref float DegreesPerSecond { get; }
@@ -84,7 +84,7 @@ ref float DegreesPerSecond { get; }
 
 ### DofEnabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L50)
 
 ```csharp
 ref bool DofEnabled { get; }
@@ -96,7 +96,7 @@ ref bool DofEnabled { get; }
 
 ### DofFarBlurry
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L58)
 
 ```csharp
 ref float DofFarBlurry { get; }
@@ -108,7 +108,7 @@ ref float DofFarBlurry { get; }
 
 ### DofFarCrisp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L56)
 
 ```csharp
 ref float DofFarCrisp { get; }
@@ -120,7 +120,7 @@ ref float DofFarCrisp { get; }
 
 ### DofNearBlurry
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L52)
 
 ```csharp
 ref float DofNearBlurry { get; }
@@ -132,7 +132,7 @@ ref float DofNearBlurry { get; }
 
 ### DofNearCrisp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L54)
 
 ```csharp
 ref float DofNearCrisp { get; }
@@ -144,7 +144,7 @@ ref float DofNearCrisp { get; }
 
 ### DofTiltToGround
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L60)
 
 ```csharp
 ref float DofTiltToGround { get; }
@@ -156,7 +156,7 @@ ref float DofTiltToGround { get; }
 
 ### FOV
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L18)
 
 ```csharp
 ref float FOV { get; }
@@ -168,7 +168,7 @@ ref float FOV { get; }
 
 ### FogColor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L24)
 
 ```csharp
 ref Color FogColor { get; }
@@ -180,7 +180,7 @@ ref Color FogColor { get; }
 
 ### FogEnable
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L22)
 
 ```csharp
 ref bool FogEnable { get; }
@@ -192,7 +192,7 @@ ref bool FogEnable { get; }
 
 ### FogEnd
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L28)
 
 ```csharp
 ref float FogEnd { get; }
@@ -204,7 +204,7 @@ ref float FogEnd { get; }
 
 ### FogMaxDensity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L30)
 
 ```csharp
 ref float FogMaxDensity { get; }
@@ -216,7 +216,7 @@ ref float FogMaxDensity { get; }
 
 ### FogStart
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L26)
 
 ```csharp
 ref float FogStart { get; }
@@ -228,7 +228,7 @@ ref float FogStart { get; }
 
 ### IsOn
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L65)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L66)
 
 ```csharp
 ref bool IsOn { get; }
@@ -240,7 +240,7 @@ ref bool IsOn { get; }
 
 ### Next
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L67)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L68)
 
 ```csharp
 CPointCamera? Next { get; }
@@ -252,7 +252,7 @@ CPointCamera? Next { get; }
 
 ### NoSky
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L38)
 
 ```csharp
 ref bool NoSky { get; }
@@ -264,7 +264,7 @@ ref bool NoSky { get; }
 
 ### Resolution
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L20)
 
 ```csharp
 ref float Resolution { get; }
@@ -276,7 +276,7 @@ ref float Resolution { get; }
 
 ### TargetFOV
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L62)
 
 ```csharp
 ref float TargetFOV { get; }
@@ -288,7 +288,7 @@ ref float TargetFOV { get; }
 
 ### UseScreenAspectRatio
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L34)
 
 ```csharp
 ref bool UseScreenAspectRatio { get; }
@@ -300,7 +300,7 @@ ref bool UseScreenAspectRatio { get; }
 
 ### ZFar
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L42)
 
 ```csharp
 ref float ZFar { get; }
@@ -312,7 +312,7 @@ ref float ZFar { get; }
 
 ### ZNear
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L44)
 
 ```csharp
 ref float ZNear { get; }
@@ -326,7 +326,7 @@ ref float ZNear { get; }
 
 ### ActiveUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L76)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L77)
 
 ```csharp
 void ActiveUpdated()
@@ -334,7 +334,7 @@ void ActiveUpdated()
 
 ### AlignWithParentUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L84)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L85)
 
 ```csharp
 void AlignWithParentUpdated()
@@ -342,7 +342,7 @@ void AlignWithParentUpdated()
 
 ### AspectRatioUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L78)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L79)
 
 ```csharp
 void AspectRatioUpdated()
@@ -350,7 +350,7 @@ void AspectRatioUpdated()
 
 ### BrightnessUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L80)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L81)
 
 ```csharp
 void BrightnessUpdated()
@@ -358,7 +358,7 @@ void BrightnessUpdated()
 
 ### CanHLTVUseUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L83)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L84)
 
 ```csharp
 void CanHLTVUseUpdated()
@@ -366,7 +366,7 @@ void CanHLTVUseUpdated()
 
 ### DofEnabledUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L85)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L86)
 
 ```csharp
 void DofEnabledUpdated()
@@ -374,7 +374,7 @@ void DofEnabledUpdated()
 
 ### DofFarBlurryUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L89)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L90)
 
 ```csharp
 void DofFarBlurryUpdated()
@@ -382,7 +382,7 @@ void DofFarBlurryUpdated()
 
 ### DofFarCrispUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L88)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L89)
 
 ```csharp
 void DofFarCrispUpdated()
@@ -390,7 +390,7 @@ void DofFarCrispUpdated()
 
 ### DofNearBlurryUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L86)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L87)
 
 ```csharp
 void DofNearBlurryUpdated()
@@ -398,7 +398,7 @@ void DofNearBlurryUpdated()
 
 ### DofNearCrispUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L87)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L88)
 
 ```csharp
 void DofNearCrispUpdated()
@@ -406,7 +406,7 @@ void DofNearCrispUpdated()
 
 ### DofTiltToGroundUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L90)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L91)
 
 ```csharp
 void DofTiltToGroundUpdated()
@@ -414,7 +414,7 @@ void DofTiltToGroundUpdated()
 
 ### FOVUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L69)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L70)
 
 ```csharp
 void FOVUpdated()
@@ -422,7 +422,7 @@ void FOVUpdated()
 
 ### FogColorUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L72)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L73)
 
 ```csharp
 void FogColorUpdated()
@@ -430,7 +430,7 @@ void FogColorUpdated()
 
 ### FogEnableUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L71)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L72)
 
 ```csharp
 void FogEnableUpdated()
@@ -438,7 +438,7 @@ void FogEnableUpdated()
 
 ### FogEndUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L74)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L75)
 
 ```csharp
 void FogEndUpdated()
@@ -446,7 +446,7 @@ void FogEndUpdated()
 
 ### FogMaxDensityUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L75)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L76)
 
 ```csharp
 void FogMaxDensityUpdated()
@@ -454,7 +454,7 @@ void FogMaxDensityUpdated()
 
 ### FogStartUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L73)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L74)
 
 ```csharp
 void FogStartUpdated()
@@ -462,7 +462,7 @@ void FogStartUpdated()
 
 ### NoSkyUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L79)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L80)
 
 ```csharp
 void NoSkyUpdated()
@@ -470,7 +470,7 @@ void NoSkyUpdated()
 
 ### ResolutionUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L70)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L71)
 
 ```csharp
 void ResolutionUpdated()
@@ -478,7 +478,7 @@ void ResolutionUpdated()
 
 ### UseScreenAspectRatioUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L77)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L78)
 
 ```csharp
 void UseScreenAspectRatioUpdated()
@@ -486,7 +486,7 @@ void UseScreenAspectRatioUpdated()
 
 ### ZFarUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L81)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L82)
 
 ```csharp
 void ZFarUpdated()
@@ -494,7 +494,7 @@ void ZFarUpdated()
 
 ### ZNearUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L82)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCamera.cs#L83)
 
 ```csharp
 void ZNearUpdated()

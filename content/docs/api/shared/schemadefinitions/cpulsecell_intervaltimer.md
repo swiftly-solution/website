@@ -12,7 +12,7 @@ public interface CPulseCell_IntervalTimer : CPulseCell_BaseYieldingInflow, CPuls
 
 ### Completed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_IntervalTimer.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_IntervalTimer.cs#L18)
 
 ```csharp
 CPulse_ResumePoint Completed { get; }
@@ -24,7 +24,7 @@ CPulse_ResumePoint Completed { get; }
 
 ### OnInterval
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_IntervalTimer.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_IntervalTimer.cs#L20)
 
 ```csharp
 SignatureOutflow_Continue OnInterval { get; }

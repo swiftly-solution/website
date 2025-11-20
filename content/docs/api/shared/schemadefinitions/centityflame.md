@@ -12,7 +12,7 @@ public interface CEntityFlame : CBaseEntity, CEntityInstance, ISchemaClass<CEnti
 
 ### Attacker
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityFlame.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityFlame.cs#L32)
 
 ```csharp
 ref CHandle<CBaseEntity> Attacker { get; }
@@ -24,7 +24,7 @@ ref CHandle<CBaseEntity> Attacker { get; }
 
 ### CheapEffect
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityFlame.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityFlame.cs#L20)
 
 ```csharp
 ref bool CheapEffect { get; }
@@ -36,7 +36,7 @@ ref bool CheapEffect { get; }
 
 ### CustomDamageType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityFlame.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityFlame.cs#L36)
 
 ```csharp
 ref int CustomDamageType { get; }
@@ -48,7 +48,7 @@ ref int CustomDamageType { get; }
 
 ### DirectDamagePerSecond
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityFlame.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityFlame.cs#L34)
 
 ```csharp
 ref float DirectDamagePerSecond { get; }
@@ -60,7 +60,7 @@ ref float DirectDamagePerSecond { get; }
 
 ### EntAttached
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityFlame.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityFlame.cs#L18)
 
 ```csharp
 ref CHandle<CBaseEntity> EntAttached { get; }
@@ -72,7 +72,7 @@ ref CHandle<CBaseEntity> EntAttached { get; }
 
 ### HitboxFireScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityFlame.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityFlame.cs#L28)
 
 ```csharp
 ref float HitboxFireScale { get; }
@@ -84,7 +84,7 @@ ref float HitboxFireScale { get; }
 
 ### Lifetime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityFlame.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityFlame.cs#L30)
 
 ```csharp
 GameTime_t Lifetime { get; }
@@ -96,7 +96,7 @@ GameTime_t Lifetime { get; }
 
 ### NumHitboxFires
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityFlame.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityFlame.cs#L26)
 
 ```csharp
 ref int NumHitboxFires { get; }
@@ -108,7 +108,7 @@ ref int NumHitboxFires { get; }
 
 ### Size
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityFlame.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityFlame.cs#L22)
 
 ```csharp
 ref float Size { get; }
@@ -120,7 +120,7 @@ ref float Size { get; }
 
 ### UseHitboxes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityFlame.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityFlame.cs#L24)
 
 ```csharp
 ref bool UseHitboxes { get; }
@@ -134,7 +134,7 @@ ref bool UseHitboxes { get; }
 
 ### CheapEffectUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityFlame.cs#L38)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityFlame.cs#L39)
 
 ```csharp
 void CheapEffectUpdated()
@@ -142,7 +142,7 @@ void CheapEffectUpdated()
 
 ### EntAttachedUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityFlame.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityFlame.cs#L38)
 
 ```csharp
 void EntAttachedUpdated()

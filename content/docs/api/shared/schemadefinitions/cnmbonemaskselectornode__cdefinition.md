@@ -12,7 +12,7 @@ public interface CNmBoneMaskSelectorNode__CDefinition : CNmBoneMaskValueNode__CD
 
 ### BlendTimeSeconds
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmBoneMaskSelectorNode__CDefinition.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmBoneMaskSelectorNode__CDefinition.cs#L30)
 
 ```csharp
 ref float BlendTimeSeconds { get; }
@@ -24,7 +24,7 @@ ref float BlendTimeSeconds { get; }
 
 ### DefaultMaskNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmBoneMaskSelectorNode__CDefinition.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmBoneMaskSelectorNode__CDefinition.cs#L18)
 
 ```csharp
 ref short DefaultMaskNodeIdx { get; }
@@ -36,7 +36,7 @@ ref short DefaultMaskNodeIdx { get; }
 
 ### MaskNodeIndices
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmBoneMaskSelectorNode__CDefinition.cs#L24)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmBoneMaskSelectorNode__CDefinition.cs#L25)
 
 ```csharp
 SchemaUntypedField MaskNodeIndices { get; }
@@ -48,7 +48,7 @@ SchemaUntypedField MaskNodeIndices { get; }
 
 ### ParameterValueNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmBoneMaskSelectorNode__CDefinition.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmBoneMaskSelectorNode__CDefinition.cs#L20)
 
 ```csharp
 ref short ParameterValueNodeIdx { get; }
@@ -60,7 +60,7 @@ ref short ParameterValueNodeIdx { get; }
 
 ### ParameterValues
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmBoneMaskSelectorNode__CDefinition.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmBoneMaskSelectorNode__CDefinition.cs#L28)
 
 ```csharp
 SchemaUntypedField ParameterValues { get; }
@@ -72,7 +72,7 @@ SchemaUntypedField ParameterValues { get; }
 
 ### SwitchDynamically
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmBoneMaskSelectorNode__CDefinition.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmBoneMaskSelectorNode__CDefinition.cs#L22)
 
 ```csharp
 ref bool SwitchDynamically { get; }

@@ -12,7 +12,7 @@ public interface RnMesh_t : ISchemaClass<RnMesh_t>, ISchemaField, ISchemaClass, 
 
 ### DebugFlags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnMesh_t.cs#L38)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnMesh_t.cs#L39)
 
 ```csharp
 ref uint DebugFlags { get; }
@@ -24,7 +24,7 @@ ref uint DebugFlags { get; }
 
 ### Flags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnMesh_t.cs#L36)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnMesh_t.cs#L37)
 
 ```csharp
 ref uint Flags { get; }
@@ -36,7 +36,7 @@ ref uint Flags { get; }
 
 ### Materials
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnMesh_t.cs#L32)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnMesh_t.cs#L33)
 
 ```csharp
 ref CUtlVector<byte> Materials { get; }
@@ -48,7 +48,7 @@ ref CUtlVector<byte> Materials { get; }
 
 ### Max
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnMesh_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnMesh_t.cs#L20)
 
 ```csharp
 ref Vector Max { get; }
@@ -60,7 +60,7 @@ ref Vector Max { get; }
 
 ### Min
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnMesh_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnMesh_t.cs#L18)
 
 ```csharp
 ref Vector Min { get; }
@@ -72,7 +72,7 @@ ref Vector Min { get; }
 
 ### Nodes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnMesh_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnMesh_t.cs#L22)
 
 ```csharp
 ref CUtlVector<RnNode_t> Nodes { get; }
@@ -84,7 +84,7 @@ ref CUtlVector<RnNode_t> Nodes { get; }
 
 ### OrthographicAreas
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnMesh_t.cs#L34)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnMesh_t.cs#L35)
 
 ```csharp
 ref Vector OrthographicAreas { get; }
@@ -96,7 +96,7 @@ ref Vector OrthographicAreas { get; }
 
 ### TriangleEdgeFlags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnMesh_t.cs#L30)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnMesh_t.cs#L31)
 
 ```csharp
 ref CUtlVector<byte> TriangleEdgeFlags { get; }
@@ -108,7 +108,7 @@ ref CUtlVector<byte> TriangleEdgeFlags { get; }
 
 ### Triangles
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnMesh_t.cs#L26)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnMesh_t.cs#L27)
 
 ```csharp
 ref CUtlVector<RnTriangle_t> Triangles { get; }
@@ -120,7 +120,7 @@ ref CUtlVector<RnTriangle_t> Triangles { get; }
 
 ### Vertices
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnMesh_t.cs#L24)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnMesh_t.cs#L25)
 
 ```csharp
 SchemaUntypedField Vertices { get; }
@@ -132,7 +132,7 @@ SchemaUntypedField Vertices { get; }
 
 ### Wings
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnMesh_t.cs#L28)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnMesh_t.cs#L29)
 
 ```csharp
 ref CUtlVector<RnWing_t> Wings { get; }

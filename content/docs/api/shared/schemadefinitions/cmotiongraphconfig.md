@@ -12,7 +12,7 @@ public interface CMotionGraphConfig : ISchemaClass<CMotionGraphConfig>, ISchemaF
 
 ### Duration
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionGraphConfig.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionGraphConfig.cs#L20)
 
 ```csharp
 ref float Duration { get; }
@@ -24,7 +24,7 @@ ref float Duration { get; }
 
 ### MotionIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionGraphConfig.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionGraphConfig.cs#L22)
 
 ```csharp
 MotionIndex MotionIndex { get; }
@@ -36,7 +36,7 @@ MotionIndex MotionIndex { get; }
 
 ### ParamValues
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionGraphConfig.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionGraphConfig.cs#L18)
 
 ```csharp
 ISchemaFixedArray<float> ParamValues { get; }
@@ -48,7 +48,7 @@ ISchemaFixedArray<float> ParamValues { get; }
 
 ### SampleCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionGraphConfig.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionGraphConfig.cs#L26)
 
 ```csharp
 ref int SampleCount { get; }
@@ -60,7 +60,7 @@ ref int SampleCount { get; }
 
 ### SampleStart
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionGraphConfig.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionGraphConfig.cs#L24)
 
 ```csharp
 ref int SampleStart { get; }

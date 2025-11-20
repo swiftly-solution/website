@@ -12,7 +12,7 @@ public interface CRenderBufferBinding : ISchemaClass<CRenderBufferBinding>, ISch
 
 ### BindOffsetBytes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderBufferBinding.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderBufferBinding.cs#L20)
 
 ```csharp
 ref uint BindOffsetBytes { get; }
@@ -24,7 +24,7 @@ ref uint BindOffsetBytes { get; }
 
 ### Buffer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderBufferBinding.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderBufferBinding.cs#L18)
 
 ```csharp
 ref ulong Buffer { get; }

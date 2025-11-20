@@ -12,7 +12,7 @@ public interface OldFeEdge_t : ISchemaClass<OldFeEdge_t>, ISchemaField, ISchemaC
 
 ### AxialModelDist
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/OldFeEdge_t.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/OldFeEdge_t.cs#L36)
 
 ```csharp
 ref float AxialModelDist { get; }
@@ -24,7 +24,7 @@ ref float AxialModelDist { get; }
 
 ### AxialModelWeights
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/OldFeEdge_t.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/OldFeEdge_t.cs#L38)
 
 ```csharp
 ISchemaFixedArray<float> AxialModelWeights { get; }
@@ -36,7 +36,7 @@ ISchemaFixedArray<float> AxialModelWeights { get; }
 
 ### C01
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/OldFeEdge_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/OldFeEdge_t.cs#L28)
 
 ```csharp
 ref float C01 { get; }
@@ -48,7 +48,7 @@ ref float C01 { get; }
 
 ### C02
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/OldFeEdge_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/OldFeEdge_t.cs#L30)
 
 ```csharp
 ref float C02 { get; }
@@ -60,7 +60,7 @@ ref float C02 { get; }
 
 ### C03
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/OldFeEdge_t.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/OldFeEdge_t.cs#L32)
 
 ```csharp
 ref float C03 { get; }
@@ -72,7 +72,7 @@ ref float C03 { get; }
 
 ### C04
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/OldFeEdge_t.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/OldFeEdge_t.cs#L34)
 
 ```csharp
 ref float C04 { get; }
@@ -84,7 +84,7 @@ ref float C04 { get; }
 
 ### InvA
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/OldFeEdge_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/OldFeEdge_t.cs#L20)
 
 ```csharp
 ref float InvA { get; }
@@ -96,7 +96,7 @@ ref float InvA { get; }
 
 ### K
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/OldFeEdge_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/OldFeEdge_t.cs#L18)
 
 ```csharp
 ISchemaFixedArray<float> K { get; }
@@ -108,7 +108,7 @@ ISchemaFixedArray<float> K { get; }
 
 ### Node
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/OldFeEdge_t.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/OldFeEdge_t.cs#L40)
 
 ```csharp
 ISchemaFixedArray<ushort> Node { get; }
@@ -120,7 +120,7 @@ ISchemaFixedArray<ushort> Node { get; }
 
 ### T
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/OldFeEdge_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/OldFeEdge_t.cs#L22)
 
 ```csharp
 ref float T { get; }
@@ -132,7 +132,7 @@ ref float T { get; }
 
 ### ThetaFactor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/OldFeEdge_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/OldFeEdge_t.cs#L26)
 
 ```csharp
 ref float ThetaFactor { get; }
@@ -144,7 +144,7 @@ ref float ThetaFactor { get; }
 
 ### ThetaRelaxed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/OldFeEdge_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/OldFeEdge_t.cs#L24)
 
 ```csharp
 ref float ThetaRelaxed { get; }

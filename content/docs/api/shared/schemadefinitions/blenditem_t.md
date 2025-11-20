@@ -12,7 +12,7 @@ public interface BlendItem_t : ISchemaClass<BlendItem_t>, ISchemaField, ISchemaC
 
 ### Child
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BlendItem_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BlendItem_t.cs#L20)
 
 ```csharp
 CAnimUpdateNodeRef Child { get; }
@@ -24,7 +24,7 @@ CAnimUpdateNodeRef Child { get; }
 
 ### Duration
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BlendItem_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BlendItem_t.cs#L26)
 
 ```csharp
 ref float Duration { get; }
@@ -36,7 +36,7 @@ ref float Duration { get; }
 
 ### Pos
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BlendItem_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BlendItem_t.cs#L24)
 
 ```csharp
 ref Vector2D Pos { get; }
@@ -48,7 +48,7 @@ ref Vector2D Pos { get; }
 
 ### Sequence
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BlendItem_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BlendItem_t.cs#L22)
 
 ```csharp
 HSequence Sequence { get; }
@@ -60,7 +60,7 @@ HSequence Sequence { get; }
 
 ### Tags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BlendItem_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BlendItem_t.cs#L18)
 
 ```csharp
 ref CUtlVector<TagSpan_t> Tags { get; }
@@ -72,7 +72,7 @@ ref CUtlVector<TagSpan_t> Tags { get; }
 
 ### UseCustomDuration
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BlendItem_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BlendItem_t.cs#L28)
 
 ```csharp
 ref bool UseCustomDuration { get; }

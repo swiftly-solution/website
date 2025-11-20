@@ -12,7 +12,7 @@ public interface C_OP_DistanceBetweenTransforms : CParticleFunctionOperator, CPa
 
 ### CollisionGroupName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenTransforms.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenTransforms.cs#L36)
 
 ```csharp
 string CollisionGroupName { get; set; }
@@ -24,7 +24,7 @@ string CollisionGroupName { get; set; }
 
 ### FieldOutput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenTransforms.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenTransforms.cs#L18)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -36,7 +36,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 ### InputMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenTransforms.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenTransforms.cs#L26)
 
 ```csharp
 CPerParticleFloatInput InputMax { get; }
@@ -48,7 +48,7 @@ CPerParticleFloatInput InputMax { get; }
 
 ### InputMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenTransforms.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenTransforms.cs#L24)
 
 ```csharp
 CPerParticleFloatInput InputMin { get; }
@@ -60,7 +60,7 @@ CPerParticleFloatInput InputMin { get; }
 
 ### LOS
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenTransforms.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenTransforms.cs#L40)
 
 ```csharp
 ref bool LOS { get; }
@@ -72,7 +72,7 @@ ref bool LOS { get; }
 
 ### LOSScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenTransforms.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenTransforms.cs#L34)
 
 ```csharp
 ref float LOSScale { get; }
@@ -84,7 +84,7 @@ ref float LOSScale { get; }
 
 ### MaxTraceLength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenTransforms.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenTransforms.cs#L32)
 
 ```csharp
 ref float MaxTraceLength { get; }
@@ -96,7 +96,7 @@ ref float MaxTraceLength { get; }
 
 ### OutputMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenTransforms.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenTransforms.cs#L30)
 
 ```csharp
 CPerParticleFloatInput OutputMax { get; }
@@ -108,7 +108,7 @@ CPerParticleFloatInput OutputMax { get; }
 
 ### OutputMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenTransforms.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenTransforms.cs#L28)
 
 ```csharp
 CPerParticleFloatInput OutputMin { get; }
@@ -120,7 +120,7 @@ CPerParticleFloatInput OutputMin { get; }
 
 ### SetMethod
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenTransforms.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenTransforms.cs#L42)
 
 ```csharp
 ref ParticleSetMethod_t SetMethod { get; }
@@ -132,7 +132,7 @@ ref ParticleSetMethod_t SetMethod { get; }
 
 ### TraceSet
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenTransforms.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenTransforms.cs#L38)
 
 ```csharp
 ref ParticleTraceSet_t TraceSet { get; }
@@ -144,7 +144,7 @@ ref ParticleTraceSet_t TraceSet { get; }
 
 ### TransformEnd
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenTransforms.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenTransforms.cs#L22)
 
 ```csharp
 CParticleTransformInput TransformEnd { get; }
@@ -156,7 +156,7 @@ CParticleTransformInput TransformEnd { get; }
 
 ### TransformStart
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenTransforms.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DistanceBetweenTransforms.cs#L20)
 
 ```csharp
 CParticleTransformInput TransformStart { get; }

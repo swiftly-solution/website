@@ -12,7 +12,7 @@ public interface CAnimUpdateSharedData : ISchemaClass<CAnimUpdateSharedData>, IS
 
 ### Components
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimUpdateSharedData.cs#L22)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimUpdateSharedData.cs#L23)
 
 ```csharp
 ref CUtlVector<SchemaUntypedField> Components { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<SchemaUntypedField> Components { get; }
 
 ### NodeIndexMap
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimUpdateSharedData.cs#L20)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimUpdateSharedData.cs#L21)
 
 ```csharp
 SchemaUntypedField NodeIndexMap { get; }
@@ -36,7 +36,7 @@ SchemaUntypedField NodeIndexMap { get; }
 
 ### Nodes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimUpdateSharedData.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimUpdateSharedData.cs#L18)
 
 ```csharp
 ref CUtlVector<SchemaUntypedField> Nodes { get; }
@@ -48,7 +48,7 @@ ref CUtlVector<SchemaUntypedField> Nodes { get; }
 
 ### ParamListUpdater
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimUpdateSharedData.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimUpdateSharedData.cs#L26)
 
 ```csharp
 SchemaUntypedField ParamListUpdater { get; }
@@ -60,7 +60,7 @@ SchemaUntypedField ParamListUpdater { get; }
 
 ### RootNodePath
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimUpdateSharedData.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimUpdateSharedData.cs#L42)
 
 ```csharp
 CAnimNodePath RootNodePath { get; }
@@ -72,7 +72,7 @@ CAnimNodePath RootNodePath { get; }
 
 ### ScriptManager
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimUpdateSharedData.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimUpdateSharedData.cs#L32)
 
 ```csharp
 SchemaUntypedField ScriptManager { get; }
@@ -84,7 +84,7 @@ SchemaUntypedField ScriptManager { get; }
 
 ### Settings
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimUpdateSharedData.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimUpdateSharedData.cs#L34)
 
 ```csharp
 CAnimGraphSettingsManager Settings { get; }
@@ -96,7 +96,7 @@ CAnimGraphSettingsManager Settings { get; }
 
 ### Skeleton
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimUpdateSharedData.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimUpdateSharedData.cs#L40)
 
 ```csharp
 SchemaUntypedField Skeleton { get; }
@@ -108,7 +108,7 @@ SchemaUntypedField Skeleton { get; }
 
 ### StaticPoseCache
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimUpdateSharedData.cs#L36)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimUpdateSharedData.cs#L37)
 
 ```csharp
 SchemaUntypedField StaticPoseCache { get; }
@@ -120,7 +120,7 @@ SchemaUntypedField StaticPoseCache { get; }
 
 ### TagManagerUpdater
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimUpdateSharedData.cs#L28)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimUpdateSharedData.cs#L29)
 
 ```csharp
 SchemaUntypedField TagManagerUpdater { get; }

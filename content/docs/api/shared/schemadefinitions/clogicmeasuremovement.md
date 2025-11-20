@@ -12,7 +12,7 @@ public interface CLogicMeasureMovement : CLogicalEntity, CServerOnlyEntity, CBas
 
 ### MeasureReference
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicMeasureMovement.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicMeasureMovement.cs#L26)
 
 ```csharp
 ref CHandle<CBaseEntity> MeasureReference { get; }
@@ -24,7 +24,7 @@ ref CHandle<CBaseEntity> MeasureReference { get; }
 
 ### MeasureTarget
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicMeasureMovement.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicMeasureMovement.cs#L24)
 
 ```csharp
 ref CHandle<CBaseEntity> MeasureTarget { get; }
@@ -36,7 +36,7 @@ ref CHandle<CBaseEntity> MeasureTarget { get; }
 
 ### MeasureType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicMeasureMovement.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicMeasureMovement.cs#L34)
 
 ```csharp
 ref int MeasureType { get; }
@@ -48,7 +48,7 @@ ref int MeasureType { get; }
 
 ### Scale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicMeasureMovement.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicMeasureMovement.cs#L32)
 
 ```csharp
 ref float Scale { get; }
@@ -60,7 +60,7 @@ ref float Scale { get; }
 
 ### StrMeasureReference
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicMeasureMovement.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicMeasureMovement.cs#L20)
 
 ```csharp
 string StrMeasureReference { get; set; }
@@ -72,7 +72,7 @@ string StrMeasureReference { get; set; }
 
 ### StrMeasureTarget
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicMeasureMovement.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicMeasureMovement.cs#L18)
 
 ```csharp
 string StrMeasureTarget { get; set; }
@@ -84,7 +84,7 @@ string StrMeasureTarget { get; set; }
 
 ### StrTargetReference
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicMeasureMovement.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicMeasureMovement.cs#L22)
 
 ```csharp
 string StrTargetReference { get; set; }
@@ -96,7 +96,7 @@ string StrTargetReference { get; set; }
 
 ### Target
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicMeasureMovement.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicMeasureMovement.cs#L28)
 
 ```csharp
 ref CHandle<CBaseEntity> Target { get; }
@@ -108,7 +108,7 @@ ref CHandle<CBaseEntity> Target { get; }
 
 ### TargetReference
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicMeasureMovement.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicMeasureMovement.cs#L30)
 
 ```csharp
 ref CHandle<CBaseEntity> TargetReference { get; }

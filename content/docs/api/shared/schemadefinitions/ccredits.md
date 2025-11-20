@@ -12,7 +12,7 @@ public interface CCredits : CPointEntity, CBaseEntity, CEntityInstance, ISchemaC
 
 ### LogoLength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCredits.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCredits.cs#L22)
 
 ```csharp
 ref float LogoLength { get; }
@@ -24,7 +24,7 @@ ref float LogoLength { get; }
 
 ### OnCreditsDone
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCredits.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCredits.cs#L18)
 
 ```csharp
 CEntityIOOutput OnCreditsDone { get; }
@@ -36,7 +36,7 @@ CEntityIOOutput OnCreditsDone { get; }
 
 ### RolledOutroCredits
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCredits.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCredits.cs#L20)
 
 ```csharp
 ref bool RolledOutroCredits { get; }

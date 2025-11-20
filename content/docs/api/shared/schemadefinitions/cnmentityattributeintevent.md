@@ -12,7 +12,7 @@ public interface CNmEntityAttributeIntEvent : CNmEntityAttributeEventBase, CNmEv
 
 ### IntValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmEntityAttributeIntEvent.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmEntityAttributeIntEvent.cs#L18)
 
 ```csharp
 ref int IntValue { get; }

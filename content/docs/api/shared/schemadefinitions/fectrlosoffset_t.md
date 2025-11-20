@@ -12,7 +12,7 @@ public interface FeCtrlOsOffset_t : ISchemaClass<FeCtrlOsOffset_t>, ISchemaField
 
 ### CtrlChild
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeCtrlOsOffset_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeCtrlOsOffset_t.cs#L20)
 
 ```csharp
 ref ushort CtrlChild { get; }
@@ -24,7 +24,7 @@ ref ushort CtrlChild { get; }
 
 ### CtrlParent
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeCtrlOsOffset_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeCtrlOsOffset_t.cs#L18)
 
 ```csharp
 ref ushort CtrlParent { get; }

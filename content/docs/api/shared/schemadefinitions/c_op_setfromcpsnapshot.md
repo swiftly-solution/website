@@ -12,7 +12,7 @@ public interface C_OP_SetFromCPSnapshot : CParticleFunctionOperator, CParticleFu
 
 ### AttributeToRead
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L22)
 
 ```csharp
 ParticleAttributeIndex_t AttributeToRead { get; }
@@ -24,7 +24,7 @@ ParticleAttributeIndex_t AttributeToRead { get; }
 
 ### AttributeToWrite
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L24)
 
 ```csharp
 ParticleAttributeIndex_t AttributeToWrite { get; }
@@ -36,7 +36,7 @@ ParticleAttributeIndex_t AttributeToWrite { get; }
 
 ### ControlPointNumber
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L18)
 
 ```csharp
 ref int ControlPointNumber { get; }
@@ -48,7 +48,7 @@ ref int ControlPointNumber { get; }
 
 ### Interpolation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L38)
 
 ```csharp
 CPerParticleFloatInput Interpolation { get; }
@@ -60,7 +60,7 @@ CPerParticleFloatInput Interpolation { get; }
 
 ### LocalSpaceCP
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L26)
 
 ```csharp
 ref int LocalSpaceCP { get; }
@@ -72,7 +72,7 @@ ref int LocalSpaceCP { get; }
 
 ### Prev
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L42)
 
 ```csharp
 ref bool Prev { get; }
@@ -84,7 +84,7 @@ ref bool Prev { get; }
 
 ### Random
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L28)
 
 ```csharp
 ref bool Random { get; }
@@ -96,7 +96,7 @@ ref bool Random { get; }
 
 ### RandomSeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L32)
 
 ```csharp
 ref int RandomSeed { get; }
@@ -108,7 +108,7 @@ ref int RandomSeed { get; }
 
 ### Reverse
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L30)
 
 ```csharp
 ref bool Reverse { get; }
@@ -120,7 +120,7 @@ ref bool Reverse { get; }
 
 ### SnapShotIncrement
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L36)
 
 ```csharp
 CParticleCollectionFloatInput SnapShotIncrement { get; }
@@ -132,7 +132,7 @@ CParticleCollectionFloatInput SnapShotIncrement { get; }
 
 ### SnapShotStartPoint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L34)
 
 ```csharp
 CParticleCollectionFloatInput SnapShotStartPoint { get; }
@@ -144,7 +144,7 @@ CParticleCollectionFloatInput SnapShotStartPoint { get; }
 
 ### StrSnapshotSubset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L20)
 
 ```csharp
 string StrSnapshotSubset { get; set; }
@@ -156,7 +156,7 @@ string StrSnapshotSubset { get; set; }
 
 ### SubSample
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L40)
 
 ```csharp
 ref bool SubSample { get; }

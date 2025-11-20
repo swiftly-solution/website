@@ -12,7 +12,7 @@ public interface CPulseCell_InlineNodeSkipSelector : CPulseCell_BaseFlow, CPulse
 
 ### And
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_InlineNodeSkipSelector.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_InlineNodeSkipSelector.cs#L20)
 
 ```csharp
 ref bool And { get; }
@@ -24,7 +24,7 @@ ref bool And { get; }
 
 ### FailOutflow
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_InlineNodeSkipSelector.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_InlineNodeSkipSelector.cs#L24)
 
 ```csharp
 CPulse_OutflowConnection FailOutflow { get; }
@@ -36,7 +36,7 @@ CPulse_OutflowConnection FailOutflow { get; }
 
 ### FlowNodeID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_InlineNodeSkipSelector.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_InlineNodeSkipSelector.cs#L18)
 
 ```csharp
 PulseDocNodeID_t FlowNodeID { get; }
@@ -48,7 +48,7 @@ PulseDocNodeID_t FlowNodeID { get; }
 
 ### PassOutflow
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_InlineNodeSkipSelector.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_InlineNodeSkipSelector.cs#L22)
 
 ```csharp
 PulseSelectorOutflowList_t PassOutflow { get; }

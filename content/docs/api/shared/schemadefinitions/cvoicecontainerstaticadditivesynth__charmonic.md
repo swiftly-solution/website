@@ -12,7 +12,7 @@ public interface CVoiceContainerStaticAdditiveSynth__CHarmonic : ISchemaClass<CV
 
 ### Cents
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerStaticAdditiveSynth__CHarmonic.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerStaticAdditiveSynth__CHarmonic.cs#L24)
 
 ```csharp
 ref float Cents { get; }
@@ -24,7 +24,7 @@ ref float Cents { get; }
 
 ### Curve
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerStaticAdditiveSynth__CHarmonic.cs#L28)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerStaticAdditiveSynth__CHarmonic.cs#L29)
 
 ```csharp
 SchemaUntypedField Curve { get; }
@@ -36,7 +36,7 @@ SchemaUntypedField Curve { get; }
 
 ### Fundamental
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerStaticAdditiveSynth__CHarmonic.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerStaticAdditiveSynth__CHarmonic.cs#L20)
 
 ```csharp
 ref EMidiNote Fundamental { get; }
@@ -48,7 +48,7 @@ ref EMidiNote Fundamental { get; }
 
 ### Octave
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerStaticAdditiveSynth__CHarmonic.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerStaticAdditiveSynth__CHarmonic.cs#L22)
 
 ```csharp
 ref int Octave { get; }
@@ -60,7 +60,7 @@ ref int Octave { get; }
 
 ### Phase
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerStaticAdditiveSynth__CHarmonic.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerStaticAdditiveSynth__CHarmonic.cs#L26)
 
 ```csharp
 ref float Phase { get; }
@@ -72,7 +72,7 @@ ref float Phase { get; }
 
 ### VolumeScaling
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerStaticAdditiveSynth__CHarmonic.cs#L30)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerStaticAdditiveSynth__CHarmonic.cs#L31)
 
 ```csharp
 CVoiceContainerStaticAdditiveSynth__CGainScalePerInstance VolumeScaling { get; }
@@ -84,7 +84,7 @@ CVoiceContainerStaticAdditiveSynth__CGainScalePerInstance VolumeScaling { get; }
 
 ### Waveform
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerStaticAdditiveSynth__CHarmonic.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerStaticAdditiveSynth__CHarmonic.cs#L18)
 
 ```csharp
 ref EWaveform Waveform { get; }

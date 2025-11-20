@@ -12,7 +12,7 @@ public interface CNewParticleEffect : IParticleEffect, ISchemaClass<IParticleEff
 
 ### AggregationCenter
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L96)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L97)
 
 ```csharp
 ref Vector AggregationCenter { get; }
@@ -24,7 +24,7 @@ ref Vector AggregationCenter { get; }
 
 ### Allocated
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L42)
 
 ```csharp
 SchemaUntypedField Allocated { get; }
@@ -36,7 +36,7 @@ SchemaUntypedField Allocated { get; }
 
 ### AutoUpdateBBox
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L38)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L39)
 
 ```csharp
 SchemaUntypedField AutoUpdateBBox { get; }
@@ -48,7 +48,7 @@ SchemaUntypedField AutoUpdateBBox { get; }
 
 ### CanFreeze
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L74)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L75)
 
 ```csharp
 SchemaUntypedField CanFreeze { get; }
@@ -60,7 +60,7 @@ SchemaUntypedField CanFreeze { get; }
 
 ### DebugName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L24)
 
 ```csharp
 string DebugName { get; set; }
@@ -72,7 +72,7 @@ string DebugName { get; set; }
 
 ### DontRemove
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L26)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L27)
 
 ```csharp
 SchemaUntypedField DontRemove { get; }
@@ -84,7 +84,7 @@ SchemaUntypedField DontRemove { get; }
 
 ### ForceNoDraw
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L50)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L51)
 
 ```csharp
 SchemaUntypedField ForceNoDraw { get; }
@@ -96,7 +96,7 @@ SchemaUntypedField ForceNoDraw { get; }
 
 ### FreezeTargetState
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L71)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L72)
 
 ```csharp
 SchemaUntypedField FreezeTargetState { get; }
@@ -108,7 +108,7 @@ SchemaUntypedField FreezeTargetState { get; }
 
 ### FreezeTransitionActive
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L68)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L69)
 
 ```csharp
 SchemaUntypedField FreezeTransitionActive { get; }
@@ -120,7 +120,7 @@ SchemaUntypedField FreezeTransitionActive { get; }
 
 ### FreezeTransitionDuration
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L86)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L87)
 
 ```csharp
 ref float FreezeTransitionDuration { get; }
@@ -132,7 +132,7 @@ ref float FreezeTransitionDuration { get; }
 
 ### FreezeTransitionOverride
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L88)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L89)
 
 ```csharp
 ref float FreezeTransitionOverride { get; }
@@ -144,7 +144,7 @@ ref float FreezeTransitionOverride { get; }
 
 ### FreezeTransitionStart
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L84)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L85)
 
 ```csharp
 ref float FreezeTransitionStart { get; }
@@ -156,7 +156,7 @@ ref float FreezeTransitionStart { get; }
 
 ### IsAsyncCreate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L65)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L66)
 
 ```csharp
 SchemaUntypedField IsAsyncCreate { get; }
@@ -168,7 +168,7 @@ SchemaUntypedField IsAsyncCreate { get; }
 
 ### IsFirstFrame
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L36)
 
 ```csharp
 SchemaUntypedField IsFirstFrame { get; }
@@ -180,7 +180,7 @@ SchemaUntypedField IsFirstFrame { get; }
 
 ### LastMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L92)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L93)
 
 ```csharp
 ref Vector LastMax { get; }
@@ -192,7 +192,7 @@ ref Vector LastMax { get; }
 
 ### LastMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L90)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L91)
 
 ```csharp
 ref Vector LastMin { get; }
@@ -204,7 +204,7 @@ ref Vector LastMin { get; }
 
 ### NeedsBBoxUpdate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L32)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L33)
 
 ```csharp
 SchemaUntypedField NeedsBBoxUpdate { get; }
@@ -216,7 +216,7 @@ SchemaUntypedField NeedsBBoxUpdate { get; }
 
 ### Next
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L18)
 
 ```csharp
 CNewParticleEffect? Next { get; }
@@ -228,7 +228,7 @@ CNewParticleEffect? Next { get; }
 
 ### Owner
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L80)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L81)
 
 ```csharp
 PARTICLE_EHANDLE__? Owner { get; }
@@ -240,7 +240,7 @@ PARTICLE_EHANDLE__? Owner { get; }
 
 ### OwningParticleProperty
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L82)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L83)
 
 ```csharp
 CParticleProperty? OwningParticleProperty { get; }
@@ -252,7 +252,7 @@ CParticleProperty? OwningParticleProperty { get; }
 
 ### Particles
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L22)
 
 ```csharp
 IParticleCollection? Particles { get; }
@@ -264,7 +264,7 @@ IParticleCollection? Particles { get; }
 
 ### Prev
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L20)
 
 ```csharp
 CNewParticleEffect? Prev { get; }
@@ -276,7 +276,7 @@ CNewParticleEffect? Prev { get; }
 
 ### RefCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L98)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L99)
 
 ```csharp
 ref int RefCount { get; }
@@ -288,7 +288,7 @@ ref int RefCount { get; }
 
 ### Remove
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L30)
 
 ```csharp
 SchemaUntypedField Remove { get; }
@@ -300,7 +300,7 @@ SchemaUntypedField Remove { get; }
 
 ### Scale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L78)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L79)
 
 ```csharp
 ref float Scale { get; }
@@ -312,7 +312,7 @@ ref float Scale { get; }
 
 ### ShouldCheckFoW
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L62)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L63)
 
 ```csharp
 SchemaUntypedField ShouldCheckFoW { get; }
@@ -324,7 +324,7 @@ SchemaUntypedField ShouldCheckFoW { get; }
 
 ### ShouldPerformCullCheck
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L48)
 
 ```csharp
 SchemaUntypedField ShouldPerformCullCheck { get; }
@@ -336,7 +336,7 @@ SchemaUntypedField ShouldPerformCullCheck { get; }
 
 ### ShouldSave
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L56)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L57)
 
 ```csharp
 SchemaUntypedField ShouldSave { get; }
@@ -348,7 +348,7 @@ SchemaUntypedField ShouldSave { get; }
 
 ### ShouldSimulateDuringGamePaused
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L60)
 
 ```csharp
 SchemaUntypedField ShouldSimulateDuringGamePaused { get; }
@@ -360,7 +360,7 @@ SchemaUntypedField ShouldSimulateDuringGamePaused { get; }
 
 ### Simulate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L44)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L45)
 
 ```csharp
 SchemaUntypedField Simulate { get; }
@@ -372,7 +372,7 @@ SchemaUntypedField Simulate { get; }
 
 ### SortOrigin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L76)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L77)
 
 ```csharp
 ref Vector SortOrigin { get; }
@@ -384,7 +384,7 @@ ref Vector SortOrigin { get; }
 
 ### SplitScreenUser
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L94)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L95)
 
 ```csharp
 ref uint SplitScreenUser { get; }
@@ -396,7 +396,7 @@ ref uint SplitScreenUser { get; }
 
 ### SuppressScreenSpaceEffect
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNewParticleEffect.cs#L54)
 
 ```csharp
 SchemaUntypedField SuppressScreenSpaceEffect { get; }

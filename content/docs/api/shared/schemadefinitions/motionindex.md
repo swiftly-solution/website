@@ -12,7 +12,7 @@ public interface MotionIndex : ISchemaClass<MotionIndex>, ISchemaField, ISchemaC
 
 ### Group
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MotionIndex.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MotionIndex.cs#L18)
 
 ```csharp
 ref ushort Group { get; }
@@ -24,7 +24,7 @@ ref ushort Group { get; }
 
 ### Motion
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MotionIndex.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MotionIndex.cs#L20)
 
 ```csharp
 ref ushort Motion { get; }

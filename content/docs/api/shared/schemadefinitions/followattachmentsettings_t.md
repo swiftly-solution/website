@@ -12,7 +12,7 @@ public interface FollowAttachmentSettings_t : ISchemaClass<FollowAttachmentSetti
 
 ### Attachment
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FollowAttachmentSettings_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FollowAttachmentSettings_t.cs#L18)
 
 ```csharp
 CAnimAttachment Attachment { get; }
@@ -24,7 +24,7 @@ CAnimAttachment Attachment { get; }
 
 ### AttachmentHandle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FollowAttachmentSettings_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FollowAttachmentSettings_t.cs#L22)
 
 ```csharp
 AttachmentHandle_t AttachmentHandle { get; }
@@ -36,7 +36,7 @@ AttachmentHandle_t AttachmentHandle { get; }
 
 ### BoneIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FollowAttachmentSettings_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FollowAttachmentSettings_t.cs#L20)
 
 ```csharp
 ref int BoneIndex { get; }
@@ -48,7 +48,7 @@ ref int BoneIndex { get; }
 
 ### MatchRotation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FollowAttachmentSettings_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FollowAttachmentSettings_t.cs#L26)
 
 ```csharp
 ref bool MatchRotation { get; }
@@ -60,7 +60,7 @@ ref bool MatchRotation { get; }
 
 ### MatchTranslation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FollowAttachmentSettings_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FollowAttachmentSettings_t.cs#L24)
 
 ```csharp
 ref bool MatchTranslation { get; }

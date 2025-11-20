@@ -12,7 +12,7 @@ public interface CPulseCell_WaitForCursorsWithTagBase : CPulseCell_BaseYieldingI
 
 ### CursorsAllowedToWait
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_WaitForCursorsWithTagBase.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_WaitForCursorsWithTagBase.cs#L18)
 
 ```csharp
 ref int CursorsAllowedToWait { get; }
@@ -24,7 +24,7 @@ ref int CursorsAllowedToWait { get; }
 
 ### WaitComplete
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_WaitForCursorsWithTagBase.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_WaitForCursorsWithTagBase.cs#L20)
 
 ```csharp
 CPulse_ResumePoint WaitComplete { get; }

@@ -12,7 +12,7 @@ public interface FeSDFRigid_t : ISchemaClass<FeSDFRigid_t>, ISchemaField, ISchem
 
 ### Bounciness
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeSDFRigid_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeSDFRigid_t.cs#L22)
 
 ```csharp
 ref float Bounciness { get; }
@@ -24,7 +24,7 @@ ref float Bounciness { get; }
 
 ### CollisionMask
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeSDFRigid_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeSDFRigid_t.cs#L26)
 
 ```csharp
 ref ushort CollisionMask { get; }
@@ -36,7 +36,7 @@ ref ushort CollisionMask { get; }
 
 ### Depth
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeSDFRigid_t.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeSDFRigid_t.cs#L38)
 
 ```csharp
 ref int Depth { get; }
@@ -48,7 +48,7 @@ ref int Depth { get; }
 
 ### Distances
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeSDFRigid_t.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeSDFRigid_t.cs#L32)
 
 ```csharp
 ref CUtlVector<float> Distances { get; }
@@ -60,7 +60,7 @@ ref CUtlVector<float> Distances { get; }
 
 ### Flags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeSDFRigid_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeSDFRigid_t.cs#L30)
 
 ```csharp
 ref ushort Flags { get; }
@@ -72,7 +72,7 @@ ref ushort Flags { get; }
 
 ### Height
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeSDFRigid_t.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeSDFRigid_t.cs#L36)
 
 ```csharp
 ref int Height { get; }
@@ -84,7 +84,7 @@ ref int Height { get; }
 
 ### LocalMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeSDFRigid_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeSDFRigid_t.cs#L20)
 
 ```csharp
 ref Vector LocalMax { get; }
@@ -96,7 +96,7 @@ ref Vector LocalMax { get; }
 
 ### LocalMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeSDFRigid_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeSDFRigid_t.cs#L18)
 
 ```csharp
 ref Vector LocalMin { get; }
@@ -108,7 +108,7 @@ ref Vector LocalMin { get; }
 
 ### Node
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeSDFRigid_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeSDFRigid_t.cs#L24)
 
 ```csharp
 ref ushort Node { get; }
@@ -120,7 +120,7 @@ ref ushort Node { get; }
 
 ### VertexMapIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeSDFRigid_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeSDFRigid_t.cs#L28)
 
 ```csharp
 ref ushort VertexMapIndex { get; }
@@ -132,7 +132,7 @@ ref ushort VertexMapIndex { get; }
 
 ### Width
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeSDFRigid_t.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeSDFRigid_t.cs#L34)
 
 ```csharp
 ref int Width { get; }

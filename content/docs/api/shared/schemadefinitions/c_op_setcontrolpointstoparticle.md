@@ -12,7 +12,7 @@ public interface C_OP_SetControlPointsToParticle : CParticleFunctionOperator, CP
 
 ### ChildGroupID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointsToParticle.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointsToParticle.cs#L18)
 
 ```csharp
 ref int ChildGroupID { get; }
@@ -24,7 +24,7 @@ ref int ChildGroupID { get; }
 
 ### FirstControlPoint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointsToParticle.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointsToParticle.cs#L20)
 
 ```csharp
 ref int FirstControlPoint { get; }
@@ -36,7 +36,7 @@ ref int FirstControlPoint { get; }
 
 ### FirstSourcePoint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointsToParticle.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointsToParticle.cs#L24)
 
 ```csharp
 ref int FirstSourcePoint { get; }
@@ -48,7 +48,7 @@ ref int FirstSourcePoint { get; }
 
 ### NumControlPoints
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointsToParticle.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointsToParticle.cs#L22)
 
 ```csharp
 ref int NumControlPoints { get; }
@@ -60,7 +60,7 @@ ref int NumControlPoints { get; }
 
 ### OrientationMode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointsToParticle.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointsToParticle.cs#L30)
 
 ```csharp
 ref ParticleOrientationSetMode_t OrientationMode { get; }
@@ -72,7 +72,7 @@ ref ParticleOrientationSetMode_t OrientationMode { get; }
 
 ### Reverse
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointsToParticle.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointsToParticle.cs#L26)
 
 ```csharp
 ref bool Reverse { get; }
@@ -84,7 +84,7 @@ ref bool Reverse { get; }
 
 ### SetOrientation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointsToParticle.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointsToParticle.cs#L28)
 
 ```csharp
 ref bool SetOrientation { get; }
@@ -96,7 +96,7 @@ ref bool SetOrientation { get; }
 
 ### SetParent
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointsToParticle.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointsToParticle.cs#L32)
 
 ```csharp
 ref ParticleParentSetMode_t SetParent { get; }

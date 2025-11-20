@@ -12,7 +12,7 @@ public interface RotatorHistoryEntry_t : ISchemaClass<RotatorHistoryEntry_t>, IS
 
 ### InvChange
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RotatorHistoryEntry_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RotatorHistoryEntry_t.cs#L18)
 
 ```csharp
 ref Quaternion InvChange { get; }
@@ -24,7 +24,7 @@ ref Quaternion InvChange { get; }
 
 ### TimeRotationStart
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RotatorHistoryEntry_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RotatorHistoryEntry_t.cs#L20)
 
 ```csharp
 GameTime_t TimeRotationStart { get; }

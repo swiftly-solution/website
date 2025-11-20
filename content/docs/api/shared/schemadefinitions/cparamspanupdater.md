@@ -12,7 +12,7 @@ public interface CParamSpanUpdater : ISchemaClass<CParamSpanUpdater>, ISchemaFie
 
 ### Spans
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParamSpanUpdater.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParamSpanUpdater.cs#L18)
 
 ```csharp
 ref CUtlVector<ParamSpan_t> Spans { get; }

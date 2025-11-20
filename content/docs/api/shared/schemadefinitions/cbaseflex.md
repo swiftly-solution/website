@@ -12,7 +12,7 @@ public interface CBaseFlex : CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEnt
 
 ### AllowResponsesEndTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseFlex.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseFlex.cs#L24)
 
 ```csharp
 GameTime_t AllowResponsesEndTime { get; }
@@ -24,7 +24,7 @@ GameTime_t AllowResponsesEndTime { get; }
 
 ### Blinktoggle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseFlex.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseFlex.cs#L22)
 
 ```csharp
 ref bool Blinktoggle { get; }
@@ -36,7 +36,7 @@ ref bool Blinktoggle { get; }
 
 ### FlexWeight
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseFlex.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseFlex.cs#L18)
 
 ```csharp
 ref CUtlVector<float> FlexWeight { get; }
@@ -48,7 +48,7 @@ ref CUtlVector<float> FlexWeight { get; }
 
 ### LastFlexAnimationTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseFlex.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseFlex.cs#L26)
 
 ```csharp
 GameTime_t LastFlexAnimationTime { get; }
@@ -60,7 +60,7 @@ GameTime_t LastFlexAnimationTime { get; }
 
 ### LookTargetPosition
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseFlex.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseFlex.cs#L20)
 
 ```csharp
 ref Vector LookTargetPosition { get; }
@@ -72,7 +72,7 @@ ref Vector LookTargetPosition { get; }
 
 ### NextSceneEventId
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseFlex.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseFlex.cs#L28)
 
 ```csharp
 SceneEventId_t NextSceneEventId { get; }
@@ -84,7 +84,7 @@ SceneEventId_t NextSceneEventId { get; }
 
 ### UpdateLayerPriorities
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseFlex.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseFlex.cs#L30)
 
 ```csharp
 ref bool UpdateLayerPriorities { get; }
@@ -98,7 +98,7 @@ ref bool UpdateLayerPriorities { get; }
 
 ### BlinktoggleUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseFlex.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseFlex.cs#L34)
 
 ```csharp
 void BlinktoggleUpdated()
@@ -106,7 +106,7 @@ void BlinktoggleUpdated()
 
 ### FlexWeightUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseFlex.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseFlex.cs#L32)
 
 ```csharp
 void FlexWeightUpdated()
@@ -114,7 +114,7 @@ void FlexWeightUpdated()
 
 ### LookTargetPositionUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseFlex.cs#L32)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseFlex.cs#L33)
 
 ```csharp
 void LookTargetPositionUpdated()

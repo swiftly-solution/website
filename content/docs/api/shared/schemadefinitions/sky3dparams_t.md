@@ -12,7 +12,7 @@ public interface sky3dparams_t : ISchemaClass<sky3dparams_t>, ISchemaField, ISch
 
 ### Clip3DSkyBoxNearToWorldFar
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/sky3dparams_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/sky3dparams_t.cs#L22)
 
 ```csharp
 ref bool Clip3DSkyBoxNearToWorldFar { get; }
@@ -24,7 +24,7 @@ ref bool Clip3DSkyBoxNearToWorldFar { get; }
 
 ### Clip3DSkyBoxNearToWorldFarOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/sky3dparams_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/sky3dparams_t.cs#L24)
 
 ```csharp
 ref float Clip3DSkyBoxNearToWorldFarOffset { get; }
@@ -36,7 +36,7 @@ ref float Clip3DSkyBoxNearToWorldFarOffset { get; }
 
 ### Fog
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/sky3dparams_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/sky3dparams_t.cs#L26)
 
 ```csharp
 fogparams_t Fog { get; }
@@ -48,7 +48,7 @@ fogparams_t Fog { get; }
 
 ### Origin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/sky3dparams_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/sky3dparams_t.cs#L20)
 
 ```csharp
 ref Vector Origin { get; }
@@ -60,7 +60,7 @@ ref Vector Origin { get; }
 
 ### Scale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/sky3dparams_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/sky3dparams_t.cs#L18)
 
 ```csharp
 ref short Scale { get; }
@@ -72,7 +72,7 @@ ref short Scale { get; }
 
 ### WorldGroupID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/sky3dparams_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/sky3dparams_t.cs#L28)
 
 ```csharp
 ref uint WorldGroupID { get; }
@@ -86,7 +86,7 @@ ref uint WorldGroupID { get; }
 
 ### Clip3DSkyBoxNearToWorldFarOffsetUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/sky3dparams_t.cs#L32)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/sky3dparams_t.cs#L33)
 
 ```csharp
 void Clip3DSkyBoxNearToWorldFarOffsetUpdated()
@@ -94,7 +94,7 @@ void Clip3DSkyBoxNearToWorldFarOffsetUpdated()
 
 ### Clip3DSkyBoxNearToWorldFarUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/sky3dparams_t.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/sky3dparams_t.cs#L32)
 
 ```csharp
 void Clip3DSkyBoxNearToWorldFarUpdated()
@@ -102,7 +102,7 @@ void Clip3DSkyBoxNearToWorldFarUpdated()
 
 ### FogUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/sky3dparams_t.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/sky3dparams_t.cs#L34)
 
 ```csharp
 void FogUpdated()
@@ -110,7 +110,7 @@ void FogUpdated()
 
 ### OriginUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/sky3dparams_t.cs#L30)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/sky3dparams_t.cs#L31)
 
 ```csharp
 void OriginUpdated()
@@ -118,7 +118,7 @@ void OriginUpdated()
 
 ### ScaleUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/sky3dparams_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/sky3dparams_t.cs#L30)
 
 ```csharp
 void ScaleUpdated()
@@ -126,7 +126,7 @@ void ScaleUpdated()
 
 ### WorldGroupIDUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/sky3dparams_t.cs#L34)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/sky3dparams_t.cs#L35)
 
 ```csharp
 void WorldGroupIDUpdated()

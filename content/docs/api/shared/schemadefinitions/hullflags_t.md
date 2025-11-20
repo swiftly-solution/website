@@ -12,7 +12,7 @@ public interface HullFlags_t : ISchemaClass<HullFlags_t>, ISchemaField, ISchemaC
 
 ### Hull_Human
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HullFlags_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HullFlags_t.cs#L18)
 
 ```csharp
 ref bool Hull_Human { get; }
@@ -24,7 +24,7 @@ ref bool Hull_Human { get; }
 
 ### Hull_Large
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HullFlags_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HullFlags_t.cs#L30)
 
 ```csharp
 ref bool Hull_Large { get; }
@@ -36,7 +36,7 @@ ref bool Hull_Large { get; }
 
 ### Hull_LargeCentered
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HullFlags_t.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HullFlags_t.cs#L32)
 
 ```csharp
 ref bool Hull_LargeCentered { get; }
@@ -48,7 +48,7 @@ ref bool Hull_LargeCentered { get; }
 
 ### Hull_Medium
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HullFlags_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HullFlags_t.cs#L26)
 
 ```csharp
 ref bool Hull_Medium { get; }
@@ -60,7 +60,7 @@ ref bool Hull_Medium { get; }
 
 ### Hull_MediumTall
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HullFlags_t.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HullFlags_t.cs#L34)
 
 ```csharp
 ref bool Hull_MediumTall { get; }
@@ -72,7 +72,7 @@ ref bool Hull_MediumTall { get; }
 
 ### Hull_Small
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HullFlags_t.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HullFlags_t.cs#L36)
 
 ```csharp
 ref bool Hull_Small { get; }
@@ -84,7 +84,7 @@ ref bool Hull_Small { get; }
 
 ### Hull_SmallCentered
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HullFlags_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HullFlags_t.cs#L20)
 
 ```csharp
 ref bool Hull_SmallCentered { get; }
@@ -96,7 +96,7 @@ ref bool Hull_SmallCentered { get; }
 
 ### Hull_Tiny
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HullFlags_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HullFlags_t.cs#L24)
 
 ```csharp
 ref bool Hull_Tiny { get; }
@@ -108,7 +108,7 @@ ref bool Hull_Tiny { get; }
 
 ### Hull_TinyCentered
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HullFlags_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HullFlags_t.cs#L28)
 
 ```csharp
 ref bool Hull_TinyCentered { get; }
@@ -120,7 +120,7 @@ ref bool Hull_TinyCentered { get; }
 
 ### Hull_WideHuman
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HullFlags_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HullFlags_t.cs#L22)
 
 ```csharp
 ref bool Hull_WideHuman { get; }

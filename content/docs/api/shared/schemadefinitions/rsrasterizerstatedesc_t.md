@@ -12,7 +12,7 @@ public interface RsRasterizerStateDesc_t : ISchemaClass<RsRasterizerStateDesc_t>
 
 ### CullMode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsRasterizerStateDesc_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsRasterizerStateDesc_t.cs#L20)
 
 ```csharp
 ref RsCullMode_t CullMode { get; }
@@ -24,7 +24,7 @@ ref RsCullMode_t CullMode { get; }
 
 ### DepthBias
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsRasterizerStateDesc_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsRasterizerStateDesc_t.cs#L26)
 
 ```csharp
 ref int DepthBias { get; }
@@ -36,7 +36,7 @@ ref int DepthBias { get; }
 
 ### DepthBiasClamp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsRasterizerStateDesc_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsRasterizerStateDesc_t.cs#L28)
 
 ```csharp
 ref float DepthBiasClamp { get; }
@@ -48,7 +48,7 @@ ref float DepthBiasClamp { get; }
 
 ### DepthClipEnable
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsRasterizerStateDesc_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsRasterizerStateDesc_t.cs#L22)
 
 ```csharp
 ref bool DepthClipEnable { get; }
@@ -60,7 +60,7 @@ ref bool DepthClipEnable { get; }
 
 ### FillMode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsRasterizerStateDesc_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsRasterizerStateDesc_t.cs#L18)
 
 ```csharp
 ref RsFillMode_t FillMode { get; }
@@ -72,7 +72,7 @@ ref RsFillMode_t FillMode { get; }
 
 ### MultisampleEnable
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsRasterizerStateDesc_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsRasterizerStateDesc_t.cs#L24)
 
 ```csharp
 ref bool MultisampleEnable { get; }
@@ -84,7 +84,7 @@ ref bool MultisampleEnable { get; }
 
 ### SlopeScaledDepthBias
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsRasterizerStateDesc_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsRasterizerStateDesc_t.cs#L30)
 
 ```csharp
 ref float SlopeScaledDepthBias { get; }

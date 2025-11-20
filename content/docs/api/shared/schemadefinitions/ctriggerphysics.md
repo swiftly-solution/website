@@ -12,7 +12,7 @@ public interface CTriggerPhysics : CBaseTrigger, CBaseToggle, CBaseModelEntity, 
 
 ### AngularDamping
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L26)
 
 ```csharp
 ref float AngularDamping { get; }
@@ -24,7 +24,7 @@ ref float AngularDamping { get; }
 
 ### AngularLimit
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L24)
 
 ```csharp
 ref float AngularLimit { get; }
@@ -36,7 +36,7 @@ ref float AngularLimit { get; }
 
 ### CollapseToForcePoint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L36)
 
 ```csharp
 ref bool CollapseToForcePoint { get; }
@@ -48,7 +48,7 @@ ref bool CollapseToForcePoint { get; }
 
 ### ConvertToDebrisWhenPossible
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L42)
 
 ```csharp
 ref bool ConvertToDebrisWhenPossible { get; }
@@ -60,7 +60,7 @@ ref bool ConvertToDebrisWhenPossible { get; }
 
 ### DampingRatio
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L32)
 
 ```csharp
 ref float DampingRatio { get; }
@@ -72,7 +72,7 @@ ref float DampingRatio { get; }
 
 ### Frequency
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L30)
 
 ```csharp
 ref float Frequency { get; }
@@ -84,7 +84,7 @@ ref float Frequency { get; }
 
 ### GravityScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L18)
 
 ```csharp
 ref float GravityScale { get; }
@@ -96,7 +96,7 @@ ref float GravityScale { get; }
 
 ### LinearDamping
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L22)
 
 ```csharp
 ref float LinearDamping { get; }
@@ -108,7 +108,7 @@ ref float LinearDamping { get; }
 
 ### LinearForce
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L28)
 
 ```csharp
 ref float LinearForce { get; }
@@ -120,7 +120,7 @@ ref float LinearForce { get; }
 
 ### LinearForceDirection
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L40)
 
 ```csharp
 ref Vector LinearForceDirection { get; }
@@ -132,7 +132,7 @@ ref Vector LinearForceDirection { get; }
 
 ### LinearForcePointAt
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L34)
 
 ```csharp
 ref Vector LinearForcePointAt { get; }
@@ -144,7 +144,7 @@ ref Vector LinearForcePointAt { get; }
 
 ### LinearForcePointAtWorld
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L38)
 
 ```csharp
 ref Vector LinearForcePointAtWorld { get; }
@@ -156,7 +156,7 @@ ref Vector LinearForcePointAtWorld { get; }
 
 ### LinearLimit
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L20)
 
 ```csharp
 ref float LinearLimit { get; }
@@ -170,7 +170,7 @@ ref float LinearLimit { get; }
 
 ### AngularDampingUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L48)
 
 ```csharp
 void AngularDampingUpdated()
@@ -178,7 +178,7 @@ void AngularDampingUpdated()
 
 ### AngularLimitUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L46)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L47)
 
 ```csharp
 void AngularLimitUpdated()
@@ -186,7 +186,7 @@ void AngularLimitUpdated()
 
 ### CollapseToForcePointUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L52)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L53)
 
 ```csharp
 void CollapseToForcePointUpdated()
@@ -194,7 +194,7 @@ void CollapseToForcePointUpdated()
 
 ### ConvertToDebrisWhenPossibleUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L56)
 
 ```csharp
 void ConvertToDebrisWhenPossibleUpdated()
@@ -202,7 +202,7 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ### DampingRatioUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L50)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L51)
 
 ```csharp
 void DampingRatioUpdated()
@@ -210,7 +210,7 @@ void DampingRatioUpdated()
 
 ### FrequencyUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L50)
 
 ```csharp
 void FrequencyUpdated()
@@ -218,7 +218,7 @@ void FrequencyUpdated()
 
 ### GravityScaleUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L44)
 
 ```csharp
 void GravityScaleUpdated()
@@ -226,7 +226,7 @@ void GravityScaleUpdated()
 
 ### LinearDampingUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L46)
 
 ```csharp
 void LinearDampingUpdated()
@@ -234,7 +234,7 @@ void LinearDampingUpdated()
 
 ### LinearForceDirectionUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L54)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L55)
 
 ```csharp
 void LinearForceDirectionUpdated()
@@ -242,7 +242,7 @@ void LinearForceDirectionUpdated()
 
 ### LinearForcePointAtUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L52)
 
 ```csharp
 void LinearForcePointAtUpdated()
@@ -250,7 +250,7 @@ void LinearForcePointAtUpdated()
 
 ### LinearForcePointAtWorldUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L54)
 
 ```csharp
 void LinearForcePointAtWorldUpdated()
@@ -258,7 +258,7 @@ void LinearForcePointAtWorldUpdated()
 
 ### LinearForceUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L48)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L49)
 
 ```csharp
 void LinearForceUpdated()
@@ -266,7 +266,7 @@ void LinearForceUpdated()
 
 ### LinearLimitUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L44)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPhysics.cs#L45)
 
 ```csharp
 void LinearLimitUpdated()

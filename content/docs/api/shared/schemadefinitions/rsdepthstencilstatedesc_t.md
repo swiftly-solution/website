@@ -12,7 +12,7 @@ public interface RsDepthStencilStateDesc_t : ISchemaClass<RsDepthStencilStateDes
 
 ### DepthFunc
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsDepthStencilStateDesc_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsDepthStencilStateDesc_t.cs#L24)
 
 ```csharp
 ref RsComparison_t DepthFunc { get; }
@@ -24,7 +24,7 @@ ref RsComparison_t DepthFunc { get; }
 
 ### DepthTestEnable
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsDepthStencilStateDesc_t.cs#L18)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsDepthStencilStateDesc_t.cs#L19)
 
 ```csharp
 SchemaUntypedField DepthTestEnable { get; }
@@ -36,7 +36,7 @@ SchemaUntypedField DepthTestEnable { get; }
 
 ### DepthWriteEnable
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsDepthStencilStateDesc_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsDepthStencilStateDesc_t.cs#L22)
 
 ```csharp
 SchemaUntypedField DepthWriteEnable { get; }
@@ -48,7 +48,7 @@ SchemaUntypedField DepthWriteEnable { get; }
 
 ### StencilState
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsDepthStencilStateDesc_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsDepthStencilStateDesc_t.cs#L26)
 
 ```csharp
 RsStencilStateDesc_t StencilState { get; }

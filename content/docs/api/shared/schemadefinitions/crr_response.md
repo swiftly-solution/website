@@ -12,7 +12,7 @@ public interface CRR_Response : ISchemaClass<CRR_Response>, ISchemaField, ISchem
 
 ### AnyMatchingRulesInCooldown
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRR_Response.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRR_Response.cs#L28)
 
 ```csharp
 ref bool AnyMatchingRulesInCooldown { get; }
@@ -24,7 +24,7 @@ ref bool AnyMatchingRulesInCooldown { get; }
 
 ### Followup
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRR_Response.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRR_Response.cs#L34)
 
 ```csharp
 ResponseFollowup Followup { get; }
@@ -36,7 +36,7 @@ ResponseFollowup Followup { get; }
 
 ### MatchScore
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRR_Response.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRR_Response.cs#L26)
 
 ```csharp
 ref float MatchScore { get; }
@@ -48,7 +48,7 @@ ref float MatchScore { get; }
 
 ### MatchingRule
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRR_Response.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRR_Response.cs#L22)
 
 ```csharp
 string MatchingRule { get; set; }
@@ -60,7 +60,7 @@ string MatchingRule { get; set; }
 
 ### Params
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRR_Response.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRR_Response.cs#L24)
 
 ```csharp
 ResponseParams Params { get; }
@@ -72,7 +72,7 @@ ResponseParams Params { get; }
 
 ### RecipientFilter
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRR_Response.cs#L36)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRR_Response.cs#L37)
 
 ```csharp
 SchemaUntypedField RecipientFilter { get; }
@@ -84,7 +84,7 @@ SchemaUntypedField RecipientFilter { get; }
 
 ### ResponseName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRR_Response.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRR_Response.cs#L20)
 
 ```csharp
 string ResponseName { get; set; }
@@ -96,7 +96,7 @@ string ResponseName { get; set; }
 
 ### SpeakerContext
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRR_Response.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRR_Response.cs#L30)
 
 ```csharp
 string SpeakerContext { get; set; }
@@ -108,7 +108,7 @@ string SpeakerContext { get; set; }
 
 ### Type
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRR_Response.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRR_Response.cs#L18)
 
 ```csharp
 ref byte Type { get; }
@@ -120,7 +120,7 @@ ref byte Type { get; }
 
 ### WorldContext
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRR_Response.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRR_Response.cs#L32)
 
 ```csharp
 string WorldContext { get; set; }

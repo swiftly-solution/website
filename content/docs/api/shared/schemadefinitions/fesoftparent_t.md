@@ -12,7 +12,7 @@ public interface FeSoftParent_t : ISchemaClass<FeSoftParent_t>, ISchemaField, IS
 
 ### Alpha
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeSoftParent_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeSoftParent_t.cs#L20)
 
 ```csharp
 ref float Alpha { get; }
@@ -24,7 +24,7 @@ ref float Alpha { get; }
 
 ### Parent
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeSoftParent_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeSoftParent_t.cs#L18)
 
 ```csharp
 ref int Parent { get; }

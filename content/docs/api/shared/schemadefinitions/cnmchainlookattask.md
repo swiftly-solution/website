@@ -12,7 +12,7 @@ public interface CNmChainLookatTask : CNmPoseTask, ISchemaClass<CNmPoseTask>, IS
 
 ### BlendWeight
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainLookatTask.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainLookatTask.cs#L24)
 
 ```csharp
 ref float BlendWeight { get; }
@@ -24,7 +24,7 @@ ref float BlendWeight { get; }
 
 ### ChainEndBoneIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainLookatTask.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainLookatTask.cs#L18)
 
 ```csharp
 ref int ChainEndBoneIdx { get; }
@@ -36,7 +36,7 @@ ref int ChainEndBoneIdx { get; }
 
 ### ChainForwardDir
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainLookatTask.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainLookatTask.cs#L22)
 
 ```csharp
 ref Vector ChainForwardDir { get; }
@@ -48,7 +48,7 @@ ref Vector ChainForwardDir { get; }
 
 ### HorizontalAngleDegrees
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainLookatTask.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainLookatTask.cs#L36)
 
 ```csharp
 ref float HorizontalAngleDegrees { get; }
@@ -60,7 +60,7 @@ ref float HorizontalAngleDegrees { get; }
 
 ### HorizontalAngleLimitDegrees
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainLookatTask.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainLookatTask.cs#L26)
 
 ```csharp
 ref float HorizontalAngleLimitDegrees { get; }
@@ -72,7 +72,7 @@ ref float HorizontalAngleLimitDegrees { get; }
 
 ### IsRunningFromDeserializedData
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainLookatTask.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainLookatTask.cs#L34)
 
 ```csharp
 ref bool IsRunningFromDeserializedData { get; }
@@ -84,7 +84,7 @@ ref bool IsRunningFromDeserializedData { get; }
 
 ### IsTargetInWorldSpace
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainLookatTask.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainLookatTask.cs#L32)
 
 ```csharp
 ref bool IsTargetInWorldSpace { get; }
@@ -96,7 +96,7 @@ ref bool IsTargetInWorldSpace { get; }
 
 ### LookatTarget
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainLookatTask.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainLookatTask.cs#L30)
 
 ```csharp
 ref Vector LookatTarget { get; }
@@ -108,7 +108,7 @@ ref Vector LookatTarget { get; }
 
 ### NumBonesInChain
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainLookatTask.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainLookatTask.cs#L20)
 
 ```csharp
 ref int NumBonesInChain { get; }
@@ -120,7 +120,7 @@ ref int NumBonesInChain { get; }
 
 ### VerticalAngleDegrees
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainLookatTask.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainLookatTask.cs#L38)
 
 ```csharp
 ref float VerticalAngleDegrees { get; }
@@ -132,7 +132,7 @@ ref float VerticalAngleDegrees { get; }
 
 ### VerticalAngleLimitDegrees
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainLookatTask.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainLookatTask.cs#L28)
 
 ```csharp
 ref float VerticalAngleLimitDegrees { get; }

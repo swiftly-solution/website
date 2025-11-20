@@ -12,7 +12,7 @@ public interface CVoiceContainerGranulator : CVoiceContainerBase, ISchemaClass<C
 
 ### GrainCrossfadeAmount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerGranulator.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerGranulator.cs#L20)
 
 ```csharp
 ref float GrainCrossfadeAmount { get; }
@@ -24,7 +24,7 @@ ref float GrainCrossfadeAmount { get; }
 
 ### GrainLength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerGranulator.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerGranulator.cs#L18)
 
 ```csharp
 ref float GrainLength { get; }
@@ -36,7 +36,7 @@ ref float GrainLength { get; }
 
 ### PlaybackJitter
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerGranulator.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerGranulator.cs#L24)
 
 ```csharp
 ref float PlaybackJitter { get; }
@@ -48,7 +48,7 @@ ref float PlaybackJitter { get; }
 
 ### ShouldWraparound
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerGranulator.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerGranulator.cs#L26)
 
 ```csharp
 ref bool ShouldWraparound { get; }
@@ -60,7 +60,7 @@ ref bool ShouldWraparound { get; }
 
 ### SourceAudio
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerGranulator.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerGranulator.cs#L28)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCVoiceContainerBase> SourceAudio { get; }
@@ -72,7 +72,7 @@ ref CStrongHandle<InfoForResourceTypeCVoiceContainerBase> SourceAudio { get; }
 
 ### StartJitter
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerGranulator.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerGranulator.cs#L22)
 
 ```csharp
 ref float StartJitter { get; }

@@ -12,7 +12,7 @@ public interface CTriggerSave : CBaseTrigger, CBaseToggle, CBaseModelEntity, CBa
 
 ### DangerousTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSave.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSave.cs#L20)
 
 ```csharp
 ref float DangerousTimer { get; }
@@ -24,7 +24,7 @@ ref float DangerousTimer { get; }
 
 ### ForceNewLevelUnit
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSave.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSave.cs#L18)
 
 ```csharp
 ref bool ForceNewLevelUnit { get; }
@@ -36,7 +36,7 @@ ref bool ForceNewLevelUnit { get; }
 
 ### MinHitPoints
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSave.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSave.cs#L22)
 
 ```csharp
 ref int MinHitPoints { get; }

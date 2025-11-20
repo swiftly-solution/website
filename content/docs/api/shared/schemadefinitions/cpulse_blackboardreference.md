@@ -12,7 +12,7 @@ public interface CPulse_BlackboardReference : ISchemaClass<CPulse_BlackboardRefe
 
 ### BlackboardResource
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_BlackboardReference.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_BlackboardReference.cs#L18)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeIPulseGraphDef> BlackboardResource { get; }
@@ -24,7 +24,7 @@ ref CStrongHandle<InfoForResourceTypeIPulseGraphDef> BlackboardResource { get; }
 
 ### BlackboardResource1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_BlackboardReference.cs#L20)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_BlackboardReference.cs#L21)
 
 ```csharp
 SchemaUntypedField BlackboardResource1 { get; }
@@ -36,7 +36,7 @@ SchemaUntypedField BlackboardResource1 { get; }
 
 ### NodeID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_BlackboardReference.cs#L22)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_BlackboardReference.cs#L23)
 
 ```csharp
 PulseDocNodeID_t NodeID { get; }
@@ -48,7 +48,7 @@ PulseDocNodeID_t NodeID { get; }
 
 ### NodeName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_BlackboardReference.cs#L24)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_BlackboardReference.cs#L25)
 
 ```csharp
 ref CGlobalSymbol NodeName { get; }

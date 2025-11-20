@@ -12,7 +12,7 @@ public interface WorldNodeOnDiskBufferData_t : ISchemaClass<WorldNodeOnDiskBuffe
 
 ### Data
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNodeOnDiskBufferData_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNodeOnDiskBufferData_t.cs#L24)
 
 ```csharp
 ref CUtlVector<byte> Data { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<byte> Data { get; }
 
 ### ElementCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNodeOnDiskBufferData_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNodeOnDiskBufferData_t.cs#L18)
 
 ```csharp
 ref int ElementCount { get; }
@@ -36,7 +36,7 @@ ref int ElementCount { get; }
 
 ### ElementSizeInBytes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNodeOnDiskBufferData_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNodeOnDiskBufferData_t.cs#L20)
 
 ```csharp
 ref int ElementSizeInBytes { get; }
@@ -48,7 +48,7 @@ ref int ElementSizeInBytes { get; }
 
 ### InputLayoutFields
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNodeOnDiskBufferData_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNodeOnDiskBufferData_t.cs#L22)
 
 ```csharp
 ref CUtlVector<RenderInputLayoutField_t> InputLayoutFields { get; }

@@ -12,7 +12,7 @@ public interface ViewAngleServerChange_t : ISchemaClass<ViewAngleServerChange_t>
 
 ### Angle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ViewAngleServerChange_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ViewAngleServerChange_t.cs#L20)
 
 ```csharp
 ref QAngle Angle { get; }
@@ -24,7 +24,7 @@ ref QAngle Angle { get; }
 
 ### Index
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ViewAngleServerChange_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ViewAngleServerChange_t.cs#L22)
 
 ```csharp
 ref uint Index { get; }
@@ -36,7 +36,7 @@ ref uint Index { get; }
 
 ### Type
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ViewAngleServerChange_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ViewAngleServerChange_t.cs#L18)
 
 ```csharp
 ref FixAngleSet_t Type { get; }
@@ -50,7 +50,7 @@ ref FixAngleSet_t Type { get; }
 
 ### AngleUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ViewAngleServerChange_t.cs#L24)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ViewAngleServerChange_t.cs#L25)
 
 ```csharp
 void AngleUpdated()
@@ -58,7 +58,7 @@ void AngleUpdated()
 
 ### IndexUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ViewAngleServerChange_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ViewAngleServerChange_t.cs#L26)
 
 ```csharp
 void IndexUpdated()
@@ -66,7 +66,7 @@ void IndexUpdated()
 
 ### TypeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ViewAngleServerChange_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ViewAngleServerChange_t.cs#L24)
 
 ```csharp
 void TypeUpdated()

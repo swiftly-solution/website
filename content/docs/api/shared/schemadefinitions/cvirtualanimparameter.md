@@ -12,7 +12,7 @@ public interface CVirtualAnimParameter : CAnimParameterBase, ISchemaClass<CAnimP
 
 ### ExpressionString
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVirtualAnimParameter.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVirtualAnimParameter.cs#L18)
 
 ```csharp
 string ExpressionString { get; set; }
@@ -24,7 +24,7 @@ string ExpressionString { get; set; }
 
 ### ParamType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVirtualAnimParameter.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVirtualAnimParameter.cs#L20)
 
 ```csharp
 ref AnimParamType_t ParamType { get; }

@@ -12,7 +12,7 @@ public interface FollowTargetOpFixedSettings_t : ISchemaClass<FollowTargetOpFixe
 
 ### BoneIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FollowTargetOpFixedSettings_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FollowTargetOpFixedSettings_t.cs#L18)
 
 ```csharp
 ref int BoneIndex { get; }
@@ -24,7 +24,7 @@ ref int BoneIndex { get; }
 
 ### BoneTarget
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FollowTargetOpFixedSettings_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FollowTargetOpFixedSettings_t.cs#L20)
 
 ```csharp
 ref bool BoneTarget { get; }
@@ -36,7 +36,7 @@ ref bool BoneTarget { get; }
 
 ### BoneTargetIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FollowTargetOpFixedSettings_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FollowTargetOpFixedSettings_t.cs#L22)
 
 ```csharp
 ref int BoneTargetIndex { get; }
@@ -48,7 +48,7 @@ ref int BoneTargetIndex { get; }
 
 ### MatchTargetOrientation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FollowTargetOpFixedSettings_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FollowTargetOpFixedSettings_t.cs#L26)
 
 ```csharp
 ref bool MatchTargetOrientation { get; }
@@ -60,7 +60,7 @@ ref bool MatchTargetOrientation { get; }
 
 ### WorldCoodinateTarget
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FollowTargetOpFixedSettings_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FollowTargetOpFixedSettings_t.cs#L24)
 
 ```csharp
 ref bool WorldCoodinateTarget { get; }

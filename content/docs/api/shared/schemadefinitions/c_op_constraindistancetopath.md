@@ -12,7 +12,7 @@ public interface C_OP_ConstrainDistanceToPath : CParticleFunctionConstraint, CPa
 
 ### FieldScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConstrainDistanceToPath.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConstrainDistanceToPath.cs#L30)
 
 ```csharp
 ParticleAttributeIndex_t FieldScale { get; }
@@ -24,7 +24,7 @@ ParticleAttributeIndex_t FieldScale { get; }
 
 ### ManualTField
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConstrainDistanceToPath.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConstrainDistanceToPath.cs#L32)
 
 ```csharp
 ParticleAttributeIndex_t ManualTField { get; }
@@ -36,7 +36,7 @@ ParticleAttributeIndex_t ManualTField { get; }
 
 ### MaxDistance0
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConstrainDistanceToPath.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConstrainDistanceToPath.cs#L20)
 
 ```csharp
 ref float MaxDistance0 { get; }
@@ -48,7 +48,7 @@ ref float MaxDistance0 { get; }
 
 ### MaxDistance1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConstrainDistanceToPath.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConstrainDistanceToPath.cs#L24)
 
 ```csharp
 ref float MaxDistance1 { get; }
@@ -60,7 +60,7 @@ ref float MaxDistance1 { get; }
 
 ### MaxDistanceMid
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConstrainDistanceToPath.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConstrainDistanceToPath.cs#L22)
 
 ```csharp
 ref float MaxDistanceMid { get; }
@@ -72,7 +72,7 @@ ref float MaxDistanceMid { get; }
 
 ### MinDistance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConstrainDistanceToPath.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConstrainDistanceToPath.cs#L18)
 
 ```csharp
 ref float MinDistance { get; }
@@ -84,7 +84,7 @@ ref float MinDistance { get; }
 
 ### PathParameters
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConstrainDistanceToPath.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConstrainDistanceToPath.cs#L26)
 
 ```csharp
 CPathParameters PathParameters { get; }
@@ -96,7 +96,7 @@ CPathParameters PathParameters { get; }
 
 ### TravelTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConstrainDistanceToPath.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConstrainDistanceToPath.cs#L28)
 
 ```csharp
 ref float TravelTime { get; }

@@ -12,7 +12,7 @@ public interface CSoundOpvarSetPathCornerEntity : CSoundOpvarSetPointEntity, CSo
 
 ### DistMaxSqr
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPathCornerEntity.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPathCornerEntity.cs#L20)
 
 ```csharp
 ref float DistMaxSqr { get; }
@@ -24,7 +24,7 @@ ref float DistMaxSqr { get; }
 
 ### DistMinSqr
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPathCornerEntity.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPathCornerEntity.cs#L18)
 
 ```csharp
 ref float DistMinSqr { get; }
@@ -36,7 +36,7 @@ ref float DistMinSqr { get; }
 
 ### PathCornerEntityName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPathCornerEntity.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPathCornerEntity.cs#L22)
 
 ```csharp
 string PathCornerEntityName { get; set; }

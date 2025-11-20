@@ -12,7 +12,7 @@ public interface VariableInfo_t : ISchemaClass<VariableInfo_t>, ISchemaField, IS
 
 ### Access
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VariableInfo_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VariableInfo_t.cs#L28)
 
 ```csharp
 ref FuseVariableAccess_t Access { get; }
@@ -24,7 +24,7 @@ ref FuseVariableAccess_t Access { get; }
 
 ### Index
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VariableInfo_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VariableInfo_t.cs#L22)
 
 ```csharp
 FuseVariableIndex_t Index { get; }
@@ -36,7 +36,7 @@ FuseVariableIndex_t Index { get; }
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VariableInfo_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VariableInfo_t.cs#L18)
 
 ```csharp
 string Name { get; set; }
@@ -48,7 +48,7 @@ string Name { get; set; }
 
 ### NameToken
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VariableInfo_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VariableInfo_t.cs#L20)
 
 ```csharp
 ref CUtlStringToken NameToken { get; }
@@ -60,7 +60,7 @@ ref CUtlStringToken NameToken { get; }
 
 ### NumComponents
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VariableInfo_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VariableInfo_t.cs#L24)
 
 ```csharp
 ref byte NumComponents { get; }
@@ -72,7 +72,7 @@ ref byte NumComponents { get; }
 
 ### VarType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VariableInfo_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VariableInfo_t.cs#L26)
 
 ```csharp
 ref FuseVariableType_t VarType { get; }

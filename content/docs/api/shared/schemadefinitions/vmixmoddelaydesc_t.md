@@ -12,7 +12,7 @@ public interface VMixModDelayDesc_t : ISchemaClass<VMixModDelayDesc_t>, ISchemaF
 
 ### ApplyAntialiasing
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixModDelayDesc_t.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixModDelayDesc_t.cs#L34)
 
 ```csharp
 ref bool ApplyAntialiasing { get; }
@@ -24,7 +24,7 @@ ref bool ApplyAntialiasing { get; }
 
 ### Delay
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixModDelayDesc_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixModDelayDesc_t.cs#L24)
 
 ```csharp
 ref float Delay { get; }
@@ -36,7 +36,7 @@ ref float Delay { get; }
 
 ### FeedbackFilter
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixModDelayDesc_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixModDelayDesc_t.cs#L18)
 
 ```csharp
 VMixFilterDesc_t FeedbackFilter { get; }
@@ -48,7 +48,7 @@ VMixFilterDesc_t FeedbackFilter { get; }
 
 ### FeedbackGain
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixModDelayDesc_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixModDelayDesc_t.cs#L28)
 
 ```csharp
 ref float FeedbackGain { get; }
@@ -60,7 +60,7 @@ ref float FeedbackGain { get; }
 
 ### GlideTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixModDelayDesc_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixModDelayDesc_t.cs#L22)
 
 ```csharp
 ref float GlideTime { get; }
@@ -72,7 +72,7 @@ ref float GlideTime { get; }
 
 ### ModDepth
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixModDelayDesc_t.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixModDelayDesc_t.cs#L32)
 
 ```csharp
 ref float ModDepth { get; }
@@ -84,7 +84,7 @@ ref float ModDepth { get; }
 
 ### ModRate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixModDelayDesc_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixModDelayDesc_t.cs#L30)
 
 ```csharp
 ref float ModRate { get; }
@@ -96,7 +96,7 @@ ref float ModRate { get; }
 
 ### OutputGain
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixModDelayDesc_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixModDelayDesc_t.cs#L26)
 
 ```csharp
 ref float OutputGain { get; }
@@ -108,7 +108,7 @@ ref float OutputGain { get; }
 
 ### PhaseInvert
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixModDelayDesc_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixModDelayDesc_t.cs#L20)
 
 ```csharp
 ref bool PhaseInvert { get; }

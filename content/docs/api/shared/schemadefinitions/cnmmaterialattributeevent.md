@@ -12,7 +12,7 @@ public interface CNmMaterialAttributeEvent : CNmEvent, ISchemaClass<CNmEvent>, I
 
 ### AttributeName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmMaterialAttributeEvent.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmMaterialAttributeEvent.cs#L18)
 
 ```csharp
 string AttributeName { get; set; }
@@ -24,7 +24,7 @@ string AttributeName { get; set; }
 
 ### AttributeNameToken
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmMaterialAttributeEvent.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmMaterialAttributeEvent.cs#L20)
 
 ```csharp
 ref CUtlStringToken AttributeNameToken { get; }
@@ -36,7 +36,7 @@ ref CUtlStringToken AttributeNameToken { get; }
 
 ### W
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmMaterialAttributeEvent.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmMaterialAttributeEvent.cs#L32)
 
 ```csharp
 SchemaUntypedField W { get; }
@@ -48,7 +48,7 @@ SchemaUntypedField W { get; }
 
 ### X
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmMaterialAttributeEvent.cs#L22)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmMaterialAttributeEvent.cs#L23)
 
 ```csharp
 SchemaUntypedField X { get; }
@@ -60,7 +60,7 @@ SchemaUntypedField X { get; }
 
 ### Y
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmMaterialAttributeEvent.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmMaterialAttributeEvent.cs#L26)
 
 ```csharp
 SchemaUntypedField Y { get; }
@@ -72,7 +72,7 @@ SchemaUntypedField Y { get; }
 
 ### Z
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmMaterialAttributeEvent.cs#L28)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmMaterialAttributeEvent.cs#L29)
 
 ```csharp
 SchemaUntypedField Z { get; }

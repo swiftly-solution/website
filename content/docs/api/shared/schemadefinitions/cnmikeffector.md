@@ -12,7 +12,7 @@ public interface CNmIKEffector : ISchemaClass<CNmIKEffector>, ISchemaField, ISch
 
 ### BodyIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKEffector.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKEffector.cs#L18)
 
 ```csharp
 ref int BodyIndex { get; }
@@ -24,7 +24,7 @@ ref int BodyIndex { get; }
 
 ### Enabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKEffector.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKEffector.cs#L20)
 
 ```csharp
 ref bool Enabled { get; }
@@ -36,7 +36,7 @@ ref bool Enabled { get; }
 
 ### TargetOrientation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKEffector.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKEffector.cs#L24)
 
 ```csharp
 ref Quaternion TargetOrientation { get; }
@@ -48,7 +48,7 @@ ref Quaternion TargetOrientation { get; }
 
 ### TargetPosition
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKEffector.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKEffector.cs#L22)
 
 ```csharp
 ref Vector TargetPosition { get; }
@@ -60,7 +60,7 @@ ref Vector TargetPosition { get; }
 
 ### Weight
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKEffector.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKEffector.cs#L26)
 
 ```csharp
 ref float Weight { get; }

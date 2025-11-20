@@ -12,7 +12,7 @@ public interface CNavLinkMovementVData : ISchemaClass<CNavLinkMovementVData>, IS
 
 ### AnimgraphVars
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkMovementVData.cs#L24)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkMovementVData.cs#L25)
 
 ```csharp
 ref CUtlVector<CNavLinkAnimgraphVar> AnimgraphVars { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<CNavLinkAnimgraphVar> AnimgraphVars { get; }
 
 ### IsInterpolated
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkMovementVData.cs#L20)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkMovementVData.cs#L21)
 
 ```csharp
 ref bool IsInterpolated { get; }
@@ -36,7 +36,7 @@ ref bool IsInterpolated { get; }
 
 ### RecommendedDistance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkMovementVData.cs#L22)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkMovementVData.cs#L23)
 
 ```csharp
 ref uint RecommendedDistance { get; }
@@ -48,7 +48,7 @@ ref uint RecommendedDistance { get; }
 
 ### ToolsOnlyOwnerModelName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkMovementVData.cs#L18)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkMovementVData.cs#L19)
 
 ```csharp
 SchemaUntypedField ToolsOnlyOwnerModelName { get; }

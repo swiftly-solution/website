@@ -12,7 +12,7 @@ public interface CNmGraphDefinition : ISchemaClass<CNmGraphDefinition>, ISchemaF
 
 ### ControlParameterIDs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmGraphDefinition.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmGraphDefinition.cs#L26)
 
 ```csharp
 ref CUtlVector<CGlobalSymbol> ControlParameterIDs { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<CGlobalSymbol> ControlParameterIDs { get; }
 
 ### ExternalGraphSlots
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmGraphDefinition.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmGraphDefinition.cs#L34)
 
 ```csharp
 ref CUtlVector<CNmGraphDefinition__ExternalGraphSlot_t> ExternalGraphSlots { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<CNmGraphDefinition__ExternalGraphSlot_t> ExternalGraphSlots { get
 
 ### NodePaths
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmGraphDefinition.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmGraphDefinition.cs#L36)
 
 ```csharp
 ref CUtlVector<CUtlString> NodePaths { get; }
@@ -48,7 +48,7 @@ ref CUtlVector<CUtlString> NodePaths { get; }
 
 ### PersistentNodeIndices
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmGraphDefinition.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmGraphDefinition.cs#L22)
 
 ```csharp
 ref CUtlVector<short> PersistentNodeIndices { get; }
@@ -60,7 +60,7 @@ ref CUtlVector<short> PersistentNodeIndices { get; }
 
 ### ReferencedGraphSlots
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmGraphDefinition.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmGraphDefinition.cs#L32)
 
 ```csharp
 ref CUtlVector<CNmGraphDefinition__ReferencedGraphSlot_t> ReferencedGraphSlots { get; }
@@ -72,7 +72,7 @@ ref CUtlVector<CNmGraphDefinition__ReferencedGraphSlot_t> ReferencedGraphSlots {
 
 ### Resources
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmGraphDefinition.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmGraphDefinition.cs#L38)
 
 ```csharp
 ref CUtlVector<SchemaUntypedField> Resources { get; }
@@ -84,7 +84,7 @@ ref CUtlVector<SchemaUntypedField> Resources { get; }
 
 ### RootNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmGraphDefinition.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmGraphDefinition.cs#L24)
 
 ```csharp
 ref short RootNodeIdx { get; }
@@ -96,7 +96,7 @@ ref short RootNodeIdx { get; }
 
 ### Skeleton
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmGraphDefinition.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmGraphDefinition.cs#L20)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCNmSkeleton> Skeleton { get; }
@@ -108,7 +108,7 @@ ref CStrongHandle<InfoForResourceTypeCNmSkeleton> Skeleton { get; }
 
 ### VariationID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmGraphDefinition.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmGraphDefinition.cs#L18)
 
 ```csharp
 ref CGlobalSymbol VariationID { get; }
@@ -120,7 +120,7 @@ ref CGlobalSymbol VariationID { get; }
 
 ### VirtualParameterIDs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmGraphDefinition.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmGraphDefinition.cs#L28)
 
 ```csharp
 ref CUtlVector<CGlobalSymbol> VirtualParameterIDs { get; }
@@ -132,7 +132,7 @@ ref CUtlVector<CGlobalSymbol> VirtualParameterIDs { get; }
 
 ### VirtualParameterNodeIndices
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmGraphDefinition.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmGraphDefinition.cs#L30)
 
 ```csharp
 ref CUtlVector<short> VirtualParameterNodeIndices { get; }

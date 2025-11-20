@@ -12,7 +12,7 @@ public interface CSkeletonInstance : CGameSceneNode, ISchemaClass<CGameSceneNode
 
 ### DirtyMotionType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkeletonInstance.cs#L26)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkeletonInstance.cs#L27)
 
 ```csharp
 SchemaUntypedField DirtyMotionType { get; }
@@ -24,7 +24,7 @@ SchemaUntypedField DirtyMotionType { get; }
 
 ### DisableSolidCollisionsForHierarchy
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkeletonInstance.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkeletonInstance.cs#L24)
 
 ```csharp
 ref bool DisableSolidCollisionsForHierarchy { get; }
@@ -36,7 +36,7 @@ ref bool DisableSolidCollisionsForHierarchy { get; }
 
 ### HitboxSet
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkeletonInstance.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkeletonInstance.cs#L34)
 
 ```csharp
 ref byte HitboxSet { get; }
@@ -48,7 +48,7 @@ ref byte HitboxSet { get; }
 
 ### IsAnimationEnabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkeletonInstance.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkeletonInstance.cs#L20)
 
 ```csharp
 ref bool IsAnimationEnabled { get; }
@@ -60,7 +60,7 @@ ref bool IsAnimationEnabled { get; }
 
 ### IsGeneratingLatchedParentSpaceState
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkeletonInstance.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkeletonInstance.cs#L30)
 
 ```csharp
 SchemaUntypedField IsGeneratingLatchedParentSpaceState { get; }
@@ -72,7 +72,7 @@ SchemaUntypedField IsGeneratingLatchedParentSpaceState { get; }
 
 ### MaterialGroup
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkeletonInstance.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkeletonInstance.cs#L32)
 
 ```csharp
 ref CUtlStringToken MaterialGroup { get; }
@@ -84,7 +84,7 @@ ref CUtlStringToken MaterialGroup { get; }
 
 ### ModelState
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkeletonInstance.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkeletonInstance.cs#L18)
 
 ```csharp
 CModelState ModelState { get; }
@@ -96,7 +96,7 @@ CModelState ModelState { get; }
 
 ### UseParentRenderBounds
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkeletonInstance.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkeletonInstance.cs#L22)
 
 ```csharp
 ref bool UseParentRenderBounds { get; }
@@ -110,7 +110,7 @@ ref bool UseParentRenderBounds { get; }
 
 ### HitboxSetUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkeletonInstance.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkeletonInstance.cs#L40)
 
 ```csharp
 void HitboxSetUpdated()
@@ -118,7 +118,7 @@ void HitboxSetUpdated()
 
 ### IsAnimationEnabledUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkeletonInstance.cs#L36)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkeletonInstance.cs#L37)
 
 ```csharp
 void IsAnimationEnabledUpdated()
@@ -126,7 +126,7 @@ void IsAnimationEnabledUpdated()
 
 ### MaterialGroupUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkeletonInstance.cs#L38)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkeletonInstance.cs#L39)
 
 ```csharp
 void MaterialGroupUpdated()
@@ -134,7 +134,7 @@ void MaterialGroupUpdated()
 
 ### ModelStateUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkeletonInstance.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkeletonInstance.cs#L36)
 
 ```csharp
 void ModelStateUpdated()
@@ -142,7 +142,7 @@ void ModelStateUpdated()
 
 ### UseParentRenderBoundsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkeletonInstance.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkeletonInstance.cs#L38)
 
 ```csharp
 void UseParentRenderBoundsUpdated()

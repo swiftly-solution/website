@@ -12,7 +12,7 @@ public interface CAnimEncodedFrames : ISchemaClass<CAnimEncodedFrames>, ISchemaF
 
 ### FileName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEncodedFrames.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEncodedFrames.cs#L18)
 
 ```csharp
 ref CBufferString FileName { get; }
@@ -24,7 +24,7 @@ ref CBufferString FileName { get; }
 
 ### FrameblockArray
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEncodedFrames.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEncodedFrames.cs#L24)
 
 ```csharp
 ref CUtlVector<CAnimFrameBlockAnim> FrameblockArray { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<CAnimFrameBlockAnim> FrameblockArray { get; }
 
 ### Frames
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEncodedFrames.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEncodedFrames.cs#L20)
 
 ```csharp
 ref int Frames { get; }
@@ -48,7 +48,7 @@ ref int Frames { get; }
 
 ### FramesPerBlock
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEncodedFrames.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEncodedFrames.cs#L22)
 
 ```csharp
 ref int FramesPerBlock { get; }
@@ -60,7 +60,7 @@ ref int FramesPerBlock { get; }
 
 ### UsageDifferences
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEncodedFrames.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEncodedFrames.cs#L26)
 
 ```csharp
 CAnimEncodeDifference UsageDifferences { get; }

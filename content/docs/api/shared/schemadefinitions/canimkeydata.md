@@ -12,7 +12,7 @@ public interface CAnimKeyData : ISchemaClass<CAnimKeyData>, ISchemaField, ISchem
 
 ### BoneArray
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimKeyData.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimKeyData.cs#L20)
 
 ```csharp
 ref CUtlVector<CAnimBone> BoneArray { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<CAnimBone> BoneArray { get; }
 
 ### ChannelElements
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimKeyData.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimKeyData.cs#L26)
 
 ```csharp
 ref int ChannelElements { get; }
@@ -36,7 +36,7 @@ ref int ChannelElements { get; }
 
 ### DataChannelArray
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimKeyData.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimKeyData.cs#L28)
 
 ```csharp
 ref CUtlVector<CAnimDataChannelDesc> DataChannelArray { get; }
@@ -48,7 +48,7 @@ ref CUtlVector<CAnimDataChannelDesc> DataChannelArray { get; }
 
 ### MorphArray
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimKeyData.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimKeyData.cs#L24)
 
 ```csharp
 ref CUtlVector<CBufferString> MorphArray { get; }
@@ -60,7 +60,7 @@ ref CUtlVector<CBufferString> MorphArray { get; }
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimKeyData.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimKeyData.cs#L18)
 
 ```csharp
 ref CBufferString Name { get; }
@@ -72,7 +72,7 @@ ref CBufferString Name { get; }
 
 ### UserArray
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimKeyData.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimKeyData.cs#L22)
 
 ```csharp
 ref CUtlVector<CAnimUser> UserArray { get; }

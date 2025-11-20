@@ -12,7 +12,7 @@ public interface CAudioAnimTag : CAnimTagBase, ISchemaClass<CAnimTagBase>, ISche
 
 ### AttachmentName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioAnimTag.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioAnimTag.cs#L20)
 
 ```csharp
 string AttachmentName { get; set; }
@@ -24,7 +24,7 @@ string AttachmentName { get; set; }
 
 ### ClipName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioAnimTag.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioAnimTag.cs#L18)
 
 ```csharp
 string ClipName { get; set; }
@@ -36,7 +36,7 @@ string ClipName { get; set; }
 
 ### PlayOnClient
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioAnimTag.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioAnimTag.cs#L30)
 
 ```csharp
 ref bool PlayOnClient { get; }
@@ -48,7 +48,7 @@ ref bool PlayOnClient { get; }
 
 ### PlayOnServer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioAnimTag.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioAnimTag.cs#L28)
 
 ```csharp
 ref bool PlayOnServer { get; }
@@ -60,7 +60,7 @@ ref bool PlayOnServer { get; }
 
 ### StopWhenGraphEnds
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioAnimTag.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioAnimTag.cs#L26)
 
 ```csharp
 ref bool StopWhenGraphEnds { get; }
@@ -72,7 +72,7 @@ ref bool StopWhenGraphEnds { get; }
 
 ### StopWhenTagEnds
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioAnimTag.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioAnimTag.cs#L24)
 
 ```csharp
 ref bool StopWhenTagEnds { get; }
@@ -84,7 +84,7 @@ ref bool StopWhenTagEnds { get; }
 
 ### Volume
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioAnimTag.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioAnimTag.cs#L22)
 
 ```csharp
 ref float Volume { get; }

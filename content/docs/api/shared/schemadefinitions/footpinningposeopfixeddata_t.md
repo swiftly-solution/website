@@ -12,7 +12,7 @@ public interface FootPinningPoseOpFixedData_t : ISchemaClass<FootPinningPoseOpFi
 
 ### ApplyFootRotationLimits
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootPinningPoseOpFixedData_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootPinningPoseOpFixedData_t.cs#L30)
 
 ```csharp
 ref bool ApplyFootRotationLimits { get; }
@@ -24,7 +24,7 @@ ref bool ApplyFootRotationLimits { get; }
 
 ### ApplyLegTwistLimits
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootPinningPoseOpFixedData_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootPinningPoseOpFixedData_t.cs#L28)
 
 ```csharp
 ref bool ApplyLegTwistLimits { get; }
@@ -36,7 +36,7 @@ ref bool ApplyLegTwistLimits { get; }
 
 ### BlendTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootPinningPoseOpFixedData_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootPinningPoseOpFixedData_t.cs#L20)
 
 ```csharp
 ref float BlendTime { get; }
@@ -48,7 +48,7 @@ ref float BlendTime { get; }
 
 ### FootInfo
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootPinningPoseOpFixedData_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootPinningPoseOpFixedData_t.cs#L18)
 
 ```csharp
 ref CUtlVector<FootFixedData_t> FootInfo { get; }
@@ -60,7 +60,7 @@ ref CUtlVector<FootFixedData_t> FootInfo { get; }
 
 ### HipBoneIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootPinningPoseOpFixedData_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootPinningPoseOpFixedData_t.cs#L26)
 
 ```csharp
 ref int HipBoneIndex { get; }
@@ -72,7 +72,7 @@ ref int HipBoneIndex { get; }
 
 ### LockBreakDistance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootPinningPoseOpFixedData_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootPinningPoseOpFixedData_t.cs#L22)
 
 ```csharp
 ref float LockBreakDistance { get; }
@@ -84,7 +84,7 @@ ref float LockBreakDistance { get; }
 
 ### MaxLegTwist
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootPinningPoseOpFixedData_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootPinningPoseOpFixedData_t.cs#L24)
 
 ```csharp
 ref float MaxLegTwist { get; }

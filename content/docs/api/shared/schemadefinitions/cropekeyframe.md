@@ -12,7 +12,7 @@ public interface CRopeKeyframe : CBaseModelEntity, CBaseEntity, CEntityInstance,
 
 ### ChangeCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L38)
 
 ```csharp
 ref byte ChangeCount { get; }
@@ -24,7 +24,7 @@ ref byte ChangeCount { get; }
 
 ### ConstrainBetweenEndpoints
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L30)
 
 ```csharp
 ref bool ConstrainBetweenEndpoints { get; }
@@ -36,7 +36,7 @@ ref bool ConstrainBetweenEndpoints { get; }
 
 ### CreatedFromMapFile
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L44)
 
 ```csharp
 ref bool CreatedFromMapFile { get; }
@@ -48,7 +48,7 @@ ref bool CreatedFromMapFile { get; }
 
 ### EndAttachment
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L58)
 
 ```csharp
 AttachmentHandle_t EndAttachment { get; }
@@ -60,7 +60,7 @@ AttachmentHandle_t EndAttachment { get; }
 
 ### EndPoint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L54)
 
 ```csharp
 ref CHandle<CBaseEntity> EndPoint { get; }
@@ -72,7 +72,7 @@ ref CHandle<CBaseEntity> EndPoint { get; }
 
 ### EndPointValid
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L50)
 
 ```csharp
 ref bool EndPointValid { get; }
@@ -84,7 +84,7 @@ ref bool EndPointValid { get; }
 
 ### LockedPoints
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L42)
 
 ```csharp
 ref byte LockedPoints { get; }
@@ -96,7 +96,7 @@ ref byte LockedPoints { get; }
 
 ### NextLinkName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L20)
 
 ```csharp
 string NextLinkName { get; set; }
@@ -108,7 +108,7 @@ string NextLinkName { get; set; }
 
 ### RopeFlags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L18)
 
 ```csharp
 ref ushort RopeFlags { get; }
@@ -120,7 +120,7 @@ ref ushort RopeFlags { get; }
 
 ### RopeLength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L40)
 
 ```csharp
 ref short RopeLength { get; }
@@ -132,7 +132,7 @@ ref short RopeLength { get; }
 
 ### RopeMaterialModelIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L34)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeIMaterial2> RopeMaterialModelIndex { get; }
@@ -144,7 +144,7 @@ ref CStrongHandle<InfoForResourceTypeIMaterial2> RopeMaterialModelIndex { get; }
 
 ### ScrollSpeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L46)
 
 ```csharp
 ref float ScrollSpeed { get; }
@@ -156,7 +156,7 @@ ref float ScrollSpeed { get; }
 
 ### Segments
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L28)
 
 ```csharp
 ref byte Segments { get; }
@@ -168,7 +168,7 @@ ref byte Segments { get; }
 
 ### Slack
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L22)
 
 ```csharp
 ref short Slack { get; }
@@ -180,7 +180,7 @@ ref short Slack { get; }
 
 ### StartAttachment
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L56)
 
 ```csharp
 AttachmentHandle_t StartAttachment { get; }
@@ -192,7 +192,7 @@ AttachmentHandle_t StartAttachment { get; }
 
 ### StartPoint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L52)
 
 ```csharp
 ref CHandle<CBaseEntity> StartPoint { get; }
@@ -204,7 +204,7 @@ ref CHandle<CBaseEntity> StartPoint { get; }
 
 ### StartPointValid
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L48)
 
 ```csharp
 ref bool StartPointValid { get; }
@@ -216,7 +216,7 @@ ref bool StartPointValid { get; }
 
 ### StrRopeMaterialModel
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L32)
 
 ```csharp
 string StrRopeMaterialModel { get; set; }
@@ -228,7 +228,7 @@ string StrRopeMaterialModel { get; set; }
 
 ### Subdiv
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L36)
 
 ```csharp
 ref byte Subdiv { get; }
@@ -240,7 +240,7 @@ ref byte Subdiv { get; }
 
 ### TextureScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L26)
 
 ```csharp
 ref float TextureScale { get; }
@@ -252,7 +252,7 @@ ref float TextureScale { get; }
 
 ### Width
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L24)
 
 ```csharp
 ref float Width { get; }
@@ -266,7 +266,7 @@ ref float Width { get; }
 
 ### ChangeCountUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L67)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L68)
 
 ```csharp
 void ChangeCountUpdated()
@@ -274,7 +274,7 @@ void ChangeCountUpdated()
 
 ### ConstrainBetweenEndpointsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L64)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L65)
 
 ```csharp
 void ConstrainBetweenEndpointsUpdated()
@@ -282,7 +282,7 @@ void ConstrainBetweenEndpointsUpdated()
 
 ### EndAttachmentUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L74)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L75)
 
 ```csharp
 void EndAttachmentUpdated()
@@ -290,7 +290,7 @@ void EndAttachmentUpdated()
 
 ### EndPointUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L72)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L73)
 
 ```csharp
 void EndPointUpdated()
@@ -298,7 +298,7 @@ void EndPointUpdated()
 
 ### LockedPointsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L69)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L70)
 
 ```csharp
 void LockedPointsUpdated()
@@ -306,7 +306,7 @@ void LockedPointsUpdated()
 
 ### RopeFlagsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L60)
 
 ```csharp
 void RopeFlagsUpdated()
@@ -314,7 +314,7 @@ void RopeFlagsUpdated()
 
 ### RopeLengthUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L68)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L69)
 
 ```csharp
 void RopeLengthUpdated()
@@ -322,7 +322,7 @@ void RopeLengthUpdated()
 
 ### RopeMaterialModelIndexUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L65)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L66)
 
 ```csharp
 void RopeMaterialModelIndexUpdated()
@@ -330,7 +330,7 @@ void RopeMaterialModelIndexUpdated()
 
 ### ScrollSpeedUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L70)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L71)
 
 ```csharp
 void ScrollSpeedUpdated()
@@ -338,7 +338,7 @@ void ScrollSpeedUpdated()
 
 ### SegmentsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L64)
 
 ```csharp
 void SegmentsUpdated()
@@ -346,7 +346,7 @@ void SegmentsUpdated()
 
 ### SlackUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L60)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L61)
 
 ```csharp
 void SlackUpdated()
@@ -354,7 +354,7 @@ void SlackUpdated()
 
 ### StartAttachmentUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L73)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L74)
 
 ```csharp
 void StartAttachmentUpdated()
@@ -362,7 +362,7 @@ void StartAttachmentUpdated()
 
 ### StartPointUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L71)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L72)
 
 ```csharp
 void StartPointUpdated()
@@ -370,7 +370,7 @@ void StartPointUpdated()
 
 ### SubdivUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L66)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L67)
 
 ```csharp
 void SubdivUpdated()
@@ -378,7 +378,7 @@ void SubdivUpdated()
 
 ### TextureScaleUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L62)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L63)
 
 ```csharp
 void TextureScaleUpdated()
@@ -386,7 +386,7 @@ void TextureScaleUpdated()
 
 ### WidthUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRopeKeyframe.cs#L62)
 
 ```csharp
 void WidthUpdated()

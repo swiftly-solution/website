@@ -31,6 +31,8 @@ This callback is a hot path, be careful with it and don't do anything expensive.
 - [IOnItemServicesCanAcquireHookEvent](/docs/api/shared/events/ionitemservicescanacquirehookevent)
 - [IOnMapLoadEvent](/docs/api/shared/events/ionmaploadevent) - Called when the map is loaded.
 - [IOnMapUnloadEvent](/docs/api/shared/events/ionmapunloadevent) - Called when the map is unloaded.
+- [IOnMovementServicesRunCommandHookEvent](/docs/api/shared/events/ionmovementservicesruncommandhookevent) - Called when the movement services run command hook is triggered.
+- [IOnPlayerPawnPostThinkHookEvent](/docs/api/shared/events/ionplayerpawnpostthinkhookevent) - Called when the player pawn post think hook is triggered.
 - [IOnPrecacheResourceEvent](/docs/api/shared/events/ionprecacheresourceevent)
 - [IOnWeaponServicesCanUseHookEvent](/docs/api/shared/events/ionweaponservicescanusehookevent)
 
@@ -64,9 +66,13 @@ This callback is a hot path, be careful with it and don't do anything expensive.
 - [EventDelegates.OnItemServicesCanAcquireHook](/docs/api/shared/events/eventdelegates/onitemservicescanacquirehook) - Called when an item services can acquire hook is triggered.
 - [EventDelegates.OnMapLoad](/docs/api/shared/events/eventdelegates/onmapload) - Called when a map is loaded.
 - [EventDelegates.OnMapUnload](/docs/api/shared/events/eventdelegates/onmapunload) - Called when a map is unloaded.
+- [EventDelegates.OnMovementServicesRunCommandHook](/docs/api/shared/events/eventdelegates/onmovementservicesruncommandhook) - Called when the movement services run command hook is triggered.
+- [EventDelegates.OnPlayerPawnPostThink](/docs/api/shared/events/eventdelegates/onplayerpawnpostthink) - Called when the player pawn post think hook is triggered.
 - [EventDelegates.OnPrecacheResource](/docs/api/shared/events/eventdelegates/onprecacheresource) - Called when the game is precaching resources.
 - [EventDelegates.OnSteamAPIActivated](/docs/api/shared/events/eventdelegates/onsteamapiactivated) - Called when Steam API is activated.
 - [EventDelegates.OnTick](/docs/api/shared/events/eventdelegates/ontick) - Called when game has processed a tick. Won't be called if the server is in hibernation.
 This callback is a hot path, be careful with it and don't do anything expensive.
 - [EventDelegates.OnWeaponServicesCanUseHook](/docs/api/shared/events/eventdelegates/onweaponservicescanusehook) - Called when a weapon services can use hook is triggered.
+- [EventDelegates.OnWorldUpdate](/docs/api/shared/events/eventdelegates/onworldupdate) - Called when the world is updated. This happens even in hibernation.
+This callback is a hot path, be careful with it and don't do anything expensive.
 

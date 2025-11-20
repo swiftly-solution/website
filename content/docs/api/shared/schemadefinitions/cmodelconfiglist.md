@@ -12,7 +12,7 @@ public interface CModelConfigList : ISchemaClass<CModelConfigList>, ISchemaField
 
 ### Configs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigList.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigList.cs#L22)
 
 ```csharp
 ref CUtlVector<PointerTo<CModelConfig>> Configs { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<PointerTo<CModelConfig>> Configs { get; }
 
 ### HideMaterialGroupInTools
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigList.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigList.cs#L18)
 
 ```csharp
 ref bool HideMaterialGroupInTools { get; }
@@ -36,7 +36,7 @@ ref bool HideMaterialGroupInTools { get; }
 
 ### HideRenderColorInTools
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigList.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigList.cs#L20)
 
 ```csharp
 ref bool HideRenderColorInTools { get; }

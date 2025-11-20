@@ -12,7 +12,7 @@ public interface CPulseCell_Test_MultiOutflow_WithParams : CPulseCell_BaseFlow, 
 
 ### Out1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Test_MultiOutflow_WithParams.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Test_MultiOutflow_WithParams.cs#L18)
 
 ```csharp
 SignatureOutflow_Continue Out1 { get; }
@@ -24,7 +24,7 @@ SignatureOutflow_Continue Out1 { get; }
 
 ### Out2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Test_MultiOutflow_WithParams.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Test_MultiOutflow_WithParams.cs#L20)
 
 ```csharp
 SignatureOutflow_Continue Out2 { get; }

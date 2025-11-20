@@ -12,7 +12,7 @@ public interface CNetworkOriginCellCoordQuantizedVector : ISchemaClass<CNetworkO
 
 ### CellX
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkOriginCellCoordQuantizedVector.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkOriginCellCoordQuantizedVector.cs#L18)
 
 ```csharp
 ref ushort CellX { get; }
@@ -24,7 +24,7 @@ ref ushort CellX { get; }
 
 ### CellY
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkOriginCellCoordQuantizedVector.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkOriginCellCoordQuantizedVector.cs#L20)
 
 ```csharp
 ref ushort CellY { get; }
@@ -36,7 +36,7 @@ ref ushort CellY { get; }
 
 ### CellZ
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkOriginCellCoordQuantizedVector.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkOriginCellCoordQuantizedVector.cs#L22)
 
 ```csharp
 ref ushort CellZ { get; }
@@ -48,7 +48,7 @@ ref ushort CellZ { get; }
 
 ### OutsideWorld
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkOriginCellCoordQuantizedVector.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkOriginCellCoordQuantizedVector.cs#L24)
 
 ```csharp
 ref ushort OutsideWorld { get; }
@@ -60,7 +60,7 @@ ref ushort OutsideWorld { get; }
 
 ### X
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkOriginCellCoordQuantizedVector.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkOriginCellCoordQuantizedVector.cs#L26)
 
 ```csharp
 ref CNetworkedQuantizedFloat X { get; }
@@ -72,7 +72,7 @@ ref CNetworkedQuantizedFloat X { get; }
 
 ### Y
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkOriginCellCoordQuantizedVector.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkOriginCellCoordQuantizedVector.cs#L28)
 
 ```csharp
 ref CNetworkedQuantizedFloat Y { get; }
@@ -84,7 +84,7 @@ ref CNetworkedQuantizedFloat Y { get; }
 
 ### Z
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkOriginCellCoordQuantizedVector.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkOriginCellCoordQuantizedVector.cs#L30)
 
 ```csharp
 ref CNetworkedQuantizedFloat Z { get; }
@@ -98,7 +98,7 @@ ref CNetworkedQuantizedFloat Z { get; }
 
 ### CellXUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkOriginCellCoordQuantizedVector.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkOriginCellCoordQuantizedVector.cs#L32)
 
 ```csharp
 void CellXUpdated()
@@ -106,7 +106,7 @@ void CellXUpdated()
 
 ### CellYUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkOriginCellCoordQuantizedVector.cs#L32)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkOriginCellCoordQuantizedVector.cs#L33)
 
 ```csharp
 void CellYUpdated()
@@ -114,7 +114,7 @@ void CellYUpdated()
 
 ### CellZUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkOriginCellCoordQuantizedVector.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkOriginCellCoordQuantizedVector.cs#L34)
 
 ```csharp
 void CellZUpdated()
@@ -122,7 +122,7 @@ void CellZUpdated()
 
 ### OutsideWorldUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkOriginCellCoordQuantizedVector.cs#L34)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkOriginCellCoordQuantizedVector.cs#L35)
 
 ```csharp
 void OutsideWorldUpdated()
@@ -130,7 +130,7 @@ void OutsideWorldUpdated()
 
 ### XUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkOriginCellCoordQuantizedVector.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkOriginCellCoordQuantizedVector.cs#L36)
 
 ```csharp
 void XUpdated()
@@ -138,7 +138,7 @@ void XUpdated()
 
 ### YUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkOriginCellCoordQuantizedVector.cs#L36)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkOriginCellCoordQuantizedVector.cs#L37)
 
 ```csharp
 void YUpdated()
@@ -146,7 +146,7 @@ void YUpdated()
 
 ### ZUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkOriginCellCoordQuantizedVector.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkOriginCellCoordQuantizedVector.cs#L38)
 
 ```csharp
 void ZUpdated()

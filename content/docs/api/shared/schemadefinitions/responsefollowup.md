@@ -12,7 +12,7 @@ public interface ResponseFollowup : ISchemaClass<ResponseFollowup>, ISchemaField
 
 ### Fired
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ResponseFollowup.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ResponseFollowup.cs#L32)
 
 ```csharp
 ref bool Fired { get; }
@@ -24,7 +24,7 @@ ref bool Fired { get; }
 
 ### Followup_concept
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ResponseFollowup.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ResponseFollowup.cs#L18)
 
 ```csharp
 string Followup_concept { get; set; }
@@ -36,7 +36,7 @@ string Followup_concept { get; set; }
 
 ### Followup_contexts
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ResponseFollowup.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ResponseFollowup.cs#L20)
 
 ```csharp
 string Followup_contexts { get; set; }
@@ -48,7 +48,7 @@ string Followup_contexts { get; set; }
 
 ### Followup_delay
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ResponseFollowup.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ResponseFollowup.cs#L22)
 
 ```csharp
 ref float Followup_delay { get; }
@@ -60,7 +60,7 @@ ref float Followup_delay { get; }
 
 ### Followup_entityiodelay
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ResponseFollowup.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ResponseFollowup.cs#L30)
 
 ```csharp
 ref float Followup_entityiodelay { get; }
@@ -72,7 +72,7 @@ ref float Followup_entityiodelay { get; }
 
 ### Followup_entityioinput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ResponseFollowup.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ResponseFollowup.cs#L28)
 
 ```csharp
 string Followup_entityioinput { get; set; }
@@ -84,7 +84,7 @@ string Followup_entityioinput { get; set; }
 
 ### Followup_entityiotarget
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ResponseFollowup.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ResponseFollowup.cs#L26)
 
 ```csharp
 string Followup_entityiotarget { get; set; }
@@ -96,7 +96,7 @@ string Followup_entityiotarget { get; set; }
 
 ### Followup_target
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ResponseFollowup.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ResponseFollowup.cs#L24)
 
 ```csharp
 string Followup_target { get; set; }

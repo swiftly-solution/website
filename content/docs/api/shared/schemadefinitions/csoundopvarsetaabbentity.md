@@ -12,7 +12,7 @@ public interface CSoundOpvarSetAABBEntity : CSoundOpvarSetPointEntity, CSoundOpv
 
 ### AABBDirection
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetAABBEntity.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetAABBEntity.cs#L26)
 
 ```csharp
 ref int AABBDirection { get; }
@@ -24,7 +24,7 @@ ref int AABBDirection { get; }
 
 ### DistanceInnerMaxs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetAABBEntity.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetAABBEntity.cs#L20)
 
 ```csharp
 ref Vector DistanceInnerMaxs { get; }
@@ -36,7 +36,7 @@ ref Vector DistanceInnerMaxs { get; }
 
 ### DistanceInnerMins
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetAABBEntity.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetAABBEntity.cs#L18)
 
 ```csharp
 ref Vector DistanceInnerMins { get; }
@@ -48,7 +48,7 @@ ref Vector DistanceInnerMins { get; }
 
 ### DistanceOuterMaxs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetAABBEntity.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetAABBEntity.cs#L24)
 
 ```csharp
 ref Vector DistanceOuterMaxs { get; }
@@ -60,7 +60,7 @@ ref Vector DistanceOuterMaxs { get; }
 
 ### DistanceOuterMins
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetAABBEntity.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetAABBEntity.cs#L22)
 
 ```csharp
 ref Vector DistanceOuterMins { get; }
@@ -72,7 +72,7 @@ ref Vector DistanceOuterMins { get; }
 
 ### InnerMaxs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetAABBEntity.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetAABBEntity.cs#L30)
 
 ```csharp
 ref Vector InnerMaxs { get; }
@@ -84,7 +84,7 @@ ref Vector InnerMaxs { get; }
 
 ### InnerMins
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetAABBEntity.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetAABBEntity.cs#L28)
 
 ```csharp
 ref Vector InnerMins { get; }
@@ -96,7 +96,7 @@ ref Vector InnerMins { get; }
 
 ### OuterMaxs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetAABBEntity.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetAABBEntity.cs#L34)
 
 ```csharp
 ref Vector OuterMaxs { get; }
@@ -108,7 +108,7 @@ ref Vector OuterMaxs { get; }
 
 ### OuterMins
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetAABBEntity.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetAABBEntity.cs#L32)
 
 ```csharp
 ref Vector OuterMins { get; }

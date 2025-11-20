@@ -12,7 +12,7 @@ public interface EntityKeyValueData_t : ISchemaClass<EntityKeyValueData_t>, ISch
 
 ### Connections
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityKeyValueData_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityKeyValueData_t.cs#L18)
 
 ```csharp
 ref CUtlVector<EntityIOConnectionData_t> Connections { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<EntityIOConnectionData_t> Connections { get; }
 
 ### KeyValuesData
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityKeyValueData_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityKeyValueData_t.cs#L20)
 
 ```csharp
 ref CUtlBinaryBlock KeyValuesData { get; }

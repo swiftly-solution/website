@@ -12,7 +12,7 @@ public interface CSingleFrameUpdateNode : CLeafUpdateNode, CAnimUpdateNodeBase, 
 
 ### Actions
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSingleFrameUpdateNode.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSingleFrameUpdateNode.cs#L18)
 
 ```csharp
 ref CUtlVector<SchemaUntypedField> Actions { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<SchemaUntypedField> Actions { get; }
 
 ### Cycle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSingleFrameUpdateNode.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSingleFrameUpdateNode.cs#L24)
 
 ```csharp
 ref float Cycle { get; }
@@ -36,7 +36,7 @@ ref float Cycle { get; }
 
 ### PoseCacheHandle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSingleFrameUpdateNode.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSingleFrameUpdateNode.cs#L20)
 
 ```csharp
 CPoseHandle PoseCacheHandle { get; }
@@ -48,7 +48,7 @@ CPoseHandle PoseCacheHandle { get; }
 
 ### Sequence
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSingleFrameUpdateNode.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSingleFrameUpdateNode.cs#L22)
 
 ```csharp
 HSequence Sequence { get; }

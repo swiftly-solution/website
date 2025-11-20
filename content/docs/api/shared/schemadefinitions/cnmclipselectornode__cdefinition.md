@@ -12,7 +12,7 @@ public interface CNmClipSelectorNode__CDefinition : CNmClipReferenceNode__CDefin
 
 ### ConditionNodeIndices
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClipSelectorNode__CDefinition.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClipSelectorNode__CDefinition.cs#L22)
 
 ```csharp
 SchemaUntypedField ConditionNodeIndices { get; }
@@ -24,7 +24,7 @@ SchemaUntypedField ConditionNodeIndices { get; }
 
 ### OptionNodeIndices
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClipSelectorNode__CDefinition.cs#L18)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClipSelectorNode__CDefinition.cs#L19)
 
 ```csharp
 SchemaUntypedField OptionNodeIndices { get; }

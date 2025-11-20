@@ -12,7 +12,7 @@ public interface C_OP_StopAfterCPDuration : CParticleFunctionPreEmission, CParti
 
 ### DestroyImmediately
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_StopAfterCPDuration.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_StopAfterCPDuration.cs#L20)
 
 ```csharp
 ref bool DestroyImmediately { get; }
@@ -24,7 +24,7 @@ ref bool DestroyImmediately { get; }
 
 ### Duration
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_StopAfterCPDuration.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_StopAfterCPDuration.cs#L18)
 
 ```csharp
 CParticleCollectionFloatInput Duration { get; }
@@ -36,7 +36,7 @@ CParticleCollectionFloatInput Duration { get; }
 
 ### PlayEndCap
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_StopAfterCPDuration.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_StopAfterCPDuration.cs#L22)
 
 ```csharp
 ref bool PlayEndCap { get; }

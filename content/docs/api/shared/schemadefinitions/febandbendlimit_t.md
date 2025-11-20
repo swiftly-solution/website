@@ -12,7 +12,7 @@ public interface FeBandBendLimit_t : ISchemaClass<FeBandBendLimit_t>, ISchemaFie
 
 ### DistMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeBandBendLimit_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeBandBendLimit_t.cs#L20)
 
 ```csharp
 ref float DistMax { get; }
@@ -24,7 +24,7 @@ ref float DistMax { get; }
 
 ### DistMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeBandBendLimit_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeBandBendLimit_t.cs#L18)
 
 ```csharp
 ref float DistMin { get; }
@@ -36,7 +36,7 @@ ref float DistMin { get; }
 
 ### Node
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeBandBendLimit_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeBandBendLimit_t.cs#L22)
 
 ```csharp
 ISchemaFixedArray<ushort> Node { get; }

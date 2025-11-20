@@ -12,7 +12,7 @@ public interface IKSolverSettings_t : ISchemaClass<IKSolverSettings_t>, ISchemaF
 
 ### EndEffectorRotationFixUpMode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/IKSolverSettings_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/IKSolverSettings_t.cs#L22)
 
 ```csharp
 ref EIKEndEffectorRotationFixUpMode EndEffectorRotationFixUpMode { get; }
@@ -24,7 +24,7 @@ ref EIKEndEffectorRotationFixUpMode EndEffectorRotationFixUpMode { get; }
 
 ### NumIterations
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/IKSolverSettings_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/IKSolverSettings_t.cs#L20)
 
 ```csharp
 ref int NumIterations { get; }
@@ -36,7 +36,7 @@ ref int NumIterations { get; }
 
 ### SolverType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/IKSolverSettings_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/IKSolverSettings_t.cs#L18)
 
 ```csharp
 ref IKSolverType SolverType { get; }

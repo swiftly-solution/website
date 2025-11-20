@@ -12,7 +12,7 @@ public interface CAnimLocalHierarchy : ISchemaClass<CAnimLocalHierarchy>, ISchem
 
 ### Bone
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimLocalHierarchy.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimLocalHierarchy.cs#L18)
 
 ```csharp
 ref CBufferString Bone { get; }
@@ -24,7 +24,7 @@ ref CBufferString Bone { get; }
 
 ### EndFrame
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimLocalHierarchy.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimLocalHierarchy.cs#L28)
 
 ```csharp
 ref int EndFrame { get; }
@@ -36,7 +36,7 @@ ref int EndFrame { get; }
 
 ### NewParent
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimLocalHierarchy.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimLocalHierarchy.cs#L20)
 
 ```csharp
 ref CBufferString NewParent { get; }
@@ -48,7 +48,7 @@ ref CBufferString NewParent { get; }
 
 ### PeakFrame
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimLocalHierarchy.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimLocalHierarchy.cs#L24)
 
 ```csharp
 ref int PeakFrame { get; }
@@ -60,7 +60,7 @@ ref int PeakFrame { get; }
 
 ### StartFrame
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimLocalHierarchy.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimLocalHierarchy.cs#L22)
 
 ```csharp
 ref int StartFrame { get; }
@@ -72,7 +72,7 @@ ref int StartFrame { get; }
 
 ### TailFrame
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimLocalHierarchy.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimLocalHierarchy.cs#L26)
 
 ```csharp
 ref int TailFrame { get; }

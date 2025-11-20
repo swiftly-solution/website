@@ -12,7 +12,7 @@ public interface CLODComponentUpdater : CAnimComponentUpdater, ISchemaClass<CAni
 
 ### ServerLOD
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLODComponentUpdater.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLODComponentUpdater.cs#L18)
 
 ```csharp
 ref int ServerLOD { get; }

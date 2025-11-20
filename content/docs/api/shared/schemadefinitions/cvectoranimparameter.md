@@ -12,7 +12,7 @@ public interface CVectorAnimParameter : CConcreteAnimParameter, CAnimParameterBa
 
 ### DefaultValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVectorAnimParameter.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVectorAnimParameter.cs#L18)
 
 ```csharp
 ref Vector DefaultValue { get; }
@@ -24,7 +24,7 @@ ref Vector DefaultValue { get; }
 
 ### Interpolate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVectorAnimParameter.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVectorAnimParameter.cs#L20)
 
 ```csharp
 ref bool Interpolate { get; }
@@ -36,7 +36,7 @@ ref bool Interpolate { get; }
 
 ### VectorType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVectorAnimParameter.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVectorAnimParameter.cs#L22)
 
 ```csharp
 ref AnimParamVectorType_t VectorType { get; }

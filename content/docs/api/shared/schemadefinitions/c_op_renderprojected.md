@@ -12,7 +12,7 @@ public interface C_OP_RenderProjected : CParticleFunctionRenderer, CParticleFunc
 
 ### Alpha2Field
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderProjected.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderProjected.cs#L48)
 
 ```csharp
 ParticleAttributeIndex_t Alpha2Field { get; }
@@ -24,7 +24,7 @@ ParticleAttributeIndex_t Alpha2Field { get; }
 
 ### AlphaScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderProjected.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderProjected.cs#L44)
 
 ```csharp
 CParticleCollectionFloatInput AlphaScale { get; }
@@ -36,7 +36,7 @@ CParticleCollectionFloatInput AlphaScale { get; }
 
 ### AnimationTimeScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderProjected.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderProjected.cs#L36)
 
 ```csharp
 ref float AnimationTimeScale { get; }
@@ -48,7 +48,7 @@ ref float AnimationTimeScale { get; }
 
 ### ColorBlendType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderProjected.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderProjected.cs#L52)
 
 ```csharp
 ref ParticleColorBlendType_t ColorBlendType { get; }
@@ -60,7 +60,7 @@ ref ParticleColorBlendType_t ColorBlendType { get; }
 
 ### ColorScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderProjected.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderProjected.cs#L50)
 
 ```csharp
 CParticleCollectionVecInput ColorScale { get; }
@@ -72,7 +72,7 @@ CParticleCollectionVecInput ColorScale { get; }
 
 ### EnableProjectedDepthControls
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderProjected.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderProjected.cs#L26)
 
 ```csharp
 ref bool EnableProjectedDepthControls { get; }
@@ -84,7 +84,7 @@ ref bool EnableProjectedDepthControls { get; }
 
 ### FlipHorizontal
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderProjected.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderProjected.cs#L24)
 
 ```csharp
 ref bool FlipHorizontal { get; }
@@ -96,7 +96,7 @@ ref bool FlipHorizontal { get; }
 
 ### MaterialSelection
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderProjected.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderProjected.cs#L34)
 
 ```csharp
 CPerParticleFloatInput MaterialSelection { get; }
@@ -108,7 +108,7 @@ CPerParticleFloatInput MaterialSelection { get; }
 
 ### MaterialVars
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderProjected.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderProjected.cs#L40)
 
 ```csharp
 ref CUtlVector<MaterialVariable_t> MaterialVars { get; }
@@ -120,7 +120,7 @@ ref CUtlVector<MaterialVariable_t> MaterialVars { get; }
 
 ### MaxProjectionDepth
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderProjected.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderProjected.cs#L30)
 
 ```csharp
 ref float MaxProjectionDepth { get; }
@@ -132,7 +132,7 @@ ref float MaxProjectionDepth { get; }
 
 ### MinProjectionDepth
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderProjected.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderProjected.cs#L28)
 
 ```csharp
 ref float MinProjectionDepth { get; }
@@ -144,7 +144,7 @@ ref float MinProjectionDepth { get; }
 
 ### OrientToNormal
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderProjected.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderProjected.cs#L38)
 
 ```csharp
 ref bool OrientToNormal { get; }
@@ -156,7 +156,7 @@ ref bool OrientToNormal { get; }
 
 ### ProjectCharacter
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderProjected.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderProjected.cs#L18)
 
 ```csharp
 ref bool ProjectCharacter { get; }
@@ -168,7 +168,7 @@ ref bool ProjectCharacter { get; }
 
 ### ProjectWater
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderProjected.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderProjected.cs#L22)
 
 ```csharp
 ref bool ProjectWater { get; }
@@ -180,7 +180,7 @@ ref bool ProjectWater { get; }
 
 ### ProjectWorld
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderProjected.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderProjected.cs#L20)
 
 ```csharp
 ref bool ProjectWorld { get; }
@@ -192,7 +192,7 @@ ref bool ProjectWorld { get; }
 
 ### ProjectedMaterials
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderProjected.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderProjected.cs#L32)
 
 ```csharp
 ref CUtlVector<RenderProjectedMaterial_t> ProjectedMaterials { get; }
@@ -204,7 +204,7 @@ ref CUtlVector<RenderProjectedMaterial_t> ProjectedMaterials { get; }
 
 ### RadiusScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderProjected.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderProjected.cs#L42)
 
 ```csharp
 CParticleCollectionFloatInput RadiusScale { get; }
@@ -216,7 +216,7 @@ CParticleCollectionFloatInput RadiusScale { get; }
 
 ### RollScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderProjected.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderProjected.cs#L46)
 
 ```csharp
 CParticleCollectionFloatInput RollScale { get; }

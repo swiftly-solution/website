@@ -12,7 +12,7 @@ public interface CNmAnimationPoseNode__CDefinition : CNmPoseNode__CDefinition, C
 
 ### DataSlotIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmAnimationPoseNode__CDefinition.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmAnimationPoseNode__CDefinition.cs#L20)
 
 ```csharp
 ref short DataSlotIdx { get; }
@@ -24,7 +24,7 @@ ref short DataSlotIdx { get; }
 
 ### InputTimeRemapRange
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmAnimationPoseNode__CDefinition.cs#L22)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmAnimationPoseNode__CDefinition.cs#L23)
 
 ```csharp
 SchemaUntypedField InputTimeRemapRange { get; }
@@ -36,7 +36,7 @@ SchemaUntypedField InputTimeRemapRange { get; }
 
 ### PoseTimeValueNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmAnimationPoseNode__CDefinition.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmAnimationPoseNode__CDefinition.cs#L18)
 
 ```csharp
 ref short PoseTimeValueNodeIdx { get; }
@@ -48,7 +48,7 @@ ref short PoseTimeValueNodeIdx { get; }
 
 ### UseFramesAsInput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmAnimationPoseNode__CDefinition.cs#L26)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmAnimationPoseNode__CDefinition.cs#L27)
 
 ```csharp
 ref bool UseFramesAsInput { get; }
@@ -60,7 +60,7 @@ ref bool UseFramesAsInput { get; }
 
 ### UserSpecifiedTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmAnimationPoseNode__CDefinition.cs#L24)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmAnimationPoseNode__CDefinition.cs#L25)
 
 ```csharp
 ref float UserSpecifiedTime { get; }

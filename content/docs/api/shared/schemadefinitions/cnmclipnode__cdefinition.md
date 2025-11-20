@@ -12,7 +12,7 @@ public interface CNmClipNode__CDefinition : CNmClipReferenceNode__CDefinition, C
 
 ### AllowLooping
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClipNode__CDefinition.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClipNode__CDefinition.cs#L28)
 
 ```csharp
 ref bool AllowLooping { get; }
@@ -24,7 +24,7 @@ ref bool AllowLooping { get; }
 
 ### DataSlotIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClipNode__CDefinition.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClipNode__CDefinition.cs#L30)
 
 ```csharp
 ref short DataSlotIdx { get; }
@@ -36,7 +36,7 @@ ref short DataSlotIdx { get; }
 
 ### PlayInReverseValueNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClipNode__CDefinition.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClipNode__CDefinition.cs#L18)
 
 ```csharp
 ref short PlayInReverseValueNodeIdx { get; }
@@ -48,7 +48,7 @@ ref short PlayInReverseValueNodeIdx { get; }
 
 ### ResetTimeValueNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClipNode__CDefinition.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClipNode__CDefinition.cs#L20)
 
 ```csharp
 ref short ResetTimeValueNodeIdx { get; }
@@ -60,7 +60,7 @@ ref short ResetTimeValueNodeIdx { get; }
 
 ### SampleRootMotion
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClipNode__CDefinition.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClipNode__CDefinition.cs#L26)
 
 ```csharp
 ref bool SampleRootMotion { get; }
@@ -72,7 +72,7 @@ ref bool SampleRootMotion { get; }
 
 ### SpeedMultiplier
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClipNode__CDefinition.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClipNode__CDefinition.cs#L22)
 
 ```csharp
 ref float SpeedMultiplier { get; }
@@ -84,7 +84,7 @@ ref float SpeedMultiplier { get; }
 
 ### StartSyncEventOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClipNode__CDefinition.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClipNode__CDefinition.cs#L24)
 
 ```csharp
 ref int StartSyncEventOffset { get; }

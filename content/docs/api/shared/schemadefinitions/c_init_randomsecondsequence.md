@@ -12,7 +12,7 @@ public interface C_INIT_RandomSecondSequence : CParticleFunctionInitializer, CPa
 
 ### SequenceMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomSecondSequence.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomSecondSequence.cs#L20)
 
 ```csharp
 ref int SequenceMax { get; }
@@ -24,7 +24,7 @@ ref int SequenceMax { get; }
 
 ### SequenceMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomSecondSequence.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomSecondSequence.cs#L18)
 
 ```csharp
 ref int SequenceMin { get; }

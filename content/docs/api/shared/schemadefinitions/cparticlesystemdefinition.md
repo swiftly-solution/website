@@ -12,7 +12,7 @@ public interface CParticleSystemDefinition : IParticleSystemDefinition, ISchemaC
 
 ### AggregateRadius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L123)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L124)
 
 ```csharp
 ref float AggregateRadius { get; }
@@ -24,7 +24,7 @@ ref float AggregateRadius { get; }
 
 ### AggregationMinAvailableParticles
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L121)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L122)
 
 ```csharp
 ref int AggregationMinAvailableParticles { get; }
@@ -36,7 +36,7 @@ ref int AggregationMinAvailableParticles { get; }
 
 ### AllowRenderControlPoint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L141)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L142)
 
 ```csharp
 ref int AllowRenderControlPoint { get; }
@@ -48,7 +48,7 @@ ref int AllowRenderControlPoint { get; }
 
 ### BehaviorVersion
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L18)
 
 ```csharp
 ref int BehaviorVersion { get; }
@@ -60,7 +60,7 @@ ref int BehaviorVersion { get; }
 
 ### BoundingBoxMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L46)
 
 ```csharp
 ref Vector BoundingBoxMax { get; }
@@ -72,7 +72,7 @@ ref Vector BoundingBoxMax { get; }
 
 ### BoundingBoxMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L44)
 
 ```csharp
 ref Vector BoundingBoxMin { get; }
@@ -84,7 +84,7 @@ ref Vector BoundingBoxMin { get; }
 
 ### Children
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L34)
 
 ```csharp
 ref CUtlVector<ParticleChildrenInfo_t> Children { get; }
@@ -96,7 +96,7 @@ ref CUtlVector<ParticleChildrenInfo_t> Children { get; }
 
 ### ConstantColor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L60)
 
 ```csharp
 ref Color ConstantColor { get; }
@@ -108,7 +108,7 @@ ref Color ConstantColor { get; }
 
 ### ConstantLifespan
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L69)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L70)
 
 ```csharp
 ref float ConstantLifespan { get; }
@@ -120,7 +120,7 @@ ref float ConstantLifespan { get; }
 
 ### ConstantNormal
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L62)
 
 ```csharp
 ref Vector ConstantNormal { get; }
@@ -132,7 +132,7 @@ ref Vector ConstantNormal { get; }
 
 ### ConstantRadius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L64)
 
 ```csharp
 ref float ConstantRadius { get; }
@@ -144,7 +144,7 @@ ref float ConstantRadius { get; }
 
 ### ConstantRotation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L65)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L66)
 
 ```csharp
 ref float ConstantRotation { get; }
@@ -156,7 +156,7 @@ ref float ConstantRotation { get; }
 
 ### ConstantRotationSpeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L67)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L68)
 
 ```csharp
 ref float ConstantRotationSpeed { get; }
@@ -168,7 +168,7 @@ ref float ConstantRotationSpeed { get; }
 
 ### ConstantSequenceNumber
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L71)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L72)
 
 ```csharp
 ref int ConstantSequenceNumber { get; }
@@ -180,7 +180,7 @@ ref int ConstantSequenceNumber { get; }
 
 ### ConstantSequenceNumber1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L73)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L74)
 
 ```csharp
 ref int ConstantSequenceNumber1 { get; }
@@ -192,7 +192,7 @@ ref int ConstantSequenceNumber1 { get; }
 
 ### Constraints
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L30)
 
 ```csharp
 ref CUtlVector<PointerTo<CParticleFunctionConstraint>> Constraints { get; }
@@ -204,7 +204,7 @@ ref CUtlVector<PointerTo<CParticleFunctionConstraint>> Constraints { get; }
 
 ### ControlPointConfigurations
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L145)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L146)
 
 ```csharp
 ref CUtlVector<ParticleControlPointConfiguration_t> ControlPointConfigurations { get; }
@@ -216,7 +216,7 @@ ref CUtlVector<ParticleControlPointConfiguration_t> ControlPointConfigurations {
 
 ### CullControlPoint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L85)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L86)
 
 ```csharp
 ref int CullControlPoint { get; }
@@ -228,7 +228,7 @@ ref int CullControlPoint { get; }
 
 ### CullFillCost
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L83)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L84)
 
 ```csharp
 ref float CullFillCost { get; }
@@ -240,7 +240,7 @@ ref float CullFillCost { get; }
 
 ### CullRadius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L81)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L82)
 
 ```csharp
 ref float CullRadius { get; }
@@ -252,7 +252,7 @@ ref float CullRadius { get; }
 
 ### CullReplacementName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L79)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L80)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> CullReplacementName { get; }
@@ -264,7 +264,7 @@ ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> CullReplacementN
 
 ### DepthSortBias
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L48)
 
 ```csharp
 ref float DepthSortBias { get; }
@@ -276,7 +276,7 @@ ref float DepthSortBias { get; }
 
 ### Emitters
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L22)
 
 ```csharp
 ref CUtlVector<PointerTo<CParticleFunctionEmitter>> Emitters { get; }
@@ -288,7 +288,7 @@ ref CUtlVector<PointerTo<CParticleFunctionEmitter>> Emitters { get; }
 
 ### EnableNamedValues
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L54)
 
 ```csharp
 ref bool EnableNamedValues { get; }
@@ -300,7 +300,7 @@ ref bool EnableNamedValues { get; }
 
 ### Fallback
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L87)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L88)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> Fallback { get; }
@@ -312,7 +312,7 @@ ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> Fallback { get; 
 
 ### FallbackMaxCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L89)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L90)
 
 ```csharp
 ref int FallbackMaxCount { get; }
@@ -324,7 +324,7 @@ ref int FallbackMaxCount { get; }
 
 ### FirstMultipleOverride_BackwardCompat
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L36)
 
 ```csharp
 ref int FirstMultipleOverride_BackwardCompat { get; }
@@ -336,7 +336,7 @@ ref int FirstMultipleOverride_BackwardCompat { get; }
 
 ### ForceGenerators
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L28)
 
 ```csharp
 ref CUtlVector<PointerTo<CParticleFunctionForce>> ForceGenerators { get; }
@@ -348,7 +348,7 @@ ref CUtlVector<PointerTo<CParticleFunctionForce>> ForceGenerators { get; }
 
 ### GroupID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L42)
 
 ```csharp
 ref int GroupID { get; }
@@ -360,7 +360,7 @@ ref int GroupID { get; }
 
 ### InfiniteBounds
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L52)
 
 ```csharp
 ref bool InfiniteBounds { get; }
@@ -372,7 +372,7 @@ ref bool InfiniteBounds { get; }
 
 ### InitialParticles
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L38)
 
 ```csharp
 ref int InitialParticles { get; }
@@ -384,7 +384,7 @@ ref int InitialParticles { get; }
 
 ### Initializers
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L24)
 
 ```csharp
 ref CUtlVector<PointerTo<CParticleFunctionInitializer>> Initializers { get; }
@@ -396,7 +396,7 @@ ref CUtlVector<PointerTo<CParticleFunctionInitializer>> Initializers { get; }
 
 ### LowViolenceDef
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L91)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L92)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> LowViolenceDef { get; }
@@ -408,7 +408,7 @@ ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> LowViolenceDef {
 
 ### MaxCreationDistance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L119)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L120)
 
 ```csharp
 ref float MaxCreationDistance { get; }
@@ -420,7 +420,7 @@ ref float MaxCreationDistance { get; }
 
 ### MaxDrawDistance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L115)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L116)
 
 ```csharp
 ref float MaxDrawDistance { get; }
@@ -432,7 +432,7 @@ ref float MaxDrawDistance { get; }
 
 ### MaxParticles
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L40)
 
 ```csharp
 ref int MaxParticles { get; }
@@ -444,7 +444,7 @@ ref int MaxParticles { get; }
 
 ### MaximumSimTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L101)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L102)
 
 ```csharp
 ref float MaximumSimTime { get; }
@@ -456,7 +456,7 @@ ref float MaximumSimTime { get; }
 
 ### MaximumTimeStep
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L99)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L100)
 
 ```csharp
 ref float MaximumTimeStep { get; }
@@ -468,7 +468,7 @@ ref float MaximumTimeStep { get; }
 
 ### MinCPULevel
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L109)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L110)
 
 ```csharp
 ref int MinCPULevel { get; }
@@ -480,7 +480,7 @@ ref int MinCPULevel { get; }
 
 ### MinGPULevel
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L111)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L112)
 
 ```csharp
 ref int MinGPULevel { get; }
@@ -492,7 +492,7 @@ ref int MinGPULevel { get; }
 
 ### MinimumFrames
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L107)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L108)
 
 ```csharp
 ref int MinimumFrames { get; }
@@ -504,7 +504,7 @@ ref int MinimumFrames { get; }
 
 ### MinimumSimTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L103)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L104)
 
 ```csharp
 ref float MinimumSimTime { get; }
@@ -516,7 +516,7 @@ ref float MinimumSimTime { get; }
 
 ### MinimumTimeStep
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L105)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L106)
 
 ```csharp
 ref float MinimumTimeStep { get; }
@@ -528,7 +528,7 @@ ref float MinimumTimeStep { get; }
 
 ### NamedValueDomain
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L56)
 
 ```csharp
 string NamedValueDomain { get; set; }
@@ -540,7 +540,7 @@ string NamedValueDomain { get; set; }
 
 ### NamedValueLocals
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L58)
 
 ```csharp
 ref CUtlVector<PointerTo<ParticleNamedValueSource_t>> NamedValueLocals { get; }
@@ -552,7 +552,7 @@ ref CUtlVector<PointerTo<ParticleNamedValueSource_t>> NamedValueLocals { get; }
 
 ### NoDrawTimeToGoToSleep
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L113)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L114)
 
 ```csharp
 ref float NoDrawTimeToGoToSleep { get; }
@@ -564,7 +564,7 @@ ref float NoDrawTimeToGoToSleep { get; }
 
 ### Operators
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L26)
 
 ```csharp
 ref CUtlVector<PointerTo<CParticleFunctionOperator>> Operators { get; }
@@ -576,7 +576,7 @@ ref CUtlVector<PointerTo<CParticleFunctionOperator>> Operators { get; }
 
 ### PreEmissionOperators
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L20)
 
 ```csharp
 ref CUtlVector<PointerTo<CParticleFunctionPreEmission>> PreEmissionOperators { get; }
@@ -588,7 +588,7 @@ ref CUtlVector<PointerTo<CParticleFunctionPreEmission>> PreEmissionOperators { g
 
 ### PreSimulationTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L95)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L96)
 
 ```csharp
 ref float PreSimulationTime { get; }
@@ -600,7 +600,7 @@ ref float PreSimulationTime { get; }
 
 ### ReferenceReplacement
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L93)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L94)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> ReferenceReplacement { get; }
@@ -612,7 +612,7 @@ ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> ReferenceReplace
 
 ### Renderers
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L32)
 
 ```csharp
 ref CUtlVector<PointerTo<CParticleFunctionRenderer>> Renderers { get; }
@@ -624,7 +624,7 @@ ref CUtlVector<PointerTo<CParticleFunctionRenderer>> Renderers { get; }
 
 ### ScreenSpaceEffect
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L135)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L136)
 
 ```csharp
 ref bool ScreenSpaceEffect { get; }
@@ -636,7 +636,7 @@ ref bool ScreenSpaceEffect { get; }
 
 ### ShouldBatch
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L125)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L126)
 
 ```csharp
 ref bool ShouldBatch { get; }
@@ -648,7 +648,7 @@ ref bool ShouldBatch { get; }
 
 ### ShouldHitboxesFallbackToCollisionHulls
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L131)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L132)
 
 ```csharp
 ref bool ShouldHitboxesFallbackToCollisionHulls { get; }
@@ -660,7 +660,7 @@ ref bool ShouldHitboxesFallbackToCollisionHulls { get; }
 
 ### ShouldHitboxesFallbackToRenderBounds
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L127)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L128)
 
 ```csharp
 ref bool ShouldHitboxesFallbackToRenderBounds { get; }
@@ -672,7 +672,7 @@ ref bool ShouldHitboxesFallbackToRenderBounds { get; }
 
 ### ShouldHitboxesFallbackToSnapshot
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L129)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L130)
 
 ```csharp
 ref bool ShouldHitboxesFallbackToSnapshot { get; }
@@ -684,7 +684,7 @@ ref bool ShouldHitboxesFallbackToSnapshot { get; }
 
 ### ShouldSort
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L143)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L144)
 
 ```csharp
 ref bool ShouldSort { get; }
@@ -696,7 +696,7 @@ ref bool ShouldSort { get; }
 
 ### SkipRenderControlPoint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L139)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L140)
 
 ```csharp
 ref int SkipRenderControlPoint { get; }
@@ -708,7 +708,7 @@ ref int SkipRenderControlPoint { get; }
 
 ### Snapshot
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L77)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L78)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeIParticleSnapshot> Snapshot { get; }
@@ -720,7 +720,7 @@ ref CStrongHandle<InfoForResourceTypeIParticleSnapshot> Snapshot { get; }
 
 ### SnapshotControlPoint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L75)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L76)
 
 ```csharp
 ref int SnapshotControlPoint { get; }
@@ -732,7 +732,7 @@ ref int SnapshotControlPoint { get; }
 
 ### SortOverridePositionCP
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L50)
 
 ```csharp
 ref int SortOverridePositionCP { get; }
@@ -744,7 +744,7 @@ ref int SortOverridePositionCP { get; }
 
 ### StartFadeDistance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L117)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L118)
 
 ```csharp
 ref float StartFadeDistance { get; }
@@ -756,7 +756,7 @@ ref float StartFadeDistance { get; }
 
 ### StopSimulationAfterTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L97)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L98)
 
 ```csharp
 ref float StopSimulationAfterTime { get; }
@@ -768,7 +768,7 @@ ref float StopSimulationAfterTime { get; }
 
 ### TargetLayerID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L137)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L138)
 
 ```csharp
 string TargetLayerID { get; set; }
@@ -780,7 +780,7 @@ string TargetLayerID { get; set; }
 
 ### ViewModelEffect
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L133)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L134)
 
 ```csharp
 ref InheritableBoolType_t ViewModelEffect { get; }

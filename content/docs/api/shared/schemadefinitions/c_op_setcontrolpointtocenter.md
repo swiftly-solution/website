@@ -12,7 +12,7 @@ public interface C_OP_SetControlPointToCenter : CParticleFunctionPreEmission, CP
 
 ### CP1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToCenter.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToCenter.cs#L18)
 
 ```csharp
 ref int CP1 { get; }
@@ -24,7 +24,7 @@ ref int CP1 { get; }
 
 ### CP1Pos
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToCenter.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToCenter.cs#L20)
 
 ```csharp
 ref Vector CP1Pos { get; }
@@ -36,7 +36,7 @@ ref Vector CP1Pos { get; }
 
 ### SetParent
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToCenter.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToCenter.cs#L24)
 
 ```csharp
 ref ParticleParentSetMode_t SetParent { get; }
@@ -48,7 +48,7 @@ ref ParticleParentSetMode_t SetParent { get; }
 
 ### UseAvgParticlePos
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToCenter.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToCenter.cs#L22)
 
 ```csharp
 ref bool UseAvgParticlePos { get; }

@@ -12,7 +12,7 @@ public interface CPulseCell_Inflow_Method : CPulseCell_Inflow_BaseEntrypoint, CP
 
 ### Args
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Inflow_Method.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Inflow_Method.cs#L28)
 
 ```csharp
 ref CUtlLeanVector<CPulseRuntimeMethodArg, int> Args { get; }
@@ -24,7 +24,7 @@ ref CUtlLeanVector<CPulseRuntimeMethodArg, int> Args { get; }
 
 ### Description
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Inflow_Method.cs#L20)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Inflow_Method.cs#L21)
 
 ```csharp
 string Description { get; set; }
@@ -36,7 +36,7 @@ string Description { get; set; }
 
 ### IsPublic
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Inflow_Method.cs#L22)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Inflow_Method.cs#L23)
 
 ```csharp
 ref bool IsPublic { get; }
@@ -48,7 +48,7 @@ ref bool IsPublic { get; }
 
 ### MethodName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Inflow_Method.cs#L18)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Inflow_Method.cs#L19)
 
 ```csharp
 SchemaUntypedField MethodName { get; }
@@ -60,7 +60,7 @@ SchemaUntypedField MethodName { get; }
 
 ### ReturnType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Inflow_Method.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Inflow_Method.cs#L26)
 
 ```csharp
 SchemaUntypedField ReturnType { get; }

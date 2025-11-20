@@ -12,7 +12,7 @@ public interface CPhysicsProp : CBreakableProp, CBaseProp, CBaseAnimGraph, CBase
 
 ### AcceptDamageFromHeldObjects
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L77)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L78)
 
 ```csharp
 ref bool AcceptDamageFromHeldObjects { get; }
@@ -24,7 +24,7 @@ ref bool AcceptDamageFromHeldObjects { get; }
 
 ### AttachedToReferenceFrame
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L91)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L92)
 
 ```csharp
 ref bool AttachedToReferenceFrame { get; }
@@ -36,7 +36,7 @@ ref bool AttachedToReferenceFrame { get; }
 
 ### Awake
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L89)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L90)
 
 ```csharp
 ref bool Awake { get; }
@@ -48,7 +48,7 @@ ref bool Awake { get; }
 
 ### BuoyancyScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L40)
 
 ```csharp
 ref float BuoyancyScale { get; }
@@ -60,7 +60,7 @@ ref float BuoyancyScale { get; }
 
 ### CrateType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L81)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L82)
 
 ```csharp
 ref CPhysicsProp__CrateType_t CrateType { get; }
@@ -72,7 +72,7 @@ ref CPhysicsProp__CrateType_t CrateType { get; }
 
 ### DamageToEnableMotion
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L44)
 
 ```csharp
 ref int DamageToEnableMotion { get; }
@@ -84,7 +84,7 @@ ref int DamageToEnableMotion { get; }
 
 ### DamageType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L42)
 
 ```csharp
 ref int DamageType { get; }
@@ -96,7 +96,7 @@ ref int DamageType { get; }
 
 ### DroppedByPlayer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L50)
 
 ```csharp
 ref bool DroppedByPlayer { get; }
@@ -108,7 +108,7 @@ ref bool DroppedByPlayer { get; }
 
 ### DynamicContinuousContactBehavior
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L62)
 
 ```csharp
 ref DynamicContinuousContactBehavior_t DynamicContinuousContactBehavior { get; }
@@ -120,7 +120,7 @@ ref DynamicContinuousContactBehavior_t DynamicContinuousContactBehavior { get; }
 
 ### EnableUseOutput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L79)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L80)
 
 ```csharp
 ref bool EnableUseOutput { get; }
@@ -132,7 +132,7 @@ ref bool EnableUseOutput { get; }
 
 ### FirstCollisionAfterLaunch
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L54)
 
 ```csharp
 ref bool FirstCollisionAfterLaunch { get; }
@@ -144,7 +144,7 @@ ref bool FirstCollisionAfterLaunch { get; }
 
 ### ForceNavIgnore
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L32)
 
 ```csharp
 ref bool ForceNavIgnore { get; }
@@ -156,7 +156,7 @@ ref bool ForceNavIgnore { get; }
 
 ### ForceNpcExclude
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L36)
 
 ```csharp
 ref bool ForceNpcExclude { get; }
@@ -168,7 +168,7 @@ ref bool ForceNpcExclude { get; }
 
 ### ForceToEnableMotion
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L46)
 
 ```csharp
 ref float ForceToEnableMotion { get; }
@@ -180,7 +180,7 @@ ref float ForceToEnableMotion { get; }
 
 ### GlowColor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L71)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L72)
 
 ```csharp
 ref Color GlowColor { get; }
@@ -192,7 +192,7 @@ ref Color GlowColor { get; }
 
 ### GlowRange
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L67)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L68)
 
 ```csharp
 ref int GlowRange { get; }
@@ -204,7 +204,7 @@ ref int GlowRange { get; }
 
 ### GlowRangeMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L69)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L70)
 
 ```csharp
 ref int GlowRangeMin { get; }
@@ -216,7 +216,7 @@ ref int GlowRangeMin { get; }
 
 ### HasBeenAwakened
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L56)
 
 ```csharp
 ref bool HasBeenAwakened { get; }
@@ -228,7 +228,7 @@ ref bool HasBeenAwakened { get; }
 
 ### InitialGlowState
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L65)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L66)
 
 ```csharp
 ref int InitialGlowState { get; }
@@ -240,7 +240,7 @@ ref int InitialGlowState { get; }
 
 ### IsOverrideProp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L58)
 
 ```csharp
 ref bool IsOverrideProp { get; }
@@ -252,7 +252,7 @@ ref bool IsOverrideProp { get; }
 
 ### ItemCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L85)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L86)
 
 ```csharp
 ISchemaFixedArray<int> ItemCount { get; }
@@ -264,7 +264,7 @@ ISchemaFixedArray<int> ItemCount { get; }
 
 ### LastBurn
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L60)
 
 ```csharp
 GameTime_t LastBurn { get; }
@@ -276,7 +276,7 @@ GameTime_t LastBurn { get; }
 
 ### MassScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L38)
 
 ```csharp
 ref float MassScale { get; }
@@ -288,7 +288,7 @@ ref float MassScale { get; }
 
 ### MotionEnabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L18)
 
 ```csharp
 CEntityIOOutput MotionEnabled { get; }
@@ -300,7 +300,7 @@ CEntityIOOutput MotionEnabled { get; }
 
 ### MuteImpactEffects
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L75)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L76)
 
 ```csharp
 ref bool MuteImpactEffects { get; }
@@ -312,7 +312,7 @@ ref bool MuteImpactEffects { get; }
 
 ### NextCheckDisableMotionContactsTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L64)
 
 ```csharp
 GameTime_t NextCheckDisableMotionContactsTime { get; }
@@ -324,7 +324,7 @@ GameTime_t NextCheckDisableMotionContactsTime { get; }
 
 ### NoNavmeshBlocker
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L34)
 
 ```csharp
 ref bool NoNavmeshBlocker { get; }
@@ -336,7 +336,7 @@ ref bool NoNavmeshBlocker { get; }
 
 ### OnAsleep
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L24)
 
 ```csharp
 CEntityIOOutput OnAsleep { get; }
@@ -348,7 +348,7 @@ CEntityIOOutput OnAsleep { get; }
 
 ### OnAwake
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L22)
 
 ```csharp
 CEntityIOOutput OnAwake { get; }
@@ -360,7 +360,7 @@ CEntityIOOutput OnAwake { get; }
 
 ### OnAwakened
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L20)
 
 ```csharp
 CEntityIOOutput OnAwakened { get; }
@@ -372,7 +372,7 @@ CEntityIOOutput OnAwakened { get; }
 
 ### OnOutOfWorld
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L28)
 
 ```csharp
 CEntityIOOutput OnOutOfWorld { get; }
@@ -384,7 +384,7 @@ CEntityIOOutput OnOutOfWorld { get; }
 
 ### OnPlayerPickup
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L30)
 
 ```csharp
 CEntityIOOutput OnPlayerPickup { get; }
@@ -396,7 +396,7 @@ CEntityIOOutput OnPlayerPickup { get; }
 
 ### OnPlayerUse
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L26)
 
 ```csharp
 CEntityIOOutput OnPlayerUse { get; }
@@ -408,7 +408,7 @@ CEntityIOOutput OnPlayerUse { get; }
 
 ### RemovableForAmmoBalancing
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L87)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L88)
 
 ```csharp
 ref bool RemovableForAmmoBalancing { get; }
@@ -420,7 +420,7 @@ ref bool RemovableForAmmoBalancing { get; }
 
 ### ShouldAutoConvertBackFromDebris
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L73)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L74)
 
 ```csharp
 ref bool ShouldAutoConvertBackFromDebris { get; }
@@ -432,7 +432,7 @@ ref bool ShouldAutoConvertBackFromDebris { get; }
 
 ### StrItemClass
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L83)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L84)
 
 ```csharp
 string StrItemClass { get; set; }
@@ -444,7 +444,7 @@ string StrItemClass { get; set; }
 
 ### ThrownByPlayer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L48)
 
 ```csharp
 ref bool ThrownByPlayer { get; }
@@ -456,7 +456,7 @@ ref bool ThrownByPlayer { get; }
 
 ### TouchedByPlayer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L52)
 
 ```csharp
 ref bool TouchedByPlayer { get; }
@@ -470,7 +470,7 @@ ref bool TouchedByPlayer { get; }
 
 ### AwakeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L93)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L94)
 
 ```csharp
 void AwakeUpdated()

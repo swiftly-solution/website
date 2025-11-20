@@ -12,7 +12,7 @@ public interface CVSound : ISchemaClass<CVSound>, ISchemaField, ISchemaClass, IN
 
 ### Channels
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVSound.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVSound.cs#L22)
 
 ```csharp
 ref uint Channels { get; }
@@ -24,7 +24,7 @@ ref uint Channels { get; }
 
 ### Duration
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVSound.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVSound.cs#L28)
 
 ```csharp
 ref float Duration { get; }
@@ -36,7 +36,7 @@ ref float Duration { get; }
 
 ### EncodedHeader
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVSound.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVSound.cs#L38)
 
 ```csharp
 ref CUtlBinaryBlock EncodedHeader { get; }
@@ -48,7 +48,7 @@ ref CUtlBinaryBlock EncodedHeader { get; }
 
 ### Format
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVSound.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVSound.cs#L20)
 
 ```csharp
 ref CVSoundFormat_t Format { get; }
@@ -60,7 +60,7 @@ ref CVSoundFormat_t Format { get; }
 
 ### LoopEnd
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVSound.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVSound.cs#L36)
 
 ```csharp
 ref int LoopEnd { get; }
@@ -72,7 +72,7 @@ ref int LoopEnd { get; }
 
 ### LoopStart
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVSound.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVSound.cs#L24)
 
 ```csharp
 ref int LoopStart { get; }
@@ -84,7 +84,7 @@ ref int LoopStart { get; }
 
 ### Rate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVSound.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVSound.cs#L18)
 
 ```csharp
 ref int Rate { get; }
@@ -96,7 +96,7 @@ ref int Rate { get; }
 
 ### SampleCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVSound.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVSound.cs#L26)
 
 ```csharp
 ref uint SampleCount { get; }
@@ -108,7 +108,7 @@ ref uint SampleCount { get; }
 
 ### SeekTable
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVSound.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVSound.cs#L34)
 
 ```csharp
 ref CUtlVector<int> SeekTable { get; }
@@ -120,7 +120,7 @@ ref CUtlVector<int> SeekTable { get; }
 
 ### Sentences
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVSound.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVSound.cs#L30)
 
 ```csharp
 ref CUtlVector<CAudioSentence> Sentences { get; }
@@ -132,7 +132,7 @@ ref CUtlVector<CAudioSentence> Sentences { get; }
 
 ### StreamingSize
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVSound.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVSound.cs#L32)
 
 ```csharp
 ref uint StreamingSize { get; }

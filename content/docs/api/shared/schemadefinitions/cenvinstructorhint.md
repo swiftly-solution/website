@@ -12,7 +12,7 @@ public interface CEnvInstructorHint : CPointEntity, CBaseEntity, CEntityInstance
 
 ### ActivatorCaption
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorHint.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorHint.cs#L34)
 
 ```csharp
 string ActivatorCaption { get; set; }
@@ -24,7 +24,7 @@ string ActivatorCaption { get; set; }
 
 ### AllowNoDrawTarget
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorHint.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorHint.cs#L60)
 
 ```csharp
 ref bool AllowNoDrawTarget { get; }
@@ -36,7 +36,7 @@ ref bool AllowNoDrawTarget { get; }
 
 ### AlphaOption
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorHint.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorHint.cs#L44)
 
 ```csharp
 ref byte AlphaOption { get; }
@@ -48,7 +48,7 @@ ref byte AlphaOption { get; }
 
 ### AutoStart
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorHint.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorHint.cs#L62)
 
 ```csharp
 ref bool AutoStart { get; }
@@ -60,7 +60,7 @@ ref bool AutoStart { get; }
 
 ### Binding
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorHint.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorHint.cs#L58)
 
 ```csharp
 string Binding { get; set; }
@@ -72,7 +72,7 @@ string Binding { get; set; }
 
 ### Caption
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorHint.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorHint.cs#L32)
 
 ```csharp
 string Caption { get; set; }
@@ -84,7 +84,7 @@ string Caption { get; set; }
 
 ### Color
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorHint.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorHint.cs#L36)
 
 ```csharp
 ref Color Color { get; }
@@ -96,7 +96,7 @@ ref Color Color { get; }
 
 ### DisplayLimit
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorHint.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorHint.cs#L26)
 
 ```csharp
 ref int DisplayLimit { get; }
@@ -108,7 +108,7 @@ ref int DisplayLimit { get; }
 
 ### ForceCaption
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorHint.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorHint.cs#L52)
 
 ```csharp
 ref bool ForceCaption { get; }
@@ -120,7 +120,7 @@ ref bool ForceCaption { get; }
 
 ### HintTargetEntity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorHint.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorHint.cs#L22)
 
 ```csharp
 string HintTargetEntity { get; set; }
@@ -132,7 +132,7 @@ string HintTargetEntity { get; set; }
 
 ### IconOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorHint.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorHint.cs#L38)
 
 ```csharp
 ref float IconOffset { get; }
@@ -144,7 +144,7 @@ ref float IconOffset { get; }
 
 ### Icon_Offscreen
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorHint.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorHint.cs#L30)
 
 ```csharp
 string Icon_Offscreen { get; set; }
@@ -156,7 +156,7 @@ string Icon_Offscreen { get; set; }
 
 ### Icon_Onscreen
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorHint.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorHint.cs#L28)
 
 ```csharp
 string Icon_Onscreen { get; set; }
@@ -168,7 +168,7 @@ string Icon_Onscreen { get; set; }
 
 ### InstanceType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorHint.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorHint.cs#L54)
 
 ```csharp
 ref int InstanceType { get; }
@@ -180,7 +180,7 @@ ref int InstanceType { get; }
 
 ### LocalPlayerOnly
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorHint.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorHint.cs#L64)
 
 ```csharp
 ref bool LocalPlayerOnly { get; }
@@ -192,7 +192,7 @@ ref bool LocalPlayerOnly { get; }
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorHint.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorHint.cs#L18)
 
 ```csharp
 string Name { get; set; }
@@ -204,7 +204,7 @@ string Name { get; set; }
 
 ### NoOffscreen
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorHint.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorHint.cs#L50)
 
 ```csharp
 ref bool NoOffscreen { get; }
@@ -216,7 +216,7 @@ ref bool NoOffscreen { get; }
 
 ### PulseOption
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorHint.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorHint.cs#L42)
 
 ```csharp
 ref byte PulseOption { get; }
@@ -228,7 +228,7 @@ ref byte PulseOption { get; }
 
 ### Range
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorHint.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorHint.cs#L40)
 
 ```csharp
 ref float Range { get; }
@@ -240,7 +240,7 @@ ref float Range { get; }
 
 ### Replace_Key
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorHint.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorHint.cs#L20)
 
 ```csharp
 string Replace_Key { get; set; }
@@ -252,7 +252,7 @@ string Replace_Key { get; set; }
 
 ### ShakeOption
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorHint.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorHint.cs#L46)
 
 ```csharp
 ref byte ShakeOption { get; }
@@ -264,7 +264,7 @@ ref byte ShakeOption { get; }
 
 ### Static
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorHint.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorHint.cs#L48)
 
 ```csharp
 ref bool Static { get; }
@@ -276,7 +276,7 @@ ref bool Static { get; }
 
 ### SuppressRest
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorHint.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorHint.cs#L56)
 
 ```csharp
 ref bool SuppressRest { get; }
@@ -288,7 +288,7 @@ ref bool SuppressRest { get; }
 
 ### Timeout
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorHint.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorHint.cs#L24)
 
 ```csharp
 ref int Timeout { get; }

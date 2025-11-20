@@ -12,7 +12,7 @@ public interface CRagdollConstraint : CPhysConstraint, CLogicalEntity, CServerOn
 
 ### Xfriction
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollConstraint.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollConstraint.cs#L30)
 
 ```csharp
 ref float Xfriction { get; }
@@ -24,7 +24,7 @@ ref float Xfriction { get; }
 
 ### Xmax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollConstraint.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollConstraint.cs#L20)
 
 ```csharp
 ref float Xmax { get; }
@@ -36,7 +36,7 @@ ref float Xmax { get; }
 
 ### Xmin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollConstraint.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollConstraint.cs#L18)
 
 ```csharp
 ref float Xmin { get; }
@@ -48,7 +48,7 @@ ref float Xmin { get; }
 
 ### Yfriction
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollConstraint.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollConstraint.cs#L32)
 
 ```csharp
 ref float Yfriction { get; }
@@ -60,7 +60,7 @@ ref float Yfriction { get; }
 
 ### Ymax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollConstraint.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollConstraint.cs#L24)
 
 ```csharp
 ref float Ymax { get; }
@@ -72,7 +72,7 @@ ref float Ymax { get; }
 
 ### Ymin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollConstraint.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollConstraint.cs#L22)
 
 ```csharp
 ref float Ymin { get; }
@@ -84,7 +84,7 @@ ref float Ymin { get; }
 
 ### Zfriction
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollConstraint.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollConstraint.cs#L34)
 
 ```csharp
 ref float Zfriction { get; }
@@ -96,7 +96,7 @@ ref float Zfriction { get; }
 
 ### Zmax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollConstraint.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollConstraint.cs#L28)
 
 ```csharp
 ref float Zmax { get; }
@@ -108,7 +108,7 @@ ref float Zmax { get; }
 
 ### Zmin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollConstraint.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollConstraint.cs#L26)
 
 ```csharp
 ref float Zmin { get; }

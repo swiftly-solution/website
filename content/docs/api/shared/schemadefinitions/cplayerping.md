@@ -12,7 +12,7 @@ public interface CPlayerPing : CBaseEntity, CEntityInstance, ISchemaClass<CEntit
 
 ### PingedEntity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerPing.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerPing.cs#L20)
 
 ```csharp
 ref CHandle<CBaseEntity> PingedEntity { get; }
@@ -24,7 +24,7 @@ ref CHandle<CBaseEntity> PingedEntity { get; }
 
 ### PlaceName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerPing.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerPing.cs#L26)
 
 ```csharp
 string PlaceName { get; set; }
@@ -36,7 +36,7 @@ string PlaceName { get; set; }
 
 ### Player
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerPing.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerPing.cs#L18)
 
 ```csharp
 ref CHandle<CCSPlayerPawn> Player { get; }
@@ -48,7 +48,7 @@ ref CHandle<CCSPlayerPawn> Player { get; }
 
 ### Type
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerPing.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerPing.cs#L22)
 
 ```csharp
 ref int Type { get; }
@@ -60,7 +60,7 @@ ref int Type { get; }
 
 ### Urgent
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerPing.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerPing.cs#L24)
 
 ```csharp
 ref bool Urgent { get; }
@@ -74,7 +74,7 @@ ref bool Urgent { get; }
 
 ### PingedEntityUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerPing.cs#L28)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerPing.cs#L29)
 
 ```csharp
 void PingedEntityUpdated()
@@ -82,7 +82,7 @@ void PingedEntityUpdated()
 
 ### PlaceNameUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerPing.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerPing.cs#L32)
 
 ```csharp
 void PlaceNameUpdated()
@@ -90,7 +90,7 @@ void PlaceNameUpdated()
 
 ### PlayerUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerPing.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerPing.cs#L28)
 
 ```csharp
 void PlayerUpdated()
@@ -98,7 +98,7 @@ void PlayerUpdated()
 
 ### TypeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerPing.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerPing.cs#L30)
 
 ```csharp
 void TypeUpdated()
@@ -106,7 +106,7 @@ void TypeUpdated()
 
 ### UrgentUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerPing.cs#L30)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerPing.cs#L31)
 
 ```csharp
 void UrgentUpdated()

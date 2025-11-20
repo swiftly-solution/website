@@ -12,7 +12,7 @@ public interface CEnvCombinedLightProbeVolume : CBaseEntity, CEntityInstance, IS
 
 ### Entity_Color
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L18)
 
 ```csharp
 ref Color Entity_Color { get; }
@@ -24,7 +24,7 @@ ref Color Entity_Color { get; }
 
 ### Entity_bCustomCubemapTexture
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L24)
 
 ```csharp
 ref bool Entity_bCustomCubemapTexture { get; }
@@ -36,7 +36,7 @@ ref bool Entity_bCustomCubemapTexture { get; }
 
 ### Entity_bEnabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L73)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L74)
 
 ```csharp
 ref bool Entity_bEnabled { get; }
@@ -48,7 +48,7 @@ ref bool Entity_bEnabled { get; }
 
 ### Entity_bMoveable
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L48)
 
 ```csharp
 ref bool Entity_bMoveable { get; }
@@ -60,7 +60,7 @@ ref bool Entity_bMoveable { get; }
 
 ### Entity_bStartDisabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L56)
 
 ```csharp
 ref bool Entity_bStartDisabled { get; }
@@ -72,7 +72,7 @@ ref bool Entity_bStartDisabled { get; }
 
 ### Entity_flBrightness
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L20)
 
 ```csharp
 ref float Entity_flBrightness { get; }
@@ -84,7 +84,7 @@ ref float Entity_flBrightness { get; }
 
 ### Entity_flEdgeFadeDist
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L58)
 
 ```csharp
 ref float Entity_flEdgeFadeDist { get; }
@@ -96,7 +96,7 @@ ref float Entity_flEdgeFadeDist { get; }
 
 ### Entity_hCubemapTexture
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L22)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCTextureBase> Entity_hCubemapTexture { get; }
@@ -108,7 +108,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> Entity_hCubemapTexture { get;
 
 ### Entity_hLightProbeDirectLightIndicesTexture
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L38)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCTextureBase> Entity_hLightProbeDirectLightIndicesTexture { get; }
@@ -120,7 +120,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> Entity_hLightProbeDirectLight
 
 ### Entity_hLightProbeDirectLightScalarsTexture
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L40)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCTextureBase> Entity_hLightProbeDirectLightScalarsTexture { get; }
@@ -132,7 +132,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> Entity_hLightProbeDirectLight
 
 ### Entity_hLightProbeDirectLightShadowsTexture
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L42)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCTextureBase> Entity_hLightProbeDirectLightShadowsTexture { get; }
@@ -144,7 +144,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> Entity_hLightProbeDirectLight
 
 ### Entity_hLightProbeTexture_AmbientCube
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L26)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCTextureBase> Entity_hLightProbeTexture_AmbientCube { get; }
@@ -156,7 +156,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> Entity_hLightProbeTexture_Amb
 
 ### Entity_hLightProbeTexture_SDF
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L28)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCTextureBase> Entity_hLightProbeTexture_SDF { get; }
@@ -168,7 +168,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> Entity_hLightProbeTexture_SDF
 
 ### Entity_hLightProbeTexture_SH2_B
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L36)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCTextureBase> Entity_hLightProbeTexture_SH2_B { get; }
@@ -180,7 +180,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> Entity_hLightProbeTexture_SH2
 
 ### Entity_hLightProbeTexture_SH2_DC
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L30)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCTextureBase> Entity_hLightProbeTexture_SH2_DC { get; }
@@ -192,7 +192,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> Entity_hLightProbeTexture_SH2
 
 ### Entity_hLightProbeTexture_SH2_G
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L34)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCTextureBase> Entity_hLightProbeTexture_SH2_G { get; }
@@ -204,7 +204,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> Entity_hLightProbeTexture_SH2
 
 ### Entity_hLightProbeTexture_SH2_R
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L32)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCTextureBase> Entity_hLightProbeTexture_SH2_R { get; }
@@ -216,7 +216,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> Entity_hLightProbeTexture_SH2
 
 ### Entity_nEnvCubeMapArrayIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L52)
 
 ```csharp
 ref int Entity_nEnvCubeMapArrayIndex { get; }
@@ -228,7 +228,7 @@ ref int Entity_nEnvCubeMapArrayIndex { get; }
 
 ### Entity_nHandshake
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L50)
 
 ```csharp
 ref int Entity_nHandshake { get; }
@@ -240,7 +240,7 @@ ref int Entity_nHandshake { get; }
 
 ### Entity_nLightProbeAtlasX
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L67)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L68)
 
 ```csharp
 ref int Entity_nLightProbeAtlasX { get; }
@@ -252,7 +252,7 @@ ref int Entity_nLightProbeAtlasX { get; }
 
 ### Entity_nLightProbeAtlasY
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L69)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L70)
 
 ```csharp
 ref int Entity_nLightProbeAtlasY { get; }
@@ -264,7 +264,7 @@ ref int Entity_nLightProbeAtlasY { get; }
 
 ### Entity_nLightProbeAtlasZ
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L71)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L72)
 
 ```csharp
 ref int Entity_nLightProbeAtlasZ { get; }
@@ -276,7 +276,7 @@ ref int Entity_nLightProbeAtlasZ { get; }
 
 ### Entity_nLightProbeSizeX
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L62)
 
 ```csharp
 ref int Entity_nLightProbeSizeX { get; }
@@ -288,7 +288,7 @@ ref int Entity_nLightProbeSizeX { get; }
 
 ### Entity_nLightProbeSizeY
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L64)
 
 ```csharp
 ref int Entity_nLightProbeSizeY { get; }
@@ -300,7 +300,7 @@ ref int Entity_nLightProbeSizeY { get; }
 
 ### Entity_nLightProbeSizeZ
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L65)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L66)
 
 ```csharp
 ref int Entity_nLightProbeSizeZ { get; }
@@ -312,7 +312,7 @@ ref int Entity_nLightProbeSizeZ { get; }
 
 ### Entity_nPriority
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L54)
 
 ```csharp
 ref int Entity_nPriority { get; }
@@ -324,7 +324,7 @@ ref int Entity_nPriority { get; }
 
 ### Entity_vBoxMaxs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L46)
 
 ```csharp
 ref Vector Entity_vBoxMaxs { get; }
@@ -336,7 +336,7 @@ ref Vector Entity_vBoxMaxs { get; }
 
 ### Entity_vBoxMins
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L44)
 
 ```csharp
 ref Vector Entity_vBoxMins { get; }
@@ -348,7 +348,7 @@ ref Vector Entity_vBoxMins { get; }
 
 ### Entity_vEdgeFadeDists
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L60)
 
 ```csharp
 ref Vector Entity_vEdgeFadeDists { get; }
@@ -362,7 +362,7 @@ ref Vector Entity_vEdgeFadeDists { get; }
 
 ### Entity_ColorUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L75)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L76)
 
 ```csharp
 void Entity_ColorUpdated()
@@ -370,7 +370,7 @@ void Entity_ColorUpdated()
 
 ### Entity_bCustomCubemapTextureUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L78)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L79)
 
 ```csharp
 void Entity_bCustomCubemapTextureUpdated()
@@ -378,7 +378,7 @@ void Entity_bCustomCubemapTextureUpdated()
 
 ### Entity_bEnabledUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L103)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L104)
 
 ```csharp
 void Entity_bEnabledUpdated()
@@ -386,7 +386,7 @@ void Entity_bEnabledUpdated()
 
 ### Entity_bMoveableUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L90)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L91)
 
 ```csharp
 void Entity_bMoveableUpdated()
@@ -394,7 +394,7 @@ void Entity_bMoveableUpdated()
 
 ### Entity_bStartDisabledUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L94)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L95)
 
 ```csharp
 void Entity_bStartDisabledUpdated()
@@ -402,7 +402,7 @@ void Entity_bStartDisabledUpdated()
 
 ### Entity_flBrightnessUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L76)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L77)
 
 ```csharp
 void Entity_flBrightnessUpdated()
@@ -410,7 +410,7 @@ void Entity_flBrightnessUpdated()
 
 ### Entity_flEdgeFadeDistUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L95)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L96)
 
 ```csharp
 void Entity_flEdgeFadeDistUpdated()
@@ -418,7 +418,7 @@ void Entity_flEdgeFadeDistUpdated()
 
 ### Entity_hCubemapTextureUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L77)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L78)
 
 ```csharp
 void Entity_hCubemapTextureUpdated()
@@ -426,7 +426,7 @@ void Entity_hCubemapTextureUpdated()
 
 ### Entity_hLightProbeDirectLightIndicesTextureUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L85)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L86)
 
 ```csharp
 void Entity_hLightProbeDirectLightIndicesTextureUpdated()
@@ -434,7 +434,7 @@ void Entity_hLightProbeDirectLightIndicesTextureUpdated()
 
 ### Entity_hLightProbeDirectLightScalarsTextureUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L86)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L87)
 
 ```csharp
 void Entity_hLightProbeDirectLightScalarsTextureUpdated()
@@ -442,7 +442,7 @@ void Entity_hLightProbeDirectLightScalarsTextureUpdated()
 
 ### Entity_hLightProbeDirectLightShadowsTextureUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L87)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L88)
 
 ```csharp
 void Entity_hLightProbeDirectLightShadowsTextureUpdated()
@@ -450,7 +450,7 @@ void Entity_hLightProbeDirectLightShadowsTextureUpdated()
 
 ### Entity_hLightProbeTexture_AmbientCubeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L79)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L80)
 
 ```csharp
 void Entity_hLightProbeTexture_AmbientCubeUpdated()
@@ -458,7 +458,7 @@ void Entity_hLightProbeTexture_AmbientCubeUpdated()
 
 ### Entity_hLightProbeTexture_SDFUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L80)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L81)
 
 ```csharp
 void Entity_hLightProbeTexture_SDFUpdated()
@@ -466,7 +466,7 @@ void Entity_hLightProbeTexture_SDFUpdated()
 
 ### Entity_hLightProbeTexture_SH2_BUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L84)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L85)
 
 ```csharp
 void Entity_hLightProbeTexture_SH2_BUpdated()
@@ -474,7 +474,7 @@ void Entity_hLightProbeTexture_SH2_BUpdated()
 
 ### Entity_hLightProbeTexture_SH2_DCUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L81)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L82)
 
 ```csharp
 void Entity_hLightProbeTexture_SH2_DCUpdated()
@@ -482,7 +482,7 @@ void Entity_hLightProbeTexture_SH2_DCUpdated()
 
 ### Entity_hLightProbeTexture_SH2_GUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L83)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L84)
 
 ```csharp
 void Entity_hLightProbeTexture_SH2_GUpdated()
@@ -490,7 +490,7 @@ void Entity_hLightProbeTexture_SH2_GUpdated()
 
 ### Entity_hLightProbeTexture_SH2_RUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L82)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L83)
 
 ```csharp
 void Entity_hLightProbeTexture_SH2_RUpdated()
@@ -498,7 +498,7 @@ void Entity_hLightProbeTexture_SH2_RUpdated()
 
 ### Entity_nEnvCubeMapArrayIndexUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L92)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L93)
 
 ```csharp
 void Entity_nEnvCubeMapArrayIndexUpdated()
@@ -506,7 +506,7 @@ void Entity_nEnvCubeMapArrayIndexUpdated()
 
 ### Entity_nHandshakeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L91)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L92)
 
 ```csharp
 void Entity_nHandshakeUpdated()
@@ -514,7 +514,7 @@ void Entity_nHandshakeUpdated()
 
 ### Entity_nLightProbeAtlasXUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L100)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L101)
 
 ```csharp
 void Entity_nLightProbeAtlasXUpdated()
@@ -522,7 +522,7 @@ void Entity_nLightProbeAtlasXUpdated()
 
 ### Entity_nLightProbeAtlasYUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L101)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L102)
 
 ```csharp
 void Entity_nLightProbeAtlasYUpdated()
@@ -530,7 +530,7 @@ void Entity_nLightProbeAtlasYUpdated()
 
 ### Entity_nLightProbeAtlasZUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L102)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L103)
 
 ```csharp
 void Entity_nLightProbeAtlasZUpdated()
@@ -538,7 +538,7 @@ void Entity_nLightProbeAtlasZUpdated()
 
 ### Entity_nLightProbeSizeXUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L97)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L98)
 
 ```csharp
 void Entity_nLightProbeSizeXUpdated()
@@ -546,7 +546,7 @@ void Entity_nLightProbeSizeXUpdated()
 
 ### Entity_nLightProbeSizeYUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L98)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L99)
 
 ```csharp
 void Entity_nLightProbeSizeYUpdated()
@@ -554,7 +554,7 @@ void Entity_nLightProbeSizeYUpdated()
 
 ### Entity_nLightProbeSizeZUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L99)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L100)
 
 ```csharp
 void Entity_nLightProbeSizeZUpdated()
@@ -562,7 +562,7 @@ void Entity_nLightProbeSizeZUpdated()
 
 ### Entity_nPriorityUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L93)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L94)
 
 ```csharp
 void Entity_nPriorityUpdated()
@@ -570,7 +570,7 @@ void Entity_nPriorityUpdated()
 
 ### Entity_vBoxMaxsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L89)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L90)
 
 ```csharp
 void Entity_vBoxMaxsUpdated()
@@ -578,7 +578,7 @@ void Entity_vBoxMaxsUpdated()
 
 ### Entity_vBoxMinsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L88)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L89)
 
 ```csharp
 void Entity_vBoxMinsUpdated()
@@ -586,7 +586,7 @@ void Entity_vBoxMinsUpdated()
 
 ### Entity_vEdgeFadeDistsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L96)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvCombinedLightProbeVolume.cs#L97)
 
 ```csharp
 void Entity_vEdgeFadeDistsUpdated()

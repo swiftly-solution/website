@@ -12,7 +12,7 @@ public interface CStateMachineUpdateNode : CAnimUpdateNodeBase, ISchemaClass<CAn
 
 ### BlockWaningTags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateMachineUpdateNode.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateMachineUpdateNode.cs#L24)
 
 ```csharp
 ref bool BlockWaningTags { get; }
@@ -24,7 +24,7 @@ ref bool BlockWaningTags { get; }
 
 ### LockStateWhenWaning
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateMachineUpdateNode.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateMachineUpdateNode.cs#L26)
 
 ```csharp
 ref bool LockStateWhenWaning { get; }
@@ -36,7 +36,7 @@ ref bool LockStateWhenWaning { get; }
 
 ### ResetWhenActivated
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateMachineUpdateNode.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateMachineUpdateNode.cs#L28)
 
 ```csharp
 ref bool ResetWhenActivated { get; }
@@ -48,7 +48,7 @@ ref bool ResetWhenActivated { get; }
 
 ### StateData
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateMachineUpdateNode.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateMachineUpdateNode.cs#L20)
 
 ```csharp
 ref CUtlVector<CStateNodeStateData> StateData { get; }
@@ -60,7 +60,7 @@ ref CUtlVector<CStateNodeStateData> StateData { get; }
 
 ### StateMachine
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateMachineUpdateNode.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateMachineUpdateNode.cs#L18)
 
 ```csharp
 CAnimStateMachineUpdater StateMachine { get; }
@@ -72,7 +72,7 @@ CAnimStateMachineUpdater StateMachine { get; }
 
 ### TransitionData
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateMachineUpdateNode.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateMachineUpdateNode.cs#L22)
 
 ```csharp
 ref CUtlVector<CStateNodeTransitionData> TransitionData { get; }

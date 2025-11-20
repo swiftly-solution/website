@@ -12,7 +12,7 @@ public interface C_OP_LagCompensation : CParticleFunctionOperator, CParticleFunc
 
 ### DesiredVelocityCP
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LagCompensation.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LagCompensation.cs#L18)
 
 ```csharp
 ref int DesiredVelocityCP { get; }
@@ -24,7 +24,7 @@ ref int DesiredVelocityCP { get; }
 
 ### DesiredVelocityCPField
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LagCompensation.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LagCompensation.cs#L24)
 
 ```csharp
 ref int DesiredVelocityCPField { get; }
@@ -36,7 +36,7 @@ ref int DesiredVelocityCPField { get; }
 
 ### LatencyCP
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LagCompensation.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LagCompensation.cs#L20)
 
 ```csharp
 ref int LatencyCP { get; }
@@ -48,7 +48,7 @@ ref int LatencyCP { get; }
 
 ### LatencyCPField
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LagCompensation.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LagCompensation.cs#L22)
 
 ```csharp
 ref int LatencyCPField { get; }

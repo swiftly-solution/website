@@ -12,7 +12,7 @@ public interface CLogicCollisionPair : CLogicalEntity, CServerOnlyEntity, CBaseE
 
 ### Disabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicCollisionPair.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicCollisionPair.cs#L26)
 
 ```csharp
 ref bool Disabled { get; }
@@ -24,7 +24,7 @@ ref bool Disabled { get; }
 
 ### IncludeHierarchy
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicCollisionPair.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicCollisionPair.cs#L22)
 
 ```csharp
 ref bool IncludeHierarchy { get; }
@@ -36,7 +36,7 @@ ref bool IncludeHierarchy { get; }
 
 ### NameAttach1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicCollisionPair.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicCollisionPair.cs#L18)
 
 ```csharp
 string NameAttach1 { get; set; }
@@ -48,7 +48,7 @@ string NameAttach1 { get; set; }
 
 ### NameAttach2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicCollisionPair.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicCollisionPair.cs#L20)
 
 ```csharp
 string NameAttach2 { get; set; }
@@ -60,7 +60,7 @@ string NameAttach2 { get; set; }
 
 ### Succeeded
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicCollisionPair.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicCollisionPair.cs#L28)
 
 ```csharp
 ref bool Succeeded { get; }
@@ -72,7 +72,7 @@ ref bool Succeeded { get; }
 
 ### SupportMultipleEntitiesWithSameName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicCollisionPair.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicCollisionPair.cs#L24)
 
 ```csharp
 ref bool SupportMultipleEntitiesWithSameName { get; }

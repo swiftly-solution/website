@@ -12,7 +12,7 @@ public interface CSolveIKChainUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase
 
 ### OpFixedData
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSolveIKChainUpdateNode.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSolveIKChainUpdateNode.cs#L20)
 
 ```csharp
 SolveIKChainPoseOpFixedSettings_t OpFixedData { get; }
@@ -24,7 +24,7 @@ SolveIKChainPoseOpFixedSettings_t OpFixedData { get; }
 
 ### TargetHandles
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSolveIKChainUpdateNode.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSolveIKChainUpdateNode.cs#L18)
 
 ```csharp
 ref CUtlVector<CSolveIKTargetHandle_t> TargetHandles { get; }

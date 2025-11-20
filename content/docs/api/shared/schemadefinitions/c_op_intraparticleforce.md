@@ -12,7 +12,7 @@ public interface C_OP_IntraParticleForce : CParticleFunctionForce, CParticleFunc
 
 ### AttractionMaxDistance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_IntraParticleForce.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_IntraParticleForce.cs#L20)
 
 ```csharp
 ref float AttractionMaxDistance { get; }
@@ -24,7 +24,7 @@ ref float AttractionMaxDistance { get; }
 
 ### AttractionMaxStrength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_IntraParticleForce.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_IntraParticleForce.cs#L22)
 
 ```csharp
 ref float AttractionMaxStrength { get; }
@@ -36,7 +36,7 @@ ref float AttractionMaxStrength { get; }
 
 ### AttractionMinDistance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_IntraParticleForce.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_IntraParticleForce.cs#L18)
 
 ```csharp
 ref float AttractionMinDistance { get; }
@@ -48,7 +48,7 @@ ref float AttractionMinDistance { get; }
 
 ### RepulsionMaxDistance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_IntraParticleForce.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_IntraParticleForce.cs#L26)
 
 ```csharp
 ref float RepulsionMaxDistance { get; }
@@ -60,7 +60,7 @@ ref float RepulsionMaxDistance { get; }
 
 ### RepulsionMaxStrength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_IntraParticleForce.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_IntraParticleForce.cs#L28)
 
 ```csharp
 ref float RepulsionMaxStrength { get; }
@@ -72,7 +72,7 @@ ref float RepulsionMaxStrength { get; }
 
 ### RepulsionMinDistance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_IntraParticleForce.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_IntraParticleForce.cs#L24)
 
 ```csharp
 ref float RepulsionMinDistance { get; }
@@ -84,7 +84,7 @@ ref float RepulsionMinDistance { get; }
 
 ### UseAABB
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_IntraParticleForce.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_IntraParticleForce.cs#L30)
 
 ```csharp
 ref bool UseAABB { get; }

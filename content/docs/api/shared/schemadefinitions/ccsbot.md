@@ -12,7 +12,7 @@ public interface CCSBot : CBot, ISchemaClass<CBot>, ISchemaClass<CCSBot>, ISchem
 
 ### AimError
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L185)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L186)
 
 ```csharp
 ref QAngle AimError { get; }
@@ -24,7 +24,7 @@ ref QAngle AimError { get; }
 
 ### AimFocus
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L191)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L192)
 
 ```csharp
 ref float AimFocus { get; }
@@ -36,7 +36,7 @@ ref float AimFocus { get; }
 
 ### AimFocusInterval
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L193)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L194)
 
 ```csharp
 ref float AimFocusInterval { get; }
@@ -48,7 +48,7 @@ ref float AimFocusInterval { get; }
 
 ### AimFocusNextUpdate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L195)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L196)
 
 ```csharp
 GameTime_t AimFocusNextUpdate { get; }
@@ -60,7 +60,7 @@ GameTime_t AimFocusNextUpdate { get; }
 
 ### AimGoal
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L187)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L188)
 
 ```csharp
 ref QAngle AimGoal { get; }
@@ -72,7 +72,7 @@ ref QAngle AimGoal { get; }
 
 ### AlertTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L50)
 
 ```csharp
 CountdownTimer AlertTimer { get; }
@@ -84,7 +84,7 @@ CountdownTimer AlertTimer { get; }
 
 ### AllowActive
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L38)
 
 ```csharp
 ref bool AllowActive { get; }
@@ -96,7 +96,7 @@ ref bool AllowActive { get; }
 
 ### AllowAutoFollowTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L46)
 
 ```csharp
 ref float AllowAutoFollowTime { get; }
@@ -108,7 +108,7 @@ ref float AllowAutoFollowTime { get; }
 
 ### ApproachPointCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L157)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L158)
 
 ```csharp
 ref byte ApproachPointCount { get; }
@@ -120,7 +120,7 @@ ref byte ApproachPointCount { get; }
 
 ### ApproachPointViewPosition
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L159)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L160)
 
 ```csharp
 ref Vector ApproachPointViewPosition { get; }
@@ -132,7 +132,7 @@ ref Vector ApproachPointViewPosition { get; }
 
 ### AreaEnteredTimestamp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L81)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L82)
 
 ```csharp
 GameTime_t AreaEnteredTimestamp { get; }
@@ -144,7 +144,7 @@ GameTime_t AreaEnteredTimestamp { get; }
 
 ### AttackedTimestamp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L233)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L234)
 
 ```csharp
 ref float AttackedTimestamp { get; }
@@ -156,7 +156,7 @@ ref float AttackedTimestamp { get; }
 
 ### Attacker
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L231)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L232)
 
 ```csharp
 ref CHandle<CCSPlayerPawn> Attacker { get; }
@@ -168,7 +168,7 @@ ref CHandle<CCSPlayerPawn> Attacker { get; }
 
 ### AttentionInterval
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L229)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L230)
 
 ```csharp
 IntervalTimer AttentionInterval { get; }
@@ -180,7 +180,7 @@ IntervalTimer AttentionInterval { get; }
 
 ### AvgVel
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L275)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L276)
 
 ```csharp
 ISchemaFixedArray<float> AvgVel { get; }
@@ -192,7 +192,7 @@ ISchemaFixedArray<float> AvgVel { get; }
 
 ### AvgVelCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L279)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L280)
 
 ```csharp
 ref int AvgVelCount { get; }
@@ -204,7 +204,7 @@ ref int AvgVelCount { get; }
 
 ### AvgVelIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L277)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L278)
 
 ```csharp
 ref int AvgVelIndex { get; }
@@ -216,7 +216,7 @@ ref int AvgVelIndex { get; }
 
 ### Avoid
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L67)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L68)
 
 ```csharp
 ref CHandle<CBaseEntity> Avoid { get; }
@@ -228,7 +228,7 @@ ref CHandle<CBaseEntity> Avoid { get; }
 
 ### AvoidFriendTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L85)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L86)
 
 ```csharp
 CountdownTimer AvoidFriendTimer { get; }
@@ -240,7 +240,7 @@ CountdownTimer AvoidFriendTimer { get; }
 
 ### AvoidTimestamp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L69)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L70)
 
 ```csharp
 ref float AvoidTimestamp { get; }
@@ -252,7 +252,7 @@ ref float AvoidTimestamp { get; }
 
 ### BendNoisePositionValid
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L131)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L132)
 
 ```csharp
 ref bool BendNoisePositionValid { get; }
@@ -264,7 +264,7 @@ ref bool BendNoisePositionValid { get; }
 
 ### BentNoisePosition
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L129)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L130)
 
 ```csharp
 ref Vector BentNoisePosition { get; }
@@ -276,7 +276,7 @@ ref Vector BentNoisePosition { get; }
 
 ### BlindFire
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L34)
 
 ```csharp
 ref bool BlindFire { get; }
@@ -288,7 +288,7 @@ ref bool BlindFire { get; }
 
 ### Bomber
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L221)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L222)
 
 ```csharp
 ref CHandle<CCSPlayerPawn> Bomber { get; }
@@ -300,7 +300,7 @@ ref CHandle<CCSPlayerPawn> Bomber { get; }
 
 ### BurnedByFlamesTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L235)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L236)
 
 ```csharp
 IntervalTimer BurnedByFlamesTimer { get; }
@@ -312,7 +312,7 @@ IntervalTimer BurnedByFlamesTimer { get; }
 
 ### CheckedHidingSpotCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L169)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L170)
 
 ```csharp
 ref int CheckedHidingSpotCount { get; }
@@ -324,7 +324,7 @@ ref int CheckedHidingSpotCount { get; }
 
 ### ClosestVisibleFriend
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L225)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L226)
 
 ```csharp
 ref CHandle<CCSPlayerPawn> ClosestVisibleFriend { get; }
@@ -336,7 +336,7 @@ ref CHandle<CCSPlayerPawn> ClosestVisibleFriend { get; }
 
 ### ClosestVisibleHumanFriend
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L227)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L228)
 
 ```csharp
 ref CHandle<CCSPlayerPawn> ClosestVisibleHumanFriend { get; }
@@ -348,7 +348,7 @@ ref CHandle<CCSPlayerPawn> ClosestVisibleHumanFriend { get; }
 
 ### CombatRange
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L22)
 
 ```csharp
 ref float CombatRange { get; }
@@ -360,7 +360,7 @@ ref float CombatRange { get; }
 
 ### CurrentEnemyAcquireTimestamp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L211)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L212)
 
 ```csharp
 ref float CurrentEnemyAcquireTimestamp { get; }
@@ -372,7 +372,7 @@ ref float CurrentEnemyAcquireTimestamp { get; }
 
 ### DesiredTeam
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L109)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L110)
 
 ```csharp
 ref int DesiredTeam { get; }
@@ -384,7 +384,7 @@ ref int DesiredTeam { get; }
 
 ### DiedLastRound
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L28)
 
 ```csharp
 ref bool DiedLastRound { get; }
@@ -396,7 +396,7 @@ ref bool DiedLastRound { get; }
 
 ### Enemy
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L199)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L200)
 
 ```csharp
 ref CHandle<CCSPlayerPawn> Enemy { get; }
@@ -408,7 +408,7 @@ ref CHandle<CCSPlayerPawn> Enemy { get; }
 
 ### EnemyDeathTimestamp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L213)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L214)
 
 ```csharp
 ref float EnemyDeathTimestamp { get; }
@@ -420,7 +420,7 @@ ref float EnemyDeathTimestamp { get; }
 
 ### EnemyQueueAttendIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L261)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L262)
 
 ```csharp
 ref byte EnemyQueueAttendIndex { get; }
@@ -432,7 +432,7 @@ ref byte EnemyQueueAttendIndex { get; }
 
 ### EnemyQueueCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L259)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L260)
 
 ```csharp
 ref byte EnemyQueueCount { get; }
@@ -444,7 +444,7 @@ ref byte EnemyQueueCount { get; }
 
 ### EnemyQueueIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L257)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L258)
 
 ```csharp
 ref byte EnemyQueueIndex { get; }
@@ -456,7 +456,7 @@ ref byte EnemyQueueIndex { get; }
 
 ### EquipTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L243)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L244)
 
 ```csharp
 IntervalTimer EquipTimer { get; }
@@ -468,7 +468,7 @@ IntervalTimer EquipTimer { get; }
 
 ### EyeAnglesUnderPathFinderControl
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L77)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L78)
 
 ```csharp
 ref bool EyeAnglesUnderPathFinderControl { get; }
@@ -480,7 +480,7 @@ ref bool EyeAnglesUnderPathFinderControl { get; }
 
 ### EyePosition
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L18)
 
 ```csharp
 ref Vector EyePosition { get; }
@@ -492,7 +492,7 @@ ref Vector EyePosition { get; }
 
 ### FireWeaponTimestamp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L247)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L248)
 
 ```csharp
 GameTime_t FireWeaponTimestamp { get; }
@@ -504,7 +504,7 @@ GameTime_t FireWeaponTimestamp { get; }
 
 ### FirstSawEnemyTimestamp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L209)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L210)
 
 ```csharp
 ref float FirstSawEnemyTimestamp { get; }
@@ -516,7 +516,7 @@ ref float FirstSawEnemyTimestamp { get; }
 
 ### FollowTimestamp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L44)
 
 ```csharp
 ref float FollowTimestamp { get; }
@@ -528,7 +528,7 @@ ref float FollowTimestamp { get; }
 
 ### ForwardAngle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L137)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L138)
 
 ```csharp
 ref float ForwardAngle { get; }
@@ -540,7 +540,7 @@ ref float ForwardAngle { get; }
 
 ### FriendDeathTimestamp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L215)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L216)
 
 ```csharp
 ref float FriendDeathTimestamp { get; }
@@ -552,7 +552,7 @@ ref float FriendDeathTimestamp { get; }
 
 ### GoalEntity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L65)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L66)
 
 ```csharp
 ref CHandle<CBaseEntity> GoalEntity { get; }
@@ -564,7 +564,7 @@ ref CHandle<CBaseEntity> GoalEntity { get; }
 
 ### GoalPosition
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L64)
 
 ```csharp
 ref Vector GoalPosition { get; }
@@ -576,7 +576,7 @@ ref Vector GoalPosition { get; }
 
 ### HasJoined
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L111)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L112)
 
 ```csharp
 ref bool HasJoined { get; }
@@ -588,7 +588,7 @@ ref bool HasJoined { get; }
 
 ### HasVisitedEnemySpawn
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L73)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L74)
 
 ```csharp
 ref bool HasVisitedEnemySpawn { get; }
@@ -600,7 +600,7 @@ ref bool HasVisitedEnemySpawn { get; }
 
 ### HostageEscortCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L105)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L106)
 
 ```csharp
 ref byte HostageEscortCount { get; }
@@ -612,7 +612,7 @@ ref byte HostageEscortCount { get; }
 
 ### HostageEscortCountTimestamp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L107)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L108)
 
 ```csharp
 ref float HostageEscortCountTimestamp { get; }
@@ -624,7 +624,7 @@ ref float HostageEscortCountTimestamp { get; }
 
 ### HurryTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L48)
 
 ```csharp
 CountdownTimer HurryTimer { get; }
@@ -636,7 +636,7 @@ CountdownTimer HurryTimer { get; }
 
 ### IgnoreEnemiesTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L197)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L198)
 
 ```csharp
 CountdownTimer IgnoreEnemiesTimer { get; }
@@ -648,7 +648,7 @@ CountdownTimer IgnoreEnemiesTimer { get; }
 
 ### InhibitLookAroundTimestamp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L139)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L140)
 
 ```csharp
 ref float InhibitLookAroundTimestamp { get; }
@@ -660,7 +660,7 @@ ref float InhibitLookAroundTimestamp { get; }
 
 ### InhibitWaitingForHostageTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L115)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L116)
 
 ```csharp
 CountdownTimer InhibitWaitingForHostageTimer { get; }
@@ -672,7 +672,7 @@ CountdownTimer InhibitWaitingForHostageTimer { get; }
 
 ### IsAimingAtEnemy
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L239)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L240)
 
 ```csharp
 ref bool IsAimingAtEnemy { get; }
@@ -684,7 +684,7 @@ ref bool IsAimingAtEnemy { get; }
 
 ### IsAttacking
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L58)
 
 ```csharp
 ref bool IsAttacking { get; }
@@ -696,7 +696,7 @@ ref bool IsAttacking { get; }
 
 ### IsAvoidingGrenade
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L165)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L166)
 
 ```csharp
 CountdownTimer IsAvoidingGrenade { get; }
@@ -708,7 +708,7 @@ CountdownTimer IsAvoidingGrenade { get; }
 
 ### IsEnemySniperVisible
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L253)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L254)
 
 ```csharp
 ref bool IsEnemySniperVisible { get; }
@@ -720,7 +720,7 @@ ref bool IsEnemySniperVisible { get; }
 
 ### IsEnemyVisible
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L201)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L202)
 
 ```csharp
 ref bool IsEnemyVisible { get; }
@@ -732,7 +732,7 @@ ref bool IsEnemyVisible { get; }
 
 ### IsFollowing
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L40)
 
 ```csharp
 ref bool IsFollowing { get; }
@@ -744,7 +744,7 @@ ref bool IsFollowing { get; }
 
 ### IsFriendInTheWay
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L87)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L88)
 
 ```csharp
 ref bool IsFriendInTheWay { get; }
@@ -756,7 +756,7 @@ ref bool IsFriendInTheWay { get; }
 
 ### IsLastEnemyDead
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L217)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L218)
 
 ```csharp
 ref bool IsLastEnemyDead { get; }
@@ -768,7 +768,7 @@ ref bool IsLastEnemyDead { get; }
 
 ### IsOpeningDoor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L60)
 
 ```csharp
 ref bool IsOpeningDoor { get; }
@@ -780,7 +780,7 @@ ref bool IsOpeningDoor { get; }
 
 ### IsRapidFiring
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L241)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L242)
 
 ```csharp
 ref bool IsRapidFiring { get; }
@@ -792,7 +792,7 @@ ref bool IsRapidFiring { get; }
 
 ### IsRogue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L24)
 
 ```csharp
 ref bool IsRogue { get; }
@@ -804,7 +804,7 @@ ref bool IsRogue { get; }
 
 ### IsSleeping
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L251)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L252)
 
 ```csharp
 ref bool IsSleeping { get; }
@@ -816,7 +816,7 @@ ref bool IsSleeping { get; }
 
 ### IsStopping
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L71)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L72)
 
 ```csharp
 ref bool IsStopping { get; }
@@ -828,7 +828,7 @@ ref bool IsStopping { get; }
 
 ### IsStuck
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L263)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L264)
 
 ```csharp
 ref bool IsStuck { get; }
@@ -840,7 +840,7 @@ ref bool IsStuck { get; }
 
 ### IsWaitingBehindFriend
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L91)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L92)
 
 ```csharp
 ref bool IsWaitingBehindFriend { get; }
@@ -852,7 +852,7 @@ ref bool IsWaitingBehindFriend { get; }
 
 ### IsWaitingForHostage
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L113)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L114)
 
 ```csharp
 ref bool IsWaitingForHostage { get; }
@@ -864,7 +864,7 @@ ref bool IsWaitingForHostage { get; }
 
 ### LastEnemyPosition
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L205)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L206)
 
 ```csharp
 ref Vector LastEnemyPosition { get; }
@@ -876,7 +876,7 @@ ref Vector LastEnemyPosition { get; }
 
 ### LastOrigin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L281)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L282)
 
 ```csharp
 ref Vector LastOrigin { get; }
@@ -888,7 +888,7 @@ ref Vector LastOrigin { get; }
 
 ### LastRadioRecievedTimestamp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L283)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L284)
 
 ```csharp
 ref float LastRadioRecievedTimestamp { get; }
@@ -900,7 +900,7 @@ ref float LastRadioRecievedTimestamp { get; }
 
 ### LastRadioSentTimestamp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L285)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L286)
 
 ```csharp
 ref float LastRadioSentTimestamp { get; }
@@ -912,7 +912,7 @@ ref float LastRadioSentTimestamp { get; }
 
 ### LastSawEnemyTimestamp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L207)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L208)
 
 ```csharp
 ref float LastSawEnemyTimestamp { get; }
@@ -924,7 +924,7 @@ ref float LastSawEnemyTimestamp { get; }
 
 ### LastValidReactionQueueFrame
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L293)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L294)
 
 ```csharp
 ref int LastValidReactionQueueFrame { get; }
@@ -936,7 +936,7 @@ ref int LastValidReactionQueueFrame { get; }
 
 ### LastVictimID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L237)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L238)
 
 ```csharp
 ref int LastVictimID { get; }
@@ -948,7 +948,7 @@ ref int LastVictimID { get; }
 
 ### Leader
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L42)
 
 ```csharp
 ref CHandle<CCSPlayerPawn> Leader { get; }
@@ -960,7 +960,7 @@ ref CHandle<CCSPlayerPawn> Leader { get; }
 
 ### LookAheadAngle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L135)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L136)
 
 ```csharp
 ref float LookAheadAngle { get; }
@@ -972,7 +972,7 @@ ref float LookAheadAngle { get; }
 
 ### LookAroundStateTimestamp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L133)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L134)
 
 ```csharp
 ref float LookAroundStateTimestamp { get; }
@@ -984,7 +984,7 @@ ref float LookAroundStateTimestamp { get; }
 
 ### LookAtDesc
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L153)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L154)
 
 ```csharp
 string LookAtDesc { get; set; }
@@ -996,7 +996,7 @@ string LookAtDesc { get; set; }
 
 ### LookAtSpot
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L141)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L142)
 
 ```csharp
 ref Vector LookAtSpot { get; }
@@ -1008,7 +1008,7 @@ ref Vector LookAtSpot { get; }
 
 ### LookAtSpotAngleTolerance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L147)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L148)
 
 ```csharp
 ref float LookAtSpotAngleTolerance { get; }
@@ -1020,7 +1020,7 @@ ref float LookAtSpotAngleTolerance { get; }
 
 ### LookAtSpotAttack
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L151)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L152)
 
 ```csharp
 ref bool LookAtSpotAttack { get; }
@@ -1032,7 +1032,7 @@ ref bool LookAtSpotAttack { get; }
 
 ### LookAtSpotClearIfClose
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L149)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L150)
 
 ```csharp
 ref bool LookAtSpotClearIfClose { get; }
@@ -1044,7 +1044,7 @@ ref bool LookAtSpotClearIfClose { get; }
 
 ### LookAtSpotDuration
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L143)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L144)
 
 ```csharp
 ref float LookAtSpotDuration { get; }
@@ -1056,7 +1056,7 @@ ref float LookAtSpotDuration { get; }
 
 ### LookAtSpotTimestamp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L145)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L146)
 
 ```csharp
 ref float LookAtSpotTimestamp { get; }
@@ -1068,7 +1068,7 @@ ref float LookAtSpotTimestamp { get; }
 
 ### LookForWeaponsOnGroundTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L249)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L250)
 
 ```csharp
 CountdownTimer LookForWeaponsOnGroundTimer { get; }
@@ -1080,7 +1080,7 @@ CountdownTimer LookForWeaponsOnGroundTimer { get; }
 
 ### LookPitch
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L171)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L172)
 
 ```csharp
 ref float LookPitch { get; }
@@ -1092,7 +1092,7 @@ ref float LookPitch { get; }
 
 ### LookPitchVel
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L173)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L174)
 
 ```csharp
 ref float LookPitchVel { get; }
@@ -1104,7 +1104,7 @@ ref float LookPitchVel { get; }
 
 ### LookYaw
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L175)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L176)
 
 ```csharp
 ref float LookYaw { get; }
@@ -1116,7 +1116,7 @@ ref float LookYaw { get; }
 
 ### LookYawVel
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L177)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L178)
 
 ```csharp
 ref float LookYawVel { get; }
@@ -1128,7 +1128,7 @@ ref float LookYawVel { get; }
 
 ### MustRunTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L95)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L96)
 
 ```csharp
 CountdownTimer MustRunTimer { get; }
@@ -1140,7 +1140,7 @@ CountdownTimer MustRunTimer { get; }
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L20)
 
 ```csharp
 string Name { get; set; }
@@ -1152,7 +1152,7 @@ string Name { get; set; }
 
 ### NearbyEnemyCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L219)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L220)
 
 ```csharp
 ref int NearbyEnemyCount { get; }
@@ -1164,7 +1164,7 @@ ref int NearbyEnemyCount { get; }
 
 ### NearbyFriendCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L223)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L224)
 
 ```csharp
 ref int NearbyFriendCount { get; }
@@ -1176,7 +1176,7 @@ ref int NearbyFriendCount { get; }
 
 ### NextCleanupCheckTimestamp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L273)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L274)
 
 ```csharp
 GameTime_t NextCleanupCheckTimestamp { get; }
@@ -1188,7 +1188,7 @@ GameTime_t NextCleanupCheckTimestamp { get; }
 
 ### NoiseBendTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L127)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L128)
 
 ```csharp
 CountdownTimer NoiseBendTimer { get; }
@@ -1200,7 +1200,7 @@ CountdownTimer NoiseBendTimer { get; }
 
 ### NoisePosition
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L119)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L120)
 
 ```csharp
 ref Vector NoisePosition { get; }
@@ -1212,7 +1212,7 @@ ref Vector NoisePosition { get; }
 
 ### NoiseSource
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L125)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L126)
 
 ```csharp
 CCSPlayerPawn? NoiseSource { get; }
@@ -1224,7 +1224,7 @@ CCSPlayerPawn? NoiseSource { get; }
 
 ### NoiseTimestamp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L123)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L124)
 
 ```csharp
 ref float NoiseTimestamp { get; }
@@ -1236,7 +1236,7 @@ ref float NoiseTimestamp { get; }
 
 ### NoiseTravelDistance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L121)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L122)
 
 ```csharp
 ref float NoiseTravelDistance { get; }
@@ -1248,7 +1248,7 @@ ref float NoiseTravelDistance { get; }
 
 ### PanicTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L54)
 
 ```csharp
 CountdownTimer PanicTimer { get; }
@@ -1260,7 +1260,7 @@ CountdownTimer PanicTimer { get; }
 
 ### PathIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L79)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L80)
 
 ```csharp
 ref int PathIndex { get; }
@@ -1272,7 +1272,7 @@ ref int PathIndex { get; }
 
 ### PathLadderEnd
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L93)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L94)
 
 ```csharp
 ref float PathLadderEnd { get; }
@@ -1284,7 +1284,7 @@ ref float PathLadderEnd { get; }
 
 ### PeripheralTimestamp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L155)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L156)
 
 ```csharp
 ref float PeripheralTimestamp { get; }
@@ -1296,7 +1296,7 @@ ref float PeripheralTimestamp { get; }
 
 ### PlayerTravelDistance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L101)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L102)
 
 ```csharp
 ISchemaFixedArray<float> PlayerTravelDistance { get; }
@@ -1308,7 +1308,7 @@ ISchemaFixedArray<float> PlayerTravelDistance { get; }
 
 ### PoliteTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L89)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L90)
 
 ```csharp
 CountdownTimer PoliteTimer { get; }
@@ -1320,7 +1320,7 @@ CountdownTimer PoliteTimer { get; }
 
 ### RadioPosition
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L289)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L290)
 
 ```csharp
 ref Vector RadioPosition { get; }
@@ -1332,7 +1332,7 @@ ref Vector RadioPosition { get; }
 
 ### RadioSubject
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L287)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L288)
 
 ```csharp
 ref CHandle<CCSPlayerPawn> RadioSubject { get; }
@@ -1344,7 +1344,7 @@ ref CHandle<CCSPlayerPawn> RadioSubject { get; }
 
 ### RepathTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L83)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L84)
 
 ```csharp
 CountdownTimer RepathTimer { get; }
@@ -1356,7 +1356,7 @@ CountdownTimer RepathTimer { get; }
 
 ### RogueTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L26)
 
 ```csharp
 CountdownTimer RogueTimer { get; }
@@ -1368,7 +1368,7 @@ CountdownTimer RogueTimer { get; }
 
 ### SafeTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L30)
 
 ```csharp
 ref float SafeTime { get; }
@@ -1380,7 +1380,7 @@ ref float SafeTime { get; }
 
 ### SawEnemySniperTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L255)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L256)
 
 ```csharp
 CountdownTimer SawEnemySniperTimer { get; }
@@ -1392,7 +1392,7 @@ CountdownTimer SawEnemySniperTimer { get; }
 
 ### SneakTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L52)
 
 ```csharp
 CountdownTimer SneakTimer { get; }
@@ -1404,7 +1404,7 @@ CountdownTimer SneakTimer { get; }
 
 ### SpotCheckTimestamp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L167)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L168)
 
 ```csharp
 ref float SpotCheckTimestamp { get; }
@@ -1416,7 +1416,7 @@ ref float SpotCheckTimestamp { get; }
 
 ### StateTimestamp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L56)
 
 ```csharp
 ref float StateTimestamp { get; }
@@ -1428,7 +1428,7 @@ ref float StateTimestamp { get; }
 
 ### StillTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L75)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L76)
 
 ```csharp
 IntervalTimer StillTimer { get; }
@@ -1440,7 +1440,7 @@ IntervalTimer StillTimer { get; }
 
 ### StuckJumpTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L271)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L272)
 
 ```csharp
 CountdownTimer StuckJumpTimer { get; }
@@ -1452,7 +1452,7 @@ CountdownTimer StuckJumpTimer { get; }
 
 ### StuckSpot
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L267)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L268)
 
 ```csharp
 ref Vector StuckSpot { get; }
@@ -1464,7 +1464,7 @@ ref Vector StuckSpot { get; }
 
 ### StuckTimestamp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L265)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L266)
 
 ```csharp
 GameTime_t StuckTimestamp { get; }
@@ -1476,7 +1476,7 @@ GameTime_t StuckTimestamp { get; }
 
 ### SurpriseTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L36)
 
 ```csharp
 CountdownTimer SurpriseTimer { get; }
@@ -1488,7 +1488,7 @@ CountdownTimer SurpriseTimer { get; }
 
 ### TargetSpot
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L179)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L180)
 
 ```csharp
 ref Vector TargetSpot { get; }
@@ -1500,7 +1500,7 @@ ref Vector TargetSpot { get; }
 
 ### TargetSpotPredicted
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L183)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L184)
 
 ```csharp
 ref Vector TargetSpotPredicted { get; }
@@ -1512,7 +1512,7 @@ ref Vector TargetSpotPredicted { get; }
 
 ### TargetSpotTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L189)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L190)
 
 ```csharp
 GameTime_t TargetSpotTime { get; }
@@ -1524,7 +1524,7 @@ GameTime_t TargetSpotTime { get; }
 
 ### TargetSpotVelocity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L181)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L182)
 
 ```csharp
 ref Vector TargetSpotVelocity { get; }
@@ -1536,7 +1536,7 @@ ref Vector TargetSpotVelocity { get; }
 
 ### TaskEntity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L62)
 
 ```csharp
 ref CHandle<CBaseEntity> TaskEntity { get; }
@@ -1548,7 +1548,7 @@ ref CHandle<CBaseEntity> TaskEntity { get; }
 
 ### TossGrenadeTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L163)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L164)
 
 ```csharp
 CountdownTimer TossGrenadeTimer { get; }
@@ -1560,7 +1560,7 @@ CountdownTimer TossGrenadeTimer { get; }
 
 ### TravelDistancePhase
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L103)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L104)
 
 ```csharp
 ref byte TravelDistancePhase { get; }
@@ -1572,7 +1572,7 @@ ref byte TravelDistancePhase { get; }
 
 ### UpdateTravelDistanceTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L99)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L100)
 
 ```csharp
 CountdownTimer UpdateTravelDistanceTimer { get; }
@@ -1584,7 +1584,7 @@ CountdownTimer UpdateTravelDistanceTimer { get; }
 
 ### ViewSteadyTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L161)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L162)
 
 ```csharp
 IntervalTimer ViewSteadyTimer { get; }
@@ -1596,7 +1596,7 @@ IntervalTimer ViewSteadyTimer { get; }
 
 ### VisibleEnemyParts
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L203)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L204)
 
 ```csharp
 ref byte VisibleEnemyParts { get; }
@@ -1608,7 +1608,7 @@ ref byte VisibleEnemyParts { get; }
 
 ### VoiceEndTimestamp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L291)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L292)
 
 ```csharp
 ref float VoiceEndTimestamp { get; }
@@ -1620,7 +1620,7 @@ ref float VoiceEndTimestamp { get; }
 
 ### WaitForHostageTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L117)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L118)
 
 ```csharp
 CountdownTimer WaitForHostageTimer { get; }
@@ -1632,7 +1632,7 @@ CountdownTimer WaitForHostageTimer { get; }
 
 ### WaitTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L97)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L98)
 
 ```csharp
 CountdownTimer WaitTimer { get; }
@@ -1644,7 +1644,7 @@ CountdownTimer WaitTimer { get; }
 
 ### WasSafe
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L32)
 
 ```csharp
 ref bool WasSafe { get; }
@@ -1656,7 +1656,7 @@ ref bool WasSafe { get; }
 
 ### WiggleTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L269)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L270)
 
 ```csharp
 CountdownTimer WiggleTimer { get; }
@@ -1668,7 +1668,7 @@ CountdownTimer WiggleTimer { get; }
 
 ### ZoomTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L245)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSBot.cs#L246)
 
 ```csharp
 CountdownTimer ZoomTimer { get; }

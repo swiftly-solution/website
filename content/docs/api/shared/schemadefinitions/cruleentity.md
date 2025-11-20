@@ -12,7 +12,7 @@ public interface CRuleEntity : CBaseModelEntity, CBaseEntity, CEntityInstance, I
 
 ### Master
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRuleEntity.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRuleEntity.cs#L18)
 
 ```csharp
 string Master { get; set; }

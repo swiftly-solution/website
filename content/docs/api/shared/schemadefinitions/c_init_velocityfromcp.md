@@ -12,7 +12,7 @@ public interface C_INIT_VelocityFromCP : CParticleFunctionInitializer, CParticle
 
 ### DirectionOnly
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_VelocityFromCP.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_VelocityFromCP.cs#L24)
 
 ```csharp
 ref bool DirectionOnly { get; }
@@ -24,7 +24,7 @@ ref bool DirectionOnly { get; }
 
 ### TransformInput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_VelocityFromCP.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_VelocityFromCP.cs#L20)
 
 ```csharp
 CParticleTransformInput TransformInput { get; }
@@ -36,7 +36,7 @@ CParticleTransformInput TransformInput { get; }
 
 ### VelocityInput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_VelocityFromCP.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_VelocityFromCP.cs#L18)
 
 ```csharp
 CParticleCollectionVecInput VelocityInput { get; }
@@ -48,7 +48,7 @@ CParticleCollectionVecInput VelocityInput { get; }
 
 ### VelocityScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_VelocityFromCP.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_VelocityFromCP.cs#L22)
 
 ```csharp
 ref float VelocityScale { get; }

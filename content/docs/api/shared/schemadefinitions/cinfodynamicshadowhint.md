@@ -12,7 +12,7 @@ public interface CInfoDynamicShadowHint : CPointEntity, CBaseEntity, CEntityInst
 
 ### Disabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoDynamicShadowHint.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoDynamicShadowHint.cs#L18)
 
 ```csharp
 ref bool Disabled { get; }
@@ -24,7 +24,7 @@ ref bool Disabled { get; }
 
 ### Importance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoDynamicShadowHint.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoDynamicShadowHint.cs#L22)
 
 ```csharp
 ref int Importance { get; }
@@ -36,7 +36,7 @@ ref int Importance { get; }
 
 ### Light
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoDynamicShadowHint.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoDynamicShadowHint.cs#L26)
 
 ```csharp
 ref CHandle<CBaseEntity> Light { get; }
@@ -48,7 +48,7 @@ ref CHandle<CBaseEntity> Light { get; }
 
 ### LightChoice
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoDynamicShadowHint.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoDynamicShadowHint.cs#L24)
 
 ```csharp
 ref int LightChoice { get; }
@@ -60,7 +60,7 @@ ref int LightChoice { get; }
 
 ### Range
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoDynamicShadowHint.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoDynamicShadowHint.cs#L20)
 
 ```csharp
 ref float Range { get; }

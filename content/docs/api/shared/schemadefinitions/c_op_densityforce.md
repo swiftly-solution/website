@@ -12,7 +12,7 @@ public interface C_OP_DensityForce : CParticleFunctionForce, CParticleFunction, 
 
 ### ForceScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DensityForce.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DensityForce.cs#L20)
 
 ```csharp
 ref float ForceScale { get; }
@@ -24,7 +24,7 @@ ref float ForceScale { get; }
 
 ### RadiusScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DensityForce.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DensityForce.cs#L18)
 
 ```csharp
 ref float RadiusScale { get; }
@@ -36,7 +36,7 @@ ref float RadiusScale { get; }
 
 ### TargetDensity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DensityForce.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DensityForce.cs#L22)
 
 ```csharp
 ref float TargetDensity { get; }

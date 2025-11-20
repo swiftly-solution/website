@@ -12,7 +12,7 @@ public interface CConstraintTarget : ISchemaClass<CConstraintTarget>, ISchemaFie
 
 ### BoneHash
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstraintTarget.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstraintTarget.cs#L22)
 
 ```csharp
 ref uint BoneHash { get; }
@@ -24,7 +24,7 @@ ref uint BoneHash { get; }
 
 ### IsAttachment
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstraintTarget.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstraintTarget.cs#L28)
 
 ```csharp
 ref bool IsAttachment { get; }
@@ -36,7 +36,7 @@ ref bool IsAttachment { get; }
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstraintTarget.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstraintTarget.cs#L24)
 
 ```csharp
 string Name { get; set; }
@@ -48,7 +48,7 @@ string Name { get; set; }
 
 ### Offset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstraintTarget.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstraintTarget.cs#L18)
 
 ```csharp
 ref Quaternion Offset { get; }
@@ -60,7 +60,7 @@ ref Quaternion Offset { get; }
 
 ### Offset1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstraintTarget.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstraintTarget.cs#L20)
 
 ```csharp
 ref Vector Offset1 { get; }
@@ -72,7 +72,7 @@ ref Vector Offset1 { get; }
 
 ### Weight
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstraintTarget.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstraintTarget.cs#L26)
 
 ```csharp
 ref float Weight { get; }

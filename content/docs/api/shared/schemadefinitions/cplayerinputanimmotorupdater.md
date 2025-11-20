@@ -12,7 +12,7 @@ public interface CPlayerInputAnimMotorUpdater : CAnimMotorUpdaterBase, ISchemaCl
 
 ### AnticipationDistance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerInputAnimMotorUpdater.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerInputAnimMotorUpdater.cs#L22)
 
 ```csharp
 ref float AnticipationDistance { get; }
@@ -24,7 +24,7 @@ ref float AnticipationDistance { get; }
 
 ### AnticipationHeadingParam
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerInputAnimMotorUpdater.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerInputAnimMotorUpdater.cs#L26)
 
 ```csharp
 CAnimParamHandle AnticipationHeadingParam { get; }
@@ -36,7 +36,7 @@ CAnimParamHandle AnticipationHeadingParam { get; }
 
 ### AnticipationPosParam
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerInputAnimMotorUpdater.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerInputAnimMotorUpdater.cs#L24)
 
 ```csharp
 CAnimParamHandle AnticipationPosParam { get; }
@@ -48,7 +48,7 @@ CAnimParamHandle AnticipationPosParam { get; }
 
 ### SampleTimes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerInputAnimMotorUpdater.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerInputAnimMotorUpdater.cs#L18)
 
 ```csharp
 ref CUtlVector<float> SampleTimes { get; }
@@ -60,7 +60,7 @@ ref CUtlVector<float> SampleTimes { get; }
 
 ### SpringConstant
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerInputAnimMotorUpdater.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerInputAnimMotorUpdater.cs#L20)
 
 ```csharp
 ref float SpringConstant { get; }
@@ -72,7 +72,7 @@ ref float SpringConstant { get; }
 
 ### UseAcceleration
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerInputAnimMotorUpdater.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerInputAnimMotorUpdater.cs#L28)
 
 ```csharp
 ref bool UseAcceleration { get; }

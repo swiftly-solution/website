@@ -12,7 +12,7 @@ public interface CPulse_CallInfo : ISchemaClass<CPulse_CallInfo>, ISchemaField, 
 
 ### CallMethodID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_CallInfo.cs#L24)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_CallInfo.cs#L25)
 
 ```csharp
 PulseDocNodeID_t CallMethodID { get; }
@@ -24,7 +24,7 @@ PulseDocNodeID_t CallMethodID { get; }
 
 ### EditorNodeID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_CallInfo.cs#L20)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_CallInfo.cs#L21)
 
 ```csharp
 PulseDocNodeID_t EditorNodeID { get; }
@@ -36,7 +36,7 @@ PulseDocNodeID_t EditorNodeID { get; }
 
 ### PortName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_CallInfo.cs#L18)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_CallInfo.cs#L19)
 
 ```csharp
 SchemaUntypedField PortName { get; }
@@ -48,7 +48,7 @@ SchemaUntypedField PortName { get; }
 
 ### RegisterMap
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_CallInfo.cs#L22)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_CallInfo.cs#L23)
 
 ```csharp
 PulseRegisterMap_t RegisterMap { get; }
@@ -60,7 +60,7 @@ PulseRegisterMap_t RegisterMap { get; }
 
 ### SrcChunk
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_CallInfo.cs#L26)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_CallInfo.cs#L27)
 
 ```csharp
 PulseRuntimeChunkIndex_t SrcChunk { get; }
@@ -72,7 +72,7 @@ PulseRuntimeChunkIndex_t SrcChunk { get; }
 
 ### SrcInstruction
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_CallInfo.cs#L28)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_CallInfo.cs#L29)
 
 ```csharp
 ref int SrcInstruction { get; }

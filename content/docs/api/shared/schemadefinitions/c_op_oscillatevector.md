@@ -12,7 +12,7 @@ public interface C_OP_OscillateVector : CParticleFunctionOperator, CParticleFunc
 
 ### EndTime_max
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateVector.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateVector.cs#L40)
 
 ```csharp
 ref float EndTime_max { get; }
@@ -24,7 +24,7 @@ ref float EndTime_max { get; }
 
 ### EndTime_min
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateVector.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateVector.cs#L38)
 
 ```csharp
 ref float EndTime_min { get; }
@@ -36,7 +36,7 @@ ref float EndTime_min { get; }
 
 ### Field
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateVector.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateVector.cs#L26)
 
 ```csharp
 ParticleAttributeIndex_t Field { get; }
@@ -48,7 +48,7 @@ ParticleAttributeIndex_t Field { get; }
 
 ### FrequencyMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateVector.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateVector.cs#L24)
 
 ```csharp
 ref Vector FrequencyMax { get; }
@@ -60,7 +60,7 @@ ref Vector FrequencyMax { get; }
 
 ### FrequencyMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateVector.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateVector.cs#L22)
 
 ```csharp
 ref Vector FrequencyMin { get; }
@@ -72,7 +72,7 @@ ref Vector FrequencyMin { get; }
 
 ### Offset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateVector.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateVector.cs#L32)
 
 ```csharp
 ref bool Offset { get; }
@@ -84,7 +84,7 @@ ref bool Offset { get; }
 
 ### OscAdd
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateVector.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateVector.cs#L44)
 
 ```csharp
 CPerParticleFloatInput OscAdd { get; }
@@ -96,7 +96,7 @@ CPerParticleFloatInput OscAdd { get; }
 
 ### OscMult
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateVector.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateVector.cs#L42)
 
 ```csharp
 CPerParticleFloatInput OscMult { get; }
@@ -108,7 +108,7 @@ CPerParticleFloatInput OscMult { get; }
 
 ### Proportional
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateVector.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateVector.cs#L28)
 
 ```csharp
 ref bool Proportional { get; }
@@ -120,7 +120,7 @@ ref bool Proportional { get; }
 
 ### ProportionalOp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateVector.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateVector.cs#L30)
 
 ```csharp
 ref bool ProportionalOp { get; }
@@ -132,7 +132,7 @@ ref bool ProportionalOp { get; }
 
 ### RateMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateVector.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateVector.cs#L20)
 
 ```csharp
 ref Vector RateMax { get; }
@@ -144,7 +144,7 @@ ref Vector RateMax { get; }
 
 ### RateMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateVector.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateVector.cs#L18)
 
 ```csharp
 ref Vector RateMin { get; }
@@ -156,7 +156,7 @@ ref Vector RateMin { get; }
 
 ### RateScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateVector.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateVector.cs#L46)
 
 ```csharp
 CPerParticleFloatInput RateScale { get; }
@@ -168,7 +168,7 @@ CPerParticleFloatInput RateScale { get; }
 
 ### StartTime_max
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateVector.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateVector.cs#L36)
 
 ```csharp
 ref float StartTime_max { get; }
@@ -180,7 +180,7 @@ ref float StartTime_max { get; }
 
 ### StartTime_min
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateVector.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateVector.cs#L34)
 
 ```csharp
 ref float StartTime_min { get; }

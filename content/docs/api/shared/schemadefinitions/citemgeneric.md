@@ -12,7 +12,7 @@ public interface CItemGeneric : CItem, CBaseAnimGraph, CBaseModelEntity, CBaseEn
 
 ### AllowPickupScriptFunction
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L65)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L66)
 
 ```csharp
 string AllowPickupScriptFunction { get; set; }
@@ -24,7 +24,7 @@ string AllowPickupScriptFunction { get; set; }
 
 ### AmbientSoundEffect
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L34)
 
 ```csharp
 string AmbientSoundEffect { get; set; }
@@ -36,7 +36,7 @@ string AmbientSoundEffect { get; set; }
 
 ### AutoStartAmbientSound
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L36)
 
 ```csharp
 ref bool AutoStartAmbientSound { get; }
@@ -48,7 +48,7 @@ ref bool AutoStartAmbientSound { get; }
 
 ### GlowColor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L75)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L76)
 
 ```csharp
 ref Color GlowColor { get; }
@@ -60,7 +60,7 @@ ref Color GlowColor { get; }
 
 ### GlowWhenInTrigger
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L73)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L74)
 
 ```csharp
 ref bool GlowWhenInTrigger { get; }
@@ -72,7 +72,7 @@ ref bool GlowWhenInTrigger { get; }
 
 ### HasPickupRadius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L20)
 
 ```csharp
 ref bool HasPickupRadius { get; }
@@ -84,7 +84,7 @@ ref bool HasPickupRadius { get; }
 
 ### HasTriggerRadius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L18)
 
 ```csharp
 ref bool HasTriggerRadius { get; }
@@ -96,7 +96,7 @@ ref bool HasTriggerRadius { get; }
 
 ### LastPickupCheck
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L26)
 
 ```csharp
 GameTime_t LastPickupCheck { get; }
@@ -108,7 +108,7 @@ GameTime_t LastPickupCheck { get; }
 
 ### OnPickup
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L56)
 
 ```csharp
 CEntityIOOutput OnPickup { get; }
@@ -120,7 +120,7 @@ CEntityIOOutput OnPickup { get; }
 
 ### OnTimeout
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L58)
 
 ```csharp
 CEntityIOOutput OnTimeout { get; }
@@ -132,7 +132,7 @@ CEntityIOOutput OnTimeout { get; }
 
 ### OnTriggerEndTouch
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L64)
 
 ```csharp
 CEntityIOOutput OnTriggerEndTouch { get; }
@@ -144,7 +144,7 @@ CEntityIOOutput OnTriggerEndTouch { get; }
 
 ### OnTriggerStartTouch
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L60)
 
 ```csharp
 CEntityIOOutput OnTriggerStartTouch { get; }
@@ -156,7 +156,7 @@ CEntityIOOutput OnTriggerStartTouch { get; }
 
 ### OnTriggerTouch
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L62)
 
 ```csharp
 CEntityIOOutput OnTriggerTouch { get; }
@@ -168,7 +168,7 @@ CEntityIOOutput OnTriggerTouch { get; }
 
 ### PickupFilter
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L54)
 
 ```csharp
 ref CHandle<CBaseFilter> PickupFilter { get; }
@@ -180,7 +180,7 @@ ref CHandle<CBaseFilter> PickupFilter { get; }
 
 ### PickupFilterName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L52)
 
 ```csharp
 string PickupFilterName { get; set; }
@@ -192,7 +192,7 @@ string PickupFilterName { get; set; }
 
 ### PickupParticleEffect
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L40)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> PickupParticleEffect { get; }
@@ -204,7 +204,7 @@ ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> PickupParticleEf
 
 ### PickupRadius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L67)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L68)
 
 ```csharp
 ref float PickupRadius { get; }
@@ -216,7 +216,7 @@ ref float PickupRadius { get; }
 
 ### PickupRadiusSqr
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L22)
 
 ```csharp
 ref float PickupRadiusSqr { get; }
@@ -228,7 +228,7 @@ ref float PickupRadiusSqr { get; }
 
 ### PickupScriptFunction
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L44)
 
 ```csharp
 string PickupScriptFunction { get; set; }
@@ -240,7 +240,7 @@ string PickupScriptFunction { get; set; }
 
 ### PickupSoundEffect
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L42)
 
 ```csharp
 string PickupSoundEffect { get; set; }
@@ -252,7 +252,7 @@ string PickupSoundEffect { get; set; }
 
 ### PlayerCounterListenerAdded
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L28)
 
 ```csharp
 ref bool PlayerCounterListenerAdded { get; }
@@ -264,7 +264,7 @@ ref bool PlayerCounterListenerAdded { get; }
 
 ### PlayerInTriggerRadius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L30)
 
 ```csharp
 ref bool PlayerInTriggerRadius { get; }
@@ -276,7 +276,7 @@ ref bool PlayerInTriggerRadius { get; }
 
 ### SpawnParticleEffect
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L32)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> SpawnParticleEffect { get; }
@@ -288,7 +288,7 @@ ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> SpawnParticleEff
 
 ### SpawnScriptFunction
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L38)
 
 ```csharp
 string SpawnScriptFunction { get; set; }
@@ -300,7 +300,7 @@ string SpawnScriptFunction { get; set; }
 
 ### TimeoutParticleEffect
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L46)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> TimeoutParticleEffect { get; }
@@ -312,7 +312,7 @@ ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> TimeoutParticleE
 
 ### TimeoutScriptFunction
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L50)
 
 ```csharp
 string TimeoutScriptFunction { get; set; }
@@ -324,7 +324,7 @@ string TimeoutScriptFunction { get; set; }
 
 ### TimeoutSoundEffect
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L48)
 
 ```csharp
 string TimeoutSoundEffect { get; set; }
@@ -336,7 +336,7 @@ string TimeoutSoundEffect { get; set; }
 
 ### TriggerHelper
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L79)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L80)
 
 ```csharp
 ref CHandle<CItemGenericTriggerHelper> TriggerHelper { get; }
@@ -348,7 +348,7 @@ ref CHandle<CItemGenericTriggerHelper> TriggerHelper { get; }
 
 ### TriggerRadius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L69)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L70)
 
 ```csharp
 ref float TriggerRadius { get; }
@@ -360,7 +360,7 @@ ref float TriggerRadius { get; }
 
 ### TriggerRadiusSqr
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L24)
 
 ```csharp
 ref float TriggerRadiusSqr { get; }
@@ -372,7 +372,7 @@ ref float TriggerRadiusSqr { get; }
 
 ### TriggerSoundEffect
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L71)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L72)
 
 ```csharp
 string TriggerSoundEffect { get; set; }
@@ -384,7 +384,7 @@ string TriggerSoundEffect { get; set; }
 
 ### Useable
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L77)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGeneric.cs#L78)
 
 ```csharp
 ref bool Useable { get; }

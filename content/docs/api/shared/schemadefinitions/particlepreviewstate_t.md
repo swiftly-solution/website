@@ -12,7 +12,7 @@ public interface ParticlePreviewState_t : ISchemaClass<ParticlePreviewState_t>, 
 
 ### AnimationNonLooping
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticlePreviewState_t.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticlePreviewState_t.cs#L46)
 
 ```csharp
 ref bool AnimationNonLooping { get; }
@@ -24,7 +24,7 @@ ref bool AnimationNonLooping { get; }
 
 ### BodyGroups
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticlePreviewState_t.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticlePreviewState_t.cs#L32)
 
 ```csharp
 ref CUtlVector<ParticlePreviewBodyGroup_t> BodyGroups { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<ParticlePreviewBodyGroup_t> BodyGroups { get; }
 
 ### FireParticleOnSequenceFrame
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticlePreviewState_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticlePreviewState_t.cs#L26)
 
 ```csharp
 ref int FireParticleOnSequenceFrame { get; }
@@ -48,7 +48,7 @@ ref int FireParticleOnSequenceFrame { get; }
 
 ### GroundType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticlePreviewState_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticlePreviewState_t.cs#L22)
 
 ```csharp
 ref PetGroundType_t GroundType { get; }
@@ -60,7 +60,7 @@ ref PetGroundType_t GroundType { get; }
 
 ### HitboxSetName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticlePreviewState_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticlePreviewState_t.cs#L28)
 
 ```csharp
 string HitboxSetName { get; set; }
@@ -72,7 +72,7 @@ string HitboxSetName { get; set; }
 
 ### MaterialGroupName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticlePreviewState_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticlePreviewState_t.cs#L30)
 
 ```csharp
 string MaterialGroupName { get; set; }
@@ -84,7 +84,7 @@ string MaterialGroupName { get; set; }
 
 ### ModSpecificData
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticlePreviewState_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticlePreviewState_t.cs#L20)
 
 ```csharp
 ref uint ModSpecificData { get; }
@@ -96,7 +96,7 @@ ref uint ModSpecificData { get; }
 
 ### ParticleSimulationRate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticlePreviewState_t.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticlePreviewState_t.cs#L36)
 
 ```csharp
 ref float ParticleSimulationRate { get; }
@@ -108,7 +108,7 @@ ref float ParticleSimulationRate { get; }
 
 ### PlaybackSpeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticlePreviewState_t.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticlePreviewState_t.cs#L34)
 
 ```csharp
 ref float PlaybackSpeed { get; }
@@ -120,7 +120,7 @@ ref float PlaybackSpeed { get; }
 
 ### PreviewGravity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticlePreviewState_t.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticlePreviewState_t.cs#L50)
 
 ```csharp
 ref Vector PreviewGravity { get; }
@@ -132,7 +132,7 @@ ref Vector PreviewGravity { get; }
 
 ### PreviewModel
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticlePreviewState_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticlePreviewState_t.cs#L18)
 
 ```csharp
 string PreviewModel { get; set; }
@@ -144,7 +144,7 @@ string PreviewModel { get; set; }
 
 ### SequenceName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticlePreviewState_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticlePreviewState_t.cs#L24)
 
 ```csharp
 string SequenceName { get; set; }
@@ -156,7 +156,7 @@ string SequenceName { get; set; }
 
 ### SequenceNameIsAnimClipPath
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticlePreviewState_t.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticlePreviewState_t.cs#L48)
 
 ```csharp
 ref bool SequenceNameIsAnimClipPath { get; }
@@ -168,7 +168,7 @@ ref bool SequenceNameIsAnimClipPath { get; }
 
 ### ShouldDrawAttachmentNames
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticlePreviewState_t.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticlePreviewState_t.cs#L42)
 
 ```csharp
 ref bool ShouldDrawAttachmentNames { get; }
@@ -180,7 +180,7 @@ ref bool ShouldDrawAttachmentNames { get; }
 
 ### ShouldDrawAttachments
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticlePreviewState_t.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticlePreviewState_t.cs#L40)
 
 ```csharp
 ref bool ShouldDrawAttachments { get; }
@@ -192,7 +192,7 @@ ref bool ShouldDrawAttachments { get; }
 
 ### ShouldDrawControlPointAxes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticlePreviewState_t.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticlePreviewState_t.cs#L44)
 
 ```csharp
 ref bool ShouldDrawControlPointAxes { get; }
@@ -204,7 +204,7 @@ ref bool ShouldDrawControlPointAxes { get; }
 
 ### ShouldDrawHitboxes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticlePreviewState_t.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticlePreviewState_t.cs#L38)
 
 ```csharp
 ref bool ShouldDrawHitboxes { get; }

@@ -12,7 +12,7 @@ public interface C_INIT_CreateSpiralSphere : CParticleFunctionInitializer, CPart
 
 ### ControlPointNumber
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateSpiralSphere.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateSpiralSphere.cs#L18)
 
 ```csharp
 ref int ControlPointNumber { get; }
@@ -24,7 +24,7 @@ ref int ControlPointNumber { get; }
 
 ### Density
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateSpiralSphere.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateSpiralSphere.cs#L22)
 
 ```csharp
 ref int Density { get; }
@@ -36,7 +36,7 @@ ref int Density { get; }
 
 ### InitialRadius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateSpiralSphere.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateSpiralSphere.cs#L24)
 
 ```csharp
 ref float InitialRadius { get; }
@@ -48,7 +48,7 @@ ref float InitialRadius { get; }
 
 ### InitialSpeedMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateSpiralSphere.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateSpiralSphere.cs#L28)
 
 ```csharp
 ref float InitialSpeedMax { get; }
@@ -60,7 +60,7 @@ ref float InitialSpeedMax { get; }
 
 ### InitialSpeedMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateSpiralSphere.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateSpiralSphere.cs#L26)
 
 ```csharp
 ref float InitialSpeedMin { get; }
@@ -72,7 +72,7 @@ ref float InitialSpeedMin { get; }
 
 ### OverrideCP
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateSpiralSphere.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateSpiralSphere.cs#L20)
 
 ```csharp
 ref int OverrideCP { get; }
@@ -84,7 +84,7 @@ ref int OverrideCP { get; }
 
 ### UseParticleCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateSpiralSphere.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateSpiralSphere.cs#L30)
 
 ```csharp
 ref bool UseParticleCount { get; }

@@ -12,7 +12,7 @@ public interface EventPostDataUpdate_t : ISchemaClass<EventPostDataUpdate_t>, IS
 
 ### Count
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventPostDataUpdate_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventPostDataUpdate_t.cs#L18)
 
 ```csharp
 ref int Count { get; }

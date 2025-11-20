@@ -12,7 +12,7 @@ public interface AggregateLODSetup_t : ISchemaClass<AggregateLODSetup_t>, ISchem
 
 ### LODOrigin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateLODSetup_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateLODSetup_t.cs#L18)
 
 ```csharp
 ref Vector LODOrigin { get; }
@@ -24,7 +24,7 @@ ref Vector LODOrigin { get; }
 
 ### MaxObjectScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateLODSetup_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateLODSetup_t.cs#L20)
 
 ```csharp
 ref float MaxObjectScale { get; }
@@ -36,7 +36,7 @@ ref float MaxObjectScale { get; }
 
 ### SwitchDistances
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateLODSetup_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateLODSetup_t.cs#L22)
 
 ```csharp
 ref CUtlVector<float> SwitchDistances { get; }

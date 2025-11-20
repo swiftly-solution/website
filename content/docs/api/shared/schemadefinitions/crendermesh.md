@@ -12,7 +12,7 @@ public interface CRenderMesh : ISchemaClass<CRenderMesh>, ISchemaField, ISchemaC
 
 ### Constraints
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderMesh.cs#L20)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderMesh.cs#L21)
 
 ```csharp
 ref CUtlLeanVector<PointerTo<CBaseConstraint>, int> Constraints { get; }
@@ -24,7 +24,7 @@ ref CUtlLeanVector<PointerTo<CBaseConstraint>, int> Constraints { get; }
 
 ### EmbeddedMapMesh
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderMesh.cs#L26)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderMesh.cs#L27)
 
 ```csharp
 ref bool EmbeddedMapMesh { get; }
@@ -36,7 +36,7 @@ ref bool EmbeddedMapMesh { get; }
 
 ### GroomData
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderMesh.cs#L30)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderMesh.cs#L31)
 
 ```csharp
 CRenderGroom? GroomData { get; }
@@ -48,7 +48,7 @@ CRenderGroom? GroomData { get; }
 
 ### MeshDeformParams
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderMesh.cs#L28)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderMesh.cs#L29)
 
 ```csharp
 DynamicMeshDeformParams_t MeshDeformParams { get; }
@@ -60,7 +60,7 @@ DynamicMeshDeformParams_t MeshDeformParams { get; }
 
 ### SceneObjects
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderMesh.cs#L18)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderMesh.cs#L19)
 
 ```csharp
 SchemaUntypedField SceneObjects { get; }
@@ -72,7 +72,7 @@ SchemaUntypedField SceneObjects { get; }
 
 ### Skeleton
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderMesh.cs#L22)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderMesh.cs#L23)
 
 ```csharp
 CRenderSkeleton Skeleton { get; }
@@ -84,7 +84,7 @@ CRenderSkeleton Skeleton { get; }
 
 ### UseUV2ForCharting
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderMesh.cs#L24)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderMesh.cs#L25)
 
 ```csharp
 ref bool UseUV2ForCharting { get; }

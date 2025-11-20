@@ -12,7 +12,7 @@ public interface FootFixedSettings : ISchemaClass<FootFixedSettings>, ISchemaFie
 
 ### DisableTagIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedSettings.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedSettings.cs#L34)
 
 ```csharp
 ref int DisableTagIndex { get; }
@@ -24,7 +24,7 @@ ref int DisableTagIndex { get; }
 
 ### EnableTracing
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedSettings.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedSettings.cs#L30)
 
 ```csharp
 ref bool EnableTracing { get; }
@@ -36,7 +36,7 @@ ref bool EnableTracing { get; }
 
 ### FootBaseBindPosePositionMS
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedSettings.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedSettings.cs#L20)
 
 ```csharp
 ref Vector FootBaseBindPosePositionMS { get; }
@@ -48,7 +48,7 @@ ref Vector FootBaseBindPosePositionMS { get; }
 
 ### FootBaseLength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedSettings.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedSettings.cs#L22)
 
 ```csharp
 ref float FootBaseLength { get; }
@@ -60,7 +60,7 @@ ref float FootBaseLength { get; }
 
 ### FootIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedSettings.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedSettings.cs#L36)
 
 ```csharp
 ref int FootIndex { get; }
@@ -72,7 +72,7 @@ ref int FootIndex { get; }
 
 ### FootstepLandedTagIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedSettings.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedSettings.cs#L28)
 
 ```csharp
 ref int FootstepLandedTagIndex { get; }
@@ -84,7 +84,7 @@ ref int FootstepLandedTagIndex { get; }
 
 ### MaxRotationLeft
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedSettings.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedSettings.cs#L24)
 
 ```csharp
 ref float MaxRotationLeft { get; }
@@ -96,7 +96,7 @@ ref float MaxRotationLeft { get; }
 
 ### MaxRotationRight
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedSettings.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedSettings.cs#L26)
 
 ```csharp
 ref float MaxRotationRight { get; }
@@ -108,7 +108,7 @@ ref float MaxRotationRight { get; }
 
 ### TraceAngleBlend
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedSettings.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedSettings.cs#L32)
 
 ```csharp
 ref float TraceAngleBlend { get; }
@@ -120,7 +120,7 @@ ref float TraceAngleBlend { get; }
 
 ### TraceSettings
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedSettings.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedSettings.cs#L18)
 
 ```csharp
 TraceSettings_t TraceSettings { get; }

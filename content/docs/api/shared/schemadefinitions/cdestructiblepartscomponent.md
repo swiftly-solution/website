@@ -12,7 +12,7 @@ public interface CDestructiblePartsComponent : ISchemaClass<CDestructiblePartsCo
 
 ### DamageTakenByHitGroup
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDestructiblePartsComponent.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDestructiblePartsComponent.cs#L20)
 
 ```csharp
 ref CUtlVector<ushort> DamageTakenByHitGroup { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<ushort> DamageTakenByHitGroup { get; }
 
 ### LastHitDamageLevel
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDestructiblePartsComponent.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDestructiblePartsComponent.cs#L24)
 
 ```csharp
 ref int LastHitDamageLevel { get; }
@@ -36,7 +36,7 @@ ref int LastHitDamageLevel { get; }
 
 ### Owner
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDestructiblePartsComponent.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDestructiblePartsComponent.cs#L22)
 
 ```csharp
 ref CHandle<CBaseModelEntity> Owner { get; }
@@ -48,7 +48,7 @@ ref CHandle<CBaseModelEntity> Owner { get; }
 
 ### __m_pChainEntity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDestructiblePartsComponent.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDestructiblePartsComponent.cs#L18)
 
 ```csharp
 ref CNetworkVarChainer __m_pChainEntity { get; }
@@ -62,7 +62,7 @@ ref CNetworkVarChainer __m_pChainEntity { get; }
 
 ### LastHitDamageLevelUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDestructiblePartsComponent.cs#L26)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDestructiblePartsComponent.cs#L27)
 
 ```csharp
 void LastHitDamageLevelUpdated()
@@ -70,7 +70,7 @@ void LastHitDamageLevelUpdated()
 
 ### OwnerUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDestructiblePartsComponent.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDestructiblePartsComponent.cs#L26)
 
 ```csharp
 void OwnerUpdated()

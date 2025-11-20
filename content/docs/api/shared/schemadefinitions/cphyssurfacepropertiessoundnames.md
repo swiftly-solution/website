@@ -12,7 +12,7 @@ public interface CPhysSurfacePropertiesSoundNames : ISchemaClass<CPhysSurfacePro
 
 ### Break
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesSoundNames.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesSoundNames.cs#L30)
 
 ```csharp
 string Break { get; set; }
@@ -24,7 +24,7 @@ string Break { get; set; }
 
 ### BulletImpact
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesSoundNames.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesSoundNames.cs#L26)
 
 ```csharp
 string BulletImpact { get; set; }
@@ -36,7 +36,7 @@ string BulletImpact { get; set; }
 
 ### ImpactHard
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesSoundNames.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesSoundNames.cs#L20)
 
 ```csharp
 string ImpactHard { get; set; }
@@ -48,7 +48,7 @@ string ImpactHard { get; set; }
 
 ### ImpactSoft
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesSoundNames.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesSoundNames.cs#L18)
 
 ```csharp
 string ImpactSoft { get; set; }
@@ -60,7 +60,7 @@ string ImpactSoft { get; set; }
 
 ### MeleeImpact
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesSoundNames.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesSoundNames.cs#L34)
 
 ```csharp
 string MeleeImpact { get; set; }
@@ -72,7 +72,7 @@ string MeleeImpact { get; set; }
 
 ### PushOff
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesSoundNames.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesSoundNames.cs#L36)
 
 ```csharp
 string PushOff { get; set; }
@@ -84,7 +84,7 @@ string PushOff { get; set; }
 
 ### Resonant
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesSoundNames.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesSoundNames.cs#L40)
 
 ```csharp
 string Resonant { get; set; }
@@ -96,7 +96,7 @@ string Resonant { get; set; }
 
 ### Rolling
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesSoundNames.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesSoundNames.cs#L28)
 
 ```csharp
 string Rolling { get; set; }
@@ -108,7 +108,7 @@ string Rolling { get; set; }
 
 ### ScrapeRough
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesSoundNames.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesSoundNames.cs#L24)
 
 ```csharp
 string ScrapeRough { get; set; }
@@ -120,7 +120,7 @@ string ScrapeRough { get; set; }
 
 ### ScrapeSmooth
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesSoundNames.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesSoundNames.cs#L22)
 
 ```csharp
 string ScrapeSmooth { get; set; }
@@ -132,7 +132,7 @@ string ScrapeSmooth { get; set; }
 
 ### SkidStop
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesSoundNames.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesSoundNames.cs#L38)
 
 ```csharp
 string SkidStop { get; set; }
@@ -144,7 +144,7 @@ string SkidStop { get; set; }
 
 ### Strain
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesSoundNames.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesSoundNames.cs#L32)
 
 ```csharp
 string Strain { get; set; }

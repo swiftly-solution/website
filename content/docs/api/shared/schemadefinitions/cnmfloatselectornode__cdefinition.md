@@ -12,7 +12,7 @@ public interface CNmFloatSelectorNode__CDefinition : CNmFloatValueNode__CDefinit
 
 ### ConditionNodeIndices
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatSelectorNode__CDefinition.cs#L18)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatSelectorNode__CDefinition.cs#L19)
 
 ```csharp
 SchemaUntypedField ConditionNodeIndices { get; }
@@ -24,7 +24,7 @@ SchemaUntypedField ConditionNodeIndices { get; }
 
 ### DefaultValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatSelectorNode__CDefinition.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatSelectorNode__CDefinition.cs#L24)
 
 ```csharp
 ref float DefaultValue { get; }
@@ -36,7 +36,7 @@ ref float DefaultValue { get; }
 
 ### EaseTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatSelectorNode__CDefinition.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatSelectorNode__CDefinition.cs#L26)
 
 ```csharp
 ref float EaseTime { get; }
@@ -48,7 +48,7 @@ ref float EaseTime { get; }
 
 ### EasingOp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatSelectorNode__CDefinition.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatSelectorNode__CDefinition.cs#L28)
 
 ```csharp
 ref NmEasingOperation_t EasingOp { get; }
@@ -60,7 +60,7 @@ ref NmEasingOperation_t EasingOp { get; }
 
 ### Values
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatSelectorNode__CDefinition.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatSelectorNode__CDefinition.cs#L22)
 
 ```csharp
 SchemaUntypedField Values { get; }

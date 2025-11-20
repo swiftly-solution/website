@@ -12,7 +12,7 @@ public interface CGameChoreoServices : IChoreoServices, ISchemaClass<IChoreoServ
 
 ### ChoreoState
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameChoreoServices.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameChoreoServices.cs#L24)
 
 ```csharp
 ref IChoreoServices__ChoreoState_t ChoreoState { get; }
@@ -24,7 +24,7 @@ ref IChoreoServices__ChoreoState_t ChoreoState { get; }
 
 ### Owner
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameChoreoServices.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameChoreoServices.cs#L18)
 
 ```csharp
 ref CHandle<CBaseAnimGraph> Owner { get; }
@@ -36,7 +36,7 @@ ref CHandle<CBaseAnimGraph> Owner { get; }
 
 ### ScriptState
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameChoreoServices.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameChoreoServices.cs#L22)
 
 ```csharp
 ref IChoreoServices__ScriptState_t ScriptState { get; }
@@ -48,7 +48,7 @@ ref IChoreoServices__ScriptState_t ScriptState { get; }
 
 ### ScriptedSequence
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameChoreoServices.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameChoreoServices.cs#L20)
 
 ```csharp
 ref CHandle<CScriptedSequence> ScriptedSequence { get; }
@@ -60,7 +60,7 @@ ref CHandle<CScriptedSequence> ScriptedSequence { get; }
 
 ### TimeStartedState
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameChoreoServices.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameChoreoServices.cs#L26)
 
 ```csharp
 GameTime_t TimeStartedState { get; }

@@ -12,7 +12,7 @@ public interface CSeqSeqDescFlag : ISchemaClass<CSeqSeqDescFlag>, ISchemaField, 
 
 ### Autoplay
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqSeqDescFlag.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqSeqDescFlag.cs#L22)
 
 ```csharp
 ref bool Autoplay { get; }
@@ -24,7 +24,7 @@ ref bool Autoplay { get; }
 
 ### Hidden
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqSeqDescFlag.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqSeqDescFlag.cs#L26)
 
 ```csharp
 ref bool Hidden { get; }
@@ -36,7 +36,7 @@ ref bool Hidden { get; }
 
 ### LegacyCyclepose
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqSeqDescFlag.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqSeqDescFlag.cs#L34)
 
 ```csharp
 ref bool LegacyCyclepose { get; }
@@ -48,7 +48,7 @@ ref bool LegacyCyclepose { get; }
 
 ### LegacyDelta
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqSeqDescFlag.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqSeqDescFlag.cs#L30)
 
 ```csharp
 ref bool LegacyDelta { get; }
@@ -60,7 +60,7 @@ ref bool LegacyDelta { get; }
 
 ### LegacyRealtime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqSeqDescFlag.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqSeqDescFlag.cs#L36)
 
 ```csharp
 ref bool LegacyRealtime { get; }
@@ -72,7 +72,7 @@ ref bool LegacyRealtime { get; }
 
 ### LegacyWorldspace
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqSeqDescFlag.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqSeqDescFlag.cs#L32)
 
 ```csharp
 ref bool LegacyWorldspace { get; }
@@ -84,7 +84,7 @@ ref bool LegacyWorldspace { get; }
 
 ### Looping
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqSeqDescFlag.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqSeqDescFlag.cs#L18)
 
 ```csharp
 ref bool Looping { get; }
@@ -96,7 +96,7 @@ ref bool Looping { get; }
 
 ### ModelDoc
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqSeqDescFlag.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqSeqDescFlag.cs#L38)
 
 ```csharp
 ref bool ModelDoc { get; }
@@ -108,7 +108,7 @@ ref bool ModelDoc { get; }
 
 ### Multi
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqSeqDescFlag.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqSeqDescFlag.cs#L28)
 
 ```csharp
 ref bool Multi { get; }
@@ -120,7 +120,7 @@ ref bool Multi { get; }
 
 ### Post
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqSeqDescFlag.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqSeqDescFlag.cs#L24)
 
 ```csharp
 ref bool Post { get; }
@@ -132,7 +132,7 @@ ref bool Post { get; }
 
 ### Snap
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqSeqDescFlag.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqSeqDescFlag.cs#L20)
 
 ```csharp
 ref bool Snap { get; }

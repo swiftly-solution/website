@@ -12,7 +12,7 @@ public interface C_OP_EnableChildrenFromParentParticleCount : CParticleFunctionP
 
 ### ChildGroupID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_EnableChildrenFromParentParticleCount.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_EnableChildrenFromParentParticleCount.cs#L18)
 
 ```csharp
 ref int ChildGroupID { get; }
@@ -24,7 +24,7 @@ ref int ChildGroupID { get; }
 
 ### DestroyImmediately
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_EnableChildrenFromParentParticleCount.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_EnableChildrenFromParentParticleCount.cs#L28)
 
 ```csharp
 ref bool DestroyImmediately { get; }
@@ -36,7 +36,7 @@ ref bool DestroyImmediately { get; }
 
 ### DisableChildren
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_EnableChildrenFromParentParticleCount.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_EnableChildrenFromParentParticleCount.cs#L24)
 
 ```csharp
 ref bool DisableChildren { get; }
@@ -48,7 +48,7 @@ ref bool DisableChildren { get; }
 
 ### FirstChild
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_EnableChildrenFromParentParticleCount.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_EnableChildrenFromParentParticleCount.cs#L20)
 
 ```csharp
 ref int FirstChild { get; }
@@ -60,7 +60,7 @@ ref int FirstChild { get; }
 
 ### NumChildrenToEnable
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_EnableChildrenFromParentParticleCount.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_EnableChildrenFromParentParticleCount.cs#L22)
 
 ```csharp
 CParticleCollectionFloatInput NumChildrenToEnable { get; }
@@ -72,7 +72,7 @@ CParticleCollectionFloatInput NumChildrenToEnable { get; }
 
 ### PlayEndcapOnStop
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_EnableChildrenFromParentParticleCount.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_EnableChildrenFromParentParticleCount.cs#L26)
 
 ```csharp
 ref bool PlayEndcapOnStop { get; }

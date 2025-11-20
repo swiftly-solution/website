@@ -12,7 +12,7 @@ public interface CGameRules : ISchemaClass<CGameRules>, ISchemaField, ISchemaCla
 
 ### GamePaused
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameRules.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameRules.cs#L28)
 
 ```csharp
 ref bool GamePaused { get; }
@@ -24,7 +24,7 @@ ref bool GamePaused { get; }
 
 ### PauseStartTick
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameRules.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameRules.cs#L26)
 
 ```csharp
 ref int PauseStartTick { get; }
@@ -36,7 +36,7 @@ ref int PauseStartTick { get; }
 
 ### QuestName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameRules.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameRules.cs#L20)
 
 ```csharp
 string QuestName { get; set; }
@@ -48,7 +48,7 @@ string QuestName { get; set; }
 
 ### QuestPhase
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameRules.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameRules.cs#L22)
 
 ```csharp
 ref int QuestPhase { get; }
@@ -60,7 +60,7 @@ ref int QuestPhase { get; }
 
 ### TotalPausedTicks
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameRules.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameRules.cs#L24)
 
 ```csharp
 ref int TotalPausedTicks { get; }
@@ -72,7 +72,7 @@ ref int TotalPausedTicks { get; }
 
 ### __m_pChainEntity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameRules.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameRules.cs#L18)
 
 ```csharp
 ref CNetworkVarChainer __m_pChainEntity { get; }
@@ -86,7 +86,7 @@ ref CNetworkVarChainer __m_pChainEntity { get; }
 
 ### GamePausedUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameRules.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameRules.cs#L32)
 
 ```csharp
 void GamePausedUpdated()
@@ -94,7 +94,7 @@ void GamePausedUpdated()
 
 ### PauseStartTickUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameRules.cs#L30)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameRules.cs#L31)
 
 ```csharp
 void PauseStartTickUpdated()
@@ -102,7 +102,7 @@ void PauseStartTickUpdated()
 
 ### TotalPausedTicksUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameRules.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameRules.cs#L30)
 
 ```csharp
 void TotalPausedTicksUpdated()

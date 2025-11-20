@@ -12,7 +12,7 @@ public interface CVoiceContainerEnvelopeAnalyzer : CVoiceContainerAnalysisBase, 
 
 ### AnalysisWindowMs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerEnvelopeAnalyzer.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerEnvelopeAnalyzer.cs#L20)
 
 ```csharp
 ref float AnalysisWindowMs { get; }
@@ -24,7 +24,7 @@ ref float AnalysisWindowMs { get; }
 
 ### Mode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerEnvelopeAnalyzer.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerEnvelopeAnalyzer.cs#L18)
 
 ```csharp
 ref EMode_t Mode { get; }
@@ -36,7 +36,7 @@ ref EMode_t Mode { get; }
 
 ### Threshold
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerEnvelopeAnalyzer.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerEnvelopeAnalyzer.cs#L22)
 
 ```csharp
 ref float Threshold { get; }

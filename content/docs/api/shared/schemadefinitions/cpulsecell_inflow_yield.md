@@ -12,7 +12,7 @@ public interface CPulseCell_Inflow_Yield : CPulseCell_BaseYieldingInflow, CPulse
 
 ### UnyieldResume
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Inflow_Yield.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Inflow_Yield.cs#L18)
 
 ```csharp
 CPulse_ResumePoint UnyieldResume { get; }

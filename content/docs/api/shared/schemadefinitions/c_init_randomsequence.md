@@ -12,7 +12,7 @@ public interface C_INIT_RandomSequence : CParticleFunctionInitializer, CParticle
 
 ### Linear
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomSequence.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomSequence.cs#L24)
 
 ```csharp
 ref bool Linear { get; }
@@ -24,7 +24,7 @@ ref bool Linear { get; }
 
 ### SequenceMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomSequence.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomSequence.cs#L20)
 
 ```csharp
 ref int SequenceMax { get; }
@@ -36,7 +36,7 @@ ref int SequenceMax { get; }
 
 ### SequenceMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomSequence.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomSequence.cs#L18)
 
 ```csharp
 ref int SequenceMin { get; }
@@ -48,7 +48,7 @@ ref int SequenceMin { get; }
 
 ### Shuffle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomSequence.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomSequence.cs#L22)
 
 ```csharp
 ref bool Shuffle { get; }
@@ -60,7 +60,7 @@ ref bool Shuffle { get; }
 
 ### WeightedList
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomSequence.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomSequence.cs#L26)
 
 ```csharp
 ref CUtlVector<SequenceWeightedList_t> WeightedList { get; }

@@ -12,7 +12,7 @@ public interface CPulseGraphDef : ISchemaClass<CPulseGraphDef>, ISchemaField, IS
 
 ### BlackboardReferences
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphDef.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphDef.cs#L46)
 
 ```csharp
 ref CUtlVector<CPulse_BlackboardReference> BlackboardReferences { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<CPulse_BlackboardReference> BlackboardReferences { get; }
 
 ### CallInfos
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphDef.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphDef.cs#L40)
 
 ```csharp
 ref CUtlVector<PointerTo<CPulse_CallInfo>> CallInfos { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<PointerTo<CPulse_CallInfo>> CallInfos { get; }
 
 ### Cells
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphDef.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphDef.cs#L32)
 
 ```csharp
 ref CUtlVector<PointerTo<CPulseCell_Base>> Cells { get; }
@@ -48,7 +48,7 @@ ref CUtlVector<PointerTo<CPulseCell_Base>> Cells { get; }
 
 ### Chunks
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphDef.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphDef.cs#L30)
 
 ```csharp
 ref CUtlVector<PointerTo<CPulse_Chunk>> Chunks { get; }
@@ -60,7 +60,7 @@ ref CUtlVector<PointerTo<CPulse_Chunk>> Chunks { get; }
 
 ### Constants
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphDef.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphDef.cs#L42)
 
 ```csharp
 ref CUtlVector<CPulse_Constant> Constants { get; }
@@ -72,7 +72,7 @@ ref CUtlVector<CPulse_Constant> Constants { get; }
 
 ### DomainIdentifier
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphDef.cs#L18)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphDef.cs#L19)
 
 ```csharp
 SchemaUntypedField DomainIdentifier { get; }
@@ -84,7 +84,7 @@ SchemaUntypedField DomainIdentifier { get; }
 
 ### DomainSubType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphDef.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphDef.cs#L22)
 
 ```csharp
 SchemaUntypedField DomainSubType { get; }
@@ -96,7 +96,7 @@ SchemaUntypedField DomainSubType { get; }
 
 ### DomainValues
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphDef.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphDef.cs#L44)
 
 ```csharp
 ref CUtlVector<CPulse_DomainValue> DomainValues { get; }
@@ -108,7 +108,7 @@ ref CUtlVector<CPulse_DomainValue> DomainValues { get; }
 
 ### InvokeBindings
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphDef.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphDef.cs#L38)
 
 ```csharp
 ref CUtlVector<PointerTo<CPulse_InvokeBinding>> InvokeBindings { get; }
@@ -120,7 +120,7 @@ ref CUtlVector<PointerTo<CPulse_InvokeBinding>> InvokeBindings { get; }
 
 ### OutputConnections
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphDef.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphDef.cs#L48)
 
 ```csharp
 ref CUtlVector<PointerTo<CPulse_OutputConnection>> OutputConnections { get; }
@@ -132,7 +132,7 @@ ref CUtlVector<PointerTo<CPulse_OutputConnection>> OutputConnections { get; }
 
 ### ParentMapName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphDef.cs#L24)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphDef.cs#L25)
 
 ```csharp
 SchemaUntypedField ParentMapName { get; }
@@ -144,7 +144,7 @@ SchemaUntypedField ParentMapName { get; }
 
 ### ParentXmlName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphDef.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphDef.cs#L28)
 
 ```csharp
 SchemaUntypedField ParentXmlName { get; }
@@ -156,7 +156,7 @@ SchemaUntypedField ParentXmlName { get; }
 
 ### PublicOutputs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphDef.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphDef.cs#L36)
 
 ```csharp
 ref CUtlVector<CPulse_PublicOutput> PublicOutputs { get; }
@@ -168,7 +168,7 @@ ref CUtlVector<CPulse_PublicOutput> PublicOutputs { get; }
 
 ### Vars
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphDef.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphDef.cs#L34)
 
 ```csharp
 ref CUtlVector<CPulse_Variable> Vars { get; }

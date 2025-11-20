@@ -12,7 +12,7 @@ public interface CTriggerDetectExplosion : CBaseTrigger, CBaseToggle, CBaseModel
 
 ### OnDetectedExplosion
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerDetectExplosion.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerDetectExplosion.cs#L18)
 
 ```csharp
 CEntityIOOutput OnDetectedExplosion { get; }

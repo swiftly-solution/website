@@ -12,7 +12,7 @@ public interface CRagdollMagnet : CPointEntity, CBaseEntity, CEntityInstance, IS
 
 ### Axis
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollMagnet.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollMagnet.cs#L24)
 
 ```csharp
 ref Vector Axis { get; }
@@ -24,7 +24,7 @@ ref Vector Axis { get; }
 
 ### Disabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollMagnet.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollMagnet.cs#L18)
 
 ```csharp
 ref bool Disabled { get; }
@@ -36,7 +36,7 @@ ref bool Disabled { get; }
 
 ### Force
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollMagnet.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollMagnet.cs#L22)
 
 ```csharp
 ref float Force { get; }
@@ -48,7 +48,7 @@ ref float Force { get; }
 
 ### Radius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollMagnet.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollMagnet.cs#L20)
 
 ```csharp
 ref float Radius { get; }

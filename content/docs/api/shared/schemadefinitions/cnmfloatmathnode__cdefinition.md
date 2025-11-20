@@ -12,7 +12,7 @@ public interface CNmFloatMathNode__CDefinition : CNmFloatValueNode__CDefinition,
 
 ### InputValueNodeIdxA
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatMathNode__CDefinition.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatMathNode__CDefinition.cs#L18)
 
 ```csharp
 ref short InputValueNodeIdxA { get; }
@@ -24,7 +24,7 @@ ref short InputValueNodeIdxA { get; }
 
 ### InputValueNodeIdxB
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatMathNode__CDefinition.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatMathNode__CDefinition.cs#L20)
 
 ```csharp
 ref short InputValueNodeIdxB { get; }
@@ -36,7 +36,7 @@ ref short InputValueNodeIdxB { get; }
 
 ### Operator
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatMathNode__CDefinition.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatMathNode__CDefinition.cs#L26)
 
 ```csharp
 ref CNmFloatMathNode__Operator_t Operator { get; }
@@ -48,7 +48,7 @@ ref CNmFloatMathNode__Operator_t Operator { get; }
 
 ### ReturnAbsoluteResult
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatMathNode__CDefinition.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatMathNode__CDefinition.cs#L22)
 
 ```csharp
 ref bool ReturnAbsoluteResult { get; }
@@ -60,7 +60,7 @@ ref bool ReturnAbsoluteResult { get; }
 
 ### ReturnNegatedResult
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatMathNode__CDefinition.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatMathNode__CDefinition.cs#L24)
 
 ```csharp
 ref bool ReturnNegatedResult { get; }
@@ -72,7 +72,7 @@ ref bool ReturnNegatedResult { get; }
 
 ### ValueB
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatMathNode__CDefinition.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatMathNode__CDefinition.cs#L28)
 
 ```csharp
 ref float ValueB { get; }

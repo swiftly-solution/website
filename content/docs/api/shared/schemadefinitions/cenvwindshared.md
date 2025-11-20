@@ -12,7 +12,7 @@ public interface CEnvWindShared : ISchemaClass<CEnvWindShared>, ISchemaField, IS
 
 ### EntOwner
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L50)
 
 ```csharp
 ref CHandle<CBaseEntity> EntOwner { get; }
@@ -24,7 +24,7 @@ ref CHandle<CBaseEntity> EntOwner { get; }
 
 ### GustDirChange
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L38)
 
 ```csharp
 ref ushort GustDirChange { get; }
@@ -36,7 +36,7 @@ ref ushort GustDirChange { get; }
 
 ### GustDuration
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L36)
 
 ```csharp
 ref float GustDuration { get; }
@@ -48,7 +48,7 @@ ref float GustDuration { get; }
 
 ### InitialWindDir
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L40)
 
 ```csharp
 ref ushort InitialWindDir { get; }
@@ -60,7 +60,7 @@ ref ushort InitialWindDir { get; }
 
 ### InitialWindSpeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L42)
 
 ```csharp
 ref float InitialWindSpeed { get; }
@@ -72,7 +72,7 @@ ref float InitialWindSpeed { get; }
 
 ### Location
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L44)
 
 ```csharp
 ref Vector Location { get; }
@@ -84,7 +84,7 @@ ref Vector Location { get; }
 
 ### MaxGust
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L30)
 
 ```csharp
 ref ushort MaxGust { get; }
@@ -96,7 +96,7 @@ ref ushort MaxGust { get; }
 
 ### MaxGustDelay
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L34)
 
 ```csharp
 ref float MaxGustDelay { get; }
@@ -108,7 +108,7 @@ ref float MaxGustDelay { get; }
 
 ### MaxWind
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L24)
 
 ```csharp
 ref ushort MaxWind { get; }
@@ -120,7 +120,7 @@ ref ushort MaxWind { get; }
 
 ### MinGust
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L28)
 
 ```csharp
 ref ushort MinGust { get; }
@@ -132,7 +132,7 @@ ref ushort MinGust { get; }
 
 ### MinGustDelay
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L32)
 
 ```csharp
 ref float MinGustDelay { get; }
@@ -144,7 +144,7 @@ ref float MinGustDelay { get; }
 
 ### MinWind
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L22)
 
 ```csharp
 ref ushort MinWind { get; }
@@ -156,7 +156,7 @@ ref ushort MinWind { get; }
 
 ### OnGustEnd
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L48)
 
 ```csharp
 CEntityIOOutput OnGustEnd { get; }
@@ -168,7 +168,7 @@ CEntityIOOutput OnGustEnd { get; }
 
 ### OnGustStart
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L46)
 
 ```csharp
 CEntityIOOutput OnGustStart { get; }
@@ -180,7 +180,7 @@ CEntityIOOutput OnGustStart { get; }
 
 ### StartTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L18)
 
 ```csharp
 GameTime_t StartTime { get; }
@@ -192,7 +192,7 @@ GameTime_t StartTime { get; }
 
 ### WindRadius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L26)
 
 ```csharp
 ref int WindRadius { get; }
@@ -204,7 +204,7 @@ ref int WindRadius { get; }
 
 ### WindSeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L20)
 
 ```csharp
 ref uint WindSeed { get; }
@@ -218,7 +218,7 @@ ref uint WindSeed { get; }
 
 ### GustDirChangeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L62)
 
 ```csharp
 void GustDirChangeUpdated()
@@ -226,7 +226,7 @@ void GustDirChangeUpdated()
 
 ### GustDurationUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L60)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L61)
 
 ```csharp
 void GustDurationUpdated()
@@ -234,7 +234,7 @@ void GustDurationUpdated()
 
 ### InitialWindDirUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L62)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L63)
 
 ```csharp
 void InitialWindDirUpdated()
@@ -242,7 +242,7 @@ void InitialWindDirUpdated()
 
 ### InitialWindSpeedUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L64)
 
 ```csharp
 void InitialWindSpeedUpdated()
@@ -250,7 +250,7 @@ void InitialWindSpeedUpdated()
 
 ### LocationUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L64)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L65)
 
 ```csharp
 void LocationUpdated()
@@ -258,7 +258,7 @@ void LocationUpdated()
 
 ### MaxGustDelayUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L60)
 
 ```csharp
 void MaxGustDelayUpdated()
@@ -266,7 +266,7 @@ void MaxGustDelayUpdated()
 
 ### MaxGustUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L58)
 
 ```csharp
 void MaxGustUpdated()
@@ -274,7 +274,7 @@ void MaxGustUpdated()
 
 ### MaxWindUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L54)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L55)
 
 ```csharp
 void MaxWindUpdated()
@@ -282,7 +282,7 @@ void MaxWindUpdated()
 
 ### MinGustDelayUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L58)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L59)
 
 ```csharp
 void MinGustDelayUpdated()
@@ -290,7 +290,7 @@ void MinGustDelayUpdated()
 
 ### MinGustUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L56)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L57)
 
 ```csharp
 void MinGustUpdated()
@@ -298,7 +298,7 @@ void MinGustUpdated()
 
 ### MinWindUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L54)
 
 ```csharp
 void MinWindUpdated()
@@ -306,7 +306,7 @@ void MinWindUpdated()
 
 ### StartTimeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L52)
 
 ```csharp
 void StartTimeUpdated()
@@ -314,7 +314,7 @@ void StartTimeUpdated()
 
 ### WindRadiusUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L56)
 
 ```csharp
 void WindRadiusUpdated()
@@ -322,7 +322,7 @@ void WindRadiusUpdated()
 
 ### WindSeedUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L52)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvWindShared.cs#L53)
 
 ```csharp
 void WindSeedUpdated()

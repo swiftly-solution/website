@@ -12,7 +12,7 @@ public interface CSosGroupActionLimitSchema : CSosGroupActionSchema, ISchemaClas
 
 ### CountStopped
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionLimitSchema.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionLimitSchema.cs#L26)
 
 ```csharp
 ref bool CountStopped { get; }
@@ -24,7 +24,7 @@ ref bool CountStopped { get; }
 
 ### MaxCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionLimitSchema.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionLimitSchema.cs#L18)
 
 ```csharp
 ref int MaxCount { get; }
@@ -36,7 +36,7 @@ ref int MaxCount { get; }
 
 ### SortType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionLimitSchema.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionLimitSchema.cs#L22)
 
 ```csharp
 ref SosActionLimitSortType_t SortType { get; }
@@ -48,7 +48,7 @@ ref SosActionLimitSortType_t SortType { get; }
 
 ### StopImmediate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionLimitSchema.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionLimitSchema.cs#L24)
 
 ```csharp
 ref bool StopImmediate { get; }
@@ -60,7 +60,7 @@ ref bool StopImmediate { get; }
 
 ### StopType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionLimitSchema.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionLimitSchema.cs#L20)
 
 ```csharp
 ref SosActionStopType_t StopType { get; }

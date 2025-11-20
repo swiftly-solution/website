@@ -12,7 +12,7 @@ public interface CPulseCell_PlaySequence : CPulseCell_BaseYieldingInflow, CPulse
 
 ### OnCanceled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_PlaySequence.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_PlaySequence.cs#L24)
 
 ```csharp
 CPulse_ResumePoint OnCanceled { get; }
@@ -24,7 +24,7 @@ CPulse_ResumePoint OnCanceled { get; }
 
 ### OnFinished
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_PlaySequence.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_PlaySequence.cs#L22)
 
 ```csharp
 CPulse_ResumePoint OnFinished { get; }
@@ -36,7 +36,7 @@ CPulse_ResumePoint OnFinished { get; }
 
 ### PulseAnimEvents
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_PlaySequence.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_PlaySequence.cs#L20)
 
 ```csharp
 PulseNodeDynamicOutflows_t PulseAnimEvents { get; }
@@ -48,7 +48,7 @@ PulseNodeDynamicOutflows_t PulseAnimEvents { get; }
 
 ### SequenceName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_PlaySequence.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_PlaySequence.cs#L18)
 
 ```csharp
 string SequenceName { get; set; }

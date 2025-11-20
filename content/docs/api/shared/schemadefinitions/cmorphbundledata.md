@@ -12,7 +12,7 @@ public interface CMorphBundleData : ISchemaClass<CMorphBundleData>, ISchemaField
 
 ### Offsets
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphBundleData.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphBundleData.cs#L22)
 
 ```csharp
 ref CUtlVector<float> Offsets { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<float> Offsets { get; }
 
 ### Ranges
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphBundleData.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphBundleData.cs#L24)
 
 ```csharp
 ref CUtlVector<float> Ranges { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<float> Ranges { get; }
 
 ### ULeftSrc
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphBundleData.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphBundleData.cs#L18)
 
 ```csharp
 ref float ULeftSrc { get; }
@@ -48,7 +48,7 @@ ref float ULeftSrc { get; }
 
 ### VTopSrc
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphBundleData.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphBundleData.cs#L20)
 
 ```csharp
 ref float VTopSrc { get; }

@@ -12,7 +12,7 @@ public interface CPhysSurfacePropertiesPhysics : ISchemaClass<CPhysSurfaceProper
 
 ### Density
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesPhysics.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesPhysics.cs#L22)
 
 ```csharp
 ref float Density { get; }
@@ -24,7 +24,7 @@ ref float Density { get; }
 
 ### Elasticity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesPhysics.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesPhysics.cs#L20)
 
 ```csharp
 ref float Elasticity { get; }
@@ -36,7 +36,7 @@ ref float Elasticity { get; }
 
 ### Friction
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesPhysics.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesPhysics.cs#L18)
 
 ```csharp
 ref float Friction { get; }
@@ -48,7 +48,7 @@ ref float Friction { get; }
 
 ### SoftContactDampingRatio
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesPhysics.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesPhysics.cs#L28)
 
 ```csharp
 ref float SoftContactDampingRatio { get; }
@@ -60,7 +60,7 @@ ref float SoftContactDampingRatio { get; }
 
 ### SoftContactFrequency
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesPhysics.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesPhysics.cs#L26)
 
 ```csharp
 ref float SoftContactFrequency { get; }
@@ -72,7 +72,7 @@ ref float SoftContactFrequency { get; }
 
 ### Thickness
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesPhysics.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesPhysics.cs#L24)
 
 ```csharp
 ref float Thickness { get; }

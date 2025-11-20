@@ -12,7 +12,7 @@ public interface C_OP_MovementPlaceOnGround : CParticleFunctionOperator, CPartic
 
 ### CollisionGroupName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementPlaceOnGround.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementPlaceOnGround.cs#L28)
 
 ```csharp
 string CollisionGroupName { get; set; }
@@ -24,7 +24,7 @@ string CollisionGroupName { get; set; }
 
 ### IgnoreCP
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementPlaceOnGround.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementPlaceOnGround.cs#L50)
 
 ```csharp
 ref int IgnoreCP { get; }
@@ -36,7 +36,7 @@ ref int IgnoreCP { get; }
 
 ### IncludeShotHull
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementPlaceOnGround.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementPlaceOnGround.cs#L40)
 
 ```csharp
 ref bool IncludeShotHull { get; }
@@ -48,7 +48,7 @@ ref bool IncludeShotHull { get; }
 
 ### IncludeWater
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementPlaceOnGround.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementPlaceOnGround.cs#L42)
 
 ```csharp
 ref bool IncludeWater { get; }
@@ -60,7 +60,7 @@ ref bool IncludeWater { get; }
 
 ### LerpCP
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementPlaceOnGround.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementPlaceOnGround.cs#L36)
 
 ```csharp
 ref int LerpCP { get; }
@@ -72,7 +72,7 @@ ref int LerpCP { get; }
 
 ### LerpRate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementPlaceOnGround.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementPlaceOnGround.cs#L26)
 
 ```csharp
 ref float LerpRate { get; }
@@ -84,7 +84,7 @@ ref float LerpRate { get; }
 
 ### MaxTraceLength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementPlaceOnGround.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementPlaceOnGround.cs#L20)
 
 ```csharp
 ref float MaxTraceLength { get; }
@@ -96,7 +96,7 @@ ref float MaxTraceLength { get; }
 
 ### Offset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementPlaceOnGround.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementPlaceOnGround.cs#L18)
 
 ```csharp
 CPerParticleFloatInput Offset { get; }
@@ -108,7 +108,7 @@ CPerParticleFloatInput Offset { get; }
 
 ### PreserveOffsetCP
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementPlaceOnGround.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementPlaceOnGround.cs#L48)
 
 ```csharp
 ref int PreserveOffsetCP { get; }
@@ -120,7 +120,7 @@ ref int PreserveOffsetCP { get; }
 
 ### RefCP1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementPlaceOnGround.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementPlaceOnGround.cs#L32)
 
 ```csharp
 ref int RefCP1 { get; }
@@ -132,7 +132,7 @@ ref int RefCP1 { get; }
 
 ### RefCP2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementPlaceOnGround.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementPlaceOnGround.cs#L34)
 
 ```csharp
 ref int RefCP2 { get; }
@@ -144,7 +144,7 @@ ref int RefCP2 { get; }
 
 ### ScaleOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementPlaceOnGround.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementPlaceOnGround.cs#L46)
 
 ```csharp
 ref bool ScaleOffset { get; }
@@ -156,7 +156,7 @@ ref bool ScaleOffset { get; }
 
 ### SetNormal
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementPlaceOnGround.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementPlaceOnGround.cs#L44)
 
 ```csharp
 ref bool SetNormal { get; }
@@ -168,7 +168,7 @@ ref bool SetNormal { get; }
 
 ### Tolerance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementPlaceOnGround.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementPlaceOnGround.cs#L22)
 
 ```csharp
 ref float Tolerance { get; }
@@ -180,7 +180,7 @@ ref float Tolerance { get; }
 
 ### TraceMissBehavior
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementPlaceOnGround.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementPlaceOnGround.cs#L38)
 
 ```csharp
 ref ParticleTraceMissBehavior_t TraceMissBehavior { get; }
@@ -192,7 +192,7 @@ ref ParticleTraceMissBehavior_t TraceMissBehavior { get; }
 
 ### TraceOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementPlaceOnGround.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementPlaceOnGround.cs#L24)
 
 ```csharp
 ref float TraceOffset { get; }
@@ -204,7 +204,7 @@ ref float TraceOffset { get; }
 
 ### TraceSet
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementPlaceOnGround.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementPlaceOnGround.cs#L30)
 
 ```csharp
 ref ParticleTraceSet_t TraceSet { get; }

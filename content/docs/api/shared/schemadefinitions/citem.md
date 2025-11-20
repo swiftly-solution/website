@@ -12,7 +12,7 @@ public interface CItem : CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEntityI
 
 ### ActivateWhenAtRest
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItem.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItem.cs#L22)
 
 ```csharp
 ref bool ActivateWhenAtRest { get; }
@@ -24,7 +24,7 @@ ref bool ActivateWhenAtRest { get; }
 
 ### OnCacheInteraction
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItem.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItem.cs#L24)
 
 ```csharp
 CEntityIOOutput OnCacheInteraction { get; }
@@ -36,7 +36,7 @@ CEntityIOOutput OnCacheInteraction { get; }
 
 ### OnGlovePulled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItem.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItem.cs#L26)
 
 ```csharp
 CEntityIOOutput OnGlovePulled { get; }
@@ -48,7 +48,7 @@ CEntityIOOutput OnGlovePulled { get; }
 
 ### OnPlayerPickup
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItem.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItem.cs#L20)
 
 ```csharp
 CEntityIOOutput OnPlayerPickup { get; }
@@ -60,7 +60,7 @@ CEntityIOOutput OnPlayerPickup { get; }
 
 ### OnPlayerTouch
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItem.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItem.cs#L18)
 
 ```csharp
 CEntityIOOutput OnPlayerTouch { get; }
@@ -72,7 +72,7 @@ CEntityIOOutput OnPlayerTouch { get; }
 
 ### OriginalSpawnAngles
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItem.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItem.cs#L30)
 
 ```csharp
 ref QAngle OriginalSpawnAngles { get; }
@@ -84,7 +84,7 @@ ref QAngle OriginalSpawnAngles { get; }
 
 ### OriginalSpawnOrigin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItem.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItem.cs#L28)
 
 ```csharp
 ref Vector OriginalSpawnOrigin { get; }
@@ -96,7 +96,7 @@ ref Vector OriginalSpawnOrigin { get; }
 
 ### PhysStartAsleep
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItem.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItem.cs#L32)
 
 ```csharp
 ref bool PhysStartAsleep { get; }

@@ -12,7 +12,7 @@ public interface FeWorldCollisionParams_t : ISchemaClass<FeWorldCollisionParams_
 
 ### GroundFriction
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeWorldCollisionParams_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeWorldCollisionParams_t.cs#L20)
 
 ```csharp
 ref float GroundFriction { get; }
@@ -24,7 +24,7 @@ ref float GroundFriction { get; }
 
 ### ListBegin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeWorldCollisionParams_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeWorldCollisionParams_t.cs#L22)
 
 ```csharp
 ref ushort ListBegin { get; }
@@ -36,7 +36,7 @@ ref ushort ListBegin { get; }
 
 ### ListEnd
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeWorldCollisionParams_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeWorldCollisionParams_t.cs#L24)
 
 ```csharp
 ref ushort ListEnd { get; }
@@ -48,7 +48,7 @@ ref ushort ListEnd { get; }
 
 ### WorldFriction
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeWorldCollisionParams_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeWorldCollisionParams_t.cs#L18)
 
 ```csharp
 ref float WorldFriction { get; }

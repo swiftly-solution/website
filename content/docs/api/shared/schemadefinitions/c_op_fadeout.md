@@ -12,7 +12,7 @@ public interface C_OP_FadeOut : CParticleFunctionOperator, CParticleFunction, IS
 
 ### EaseInAndOut
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeOut.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeOut.cs#L28)
 
 ```csharp
 ref bool EaseInAndOut { get; }
@@ -24,7 +24,7 @@ ref bool EaseInAndOut { get; }
 
 ### FadeBias
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeOut.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeOut.cs#L24)
 
 ```csharp
 ref float FadeBias { get; }
@@ -36,7 +36,7 @@ ref float FadeBias { get; }
 
 ### FadeOutTimeExp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeOut.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeOut.cs#L22)
 
 ```csharp
 ref float FadeOutTimeExp { get; }
@@ -48,7 +48,7 @@ ref float FadeOutTimeExp { get; }
 
 ### FadeOutTimeMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeOut.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeOut.cs#L20)
 
 ```csharp
 ref float FadeOutTimeMax { get; }
@@ -60,7 +60,7 @@ ref float FadeOutTimeMax { get; }
 
 ### FadeOutTimeMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeOut.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeOut.cs#L18)
 
 ```csharp
 ref float FadeOutTimeMin { get; }
@@ -72,7 +72,7 @@ ref float FadeOutTimeMin { get; }
 
 ### Proportional
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeOut.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeOut.cs#L26)
 
 ```csharp
 ref bool Proportional { get; }

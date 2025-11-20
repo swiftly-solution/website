@@ -12,7 +12,7 @@ public interface RsBlendStateDesc_t : ISchemaClass<RsBlendStateDesc_t>, ISchemaF
 
 ### AlphaToCoverageEnable
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsBlendStateDesc_t.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsBlendStateDesc_t.cs#L32)
 
 ```csharp
 SchemaUntypedField AlphaToCoverageEnable { get; }
@@ -24,7 +24,7 @@ SchemaUntypedField AlphaToCoverageEnable { get; }
 
 ### BlendEnableBits
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsBlendStateDesc_t.cs#L38)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsBlendStateDesc_t.cs#L39)
 
 ```csharp
 ref byte BlendEnableBits { get; }
@@ -36,7 +36,7 @@ ref byte BlendEnableBits { get; }
 
 ### BlendOpAlphaBits
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsBlendStateDesc_t.cs#L36)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsBlendStateDesc_t.cs#L37)
 
 ```csharp
 ref uint BlendOpAlphaBits { get; }
@@ -48,7 +48,7 @@ ref uint BlendOpAlphaBits { get; }
 
 ### BlendOpBits
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsBlendStateDesc_t.cs#L28)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsBlendStateDesc_t.cs#L29)
 
 ```csharp
 SchemaUntypedField BlendOpBits { get; }
@@ -60,7 +60,7 @@ SchemaUntypedField BlendOpBits { get; }
 
 ### DestBlendAlphaBits
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsBlendStateDesc_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsBlendStateDesc_t.cs#L24)
 
 ```csharp
 ref uint DestBlendAlphaBits { get; }
@@ -72,7 +72,7 @@ ref uint DestBlendAlphaBits { get; }
 
 ### DestBlendBits
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsBlendStateDesc_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsBlendStateDesc_t.cs#L20)
 
 ```csharp
 ref uint DestBlendBits { get; }
@@ -84,7 +84,7 @@ ref uint DestBlendBits { get; }
 
 ### IndependentBlendEnable
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsBlendStateDesc_t.cs#L34)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsBlendStateDesc_t.cs#L35)
 
 ```csharp
 SchemaUntypedField IndependentBlendEnable { get; }
@@ -96,7 +96,7 @@ SchemaUntypedField IndependentBlendEnable { get; }
 
 ### RenderTargetWriteMaskBits
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsBlendStateDesc_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsBlendStateDesc_t.cs#L26)
 
 ```csharp
 ref uint RenderTargetWriteMaskBits { get; }
@@ -108,7 +108,7 @@ ref uint RenderTargetWriteMaskBits { get; }
 
 ### SrcBlendAlphaBits
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsBlendStateDesc_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsBlendStateDesc_t.cs#L22)
 
 ```csharp
 ref uint SrcBlendAlphaBits { get; }
@@ -120,7 +120,7 @@ ref uint SrcBlendAlphaBits { get; }
 
 ### SrcBlendBits
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsBlendStateDesc_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsBlendStateDesc_t.cs#L18)
 
 ```csharp
 ref uint SrcBlendBits { get; }
@@ -132,7 +132,7 @@ ref uint SrcBlendBits { get; }
 
 ### SrgbWriteEnableBits
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsBlendStateDesc_t.cs#L40)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsBlendStateDesc_t.cs#L41)
 
 ```csharp
 ref byte SrgbWriteEnableBits { get; }

@@ -12,7 +12,7 @@ public interface CBoneMaskUpdateNode : CBinaryUpdateNode, CAnimUpdateNodeBase, I
 
 ### BlendParameter
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneMaskUpdateNode.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneMaskUpdateNode.cs#L30)
 
 ```csharp
 CAnimParamHandle BlendParameter { get; }
@@ -24,7 +24,7 @@ CAnimParamHandle BlendParameter { get; }
 
 ### BlendSpace
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneMaskUpdateNode.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneMaskUpdateNode.cs#L22)
 
 ```csharp
 ref BoneMaskBlendSpace BlendSpace { get; }
@@ -36,7 +36,7 @@ ref BoneMaskBlendSpace BlendSpace { get; }
 
 ### BlendValueSource
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneMaskUpdateNode.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneMaskUpdateNode.cs#L28)
 
 ```csharp
 ref AnimValueSource BlendValueSource { get; }
@@ -48,7 +48,7 @@ ref AnimValueSource BlendValueSource { get; }
 
 ### FootMotionTiming
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneMaskUpdateNode.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneMaskUpdateNode.cs#L24)
 
 ```csharp
 ref BinaryNodeChildOption FootMotionTiming { get; }
@@ -60,7 +60,7 @@ ref BinaryNodeChildOption FootMotionTiming { get; }
 
 ### RootMotionBlend
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneMaskUpdateNode.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneMaskUpdateNode.cs#L20)
 
 ```csharp
 ref float RootMotionBlend { get; }
@@ -72,7 +72,7 @@ ref float RootMotionBlend { get; }
 
 ### UseBlendScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneMaskUpdateNode.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneMaskUpdateNode.cs#L26)
 
 ```csharp
 ref bool UseBlendScale { get; }
@@ -84,7 +84,7 @@ ref bool UseBlendScale { get; }
 
 ### WeightListIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneMaskUpdateNode.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneMaskUpdateNode.cs#L18)
 
 ```csharp
 ref int WeightListIndex { get; }

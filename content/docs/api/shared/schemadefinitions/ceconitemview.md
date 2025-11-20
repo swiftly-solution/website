@@ -12,7 +12,7 @@ public interface CEconItemView : IEconItemInterface, ISchemaClass<IEconItemInter
 
 ### AccountID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L30)
 
 ```csharp
 ref uint AccountID { get; }
@@ -24,7 +24,7 @@ ref uint AccountID { get; }
 
 ### AttributeList
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L36)
 
 ```csharp
 CAttributeList AttributeList { get; }
@@ -36,7 +36,7 @@ CAttributeList AttributeList { get; }
 
 ### CustomName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L40)
 
 ```csharp
 string CustomName { get; set; }
@@ -48,7 +48,7 @@ string CustomName { get; set; }
 
 ### CustomNameOverride
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L42)
 
 ```csharp
 string CustomNameOverride { get; set; }
@@ -60,7 +60,7 @@ string CustomNameOverride { get; set; }
 
 ### EntityLevel
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L22)
 
 ```csharp
 ref uint EntityLevel { get; }
@@ -72,7 +72,7 @@ ref uint EntityLevel { get; }
 
 ### EntityQuality
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L20)
 
 ```csharp
 ref int EntityQuality { get; }
@@ -84,7 +84,7 @@ ref int EntityQuality { get; }
 
 ### Initialized
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L34)
 
 ```csharp
 ref bool Initialized { get; }
@@ -96,7 +96,7 @@ ref bool Initialized { get; }
 
 ### InventoryPosition
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L32)
 
 ```csharp
 ref uint InventoryPosition { get; }
@@ -108,7 +108,7 @@ ref uint InventoryPosition { get; }
 
 ### ItemDefinitionIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L18)
 
 ```csharp
 ref ushort ItemDefinitionIndex { get; }
@@ -120,7 +120,7 @@ ref ushort ItemDefinitionIndex { get; }
 
 ### ItemID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L24)
 
 ```csharp
 ref ulong ItemID { get; }
@@ -132,7 +132,7 @@ ref ulong ItemID { get; }
 
 ### ItemIDHigh
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L26)
 
 ```csharp
 ref uint ItemIDHigh { get; }
@@ -144,7 +144,7 @@ ref uint ItemIDHigh { get; }
 
 ### ItemIDLow
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L28)
 
 ```csharp
 ref uint ItemIDLow { get; }
@@ -156,7 +156,7 @@ ref uint ItemIDLow { get; }
 
 ### NetworkedDynamicAttributes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L38)
 
 ```csharp
 CAttributeList NetworkedDynamicAttributes { get; }
@@ -170,7 +170,7 @@ CAttributeList NetworkedDynamicAttributes { get; }
 
 ### AccountIDUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L48)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L49)
 
 ```csharp
 void AccountIDUpdated()
@@ -178,7 +178,7 @@ void AccountIDUpdated()
 
 ### AttributeListUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L52)
 
 ```csharp
 void AttributeListUpdated()
@@ -186,7 +186,7 @@ void AttributeListUpdated()
 
 ### CustomNameUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L54)
 
 ```csharp
 void CustomNameUpdated()
@@ -194,7 +194,7 @@ void CustomNameUpdated()
 
 ### EntityLevelUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L46)
 
 ```csharp
 void EntityLevelUpdated()
@@ -202,7 +202,7 @@ void EntityLevelUpdated()
 
 ### EntityQualityUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L44)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L45)
 
 ```csharp
 void EntityQualityUpdated()
@@ -210,7 +210,7 @@ void EntityQualityUpdated()
 
 ### InitializedUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L50)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L51)
 
 ```csharp
 void InitializedUpdated()
@@ -218,7 +218,7 @@ void InitializedUpdated()
 
 ### InventoryPositionUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L50)
 
 ```csharp
 void InventoryPositionUpdated()
@@ -226,7 +226,7 @@ void InventoryPositionUpdated()
 
 ### ItemDefinitionIndexUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L44)
 
 ```csharp
 void ItemDefinitionIndexUpdated()
@@ -234,7 +234,7 @@ void ItemDefinitionIndexUpdated()
 
 ### ItemIDHighUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L46)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L47)
 
 ```csharp
 void ItemIDHighUpdated()
@@ -242,7 +242,7 @@ void ItemIDHighUpdated()
 
 ### ItemIDLowUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L48)
 
 ```csharp
 void ItemIDLowUpdated()
@@ -250,7 +250,7 @@ void ItemIDLowUpdated()
 
 ### NetworkedDynamicAttributesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L52)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L53)
 
 ```csharp
 void NetworkedDynamicAttributesUpdated()

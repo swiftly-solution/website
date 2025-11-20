@@ -12,7 +12,7 @@ public interface VsInputSignature_t : ISchemaClass<VsInputSignature_t>, ISchemaF
 
 ### Depth_elems
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VsInputSignature_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VsInputSignature_t.cs#L20)
 
 ```csharp
 ref CUtlVector<VsInputSignatureElement_t> Depth_elems { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<VsInputSignatureElement_t> Depth_elems { get; }
 
 ### Elems
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VsInputSignature_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VsInputSignature_t.cs#L18)
 
 ```csharp
 ref CUtlVector<VsInputSignatureElement_t> Elems { get; }

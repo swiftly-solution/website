@@ -12,7 +12,7 @@ public interface CPathHelperUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase, 
 
 ### StoppingRadius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathHelperUpdateNode.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathHelperUpdateNode.cs#L18)
 
 ```csharp
 ref float StoppingRadius { get; }
@@ -24,7 +24,7 @@ ref float StoppingRadius { get; }
 
 ### StoppingSpeedScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathHelperUpdateNode.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathHelperUpdateNode.cs#L20)
 
 ```csharp
 ref float StoppingSpeedScale { get; }

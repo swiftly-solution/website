@@ -12,7 +12,7 @@ public interface CPlantedC4 : CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEn
 
 ### AbortDetonationBecauseWorldIsFrozen
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L26)
 
 ```csharp
 ref bool AbortDetonationBecauseWorldIsFrozen { get; }
@@ -24,7 +24,7 @@ ref bool AbortDetonationBecauseWorldIsFrozen { get; }
 
 ### AttributeManager
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L28)
 
 ```csharp
 CAttributeContainer AttributeManager { get; }
@@ -36,7 +36,7 @@ CAttributeContainer AttributeManager { get; }
 
 ### BeingDefused
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L48)
 
 ```csharp
 ref bool BeingDefused { get; }
@@ -48,7 +48,7 @@ ref bool BeingDefused { get; }
 
 ### BombDefused
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L56)
 
 ```csharp
 ref bool BombDefused { get; }
@@ -60,7 +60,7 @@ ref bool BombDefused { get; }
 
 ### BombDefuser
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L58)
 
 ```csharp
 ref CHandle<CCSPlayerPawn> BombDefuser { get; }
@@ -72,7 +72,7 @@ ref CHandle<CCSPlayerPawn> BombDefuser { get; }
 
 ### BombSite
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L22)
 
 ```csharp
 ref int BombSite { get; }
@@ -84,7 +84,7 @@ ref int BombSite { get; }
 
 ### BombTicking
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L18)
 
 ```csharp
 ref bool BombTicking { get; }
@@ -96,7 +96,7 @@ ref bool BombTicking { get; }
 
 ### C4Blow
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L20)
 
 ```csharp
 GameTime_t C4Blow { get; }
@@ -108,7 +108,7 @@ GameTime_t C4Blow { get; }
 
 ### CannotBeDefused
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L36)
 
 ```csharp
 ref bool CannotBeDefused { get; }
@@ -120,7 +120,7 @@ ref bool CannotBeDefused { get; }
 
 ### CatchUpToPlayerEye
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L67)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L68)
 
 ```csharp
 ref QAngle CatchUpToPlayerEye { get; }
@@ -132,7 +132,7 @@ ref QAngle CatchUpToPlayerEye { get; }
 
 ### DefuseCountDown
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L54)
 
 ```csharp
 GameTime_t DefuseCountDown { get; }
@@ -144,7 +144,7 @@ GameTime_t DefuseCountDown { get; }
 
 ### DefuseLength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L52)
 
 ```csharp
 ref float DefuseLength { get; }
@@ -156,7 +156,7 @@ ref float DefuseLength { get; }
 
 ### EntitySpottedState
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L38)
 
 ```csharp
 EntitySpottedState_t EntitySpottedState { get; }
@@ -168,7 +168,7 @@ EntitySpottedState_t EntitySpottedState { get; }
 
 ### HasExploded
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L44)
 
 ```csharp
 ref bool HasExploded { get; }
@@ -180,7 +180,7 @@ ref bool HasExploded { get; }
 
 ### LastDefuseTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L50)
 
 ```csharp
 GameTime_t LastDefuseTime { get; }
@@ -192,7 +192,7 @@ GameTime_t LastDefuseTime { get; }
 
 ### LastSpinDetectionTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L69)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L70)
 
 ```csharp
 GameTime_t LastSpinDetectionTime { get; }
@@ -204,7 +204,7 @@ GameTime_t LastSpinDetectionTime { get; }
 
 ### NextBotBeepTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L65)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L66)
 
 ```csharp
 GameTime_t NextBotBeepTime { get; }
@@ -216,7 +216,7 @@ GameTime_t NextBotBeepTime { get; }
 
 ### OnBombBeginDefuse
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L32)
 
 ```csharp
 CEntityIOOutput OnBombBeginDefuse { get; }
@@ -228,7 +228,7 @@ CEntityIOOutput OnBombBeginDefuse { get; }
 
 ### OnBombDefuseAborted
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L34)
 
 ```csharp
 CEntityIOOutput OnBombDefuseAborted { get; }
@@ -240,7 +240,7 @@ CEntityIOOutput OnBombDefuseAborted { get; }
 
 ### OnBombDefused
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L30)
 
 ```csharp
 CEntityIOOutput OnBombDefused { get; }
@@ -252,7 +252,7 @@ CEntityIOOutput OnBombDefused { get; }
 
 ### ProgressBarTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L60)
 
 ```csharp
 ref int ProgressBarTime { get; }
@@ -264,7 +264,7 @@ ref int ProgressBarTime { get; }
 
 ### SourceSoundscapeHash
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L24)
 
 ```csharp
 ref int SourceSoundscapeHash { get; }
@@ -276,7 +276,7 @@ ref int SourceSoundscapeHash { get; }
 
 ### SpotRules
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L40)
 
 ```csharp
 ref int SpotRules { get; }
@@ -288,7 +288,7 @@ ref int SpotRules { get; }
 
 ### TimerLength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L46)
 
 ```csharp
 ref float TimerLength { get; }
@@ -300,7 +300,7 @@ ref float TimerLength { get; }
 
 ### TrainingPlacedByPlayer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L42)
 
 ```csharp
 ref bool TrainingPlacedByPlayer { get; }
@@ -312,7 +312,7 @@ ref bool TrainingPlacedByPlayer { get; }
 
 ### VoiceAlertFired
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L62)
 
 ```csharp
 ref bool VoiceAlertFired { get; }
@@ -324,7 +324,7 @@ ref bool VoiceAlertFired { get; }
 
 ### VoiceAlertPlayed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L64)
 
 ```csharp
 ISchemaFixedArray<bool> VoiceAlertPlayed { get; }
@@ -338,7 +338,7 @@ ISchemaFixedArray<bool> VoiceAlertPlayed { get; }
 
 ### AttributeManagerUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L75)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L76)
 
 ```csharp
 void AttributeManagerUpdated()
@@ -346,7 +346,7 @@ void AttributeManagerUpdated()
 
 ### BeingDefusedUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L80)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L81)
 
 ```csharp
 void BeingDefusedUpdated()
@@ -354,7 +354,7 @@ void BeingDefusedUpdated()
 
 ### BombDefusedUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L83)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L84)
 
 ```csharp
 void BombDefusedUpdated()
@@ -362,7 +362,7 @@ void BombDefusedUpdated()
 
 ### BombDefuserUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L84)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L85)
 
 ```csharp
 void BombDefuserUpdated()
@@ -370,7 +370,7 @@ void BombDefuserUpdated()
 
 ### BombSiteUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L73)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L74)
 
 ```csharp
 void BombSiteUpdated()
@@ -378,7 +378,7 @@ void BombSiteUpdated()
 
 ### BombTickingUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L71)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L72)
 
 ```csharp
 void BombTickingUpdated()
@@ -386,7 +386,7 @@ void BombTickingUpdated()
 
 ### C4BlowUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L72)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L73)
 
 ```csharp
 void C4BlowUpdated()
@@ -394,7 +394,7 @@ void C4BlowUpdated()
 
 ### CannotBeDefusedUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L76)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L77)
 
 ```csharp
 void CannotBeDefusedUpdated()
@@ -402,7 +402,7 @@ void CannotBeDefusedUpdated()
 
 ### DefuseCountDownUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L82)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L83)
 
 ```csharp
 void DefuseCountDownUpdated()
@@ -410,7 +410,7 @@ void DefuseCountDownUpdated()
 
 ### DefuseLengthUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L81)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L82)
 
 ```csharp
 void DefuseLengthUpdated()
@@ -418,7 +418,7 @@ void DefuseLengthUpdated()
 
 ### EntitySpottedStateUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L77)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L78)
 
 ```csharp
 void EntitySpottedStateUpdated()
@@ -426,7 +426,7 @@ void EntitySpottedStateUpdated()
 
 ### HasExplodedUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L78)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L79)
 
 ```csharp
 void HasExplodedUpdated()
@@ -434,7 +434,7 @@ void HasExplodedUpdated()
 
 ### SourceSoundscapeHashUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L74)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L75)
 
 ```csharp
 void SourceSoundscapeHashUpdated()
@@ -442,7 +442,7 @@ void SourceSoundscapeHashUpdated()
 
 ### TimerLengthUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L79)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L80)
 
 ```csharp
 void TimerLengthUpdated()

@@ -12,7 +12,7 @@ public interface CLogicEventListener : CLogicalEntity, CServerOnlyEntity, CBaseE
 
 ### IsEnabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicEventListener.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicEventListener.cs#L20)
 
 ```csharp
 ref bool IsEnabled { get; }
@@ -24,7 +24,7 @@ ref bool IsEnabled { get; }
 
 ### OnEventFired
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicEventListener.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicEventListener.cs#L24)
 
 ```csharp
 CEntityIOOutput OnEventFired { get; }
@@ -36,7 +36,7 @@ CEntityIOOutput OnEventFired { get; }
 
 ### StrEventName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicEventListener.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicEventListener.cs#L18)
 
 ```csharp
 string StrEventName { get; set; }
@@ -48,7 +48,7 @@ string StrEventName { get; set; }
 
 ### Team
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicEventListener.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicEventListener.cs#L22)
 
 ```csharp
 ref int Team { get; }

@@ -12,7 +12,7 @@ public interface CTriggerFan : CBaseTrigger, CBaseToggle, CBaseModelEntity, CBas
 
 ### Direction
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L20)
 
 ```csharp
 ref Vector Direction { get; }
@@ -24,7 +24,7 @@ ref Vector Direction { get; }
 
 ### Falloff
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L32)
 
 ```csharp
 ref bool Falloff { get; }
@@ -36,7 +36,7 @@ ref bool Falloff { get; }
 
 ### FanEndLS
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L40)
 
 ```csharp
 ref Vector FanEndLS { get; }
@@ -48,7 +48,7 @@ ref Vector FanEndLS { get; }
 
 ### FanOriginLS
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L38)
 
 ```csharp
 ref Vector FanOriginLS { get; }
@@ -60,7 +60,7 @@ ref Vector FanOriginLS { get; }
 
 ### FanOriginOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L18)
 
 ```csharp
 ref Vector FanOriginOffset { get; }
@@ -72,7 +72,7 @@ ref Vector FanOriginOffset { get; }
 
 ### FanOriginWS
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L36)
 
 ```csharp
 ref Vector FanOriginWS { get; }
@@ -84,7 +84,7 @@ ref Vector FanOriginWS { get; }
 
 ### Force
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L30)
 
 ```csharp
 ref float Force { get; }
@@ -96,7 +96,7 @@ ref float Force { get; }
 
 ### InfoFan
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L28)
 
 ```csharp
 ref CHandle<CInfoFan> InfoFan { get; }
@@ -108,7 +108,7 @@ ref CHandle<CInfoFan> InfoFan { get; }
 
 ### InfoFan1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L44)
 
 ```csharp
 string InfoFan1 { get; set; }
@@ -120,7 +120,7 @@ string InfoFan1 { get; set; }
 
 ### ManagerFanIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L65)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L66)
 
 ```csharp
 ref int ManagerFanIdx { get; }
@@ -132,7 +132,7 @@ ref int ManagerFanIdx { get; }
 
 ### NPCForce
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L54)
 
 ```csharp
 ref float NPCForce { get; }
@@ -144,7 +144,7 @@ ref float NPCForce { get; }
 
 ### NoiseDegrees
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L58)
 
 ```csharp
 ref float NoiseDegrees { get; }
@@ -156,7 +156,7 @@ ref float NoiseDegrees { get; }
 
 ### NoiseDelta
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L26)
 
 ```csharp
 ref Quaternion NoiseDelta { get; }
@@ -168,7 +168,7 @@ ref Quaternion NoiseDelta { get; }
 
 ### NoiseDirectionTarget
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L42)
 
 ```csharp
 ref Vector NoiseDirectionTarget { get; }
@@ -180,7 +180,7 @@ ref Vector NoiseDirectionTarget { get; }
 
 ### NoiseSpeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L60)
 
 ```csharp
 ref float NoiseSpeed { get; }
@@ -192,7 +192,7 @@ ref float NoiseSpeed { get; }
 
 ### ParticleForceScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L48)
 
 ```csharp
 ref float ParticleForceScale { get; }
@@ -204,7 +204,7 @@ ref float ParticleForceScale { get; }
 
 ### PlayerForce
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L50)
 
 ```csharp
 ref float PlayerForce { get; }
@@ -216,7 +216,7 @@ ref float PlayerForce { get; }
 
 ### PlayerWindblock
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L52)
 
 ```csharp
 ref bool PlayerWindblock { get; }
@@ -228,7 +228,7 @@ ref bool PlayerWindblock { get; }
 
 ### PushAwayFromInfoTarget
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L24)
 
 ```csharp
 ref bool PushAwayFromInfoTarget { get; }
@@ -240,7 +240,7 @@ ref bool PushAwayFromInfoTarget { get; }
 
 ### PushPlayer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L62)
 
 ```csharp
 ref bool PushPlayer { get; }
@@ -252,7 +252,7 @@ ref bool PushPlayer { get; }
 
 ### PushTowardsInfoTarget
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L22)
 
 ```csharp
 ref bool PushTowardsInfoTarget { get; }
@@ -264,7 +264,7 @@ ref bool PushTowardsInfoTarget { get; }
 
 ### RampDown
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L64)
 
 ```csharp
 ref bool RampDown { get; }
@@ -276,7 +276,7 @@ ref bool RampDown { get; }
 
 ### RampTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L56)
 
 ```csharp
 ref float RampTime { get; }
@@ -288,7 +288,7 @@ ref float RampTime { get; }
 
 ### RampTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L34)
 
 ```csharp
 CountdownTimer RampTimer { get; }
@@ -300,7 +300,7 @@ CountdownTimer RampTimer { get; }
 
 ### RopeForceScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L46)
 
 ```csharp
 ref float RopeForceScale { get; }
@@ -314,7 +314,7 @@ ref float RopeForceScale { get; }
 
 ### DirectionUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L68)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L69)
 
 ```csharp
 void DirectionUpdated()
@@ -322,7 +322,7 @@ void DirectionUpdated()
 
 ### FalloffUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L74)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L75)
 
 ```csharp
 void FalloffUpdated()
@@ -330,7 +330,7 @@ void FalloffUpdated()
 
 ### FanOriginOffsetUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L67)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L68)
 
 ```csharp
 void FanOriginOffsetUpdated()
@@ -338,7 +338,7 @@ void FanOriginOffsetUpdated()
 
 ### ForceUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L73)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L74)
 
 ```csharp
 void ForceUpdated()
@@ -346,7 +346,7 @@ void ForceUpdated()
 
 ### InfoFanUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L72)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L73)
 
 ```csharp
 void InfoFanUpdated()
@@ -354,7 +354,7 @@ void InfoFanUpdated()
 
 ### NoiseDeltaUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L71)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L72)
 
 ```csharp
 void NoiseDeltaUpdated()
@@ -362,7 +362,7 @@ void NoiseDeltaUpdated()
 
 ### PushAwayFromInfoTargetUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L70)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L71)
 
 ```csharp
 void PushAwayFromInfoTargetUpdated()
@@ -370,7 +370,7 @@ void PushAwayFromInfoTargetUpdated()
 
 ### PushTowardsInfoTargetUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L69)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L70)
 
 ```csharp
 void PushTowardsInfoTargetUpdated()
@@ -378,7 +378,7 @@ void PushTowardsInfoTargetUpdated()
 
 ### RampTimerUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L75)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerFan.cs#L76)
 
 ```csharp
 void RampTimerUpdated()

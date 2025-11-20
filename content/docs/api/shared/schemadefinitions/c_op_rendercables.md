@@ -12,7 +12,7 @@ public interface C_OP_RenderCables : CParticleFunctionRenderer, CParticleFunctio
 
 ### AlphaScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderCables.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderCables.cs#L20)
 
 ```csharp
 CParticleCollectionFloatInput AlphaScale { get; }
@@ -24,7 +24,7 @@ CParticleCollectionFloatInput AlphaScale { get; }
 
 ### CapOffsetAmount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderCables.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderCables.cs#L46)
 
 ```csharp
 ref float CapOffsetAmount { get; }
@@ -36,7 +36,7 @@ ref float CapOffsetAmount { get; }
 
 ### CapRoundness
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderCables.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderCables.cs#L44)
 
 ```csharp
 ref float CapRoundness { get; }
@@ -48,7 +48,7 @@ ref float CapRoundness { get; }
 
 ### ColorBlendType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderCables.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderCables.cs#L24)
 
 ```csharp
 ref ParticleColorBlendType_t ColorBlendType { get; }
@@ -60,7 +60,7 @@ ref ParticleColorBlendType_t ColorBlendType { get; }
 
 ### ColorMapOffsetU
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderCables.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderCables.cs#L36)
 
 ```csharp
 CParticleCollectionFloatInput ColorMapOffsetU { get; }
@@ -72,7 +72,7 @@ CParticleCollectionFloatInput ColorMapOffsetU { get; }
 
 ### ColorMapOffsetV
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderCables.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderCables.cs#L34)
 
 ```csharp
 CParticleCollectionFloatInput ColorMapOffsetV { get; }
@@ -84,7 +84,7 @@ CParticleCollectionFloatInput ColorMapOffsetV { get; }
 
 ### ColorScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderCables.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderCables.cs#L22)
 
 ```csharp
 CParticleCollectionVecInput ColorScale { get; }
@@ -96,7 +96,7 @@ CParticleCollectionVecInput ColorScale { get; }
 
 ### DrawCableCaps
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderCables.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderCables.cs#L42)
 
 ```csharp
 ref bool DrawCableCaps { get; }
@@ -108,7 +108,7 @@ ref bool DrawCableCaps { get; }
 
 ### ForceRoundnessFixed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderCables.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderCables.cs#L56)
 
 ```csharp
 ref bool ForceRoundnessFixed { get; }
@@ -120,7 +120,7 @@ ref bool ForceRoundnessFixed { get; }
 
 ### LightingTransform
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderCables.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderCables.cs#L58)
 
 ```csharp
 CParticleTransformInput LightingTransform { get; }
@@ -132,7 +132,7 @@ CParticleTransformInput LightingTransform { get; }
 
 ### Material
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderCables.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderCables.cs#L26)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeIMaterial2> Material { get; }
@@ -144,7 +144,7 @@ ref CStrongHandle<InfoForResourceTypeIMaterial2> Material { get; }
 
 ### MaterialFloatVars
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderCables.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderCables.cs#L60)
 
 ```csharp
 ref CUtlLeanVector<FloatInputMaterialVariable_t, int> MaterialFloatVars { get; }
@@ -156,7 +156,7 @@ ref CUtlLeanVector<FloatInputMaterialVariable_t, int> MaterialFloatVars { get; }
 
 ### MaterialVecVars
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderCables.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderCables.cs#L62)
 
 ```csharp
 ref CUtlLeanVector<VecInputMaterialVariable_t, int> MaterialVecVars { get; }
@@ -168,7 +168,7 @@ ref CUtlLeanVector<VecInputMaterialVariable_t, int> MaterialVecVars { get; }
 
 ### MaxTesselation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderCables.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderCables.cs#L52)
 
 ```csharp
 ref int MaxTesselation { get; }
@@ -180,7 +180,7 @@ ref int MaxTesselation { get; }
 
 ### MinTesselation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderCables.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderCables.cs#L50)
 
 ```csharp
 ref int MinTesselation { get; }
@@ -192,7 +192,7 @@ ref int MinTesselation { get; }
 
 ### NormalMapOffsetU
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderCables.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderCables.cs#L40)
 
 ```csharp
 CParticleCollectionFloatInput NormalMapOffsetU { get; }
@@ -204,7 +204,7 @@ CParticleCollectionFloatInput NormalMapOffsetU { get; }
 
 ### NormalMapOffsetV
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderCables.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderCables.cs#L38)
 
 ```csharp
 CParticleCollectionFloatInput NormalMapOffsetV { get; }
@@ -216,7 +216,7 @@ CParticleCollectionFloatInput NormalMapOffsetV { get; }
 
 ### RadiusScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderCables.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderCables.cs#L18)
 
 ```csharp
 CParticleCollectionFloatInput RadiusScale { get; }
@@ -228,7 +228,7 @@ CParticleCollectionFloatInput RadiusScale { get; }
 
 ### Roundness
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderCables.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderCables.cs#L54)
 
 ```csharp
 ref int Roundness { get; }
@@ -240,7 +240,7 @@ ref int Roundness { get; }
 
 ### TessScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderCables.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderCables.cs#L48)
 
 ```csharp
 ref float TessScale { get; }
@@ -252,7 +252,7 @@ ref float TessScale { get; }
 
 ### TextureRepeatsCircumference
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderCables.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderCables.cs#L32)
 
 ```csharp
 CParticleCollectionFloatInput TextureRepeatsCircumference { get; }
@@ -264,7 +264,7 @@ CParticleCollectionFloatInput TextureRepeatsCircumference { get; }
 
 ### TextureRepeatsPerSegment
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderCables.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderCables.cs#L30)
 
 ```csharp
 CParticleCollectionFloatInput TextureRepeatsPerSegment { get; }
@@ -276,7 +276,7 @@ CParticleCollectionFloatInput TextureRepeatsPerSegment { get; }
 
 ### TextureRepetitionMode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderCables.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderCables.cs#L28)
 
 ```csharp
 ref TextureRepetitionMode_t TextureRepetitionMode { get; }

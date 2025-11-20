@@ -12,7 +12,7 @@ public interface CSoundOpvarSetEntity : CBaseEntity, CEntityInstance, ISchemaCla
 
 ### OperatorName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetEntity.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetEntity.cs#L20)
 
 ```csharp
 string OperatorName { get; set; }
@@ -24,7 +24,7 @@ string OperatorName { get; set; }
 
 ### OpvarIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetEntity.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetEntity.cs#L26)
 
 ```csharp
 ref int OpvarIndex { get; }
@@ -36,7 +36,7 @@ ref int OpvarIndex { get; }
 
 ### OpvarName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetEntity.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetEntity.cs#L22)
 
 ```csharp
 string OpvarName { get; set; }
@@ -48,7 +48,7 @@ string OpvarName { get; set; }
 
 ### OpvarType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetEntity.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetEntity.cs#L24)
 
 ```csharp
 ref int OpvarType { get; }
@@ -60,7 +60,7 @@ ref int OpvarType { get; }
 
 ### OpvarValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetEntity.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetEntity.cs#L28)
 
 ```csharp
 ref float OpvarValue { get; }
@@ -72,7 +72,7 @@ ref float OpvarValue { get; }
 
 ### OpvarValueString
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetEntity.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetEntity.cs#L30)
 
 ```csharp
 string OpvarValueString { get; set; }
@@ -84,7 +84,7 @@ string OpvarValueString { get; set; }
 
 ### SetOnSpawn
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetEntity.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetEntity.cs#L32)
 
 ```csharp
 ref bool SetOnSpawn { get; }
@@ -96,7 +96,7 @@ ref bool SetOnSpawn { get; }
 
 ### StackName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetEntity.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetEntity.cs#L18)
 
 ```csharp
 string StackName { get; set; }

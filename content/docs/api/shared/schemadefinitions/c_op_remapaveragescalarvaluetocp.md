@@ -12,7 +12,7 @@ public interface C_OP_RemapAverageScalarValuetoCP : CParticleFunctionPreEmission
 
 ### DecimalPlaces
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapAverageScalarValuetoCP.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapAverageScalarValuetoCP.cs#L20)
 
 ```csharp
 CParticleCollectionFloatInput DecimalPlaces { get; }
@@ -24,7 +24,7 @@ CParticleCollectionFloatInput DecimalPlaces { get; }
 
 ### Expression
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapAverageScalarValuetoCP.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapAverageScalarValuetoCP.cs#L18)
 
 ```csharp
 ref SetStatisticExpressionType_t Expression { get; }
@@ -36,7 +36,7 @@ ref SetStatisticExpressionType_t Expression { get; }
 
 ### Field
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapAverageScalarValuetoCP.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapAverageScalarValuetoCP.cs#L26)
 
 ```csharp
 ParticleAttributeIndex_t Field { get; }
@@ -48,7 +48,7 @@ ParticleAttributeIndex_t Field { get; }
 
 ### OutControlPointNumber
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapAverageScalarValuetoCP.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapAverageScalarValuetoCP.cs#L22)
 
 ```csharp
 ref int OutControlPointNumber { get; }
@@ -60,7 +60,7 @@ ref int OutControlPointNumber { get; }
 
 ### OutVectorField
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapAverageScalarValuetoCP.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapAverageScalarValuetoCP.cs#L24)
 
 ```csharp
 ref int OutVectorField { get; }
@@ -72,7 +72,7 @@ ref int OutVectorField { get; }
 
 ### OutputRemap
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapAverageScalarValuetoCP.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapAverageScalarValuetoCP.cs#L28)
 
 ```csharp
 CParticleRemapFloatInput OutputRemap { get; }

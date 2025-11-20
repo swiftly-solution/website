@@ -12,7 +12,7 @@ public interface CNmChainLookatNode__CDefinition : CNmPassthroughNode__CDefiniti
 
 ### BlendTimeSeconds
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainLookatNode__CDefinition.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainLookatNode__CDefinition.cs#L24)
 
 ```csharp
 ref float BlendTimeSeconds { get; }
@@ -24,7 +24,7 @@ ref float BlendTimeSeconds { get; }
 
 ### ChainEndBoneID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainLookatNode__CDefinition.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainLookatNode__CDefinition.cs#L18)
 
 ```csharp
 ref CGlobalSymbol ChainEndBoneID { get; }
@@ -36,7 +36,7 @@ ref CGlobalSymbol ChainEndBoneID { get; }
 
 ### ChainForwardDir
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainLookatNode__CDefinition.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainLookatNode__CDefinition.cs#L30)
 
 ```csharp
 ref Vector ChainForwardDir { get; }
@@ -48,7 +48,7 @@ ref Vector ChainForwardDir { get; }
 
 ### ChainLength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainLookatNode__CDefinition.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainLookatNode__CDefinition.cs#L26)
 
 ```csharp
 ref byte ChainLength { get; }
@@ -60,7 +60,7 @@ ref byte ChainLength { get; }
 
 ### EnabledNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainLookatNode__CDefinition.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainLookatNode__CDefinition.cs#L22)
 
 ```csharp
 ref short EnabledNodeIdx { get; }
@@ -72,7 +72,7 @@ ref short EnabledNodeIdx { get; }
 
 ### IsTargetInWorldSpace
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainLookatNode__CDefinition.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainLookatNode__CDefinition.cs#L28)
 
 ```csharp
 ref bool IsTargetInWorldSpace { get; }
@@ -84,7 +84,7 @@ ref bool IsTargetInWorldSpace { get; }
 
 ### LookatTargetNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainLookatNode__CDefinition.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainLookatNode__CDefinition.cs#L20)
 
 ```csharp
 ref short LookatTargetNodeIdx { get; }

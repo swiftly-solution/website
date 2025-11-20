@@ -12,7 +12,7 @@ public interface C_OP_RenderTreeShake : CParticleFunctionRenderer, CParticleFunc
 
 ### ControlPointForLinearDirection
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTreeShake.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTreeShake.cs#L36)
 
 ```csharp
 ref int ControlPointForLinearDirection { get; }
@@ -24,7 +24,7 @@ ref int ControlPointForLinearDirection { get; }
 
 ### ControlPointOrientationAmount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTreeShake.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTreeShake.cs#L34)
 
 ```csharp
 ref float ControlPointOrientationAmount { get; }
@@ -36,7 +36,7 @@ ref float ControlPointOrientationAmount { get; }
 
 ### PeakStrength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTreeShake.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTreeShake.cs#L18)
 
 ```csharp
 ref float PeakStrength { get; }
@@ -48,7 +48,7 @@ ref float PeakStrength { get; }
 
 ### PeakStrengthFieldOverride
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTreeShake.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTreeShake.cs#L20)
 
 ```csharp
 ParticleAttributeIndex_t PeakStrengthFieldOverride { get; }
@@ -60,7 +60,7 @@ ParticleAttributeIndex_t PeakStrengthFieldOverride { get; }
 
 ### RadialAmount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTreeShake.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTreeShake.cs#L32)
 
 ```csharp
 ref float RadialAmount { get; }
@@ -72,7 +72,7 @@ ref float RadialAmount { get; }
 
 ### Radius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTreeShake.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTreeShake.cs#L22)
 
 ```csharp
 ref float Radius { get; }
@@ -84,7 +84,7 @@ ref float Radius { get; }
 
 ### RadiusFieldOverride
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTreeShake.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTreeShake.cs#L24)
 
 ```csharp
 ParticleAttributeIndex_t RadiusFieldOverride { get; }
@@ -96,7 +96,7 @@ ParticleAttributeIndex_t RadiusFieldOverride { get; }
 
 ### ShakeDuration
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTreeShake.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTreeShake.cs#L26)
 
 ```csharp
 ref float ShakeDuration { get; }
@@ -108,7 +108,7 @@ ref float ShakeDuration { get; }
 
 ### TransitionTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTreeShake.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTreeShake.cs#L28)
 
 ```csharp
 ref float TransitionTime { get; }
@@ -120,7 +120,7 @@ ref float TransitionTime { get; }
 
 ### TwistAmount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTreeShake.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderTreeShake.cs#L30)
 
 ```csharp
 ref float TwistAmount { get; }

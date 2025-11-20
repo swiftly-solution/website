@@ -12,7 +12,7 @@ public interface MaterialGroup_t : ISchemaClass<MaterialGroup_t>, ISchemaField, 
 
 ### Materials
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialGroup_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialGroup_t.cs#L20)
 
 ```csharp
 ref CUtlVector<CStrongHandle<InfoForResourceTypeIMaterial2>> Materials { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<CStrongHandle<InfoForResourceTypeIMaterial2>> Materials { get; }
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialGroup_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialGroup_t.cs#L18)
 
 ```csharp
 string Name { get; set; }

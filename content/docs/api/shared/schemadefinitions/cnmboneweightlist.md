@@ -12,7 +12,7 @@ public interface CNmBoneWeightList : ISchemaClass<CNmBoneWeightList>, ISchemaFie
 
 ### BoneIDs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmBoneWeightList.cs#L20)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmBoneWeightList.cs#L21)
 
 ```csharp
 ref CUtlVector<CGlobalSymbol> BoneIDs { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<CGlobalSymbol> BoneIDs { get; }
 
 ### SkeletonName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmBoneWeightList.cs#L18)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmBoneWeightList.cs#L19)
 
 ```csharp
 SchemaUntypedField SkeletonName { get; }
@@ -36,7 +36,7 @@ SchemaUntypedField SkeletonName { get; }
 
 ### Weights
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmBoneWeightList.cs#L22)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmBoneWeightList.cs#L23)
 
 ```csharp
 ref CUtlVector<float> Weights { get; }

@@ -12,7 +12,7 @@ public interface PulseRuntimeStateOffset_t : ISchemaClass<PulseRuntimeStateOffse
 
 ### Value
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseRuntimeStateOffset_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseRuntimeStateOffset_t.cs#L18)
 
 ```csharp
 ref ushort Value { get; }

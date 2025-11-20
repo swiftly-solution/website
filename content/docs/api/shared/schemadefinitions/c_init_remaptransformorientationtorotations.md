@@ -12,7 +12,7 @@ public interface C_INIT_RemapTransformOrientationToRotations : CParticleFunction
 
 ### Rotation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapTransformOrientationToRotations.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapTransformOrientationToRotations.cs#L20)
 
 ```csharp
 ref Vector Rotation { get; }
@@ -24,7 +24,7 @@ ref Vector Rotation { get; }
 
 ### TransformInput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapTransformOrientationToRotations.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapTransformOrientationToRotations.cs#L18)
 
 ```csharp
 CParticleTransformInput TransformInput { get; }
@@ -36,7 +36,7 @@ CParticleTransformInput TransformInput { get; }
 
 ### UseQuat
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapTransformOrientationToRotations.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapTransformOrientationToRotations.cs#L22)
 
 ```csharp
 ref bool UseQuat { get; }
@@ -48,7 +48,7 @@ ref bool UseQuat { get; }
 
 ### WriteNormal
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapTransformOrientationToRotations.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapTransformOrientationToRotations.cs#L24)
 
 ```csharp
 ref bool WriteNormal { get; }

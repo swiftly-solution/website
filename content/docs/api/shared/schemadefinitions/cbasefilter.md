@@ -12,7 +12,7 @@ public interface CBaseFilter : CLogicalEntity, CServerOnlyEntity, CBaseEntity, C
 
 ### Negated
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseFilter.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseFilter.cs#L18)
 
 ```csharp
 ref bool Negated { get; }
@@ -24,7 +24,7 @@ ref bool Negated { get; }
 
 ### OnFail
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseFilter.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseFilter.cs#L22)
 
 ```csharp
 CEntityIOOutput OnFail { get; }
@@ -36,7 +36,7 @@ CEntityIOOutput OnFail { get; }
 
 ### OnPass
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseFilter.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseFilter.cs#L20)
 
 ```csharp
 CEntityIOOutput OnPass { get; }

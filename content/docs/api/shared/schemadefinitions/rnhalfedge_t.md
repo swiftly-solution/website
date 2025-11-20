@@ -12,7 +12,7 @@ public interface RnHalfEdge_t : ISchemaClass<RnHalfEdge_t>, ISchemaField, ISchem
 
 ### Face
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnHalfEdge_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnHalfEdge_t.cs#L24)
 
 ```csharp
 ref byte Face { get; }
@@ -24,7 +24,7 @@ ref byte Face { get; }
 
 ### Next
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnHalfEdge_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnHalfEdge_t.cs#L18)
 
 ```csharp
 ref byte Next { get; }
@@ -36,7 +36,7 @@ ref byte Next { get; }
 
 ### Origin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnHalfEdge_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnHalfEdge_t.cs#L22)
 
 ```csharp
 ref byte Origin { get; }
@@ -48,7 +48,7 @@ ref byte Origin { get; }
 
 ### Twin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnHalfEdge_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnHalfEdge_t.cs#L20)
 
 ```csharp
 ref byte Twin { get; }

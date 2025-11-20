@@ -12,7 +12,7 @@ public interface C_OP_RenderText : CParticleFunctionRenderer, CParticleFunction,
 
 ### DefaultText
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderText.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderText.cs#L20)
 
 ```csharp
 string DefaultText { get; set; }
@@ -24,7 +24,7 @@ string DefaultText { get; set; }
 
 ### OutlineColor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderText.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderText.cs#L18)
 
 ```csharp
 ref Color OutlineColor { get; }

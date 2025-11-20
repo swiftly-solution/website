@@ -12,7 +12,7 @@ public interface CItemGenericTriggerHelper : CBaseModelEntity, CBaseEntity, CEnt
 
 ### ParentItem
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGenericTriggerHelper.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGenericTriggerHelper.cs#L18)
 
 ```csharp
 ref CHandle<CItemGeneric> ParentItem { get; }

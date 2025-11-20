@@ -12,7 +12,7 @@ public interface CFish : CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEntityI
 
 ### Angle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L28)
 
 ```csharp
 ref float Angle { get; }
@@ -24,7 +24,7 @@ ref float Angle { get; }
 
 ### AngleChange
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L30)
 
 ```csharp
 ref float AngleChange { get; }
@@ -36,7 +36,7 @@ ref float AngleChange { get; }
 
 ### AvoidRange
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L48)
 
 ```csharp
 ref float AvoidRange { get; }
@@ -48,7 +48,7 @@ ref float AvoidRange { get; }
 
 ### CalmSpeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L44)
 
 ```csharp
 ref float CalmSpeed { get; }
@@ -60,7 +60,7 @@ ref float CalmSpeed { get; }
 
 ### DesiredSpeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L42)
 
 ```csharp
 ref float DesiredSpeed { get; }
@@ -72,7 +72,7 @@ ref float DesiredSpeed { get; }
 
 ### DisperseTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L60)
 
 ```csharp
 CountdownTimer DisperseTimer { get; }
@@ -84,7 +84,7 @@ CountdownTimer DisperseTimer { get; }
 
 ### Forward
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L32)
 
 ```csharp
 ref Vector Forward { get; }
@@ -96,7 +96,7 @@ ref Vector Forward { get; }
 
 ### GoTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L54)
 
 ```csharp
 CountdownTimer GoTimer { get; }
@@ -108,7 +108,7 @@ CountdownTimer GoTimer { get; }
 
 ### Id
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L20)
 
 ```csharp
 ref uint Id { get; }
@@ -120,7 +120,7 @@ ref uint Id { get; }
 
 ### MoveTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L56)
 
 ```csharp
 CountdownTimer MoveTimer { get; }
@@ -132,7 +132,7 @@ CountdownTimer MoveTimer { get; }
 
 ### PanicSpeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L46)
 
 ```csharp
 ref float PanicSpeed { get; }
@@ -144,7 +144,7 @@ ref float PanicSpeed { get; }
 
 ### PanicTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L58)
 
 ```csharp
 CountdownTimer PanicTimer { get; }
@@ -156,7 +156,7 @@ CountdownTimer PanicTimer { get; }
 
 ### Perp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L34)
 
 ```csharp
 ref Vector Perp { get; }
@@ -168,7 +168,7 @@ ref Vector Perp { get; }
 
 ### Pool
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L18)
 
 ```csharp
 ref CHandle<CFishPool> Pool { get; }
@@ -180,7 +180,7 @@ ref CHandle<CFishPool> Pool { get; }
 
 ### PoolOrigin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L36)
 
 ```csharp
 ref Vector PoolOrigin { get; }
@@ -192,7 +192,7 @@ ref Vector PoolOrigin { get; }
 
 ### ProximityTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L62)
 
 ```csharp
 CountdownTimer ProximityTimer { get; }
@@ -204,7 +204,7 @@ CountdownTimer ProximityTimer { get; }
 
 ### Speed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L40)
 
 ```csharp
 ref float Speed { get; }
@@ -216,7 +216,7 @@ ref float Speed { get; }
 
 ### TurnClockwise
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L52)
 
 ```csharp
 ref bool TurnClockwise { get; }
@@ -228,7 +228,7 @@ ref bool TurnClockwise { get; }
 
 ### TurnTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L50)
 
 ```csharp
 CountdownTimer TurnTimer { get; }
@@ -240,7 +240,7 @@ CountdownTimer TurnTimer { get; }
 
 ### Visible
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L64)
 
 ```csharp
 ref CUtlVector<PointerTo<CFish>> Visible { get; }
@@ -252,7 +252,7 @@ ref CUtlVector<PointerTo<CFish>> Visible { get; }
 
 ### WaterLevel
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L38)
 
 ```csharp
 ref float WaterLevel { get; }
@@ -264,7 +264,7 @@ ref float WaterLevel { get; }
 
 ### X
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L22)
 
 ```csharp
 ref float X { get; }
@@ -276,7 +276,7 @@ ref float X { get; }
 
 ### Y
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L24)
 
 ```csharp
 ref float Y { get; }
@@ -288,7 +288,7 @@ ref float Y { get; }
 
 ### Z
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L26)
 
 ```csharp
 ref float Z { get; }
@@ -302,7 +302,7 @@ ref float Z { get; }
 
 ### AngleUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L68)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L69)
 
 ```csharp
 void AngleUpdated()
@@ -310,7 +310,7 @@ void AngleUpdated()
 
 ### PoolOriginUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L69)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L70)
 
 ```csharp
 void PoolOriginUpdated()
@@ -318,7 +318,7 @@ void PoolOriginUpdated()
 
 ### WaterLevelUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L70)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L71)
 
 ```csharp
 void WaterLevelUpdated()
@@ -326,7 +326,7 @@ void WaterLevelUpdated()
 
 ### XUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L65)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L66)
 
 ```csharp
 void XUpdated()
@@ -334,7 +334,7 @@ void XUpdated()
 
 ### YUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L66)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L67)
 
 ```csharp
 void YUpdated()
@@ -342,7 +342,7 @@ void YUpdated()
 
 ### ZUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L67)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFish.cs#L68)
 
 ```csharp
 void ZUpdated()

@@ -12,7 +12,7 @@ public interface CFilterMassGreater : CBaseFilter, CLogicalEntity, CServerOnlyEn
 
 ### FilterMass
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFilterMassGreater.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFilterMassGreater.cs#L18)
 
 ```csharp
 ref float FilterMass { get; }

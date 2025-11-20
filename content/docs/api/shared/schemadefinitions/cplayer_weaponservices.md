@@ -12,7 +12,7 @@ public interface CPlayer_WeaponServices : CPlayerPawnComponent, ISchemaClass<CPl
 
 ### ActiveWeapon
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_WeaponServices.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_WeaponServices.cs#L20)
 
 ```csharp
 ref CHandle<CBasePlayerWeapon> ActiveWeapon { get; }
@@ -24,7 +24,7 @@ ref CHandle<CBasePlayerWeapon> ActiveWeapon { get; }
 
 ### Ammo
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_WeaponServices.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_WeaponServices.cs#L24)
 
 ```csharp
 ISchemaFixedArray<ushort> Ammo { get; }
@@ -36,7 +36,7 @@ ISchemaFixedArray<ushort> Ammo { get; }
 
 ### LastWeapon
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_WeaponServices.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_WeaponServices.cs#L22)
 
 ```csharp
 ref CHandle<CBasePlayerWeapon> LastWeapon { get; }
@@ -48,7 +48,7 @@ ref CHandle<CBasePlayerWeapon> LastWeapon { get; }
 
 ### MyWeapons
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_WeaponServices.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_WeaponServices.cs#L18)
 
 ```csharp
 ref CUtlVector<CHandle<CBasePlayerWeapon>> MyWeapons { get; }
@@ -60,7 +60,7 @@ ref CUtlVector<CHandle<CBasePlayerWeapon>> MyWeapons { get; }
 
 ### PreventWeaponPickup
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_WeaponServices.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_WeaponServices.cs#L26)
 
 ```csharp
 ref bool PreventWeaponPickup { get; }
@@ -74,7 +74,7 @@ ref bool PreventWeaponPickup { get; }
 
 ### ActiveWeaponUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_WeaponServices.cs#L28)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_WeaponServices.cs#L29)
 
 ```csharp
 void ActiveWeaponUpdated()
@@ -82,7 +82,7 @@ void ActiveWeaponUpdated()
 
 ### AmmoUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_WeaponServices.cs#L30)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_WeaponServices.cs#L31)
 
 ```csharp
 void AmmoUpdated()
@@ -90,7 +90,7 @@ void AmmoUpdated()
 
 ### DropWeapon(CBasePlayerWeapon)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L10)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L12)
 
 ```csharp
 void DropWeapon(CBasePlayerWeapon weapon)
@@ -102,10 +102,10 @@ void DropWeapon(CBasePlayerWeapon weapon)
 
 ### DropWeaponByClass()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L64)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L66)
 
 ```csharp
-void DropWeaponByClass<T>() where T : CBasePlayerWeapon
+void DropWeaponByClass<T>() where T : class, ISchemaClass<T>
 ```
 
 #### Type Parameters
@@ -114,7 +114,7 @@ void DropWeaponByClass<T>() where T : CBasePlayerWeapon
 
 ### DropWeaponByDesignerName(string)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L46)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L48)
 
 ```csharp
 void DropWeaponByDesignerName(string designerName)
@@ -126,7 +126,7 @@ void DropWeaponByDesignerName(string designerName)
 
 ### DropWeaponBySlot(gear_slot_t)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L28)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L30)
 
 ```csharp
 void DropWeaponBySlot(gear_slot_t slot)
@@ -138,7 +138,7 @@ void DropWeaponBySlot(gear_slot_t slot)
 
 ### LastWeaponUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_WeaponServices.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_WeaponServices.cs#L30)
 
 ```csharp
 void LastWeaponUpdated()
@@ -146,7 +146,7 @@ void LastWeaponUpdated()
 
 ### MyWeaponsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_WeaponServices.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_WeaponServices.cs#L28)
 
 ```csharp
 void MyWeaponsUpdated()
@@ -154,7 +154,7 @@ void MyWeaponsUpdated()
 
 ### RemoveWeapon(CBasePlayerWeapon)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L16)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L18)
 
 ```csharp
 void RemoveWeapon(CBasePlayerWeapon weapon)
@@ -166,10 +166,10 @@ void RemoveWeapon(CBasePlayerWeapon weapon)
 
 ### RemoveWeaponByClass()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L70)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L72)
 
 ```csharp
-void RemoveWeaponByClass<T>() where T : CBasePlayerWeapon
+void RemoveWeaponByClass<T>() where T : class, ISchemaClass<T>
 ```
 
 #### Type Parameters
@@ -178,7 +178,7 @@ void RemoveWeaponByClass<T>() where T : CBasePlayerWeapon
 
 ### RemoveWeaponByDesignerName(string)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L52)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L54)
 
 ```csharp
 void RemoveWeaponByDesignerName(string designerName)
@@ -190,7 +190,7 @@ void RemoveWeaponByDesignerName(string designerName)
 
 ### RemoveWeaponBySlot(gear_slot_t)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L34)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L36)
 
 ```csharp
 void RemoveWeaponBySlot(gear_slot_t slot)
@@ -202,7 +202,7 @@ void RemoveWeaponBySlot(gear_slot_t slot)
 
 ### SelectWeapon(CBasePlayerWeapon)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L22)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L24)
 
 ```csharp
 void SelectWeapon(CBasePlayerWeapon weapon)
@@ -214,10 +214,10 @@ void SelectWeapon(CBasePlayerWeapon weapon)
 
 ### SelectWeaponByClass()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L76)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L78)
 
 ```csharp
-void SelectWeaponByClass<T>() where T : CBasePlayerWeapon
+void SelectWeaponByClass<T>() where T : class, ISchemaClass<T>
 ```
 
 #### Type Parameters
@@ -226,7 +226,7 @@ void SelectWeaponByClass<T>() where T : CBasePlayerWeapon
 
 ### SelectWeaponByDesignerName(string)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L58)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L60)
 
 ```csharp
 void SelectWeaponByDesignerName(string designerName)
@@ -238,7 +238,7 @@ void SelectWeaponByDesignerName(string designerName)
 
 ### SelectWeaponBySlot(gear_slot_t)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L40)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L42)
 
 ```csharp
 void SelectWeaponBySlot(gear_slot_t slot)

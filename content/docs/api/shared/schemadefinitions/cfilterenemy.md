@@ -12,7 +12,7 @@ public interface CFilterEnemy : CBaseFilter, CLogicalEntity, CServerOnlyEntity, 
 
 ### EnemyName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFilterEnemy.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFilterEnemy.cs#L18)
 
 ```csharp
 string EnemyName { get; set; }
@@ -24,7 +24,7 @@ string EnemyName { get; set; }
 
 ### MaxSquadmatesPerEnemy
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFilterEnemy.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFilterEnemy.cs#L24)
 
 ```csharp
 ref int MaxSquadmatesPerEnemy { get; }
@@ -36,7 +36,7 @@ ref int MaxSquadmatesPerEnemy { get; }
 
 ### OuterRadius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFilterEnemy.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFilterEnemy.cs#L22)
 
 ```csharp
 ref float OuterRadius { get; }
@@ -48,7 +48,7 @@ ref float OuterRadius { get; }
 
 ### PlayerName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFilterEnemy.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFilterEnemy.cs#L26)
 
 ```csharp
 string PlayerName { get; set; }
@@ -60,7 +60,7 @@ string PlayerName { get; set; }
 
 ### Radius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFilterEnemy.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFilterEnemy.cs#L20)
 
 ```csharp
 ref float Radius { get; }

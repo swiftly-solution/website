@@ -12,7 +12,7 @@ public interface DynamicMeshDeformParams_t : ISchemaClass<DynamicMeshDeformParam
 
 ### ComputeDynamicMeshTensionAfterAnimation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DynamicMeshDeformParams_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DynamicMeshDeformParams_t.cs#L24)
 
 ```csharp
 ref bool ComputeDynamicMeshTensionAfterAnimation { get; }
@@ -24,7 +24,7 @@ ref bool ComputeDynamicMeshTensionAfterAnimation { get; }
 
 ### RecomputeSmoothNormalsAfterAnimation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DynamicMeshDeformParams_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DynamicMeshDeformParams_t.cs#L22)
 
 ```csharp
 ref bool RecomputeSmoothNormalsAfterAnimation { get; }
@@ -36,7 +36,7 @@ ref bool RecomputeSmoothNormalsAfterAnimation { get; }
 
 ### SmoothNormalsAcrossUvSeams
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DynamicMeshDeformParams_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DynamicMeshDeformParams_t.cs#L26)
 
 ```csharp
 ref bool SmoothNormalsAcrossUvSeams { get; }
@@ -48,7 +48,7 @@ ref bool SmoothNormalsAcrossUvSeams { get; }
 
 ### TensionCompressScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DynamicMeshDeformParams_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DynamicMeshDeformParams_t.cs#L18)
 
 ```csharp
 ref float TensionCompressScale { get; }
@@ -60,7 +60,7 @@ ref float TensionCompressScale { get; }
 
 ### TensionStretchScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DynamicMeshDeformParams_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DynamicMeshDeformParams_t.cs#L20)
 
 ```csharp
 ref float TensionStretchScale { get; }

@@ -12,7 +12,7 @@ public interface constraint_axislimit_t : ISchemaClass<constraint_axislimit_t>, 
 
 ### MaxRotation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/constraint_axislimit_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/constraint_axislimit_t.cs#L20)
 
 ```csharp
 ref float MaxRotation { get; }
@@ -24,7 +24,7 @@ ref float MaxRotation { get; }
 
 ### MinRotation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/constraint_axislimit_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/constraint_axislimit_t.cs#L18)
 
 ```csharp
 ref float MinRotation { get; }
@@ -36,7 +36,7 @@ ref float MinRotation { get; }
 
 ### MotorMaxTorque
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/constraint_axislimit_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/constraint_axislimit_t.cs#L24)
 
 ```csharp
 ref float MotorMaxTorque { get; }
@@ -48,7 +48,7 @@ ref float MotorMaxTorque { get; }
 
 ### MotorTargetAngSpeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/constraint_axislimit_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/constraint_axislimit_t.cs#L22)
 
 ```csharp
 ref float MotorTargetAngSpeed { get; }

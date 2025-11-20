@@ -12,7 +12,7 @@ public interface CCSPlayerPawn : CCSPlayerPawnBase, CBasePlayerPawn, CBaseCombat
 
 ### ActionTrackingServices
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L25)
 
 ```csharp
 CCSPlayer_ActionTrackingServices? ActionTrackingServices { get; }
@@ -24,7 +24,7 @@ CCSPlayer_ActionTrackingServices? ActionTrackingServices { get; }
 
 ### AimPunchAngle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L67)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L69)
 
 ```csharp
 ref QAngle AimPunchAngle { get; }
@@ -36,7 +36,7 @@ ref QAngle AimPunchAngle { get; }
 
 ### AimPunchAngleVel
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L69)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L71)
 
 ```csharp
 ref QAngle AimPunchAngleVel { get; }
@@ -48,7 +48,7 @@ ref QAngle AimPunchAngleVel { get; }
 
 ### AimPunchCache
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L75)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L77)
 
 ```csharp
 ref CUtlVector<QAngle> AimPunchCache { get; }
@@ -60,7 +60,7 @@ ref CUtlVector<QAngle> AimPunchCache { get; }
 
 ### AimPunchTickBase
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L71)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L73)
 
 ```csharp
 GameTick_t AimPunchTickBase { get; }
@@ -72,7 +72,7 @@ GameTick_t AimPunchTickBase { get; }
 
 ### AimPunchTickFraction
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L73)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L75)
 
 ```csharp
 ref float AimPunchTickFraction { get; }
@@ -84,7 +84,7 @@ ref float AimPunchTickFraction { get; }
 
 ### AllowAutoFollowTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L135)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L137)
 
 ```csharp
 GameTime_t AllowAutoFollowTime { get; }
@@ -96,7 +96,7 @@ GameTime_t AllowAutoFollowTime { get; }
 
 ### ArmorValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L203)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L205)
 
 ```csharp
 ref int ArmorValue { get; }
@@ -108,7 +108,7 @@ ref int ArmorValue { get; }
 
 ### BlockingUseActionInProgress
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L153)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L155)
 
 ```csharp
 ref CSPlayerBlockingUseAction_t BlockingUseActionInProgress { get; }
@@ -120,7 +120,7 @@ ref CSPlayerBlockingUseAction_t BlockingUseActionInProgress { get; }
 
 ### BombSiteIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L159)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L161)
 
 ```csharp
 ref uint BombSiteIndex { get; }
@@ -132,7 +132,7 @@ ref uint BombSiteIndex { get; }
 
 ### Bot
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L187)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L189)
 
 ```csharp
 CCSBot? Bot { get; }
@@ -144,7 +144,7 @@ CCSBot? Bot { get; }
 
 ### BotAllowActive
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L189)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L191)
 
 ```csharp
 ref bool BotAllowActive { get; }
@@ -156,7 +156,7 @@ ref bool BotAllowActive { get; }
 
 ### BulletServices
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L19)
 
 ```csharp
 CCSPlayer_BulletServices? BulletServices { get; }
@@ -168,7 +168,7 @@ CCSPlayer_BulletServices? BulletServices { get; }
 
 ### BuyServices
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L23)
 
 ```csharp
 CCSPlayer_BuyServices? BuyServices { get; }
@@ -178,9 +178,21 @@ CCSPlayer_BuyServices? BuyServices { get; }
 
 - [CCSPlayer_BuyServices](/docs/api/shared/schemadefinitions/ccsplayer_buyservices)?
 
+### CameraServices
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CCSPlayerPawn.cs#L10)
+
+```csharp
+CCSPlayer_CameraServices? CameraServices { get; }
+```
+
+#### Property Value
+
+- [CCSPlayer_CameraServices](/docs/api/shared/schemadefinitions/ccsplayer_cameraservices)?
+
 ### CharacterDefIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L31)
 
 ```csharp
 ref ushort CharacterDefIndex { get; }
@@ -192,7 +204,7 @@ ref ushort CharacterDefIndex { get; }
 
 ### CommittingSuicideOnTeamChange
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L247)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L249)
 
 ```csharp
 ref bool CommittingSuicideOnTeamChange { get; }
@@ -204,7 +216,7 @@ ref bool CommittingSuicideOnTeamChange { get; }
 
 ### CurrentEquipmentValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L205)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L207)
 
 ```csharp
 ref ushort CurrentEquipmentValue { get; }
@@ -216,7 +228,7 @@ ref ushort CurrentEquipmentValue { get; }
 
 ### DamageReactServices
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L29)
 
 ```csharp
 CCSPlayer_DamageReactServices? DamageReactServices { get; }
@@ -228,7 +240,7 @@ CCSPlayer_DamageReactServices? DamageReactServices { get; }
 
 ### DealtDamageToEnemyMostRecentTimestamp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L129)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L131)
 
 ```csharp
 ref float DealtDamageToEnemyMostRecentTimestamp { get; }
@@ -240,7 +252,7 @@ ref float DealtDamageToEnemyMostRecentTimestamp { get; }
 
 ### DeathEyeAngles
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L107)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L109)
 
 ```csharp
 ref QAngle DeathEyeAngles { get; }
@@ -252,7 +264,7 @@ ref QAngle DeathEyeAngles { get; }
 
 ### DeathFlags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L215)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L217)
 
 ```csharp
 ref int DeathFlags { get; }
@@ -264,7 +276,7 @@ ref int DeathFlags { get; }
 
 ### DeathInfoOrigin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L221)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L223)
 
 ```csharp
 ref Vector DeathInfoOrigin { get; }
@@ -276,7 +288,7 @@ ref Vector DeathInfoOrigin { get; }
 
 ### DeathInfoTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L219)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L221)
 
 ```csharp
 ref float DeathInfoTime { get; }
@@ -288,7 +300,7 @@ ref float DeathInfoTime { get; }
 
 ### DisplayHistoryBits
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L131)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L133)
 
 ```csharp
 ref uint DisplayHistoryBits { get; }
@@ -300,7 +312,7 @@ ref uint DisplayHistoryBits { get; }
 
 ### EconGloves
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L103)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L105)
 
 ```csharp
 CEconItemView EconGloves { get; }
@@ -312,7 +324,7 @@ CEconItemView EconGloves { get; }
 
 ### EconGlovesChanged
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L105)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L107)
 
 ```csharp
 ref byte EconGlovesChanged { get; }
@@ -324,7 +336,7 @@ ref byte EconGlovesChanged { get; }
 
 ### EmitSoundTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L155)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L157)
 
 ```csharp
 GameTime_t EmitSoundTime { get; }
@@ -336,7 +348,7 @@ GameTime_t EmitSoundTime { get; }
 
 ### EntitySpottedState
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L141)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L143)
 
 ```csharp
 EntitySpottedState_t EntitySpottedState { get; }
@@ -348,7 +360,7 @@ EntitySpottedState_t EntitySpottedState { get; }
 
 ### EyeAngles
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L257)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L259)
 
 ```csharp
 ref QAngle EyeAngles { get; }
@@ -360,7 +372,7 @@ ref QAngle EyeAngles { get; }
 
 ### FlinchStack
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L169)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L171)
 
 ```csharp
 ref float FlinchStack { get; }
@@ -372,7 +384,7 @@ ref float FlinchStack { get; }
 
 ### FreezetimeEndEquipmentValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L209)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L211)
 
 ```csharp
 ref ushort FreezetimeEndEquipmentValue { get; }
@@ -384,7 +396,7 @@ ref ushort FreezetimeEndEquipmentValue { get; }
 
 ### GrenadeParameterStashTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L227)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L229)
 
 ```csharp
 GameTime_t GrenadeParameterStashTime { get; }
@@ -396,7 +408,7 @@ GameTime_t GrenadeParameterStashTime { get; }
 
 ### GrenadeParametersStashed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L229)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L231)
 
 ```csharp
 ref bool GrenadeParametersStashed { get; }
@@ -408,7 +420,7 @@ ref bool GrenadeParametersStashed { get; }
 
 ### GunGameImmunity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L253)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L255)
 
 ```csharp
 ref bool GunGameImmunity { get; }
@@ -420,7 +432,7 @@ ref bool GunGameImmunity { get; }
 
 ### GunGameImmunityColor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L225)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L227)
 
 ```csharp
 ref Color GunGameImmunityColor { get; }
@@ -432,7 +444,7 @@ ref Color GunGameImmunityColor { get; }
 
 ### HasDeathInfo
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L217)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L219)
 
 ```csharp
 ref bool HasDeathInfo { get; }
@@ -444,7 +456,7 @@ ref bool HasDeathInfo { get; }
 
 ### HasFemaleVoice
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L33)
 
 ```csharp
 ref bool HasFemaleVoice { get; }
@@ -456,7 +468,7 @@ ref bool HasFemaleVoice { get; }
 
 ### HeadConstraintOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L197)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L199)
 
 ```csharp
 ref Vector HeadConstraintOffset { get; }
@@ -468,7 +480,7 @@ ref Vector HeadConstraintOffset { get; }
 
 ### HealthShotBoostExpirationTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L65)
 
 ```csharp
 GameTime_t HealthShotBoostExpirationTime { get; }
@@ -480,7 +492,7 @@ GameTime_t HealthShotBoostExpirationTime { get; }
 
 ### HighestAppliedDamageTagTick
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L245)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L247)
 
 ```csharp
 ref int HighestAppliedDamageTagTick { get; }
@@ -492,7 +504,7 @@ ref int HighestAppliedDamageTagTick { get; }
 
 ### HitBodyPart
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L175)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L177)
 
 ```csharp
 ref int HitBodyPart { get; }
@@ -504,7 +516,7 @@ ref int HitBodyPart { get; }
 
 ### HitHeading
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L173)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L175)
 
 ```csharp
 ref float HitHeading { get; }
@@ -516,7 +528,7 @@ ref float HitHeading { get; }
 
 ### HostageServices
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L21)
 
 ```csharp
 CCSPlayer_HostageServices? HostageServices { get; }
@@ -528,7 +540,7 @@ CCSPlayer_HostageServices? HostageServices { get; }
 
 ### IgnoreLadderJumpTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L181)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L183)
 
 ```csharp
 ref float IgnoreLadderJumpTime { get; }
@@ -540,7 +552,7 @@ ref float IgnoreLadderJumpTime { get; }
 
 ### ImmuneToGunGameDamageTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L251)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L253)
 
 ```csharp
 GameTime_t ImmuneToGunGameDamageTime { get; }
@@ -552,7 +564,7 @@ GameTime_t ImmuneToGunGameDamageTime { get; }
 
 ### InBombZone
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L49)
 
 ```csharp
 ref bool InBombZone { get; }
@@ -564,7 +576,7 @@ ref bool InBombZone { get; }
 
 ### InBombZoneTrigger
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L163)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L165)
 
 ```csharp
 ref bool InBombZoneTrigger { get; }
@@ -576,7 +588,7 @@ ref bool InBombZoneTrigger { get; }
 
 ### InBuyZone
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L41)
 
 ```csharp
 ref bool InBuyZone { get; }
@@ -588,7 +600,7 @@ ref bool InBuyZone { get; }
 
 ### InHostageRescueZone
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L47)
 
 ```csharp
 ref bool InHostageRescueZone { get; }
@@ -600,7 +612,7 @@ ref bool InHostageRescueZone { get; }
 
 ### InHostageResetZone
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L39)
 
 ```csharp
 ref bool InHostageResetZone { get; }
@@ -612,7 +624,7 @@ ref bool InHostageResetZone { get; }
 
 ### InNoDefuseArea
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L157)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L159)
 
 ```csharp
 ref bool InNoDefuseArea { get; }
@@ -624,7 +636,7 @@ ref bool InNoDefuseArea { get; }
 
 ### IsBuyMenuOpen
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L77)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L79)
 
 ```csharp
 ref bool IsBuyMenuOpen { get; }
@@ -636,7 +648,7 @@ ref bool IsBuyMenuOpen { get; }
 
 ### IsDefusing
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L149)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L151)
 
 ```csharp
 ref bool IsDefusing { get; }
@@ -648,7 +660,7 @@ ref bool IsDefusing { get; }
 
 ### IsGrabbingHostage
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L151)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L153)
 
 ```csharp
 ref bool IsGrabbingHostage { get; }
@@ -660,7 +672,7 @@ ref bool IsGrabbingHostage { get; }
 
 ### IsScoped
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L145)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L147)
 
 ```csharp
 ref bool IsScoped { get; }
@@ -672,7 +684,7 @@ ref bool IsScoped { get; }
 
 ### IsSpawning
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L213)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L215)
 
 ```csharp
 ref bool IsSpawning { get; }
@@ -684,7 +696,7 @@ ref bool IsSpawning { get; }
 
 ### IsWalking
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L123)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L125)
 
 ```csharp
 ref bool IsWalking { get; }
@@ -694,9 +706,21 @@ ref bool IsWalking { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### ItemServices
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CCSPlayerPawn.cs#L6)
+
+```csharp
+CCSPlayer_ItemServices? ItemServices { get; }
+```
+
+#### Property Value
+
+- [CCSPlayer_ItemServices](/docs/api/shared/schemadefinitions/ccsplayer_itemservices)?
+
 ### KilledByHeadshot
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L183)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L185)
 
 ```csharp
 ref bool KilledByHeadshot { get; }
@@ -708,7 +732,7 @@ ref bool KilledByHeadshot { get; }
 
 ### LandingTimeSeconds
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L65)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L67)
 
 ```csharp
 ref float LandingTimeSeconds { get; }
@@ -720,7 +744,7 @@ ref float LandingTimeSeconds { get; }
 
 ### LastAttackedTeammate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L133)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L135)
 
 ```csharp
 ref float LastAttackedTeammate { get; }
@@ -732,7 +756,7 @@ ref float LastAttackedTeammate { get; }
 
 ### LastGivenBombTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L127)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L129)
 
 ```csharp
 ref float LastGivenBombTime { get; }
@@ -744,7 +768,7 @@ ref float LastGivenBombTime { get; }
 
 ### LastGivenDefuserTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L125)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L127)
 
 ```csharp
 ref float LastGivenDefuserTime { get; }
@@ -756,7 +780,7 @@ ref float LastGivenDefuserTime { get; }
 
 ### LastHitBox
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L185)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L187)
 
 ```csharp
 ref int LastHitBox { get; }
@@ -768,7 +792,7 @@ ref int LastHitBox { get; }
 
 ### LastKillerIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L139)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L141)
 
 ```csharp
 ref uint LastKillerIndex { get; }
@@ -780,7 +804,7 @@ ref uint LastKillerIndex { get; }
 
 ### LastLandTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L79)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L81)
 
 ```csharp
 GameTime_t LastLandTime { get; }
@@ -792,7 +816,7 @@ GameTime_t LastLandTime { get; }
 
 ### LastPickupPriority
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L199)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L201)
 
 ```csharp
 ref int LastPickupPriority { get; }
@@ -804,7 +828,7 @@ ref int LastPickupPriority { get; }
 
 ### LastPickupPriorityTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L201)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L203)
 
 ```csharp
 ref float LastPickupPriorityTime { get; }
@@ -816,7 +840,7 @@ ref float LastPickupPriorityTime { get; }
 
 ### LastPlaceName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L37)
 
 ```csharp
 string LastPlaceName { get; set; }
@@ -828,7 +852,7 @@ string LastPlaceName { get; set; }
 
 ### LastWeaponFireUsercmd
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L211)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L213)
 
 ```csharp
 ref int LastWeaponFireUsercmd { get; }
@@ -840,7 +864,7 @@ ref int LastWeaponFireUsercmd { get; }
 
 ### LeftHanded
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L111)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L113)
 
 ```csharp
 ref bool LeftHanded { get; }
@@ -852,7 +876,7 @@ ref bool LeftHanded { get; }
 
 ### MolotovDamageTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L255)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L257)
 
 ```csharp
 ref float MolotovDamageTime { get; }
@@ -862,9 +886,21 @@ ref float MolotovDamageTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
+### MovementServices
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CCSPlayerPawn.cs#L9)
+
+```csharp
+CCSPlayer_MovementServices? MovementServices { get; }
+```
+
+#### Property Value
+
+- [CCSPlayer_MovementServices](/docs/api/shared/schemadefinitions/ccsplayer_movementservices)?
+
 ### NextSprayDecalTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L87)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L89)
 
 ```csharp
 GameTime_t NextSprayDecalTime { get; }
@@ -876,7 +912,7 @@ GameTime_t NextSprayDecalTime { get; }
 
 ### NextSprayDecalTimeExpedited
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L89)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L91)
 
 ```csharp
 ref bool NextSprayDecalTimeExpedited { get; }
@@ -888,7 +924,7 @@ ref bool NextSprayDecalTimeExpedited { get; }
 
 ### OnGroundLastTick
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L81)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L83)
 
 ```csharp
 ref bool OnGroundLastTick { get; }
@@ -900,7 +936,7 @@ ref bool OnGroundLastTick { get; }
 
 ### PlayerLocked
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L83)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L85)
 
 ```csharp
 ref int PlayerLocked { get; }
@@ -912,7 +948,7 @@ ref int PlayerLocked { get; }
 
 ### PlayerPatchEconIndices
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L223)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L225)
 
 ```csharp
 ISchemaFixedArray<uint> PlayerPatchEconIndices { get; }
@@ -924,7 +960,7 @@ ISchemaFixedArray<uint> PlayerPatchEconIndices { get; }
 
 ### PredictedDamageTags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L243)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L245)
 
 ```csharp
 ref CUtlVector<PredictedDamageTag_t> PredictedDamageTags { get; }
@@ -936,7 +972,7 @@ ref CUtlVector<PredictedDamageTag_t> PredictedDamageTags { get; }
 
 ### RadioServices
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L27)
 
 ```csharp
 CCSPlayer_RadioServices? RadioServices { get; }
@@ -948,7 +984,7 @@ CCSPlayer_RadioServices? RadioServices { get; }
 
 ### RagdollDamageBone
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L91)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L93)
 
 ```csharp
 ref int RagdollDamageBone { get; }
@@ -960,7 +996,7 @@ ref int RagdollDamageBone { get; }
 
 ### RagdollDamageForce
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L93)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L95)
 
 ```csharp
 ref Vector RagdollDamageForce { get; }
@@ -972,7 +1008,7 @@ ref Vector RagdollDamageForce { get; }
 
 ### RagdollDamageHeadshot
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L99)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L101)
 
 ```csharp
 ref bool RagdollDamageHeadshot { get; }
@@ -984,7 +1020,7 @@ ref bool RagdollDamageHeadshot { get; }
 
 ### RagdollDamagePosition
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L95)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L97)
 
 ```csharp
 ref Vector RagdollDamagePosition { get; }
@@ -996,7 +1032,7 @@ ref Vector RagdollDamagePosition { get; }
 
 ### RagdollDamageWeaponName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L97)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L99)
 
 ```csharp
 string RagdollDamageWeaponName { get; set; }
@@ -1008,7 +1044,7 @@ string RagdollDamageWeaponName { get; set; }
 
 ### RagdollServerOrigin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L101)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L103)
 
 ```csharp
 ref Vector RagdollServerOrigin { get; }
@@ -1020,7 +1056,7 @@ ref Vector RagdollServerOrigin { get; }
 
 ### ResetArmorNextSpawn
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L137)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L139)
 
 ```csharp
 ref bool ResetArmorNextSpawn { get; }
@@ -1032,7 +1068,7 @@ ref bool ResetArmorNextSpawn { get; }
 
 ### ResumeZoom
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L147)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L149)
 
 ```csharp
 ref bool ResumeZoom { get; }
@@ -1044,7 +1080,7 @@ ref bool ResumeZoom { get; }
 
 ### RetakesHasDefuseKit
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L57)
 
 ```csharp
 ref bool RetakesHasDefuseKit { get; }
@@ -1056,7 +1092,7 @@ ref bool RetakesHasDefuseKit { get; }
 
 ### RetakesMVPBoostExtraUtility
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L63)
 
 ```csharp
 ref loadout_slot_t RetakesMVPBoostExtraUtility { get; }
@@ -1068,7 +1104,7 @@ ref loadout_slot_t RetakesMVPBoostExtraUtility { get; }
 
 ### RetakesMVPBoostItem
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L61)
 
 ```csharp
 ref int RetakesMVPBoostItem { get; }
@@ -1080,7 +1116,7 @@ ref int RetakesMVPBoostItem { get; }
 
 ### RetakesMVPLastRound
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L59)
 
 ```csharp
 ref bool RetakesMVPLastRound { get; }
@@ -1092,7 +1128,7 @@ ref bool RetakesMVPLastRound { get; }
 
 ### RetakesOffering
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L53)
 
 ```csharp
 ref int RetakesOffering { get; }
@@ -1104,7 +1140,7 @@ ref int RetakesOffering { get; }
 
 ### RetakesOfferingCard
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L55)
 
 ```csharp
 ref int RetakesOfferingCard { get; }
@@ -1116,7 +1152,7 @@ ref int RetakesOfferingCard { get; }
 
 ### RoundStartEquipmentValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L207)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L209)
 
 ```csharp
 ref ushort RoundStartEquipmentValue { get; }
@@ -1128,7 +1164,7 @@ ref ushort RoundStartEquipmentValue { get; }
 
 ### ShootAngleHistory
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L237)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L239)
 
 ```csharp
 ISchemaFixedArray<QAngle> ShootAngleHistory { get; }
@@ -1140,7 +1176,7 @@ ISchemaFixedArray<QAngle> ShootAngleHistory { get; }
 
 ### ShotsFired
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L167)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L169)
 
 ```csharp
 ref int ShotsFired { get; }
@@ -1152,7 +1188,7 @@ ref int ShotsFired { get; }
 
 ### SkipOneHeadConstraintUpdate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L109)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L111)
 
 ```csharp
 ref bool SkipOneHeadConstraintUpdate { get; }
@@ -1164,7 +1200,7 @@ ref bool SkipOneHeadConstraintUpdate { get; }
 
 ### SlopeDropHeight
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L195)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L197)
 
 ```csharp
 ref float SlopeDropHeight { get; }
@@ -1176,7 +1212,7 @@ ref float SlopeDropHeight { get; }
 
 ### SlopeDropOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L193)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L195)
 
 ```csharp
 ref float SlopeDropOffset { get; }
@@ -1188,7 +1224,7 @@ ref float SlopeDropOffset { get; }
 
 ### SpotRules
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L143)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L145)
 
 ```csharp
 ref int SpotRules { get; }
@@ -1200,7 +1236,7 @@ ref int SpotRules { get; }
 
 ### StashedGrenadeThrowPosition
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L233)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L235)
 
 ```csharp
 ref Vector StashedGrenadeThrowPosition { get; }
@@ -1212,7 +1248,7 @@ ref Vector StashedGrenadeThrowPosition { get; }
 
 ### StashedShootAngles
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L231)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L233)
 
 ```csharp
 ref QAngle StashedShootAngles { get; }
@@ -1224,7 +1260,7 @@ ref QAngle StashedShootAngles { get; }
 
 ### StashedVelocity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L235)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L237)
 
 ```csharp
 ref Vector StashedVelocity { get; }
@@ -1236,7 +1272,7 @@ ref Vector StashedVelocity { get; }
 
 ### StrVOPrefix
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L35)
 
 ```csharp
 string StrVOPrefix { get; set; }
@@ -1248,7 +1284,7 @@ string StrVOPrefix { get; set; }
 
 ### SwitchedHandednessTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L113)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L115)
 
 ```csharp
 GameTime_t SwitchedHandednessTime { get; }
@@ -1260,7 +1296,7 @@ GameTime_t SwitchedHandednessTime { get; }
 
 ### ThirdPersonHeading
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L191)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L193)
 
 ```csharp
 ref QAngle ThirdPersonHeading { get; }
@@ -1272,7 +1308,7 @@ ref QAngle ThirdPersonHeading { get; }
 
 ### ThrowPositionHistory
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L239)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L241)
 
 ```csharp
 ISchemaFixedArray<Vector> ThrowPositionHistory { get; }
@@ -1284,7 +1320,7 @@ ISchemaFixedArray<Vector> ThrowPositionHistory { get; }
 
 ### TimeOfLastInjury
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L85)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L87)
 
 ```csharp
 GameTime_t TimeOfLastInjury { get; }
@@ -1296,7 +1332,7 @@ GameTime_t TimeOfLastInjury { get; }
 
 ### TotalBulletForce
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L177)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L179)
 
 ```csharp
 ref Vector TotalBulletForce { get; }
@@ -1308,7 +1344,7 @@ ref Vector TotalBulletForce { get; }
 
 ### TouchingBuyZones
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L43)
 
 ```csharp
 ref CUtlVector<CHandle<CBaseEntity>> TouchingBuyZones { get; }
@@ -1318,9 +1354,21 @@ ref CUtlVector<CHandle<CBaseEntity>> TouchingBuyZones { get; }
 
 - [CUtlVector](/docs/api/-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>>
 
+### UseServices
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CCSPlayerPawn.cs#L7)
+
+```csharp
+CCSPlayer_UseServices? UseServices { get; }
+```
+
+#### Property Value
+
+- [CCSPlayer_UseServices](/docs/api/shared/schemadefinitions/ccsplayer_useservices)?
+
 ### VelocityHistory
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L241)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L243)
 
 ```csharp
 ISchemaFixedArray<Vector> VelocityHistory { get; }
@@ -1332,7 +1380,7 @@ ISchemaFixedArray<Vector> VelocityHistory { get; }
 
 ### VelocityModifier
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L171)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L173)
 
 ```csharp
 ref float VelocityModifier { get; }
@@ -1344,7 +1392,7 @@ ref float VelocityModifier { get; }
 
 ### ViewmodelFOV
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L121)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L123)
 
 ```csharp
 ref float ViewmodelFOV { get; }
@@ -1356,7 +1404,7 @@ ref float ViewmodelFOV { get; }
 
 ### ViewmodelOffsetX
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L115)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L117)
 
 ```csharp
 ref float ViewmodelOffsetX { get; }
@@ -1368,7 +1416,7 @@ ref float ViewmodelOffsetX { get; }
 
 ### ViewmodelOffsetY
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L117)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L119)
 
 ```csharp
 ref float ViewmodelOffsetY { get; }
@@ -1380,7 +1428,7 @@ ref float ViewmodelOffsetY { get; }
 
 ### ViewmodelOffsetZ
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L119)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L121)
 
 ```csharp
 ref float ViewmodelOffsetZ { get; }
@@ -1392,7 +1440,7 @@ ref float ViewmodelOffsetZ { get; }
 
 ### WaitForNoAttack
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L179)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L181)
 
 ```csharp
 ref bool WaitForNoAttack { get; }
@@ -1404,7 +1452,7 @@ ref bool WaitForNoAttack { get; }
 
 ### WasInBombZoneTrigger
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L165)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L167)
 
 ```csharp
 ref bool WasInBombZoneTrigger { get; }
@@ -1416,7 +1464,7 @@ ref bool WasInBombZoneTrigger { get; }
 
 ### WasInBuyZone
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L45)
 
 ```csharp
 ref bool WasInBuyZone { get; }
@@ -1428,7 +1476,7 @@ ref bool WasInBuyZone { get; }
 
 ### WasInHostageRescueZone
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L51)
 
 ```csharp
 ref bool WasInHostageRescueZone { get; }
@@ -1440,7 +1488,7 @@ ref bool WasInHostageRescueZone { get; }
 
 ### WasNotKilledNaturally
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L249)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L251)
 
 ```csharp
 ref bool WasNotKilledNaturally { get; }
@@ -1450,9 +1498,33 @@ ref bool WasNotKilledNaturally { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### WaterServices
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CCSPlayerPawn.cs#L8)
+
+```csharp
+CCSPlayer_WaterServices? WaterServices { get; }
+```
+
+#### Property Value
+
+- [CCSPlayer_WaterServices](/docs/api/shared/schemadefinitions/ccsplayer_waterservices)?
+
+### WeaponServices
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CCSPlayerPawn.cs#L5)
+
+```csharp
+CCSPlayer_WeaponServices? WeaponServices { get; }
+```
+
+#### Property Value
+
+- [CCSPlayer_WeaponServices](/docs/api/shared/schemadefinitions/ccsplayer_weaponservices)?
+
 ### WhichBombZone
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L161)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L163)
 
 ```csharp
 ref int WhichBombZone { get; }
@@ -1466,7 +1538,7 @@ ref int WhichBombZone { get; }
 
 ### ActionTrackingServicesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L262)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L264)
 
 ```csharp
 void ActionTrackingServicesUpdated()
@@ -1474,7 +1546,7 @@ void ActionTrackingServicesUpdated()
 
 ### AimPunchAngleUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L275)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L277)
 
 ```csharp
 void AimPunchAngleUpdated()
@@ -1482,7 +1554,7 @@ void AimPunchAngleUpdated()
 
 ### AimPunchAngleVelUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L276)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L278)
 
 ```csharp
 void AimPunchAngleVelUpdated()
@@ -1490,7 +1562,7 @@ void AimPunchAngleVelUpdated()
 
 ### AimPunchTickBaseUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L277)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L279)
 
 ```csharp
 void AimPunchTickBaseUpdated()
@@ -1498,7 +1570,7 @@ void AimPunchTickBaseUpdated()
 
 ### AimPunchTickFractionUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L278)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L280)
 
 ```csharp
 void AimPunchTickFractionUpdated()
@@ -1506,7 +1578,7 @@ void AimPunchTickFractionUpdated()
 
 ### ArmorValueUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L319)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L321)
 
 ```csharp
 void ArmorValueUpdated()
@@ -1514,7 +1586,7 @@ void ArmorValueUpdated()
 
 ### BlockingUseActionInProgressUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L304)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L306)
 
 ```csharp
 void BlockingUseActionInProgressUpdated()
@@ -1522,7 +1594,7 @@ void BlockingUseActionInProgressUpdated()
 
 ### BulletServicesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L259)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L261)
 
 ```csharp
 void BulletServicesUpdated()
@@ -1530,7 +1602,7 @@ void BulletServicesUpdated()
 
 ### BuyServicesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L261)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L263)
 
 ```csharp
 void BuyServicesUpdated()
@@ -1538,7 +1610,7 @@ void BuyServicesUpdated()
 
 ### CurrentEquipmentValueUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L320)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L322)
 
 ```csharp
 void CurrentEquipmentValueUpdated()
@@ -1546,7 +1618,7 @@ void CurrentEquipmentValueUpdated()
 
 ### DeathEyeAnglesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L290)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L292)
 
 ```csharp
 void DeathEyeAnglesUpdated()
@@ -1554,7 +1626,7 @@ void DeathEyeAnglesUpdated()
 
 ### EconGlovesChangedUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L289)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L291)
 
 ```csharp
 void EconGlovesChangedUpdated()
@@ -1562,7 +1634,7 @@ void EconGlovesChangedUpdated()
 
 ### EconGlovesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L288)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L290)
 
 ```csharp
 void EconGlovesUpdated()
@@ -1570,7 +1642,7 @@ void EconGlovesUpdated()
 
 ### EmitSoundTimeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L305)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L307)
 
 ```csharp
 void EmitSoundTimeUpdated()
@@ -1578,7 +1650,7 @@ void EmitSoundTimeUpdated()
 
 ### EntitySpottedStateUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L299)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L301)
 
 ```csharp
 void EntitySpottedStateUpdated()
@@ -1586,7 +1658,7 @@ void EntitySpottedStateUpdated()
 
 ### EyeAnglesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L329)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L331)
 
 ```csharp
 void EyeAnglesUpdated()
@@ -1594,7 +1666,7 @@ void EyeAnglesUpdated()
 
 ### FlinchStackUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L309)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L311)
 
 ```csharp
 void FlinchStackUpdated()
@@ -1602,7 +1674,7 @@ void FlinchStackUpdated()
 
 ### FreezetimeEndEquipmentValueUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L322)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L324)
 
 ```csharp
 void FreezetimeEndEquipmentValueUpdated()
@@ -1610,7 +1682,7 @@ void FreezetimeEndEquipmentValueUpdated()
 
 ### GunGameImmunityColorUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L324)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L326)
 
 ```csharp
 void GunGameImmunityColorUpdated()
@@ -1618,7 +1690,7 @@ void GunGameImmunityColorUpdated()
 
 ### GunGameImmunityUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L327)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L329)
 
 ```csharp
 void GunGameImmunityUpdated()
@@ -1626,7 +1698,7 @@ void GunGameImmunityUpdated()
 
 ### HasFemaleVoiceUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L263)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L265)
 
 ```csharp
 void HasFemaleVoiceUpdated()
@@ -1634,7 +1706,7 @@ void HasFemaleVoiceUpdated()
 
 ### HeadConstraintOffsetUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L318)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L320)
 
 ```csharp
 void HeadConstraintOffsetUpdated()
@@ -1642,7 +1714,7 @@ void HeadConstraintOffsetUpdated()
 
 ### HealthShotBoostExpirationTimeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L274)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L276)
 
 ```csharp
 void HealthShotBoostExpirationTimeUpdated()
@@ -1650,7 +1722,7 @@ void HealthShotBoostExpirationTimeUpdated()
 
 ### HitBodyPartUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L312)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L314)
 
 ```csharp
 void HitBodyPartUpdated()
@@ -1658,7 +1730,7 @@ void HitBodyPartUpdated()
 
 ### HitHeadingUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L311)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L313)
 
 ```csharp
 void HitHeadingUpdated()
@@ -1666,7 +1738,7 @@ void HitHeadingUpdated()
 
 ### HostageServicesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L260)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L262)
 
 ```csharp
 void HostageServicesUpdated()
@@ -1674,7 +1746,7 @@ void HostageServicesUpdated()
 
 ### ImmuneToGunGameDamageTimeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L326)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L328)
 
 ```csharp
 void ImmuneToGunGameDamageTimeUpdated()
@@ -1682,7 +1754,7 @@ void ImmuneToGunGameDamageTimeUpdated()
 
 ### InBombZoneUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L267)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L269)
 
 ```csharp
 void InBombZoneUpdated()
@@ -1690,7 +1762,7 @@ void InBombZoneUpdated()
 
 ### InBuyZoneUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L265)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L267)
 
 ```csharp
 void InBuyZoneUpdated()
@@ -1698,7 +1770,7 @@ void InBuyZoneUpdated()
 
 ### InHostageRescueZoneUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L266)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L268)
 
 ```csharp
 void InHostageRescueZoneUpdated()
@@ -1706,7 +1778,7 @@ void InHostageRescueZoneUpdated()
 
 ### InNoDefuseAreaUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L306)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L308)
 
 ```csharp
 void InNoDefuseAreaUpdated()
@@ -1714,7 +1786,7 @@ void InNoDefuseAreaUpdated()
 
 ### IsBuyMenuOpenUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L279)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L281)
 
 ```csharp
 void IsBuyMenuOpenUpdated()
@@ -1722,7 +1794,7 @@ void IsBuyMenuOpenUpdated()
 
 ### IsDefusingUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L302)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L304)
 
 ```csharp
 void IsDefusingUpdated()
@@ -1730,7 +1802,7 @@ void IsDefusingUpdated()
 
 ### IsGrabbingHostageUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L303)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L305)
 
 ```csharp
 void IsGrabbingHostageUpdated()
@@ -1738,7 +1810,7 @@ void IsGrabbingHostageUpdated()
 
 ### IsScopedUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L300)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L302)
 
 ```csharp
 void IsScopedUpdated()
@@ -1746,7 +1818,7 @@ void IsScopedUpdated()
 
 ### IsWalkingUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L297)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L299)
 
 ```csharp
 void IsWalkingUpdated()
@@ -1754,7 +1826,7 @@ void IsWalkingUpdated()
 
 ### KilledByHeadshotUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L314)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L316)
 
 ```csharp
 void KilledByHeadshotUpdated()
@@ -1762,7 +1834,7 @@ void KilledByHeadshotUpdated()
 
 ### LastKillerIndexUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L298)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L300)
 
 ```csharp
 void LastKillerIndexUpdated()
@@ -1770,7 +1842,7 @@ void LastKillerIndexUpdated()
 
 ### LastPlaceNameUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L264)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L266)
 
 ```csharp
 void LastPlaceNameUpdated()
@@ -1778,7 +1850,7 @@ void LastPlaceNameUpdated()
 
 ### LeftHandedUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L291)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L293)
 
 ```csharp
 void LeftHandedUpdated()
@@ -1786,7 +1858,7 @@ void LeftHandedUpdated()
 
 ### MolotovDamageTimeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L328)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L330)
 
 ```csharp
 void MolotovDamageTimeUpdated()
@@ -1794,7 +1866,7 @@ void MolotovDamageTimeUpdated()
 
 ### NextSprayDecalTimeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L281)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L283)
 
 ```csharp
 void NextSprayDecalTimeUpdated()
@@ -1802,7 +1874,7 @@ void NextSprayDecalTimeUpdated()
 
 ### PlayerPatchEconIndicesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L323)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L325)
 
 ```csharp
 void PlayerPatchEconIndicesUpdated()
@@ -1810,7 +1882,7 @@ void PlayerPatchEconIndicesUpdated()
 
 ### PredictedDamageTagsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L325)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L327)
 
 ```csharp
 void PredictedDamageTagsUpdated()
@@ -1818,7 +1890,7 @@ void PredictedDamageTagsUpdated()
 
 ### RagdollDamageBoneUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L282)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L284)
 
 ```csharp
 void RagdollDamageBoneUpdated()
@@ -1826,7 +1898,7 @@ void RagdollDamageBoneUpdated()
 
 ### RagdollDamageForceUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L283)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L285)
 
 ```csharp
 void RagdollDamageForceUpdated()
@@ -1834,7 +1906,7 @@ void RagdollDamageForceUpdated()
 
 ### RagdollDamageHeadshotUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L286)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L288)
 
 ```csharp
 void RagdollDamageHeadshotUpdated()
@@ -1842,7 +1914,7 @@ void RagdollDamageHeadshotUpdated()
 
 ### RagdollDamagePositionUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L284)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L286)
 
 ```csharp
 void RagdollDamagePositionUpdated()
@@ -1850,7 +1922,7 @@ void RagdollDamagePositionUpdated()
 
 ### RagdollDamageWeaponNameUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L285)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L287)
 
 ```csharp
 void RagdollDamageWeaponNameUpdated()
@@ -1858,7 +1930,7 @@ void RagdollDamageWeaponNameUpdated()
 
 ### RagdollServerOriginUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L287)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L289)
 
 ```csharp
 void RagdollServerOriginUpdated()
@@ -1866,7 +1938,7 @@ void RagdollServerOriginUpdated()
 
 ### ResumeZoomUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L301)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L303)
 
 ```csharp
 void ResumeZoomUpdated()
@@ -1874,7 +1946,7 @@ void ResumeZoomUpdated()
 
 ### RetakesHasDefuseKitUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L270)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L272)
 
 ```csharp
 void RetakesHasDefuseKitUpdated()
@@ -1882,7 +1954,7 @@ void RetakesHasDefuseKitUpdated()
 
 ### RetakesMVPBoostExtraUtilityUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L273)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L275)
 
 ```csharp
 void RetakesMVPBoostExtraUtilityUpdated()
@@ -1890,7 +1962,7 @@ void RetakesMVPBoostExtraUtilityUpdated()
 
 ### RetakesMVPBoostItemUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L272)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L274)
 
 ```csharp
 void RetakesMVPBoostItemUpdated()
@@ -1898,7 +1970,7 @@ void RetakesMVPBoostItemUpdated()
 
 ### RetakesMVPLastRoundUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L271)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L273)
 
 ```csharp
 void RetakesMVPLastRoundUpdated()
@@ -1906,7 +1978,7 @@ void RetakesMVPLastRoundUpdated()
 
 ### RetakesOfferingCardUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L269)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L271)
 
 ```csharp
 void RetakesOfferingCardUpdated()
@@ -1914,7 +1986,7 @@ void RetakesOfferingCardUpdated()
 
 ### RetakesOfferingUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L268)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L270)
 
 ```csharp
 void RetakesOfferingUpdated()
@@ -1922,7 +1994,7 @@ void RetakesOfferingUpdated()
 
 ### RoundStartEquipmentValueUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L321)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L323)
 
 ```csharp
 void RoundStartEquipmentValueUpdated()
@@ -1930,7 +2002,7 @@ void RoundStartEquipmentValueUpdated()
 
 ### ShotsFiredUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L308)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L310)
 
 ```csharp
 void ShotsFiredUpdated()
@@ -1938,7 +2010,7 @@ void ShotsFiredUpdated()
 
 ### SlopeDropHeightUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L317)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L319)
 
 ```csharp
 void SlopeDropHeightUpdated()
@@ -1946,7 +2018,7 @@ void SlopeDropHeightUpdated()
 
 ### SlopeDropOffsetUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L316)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L318)
 
 ```csharp
 void SlopeDropOffsetUpdated()
@@ -1954,7 +2026,7 @@ void SlopeDropOffsetUpdated()
 
 ### SwitchedHandednessTimeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L292)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L294)
 
 ```csharp
 void SwitchedHandednessTimeUpdated()
@@ -1962,7 +2034,7 @@ void SwitchedHandednessTimeUpdated()
 
 ### ThirdPersonHeadingUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L315)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L317)
 
 ```csharp
 void ThirdPersonHeadingUpdated()
@@ -1970,7 +2042,7 @@ void ThirdPersonHeadingUpdated()
 
 ### TimeOfLastInjuryUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L280)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L282)
 
 ```csharp
 void TimeOfLastInjuryUpdated()
@@ -1978,7 +2050,7 @@ void TimeOfLastInjuryUpdated()
 
 ### VelocityModifierUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L310)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L312)
 
 ```csharp
 void VelocityModifierUpdated()
@@ -1986,7 +2058,7 @@ void VelocityModifierUpdated()
 
 ### ViewmodelFOVUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L296)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L298)
 
 ```csharp
 void ViewmodelFOVUpdated()
@@ -1994,7 +2066,7 @@ void ViewmodelFOVUpdated()
 
 ### ViewmodelOffsetXUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L293)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L295)
 
 ```csharp
 void ViewmodelOffsetXUpdated()
@@ -2002,7 +2074,7 @@ void ViewmodelOffsetXUpdated()
 
 ### ViewmodelOffsetYUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L294)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L296)
 
 ```csharp
 void ViewmodelOffsetYUpdated()
@@ -2010,7 +2082,7 @@ void ViewmodelOffsetYUpdated()
 
 ### ViewmodelOffsetZUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L295)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L297)
 
 ```csharp
 void ViewmodelOffsetZUpdated()
@@ -2018,7 +2090,7 @@ void ViewmodelOffsetZUpdated()
 
 ### WaitForNoAttackUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L313)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L315)
 
 ```csharp
 void WaitForNoAttackUpdated()
@@ -2026,7 +2098,7 @@ void WaitForNoAttackUpdated()
 
 ### WhichBombZoneUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L307)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawn.cs#L309)
 
 ```csharp
 void WhichBombZoneUpdated()

@@ -12,7 +12,7 @@ public interface CBlood : CPointEntity, CBaseEntity, CEntityInstance, ISchemaCla
 
 ### Amount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlood.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlood.cs#L22)
 
 ```csharp
 ref float Amount { get; }
@@ -24,7 +24,7 @@ ref float Amount { get; }
 
 ### Color
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlood.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlood.cs#L24)
 
 ```csharp
 ref BloodType Color { get; }
@@ -36,7 +36,7 @@ ref BloodType Color { get; }
 
 ### SprayAngles
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlood.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlood.cs#L18)
 
 ```csharp
 ref QAngle SprayAngles { get; }
@@ -48,7 +48,7 @@ ref QAngle SprayAngles { get; }
 
 ### SprayDir
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlood.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlood.cs#L20)
 
 ```csharp
 ref Vector SprayDir { get; }

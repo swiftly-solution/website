@@ -12,7 +12,7 @@ public interface CHitReactUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase, IS
 
 ### HitBoneParam
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitReactUpdateNode.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitReactUpdateNode.cs#L22)
 
 ```csharp
 CAnimParamHandle HitBoneParam { get; }
@@ -24,7 +24,7 @@ CAnimParamHandle HitBoneParam { get; }
 
 ### HitDirectionParam
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitReactUpdateNode.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitReactUpdateNode.cs#L26)
 
 ```csharp
 CAnimParamHandle HitDirectionParam { get; }
@@ -36,7 +36,7 @@ CAnimParamHandle HitDirectionParam { get; }
 
 ### HitOffsetParam
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitReactUpdateNode.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitReactUpdateNode.cs#L24)
 
 ```csharp
 CAnimParamHandle HitOffsetParam { get; }
@@ -48,7 +48,7 @@ CAnimParamHandle HitOffsetParam { get; }
 
 ### HitStrengthParam
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitReactUpdateNode.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitReactUpdateNode.cs#L28)
 
 ```csharp
 CAnimParamHandle HitStrengthParam { get; }
@@ -60,7 +60,7 @@ CAnimParamHandle HitStrengthParam { get; }
 
 ### MinDelayBetweenHits
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitReactUpdateNode.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitReactUpdateNode.cs#L30)
 
 ```csharp
 ref float MinDelayBetweenHits { get; }
@@ -72,7 +72,7 @@ ref float MinDelayBetweenHits { get; }
 
 ### OpFixedSettings
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitReactUpdateNode.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitReactUpdateNode.cs#L18)
 
 ```csharp
 HitReactFixedSettings_t OpFixedSettings { get; }
@@ -84,7 +84,7 @@ HitReactFixedSettings_t OpFixedSettings { get; }
 
 ### ResetChild
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitReactUpdateNode.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitReactUpdateNode.cs#L32)
 
 ```csharp
 ref bool ResetChild { get; }
@@ -96,7 +96,7 @@ ref bool ResetChild { get; }
 
 ### TriggerParam
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitReactUpdateNode.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitReactUpdateNode.cs#L20)
 
 ```csharp
 CAnimParamHandle TriggerParam { get; }

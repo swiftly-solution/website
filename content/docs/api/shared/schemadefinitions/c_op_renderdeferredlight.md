@@ -12,7 +12,7 @@ public interface C_OP_RenderDeferredLight : CParticleFunctionRenderer, CParticle
 
 ### Alpha2Field
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderDeferredLight.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderDeferredLight.cs#L26)
 
 ```csharp
 ParticleAttributeIndex_t Alpha2Field { get; }
@@ -24,7 +24,7 @@ ParticleAttributeIndex_t Alpha2Field { get; }
 
 ### AlphaScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderDeferredLight.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderDeferredLight.cs#L24)
 
 ```csharp
 ref float AlphaScale { get; }
@@ -36,7 +36,7 @@ ref float AlphaScale { get; }
 
 ### AlphaTestPointField
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderDeferredLight.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderDeferredLight.cs#L40)
 
 ```csharp
 ParticleAttributeIndex_t AlphaTestPointField { get; }
@@ -48,7 +48,7 @@ ParticleAttributeIndex_t AlphaTestPointField { get; }
 
 ### AlphaTestRangeField
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderDeferredLight.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderDeferredLight.cs#L42)
 
 ```csharp
 ParticleAttributeIndex_t AlphaTestRangeField { get; }
@@ -60,7 +60,7 @@ ParticleAttributeIndex_t AlphaTestRangeField { get; }
 
 ### AlphaTestSharpnessField
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderDeferredLight.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderDeferredLight.cs#L44)
 
 ```csharp
 ParticleAttributeIndex_t AlphaTestSharpnessField { get; }
@@ -72,7 +72,7 @@ ParticleAttributeIndex_t AlphaTestSharpnessField { get; }
 
 ### ColorBlendType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderDeferredLight.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderDeferredLight.cs#L30)
 
 ```csharp
 ref ParticleColorBlendType_t ColorBlendType { get; }
@@ -84,7 +84,7 @@ ref ParticleColorBlendType_t ColorBlendType { get; }
 
 ### ColorScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderDeferredLight.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderDeferredLight.cs#L28)
 
 ```csharp
 CParticleCollectionVecInput ColorScale { get; }
@@ -96,7 +96,7 @@ CParticleCollectionVecInput ColorScale { get; }
 
 ### DistanceFalloff
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderDeferredLight.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderDeferredLight.cs#L36)
 
 ```csharp
 ref float DistanceFalloff { get; }
@@ -108,7 +108,7 @@ ref float DistanceFalloff { get; }
 
 ### HSVShiftControlPoint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderDeferredLight.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderDeferredLight.cs#L48)
 
 ```csharp
 ref int HSVShiftControlPoint { get; }
@@ -120,7 +120,7 @@ ref int HSVShiftControlPoint { get; }
 
 ### LightDistance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderDeferredLight.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderDeferredLight.cs#L32)
 
 ```csharp
 ref float LightDistance { get; }
@@ -132,7 +132,7 @@ ref float LightDistance { get; }
 
 ### RadiusScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderDeferredLight.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderDeferredLight.cs#L22)
 
 ```csharp
 ref float RadiusScale { get; }
@@ -144,7 +144,7 @@ ref float RadiusScale { get; }
 
 ### SpotFoV
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderDeferredLight.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderDeferredLight.cs#L38)
 
 ```csharp
 ref float SpotFoV { get; }
@@ -156,7 +156,7 @@ ref float SpotFoV { get; }
 
 ### StartFalloff
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderDeferredLight.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderDeferredLight.cs#L34)
 
 ```csharp
 ref float StartFalloff { get; }
@@ -168,7 +168,7 @@ ref float StartFalloff { get; }
 
 ### Texture
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderDeferredLight.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderDeferredLight.cs#L46)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCTextureBase> Texture { get; }
@@ -180,7 +180,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> Texture { get; }
 
 ### UseAlphaTestWindow
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderDeferredLight.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderDeferredLight.cs#L18)
 
 ```csharp
 ref bool UseAlphaTestWindow { get; }
@@ -192,7 +192,7 @@ ref bool UseAlphaTestWindow { get; }
 
 ### UseTexture
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderDeferredLight.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderDeferredLight.cs#L20)
 
 ```csharp
 ref bool UseTexture { get; }

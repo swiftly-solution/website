@@ -12,7 +12,7 @@ public interface CLogicCase : CLogicalEntity, CServerOnlyEntity, CBaseEntity, CE
 
 ### Case
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicCase.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicCase.cs#L18)
 
 ```csharp
 string Case { get; set; }
@@ -24,7 +24,7 @@ string Case { get; set; }
 
 ### LastShuffleCase
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicCase.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicCase.cs#L22)
 
 ```csharp
 ref int LastShuffleCase { get; }
@@ -36,7 +36,7 @@ ref int LastShuffleCase { get; }
 
 ### OnCase
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicCase.cs#L26)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicCase.cs#L27)
 
 ```csharp
 SchemaUntypedField OnCase { get; }
@@ -48,7 +48,7 @@ SchemaUntypedField OnCase { get; }
 
 ### OnDefault
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicCase.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicCase.cs#L30)
 
 ```csharp
 SchemaUntypedField OnDefault { get; }
@@ -60,7 +60,7 @@ SchemaUntypedField OnDefault { get; }
 
 ### ShuffleCases
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicCase.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicCase.cs#L20)
 
 ```csharp
 ref int ShuffleCases { get; }
@@ -72,7 +72,7 @@ ref int ShuffleCases { get; }
 
 ### UchShuffleCaseMap
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicCase.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicCase.cs#L24)
 
 ```csharp
 ISchemaFixedArray<byte> UchShuffleCaseMap { get; }

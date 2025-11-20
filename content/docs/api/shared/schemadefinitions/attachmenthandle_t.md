@@ -12,7 +12,7 @@ public interface AttachmentHandle_t : ISchemaClass<AttachmentHandle_t>, ISchemaF
 
 ### Value
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AttachmentHandle_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AttachmentHandle_t.cs#L18)
 
 ```csharp
 ref byte Value { get; }

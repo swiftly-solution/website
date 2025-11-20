@@ -12,7 +12,7 @@ public interface CNmClip : ISchemaClass<CNmClip>, ISchemaField, ISchemaClass, IN
 
 ### CompressedFloatCurveData
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClip.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClip.cs#L34)
 
 ```csharp
 ref CUtlVector<ushort> CompressedFloatCurveData { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<ushort> CompressedFloatCurveData { get; }
 
 ### CompressedFloatCurveOffsets
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClip.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClip.cs#L36)
 
 ```csharp
 ref CUtlVector<uint> CompressedFloatCurveOffsets { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<uint> CompressedFloatCurveOffsets { get; }
 
 ### CompressedPoseData
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClip.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClip.cs#L24)
 
 ```csharp
 ref CUtlBinaryBlock CompressedPoseData { get; }
@@ -48,7 +48,7 @@ ref CUtlBinaryBlock CompressedPoseData { get; }
 
 ### CompressedPoseOffsets
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClip.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClip.cs#L28)
 
 ```csharp
 ref CUtlVector<uint> CompressedPoseOffsets { get; }
@@ -60,7 +60,7 @@ ref CUtlVector<uint> CompressedPoseOffsets { get; }
 
 ### Duration
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClip.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClip.cs#L22)
 
 ```csharp
 ref float Duration { get; }
@@ -72,7 +72,7 @@ ref float Duration { get; }
 
 ### FloatCurveDefs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClip.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClip.cs#L32)
 
 ```csharp
 ref CUtlVector<NmFloatCurveCompressionSettings_t> FloatCurveDefs { get; }
@@ -84,7 +84,7 @@ ref CUtlVector<NmFloatCurveCompressionSettings_t> FloatCurveDefs { get; }
 
 ### FloatCurveIDs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClip.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClip.cs#L30)
 
 ```csharp
 ref CUtlVector<CGlobalSymbol> FloatCurveIDs { get; }
@@ -96,7 +96,7 @@ ref CUtlVector<CGlobalSymbol> FloatCurveIDs { get; }
 
 ### IsAdditive
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClip.cs#L44)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClip.cs#L45)
 
 ```csharp
 ref bool IsAdditive { get; }
@@ -108,7 +108,7 @@ ref bool IsAdditive { get; }
 
 ### ModelSpaceBoneSamplingIndices
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClip.cs#L48)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClip.cs#L49)
 
 ```csharp
 ref CUtlVector<int> ModelSpaceBoneSamplingIndices { get; }
@@ -120,7 +120,7 @@ ref CUtlVector<int> ModelSpaceBoneSamplingIndices { get; }
 
 ### ModelSpaceSamplingChain
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClip.cs#L46)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClip.cs#L47)
 
 ```csharp
 ref CUtlVector<CNmClip__ModelSpaceSamplingChainLink_t> ModelSpaceSamplingChain { get; }
@@ -132,7 +132,7 @@ ref CUtlVector<CNmClip__ModelSpaceSamplingChainLink_t> ModelSpaceSamplingChain {
 
 ### NumFrames
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClip.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClip.cs#L20)
 
 ```csharp
 ref uint NumFrames { get; }
@@ -144,7 +144,7 @@ ref uint NumFrames { get; }
 
 ### RootMotion
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClip.cs#L42)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClip.cs#L43)
 
 ```csharp
 CNmRootMotionData RootMotion { get; }
@@ -156,7 +156,7 @@ CNmRootMotionData RootMotion { get; }
 
 ### SecondaryAnimations
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClip.cs#L38)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClip.cs#L39)
 
 ```csharp
 SchemaUntypedField SecondaryAnimations { get; }
@@ -168,7 +168,7 @@ SchemaUntypedField SecondaryAnimations { get; }
 
 ### Skeleton
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClip.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClip.cs#L18)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCNmSkeleton> Skeleton { get; }
@@ -180,7 +180,7 @@ ref CStrongHandle<InfoForResourceTypeCNmSkeleton> Skeleton { get; }
 
 ### SyncTrack
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClip.cs#L40)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClip.cs#L41)
 
 ```csharp
 CNmSyncTrack SyncTrack { get; }
@@ -192,7 +192,7 @@ CNmSyncTrack SyncTrack { get; }
 
 ### TrackCompressionSettings
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClip.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClip.cs#L26)
 
 ```csharp
 ref CUtlVector<NmCompressionSettings_t> TrackCompressionSettings { get; }

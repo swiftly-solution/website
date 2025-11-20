@@ -12,7 +12,7 @@ public interface CEnvBeam : CBeam, CBaseModelEntity, CBaseEntity, CEntityInstanc
 
 ### Active
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvBeam.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvBeam.cs#L18)
 
 ```csharp
 ref int Active { get; }
@@ -24,7 +24,7 @@ ref int Active { get; }
 
 ### BoltWidth
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvBeam.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvBeam.cs#L28)
 
 ```csharp
 ref float BoltWidth { get; }
@@ -36,7 +36,7 @@ ref float BoltWidth { get; }
 
 ### Decal
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvBeam.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvBeam.cs#L52)
 
 ```csharp
 string Decal { get; set; }
@@ -48,7 +48,7 @@ string Decal { get; set; }
 
 ### EndEntity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvBeam.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvBeam.cs#L24)
 
 ```csharp
 string EndEntity { get; set; }
@@ -60,7 +60,7 @@ string EndEntity { get; set; }
 
 ### EndPointRelative
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvBeam.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvBeam.cs#L42)
 
 ```csharp
 ref Vector EndPointRelative { get; }
@@ -72,7 +72,7 @@ ref Vector EndPointRelative { get; }
 
 ### EndPointWorld
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvBeam.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvBeam.cs#L40)
 
 ```csharp
 ref Vector EndPointWorld { get; }
@@ -84,7 +84,7 @@ ref Vector EndPointWorld { get; }
 
 ### Filter
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvBeam.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvBeam.cs#L50)
 
 ```csharp
 ref CHandle<CBaseEntity> Filter { get; }
@@ -96,7 +96,7 @@ ref CHandle<CBaseEntity> Filter { get; }
 
 ### FilterName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvBeam.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvBeam.cs#L48)
 
 ```csharp
 string FilterName { get; set; }
@@ -108,7 +108,7 @@ string FilterName { get; set; }
 
 ### FrameStart
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvBeam.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvBeam.cs#L38)
 
 ```csharp
 ref int FrameStart { get; }
@@ -120,7 +120,7 @@ ref int FrameStart { get; }
 
 ### Life
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvBeam.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvBeam.cs#L26)
 
 ```csharp
 ref float Life { get; }
@@ -132,7 +132,7 @@ ref float Life { get; }
 
 ### NoiseAmplitude
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvBeam.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvBeam.cs#L30)
 
 ```csharp
 ref float NoiseAmplitude { get; }
@@ -144,7 +144,7 @@ ref float NoiseAmplitude { get; }
 
 ### OnTouchedByEntity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvBeam.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvBeam.cs#L54)
 
 ```csharp
 CEntityIOOutput OnTouchedByEntity { get; }
@@ -156,7 +156,7 @@ CEntityIOOutput OnTouchedByEntity { get; }
 
 ### Radius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvBeam.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvBeam.cs#L44)
 
 ```csharp
 ref float Radius { get; }
@@ -168,7 +168,7 @@ ref float Radius { get; }
 
 ### Restrike
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvBeam.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvBeam.cs#L34)
 
 ```csharp
 ref float Restrike { get; }
@@ -180,7 +180,7 @@ ref float Restrike { get; }
 
 ### Speed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvBeam.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvBeam.cs#L32)
 
 ```csharp
 ref int Speed { get; }
@@ -192,7 +192,7 @@ ref int Speed { get; }
 
 ### SpriteName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvBeam.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvBeam.cs#L36)
 
 ```csharp
 string SpriteName { get; set; }
@@ -204,7 +204,7 @@ string SpriteName { get; set; }
 
 ### SpriteTexture
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvBeam.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvBeam.cs#L20)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeIMaterial2> SpriteTexture { get; }
@@ -216,7 +216,7 @@ ref CStrongHandle<InfoForResourceTypeIMaterial2> SpriteTexture { get; }
 
 ### StartEntity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvBeam.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvBeam.cs#L22)
 
 ```csharp
 string StartEntity { get; set; }
@@ -228,7 +228,7 @@ string StartEntity { get; set; }
 
 ### TouchType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvBeam.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvBeam.cs#L46)
 
 ```csharp
 ref Touch_t TouchType { get; }

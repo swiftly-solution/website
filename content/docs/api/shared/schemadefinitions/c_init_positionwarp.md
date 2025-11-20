@@ -12,7 +12,7 @@ public interface C_INIT_PositionWarp : CParticleFunctionInitializer, CParticleFu
 
 ### ControlPointNumber
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionWarp.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionWarp.cs#L24)
 
 ```csharp
 ref int ControlPointNumber { get; }
@@ -24,7 +24,7 @@ ref int ControlPointNumber { get; }
 
 ### InvertWarp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionWarp.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionWarp.cs#L34)
 
 ```csharp
 ref bool InvertWarp { get; }
@@ -36,7 +36,7 @@ ref bool InvertWarp { get; }
 
 ### PrevPosScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionWarp.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionWarp.cs#L32)
 
 ```csharp
 ref float PrevPosScale { get; }
@@ -48,7 +48,7 @@ ref float PrevPosScale { get; }
 
 ### RadiusComponent
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionWarp.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionWarp.cs#L26)
 
 ```csharp
 ref int RadiusComponent { get; }
@@ -60,7 +60,7 @@ ref int RadiusComponent { get; }
 
 ### ScaleControlPointNumber
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionWarp.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionWarp.cs#L22)
 
 ```csharp
 ref int ScaleControlPointNumber { get; }
@@ -72,7 +72,7 @@ ref int ScaleControlPointNumber { get; }
 
 ### UseCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionWarp.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionWarp.cs#L36)
 
 ```csharp
 ref bool UseCount { get; }
@@ -84,7 +84,7 @@ ref bool UseCount { get; }
 
 ### WarpMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionWarp.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionWarp.cs#L20)
 
 ```csharp
 CParticleCollectionVecInput WarpMax { get; }
@@ -96,7 +96,7 @@ CParticleCollectionVecInput WarpMax { get; }
 
 ### WarpMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionWarp.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionWarp.cs#L18)
 
 ```csharp
 CParticleCollectionVecInput WarpMin { get; }
@@ -108,7 +108,7 @@ CParticleCollectionVecInput WarpMin { get; }
 
 ### WarpStartTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionWarp.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionWarp.cs#L30)
 
 ```csharp
 ref float WarpStartTime { get; }
@@ -120,7 +120,7 @@ ref float WarpStartTime { get; }
 
 ### WarpTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionWarp.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionWarp.cs#L28)
 
 ```csharp
 ref float WarpTime { get; }

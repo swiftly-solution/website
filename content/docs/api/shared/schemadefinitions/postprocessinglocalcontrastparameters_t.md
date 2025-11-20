@@ -12,7 +12,7 @@ public interface PostProcessingLocalContrastParameters_t : ISchemaClass<PostProc
 
 ### LocalContrastEdgeStrength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingLocalContrastParameters_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingLocalContrastParameters_t.cs#L20)
 
 ```csharp
 ref float LocalContrastEdgeStrength { get; }
@@ -24,7 +24,7 @@ ref float LocalContrastEdgeStrength { get; }
 
 ### LocalContrastStrength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingLocalContrastParameters_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingLocalContrastParameters_t.cs#L18)
 
 ```csharp
 ref float LocalContrastStrength { get; }
@@ -36,7 +36,7 @@ ref float LocalContrastStrength { get; }
 
 ### LocalContrastVignetteBlur
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingLocalContrastParameters_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingLocalContrastParameters_t.cs#L26)
 
 ```csharp
 ref float LocalContrastVignetteBlur { get; }
@@ -48,7 +48,7 @@ ref float LocalContrastVignetteBlur { get; }
 
 ### LocalContrastVignetteEnd
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingLocalContrastParameters_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingLocalContrastParameters_t.cs#L24)
 
 ```csharp
 ref float LocalContrastVignetteEnd { get; }
@@ -60,7 +60,7 @@ ref float LocalContrastVignetteEnd { get; }
 
 ### LocalContrastVignetteStart
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingLocalContrastParameters_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingLocalContrastParameters_t.cs#L22)
 
 ```csharp
 ref float LocalContrastVignetteStart { get; }

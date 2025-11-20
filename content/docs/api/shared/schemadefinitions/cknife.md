@@ -12,7 +12,7 @@ public interface CKnife : CCSWeaponBase, CBasePlayerWeapon, CEconEntity, CBaseFl
 
 ### FirstAttack
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CKnife.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CKnife.cs#L18)
 
 ```csharp
 ref bool FirstAttack { get; }
@@ -26,7 +26,7 @@ ref bool FirstAttack { get; }
 
 ### FirstAttackUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CKnife.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CKnife.cs#L20)
 
 ```csharp
 void FirstAttackUpdated()

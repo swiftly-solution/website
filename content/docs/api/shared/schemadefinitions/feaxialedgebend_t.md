@@ -12,7 +12,7 @@ public interface FeAxialEdgeBend_t : ISchemaClass<FeAxialEdgeBend_t>, ISchemaFie
 
 ### Dist
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeAxialEdgeBend_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeAxialEdgeBend_t.cs#L22)
 
 ```csharp
 ref float Dist { get; }
@@ -24,7 +24,7 @@ ref float Dist { get; }
 
 ### Node
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeAxialEdgeBend_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeAxialEdgeBend_t.cs#L26)
 
 ```csharp
 ISchemaFixedArray<ushort> Node { get; }
@@ -36,7 +36,7 @@ ISchemaFixedArray<ushort> Node { get; }
 
 ### Te
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeAxialEdgeBend_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeAxialEdgeBend_t.cs#L18)
 
 ```csharp
 ref float Te { get; }
@@ -48,7 +48,7 @@ ref float Te { get; }
 
 ### Tv
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeAxialEdgeBend_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeAxialEdgeBend_t.cs#L20)
 
 ```csharp
 ref float Tv { get; }
@@ -60,7 +60,7 @@ ref float Tv { get; }
 
 ### Weight
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeAxialEdgeBend_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeAxialEdgeBend_t.cs#L24)
 
 ```csharp
 ISchemaFixedArray<float> Weight { get; }

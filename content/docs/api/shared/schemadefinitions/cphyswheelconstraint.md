@@ -12,7 +12,7 @@ public interface CPhysWheelConstraint : CPhysConstraint, CLogicalEntity, CServer
 
 ### EnableSteeringLimit
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysWheelConstraint.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysWheelConstraint.cs#L30)
 
 ```csharp
 ref bool EnableSteeringLimit { get; }
@@ -24,7 +24,7 @@ ref bool EnableSteeringLimit { get; }
 
 ### EnableSuspensionLimit
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysWheelConstraint.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysWheelConstraint.cs#L24)
 
 ```csharp
 ref bool EnableSuspensionLimit { get; }
@@ -36,7 +36,7 @@ ref bool EnableSuspensionLimit { get; }
 
 ### MaxSteeringAngle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysWheelConstraint.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysWheelConstraint.cs#L34)
 
 ```csharp
 ref float MaxSteeringAngle { get; }
@@ -48,7 +48,7 @@ ref float MaxSteeringAngle { get; }
 
 ### MaxSuspensionOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysWheelConstraint.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysWheelConstraint.cs#L28)
 
 ```csharp
 ref float MaxSuspensionOffset { get; }
@@ -60,7 +60,7 @@ ref float MaxSuspensionOffset { get; }
 
 ### MinSteeringAngle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysWheelConstraint.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysWheelConstraint.cs#L32)
 
 ```csharp
 ref float MinSteeringAngle { get; }
@@ -72,7 +72,7 @@ ref float MinSteeringAngle { get; }
 
 ### MinSuspensionOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysWheelConstraint.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysWheelConstraint.cs#L26)
 
 ```csharp
 ref float MinSuspensionOffset { get; }
@@ -84,7 +84,7 @@ ref float MinSuspensionOffset { get; }
 
 ### SpinAxisFriction
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysWheelConstraint.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysWheelConstraint.cs#L38)
 
 ```csharp
 ref float SpinAxisFriction { get; }
@@ -96,7 +96,7 @@ ref float SpinAxisFriction { get; }
 
 ### SteeringAxisFriction
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysWheelConstraint.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysWheelConstraint.cs#L36)
 
 ```csharp
 ref float SteeringAxisFriction { get; }
@@ -108,7 +108,7 @@ ref float SteeringAxisFriction { get; }
 
 ### SteeringMimicsEntity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysWheelConstraint.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysWheelConstraint.cs#L40)
 
 ```csharp
 ref CHandle<CBaseEntity> SteeringMimicsEntity { get; }
@@ -120,7 +120,7 @@ ref CHandle<CBaseEntity> SteeringMimicsEntity { get; }
 
 ### SuspensionDampingRatio
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysWheelConstraint.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysWheelConstraint.cs#L20)
 
 ```csharp
 ref float SuspensionDampingRatio { get; }
@@ -132,7 +132,7 @@ ref float SuspensionDampingRatio { get; }
 
 ### SuspensionFrequency
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysWheelConstraint.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysWheelConstraint.cs#L18)
 
 ```csharp
 ref float SuspensionFrequency { get; }
@@ -144,7 +144,7 @@ ref float SuspensionFrequency { get; }
 
 ### SuspensionHeightOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysWheelConstraint.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysWheelConstraint.cs#L22)
 
 ```csharp
 ref float SuspensionHeightOffset { get; }

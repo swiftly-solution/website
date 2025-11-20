@@ -12,7 +12,7 @@ public interface CPathCorner : CPointEntity, CBaseEntity, CEntityInstance, ISche
 
 ### OnPass
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathCorner.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathCorner.cs#L22)
 
 ```csharp
 CEntityIOOutput OnPass { get; }
@@ -24,7 +24,7 @@ CEntityIOOutput OnPass { get; }
 
 ### Radius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathCorner.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathCorner.cs#L20)
 
 ```csharp
 ref float Radius { get; }
@@ -36,7 +36,7 @@ ref float Radius { get; }
 
 ### Wait
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathCorner.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathCorner.cs#L18)
 
 ```csharp
 ref float Wait { get; }

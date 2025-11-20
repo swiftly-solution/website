@@ -12,7 +12,7 @@ public interface CSelectorUpdateNode : CAnimUpdateNodeBase, ISchemaClass<CAnimUp
 
 ### BlendCurve
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSelectorUpdateNode.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSelectorUpdateNode.cs#L22)
 
 ```csharp
 CBlendCurve BlendCurve { get; }
@@ -24,7 +24,7 @@ CBlendCurve BlendCurve { get; }
 
 ### BlendTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSelectorUpdateNode.cs#L24)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSelectorUpdateNode.cs#L25)
 
 ```csharp
 SchemaUntypedField BlendTime { get; }
@@ -36,7 +36,7 @@ SchemaUntypedField BlendTime { get; }
 
 ### Children
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSelectorUpdateNode.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSelectorUpdateNode.cs#L18)
 
 ```csharp
 ref CUtlVector<CAnimUpdateNodeRef> Children { get; }
@@ -48,7 +48,7 @@ ref CUtlVector<CAnimUpdateNodeRef> Children { get; }
 
 ### LockWhenWaning
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSelectorUpdateNode.cs#L34)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSelectorUpdateNode.cs#L35)
 
 ```csharp
 ref bool LockWhenWaning { get; }
@@ -60,7 +60,7 @@ ref bool LockWhenWaning { get; }
 
 ### Parameter
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSelectorUpdateNode.cs#L26)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSelectorUpdateNode.cs#L27)
 
 ```csharp
 CAnimParamHandle Parameter { get; }
@@ -72,7 +72,7 @@ CAnimParamHandle Parameter { get; }
 
 ### ResetOnChange
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSelectorUpdateNode.cs#L32)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSelectorUpdateNode.cs#L33)
 
 ```csharp
 ref bool ResetOnChange { get; }
@@ -84,7 +84,7 @@ ref bool ResetOnChange { get; }
 
 ### SyncCyclesOnChange
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSelectorUpdateNode.cs#L36)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSelectorUpdateNode.cs#L37)
 
 ```csharp
 ref bool SyncCyclesOnChange { get; }
@@ -96,7 +96,7 @@ ref bool SyncCyclesOnChange { get; }
 
 ### TagBehavior
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSelectorUpdateNode.cs#L30)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSelectorUpdateNode.cs#L31)
 
 ```csharp
 ref SelectorTagBehavior_t TagBehavior { get; }
@@ -108,7 +108,7 @@ ref SelectorTagBehavior_t TagBehavior { get; }
 
 ### TagIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSelectorUpdateNode.cs#L28)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSelectorUpdateNode.cs#L29)
 
 ```csharp
 ref int TagIndex { get; }
@@ -120,7 +120,7 @@ ref int TagIndex { get; }
 
 ### Tags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSelectorUpdateNode.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSelectorUpdateNode.cs#L20)
 
 ```csharp
 ref CUtlVector<byte> Tags { get; }

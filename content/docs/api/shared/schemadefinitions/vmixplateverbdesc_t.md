@@ -12,7 +12,7 @@ public interface VMixPlateverbDesc_t : ISchemaClass<VMixPlateverbDesc_t>, ISchem
 
 ### Damp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixPlateverbDesc_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixPlateverbDesc_t.cs#L26)
 
 ```csharp
 ref float Damp { get; }
@@ -24,7 +24,7 @@ ref float Damp { get; }
 
 ### Decay
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixPlateverbDesc_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixPlateverbDesc_t.cs#L24)
 
 ```csharp
 ref float Decay { get; }
@@ -36,7 +36,7 @@ ref float Decay { get; }
 
 ### FeedbackDiffusion1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixPlateverbDesc_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixPlateverbDesc_t.cs#L28)
 
 ```csharp
 ref float FeedbackDiffusion1 { get; }
@@ -48,7 +48,7 @@ ref float FeedbackDiffusion1 { get; }
 
 ### FeedbackDiffusion2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixPlateverbDesc_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixPlateverbDesc_t.cs#L30)
 
 ```csharp
 ref float FeedbackDiffusion2 { get; }
@@ -60,7 +60,7 @@ ref float FeedbackDiffusion2 { get; }
 
 ### InputDiffusion1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixPlateverbDesc_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixPlateverbDesc_t.cs#L20)
 
 ```csharp
 ref float InputDiffusion1 { get; }
@@ -72,7 +72,7 @@ ref float InputDiffusion1 { get; }
 
 ### InputDiffusion2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixPlateverbDesc_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixPlateverbDesc_t.cs#L22)
 
 ```csharp
 ref float InputDiffusion2 { get; }
@@ -84,7 +84,7 @@ ref float InputDiffusion2 { get; }
 
 ### Prefilter
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixPlateverbDesc_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixPlateverbDesc_t.cs#L18)
 
 ```csharp
 ref float Prefilter { get; }

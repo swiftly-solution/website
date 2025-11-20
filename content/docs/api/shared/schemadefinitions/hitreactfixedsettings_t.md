@@ -12,7 +12,7 @@ public interface HitReactFixedSettings_t : ISchemaClass<HitReactFixedSettings_t>
 
 ### CounterRotationScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L28)
 
 ```csharp
 ref float CounterRotationScale { get; }
@@ -24,7 +24,7 @@ ref float CounterRotationScale { get; }
 
 ### DistanceFadeScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L30)
 
 ```csharp
 ref float DistanceFadeScale { get; }
@@ -36,7 +36,7 @@ ref float DistanceFadeScale { get; }
 
 ### EffectedBoneCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L20)
 
 ```csharp
 ref int EffectedBoneCount { get; }
@@ -48,7 +48,7 @@ ref int EffectedBoneCount { get; }
 
 ### HipBoneIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L42)
 
 ```csharp
 ref int HipBoneIndex { get; }
@@ -60,7 +60,7 @@ ref int HipBoneIndex { get; }
 
 ### HipBoneTranslationScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L44)
 
 ```csharp
 ref float HipBoneTranslationScale { get; }
@@ -72,7 +72,7 @@ ref float HipBoneTranslationScale { get; }
 
 ### HipDipDelay
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L50)
 
 ```csharp
 ref float HipDipDelay { get; }
@@ -84,7 +84,7 @@ ref float HipDipDelay { get; }
 
 ### HipDipImpactScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L48)
 
 ```csharp
 ref float HipDipImpactScale { get; }
@@ -96,7 +96,7 @@ ref float HipDipImpactScale { get; }
 
 ### HipDipSpringStrength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L46)
 
 ```csharp
 ref float HipDipSpringStrength { get; }
@@ -108,7 +108,7 @@ ref float HipDipSpringStrength { get; }
 
 ### MaxAngleRadians
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L40)
 
 ```csharp
 ref float MaxAngleRadians { get; }
@@ -120,7 +120,7 @@ ref float MaxAngleRadians { get; }
 
 ### MaxImpactForce
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L22)
 
 ```csharp
 ref float MaxImpactForce { get; }
@@ -132,7 +132,7 @@ ref float MaxImpactForce { get; }
 
 ### MinImpactForce
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L24)
 
 ```csharp
 ref float MinImpactForce { get; }
@@ -144,7 +144,7 @@ ref float MinImpactForce { get; }
 
 ### PropagationScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L32)
 
 ```csharp
 ref float PropagationScale { get; }
@@ -156,7 +156,7 @@ ref float PropagationScale { get; }
 
 ### SpringStrength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L36)
 
 ```csharp
 ref float SpringStrength { get; }
@@ -168,7 +168,7 @@ ref float SpringStrength { get; }
 
 ### WeightListIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L18)
 
 ```csharp
 ref int WeightListIndex { get; }
@@ -180,7 +180,7 @@ ref int WeightListIndex { get; }
 
 ### WhipDelay
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L34)
 
 ```csharp
 ref float WhipDelay { get; }
@@ -192,7 +192,7 @@ ref float WhipDelay { get; }
 
 ### WhipImpactScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L26)
 
 ```csharp
 ref float WhipImpactScale { get; }
@@ -204,7 +204,7 @@ ref float WhipImpactScale { get; }
 
 ### WhipSpringStrength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L38)
 
 ```csharp
 ref float WhipSpringStrength { get; }

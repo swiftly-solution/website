@@ -12,7 +12,7 @@ public interface C_INIT_RandomTrailLength : CParticleFunctionInitializer, CParti
 
 ### LengthRandExponent
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomTrailLength.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomTrailLength.cs#L22)
 
 ```csharp
 ref float LengthRandExponent { get; }
@@ -24,7 +24,7 @@ ref float LengthRandExponent { get; }
 
 ### MaxLength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomTrailLength.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomTrailLength.cs#L20)
 
 ```csharp
 ref float MaxLength { get; }
@@ -36,7 +36,7 @@ ref float MaxLength { get; }
 
 ### MinLength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomTrailLength.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomTrailLength.cs#L18)
 
 ```csharp
 ref float MinLength { get; }

@@ -12,7 +12,7 @@ public interface CPulseCell_ExampleCriteria__Criteria_t : ISchemaClass<CPulseCel
 
 ### FloatValue1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_ExampleCriteria__Criteria_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_ExampleCriteria__Criteria_t.cs#L18)
 
 ```csharp
 ref float FloatValue1 { get; }
@@ -24,7 +24,7 @@ ref float FloatValue1 { get; }
 
 ### FloatValue2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_ExampleCriteria__Criteria_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_ExampleCriteria__Criteria_t.cs#L20)
 
 ```csharp
 ref float FloatValue2 { get; }
@@ -36,7 +36,7 @@ ref float FloatValue2 { get; }
 
 ### MyBool
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_ExampleCriteria__Criteria_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_ExampleCriteria__Criteria_t.cs#L22)
 
 ```csharp
 ref bool MyBool { get; }

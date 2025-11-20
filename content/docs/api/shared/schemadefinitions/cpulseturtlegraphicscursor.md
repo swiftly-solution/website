@@ -12,7 +12,7 @@ public interface CPulseTurtleGraphicsCursor : CPulseExecCursor, ISchemaClass<CPu
 
 ### Color
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseTurtleGraphicsCursor.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseTurtleGraphicsCursor.cs#L18)
 
 ```csharp
 ref Color Color { get; }
@@ -24,7 +24,7 @@ ref Color Color { get; }
 
 ### HeadingDeg
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseTurtleGraphicsCursor.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseTurtleGraphicsCursor.cs#L22)
 
 ```csharp
 ref float HeadingDeg { get; }
@@ -36,7 +36,7 @@ ref float HeadingDeg { get; }
 
 ### PenUp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseTurtleGraphicsCursor.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseTurtleGraphicsCursor.cs#L24)
 
 ```csharp
 ref bool PenUp { get; }
@@ -48,7 +48,7 @@ ref bool PenUp { get; }
 
 ### Pos
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseTurtleGraphicsCursor.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseTurtleGraphicsCursor.cs#L20)
 
 ```csharp
 ref Vector2D Pos { get; }

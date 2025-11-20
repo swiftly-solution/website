@@ -12,7 +12,7 @@ public interface C_INIT_CreateInEpitrochoid : CParticleFunctionInitializer, CPar
 
 ### Component1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateInEpitrochoid.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateInEpitrochoid.cs#L18)
 
 ```csharp
 ref int Component1 { get; }
@@ -24,7 +24,7 @@ ref int Component1 { get; }
 
 ### Component2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateInEpitrochoid.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateInEpitrochoid.cs#L20)
 
 ```csharp
 ref int Component2 { get; }
@@ -36,7 +36,7 @@ ref int Component2 { get; }
 
 ### Offset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateInEpitrochoid.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateInEpitrochoid.cs#L26)
 
 ```csharp
 CPerParticleFloatInput Offset { get; }
@@ -48,7 +48,7 @@ CPerParticleFloatInput Offset { get; }
 
 ### OffsetExistingPos
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateInEpitrochoid.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateInEpitrochoid.cs#L36)
 
 ```csharp
 ref bool OffsetExistingPos { get; }
@@ -60,7 +60,7 @@ ref bool OffsetExistingPos { get; }
 
 ### ParticleDensity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateInEpitrochoid.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateInEpitrochoid.cs#L24)
 
 ```csharp
 CPerParticleFloatInput ParticleDensity { get; }
@@ -72,7 +72,7 @@ CPerParticleFloatInput ParticleDensity { get; }
 
 ### Radius1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateInEpitrochoid.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateInEpitrochoid.cs#L28)
 
 ```csharp
 CPerParticleFloatInput Radius1 { get; }
@@ -84,7 +84,7 @@ CPerParticleFloatInput Radius1 { get; }
 
 ### Radius2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateInEpitrochoid.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateInEpitrochoid.cs#L30)
 
 ```csharp
 CPerParticleFloatInput Radius2 { get; }
@@ -96,7 +96,7 @@ CPerParticleFloatInput Radius2 { get; }
 
 ### TransformInput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateInEpitrochoid.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateInEpitrochoid.cs#L22)
 
 ```csharp
 CParticleTransformInput TransformInput { get; }
@@ -108,7 +108,7 @@ CParticleTransformInput TransformInput { get; }
 
 ### UseCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateInEpitrochoid.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateInEpitrochoid.cs#L32)
 
 ```csharp
 ref bool UseCount { get; }
@@ -120,7 +120,7 @@ ref bool UseCount { get; }
 
 ### UseLocalCoords
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateInEpitrochoid.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateInEpitrochoid.cs#L34)
 
 ```csharp
 ref bool UseLocalCoords { get; }

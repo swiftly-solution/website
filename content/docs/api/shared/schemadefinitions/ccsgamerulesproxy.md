@@ -12,7 +12,7 @@ public interface CCSGameRulesProxy : CGameRulesProxy, CBaseEntity, CEntityInstan
 
 ### GameRules
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRulesProxy.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRulesProxy.cs#L18)
 
 ```csharp
 CCSGameRules? GameRules { get; }
@@ -26,7 +26,7 @@ CCSGameRules? GameRules { get; }
 
 ### GameRulesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRulesProxy.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameRulesProxy.cs#L20)
 
 ```csharp
 void GameRulesUpdated()

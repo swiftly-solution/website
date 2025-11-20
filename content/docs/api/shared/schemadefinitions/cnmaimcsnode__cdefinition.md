@@ -12,7 +12,7 @@ public interface CNmAimCSNode__CDefinition : CNmPassthroughNode__CDefinition, CN
 
 ### BlendTimeSeconds
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmAimCSNode__CDefinition.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmAimCSNode__CDefinition.cs#L26)
 
 ```csharp
 ref float BlendTimeSeconds { get; }
@@ -24,7 +24,7 @@ ref float BlendTimeSeconds { get; }
 
 ### EnabledNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmAimCSNode__CDefinition.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmAimCSNode__CDefinition.cs#L24)
 
 ```csharp
 ref short EnabledNodeIdx { get; }
@@ -36,7 +36,7 @@ ref short EnabledNodeIdx { get; }
 
 ### HorizontalAngleNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmAimCSNode__CDefinition.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmAimCSNode__CDefinition.cs#L20)
 
 ```csharp
 ref short HorizontalAngleNodeIdx { get; }
@@ -48,7 +48,7 @@ ref short HorizontalAngleNodeIdx { get; }
 
 ### VerticalAngleNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmAimCSNode__CDefinition.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmAimCSNode__CDefinition.cs#L18)
 
 ```csharp
 ref short VerticalAngleNodeIdx { get; }
@@ -60,7 +60,7 @@ ref short VerticalAngleNodeIdx { get; }
 
 ### WeaponCategoryNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmAimCSNode__CDefinition.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmAimCSNode__CDefinition.cs#L22)
 
 ```csharp
 ref short WeaponCategoryNodeIdx { get; }

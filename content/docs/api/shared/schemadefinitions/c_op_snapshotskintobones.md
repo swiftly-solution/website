@@ -12,7 +12,7 @@ public interface C_OP_SnapshotSkinToBones : CParticleFunctionOperator, CParticle
 
 ### ControlPointNumber
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SnapshotSkinToBones.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SnapshotSkinToBones.cs#L22)
 
 ```csharp
 ref int ControlPointNumber { get; }
@@ -24,7 +24,7 @@ ref int ControlPointNumber { get; }
 
 ### JumpThreshold
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SnapshotSkinToBones.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SnapshotSkinToBones.cs#L28)
 
 ```csharp
 ref float JumpThreshold { get; }
@@ -36,7 +36,7 @@ ref float JumpThreshold { get; }
 
 ### LifeTimeFadeEnd
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SnapshotSkinToBones.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SnapshotSkinToBones.cs#L26)
 
 ```csharp
 ref float LifeTimeFadeEnd { get; }
@@ -48,7 +48,7 @@ ref float LifeTimeFadeEnd { get; }
 
 ### LifeTimeFadeStart
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SnapshotSkinToBones.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SnapshotSkinToBones.cs#L24)
 
 ```csharp
 ref float LifeTimeFadeStart { get; }
@@ -60,7 +60,7 @@ ref float LifeTimeFadeStart { get; }
 
 ### PrevPosScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SnapshotSkinToBones.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SnapshotSkinToBones.cs#L30)
 
 ```csharp
 ref float PrevPosScale { get; }
@@ -72,7 +72,7 @@ ref float PrevPosScale { get; }
 
 ### TransformNormals
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SnapshotSkinToBones.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SnapshotSkinToBones.cs#L18)
 
 ```csharp
 ref bool TransformNormals { get; }
@@ -84,7 +84,7 @@ ref bool TransformNormals { get; }
 
 ### TransformRadii
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SnapshotSkinToBones.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SnapshotSkinToBones.cs#L20)
 
 ```csharp
 ref bool TransformRadii { get; }

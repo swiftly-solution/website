@@ -12,7 +12,7 @@ public interface CJumpHelperUpdateNode : CSequenceUpdateNode, CSequenceUpdateNod
 
 ### CorrectionMethod
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CJumpHelperUpdateNode.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CJumpHelperUpdateNode.cs#L28)
 
 ```csharp
 ref JumpCorrectionMethod CorrectionMethod { get; }
@@ -24,7 +24,7 @@ ref JumpCorrectionMethod CorrectionMethod { get; }
 
 ### JumpEndCycle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CJumpHelperUpdateNode.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CJumpHelperUpdateNode.cs#L26)
 
 ```csharp
 ref float JumpEndCycle { get; }
@@ -36,7 +36,7 @@ ref float JumpEndCycle { get; }
 
 ### JumpStartCycle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CJumpHelperUpdateNode.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CJumpHelperUpdateNode.cs#L24)
 
 ```csharp
 ref float JumpStartCycle { get; }
@@ -48,7 +48,7 @@ ref float JumpStartCycle { get; }
 
 ### OriginalJumpDuration
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CJumpHelperUpdateNode.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CJumpHelperUpdateNode.cs#L22)
 
 ```csharp
 ref float OriginalJumpDuration { get; }
@@ -60,7 +60,7 @@ ref float OriginalJumpDuration { get; }
 
 ### OriginalJumpMovement
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CJumpHelperUpdateNode.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CJumpHelperUpdateNode.cs#L20)
 
 ```csharp
 ref Vector OriginalJumpMovement { get; }
@@ -72,7 +72,7 @@ ref Vector OriginalJumpMovement { get; }
 
 ### ScaleSpeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CJumpHelperUpdateNode.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CJumpHelperUpdateNode.cs#L32)
 
 ```csharp
 ref bool ScaleSpeed { get; }
@@ -84,7 +84,7 @@ ref bool ScaleSpeed { get; }
 
 ### TargetParam
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CJumpHelperUpdateNode.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CJumpHelperUpdateNode.cs#L18)
 
 ```csharp
 CAnimParamHandle TargetParam { get; }
@@ -96,7 +96,7 @@ CAnimParamHandle TargetParam { get; }
 
 ### TranslationAxis
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CJumpHelperUpdateNode.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CJumpHelperUpdateNode.cs#L30)
 
 ```csharp
 ISchemaFixedArray<bool> TranslationAxis { get; }

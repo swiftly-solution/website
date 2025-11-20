@@ -12,7 +12,7 @@ public interface CPhysicsEntitySolver : CLogicalEntity, CServerOnlyEntity, CBase
 
 ### CancelTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsEntitySolver.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsEntitySolver.cs#L24)
 
 ```csharp
 GameTime_t CancelTime { get; }
@@ -24,7 +24,7 @@ GameTime_t CancelTime { get; }
 
 ### MovingEntity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsEntitySolver.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsEntitySolver.cs#L18)
 
 ```csharp
 ref CHandle<CBaseEntity> MovingEntity { get; }
@@ -36,7 +36,7 @@ ref CHandle<CBaseEntity> MovingEntity { get; }
 
 ### PhysicsBlocker
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsEntitySolver.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsEntitySolver.cs#L20)
 
 ```csharp
 ref CHandle<CBaseEntity> PhysicsBlocker { get; }
@@ -48,7 +48,7 @@ ref CHandle<CBaseEntity> PhysicsBlocker { get; }
 
 ### SeparationDuration
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsEntitySolver.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsEntitySolver.cs#L22)
 
 ```csharp
 ref float SeparationDuration { get; }

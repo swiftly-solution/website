@@ -12,7 +12,7 @@ public interface constraint_hingeparams_t : ISchemaClass<constraint_hingeparams_
 
 ### Constraint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/constraint_hingeparams_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/constraint_hingeparams_t.cs#L24)
 
 ```csharp
 constraint_breakableparams_t Constraint { get; }
@@ -24,7 +24,7 @@ constraint_breakableparams_t Constraint { get; }
 
 ### HingeAxis
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/constraint_hingeparams_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/constraint_hingeparams_t.cs#L22)
 
 ```csharp
 constraint_axislimit_t HingeAxis { get; }
@@ -36,7 +36,7 @@ constraint_axislimit_t HingeAxis { get; }
 
 ### WorldAxisDirection
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/constraint_hingeparams_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/constraint_hingeparams_t.cs#L20)
 
 ```csharp
 ref Vector WorldAxisDirection { get; }
@@ -48,7 +48,7 @@ ref Vector WorldAxisDirection { get; }
 
 ### WorldPosition
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/constraint_hingeparams_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/constraint_hingeparams_t.cs#L18)
 
 ```csharp
 ref Vector WorldPosition { get; }

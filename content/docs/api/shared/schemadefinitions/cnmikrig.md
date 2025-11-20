@@ -12,7 +12,7 @@ public interface CNmIKRig : ISchemaClass<CNmIKRig>, ISchemaField, ISchemaClass, 
 
 ### Bodies
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKRig.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKRig.cs#L20)
 
 ```csharp
 ref CUtlVector<CNmIKBody> Bodies { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<CNmIKBody> Bodies { get; }
 
 ### Joints
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKRig.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKRig.cs#L22)
 
 ```csharp
 ref CUtlVector<CNmIKJoint> Joints { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<CNmIKJoint> Joints { get; }
 
 ### Skeleton
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKRig.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKRig.cs#L18)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCNmSkeleton> Skeleton { get; }

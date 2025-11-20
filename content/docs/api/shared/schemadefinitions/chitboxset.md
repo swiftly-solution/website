@@ -12,7 +12,7 @@ public interface CHitBoxSet : ISchemaClass<CHitBoxSet>, ISchemaField, ISchemaCla
 
 ### HitBoxes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitBoxSet.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitBoxSet.cs#L22)
 
 ```csharp
 ref CUtlVector<CHitBox> HitBoxes { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<CHitBox> HitBoxes { get; }
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitBoxSet.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitBoxSet.cs#L18)
 
 ```csharp
 string Name { get; set; }
@@ -36,7 +36,7 @@ string Name { get; set; }
 
 ### NameHash
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitBoxSet.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitBoxSet.cs#L20)
 
 ```csharp
 ref uint NameHash { get; }
@@ -48,7 +48,7 @@ ref uint NameHash { get; }
 
 ### SourceFilename
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitBoxSet.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitBoxSet.cs#L24)
 
 ```csharp
 string SourceFilename { get; set; }

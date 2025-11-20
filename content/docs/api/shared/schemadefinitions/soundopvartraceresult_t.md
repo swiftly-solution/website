@@ -12,7 +12,7 @@ public interface SoundOpvarTraceResult_t : ISchemaClass<SoundOpvarTraceResult_t>
 
 ### DidHit
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SoundOpvarTraceResult_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SoundOpvarTraceResult_t.cs#L20)
 
 ```csharp
 ref bool DidHit { get; }
@@ -24,7 +24,7 @@ ref bool DidHit { get; }
 
 ### DistSqrToCenter
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SoundOpvarTraceResult_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SoundOpvarTraceResult_t.cs#L22)
 
 ```csharp
 ref float DistSqrToCenter { get; }
@@ -36,7 +36,7 @@ ref float DistSqrToCenter { get; }
 
 ### Pos
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SoundOpvarTraceResult_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SoundOpvarTraceResult_t.cs#L18)
 
 ```csharp
 ref Vector Pos { get; }

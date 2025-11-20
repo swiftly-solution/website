@@ -12,7 +12,7 @@ public interface CPulseCell_Outflow_CycleOrdered__InstanceState_t : ISchemaClass
 
 ### NextIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_CycleOrdered__InstanceState_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_CycleOrdered__InstanceState_t.cs#L18)
 
 ```csharp
 ref int NextIndex { get; }

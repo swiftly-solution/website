@@ -12,7 +12,7 @@ public interface CEnvGlobal : CLogicalEntity, CServerOnlyEntity, CBaseEntity, CE
 
 ### Counter
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvGlobal.cs#L26)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvGlobal.cs#L27)
 
 ```csharp
 ref int Counter { get; }
@@ -24,7 +24,7 @@ ref int Counter { get; }
 
 ### Globalstate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvGlobal.cs#L20)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvGlobal.cs#L21)
 
 ```csharp
 string Globalstate { get; set; }
@@ -36,7 +36,7 @@ string Globalstate { get; set; }
 
 ### Initialstate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvGlobal.cs#L24)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvGlobal.cs#L25)
 
 ```csharp
 ref int Initialstate { get; }
@@ -48,7 +48,7 @@ ref int Initialstate { get; }
 
 ### OutCounter
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvGlobal.cs#L18)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvGlobal.cs#L19)
 
 ```csharp
 SchemaUntypedField OutCounter { get; }
@@ -60,7 +60,7 @@ SchemaUntypedField OutCounter { get; }
 
 ### Triggermode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvGlobal.cs#L22)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvGlobal.cs#L23)
 
 ```csharp
 ref int Triggermode { get; }

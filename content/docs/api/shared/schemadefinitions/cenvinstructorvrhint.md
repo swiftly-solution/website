@@ -12,7 +12,7 @@ public interface CEnvInstructorVRHint : CPointEntity, CBaseEntity, CEntityInstan
 
 ### AttachType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorVRHint.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorVRHint.cs#L32)
 
 ```csharp
 ref int AttachType { get; }
@@ -24,7 +24,7 @@ ref int AttachType { get; }
 
 ### Caption
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorVRHint.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorVRHint.cs#L24)
 
 ```csharp
 string Caption { get; set; }
@@ -36,7 +36,7 @@ string Caption { get; set; }
 
 ### CustomLayoutFile
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorVRHint.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorVRHint.cs#L30)
 
 ```csharp
 string CustomLayoutFile { get; set; }
@@ -48,7 +48,7 @@ string CustomLayoutFile { get; set; }
 
 ### HeightOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorVRHint.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorVRHint.cs#L34)
 
 ```csharp
 ref float HeightOffset { get; }
@@ -60,7 +60,7 @@ ref float HeightOffset { get; }
 
 ### HintTargetEntity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorVRHint.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorVRHint.cs#L20)
 
 ```csharp
 string HintTargetEntity { get; set; }
@@ -72,7 +72,7 @@ string HintTargetEntity { get; set; }
 
 ### LayoutFileType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorVRHint.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorVRHint.cs#L28)
 
 ```csharp
 ref int LayoutFileType { get; }
@@ -84,7 +84,7 @@ ref int LayoutFileType { get; }
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorVRHint.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorVRHint.cs#L18)
 
 ```csharp
 string Name { get; set; }
@@ -96,7 +96,7 @@ string Name { get; set; }
 
 ### StartSound
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorVRHint.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorVRHint.cs#L26)
 
 ```csharp
 string StartSound { get; set; }
@@ -108,7 +108,7 @@ string StartSound { get; set; }
 
 ### Timeout
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorVRHint.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvInstructorVRHint.cs#L22)
 
 ```csharp
 ref int Timeout { get; }

@@ -12,7 +12,7 @@ public interface CMaterialDrawDescriptor : ISchemaClass<CMaterialDrawDescriptor>
 
 ### Alpha
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor.cs#L22)
 
 ```csharp
 ref float Alpha { get; }
@@ -24,7 +24,7 @@ ref float Alpha { get; }
 
 ### AppliedIndexOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor.cs#L28)
 
 ```csharp
 ref uint AppliedIndexOffset { get; }
@@ -36,7 +36,7 @@ ref uint AppliedIndexOffset { get; }
 
 ### BaseVertex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor.cs#L38)
 
 ```csharp
 ref int BaseVertex { get; }
@@ -48,7 +48,7 @@ ref int BaseVertex { get; }
 
 ### DepthVertexBufferIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor.cs#L30)
 
 ```csharp
 ref byte DepthVertexBufferIndex { get; }
@@ -60,7 +60,7 @@ ref byte DepthVertexBufferIndex { get; }
 
 ### FirstMeshlet
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor.cs#L26)
 
 ```csharp
 ref uint FirstMeshlet { get; }
@@ -72,7 +72,7 @@ ref uint FirstMeshlet { get; }
 
 ### IndexBuffer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor.cs#L46)
 
 ```csharp
 CRenderBufferBinding IndexBuffer { get; }
@@ -84,7 +84,7 @@ CRenderBufferBinding IndexBuffer { get; }
 
 ### IndexCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor.cs#L44)
 
 ```csharp
 ref int IndexCount { get; }
@@ -96,7 +96,7 @@ ref int IndexCount { get; }
 
 ### Material
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor.cs#L50)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeIMaterial2> Material { get; }
@@ -108,7 +108,7 @@ ref CStrongHandle<InfoForResourceTypeIMaterial2> Material { get; }
 
 ### MeshletPackedIVB
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor.cs#L48)
 
 ```csharp
 CRenderBufferBinding MeshletPackedIVB { get; }
@@ -120,7 +120,7 @@ CRenderBufferBinding MeshletPackedIVB { get; }
 
 ### MeshletPackedIVBIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor.cs#L32)
 
 ```csharp
 ref byte MeshletPackedIVBIndex { get; }
@@ -132,7 +132,7 @@ ref byte MeshletPackedIVBIndex { get; }
 
 ### NumMeshlets
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor.cs#L24)
 
 ```csharp
 ref ushort NumMeshlets { get; }
@@ -144,7 +144,7 @@ ref ushort NumMeshlets { get; }
 
 ### PrimitiveType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor.cs#L36)
 
 ```csharp
 ref RenderPrimitiveType_t PrimitiveType { get; }
@@ -156,7 +156,7 @@ ref RenderPrimitiveType_t PrimitiveType { get; }
 
 ### RigidMeshParts
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor.cs#L34)
 
 ```csharp
 ref CUtlLeanVector<CMaterialDrawDescriptor__RigidMeshPart_t, int> RigidMeshParts { get; }
@@ -168,7 +168,7 @@ ref CUtlLeanVector<CMaterialDrawDescriptor__RigidMeshPart_t, int> RigidMeshParts
 
 ### StartIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor.cs#L42)
 
 ```csharp
 ref int StartIndex { get; }
@@ -180,7 +180,7 @@ ref int StartIndex { get; }
 
 ### TintColor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor.cs#L20)
 
 ```csharp
 ref Vector TintColor { get; }
@@ -192,7 +192,7 @@ ref Vector TintColor { get; }
 
 ### UvDensity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor.cs#L18)
 
 ```csharp
 ref float UvDensity { get; }
@@ -204,7 +204,7 @@ ref float UvDensity { get; }
 
 ### VertexCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor.cs#L40)
 
 ```csharp
 ref int VertexCount { get; }

@@ -12,7 +12,7 @@ public interface CSosSoundEventGroupSchema : ISchemaClass<CSosSoundEventGroupSch
 
 ### Actions
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosSoundEventGroupSchema.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosSoundEventGroupSchema.cs#L48)
 
 ```csharp
 ref CUtlVector<PointerTo<CSosGroupActionSchema>> Actions { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<PointerTo<CSosGroupActionSchema>> Actions { get; }
 
 ### Behavior_EntIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosSoundEventGroupSchema.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosSoundEventGroupSchema.cs#L36)
 
 ```csharp
 ref SosGroupFieldBehavior_t Behavior_EntIndex { get; }
@@ -36,7 +36,7 @@ ref SosGroupFieldBehavior_t Behavior_EntIndex { get; }
 
 ### Behavior_EventName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosSoundEventGroupSchema.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosSoundEventGroupSchema.cs#L28)
 
 ```csharp
 ref SosGroupFieldBehavior_t Behavior_EventName { get; }
@@ -48,7 +48,7 @@ ref SosGroupFieldBehavior_t Behavior_EventName { get; }
 
 ### Behavior_Opvar
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosSoundEventGroupSchema.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosSoundEventGroupSchema.cs#L40)
 
 ```csharp
 ref SosGroupFieldBehavior_t Behavior_Opvar { get; }
@@ -60,7 +60,7 @@ ref SosGroupFieldBehavior_t Behavior_Opvar { get; }
 
 ### Behavior_String
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosSoundEventGroupSchema.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosSoundEventGroupSchema.cs#L44)
 
 ```csharp
 ref SosGroupFieldBehavior_t Behavior_String { get; }
@@ -72,7 +72,7 @@ ref SosGroupFieldBehavior_t Behavior_String { get; }
 
 ### BlockMaxCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosSoundEventGroupSchema.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosSoundEventGroupSchema.cs#L22)
 
 ```csharp
 ref int BlockMaxCount { get; }
@@ -84,7 +84,7 @@ ref int BlockMaxCount { get; }
 
 ### BlocksEvents
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosSoundEventGroupSchema.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosSoundEventGroupSchema.cs#L20)
 
 ```csharp
 ref bool BlocksEvents { get; }
@@ -96,7 +96,7 @@ ref bool BlocksEvents { get; }
 
 ### EntIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosSoundEventGroupSchema.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosSoundEventGroupSchema.cs#L38)
 
 ```csharp
 ref float EntIndex { get; }
@@ -108,7 +108,7 @@ ref float EntIndex { get; }
 
 ### GroupType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosSoundEventGroupSchema.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosSoundEventGroupSchema.cs#L18)
 
 ```csharp
 ref SosGroupType_t GroupType { get; }
@@ -120,7 +120,7 @@ ref SosGroupType_t GroupType { get; }
 
 ### InvertMatch
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosSoundEventGroupSchema.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosSoundEventGroupSchema.cs#L26)
 
 ```csharp
 ref bool InvertMatch { get; }
@@ -132,7 +132,7 @@ ref bool InvertMatch { get; }
 
 ### MatchEventSubString
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosSoundEventGroupSchema.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosSoundEventGroupSchema.cs#L32)
 
 ```csharp
 ref bool MatchEventSubString { get; }
@@ -144,7 +144,7 @@ ref bool MatchEventSubString { get; }
 
 ### MatchSoundEventName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosSoundEventGroupSchema.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosSoundEventGroupSchema.cs#L30)
 
 ```csharp
 string MatchSoundEventName { get; set; }
@@ -156,7 +156,7 @@ string MatchSoundEventName { get; set; }
 
 ### MatchSoundEventSubString
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosSoundEventGroupSchema.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosSoundEventGroupSchema.cs#L34)
 
 ```csharp
 string MatchSoundEventSubString { get; set; }
@@ -168,7 +168,7 @@ string MatchSoundEventSubString { get; set; }
 
 ### MemberLifespanTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosSoundEventGroupSchema.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosSoundEventGroupSchema.cs#L24)
 
 ```csharp
 ref float MemberLifespanTime { get; }
@@ -180,7 +180,7 @@ ref float MemberLifespanTime { get; }
 
 ### Opvar
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosSoundEventGroupSchema.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosSoundEventGroupSchema.cs#L42)
 
 ```csharp
 ref float Opvar { get; }
@@ -192,7 +192,7 @@ ref float Opvar { get; }
 
 ### OpvarString
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosSoundEventGroupSchema.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosSoundEventGroupSchema.cs#L46)
 
 ```csharp
 string OpvarString { get; set; }

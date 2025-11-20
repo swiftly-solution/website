@@ -12,7 +12,7 @@ public interface CModelConfigElement_RandomColor : CModelConfigElement, ISchemaC
 
 ### Gradient
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_RandomColor.cs#L18)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_RandomColor.cs#L19)
 
 ```csharp
 SchemaUntypedField Gradient { get; }

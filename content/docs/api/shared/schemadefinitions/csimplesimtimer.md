@@ -12,7 +12,7 @@ public interface CSimpleSimTimer : ISchemaClass<CSimpleSimTimer>, ISchemaField, 
 
 ### Next
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSimpleSimTimer.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSimpleSimTimer.cs#L18)
 
 ```csharp
 GameTime_t Next { get; }
@@ -24,7 +24,7 @@ GameTime_t Next { get; }
 
 ### WorldGroupId
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSimpleSimTimer.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSimpleSimTimer.cs#L20)
 
 ```csharp
 ref uint WorldGroupId { get; }

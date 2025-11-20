@@ -12,7 +12,7 @@ public interface CBoneConstraintPoseSpaceMorph__Input_t : ISchemaClass<CBoneCons
 
 ### InputValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneConstraintPoseSpaceMorph__Input_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneConstraintPoseSpaceMorph__Input_t.cs#L18)
 
 ```csharp
 ref Vector InputValue { get; }
@@ -24,7 +24,7 @@ ref Vector InputValue { get; }
 
 ### OutputWeightList
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneConstraintPoseSpaceMorph__Input_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneConstraintPoseSpaceMorph__Input_t.cs#L20)
 
 ```csharp
 ref CUtlVector<float> OutputWeightList { get; }

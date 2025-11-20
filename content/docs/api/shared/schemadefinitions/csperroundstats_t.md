@@ -12,7 +12,7 @@ public interface CSPerRoundStats_t : ISchemaClass<CSPerRoundStats_t>, ISchemaFie
 
 ### Assists
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L22)
 
 ```csharp
 ref int Assists { get; }
@@ -24,7 +24,7 @@ ref int Assists { get; }
 
 ### CashEarned
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L38)
 
 ```csharp
 ref int CashEarned { get; }
@@ -36,7 +36,7 @@ ref int CashEarned { get; }
 
 ### Damage
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L24)
 
 ```csharp
 ref int Damage { get; }
@@ -48,7 +48,7 @@ ref int Damage { get; }
 
 ### Deaths
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L20)
 
 ```csharp
 ref int Deaths { get; }
@@ -60,7 +60,7 @@ ref int Deaths { get; }
 
 ### EnemiesFlashed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L42)
 
 ```csharp
 ref int EnemiesFlashed { get; }
@@ -72,7 +72,7 @@ ref int EnemiesFlashed { get; }
 
 ### EquipmentValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L26)
 
 ```csharp
 ref int EquipmentValue { get; }
@@ -84,7 +84,7 @@ ref int EquipmentValue { get; }
 
 ### HeadShotKills
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L34)
 
 ```csharp
 ref int HeadShotKills { get; }
@@ -96,7 +96,7 @@ ref int HeadShotKills { get; }
 
 ### KillReward
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L30)
 
 ```csharp
 ref int KillReward { get; }
@@ -108,7 +108,7 @@ ref int KillReward { get; }
 
 ### Kills
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L18)
 
 ```csharp
 ref int Kills { get; }
@@ -120,7 +120,7 @@ ref int Kills { get; }
 
 ### LiveTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L32)
 
 ```csharp
 ref int LiveTime { get; }
@@ -132,7 +132,7 @@ ref int LiveTime { get; }
 
 ### MoneySaved
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L28)
 
 ```csharp
 ref int MoneySaved { get; }
@@ -144,7 +144,7 @@ ref int MoneySaved { get; }
 
 ### Objective
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L36)
 
 ```csharp
 ref int Objective { get; }
@@ -156,7 +156,7 @@ ref int Objective { get; }
 
 ### UtilityDamage
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L40)
 
 ```csharp
 ref int UtilityDamage { get; }
@@ -170,7 +170,7 @@ ref int UtilityDamage { get; }
 
 ### AssistsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L46)
 
 ```csharp
 void AssistsUpdated()
@@ -178,7 +178,7 @@ void AssistsUpdated()
 
 ### CashEarnedUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L54)
 
 ```csharp
 void CashEarnedUpdated()
@@ -186,7 +186,7 @@ void CashEarnedUpdated()
 
 ### DamageUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L46)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L47)
 
 ```csharp
 void DamageUpdated()
@@ -194,7 +194,7 @@ void DamageUpdated()
 
 ### DeathsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L44)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L45)
 
 ```csharp
 void DeathsUpdated()
@@ -202,7 +202,7 @@ void DeathsUpdated()
 
 ### EnemiesFlashedUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L56)
 
 ```csharp
 void EnemiesFlashedUpdated()
@@ -210,7 +210,7 @@ void EnemiesFlashedUpdated()
 
 ### EquipmentValueUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L48)
 
 ```csharp
 void EquipmentValueUpdated()
@@ -218,7 +218,7 @@ void EquipmentValueUpdated()
 
 ### HeadShotKillsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L52)
 
 ```csharp
 void HeadShotKillsUpdated()
@@ -226,7 +226,7 @@ void HeadShotKillsUpdated()
 
 ### KillRewardUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L50)
 
 ```csharp
 void KillRewardUpdated()
@@ -234,7 +234,7 @@ void KillRewardUpdated()
 
 ### KillsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L44)
 
 ```csharp
 void KillsUpdated()
@@ -242,7 +242,7 @@ void KillsUpdated()
 
 ### LiveTimeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L50)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L51)
 
 ```csharp
 void LiveTimeUpdated()
@@ -250,7 +250,7 @@ void LiveTimeUpdated()
 
 ### MoneySavedUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L48)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L49)
 
 ```csharp
 void MoneySavedUpdated()
@@ -258,7 +258,7 @@ void MoneySavedUpdated()
 
 ### ObjectiveUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L52)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L53)
 
 ```csharp
 void ObjectiveUpdated()
@@ -266,7 +266,7 @@ void ObjectiveUpdated()
 
 ### UtilityDamageUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L54)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSPerRoundStats_t.cs#L55)
 
 ```csharp
 void UtilityDamageUpdated()

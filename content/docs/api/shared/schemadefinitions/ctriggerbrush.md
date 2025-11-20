@@ -12,7 +12,7 @@ public interface CTriggerBrush : CBaseModelEntity, CBaseEntity, CEntityInstance,
 
 ### DontMessageParent
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerBrush.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerBrush.cs#L26)
 
 ```csharp
 ref int DontMessageParent { get; }
@@ -24,7 +24,7 @@ ref int DontMessageParent { get; }
 
 ### InputFilter
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerBrush.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerBrush.cs#L24)
 
 ```csharp
 ref int InputFilter { get; }
@@ -36,7 +36,7 @@ ref int InputFilter { get; }
 
 ### OnEndTouch
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerBrush.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerBrush.cs#L20)
 
 ```csharp
 CEntityIOOutput OnEndTouch { get; }
@@ -48,7 +48,7 @@ CEntityIOOutput OnEndTouch { get; }
 
 ### OnStartTouch
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerBrush.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerBrush.cs#L18)
 
 ```csharp
 CEntityIOOutput OnStartTouch { get; }
@@ -60,7 +60,7 @@ CEntityIOOutput OnStartTouch { get; }
 
 ### OnUse
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerBrush.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerBrush.cs#L22)
 
 ```csharp
 CEntityIOOutput OnUse { get; }

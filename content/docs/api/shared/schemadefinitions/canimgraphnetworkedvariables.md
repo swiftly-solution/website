@@ -12,7 +12,7 @@ public interface CAnimGraphNetworkedVariables : ISchemaClass<CAnimGraphNetworked
 
 ### BoolVariablesCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L58)
 
 ```csharp
 ref int BoolVariablesCount { get; }
@@ -24,7 +24,7 @@ ref int BoolVariablesCount { get; }
 
 ### LastTeleportTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L64)
 
 ```csharp
 ref float LastTeleportTime { get; }
@@ -36,7 +36,7 @@ ref float LastTeleportTime { get; }
 
 ### OwnerOnlyBoolVariablesCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L60)
 
 ```csharp
 ref int OwnerOnlyBoolVariablesCount { get; }
@@ -48,7 +48,7 @@ ref int OwnerOnlyBoolVariablesCount { get; }
 
 ### OwnerOnlyPredNetBoolVariables
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L38)
 
 ```csharp
 ref CUtlVector<uint> OwnerOnlyPredNetBoolVariables { get; }
@@ -60,7 +60,7 @@ ref CUtlVector<uint> OwnerOnlyPredNetBoolVariables { get; }
 
 ### OwnerOnlyPredNetByteVariables
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L40)
 
 ```csharp
 ref CUtlVector<byte> OwnerOnlyPredNetByteVariables { get; }
@@ -72,7 +72,7 @@ ref CUtlVector<byte> OwnerOnlyPredNetByteVariables { get; }
 
 ### OwnerOnlyPredNetFloatVariables
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L50)
 
 ```csharp
 ref CUtlVector<float> OwnerOnlyPredNetFloatVariables { get; }
@@ -84,7 +84,7 @@ ref CUtlVector<float> OwnerOnlyPredNetFloatVariables { get; }
 
 ### OwnerOnlyPredNetGlobalSymbolVariables
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L56)
 
 ```csharp
 ref CUtlVector<CGlobalSymbol> OwnerOnlyPredNetGlobalSymbolVariables { get; }
@@ -96,7 +96,7 @@ ref CUtlVector<CGlobalSymbol> OwnerOnlyPredNetGlobalSymbolVariables { get; }
 
 ### OwnerOnlyPredNetIntVariables
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L44)
 
 ```csharp
 ref CUtlVector<int> OwnerOnlyPredNetIntVariables { get; }
@@ -108,7 +108,7 @@ ref CUtlVector<int> OwnerOnlyPredNetIntVariables { get; }
 
 ### OwnerOnlyPredNetQuaternionVariables
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L54)
 
 ```csharp
 ref CUtlVector<Quaternion> OwnerOnlyPredNetQuaternionVariables { get; }
@@ -120,7 +120,7 @@ ref CUtlVector<Quaternion> OwnerOnlyPredNetQuaternionVariables { get; }
 
 ### OwnerOnlyPredNetUInt16Variables
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L42)
 
 ```csharp
 ref CUtlVector<ushort> OwnerOnlyPredNetUInt16Variables { get; }
@@ -132,7 +132,7 @@ ref CUtlVector<ushort> OwnerOnlyPredNetUInt16Variables { get; }
 
 ### OwnerOnlyPredNetUInt32Variables
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L46)
 
 ```csharp
 ref CUtlVector<uint> OwnerOnlyPredNetUInt32Variables { get; }
@@ -144,7 +144,7 @@ ref CUtlVector<uint> OwnerOnlyPredNetUInt32Variables { get; }
 
 ### OwnerOnlyPredNetUInt64Variables
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L48)
 
 ```csharp
 ref CUtlVector<ulong> OwnerOnlyPredNetUInt64Variables { get; }
@@ -156,7 +156,7 @@ ref CUtlVector<ulong> OwnerOnlyPredNetUInt64Variables { get; }
 
 ### OwnerOnlyPredNetVectorVariables
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L52)
 
 ```csharp
 ref CUtlVector<Vector> OwnerOnlyPredNetVectorVariables { get; }
@@ -168,7 +168,7 @@ ref CUtlVector<Vector> OwnerOnlyPredNetVectorVariables { get; }
 
 ### PredNetBoolVariables
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L18)
 
 ```csharp
 ref CUtlVector<uint> PredNetBoolVariables { get; }
@@ -180,7 +180,7 @@ ref CUtlVector<uint> PredNetBoolVariables { get; }
 
 ### PredNetByteVariables
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L20)
 
 ```csharp
 ref CUtlVector<byte> PredNetByteVariables { get; }
@@ -192,7 +192,7 @@ ref CUtlVector<byte> PredNetByteVariables { get; }
 
 ### PredNetFloatVariables
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L30)
 
 ```csharp
 ref CUtlVector<float> PredNetFloatVariables { get; }
@@ -204,7 +204,7 @@ ref CUtlVector<float> PredNetFloatVariables { get; }
 
 ### PredNetGlobalSymbolVariables
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L36)
 
 ```csharp
 ref CUtlVector<CGlobalSymbol> PredNetGlobalSymbolVariables { get; }
@@ -216,7 +216,7 @@ ref CUtlVector<CGlobalSymbol> PredNetGlobalSymbolVariables { get; }
 
 ### PredNetIntVariables
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L24)
 
 ```csharp
 ref CUtlVector<int> PredNetIntVariables { get; }
@@ -228,7 +228,7 @@ ref CUtlVector<int> PredNetIntVariables { get; }
 
 ### PredNetQuaternionVariables
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L34)
 
 ```csharp
 ref CUtlVector<Quaternion> PredNetQuaternionVariables { get; }
@@ -240,7 +240,7 @@ ref CUtlVector<Quaternion> PredNetQuaternionVariables { get; }
 
 ### PredNetUInt16Variables
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L22)
 
 ```csharp
 ref CUtlVector<ushort> PredNetUInt16Variables { get; }
@@ -252,7 +252,7 @@ ref CUtlVector<ushort> PredNetUInt16Variables { get; }
 
 ### PredNetUInt32Variables
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L26)
 
 ```csharp
 ref CUtlVector<uint> PredNetUInt32Variables { get; }
@@ -264,7 +264,7 @@ ref CUtlVector<uint> PredNetUInt32Variables { get; }
 
 ### PredNetUInt64Variables
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L28)
 
 ```csharp
 ref CUtlVector<ulong> PredNetUInt64Variables { get; }
@@ -276,7 +276,7 @@ ref CUtlVector<ulong> PredNetUInt64Variables { get; }
 
 ### PredNetVectorVariables
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L32)
 
 ```csharp
 ref CUtlVector<Vector> PredNetVectorVariables { get; }
@@ -288,7 +288,7 @@ ref CUtlVector<Vector> PredNetVectorVariables { get; }
 
 ### RandomSeedOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L62)
 
 ```csharp
 ref int RandomSeedOffset { get; }
@@ -302,7 +302,7 @@ ref int RandomSeedOffset { get; }
 
 ### BoolVariablesCountUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L85)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L86)
 
 ```csharp
 void BoolVariablesCountUpdated()
@@ -310,7 +310,7 @@ void BoolVariablesCountUpdated()
 
 ### LastTeleportTimeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L88)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L89)
 
 ```csharp
 void LastTeleportTimeUpdated()
@@ -318,7 +318,7 @@ void LastTeleportTimeUpdated()
 
 ### OwnerOnlyBoolVariablesCountUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L86)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L87)
 
 ```csharp
 void OwnerOnlyBoolVariablesCountUpdated()
@@ -326,7 +326,7 @@ void OwnerOnlyBoolVariablesCountUpdated()
 
 ### OwnerOnlyPredNetBoolVariablesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L75)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L76)
 
 ```csharp
 void OwnerOnlyPredNetBoolVariablesUpdated()
@@ -334,7 +334,7 @@ void OwnerOnlyPredNetBoolVariablesUpdated()
 
 ### OwnerOnlyPredNetByteVariablesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L76)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L77)
 
 ```csharp
 void OwnerOnlyPredNetByteVariablesUpdated()
@@ -342,7 +342,7 @@ void OwnerOnlyPredNetByteVariablesUpdated()
 
 ### OwnerOnlyPredNetFloatVariablesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L81)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L82)
 
 ```csharp
 void OwnerOnlyPredNetFloatVariablesUpdated()
@@ -350,7 +350,7 @@ void OwnerOnlyPredNetFloatVariablesUpdated()
 
 ### OwnerOnlyPredNetGlobalSymbolVariablesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L84)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L85)
 
 ```csharp
 void OwnerOnlyPredNetGlobalSymbolVariablesUpdated()
@@ -358,7 +358,7 @@ void OwnerOnlyPredNetGlobalSymbolVariablesUpdated()
 
 ### OwnerOnlyPredNetIntVariablesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L78)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L79)
 
 ```csharp
 void OwnerOnlyPredNetIntVariablesUpdated()
@@ -366,7 +366,7 @@ void OwnerOnlyPredNetIntVariablesUpdated()
 
 ### OwnerOnlyPredNetQuaternionVariablesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L83)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L84)
 
 ```csharp
 void OwnerOnlyPredNetQuaternionVariablesUpdated()
@@ -374,7 +374,7 @@ void OwnerOnlyPredNetQuaternionVariablesUpdated()
 
 ### OwnerOnlyPredNetUInt16VariablesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L77)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L78)
 
 ```csharp
 void OwnerOnlyPredNetUInt16VariablesUpdated()
@@ -382,7 +382,7 @@ void OwnerOnlyPredNetUInt16VariablesUpdated()
 
 ### OwnerOnlyPredNetUInt32VariablesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L79)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L80)
 
 ```csharp
 void OwnerOnlyPredNetUInt32VariablesUpdated()
@@ -390,7 +390,7 @@ void OwnerOnlyPredNetUInt32VariablesUpdated()
 
 ### OwnerOnlyPredNetUInt64VariablesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L80)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L81)
 
 ```csharp
 void OwnerOnlyPredNetUInt64VariablesUpdated()
@@ -398,7 +398,7 @@ void OwnerOnlyPredNetUInt64VariablesUpdated()
 
 ### OwnerOnlyPredNetVectorVariablesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L82)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L83)
 
 ```csharp
 void OwnerOnlyPredNetVectorVariablesUpdated()
@@ -406,7 +406,7 @@ void OwnerOnlyPredNetVectorVariablesUpdated()
 
 ### PredNetBoolVariablesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L65)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L66)
 
 ```csharp
 void PredNetBoolVariablesUpdated()
@@ -414,7 +414,7 @@ void PredNetBoolVariablesUpdated()
 
 ### PredNetByteVariablesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L66)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L67)
 
 ```csharp
 void PredNetByteVariablesUpdated()
@@ -422,7 +422,7 @@ void PredNetByteVariablesUpdated()
 
 ### PredNetFloatVariablesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L71)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L72)
 
 ```csharp
 void PredNetFloatVariablesUpdated()
@@ -430,7 +430,7 @@ void PredNetFloatVariablesUpdated()
 
 ### PredNetGlobalSymbolVariablesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L74)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L75)
 
 ```csharp
 void PredNetGlobalSymbolVariablesUpdated()
@@ -438,7 +438,7 @@ void PredNetGlobalSymbolVariablesUpdated()
 
 ### PredNetIntVariablesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L68)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L69)
 
 ```csharp
 void PredNetIntVariablesUpdated()
@@ -446,7 +446,7 @@ void PredNetIntVariablesUpdated()
 
 ### PredNetQuaternionVariablesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L73)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L74)
 
 ```csharp
 void PredNetQuaternionVariablesUpdated()
@@ -454,7 +454,7 @@ void PredNetQuaternionVariablesUpdated()
 
 ### PredNetUInt16VariablesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L67)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L68)
 
 ```csharp
 void PredNetUInt16VariablesUpdated()
@@ -462,7 +462,7 @@ void PredNetUInt16VariablesUpdated()
 
 ### PredNetUInt32VariablesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L69)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L70)
 
 ```csharp
 void PredNetUInt32VariablesUpdated()
@@ -470,7 +470,7 @@ void PredNetUInt32VariablesUpdated()
 
 ### PredNetUInt64VariablesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L70)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L71)
 
 ```csharp
 void PredNetUInt64VariablesUpdated()
@@ -478,7 +478,7 @@ void PredNetUInt64VariablesUpdated()
 
 ### PredNetVectorVariablesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L72)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L73)
 
 ```csharp
 void PredNetVectorVariablesUpdated()
@@ -486,7 +486,7 @@ void PredNetVectorVariablesUpdated()
 
 ### RandomSeedOffsetUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L87)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkedVariables.cs#L88)
 
 ```csharp
 void RandomSeedOffsetUpdated()

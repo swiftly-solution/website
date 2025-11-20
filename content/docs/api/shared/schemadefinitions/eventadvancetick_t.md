@@ -12,7 +12,7 @@ public interface EventAdvanceTick_t : EventSimulate_t, ISchemaClass<EventSimulat
 
 ### CurrentTick
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventAdvanceTick_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventAdvanceTick_t.cs#L18)
 
 ```csharp
 ref int CurrentTick { get; }
@@ -24,7 +24,7 @@ ref int CurrentTick { get; }
 
 ### CurrentTickThisFrame
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventAdvanceTick_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventAdvanceTick_t.cs#L20)
 
 ```csharp
 ref int CurrentTickThisFrame { get; }
@@ -36,7 +36,7 @@ ref int CurrentTickThisFrame { get; }
 
 ### TotalTicks
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventAdvanceTick_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventAdvanceTick_t.cs#L24)
 
 ```csharp
 ref int TotalTicks { get; }
@@ -48,7 +48,7 @@ ref int TotalTicks { get; }
 
 ### TotalTicksThisFrame
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventAdvanceTick_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventAdvanceTick_t.cs#L22)
 
 ```csharp
 ref int TotalTicksThisFrame { get; }

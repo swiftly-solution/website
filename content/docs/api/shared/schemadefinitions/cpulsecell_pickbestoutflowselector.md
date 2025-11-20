@@ -12,7 +12,7 @@ public interface CPulseCell_PickBestOutflowSelector : CPulseCell_BaseFlow, CPuls
 
 ### CheckType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_PickBestOutflowSelector.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_PickBestOutflowSelector.cs#L18)
 
 ```csharp
 ref PulseBestOutflowRules_t CheckType { get; }
@@ -24,7 +24,7 @@ ref PulseBestOutflowRules_t CheckType { get; }
 
 ### OutflowList
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_PickBestOutflowSelector.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_PickBestOutflowSelector.cs#L20)
 
 ```csharp
 PulseSelectorOutflowList_t OutflowList { get; }

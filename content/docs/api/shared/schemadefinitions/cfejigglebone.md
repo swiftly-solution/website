@@ -12,7 +12,7 @@ public interface CFeJiggleBone : ISchemaClass<CFeJiggleBone>, ISchemaField, ISch
 
 ### AlongDamping
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L34)
 
 ```csharp
 ref float AlongDamping { get; }
@@ -24,7 +24,7 @@ ref float AlongDamping { get; }
 
 ### AlongStiffness
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L32)
 
 ```csharp
 ref float AlongStiffness { get; }
@@ -36,7 +36,7 @@ ref float AlongStiffness { get; }
 
 ### AngleLimit
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L36)
 
 ```csharp
 ref float AngleLimit { get; }
@@ -48,7 +48,7 @@ ref float AngleLimit { get; }
 
 ### BaseDamping
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L58)
 
 ```csharp
 ref float BaseDamping { get; }
@@ -60,7 +60,7 @@ ref float BaseDamping { get; }
 
 ### BaseForwardFriction
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L75)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L76)
 
 ```csharp
 ref float BaseForwardFriction { get; }
@@ -72,7 +72,7 @@ ref float BaseForwardFriction { get; }
 
 ### BaseLeftFriction
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L64)
 
 ```csharp
 ref float BaseLeftFriction { get; }
@@ -84,7 +84,7 @@ ref float BaseLeftFriction { get; }
 
 ### BaseMass
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L54)
 
 ```csharp
 ref float BaseMass { get; }
@@ -96,7 +96,7 @@ ref float BaseMass { get; }
 
 ### BaseMaxForward
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L73)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L74)
 
 ```csharp
 ref float BaseMaxForward { get; }
@@ -108,7 +108,7 @@ ref float BaseMaxForward { get; }
 
 ### BaseMaxLeft
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L62)
 
 ```csharp
 ref float BaseMaxLeft { get; }
@@ -120,7 +120,7 @@ ref float BaseMaxLeft { get; }
 
 ### BaseMaxUp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L67)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L68)
 
 ```csharp
 ref float BaseMaxUp { get; }
@@ -132,7 +132,7 @@ ref float BaseMaxUp { get; }
 
 ### BaseMinForward
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L71)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L72)
 
 ```csharp
 ref float BaseMinForward { get; }
@@ -144,7 +144,7 @@ ref float BaseMinForward { get; }
 
 ### BaseMinLeft
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L60)
 
 ```csharp
 ref float BaseMinLeft { get; }
@@ -156,7 +156,7 @@ ref float BaseMinLeft { get; }
 
 ### BaseMinUp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L65)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L66)
 
 ```csharp
 ref float BaseMinUp { get; }
@@ -168,7 +168,7 @@ ref float BaseMinUp { get; }
 
 ### BaseStiffness
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L56)
 
 ```csharp
 ref float BaseStiffness { get; }
@@ -180,7 +180,7 @@ ref float BaseStiffness { get; }
 
 ### BaseUpFriction
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L69)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L70)
 
 ```csharp
 ref float BaseUpFriction { get; }
@@ -192,7 +192,7 @@ ref float BaseUpFriction { get; }
 
 ### CollisionMask
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L85)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L86)
 
 ```csharp
 ref ushort CollisionMask { get; }
@@ -204,7 +204,7 @@ ref ushort CollisionMask { get; }
 
 ### Flags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L18)
 
 ```csharp
 ref uint Flags { get; }
@@ -216,7 +216,7 @@ ref uint Flags { get; }
 
 ### Length
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L20)
 
 ```csharp
 ref float Length { get; }
@@ -228,7 +228,7 @@ ref float Length { get; }
 
 ### MaxPitch
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L48)
 
 ```csharp
 ref float MaxPitch { get; }
@@ -240,7 +240,7 @@ ref float MaxPitch { get; }
 
 ### MaxYaw
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L40)
 
 ```csharp
 ref float MaxYaw { get; }
@@ -252,7 +252,7 @@ ref float MaxYaw { get; }
 
 ### MinPitch
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L46)
 
 ```csharp
 ref float MinPitch { get; }
@@ -264,7 +264,7 @@ ref float MinPitch { get; }
 
 ### MinYaw
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L38)
 
 ```csharp
 ref float MinYaw { get; }
@@ -276,7 +276,7 @@ ref float MinYaw { get; }
 
 ### PitchBounce
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L52)
 
 ```csharp
 ref float PitchBounce { get; }
@@ -288,7 +288,7 @@ ref float PitchBounce { get; }
 
 ### PitchDamping
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L30)
 
 ```csharp
 ref float PitchDamping { get; }
@@ -300,7 +300,7 @@ ref float PitchDamping { get; }
 
 ### PitchFriction
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L50)
 
 ```csharp
 ref float PitchFriction { get; }
@@ -312,7 +312,7 @@ ref float PitchFriction { get; }
 
 ### PitchStiffness
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L28)
 
 ```csharp
 ref float PitchStiffness { get; }
@@ -324,7 +324,7 @@ ref float PitchStiffness { get; }
 
 ### Point0
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L81)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L82)
 
 ```csharp
 ref Vector Point0 { get; }
@@ -336,7 +336,7 @@ ref Vector Point0 { get; }
 
 ### Point1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L83)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L84)
 
 ```csharp
 ref Vector Point1 { get; }
@@ -348,7 +348,7 @@ ref Vector Point1 { get; }
 
 ### Radius0
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L77)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L78)
 
 ```csharp
 ref float Radius0 { get; }
@@ -360,7 +360,7 @@ ref float Radius0 { get; }
 
 ### Radius1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L79)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L80)
 
 ```csharp
 ref float Radius1 { get; }
@@ -372,7 +372,7 @@ ref float Radius1 { get; }
 
 ### TipMass
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L22)
 
 ```csharp
 ref float TipMass { get; }
@@ -384,7 +384,7 @@ ref float TipMass { get; }
 
 ### YawBounce
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L44)
 
 ```csharp
 ref float YawBounce { get; }
@@ -396,7 +396,7 @@ ref float YawBounce { get; }
 
 ### YawDamping
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L26)
 
 ```csharp
 ref float YawDamping { get; }
@@ -408,7 +408,7 @@ ref float YawDamping { get; }
 
 ### YawFriction
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L42)
 
 ```csharp
 ref float YawFriction { get; }
@@ -420,7 +420,7 @@ ref float YawFriction { get; }
 
 ### YawStiffness
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeJiggleBone.cs#L24)
 
 ```csharp
 ref float YawStiffness { get; }

@@ -12,7 +12,7 @@ public interface PulseScriptedSequenceData_t : ISchemaClass<PulseScriptedSequenc
 
 ### ActorID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseScriptedSequenceData_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseScriptedSequenceData_t.cs#L18)
 
 ```csharp
 ref int ActorID { get; }
@@ -24,7 +24,7 @@ ref int ActorID { get; }
 
 ### EntrySequence
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseScriptedSequenceData_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseScriptedSequenceData_t.cs#L22)
 
 ```csharp
 string EntrySequence { get; set; }
@@ -36,7 +36,7 @@ string EntrySequence { get; set; }
 
 ### ExitSequence
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseScriptedSequenceData_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseScriptedSequenceData_t.cs#L26)
 
 ```csharp
 string ExitSequence { get; set; }
@@ -48,7 +48,7 @@ string ExitSequence { get; set; }
 
 ### HeldWeaponBehavior
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseScriptedSequenceData_t.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseScriptedSequenceData_t.cs#L32)
 
 ```csharp
 ref ScriptedHeldWeaponBehavior_t HeldWeaponBehavior { get; }
@@ -60,7 +60,7 @@ ref ScriptedHeldWeaponBehavior_t HeldWeaponBehavior { get; }
 
 ### IgnoreLookAt
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseScriptedSequenceData_t.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseScriptedSequenceData_t.cs#L40)
 
 ```csharp
 ref bool IgnoreLookAt { get; }
@@ -72,7 +72,7 @@ ref bool IgnoreLookAt { get; }
 
 ### LoopActionSequence
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseScriptedSequenceData_t.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseScriptedSequenceData_t.cs#L36)
 
 ```csharp
 ref bool LoopActionSequence { get; }
@@ -84,7 +84,7 @@ ref bool LoopActionSequence { get; }
 
 ### LoopPostIdleSequence
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseScriptedSequenceData_t.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseScriptedSequenceData_t.cs#L38)
 
 ```csharp
 ref bool LoopPostIdleSequence { get; }
@@ -96,7 +96,7 @@ ref bool LoopPostIdleSequence { get; }
 
 ### LoopPreIdleSequence
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseScriptedSequenceData_t.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseScriptedSequenceData_t.cs#L34)
 
 ```csharp
 ref bool LoopPreIdleSequence { get; }
@@ -108,7 +108,7 @@ ref bool LoopPreIdleSequence { get; }
 
 ### MoveTo
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseScriptedSequenceData_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseScriptedSequenceData_t.cs#L28)
 
 ```csharp
 ref ScriptedMoveTo_t MoveTo { get; }
@@ -120,7 +120,7 @@ ref ScriptedMoveTo_t MoveTo { get; }
 
 ### MoveToGait
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseScriptedSequenceData_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseScriptedSequenceData_t.cs#L30)
 
 ```csharp
 ref SharedMovementGait_t MoveToGait { get; }
@@ -132,7 +132,7 @@ ref SharedMovementGait_t MoveToGait { get; }
 
 ### PreIdleSequence
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseScriptedSequenceData_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseScriptedSequenceData_t.cs#L20)
 
 ```csharp
 string PreIdleSequence { get; set; }
@@ -144,7 +144,7 @@ string PreIdleSequence { get; set; }
 
 ### Sequence
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseScriptedSequenceData_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseScriptedSequenceData_t.cs#L24)
 
 ```csharp
 string Sequence { get; set; }

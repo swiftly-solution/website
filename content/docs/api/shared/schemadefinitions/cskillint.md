@@ -12,7 +12,7 @@ public interface CSkillInt : ISchemaClass<CSkillInt>, ISchemaField, ISchemaClass
 
 ### Value
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkillInt.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkillInt.cs#L18)
 
 ```csharp
 ISchemaFixedArray<int> Value { get; }

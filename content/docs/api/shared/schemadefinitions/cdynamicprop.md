@@ -12,7 +12,7 @@ public interface CDynamicProp : CBreakableProp, CBaseProp, CBaseAnimGraph, CBase
 
 ### CreateNavObstacle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicProp.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicProp.cs#L18)
 
 ```csharp
 ref bool CreateNavObstacle { get; }
@@ -24,7 +24,7 @@ ref bool CreateNavObstacle { get; }
 
 ### CreateNonSolid
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicProp.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicProp.cs#L48)
 
 ```csharp
 ref bool CreateNonSolid { get; }
@@ -36,7 +36,7 @@ ref bool CreateNonSolid { get; }
 
 ### FiredStartEndOutput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicProp.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicProp.cs#L44)
 
 ```csharp
 ref bool FiredStartEndOutput { get; }
@@ -48,7 +48,7 @@ ref bool FiredStartEndOutput { get; }
 
 ### ForceNpcExclude
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicProp.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicProp.cs#L46)
 
 ```csharp
 ref bool ForceNpcExclude { get; }
@@ -60,7 +60,7 @@ ref bool ForceNpcExclude { get; }
 
 ### GlowColor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicProp.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicProp.cs#L58)
 
 ```csharp
 ref Color GlowColor { get; }
@@ -72,7 +72,7 @@ ref Color GlowColor { get; }
 
 ### GlowRange
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicProp.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicProp.cs#L54)
 
 ```csharp
 ref int GlowRange { get; }
@@ -84,7 +84,7 @@ ref int GlowRange { get; }
 
 ### GlowRangeMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicProp.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicProp.cs#L56)
 
 ```csharp
 ref int GlowRangeMin { get; }
@@ -96,7 +96,7 @@ ref int GlowRangeMin { get; }
 
 ### GlowTeam
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicProp.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicProp.cs#L60)
 
 ```csharp
 ref int GlowTeam { get; }
@@ -108,7 +108,7 @@ ref int GlowTeam { get; }
 
 ### IdleAnim
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicProp.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicProp.cs#L36)
 
 ```csharp
 string IdleAnim { get; set; }
@@ -120,7 +120,7 @@ string IdleAnim { get; set; }
 
 ### IdleAnimLoopMode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicProp.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicProp.cs#L38)
 
 ```csharp
 ref AnimLoopMode_t IdleAnimLoopMode { get; }
@@ -132,7 +132,7 @@ ref AnimLoopMode_t IdleAnimLoopMode { get; }
 
 ### InitialGlowState
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicProp.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicProp.cs#L52)
 
 ```csharp
 ref int InitialGlowState { get; }
@@ -144,7 +144,7 @@ ref int InitialGlowState { get; }
 
 ### IsOverrideProp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicProp.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicProp.cs#L50)
 
 ```csharp
 ref bool IsOverrideProp { get; }
@@ -156,7 +156,7 @@ ref bool IsOverrideProp { get; }
 
 ### NavObstacleUpdatesOverridden
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicProp.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicProp.cs#L20)
 
 ```csharp
 ref bool NavObstacleUpdatesOverridden { get; }
@@ -168,7 +168,7 @@ ref bool NavObstacleUpdatesOverridden { get; }
 
 ### OnAnimReachedEnd
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicProp.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicProp.cs#L34)
 
 ```csharp
 CEntityIOOutput OnAnimReachedEnd { get; }
@@ -180,7 +180,7 @@ CEntityIOOutput OnAnimReachedEnd { get; }
 
 ### OnAnimReachedStart
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicProp.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicProp.cs#L32)
 
 ```csharp
 CEntityIOOutput OnAnimReachedStart { get; }
@@ -192,7 +192,7 @@ CEntityIOOutput OnAnimReachedStart { get; }
 
 ### OutputAnimBegun
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicProp.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicProp.cs#L26)
 
 ```csharp
 CEntityIOOutput OutputAnimBegun { get; }
@@ -204,7 +204,7 @@ CEntityIOOutput OutputAnimBegun { get; }
 
 ### OutputAnimLoopCycleOver
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicProp.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicProp.cs#L30)
 
 ```csharp
 CEntityIOOutput OutputAnimLoopCycleOver { get; }
@@ -216,7 +216,7 @@ CEntityIOOutput OutputAnimLoopCycleOver { get; }
 
 ### OutputAnimOver
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicProp.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicProp.cs#L28)
 
 ```csharp
 CEntityIOOutput OutputAnimOver { get; }
@@ -228,7 +228,7 @@ CEntityIOOutput OutputAnimOver { get; }
 
 ### RandomizeCycle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicProp.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicProp.cs#L40)
 
 ```csharp
 ref bool RandomizeCycle { get; }
@@ -240,7 +240,7 @@ ref bool RandomizeCycle { get; }
 
 ### StartDisabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicProp.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicProp.cs#L42)
 
 ```csharp
 ref bool StartDisabled { get; }
@@ -252,7 +252,7 @@ ref bool StartDisabled { get; }
 
 ### UseAnimGraph
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicProp.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicProp.cs#L24)
 
 ```csharp
 ref bool UseAnimGraph { get; }
@@ -264,7 +264,7 @@ ref bool UseAnimGraph { get; }
 
 ### UseHitboxesForRenderBox
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicProp.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicProp.cs#L22)
 
 ```csharp
 ref bool UseHitboxesForRenderBox { get; }
@@ -278,7 +278,7 @@ ref bool UseHitboxesForRenderBox { get; }
 
 ### UseAnimGraphUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicProp.cs#L62)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicProp.cs#L63)
 
 ```csharp
 void UseAnimGraphUpdated()
@@ -286,7 +286,7 @@ void UseAnimGraphUpdated()
 
 ### UseHitboxesForRenderBoxUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicProp.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDynamicProp.cs#L62)
 
 ```csharp
 void UseHitboxesForRenderBoxUpdated()

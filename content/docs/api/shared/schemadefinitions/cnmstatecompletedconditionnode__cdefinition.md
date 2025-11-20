@@ -12,7 +12,7 @@ public interface CNmStateCompletedConditionNode__CDefinition : CNmBoolValueNode_
 
 ### SourceStateNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateCompletedConditionNode__CDefinition.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateCompletedConditionNode__CDefinition.cs#L18)
 
 ```csharp
 ref short SourceStateNodeIdx { get; }
@@ -24,7 +24,7 @@ ref short SourceStateNodeIdx { get; }
 
 ### TransitionDurationOverrideNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateCompletedConditionNode__CDefinition.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateCompletedConditionNode__CDefinition.cs#L20)
 
 ```csharp
 ref short TransitionDurationOverrideNodeIdx { get; }
@@ -36,7 +36,7 @@ ref short TransitionDurationOverrideNodeIdx { get; }
 
 ### TransitionDurationSeconds
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateCompletedConditionNode__CDefinition.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateCompletedConditionNode__CDefinition.cs#L22)
 
 ```csharp
 ref float TransitionDurationSeconds { get; }

@@ -12,7 +12,7 @@ public interface CAnimTagBase : ISchemaClass<CAnimTagBase>, ISchemaField, ISchem
 
 ### Comment
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimTagBase.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimTagBase.cs#L20)
 
 ```csharp
 string Comment { get; set; }
@@ -24,7 +24,7 @@ string Comment { get; set; }
 
 ### Group
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimTagBase.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimTagBase.cs#L22)
 
 ```csharp
 ref CGlobalSymbol Group { get; }
@@ -36,7 +36,7 @@ ref CGlobalSymbol Group { get; }
 
 ### IsReferenced
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimTagBase.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimTagBase.cs#L26)
 
 ```csharp
 ref bool IsReferenced { get; }
@@ -48,7 +48,7 @@ ref bool IsReferenced { get; }
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimTagBase.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimTagBase.cs#L18)
 
 ```csharp
 ref CGlobalSymbol Name { get; }
@@ -60,7 +60,7 @@ ref CGlobalSymbol Name { get; }
 
 ### TagID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimTagBase.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimTagBase.cs#L24)
 
 ```csharp
 AnimTagID TagID { get; }

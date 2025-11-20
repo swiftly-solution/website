@@ -12,7 +12,7 @@ public interface C_INIT_InitFloat : CParticleFunctionInitializer, CParticleFunct
 
 ### InputStrength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFloat.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFloat.cs#L24)
 
 ```csharp
 CPerParticleFloatInput InputStrength { get; }
@@ -24,7 +24,7 @@ CPerParticleFloatInput InputStrength { get; }
 
 ### InputValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFloat.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFloat.cs#L18)
 
 ```csharp
 CPerParticleFloatInput InputValue { get; }
@@ -36,7 +36,7 @@ CPerParticleFloatInput InputValue { get; }
 
 ### OutputField
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFloat.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFloat.cs#L20)
 
 ```csharp
 ParticleAttributeIndex_t OutputField { get; }
@@ -48,7 +48,7 @@ ParticleAttributeIndex_t OutputField { get; }
 
 ### SetMethod
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFloat.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFloat.cs#L22)
 
 ```csharp
 ref ParticleSetMethod_t SetMethod { get; }

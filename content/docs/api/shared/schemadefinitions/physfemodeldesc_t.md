@@ -12,7 +12,7 @@ public interface PhysFeModelDesc_t : ISchemaClass<PhysFeModelDesc_t>, ISchemaFie
 
 ### AddWorldCollisionRadius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L221)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L222)
 
 ```csharp
 ref float AddWorldCollisionRadius { get; }
@@ -24,7 +24,7 @@ ref float AddWorldCollisionRadius { get; }
 
 ### AnimStrayRadii
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L139)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L140)
 
 ```csharp
 ref CUtlVector<FeAnimStrayRadius_t> AnimStrayRadii { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<FeAnimStrayRadius_t> AnimStrayRadii { get; }
 
 ### AntiTunnelBytecode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L79)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L80)
 
 ```csharp
 ref CUtlVector<uint> AntiTunnelBytecode { get; }
@@ -48,7 +48,7 @@ ref CUtlVector<uint> AntiTunnelBytecode { get; }
 
 ### AntiTunnelProbes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L83)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L84)
 
 ```csharp
 ref CUtlVector<FeAntiTunnelProbe_t> AntiTunnelProbes { get; }
@@ -60,7 +60,7 @@ ref CUtlVector<FeAntiTunnelProbe_t> AntiTunnelProbes { get; }
 
 ### AntiTunnelTargetNodes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L85)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L86)
 
 ```csharp
 ref CUtlVector<ushort> AntiTunnelTargetNodes { get; }
@@ -72,7 +72,7 @@ ref CUtlVector<ushort> AntiTunnelTargetNodes { get; }
 
 ### AxialEdges
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L87)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L88)
 
 ```csharp
 ref CUtlVector<FeAxialEdgeBend_t> AxialEdges { get; }
@@ -84,7 +84,7 @@ ref CUtlVector<FeAxialEdgeBend_t> AxialEdges { get; }
 
 ### BoxRigids
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L169)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L170)
 
 ```csharp
 ref CUtlVector<FeBoxRigid_t> BoxRigids { get; }
@@ -96,7 +96,7 @@ ref CUtlVector<FeBoxRigid_t> BoxRigids { get; }
 
 ### CollisionPlanes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L97)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L98)
 
 ```csharp
 ref CUtlVector<FeCollisionPlane_t> CollisionPlanes { get; }
@@ -108,7 +108,7 @@ ref CUtlVector<FeCollisionPlane_t> CollisionPlanes { get; }
 
 ### CtrlHash
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L18)
 
 ```csharp
 ref CUtlVector<uint> CtrlHash { get; }
@@ -120,7 +120,7 @@ ref CUtlVector<uint> CtrlHash { get; }
 
 ### CtrlName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L20)
 
 ```csharp
 ref CUtlVector<CUtlString> CtrlName { get; }
@@ -132,7 +132,7 @@ ref CUtlVector<CUtlString> CtrlName { get; }
 
 ### CtrlOffsets
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L91)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L92)
 
 ```csharp
 ref CUtlVector<FeCtrlOffset_t> CtrlOffsets { get; }
@@ -144,7 +144,7 @@ ref CUtlVector<FeCtrlOffset_t> CtrlOffsets { get; }
 
 ### CtrlOsOffsets
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L93)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L94)
 
 ```csharp
 ref CUtlVector<FeCtrlOsOffset_t> CtrlOsOffsets { get; }
@@ -156,7 +156,7 @@ ref CUtlVector<FeCtrlOsOffset_t> CtrlOsOffsets { get; }
 
 ### CtrlSoftOffsets
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L145)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L146)
 
 ```csharp
 ref CUtlVector<FeCtrlSoftOffset_t> CtrlSoftOffsets { get; }
@@ -168,7 +168,7 @@ ref CUtlVector<FeCtrlSoftOffset_t> CtrlSoftOffsets { get; }
 
 ### DefaultExpAirDrag
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L211)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L212)
 
 ```csharp
 ref float DefaultExpAirDrag { get; }
@@ -180,7 +180,7 @@ ref float DefaultExpAirDrag { get; }
 
 ### DefaultExpQuadAirDrag
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L215)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L216)
 
 ```csharp
 ref float DefaultExpQuadAirDrag { get; }
@@ -192,7 +192,7 @@ ref float DefaultExpQuadAirDrag { get; }
 
 ### DefaultGravityScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L207)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L208)
 
 ```csharp
 ref float DefaultGravityScale { get; }
@@ -204,7 +204,7 @@ ref float DefaultGravityScale { get; }
 
 ### DefaultSurfaceStretch
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L203)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L204)
 
 ```csharp
 ref float DefaultSurfaceStretch { get; }
@@ -216,7 +216,7 @@ ref float DefaultSurfaceStretch { get; }
 
 ### DefaultThreadStretch
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L205)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L206)
 
 ```csharp
 ref float DefaultThreadStretch { get; }
@@ -228,7 +228,7 @@ ref float DefaultThreadStretch { get; }
 
 ### DefaultTimeDilation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L197)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L198)
 
 ```csharp
 ref float DefaultTimeDilation { get; }
@@ -240,7 +240,7 @@ ref float DefaultTimeDilation { get; }
 
 ### DefaultVelAirDrag
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L209)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L210)
 
 ```csharp
 ref float DefaultVelAirDrag { get; }
@@ -252,7 +252,7 @@ ref float DefaultVelAirDrag { get; }
 
 ### DefaultVelQuadAirDrag
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L213)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L214)
 
 ```csharp
 ref float DefaultVelQuadAirDrag { get; }
@@ -264,7 +264,7 @@ ref float DefaultVelQuadAirDrag { get; }
 
 ### DefaultVolumetricSolveAmount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L223)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L224)
 
 ```csharp
 ref float DefaultVolumetricSolveAmount { get; }
@@ -276,7 +276,7 @@ ref float DefaultVolumetricSolveAmount { get; }
 
 ### DynKinLinks
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L81)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L82)
 
 ```csharp
 ref CUtlVector<FeDynKinLink_t> DynKinLinks { get; }
@@ -288,7 +288,7 @@ ref CUtlVector<FeDynKinLink_t> DynKinLinks { get; }
 
 ### DynNodeFriction
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L111)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L112)
 
 ```csharp
 ref CUtlVector<float> DynNodeFriction { get; }
@@ -300,7 +300,7 @@ ref CUtlVector<float> DynNodeFriction { get; }
 
 ### DynNodeVertexSet
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L171)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L172)
 
 ```csharp
 ref CUtlVector<byte> DynNodeVertexSet { get; }
@@ -312,7 +312,7 @@ ref CUtlVector<byte> DynNodeVertexSet { get; }
 
 ### DynNodeWindBases
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L193)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L194)
 
 ```csharp
 ref CUtlVector<FeNodeWindBase_t> DynNodeWindBases { get; }
@@ -324,7 +324,7 @@ ref CUtlVector<FeNodeWindBase_t> DynNodeWindBases { get; }
 
 ### DynamicNodeFlags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L24)
 
 ```csharp
 ref uint DynamicNodeFlags { get; }
@@ -336,7 +336,7 @@ ref uint DynamicNodeFlags { get; }
 
 ### Effects
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L185)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L186)
 
 ```csharp
 ref CUtlVector<FeEffectDesc_t> Effects { get; }
@@ -348,7 +348,7 @@ ref CUtlVector<FeEffectDesc_t> Effects { get; }
 
 ### ExtraGoalIterations
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L163)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L164)
 
 ```csharp
 ref byte ExtraGoalIterations { get; }
@@ -360,7 +360,7 @@ ref byte ExtraGoalIterations { get; }
 
 ### ExtraIterations
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L165)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L166)
 
 ```csharp
 ref byte ExtraIterations { get; }
@@ -372,7 +372,7 @@ ref byte ExtraIterations { get; }
 
 ### ExtraPressureIterations
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L161)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L162)
 
 ```csharp
 ref byte ExtraPressureIterations { get; }
@@ -384,7 +384,7 @@ ref byte ExtraPressureIterations { get; }
 
 ### FirstPositionDrivenNode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L36)
 
 ```csharp
 ref ushort FirstPositionDrivenNode { get; }
@@ -396,7 +396,7 @@ ref ushort FirstPositionDrivenNode { get; }
 
 ### FitMatrices
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L133)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L134)
 
 ```csharp
 ref CUtlVector<FeFitMatrix_t> FitMatrices { get; }
@@ -408,7 +408,7 @@ ref CUtlVector<FeFitMatrix_t> FitMatrices { get; }
 
 ### FitWeights
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L135)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L136)
 
 ```csharp
 ref CUtlVector<FeFitWeight_t> FitWeights { get; }
@@ -420,7 +420,7 @@ ref CUtlVector<FeFitWeight_t> FitWeights { get; }
 
 ### FollowNodes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L95)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L96)
 
 ```csharp
 ref CUtlVector<FeFollowNode_t> FollowNodes { get; }
@@ -432,7 +432,7 @@ ref CUtlVector<FeFollowNode_t> FollowNodes { get; }
 
 ### FreeNodes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L131)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L132)
 
 ```csharp
 ref CUtlVector<ushort> FreeNodes { get; }
@@ -444,7 +444,7 @@ ref CUtlVector<ushort> FreeNodes { get; }
 
 ### GoalDampedSpringIntegrators
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L151)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L152)
 
 ```csharp
 ref CUtlVector<uint> GoalDampedSpringIntegrators { get; }
@@ -456,7 +456,7 @@ ref CUtlVector<uint> GoalDampedSpringIntegrators { get; }
 
 ### HingeLimits
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L77)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L78)
 
 ```csharp
 ref CUtlVector<FeHingeLimit_t> HingeLimits { get; }
@@ -468,7 +468,7 @@ ref CUtlVector<FeHingeLimit_t> HingeLimits { get; }
 
 ### InitPose
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L71)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L72)
 
 ```csharp
 ref CUtlVector<CTransform> InitPose { get; }
@@ -480,7 +480,7 @@ ref CUtlVector<CTransform> InitPose { get; }
 
 ### InternalPressure
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L195)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L196)
 
 ```csharp
 ref float InternalPressure { get; }
@@ -492,7 +492,7 @@ ref float InternalPressure { get; }
 
 ### JiggleBones
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L147)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L148)
 
 ```csharp
 ref CUtlVector<CFeIndexedJiggleBone> JiggleBones { get; }
@@ -504,7 +504,7 @@ ref CUtlVector<CFeIndexedJiggleBone> JiggleBones { get; }
 
 ### KelagerBends
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L143)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L144)
 
 ```csharp
 ref CUtlVector<FeKelagerBend2_t> KelagerBends { get; }
@@ -516,7 +516,7 @@ ref CUtlVector<FeKelagerBend2_t> KelagerBends { get; }
 
 ### LegacyStretchForce
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L107)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L108)
 
 ```csharp
 ref CUtlVector<float> LegacyStretchForce { get; }
@@ -528,7 +528,7 @@ ref CUtlVector<float> LegacyStretchForce { get; }
 
 ### LocalDrag1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L227)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L228)
 
 ```csharp
 ref float LocalDrag1 { get; }
@@ -540,7 +540,7 @@ ref float LocalDrag1 { get; }
 
 ### LocalForce
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L26)
 
 ```csharp
 ref float LocalForce { get; }
@@ -552,7 +552,7 @@ ref float LocalForce { get; }
 
 ### LocalForce2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L115)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L116)
 
 ```csharp
 ref CUtlVector<float> LocalForce2 { get; }
@@ -564,7 +564,7 @@ ref CUtlVector<float> LocalForce2 { get; }
 
 ### LocalRotation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L28)
 
 ```csharp
 ref float LocalRotation { get; }
@@ -576,7 +576,7 @@ ref float LocalRotation { get; }
 
 ### LocalRotation1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L113)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L114)
 
 ```csharp
 ref CUtlVector<float> LocalRotation1 { get; }
@@ -588,7 +588,7 @@ ref CUtlVector<float> LocalRotation1 { get; }
 
 ### LockToGoal
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L189)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L190)
 
 ```csharp
 ref CUtlVector<ushort> LockToGoal { get; }
@@ -600,7 +600,7 @@ ref CUtlVector<ushort> LockToGoal { get; }
 
 ### LockToParent
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L187)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L188)
 
 ```csharp
 ref CUtlVector<FeCtrlOffset_t> LockToParent { get; }
@@ -612,7 +612,7 @@ ref CUtlVector<FeCtrlOffset_t> LockToParent { get; }
 
 ### MorphLayers
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L177)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L178)
 
 ```csharp
 ref CUtlVector<FeMorphLayerDepr_t> MorphLayers { get; }
@@ -624,7 +624,7 @@ ref CUtlVector<FeMorphLayerDepr_t> MorphLayers { get; }
 
 ### MorphSetData
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L179)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L180)
 
 ```csharp
 ref CUtlVector<byte> MorphSetData { get; }
@@ -636,7 +636,7 @@ ref CUtlVector<byte> MorphSetData { get; }
 
 ### MotionSmoothCDT
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L225)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L226)
 
 ```csharp
 ref float MotionSmoothCDT { get; }
@@ -648,7 +648,7 @@ ref float MotionSmoothCDT { get; }
 
 ### NodeBaseJiggleboneDependsCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L52)
 
 ```csharp
 ref ushort NodeBaseJiggleboneDependsCount { get; }
@@ -660,7 +660,7 @@ ref ushort NodeBaseJiggleboneDependsCount { get; }
 
 ### NodeBases
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L58)
 
 ```csharp
 ref CUtlVector<FeNodeBase_t> NodeBases { get; }
@@ -672,7 +672,7 @@ ref CUtlVector<FeNodeBase_t> NodeBases { get; }
 
 ### NodeCollisionRadii
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L109)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L110)
 
 ```csharp
 ref CUtlVector<float> NodeCollisionRadii { get; }
@@ -684,7 +684,7 @@ ref CUtlVector<float> NodeCollisionRadii { get; }
 
 ### NodeCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L30)
 
 ```csharp
 ref ushort NodeCount { get; }
@@ -696,7 +696,7 @@ ref ushort NodeCount { get; }
 
 ### NodeIntegrator
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L99)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L100)
 
 ```csharp
 ref CUtlVector<FeNodeIntegrator_t> NodeIntegrator { get; }
@@ -708,7 +708,7 @@ ref CUtlVector<FeNodeIntegrator_t> NodeIntegrator { get; }
 
 ### NodeInvMasses
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L89)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L90)
 
 ```csharp
 ref CUtlVector<float> NodeInvMasses { get; }
@@ -720,7 +720,7 @@ ref CUtlVector<float> NodeInvMasses { get; }
 
 ### QuadCount1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L46)
 
 ```csharp
 ref ushort QuadCount1 { get; }
@@ -732,7 +732,7 @@ ref ushort QuadCount1 { get; }
 
 ### QuadCount2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L48)
 
 ```csharp
 ref ushort QuadCount2 { get; }
@@ -744,7 +744,7 @@ ref ushort QuadCount2 { get; }
 
 ### QuadVelocitySmoothIterations
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L231)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L232)
 
 ```csharp
 ref ushort QuadVelocitySmoothIterations { get; }
@@ -756,7 +756,7 @@ ref ushort QuadVelocitySmoothIterations { get; }
 
 ### QuadVelocitySmoothRate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L219)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L220)
 
 ```csharp
 ref float QuadVelocitySmoothRate { get; }
@@ -768,7 +768,7 @@ ref float QuadVelocitySmoothRate { get; }
 
 ### Quads
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L62)
 
 ```csharp
 ref CUtlVector<FeQuad_t> Quads { get; }
@@ -780,7 +780,7 @@ ref CUtlVector<FeQuad_t> Quads { get; }
 
 ### ReservedUint8
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L159)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L160)
 
 ```csharp
 ref byte ReservedUint8 { get; }
@@ -792,7 +792,7 @@ ref byte ReservedUint8 { get; }
 
 ### ReverseOffsets
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L137)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L138)
 
 ```csharp
 ref CUtlVector<FeNodeReverseOffset_t> ReverseOffsets { get; }
@@ -804,7 +804,7 @@ ref CUtlVector<FeNodeReverseOffset_t> ReverseOffsets { get; }
 
 ### RigidColliderPriorities
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L175)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L176)
 
 ```csharp
 ref CUtlVector<FeRigidColliderIndices_t> RigidColliderPriorities { get; }
@@ -816,7 +816,7 @@ ref CUtlVector<FeRigidColliderIndices_t> RigidColliderPriorities { get; }
 
 ### RodVelocitySmoothIterations
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L229)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L230)
 
 ```csharp
 ref ushort RodVelocitySmoothIterations { get; }
@@ -828,7 +828,7 @@ ref ushort RodVelocitySmoothIterations { get; }
 
 ### RodVelocitySmoothRate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L217)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L218)
 
 ```csharp
 ref float RodVelocitySmoothRate { get; }
@@ -840,7 +840,7 @@ ref float RodVelocitySmoothRate { get; }
 
 ### Rods
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L73)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L74)
 
 ```csharp
 ref CUtlVector<FeRodConstraint_t> Rods { get; }
@@ -852,7 +852,7 @@ ref CUtlVector<FeRodConstraint_t> Rods { get; }
 
 ### RopeCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L54)
 
 ```csharp
 ref ushort RopeCount { get; }
@@ -864,7 +864,7 @@ ref ushort RopeCount { get; }
 
 ### Ropes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L56)
 
 ```csharp
 ref CUtlVector<ushort> Ropes { get; }
@@ -876,7 +876,7 @@ ref CUtlVector<ushort> Ropes { get; }
 
 ### RotLockStaticNodes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L34)
 
 ```csharp
 ref ushort RotLockStaticNodes { get; }
@@ -888,7 +888,7 @@ ref ushort RotLockStaticNodes { get; }
 
 ### SDFRigids
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L167)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L168)
 
 ```csharp
 ref CUtlVector<FeSDFRigid_t> SDFRigids { get; }
@@ -900,7 +900,7 @@ ref CUtlVector<FeSDFRigid_t> SDFRigids { get; }
 
 ### SimdAnimStrayRadii
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L141)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L142)
 
 ```csharp
 ref CUtlVector<FeSimdAnimStrayRadius_t> SimdAnimStrayRadii { get; }
@@ -912,7 +912,7 @@ ref CUtlVector<FeSimdAnimStrayRadius_t> SimdAnimStrayRadii { get; }
 
 ### SimdNodeBases
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L60)
 
 ```csharp
 ref CUtlVector<FeSimdNodeBase_t> SimdNodeBases { get; }
@@ -924,7 +924,7 @@ ref CUtlVector<FeSimdNodeBase_t> SimdNodeBases { get; }
 
 ### SimdQuadCount1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L42)
 
 ```csharp
 ref ushort SimdQuadCount1 { get; }
@@ -936,7 +936,7 @@ ref ushort SimdQuadCount1 { get; }
 
 ### SimdQuadCount2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L44)
 
 ```csharp
 ref ushort SimdQuadCount2 { get; }
@@ -948,7 +948,7 @@ ref ushort SimdQuadCount2 { get; }
 
 ### SimdQuads
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L64)
 
 ```csharp
 ref CUtlVector<FeSimdQuad_t> SimdQuads { get; }
@@ -960,7 +960,7 @@ ref CUtlVector<FeSimdQuad_t> SimdQuads { get; }
 
 ### SimdRods
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L67)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L68)
 
 ```csharp
 ref CUtlVector<FeSimdRodConstraint_t> SimdRods { get; }
@@ -972,7 +972,7 @@ ref CUtlVector<FeSimdRodConstraint_t> SimdRods { get; }
 
 ### SimdRodsAnim
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L69)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L70)
 
 ```csharp
 ref CUtlVector<FeSimdRodConstraintAnim_t> SimdRodsAnim { get; }
@@ -984,7 +984,7 @@ ref CUtlVector<FeSimdRodConstraintAnim_t> SimdRodsAnim { get; }
 
 ### SimdSpringIntegrator
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L103)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L104)
 
 ```csharp
 ref CUtlVector<FeSimdSpringIntegrator_t> SimdSpringIntegrator { get; }
@@ -996,7 +996,7 @@ ref CUtlVector<FeSimdSpringIntegrator_t> SimdSpringIntegrator { get; }
 
 ### SimdTriCount1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L38)
 
 ```csharp
 ref ushort SimdTriCount1 { get; }
@@ -1008,7 +1008,7 @@ ref ushort SimdTriCount1 { get; }
 
 ### SimdTriCount2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L40)
 
 ```csharp
 ref ushort SimdTriCount2 { get; }
@@ -1020,7 +1020,7 @@ ref ushort SimdTriCount2 { get; }
 
 ### SimdTris
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L65)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L66)
 
 ```csharp
 ref CUtlVector<SchemaUntypedField> SimdTris { get; }
@@ -1032,7 +1032,7 @@ ref CUtlVector<SchemaUntypedField> SimdTris { get; }
 
 ### SkelParents
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L191)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L192)
 
 ```csharp
 ref CUtlVector<short> SkelParents { get; }
@@ -1044,7 +1044,7 @@ ref CUtlVector<short> SkelParents { get; }
 
 ### SourceElems
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L149)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L150)
 
 ```csharp
 ref CUtlVector<ushort> SourceElems { get; }
@@ -1056,7 +1056,7 @@ ref CUtlVector<ushort> SourceElems { get; }
 
 ### SphereRigids
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L121)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L122)
 
 ```csharp
 ref CUtlVector<FeSphereRigid_t> SphereRigids { get; }
@@ -1068,7 +1068,7 @@ ref CUtlVector<FeSphereRigid_t> SphereRigids { get; }
 
 ### SpringIntegrator
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L101)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L102)
 
 ```csharp
 ref CUtlVector<FeSpringIntegrator_t> SpringIntegrator { get; }
@@ -1080,7 +1080,7 @@ ref CUtlVector<FeSpringIntegrator_t> SpringIntegrator { get; }
 
 ### StaticNodeFlags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L22)
 
 ```csharp
 ref uint StaticNodeFlags { get; }
@@ -1092,7 +1092,7 @@ ref uint StaticNodeFlags { get; }
 
 ### StaticNodes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L32)
 
 ```csharp
 ref ushort StaticNodes { get; }
@@ -1104,7 +1104,7 @@ ref ushort StaticNodes { get; }
 
 ### TaperedCapsuleRigids
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L119)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L120)
 
 ```csharp
 ref CUtlVector<FeTaperedCapsuleRigid_t> TaperedCapsuleRigids { get; }
@@ -1116,7 +1116,7 @@ ref CUtlVector<FeTaperedCapsuleRigid_t> TaperedCapsuleRigids { get; }
 
 ### TaperedCapsuleStretches
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L117)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L118)
 
 ```csharp
 ref CUtlVector<FeTaperedCapsuleStretch_t> TaperedCapsuleStretches { get; }
@@ -1128,7 +1128,7 @@ ref CUtlVector<FeTaperedCapsuleStretch_t> TaperedCapsuleStretches { get; }
 
 ### TreeChildren
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L129)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L130)
 
 ```csharp
 ref CUtlVector<FeTreeChildren_t> TreeChildren { get; }
@@ -1140,7 +1140,7 @@ ref CUtlVector<FeTreeChildren_t> TreeChildren { get; }
 
 ### TreeCollisionMasks
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L127)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L128)
 
 ```csharp
 ref CUtlVector<ushort> TreeCollisionMasks { get; }
@@ -1152,7 +1152,7 @@ ref CUtlVector<ushort> TreeCollisionMasks { get; }
 
 ### TreeDepth
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L50)
 
 ```csharp
 ref ushort TreeDepth { get; }
@@ -1164,7 +1164,7 @@ ref ushort TreeDepth { get; }
 
 ### TreeParents
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L125)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L126)
 
 ```csharp
 ref CUtlVector<ushort> TreeParents { get; }
@@ -1176,7 +1176,7 @@ ref CUtlVector<ushort> TreeParents { get; }
 
 ### TriCount1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L155)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L156)
 
 ```csharp
 ref ushort TriCount1 { get; }
@@ -1188,7 +1188,7 @@ ref ushort TriCount1 { get; }
 
 ### TriCount2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L157)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L158)
 
 ```csharp
 ref ushort TriCount2 { get; }
@@ -1200,7 +1200,7 @@ ref ushort TriCount2 { get; }
 
 ### Tris
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L153)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L154)
 
 ```csharp
 ref CUtlVector<FeTri_t> Tris { get; }
@@ -1212,7 +1212,7 @@ ref CUtlVector<FeTri_t> Tris { get; }
 
 ### Twists
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L75)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L76)
 
 ```csharp
 ref CUtlVector<FeTwistConstraint_t> Twists { get; }
@@ -1224,7 +1224,7 @@ ref CUtlVector<FeTwistConstraint_t> Twists { get; }
 
 ### VertexMapValues
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L183)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L184)
 
 ```csharp
 ref CUtlVector<byte> VertexMapValues { get; }
@@ -1236,7 +1236,7 @@ ref CUtlVector<byte> VertexMapValues { get; }
 
 ### VertexMaps
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L181)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L182)
 
 ```csharp
 ref CUtlVector<FeVertexMapDesc_t> VertexMaps { get; }
@@ -1248,7 +1248,7 @@ ref CUtlVector<FeVertexMapDesc_t> VertexMaps { get; }
 
 ### VertexSetNames
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L173)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L174)
 
 ```csharp
 ref CUtlVector<uint> VertexSetNames { get; }
@@ -1260,7 +1260,7 @@ ref CUtlVector<uint> VertexSetNames { get; }
 
 ### WindDrag
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L201)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L202)
 
 ```csharp
 ref float WindDrag { get; }
@@ -1272,7 +1272,7 @@ ref float WindDrag { get; }
 
 ### Windage
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L199)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L200)
 
 ```csharp
 ref float Windage { get; }
@@ -1284,7 +1284,7 @@ ref float Windage { get; }
 
 ### WorldCollisionNodes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L123)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L124)
 
 ```csharp
 ref CUtlVector<ushort> WorldCollisionNodes { get; }
@@ -1296,7 +1296,7 @@ ref CUtlVector<ushort> WorldCollisionNodes { get; }
 
 ### WorldCollisionParams
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L105)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysFeModelDesc_t.cs#L106)
 
 ```csharp
 ref CUtlVector<FeWorldCollisionParams_t> WorldCollisionParams { get; }

@@ -12,7 +12,7 @@ public interface C_INIT_ChaoticAttractor : CParticleFunctionInitializer, CPartic
 
 ### AParm
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_ChaoticAttractor.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_ChaoticAttractor.cs#L18)
 
 ```csharp
 ref float AParm { get; }
@@ -24,7 +24,7 @@ ref float AParm { get; }
 
 ### BParm
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_ChaoticAttractor.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_ChaoticAttractor.cs#L20)
 
 ```csharp
 ref float BParm { get; }
@@ -36,7 +36,7 @@ ref float BParm { get; }
 
 ### BaseCP
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_ChaoticAttractor.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_ChaoticAttractor.cs#L32)
 
 ```csharp
 ref int BaseCP { get; }
@@ -48,7 +48,7 @@ ref int BaseCP { get; }
 
 ### CParm
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_ChaoticAttractor.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_ChaoticAttractor.cs#L22)
 
 ```csharp
 ref float CParm { get; }
@@ -60,7 +60,7 @@ ref float CParm { get; }
 
 ### DParm
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_ChaoticAttractor.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_ChaoticAttractor.cs#L24)
 
 ```csharp
 ref float DParm { get; }
@@ -72,7 +72,7 @@ ref float DParm { get; }
 
 ### Scale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_ChaoticAttractor.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_ChaoticAttractor.cs#L26)
 
 ```csharp
 ref float Scale { get; }
@@ -84,7 +84,7 @@ ref float Scale { get; }
 
 ### SpeedMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_ChaoticAttractor.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_ChaoticAttractor.cs#L30)
 
 ```csharp
 ref float SpeedMax { get; }
@@ -96,7 +96,7 @@ ref float SpeedMax { get; }
 
 ### SpeedMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_ChaoticAttractor.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_ChaoticAttractor.cs#L28)
 
 ```csharp
 ref float SpeedMin { get; }
@@ -108,7 +108,7 @@ ref float SpeedMin { get; }
 
 ### UniformSpeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_ChaoticAttractor.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_ChaoticAttractor.cs#L34)
 
 ```csharp
 ref bool UniformSpeed { get; }

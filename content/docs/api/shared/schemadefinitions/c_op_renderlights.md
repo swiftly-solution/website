@@ -12,7 +12,7 @@ public interface C_OP_RenderLights : C_OP_RenderPoints, CParticleFunctionRendere
 
 ### AnimateInFPS
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLights.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLights.cs#L22)
 
 ```csharp
 ref bool AnimateInFPS { get; }
@@ -24,7 +24,7 @@ ref bool AnimateInFPS { get; }
 
 ### AnimationRate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLights.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLights.cs#L18)
 
 ```csharp
 ref float AnimationRate { get; }
@@ -36,7 +36,7 @@ ref float AnimationRate { get; }
 
 ### AnimationType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLights.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLights.cs#L20)
 
 ```csharp
 ref AnimationType_t AnimationType { get; }
@@ -48,7 +48,7 @@ ref AnimationType_t AnimationType { get; }
 
 ### EndFadeSize
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLights.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLights.cs#L30)
 
 ```csharp
 ref float EndFadeSize { get; }
@@ -60,7 +60,7 @@ ref float EndFadeSize { get; }
 
 ### MaxSize
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLights.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLights.cs#L26)
 
 ```csharp
 ref float MaxSize { get; }
@@ -72,7 +72,7 @@ ref float MaxSize { get; }
 
 ### MinSize
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLights.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLights.cs#L24)
 
 ```csharp
 ref float MinSize { get; }
@@ -84,7 +84,7 @@ ref float MinSize { get; }
 
 ### StartFadeSize
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLights.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLights.cs#L28)
 
 ```csharp
 ref float StartFadeSize { get; }

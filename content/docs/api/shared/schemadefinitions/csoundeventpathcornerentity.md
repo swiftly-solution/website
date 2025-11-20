@@ -12,7 +12,7 @@ public interface CSoundEventPathCornerEntity : CSoundEventEntity, CBaseEntity, C
 
 ### CornerPairsNetworked
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventPathCornerEntity.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventPathCornerEntity.cs#L30)
 
 ```csharp
 ref CUtlVector<SoundeventPathCornerPairNetworked_t> CornerPairsNetworked { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<SoundeventPathCornerPairNetworked_t> CornerPairsNetworked { get; 
 
 ### CountMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventPathCornerEntity.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventPathCornerEntity.cs#L20)
 
 ```csharp
 ref int CountMax { get; }
@@ -36,7 +36,7 @@ ref int CountMax { get; }
 
 ### DistMaxSqr
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventPathCornerEntity.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventPathCornerEntity.cs#L24)
 
 ```csharp
 ref float DistMaxSqr { get; }
@@ -48,7 +48,7 @@ ref float DistMaxSqr { get; }
 
 ### DistanceMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventPathCornerEntity.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventPathCornerEntity.cs#L22)
 
 ```csharp
 ref float DistanceMax { get; }
@@ -60,7 +60,7 @@ ref float DistanceMax { get; }
 
 ### DotProductMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventPathCornerEntity.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventPathCornerEntity.cs#L26)
 
 ```csharp
 ref float DotProductMax { get; }
@@ -72,7 +72,7 @@ ref float DotProductMax { get; }
 
 ### PathCorner
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventPathCornerEntity.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventPathCornerEntity.cs#L18)
 
 ```csharp
 string PathCorner { get; set; }
@@ -84,7 +84,7 @@ string PathCorner { get; set; }
 
 ### Playing
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventPathCornerEntity.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventPathCornerEntity.cs#L28)
 
 ```csharp
 ref bool Playing { get; }
@@ -98,7 +98,7 @@ ref bool Playing { get; }
 
 ### CornerPairsNetworkedUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventPathCornerEntity.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventPathCornerEntity.cs#L32)
 
 ```csharp
 void CornerPairsNetworkedUpdated()

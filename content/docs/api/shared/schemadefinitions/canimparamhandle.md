@@ -12,7 +12,7 @@ public interface CAnimParamHandle : ISchemaClass<CAnimParamHandle>, ISchemaField
 
 ### Index
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimParamHandle.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimParamHandle.cs#L20)
 
 ```csharp
 ref byte Index { get; }
@@ -24,7 +24,7 @@ ref byte Index { get; }
 
 ### Type
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimParamHandle.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimParamHandle.cs#L18)
 
 ```csharp
 ref AnimParamType_t Type { get; }

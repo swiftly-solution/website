@@ -12,7 +12,7 @@ public interface CAnimMovement : ISchemaClass<CAnimMovement>, ISchemaField, ISch
 
 ### Angle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimMovement.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimMovement.cs#L26)
 
 ```csharp
 ref float Angle { get; }
@@ -24,7 +24,7 @@ ref float Angle { get; }
 
 ### Endframe
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimMovement.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimMovement.cs#L18)
 
 ```csharp
 ref int Endframe { get; }
@@ -36,7 +36,7 @@ ref int Endframe { get; }
 
 ### Motionflags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimMovement.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimMovement.cs#L20)
 
 ```csharp
 ref int Motionflags { get; }
@@ -48,7 +48,7 @@ ref int Motionflags { get; }
 
 ### Position
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimMovement.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimMovement.cs#L30)
 
 ```csharp
 ref Vector Position { get; }
@@ -60,7 +60,7 @@ ref Vector Position { get; }
 
 ### V0
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimMovement.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimMovement.cs#L22)
 
 ```csharp
 ref float V0 { get; }
@@ -72,7 +72,7 @@ ref float V0 { get; }
 
 ### V1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimMovement.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimMovement.cs#L24)
 
 ```csharp
 ref float V1 { get; }
@@ -84,7 +84,7 @@ ref float V1 { get; }
 
 ### Vector
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimMovement.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimMovement.cs#L28)
 
 ```csharp
 ref Vector Vector { get; }

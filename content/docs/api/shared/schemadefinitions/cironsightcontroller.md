@@ -12,7 +12,7 @@ public interface CIronSightController : ISchemaClass<CIronSightController>, ISch
 
 ### IronSightAmount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CIronSightController.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CIronSightController.cs#L20)
 
 ```csharp
 ref float IronSightAmount { get; }
@@ -24,7 +24,7 @@ ref float IronSightAmount { get; }
 
 ### IronSightAmountBiased
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CIronSightController.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CIronSightController.cs#L24)
 
 ```csharp
 ref float IronSightAmountBiased { get; }
@@ -36,7 +36,7 @@ ref float IronSightAmountBiased { get; }
 
 ### IronSightAmountGained
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CIronSightController.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CIronSightController.cs#L22)
 
 ```csharp
 ref float IronSightAmountGained { get; }
@@ -48,7 +48,7 @@ ref float IronSightAmountGained { get; }
 
 ### IronSightAvailable
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CIronSightController.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CIronSightController.cs#L18)
 
 ```csharp
 ref bool IronSightAvailable { get; }

@@ -12,7 +12,7 @@ public interface PulseObservableBoolExpression_t : ISchemaClass<PulseObservableB
 
 ### DependentObservableBlackboardReferences
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseObservableBoolExpression_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseObservableBoolExpression_t.cs#L22)
 
 ```csharp
 ref CUtlVector<PulseRuntimeBlackboardReferenceIndex_t> DependentObservableBlackboardReferences { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<PulseRuntimeBlackboardReferenceIndex_t> DependentObservableBlackb
 
 ### DependentObservableVars
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseObservableBoolExpression_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseObservableBoolExpression_t.cs#L20)
 
 ```csharp
 ref CUtlVector<PulseRuntimeVarIndex_t> DependentObservableVars { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<PulseRuntimeVarIndex_t> DependentObservableVars { get; }
 
 ### EvaluateConnection
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseObservableBoolExpression_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseObservableBoolExpression_t.cs#L18)
 
 ```csharp
 CPulse_OutflowConnection EvaluateConnection { get; }

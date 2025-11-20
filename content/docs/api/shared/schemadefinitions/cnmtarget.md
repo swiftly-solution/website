@@ -12,7 +12,7 @@ public interface CNmTarget : ISchemaClass<CNmTarget>, ISchemaField, ISchemaClass
 
 ### BoneID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTarget.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTarget.cs#L20)
 
 ```csharp
 ref CGlobalSymbol BoneID { get; }
@@ -24,7 +24,7 @@ ref CGlobalSymbol BoneID { get; }
 
 ### HasOffsets
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTarget.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTarget.cs#L26)
 
 ```csharp
 ref bool HasOffsets { get; }
@@ -36,7 +36,7 @@ ref bool HasOffsets { get; }
 
 ### IsBoneTarget
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTarget.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTarget.cs#L22)
 
 ```csharp
 ref bool IsBoneTarget { get; }
@@ -48,7 +48,7 @@ ref bool IsBoneTarget { get; }
 
 ### IsSet
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTarget.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTarget.cs#L28)
 
 ```csharp
 ref bool IsSet { get; }
@@ -60,7 +60,7 @@ ref bool IsSet { get; }
 
 ### IsUsingBoneSpaceOffsets
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTarget.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTarget.cs#L24)
 
 ```csharp
 ref bool IsUsingBoneSpaceOffsets { get; }
@@ -72,7 +72,7 @@ ref bool IsUsingBoneSpaceOffsets { get; }
 
 ### Transform
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTarget.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTarget.cs#L18)
 
 ```csharp
 ref CTransform Transform { get; }

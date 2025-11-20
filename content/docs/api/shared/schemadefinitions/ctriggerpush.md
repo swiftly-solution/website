@@ -12,7 +12,7 @@ public interface CTriggerPush : CBaseTrigger, CBaseToggle, CBaseModelEntity, CBa
 
 ### PathSimple
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPush.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPush.cs#L28)
 
 ```csharp
 CPathSimple? PathSimple { get; }
@@ -24,7 +24,7 @@ CPathSimple? PathSimple { get; }
 
 ### PathSimpleName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPush.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPush.cs#L26)
 
 ```csharp
 string PathSimpleName { get; set; }
@@ -36,7 +36,7 @@ string PathSimpleName { get; set; }
 
 ### PushDirEntitySpace
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPush.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPush.cs#L20)
 
 ```csharp
 ref Vector PushDirEntitySpace { get; }
@@ -48,7 +48,7 @@ ref Vector PushDirEntitySpace { get; }
 
 ### PushEntitySpace
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPush.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPush.cs#L18)
 
 ```csharp
 ref QAngle PushEntitySpace { get; }
@@ -60,7 +60,7 @@ ref QAngle PushEntitySpace { get; }
 
 ### SplinePushType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPush.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPush.cs#L30)
 
 ```csharp
 ref uint SplinePushType { get; }
@@ -72,7 +72,7 @@ ref uint SplinePushType { get; }
 
 ### TriggerOnStartTouch
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPush.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPush.cs#L22)
 
 ```csharp
 ref bool TriggerOnStartTouch { get; }
@@ -84,7 +84,7 @@ ref bool TriggerOnStartTouch { get; }
 
 ### UsePathSimple
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPush.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerPush.cs#L24)
 
 ```csharp
 ref bool UsePathSimple { get; }

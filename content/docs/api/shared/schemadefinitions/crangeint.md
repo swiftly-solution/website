@@ -12,7 +12,7 @@ public interface CRangeInt : ISchemaClass<CRangeInt>, ISchemaField, ISchemaClass
 
 ### Value
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRangeInt.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRangeInt.cs#L18)
 
 ```csharp
 ISchemaFixedArray<int> Value { get; }

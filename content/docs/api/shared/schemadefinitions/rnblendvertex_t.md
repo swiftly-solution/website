@@ -12,7 +12,7 @@ public interface RnBlendVertex_t : ISchemaClass<RnBlendVertex_t>, ISchemaField, 
 
 ### Flags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBlendVertex_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBlendVertex_t.cs#L30)
 
 ```csharp
 ref ushort Flags { get; }
@@ -24,7 +24,7 @@ ref ushort Flags { get; }
 
 ### Index0
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBlendVertex_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBlendVertex_t.cs#L20)
 
 ```csharp
 ref ushort Index0 { get; }
@@ -36,7 +36,7 @@ ref ushort Index0 { get; }
 
 ### Index1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBlendVertex_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBlendVertex_t.cs#L24)
 
 ```csharp
 ref ushort Index1 { get; }
@@ -48,7 +48,7 @@ ref ushort Index1 { get; }
 
 ### Index2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBlendVertex_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBlendVertex_t.cs#L28)
 
 ```csharp
 ref ushort Index2 { get; }
@@ -60,7 +60,7 @@ ref ushort Index2 { get; }
 
 ### TargetIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBlendVertex_t.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBlendVertex_t.cs#L32)
 
 ```csharp
 ref ushort TargetIndex { get; }
@@ -72,7 +72,7 @@ ref ushort TargetIndex { get; }
 
 ### Weight0
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBlendVertex_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBlendVertex_t.cs#L18)
 
 ```csharp
 ref ushort Weight0 { get; }
@@ -84,7 +84,7 @@ ref ushort Weight0 { get; }
 
 ### Weight1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBlendVertex_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBlendVertex_t.cs#L22)
 
 ```csharp
 ref ushort Weight1 { get; }
@@ -96,7 +96,7 @@ ref ushort Weight1 { get; }
 
 ### Weight2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBlendVertex_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBlendVertex_t.cs#L26)
 
 ```csharp
 ref ushort Weight2 { get; }

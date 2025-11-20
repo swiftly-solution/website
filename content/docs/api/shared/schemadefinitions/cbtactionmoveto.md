@@ -12,7 +12,7 @@ public interface CBtActionMoveTo : CBtNode, ISchemaClass<CBtNode>, ISchemaClass<
 
 ### AdditionalArrivalEpsilon2D
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L40)
 
 ```csharp
 ref float AdditionalArrivalEpsilon2D { get; }
@@ -24,7 +24,7 @@ ref float AdditionalArrivalEpsilon2D { get; }
 
 ### ArrivalEpsilon
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L38)
 
 ```csharp
 ref float ArrivalEpsilon { get; }
@@ -36,7 +36,7 @@ ref float ArrivalEpsilon { get; }
 
 ### AutoLookAdjust
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L26)
 
 ```csharp
 ref bool AutoLookAdjust { get; }
@@ -48,7 +48,7 @@ ref bool AutoLookAdjust { get; }
 
 ### CheckApproximateCornersTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L32)
 
 ```csharp
 CountdownTimer CheckApproximateCornersTimer { get; }
@@ -60,7 +60,7 @@ CountdownTimer CheckApproximateCornersTimer { get; }
 
 ### CheckHighPriorityItem
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L34)
 
 ```csharp
 CountdownTimer CheckHighPriorityItem { get; }
@@ -72,7 +72,7 @@ CountdownTimer CheckHighPriorityItem { get; }
 
 ### ComputePath
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L28)
 
 ```csharp
 ref bool ComputePath { get; }
@@ -84,7 +84,7 @@ ref bool ComputePath { get; }
 
 ### DamagingAreasPenaltyCost
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L30)
 
 ```csharp
 ref float DamagingAreasPenaltyCost { get; }
@@ -96,7 +96,7 @@ ref float DamagingAreasPenaltyCost { get; }
 
 ### Destination
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L24)
 
 ```csharp
 ref Vector Destination { get; }
@@ -108,7 +108,7 @@ ref Vector Destination { get; }
 
 ### DestinationInputKey
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L18)
 
 ```csharp
 string DestinationInputKey { get; set; }
@@ -120,7 +120,7 @@ string DestinationInputKey { get; set; }
 
 ### HidingSpotCheckDistanceThreshold
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L42)
 
 ```csharp
 ref float HidingSpotCheckDistanceThreshold { get; }
@@ -132,7 +132,7 @@ ref float HidingSpotCheckDistanceThreshold { get; }
 
 ### HidingSpotInputKey
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L20)
 
 ```csharp
 string HidingSpotInputKey { get; set; }
@@ -144,7 +144,7 @@ string HidingSpotInputKey { get; set; }
 
 ### NearestAreaDistanceThreshold
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L44)
 
 ```csharp
 ref float NearestAreaDistanceThreshold { get; }
@@ -156,7 +156,7 @@ ref float NearestAreaDistanceThreshold { get; }
 
 ### RepathTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L36)
 
 ```csharp
 CountdownTimer RepathTimer { get; }
@@ -168,7 +168,7 @@ CountdownTimer RepathTimer { get; }
 
 ### ThreatInputKey
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L22)
 
 ```csharp
 string ThreatInputKey { get; set; }

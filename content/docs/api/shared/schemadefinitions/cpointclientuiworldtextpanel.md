@@ -12,7 +12,7 @@ public interface CPointClientUIWorldTextPanel : CPointClientUIWorldPanel, CBaseC
 
 ### MessageText
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldTextPanel.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldTextPanel.cs#L18)
 
 ```csharp
 string MessageText { get; set; }
@@ -26,7 +26,7 @@ string MessageText { get; set; }
 
 ### MessageTextUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldTextPanel.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointClientUIWorldTextPanel.cs#L20)
 
 ```csharp
 void MessageTextUpdated()

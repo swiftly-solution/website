@@ -12,7 +12,7 @@ public interface CGlowProperty : ISchemaClass<CGlowProperty>, ISchemaField, ISch
 
 ### EligibleForScreenHighlight
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGlowProperty.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGlowProperty.cs#L36)
 
 ```csharp
 ref bool EligibleForScreenHighlight { get; }
@@ -24,7 +24,7 @@ ref bool EligibleForScreenHighlight { get; }
 
 ### Flashing
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGlowProperty.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGlowProperty.cs#L30)
 
 ```csharp
 ref bool Flashing { get; }
@@ -36,7 +36,7 @@ ref bool Flashing { get; }
 
 ### GlowColor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGlowProperty.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGlowProperty.cs#L18)
 
 ```csharp
 ref Vector GlowColor { get; }
@@ -48,7 +48,7 @@ ref Vector GlowColor { get; }
 
 ### GlowColorOverride
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGlowProperty.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGlowProperty.cs#L28)
 
 ```csharp
 ref Color GlowColorOverride { get; }
@@ -60,7 +60,7 @@ ref Color GlowColorOverride { get; }
 
 ### GlowRange
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGlowProperty.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGlowProperty.cs#L24)
 
 ```csharp
 ref int GlowRange { get; }
@@ -72,7 +72,7 @@ ref int GlowRange { get; }
 
 ### GlowRangeMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGlowProperty.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGlowProperty.cs#L26)
 
 ```csharp
 ref int GlowRangeMin { get; }
@@ -84,7 +84,7 @@ ref int GlowRangeMin { get; }
 
 ### GlowStartTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGlowProperty.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGlowProperty.cs#L34)
 
 ```csharp
 ref float GlowStartTime { get; }
@@ -96,7 +96,7 @@ ref float GlowStartTime { get; }
 
 ### GlowTeam
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGlowProperty.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGlowProperty.cs#L22)
 
 ```csharp
 ref int GlowTeam { get; }
@@ -108,7 +108,7 @@ ref int GlowTeam { get; }
 
 ### GlowTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGlowProperty.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGlowProperty.cs#L32)
 
 ```csharp
 ref float GlowTime { get; }
@@ -120,7 +120,7 @@ ref float GlowTime { get; }
 
 ### GlowType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGlowProperty.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGlowProperty.cs#L20)
 
 ```csharp
 ref int GlowType { get; }
@@ -132,7 +132,7 @@ ref int GlowType { get; }
 
 ### Glowing
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGlowProperty.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGlowProperty.cs#L38)
 
 ```csharp
 ref bool Glowing { get; }
@@ -146,7 +146,7 @@ ref bool Glowing { get; }
 
 ### EligibleForScreenHighlightUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGlowProperty.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGlowProperty.cs#L48)
 
 ```csharp
 void EligibleForScreenHighlightUpdated()
@@ -154,7 +154,7 @@ void EligibleForScreenHighlightUpdated()
 
 ### FlashingUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGlowProperty.cs#L44)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGlowProperty.cs#L45)
 
 ```csharp
 void FlashingUpdated()
@@ -162,7 +162,7 @@ void FlashingUpdated()
 
 ### GlowColorOverrideUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGlowProperty.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGlowProperty.cs#L44)
 
 ```csharp
 void GlowColorOverrideUpdated()
@@ -170,7 +170,7 @@ void GlowColorOverrideUpdated()
 
 ### GlowRangeMinUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGlowProperty.cs#L42)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGlowProperty.cs#L43)
 
 ```csharp
 void GlowRangeMinUpdated()
@@ -178,7 +178,7 @@ void GlowRangeMinUpdated()
 
 ### GlowRangeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGlowProperty.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGlowProperty.cs#L42)
 
 ```csharp
 void GlowRangeUpdated()
@@ -186,7 +186,7 @@ void GlowRangeUpdated()
 
 ### GlowStartTimeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGlowProperty.cs#L46)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGlowProperty.cs#L47)
 
 ```csharp
 void GlowStartTimeUpdated()
@@ -194,7 +194,7 @@ void GlowStartTimeUpdated()
 
 ### GlowTeamUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGlowProperty.cs#L40)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGlowProperty.cs#L41)
 
 ```csharp
 void GlowTeamUpdated()
@@ -202,7 +202,7 @@ void GlowTeamUpdated()
 
 ### GlowTimeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGlowProperty.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGlowProperty.cs#L46)
 
 ```csharp
 void GlowTimeUpdated()
@@ -210,7 +210,7 @@ void GlowTimeUpdated()
 
 ### GlowTypeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGlowProperty.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGlowProperty.cs#L40)
 
 ```csharp
 void GlowTypeUpdated()

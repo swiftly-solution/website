@@ -102,7 +102,7 @@ public float Volume { get; set; }
 
 ### Dispose()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L147)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L149)
 
 ```csharp
 public void Dispose()
@@ -110,11 +110,15 @@ public void Dispose()
 
 ### Emit()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L141)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L143)
 
 ```csharp
-public void Emit()
+public uint Emit()
 ```
+
+#### Returns
+
+- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
 ### GetBool(string)
 

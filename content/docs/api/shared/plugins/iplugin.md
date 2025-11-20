@@ -10,7 +10,7 @@ public interface IPlugin
 
 ### ConfigureSharedInterface(IInterfaceManager)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Plugins/IPlugin.cs#L7)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Plugins/IPlugin.cs#L8)
 
 ```csharp
 void ConfigureSharedInterface(IInterfaceManager interfaceManager)
@@ -22,7 +22,7 @@ void ConfigureSharedInterface(IInterfaceManager interfaceManager)
 
 ### Load(bool)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Plugins/IPlugin.cs#L11)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Plugins/IPlugin.cs#L16)
 
 ```csharp
 void Load(bool hotReload)
@@ -32,9 +32,29 @@ void Load(bool hotReload)
 
 - **hotReload**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### OnAllPluginsLoaded()
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Plugins/IPlugin.cs#L14)
+
+```csharp
+void OnAllPluginsLoaded()
+```
+
+### OnSharedInterfaceInjected(IInterfaceManager)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Plugins/IPlugin.cs#L12)
+
+```csharp
+void OnSharedInterfaceInjected(IInterfaceManager interfaceManager)
+```
+
+#### Parameters
+
+- **interfaceManager**: [IInterfaceManager](/docs/api/shared/iinterfacemanager)
+
 ### Unload()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Plugins/IPlugin.cs#L13)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Plugins/IPlugin.cs#L18)
 
 ```csharp
 void Unload()
@@ -42,7 +62,7 @@ void Unload()
 
 ### UseSharedInterface(IInterfaceManager)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Plugins/IPlugin.cs#L9)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Plugins/IPlugin.cs#L10)
 
 ```csharp
 void UseSharedInterface(IInterfaceManager interfaceManager)

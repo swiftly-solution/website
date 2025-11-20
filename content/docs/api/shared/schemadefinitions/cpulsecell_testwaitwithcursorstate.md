@@ -12,7 +12,7 @@ public interface CPulseCell_TestWaitWithCursorState : CPulseCell_BaseYieldingInf
 
 ### WakeCancel
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_TestWaitWithCursorState.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_TestWaitWithCursorState.cs#L20)
 
 ```csharp
 CPulse_ResumePoint WakeCancel { get; }
@@ -24,7 +24,7 @@ CPulse_ResumePoint WakeCancel { get; }
 
 ### WakeFail
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_TestWaitWithCursorState.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_TestWaitWithCursorState.cs#L22)
 
 ```csharp
 CPulse_ResumePoint WakeFail { get; }
@@ -36,7 +36,7 @@ CPulse_ResumePoint WakeFail { get; }
 
 ### WakeResume
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_TestWaitWithCursorState.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_TestWaitWithCursorState.cs#L18)
 
 ```csharp
 CPulse_ResumePoint WakeResume { get; }

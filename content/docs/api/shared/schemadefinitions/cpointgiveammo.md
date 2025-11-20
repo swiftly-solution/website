@@ -12,7 +12,7 @@ public interface CPointGiveAmmo : CPointEntity, CBaseEntity, CEntityInstance, IS
 
 ### Activator
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointGiveAmmo.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointGiveAmmo.cs#L18)
 
 ```csharp
 ref CHandle<CBaseEntity> Activator { get; }

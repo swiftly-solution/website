@@ -12,7 +12,7 @@ public interface C_INIT_CreateOnModel : CParticleFunctionInitializer, CParticleF
 
 ### BoneVelocity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModel.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModel.cs#L34)
 
 ```csharp
 ref float BoneVelocity { get; }
@@ -24,7 +24,7 @@ ref float BoneVelocity { get; }
 
 ### DesiredHitbox
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModel.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModel.cs#L28)
 
 ```csharp
 CParticleCollectionFloatInput DesiredHitbox { get; }
@@ -36,7 +36,7 @@ CParticleCollectionFloatInput DesiredHitbox { get; }
 
 ### DirectionBias
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModel.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModel.cs#L38)
 
 ```csharp
 CParticleCollectionVecInput DirectionBias { get; }
@@ -48,7 +48,7 @@ CParticleCollectionVecInput DirectionBias { get; }
 
 ### EvenDistribution
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModel.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModel.cs#L26)
 
 ```csharp
 ref bool EvenDistribution { get; }
@@ -60,7 +60,7 @@ ref bool EvenDistribution { get; }
 
 ### ForceInModel
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModel.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModel.cs#L22)
 
 ```csharp
 ref int ForceInModel { get; }
@@ -72,7 +72,7 @@ ref int ForceInModel { get; }
 
 ### HitBoxScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModel.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModel.cs#L32)
 
 ```csharp
 CParticleCollectionVecInput HitBoxScale { get; }
@@ -84,7 +84,7 @@ CParticleCollectionVecInput HitBoxScale { get; }
 
 ### HitboxSetName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModel.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModel.cs#L40)
 
 ```csharp
 string HitboxSetName { get; set; }
@@ -96,7 +96,7 @@ string HitboxSetName { get; set; }
 
 ### HitboxValueFromControlPointIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModel.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModel.cs#L30)
 
 ```csharp
 ref int HitboxValueFromControlPointIndex { get; }
@@ -108,7 +108,7 @@ ref int HitboxValueFromControlPointIndex { get; }
 
 ### LocalCoords
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModel.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModel.cs#L42)
 
 ```csharp
 ref bool LocalCoords { get; }
@@ -120,7 +120,7 @@ ref bool LocalCoords { get; }
 
 ### MaxBoneVelocity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModel.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModel.cs#L36)
 
 ```csharp
 ref float MaxBoneVelocity { get; }
@@ -132,7 +132,7 @@ ref float MaxBoneVelocity { get; }
 
 ### ModelInput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModel.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModel.cs#L18)
 
 ```csharp
 CParticleModelInput ModelInput { get; }
@@ -144,7 +144,7 @@ CParticleModelInput ModelInput { get; }
 
 ### ScaleToVolume
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModel.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModel.cs#L24)
 
 ```csharp
 ref bool ScaleToVolume { get; }
@@ -156,7 +156,7 @@ ref bool ScaleToVolume { get; }
 
 ### ShellSize
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModel.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModel.cs#L48)
 
 ```csharp
 CParticleCollectionFloatInput ShellSize { get; }
@@ -168,7 +168,7 @@ CParticleCollectionFloatInput ShellSize { get; }
 
 ### TransformInput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModel.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModel.cs#L20)
 
 ```csharp
 CParticleTransformInput TransformInput { get; }
@@ -180,7 +180,7 @@ CParticleTransformInput TransformInput { get; }
 
 ### UseBones
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModel.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModel.cs#L44)
 
 ```csharp
 ref bool UseBones { get; }
@@ -192,7 +192,7 @@ ref bool UseBones { get; }
 
 ### UseMesh
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModel.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnModel.cs#L46)
 
 ```csharp
 ref bool UseMesh { get; }

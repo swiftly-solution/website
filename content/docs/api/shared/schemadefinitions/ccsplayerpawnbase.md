@@ -12,7 +12,7 @@ public interface CCSPlayerPawnBase : CBasePlayerPawn, CBaseCombatCharacter, CBas
 
 ### BlindStartTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawnBase.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawnBase.cs#L24)
 
 ```csharp
 GameTime_t BlindStartTime { get; }
@@ -24,7 +24,7 @@ GameTime_t BlindStartTime { get; }
 
 ### BlindUntilTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawnBase.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawnBase.cs#L22)
 
 ```csharp
 GameTime_t BlindUntilTime { get; }
@@ -36,7 +36,7 @@ GameTime_t BlindUntilTime { get; }
 
 ### CTouchExpansionComponent
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawnBase.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawnBase.cs#L18)
 
 ```csharp
 CTouchExpansionComponent CTouchExpansionComponent { get; }
@@ -48,7 +48,7 @@ CTouchExpansionComponent CTouchExpansionComponent { get; }
 
 ### FlashDuration
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawnBase.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawnBase.cs#L38)
 
 ```csharp
 ref float FlashDuration { get; }
@@ -60,7 +60,7 @@ ref float FlashDuration { get; }
 
 ### FlashMaxAlpha
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawnBase.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawnBase.cs#L40)
 
 ```csharp
 ref float FlashMaxAlpha { get; }
@@ -72,7 +72,7 @@ ref float FlashMaxAlpha { get; }
 
 ### HasMovedSinceSpawn
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawnBase.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawnBase.cs#L30)
 
 ```csharp
 ref bool HasMovedSinceSpawn { get; }
@@ -84,7 +84,7 @@ ref bool HasMovedSinceSpawn { get; }
 
 ### IdleTimeSinceLastAction
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawnBase.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawnBase.cs#L34)
 
 ```csharp
 ref float IdleTimeSinceLastAction { get; }
@@ -96,7 +96,7 @@ ref float IdleTimeSinceLastAction { get; }
 
 ### NextRadarUpdateTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawnBase.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawnBase.cs#L36)
 
 ```csharp
 ref float NextRadarUpdateTime { get; }
@@ -108,7 +108,7 @@ ref float NextRadarUpdateTime { get; }
 
 ### NumSpawns
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawnBase.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawnBase.cs#L32)
 
 ```csharp
 ref int NumSpawns { get; }
@@ -120,7 +120,7 @@ ref int NumSpawns { get; }
 
 ### OriginalController
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawnBase.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawnBase.cs#L46)
 
 ```csharp
 ref CHandle<CCSPlayerController> OriginalController { get; }
@@ -132,7 +132,7 @@ ref CHandle<CCSPlayerController> OriginalController { get; }
 
 ### PingServices
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawnBase.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawnBase.cs#L20)
 
 ```csharp
 CCSPlayer_PingServices? PingServices { get; }
@@ -144,7 +144,7 @@ CCSPlayer_PingServices? PingServices { get; }
 
 ### PlayerState
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawnBase.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawnBase.cs#L26)
 
 ```csharp
 ref CSPlayerState PlayerState { get; }
@@ -156,7 +156,7 @@ ref CSPlayerState PlayerState { get; }
 
 ### ProgressBarDuration
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawnBase.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawnBase.cs#L44)
 
 ```csharp
 ref int ProgressBarDuration { get; }
@@ -168,7 +168,7 @@ ref int ProgressBarDuration { get; }
 
 ### ProgressBarStartTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawnBase.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawnBase.cs#L42)
 
 ```csharp
 ref float ProgressBarStartTime { get; }
@@ -180,7 +180,7 @@ ref float ProgressBarStartTime { get; }
 
 ### Respawning
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawnBase.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawnBase.cs#L28)
 
 ```csharp
 ref bool Respawning { get; }
@@ -194,7 +194,7 @@ ref bool Respawning { get; }
 
 ### CTouchExpansionComponentUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawnBase.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawnBase.cs#L48)
 
 ```csharp
 void CTouchExpansionComponentUpdated()
@@ -202,7 +202,7 @@ void CTouchExpansionComponentUpdated()
 
 ### FlashDurationUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawnBase.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawnBase.cs#L52)
 
 ```csharp
 void FlashDurationUpdated()
@@ -210,7 +210,7 @@ void FlashDurationUpdated()
 
 ### FlashMaxAlphaUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawnBase.cs#L52)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawnBase.cs#L53)
 
 ```csharp
 void FlashMaxAlphaUpdated()
@@ -218,7 +218,7 @@ void FlashMaxAlphaUpdated()
 
 ### HasMovedSinceSpawnUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawnBase.cs#L50)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawnBase.cs#L51)
 
 ```csharp
 void HasMovedSinceSpawnUpdated()
@@ -226,7 +226,7 @@ void HasMovedSinceSpawnUpdated()
 
 ### OriginalControllerUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawnBase.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawnBase.cs#L56)
 
 ```csharp
 void OriginalControllerUpdated()
@@ -234,7 +234,7 @@ void OriginalControllerUpdated()
 
 ### PingServicesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawnBase.cs#L48)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawnBase.cs#L49)
 
 ```csharp
 void PingServicesUpdated()
@@ -242,7 +242,7 @@ void PingServicesUpdated()
 
 ### PlayerStateUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawnBase.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawnBase.cs#L50)
 
 ```csharp
 void PlayerStateUpdated()
@@ -250,7 +250,7 @@ void PlayerStateUpdated()
 
 ### ProgressBarDurationUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawnBase.cs#L54)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawnBase.cs#L55)
 
 ```csharp
 void ProgressBarDurationUpdated()
@@ -258,7 +258,7 @@ void ProgressBarDurationUpdated()
 
 ### ProgressBarStartTimeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawnBase.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerPawnBase.cs#L54)
 
 ```csharp
 void ProgressBarStartTimeUpdated()

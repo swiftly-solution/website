@@ -12,7 +12,7 @@ public interface ClutterSceneObject_t : ISchemaClass<ClutterSceneObject_t>, ISch
 
 ### BeginCullSize
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ClutterSceneObject_t.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ClutterSceneObject_t.cs#L36)
 
 ```csharp
 ref float BeginCullSize { get; }
@@ -24,7 +24,7 @@ ref float BeginCullSize { get; }
 
 ### Bounds
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ClutterSceneObject_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ClutterSceneObject_t.cs#L18)
 
 ```csharp
 AABB_t Bounds { get; }
@@ -36,7 +36,7 @@ AABB_t Bounds { get; }
 
 ### EndCullSize
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ClutterSceneObject_t.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ClutterSceneObject_t.cs#L38)
 
 ```csharp
 ref float EndCullSize { get; }
@@ -48,7 +48,7 @@ ref float EndCullSize { get; }
 
 ### Flags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ClutterSceneObject_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ClutterSceneObject_t.cs#L20)
 
 ```csharp
 ref ObjectTypeFlags_t Flags { get; }
@@ -60,7 +60,7 @@ ref ObjectTypeFlags_t Flags { get; }
 
 ### InstancePositions
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ClutterSceneObject_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ClutterSceneObject_t.cs#L24)
 
 ```csharp
 ref CUtlVector<Vector> InstancePositions { get; }
@@ -72,7 +72,7 @@ ref CUtlVector<Vector> InstancePositions { get; }
 
 ### InstanceScales
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ClutterSceneObject_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ClutterSceneObject_t.cs#L26)
 
 ```csharp
 ref CUtlVector<float> InstanceScales { get; }
@@ -84,7 +84,7 @@ ref CUtlVector<float> InstanceScales { get; }
 
 ### InstanceTintSrgb
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ClutterSceneObject_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ClutterSceneObject_t.cs#L28)
 
 ```csharp
 ref CUtlVector<Color> InstanceTintSrgb { get; }
@@ -96,7 +96,7 @@ ref CUtlVector<Color> InstanceTintSrgb { get; }
 
 ### Layer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ClutterSceneObject_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ClutterSceneObject_t.cs#L22)
 
 ```csharp
 ref short Layer { get; }
@@ -108,7 +108,7 @@ ref short Layer { get; }
 
 ### MaterialGroup
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ClutterSceneObject_t.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ClutterSceneObject_t.cs#L34)
 
 ```csharp
 ref CUtlStringToken MaterialGroup { get; }
@@ -120,7 +120,7 @@ ref CUtlStringToken MaterialGroup { get; }
 
 ### RenderableModel
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ClutterSceneObject_t.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ClutterSceneObject_t.cs#L32)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCModel> RenderableModel { get; }
@@ -132,7 +132,7 @@ ref CStrongHandle<InfoForResourceTypeCModel> RenderableModel { get; }
 
 ### Tiles
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ClutterSceneObject_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ClutterSceneObject_t.cs#L30)
 
 ```csharp
 ref CUtlVector<ClutterTile_t> Tiles { get; }

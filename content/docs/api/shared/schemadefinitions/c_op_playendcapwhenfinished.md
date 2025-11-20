@@ -12,7 +12,7 @@ public interface C_OP_PlayEndCapWhenFinished : CParticleFunctionPreEmission, CPa
 
 ### FireOnEmissionEnd
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PlayEndCapWhenFinished.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PlayEndCapWhenFinished.cs#L18)
 
 ```csharp
 ref bool FireOnEmissionEnd { get; }
@@ -24,7 +24,7 @@ ref bool FireOnEmissionEnd { get; }
 
 ### IncludeChildren
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PlayEndCapWhenFinished.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PlayEndCapWhenFinished.cs#L20)
 
 ```csharp
 ref bool IncludeChildren { get; }

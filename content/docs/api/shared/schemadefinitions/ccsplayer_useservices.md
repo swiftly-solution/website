@@ -12,7 +12,7 @@ public interface CCSPlayer_UseServices : CPlayer_UseServices, CPlayerPawnCompone
 
 ### LastKnownUseEntity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_UseServices.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_UseServices.cs#L18)
 
 ```csharp
 ref CHandle<CBaseEntity> LastKnownUseEntity { get; }
@@ -24,7 +24,7 @@ ref CHandle<CBaseEntity> LastKnownUseEntity { get; }
 
 ### LastUseTimeStamp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_UseServices.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_UseServices.cs#L20)
 
 ```csharp
 GameTime_t LastUseTimeStamp { get; }
@@ -36,7 +36,7 @@ GameTime_t LastUseTimeStamp { get; }
 
 ### TimeLastUsedWindow
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_UseServices.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_UseServices.cs#L22)
 
 ```csharp
 GameTime_t TimeLastUsedWindow { get; }

@@ -12,7 +12,7 @@ public interface VMixConvolutionDesc_t : ISchemaClass<VMixConvolutionDesc_t>, IS
 
 ### FldbGain
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixConvolutionDesc_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixConvolutionDesc_t.cs#L18)
 
 ```csharp
 ref float FldbGain { get; }
@@ -24,7 +24,7 @@ ref float FldbGain { get; }
 
 ### FldbHigh
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixConvolutionDesc_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixConvolutionDesc_t.cs#L28)
 
 ```csharp
 ref float FldbHigh { get; }
@@ -36,7 +36,7 @@ ref float FldbHigh { get; }
 
 ### FldbLow
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixConvolutionDesc_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixConvolutionDesc_t.cs#L24)
 
 ```csharp
 ref float FldbLow { get; }
@@ -48,7 +48,7 @@ ref float FldbLow { get; }
 
 ### FldbMid
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixConvolutionDesc_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixConvolutionDesc_t.cs#L26)
 
 ```csharp
 ref float FldbMid { get; }
@@ -60,7 +60,7 @@ ref float FldbMid { get; }
 
 ### HighCutoffFreq
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixConvolutionDesc_t.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixConvolutionDesc_t.cs#L32)
 
 ```csharp
 ref float HighCutoffFreq { get; }
@@ -72,7 +72,7 @@ ref float HighCutoffFreq { get; }
 
 ### LowCutoffFreq
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixConvolutionDesc_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixConvolutionDesc_t.cs#L30)
 
 ```csharp
 ref float LowCutoffFreq { get; }
@@ -84,7 +84,7 @@ ref float LowCutoffFreq { get; }
 
 ### PreDelayMS
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixConvolutionDesc_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixConvolutionDesc_t.cs#L20)
 
 ```csharp
 ref float PreDelayMS { get; }
@@ -96,7 +96,7 @@ ref float PreDelayMS { get; }
 
 ### WetMix
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixConvolutionDesc_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixConvolutionDesc_t.cs#L22)
 
 ```csharp
 ref float WetMix { get; }

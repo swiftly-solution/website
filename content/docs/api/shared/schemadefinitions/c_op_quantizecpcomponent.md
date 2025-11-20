@@ -12,7 +12,7 @@ public interface C_OP_QuantizeCPComponent : CParticleFunctionPreEmission, CParti
 
 ### CPOutput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_QuantizeCPComponent.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_QuantizeCPComponent.cs#L20)
 
 ```csharp
 ref int CPOutput { get; }
@@ -24,7 +24,7 @@ ref int CPOutput { get; }
 
 ### InputValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_QuantizeCPComponent.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_QuantizeCPComponent.cs#L18)
 
 ```csharp
 CParticleCollectionFloatInput InputValue { get; }
@@ -36,7 +36,7 @@ CParticleCollectionFloatInput InputValue { get; }
 
 ### OutVectorField
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_QuantizeCPComponent.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_QuantizeCPComponent.cs#L22)
 
 ```csharp
 ref int OutVectorField { get; }
@@ -48,7 +48,7 @@ ref int OutVectorField { get; }
 
 ### QuantizeValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_QuantizeCPComponent.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_QuantizeCPComponent.cs#L24)
 
 ```csharp
 CParticleCollectionFloatInput QuantizeValue { get; }

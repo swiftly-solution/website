@@ -12,7 +12,7 @@ public interface CInfoFan : CPointEntity, CBaseEntity, CEntityInstance, ISchemaC
 
 ### CurveDistRange
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoFan.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoFan.cs#L22)
 
 ```csharp
 ref float CurveDistRange { get; }
@@ -24,7 +24,7 @@ ref float CurveDistRange { get; }
 
 ### FanForceCurveString
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoFan.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoFan.cs#L24)
 
 ```csharp
 string FanForceCurveString { get; set; }
@@ -36,7 +36,7 @@ string FanForceCurveString { get; set; }
 
 ### FanForceMaxRadius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoFan.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoFan.cs#L18)
 
 ```csharp
 ref float FanForceMaxRadius { get; }
@@ -48,7 +48,7 @@ ref float FanForceMaxRadius { get; }
 
 ### FanForceMinRadius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoFan.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoFan.cs#L20)
 
 ```csharp
 ref float FanForceMinRadius { get; }
@@ -62,7 +62,7 @@ ref float FanForceMinRadius { get; }
 
 ### CurveDistRangeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoFan.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoFan.cs#L28)
 
 ```csharp
 void CurveDistRangeUpdated()
@@ -70,7 +70,7 @@ void CurveDistRangeUpdated()
 
 ### FanForceCurveStringUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoFan.cs#L28)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoFan.cs#L29)
 
 ```csharp
 void FanForceCurveStringUpdated()
@@ -78,7 +78,7 @@ void FanForceCurveStringUpdated()
 
 ### FanForceMaxRadiusUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoFan.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoFan.cs#L26)
 
 ```csharp
 void FanForceMaxRadiusUpdated()
@@ -86,7 +86,7 @@ void FanForceMaxRadiusUpdated()
 
 ### FanForceMinRadiusUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoFan.cs#L26)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoFan.cs#L27)
 
 ```csharp
 void FanForceMinRadiusUpdated()

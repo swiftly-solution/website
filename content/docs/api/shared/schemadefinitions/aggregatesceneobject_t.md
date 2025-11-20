@@ -12,7 +12,7 @@ public interface AggregateSceneObject_t : ISchemaClass<AggregateSceneObject_t>, 
 
 ### AggregateMeshes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateSceneObject_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateSceneObject_t.cs#L28)
 
 ```csharp
 ref CUtlVector<AggregateMeshInfo_t> AggregateMeshes { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<AggregateMeshInfo_t> AggregateMeshes { get; }
 
 ### AllFlags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateSceneObject_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateSceneObject_t.cs#L18)
 
 ```csharp
 ref ObjectTypeFlags_t AllFlags { get; }
@@ -36,7 +36,7 @@ ref ObjectTypeFlags_t AllFlags { get; }
 
 ### AnyFlags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateSceneObject_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateSceneObject_t.cs#L20)
 
 ```csharp
 ref ObjectTypeFlags_t AnyFlags { get; }
@@ -48,7 +48,7 @@ ref ObjectTypeFlags_t AnyFlags { get; }
 
 ### FragmentTransforms
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateSceneObject_t.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateSceneObject_t.cs#L34)
 
 ```csharp
 ref CUtlVector<matrix3x4_t> FragmentTransforms { get; }
@@ -60,7 +60,7 @@ ref CUtlVector<matrix3x4_t> FragmentTransforms { get; }
 
 ### InstanceStream
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateSceneObject_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateSceneObject_t.cs#L24)
 
 ```csharp
 ref short InstanceStream { get; }
@@ -72,7 +72,7 @@ ref short InstanceStream { get; }
 
 ### Layer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateSceneObject_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateSceneObject_t.cs#L22)
 
 ```csharp
 ref short Layer { get; }
@@ -84,7 +84,7 @@ ref short Layer { get; }
 
 ### LodSetups
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateSceneObject_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateSceneObject_t.cs#L30)
 
 ```csharp
 ref CUtlVector<AggregateLODSetup_t> LodSetups { get; }
@@ -96,7 +96,7 @@ ref CUtlVector<AggregateLODSetup_t> LodSetups { get; }
 
 ### RenderableModel
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateSceneObject_t.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateSceneObject_t.cs#L36)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCModel> RenderableModel { get; }
@@ -108,7 +108,7 @@ ref CStrongHandle<InfoForResourceTypeCModel> RenderableModel { get; }
 
 ### VertexAlbedoStream
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateSceneObject_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateSceneObject_t.cs#L26)
 
 ```csharp
 ref short VertexAlbedoStream { get; }
@@ -120,7 +120,7 @@ ref short VertexAlbedoStream { get; }
 
 ### VisClusterMembership
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateSceneObject_t.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateSceneObject_t.cs#L32)
 
 ```csharp
 ref CUtlVector<ushort> VisClusterMembership { get; }

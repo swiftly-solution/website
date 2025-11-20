@@ -12,7 +12,7 @@ public interface CAnimationGraphVisualizerText : CAnimationGraphVisualizerPrimit
 
 ### Color
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGraphVisualizerText.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGraphVisualizerText.cs#L20)
 
 ```csharp
 ref Color Color { get; }
@@ -24,7 +24,7 @@ ref Color Color { get; }
 
 ### Text
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGraphVisualizerText.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGraphVisualizerText.cs#L22)
 
 ```csharp
 string Text { get; set; }
@@ -36,7 +36,7 @@ string Text { get; set; }
 
 ### WsPosition
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGraphVisualizerText.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGraphVisualizerText.cs#L18)
 
 ```csharp
 ref Vector WsPosition { get; }

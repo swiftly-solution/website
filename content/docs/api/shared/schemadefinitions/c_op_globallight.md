@@ -12,7 +12,7 @@ public interface C_OP_GlobalLight : CParticleFunctionOperator, CParticleFunction
 
 ### ClampLowerRange
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_GlobalLight.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_GlobalLight.cs#L20)
 
 ```csharp
 ref bool ClampLowerRange { get; }
@@ -24,7 +24,7 @@ ref bool ClampLowerRange { get; }
 
 ### ClampUpperRange
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_GlobalLight.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_GlobalLight.cs#L22)
 
 ```csharp
 ref bool ClampUpperRange { get; }
@@ -36,7 +36,7 @@ ref bool ClampUpperRange { get; }
 
 ### Scale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_GlobalLight.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_GlobalLight.cs#L18)
 
 ```csharp
 ref float Scale { get; }

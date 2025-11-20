@@ -12,7 +12,7 @@ public interface CEnvSplash : CPointEntity, CBaseEntity, CEntityInstance, ISchem
 
 ### Scale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSplash.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSplash.cs#L18)
 
 ```csharp
 ref float Scale { get; }

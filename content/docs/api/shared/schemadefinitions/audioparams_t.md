@@ -12,7 +12,7 @@ public interface audioparams_t : ISchemaClass<audioparams_t>, ISchemaField, ISch
 
 ### LocalBits
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/audioparams_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/audioparams_t.cs#L22)
 
 ```csharp
 ref byte LocalBits { get; }
@@ -24,7 +24,7 @@ ref byte LocalBits { get; }
 
 ### LocalSound
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/audioparams_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/audioparams_t.cs#L18)
 
 ```csharp
 ISchemaFixedArray<Vector> LocalSound { get; }
@@ -36,7 +36,7 @@ ISchemaFixedArray<Vector> LocalSound { get; }
 
 ### SoundEventHash
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/audioparams_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/audioparams_t.cs#L26)
 
 ```csharp
 ref uint SoundEventHash { get; }
@@ -48,7 +48,7 @@ ref uint SoundEventHash { get; }
 
 ### SoundscapeEntityListIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/audioparams_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/audioparams_t.cs#L24)
 
 ```csharp
 ref int SoundscapeEntityListIndex { get; }
@@ -60,7 +60,7 @@ ref int SoundscapeEntityListIndex { get; }
 
 ### SoundscapeIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/audioparams_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/audioparams_t.cs#L20)
 
 ```csharp
 ref int SoundscapeIndex { get; }
@@ -74,7 +74,7 @@ ref int SoundscapeIndex { get; }
 
 ### LocalBitsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/audioparams_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/audioparams_t.cs#L30)
 
 ```csharp
 void LocalBitsUpdated()
@@ -82,7 +82,7 @@ void LocalBitsUpdated()
 
 ### LocalSoundUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/audioparams_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/audioparams_t.cs#L28)
 
 ```csharp
 void LocalSoundUpdated()
@@ -90,7 +90,7 @@ void LocalSoundUpdated()
 
 ### SoundEventHashUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/audioparams_t.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/audioparams_t.cs#L32)
 
 ```csharp
 void SoundEventHashUpdated()
@@ -98,7 +98,7 @@ void SoundEventHashUpdated()
 
 ### SoundscapeEntityListIndexUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/audioparams_t.cs#L30)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/audioparams_t.cs#L31)
 
 ```csharp
 void SoundscapeEntityListIndexUpdated()
@@ -106,7 +106,7 @@ void SoundscapeEntityListIndexUpdated()
 
 ### SoundscapeIndexUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/audioparams_t.cs#L28)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/audioparams_t.cs#L29)
 
 ```csharp
 void SoundscapeIndexUpdated()

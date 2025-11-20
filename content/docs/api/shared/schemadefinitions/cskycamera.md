@@ -12,7 +12,7 @@ public interface CSkyCamera : CBaseEntity, CEntityInstance, ISchemaClass<CEntity
 
 ### Next
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkyCamera.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkyCamera.cs#L24)
 
 ```csharp
 CSkyCamera? Next { get; }
@@ -24,7 +24,7 @@ CSkyCamera? Next { get; }
 
 ### SkyboxData
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkyCamera.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkyCamera.cs#L18)
 
 ```csharp
 sky3dparams_t SkyboxData { get; }
@@ -36,7 +36,7 @@ sky3dparams_t SkyboxData { get; }
 
 ### SkyboxSlotToken
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkyCamera.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkyCamera.cs#L20)
 
 ```csharp
 ref CUtlStringToken SkyboxSlotToken { get; }
@@ -48,7 +48,7 @@ ref CUtlStringToken SkyboxSlotToken { get; }
 
 ### UseAngles
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkyCamera.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkyCamera.cs#L22)
 
 ```csharp
 ref bool UseAngles { get; }
@@ -62,7 +62,7 @@ ref bool UseAngles { get; }
 
 ### SkyboxDataUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkyCamera.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkyCamera.cs#L26)
 
 ```csharp
 void SkyboxDataUpdated()
@@ -70,7 +70,7 @@ void SkyboxDataUpdated()
 
 ### SkyboxSlotTokenUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkyCamera.cs#L26)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkyCamera.cs#L27)
 
 ```csharp
 void SkyboxSlotTokenUpdated()

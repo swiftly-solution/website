@@ -12,7 +12,7 @@ public interface CInferno : CBaseModelEntity, CBaseEntity, CEntityInstance, ISch
 
 ### ActiveTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L52)
 
 ```csharp
 IntervalTimer ActiveTimer { get; }
@@ -24,7 +24,7 @@ IntervalTimer ActiveTimer { get; }
 
 ### BookkeepingTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L60)
 
 ```csharp
 CountdownTimer BookkeepingTimer { get; }
@@ -36,7 +36,7 @@ CountdownTimer BookkeepingTimer { get; }
 
 ### BurnNormal
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L24)
 
 ```csharp
 ISchemaFixedArray<Vector> BurnNormal { get; }
@@ -48,7 +48,7 @@ ISchemaFixedArray<Vector> BurnNormal { get; }
 
 ### DamageRampTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L42)
 
 ```csharp
 CountdownTimer DamageRampTimer { get; }
@@ -60,7 +60,7 @@ CountdownTimer DamageRampTimer { get; }
 
 ### DamageTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L40)
 
 ```csharp
 CountdownTimer DamageTimer { get; }
@@ -72,7 +72,7 @@ CountdownTimer DamageTimer { get; }
 
 ### Extent
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L38)
 
 ```csharp
 Extent Extent { get; }
@@ -84,7 +84,7 @@ Extent Extent { get; }
 
 ### FireCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L26)
 
 ```csharp
 ref int FireCount { get; }
@@ -96,7 +96,7 @@ ref int FireCount { get; }
 
 ### FireEffectTickBegin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L30)
 
 ```csharp
 ref int FireEffectTickBegin { get; }
@@ -108,7 +108,7 @@ ref int FireEffectTickBegin { get; }
 
 ### FireIsBurning
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L22)
 
 ```csharp
 ISchemaFixedArray<bool> FireIsBurning { get; }
@@ -120,7 +120,7 @@ ISchemaFixedArray<bool> FireIsBurning { get; }
 
 ### FireLifetime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L32)
 
 ```csharp
 ref float FireLifetime { get; }
@@ -132,7 +132,7 @@ ref float FireLifetime { get; }
 
 ### FireParentPositions
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L20)
 
 ```csharp
 ISchemaFixedArray<Vector> FireParentPositions { get; }
@@ -144,7 +144,7 @@ ISchemaFixedArray<Vector> FireParentPositions { get; }
 
 ### FirePositions
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L18)
 
 ```csharp
 ISchemaFixedArray<Vector> FirePositions { get; }
@@ -156,7 +156,7 @@ ISchemaFixedArray<Vector> FirePositions { get; }
 
 ### FireSpawnOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L54)
 
 ```csharp
 ref int FireSpawnOffset { get; }
@@ -168,7 +168,7 @@ ref int FireSpawnOffset { get; }
 
 ### InPostEffectTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L34)
 
 ```csharp
 ref bool InPostEffectTime { get; }
@@ -180,7 +180,7 @@ ref bool InPostEffectTime { get; }
 
 ### InfernoType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L28)
 
 ```csharp
 ref int InfernoType { get; }
@@ -192,7 +192,7 @@ ref int InfernoType { get; }
 
 ### InitialSplashVelocity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L46)
 
 ```csharp
 ref Vector InitialSplashVelocity { get; }
@@ -204,7 +204,7 @@ ref Vector InitialSplashVelocity { get; }
 
 ### MaxFlames
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L56)
 
 ```csharp
 ref int MaxFlames { get; }
@@ -216,7 +216,7 @@ ref int MaxFlames { get; }
 
 ### NextSpreadTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L62)
 
 ```csharp
 CountdownTimer NextSpreadTimer { get; }
@@ -228,7 +228,7 @@ CountdownTimer NextSpreadTimer { get; }
 
 ### OriginalSpawnLocation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L50)
 
 ```csharp
 ref Vector OriginalSpawnLocation { get; }
@@ -240,7 +240,7 @@ ref Vector OriginalSpawnLocation { get; }
 
 ### SourceItemDefIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L64)
 
 ```csharp
 ref ushort SourceItemDefIndex { get; }
@@ -252,7 +252,7 @@ ref ushort SourceItemDefIndex { get; }
 
 ### SplashVelocity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L44)
 
 ```csharp
 ref Vector SplashVelocity { get; }
@@ -264,7 +264,7 @@ ref Vector SplashVelocity { get; }
 
 ### SpreadCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L58)
 
 ```csharp
 ref int SpreadCount { get; }
@@ -276,7 +276,7 @@ ref int SpreadCount { get; }
 
 ### StartPos
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L48)
 
 ```csharp
 ref Vector StartPos { get; }
@@ -288,7 +288,7 @@ ref Vector StartPos { get; }
 
 ### WasCreatedInSmoke
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L36)
 
 ```csharp
 ref bool WasCreatedInSmoke { get; }
@@ -302,7 +302,7 @@ ref bool WasCreatedInSmoke { get; }
 
 ### BurnNormalUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L68)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L69)
 
 ```csharp
 void BurnNormalUpdated()
@@ -310,7 +310,7 @@ void BurnNormalUpdated()
 
 ### FireCountUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L69)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L70)
 
 ```csharp
 void FireCountUpdated()
@@ -318,7 +318,7 @@ void FireCountUpdated()
 
 ### FireEffectTickBeginUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L71)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L72)
 
 ```csharp
 void FireEffectTickBeginUpdated()
@@ -326,7 +326,7 @@ void FireEffectTickBeginUpdated()
 
 ### FireIsBurningUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L67)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L68)
 
 ```csharp
 void FireIsBurningUpdated()
@@ -334,7 +334,7 @@ void FireIsBurningUpdated()
 
 ### FireLifetimeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L72)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L73)
 
 ```csharp
 void FireLifetimeUpdated()
@@ -342,7 +342,7 @@ void FireLifetimeUpdated()
 
 ### FireParentPositionsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L66)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L67)
 
 ```csharp
 void FireParentPositionsUpdated()
@@ -350,7 +350,7 @@ void FireParentPositionsUpdated()
 
 ### FirePositionsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L65)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L66)
 
 ```csharp
 void FirePositionsUpdated()
@@ -358,7 +358,7 @@ void FirePositionsUpdated()
 
 ### InPostEffectTimeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L73)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L74)
 
 ```csharp
 void InPostEffectTimeUpdated()
@@ -366,7 +366,7 @@ void InPostEffectTimeUpdated()
 
 ### InfernoTypeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L70)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInferno.cs#L71)
 
 ```csharp
 void InfernoTypeUpdated()

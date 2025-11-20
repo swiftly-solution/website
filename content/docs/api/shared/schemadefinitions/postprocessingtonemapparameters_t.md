@@ -12,7 +12,7 @@ public interface PostProcessingTonemapParameters_t : ISchemaClass<PostProcessing
 
 ### ExposureBias
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingTonemapParameters_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingTonemapParameters_t.cs#L18)
 
 ```csharp
 ref float ExposureBias { get; }
@@ -24,7 +24,7 @@ ref float ExposureBias { get; }
 
 ### ExposureBiasHighlights
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingTonemapParameters_t.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingTonemapParameters_t.cs#L38)
 
 ```csharp
 ref float ExposureBiasHighlights { get; }
@@ -36,7 +36,7 @@ ref float ExposureBiasHighlights { get; }
 
 ### ExposureBiasShadows
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingTonemapParameters_t.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingTonemapParameters_t.cs#L36)
 
 ```csharp
 ref float ExposureBiasShadows { get; }
@@ -48,7 +48,7 @@ ref float ExposureBiasShadows { get; }
 
 ### LinearAngle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingTonemapParameters_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingTonemapParameters_t.cs#L24)
 
 ```csharp
 ref float LinearAngle { get; }
@@ -60,7 +60,7 @@ ref float LinearAngle { get; }
 
 ### LinearStrength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingTonemapParameters_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingTonemapParameters_t.cs#L22)
 
 ```csharp
 ref float LinearStrength { get; }
@@ -72,7 +72,7 @@ ref float LinearStrength { get; }
 
 ### LuminanceSource
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingTonemapParameters_t.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingTonemapParameters_t.cs#L34)
 
 ```csharp
 ref float LuminanceSource { get; }
@@ -84,7 +84,7 @@ ref float LuminanceSource { get; }
 
 ### MaxHighlightLum
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingTonemapParameters_t.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingTonemapParameters_t.cs#L46)
 
 ```csharp
 ref float MaxHighlightLum { get; }
@@ -96,7 +96,7 @@ ref float MaxHighlightLum { get; }
 
 ### MaxShadowLum
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingTonemapParameters_t.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingTonemapParameters_t.cs#L42)
 
 ```csharp
 ref float MaxShadowLum { get; }
@@ -108,7 +108,7 @@ ref float MaxShadowLum { get; }
 
 ### MinHighlightLum
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingTonemapParameters_t.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingTonemapParameters_t.cs#L44)
 
 ```csharp
 ref float MinHighlightLum { get; }
@@ -120,7 +120,7 @@ ref float MinHighlightLum { get; }
 
 ### MinShadowLum
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingTonemapParameters_t.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingTonemapParameters_t.cs#L40)
 
 ```csharp
 ref float MinShadowLum { get; }
@@ -132,7 +132,7 @@ ref float MinShadowLum { get; }
 
 ### ShoulderStrength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingTonemapParameters_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingTonemapParameters_t.cs#L20)
 
 ```csharp
 ref float ShoulderStrength { get; }
@@ -144,7 +144,7 @@ ref float ShoulderStrength { get; }
 
 ### ToeDenom
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingTonemapParameters_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingTonemapParameters_t.cs#L30)
 
 ```csharp
 ref float ToeDenom { get; }
@@ -156,7 +156,7 @@ ref float ToeDenom { get; }
 
 ### ToeNum
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingTonemapParameters_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingTonemapParameters_t.cs#L28)
 
 ```csharp
 ref float ToeNum { get; }
@@ -168,7 +168,7 @@ ref float ToeNum { get; }
 
 ### ToeStrength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingTonemapParameters_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingTonemapParameters_t.cs#L26)
 
 ```csharp
 ref float ToeStrength { get; }
@@ -180,7 +180,7 @@ ref float ToeStrength { get; }
 
 ### WhitePoint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingTonemapParameters_t.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingTonemapParameters_t.cs#L32)
 
 ```csharp
 ref float WhitePoint { get; }

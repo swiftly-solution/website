@@ -12,7 +12,7 @@ public interface PointDefinition_t : ISchemaClass<PointDefinition_t>, ISchemaFie
 
 ### ControlPoint
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PointDefinition_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PointDefinition_t.cs#L18)
 
 ```csharp
 ref int ControlPoint { get; }
@@ -24,7 +24,7 @@ ref int ControlPoint { get; }
 
 ### LocalCoords
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PointDefinition_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PointDefinition_t.cs#L20)
 
 ```csharp
 ref bool LocalCoords { get; }
@@ -36,7 +36,7 @@ ref bool LocalCoords { get; }
 
 ### Offset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PointDefinition_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PointDefinition_t.cs#L22)
 
 ```csharp
 ref Vector Offset { get; }

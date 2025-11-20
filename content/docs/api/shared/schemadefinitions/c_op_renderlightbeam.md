@@ -12,7 +12,7 @@ public interface C_OP_RenderLightBeam : CParticleFunctionRenderer, CParticleFunc
 
 ### BrightnessLumensPerMeter
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLightBeam.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLightBeam.cs#L22)
 
 ```csharp
 CParticleCollectionFloatInput BrightnessLumensPerMeter { get; }
@@ -24,7 +24,7 @@ CParticleCollectionFloatInput BrightnessLumensPerMeter { get; }
 
 ### CastShadows
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLightBeam.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLightBeam.cs#L24)
 
 ```csharp
 ref bool CastShadows { get; }
@@ -36,7 +36,7 @@ ref bool CastShadows { get; }
 
 ### ColorBlend
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLightBeam.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLightBeam.cs#L18)
 
 ```csharp
 CParticleCollectionVecInput ColorBlend { get; }
@@ -48,7 +48,7 @@ CParticleCollectionVecInput ColorBlend { get; }
 
 ### ColorBlendType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLightBeam.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLightBeam.cs#L20)
 
 ```csharp
 ref ParticleColorBlendType_t ColorBlendType { get; }
@@ -60,7 +60,7 @@ ref ParticleColorBlendType_t ColorBlendType { get; }
 
 ### Range
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLightBeam.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLightBeam.cs#L28)
 
 ```csharp
 CParticleCollectionFloatInput Range { get; }
@@ -72,7 +72,7 @@ CParticleCollectionFloatInput Range { get; }
 
 ### Skirt
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLightBeam.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLightBeam.cs#L26)
 
 ```csharp
 CParticleCollectionFloatInput Skirt { get; }
@@ -84,7 +84,7 @@ CParticleCollectionFloatInput Skirt { get; }
 
 ### Thickness
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLightBeam.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLightBeam.cs#L30)
 
 ```csharp
 CParticleCollectionFloatInput Thickness { get; }

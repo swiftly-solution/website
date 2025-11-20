@@ -12,7 +12,7 @@ public interface CStanceOverrideUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBa
 
 ### FootStanceInfo
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStanceOverrideUpdateNode.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStanceOverrideUpdateNode.cs#L18)
 
 ```csharp
 ref CUtlVector<StanceInfo_t> FootStanceInfo { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<StanceInfo_t> FootStanceInfo { get; }
 
 ### Mode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStanceOverrideUpdateNode.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStanceOverrideUpdateNode.cs#L24)
 
 ```csharp
 ref StanceOverrideMode Mode { get; }
@@ -36,7 +36,7 @@ ref StanceOverrideMode Mode { get; }
 
 ### Parameter
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStanceOverrideUpdateNode.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStanceOverrideUpdateNode.cs#L22)
 
 ```csharp
 CAnimParamHandle Parameter { get; }
@@ -48,7 +48,7 @@ CAnimParamHandle Parameter { get; }
 
 ### StanceSourceNode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStanceOverrideUpdateNode.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStanceOverrideUpdateNode.cs#L20)
 
 ```csharp
 CAnimUpdateNodeRef StanceSourceNode { get; }

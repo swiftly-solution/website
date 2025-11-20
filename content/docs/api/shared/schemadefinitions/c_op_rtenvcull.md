@@ -12,7 +12,7 @@ public interface C_OP_RtEnvCull : CParticleFunctionOperator, CParticleFunction, 
 
 ### Component
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RtEnvCull.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RtEnvCull.cs#L30)
 
 ```csharp
 ref int Component { get; }
@@ -24,7 +24,7 @@ ref int Component { get; }
 
 ### CullOnMiss
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RtEnvCull.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RtEnvCull.cs#L22)
 
 ```csharp
 ref bool CullOnMiss { get; }
@@ -36,7 +36,7 @@ ref bool CullOnMiss { get; }
 
 ### RTEnvCP
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RtEnvCull.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RtEnvCull.cs#L28)
 
 ```csharp
 ref int RTEnvCP { get; }
@@ -48,7 +48,7 @@ ref int RTEnvCP { get; }
 
 ### RtEnvName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RtEnvCull.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RtEnvCull.cs#L26)
 
 ```csharp
 string RtEnvName { get; set; }
@@ -60,7 +60,7 @@ string RtEnvName { get; set; }
 
 ### StickInsteadOfCull
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RtEnvCull.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RtEnvCull.cs#L24)
 
 ```csharp
 ref bool StickInsteadOfCull { get; }
@@ -72,7 +72,7 @@ ref bool StickInsteadOfCull { get; }
 
 ### TestDir
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RtEnvCull.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RtEnvCull.cs#L18)
 
 ```csharp
 ref Vector TestDir { get; }
@@ -84,7 +84,7 @@ ref Vector TestDir { get; }
 
 ### TestNormal
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RtEnvCull.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RtEnvCull.cs#L20)
 
 ```csharp
 ref Vector TestNormal { get; }

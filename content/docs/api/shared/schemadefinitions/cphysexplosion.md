@@ -12,7 +12,7 @@ public interface CPhysExplosion : CPointEntity, CBaseEntity, CEntityInstance, IS
 
 ### AffectInvulnerableEnts
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysExplosion.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysExplosion.cs#L34)
 
 ```csharp
 ref bool AffectInvulnerableEnts { get; }
@@ -24,7 +24,7 @@ ref bool AffectInvulnerableEnts { get; }
 
 ### ConvertToDebrisWhenPossible
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysExplosion.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysExplosion.cs#L32)
 
 ```csharp
 ref bool ConvertToDebrisWhenPossible { get; }
@@ -36,7 +36,7 @@ ref bool ConvertToDebrisWhenPossible { get; }
 
 ### Damage
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysExplosion.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysExplosion.cs#L22)
 
 ```csharp
 ref float Damage { get; }
@@ -48,7 +48,7 @@ ref float Damage { get; }
 
 ### ExplodeOnSpawn
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysExplosion.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysExplosion.cs#L18)
 
 ```csharp
 ref bool ExplodeOnSpawn { get; }
@@ -60,7 +60,7 @@ ref bool ExplodeOnSpawn { get; }
 
 ### InnerRadius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysExplosion.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysExplosion.cs#L28)
 
 ```csharp
 ref float InnerRadius { get; }
@@ -72,7 +72,7 @@ ref float InnerRadius { get; }
 
 ### Magnitude
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysExplosion.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysExplosion.cs#L20)
 
 ```csharp
 ref float Magnitude { get; }
@@ -84,7 +84,7 @@ ref float Magnitude { get; }
 
 ### OnPushedPlayer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysExplosion.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysExplosion.cs#L36)
 
 ```csharp
 CEntityIOOutput OnPushedPlayer { get; }
@@ -96,7 +96,7 @@ CEntityIOOutput OnPushedPlayer { get; }
 
 ### PushScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysExplosion.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysExplosion.cs#L30)
 
 ```csharp
 ref float PushScale { get; }
@@ -108,7 +108,7 @@ ref float PushScale { get; }
 
 ### Radius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysExplosion.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysExplosion.cs#L24)
 
 ```csharp
 ref float Radius { get; }
@@ -120,7 +120,7 @@ ref float Radius { get; }
 
 ### TargetEntityName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysExplosion.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysExplosion.cs#L26)
 
 ```csharp
 string TargetEntityName { get; set; }

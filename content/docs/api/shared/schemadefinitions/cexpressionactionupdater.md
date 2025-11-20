@@ -12,7 +12,7 @@ public interface CExpressionActionUpdater : CAnimActionUpdater, ISchemaClass<CAn
 
 ### Param
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CExpressionActionUpdater.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CExpressionActionUpdater.cs#L18)
 
 ```csharp
 CAnimParamHandle Param { get; }
@@ -24,7 +24,7 @@ CAnimParamHandle Param { get; }
 
 ### ParamType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CExpressionActionUpdater.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CExpressionActionUpdater.cs#L20)
 
 ```csharp
 ref AnimParamType_t ParamType { get; }
@@ -36,7 +36,7 @@ ref AnimParamType_t ParamType { get; }
 
 ### Script
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CExpressionActionUpdater.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CExpressionActionUpdater.cs#L22)
 
 ```csharp
 AnimScriptHandle Script { get; }

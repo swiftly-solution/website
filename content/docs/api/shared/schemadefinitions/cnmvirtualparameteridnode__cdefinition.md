@@ -12,7 +12,7 @@ public interface CNmVirtualParameterIDNode__CDefinition : CNmIDValueNode__CDefin
 
 ### ChildNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmVirtualParameterIDNode__CDefinition.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmVirtualParameterIDNode__CDefinition.cs#L18)
 
 ```csharp
 ref short ChildNodeIdx { get; }

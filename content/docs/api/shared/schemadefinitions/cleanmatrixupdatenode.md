@@ -12,7 +12,7 @@ public interface CLeanMatrixUpdateNode : CLeafUpdateNode, CAnimUpdateNodeBase, I
 
 ### BlendSource
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLeanMatrixUpdateNode.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLeanMatrixUpdateNode.cs#L26)
 
 ```csharp
 ref AnimVectorSource BlendSource { get; }
@@ -24,7 +24,7 @@ ref AnimVectorSource BlendSource { get; }
 
 ### Damping
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLeanMatrixUpdateNode.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLeanMatrixUpdateNode.cs#L24)
 
 ```csharp
 CAnimInputDamping Damping { get; }
@@ -36,7 +36,7 @@ CAnimInputDamping Damping { get; }
 
 ### FrameCorners
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLeanMatrixUpdateNode.cs#L18)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLeanMatrixUpdateNode.cs#L19)
 
 ```csharp
 SchemaUntypedField FrameCorners { get; }
@@ -48,7 +48,7 @@ SchemaUntypedField FrameCorners { get; }
 
 ### HorizontalAxis
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLeanMatrixUpdateNode.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLeanMatrixUpdateNode.cs#L32)
 
 ```csharp
 ref Vector HorizontalAxis { get; }
@@ -60,7 +60,7 @@ ref Vector HorizontalAxis { get; }
 
 ### MaxValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLeanMatrixUpdateNode.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLeanMatrixUpdateNode.cs#L36)
 
 ```csharp
 ref float MaxValue { get; }
@@ -72,7 +72,7 @@ ref float MaxValue { get; }
 
 ### ParamIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLeanMatrixUpdateNode.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLeanMatrixUpdateNode.cs#L28)
 
 ```csharp
 CAnimParamHandle ParamIndex { get; }
@@ -84,7 +84,7 @@ CAnimParamHandle ParamIndex { get; }
 
 ### Poses
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLeanMatrixUpdateNode.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLeanMatrixUpdateNode.cs#L22)
 
 ```csharp
 SchemaUntypedField Poses { get; }
@@ -96,7 +96,7 @@ SchemaUntypedField Poses { get; }
 
 ### Sequence
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLeanMatrixUpdateNode.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLeanMatrixUpdateNode.cs#L34)
 
 ```csharp
 HSequence Sequence { get; }
@@ -108,7 +108,7 @@ HSequence Sequence { get; }
 
 ### SequenceMaxFrame
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLeanMatrixUpdateNode.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLeanMatrixUpdateNode.cs#L38)
 
 ```csharp
 ref int SequenceMaxFrame { get; }
@@ -120,7 +120,7 @@ ref int SequenceMaxFrame { get; }
 
 ### VerticalAxis
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLeanMatrixUpdateNode.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLeanMatrixUpdateNode.cs#L30)
 
 ```csharp
 ref Vector VerticalAxis { get; }

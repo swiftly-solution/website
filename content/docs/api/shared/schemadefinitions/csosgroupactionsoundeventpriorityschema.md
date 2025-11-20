@@ -12,7 +12,7 @@ public interface CSosGroupActionSoundeventPrioritySchema : CSosGroupActionSchema
 
 ### PriorityContributeButDontRead
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventPrioritySchema.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventPrioritySchema.cs#L22)
 
 ```csharp
 string PriorityContributeButDontRead { get; set; }
@@ -24,7 +24,7 @@ string PriorityContributeButDontRead { get; set; }
 
 ### PriorityReadButDontContribute
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventPrioritySchema.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventPrioritySchema.cs#L24)
 
 ```csharp
 string PriorityReadButDontContribute { get; set; }
@@ -36,7 +36,7 @@ string PriorityReadButDontContribute { get; set; }
 
 ### PriorityValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventPrioritySchema.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventPrioritySchema.cs#L18)
 
 ```csharp
 string PriorityValue { get; set; }
@@ -48,7 +48,7 @@ string PriorityValue { get; set; }
 
 ### PriorityVolumeScalar
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventPrioritySchema.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventPrioritySchema.cs#L20)
 
 ```csharp
 string PriorityVolumeScalar { get; set; }

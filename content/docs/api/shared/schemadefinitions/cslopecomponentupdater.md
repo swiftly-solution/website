@@ -12,7 +12,7 @@ public interface CSlopeComponentUpdater : CAnimComponentUpdater, ISchemaClass<CA
 
 ### SlopeAngle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSlopeComponentUpdater.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSlopeComponentUpdater.cs#L20)
 
 ```csharp
 CAnimParamHandle SlopeAngle { get; }
@@ -24,7 +24,7 @@ CAnimParamHandle SlopeAngle { get; }
 
 ### SlopeAngleFront
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSlopeComponentUpdater.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSlopeComponentUpdater.cs#L22)
 
 ```csharp
 CAnimParamHandle SlopeAngleFront { get; }
@@ -36,7 +36,7 @@ CAnimParamHandle SlopeAngleFront { get; }
 
 ### SlopeAngleSide
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSlopeComponentUpdater.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSlopeComponentUpdater.cs#L24)
 
 ```csharp
 CAnimParamHandle SlopeAngleSide { get; }
@@ -48,7 +48,7 @@ CAnimParamHandle SlopeAngleSide { get; }
 
 ### SlopeHeading
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSlopeComponentUpdater.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSlopeComponentUpdater.cs#L26)
 
 ```csharp
 CAnimParamHandle SlopeHeading { get; }
@@ -60,7 +60,7 @@ CAnimParamHandle SlopeHeading { get; }
 
 ### SlopeNormal
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSlopeComponentUpdater.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSlopeComponentUpdater.cs#L28)
 
 ```csharp
 CAnimParamHandle SlopeNormal { get; }
@@ -72,7 +72,7 @@ CAnimParamHandle SlopeNormal { get; }
 
 ### SlopeNormal_WorldSpace
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSlopeComponentUpdater.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSlopeComponentUpdater.cs#L30)
 
 ```csharp
 CAnimParamHandle SlopeNormal_WorldSpace { get; }
@@ -84,7 +84,7 @@ CAnimParamHandle SlopeNormal_WorldSpace { get; }
 
 ### TraceDistance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSlopeComponentUpdater.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSlopeComponentUpdater.cs#L18)
 
 ```csharp
 ref float TraceDistance { get; }

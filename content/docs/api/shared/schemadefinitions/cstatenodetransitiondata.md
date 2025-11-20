@@ -12,7 +12,7 @@ public interface CStateNodeTransitionData : ISchemaClass<CStateNodeTransitionDat
 
 ### BlendDuration
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateNodeTransitionData.cs#L20)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateNodeTransitionData.cs#L21)
 
 ```csharp
 SchemaUntypedField BlendDuration { get; }
@@ -24,7 +24,7 @@ SchemaUntypedField BlendDuration { get; }
 
 ### Curve
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateNodeTransitionData.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateNodeTransitionData.cs#L18)
 
 ```csharp
 CBlendCurve Curve { get; }
@@ -36,7 +36,7 @@ CBlendCurve Curve { get; }
 
 ### Reset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateNodeTransitionData.cs#L26)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateNodeTransitionData.cs#L27)
 
 ```csharp
 SchemaUntypedField Reset { get; }
@@ -48,7 +48,7 @@ SchemaUntypedField Reset { get; }
 
 ### ResetCycleOption
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateNodeTransitionData.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateNodeTransitionData.cs#L30)
 
 ```csharp
 SchemaUntypedField ResetCycleOption { get; }
@@ -60,7 +60,7 @@ SchemaUntypedField ResetCycleOption { get; }
 
 ### ResetCycleValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateNodeTransitionData.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateNodeTransitionData.cs#L24)
 
 ```csharp
 SchemaUntypedField ResetCycleValue { get; }

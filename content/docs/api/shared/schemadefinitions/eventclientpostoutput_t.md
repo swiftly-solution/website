@@ -12,7 +12,7 @@ public interface EventClientPostOutput_t : ISchemaClass<EventClientPostOutput_t>
 
 ### LoopState
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientPostOutput_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientPostOutput_t.cs#L18)
 
 ```csharp
 EngineLoopState_t LoopState { get; }
@@ -24,7 +24,7 @@ EngineLoopState_t LoopState { get; }
 
 ### RenderFrameTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientPostOutput_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientPostOutput_t.cs#L22)
 
 ```csharp
 ref float RenderFrameTime { get; }
@@ -36,7 +36,7 @@ ref float RenderFrameTime { get; }
 
 ### RenderFrameTimeUnbounded
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientPostOutput_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientPostOutput_t.cs#L24)
 
 ```csharp
 ref float RenderFrameTimeUnbounded { get; }
@@ -48,7 +48,7 @@ ref float RenderFrameTimeUnbounded { get; }
 
 ### RenderOnly
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientPostOutput_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientPostOutput_t.cs#L26)
 
 ```csharp
 ref bool RenderOnly { get; }
@@ -60,7 +60,7 @@ ref bool RenderOnly { get; }
 
 ### RenderTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientPostOutput_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientPostOutput_t.cs#L20)
 
 ```csharp
 ref double RenderTime { get; }

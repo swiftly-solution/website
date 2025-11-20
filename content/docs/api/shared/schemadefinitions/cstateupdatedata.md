@@ -12,7 +12,7 @@ public interface CStateUpdateData : ISchemaClass<CStateUpdateData>, ISchemaField
 
 ### Actions
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateUpdateData.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateUpdateData.cs#L24)
 
 ```csharp
 ref CUtlVector<CStateActionUpdater> Actions { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<CStateActionUpdater> Actions { get; }
 
 ### IsEndState
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateUpdateData.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateUpdateData.cs#L32)
 
 ```csharp
 SchemaUntypedField IsEndState { get; }
@@ -36,7 +36,7 @@ SchemaUntypedField IsEndState { get; }
 
 ### IsPassthrough
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateUpdateData.cs#L34)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateUpdateData.cs#L35)
 
 ```csharp
 SchemaUntypedField IsPassthrough { get; }
@@ -48,7 +48,7 @@ SchemaUntypedField IsPassthrough { get; }
 
 ### IsPassthroughRootMotion
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateUpdateData.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateUpdateData.cs#L38)
 
 ```csharp
 SchemaUntypedField IsPassthroughRootMotion { get; }
@@ -60,7 +60,7 @@ SchemaUntypedField IsPassthroughRootMotion { get; }
 
 ### IsStartState
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateUpdateData.cs#L28)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateUpdateData.cs#L29)
 
 ```csharp
 SchemaUntypedField IsStartState { get; }
@@ -72,7 +72,7 @@ SchemaUntypedField IsStartState { get; }
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateUpdateData.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateUpdateData.cs#L18)
 
 ```csharp
 string Name { get; set; }
@@ -84,7 +84,7 @@ string Name { get; set; }
 
 ### PreEvaluatePassthroughTransitionPath
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateUpdateData.cs#L40)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateUpdateData.cs#L41)
 
 ```csharp
 SchemaUntypedField PreEvaluatePassthroughTransitionPath { get; }
@@ -96,7 +96,7 @@ SchemaUntypedField PreEvaluatePassthroughTransitionPath { get; }
 
 ### Script
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateUpdateData.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateUpdateData.cs#L20)
 
 ```csharp
 AnimScriptHandle Script { get; }
@@ -108,7 +108,7 @@ AnimScriptHandle Script { get; }
 
 ### StateID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateUpdateData.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateUpdateData.cs#L26)
 
 ```csharp
 AnimStateID StateID { get; }
@@ -120,7 +120,7 @@ AnimStateID StateID { get; }
 
 ### TransitionIndices
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateUpdateData.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateUpdateData.cs#L22)
 
 ```csharp
 ref CUtlVector<int> TransitionIndices { get; }

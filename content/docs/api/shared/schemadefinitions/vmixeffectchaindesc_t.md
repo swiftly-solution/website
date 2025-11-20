@@ -12,7 +12,7 @@ public interface VMixEffectChainDesc_t : ISchemaClass<VMixEffectChainDesc_t>, IS
 
 ### CrossfadeTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixEffectChainDesc_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixEffectChainDesc_t.cs#L18)
 
 ```csharp
 ref float CrossfadeTime { get; }

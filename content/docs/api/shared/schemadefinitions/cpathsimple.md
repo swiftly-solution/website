@@ -12,7 +12,7 @@ public interface CPathSimple : CBaseEntity, CEntityInstance, ISchemaClass<CEntit
 
 ### CPathQueryComponent
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathSimple.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathSimple.cs#L18)
 
 ```csharp
 CPathQueryComponent CPathQueryComponent { get; }
@@ -24,7 +24,7 @@ CPathQueryComponent CPathQueryComponent { get; }
 
 ### ClosedLoop
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathSimple.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathSimple.cs#L22)
 
 ```csharp
 ref bool ClosedLoop { get; }
@@ -36,7 +36,7 @@ ref bool ClosedLoop { get; }
 
 ### PathString
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathSimple.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathSimple.cs#L20)
 
 ```csharp
 string PathString { get; set; }
@@ -50,7 +50,7 @@ string PathString { get; set; }
 
 ### CPathQueryComponentUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathSimple.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathSimple.cs#L24)
 
 ```csharp
 void CPathQueryComponentUpdated()
@@ -58,7 +58,7 @@ void CPathQueryComponentUpdated()
 
 ### PathStringUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathSimple.cs#L24)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathSimple.cs#L25)
 
 ```csharp
 void PathStringUpdated()

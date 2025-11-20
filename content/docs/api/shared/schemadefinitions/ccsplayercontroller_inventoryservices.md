@@ -12,7 +12,7 @@ public interface CCSPlayerController_InventoryServices : CPlayerControllerCompon
 
 ### CurrentLoadoutHash
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InventoryServices.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InventoryServices.cs#L34)
 
 ```csharp
 ref ulong CurrentLoadoutHash { get; }
@@ -24,7 +24,7 @@ ref ulong CurrentLoadoutHash { get; }
 
 ### EquippedPlayerSprayIDs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InventoryServices.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InventoryServices.cs#L32)
 
 ```csharp
 ISchemaFixedArray<uint> EquippedPlayerSprayIDs { get; }
@@ -36,7 +36,7 @@ ISchemaFixedArray<uint> EquippedPlayerSprayIDs { get; }
 
 ### MusicID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InventoryServices.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InventoryServices.cs#L18)
 
 ```csharp
 ref ushort MusicID { get; }
@@ -48,7 +48,7 @@ ref ushort MusicID { get; }
 
 ### PersonaDataPublicCommendsFriendly
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InventoryServices.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InventoryServices.cs#L28)
 
 ```csharp
 ref int PersonaDataPublicCommendsFriendly { get; }
@@ -60,7 +60,7 @@ ref int PersonaDataPublicCommendsFriendly { get; }
 
 ### PersonaDataPublicCommendsLeader
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InventoryServices.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InventoryServices.cs#L24)
 
 ```csharp
 ref int PersonaDataPublicCommendsLeader { get; }
@@ -72,7 +72,7 @@ ref int PersonaDataPublicCommendsLeader { get; }
 
 ### PersonaDataPublicCommendsTeacher
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InventoryServices.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InventoryServices.cs#L26)
 
 ```csharp
 ref int PersonaDataPublicCommendsTeacher { get; }
@@ -84,7 +84,7 @@ ref int PersonaDataPublicCommendsTeacher { get; }
 
 ### PersonaDataPublicLevel
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InventoryServices.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InventoryServices.cs#L22)
 
 ```csharp
 ref int PersonaDataPublicLevel { get; }
@@ -96,7 +96,7 @@ ref int PersonaDataPublicLevel { get; }
 
 ### PersonaDataXpTrailLevel
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InventoryServices.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InventoryServices.cs#L30)
 
 ```csharp
 ref int PersonaDataXpTrailLevel { get; }
@@ -108,7 +108,7 @@ ref int PersonaDataXpTrailLevel { get; }
 
 ### Rank
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InventoryServices.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InventoryServices.cs#L20)
 
 ```csharp
 ISchemaFixedArray<MedalRank_t> Rank { get; }
@@ -120,7 +120,7 @@ ISchemaFixedArray<MedalRank_t> Rank { get; }
 
 ### ServerAuthoritativeWeaponSlots
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InventoryServices.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InventoryServices.cs#L36)
 
 ```csharp
 ref CUtlVector<ServerAuthoritativeWeaponSlot_t> ServerAuthoritativeWeaponSlots { get; }
@@ -134,7 +134,7 @@ ref CUtlVector<ServerAuthoritativeWeaponSlot_t> ServerAuthoritativeWeaponSlots {
 
 ### MusicIDUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InventoryServices.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InventoryServices.cs#L38)
 
 ```csharp
 void MusicIDUpdated()
@@ -142,7 +142,7 @@ void MusicIDUpdated()
 
 ### PersonaDataPublicCommendsFriendlyUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InventoryServices.cs#L42)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InventoryServices.cs#L43)
 
 ```csharp
 void PersonaDataPublicCommendsFriendlyUpdated()
@@ -150,7 +150,7 @@ void PersonaDataPublicCommendsFriendlyUpdated()
 
 ### PersonaDataPublicCommendsLeaderUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InventoryServices.cs#L40)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InventoryServices.cs#L41)
 
 ```csharp
 void PersonaDataPublicCommendsLeaderUpdated()
@@ -158,7 +158,7 @@ void PersonaDataPublicCommendsLeaderUpdated()
 
 ### PersonaDataPublicCommendsTeacherUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InventoryServices.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InventoryServices.cs#L42)
 
 ```csharp
 void PersonaDataPublicCommendsTeacherUpdated()
@@ -166,7 +166,7 @@ void PersonaDataPublicCommendsTeacherUpdated()
 
 ### PersonaDataPublicLevelUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InventoryServices.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InventoryServices.cs#L40)
 
 ```csharp
 void PersonaDataPublicLevelUpdated()
@@ -174,7 +174,7 @@ void PersonaDataPublicLevelUpdated()
 
 ### PersonaDataXpTrailLevelUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InventoryServices.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InventoryServices.cs#L44)
 
 ```csharp
 void PersonaDataXpTrailLevelUpdated()
@@ -182,7 +182,7 @@ void PersonaDataXpTrailLevelUpdated()
 
 ### RankUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InventoryServices.cs#L38)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InventoryServices.cs#L39)
 
 ```csharp
 void RankUpdated()
@@ -190,7 +190,7 @@ void RankUpdated()
 
 ### ServerAuthoritativeWeaponSlotsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InventoryServices.cs#L44)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_InventoryServices.cs#L45)
 
 ```csharp
 void ServerAuthoritativeWeaponSlotsUpdated()

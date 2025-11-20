@@ -12,7 +12,7 @@ public interface C_OP_SetControlPointToWaterSurface : CParticleFunctionPreEmissi
 
 ### ActiveCP
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToWaterSurface.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToWaterSurface.cs#L24)
 
 ```csharp
 ref int ActiveCP { get; }
@@ -24,7 +24,7 @@ ref int ActiveCP { get; }
 
 ### ActiveCPField
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToWaterSurface.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToWaterSurface.cs#L26)
 
 ```csharp
 ref int ActiveCPField { get; }
@@ -36,7 +36,7 @@ ref int ActiveCPField { get; }
 
 ### AdaptiveThreshold
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToWaterSurface.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToWaterSurface.cs#L30)
 
 ```csharp
 ref bool AdaptiveThreshold { get; }
@@ -48,7 +48,7 @@ ref bool AdaptiveThreshold { get; }
 
 ### DestCP
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToWaterSurface.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToWaterSurface.cs#L20)
 
 ```csharp
 ref int DestCP { get; }
@@ -60,7 +60,7 @@ ref int DestCP { get; }
 
 ### FlowCP
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToWaterSurface.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToWaterSurface.cs#L22)
 
 ```csharp
 ref int FlowCP { get; }
@@ -72,7 +72,7 @@ ref int FlowCP { get; }
 
 ### RetestRate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToWaterSurface.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToWaterSurface.cs#L28)
 
 ```csharp
 CParticleCollectionFloatInput RetestRate { get; }
@@ -84,7 +84,7 @@ CParticleCollectionFloatInput RetestRate { get; }
 
 ### SourceCP
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToWaterSurface.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToWaterSurface.cs#L18)
 
 ```csharp
 ref int SourceCP { get; }

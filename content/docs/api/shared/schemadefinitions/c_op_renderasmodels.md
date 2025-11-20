@@ -12,7 +12,7 @@ public interface C_OP_RenderAsModels : CParticleFunctionRenderer, CParticleFunct
 
 ### FitToModelSize
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderAsModels.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderAsModels.cs#L22)
 
 ```csharp
 ref bool FitToModelSize { get; }
@@ -24,7 +24,7 @@ ref bool FitToModelSize { get; }
 
 ### ModelList
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderAsModels.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderAsModels.cs#L18)
 
 ```csharp
 ref CUtlVector<ModelReference_t> ModelList { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<ModelReference_t> ModelList { get; }
 
 ### ModelScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderAsModels.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderAsModels.cs#L20)
 
 ```csharp
 ref float ModelScale { get; }
@@ -48,7 +48,7 @@ ref float ModelScale { get; }
 
 ### NonUniformScaling
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderAsModels.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderAsModels.cs#L24)
 
 ```csharp
 ref bool NonUniformScaling { get; }
@@ -60,7 +60,7 @@ ref bool NonUniformScaling { get; }
 
 ### SizeCullBloat
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderAsModels.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderAsModels.cs#L32)
 
 ```csharp
 ref int SizeCullBloat { get; }
@@ -72,7 +72,7 @@ ref int SizeCullBloat { get; }
 
 ### XAxisScalingAttribute
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderAsModels.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderAsModels.cs#L26)
 
 ```csharp
 ParticleAttributeIndex_t XAxisScalingAttribute { get; }
@@ -84,7 +84,7 @@ ParticleAttributeIndex_t XAxisScalingAttribute { get; }
 
 ### YAxisScalingAttribute
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderAsModels.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderAsModels.cs#L28)
 
 ```csharp
 ParticleAttributeIndex_t YAxisScalingAttribute { get; }
@@ -96,7 +96,7 @@ ParticleAttributeIndex_t YAxisScalingAttribute { get; }
 
 ### ZAxisScalingAttribute
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderAsModels.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderAsModels.cs#L30)
 
 ```csharp
 ParticleAttributeIndex_t ZAxisScalingAttribute { get; }

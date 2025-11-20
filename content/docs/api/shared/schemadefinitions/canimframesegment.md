@@ -12,7 +12,7 @@ public interface CAnimFrameSegment : ISchemaClass<CAnimFrameSegment>, ISchemaFie
 
 ### Container
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimFrameSegment.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimFrameSegment.cs#L24)
 
 ```csharp
 ref CUtlBinaryBlock Container { get; }
@@ -24,7 +24,7 @@ ref CUtlBinaryBlock Container { get; }
 
 ### LocalChannel
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimFrameSegment.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimFrameSegment.cs#L22)
 
 ```csharp
 ref int LocalChannel { get; }
@@ -36,7 +36,7 @@ ref int LocalChannel { get; }
 
 ### LocalElementMasks
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimFrameSegment.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimFrameSegment.cs#L20)
 
 ```csharp
 ref uint LocalElementMasks { get; }
@@ -48,7 +48,7 @@ ref uint LocalElementMasks { get; }
 
 ### UniqueFrameIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimFrameSegment.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimFrameSegment.cs#L18)
 
 ```csharp
 ref int UniqueFrameIndex { get; }

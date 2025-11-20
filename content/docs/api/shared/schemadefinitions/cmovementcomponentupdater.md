@@ -12,7 +12,7 @@ public interface CMovementComponentUpdater : CAnimComponentUpdater, ISchemaClass
 
 ### DefaultMotorIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMovementComponentUpdater.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMovementComponentUpdater.cs#L22)
 
 ```csharp
 ref int DefaultMotorIndex { get; }
@@ -24,7 +24,7 @@ ref int DefaultMotorIndex { get; }
 
 ### DefaultRunSpeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMovementComponentUpdater.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMovementComponentUpdater.cs#L24)
 
 ```csharp
 ref float DefaultRunSpeed { get; }
@@ -36,7 +36,7 @@ ref float DefaultRunSpeed { get; }
 
 ### FacingDamping
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMovementComponentUpdater.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMovementComponentUpdater.cs#L20)
 
 ```csharp
 CAnimInputDamping FacingDamping { get; }
@@ -48,7 +48,7 @@ CAnimInputDamping FacingDamping { get; }
 
 ### Motors
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMovementComponentUpdater.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMovementComponentUpdater.cs#L18)
 
 ```csharp
 ref CUtlVector<SchemaUntypedField> Motors { get; }
@@ -60,7 +60,7 @@ ref CUtlVector<SchemaUntypedField> Motors { get; }
 
 ### MoveVarsDisabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMovementComponentUpdater.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMovementComponentUpdater.cs#L26)
 
 ```csharp
 ref bool MoveVarsDisabled { get; }
@@ -72,7 +72,7 @@ ref bool MoveVarsDisabled { get; }
 
 ### NetworkFacing
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMovementComponentUpdater.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMovementComponentUpdater.cs#L30)
 
 ```csharp
 ref bool NetworkFacing { get; }
@@ -84,7 +84,7 @@ ref bool NetworkFacing { get; }
 
 ### NetworkPath
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMovementComponentUpdater.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMovementComponentUpdater.cs#L28)
 
 ```csharp
 ref bool NetworkPath { get; }
@@ -96,7 +96,7 @@ ref bool NetworkPath { get; }
 
 ### ParamHandles
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMovementComponentUpdater.cs#L32)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMovementComponentUpdater.cs#L33)
 
 ```csharp
 SchemaUntypedField ParamHandles { get; }

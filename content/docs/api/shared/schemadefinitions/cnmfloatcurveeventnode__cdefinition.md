@@ -12,7 +12,7 @@ public interface CNmFloatCurveEventNode__CDefinition : CNmFloatValueNode__CDefin
 
 ### DefaultNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatCurveEventNode__CDefinition.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatCurveEventNode__CDefinition.cs#L20)
 
 ```csharp
 ref short DefaultNodeIdx { get; }
@@ -24,7 +24,7 @@ ref short DefaultNodeIdx { get; }
 
 ### DefaultValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatCurveEventNode__CDefinition.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatCurveEventNode__CDefinition.cs#L22)
 
 ```csharp
 ref float DefaultValue { get; }
@@ -36,7 +36,7 @@ ref float DefaultValue { get; }
 
 ### EventConditionRules
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatCurveEventNode__CDefinition.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatCurveEventNode__CDefinition.cs#L24)
 
 ```csharp
 CNmBitFlags EventConditionRules { get; }
@@ -48,7 +48,7 @@ CNmBitFlags EventConditionRules { get; }
 
 ### EventID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatCurveEventNode__CDefinition.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatCurveEventNode__CDefinition.cs#L18)
 
 ```csharp
 ref CGlobalSymbol EventID { get; }

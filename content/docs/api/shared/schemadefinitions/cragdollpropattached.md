@@ -12,7 +12,7 @@ public interface CRagdollPropAttached : CRagdollProp, CBaseAnimGraph, CBaseModel
 
 ### AttachmentPointBoneSpace
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollPropAttached.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollPropAttached.cs#L22)
 
 ```csharp
 ref Vector AttachmentPointBoneSpace { get; }
@@ -24,7 +24,7 @@ ref Vector AttachmentPointBoneSpace { get; }
 
 ### AttachmentPointRagdollSpace
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollPropAttached.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollPropAttached.cs#L24)
 
 ```csharp
 ref Vector AttachmentPointRagdollSpace { get; }
@@ -36,7 +36,7 @@ ref Vector AttachmentPointRagdollSpace { get; }
 
 ### BoneIndexAttached
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollPropAttached.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollPropAttached.cs#L18)
 
 ```csharp
 ref uint BoneIndexAttached { get; }
@@ -48,7 +48,7 @@ ref uint BoneIndexAttached { get; }
 
 ### RagdollAttachedObjectIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollPropAttached.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollPropAttached.cs#L20)
 
 ```csharp
 ref uint RagdollAttachedObjectIndex { get; }
@@ -60,7 +60,7 @@ ref uint RagdollAttachedObjectIndex { get; }
 
 ### ShouldDeleteAttachedActivationRecord
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollPropAttached.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollPropAttached.cs#L28)
 
 ```csharp
 ref bool ShouldDeleteAttachedActivationRecord { get; }
@@ -72,7 +72,7 @@ ref bool ShouldDeleteAttachedActivationRecord { get; }
 
 ### ShouldDetach
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollPropAttached.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollPropAttached.cs#L26)
 
 ```csharp
 ref bool ShouldDetach { get; }
@@ -86,7 +86,7 @@ ref bool ShouldDetach { get; }
 
 ### AttachmentPointBoneSpaceUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollPropAttached.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollPropAttached.cs#L32)
 
 ```csharp
 void AttachmentPointBoneSpaceUpdated()
@@ -94,7 +94,7 @@ void AttachmentPointBoneSpaceUpdated()
 
 ### AttachmentPointRagdollSpaceUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollPropAttached.cs#L32)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollPropAttached.cs#L33)
 
 ```csharp
 void AttachmentPointRagdollSpaceUpdated()
@@ -102,7 +102,7 @@ void AttachmentPointRagdollSpaceUpdated()
 
 ### BoneIndexAttachedUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollPropAttached.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollPropAttached.cs#L30)
 
 ```csharp
 void BoneIndexAttachedUpdated()
@@ -110,7 +110,7 @@ void BoneIndexAttachedUpdated()
 
 ### RagdollAttachedObjectIndexUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollPropAttached.cs#L30)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollPropAttached.cs#L31)
 
 ```csharp
 void RagdollAttachedObjectIndexUpdated()

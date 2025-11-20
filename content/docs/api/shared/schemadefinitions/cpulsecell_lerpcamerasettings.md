@@ -12,7 +12,7 @@ public interface CPulseCell_LerpCameraSettings : CPulseCell_BaseLerp, CPulseCell
 
 ### End
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_LerpCameraSettings.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_LerpCameraSettings.cs#L22)
 
 ```csharp
 PointCameraSettings_t End { get; }
@@ -24,7 +24,7 @@ PointCameraSettings_t End { get; }
 
 ### Seconds
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_LerpCameraSettings.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_LerpCameraSettings.cs#L18)
 
 ```csharp
 ref float Seconds { get; }
@@ -36,7 +36,7 @@ ref float Seconds { get; }
 
 ### Start
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_LerpCameraSettings.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_LerpCameraSettings.cs#L20)
 
 ```csharp
 PointCameraSettings_t Start { get; }

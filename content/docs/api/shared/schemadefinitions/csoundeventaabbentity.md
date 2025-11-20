@@ -12,7 +12,7 @@ public interface CSoundEventAABBEntity : CSoundEventEntity, CBaseEntity, CEntity
 
 ### Maxs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventAABBEntity.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventAABBEntity.cs#L20)
 
 ```csharp
 ref Vector Maxs { get; }
@@ -24,7 +24,7 @@ ref Vector Maxs { get; }
 
 ### Mins
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventAABBEntity.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventAABBEntity.cs#L18)
 
 ```csharp
 ref Vector Mins { get; }
@@ -38,7 +38,7 @@ ref Vector Mins { get; }
 
 ### MaxsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventAABBEntity.cs#L22)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventAABBEntity.cs#L23)
 
 ```csharp
 void MaxsUpdated()
@@ -46,7 +46,7 @@ void MaxsUpdated()
 
 ### MinsUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventAABBEntity.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventAABBEntity.cs#L22)
 
 ```csharp
 void MinsUpdated()

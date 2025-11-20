@@ -12,7 +12,7 @@ public interface C_INIT_SetFloatAttributeToVectorExpression : CParticleFunctionI
 
 ### Expression
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetFloatAttributeToVectorExpression.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetFloatAttributeToVectorExpression.cs#L18)
 
 ```csharp
 ref VectorFloatExpressionType_t Expression { get; }
@@ -24,7 +24,7 @@ ref VectorFloatExpressionType_t Expression { get; }
 
 ### Input1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetFloatAttributeToVectorExpression.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetFloatAttributeToVectorExpression.cs#L20)
 
 ```csharp
 CPerParticleVecInput Input1 { get; }
@@ -36,7 +36,7 @@ CPerParticleVecInput Input1 { get; }
 
 ### Input2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetFloatAttributeToVectorExpression.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetFloatAttributeToVectorExpression.cs#L22)
 
 ```csharp
 CPerParticleVecInput Input2 { get; }
@@ -48,7 +48,7 @@ CPerParticleVecInput Input2 { get; }
 
 ### OutputField
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetFloatAttributeToVectorExpression.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetFloatAttributeToVectorExpression.cs#L26)
 
 ```csharp
 ParticleAttributeIndex_t OutputField { get; }
@@ -60,7 +60,7 @@ ParticleAttributeIndex_t OutputField { get; }
 
 ### OutputRemap
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetFloatAttributeToVectorExpression.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetFloatAttributeToVectorExpression.cs#L24)
 
 ```csharp
 CParticleRemapFloatInput OutputRemap { get; }
@@ -72,7 +72,7 @@ CParticleRemapFloatInput OutputRemap { get; }
 
 ### SetMethod
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetFloatAttributeToVectorExpression.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetFloatAttributeToVectorExpression.cs#L28)
 
 ```csharp
 ref ParticleSetMethod_t SetMethod { get; }

@@ -12,7 +12,7 @@ public interface CPointCommentaryNode : CBaseAnimGraph, CBaseModelEntity, CBaseE
 
 ### AbortedPlaybackAt
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L56)
 
 ```csharp
 GameTime_t AbortedPlaybackAt { get; }
@@ -24,7 +24,7 @@ GameTime_t AbortedPlaybackAt { get; }
 
 ### Active
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L62)
 
 ```csharp
 ref bool Active { get; }
@@ -36,7 +36,7 @@ ref bool Active { get; }
 
 ### CommentaryFile
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L22)
 
 ```csharp
 string CommentaryFile { get; set; }
@@ -48,7 +48,7 @@ string CommentaryFile { get; set; }
 
 ### Disabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L52)
 
 ```csharp
 ref bool Disabled { get; }
@@ -60,7 +60,7 @@ ref bool Disabled { get; }
 
 ### FinishAngles
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L48)
 
 ```csharp
 ref QAngle FinishAngles { get; }
@@ -72,7 +72,7 @@ ref QAngle FinishAngles { get; }
 
 ### FinishOrigin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L44)
 
 ```csharp
 ref Vector FinishOrigin { get; }
@@ -84,7 +84,7 @@ ref Vector FinishOrigin { get; }
 
 ### FinishedTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L42)
 
 ```csharp
 GameTime_t FinishedTime { get; }
@@ -96,7 +96,7 @@ GameTime_t FinishedTime { get; }
 
 ### ListenedTo
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L75)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L76)
 
 ```csharp
 ref bool ListenedTo { get; }
@@ -108,7 +108,7 @@ ref bool ListenedTo { get; }
 
 ### NodeNumber
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L71)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L72)
 
 ```csharp
 ref int NodeNumber { get; }
@@ -120,7 +120,7 @@ ref int NodeNumber { get; }
 
 ### NodeNumberMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L73)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L74)
 
 ```csharp
 ref int NodeNumberMax { get; }
@@ -132,7 +132,7 @@ ref int NodeNumberMax { get; }
 
 ### OnCommentaryStarted
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L58)
 
 ```csharp
 CEntityIOOutput OnCommentaryStarted { get; }
@@ -144,7 +144,7 @@ CEntityIOOutput OnCommentaryStarted { get; }
 
 ### OnCommentaryStopped
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L60)
 
 ```csharp
 CEntityIOOutput OnCommentaryStopped { get; }
@@ -156,7 +156,7 @@ CEntityIOOutput OnCommentaryStopped { get; }
 
 ### OriginalAngles
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L46)
 
 ```csharp
 ref QAngle OriginalAngles { get; }
@@ -168,7 +168,7 @@ ref QAngle OriginalAngles { get; }
 
 ### PostCommands
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L20)
 
 ```csharp
 string PostCommands { get; set; }
@@ -180,7 +180,7 @@ string PostCommands { get; set; }
 
 ### PreCommands
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L18)
 
 ```csharp
 string PreCommands { get; set; }
@@ -192,7 +192,7 @@ string PreCommands { get; set; }
 
 ### PreventChangesWhileMoving
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L50)
 
 ```csharp
 ref bool PreventChangesWhileMoving { get; }
@@ -204,7 +204,7 @@ ref bool PreventChangesWhileMoving { get; }
 
 ### PreventMovement
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L36)
 
 ```csharp
 ref bool PreventMovement { get; }
@@ -216,7 +216,7 @@ ref bool PreventMovement { get; }
 
 ### Speakers
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L69)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L70)
 
 ```csharp
 string Speakers { get; set; }
@@ -228,7 +228,7 @@ string Speakers { get; set; }
 
 ### StartTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L64)
 
 ```csharp
 GameTime_t StartTime { get; }
@@ -240,7 +240,7 @@ GameTime_t StartTime { get; }
 
 ### StartTimeInCommentary
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L65)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L66)
 
 ```csharp
 ref float StartTimeInCommentary { get; }
@@ -252,7 +252,7 @@ ref float StartTimeInCommentary { get; }
 
 ### TeleportOrigin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L54)
 
 ```csharp
 ref Vector TeleportOrigin { get; }
@@ -264,7 +264,7 @@ ref Vector TeleportOrigin { get; }
 
 ### Title
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L67)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L68)
 
 ```csharp
 string Title { get; set; }
@@ -276,7 +276,7 @@ string Title { get; set; }
 
 ### UnderCrosshair
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L38)
 
 ```csharp
 ref bool UnderCrosshair { get; }
@@ -288,7 +288,7 @@ ref bool UnderCrosshair { get; }
 
 ### Unstoppable
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L40)
 
 ```csharp
 ref bool Unstoppable { get; }
@@ -300,7 +300,7 @@ ref bool Unstoppable { get; }
 
 ### ViewPosition
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L30)
 
 ```csharp
 string ViewPosition { get; set; }
@@ -312,7 +312,7 @@ string ViewPosition { get; set; }
 
 ### ViewPosition2
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L32)
 
 ```csharp
 ref CHandle<CBaseEntity> ViewPosition2 { get; }
@@ -324,7 +324,7 @@ ref CHandle<CBaseEntity> ViewPosition2 { get; }
 
 ### ViewPositionMover
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L34)
 
 ```csharp
 ref CHandle<CBaseEntity> ViewPositionMover { get; }
@@ -336,7 +336,7 @@ ref CHandle<CBaseEntity> ViewPositionMover { get; }
 
 ### ViewTarget
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L24)
 
 ```csharp
 string ViewTarget { get; set; }
@@ -348,7 +348,7 @@ string ViewTarget { get; set; }
 
 ### ViewTarget1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L26)
 
 ```csharp
 ref CHandle<CBaseEntity> ViewTarget1 { get; }
@@ -360,7 +360,7 @@ ref CHandle<CBaseEntity> ViewTarget1 { get; }
 
 ### ViewTargetAngles
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L28)
 
 ```csharp
 ref CHandle<CBaseEntity> ViewTargetAngles { get; }
@@ -374,7 +374,7 @@ ref CHandle<CBaseEntity> ViewTargetAngles { get; }
 
 ### ActiveUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L79)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L80)
 
 ```csharp
 void ActiveUpdated()
@@ -382,7 +382,7 @@ void ActiveUpdated()
 
 ### CommentaryFileUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L77)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L78)
 
 ```csharp
 void CommentaryFileUpdated()
@@ -390,7 +390,7 @@ void CommentaryFileUpdated()
 
 ### ListenedToUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L86)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L87)
 
 ```csharp
 void ListenedToUpdated()
@@ -398,7 +398,7 @@ void ListenedToUpdated()
 
 ### NodeNumberMaxUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L85)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L86)
 
 ```csharp
 void NodeNumberMaxUpdated()
@@ -406,7 +406,7 @@ void NodeNumberMaxUpdated()
 
 ### NodeNumberUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L84)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L85)
 
 ```csharp
 void NodeNumberUpdated()
@@ -414,7 +414,7 @@ void NodeNumberUpdated()
 
 ### SpeakersUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L83)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L84)
 
 ```csharp
 void SpeakersUpdated()
@@ -422,7 +422,7 @@ void SpeakersUpdated()
 
 ### StartTimeInCommentaryUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L81)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L82)
 
 ```csharp
 void StartTimeInCommentaryUpdated()
@@ -430,7 +430,7 @@ void StartTimeInCommentaryUpdated()
 
 ### StartTimeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L80)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L81)
 
 ```csharp
 void StartTimeUpdated()
@@ -438,7 +438,7 @@ void StartTimeUpdated()
 
 ### TitleUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L82)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L83)
 
 ```csharp
 void TitleUpdated()
@@ -446,7 +446,7 @@ void TitleUpdated()
 
 ### ViewPosition2Updated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L78)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointCommentaryNode.cs#L79)
 
 ```csharp
 void ViewPosition2Updated()

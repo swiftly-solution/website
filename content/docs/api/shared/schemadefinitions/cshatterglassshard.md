@@ -12,7 +12,7 @@ public interface CShatterGlassShard : ISchemaClass<CShatterGlassShard>, ISchemaF
 
 ### Area
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L48)
 
 ```csharp
 ref float Area { get; }
@@ -24,7 +24,7 @@ ref float Area { get; }
 
 ### AverageVertPosition
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L54)
 
 ```csharp
 ref Vector2D AverageVertPosition { get; }
@@ -36,7 +36,7 @@ ref Vector2D AverageVertPosition { get; }
 
 ### AverageVertPositionIsValid
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L56)
 
 ```csharp
 ref bool AverageVertPositionIsValid { get; }
@@ -48,7 +48,7 @@ ref bool AverageVertPositionIsValid { get; }
 
 ### CreatedModel
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L36)
 
 ```csharp
 ref bool CreatedModel { get; }
@@ -60,7 +60,7 @@ ref bool CreatedModel { get; }
 
 ### EntityHittingMe
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L69)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L70)
 
 ```csharp
 ref CHandle<CBaseEntity> EntityHittingMe { get; }
@@ -72,7 +72,7 @@ ref CHandle<CBaseEntity> EntityHittingMe { get; }
 
 ### FlaggedForRemoval
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L65)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L66)
 
 ```csharp
 ref bool FlaggedForRemoval { get; }
@@ -84,7 +84,7 @@ ref bool FlaggedForRemoval { get; }
 
 ### LocalPanelSpaceOrigin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L22)
 
 ```csharp
 ref Vector2D LocalPanelSpaceOrigin { get; }
@@ -96,7 +96,7 @@ ref Vector2D LocalPanelSpaceOrigin { get; }
 
 ### LongestAcross
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L42)
 
 ```csharp
 ref float LongestAcross { get; }
@@ -108,7 +108,7 @@ ref float LongestAcross { get; }
 
 ### LongestEdge
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L38)
 
 ```csharp
 ref float LongestEdge { get; }
@@ -120,7 +120,7 @@ ref float LongestEdge { get; }
 
 ### Model
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L24)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCModel> Model { get; }
@@ -132,7 +132,7 @@ ref CStrongHandle<InfoForResourceTypeCModel> Model { get; }
 
 ### Neighbors
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L71)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L72)
 
 ```csharp
 ref CUtlVector<uint> Neighbors { get; }
@@ -144,7 +144,7 @@ ref CUtlVector<uint> Neighbors { get; }
 
 ### OnFrameEdge
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L50)
 
 ```csharp
 ref OnFrame OnFrameEdge { get; }
@@ -156,7 +156,7 @@ ref OnFrame OnFrameEdge { get; }
 
 ### PanelSpaceStressPositionA
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L58)
 
 ```csharp
 ref Vector2D PanelSpaceStressPositionA { get; }
@@ -168,7 +168,7 @@ ref Vector2D PanelSpaceStressPositionA { get; }
 
 ### PanelSpaceStressPositionB
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L60)
 
 ```csharp
 ref Vector2D PanelSpaceStressPositionB { get; }
@@ -180,7 +180,7 @@ ref Vector2D PanelSpaceStressPositionB { get; }
 
 ### PanelVertices
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L20)
 
 ```csharp
 ref CUtlVector<Vector2D> PanelVertices { get; }
@@ -192,7 +192,7 @@ ref CUtlVector<Vector2D> PanelVertices { get; }
 
 ### ParentPanel
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L28)
 
 ```csharp
 ref CHandle<CFuncShatterglass> ParentPanel { get; }
@@ -204,7 +204,7 @@ ref CHandle<CFuncShatterglass> ParentPanel { get; }
 
 ### ParentShard
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L30)
 
 ```csharp
 ref uint ParentShard { get; }
@@ -216,7 +216,7 @@ ref uint ParentShard { get; }
 
 ### PhysicsEntity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L26)
 
 ```csharp
 ref CHandle<CShatterGlassShardPhysics> PhysicsEntity { get; }
@@ -228,7 +228,7 @@ ref CHandle<CShatterGlassShardPhysics> PhysicsEntity { get; }
 
 ### PhysicsEntitySpawnedAtTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L67)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L68)
 
 ```csharp
 GameTime_t PhysicsEntitySpawnedAtTime { get; }
@@ -240,7 +240,7 @@ GameTime_t PhysicsEntitySpawnedAtTime { get; }
 
 ### ShardHandle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L18)
 
 ```csharp
 ref uint ShardHandle { get; }
@@ -252,7 +252,7 @@ ref uint ShardHandle { get; }
 
 ### ShatterStressType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L32)
 
 ```csharp
 ref ShatterGlassStressType ShatterStressType { get; }
@@ -264,7 +264,7 @@ ref ShatterGlassStressType ShatterStressType { get; }
 
 ### ShortestAcross
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L44)
 
 ```csharp
 ref float ShortestAcross { get; }
@@ -276,7 +276,7 @@ ref float ShortestAcross { get; }
 
 ### ShortestEdge
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L40)
 
 ```csharp
 ref float ShortestEdge { get; }
@@ -288,7 +288,7 @@ ref float ShortestEdge { get; }
 
 ### StressPositionAIsValid
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L62)
 
 ```csharp
 ref bool StressPositionAIsValid { get; }
@@ -300,7 +300,7 @@ ref bool StressPositionAIsValid { get; }
 
 ### StressPositionBIsValid
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L64)
 
 ```csharp
 ref bool StressPositionBIsValid { get; }
@@ -312,7 +312,7 @@ ref bool StressPositionBIsValid { get; }
 
 ### StressVelocity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L34)
 
 ```csharp
 ref Vector StressVelocity { get; }
@@ -324,7 +324,7 @@ ref Vector StressVelocity { get; }
 
 ### SubShardGeneration
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L52)
 
 ```csharp
 ref int SubShardGeneration { get; }
@@ -336,7 +336,7 @@ ref int SubShardGeneration { get; }
 
 ### SumOfAllEdges
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShard.cs#L46)
 
 ```csharp
 ref float SumOfAllEdges { get; }

@@ -12,7 +12,7 @@ public interface CPhysicsPropRespawnable : CPhysicsProp, CBreakableProp, CBasePr
 
 ### OriginalMaxs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsPropRespawnable.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsPropRespawnable.cs#L24)
 
 ```csharp
 ref Vector OriginalMaxs { get; }
@@ -24,7 +24,7 @@ ref Vector OriginalMaxs { get; }
 
 ### OriginalMins
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsPropRespawnable.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsPropRespawnable.cs#L22)
 
 ```csharp
 ref Vector OriginalMins { get; }
@@ -36,7 +36,7 @@ ref Vector OriginalMins { get; }
 
 ### OriginalSpawnAngles
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsPropRespawnable.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsPropRespawnable.cs#L20)
 
 ```csharp
 ref QAngle OriginalSpawnAngles { get; }
@@ -48,7 +48,7 @@ ref QAngle OriginalSpawnAngles { get; }
 
 ### OriginalSpawnOrigin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsPropRespawnable.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsPropRespawnable.cs#L18)
 
 ```csharp
 ref Vector OriginalSpawnOrigin { get; }
@@ -60,7 +60,7 @@ ref Vector OriginalSpawnOrigin { get; }
 
 ### RespawnDuration
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsPropRespawnable.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsPropRespawnable.cs#L26)
 
 ```csharp
 ref float RespawnDuration { get; }

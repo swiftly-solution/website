@@ -12,7 +12,7 @@ public interface C_OP_RenderClientPhysicsImpulse : CParticleFunctionRenderer, CP
 
 ### Magnitude
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderClientPhysicsImpulse.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderClientPhysicsImpulse.cs#L20)
 
 ```csharp
 CPerParticleFloatInput Magnitude { get; }
@@ -24,7 +24,7 @@ CPerParticleFloatInput Magnitude { get; }
 
 ### Radius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderClientPhysicsImpulse.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderClientPhysicsImpulse.cs#L18)
 
 ```csharp
 CPerParticleFloatInput Radius { get; }
@@ -36,7 +36,7 @@ CPerParticleFloatInput Radius { get; }
 
 ### SimIdFilter
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderClientPhysicsImpulse.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderClientPhysicsImpulse.cs#L22)
 
 ```csharp
 ref int SimIdFilter { get; }

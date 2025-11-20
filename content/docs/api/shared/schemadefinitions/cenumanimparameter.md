@@ -12,7 +12,7 @@ public interface CEnumAnimParameter : CConcreteAnimParameter, CAnimParameterBase
 
 ### DefaultValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnumAnimParameter.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnumAnimParameter.cs#L18)
 
 ```csharp
 ref byte DefaultValue { get; }
@@ -24,7 +24,7 @@ ref byte DefaultValue { get; }
 
 ### EnumOptions
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnumAnimParameter.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnumAnimParameter.cs#L20)
 
 ```csharp
 ref CUtlVector<CUtlString> EnumOptions { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<CUtlString> EnumOptions { get; }
 
 ### EnumReferenced
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnumAnimParameter.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnumAnimParameter.cs#L22)
 
 ```csharp
 ref CUtlVector<ulong> EnumReferenced { get; }

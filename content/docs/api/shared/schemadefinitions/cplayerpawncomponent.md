@@ -24,7 +24,7 @@ CBasePlayerPawn Pawn { get; }
 
 ### __m_pChainEntity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerPawnComponent.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerPawnComponent.cs#L18)
 
 ```csharp
 ref CNetworkVarChainer __m_pChainEntity { get; }

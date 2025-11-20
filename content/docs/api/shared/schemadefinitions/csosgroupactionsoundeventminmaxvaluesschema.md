@@ -12,7 +12,7 @@ public interface CSosGroupActionSoundeventMinMaxValuesSchema : CSosGroupActionSc
 
 ### ExcludSoundsAboveThreshold
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L30)
 
 ```csharp
 ref bool ExcludSoundsAboveThreshold { get; }
@@ -24,7 +24,7 @@ ref bool ExcludSoundsAboveThreshold { get; }
 
 ### ExcludeDelayedSounds
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L24)
 
 ```csharp
 ref bool ExcludeDelayedSounds { get; }
@@ -36,7 +36,7 @@ ref bool ExcludeDelayedSounds { get; }
 
 ### ExcludeSoundsBelowThreshold
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L26)
 
 ```csharp
 ref bool ExcludeSoundsBelowThreshold { get; }
@@ -48,7 +48,7 @@ ref bool ExcludeSoundsBelowThreshold { get; }
 
 ### ExcludeSoundsMaxThresholdValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L32)
 
 ```csharp
 ref float ExcludeSoundsMaxThresholdValue { get; }
@@ -60,7 +60,7 @@ ref float ExcludeSoundsMaxThresholdValue { get; }
 
 ### ExcludeSoundsMinThresholdValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L28)
 
 ```csharp
 ref float ExcludeSoundsMinThresholdValue { get; }
@@ -72,7 +72,7 @@ ref float ExcludeSoundsMinThresholdValue { get; }
 
 ### ExcludeStoppedSounds
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L22)
 
 ```csharp
 ref bool ExcludeStoppedSounds { get; }
@@ -84,7 +84,7 @@ ref bool ExcludeStoppedSounds { get; }
 
 ### StrDelayPublicFieldName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L20)
 
 ```csharp
 string StrDelayPublicFieldName { get; set; }
@@ -96,7 +96,7 @@ string StrDelayPublicFieldName { get; set; }
 
 ### StrMaxValueName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L36)
 
 ```csharp
 string StrMaxValueName { get; set; }
@@ -108,7 +108,7 @@ string StrMaxValueName { get; set; }
 
 ### StrMinValueName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L34)
 
 ```csharp
 string StrMinValueName { get; set; }
@@ -120,7 +120,7 @@ string StrMinValueName { get; set; }
 
 ### StrQueryPublicFieldName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L18)
 
 ```csharp
 string StrQueryPublicFieldName { get; set; }

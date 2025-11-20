@@ -12,7 +12,7 @@ public interface CNmIDToFloatNode__CDefinition : CNmFloatValueNode__CDefinition,
 
 ### DefaultValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDToFloatNode__CDefinition.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDToFloatNode__CDefinition.cs#L20)
 
 ```csharp
 ref float DefaultValue { get; }
@@ -24,7 +24,7 @@ ref float DefaultValue { get; }
 
 ### IDs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDToFloatNode__CDefinition.cs#L22)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDToFloatNode__CDefinition.cs#L23)
 
 ```csharp
 SchemaUntypedField IDs { get; }
@@ -36,7 +36,7 @@ SchemaUntypedField IDs { get; }
 
 ### InputValueNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDToFloatNode__CDefinition.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDToFloatNode__CDefinition.cs#L18)
 
 ```csharp
 ref short InputValueNodeIdx { get; }
@@ -48,7 +48,7 @@ ref short InputValueNodeIdx { get; }
 
 ### Values
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDToFloatNode__CDefinition.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDToFloatNode__CDefinition.cs#L26)
 
 ```csharp
 SchemaUntypedField Values { get; }

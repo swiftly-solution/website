@@ -12,7 +12,7 @@ public interface CHostage : CHostageExpresserShim, CBaseCombatCharacter, CBaseFl
 
 ### Accel
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L52)
 
 ```csharp
 ref Vector Accel { get; }
@@ -24,7 +24,7 @@ ref Vector Accel { get; }
 
 ### ApproachRewardPayouts
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L87)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L88)
 
 ```csharp
 ref int ApproachRewardPayouts { get; }
@@ -36,7 +36,7 @@ ref int ApproachRewardPayouts { get; }
 
 ### DropStartTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L85)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L86)
 
 ```csharp
 GameTime_t DropStartTime { get; }
@@ -48,7 +48,7 @@ GameTime_t DropStartTime { get; }
 
 ### EntitySpottedState
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L26)
 
 ```csharp
 EntitySpottedState_t EntitySpottedState { get; }
@@ -60,7 +60,7 @@ EntitySpottedState_t EntitySpottedState { get; }
 
 ### GrabSuccessTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L83)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L84)
 
 ```csharp
 GameTime_t GrabSuccessTime { get; }
@@ -72,7 +72,7 @@ GameTime_t GrabSuccessTime { get; }
 
 ### GrabbedPos
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L79)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L80)
 
 ```csharp
 ref Vector GrabbedPos { get; }
@@ -84,7 +84,7 @@ ref Vector GrabbedPos { get; }
 
 ### HandsHaveBeenCut
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L71)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L72)
 
 ```csharp
 ref bool HandsHaveBeenCut { get; }
@@ -96,7 +96,7 @@ ref bool HandsHaveBeenCut { get; }
 
 ### HasBeenUsed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L50)
 
 ```csharp
 ref bool HasBeenUsed { get; }
@@ -108,7 +108,7 @@ ref bool HasBeenUsed { get; }
 
 ### HostageGrabber
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L73)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L74)
 
 ```csharp
 ref CHandle<CCSPlayerPawn> HostageGrabber { get; }
@@ -120,7 +120,7 @@ ref CHandle<CCSPlayerPawn> HostageGrabber { get; }
 
 ### HostageResetPosition
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L93)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L94)
 
 ```csharp
 ref Vector HostageResetPosition { get; }
@@ -132,7 +132,7 @@ ref Vector HostageResetPosition { get; }
 
 ### HostageSpawnRandomFactor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L32)
 
 ```csharp
 ref uint HostageSpawnRandomFactor { get; }
@@ -144,7 +144,7 @@ ref uint HostageSpawnRandomFactor { get; }
 
 ### HostageState
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L42)
 
 ```csharp
 ref int HostageState { get; }
@@ -156,7 +156,7 @@ ref int HostageState { get; }
 
 ### InhibitDoorTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L64)
 
 ```csharp
 CountdownTimer InhibitDoorTimer { get; }
@@ -168,7 +168,7 @@ CountdownTimer InhibitDoorTimer { get; }
 
 ### InhibitObstacleAvoidanceTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L65)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L66)
 
 ```csharp
 CountdownTimer InhibitObstacleAvoidanceTimer { get; }
@@ -180,7 +180,7 @@ CountdownTimer InhibitObstacleAvoidanceTimer { get; }
 
 ### IsAdjusted
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L69)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L70)
 
 ```csharp
 ref bool IsAdjusted { get; }
@@ -192,7 +192,7 @@ ref bool IsAdjusted { get; }
 
 ### IsCrouching
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L56)
 
 ```csharp
 ref bool IsCrouching { get; }
@@ -204,7 +204,7 @@ ref bool IsCrouching { get; }
 
 ### IsRescued
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L38)
 
 ```csharp
 ref bool IsRescued { get; }
@@ -216,7 +216,7 @@ ref bool IsRescued { get; }
 
 ### IsRunning
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L54)
 
 ```csharp
 ref bool IsRunning { get; }
@@ -228,7 +228,7 @@ ref bool IsRunning { get; }
 
 ### IsWaitingForLeader
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L59)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L60)
 
 ```csharp
 ref bool IsWaitingForLeader { get; }
@@ -240,7 +240,7 @@ ref bool IsWaitingForLeader { get; }
 
 ### JumpTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L58)
 
 ```csharp
 CountdownTimer JumpTimer { get; }
@@ -252,7 +252,7 @@ CountdownTimer JumpTimer { get; }
 
 ### JumpedThisFrame
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L40)
 
 ```csharp
 ref bool JumpedThisFrame { get; }
@@ -264,7 +264,7 @@ ref bool JumpedThisFrame { get; }
 
 ### LastGrabTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L75)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L76)
 
 ```csharp
 GameTime_t LastGrabTime { get; }
@@ -276,7 +276,7 @@ GameTime_t LastGrabTime { get; }
 
 ### LastLeader
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L46)
 
 ```csharp
 ref CHandle<CCSPlayerPawnBase> LastLeader { get; }
@@ -288,7 +288,7 @@ ref CHandle<CCSPlayerPawnBase> LastLeader { get; }
 
 ### Leader
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L44)
 
 ```csharp
 ref CHandle<CBaseEntity> Leader { get; }
@@ -300,7 +300,7 @@ ref CHandle<CBaseEntity> Leader { get; }
 
 ### OnDroppedNotRescued
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L22)
 
 ```csharp
 CEntityIOOutput OnDroppedNotRescued { get; }
@@ -312,7 +312,7 @@ CEntityIOOutput OnDroppedNotRescued { get; }
 
 ### OnFirstPickedUp
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L20)
 
 ```csharp
 CEntityIOOutput OnFirstPickedUp { get; }
@@ -324,7 +324,7 @@ CEntityIOOutput OnFirstPickedUp { get; }
 
 ### OnHostageBeginGrab
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L18)
 
 ```csharp
 CEntityIOOutput OnHostageBeginGrab { get; }
@@ -336,7 +336,7 @@ CEntityIOOutput OnHostageBeginGrab { get; }
 
 ### OnRescued
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L24)
 
 ```csharp
 CEntityIOOutput OnRescued { get; }
@@ -348,7 +348,7 @@ CEntityIOOutput OnRescued { get; }
 
 ### PickupEventCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L89)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L90)
 
 ```csharp
 ref int PickupEventCount { get; }
@@ -360,7 +360,7 @@ ref int PickupEventCount { get; }
 
 ### PositionWhenStartedDroppingToGround
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L77)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L78)
 
 ```csharp
 ref Vector PositionWhenStartedDroppingToGround { get; }
@@ -372,7 +372,7 @@ ref Vector PositionWhenStartedDroppingToGround { get; }
 
 ### Remove
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L34)
 
 ```csharp
 ref bool Remove { get; }
@@ -384,7 +384,7 @@ ref bool Remove { get; }
 
 ### RepathTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L61)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L62)
 
 ```csharp
 CountdownTimer RepathTimer { get; }
@@ -396,7 +396,7 @@ CountdownTimer RepathTimer { get; }
 
 ### RescueStartTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L81)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L82)
 
 ```csharp
 GameTime_t RescueStartTime { get; }
@@ -408,7 +408,7 @@ GameTime_t RescueStartTime { get; }
 
 ### ReuseTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L48)
 
 ```csharp
 CountdownTimer ReuseTimer { get; }
@@ -420,7 +420,7 @@ CountdownTimer ReuseTimer { get; }
 
 ### SpawnGroundPos
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L91)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L92)
 
 ```csharp
 ref Vector SpawnGroundPos { get; }
@@ -432,7 +432,7 @@ ref Vector SpawnGroundPos { get; }
 
 ### SpotRules
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L28)
 
 ```csharp
 ref int SpotRules { get; }
@@ -444,7 +444,7 @@ ref int SpotRules { get; }
 
 ### UiHostageSpawnExclusionGroupMask
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L30)
 
 ```csharp
 ref uint UiHostageSpawnExclusionGroupMask { get; }
@@ -456,7 +456,7 @@ ref uint UiHostageSpawnExclusionGroupMask { get; }
 
 ### Vel
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L36)
 
 ```csharp
 ref Vector Vel { get; }
@@ -468,7 +468,7 @@ ref Vector Vel { get; }
 
 ### WiggleTimer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L67)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L68)
 
 ```csharp
 CountdownTimer WiggleTimer { get; }
@@ -482,7 +482,7 @@ CountdownTimer WiggleTimer { get; }
 
 ### DropStartTimeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L106)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L107)
 
 ```csharp
 void DropStartTimeUpdated()
@@ -490,7 +490,7 @@ void DropStartTimeUpdated()
 
 ### EntitySpottedStateUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L95)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L96)
 
 ```csharp
 void EntitySpottedStateUpdated()
@@ -498,7 +498,7 @@ void EntitySpottedStateUpdated()
 
 ### GrabSuccessTimeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L105)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L106)
 
 ```csharp
 void GrabSuccessTimeUpdated()
@@ -506,7 +506,7 @@ void GrabSuccessTimeUpdated()
 
 ### HandsHaveBeenCutUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L102)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L103)
 
 ```csharp
 void HandsHaveBeenCutUpdated()
@@ -514,7 +514,7 @@ void HandsHaveBeenCutUpdated()
 
 ### HostageGrabberUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L103)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L104)
 
 ```csharp
 void HostageGrabberUpdated()
@@ -522,7 +522,7 @@ void HostageGrabberUpdated()
 
 ### HostageStateUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L99)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L100)
 
 ```csharp
 void HostageStateUpdated()
@@ -530,7 +530,7 @@ void HostageStateUpdated()
 
 ### IsRescuedUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L97)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L98)
 
 ```csharp
 void IsRescuedUpdated()
@@ -538,7 +538,7 @@ void IsRescuedUpdated()
 
 ### JumpedThisFrameUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L98)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L99)
 
 ```csharp
 void JumpedThisFrameUpdated()
@@ -546,7 +546,7 @@ void JumpedThisFrameUpdated()
 
 ### LeaderUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L100)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L101)
 
 ```csharp
 void LeaderUpdated()
@@ -554,7 +554,7 @@ void LeaderUpdated()
 
 ### RescueStartTimeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L104)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L105)
 
 ```csharp
 void RescueStartTimeUpdated()
@@ -562,7 +562,7 @@ void RescueStartTimeUpdated()
 
 ### ReuseTimerUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L101)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L102)
 
 ```csharp
 void ReuseTimerUpdated()
@@ -570,7 +570,7 @@ void ReuseTimerUpdated()
 
 ### VelUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L96)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L97)
 
 ```csharp
 void VelUpdated()

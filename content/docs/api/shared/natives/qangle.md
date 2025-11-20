@@ -12,7 +12,7 @@ public struct QAngle
 
 ### QAngle(float, float, float)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/QAngle.cs#L18)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/QAngle.cs#L17)
 
 ```csharp
 public QAngle(float pitch, float yaw, float roll)
@@ -26,7 +26,7 @@ public QAngle(float pitch, float yaw, float roll)
 
 ### QAngle(QAngle)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/QAngle.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/QAngle.cs#L24)
 
 ```csharp
 public QAngle(QAngle other)
@@ -40,7 +40,7 @@ public QAngle(QAngle other)
 
 ### Pitch
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/QAngle.cs#L14)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/QAngle.cs#L13)
 
 ```csharp
 public float Pitch
@@ -52,7 +52,7 @@ public float Pitch
 
 ### Roll
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/QAngle.cs#L16)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/QAngle.cs#L15)
 
 ```csharp
 public float Roll
@@ -64,7 +64,7 @@ public float Roll
 
 ### Yaw
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/QAngle.cs#L15)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/QAngle.cs#L14)
 
 ```csharp
 public float Yaw
@@ -78,7 +78,7 @@ public float Yaw
 
 ### Zero
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/QAngle.cs#L38)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/QAngle.cs#L37)
 
 ```csharp
 public static QAngle Zero { get; }
@@ -92,7 +92,7 @@ public static QAngle Zero { get; }
 
 ### Equals(object?)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/QAngle.cs#L34)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/QAngle.cs#L33)
 
 ```csharp
 public override bool Equals(object? obj)
@@ -108,7 +108,7 @@ public override bool Equals(object? obj)
 
 ### GetHashCode()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/QAngle.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/QAngle.cs#L34)
 
 ```csharp
 public override int GetHashCode()
@@ -118,9 +118,23 @@ public override int GetHashCode()
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32) - A 32-bit signed integer that is the hash code for this instance.
 
+### ToDirectionVectors(out Vector, out Vector, out Vector)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/QAngle.cs#L83)
+
+```csharp
+public void ToDirectionVectors(out Vector forward, out Vector right, out Vector up)
+```
+
+#### Parameters
+
+- **forward**: [Vector](/docs/api/shared/natives/vector) - Forward direction (X: north, Z: up).
+- **right**: [Vector](/docs/api/shared/natives/vector) - Right direction.
+- **up**: [Vector](/docs/api/shared/natives/vector) - Up direction.
+
 ### ToRadianEuler()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/QAngle.cs#L32)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/QAngle.cs#L31)
 
 ```csharp
 public RadianEuler ToRadianEuler()
@@ -132,7 +146,7 @@ public RadianEuler ToRadianEuler()
 
 ### ToString()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/QAngle.cs#L36)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/QAngle.cs#L35)
 
 ```csharp
 public override string ToString()
@@ -146,7 +160,7 @@ public override string ToString()
 
 ### operator +(QAngle, QAngle)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/QAngle.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/QAngle.cs#L40)
 
 ```csharp
 public static QAngle operator +(QAngle a, QAngle b)
@@ -163,7 +177,7 @@ public static QAngle operator +(QAngle a, QAngle b)
 
 ### operator /(QAngle, QAngle)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/QAngle.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/QAngle.cs#L50)
 
 ```csharp
 public static QAngle operator /(QAngle a, QAngle b)
@@ -180,7 +194,7 @@ public static QAngle operator /(QAngle a, QAngle b)
 
 ### operator /(QAngle, float)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/QAngle.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/QAngle.cs#L56)
 
 ```csharp
 public static QAngle operator /(QAngle a, float b)
@@ -197,7 +211,7 @@ public static QAngle operator /(QAngle a, float b)
 
 ### operator ==(QAngle, QAngle)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/QAngle.cs#L69)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/QAngle.cs#L68)
 
 ```csharp
 public static bool operator ==(QAngle a, QAngle b)
@@ -214,7 +228,7 @@ public static bool operator ==(QAngle a, QAngle b)
 
 ### operator !=(QAngle, QAngle)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/QAngle.cs#L72)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/QAngle.cs#L71)
 
 ```csharp
 public static bool operator !=(QAngle a, QAngle b)
@@ -231,7 +245,7 @@ public static bool operator !=(QAngle a, QAngle b)
 
 ### operator *(QAngle, QAngle)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/QAngle.cs#L48)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/QAngle.cs#L47)
 
 ```csharp
 public static QAngle operator *(QAngle a, QAngle b)
@@ -248,7 +262,7 @@ public static QAngle operator *(QAngle a, QAngle b)
 
 ### operator *(QAngle, float)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/QAngle.cs#L54)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/QAngle.cs#L53)
 
 ```csharp
 public static QAngle operator *(QAngle a, float b)
@@ -265,7 +279,7 @@ public static QAngle operator *(QAngle a, float b)
 
 ### operator -(QAngle, QAngle)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/QAngle.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/QAngle.cs#L44)
 
 ```csharp
 public static QAngle operator -(QAngle a, QAngle b)
@@ -282,7 +296,7 @@ public static QAngle operator -(QAngle a, QAngle b)
 
 ### operator -(QAngle)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/QAngle.cs#L66)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/QAngle.cs#L65)
 
 ```csharp
 public static QAngle operator -(QAngle a)

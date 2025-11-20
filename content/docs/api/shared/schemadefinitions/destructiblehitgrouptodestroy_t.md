@@ -12,7 +12,7 @@ public interface DestructibleHitGroupToDestroy_t : ISchemaClass<DestructibleHitG
 
 ### HitGroup
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DestructibleHitGroupToDestroy_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DestructibleHitGroupToDestroy_t.cs#L18)
 
 ```csharp
 ref HitGroup_t HitGroup { get; }
@@ -24,7 +24,7 @@ ref HitGroup_t HitGroup { get; }
 
 ### MaxDamageLevel
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DestructibleHitGroupToDestroy_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DestructibleHitGroupToDestroy_t.cs#L20)
 
 ```csharp
 ref int MaxDamageLevel { get; }

@@ -12,7 +12,7 @@ public interface CPulseCell_Timeline : CPulseCell_BaseYieldingInflow, CPulseCell
 
 ### OnCanceled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Timeline.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Timeline.cs#L24)
 
 ```csharp
 CPulse_ResumePoint OnCanceled { get; }
@@ -24,7 +24,7 @@ CPulse_ResumePoint OnCanceled { get; }
 
 ### OnFinished
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Timeline.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Timeline.cs#L22)
 
 ```csharp
 CPulse_ResumePoint OnFinished { get; }
@@ -36,7 +36,7 @@ CPulse_ResumePoint OnFinished { get; }
 
 ### TimelineEvents
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Timeline.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Timeline.cs#L18)
 
 ```csharp
 ref CUtlVector<CPulseCell_Timeline__TimelineEvent_t> TimelineEvents { get; }
@@ -48,7 +48,7 @@ ref CUtlVector<CPulseCell_Timeline__TimelineEvent_t> TimelineEvents { get; }
 
 ### WaitForChildOutflows
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Timeline.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Timeline.cs#L20)
 
 ```csharp
 ref bool WaitForChildOutflows { get; }

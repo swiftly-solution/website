@@ -12,7 +12,7 @@ public interface CMoverUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase, ISche
 
 ### Additive
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverUpdateNode.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverUpdateNode.cs#L32)
 
 ```csharp
 ref bool Additive { get; }
@@ -24,7 +24,7 @@ ref bool Additive { get; }
 
 ### ApplyMovement
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverUpdateNode.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverUpdateNode.cs#L34)
 
 ```csharp
 ref bool ApplyMovement { get; }
@@ -36,7 +36,7 @@ ref bool ApplyMovement { get; }
 
 ### ApplyRotation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverUpdateNode.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverUpdateNode.cs#L38)
 
 ```csharp
 ref bool ApplyRotation { get; }
@@ -48,7 +48,7 @@ ref bool ApplyRotation { get; }
 
 ### Damping
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverUpdateNode.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverUpdateNode.cs#L18)
 
 ```csharp
 CAnimInputDamping Damping { get; }
@@ -60,7 +60,7 @@ CAnimInputDamping Damping { get; }
 
 ### FacingTarget
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverUpdateNode.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverUpdateNode.cs#L20)
 
 ```csharp
 ref AnimValueSource FacingTarget { get; }
@@ -72,7 +72,7 @@ ref AnimValueSource FacingTarget { get; }
 
 ### LimitOnly
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverUpdateNode.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverUpdateNode.cs#L40)
 
 ```csharp
 ref bool LimitOnly { get; }
@@ -84,7 +84,7 @@ ref bool LimitOnly { get; }
 
 ### MoveHeadingParam
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverUpdateNode.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverUpdateNode.cs#L24)
 
 ```csharp
 CAnimParamHandle MoveHeadingParam { get; }
@@ -96,7 +96,7 @@ CAnimParamHandle MoveHeadingParam { get; }
 
 ### MoveVecParam
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverUpdateNode.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverUpdateNode.cs#L22)
 
 ```csharp
 CAnimParamHandle MoveVecParam { get; }
@@ -108,7 +108,7 @@ CAnimParamHandle MoveVecParam { get; }
 
 ### OrientMovement
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverUpdateNode.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverUpdateNode.cs#L36)
 
 ```csharp
 ref bool OrientMovement { get; }
@@ -120,7 +120,7 @@ ref bool OrientMovement { get; }
 
 ### TurnToFaceLimit
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverUpdateNode.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverUpdateNode.cs#L30)
 
 ```csharp
 ref float TurnToFaceLimit { get; }
@@ -132,7 +132,7 @@ ref float TurnToFaceLimit { get; }
 
 ### TurnToFaceOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverUpdateNode.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverUpdateNode.cs#L28)
 
 ```csharp
 ref float TurnToFaceOffset { get; }
@@ -144,7 +144,7 @@ ref float TurnToFaceOffset { get; }
 
 ### TurnToFaceParam
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverUpdateNode.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverUpdateNode.cs#L26)
 
 ```csharp
 CAnimParamHandle TurnToFaceParam { get; }

@@ -12,7 +12,7 @@ public interface C_OP_CollideWithParentParticles : CParticleFunctionConstraint, 
 
 ### ParentRadiusScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CollideWithParentParticles.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CollideWithParentParticles.cs#L18)
 
 ```csharp
 CPerParticleFloatInput ParentRadiusScale { get; }
@@ -24,7 +24,7 @@ CPerParticleFloatInput ParentRadiusScale { get; }
 
 ### RadiusScale
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CollideWithParentParticles.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CollideWithParentParticles.cs#L20)
 
 ```csharp
 CPerParticleFloatInput RadiusScale { get; }

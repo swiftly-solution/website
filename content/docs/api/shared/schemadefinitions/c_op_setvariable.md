@@ -12,7 +12,7 @@ public interface C_OP_SetVariable : CParticleFunctionPreEmission, CParticleFunct
 
 ### FloatInput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetVariable.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetVariable.cs#L28)
 
 ```csharp
 CParticleCollectionFloatInput FloatInput { get; }
@@ -24,7 +24,7 @@ CParticleCollectionFloatInput FloatInput { get; }
 
 ### Input
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetVariable.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetVariable.cs#L26)
 
 ```csharp
 CParticleCollectionVecInput Input { get; }
@@ -36,7 +36,7 @@ CParticleCollectionVecInput Input { get; }
 
 ### PositionOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetVariable.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetVariable.cs#L22)
 
 ```csharp
 ref Vector PositionOffset { get; }
@@ -48,7 +48,7 @@ ref Vector PositionOffset { get; }
 
 ### RotationOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetVariable.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetVariable.cs#L24)
 
 ```csharp
 ref QAngle RotationOffset { get; }
@@ -60,7 +60,7 @@ ref QAngle RotationOffset { get; }
 
 ### TransformInput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetVariable.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetVariable.cs#L20)
 
 ```csharp
 CParticleTransformInput TransformInput { get; }
@@ -72,7 +72,7 @@ CParticleTransformInput TransformInput { get; }
 
 ### VariableReference
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetVariable.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetVariable.cs#L18)
 
 ```csharp
 CParticleVariableRef VariableReference { get; }

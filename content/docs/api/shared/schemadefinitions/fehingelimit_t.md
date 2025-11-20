@@ -12,7 +12,7 @@ public interface FeHingeLimit_t : ISchemaClass<FeHingeLimit_t>, ISchemaField, IS
 
 ### AngleCenter
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeHingeLimit_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeHingeLimit_t.cs#L26)
 
 ```csharp
 ref float AngleCenter { get; }
@@ -24,7 +24,7 @@ ref float AngleCenter { get; }
 
 ### AngleExtents
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeHingeLimit_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeHingeLimit_t.cs#L28)
 
 ```csharp
 ref float AngleExtents { get; }
@@ -36,7 +36,7 @@ ref float AngleExtents { get; }
 
 ### Flags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeHingeLimit_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeHingeLimit_t.cs#L20)
 
 ```csharp
 ref uint Flags { get; }
@@ -48,7 +48,7 @@ ref uint Flags { get; }
 
 ### Node
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeHingeLimit_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeHingeLimit_t.cs#L18)
 
 ```csharp
 ISchemaFixedArray<ushort> Node { get; }
@@ -60,7 +60,7 @@ ISchemaFixedArray<ushort> Node { get; }
 
 ### Weight4
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeHingeLimit_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeHingeLimit_t.cs#L22)
 
 ```csharp
 ref float Weight4 { get; }
@@ -72,7 +72,7 @@ ref float Weight4 { get; }
 
 ### Weight5
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeHingeLimit_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeHingeLimit_t.cs#L24)
 
 ```csharp
 ref float Weight5 { get; }

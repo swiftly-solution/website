@@ -10,7 +10,7 @@ public interface ISwiftlyCore
 
 ### CSGODirectory
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L170)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L178)
 
 ```csharp
 string CSGODirectory { get; }
@@ -22,7 +22,7 @@ string CSGODirectory { get; }
 
 ### Command
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L58)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L62)
 
 ```csharp
 ICommandService Command { get; }
@@ -34,7 +34,7 @@ ICommandService Command { get; }
 
 ### CommandLine
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L160)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L163)
 
 ```csharp
 ICommandLine CommandLine { get; }
@@ -46,7 +46,7 @@ ICommandLine CommandLine { get; }
 
 ### ConVar
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L73)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L77)
 
 ```csharp
 IConVarService ConVar { get; }
@@ -58,7 +58,7 @@ IConVarService ConVar { get; }
 
 ### Configuration
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L78)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L82)
 
 ```csharp
 IPluginConfigurationService Configuration { get; }
@@ -70,7 +70,7 @@ IPluginConfigurationService Configuration { get; }
 
 ### ConsoleOutput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L67)
 
 ```csharp
 IConsoleOutputService ConsoleOutput { get; }
@@ -82,7 +82,7 @@ IConsoleOutputService ConsoleOutput { get; }
 
 ### Database
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L124)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L127)
 
 ```csharp
 IDatabaseService Database { get; }
@@ -94,7 +94,7 @@ IDatabaseService Database { get; }
 
 ### Engine
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L38)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L37)
 
 ```csharp
 IEngineService Engine { get; }
@@ -106,7 +106,7 @@ IEngineService Engine { get; }
 
 ### EntitySystem
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L68)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L72)
 
 ```csharp
 IEntitySystemService EntitySystem { get; }
@@ -118,7 +118,7 @@ IEntitySystemService EntitySystem { get; }
 
 ### Event
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L32)
 
 ```csharp
 IEventSubscriber Event { get; }
@@ -128,9 +128,21 @@ IEventSubscriber Event { get; }
 
 - [IEventSubscriber](/docs/api/shared/events/ieventsubscriber)
 
+### Game
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L57)
+
+```csharp
+IGameService Game { get; }
+```
+
+#### Property Value
+
+- [IGameService](/docs/api/shared/services/igameservice)
+
 ### GameData
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L83)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L87)
 
 ```csharp
 IGameDataService GameData { get; }
@@ -142,7 +154,7 @@ IGameDataService GameData { get; }
 
 ### GameDirectory
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L175)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L183)
 
 ```csharp
 string GameDirectory { get; }
@@ -154,7 +166,7 @@ string GameDirectory { get; }
 
 ### GameEvent
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L42)
 
 ```csharp
 IGameEventService GameEvent { get; }
@@ -166,7 +178,7 @@ IGameEventService GameEvent { get; }
 
 ### GameFileSystem
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L186)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L168)
 
 ```csharp
 IGameFileSystem GameFileSystem { get; }
@@ -178,7 +190,7 @@ IGameFileSystem GameFileSystem { get; }
 
 ### Helpers
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L52)
 
 ```csharp
 IHelpers Helpers { get; }
@@ -190,7 +202,7 @@ IHelpers Helpers { get; }
 
 ### Localizer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L134)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L137)
 
 ```csharp
 ILocalizer Localizer { get; }
@@ -202,7 +214,7 @@ ILocalizer Localizer { get; }
 
 ### Logger
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L104)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L107)
 
 ```csharp
 ILogger Logger { get; }
@@ -214,7 +226,7 @@ ILogger Logger { get; }
 
 ### LoggerFactory
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L99)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L102)
 
 ```csharp
 ILoggerFactory LoggerFactory { get; }
@@ -226,7 +238,7 @@ ILoggerFactory LoggerFactory { get; }
 
 ### Memory
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L94)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L97)
 
 ```csharp
 IMemoryService Memory { get; }
@@ -238,7 +250,7 @@ IMemoryService Memory { get; }
 
 ### MenusAPI
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L155)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L158)
 
 ```csharp
 IMenuManagerAPI MenusAPI { get; }
@@ -250,7 +262,7 @@ IMenuManagerAPI MenusAPI { get; }
 
 ### NetMessage
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L48)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L47)
 
 ```csharp
 INetMessageService NetMessage { get; }
@@ -262,7 +274,7 @@ INetMessageService NetMessage { get; }
 
 ### Permission
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L139)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L142)
 
 ```csharp
 IPermissionManager Permission { get; }
@@ -274,7 +286,7 @@ IPermissionManager Permission { get; }
 
 ### PlayerManager
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L88)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L92)
 
 ```csharp
 IPlayerManagerService PlayerManager { get; }
@@ -286,7 +298,7 @@ IPlayerManagerService PlayerManager { get; }
 
 ### PluginDataDirectory
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L181)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L189)
 
 ```csharp
 string PluginDataDirectory { get; }
@@ -298,7 +310,7 @@ string PluginDataDirectory { get; }
 
 ### PluginPath
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L165)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L173)
 
 ```csharp
 string PluginPath { get; }
@@ -310,7 +322,7 @@ string PluginPath { get; }
 
 ### Profiler
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L109)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L112)
 
 ```csharp
 IContextedProfilerService Profiler { get; }
@@ -322,7 +334,7 @@ IContextedProfilerService Profiler { get; }
 
 ### Registrator
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L144)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L147)
 
 ```csharp
 IRegistratorService Registrator { get; }
@@ -334,7 +346,7 @@ IRegistratorService Registrator { get; }
 
 ### Scheduler
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L119)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L122)
 
 ```csharp
 ISchedulerService Scheduler { get; }
@@ -346,7 +358,7 @@ ISchedulerService Scheduler { get; }
 
 ### Trace
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L114)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L117)
 
 ```csharp
 ITraceManager Trace { get; }
@@ -358,7 +370,7 @@ ITraceManager Trace { get; }
 
 ### Translation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L129)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L132)
 
 ```csharp
 ITranslationService Translation { get; }

@@ -12,7 +12,7 @@ public interface C_OP_MovementRotateParticleAroundAxis : CParticleFunctionOperat
 
 ### LocalSpace
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementRotateParticleAroundAxis.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementRotateParticleAroundAxis.cs#L24)
 
 ```csharp
 ref bool LocalSpace { get; }
@@ -24,7 +24,7 @@ ref bool LocalSpace { get; }
 
 ### RotAxis
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementRotateParticleAroundAxis.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementRotateParticleAroundAxis.cs#L18)
 
 ```csharp
 CParticleCollectionVecInput RotAxis { get; }
@@ -36,7 +36,7 @@ CParticleCollectionVecInput RotAxis { get; }
 
 ### RotRate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementRotateParticleAroundAxis.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementRotateParticleAroundAxis.cs#L20)
 
 ```csharp
 CParticleCollectionFloatInput RotRate { get; }
@@ -48,7 +48,7 @@ CParticleCollectionFloatInput RotRate { get; }
 
 ### TransformInput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementRotateParticleAroundAxis.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementRotateParticleAroundAxis.cs#L22)
 
 ```csharp
 CParticleTransformInput TransformInput { get; }

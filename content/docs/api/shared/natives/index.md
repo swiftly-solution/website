@@ -13,12 +13,15 @@ title: Natives
 - [CBitVec16384](/docs/api/shared/natives/cbitvec16384)
 - [CBitVec64](/docs/api/shared/natives/cbitvec64)
 - [CBufferString](/docs/api/shared/natives/cbufferstring)
+- [CCSMatch](/docs/api/shared/natives/ccsmatch)
 - [CCommand](/docs/api/shared/natives/ccommand)
 - [CGameTrace](/docs/api/shared/natives/cgametrace)
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 - [CGlobalVars](/docs/api/shared/natives/cglobalvars)
 - [CHandle<T>](/docs/api/shared/natives/chandle-1)
 - [CHitBoxTrace](/docs/api/shared/natives/chitboxtrace)
+- [CMoveData](/docs/api/shared/natives/cmovedata)
+- [CMoveDataBase](/docs/api/shared/natives/cmovedatabase)
 - [CNetworkVarChainer](/docs/api/shared/natives/cnetworkvarchainer)
 - [CNetworkedQuantizedFloat](/docs/api/shared/natives/cnetworkedquantizedfloat)
 - [CPhysSurfacePropertiesAudioTrace](/docs/api/shared/natives/cphyssurfacepropertiesaudiotrace)
@@ -64,6 +67,8 @@ Degree Euler. Pitch, Yaw, Roll
 - [RnCollisionAttr_t](/docs/api/shared/natives/rncollisionattr_t)
 - [RnQueryShapeAttr_t](/docs/api/shared/natives/rnqueryshapeattr_t)
 - [SphereTrace](/docs/api/shared/natives/spheretrace)
+- [SubtickMove](/docs/api/shared/natives/subtickmove)
+- [TouchListT](/docs/api/shared/natives/touchlistt)
 - [Vector](/docs/api/shared/natives/vector) - 3-Dimensional vector for source 2.
 
 No more cssharp chaos.

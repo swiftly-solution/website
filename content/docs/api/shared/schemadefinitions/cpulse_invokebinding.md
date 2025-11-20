@@ -12,7 +12,7 @@ public interface CPulse_InvokeBinding : ISchemaClass<CPulse_InvokeBinding>, ISch
 
 ### CellIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_InvokeBinding.cs#L22)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_InvokeBinding.cs#L23)
 
 ```csharp
 PulseRuntimeCellIndex_t CellIndex { get; }
@@ -24,7 +24,7 @@ PulseRuntimeCellIndex_t CellIndex { get; }
 
 ### FuncName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_InvokeBinding.cs#L20)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_InvokeBinding.cs#L21)
 
 ```csharp
 SchemaUntypedField FuncName { get; }
@@ -36,7 +36,7 @@ SchemaUntypedField FuncName { get; }
 
 ### RegisterMap
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_InvokeBinding.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_InvokeBinding.cs#L18)
 
 ```csharp
 PulseRegisterMap_t RegisterMap { get; }
@@ -48,7 +48,7 @@ PulseRegisterMap_t RegisterMap { get; }
 
 ### SrcChunk
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_InvokeBinding.cs#L24)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_InvokeBinding.cs#L25)
 
 ```csharp
 PulseRuntimeChunkIndex_t SrcChunk { get; }
@@ -60,7 +60,7 @@ PulseRuntimeChunkIndex_t SrcChunk { get; }
 
 ### SrcInstruction
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_InvokeBinding.cs#L26)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_InvokeBinding.cs#L27)
 
 ```csharp
 ref int SrcInstruction { get; }

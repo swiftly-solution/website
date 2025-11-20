@@ -12,7 +12,7 @@ public interface IKDemoCaptureSettings_t : ISchemaClass<IKDemoCaptureSettings_t>
 
 ### IkChainName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/IKDemoCaptureSettings_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/IKDemoCaptureSettings_t.cs#L22)
 
 ```csharp
 string IkChainName { get; set; }
@@ -24,7 +24,7 @@ string IkChainName { get; set; }
 
 ### Mode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/IKDemoCaptureSettings_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/IKDemoCaptureSettings_t.cs#L20)
 
 ```csharp
 ref IKChannelMode Mode { get; }
@@ -36,7 +36,7 @@ ref IKChannelMode Mode { get; }
 
 ### OneBoneEnd
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/IKDemoCaptureSettings_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/IKDemoCaptureSettings_t.cs#L26)
 
 ```csharp
 string OneBoneEnd { get; set; }
@@ -48,7 +48,7 @@ string OneBoneEnd { get; set; }
 
 ### OneBoneStart
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/IKDemoCaptureSettings_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/IKDemoCaptureSettings_t.cs#L24)
 
 ```csharp
 string OneBoneStart { get; set; }
@@ -60,7 +60,7 @@ string OneBoneStart { get; set; }
 
 ### ParentBoneName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/IKDemoCaptureSettings_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/IKDemoCaptureSettings_t.cs#L18)
 
 ```csharp
 string ParentBoneName { get; set; }

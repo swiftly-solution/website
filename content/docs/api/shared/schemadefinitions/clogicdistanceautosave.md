@@ -12,7 +12,7 @@ public interface CLogicDistanceAutosave : CLogicalEntity, CServerOnlyEntity, CBa
 
 ### CheckCough
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicDistanceAutosave.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicDistanceAutosave.cs#L24)
 
 ```csharp
 ref bool CheckCough { get; }
@@ -24,7 +24,7 @@ ref bool CheckCough { get; }
 
 ### DangerousTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicDistanceAutosave.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicDistanceAutosave.cs#L28)
 
 ```csharp
 ref float DangerousTime { get; }
@@ -36,7 +36,7 @@ ref float DangerousTime { get; }
 
 ### DistanceToPlayer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicDistanceAutosave.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicDistanceAutosave.cs#L20)
 
 ```csharp
 ref float DistanceToPlayer { get; }
@@ -48,7 +48,7 @@ ref float DistanceToPlayer { get; }
 
 ### ForceNewLevelUnit
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicDistanceAutosave.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicDistanceAutosave.cs#L22)
 
 ```csharp
 ref bool ForceNewLevelUnit { get; }
@@ -60,7 +60,7 @@ ref bool ForceNewLevelUnit { get; }
 
 ### TargetEntity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicDistanceAutosave.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicDistanceAutosave.cs#L18)
 
 ```csharp
 string TargetEntity { get; set; }
@@ -72,7 +72,7 @@ string TargetEntity { get; set; }
 
 ### ThinkDangerous
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicDistanceAutosave.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicDistanceAutosave.cs#L26)
 
 ```csharp
 ref bool ThinkDangerous { get; }

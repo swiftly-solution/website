@@ -12,7 +12,7 @@ public interface CTeam : CBaseEntity, CEntityInstance, ISchemaClass<CEntityInsta
 
 ### PlayerControllers
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTeam.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTeam.cs#L18)
 
 ```csharp
 ref CUtlVector<CHandle<CBasePlayerController>> PlayerControllers { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<CHandle<CBasePlayerController>> PlayerControllers { get; }
 
 ### Players
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTeam.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTeam.cs#L20)
 
 ```csharp
 ref CUtlVector<CHandle<CBasePlayerPawn>> Players { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<CHandle<CBasePlayerPawn>> Players { get; }
 
 ### Score
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTeam.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTeam.cs#L22)
 
 ```csharp
 ref int Score { get; }
@@ -48,7 +48,7 @@ ref int Score { get; }
 
 ### Teamname
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTeam.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTeam.cs#L24)
 
 ```csharp
 string Teamname { get; set; }
@@ -62,7 +62,7 @@ string Teamname { get; set; }
 
 ### PlayerControllersUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTeam.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTeam.cs#L26)
 
 ```csharp
 void PlayerControllersUpdated()
@@ -70,7 +70,7 @@ void PlayerControllersUpdated()
 
 ### PlayersUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTeam.cs#L26)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTeam.cs#L27)
 
 ```csharp
 void PlayersUpdated()
@@ -78,7 +78,7 @@ void PlayersUpdated()
 
 ### ScoreUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTeam.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTeam.cs#L28)
 
 ```csharp
 void ScoreUpdated()
@@ -86,7 +86,7 @@ void ScoreUpdated()
 
 ### TeamnameUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTeam.cs#L28)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTeam.cs#L29)
 
 ```csharp
 void TeamnameUpdated()

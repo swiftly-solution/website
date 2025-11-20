@@ -12,7 +12,7 @@ public interface C_OP_RenderVRHapticEvent : CParticleFunctionRenderer, CParticle
 
 ### Amplitude
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderVRHapticEvent.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderVRHapticEvent.cs#L24)
 
 ```csharp
 CPerParticleFloatInput Amplitude { get; }
@@ -24,7 +24,7 @@ CPerParticleFloatInput Amplitude { get; }
 
 ### Hand
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderVRHapticEvent.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderVRHapticEvent.cs#L18)
 
 ```csharp
 ref ParticleVRHandChoiceList_t Hand { get; }
@@ -36,7 +36,7 @@ ref ParticleVRHandChoiceList_t Hand { get; }
 
 ### OutputField
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderVRHapticEvent.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderVRHapticEvent.cs#L22)
 
 ```csharp
 ref int OutputField { get; }
@@ -48,7 +48,7 @@ ref int OutputField { get; }
 
 ### OutputHandCP
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderVRHapticEvent.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderVRHapticEvent.cs#L20)
 
 ```csharp
 ref int OutputHandCP { get; }

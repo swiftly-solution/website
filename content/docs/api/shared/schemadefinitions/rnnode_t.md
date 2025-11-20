@@ -12,7 +12,7 @@ public interface RnNode_t : ISchemaClass<RnNode_t>, ISchemaField, ISchemaClass, 
 
 ### Children
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnNode_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnNode_t.cs#L20)
 
 ```csharp
 ref uint Children { get; }
@@ -24,7 +24,7 @@ ref uint Children { get; }
 
 ### Max
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnNode_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnNode_t.cs#L22)
 
 ```csharp
 ref Vector Max { get; }
@@ -36,7 +36,7 @@ ref Vector Max { get; }
 
 ### Min
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnNode_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnNode_t.cs#L18)
 
 ```csharp
 ref Vector Min { get; }
@@ -48,7 +48,7 @@ ref Vector Min { get; }
 
 ### TriangleOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnNode_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnNode_t.cs#L24)
 
 ```csharp
 ref uint TriangleOffset { get; }

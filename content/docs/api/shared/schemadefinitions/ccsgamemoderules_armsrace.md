@@ -12,7 +12,7 @@ public interface CCSGameModeRules_ArmsRace : CCSGameModeRules, ISchemaClass<CCSG
 
 ### WeaponSequence
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameModeRules_ArmsRace.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameModeRules_ArmsRace.cs#L18)
 
 ```csharp
 ref CUtlVector<CUtlString> WeaponSequence { get; }
@@ -26,7 +26,7 @@ ref CUtlVector<CUtlString> WeaponSequence { get; }
 
 ### WeaponSequenceUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameModeRules_ArmsRace.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSGameModeRules_ArmsRace.cs#L20)
 
 ```csharp
 void WeaponSequenceUpdated()

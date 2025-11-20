@@ -12,7 +12,7 @@ public interface ParticleNamedValueConfiguration_t : ISchemaClass<ParticleNamedV
 
 ### AttachType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNamedValueConfiguration_t.cs#L24)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNamedValueConfiguration_t.cs#L25)
 
 ```csharp
 ref ParticleAttachment_t AttachType { get; }
@@ -24,7 +24,7 @@ ref ParticleAttachment_t AttachType { get; }
 
 ### BoundValuePath
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNamedValueConfiguration_t.cs#L22)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNamedValueConfiguration_t.cs#L23)
 
 ```csharp
 string BoundValuePath { get; set; }
@@ -36,7 +36,7 @@ string BoundValuePath { get; set; }
 
 ### ConfigName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNamedValueConfiguration_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNamedValueConfiguration_t.cs#L18)
 
 ```csharp
 string ConfigName { get; set; }
@@ -48,7 +48,7 @@ string ConfigName { get; set; }
 
 ### ConfigValue
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNamedValueConfiguration_t.cs#L20)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNamedValueConfiguration_t.cs#L21)
 
 ```csharp
 SchemaUntypedField ConfigValue { get; }
@@ -60,7 +60,7 @@ SchemaUntypedField ConfigValue { get; }
 
 ### StrAttachmentName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNamedValueConfiguration_t.cs#L28)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNamedValueConfiguration_t.cs#L29)
 
 ```csharp
 string StrAttachmentName { get; set; }
@@ -72,7 +72,7 @@ string StrAttachmentName { get; set; }
 
 ### StrEntityScope
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNamedValueConfiguration_t.cs#L26)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNamedValueConfiguration_t.cs#L27)
 
 ```csharp
 string StrEntityScope { get; set; }

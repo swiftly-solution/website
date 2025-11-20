@@ -12,7 +12,7 @@ public interface CFuncInteractionLayerClip : CBaseModelEntity, CBaseEntity, CEnt
 
 ### Disabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncInteractionLayerClip.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncInteractionLayerClip.cs#L18)
 
 ```csharp
 ref bool Disabled { get; }
@@ -24,7 +24,7 @@ ref bool Disabled { get; }
 
 ### InteractsAs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncInteractionLayerClip.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncInteractionLayerClip.cs#L20)
 
 ```csharp
 string InteractsAs { get; set; }
@@ -36,7 +36,7 @@ string InteractsAs { get; set; }
 
 ### InteractsWith
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncInteractionLayerClip.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncInteractionLayerClip.cs#L22)
 
 ```csharp
 string InteractsWith { get; set; }

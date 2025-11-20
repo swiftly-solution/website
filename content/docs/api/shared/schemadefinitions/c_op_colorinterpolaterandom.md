@@ -12,7 +12,7 @@ public interface C_OP_ColorInterpolateRandom : CParticleFunctionOperator, CParti
 
 ### ColorFadeMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ColorInterpolateRandom.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ColorInterpolateRandom.cs#L20)
 
 ```csharp
 ref Color ColorFadeMax { get; }
@@ -24,7 +24,7 @@ ref Color ColorFadeMax { get; }
 
 ### ColorFadeMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ColorInterpolateRandom.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ColorInterpolateRandom.cs#L18)
 
 ```csharp
 ref Color ColorFadeMin { get; }
@@ -36,7 +36,7 @@ ref Color ColorFadeMin { get; }
 
 ### EaseInOut
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ColorInterpolateRandom.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ColorInterpolateRandom.cs#L28)
 
 ```csharp
 ref bool EaseInOut { get; }
@@ -48,7 +48,7 @@ ref bool EaseInOut { get; }
 
 ### FadeEndTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ColorInterpolateRandom.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ColorInterpolateRandom.cs#L24)
 
 ```csharp
 ref float FadeEndTime { get; }
@@ -60,7 +60,7 @@ ref float FadeEndTime { get; }
 
 ### FadeStartTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ColorInterpolateRandom.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ColorInterpolateRandom.cs#L22)
 
 ```csharp
 ref float FadeStartTime { get; }
@@ -72,7 +72,7 @@ ref float FadeStartTime { get; }
 
 ### FieldOutput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ColorInterpolateRandom.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ColorInterpolateRandom.cs#L26)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }

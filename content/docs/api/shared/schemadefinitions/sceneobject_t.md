@@ -12,7 +12,7 @@ public interface SceneObject_t : ISchemaClass<SceneObject_t>, ISchemaField, ISch
 
 ### CubeMapPrecomputedHandshake
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L38)
 
 ```csharp
 ref int CubeMapPrecomputedHandshake { get; }
@@ -24,7 +24,7 @@ ref int CubeMapPrecomputedHandshake { get; }
 
 ### FadeEndDistance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L24)
 
 ```csharp
 ref float FadeEndDistance { get; }
@@ -36,7 +36,7 @@ ref float FadeEndDistance { get; }
 
 ### FadeStartDistance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L22)
 
 ```csharp
 ref float FadeStartDistance { get; }
@@ -48,7 +48,7 @@ ref float FadeStartDistance { get; }
 
 ### LODOverride
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L36)
 
 ```csharp
 ref short LODOverride { get; }
@@ -60,7 +60,7 @@ ref short LODOverride { get; }
 
 ### LightProbeVolumePrecomputedHandshake
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L40)
 
 ```csharp
 ref int LightProbeVolumePrecomputedHandshake { get; }
@@ -72,7 +72,7 @@ ref int LightProbeVolumePrecomputedHandshake { get; }
 
 ### LightingOrigin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L32)
 
 ```csharp
 ref Vector LightingOrigin { get; }
@@ -84,7 +84,7 @@ ref Vector LightingOrigin { get; }
 
 ### ObjectID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L18)
 
 ```csharp
 ref uint ObjectID { get; }
@@ -96,7 +96,7 @@ ref uint ObjectID { get; }
 
 ### ObjectTypeFlags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L30)
 
 ```csharp
 ref ObjectTypeFlags_t ObjectTypeFlags { get; }
@@ -108,7 +108,7 @@ ref ObjectTypeFlags_t ObjectTypeFlags { get; }
 
 ### OverlayRenderOrder
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L34)
 
 ```csharp
 ref short OverlayRenderOrder { get; }
@@ -120,7 +120,7 @@ ref short OverlayRenderOrder { get; }
 
 ### Renderable
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L44)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCRenderMesh> Renderable { get; }
@@ -132,7 +132,7 @@ ref CStrongHandle<InfoForResourceTypeCRenderMesh> Renderable { get; }
 
 ### RenderableModel
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L42)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCModel> RenderableModel { get; }
@@ -144,7 +144,7 @@ ref CStrongHandle<InfoForResourceTypeCModel> RenderableModel { get; }
 
 ### Skin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L28)
 
 ```csharp
 string Skin { get; set; }
@@ -156,7 +156,7 @@ string Skin { get; set; }
 
 ### TintColor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L26)
 
 ```csharp
 ref Vector4D TintColor { get; }
@@ -168,7 +168,7 @@ ref Vector4D TintColor { get; }
 
 ### Transform
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L20)
 
 ```csharp
 ISchemaFixedArray<Vector4D> Transform { get; }

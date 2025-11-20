@@ -12,7 +12,7 @@ public interface CToggleComponentActionUpdater : CAnimActionUpdater, ISchemaClas
 
 ### ComponentID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CToggleComponentActionUpdater.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CToggleComponentActionUpdater.cs#L18)
 
 ```csharp
 AnimComponentID ComponentID { get; }
@@ -24,7 +24,7 @@ AnimComponentID ComponentID { get; }
 
 ### SetEnabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CToggleComponentActionUpdater.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CToggleComponentActionUpdater.cs#L20)
 
 ```csharp
 ref bool SetEnabled { get; }

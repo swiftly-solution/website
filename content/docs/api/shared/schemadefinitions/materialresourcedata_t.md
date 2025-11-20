@@ -12,7 +12,7 @@ public interface MaterialResourceData_t : ISchemaClass<MaterialResourceData_t>, 
 
 ### DynamicParams
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialResourceData_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialResourceData_t.cs#L30)
 
 ```csharp
 ref CUtlVector<MaterialParamBuffer_t> DynamicParams { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<MaterialParamBuffer_t> DynamicParams { get; }
 
 ### DynamicTextureParams
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialResourceData_t.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialResourceData_t.cs#L32)
 
 ```csharp
 ref CUtlVector<MaterialParamBuffer_t> DynamicTextureParams { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<MaterialParamBuffer_t> DynamicTextureParams { get; }
 
 ### FloatAttributes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialResourceData_t.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialResourceData_t.cs#L36)
 
 ```csharp
 ref CUtlVector<MaterialParamFloat_t> FloatAttributes { get; }
@@ -48,7 +48,7 @@ ref CUtlVector<MaterialParamFloat_t> FloatAttributes { get; }
 
 ### FloatParams
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialResourceData_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialResourceData_t.cs#L24)
 
 ```csharp
 ref CUtlVector<MaterialParamFloat_t> FloatParams { get; }
@@ -60,7 +60,7 @@ ref CUtlVector<MaterialParamFloat_t> FloatParams { get; }
 
 ### IntAttributes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialResourceData_t.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialResourceData_t.cs#L34)
 
 ```csharp
 ref CUtlVector<MaterialParamInt_t> IntAttributes { get; }
@@ -72,7 +72,7 @@ ref CUtlVector<MaterialParamInt_t> IntAttributes { get; }
 
 ### IntParams
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialResourceData_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialResourceData_t.cs#L22)
 
 ```csharp
 ref CUtlVector<MaterialParamInt_t> IntParams { get; }
@@ -84,7 +84,7 @@ ref CUtlVector<MaterialParamInt_t> IntParams { get; }
 
 ### MaterialName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialResourceData_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialResourceData_t.cs#L18)
 
 ```csharp
 string MaterialName { get; set; }
@@ -96,7 +96,7 @@ string MaterialName { get; set; }
 
 ### RenderAttributesUsed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialResourceData_t.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialResourceData_t.cs#L44)
 
 ```csharp
 ref CUtlVector<CUtlString> RenderAttributesUsed { get; }
@@ -108,7 +108,7 @@ ref CUtlVector<CUtlString> RenderAttributesUsed { get; }
 
 ### ShaderName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialResourceData_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialResourceData_t.cs#L20)
 
 ```csharp
 string ShaderName { get; set; }
@@ -120,7 +120,7 @@ string ShaderName { get; set; }
 
 ### StringAttributes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialResourceData_t.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialResourceData_t.cs#L42)
 
 ```csharp
 ref CUtlVector<MaterialParamString_t> StringAttributes { get; }
@@ -132,7 +132,7 @@ ref CUtlVector<MaterialParamString_t> StringAttributes { get; }
 
 ### TextureAttributes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialResourceData_t.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialResourceData_t.cs#L40)
 
 ```csharp
 ref CUtlVector<MaterialParamTexture_t> TextureAttributes { get; }
@@ -144,7 +144,7 @@ ref CUtlVector<MaterialParamTexture_t> TextureAttributes { get; }
 
 ### TextureParams
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialResourceData_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialResourceData_t.cs#L28)
 
 ```csharp
 ref CUtlVector<MaterialParamTexture_t> TextureParams { get; }
@@ -156,7 +156,7 @@ ref CUtlVector<MaterialParamTexture_t> TextureParams { get; }
 
 ### VectorAttributes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialResourceData_t.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialResourceData_t.cs#L38)
 
 ```csharp
 ref CUtlVector<MaterialParamVector_t> VectorAttributes { get; }
@@ -168,7 +168,7 @@ ref CUtlVector<MaterialParamVector_t> VectorAttributes { get; }
 
 ### VectorParams
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialResourceData_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialResourceData_t.cs#L26)
 
 ```csharp
 ref CUtlVector<MaterialParamVector_t> VectorParams { get; }

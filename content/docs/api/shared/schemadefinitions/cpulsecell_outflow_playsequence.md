@@ -12,7 +12,7 @@ public interface CPulseCell_Outflow_PlaySequence : CPulseCell_Outflow_PlaySceneB
 
 ### ParamSequenceName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_PlaySequence.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_PlaySequence.cs#L18)
 
 ```csharp
 string ParamSequenceName { get; set; }

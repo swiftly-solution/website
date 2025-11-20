@@ -12,7 +12,7 @@ public interface CAttributeList : ISchemaClass<CAttributeList>, ISchemaField, IS
 
 ### Attributes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttributeList.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttributeList.cs#L18)
 
 ```csharp
 ref CUtlVector<CEconItemAttribute> Attributes { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<CEconItemAttribute> Attributes { get; }
 
 ### Manager
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttributeList.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttributeList.cs#L20)
 
 ```csharp
 CAttributeManager? Manager { get; }
@@ -38,7 +38,7 @@ CAttributeManager? Manager { get; }
 
 ### AttributesUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttributeList.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttributeList.cs#L22)
 
 ```csharp
 void AttributesUpdated()

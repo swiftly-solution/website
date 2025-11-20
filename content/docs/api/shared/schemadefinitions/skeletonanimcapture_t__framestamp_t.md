@@ -12,7 +12,7 @@ public interface SkeletonAnimCapture_t__FrameStamp_t : ISchemaClass<SkeletonAnim
 
 ### CurTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__FrameStamp_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__FrameStamp_t.cs#L26)
 
 ```csharp
 ref float CurTime { get; }
@@ -24,7 +24,7 @@ ref float CurTime { get; }
 
 ### EntitySimTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__FrameStamp_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__FrameStamp_t.cs#L20)
 
 ```csharp
 ref float EntitySimTime { get; }
@@ -36,7 +36,7 @@ ref float EntitySimTime { get; }
 
 ### FrameCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__FrameStamp_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__FrameStamp_t.cs#L30)
 
 ```csharp
 ref int FrameCount { get; }
@@ -48,7 +48,7 @@ ref int FrameCount { get; }
 
 ### Predicted
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__FrameStamp_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__FrameStamp_t.cs#L24)
 
 ```csharp
 ref bool Predicted { get; }
@@ -60,7 +60,7 @@ ref bool Predicted { get; }
 
 ### RealTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__FrameStamp_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__FrameStamp_t.cs#L28)
 
 ```csharp
 ref float RealTime { get; }
@@ -72,7 +72,7 @@ ref float RealTime { get; }
 
 ### TeleportTick
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__FrameStamp_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__FrameStamp_t.cs#L22)
 
 ```csharp
 ref bool TeleportTick { get; }
@@ -84,7 +84,7 @@ ref bool TeleportTick { get; }
 
 ### TickCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__FrameStamp_t.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__FrameStamp_t.cs#L32)
 
 ```csharp
 ref int TickCount { get; }
@@ -96,7 +96,7 @@ ref int TickCount { get; }
 
 ### Time
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__FrameStamp_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__FrameStamp_t.cs#L18)
 
 ```csharp
 ref float Time { get; }

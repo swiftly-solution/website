@@ -12,7 +12,7 @@ public interface CFeMorphLayer : ISchemaClass<CFeMorphLayer>, ISchemaField, ISch
 
 ### GoalDamping
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeMorphLayer.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeMorphLayer.cs#L30)
 
 ```csharp
 ref CUtlVector<float> GoalDamping { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<float> GoalDamping { get; }
 
 ### GoalStrength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeMorphLayer.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeMorphLayer.cs#L28)
 
 ```csharp
 ref CUtlVector<float> GoalStrength { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<float> GoalStrength { get; }
 
 ### Gravity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeMorphLayer.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeMorphLayer.cs#L26)
 
 ```csharp
 ref CUtlVector<float> Gravity { get; }
@@ -48,7 +48,7 @@ ref CUtlVector<float> Gravity { get; }
 
 ### InitPos
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeMorphLayer.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeMorphLayer.cs#L24)
 
 ```csharp
 ref CUtlVector<Vector> InitPos { get; }
@@ -60,7 +60,7 @@ ref CUtlVector<Vector> InitPos { get; }
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeMorphLayer.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeMorphLayer.cs#L18)
 
 ```csharp
 string Name { get; set; }
@@ -72,7 +72,7 @@ string Name { get; set; }
 
 ### NameHash
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeMorphLayer.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeMorphLayer.cs#L20)
 
 ```csharp
 ref uint NameHash { get; }
@@ -84,7 +84,7 @@ ref uint NameHash { get; }
 
 ### Nodes
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeMorphLayer.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFeMorphLayer.cs#L22)
 
 ```csharp
 ref CUtlVector<ushort> Nodes { get; }

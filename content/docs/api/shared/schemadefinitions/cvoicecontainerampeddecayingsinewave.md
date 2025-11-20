@@ -12,7 +12,7 @@ public interface CVoiceContainerAmpedDecayingSineWave : CVoiceContainerDecayingS
 
 ### GainAmount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerAmpedDecayingSineWave.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerAmpedDecayingSineWave.cs#L18)
 
 ```csharp
 ref float GainAmount { get; }

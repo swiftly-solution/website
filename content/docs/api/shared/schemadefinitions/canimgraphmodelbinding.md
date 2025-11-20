@@ -12,7 +12,7 @@ public interface CAnimGraphModelBinding : ISchemaClass<CAnimGraphModelBinding>, 
 
 ### ModelName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphModelBinding.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphModelBinding.cs#L18)
 
 ```csharp
 string ModelName { get; set; }
@@ -24,7 +24,7 @@ string ModelName { get; set; }
 
 ### SharedData
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphModelBinding.cs#L20)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphModelBinding.cs#L21)
 
 ```csharp
 SchemaUntypedField SharedData { get; }

@@ -12,7 +12,7 @@ public interface RenderSkeletonBone_t : ISchemaClass<RenderSkeletonBone_t>, ISch
 
 ### Bbox
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RenderSkeletonBone_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RenderSkeletonBone_t.cs#L24)
 
 ```csharp
 SkeletonBoneBounds_t Bbox { get; }
@@ -24,7 +24,7 @@ SkeletonBoneBounds_t Bbox { get; }
 
 ### BoneName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RenderSkeletonBone_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RenderSkeletonBone_t.cs#L18)
 
 ```csharp
 string BoneName { get; set; }
@@ -36,7 +36,7 @@ string BoneName { get; set; }
 
 ### InvBindPose
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RenderSkeletonBone_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RenderSkeletonBone_t.cs#L22)
 
 ```csharp
 ref matrix3x4_t InvBindPose { get; }
@@ -48,7 +48,7 @@ ref matrix3x4_t InvBindPose { get; }
 
 ### ParentName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RenderSkeletonBone_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RenderSkeletonBone_t.cs#L20)
 
 ```csharp
 string ParentName { get; set; }
@@ -60,7 +60,7 @@ string ParentName { get; set; }
 
 ### SphereRadius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RenderSkeletonBone_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RenderSkeletonBone_t.cs#L26)
 
 ```csharp
 ref float SphereRadius { get; }

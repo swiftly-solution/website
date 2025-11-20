@@ -12,7 +12,7 @@ public interface SequenceHistory_t : ISchemaClass<SequenceHistory_t>, ISchemaFie
 
 ### CyclesPerSecond
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SequenceHistory_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SequenceHistory_t.cs#L28)
 
 ```csharp
 ref float CyclesPerSecond { get; }
@@ -24,7 +24,7 @@ ref float CyclesPerSecond { get; }
 
 ### PlaybackRate
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SequenceHistory_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SequenceHistory_t.cs#L26)
 
 ```csharp
 ref float PlaybackRate { get; }
@@ -36,7 +36,7 @@ ref float PlaybackRate { get; }
 
 ### SeqFixedCycle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SequenceHistory_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SequenceHistory_t.cs#L22)
 
 ```csharp
 ref float SeqFixedCycle { get; }
@@ -48,7 +48,7 @@ ref float SeqFixedCycle { get; }
 
 ### SeqLoopMode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SequenceHistory_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SequenceHistory_t.cs#L24)
 
 ```csharp
 ref AnimLoopMode_t SeqLoopMode { get; }
@@ -60,7 +60,7 @@ ref AnimLoopMode_t SeqLoopMode { get; }
 
 ### SeqStartTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SequenceHistory_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SequenceHistory_t.cs#L20)
 
 ```csharp
 GameTime_t SeqStartTime { get; }
@@ -72,7 +72,7 @@ GameTime_t SeqStartTime { get; }
 
 ### Sequence
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SequenceHistory_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SequenceHistory_t.cs#L18)
 
 ```csharp
 HSequence Sequence { get; }

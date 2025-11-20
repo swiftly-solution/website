@@ -12,7 +12,7 @@ public interface CFuncConveyor : CBaseModelEntity, CBaseEntity, CEntityInstance,
 
 ### ConveyorModels
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncConveyor.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncConveyor.cs#L18)
 
 ```csharp
 string ConveyorModels { get; set; }
@@ -24,7 +24,7 @@ string ConveyorModels { get; set; }
 
 ### ConveyorModels1
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncConveyor.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncConveyor.cs#L34)
 
 ```csharp
 ref CUtlVector<CHandle<CBaseEntity>> ConveyorModels1 { get; }
@@ -36,7 +36,7 @@ ref CUtlVector<CHandle<CBaseEntity>> ConveyorModels1 { get; }
 
 ### MoveDirEntitySpace
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncConveyor.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncConveyor.cs#L24)
 
 ```csharp
 ref Vector MoveDirEntitySpace { get; }
@@ -48,7 +48,7 @@ ref Vector MoveDirEntitySpace { get; }
 
 ### MoveEntitySpace
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncConveyor.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncConveyor.cs#L22)
 
 ```csharp
 ref QAngle MoveEntitySpace { get; }
@@ -60,7 +60,7 @@ ref QAngle MoveEntitySpace { get; }
 
 ### TargetSpeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncConveyor.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncConveyor.cs#L26)
 
 ```csharp
 ref float TargetSpeed { get; }
@@ -72,7 +72,7 @@ ref float TargetSpeed { get; }
 
 ### TransitionDurationSeconds
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncConveyor.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncConveyor.cs#L20)
 
 ```csharp
 ref float TransitionDurationSeconds { get; }
@@ -84,7 +84,7 @@ ref float TransitionDurationSeconds { get; }
 
 ### TransitionDurationTicks
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncConveyor.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncConveyor.cs#L30)
 
 ```csharp
 ref int TransitionDurationTicks { get; }
@@ -96,7 +96,7 @@ ref int TransitionDurationTicks { get; }
 
 ### TransitionStartSpeed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncConveyor.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncConveyor.cs#L32)
 
 ```csharp
 ref float TransitionStartSpeed { get; }
@@ -108,7 +108,7 @@ ref float TransitionStartSpeed { get; }
 
 ### TransitionStartTick
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncConveyor.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncConveyor.cs#L28)
 
 ```csharp
 GameTick_t TransitionStartTick { get; }
@@ -122,7 +122,7 @@ GameTick_t TransitionStartTick { get; }
 
 ### ConveyorModels1Updated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncConveyor.cs#L40)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncConveyor.cs#L41)
 
 ```csharp
 void ConveyorModels1Updated()
@@ -130,7 +130,7 @@ void ConveyorModels1Updated()
 
 ### MoveDirEntitySpaceUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncConveyor.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncConveyor.cs#L36)
 
 ```csharp
 void MoveDirEntitySpaceUpdated()
@@ -138,7 +138,7 @@ void MoveDirEntitySpaceUpdated()
 
 ### TargetSpeedUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncConveyor.cs#L36)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncConveyor.cs#L37)
 
 ```csharp
 void TargetSpeedUpdated()
@@ -146,7 +146,7 @@ void TargetSpeedUpdated()
 
 ### TransitionDurationTicksUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncConveyor.cs#L38)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncConveyor.cs#L39)
 
 ```csharp
 void TransitionDurationTicksUpdated()
@@ -154,7 +154,7 @@ void TransitionDurationTicksUpdated()
 
 ### TransitionStartSpeedUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncConveyor.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncConveyor.cs#L40)
 
 ```csharp
 void TransitionStartSpeedUpdated()
@@ -162,7 +162,7 @@ void TransitionStartSpeedUpdated()
 
 ### TransitionStartTickUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncConveyor.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncConveyor.cs#L38)
 
 ```csharp
 void TransitionStartTickUpdated()

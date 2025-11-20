@@ -12,7 +12,7 @@ public interface CPulseCell_Outflow_CycleShuffled : CPulseCell_BaseFlow, CPulseC
 
 ### Outputs
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_CycleShuffled.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_CycleShuffled.cs#L18)
 
 ```csharp
 ref CUtlVector<CPulse_OutflowConnection> Outputs { get; }

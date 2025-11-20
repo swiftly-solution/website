@@ -12,7 +12,7 @@ public interface CRenderSkeleton : ISchemaClass<CRenderSkeleton>, ISchemaField, 
 
 ### BoneParents
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderSkeleton.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderSkeleton.cs#L20)
 
 ```csharp
 ref CUtlVector<int> BoneParents { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<int> BoneParents { get; }
 
 ### BoneWeightCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderSkeleton.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderSkeleton.cs#L22)
 
 ```csharp
 ref int BoneWeightCount { get; }
@@ -36,7 +36,7 @@ ref int BoneWeightCount { get; }
 
 ### Bones
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderSkeleton.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderSkeleton.cs#L18)
 
 ```csharp
 ref CUtlVector<RenderSkeletonBone_t> Bones { get; }

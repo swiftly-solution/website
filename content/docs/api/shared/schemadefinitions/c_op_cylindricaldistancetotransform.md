@@ -12,7 +12,7 @@ public interface C_OP_CylindricalDistanceToTransform : CParticleFunctionOperator
 
 ### ActiveRange
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CylindricalDistanceToTransform.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CylindricalDistanceToTransform.cs#L34)
 
 ```csharp
 ref bool ActiveRange { get; }
@@ -24,7 +24,7 @@ ref bool ActiveRange { get; }
 
 ### Additive
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CylindricalDistanceToTransform.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CylindricalDistanceToTransform.cs#L36)
 
 ```csharp
 ref bool Additive { get; }
@@ -36,7 +36,7 @@ ref bool Additive { get; }
 
 ### Capsule
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CylindricalDistanceToTransform.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CylindricalDistanceToTransform.cs#L38)
 
 ```csharp
 ref bool Capsule { get; }
@@ -48,7 +48,7 @@ ref bool Capsule { get; }
 
 ### FieldOutput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CylindricalDistanceToTransform.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CylindricalDistanceToTransform.cs#L18)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -60,7 +60,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 ### InputMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CylindricalDistanceToTransform.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CylindricalDistanceToTransform.cs#L22)
 
 ```csharp
 CPerParticleFloatInput InputMax { get; }
@@ -72,7 +72,7 @@ CPerParticleFloatInput InputMax { get; }
 
 ### InputMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CylindricalDistanceToTransform.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CylindricalDistanceToTransform.cs#L20)
 
 ```csharp
 CPerParticleFloatInput InputMin { get; }
@@ -84,7 +84,7 @@ CPerParticleFloatInput InputMin { get; }
 
 ### OutputMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CylindricalDistanceToTransform.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CylindricalDistanceToTransform.cs#L26)
 
 ```csharp
 CPerParticleFloatInput OutputMax { get; }
@@ -96,7 +96,7 @@ CPerParticleFloatInput OutputMax { get; }
 
 ### OutputMin
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CylindricalDistanceToTransform.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CylindricalDistanceToTransform.cs#L24)
 
 ```csharp
 CPerParticleFloatInput OutputMin { get; }
@@ -108,7 +108,7 @@ CPerParticleFloatInput OutputMin { get; }
 
 ### SetMethod
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CylindricalDistanceToTransform.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CylindricalDistanceToTransform.cs#L32)
 
 ```csharp
 ref ParticleSetMethod_t SetMethod { get; }
@@ -120,7 +120,7 @@ ref ParticleSetMethod_t SetMethod { get; }
 
 ### TransformEnd
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CylindricalDistanceToTransform.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CylindricalDistanceToTransform.cs#L30)
 
 ```csharp
 CParticleTransformInput TransformEnd { get; }
@@ -132,7 +132,7 @@ CParticleTransformInput TransformEnd { get; }
 
 ### TransformStart
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CylindricalDistanceToTransform.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CylindricalDistanceToTransform.cs#L28)
 
 ```csharp
 CParticleTransformInput TransformStart { get; }

@@ -12,7 +12,7 @@ public interface CDampedValueUpdateItem : ISchemaClass<CDampedValueUpdateItem>, 
 
 ### Damping
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDampedValueUpdateItem.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDampedValueUpdateItem.cs#L18)
 
 ```csharp
 CAnimInputDamping Damping { get; }
@@ -24,7 +24,7 @@ CAnimInputDamping Damping { get; }
 
 ### ParamIn
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDampedValueUpdateItem.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDampedValueUpdateItem.cs#L20)
 
 ```csharp
 CAnimParamHandle ParamIn { get; }
@@ -36,7 +36,7 @@ CAnimParamHandle ParamIn { get; }
 
 ### ParamOut
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDampedValueUpdateItem.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDampedValueUpdateItem.cs#L22)
 
 ```csharp
 CAnimParamHandle ParamOut { get; }

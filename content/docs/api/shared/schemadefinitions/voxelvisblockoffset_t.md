@@ -12,7 +12,7 @@ public interface VoxelVisBlockOffset_t : ISchemaClass<VoxelVisBlockOffset_t>, IS
 
 ### ElementCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VoxelVisBlockOffset_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VoxelVisBlockOffset_t.cs#L20)
 
 ```csharp
 ref uint ElementCount { get; }
@@ -24,7 +24,7 @@ ref uint ElementCount { get; }
 
 ### Offset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VoxelVisBlockOffset_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VoxelVisBlockOffset_t.cs#L18)
 
 ```csharp
 ref uint Offset { get; }

@@ -12,7 +12,7 @@ public interface CAnimUserDifference : ISchemaClass<CAnimUserDifference>, ISchem
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimUserDifference.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimUserDifference.cs#L18)
 
 ```csharp
 ref CBufferString Name { get; }
@@ -24,7 +24,7 @@ ref CBufferString Name { get; }
 
 ### Type
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimUserDifference.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimUserDifference.cs#L20)
 
 ```csharp
 ref int Type { get; }

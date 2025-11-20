@@ -12,7 +12,7 @@ public interface CGamePlayerZone : CRuleBrushEntity, CRuleEntity, CBaseModelEnti
 
 ### OnPlayerInZone
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGamePlayerZone.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGamePlayerZone.cs#L18)
 
 ```csharp
 CEntityIOOutput OnPlayerInZone { get; }
@@ -24,7 +24,7 @@ CEntityIOOutput OnPlayerInZone { get; }
 
 ### OnPlayerOutZone
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGamePlayerZone.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGamePlayerZone.cs#L20)
 
 ```csharp
 CEntityIOOutput OnPlayerOutZone { get; }
@@ -36,7 +36,7 @@ CEntityIOOutput OnPlayerOutZone { get; }
 
 ### PlayersInCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGamePlayerZone.cs#L22)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGamePlayerZone.cs#L23)
 
 ```csharp
 SchemaUntypedField PlayersInCount { get; }
@@ -48,7 +48,7 @@ SchemaUntypedField PlayersInCount { get; }
 
 ### PlayersOutCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGamePlayerZone.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGamePlayerZone.cs#L26)
 
 ```csharp
 SchemaUntypedField PlayersOutCount { get; }

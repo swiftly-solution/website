@@ -12,7 +12,7 @@ public interface CTriggerTeleport : CBaseTrigger, CBaseToggle, CBaseModelEntity,
 
 ### CheckDestIfClearForPlayer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerTeleport.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerTeleport.cs#L24)
 
 ```csharp
 ref bool CheckDestIfClearForPlayer { get; }
@@ -24,7 +24,7 @@ ref bool CheckDestIfClearForPlayer { get; }
 
 ### Landmark
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerTeleport.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerTeleport.cs#L18)
 
 ```csharp
 string Landmark { get; set; }
@@ -36,7 +36,7 @@ string Landmark { get; set; }
 
 ### MirrorPlayer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerTeleport.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerTeleport.cs#L22)
 
 ```csharp
 ref bool MirrorPlayer { get; }
@@ -48,7 +48,7 @@ ref bool MirrorPlayer { get; }
 
 ### UseLandmarkAngles
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerTeleport.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerTeleport.cs#L20)
 
 ```csharp
 ref bool UseLandmarkAngles { get; }

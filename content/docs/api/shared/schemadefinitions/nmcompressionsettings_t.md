@@ -12,7 +12,7 @@ public interface NmCompressionSettings_t : ISchemaClass<NmCompressionSettings_t>
 
 ### ConstantRotation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/NmCompressionSettings_t.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/NmCompressionSettings_t.cs#L26)
 
 ```csharp
 ref Quaternion ConstantRotation { get; }
@@ -24,7 +24,7 @@ ref Quaternion ConstantRotation { get; }
 
 ### IsRotationStatic
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/NmCompressionSettings_t.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/NmCompressionSettings_t.cs#L28)
 
 ```csharp
 ref bool IsRotationStatic { get; }
@@ -36,7 +36,7 @@ ref bool IsRotationStatic { get; }
 
 ### IsScaleStatic
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/NmCompressionSettings_t.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/NmCompressionSettings_t.cs#L32)
 
 ```csharp
 ref bool IsScaleStatic { get; }
@@ -48,7 +48,7 @@ ref bool IsScaleStatic { get; }
 
 ### IsTranslationStatic
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/NmCompressionSettings_t.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/NmCompressionSettings_t.cs#L30)
 
 ```csharp
 ref bool IsTranslationStatic { get; }
@@ -60,7 +60,7 @@ ref bool IsTranslationStatic { get; }
 
 ### ScaleRange
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/NmCompressionSettings_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/NmCompressionSettings_t.cs#L24)
 
 ```csharp
 NmCompressionSettings_t__QuantizationRange_t ScaleRange { get; }
@@ -72,7 +72,7 @@ NmCompressionSettings_t__QuantizationRange_t ScaleRange { get; }
 
 ### TranslationRangeX
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/NmCompressionSettings_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/NmCompressionSettings_t.cs#L18)
 
 ```csharp
 NmCompressionSettings_t__QuantizationRange_t TranslationRangeX { get; }
@@ -84,7 +84,7 @@ NmCompressionSettings_t__QuantizationRange_t TranslationRangeX { get; }
 
 ### TranslationRangeY
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/NmCompressionSettings_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/NmCompressionSettings_t.cs#L20)
 
 ```csharp
 NmCompressionSettings_t__QuantizationRange_t TranslationRangeY { get; }
@@ -96,7 +96,7 @@ NmCompressionSettings_t__QuantizationRange_t TranslationRangeY { get; }
 
 ### TranslationRangeZ
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/NmCompressionSettings_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/NmCompressionSettings_t.cs#L22)
 
 ```csharp
 NmCompressionSettings_t__QuantizationRange_t TranslationRangeZ { get; }

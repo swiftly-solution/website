@@ -12,7 +12,7 @@ public interface CAimCameraUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase, I
 
 ### OpFixedSettings
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAimCameraUpdateNode.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAimCameraUpdateNode.cs#L36)
 
 ```csharp
 AimCameraOpFixedSettings_t OpFixedSettings { get; }
@@ -24,7 +24,7 @@ AimCameraOpFixedSettings_t OpFixedSettings { get; }
 
 ### ParameterCameraClearanceDistance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAimCameraUpdateNode.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAimCameraUpdateNode.cs#L34)
 
 ```csharp
 CAnimParamHandle ParameterCameraClearanceDistance { get; }
@@ -36,7 +36,7 @@ CAnimParamHandle ParameterCameraClearanceDistance { get; }
 
 ### ParameterCameraOnly
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAimCameraUpdateNode.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAimCameraUpdateNode.cs#L28)
 
 ```csharp
 CAnimParamHandle ParameterCameraOnly { get; }
@@ -48,7 +48,7 @@ CAnimParamHandle ParameterCameraOnly { get; }
 
 ### ParameterOrientation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAimCameraUpdateNode.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAimCameraUpdateNode.cs#L20)
 
 ```csharp
 CAnimParamHandle ParameterOrientation { get; }
@@ -60,7 +60,7 @@ CAnimParamHandle ParameterOrientation { get; }
 
 ### ParameterPelvisOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAimCameraUpdateNode.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAimCameraUpdateNode.cs#L24)
 
 ```csharp
 CAnimParamHandle ParameterPelvisOffset { get; }
@@ -72,7 +72,7 @@ CAnimParamHandle ParameterPelvisOffset { get; }
 
 ### ParameterPosition
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAimCameraUpdateNode.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAimCameraUpdateNode.cs#L18)
 
 ```csharp
 CAnimParamHandle ParameterPosition { get; }
@@ -84,7 +84,7 @@ CAnimParamHandle ParameterPosition { get; }
 
 ### ParameterSpineRotationWeight
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAimCameraUpdateNode.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAimCameraUpdateNode.cs#L22)
 
 ```csharp
 CAnimParamHandle ParameterSpineRotationWeight { get; }
@@ -96,7 +96,7 @@ CAnimParamHandle ParameterSpineRotationWeight { get; }
 
 ### ParameterUseIK
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAimCameraUpdateNode.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAimCameraUpdateNode.cs#L26)
 
 ```csharp
 CAnimParamHandle ParameterUseIK { get; }
@@ -108,7 +108,7 @@ CAnimParamHandle ParameterUseIK { get; }
 
 ### ParameterWeaponDepenetrationDelta
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAimCameraUpdateNode.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAimCameraUpdateNode.cs#L32)
 
 ```csharp
 CAnimParamHandle ParameterWeaponDepenetrationDelta { get; }
@@ -120,7 +120,7 @@ CAnimParamHandle ParameterWeaponDepenetrationDelta { get; }
 
 ### ParameterWeaponDepenetrationDistance
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAimCameraUpdateNode.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAimCameraUpdateNode.cs#L30)
 
 ```csharp
 CAnimParamHandle ParameterWeaponDepenetrationDistance { get; }

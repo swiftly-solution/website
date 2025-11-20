@@ -12,7 +12,7 @@ public interface CNmParameterizedBlendNode__CDefinition : CNmPoseNode__CDefiniti
 
 ### AllowLooping
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParameterizedBlendNode__CDefinition.cs#L22)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParameterizedBlendNode__CDefinition.cs#L23)
 
 ```csharp
 ref bool AllowLooping { get; }
@@ -24,7 +24,7 @@ ref bool AllowLooping { get; }
 
 ### InputParameterValueNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParameterizedBlendNode__CDefinition.cs#L20)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParameterizedBlendNode__CDefinition.cs#L21)
 
 ```csharp
 ref short InputParameterValueNodeIdx { get; }
@@ -36,7 +36,7 @@ ref short InputParameterValueNodeIdx { get; }
 
 ### SourceNodeIndices
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParameterizedBlendNode__CDefinition.cs#L18)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParameterizedBlendNode__CDefinition.cs#L19)
 
 ```csharp
 SchemaUntypedField SourceNodeIndices { get; }

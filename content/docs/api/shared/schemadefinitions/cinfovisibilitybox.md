@@ -12,7 +12,7 @@ public interface CInfoVisibilityBox : CBaseEntity, CEntityInstance, ISchemaClass
 
 ### BoxSize
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoVisibilityBox.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoVisibilityBox.cs#L20)
 
 ```csharp
 ref Vector BoxSize { get; }
@@ -24,7 +24,7 @@ ref Vector BoxSize { get; }
 
 ### Enabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoVisibilityBox.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoVisibilityBox.cs#L22)
 
 ```csharp
 ref bool Enabled { get; }
@@ -36,7 +36,7 @@ ref bool Enabled { get; }
 
 ### Mode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoVisibilityBox.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoVisibilityBox.cs#L18)
 
 ```csharp
 ref int Mode { get; }
@@ -50,7 +50,7 @@ ref int Mode { get; }
 
 ### BoxSizeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoVisibilityBox.cs#L24)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoVisibilityBox.cs#L25)
 
 ```csharp
 void BoxSizeUpdated()
@@ -58,7 +58,7 @@ void BoxSizeUpdated()
 
 ### EnabledUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoVisibilityBox.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoVisibilityBox.cs#L26)
 
 ```csharp
 void EnabledUpdated()
@@ -66,7 +66,7 @@ void EnabledUpdated()
 
 ### ModeUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoVisibilityBox.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoVisibilityBox.cs#L24)
 
 ```csharp
 void ModeUpdated()

@@ -12,7 +12,7 @@ public interface CLogicNavigation : CLogicalEntity, CServerOnlyEntity, CBaseEnti
 
 ### IsOn
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNavigation.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNavigation.cs#L18)
 
 ```csharp
 ref bool IsOn { get; }
@@ -24,7 +24,7 @@ ref bool IsOn { get; }
 
 ### NavProperty
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNavigation.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNavigation.cs#L20)
 
 ```csharp
 ref navproperties_t NavProperty { get; }

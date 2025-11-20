@@ -12,7 +12,7 @@ public interface CNmFootEvent : CNmEvent, ISchemaClass<CNmEvent>, ISchemaClass<C
 
 ### Phase
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFootEvent.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFootEvent.cs#L18)
 
 ```csharp
 ref NmFootPhase_t Phase { get; }

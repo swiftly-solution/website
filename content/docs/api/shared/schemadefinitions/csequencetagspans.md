@@ -12,7 +12,7 @@ public interface CSequenceTagSpans : ISchemaClass<CSequenceTagSpans>, ISchemaFie
 
 ### SequenceName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceTagSpans.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceTagSpans.cs#L18)
 
 ```csharp
 ref CGlobalSymbol SequenceName { get; }
@@ -24,7 +24,7 @@ ref CGlobalSymbol SequenceName { get; }
 
 ### Tags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceTagSpans.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceTagSpans.cs#L20)
 
 ```csharp
 ref CUtlVector<TagSpan_t> Tags { get; }

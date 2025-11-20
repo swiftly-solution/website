@@ -12,7 +12,7 @@ public interface VsInputSignatureElement_t : ISchemaClass<VsInputSignatureElemen
 
 ### D3DSemanticIndex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VsInputSignatureElement_t.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VsInputSignatureElement_t.cs#L24)
 
 ```csharp
 ref int D3DSemanticIndex { get; }
@@ -24,7 +24,7 @@ ref int D3DSemanticIndex { get; }
 
 ### D3DSemanticName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VsInputSignatureElement_t.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VsInputSignatureElement_t.cs#L22)
 
 ```csharp
 string D3DSemanticName { get; set; }
@@ -36,7 +36,7 @@ string D3DSemanticName { get; set; }
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VsInputSignatureElement_t.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VsInputSignatureElement_t.cs#L18)
 
 ```csharp
 string Name { get; set; }
@@ -48,7 +48,7 @@ string Name { get; set; }
 
 ### Semantic
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VsInputSignatureElement_t.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VsInputSignatureElement_t.cs#L20)
 
 ```csharp
 string Semantic { get; set; }

@@ -12,7 +12,7 @@ public interface CNmEntityAttributeEventBase : CNmEvent, ISchemaClass<CNmEvent>,
 
 ### AttributeName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmEntityAttributeEventBase.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmEntityAttributeEventBase.cs#L18)
 
 ```csharp
 string AttributeName { get; set; }

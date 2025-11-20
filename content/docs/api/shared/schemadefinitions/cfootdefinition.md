@@ -12,7 +12,7 @@ public interface CFootDefinition : ISchemaClass<CFootDefinition>, ISchemaField, 
 
 ### AnkleBoneName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootDefinition.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootDefinition.cs#L20)
 
 ```csharp
 string AnkleBoneName { get; set; }
@@ -24,7 +24,7 @@ string AnkleBoneName { get; set; }
 
 ### BallOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootDefinition.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootDefinition.cs#L24)
 
 ```csharp
 ref Vector BallOffset { get; }
@@ -36,7 +36,7 @@ ref Vector BallOffset { get; }
 
 ### BindPoseDirectionMS
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootDefinition.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootDefinition.cs#L30)
 
 ```csharp
 ref float BindPoseDirectionMS { get; }
@@ -48,7 +48,7 @@ ref float BindPoseDirectionMS { get; }
 
 ### FootLength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootDefinition.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootDefinition.cs#L28)
 
 ```csharp
 ref float FootLength { get; }
@@ -60,7 +60,7 @@ ref float FootLength { get; }
 
 ### HeelOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootDefinition.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootDefinition.cs#L26)
 
 ```csharp
 ref Vector HeelOffset { get; }
@@ -72,7 +72,7 @@ ref Vector HeelOffset { get; }
 
 ### Name
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootDefinition.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootDefinition.cs#L18)
 
 ```csharp
 string Name { get; set; }
@@ -84,7 +84,7 @@ string Name { get; set; }
 
 ### ToeBoneName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootDefinition.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootDefinition.cs#L22)
 
 ```csharp
 string ToeBoneName { get; set; }
@@ -96,7 +96,7 @@ string ToeBoneName { get; set; }
 
 ### TraceHeight
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootDefinition.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootDefinition.cs#L32)
 
 ```csharp
 ref float TraceHeight { get; }
@@ -108,7 +108,7 @@ ref float TraceHeight { get; }
 
 ### TraceRadius
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootDefinition.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootDefinition.cs#L34)
 
 ```csharp
 ref float TraceRadius { get; }

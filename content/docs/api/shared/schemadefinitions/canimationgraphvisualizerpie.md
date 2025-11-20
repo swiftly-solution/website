@@ -12,7 +12,7 @@ public interface CAnimationGraphVisualizerPie : CAnimationGraphVisualizerPrimiti
 
 ### Color
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGraphVisualizerPie.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGraphVisualizerPie.cs#L24)
 
 ```csharp
 ref Color Color { get; }
@@ -24,7 +24,7 @@ ref Color Color { get; }
 
 ### WsCenter
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGraphVisualizerPie.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGraphVisualizerPie.cs#L18)
 
 ```csharp
 ref Vector WsCenter { get; }
@@ -36,7 +36,7 @@ ref Vector WsCenter { get; }
 
 ### WsEnd
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGraphVisualizerPie.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGraphVisualizerPie.cs#L22)
 
 ```csharp
 ref Vector WsEnd { get; }
@@ -48,7 +48,7 @@ ref Vector WsEnd { get; }
 
 ### WsStart
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGraphVisualizerPie.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGraphVisualizerPie.cs#L20)
 
 ```csharp
 ref Vector WsStart { get; }

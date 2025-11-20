@@ -12,7 +12,7 @@ public interface CMorphRectData : ISchemaClass<CMorphRectData>, ISchemaField, IS
 
 ### BundleDatas
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphRectData.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphRectData.cs#L26)
 
 ```csharp
 ref CUtlVector<CMorphBundleData> BundleDatas { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<CMorphBundleData> BundleDatas { get; }
 
 ### UWidthSrc
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphRectData.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphRectData.cs#L22)
 
 ```csharp
 ref float UWidthSrc { get; }
@@ -36,7 +36,7 @@ ref float UWidthSrc { get; }
 
 ### VHeightSrc
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphRectData.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphRectData.cs#L24)
 
 ```csharp
 ref float VHeightSrc { get; }
@@ -48,7 +48,7 @@ ref float VHeightSrc { get; }
 
 ### XLeftDst
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphRectData.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphRectData.cs#L18)
 
 ```csharp
 ref short XLeftDst { get; }
@@ -60,7 +60,7 @@ ref short XLeftDst { get; }
 
 ### YTopDst
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphRectData.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphRectData.cs#L20)
 
 ```csharp
 ref short YTopDst { get; }

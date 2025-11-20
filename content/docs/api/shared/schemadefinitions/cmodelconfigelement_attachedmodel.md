@@ -12,7 +12,7 @@ public interface CModelConfigElement_AttachedModel : CModelConfigElement, ISchem
 
 ### AcceptParentMaterialDrivenDecals
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_AttachedModel.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_AttachedModel.cs#L40)
 
 ```csharp
 ref bool AcceptParentMaterialDrivenDecals { get; }
@@ -24,7 +24,7 @@ ref bool AcceptParentMaterialDrivenDecals { get; }
 
 ### AngOffset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_AttachedModel.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_AttachedModel.cs#L26)
 
 ```csharp
 ref QAngle AngOffset { get; }
@@ -36,7 +36,7 @@ ref QAngle AngOffset { get; }
 
 ### AttachmentName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_AttachedModel.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_AttachedModel.cs#L28)
 
 ```csharp
 string AttachmentName { get; set; }
@@ -48,7 +48,7 @@ string AttachmentName { get; set; }
 
 ### AttachmentType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_AttachedModel.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_AttachedModel.cs#L32)
 
 ```csharp
 ref ModelConfigAttachmentType_t AttachmentType { get; }
@@ -60,7 +60,7 @@ ref ModelConfigAttachmentType_t AttachmentType { get; }
 
 ### BodygroupOnOtherModels
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_AttachedModel.cs#L41)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_AttachedModel.cs#L42)
 
 ```csharp
 string BodygroupOnOtherModels { get; set; }
@@ -72,7 +72,7 @@ string BodygroupOnOtherModels { get; set; }
 
 ### BoneMergeFlex
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_AttachedModel.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_AttachedModel.cs#L34)
 
 ```csharp
 ref bool BoneMergeFlex { get; }
@@ -84,7 +84,7 @@ ref bool BoneMergeFlex { get; }
 
 ### EntityClass
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_AttachedModel.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_AttachedModel.cs#L20)
 
 ```csharp
 string EntityClass { get; set; }
@@ -96,7 +96,7 @@ string EntityClass { get; set; }
 
 ### InstanceName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_AttachedModel.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_AttachedModel.cs#L18)
 
 ```csharp
 string InstanceName { get; set; }
@@ -108,7 +108,7 @@ string InstanceName { get; set; }
 
 ### LocalAttachmentOffsetName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_AttachedModel.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_AttachedModel.cs#L30)
 
 ```csharp
 string LocalAttachmentOffsetName { get; set; }
@@ -120,7 +120,7 @@ string LocalAttachmentOffsetName { get; set; }
 
 ### MaterialGroupOnOtherModels
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_AttachedModel.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_AttachedModel.cs#L44)
 
 ```csharp
 string MaterialGroupOnOtherModels { get; set; }
@@ -132,7 +132,7 @@ string MaterialGroupOnOtherModels { get; set; }
 
 ### Model
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_AttachedModel.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_AttachedModel.cs#L22)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCModel> Model { get; }
@@ -144,7 +144,7 @@ ref CStrongHandle<InfoForResourceTypeCModel> Model { get; }
 
 ### Offset
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_AttachedModel.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_AttachedModel.cs#L24)
 
 ```csharp
 ref Vector Offset { get; }
@@ -156,7 +156,7 @@ ref Vector Offset { get; }
 
 ### UserSpecifiedColor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_AttachedModel.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_AttachedModel.cs#L36)
 
 ```csharp
 ref bool UserSpecifiedColor { get; }
@@ -168,7 +168,7 @@ ref bool UserSpecifiedColor { get; }
 
 ### UserSpecifiedMaterialGroup
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_AttachedModel.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_AttachedModel.cs#L38)
 
 ```csharp
 ref bool UserSpecifiedMaterialGroup { get; }

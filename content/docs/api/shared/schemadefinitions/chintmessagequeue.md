@@ -12,7 +12,7 @@ public interface CHintMessageQueue : ISchemaClass<CHintMessageQueue>, ISchemaFie
 
 ### Messages
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHintMessageQueue.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHintMessageQueue.cs#L20)
 
 ```csharp
 ref CUtlVector<PointerTo<CHintMessage>> Messages { get; }
@@ -24,7 +24,7 @@ ref CUtlVector<PointerTo<CHintMessage>> Messages { get; }
 
 ### PlayerController
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHintMessageQueue.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHintMessageQueue.cs#L22)
 
 ```csharp
 CBasePlayerController? PlayerController { get; }
@@ -36,7 +36,7 @@ CBasePlayerController? PlayerController { get; }
 
 ### TmMessageEnd
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHintMessageQueue.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHintMessageQueue.cs#L18)
 
 ```csharp
 ref float TmMessageEnd { get; }
