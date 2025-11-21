@@ -115,10 +115,8 @@ public override void Load(bool hotReload) {
             builder.AddJsonFile("config.jsonc", optional: false, reloadOnChange: true);
         });
 
-    // Register configuration with dependency injection
-    collection
-        .AddOptionsWithValidateOnStart<ConfigModel>()
-        .BindConfiguration("Main");
+    ServiceCollection services = new();
+    services.AddSwiftly(Core).AddOptionsWithValidateOnStart<ConfigModel>().BindConfiguration("Main");
 }
 ```
 
