@@ -45,7 +45,7 @@ protected MenuOptionBase(int updateIntervalMs, int pauseIntervalMs)
 
 ### CloseAfterClick
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L189)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L205)
 
 ```csharp
 public bool CloseAfterClick { get; init; }
@@ -57,7 +57,7 @@ public bool CloseAfterClick { get; init; }
 
 ### Enabled
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L173)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L189)
 
 ```csharp
 public bool Enabled { get; set; }
@@ -71,7 +71,7 @@ public bool Enabled { get; set; }
 
 ### LineCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L104)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L120)
 
 ```csharp
 public virtual int LineCount { get; }
@@ -83,7 +83,7 @@ public virtual int LineCount { get; }
 
 ### MaxWidth
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L130)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L146)
 
 ```csharp
 public float MaxWidth { get; set; }
@@ -95,7 +95,7 @@ public float MaxWidth { get; set; }
 
 ### Menu
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L99)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L115)
 
 ```csharp
 public IMenuAPI? Menu { get; }
@@ -109,7 +109,7 @@ public IMenuAPI? Menu { get; }
 
 ### PlaySound
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L220)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L236)
 
 ```csharp
 public bool PlaySound { get; set; }
@@ -121,7 +121,7 @@ public bool PlaySound { get; set; }
 
 ### Tag
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L194)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L210)
 
 ```csharp
 public object? Tag { get; set; }
@@ -133,7 +133,7 @@ public object? Tag { get; set; }
 
 ### Text
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L112)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L128)
 
 ```csharp
 public string Text { get; set; }
@@ -147,7 +147,7 @@ public string Text { get; set; }
 
 ### TextSize
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L199)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L215)
 
 ```csharp
 public MenuOptionTextSize TextSize { get; set; }
@@ -159,7 +159,7 @@ public MenuOptionTextSize TextSize { get; set; }
 
 ### TextStyle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L204)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L220)
 
 ```csharp
 public MenuOptionTextStyle TextStyle { get; set; }
@@ -171,7 +171,7 @@ public MenuOptionTextStyle TextStyle { get; set; }
 
 ### Visible
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L154)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L170)
 
 ```csharp
 public bool Visible { get; set; }
@@ -203,7 +203,7 @@ protected ~MenuOptionBase()
 
 ### GetDisplayText(IPlayer, int)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L359)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L375)
 
 ```csharp
 public virtual string GetDisplayText(IPlayer player, int displayLine = 0)
@@ -222,7 +222,7 @@ public virtual string GetDisplayText(IPlayer player, int displayLine = 0)
 
 ### GetEnabled(IPlayer)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L291)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L307)
 
 ```csharp
 public virtual bool GetEnabled(IPlayer player)
@@ -238,7 +238,7 @@ public virtual bool GetEnabled(IPlayer player)
 
 ### GetVisible(IPlayer)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L274)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L290)
 
 ```csharp
 public virtual bool GetVisible(IPlayer player)
@@ -254,7 +254,7 @@ public virtual bool GetVisible(IPlayer player)
 
 ### IsClickTaskCompleted(IPlayer)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L267)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L283)
 
 ```csharp
 public virtual bool IsClickTaskCompleted(IPlayer player)
@@ -270,7 +270,7 @@ public virtual bool IsClickTaskCompleted(IPlayer player)
 
 ### OnClickAsync(IPlayer)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L462)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L478)
 
 ```csharp
 public virtual ValueTask OnClickAsync(IPlayer player)
@@ -286,7 +286,7 @@ public virtual ValueTask OnClickAsync(IPlayer player)
 
 ### OnValidatingAsync(IPlayer)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L410)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L426)
 
 ```csharp
 public virtual ValueTask<bool> OnValidatingAsync(IPlayer player)
@@ -300,9 +300,25 @@ public virtual ValueTask<bool> OnValidatingAsync(IPlayer player)
 
 - [ValueTask](https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)> - A task that represents the asynchronous operation. The task result is true if validation succeeds; otherwise, false.
 
+### PauseTextAnimation()
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L95)
+
+```csharp
+public void PauseTextAnimation()
+```
+
+### ResumeTextAnimation()
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L103)
+
+```csharp
+public void ResumeTextAnimation()
+```
+
 ### SetEnabled(IPlayer, bool)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L301)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L317)
 
 ```csharp
 public virtual void SetEnabled(IPlayer player, bool enabled)
@@ -317,7 +333,7 @@ public virtual void SetEnabled(IPlayer player, bool enabled)
 
 ### SetVisible(IPlayer, bool)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L284)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L300)
 
 ```csharp
 public virtual void SetVisible(IPlayer player, bool visible)
@@ -332,7 +348,7 @@ public virtual void SetVisible(IPlayer player, bool visible)
 
 ### AfterFormat
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L260)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L276)
 
 ```csharp
 public event EventHandler<MenuOptionFormattingEventArgs>? AfterFormat
@@ -344,7 +360,7 @@ public event EventHandler<MenuOptionFormattingEventArgs>? AfterFormat
 
 ### BeforeFormat
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L255)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L271)
 
 ```csharp
 public event EventHandler<MenuOptionFormattingEventArgs>? BeforeFormat
@@ -356,7 +372,7 @@ public event EventHandler<MenuOptionFormattingEventArgs>? BeforeFormat
 
 ### Click
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L245)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L261)
 
 ```csharp
 public event AsyncEventHandler<MenuOptionClickEventArgs>? Click
@@ -368,7 +384,7 @@ public event AsyncEventHandler<MenuOptionClickEventArgs>? Click
 
 ### EnabledChanged
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L230)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L246)
 
 ```csharp
 public event EventHandler<MenuOptionEventArgs>? EnabledChanged
@@ -380,7 +396,7 @@ public event EventHandler<MenuOptionEventArgs>? EnabledChanged
 
 ### TextChanged
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L235)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L251)
 
 ```csharp
 public event EventHandler<MenuOptionEventArgs>? TextChanged
@@ -392,7 +408,7 @@ public event EventHandler<MenuOptionEventArgs>? TextChanged
 
 ### Validating
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L240)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L256)
 
 ```csharp
 public event EventHandler<MenuOptionValidatingEventArgs>? Validating
@@ -404,7 +420,7 @@ public event EventHandler<MenuOptionValidatingEventArgs>? Validating
 
 ### VisibilityChanged
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L225)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L241)
 
 ```csharp
 public event EventHandler<MenuOptionEventArgs>? VisibilityChanged

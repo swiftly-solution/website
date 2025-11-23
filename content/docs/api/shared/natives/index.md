@@ -93,6 +93,7 @@ and handled within the core.
 - [InteractionLayer](/docs/api/shared/natives/interactionlayer)
 - [MapLoadType_t](/docs/api/shared/natives/maploadtype_t)
 - [MaskTrace](/docs/api/shared/natives/masktrace)
+- [NameMatchType](/docs/api/shared/natives/namematchtype)
 - [NetChannelBufType_t](/docs/api/shared/natives/netchannelbuftype_t)
 - [NodeColor_t](/docs/api/shared/natives/nodecolor_t)
 - [RayType_t](/docs/api/shared/natives/raytype_t)

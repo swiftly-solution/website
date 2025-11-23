@@ -16,7 +16,7 @@ public sealed class SubmenuMenuOption : MenuOptionBase, IMenuOption, IDisposable
 
 ### SubmenuMenuOption(IMenuAPI, int, int)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/SubmenuMenuOption.cs#L28)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/SubmenuMenuOption.cs#L26)
 
 ```csharp
 public SubmenuMenuOption(IMenuAPI submenu, int updateIntervalMs = 120, int pauseIntervalMs = 1000)
@@ -32,7 +32,7 @@ public SubmenuMenuOption(IMenuAPI submenu, int updateIntervalMs = 120, int pause
 
 ### SubmenuMenuOption(string, IMenuAPI, int, int)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/SubmenuMenuOption.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/SubmenuMenuOption.cs#L43)
 
 ```csharp
 public SubmenuMenuOption(string text, IMenuAPI submenu, int updateIntervalMs = 120, int pauseIntervalMs = 1000)
@@ -47,7 +47,7 @@ public SubmenuMenuOption(string text, IMenuAPI submenu, int updateIntervalMs = 1
 
 ### SubmenuMenuOption(Func, int, int)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/SubmenuMenuOption.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/SubmenuMenuOption.cs#L61)
 
 ```csharp
 public SubmenuMenuOption(Func<IMenuAPI> submenuBuilder, int updateIntervalMs = 120, int pauseIntervalMs = 1000)
@@ -63,7 +63,7 @@ public SubmenuMenuOption(Func<IMenuAPI> submenuBuilder, int updateIntervalMs = 1
 
 ### SubmenuMenuOption(string, Func, int, int)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/SubmenuMenuOption.cs#L80)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/SubmenuMenuOption.cs#L78)
 
 ```csharp
 public SubmenuMenuOption(string text, Func<IMenuAPI> submenuBuilder, int updateIntervalMs = 120, int pauseIntervalMs = 1000)
@@ -78,7 +78,7 @@ public SubmenuMenuOption(string text, Func<IMenuAPI> submenuBuilder, int updateI
 
 ### SubmenuMenuOption(Func>, int, int)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/SubmenuMenuOption.cs#L98)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/SubmenuMenuOption.cs#L96)
 
 ```csharp
 public SubmenuMenuOption(Func<Task<IMenuAPI>> submenuBuilderAsync, int updateIntervalMs = 120, int pauseIntervalMs = 1000)
@@ -94,7 +94,7 @@ public SubmenuMenuOption(Func<Task<IMenuAPI>> submenuBuilderAsync, int updateInt
 
 ### SubmenuMenuOption(string, Func>, int, int)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/SubmenuMenuOption.cs#L115)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/SubmenuMenuOption.cs#L113)
 
 ```csharp
 public SubmenuMenuOption(string text, Func<Task<IMenuAPI>> submenuBuilderAsync, int updateIntervalMs = 120, int pauseIntervalMs = 1000)

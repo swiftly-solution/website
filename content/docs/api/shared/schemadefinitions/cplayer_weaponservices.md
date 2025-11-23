@@ -46,6 +46,18 @@ ref CHandle<CBasePlayerWeapon> LastWeapon { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBasePlayerWeapon](/docs/api/shared/schemadefinitions/cbaseplayerweapon)>
 
+### MyValidWeapons
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L80)
+
+```csharp
+IEnumerable<CBasePlayerWeapon> MyValidWeapons { get; }
+```
+
+#### Property Value
+
+- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1)<[CBasePlayerWeapon](/docs/api/shared/schemadefinitions/cbaseplayerweapon)>
+
 ### MyWeapons
 
 [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_WeaponServices.cs#L18)

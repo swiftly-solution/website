@@ -430,3 +430,17 @@ public Xmm XMM9
 
 - [Xmm](/docs/api/shared/memory/xmm)
 
+## Methods
+
+### ToString()
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/IUnmanagedMemory.cs#L33)
+
+```csharp
+public override readonly string ToString()
+```
+
+#### Returns
+
+- [string](https://learn.microsoft.com/dotnet/api/system.string) - The fully qualified type name.
+

@@ -167,6 +167,18 @@ public int GetRecipientCount()
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
+### GetRecipients()
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L98)
+
+```csharp
+public IEnumerable<int> GetRecipients()
+```
+
+#### Returns
+
+- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
+
 ### RemoveAllPlayers()
 
 [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L66)

@@ -12,7 +12,7 @@ public interface CEntityInstance : ISchemaClass<CEntityInstance>, ISchemaField, 
 
 ### CScriptComponent
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityInstance.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityInstance.cs#L22)
 
 ```csharp
 CScriptComponent? CScriptComponent { get; }
@@ -36,7 +36,7 @@ string DesignerName { get; }
 
 ### Entity
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityInstance.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityInstance.cs#L20)
 
 ```csharp
 CEntityIdentity? Entity { get; }
@@ -60,7 +60,7 @@ uint Index { get; }
 
 ### PrivateVScripts
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityInstance.cs#L19)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityInstance.cs#L18)
 
 ```csharp
 string PrivateVScripts { get; set; }
@@ -134,7 +134,7 @@ void DispatchSpawn(CEntityKeyValues? entityKV = null)
 
 ### EntityUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityInstance.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityInstance.cs#L24)
 
 ```csharp
 void EntityUpdated()

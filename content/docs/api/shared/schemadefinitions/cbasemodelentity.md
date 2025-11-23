@@ -528,6 +528,18 @@ void CHitboxComponentUpdated()
 void CRenderComponentUpdated()
 ```
 
+### ChangeSubclass(ushort)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L125)
+
+```csharp
+void ChangeSubclass(ushort itemDefinitionIndex)
+```
+
+#### Parameters
+
+- **itemDefinitionIndex**: [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
+
 ### CollisionUpdated()
 
 [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L109)

@@ -10,7 +10,7 @@ public interface IUnmanagedMemory
 
 ### Address
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/IUnmanagedMemory.cs#L42)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/IUnmanagedMemory.cs#L57)
 
 ```csharp
 nint Address { get; }
@@ -24,7 +24,7 @@ nint Address { get; }
 
 ### AddHook(MidHookDelegate)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/IUnmanagedMemory.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/IUnmanagedMemory.cs#L64)
 
 ```csharp
 Guid AddHook(MidHookDelegate callback)
@@ -40,7 +40,7 @@ Guid AddHook(MidHookDelegate callback)
 
 ### RemoveHook(Guid)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/IUnmanagedMemory.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/IUnmanagedMemory.cs#L70)
 
 ```csharp
 void RemoveHook(Guid id)

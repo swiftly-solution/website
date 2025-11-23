@@ -8,6 +8,18 @@ public interface IOnEntityTakeDamageEvent
 
 ## Properties
 
+### DamageResult
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnEntityTakeDamageEvent.cs#L26)
+
+```csharp
+ref CTakeDamageResult DamageResult { get; }
+```
+
+#### Property Value
+
+- [CTakeDamageResult](/docs/api/shared/natives/ctakedamageresult)
+
 ### Entity
 
 [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnEntityTakeDamageEvent.cs#L16)
@@ -34,7 +46,7 @@ ref CTakeDamageInfo Info { get; }
 
 ### Result
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnEntityTakeDamageEvent.cs#L26)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnEntityTakeDamageEvent.cs#L31)
 
 ```csharp
 HookResult Result { get; set; }

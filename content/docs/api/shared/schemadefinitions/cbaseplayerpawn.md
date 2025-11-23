@@ -82,6 +82,18 @@ CAI_Expresser? Expresser { get; }
 
 - [CAI_Expresser](/docs/api/shared/schemadefinitions/cai_expresser)?
 
+### EyePosition
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBasePlayerPawn.cs#L12)
+
+```csharp
+Vector? EyePosition { get; }
+```
+
+#### Property Value
+
+- [Vector](/docs/api/shared/natives/vector)?
+
 ### FlashlightServices
 
 [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerPawn.cs#L30)
@@ -93,6 +105,18 @@ CPlayer_FlashlightServices? FlashlightServices { get; }
 #### Property Value
 
 - [CPlayer_FlashlightServices](/docs/api/shared/schemadefinitions/cplayer_flashlightservices)?
+
+### GroundDistance
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBasePlayerPawn.cs#L13)
+
+```csharp
+float GroundDistance { get; }
+```
+
+#### Property Value
+
+- [float](https://learn.microsoft.com/dotnet/api/system.single)
 
 ### HideHUD
 
@@ -330,7 +354,7 @@ void CameraServicesUpdated()
 
 ### CommitSuicide(bool, bool)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBasePlayerPawn.cs#L8)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBasePlayerPawn.cs#L10)
 
 ```csharp
 void CommitSuicide(bool explode, bool force)

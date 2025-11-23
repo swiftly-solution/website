@@ -40,6 +40,23 @@ bool FileExists(string filePath, string pathId)
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - True if the file exists, false otherwise.
 
+### FindFileAbsoluteList(string, string)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/FileSystem/IGameFileSystem.cs#L108)
+
+```csharp
+List<string> FindFileAbsoluteList(string wildcard, string pathId)
+```
+
+#### Parameters
+
+- **wildcard**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The wildcard to match files against.
+- **pathId**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The ID of the path to search in.
+
+#### Returns
+
+- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)> - A list of all files matching the given wildcard and path ID.
+
 ### GetFileSize(string, string)
 
 [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/FileSystem/IGameFileSystem.cs#L75)

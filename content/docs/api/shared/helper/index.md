@@ -12,6 +12,27 @@ public static class Helper
 
 ## Methods
 
+### AsProtobuf(nint, bool)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Helper.cs#L98)
+
+```csharp
+public static T AsProtobuf<T>(nint ptr, bool manuallyAllocated) where T : ITypedProtobuf<T>
+```
+
+#### Parameters
+
+- **ptr**: [nint](https://learn.microsoft.com/dotnet/api/system.intptr) - The pointer to the protobuf class.
+- **manuallyAllocated**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - Whether the pointer is manually allocated.
+
+#### Returns
+
+- T - The protobuf class.
+
+#### Type Parameters
+
+- **T**:  - The protobuf class to convert to.
+
 ### AsSchema(nint)
 
 [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Helper.cs#L86)
@@ -50,7 +71,7 @@ public static string Colored(this string text)
 
 ### EstimateTextWidth(string)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Helper.cs#L133)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Helper.cs#L145)
 
 ```csharp
 public static float EstimateTextWidth(string text)
@@ -66,7 +87,7 @@ public static float EstimateTextWidth(string text)
 
 ### GetCharWidth(char)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Helper.cs#L107)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Helper.cs#L119)
 
 ```csharp
 public static float GetCharWidth(char c)
@@ -82,7 +103,7 @@ public static float GetCharWidth(char c)
 
 ### GetSchemaSize()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Helper.cs#L96)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Helper.cs#L108)
 
 ```csharp
 public static int GetSchemaSize<T>() where T : ISchemaClass<T>
@@ -98,7 +119,7 @@ public static int GetSchemaSize<T>() where T : ISchemaClass<T>
 
 ### ParseHexColor(string, bool)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Helper.cs#L141)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Helper.cs#L153)
 
 ```csharp
 public static (int? r, int? g, int? b, int? a) ParseHexColor(string hexColor, bool alphaFirst = false)
