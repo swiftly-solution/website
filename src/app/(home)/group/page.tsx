@@ -21,10 +21,10 @@ export default function HomePage() {
                             />
                         </div>
                         <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-white">
-                            SwiftlyS2 - Beta
+                            SwiftlyS2
                         </h3>
                         <p className="text-blue-600 dark:text-blue-400 mb-3 text-sm">
-                            <Link href={"https://beta.swiftlys2.net"} target="_blank" rel="noopener noreferrer">https://beta.swiftlys2.net</Link>
+                            <Link href={"https://swiftlys2.net"} target="_blank" rel="noopener noreferrer">https://swiftlys2.net</Link>
                         </p>
                         <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
                             SwifltyS2 is a server modification plugin for Counter Strike 2 which is based on Metamod:Source.

@@ -50,8 +50,7 @@ jobs:
 
       - name: Remove old API docs
         run: |
-          rm -rf website/content/docs/api/shared
-          rm -rf website/content/docs/api/plugin
+          rm -rf website/content/docs/api/*
 
       - name: Copy new API docs
         run: cp -r swiftlys2/docs/swiftlys2/* website/content/docs/api/

@@ -12,7 +12,7 @@ export function baseOptions(): BaseLayoutProps {
     nav: {
       title: (
         <>
-          SwiftlyS2 - Beta
+          SwiftlyS2
         </>
       ),
     },
