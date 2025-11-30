@@ -1,0 +1,71 @@
+---
+title: CSOAccountXpShopBids
+---
+
+# Interface CSOAccountXpShopBids
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOAccountXpShopBids.cs#L8)
+
+**Namespace**: [SwiftlyS2.Shared.ProtobufDefinitions](/docs/api/protobufdefinitions)
+
+**Assembly**: SwiftlyS2.CS2.dll
+
+```csharp
+public interface CSOAccountXpShopBids : ITypedProtobuf<CSOAccountXpShopBids>, INativeHandle
+```
+
+#### Implements
+
+- [ITypedProtobuf<CSOAccountXpShopBids>](/docs/api/netmessages/itypedprotobuft)
+- [INativeHandle](/docs/api/natives/inativehandle)
+
+## Properties
+
+### CampaignId
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOAccountXpShopBids.cs#L13)
+
+```csharp
+uint CampaignId { get; set; }
+```
+
+#### Property Value
+
+- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+
+### ExpectedCost
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOAccountXpShopBids.cs#L19)
+
+```csharp
+uint ExpectedCost { get; set; }
+```
+
+#### Property Value
+
+- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+
+### GenerationTime
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOAccountXpShopBids.cs#L22)
+
+```csharp
+uint GenerationTime { get; set; }
+```
+
+#### Property Value
+
+- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+
+### RedeemId
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOAccountXpShopBids.cs#L16)
+
+```csharp
+uint RedeemId { get; set; }
+```
+
+#### Property Value
+
+- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+

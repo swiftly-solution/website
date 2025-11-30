@@ -1,0 +1,61 @@
+---
+title: CStateNodeStateData
+---
+
+# Interface CStateNodeStateData
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateNodeStateData.cs#L11)
+
+**Namespace**: [SwiftlyS2.Shared.SchemaDefinitions](/docs/api/schemadefinitions)
+
+**Assembly**: SwiftlyS2.CS2.dll
+
+```csharp
+public interface CStateNodeStateData : ISchemaClass<CStateNodeStateData>, ISchemaField, ISchemaClass, INativeHandle
+```
+
+#### Implements
+
+- [ISchemaClass<CStateNodeStateData>](/docs/api/schemas/ischemaclasst)
+- [ISchemaField](/docs/api/schemas/ischemafield)
+- [ISchemaClass](/docs/api/schemas/ischemaclass)
+- [INativeHandle](/docs/api/natives/inativehandle)
+
+## Properties
+
+### Child
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateNodeStateData.cs#L18)
+
+```csharp
+CAnimUpdateNodeRef Child { get; }
+```
+
+#### Property Value
+
+- [CAnimUpdateNodeRef](/docs/api/schemadefinitions/canimupdatenoderef)
+
+### ExclusiveRootMotion
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateNodeStateData.cs#L21)
+
+```csharp
+SchemaUntypedField ExclusiveRootMotion { get; }
+```
+
+#### Property Value
+
+- [SchemaUntypedField](/docs/api/schemas/schemauntypedfield)
+
+### ExclusiveRootMotionFirstFrame
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateNodeStateData.cs#L24)
+
+```csharp
+SchemaUntypedField ExclusiveRootMotionFirstFrame { get; }
+```
+
+#### Property Value
+
+- [SchemaUntypedField](/docs/api/schemas/schemauntypedfield)
+

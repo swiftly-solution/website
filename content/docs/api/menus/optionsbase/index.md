@@ -1,0 +1,16 @@
+---
+title: OptionsBase
+---
+
+# Namespace SwiftlyS2.Core.Menus.OptionsBase
+
+- [ButtonMenuOption](/docs/api/menus/optionsbase/buttonmenuoption) - Represents a clickable button menu option.
+- [ChoiceMenuOption](/docs/api/menus/optionsbase/choicemenuoption) - Represents a menu option that cycles through a list of choices.
+- [InputMenuOption](/docs/api/menus/optionsbase/inputmenuoption) - Represents a menu option that allows text input from players.
+- [MenuOptionBase](/docs/api/menus/optionsbase/menuoptionbase) - Provides a base implementation for menu options with event-driven behavior.
+- [ProgressBarMenuOption](/docs/api/menus/optionsbase/progressbarmenuoption) - Represents a progress bar menu option that displays progress visually.
+- [SliderMenuOption](/docs/api/menus/optionsbase/slidermenuoption) - Represents a slider menu option that allows selecting a numeric value within a range.
+- [SubmenuMenuOption](/docs/api/menus/optionsbase/submenumenuoption) - Represents a menu option that opens a submenu when clicked.
+- [TextMenuOption](/docs/api/menus/optionsbase/textmenuoption) - Represents a simple text-only menu option without interactive behavior.
+- [ToggleMenuOption](/docs/api/menus/optionsbase/togglemenuoption) - Represents a toggleable menu option that displays an on/off state.
+

@@ -1,0 +1,47 @@
+---
+title: CUserMsg_ParticleManager_UpdateParticleFwd_OBSOLETE
+---
+
+# Interface CUserMsg_ParticleManager_UpdateParticleFwd_OBSOLETE
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateParticleFwd_OBSOLETE.cs#L8)
+
+**Namespace**: [SwiftlyS2.Shared.ProtobufDefinitions](/docs/api/protobufdefinitions)
+
+**Assembly**: SwiftlyS2.CS2.dll
+
+```csharp
+public interface CUserMsg_ParticleManager_UpdateParticleFwd_OBSOLETE : ITypedProtobuf<CUserMsg_ParticleManager_UpdateParticleFwd_OBSOLETE>, INativeHandle
+```
+
+#### Implements
+
+- [ITypedProtobuf<CUserMsg_ParticleManager_UpdateParticleFwd_OBSOLETE>](/docs/api/netmessages/itypedprotobuft)
+- [INativeHandle](/docs/api/natives/inativehandle)
+
+## Properties
+
+### ControlPoint
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateParticleFwd_OBSOLETE.cs#L13)
+
+```csharp
+int ControlPoint { get; set; }
+```
+
+#### Property Value
+
+- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### Forward
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateParticleFwd_OBSOLETE.cs#L16)
+
+```csharp
+Vector Forward { get; set; }
+```
+
+#### Property Value
+
+- [Vector](/docs/api/natives/vector)
+

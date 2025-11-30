@@ -1,0 +1,321 @@
+---
+title: CSMatchStats_t
+---
+
+# Interface CSMatchStats_t
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L11)
+
+**Namespace**: [SwiftlyS2.Shared.SchemaDefinitions](/docs/api/schemadefinitions)
+
+**Assembly**: SwiftlyS2.CS2.dll
+
+```csharp
+public interface CSMatchStats_t : CSPerRoundStats_t, ISchemaClass<CSPerRoundStats_t>, ISchemaClass<CSMatchStats_t>, ISchemaField, ISchemaClass, INativeHandle
+```
+
+#### Implements
+
+- [CSPerRoundStats_t](/docs/api/schemadefinitions/csperroundstats_t)
+- [ISchemaClass<CSPerRoundStats_t>](/docs/api/schemas/ischemaclasst)
+- [ISchemaClass<CSMatchStats_t>](/docs/api/schemas/ischemaclasst)
+- [ISchemaField](/docs/api/schemas/ischemafield)
+- [ISchemaClass](/docs/api/schemas/ischemaclass)
+- [INativeHandle](/docs/api/natives/inativehandle)
+
+## Properties
+
+### Enemy2Ks
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L28)
+
+```csharp
+ref int Enemy2Ks { get; }
+```
+
+#### Property Value
+
+- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### Enemy3Ks
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L22)
+
+```csharp
+ref int Enemy3Ks { get; }
+```
+
+#### Property Value
+
+- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### Enemy4Ks
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L20)
+
+```csharp
+ref int Enemy4Ks { get; }
+```
+
+#### Property Value
+
+- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### Enemy5Ks
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L18)
+
+```csharp
+ref int Enemy5Ks { get; }
+```
+
+#### Property Value
+
+- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### EnemyKnifeKills
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L24)
+
+```csharp
+ref int EnemyKnifeKills { get; }
+```
+
+#### Property Value
+
+- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### EnemyTaserKills
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L26)
+
+```csharp
+ref int EnemyTaserKills { get; }
+```
+
+#### Property Value
+
+- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### EntryCount
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L56)
+
+```csharp
+ref int EntryCount { get; }
+```
+
+#### Property Value
+
+- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### EntryWins
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L58)
+
+```csharp
+ref int EntryWins { get; }
+```
+
+#### Property Value
+
+- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### Flash_Count
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L36)
+
+```csharp
+ref int Flash_Count { get; }
+```
+
+#### Property Value
+
+- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### Flash_Successes
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L38)
+
+```csharp
+ref int Flash_Successes { get; }
+```
+
+#### Property Value
+
+- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### HealthPointsDealtTotal
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L42)
+
+```csharp
+ref float HealthPointsDealtTotal { get; }
+```
+
+#### Property Value
+
+- [float](https://learn.microsoft.com/dotnet/api/system.single)
+
+### HealthPointsRemovedTotal
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L40)
+
+```csharp
+ref float HealthPointsRemovedTotal { get; }
+```
+
+#### Property Value
+
+- [float](https://learn.microsoft.com/dotnet/api/system.single)
+
+### I1v1Count
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L48)
+
+```csharp
+ref int I1v1Count { get; }
+```
+
+#### Property Value
+
+- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### I1v1Wins
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L50)
+
+```csharp
+ref int I1v1Wins { get; }
+```
+
+#### Property Value
+
+- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### I1v2Count
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L52)
+
+```csharp
+ref int I1v2Count { get; }
+```
+
+#### Property Value
+
+- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### I1v2Wins
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L54)
+
+```csharp
+ref int I1v2Wins { get; }
+```
+
+#### Property Value
+
+- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### ShotsFiredTotal
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L44)
+
+```csharp
+ref int ShotsFiredTotal { get; }
+```
+
+#### Property Value
+
+- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### ShotsOnTargetTotal
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L46)
+
+```csharp
+ref int ShotsOnTargetTotal { get; }
+```
+
+#### Property Value
+
+- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### Utility_Count
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L30)
+
+```csharp
+ref int Utility_Count { get; }
+```
+
+#### Property Value
+
+- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### Utility_Enemies
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L34)
+
+```csharp
+ref int Utility_Enemies { get; }
+```
+
+#### Property Value
+
+- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### Utility_Successes
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L32)
+
+```csharp
+ref int Utility_Successes { get; }
+```
+
+#### Property Value
+
+- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+## Methods
+
+### Enemy3KsUpdated()
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L62)
+
+```csharp
+void Enemy3KsUpdated()
+```
+
+### Enemy4KsUpdated()
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L61)
+
+```csharp
+void Enemy4KsUpdated()
+```
+
+### Enemy5KsUpdated()
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L60)
+
+```csharp
+void Enemy5KsUpdated()
+```
+
+### EnemyKnifeKillsUpdated()
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L63)
+
+```csharp
+void EnemyKnifeKillsUpdated()
+```
+
+### EnemyTaserKillsUpdated()
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSMatchStats_t.cs#L64)
+
+```csharp
+void EnemyTaserKillsUpdated()
+```
+

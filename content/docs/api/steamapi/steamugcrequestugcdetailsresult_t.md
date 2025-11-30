@@ -1,0 +1,63 @@
+---
+title: SteamUGCRequestUGCDetailsResult_t
+---
+
+# Struct SteamUGCRequestUGCDetailsResult_t
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/SteamCallbacks.cs#L2162)
+
+**Namespace**: [SwiftlyS2.Shared.SteamAPI](/docs/api/steamapi)
+
+**Assembly**: SwiftlyS2.CS2.dll
+
+```csharp
+public struct SteamUGCRequestUGCDetailsResult_t
+```
+
+#### Inherited Members
+
+- [object.Equals(object?)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object))
+- [object.Equals(object?, object?)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object))
+- [object.GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode)
+- [object.GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype)
+- [object.ReferenceEquals(object?, object?)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals)
+- [object.ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring)
+
+## Fields
+
+### k_iCallback
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/SteamCallbacks.cs#L2165)
+
+```csharp
+public const int k_iCallback = 3402
+```
+
+#### Field Value
+
+- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### m_bCachedData
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/SteamCallbacks.cs#L2168)
+
+```csharp
+public bool m_bCachedData
+```
+
+#### Field Value
+
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### m_details
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/SteamCallbacks.cs#L2166)
+
+```csharp
+public SteamUGCDetails_t m_details
+```
+
+#### Field Value
+
+- [SteamUGCDetails_t](/docs/api/steamapi/steamugcdetails_t)
+

@@ -1,0 +1,353 @@
+---
+title: C_OP_WorldTraceConstraint
+---
+
+# Interface C_OP_WorldTraceConstraint
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L11)
+
+**Namespace**: [SwiftlyS2.Shared.SchemaDefinitions](/docs/api/schemadefinitions)
+
+**Assembly**: SwiftlyS2.CS2.dll
+
+```csharp
+public interface C_OP_WorldTraceConstraint : CParticleFunctionConstraint, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionConstraint>, ISchemaClass<C_OP_WorldTraceConstraint>, ISchemaField, ISchemaClass, INativeHandle
+```
+
+#### Implements
+
+- [CParticleFunctionConstraint](/docs/api/schemadefinitions/cparticlefunctionconstraint)
+- [CParticleFunction](/docs/api/schemadefinitions/cparticlefunction)
+- [ISchemaClass<CParticleFunction>](/docs/api/schemas/ischemaclasst)
+- [ISchemaClass<CParticleFunctionConstraint>](/docs/api/schemas/ischemaclasst)
+- [ISchemaClass<C_OP_WorldTraceConstraint>](/docs/api/schemas/ischemaclasst)
+- [ISchemaField](/docs/api/schemas/ischemafield)
+- [ISchemaClass](/docs/api/schemas/ischemaclass)
+- [INativeHandle](/docs/api/natives/inativehandle)
+
+## Properties
+
+### BounceAmount
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L50)
+
+```csharp
+CPerParticleFloatInput BounceAmount { get; }
+```
+
+#### Property Value
+
+- [CPerParticleFloatInput](/docs/api/schemadefinitions/cperparticlefloatinput)
+
+### BrushOnly
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L32)
+
+```csharp
+ref bool BrushOnly { get; }
+```
+
+#### Property Value
+
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### CP
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L18)
+
+```csharp
+ref int CP { get; }
+```
+
+#### Property Value
+
+- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### CollisionConfirmationSpeed
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L44)
+
+```csharp
+ref float CollisionConfirmationSpeed { get; }
+```
+
+#### Property Value
+
+- [float](https://learn.microsoft.com/dotnet/api/system.single)
+
+### CollisionGroupName
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L28)
+
+```csharp
+string CollisionGroupName { get; set; }
+```
+
+#### Property Value
+
+- [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### CollisionMode
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L22)
+
+```csharp
+ref ParticleCollisionMode_t CollisionMode { get; }
+```
+
+#### Property Value
+
+- [ParticleCollisionMode_t](/docs/api/schemadefinitions/particlecollisionmode_t)
+
+### CollisionModeMin
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L24)
+
+```csharp
+ref ParticleCollisionMode_t CollisionModeMin { get; }
+```
+
+#### Property Value
+
+- [ParticleCollisionMode_t](/docs/api/schemadefinitions/particlecollisionmode_t)
+
+### CpMovementTolerance
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L38)
+
+```csharp
+ref float CpMovementTolerance { get; }
+```
+
+#### Property Value
+
+- [float](https://learn.microsoft.com/dotnet/api/system.single)
+
+### CpOffset
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L20)
+
+```csharp
+ref Vector CpOffset { get; }
+```
+
+#### Property Value
+
+- [Vector](/docs/api/natives/vector)
+
+### DecayBounce
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L56)
+
+```csharp
+ref bool DecayBounce { get; }
+```
+
+#### Property Value
+
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### EntityStickDataField
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L68)
+
+```csharp
+ParticleAttributeIndex_t EntityStickDataField { get; }
+```
+
+#### Property Value
+
+- [ParticleAttributeIndex_t](/docs/api/schemadefinitions/particleattributeindex_t)
+
+### EntityStickNormalField
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L70)
+
+```csharp
+ParticleAttributeIndex_t EntityStickNormalField { get; }
+```
+
+#### Property Value
+
+- [ParticleAttributeIndex_t](/docs/api/schemadefinitions/particleattributeindex_t)
+
+### IgnoreCP
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L36)
+
+```csharp
+ref int IgnoreCP { get; }
+```
+
+#### Property Value
+
+- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### IncludeWater
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L34)
+
+```csharp
+ref bool IncludeWater { get; }
+```
+
+#### Property Value
+
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### KillonContact
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L58)
+
+```csharp
+ref bool KillonContact { get; }
+```
+
+#### Property Value
+
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### MaxTracesPerFrame
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L46)
+
+```csharp
+ref float MaxTracesPerFrame { get; }
+```
+
+#### Property Value
+
+- [float](https://learn.microsoft.com/dotnet/api/system.single)
+
+### MinSpeed
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L60)
+
+```csharp
+ref float MinSpeed { get; }
+```
+
+#### Property Value
+
+- [float](https://learn.microsoft.com/dotnet/api/system.single)
+
+### RadiusScale
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L48)
+
+```csharp
+CPerParticleFloatInput RadiusScale { get; }
+```
+
+#### Property Value
+
+- [CPerParticleFloatInput](/docs/api/schemadefinitions/cperparticlefloatinput)
+
+### RandomDirScale
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L54)
+
+```csharp
+CPerParticleFloatInput RandomDirScale { get; }
+```
+
+#### Property Value
+
+- [CPerParticleFloatInput](/docs/api/schemadefinitions/cperparticlefloatinput)
+
+### RetestRate
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L40)
+
+```csharp
+ref float RetestRate { get; }
+```
+
+#### Property Value
+
+- [float](https://learn.microsoft.com/dotnet/api/system.single)
+
+### SetNormal
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L62)
+
+```csharp
+ref bool SetNormal { get; }
+```
+
+#### Property Value
+
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### SlideAmount
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L52)
+
+```csharp
+CPerParticleFloatInput SlideAmount { get; }
+```
+
+#### Property Value
+
+- [CPerParticleFloatInput](/docs/api/schemadefinitions/cperparticlefloatinput)
+
+### StickOnCollisionField
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L64)
+
+```csharp
+ParticleAttributeIndex_t StickOnCollisionField { get; }
+```
+
+#### Property Value
+
+- [ParticleAttributeIndex_t](/docs/api/schemadefinitions/particleattributeindex_t)
+
+### StopSpeed
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L66)
+
+```csharp
+CPerParticleFloatInput StopSpeed { get; }
+```
+
+#### Property Value
+
+- [CPerParticleFloatInput](/docs/api/schemadefinitions/cperparticlefloatinput)
+
+### TraceSet
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L26)
+
+```csharp
+ref ParticleTraceSet_t TraceSet { get; }
+```
+
+#### Property Value
+
+- [ParticleTraceSet_t](/docs/api/schemadefinitions/particletraceset_t)
+
+### TraceTolerance
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L42)
+
+```csharp
+ref float TraceTolerance { get; }
+```
+
+#### Property Value
+
+- [float](https://learn.microsoft.com/dotnet/api/system.single)
+
+### WorldOnly
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_WorldTraceConstraint.cs#L30)
+
+```csharp
+ref bool WorldOnly { get; }
+```
+
+#### Property Value
+
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+

@@ -1,0 +1,28 @@
+---
+title: IProtobufRepeatedFieldValueType
+---
+
+# Interface IProtobufRepeatedFieldValueType
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/NetMessages/IProtobufRepeatedField.cs#L6)
+
+**Namespace**: [SwiftlyS2.Shared.NetMessages](/docs/api/netmessages)
+
+**Assembly**: SwiftlyS2.CS2.dll
+
+```csharp
+public interface IProtobufRepeatedFieldValueType<T> : IRepeatedField, IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable
+```
+
+#### Type Parameters
+
+- **T**: 
+
+#### Implements
+
+- [IRepeatedField](/docs/api/netmessages/irepeatedfield)
+- [IList<T>](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1)
+- [ICollection<T>](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1)
+- [IEnumerable<T>](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1)
+- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.ienumerable)
+

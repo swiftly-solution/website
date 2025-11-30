@@ -1,0 +1,87 @@
+---
+title: CRenderComponent
+---
+
+# Interface CRenderComponent
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderComponent.cs#L11)
+
+**Namespace**: [SwiftlyS2.Shared.SchemaDefinitions](/docs/api/schemadefinitions)
+
+**Assembly**: SwiftlyS2.CS2.dll
+
+```csharp
+public interface CRenderComponent : CEntityComponent, ISchemaClass<CEntityComponent>, ISchemaClass<CRenderComponent>, ISchemaField, ISchemaClass, INativeHandle
+```
+
+#### Implements
+
+- [CEntityComponent](/docs/api/schemadefinitions/centitycomponent)
+- [ISchemaClass<CEntityComponent>](/docs/api/schemas/ischemaclasst)
+- [ISchemaClass<CRenderComponent>](/docs/api/schemas/ischemaclasst)
+- [ISchemaField](/docs/api/schemas/ischemafield)
+- [ISchemaClass](/docs/api/schemas/ischemaclass)
+- [INativeHandle](/docs/api/natives/inativehandle)
+
+## Properties
+
+### EnableRendering
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderComponent.cs#L24)
+
+```csharp
+ref bool EnableRendering { get; }
+```
+
+#### Property Value
+
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### InterpolationReadyToDraw
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderComponent.cs#L26)
+
+```csharp
+ref bool InterpolationReadyToDraw { get; }
+```
+
+#### Property Value
+
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### IsRenderingWithViewModels
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderComponent.cs#L20)
+
+```csharp
+ref bool IsRenderingWithViewModels { get; }
+```
+
+#### Property Value
+
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### SplitscreenFlags
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderComponent.cs#L22)
+
+```csharp
+ref uint SplitscreenFlags { get; }
+```
+
+#### Property Value
+
+- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+
+### __m_pChainEntity
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderComponent.cs#L18)
+
+```csharp
+ref CNetworkVarChainer __m_pChainEntity { get; }
+```
+
+#### Property Value
+
+- [CNetworkVarChainer](/docs/api/natives/cnetworkvarchainer)
+

@@ -1,0 +1,551 @@
+---
+title: SteamGameServerHTTP
+---
+
+# Class SteamGameServerHTTP
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverhttp.cs#L5)
+
+**Namespace**: [SwiftlyS2.Shared.SteamAPI](/docs/api/steamapi)
+
+**Assembly**: SwiftlyS2.CS2.dll
+
+```csharp
+public static class SteamGameServerHTTP
+```
+
+#### Inheritance
+
+- [object](https://learn.microsoft.com/dotnet/api/system.object)
+- [SteamGameServerHTTP](/docs/api/steamapi/steamgameserverhttp)
+
+#### Inherited Members
+
+- [object.Equals(object?)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object))
+- [object.Equals(object?, object?)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object))
+- [object.GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode)
+- [object.GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype)
+- [object.MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone)
+- [object.ReferenceEquals(object?, object?)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals)
+- [object.ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring)
+
+## Methods
+
+### CreateCookieContainer(bool)
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverhttp.cs#L193)
+
+<p> Creates a cookie container handle which you must later free with ReleaseCookieContainer().  If bAllowResponsesToModify=true</p>
+<p> than any response to your requests using this cookie container may add new cookies which may be transmitted with</p>
+<p> future requests.  If bAllowResponsesToModify=false than only cookies you explicitly set will be sent.  This API is just for</p>
+<p> during process lifetime, after steam restarts no cookies are persisted and you have no way to access the cookie container across</p>
+<p> repeat executions of your process.</p>
+
+```csharp
+public static HTTPCookieContainerHandle CreateCookieContainer(bool bAllowResponsesToModify)
+```
+
+#### Parameters
+
+- **bAllowResponsesToModify**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+#### Returns
+
+- [HTTPCookieContainerHandle](/docs/api/steamapi/httpcookiecontainerhandle)
+
+### CreateHTTPRequest(EHTTPMethod, string)
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverhttp.cs#L12)
+
+<p> Initializes a new HTTP request, returning a handle to use in further operations on it.  Requires</p>
+<p> the method (GET or POST) and the absolute URL for the request.  Both http and https are supported,</p>
+<p> so this string must start with http:// or https:// and should look like http://store.steampowered.com/app/250/</p>
+<p> or such.</p>
+
+```csharp
+public static HTTPRequestHandle CreateHTTPRequest(EHTTPMethod eHTTPRequestMethod, string pchAbsoluteURL)
+```
+
+#### Parameters
+
+- **eHTTPRequestMethod**: [EHTTPMethod](/docs/api/steamapi/ehttpmethod)
+- **pchAbsoluteURL**: [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+#### Returns
+
+- [HTTPRequestHandle](/docs/api/steamapi/httprequesthandle)
+
+### DeferHTTPRequest(HTTPRequestHandle)
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverhttp.cs#L88)
+
+<p> Defers a request you have sent, the actual HTTP client code may have many requests queued, and this will move</p>
+<p> the specified request to the tail of the queue.  Returns false on invalid handle, or if the request is not yet sent.</p>
+
+```csharp
+public static bool DeferHTTPRequest(HTTPRequestHandle hRequest)
+```
+
+#### Parameters
+
+- **hRequest**: [HTTPRequestHandle](/docs/api/steamapi/httprequesthandle)
+
+#### Returns
+
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### GetHTTPDownloadProgressPct(HTTPRequestHandle, out float)
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverhttp.cs#L169)
+
+<p> Gets progress on downloading the body for the request.  This will be zero unless a response header has already been</p>
+<p> received which included a content-length field.  For responses that contain no content-length it will report</p>
+<p> zero for the duration of the request as the size is unknown until the connection closes.</p>
+
+```csharp
+public static bool GetHTTPDownloadProgressPct(HTTPRequestHandle hRequest, out float pflPercentOut)
+```
+
+#### Parameters
+
+- **hRequest**: [HTTPRequestHandle](/docs/api/steamapi/httprequesthandle)
+- **pflPercentOut**: [float](https://learn.microsoft.com/dotnet/api/system.single)
+
+#### Returns
+
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### GetHTTPRequestWasTimedOut(HTTPRequestHandle, out bool)
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverhttp.cs#L257)
+
+<p> Check if the reason the request failed was because we timed it out (rather than some harder failure)</p>
+
+```csharp
+public static bool GetHTTPRequestWasTimedOut(HTTPRequestHandle hRequest, out bool pbWasTimedOut)
+```
+
+#### Parameters
+
+- **hRequest**: [HTTPRequestHandle](/docs/api/steamapi/httprequesthandle)
+- **pbWasTimedOut**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+#### Returns
+
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### GetHTTPResponseBodyData(HTTPRequestHandle, byte[], uint)
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverhttp.cs#L140)
+
+<p> Gets the body data from a HTTP response given a handle from HTTPRequestCompleted_t, will return false if the</p>
+<p> handle is invalid or is to a streaming response, or if the provided buffer is not the correct size.  Use BGetHTTPResponseBodySize first to find out</p>
+<p> the correct buffer size to use.</p>
+
+```csharp
+public static bool GetHTTPResponseBodyData(HTTPRequestHandle hRequest, byte[] pBodyDataBuffer, uint unBufferSize)
+```
+
+#### Parameters
+
+- **hRequest**: [HTTPRequestHandle](/docs/api/steamapi/httprequesthandle)
+- **pBodyDataBuffer**: [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
+- **unBufferSize**: [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+
+#### Returns
+
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### GetHTTPResponseBodySize(HTTPRequestHandle, out uint)
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverhttp.cs#L130)
+
+<p> Gets the size of the body data from a HTTP response given a handle from HTTPRequestCompleted_t, will return false if the</p>
+<p> handle is invalid.</p>
+
+```csharp
+public static bool GetHTTPResponseBodySize(HTTPRequestHandle hRequest, out uint unBodySize)
+```
+
+#### Parameters
+
+- **hRequest**: [HTTPRequestHandle](/docs/api/steamapi/httprequesthandle)
+- **unBodySize**: [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+
+#### Returns
+
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### GetHTTPResponseHeaderSize(HTTPRequestHandle, string, out uint)
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverhttp.cs#L107)
+
+<p> Checks if a response header is present in a HTTP response given a handle from HTTPRequestCompleted_t, also</p>
+<p> returns the size of the header value if present so the caller and allocate a correctly sized buffer for</p>
+<p> GetHTTPResponseHeaderValue.</p>
+
+```csharp
+public static bool GetHTTPResponseHeaderSize(HTTPRequestHandle hRequest, string pchHeaderName, out uint unResponseHeaderSize)
+```
+
+#### Parameters
+
+- **hRequest**: [HTTPRequestHandle](/docs/api/steamapi/httprequesthandle)
+- **pchHeaderName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
+- **unResponseHeaderSize**: [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+
+#### Returns
+
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### GetHTTPResponseHeaderValue(HTTPRequestHandle, string, byte[], uint)
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverhttp.cs#L119)
+
+<p> Gets header values from a HTTP response given a handle from HTTPRequestCompleted_t, will return false if the</p>
+<p> header is not present or if your buffer is too small to contain it's value.  You should first call</p>
+<p> BGetHTTPResponseHeaderSize to check for the presence of the header and to find out the size buffer needed.</p>
+
+```csharp
+public static bool GetHTTPResponseHeaderValue(HTTPRequestHandle hRequest, string pchHeaderName, byte[] pHeaderValueBuffer, uint unBufferSize)
+```
+
+#### Parameters
+
+- **hRequest**: [HTTPRequestHandle](/docs/api/steamapi/httprequesthandle)
+- **pchHeaderName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
+- **pHeaderValueBuffer**: [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
+- **unBufferSize**: [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+
+#### Returns
+
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### GetHTTPStreamingResponseBodyData(HTTPRequestHandle, uint, byte[], uint)
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverhttp.cs#L150)
+
+<p> Gets the body data from a streaming HTTP response given a handle from HTTPRequestDataReceived_t. Will return false if the</p>
+<p> handle is invalid or is to a non-streaming response (meaning it wasn't sent with SendHTTPRequestAndStreamResponse), or if the buffer size and offset</p>
+<p> do not match the size and offset sent in HTTPRequestDataReceived_t.</p>
+
+```csharp
+public static bool GetHTTPStreamingResponseBodyData(HTTPRequestHandle hRequest, uint cOffset, byte[] pBodyDataBuffer, uint unBufferSize)
+```
+
+#### Parameters
+
+- **hRequest**: [HTTPRequestHandle](/docs/api/steamapi/httprequesthandle)
+- **cOffset**: [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+- **pBodyDataBuffer**: [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
+- **unBufferSize**: [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+
+#### Returns
+
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### PrioritizeHTTPRequest(HTTPRequestHandle)
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverhttp.cs#L97)
+
+<p> Prioritizes a request you have sent, the actual HTTP client code may have many requests queued, and this will move</p>
+<p> the specified request to the head of the queue.  Returns false on invalid handle, or if the request is not yet sent.</p>
+
+```csharp
+public static bool PrioritizeHTTPRequest(HTTPRequestHandle hRequest)
+```
+
+#### Parameters
+
+- **hRequest**: [HTTPRequestHandle](/docs/api/steamapi/httprequesthandle)
+
+#### Returns
+
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### ReleaseCookieContainer(HTTPCookieContainerHandle)
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverhttp.cs#L201)
+
+<p> Release a cookie container you are finished using, freeing it's memory</p>
+
+```csharp
+public static bool ReleaseCookieContainer(HTTPCookieContainerHandle hCookieContainer)
+```
+
+#### Parameters
+
+- **hCookieContainer**: [HTTPCookieContainerHandle](/docs/api/steamapi/httpcookiecontainerhandle)
+
+#### Returns
+
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### ReleaseHTTPRequest(HTTPRequestHandle)
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverhttp.cs#L159)
+
+<p> Releases an HTTP response handle, should always be called to free resources after receiving a HTTPRequestCompleted_t</p>
+<p> callback and finishing using the response.</p>
+
+```csharp
+public static bool ReleaseHTTPRequest(HTTPRequestHandle hRequest)
+```
+
+#### Parameters
+
+- **hRequest**: [HTTPRequestHandle](/docs/api/steamapi/httprequesthandle)
+
+#### Returns
+
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### SendHTTPRequest(HTTPRequestHandle, out SteamAPICall_t)
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverhttp.cs#L69)
+
+<p> Sends the HTTP request, will return false on a bad handle, otherwise use SteamCallHandle to wait on</p>
+<p> asynchronous response via callback.</p>
+<p> Note: If the user is in offline mode in Steam, then this will add a only-if-cached cache-control</p>
+<p> header and only do a local cache lookup rather than sending any actual remote request.</p>
+
+```csharp
+public static bool SendHTTPRequest(HTTPRequestHandle hRequest, out SteamAPICall_t pCallHandle)
+```
+
+#### Parameters
+
+- **hRequest**: [HTTPRequestHandle](/docs/api/steamapi/httprequesthandle)
+- **pCallHandle**: [SteamAPICall_t](/docs/api/steamapi/steamapicall_t)
+
+#### Returns
+
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### SendHTTPRequestAndStreamResponse(HTTPRequestHandle, out SteamAPICall_t)
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverhttp.cs#L79)
+
+<p> Sends the HTTP request, will return false on a bad handle, otherwise use SteamCallHandle to wait on</p>
+<p> asynchronous response via callback for completion, and listen for HTTPRequestHeadersReceived_t and</p>
+<p> HTTPRequestDataReceived_t callbacks while streaming.</p>
+
+```csharp
+public static bool SendHTTPRequestAndStreamResponse(HTTPRequestHandle hRequest, out SteamAPICall_t pCallHandle)
+```
+
+#### Parameters
+
+- **hRequest**: [HTTPRequestHandle](/docs/api/steamapi/httprequesthandle)
+- **pCallHandle**: [SteamAPICall_t](/docs/api/steamapi/steamapicall_t)
+
+#### Returns
+
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### SetCookie(HTTPCookieContainerHandle, string, string, string)
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverhttp.cs#L209)
+
+<p> Adds a cookie to the specified cookie container that will be used with future requests.</p>
+
+```csharp
+public static bool SetCookie(HTTPCookieContainerHandle hCookieContainer, string pchHost, string pchUrl, string pchCookie)
+```
+
+#### Parameters
+
+- **hCookieContainer**: [HTTPCookieContainerHandle](/docs/api/steamapi/httpcookiecontainerhandle)
+- **pchHost**: [string](https://learn.microsoft.com/dotnet/api/system.string)
+- **pchUrl**: [string](https://learn.microsoft.com/dotnet/api/system.string)
+- **pchCookie**: [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+#### Returns
+
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### SetHTTPRequestAbsoluteTimeoutMS(HTTPRequestHandle, uint)
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverhttp.cs#L249)
+
+<p> Set an absolute timeout on the HTTP request, this is just a total time timeout different than the network activity timeout</p>
+<p> which can bump everytime we get more data</p>
+
+```csharp
+public static bool SetHTTPRequestAbsoluteTimeoutMS(HTTPRequestHandle hRequest, uint unMilliseconds)
+```
+
+#### Parameters
+
+- **hRequest**: [HTTPRequestHandle](/docs/api/steamapi/httprequesthandle)
+- **unMilliseconds**: [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+
+#### Returns
+
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### SetHTTPRequestContextValue(HTTPRequestHandle, ulong)
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverhttp.cs#L23)
+
+<p> Set a context value for the request, which will be returned in the HTTPRequestCompleted_t callback after</p>
+<p> sending the request.  This is just so the caller can easily keep track of which callbacks go with which request data.</p>
+
+```csharp
+public static bool SetHTTPRequestContextValue(HTTPRequestHandle hRequest, ulong ulContextValue)
+```
+
+#### Parameters
+
+- **hRequest**: [HTTPRequestHandle](/docs/api/steamapi/httprequesthandle)
+- **ulContextValue**: [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
+
+#### Returns
+
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### SetHTTPRequestCookieContainer(HTTPRequestHandle, HTTPCookieContainerHandle)
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverhttp.cs#L221)
+
+<p> Set the cookie container to use for a HTTP request</p>
+
+```csharp
+public static bool SetHTTPRequestCookieContainer(HTTPRequestHandle hRequest, HTTPCookieContainerHandle hCookieContainer)
+```
+
+#### Parameters
+
+- **hRequest**: [HTTPRequestHandle](/docs/api/steamapi/httprequesthandle)
+- **hCookieContainer**: [HTTPCookieContainerHandle](/docs/api/steamapi/httpcookiecontainerhandle)
+
+#### Returns
+
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### SetHTTPRequestGetOrPostParameter(HTTPRequestHandle, string, string)
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverhttp.cs#L55)
+
+<p> Set a GET or POST parameter value on the request, which is set will depend on the EHTTPMethod specified</p>
+<p> when creating the request.  Must be called prior to sending the request.  Will return false if the</p>
+<p> handle is invalid or the request is already sent.</p>
+
+```csharp
+public static bool SetHTTPRequestGetOrPostParameter(HTTPRequestHandle hRequest, string pchParamName, string pchParamValue)
+```
+
+#### Parameters
+
+- **hRequest**: [HTTPRequestHandle](/docs/api/steamapi/httprequesthandle)
+- **pchParamName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
+- **pchParamValue**: [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+#### Returns
+
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### SetHTTPRequestHeaderValue(HTTPRequestHandle, string, string)
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverhttp.cs#L42)
+
+<p> Set a request header value for the request, must be called prior to sending the request.  Will</p>
+<p> return false if the handle is invalid or the request is already sent.</p>
+
+```csharp
+public static bool SetHTTPRequestHeaderValue(HTTPRequestHandle hRequest, string pchHeaderName, string pchHeaderValue)
+```
+
+#### Parameters
+
+- **hRequest**: [HTTPRequestHandle](/docs/api/steamapi/httprequesthandle)
+- **pchHeaderName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
+- **pchHeaderValue**: [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+#### Returns
+
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### SetHTTPRequestNetworkActivityTimeout(HTTPRequestHandle, uint)
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverhttp.cs#L33)
+
+<p> Set a timeout in seconds for the HTTP request, must be called prior to sending the request.  Default</p>
+<p> timeout is 60 seconds if you don't call this.  Returns false if the handle is invalid, or the request</p>
+<p> has already been sent.</p>
+
+```csharp
+public static bool SetHTTPRequestNetworkActivityTimeout(HTTPRequestHandle hRequest, uint unTimeoutSeconds)
+```
+
+#### Parameters
+
+- **hRequest**: [HTTPRequestHandle](/docs/api/steamapi/httprequesthandle)
+- **unTimeoutSeconds**: [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+
+#### Returns
+
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### SetHTTPRequestRawPostBody(HTTPRequestHandle, string, byte[], uint)
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverhttp.cs#L179)
+
+<p> Sets the body for an HTTP Post request.  Will fail and return false on a GET request, and will fail if POST params</p>
+<p> have already been set for the request.  Setting this raw body makes it the only contents for the post, the pchContentType</p>
+<p> parameter will set the content-type header for the request so the server may know how to interpret the body.</p>
+
+```csharp
+public static bool SetHTTPRequestRawPostBody(HTTPRequestHandle hRequest, string pchContentType, byte[] pubBody, uint unBodyLen)
+```
+
+#### Parameters
+
+- **hRequest**: [HTTPRequestHandle](/docs/api/steamapi/httprequesthandle)
+- **pchContentType**: [string](https://learn.microsoft.com/dotnet/api/system.string)
+- **pubBody**: [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
+- **unBodyLen**: [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+
+#### Returns
+
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### SetHTTPRequestRequiresVerifiedCertificate(HTTPRequestHandle, bool)
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverhttp.cs#L240)
+
+<p> Disable or re-enable verification of SSL/TLS certificates.</p>
+<p> By default, certificates are checked for all HTTPS requests.</p>
+
+```csharp
+public static bool SetHTTPRequestRequiresVerifiedCertificate(HTTPRequestHandle hRequest, bool bRequireVerifiedCertificate)
+```
+
+#### Parameters
+
+- **hRequest**: [HTTPRequestHandle](/docs/api/steamapi/httprequesthandle)
+- **bRequireVerifiedCertificate**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+#### Returns
+
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### SetHTTPRequestUserAgentInfo(HTTPRequestHandle, string)
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverhttp.cs#L229)
+
+<p> Set the extra user agent info for a request, this doesn't clobber the normal user agent, it just adds the extra info on the end</p>
+
+```csharp
+public static bool SetHTTPRequestUserAgentInfo(HTTPRequestHandle hRequest, string pchUserAgentInfo)
+```
+
+#### Parameters
+
+- **hRequest**: [HTTPRequestHandle](/docs/api/steamapi/httprequesthandle)
+- **pchUserAgentInfo**: [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+#### Returns
+
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+

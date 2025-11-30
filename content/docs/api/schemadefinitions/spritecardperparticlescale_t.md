@@ -1,0 +1,33 @@
+---
+title: SpriteCardPerParticleScale_t
+---
+
+# Enum SpriteCardPerParticleScale_t
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Enums/SpriteCardPerParticleScale_t.cs#L7)
+
+**Namespace**: [SwiftlyS2.Shared.SchemaDefinitions](/docs/api/schemadefinitions)
+
+**Assembly**: SwiftlyS2.CS2.dll
+
+```csharp
+public enum SpriteCardPerParticleScale_t : uint
+```
+
+## Fields
+
+- **SPRITECARD_TEXTURE_PP_SCALE_ANIMATION_FRAME**: 2
+- **SPRITECARD_TEXTURE_PP_SCALE_NEG_RANDOM**: 11
+- **SPRITECARD_TEXTURE_PP_SCALE_NEG_RANDOM_TIME**: 13
+- **SPRITECARD_TEXTURE_PP_SCALE_NONE**: 0
+- **SPRITECARD_TEXTURE_PP_SCALE_PARTICLE_AGE**: 1
+- **SPRITECARD_TEXTURE_PP_SCALE_PARTICLE_ALPHA**: 5
+- **SPRITECARD_TEXTURE_PP_SCALE_PITCH**: 9
+- **SPRITECARD_TEXTURE_PP_SCALE_RANDOM**: 10
+- **SPRITECARD_TEXTURE_PP_SCALE_RANDOM_TIME**: 12
+- **SPRITECARD_TEXTURE_PP_SCALE_ROLL**: 7
+- **SPRITECARD_TEXTURE_PP_SCALE_SHADER_EXTRA_DATA1**: 3
+- **SPRITECARD_TEXTURE_PP_SCALE_SHADER_EXTRA_DATA2**: 4
+- **SPRITECARD_TEXTURE_PP_SCALE_SHADER_RADIUS**: 6
+- **SPRITECARD_TEXTURE_PP_SCALE_YAW**: 8
+

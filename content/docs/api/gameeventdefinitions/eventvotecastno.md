@@ -1,0 +1,54 @@
+---
+title: EventVoteCastNo
+---
+
+# Interface EventVoteCastNo
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventVoteCastNo.cs#L11)
+
+**Namespace**: [SwiftlyS2.Shared.GameEventDefinitions](/docs/api/gameeventdefinitions)
+
+**Assembly**: SwiftlyS2.CS2.dll
+
+Event "vote_cast_no"
+
+```csharp
+public interface EventVoteCastNo : IGameEvent<EventVoteCastNo>
+```
+
+#### Implements
+
+- [IGameEvent<EventVoteCastNo>](/docs/api/gameevents/igameeventt)
+
+## Properties
+
+### EntityID
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventVoteCastNo.cs#L28)
+
+entity id of the voter
+<br />
+type: long
+
+```csharp
+int EntityID { get; set; }
+```
+
+#### Property Value
+
+- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### Team
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventVoteCastNo.cs#L21)
+
+type: byte
+
+```csharp
+byte Team { get; set; }
+```
+
+#### Property Value
+
+- [byte](https://learn.microsoft.com/dotnet/api/system.byte)
+

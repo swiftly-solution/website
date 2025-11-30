@@ -1,0 +1,53 @@
+---
+title: CSoundEventSphereEntity
+---
+
+# Interface CSoundEventSphereEntity
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventSphereEntity.cs#L11)
+
+**Namespace**: [SwiftlyS2.Shared.SchemaDefinitions](/docs/api/schemadefinitions)
+
+**Assembly**: SwiftlyS2.CS2.dll
+
+```csharp
+public interface CSoundEventSphereEntity : CSoundEventEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CSoundEventEntity>, ISchemaClass<CSoundEventSphereEntity>, ISchemaField, ISchemaClass, INativeHandle
+```
+
+#### Implements
+
+- [CSoundEventEntity](/docs/api/schemadefinitions/csoundevententity)
+- [CBaseEntity](/docs/api/schemadefinitions/cbaseentity)
+- [CEntityInstance](/docs/api/schemadefinitions/centityinstance)
+- [ISchemaClass<CEntityInstance>](/docs/api/schemas/ischemaclasst)
+- [ISchemaClass<CBaseEntity>](/docs/api/schemas/ischemaclasst)
+- [ISchemaClass<CSoundEventEntity>](/docs/api/schemas/ischemaclasst)
+- [ISchemaClass<CSoundEventSphereEntity>](/docs/api/schemas/ischemaclasst)
+- [ISchemaField](/docs/api/schemas/ischemafield)
+- [ISchemaClass](/docs/api/schemas/ischemaclass)
+- [INativeHandle](/docs/api/natives/inativehandle)
+
+## Properties
+
+### Radius
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventSphereEntity.cs#L18)
+
+```csharp
+ref float Radius { get; }
+```
+
+#### Property Value
+
+- [float](https://learn.microsoft.com/dotnet/api/system.single)
+
+## Methods
+
+### RadiusUpdated()
+
+[View Source](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventSphereEntity.cs#L20)
+
+```csharp
+void RadiusUpdated()
+```
+
