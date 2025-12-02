@@ -1,10 +1,14 @@
 import defaultMdxComponents from 'fumadocs-ui/mdx';
 import type { MDXComponents } from 'mdx/types';
+import { ApiLabel, ApiParam, ViewSource } from '@/components/api';
 
 // use this function to get MDX components, you will need it for rendering MDX
 export function getMDXComponents(components?: MDXComponents): MDXComponents {
   return {
     ...defaultMdxComponents,
+    ApiLabel,
+    ApiParam,
+    ViewSource,
     ...components,
   };
 }
