@@ -13,7 +13,7 @@ export function ApiParam({ name, type, typeHref, children }: ApiParamProps) {
       {name && <span className="text-[rgb(215,60,70)] dark:text-[rgb(250,115,130)] font-bold">{name}</span>}
       {name && ' '}
       {typeHref ? (
-        <a href={typeHref} className="text-[rgb(110,65,200)] dark:text-[rgb(180,145,240)] no-underline hover:underline">
+        <a href={typeHref} target="_blank" rel="noopener noreferrer" className="text-[rgb(110,65,200)] dark:text-[rgb(180,145,240)] no-underline hover:underline">
           {type}
         </a>
       ) : (
