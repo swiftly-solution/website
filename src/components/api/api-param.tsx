@@ -10,14 +10,14 @@ interface ApiParamProps {
 export function ApiParam({ name, type, typeHref, children }: ApiParamProps) {
   return (
     <>
-      {name && <span className="text-[#fa8282] font-bold">{name}</span>}
+      {name && <span className="text-[rgb(215,60,70)] dark:text-[rgb(250,115,130)] font-bold">{name}</span>}
       {name && ' '}
       {typeHref ? (
-        <a href={typeHref} className="text-[#8cb9ff] no-underline hover:underline">
+        <a href={typeHref} className="text-[rgb(110,65,200)] dark:text-[rgb(180,145,240)] no-underline hover:underline">
           {type}
         </a>
       ) : (
-        <span className="text-[#8cb9ff]">{type}</span>
+        <span className="text-[rgb(110,65,200)] dark:text-[rgb(180,145,240)]">{type}</span>
       )}
       {children && <span className="text-fd-muted-foreground"> — {children}</span>}
     </>
