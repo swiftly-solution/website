@@ -14,12 +14,12 @@ export default function HomePage() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="text-center md:text-left space-y-6">
               <h1 className="text-5xl md:text-6xl font-bold leading-tight">
-                <span style={{ color: '#00FEED' }}>SwiftlyS2</span>
+                <span className="text-[#00B8B8] dark:text-[#00FEED]">SwiftlyS2</span>
               </h1>
-              <p className="text-xl md:text-2xl text-gray-400 max-w-xl">
+              <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-400 max-w-xl">
                 A powerful C# framework for Source Engine 2 servers
               </p>
-              <p className="text-base text-gray-500 max-w-xl">
+              <p className="text-base text-gray-500 dark:text-gray-500 max-w-xl">
                 Build modern game server plugins with the full power of .NET and C#.
                 Hot reload, async/await, and native Source 2 integration.
               </p>
@@ -32,7 +32,7 @@ export default function HomePage() {
                 </Link>
                 <Link
                   href="/docs/api"
-                  className="border border-neutral-700 hover:border-neutral-600 hover:bg-neutral-900 px-8 py-3 rounded-md font-medium transition-colors text-center"
+                  className="border border-neutral-300 dark:border-neutral-700 hover:border-neutral-400 dark:hover:border-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-900 px-8 py-3 rounded-md font-medium transition-colors text-center"
                 >
                   API Reference
                 </Link>
@@ -52,13 +52,13 @@ export default function HomePage() {
       </section>
 
       {/* Features Section */}
-      <section className="py-20 px-4 bg-neutral-950/30">
+      <section className="py-20 px-4 bg-neutral-100 dark:bg-neutral-950/30">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              <span style={{ color: '#00FEED' }}>Why SwiftlyS2?</span>
+              <span className="text-[#00B8B8] dark:text-[#00FEED]">Why SwiftlyS2?</span>
             </h2>
-            <p className="text-gray-400 text-lg max-w-2xl mx-auto">
+            <p className="text-gray-600 dark:text-gray-400 text-lg max-w-2xl mx-auto">
               Everything you need to build powerful Source 2 server plugins
             </p>
           </div>
@@ -72,7 +72,7 @@ export default function HomePage() {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold">Modern C# Development</h3>
-              <p className="text-gray-400">
+              <p className="text-gray-600 dark:text-gray-400">
                 Write clean, maintainable code with modern C# features, async/await, and full IntelliSense support.
               </p>
             </div>
@@ -85,7 +85,7 @@ export default function HomePage() {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold">Native Source 2 Integration</h3>
-              <p className="text-gray-400">
+              <p className="text-gray-600 dark:text-gray-400">
                 Direct access to Source Engine 2 internals with low-level game events, entity manipulation, and more.
               </p>
             </div>
@@ -98,7 +98,7 @@ export default function HomePage() {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold">Plugin Ecosystem</h3>
-              <p className="text-gray-400">
+              <p className="text-gray-600 dark:text-gray-400">
                 Extensible architecture with dependency management, hot reload, and inter-plugin communication.
               </p>
             </div>
@@ -112,11 +112,11 @@ export default function HomePage() {
                 <h3 className="text-2xl md:text-3xl font-bold">
                   Advanced Menu System
                 </h3>
-                <p className="text-gray-400 text-lg leading-relaxed">
+                <p className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed">
                   Build interactive in-game menus with ease using SwiftlyS2{"'"}s advanced menu system.
                   Create dynamic menus, handle user input, and manage menu states seamlessly.
                 </p>
-                <ul className="space-y-3 text-gray-400">
+                <ul className="space-y-3 text-gray-600 dark:text-gray-400">
                   <li className="flex items-start gap-3">
                     <span className="text-green-500 mt-1">✓</span>
                     <span>Builder API for easy menu creation</span>
@@ -209,11 +209,11 @@ Core.NetMessage.HookClientMessage<CCLCMsg_Move>((msg, id) => {
                 <h3 className="text-2xl md:text-3xl font-bold">
                   Network Messages
                 </h3>
-                <p className="text-gray-400 text-lg leading-relaxed">
+                <p className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed">
                   Full access to Source 2{"'"}s network message system.
                   Send and receive both server and client messages, allowing for deep integration with the engine{"'"}s networking layer.
                 </p>
-                <ul className="space-y-3 text-gray-400">
+                <ul className="space-y-3 text-gray-600 dark:text-gray-400">
                   <li className="flex items-start gap-3">
                     <span className="text-green-500 mt-1">✓</span>
                     <span>Full support for protobuf used in Source:2 Games</span>
@@ -236,11 +236,11 @@ Core.NetMessage.HookClientMessage<CCLCMsg_Move>((msg, id) => {
                 <h3 className="text-2xl md:text-3xl font-bold">
                   SteamWorks API
                 </h3>
-                <p className="text-gray-400 text-lg leading-relaxed">
+                <p className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed">
                   Integrate SteamWorks features directly into your plugins.
                   Access player{"'"}s Steam profiles, manage user-generated content, and utilize Steam game server functionalities seamlessly.
                 </p>
-                <ul className="space-y-3 text-gray-400">
+                <ul className="space-y-3 text-gray-600 dark:text-gray-400">
                   <li className="flex items-start gap-3">
                     <span className="text-green-500 mt-1">✓</span>
                     <span>Steam User-Generated Content</span>
@@ -277,9 +277,9 @@ Console.WriteLine(
       </section>
 
       {/* Footer Notice */}
-      <section className="py-12 px-4 border-t border-neutral-800">
+      <section className="py-12 px-4 border-t border-neutral-200 dark:border-neutral-800">
         <div className="max-w-7xl mx-auto text-center">
-          <p className="text-sm text-gray-500">
+          <p className="text-sm text-gray-500 dark:text-gray-500">
             swiftlys2.net is a hobby project and is not affiliated with Valve Corporation or Steam.
           </p>
         </div>
