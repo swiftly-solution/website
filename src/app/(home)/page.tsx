@@ -31,7 +31,7 @@ export default function HomePage() {
                   Get Started
                 </Link>
                 <Link
-                  href="/docs/api"
+                  href="/docs/api/shared"
                   className="border border-neutral-300 dark:border-neutral-700 hover:border-neutral-400 dark:hover:border-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-900 px-8 py-3 rounded-md font-medium transition-colors text-center"
                 >
                   API Reference
