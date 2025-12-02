@@ -1,0 +1,212 @@
+---
+title: CEntityInstance
+---
+
+# Interface CEntityInstance
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityInstance.cs#L11" />
+
+**Namespace**: [SwiftlyS2.Shared.SchemaDefinitions](/docs/api/shared/schemadefinitions)
+
+**Assembly**: SwiftlyS2.CS2.dll
+
+```csharp
+public interface CEntityInstance : ISchemaClass<CEntityInstance>, ISchemaField, ISchemaClass, INativeHandle
+```
+
+#### Implements
+
+- [ISchemaClass\<CEntityInstance\>](/docs/api/shared/schemas/ischemaclasst)
+- [ISchemaField](/docs/api/shared/schemas/ischemafield)
+- [ISchemaClass](/docs/api/shared/schemas/ischemaclass)
+- [INativeHandle](/docs/api/shared/natives/inativehandle)
+
+## Properties
+
+### CScriptComponent
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityInstance.cs#L22" />
+
+```csharp
+CScriptComponent? CScriptComponent { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CScriptComponent?" typeHref="/docs/api/shared/schemadefinitions/cscriptcomponent" />
+
+### DesignerName
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L18" />
+
+The designer name of the entity.
+
+```csharp
+string DesignerName { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
+
+### Entity
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityInstance.cs#L20" />
+
+```csharp
+CEntityIdentity? Entity { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CEntityIdentity?" typeHref="/docs/api/shared/schemadefinitions/centityidentity" />
+
+### Index
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L13" />
+
+The index of the entity.
+
+```csharp
+uint Index { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
+
+### PrivateVScripts
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityInstance.cs#L18" />
+
+```csharp
+string PrivateVScripts { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
+
+## Methods
+
+### AcceptInput(string, T?, CEntityInstance?, CEntityInstance?, int)
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L29" />
+
+Fire an input to the entity.
+
+```csharp
+void AcceptInput<T>(string input, T? value, CEntityInstance? activator = null, CEntityInstance? caller = null, int outputID = 0)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="input" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — Input name.
+- <ApiParam name="value" type="T?" /> — Input value.
+- <ApiParam name="activator" type="CEntityInstance?" typeHref="/docs/api/shared/schemadefinitions/centityinstance" /> — Activator entity. Nullable.
+- <ApiParam name="caller" type="CEntityInstance?" typeHref="/docs/api/shared/schemadefinitions/centityinstance" /> — Caller entity. Nullable.
+- <ApiParam name="outputID" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> — Output ID.
+
+#### Type Parameters
+
+- <ApiParam name="T" /> — Param type. Support bool, int, uint, long, ulong, float, double, string, Vector, Vector2D, Vector4D, QAngle, Color
+
+### AddEntityIOEvent(string, T?, CEntityInstance?, CEntityInstance?, float)
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L40" />
+
+Add an entity IO event to the entity.
+
+```csharp
+void AddEntityIOEvent<T>(string input, T? value, CEntityInstance? activator = null, CEntityInstance? caller = null, float delay = 0)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="input" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — Input name.
+- <ApiParam name="value" type="T?" /> — Input value.
+- <ApiParam name="activator" type="CEntityInstance?" typeHref="/docs/api/shared/schemadefinitions/centityinstance" /> — Activator entity. Nullable.
+- <ApiParam name="caller" type="CEntityInstance?" typeHref="/docs/api/shared/schemadefinitions/centityinstance" /> — Caller entity. Nullable.
+- <ApiParam name="delay" type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" /> — Delay in seconds.
+
+#### Type Parameters
+
+- <ApiParam name="T" /> — Param type. Support bool, int, uint, long, ulong, float, double, string, Vector, Vector2D, Vector4D, QAngle, Color
+
+### Despawn()
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L69" />
+
+```csharp
+void Despawn()
+```
+
+### DispatchSpawn(CEntityKeyValues?)
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L46" />
+
+Dispatch a spawn event to the entity.
+
+```csharp
+void DispatchSpawn(CEntityKeyValues? entityKV = null)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="entityKV" type="CEntityKeyValues?" typeHref="/docs/api/shared/entitysystem/centitykeyvalues" /> — Entity key values. Nullable.
+
+### EntityUpdated()
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityInstance.cs#L24" />
+
+```csharp
+void EntityUpdated()
+```
+
+### IsTransmitting(int)
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L65" />
+
+Check if the entity is transmitting for one player.
+
+```csharp
+bool IsTransmitting(int playerId)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="playerId" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> — The player ID to check the transmit state for.
+
+<ApiLabel>Returns</ApiLabel>
+
+- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
+
+### SetTransmitState(bool, int)
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L53" />
+
+Set the transmit state of the entity for one player.
+
+```csharp
+void SetTransmitState(bool transmitting, int playerId)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="transmitting" type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" /> — Whether the entity should be transmitting.
+- <ApiParam name="playerId" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> — The player ID to set the transmit state for.
+
+### SetTransmitState(bool)
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L59" />
+
+Set the global transmit state of the entity.
+
+```csharp
+void SetTransmitState(bool transmitting)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="transmitting" type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" /> — Whether the entity should be transmitting.
+

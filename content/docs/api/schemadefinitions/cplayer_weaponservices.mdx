@@ -1,0 +1,301 @@
+---
+title: CPlayer_WeaponServices
+---
+
+# Interface CPlayer_WeaponServices
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_WeaponServices.cs#L11" />
+
+**Namespace**: [SwiftlyS2.Shared.SchemaDefinitions](/docs/api/shared/schemadefinitions)
+
+**Assembly**: SwiftlyS2.CS2.dll
+
+```csharp
+public interface CPlayer_WeaponServices : CPlayerPawnComponent, ISchemaClass<CPlayerPawnComponent>, ISchemaClass<CPlayer_WeaponServices>, ISchemaField, ISchemaClass, INativeHandle
+```
+
+#### Implements
+
+- [CPlayerPawnComponent](/docs/api/shared/schemadefinitions/cplayerpawncomponent)
+- [ISchemaClass\<CPlayerPawnComponent\>](/docs/api/shared/schemas/ischemaclasst)
+- [ISchemaClass\<CPlayer_WeaponServices\>](/docs/api/shared/schemas/ischemaclasst)
+- [ISchemaField](/docs/api/shared/schemas/ischemafield)
+- [ISchemaClass](/docs/api/shared/schemas/ischemaclass)
+- [INativeHandle](/docs/api/shared/natives/inativehandle)
+
+## Properties
+
+### ActiveWeapon
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_WeaponServices.cs#L20" />
+
+```csharp
+ref CHandle<CBasePlayerWeapon> ActiveWeapon { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CHandle&lt;CBasePlayerWeapon&gt;" typeHref="/docs/api/shared/natives/chandlet" />
+
+### Ammo
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_WeaponServices.cs#L24" />
+
+```csharp
+ISchemaFixedArray<ushort> Ammo { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="ISchemaFixedArray&lt;ushort&gt;" typeHref="/docs/api/shared/schemas/ischemafixedarrayt" />
+
+### LastWeapon
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_WeaponServices.cs#L22" />
+
+```csharp
+ref CHandle<CBasePlayerWeapon> LastWeapon { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CHandle&lt;CBasePlayerWeapon&gt;" typeHref="/docs/api/shared/natives/chandlet" />
+
+### MyValidWeapons
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L80" />
+
+```csharp
+IEnumerable<CBasePlayerWeapon> MyValidWeapons { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="IEnumerable&lt;CBasePlayerWeapon&gt;" typeHref="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1" />
+
+### MyWeapons
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_WeaponServices.cs#L18" />
+
+```csharp
+ref CUtlVector<CHandle<CBasePlayerWeapon>> MyWeapons { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CUtlVector&lt;CHandle&lt;CBasePlayerWeapon&gt;&gt;" typeHref="/docs/api/shared/natives/cutlvectort" />
+
+### PreventWeaponPickup
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_WeaponServices.cs#L26" />
+
+```csharp
+ref bool PreventWeaponPickup { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
+
+## Methods
+
+### ActiveWeaponUpdated()
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_WeaponServices.cs#L29" />
+
+```csharp
+void ActiveWeaponUpdated()
+```
+
+### AmmoUpdated()
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_WeaponServices.cs#L31" />
+
+```csharp
+void AmmoUpdated()
+```
+
+### DropWeapon(CBasePlayerWeapon)
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L12" />
+
+Drop a weapon.
+
+```csharp
+void DropWeapon(CBasePlayerWeapon weapon)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="weapon" type="CBasePlayerWeapon" typeHref="/docs/api/shared/schemadefinitions/cbaseplayerweapon" /> — The weapon to drop.
+
+### DropWeaponByClass()
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L66" />
+
+Drop all weapons with the specified class.
+
+```csharp
+void DropWeaponByClass<T>() where T : class, ISchemaClass<T>
+```
+
+#### Type Parameters
+
+- <ApiParam name="T" /> — The weapon class.
+
+### DropWeaponByDesignerName(string)
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L48" />
+
+Drop a weapon by designer name.
+
+```csharp
+void DropWeaponByDesignerName(string designerName)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="designerName" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The designer name of the weapon to drop.
+
+### DropWeaponBySlot(gear_slot_t)
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L30" />
+
+Drop a weapon by slot.
+
+```csharp
+void DropWeaponBySlot(gear_slot_t slot)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="slot" type="gear_slot_t" typeHref="/docs/api/shared/schemadefinitions/gear_slot_t" /> — The slot to drop the weapon from.
+
+### LastWeaponUpdated()
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_WeaponServices.cs#L30" />
+
+```csharp
+void LastWeaponUpdated()
+```
+
+### MyWeaponsUpdated()
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_WeaponServices.cs#L28" />
+
+```csharp
+void MyWeaponsUpdated()
+```
+
+### RemoveWeapon(CBasePlayerWeapon)
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L18" />
+
+Drop and remove a weapon.
+
+```csharp
+void RemoveWeapon(CBasePlayerWeapon weapon)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="weapon" type="CBasePlayerWeapon" typeHref="/docs/api/shared/schemadefinitions/cbaseplayerweapon" /> — The weapon to remove.
+
+### RemoveWeaponByClass()
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L72" />
+
+Drop and remove all weapons with the specified class.
+
+```csharp
+void RemoveWeaponByClass<T>() where T : class, ISchemaClass<T>
+```
+
+#### Type Parameters
+
+- <ApiParam name="T" /> — The weapon class.
+
+### RemoveWeaponByDesignerName(string)
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L54" />
+
+Remove a weapon by designer name.
+
+```csharp
+void RemoveWeaponByDesignerName(string designerName)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="designerName" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The designer name of the weapon to remove.
+
+### RemoveWeaponBySlot(gear_slot_t)
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L36" />
+
+Remove a weapon by slot.
+
+```csharp
+void RemoveWeaponBySlot(gear_slot_t slot)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="slot" type="gear_slot_t" typeHref="/docs/api/shared/schemadefinitions/gear_slot_t" /> — The slot to remove the weapon from.
+
+### SelectWeapon(CBasePlayerWeapon)
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L24" />
+
+Make player select a weapon.
+
+```csharp
+void SelectWeapon(CBasePlayerWeapon weapon)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="weapon" type="CBasePlayerWeapon" typeHref="/docs/api/shared/schemadefinitions/cbaseplayerweapon" /> — The weapon to select.
+
+### SelectWeaponByClass()
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L78" />
+
+Select a weapon by class.
+
+```csharp
+void SelectWeaponByClass<T>() where T : class, ISchemaClass<T>
+```
+
+#### Type Parameters
+
+- <ApiParam name="T" /> — The weapon class.
+
+### SelectWeaponByDesignerName(string)
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L60" />
+
+Select a weapon by designer name.
+
+```csharp
+void SelectWeaponByDesignerName(string designerName)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="designerName" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The designer name of the weapon to select.
+
+### SelectWeaponBySlot(gear_slot_t)
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L42" />
+
+Select a weapon by slot.
+
+```csharp
+void SelectWeaponBySlot(gear_slot_t slot)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="slot" type="gear_slot_t" typeHref="/docs/api/shared/schemadefinitions/gear_slot_t" /> — The slot to select the weapon from.
+

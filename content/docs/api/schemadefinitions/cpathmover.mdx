@@ -1,0 +1,67 @@
+---
+title: CPathMover
+---
+
+# Interface CPathMover
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathMover.cs#L11" />
+
+**Namespace**: [SwiftlyS2.Shared.SchemaDefinitions](/docs/api/shared/schemadefinitions)
+
+**Assembly**: SwiftlyS2.CS2.dll
+
+```csharp
+public interface CPathMover : CPathSimple, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CPathSimple>, ISchemaClass<CPathMover>, ISchemaField, ISchemaClass, INativeHandle
+```
+
+#### Implements
+
+- [CPathSimple](/docs/api/shared/schemadefinitions/cpathsimple)
+- [CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)
+- [CEntityInstance](/docs/api/shared/schemadefinitions/centityinstance)
+- [ISchemaClass\<CEntityInstance\>](/docs/api/shared/schemas/ischemaclasst)
+- [ISchemaClass\<CBaseEntity\>](/docs/api/shared/schemas/ischemaclasst)
+- [ISchemaClass\<CPathSimple\>](/docs/api/shared/schemas/ischemaclasst)
+- [ISchemaClass\<CPathMover\>](/docs/api/shared/schemas/ischemaclasst)
+- [ISchemaField](/docs/api/shared/schemas/ischemafield)
+- [ISchemaClass](/docs/api/shared/schemas/ischemaclass)
+- [INativeHandle](/docs/api/shared/natives/inativehandle)
+
+## Properties
+
+### Movers
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathMover.cs#L20" />
+
+```csharp
+ref CUtlVector<CHandle<CFuncMover>> Movers { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CUtlVector&lt;CHandle&lt;CFuncMover&gt;&gt;" typeHref="/docs/api/shared/natives/cutlvectort" />
+
+### PathNodes
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathMover.cs#L18" />
+
+```csharp
+ref CUtlVector<CHandle<CMoverPathNode>> PathNodes { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CUtlVector&lt;CHandle&lt;CMoverPathNode&gt;&gt;" typeHref="/docs/api/shared/natives/cutlvectort" />
+
+### XInitialPathWorldToLocal
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathMover.cs#L22" />
+
+```csharp
+ref CTransform XInitialPathWorldToLocal { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CTransform" typeHref="/docs/api/shared/natives/ctransform" />
+

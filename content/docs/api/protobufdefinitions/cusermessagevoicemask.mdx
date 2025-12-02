@@ -1,0 +1,61 @@
+---
+title: CUserMessageVoiceMask
+---
+
+# Interface CUserMessageVoiceMask
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageVoiceMask.cs#L9" />
+
+**Namespace**: [SwiftlyS2.Shared.ProtobufDefinitions](/docs/api/shared/protobufdefinitions)
+
+**Assembly**: SwiftlyS2.CS2.dll
+
+```csharp
+public interface CUserMessageVoiceMask : ITypedProtobuf<CUserMessageVoiceMask>, INativeHandle, INetMessage<CUserMessageVoiceMask>, IDisposable
+```
+
+#### Implements
+
+- [ITypedProtobuf\<CUserMessageVoiceMask\>](/docs/api/shared/netmessages/itypedprotobuft)
+- [INativeHandle](/docs/api/shared/natives/inativehandle)
+- [INetMessage\<CUserMessageVoiceMask\>](/docs/api/shared/netmessages/inetmessaget)
+- [IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable)
+
+## Properties
+
+### BanMasks
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageVoiceMask.cs#L21" />
+
+```csharp
+IProtobufRepeatedFieldValueType<uint> BanMasks { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="IProtobufRepeatedFieldValueType&lt;uint&gt;" typeHref="/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetypet" />
+
+### GamerulesMasks
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageVoiceMask.cs#L18" />
+
+```csharp
+IProtobufRepeatedFieldValueType<uint> GamerulesMasks { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="IProtobufRepeatedFieldValueType&lt;uint&gt;" typeHref="/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetypet" />
+
+### ModEnable
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageVoiceMask.cs#L24" />
+
+```csharp
+bool ModEnable { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
+

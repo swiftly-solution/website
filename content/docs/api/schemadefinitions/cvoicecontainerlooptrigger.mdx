@@ -1,0 +1,87 @@
+---
+title: CVoiceContainerLoopTrigger
+---
+
+# Interface CVoiceContainerLoopTrigger
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerLoopTrigger.cs#L11" />
+
+**Namespace**: [SwiftlyS2.Shared.SchemaDefinitions](/docs/api/shared/schemadefinitions)
+
+**Assembly**: SwiftlyS2.CS2.dll
+
+```csharp
+public interface CVoiceContainerLoopTrigger : CVoiceContainerBase, ISchemaClass<CVoiceContainerBase>, ISchemaClass<CVoiceContainerLoopTrigger>, ISchemaField, ISchemaClass, INativeHandle
+```
+
+#### Implements
+
+- [CVoiceContainerBase](/docs/api/shared/schemadefinitions/cvoicecontainerbase)
+- [ISchemaClass\<CVoiceContainerBase\>](/docs/api/shared/schemas/ischemaclasst)
+- [ISchemaClass\<CVoiceContainerLoopTrigger\>](/docs/api/shared/schemas/ischemaclasst)
+- [ISchemaField](/docs/api/shared/schemas/ischemafield)
+- [ISchemaClass](/docs/api/shared/schemas/ischemaclass)
+- [INativeHandle](/docs/api/shared/natives/inativehandle)
+
+## Properties
+
+### CrossFade
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerLoopTrigger.cs#L26" />
+
+```csharp
+ref bool CrossFade { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
+
+### FadeTime
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerLoopTrigger.cs#L24" />
+
+```csharp
+ref float FadeTime { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
+
+### RetriggerTimeMax
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerLoopTrigger.cs#L22" />
+
+```csharp
+ref float RetriggerTimeMax { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
+
+### RetriggerTimeMin
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerLoopTrigger.cs#L20" />
+
+```csharp
+ref float RetriggerTimeMin { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
+
+### Sound
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerLoopTrigger.cs#L18" />
+
+```csharp
+CSoundContainerReference Sound { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CSoundContainerReference" typeHref="/docs/api/shared/schemadefinitions/csoundcontainerreference" />
+

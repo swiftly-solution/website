@@ -1,0 +1,125 @@
+---
+title: C_OP_RenderMaterialProxy
+---
+
+# Interface C_OP_RenderMaterialProxy
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderMaterialProxy.cs#L11" />
+
+**Namespace**: [SwiftlyS2.Shared.SchemaDefinitions](/docs/api/shared/schemadefinitions)
+
+**Assembly**: SwiftlyS2.CS2.dll
+
+```csharp
+public interface C_OP_RenderMaterialProxy : CParticleFunctionRenderer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionRenderer>, ISchemaClass<C_OP_RenderMaterialProxy>, ISchemaField, ISchemaClass, INativeHandle
+```
+
+#### Implements
+
+- [CParticleFunctionRenderer](/docs/api/shared/schemadefinitions/cparticlefunctionrenderer)
+- [CParticleFunction](/docs/api/shared/schemadefinitions/cparticlefunction)
+- [ISchemaClass\<CParticleFunction\>](/docs/api/shared/schemas/ischemaclasst)
+- [ISchemaClass\<CParticleFunctionRenderer\>](/docs/api/shared/schemas/ischemaclasst)
+- [ISchemaClass\<C_OP_RenderMaterialProxy\>](/docs/api/shared/schemas/ischemaclasst)
+- [ISchemaField](/docs/api/shared/schemas/ischemafield)
+- [ISchemaClass](/docs/api/shared/schemas/ischemaclass)
+- [INativeHandle](/docs/api/shared/natives/inativehandle)
+
+## Properties
+
+### Alpha
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderMaterialProxy.cs#L30" />
+
+```csharp
+CPerParticleFloatInput Alpha { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CPerParticleFloatInput" typeHref="/docs/api/shared/schemadefinitions/cperparticlefloatinput" />
+
+### ColorBlendType
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderMaterialProxy.cs#L32" />
+
+```csharp
+ref ParticleColorBlendType_t ColorBlendType { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="ParticleColorBlendType_t" typeHref="/docs/api/shared/schemadefinitions/particlecolorblendtype_t" />
+
+### ColorScale
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderMaterialProxy.cs#L28" />
+
+```csharp
+CParticleCollectionVecInput ColorScale { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CParticleCollectionVecInput" typeHref="/docs/api/shared/schemadefinitions/cparticlecollectionvecinput" />
+
+### MaterialControlPoint
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderMaterialProxy.cs#L18" />
+
+```csharp
+ref int MaterialControlPoint { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
+
+### MaterialOverrideEnabled
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderMaterialProxy.cs#L26" />
+
+```csharp
+CParticleCollectionFloatInput MaterialOverrideEnabled { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CParticleCollectionFloatInput" typeHref="/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput" />
+
+### MaterialVars
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderMaterialProxy.cs#L22" />
+
+```csharp
+ref CUtlVector<MaterialVariable_t> MaterialVars { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CUtlVector&lt;MaterialVariable_t&gt;" typeHref="/docs/api/shared/natives/cutlvectort" />
+
+### OverrideMaterial
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderMaterialProxy.cs#L24" />
+
+```csharp
+ref CStrongHandle<InfoForResourceTypeIMaterial2> OverrideMaterial { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CStrongHandle&lt;InfoForResourceTypeIMaterial2&gt;" typeHref="/docs/api/shared/natives/cstronghandlet" />
+
+### ProxyType
+
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/fix-loop/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderMaterialProxy.cs#L20" />
+
+```csharp
+ref MaterialProxyType_t ProxyType { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="MaterialProxyType_t" typeHref="/docs/api/shared/schemadefinitions/materialproxytype_t" />
+
