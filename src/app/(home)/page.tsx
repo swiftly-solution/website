@@ -5,7 +5,7 @@ import SwiftlyLogo from "./logo.png";
 import MenusPreview from "./menus_preview.png";
 import Image from 'next/image';
 import { CodeBlock } from '@/components/code-block';
-import { Download, FlaskConical, ShieldCheck } from 'lucide-react';
+import { LuDownload, LuFlaskConical, LuShieldCheck } from 'react-icons/lu';
 import { useEffect, useRef, useState } from 'react';
 
 export default function HomePage() {
@@ -64,7 +64,7 @@ export default function HomePage() {
                     aria-expanded={isDownloadOpen}
                     aria-haspopup="menu"
                   >
-                    <Download className="h-4 w-4" aria-hidden="true" />
+                    <LuDownload className="h-4 w-4" aria-hidden="true" />
                     Download
                   </button>
                   <div
@@ -84,7 +84,7 @@ export default function HomePage() {
                       role="menuitem"
                       onClick={() => setDownloadOpen(false)}
                     >
-                      <ShieldCheck className="h-4 w-4 text-green-400" aria-hidden="true" />
+                      <LuShieldCheck className="h-4 w-4 text-green-400" aria-hidden="true" />
                       Latest Stable
                     </a>
                     <a
@@ -95,7 +95,7 @@ export default function HomePage() {
                       role="menuitem"
                       onClick={() => setDownloadOpen(false)}
                     >
-                      <FlaskConical className="h-4 w-4 text-yellow-400" aria-hidden="true" />
+                      <LuFlaskConical className="h-4 w-4 text-yellow-400" aria-hidden="true" />
                       Latest Beta
                     </a>
                     <div className="px-4 py-2 text-xs text-neutral-500 border-t border-neutral-800">Opens in GitHub Releases</div>

@@ -21,7 +21,7 @@
     "fumadocs-mdx": "12.0.1",
     "fumadocs-ui": "15.8.0",
     "hast-util-to-jsx-runtime": "^2.3.6",
-    "lucide-react": "^0.544.0",
+    "react-icons": "^5.4.0",
     "next": "15.5.4",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",

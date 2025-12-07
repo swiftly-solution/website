@@ -10,7 +10,7 @@ import {
   useRef,
   useState,
 } from 'react';
-import { Loader2, RefreshCw, SearchIcon, Send, X } from 'lucide-react';
+import { LuLoader2, LuRefreshCw, LuSearch, LuSend, LuX } from 'react-icons/lu';
 import { cn } from '../lib/cn';
 import { buttonVariants } from './ui/button';
 import Link from 'fumadocs-core/link';
@@ -51,7 +51,7 @@ function SearchAIActions() {
           )}
           onClick={() => regenerate()}
         >
-          <RefreshCw className="size-4" />
+          <LuRefreshCw className="size-4" />
           Retry
         </button>
       )}
@@ -119,7 +119,7 @@ function SearchAIInput(props: ComponentProps<'form'>) {
           )}
           onClick={stop}
         >
-          <Loader2 className="size-4 animate-spin text-fd-muted-foreground" />
+          <LuLoader2 className="size-4 animate-spin text-fd-muted-foreground" />
           Abort Answer
         </button>
       ) : (
@@ -134,7 +134,7 @@ function SearchAIInput(props: ComponentProps<'form'>) {
           )}
           disabled={input.length === 0}
         >
-          <Send className="size-4" />
+          <LuSend className="size-4" />
         </button>
       )}
     </form>
@@ -320,7 +320,7 @@ export function AISearchTrigger() {
                 )}
                 onClick={() => setOpen(false)}
               >
-                <X />
+                <LuX />
               </button>
             </div>
             <List
@@ -361,7 +361,7 @@ export function AISearchTrigger() {
               )}
               onClick={() => setOpen(true)}
             >
-              <SearchIcon className="absolute top-1/2 -translate-y-1/2 size-4.5" />
+              <LuSearch className="absolute top-1/2 -translate-y-1/2 size-4.5" />
               Ask AI
             </button>
           </Presence>
