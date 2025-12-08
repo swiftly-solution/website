@@ -18,7 +18,3 @@ export async function GET(
     },
   });
 }
-
-export function generateStaticParams() {
-  return source.generateParams();
-}
