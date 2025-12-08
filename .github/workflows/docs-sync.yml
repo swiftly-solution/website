@@ -53,7 +53,7 @@ jobs:
           rm -rf website/content/docs/api/*
 
       - name: Copy new API docs
-        run: cp -r swiftlys2/docs/swiftlys2/* website/content/docs/api/
+        run: cp -r swiftlys2/docs/* website/content/docs/api/
 
       - name: Check for changes and commit
         working-directory: website
