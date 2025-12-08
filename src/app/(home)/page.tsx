@@ -1,10 +1,36 @@
+"use client";
+
 import Link from 'next/link';
 import SwiftlyLogo from "./logo.png";
 import MenusPreview from "./menus_preview.png";
 import Image from 'next/image';
 import { CodeBlock } from '@/components/code-block';
+import { LuDownload, LuFlaskConical, LuShieldCheck } from 'react-icons/lu';
+import { useEffect, useRef, useState } from 'react';
 
 export default function HomePage() {
+  const [isDownloadOpen, setDownloadOpen] = useState(false);
+  const downloadRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const handleClick = (event: MouseEvent) => {
+      if (!downloadRef.current?.contains(event.target as Node)) {
+        setDownloadOpen(false);
+      }
+    };
+
+    const handleKey = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') setDownloadOpen(false);
+    };
+
+    window.addEventListener('mousedown', handleClick);
+    window.addEventListener('keyup', handleKey);
+    return () => {
+      window.removeEventListener('mousedown', handleClick);
+      window.removeEventListener('keyup', handleKey);
+    };
+  }, []);
+
   return (
     <main className="flex flex-1 flex-col">
 
@@ -23,19 +49,57 @@ export default function HomePage() {
                 Build modern game server plugins with the full power of .NET and C#.
                 Hot reload, async/await, and native Source 2 integration.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start pt-4">
+              <div className="flex flex-col sm:flex-row gap-3 justify-center md:justify-start pt-4">
                 <Link
                   href="/docs"
                   className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-md font-medium transition-colors text-center"
                 >
                   Get Started
                 </Link>
-                <Link
-                  href="/docs/api"
-                  className="border border-neutral-300 dark:border-neutral-700 hover:border-neutral-400 dark:hover:border-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-900 px-8 py-3 rounded-md font-medium transition-colors text-center"
-                >
-                  API Reference
-                </Link>
+                <div className="relative" ref={downloadRef}>
+                  <button
+                    type="button"
+                    onClick={() => setDownloadOpen((v) => !v)}
+                    className="border border-neutral-700 hover:border-neutral-600 hover:bg-neutral-900 px-8 py-3 rounded-md font-medium transition-all text-center cursor-pointer select-none inline-flex items-center gap-2 shadow-sm hover:shadow"
+                    aria-expanded={isDownloadOpen}
+                    aria-haspopup="menu"
+                  >
+                    <LuDownload className="h-4 w-4" aria-hidden="true" />
+                    Download
+                  </button>
+                  <div
+                    role="menu"
+                    className={`absolute z-10 mt-2 min-w-[220px] rounded-md border border-neutral-800 bg-neutral-950/95 shadow-xl backdrop-blur origin-top transition-all duration-150 ease-out ${isDownloadOpen
+                        ? 'opacity-100 scale-100 pointer-events-auto'
+                        : 'opacity-0 scale-95 pointer-events-none'
+                      }`}
+                  >
+                    <div className="px-4 py-2 text-xs uppercase tracking-[0.08em] text-neutral-500">Choose build</div>
+                    <a
+                      href="https://github.com/swiftly-solution/swiftlys2/releases/latest"
+                      className="flex items-center gap-3 px-4 py-3 hover:bg-neutral-900"
+                      target="_blank"
+                      rel="noreferrer"
+                      role="menuitem"
+                      onClick={() => setDownloadOpen(false)}
+                    >
+                      <LuShieldCheck className="h-4 w-4 text-green-400" aria-hidden="true" />
+                      Latest Stable
+                    </a>
+                    <a
+                      href="https://github.com/swiftly-solution/swiftlys2/releases"
+                      className="flex items-center gap-3 px-4 py-3 hover:bg-neutral-900"
+                      target="_blank"
+                      rel="noreferrer"
+                      role="menuitem"
+                      onClick={() => setDownloadOpen(false)}
+                    >
+                      <LuFlaskConical className="h-4 w-4 text-yellow-400" aria-hidden="true" />
+                      Latest Beta
+                    </a>
+                    <div className="px-4 py-2 text-xs text-neutral-500 border-t border-neutral-800">Opens in GitHub Releases</div>
+                  </div>
+                </div>
               </div>
             </div>
             <div className="flex justify-center">

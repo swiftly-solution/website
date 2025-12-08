@@ -1,4 +1,5 @@
 import type { BaseLayoutProps } from 'fumadocs-ui/layouts/shared';
+import { BsGithub, BsDiscord } from 'react-icons/bs';
 
 /**
  * Shared layout configurations
@@ -18,15 +19,21 @@ export function baseOptions(): BaseLayoutProps {
     },
     links: [
       {
-        text: "Discord",
-        url: "https://swiftlys2.net/discord",
-        external: true,
-      },
-      {
+        type: "icon",
+        label: "GitHub",
+        icon: <BsGithub />,
         text: "GitHub",
         url: "https://github.com/swiftly-solution",
         external: true,
-      }
+      },
+      {
+        type: "icon",
+        label: "Discord",
+        icon: <BsDiscord />,
+        text: "Discord",
+        url: "/discord", // (swiftlys2.net/discord)
+        external: true,
+      },
     ],
   };
 }
