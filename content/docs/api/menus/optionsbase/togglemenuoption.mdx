@@ -73,7 +73,7 @@ public sealed class ToggleMenuOption : MenuOptionBase, IMenuOption, IDisposable
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/ToggleMenuOption.cs#L33" />
 
-Creates an instance of <xref href="SwiftlyS2.Core.Menus.OptionsBase.ToggleMenuOption" data-throw-if-not-resolved="false"></xref> with dynamic text updating capabilities.
+Creates an instance of SwiftlyS2.Core.Menus.OptionsBase.ToggleMenuOption with dynamic text updating capabilities.
 
 ```csharp
 public ToggleMenuOption(bool defaultToggleState = true, string? toggleOnSymbol = null, string? toggleOffSymbol = null, int updateIntervalMs = 120, int pauseIntervalMs = 1000)
@@ -87,15 +87,15 @@ public ToggleMenuOption(bool defaultToggleState = true, string? toggleOnSymbol =
 - <ApiParam name="updateIntervalMs" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> — The interval in milliseconds between text updates. Defaults to 120ms.
 - <ApiParam name="pauseIntervalMs" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> — The pause duration in milliseconds before starting the next text update cycle. Defaults to 1000ms.
 
-#### Remarks
+<ApiLabel>Remarks</ApiLabel>
 
-When using this constructor, the <xref href="SwiftlyS2.Core.Menus.OptionsBase.MenuOptionBase.Text" data-throw-if-not-resolved="false"></xref> property must be manually set to specify the initial text.
+When using this constructor, the SwiftlyS2.Core.Menus.OptionsBase.MenuOptionBase.Text property must be manually set to specify the initial text.
 
 ### ToggleMenuOption(string, bool, string?, string?, int, int)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/ToggleMenuOption.cs#L59" />
 
-Creates an instance of <xref href="SwiftlyS2.Core.Menus.OptionsBase.ToggleMenuOption" data-throw-if-not-resolved="false"></xref> with dynamic text updating capabilities.
+Creates an instance of SwiftlyS2.Core.Menus.OptionsBase.ToggleMenuOption with dynamic text updating capabilities.
 
 ```csharp
 public ToggleMenuOption(string text, bool defaultToggleState = true, string? toggleOnSymbol = null, string? toggleOffSymbol = null, int updateIntervalMs = 120, int pauseIntervalMs = 1000)
@@ -178,7 +178,7 @@ Event triggered when the toggle value changes for a player.
 public event EventHandler<MenuOptionValueChangedEventArgs<bool>>? ValueChanged
 ```
 
-#### Event Type
+<ApiLabel>Event Type</ApiLabel>
 
 - <ApiParam type="EventHandler&lt;MenuOptionValueChangedEventArgs&lt;bool&gt;&gt;?" typeHref="https://learn.microsoft.com/dotnet/api/system.eventhandler-1" />
 

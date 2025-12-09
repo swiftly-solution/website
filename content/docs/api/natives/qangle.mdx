@@ -108,7 +108,7 @@ public float X { readonly get; set; }
 
 - <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
 
-#### Remarks
+<ApiLabel>Remarks</ApiLabel>
 
 This is just a mapped accessor to the Pitch field.
 
@@ -126,7 +126,7 @@ public float Y { readonly get; set; }
 
 - <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
 
-#### Remarks
+<ApiLabel>Remarks</ApiLabel>
 
 This is just a mapped accessor to the Yaw field.
 
@@ -144,7 +144,7 @@ public float Z { readonly get; set; }
 
 - <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
 
-#### Remarks
+<ApiLabel>Remarks</ApiLabel>
 
 This is just a mapped accessor to the Roll field.
 
@@ -178,7 +178,7 @@ public override readonly bool Equals(object? obj)
 
 <ApiLabel>Returns</ApiLabel>
 
-- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" /> — <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code className="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" /> — <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
 
 ### GetHashCode()
 
@@ -199,7 +199,7 @@ public override readonly int GetHashCode()
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/QAngle.cs#L116" />
 
 Calculates forward, right, and up basis vectors that correspond to this angle.
-Usage: <code>angle.ToDirectionVectors(out var forward, out var right, out var up);</code>
+Usage: `angle.ToDirectionVectors(out var forward, out var right, out var up);`
 
 ```csharp
 public readonly void ToDirectionVectors(out Vector forward, out Vector right, out Vector up)

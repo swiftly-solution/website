@@ -55,7 +55,7 @@ public float AutoCloseAfter { get; set; }
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L72" />
 
-Whether to automatically increase <xref href="SwiftlyS2.Shared.Menus.MenuConfiguration.MaxVisibleItems" data-throw-if-not-resolved="false"></xref> when <xref href="SwiftlyS2.Shared.Menus.MenuConfiguration.HideTitle" data-throw-if-not-resolved="false"></xref> or <xref href="SwiftlyS2.Shared.Menus.MenuConfiguration.HideFooter" data-throw-if-not-resolved="false"></xref> is enabled.
+Whether to automatically increase SwiftlyS2.Shared.Menus.MenuConfiguration.MaxVisibleItems when SwiftlyS2.Shared.Menus.MenuConfiguration.HideTitle or SwiftlyS2.Shared.Menus.MenuConfiguration.HideFooter is enabled.
 Each hidden section adds 1 to the visible items count.
 
 ```csharp
@@ -66,9 +66,9 @@ public bool AutoIncreaseVisibleItems { get; set; }
 
 - <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
 
-#### Remarks
+<ApiLabel>Remarks</ApiLabel>
 
-This does not modify the actual <xref href="SwiftlyS2.Shared.Menus.MenuConfiguration.MaxVisibleItems" data-throw-if-not-resolved="false"></xref> value.
+This does not modify the actual SwiftlyS2.Shared.Menus.MenuConfiguration.MaxVisibleItems value.
 Instead, the increase is applied during rendering calculations only.
 
 ### DisableExit
@@ -99,7 +99,7 @@ public string? DisabledColor { get; set; }
 
 - <ApiParam type="string?" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
 
-#### Remarks
+<ApiLabel>Remarks</ApiLabel>
 
 Supports "#RGB", "#RGBA", "#RRGGBB", and "#RRGGBBAA" formats.
 
@@ -117,7 +117,7 @@ public string? FooterColor { get; set; }
 
 - <ApiParam type="string?" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
 
-#### Remarks
+<ApiLabel>Remarks</ApiLabel>
 
 Supports "#RGB", "#RGBA", "#RRGGBB", and "#RRGGBBAA" formats.
 
@@ -177,12 +177,10 @@ public int MaxVisibleItems { get; set; }
 
 - <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
 
-#### Remarks
+<ApiLabel>Remarks</ApiLabel>
 
 Valid range is [1, 5]. If set to a value outside this range, an exception will be thrown and the value will be set to -1.
-<p>
-When set to -1, the maximum visible items per page will use the <code>ItemsPerPage</code> value from the configuration file.
-</p>
+When set to -1, the maximum visible items per page will use the `ItemsPerPage` value from the configuration file.
 
 ### NavigationMarkerColor
 
@@ -198,7 +196,7 @@ public string? NavigationMarkerColor { get; set; }
 
 - <ApiParam type="string?" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
 
-#### Remarks
+<ApiLabel>Remarks</ApiLabel>
 
 Supports "#RGB", "#RGBA", "#RRGGBB", and "#RRGGBBAA" formats.
 
@@ -244,7 +242,7 @@ public string? VisualGuideLineColor { get; set; }
 
 - <ApiParam type="string?" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
 
-#### Remarks
+<ApiLabel>Remarks</ApiLabel>
 
 Supports "#RGB", "#RGBA", "#RRGGBB", and "#RRGGBBAA" formats.
 

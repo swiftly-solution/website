@@ -112,7 +112,7 @@ void NextTick(Action task)
 
 - <ApiParam name="task" type="Action" typeHref="https://learn.microsoft.com/dotnet/api/system.action" /> — The task to execute.
 
-### NextTick(Func)
+### NextTick(Func\<Task?\>)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L17" />
 
@@ -128,11 +128,11 @@ void NextTick(Func<Task?> task)
 
 - <ApiParam name="task" type="Func&lt;Task?&gt;" typeHref="https://learn.microsoft.com/dotnet/api/system.func-1" />
 
-#### Exceptions
+<ApiLabel>Exceptions</ApiLabel>
 
 - <ApiParam type="InvalidOperationException" typeHref="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception" /> — Thrown when this method is called.
 
-### NextTick(Func>)
+### NextTick\<T\>(Func\<Task\<T?\>\>)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L25" />
 
@@ -148,11 +148,11 @@ void NextTick<T>(Func<Task<T?>> task)
 
 - <ApiParam name="task" type="Func&lt;Task&lt;T?&gt;&gt;" typeHref="https://learn.microsoft.com/dotnet/api/system.func-1" />
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" />
 
-#### Exceptions
+<ApiLabel>Exceptions</ApiLabel>
 
 - <ApiParam type="InvalidOperationException" typeHref="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception" /> — Thrown when this method is called.
 
@@ -174,7 +174,7 @@ Task NextTickAsync(Action task)
 
 - <ApiParam type="Task" typeHref="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task" />
 
-### NextTickAsync(Func)
+### NextTickAsync(Func\<Task?\>)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L39" />
 
@@ -190,11 +190,11 @@ void NextTickAsync(Func<Task?> task)
 
 - <ApiParam name="task" type="Func&lt;Task?&gt;" typeHref="https://learn.microsoft.com/dotnet/api/system.func-1" />
 
-#### Exceptions
+<ApiLabel>Exceptions</ApiLabel>
 
 - <ApiParam type="InvalidOperationException" typeHref="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception" /> — Thrown when this method is called.
 
-### NextTickAsync(Func>)
+### NextTickAsync\<T\>(Func\<Task\<T?\>\>)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L47" />
 
@@ -210,15 +210,15 @@ void NextTickAsync<T>(Func<Task<T?>> task)
 
 - <ApiParam name="task" type="Func&lt;Task&lt;T?&gt;&gt;" typeHref="https://learn.microsoft.com/dotnet/api/system.func-1" />
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" />
 
-#### Exceptions
+<ApiLabel>Exceptions</ApiLabel>
 
 - <ApiParam type="InvalidOperationException" typeHref="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception" /> — Thrown when this method is called.
 
-### NextTickAsync(Func)
+### NextTickAsync\<T\>(Func\<T\>)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L54" />
 
@@ -236,7 +236,7 @@ Task<T> NextTickAsync<T>(Func<T> task)
 
 - <ApiParam type="Task&lt;T&gt;" typeHref="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1" />
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" />
 
@@ -254,7 +254,7 @@ void NextWorldUpdate(Action task)
 
 - <ApiParam name="task" type="Action" typeHref="https://learn.microsoft.com/dotnet/api/system.action" /> — The task to execute.
 
-### NextWorldUpdate(Func)
+### NextWorldUpdate(Func\<Task?\>)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L67" />
 
@@ -270,11 +270,11 @@ void NextWorldUpdate(Func<Task?> task)
 
 - <ApiParam name="task" type="Func&lt;Task?&gt;" typeHref="https://learn.microsoft.com/dotnet/api/system.func-1" />
 
-#### Exceptions
+<ApiLabel>Exceptions</ApiLabel>
 
 - <ApiParam type="InvalidOperationException" typeHref="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception" /> — Thrown when this method is called.
 
-### NextWorldUpdate(Func>)
+### NextWorldUpdate\<T\>(Func\<Task\<T?\>\>)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L75" />
 
@@ -290,11 +290,11 @@ void NextWorldUpdate<T>(Func<Task<T?>> task)
 
 - <ApiParam name="task" type="Func&lt;Task&lt;T?&gt;&gt;" typeHref="https://learn.microsoft.com/dotnet/api/system.func-1" />
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" />
 
-#### Exceptions
+<ApiLabel>Exceptions</ApiLabel>
 
 - <ApiParam type="InvalidOperationException" typeHref="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception" /> — Thrown when this method is called.
 
@@ -316,7 +316,7 @@ Task NextWorldUpdateAsync(Action task)
 
 - <ApiParam type="Task" typeHref="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task" />
 
-### NextWorldUpdateAsync(Func)
+### NextWorldUpdateAsync(Func\<Task?\>)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L89" />
 
@@ -332,11 +332,11 @@ void NextWorldUpdateAsync(Func<Task?> task)
 
 - <ApiParam name="task" type="Func&lt;Task?&gt;" typeHref="https://learn.microsoft.com/dotnet/api/system.func-1" />
 
-#### Exceptions
+<ApiLabel>Exceptions</ApiLabel>
 
 - <ApiParam type="InvalidOperationException" typeHref="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception" /> — Thrown when this method is called.
 
-### NextWorldUpdateAsync(Func>)
+### NextWorldUpdateAsync\<T\>(Func\<Task\<T?\>\>)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L97" />
 
@@ -356,15 +356,15 @@ Task<T> NextWorldUpdateAsync<T>(Func<Task<T?>> task)
 
 - <ApiParam type="Task&lt;T&gt;" typeHref="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1" />
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" />
 
-#### Exceptions
+<ApiLabel>Exceptions</ApiLabel>
 
 - <ApiParam type="InvalidOperationException" typeHref="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception" /> — Thrown when this method is called.
 
-### NextWorldUpdateAsync(Func)
+### NextWorldUpdateAsync\<T\>(Func\<T\>)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L104" />
 
@@ -382,7 +382,7 @@ Task<T> NextWorldUpdateAsync<T>(Func<T> task)
 
 - <ApiParam type="Task&lt;T&gt;" typeHref="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1" />
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" />
 

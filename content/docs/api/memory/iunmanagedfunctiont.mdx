@@ -14,7 +14,7 @@ title: IUnmanagedFunction
 public interface IUnmanagedFunction<TDelegate> where TDelegate : Delegate
 ```
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="TDelegate" />
 
@@ -66,7 +66,7 @@ TDelegate CallOriginal { get; }
 
 ## Methods
 
-### AddHook(Func, TDelegate>)
+### AddHook(Func\<Func\<TDelegate\>, TDelegate\>)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Memory/IUnmanagedFunction.cs#L31" />
 

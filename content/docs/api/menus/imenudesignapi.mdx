@@ -44,10 +44,10 @@ IMenuBuilderAPI EnableAutoAdjustVisibleItems()
 
 - <ApiParam type="IMenuBuilderAPI" typeHref="/docs/api/menus/imenubuilderapi" /> — The menu builder for method chaining.
 
-#### Remarks
+<ApiLabel>Remarks</ApiLabel>
 
 When enabled, hiding the title or footer will increase the effective visible item count
-during rendering without modifying the configured <xref href="SwiftlyS2.Shared.Menus.IMenuDesignAPI.SetMaxVisibleItems(System.Int32)" data-throw-if-not-resolved="false"></xref> value.
+during rendering without modifying the configured SwiftlyS2.Shared.Menus.IMenuDesignAPI.SetMaxVisibleItems(System.Int32) value.
 
 ### SetDisabledColor(string?)
 
@@ -121,7 +121,7 @@ IMenuBuilderAPI SetGlobalScrollStyle(MenuOptionScrollStyle style)
 
 - <ApiParam type="IMenuBuilderAPI" typeHref="/docs/api/menus/imenubuilderapi" /> — The menu builder for method chaining.
 
-#### Remarks
+<ApiLabel>Remarks</ApiLabel>
 
 Individual options can override this global setting.
 
@@ -143,7 +143,7 @@ IMenuBuilderAPI SetMaxVisibleItems(int count = 5)
 
 - <ApiParam type="IMenuBuilderAPI" typeHref="/docs/api/menus/imenubuilderapi" /> — The menu builder for method chaining.
 
-#### Remarks
+<ApiLabel>Remarks</ApiLabel>
 
 Values outside the range of 1-5 will be automatically clamped to the nearest valid value.
 Menus with more options than this limit will be paginated.

@@ -22,7 +22,7 @@ public interface IConVar
 
 The default value of the convar in string.
 
-<xref href="System.ArgumentException?text=Thrown+when+the+string+value+can%27t+be+parsed." data-throw-if-not-resolved="false"></xref>
+[Thrown when the string value can't be parsed.](https://learn.microsoft.com/dotnet/api/system.argumentexception)
 
 ```csharp
 string DefaultValueAsString { get; set; }
@@ -94,7 +94,7 @@ bool HasMinValue { get; }
 
 The max value of the convar in string.
 
-<xref href="System.ArgumentException?text=Thrown+when+the+string+value+can%27t+be+parsed." data-throw-if-not-resolved="false"></xref>
+[Thrown when the string value can't be parsed.](https://learn.microsoft.com/dotnet/api/system.argumentexception)
 
 ```csharp
 string MaxValueAsString { get; set; }
@@ -110,7 +110,7 @@ string MaxValueAsString { get; set; }
 
 The min value of the convar in string.
 
-<xref href="System.ArgumentException?text=Thrown+when+the+string+value+can%27t+be+parsed." data-throw-if-not-resolved="false"></xref>
+[Thrown when the string value can't be parsed.](https://learn.microsoft.com/dotnet/api/system.argumentexception)
 
 ```csharp
 string MinValueAsString { get; set; }
@@ -130,7 +130,7 @@ Also, setting value with this method will internally put it into a set queue,
 Which means that for some special case ( e.g. setting sv_enablebunnyhopping inside a hook ) it won't work,
 in such cases you should use the SetInternal method instead.
 
-<xref href="System.ArgumentException?text=Thrown+when+the+string+value+can%27t+be+parsed." data-throw-if-not-resolved="false"></xref>
+[Thrown when the string value can't be parsed.](https://learn.microsoft.com/dotnet/api/system.argumentexception)
 
 ```csharp
 string ValueAsString { get; set; }
@@ -142,7 +142,7 @@ string ValueAsString { get; set; }
 
 ## Methods
 
-### QueryClient(int, Action)
+### QueryClient(int, Action\<string\>)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L76" />
 

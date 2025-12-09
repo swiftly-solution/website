@@ -23,6 +23,7 @@ const client = new OramaClient({
 export default function CustomSearchDialog(props: SharedProps) {
   const { search, setSearch, query } = useDocsSearch({
     type: 'orama-cloud',
+    // @ts-expect-error
     client,
     params: {
       "groupBy": {

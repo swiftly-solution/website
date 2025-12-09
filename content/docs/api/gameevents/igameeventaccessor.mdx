@@ -56,7 +56,7 @@ bool GetBool(string key)
 
 - <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" /> — Boolean value.
 
-### GetEntity(string)
+### GetEntity\<K\>(string)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L101" />
 
@@ -74,9 +74,9 @@ K GetEntity<K>(string key) where K : CEntityInstance
 
 - <ApiParam type="K" /> — Entity instance.
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
-- <ApiParam name="K" /> — Entity type derived from <xref href="SwiftlyS2.Shared.SchemaDefinitions.CEntityInstance" data-throw-if-not-resolved="false"></xref>.
+- <ApiParam name="K" /> — Entity type derived from SwiftlyS2.Shared.SchemaDefinitions.CEntityInstance.
 
 ### GetEntityIndex(string)
 
@@ -319,7 +319,7 @@ void SetBool(string key, bool value)
 - <ApiParam name="key" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — Field name.
 - <ApiParam name="value" type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" /> — Boolean value.
 
-### SetEntity(string, K)
+### SetEntity\<K\>(string, K)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L93" />
 
@@ -334,9 +334,9 @@ void SetEntity<K>(string key, K value) where K : CEntityInstance
 - <ApiParam name="key" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — Field name.
 - <ApiParam name="value" type="K" /> — Entity instance.
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
-- <ApiParam name="K" /> — Entity type derived from <xref href="SwiftlyS2.Shared.SchemaDefinitions.CEntityInstance" data-throw-if-not-resolved="false"></xref>.
+- <ApiParam name="K" /> — Entity type derived from SwiftlyS2.Shared.SchemaDefinitions.CEntityInstance.
 
 ### SetEntityIndex(string, int)
 

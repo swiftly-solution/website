@@ -60,7 +60,7 @@ IConfigurationManager Manager { get; }
 
 ## Methods
 
-### Configure(Action)
+### Configure(Action\<IConfigurationBuilder\>)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Services/IPluginConfigurationService.cs#L51" />
 
@@ -96,7 +96,7 @@ string GetConfigPath(string name)
 
 - <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The path to the configuration file.
 
-### InitializeJsonWithModel(string, string)
+### InitializeJsonWithModel\<T\>(string, string)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Services/IPluginConfigurationService.cs#L36" />
 
@@ -115,11 +115,11 @@ IPluginConfigurationService InitializeJsonWithModel<T>(string name, string secti
 
 - <ApiParam type="IPluginConfigurationService" typeHref="/docs/api/services/ipluginconfigurationservice" />
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" /> — The type of the configuration model.
 
-### InitializeTomlWithModel(string, string)
+### InitializeTomlWithModel\<T\>(string, string)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Services/IPluginConfigurationService.cs#L44" />
 
@@ -138,7 +138,7 @@ IPluginConfigurationService InitializeTomlWithModel<T>(string name, string secti
 
 - <ApiParam type="IPluginConfigurationService" typeHref="/docs/api/services/ipluginconfigurationservice" />
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" /> — The type of the configuration model.
 

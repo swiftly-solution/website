@@ -232,7 +232,7 @@ public override readonly bool Equals(object? obj)
 
 <ApiLabel>Returns</ApiLabel>
 
-- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" /> — <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code className="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" /> — <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
 
 ### FromBuiltin(Vector3)
 
@@ -325,7 +325,7 @@ public readonly Vector3 ToBuiltin()
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L94" />
 
 Converts this forward vector into Euler QAngles (pitch, yaw, roll).
-Usage: <code>forward.ToQAngles(out var angles);</code>
+Usage: `forward.ToQAngles(out var angles);`
 
 ```csharp
 public readonly QAngle ToQAngles()
@@ -333,7 +333,7 @@ public readonly QAngle ToQAngles()
 
 <ApiLabel>Returns</ApiLabel>
 
-- <ApiParam type="QAngle" typeHref="/docs/api/natives/qangle" /> — Resulting <xref href="SwiftlyS2.Shared.Natives.QAngle" data-throw-if-not-resolved="false"></xref>.
+- <ApiParam type="QAngle" typeHref="/docs/api/natives/qangle" /> — Resulting SwiftlyS2.Shared.Natives.QAngle.
 
 ### ToString()
 

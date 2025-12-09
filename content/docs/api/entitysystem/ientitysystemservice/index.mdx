@@ -1,5 +1,5 @@
 ---
-title: IEntitySystemService
+title: Interface IEntitySystemService
 ---
 
 # Interface IEntitySystemService
@@ -16,7 +16,7 @@ public interface IEntitySystemService
 
 ## Methods
 
-### CreateEntity()
+### CreateEntity\<T\>()
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L17" />
 
@@ -30,15 +30,15 @@ T CreateEntity<T>() where T : class, ISchemaClass<T>
 
 - <ApiParam type="T" /> — Created entity.
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" /> — Entity type.
 
-#### Exceptions
+<ApiLabel>Exceptions</ApiLabel>
 
 - <ApiParam type="ArgumentException" typeHref="https://learn.microsoft.com/dotnet/api/system.argumentexception" /> — Thrown when failed to create entity by class or class doesn't have a designer name.
 
-### CreateEntityByDesignerName(string)
+### CreateEntityByDesignerName\<T\>(string)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L26" />
 
@@ -56,11 +56,11 @@ T CreateEntityByDesignerName<T>(string designerName) where T : ISchemaClass<T>
 
 - <ApiParam type="T" /> — Created entity.
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" /> — Entity type.
 
-#### Exceptions
+<ApiLabel>Exceptions</ApiLabel>
 
 - <ApiParam type="ArgumentException" typeHref="https://learn.microsoft.com/dotnet/api/system.argumentexception" /> — Thrown when failed to create entity by designer name or designer name is invalid.
 
@@ -78,7 +78,7 @@ IEnumerable<CEntityInstance> GetAllEntities()
 
 - <ApiParam type="IEnumerable&lt;CEntityInstance&gt;" typeHref="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1" /> — All entities.
 
-### GetAllEntitiesByClass()
+### GetAllEntitiesByClass\<T\>()
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L53" />
 
@@ -92,11 +92,11 @@ IEnumerable<T> GetAllEntitiesByClass<T>() where T : class, ISchemaClass<T>
 
 - <ApiParam type="IEnumerable&lt;T&gt;" typeHref="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1" /> — All entities by class.
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" /> — Entity type.
 
-### GetAllEntitiesByDesignerName(string)
+### GetAllEntitiesByDesignerName\<T\>(string)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L61" />
 
@@ -114,11 +114,11 @@ IEnumerable<T> GetAllEntitiesByDesignerName<T>(string designerName) where T : cl
 
 - <ApiParam type="IEnumerable&lt;T&gt;" typeHref="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1" /> — All entities by designer name.
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" /> — Entity type.
 
-### GetEntityByIndex(uint)
+### GetEntityByIndex\<T\>(uint)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L69" />
 
@@ -136,7 +136,7 @@ T? GetEntityByIndex<T>(uint index) where T : class, ISchemaClass<T>
 
 - <ApiParam type="T?" /> — Entity by index. Nullable.
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" /> — Entity type.
 
@@ -154,7 +154,7 @@ CCSGameRules? GetGameRules()
 
 - <ApiParam type="CCSGameRules?" typeHref="/docs/api/schemadefinitions/ccsgamerules" /> — Game rules entity. Nullable.
 
-### GetRefEHandle(T)
+### GetRefEHandle\<T\>(T)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L34" />
 
@@ -172,11 +172,11 @@ CHandle<T> GetRefEHandle<T>(T entity) where T : class, ISchemaClass<T>
 
 - <ApiParam type="CHandle&lt;T&gt;" typeHref="/docs/api/natives/chandlet" /> — Reference entity handle to the entity.
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" /> — Entity type.
 
-### HookEntityOutput(string, EntityOutputHandler)
+### HookEntityOutput\<T\>(string, EntityOutputHandler)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L93" />
 
@@ -193,13 +193,13 @@ Guid HookEntityOutput<T>(string outputName, IEntitySystemService.EntityOutputHan
 
 <ApiLabel>Returns</ApiLabel>
 
-- <ApiParam type="Guid" typeHref="https://learn.microsoft.com/dotnet/api/system.guid" /> — A <xref href="System.Guid" data-throw-if-not-resolved="false"></xref> that uniquely identifies the hook. This identifier can be used to manage or remove the hook.
+- <ApiParam type="Guid" typeHref="https://learn.microsoft.com/dotnet/api/system.guid" /> — A [System.Guid](https://learn.microsoft.com/dotnet/api/system.guid) that uniquely identifies the hook. This identifier can be used to manage or remove the hook.
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
-- <ApiParam name="T" /> — The type of the entity, which must implement <xref href="SwiftlyS2.Shared.Schemas.ISchemaClass%601" data-throw-if-not-resolved="false"></xref>.
+- <ApiParam name="T" /> — The type of the entity, which must implement SwiftlyS2.Shared.Schemas.ISchemaClass%601.
 
-#### Remarks
+<ApiLabel>Remarks</ApiLabel>
 
 This method allows you to attach a handler to a specific output of an entity. The callback will
     be invoked whenever the output is triggered.

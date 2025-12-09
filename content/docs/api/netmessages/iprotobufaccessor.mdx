@@ -20,7 +20,7 @@ public interface IProtobufAccessor : INativeHandle
 
 ## Methods
 
-### Add(string, T)
+### Add\<T\>(string, T)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/NetMessages/IProtobufAccessor.cs#L94" />
 
@@ -33,7 +33,7 @@ void Add<T>(string fieldName, T value)
 - <ApiParam name="fieldName" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
 - <ApiParam name="value" type="T" />
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" />
 
@@ -234,7 +234,7 @@ void ClearRepeatedField(string fieldName)
 
 - <ApiParam name="fieldName" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
 
-### Get(string)
+### Get\<T\>(string)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/NetMessages/IProtobufAccessor.cs#L97" />
 
@@ -250,7 +250,7 @@ T Get<T>(string fieldName)
 
 - <ApiParam type="T" />
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" />
 
@@ -398,7 +398,7 @@ QAngle GetQAngle(string fieldName)
 
 - <ApiParam type="QAngle" typeHref="/docs/api/natives/qangle" />
 
-### GetRepeated(string, int)
+### GetRepeated\<T\>(string, int)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/NetMessages/IProtobufAccessor.cs#L96" />
 
@@ -415,7 +415,7 @@ T GetRepeated<T>(string fieldName, int index)
 
 - <ApiParam type="T" />
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" />
 
@@ -769,7 +769,7 @@ bool HasField(string fieldName)
 
 - <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
 
-### Set(string, T)
+### Set\<T\>(string, T)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/NetMessages/IProtobufAccessor.cs#L93" />
 
@@ -782,7 +782,7 @@ void Set<T>(string fieldName, T value)
 - <ApiParam name="fieldName" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
 - <ApiParam name="value" type="T" />
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" />
 
@@ -890,7 +890,7 @@ void SetQAngle(string fieldName, QAngle value)
 - <ApiParam name="fieldName" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
 - <ApiParam name="value" type="QAngle" typeHref="/docs/api/natives/qangle" />
 
-### SetRepeated(string, int, T)
+### SetRepeated\<T\>(string, int, T)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/NetMessages/IProtobufAccessor.cs#L95" />
 
@@ -904,7 +904,7 @@ void SetRepeated<T>(string fieldName, int index, T value)
 - <ApiParam name="index" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
 - <ApiParam name="value" type="T" />
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" />
 

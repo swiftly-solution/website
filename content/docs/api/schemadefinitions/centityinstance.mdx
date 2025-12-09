@@ -89,7 +89,7 @@ string PrivateVScripts { get; set; }
 
 ## Methods
 
-### AcceptInput(string, T?, CEntityInstance?, CEntityInstance?, int)
+### AcceptInput\<T\>(string, T?, CEntityInstance?, CEntityInstance?, int)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L32" />
 
@@ -110,11 +110,11 @@ void AcceptInput<T>(string input, T? value, CEntityInstance? activator = null, C
 - <ApiParam name="caller" type="CEntityInstance?" typeHref="/docs/api/schemadefinitions/centityinstance" /> — Caller entity. Nullable.
 - <ApiParam name="outputID" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> — Output ID.
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" /> — Param type. Support bool, int, uint, long, ulong, float, double, string, Vector, Vector2D, Vector4D, QAngle, Color
 
-### AcceptInputAsync(string, T?, CEntityInstance?, CEntityInstance?, int)
+### AcceptInputAsync\<T\>(string, T?, CEntityInstance?, CEntityInstance?, int)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L44" />
 
@@ -136,11 +136,11 @@ Task AcceptInputAsync<T>(string input, T? value, CEntityInstance? activator = nu
 
 - <ApiParam type="Task" typeHref="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task" />
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" /> — Param type. Support bool, int, uint, long, ulong, float, double, string, Vector, Vector2D, Vector4D, QAngle, Color
 
-### AddEntityIOEvent(string, T?, CEntityInstance?, CEntityInstance?, float)
+### AddEntityIOEvent\<T\>(string, T?, CEntityInstance?, CEntityInstance?, float)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L57" />
 
@@ -161,11 +161,11 @@ void AddEntityIOEvent<T>(string input, T? value, CEntityInstance? activator = nu
 - <ApiParam name="caller" type="CEntityInstance?" typeHref="/docs/api/schemadefinitions/centityinstance" /> — Caller entity. Nullable.
 - <ApiParam name="delay" type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" /> — Delay in seconds.
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" /> — Param type. Support bool, int, uint, long, ulong, float, double, string, Vector, Vector2D, Vector4D, QAngle, Color
 
-### AddEntityIOEventAsync(string, T?, CEntityInstance?, CEntityInstance?, float)
+### AddEntityIOEventAsync\<T\>(string, T?, CEntityInstance?, CEntityInstance?, float)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L69" />
 
@@ -187,7 +187,7 @@ Task AddEntityIOEventAsync<T>(string input, T? value, CEntityInstance? activator
 
 - <ApiParam type="Task" typeHref="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task" />
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" /> — Param type. Support bool, int, uint, long, ulong, float, double, string, Vector, Vector2D, Vector4D, QAngle, Color
 

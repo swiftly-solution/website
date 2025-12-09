@@ -54,7 +54,7 @@ MenuConfiguration Configuration { get; }
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L258" />
 
-Gets or sets the default comment text to use when a menu option's <xref href="SwiftlyS2.Shared.Menus.IMenuOption.Comment" data-throw-if-not-resolved="false"></xref> is not set.
+Gets or sets the default comment text to use when a menu option's SwiftlyS2.Shared.Menus.IMenuOption.Comment is not set.
 
 ```csharp
 string DefaultComment { get; set; }
@@ -134,7 +134,7 @@ The parent hierarchy information in a hierarchical menu structure.
 
 - <ApiParam type="(IMenuAPI? ParentMenu, IMenuOption? TriggerOption)" typeHref="/docs/api/menus/imenuapi" />
 
-#### Remarks
+<ApiLabel>Remarks</ApiLabel>
 
 ParentMenu is the parent menu instance, null for top-level menus.
 TriggerOption is the menu option that triggered this submenu, null for top-level or directly created menus.
@@ -219,10 +219,10 @@ void HideForPlayer(IPlayer player)
 
 - <ApiParam name="player" type="IPlayer" typeHref="/docs/api/players/iplayer" /> — The player whose menu will be hidden.
 
-#### Remarks
+<ApiLabel>Remarks</ApiLabel>
 
 This method only hides the menu visually. To properly close a menu (which handles state cleanup, 
-triggering events, and reopening parent menus), use <xref href="SwiftlyS2.Shared.Menus.IMenuManagerAPI.CloseMenuForPlayer(SwiftlyS2.Shared.Players.IPlayer%2cSwiftlyS2.Shared.Menus.IMenuAPI)" data-throw-if-not-resolved="false"></xref> instead.
+triggering events, and reopening parent menus), use SwiftlyS2.Shared.Menus.IMenuManagerAPI.CloseMenuForPlayer(SwiftlyS2.Shared.Players.IPlayer%2cSwiftlyS2.Shared.Menus.IMenuAPI) instead.
 
 ### MoveToOption(IPlayer, IMenuOption)
 
@@ -294,10 +294,10 @@ void ShowForPlayer(IPlayer player)
 
 - <ApiParam name="player" type="IPlayer" typeHref="/docs/api/players/iplayer" /> — The player who will see the menu.
 
-#### Remarks
+<ApiLabel>Remarks</ApiLabel>
 
 This method only displays the menu visually. To properly open a menu (which handles state management, 
-closing other menus, and triggering events), use <xref href="SwiftlyS2.Shared.Menus.IMenuManagerAPI.OpenMenuForPlayer(SwiftlyS2.Shared.Players.IPlayer%2cSwiftlyS2.Shared.Menus.IMenuAPI)" data-throw-if-not-resolved="false"></xref> instead.
+closing other menus, and triggering events), use SwiftlyS2.Shared.Menus.IMenuManagerAPI.OpenMenuForPlayer(SwiftlyS2.Shared.Players.IPlayer%2cSwiftlyS2.Shared.Menus.IMenuAPI) instead.
 
 ### OptionHovering
 
@@ -309,7 +309,7 @@ Fired when the selection pointer is hovering over an option.
 event EventHandler<MenuEventArgs>? OptionHovering
 ```
 
-#### Event Type
+<ApiLabel>Event Type</ApiLabel>
 
 - <ApiParam type="EventHandler&lt;MenuEventArgs&gt;?" typeHref="https://learn.microsoft.com/dotnet/api/system.eventhandler-1" />
 

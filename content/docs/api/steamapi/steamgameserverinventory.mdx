@@ -35,10 +35,13 @@ public static class SteamGameServerInventory
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverinventory.cs#L187" />
 
-<p> AddPromoItem() / AddPromoItems() are restricted versions of GrantPromoItems(). Instead of</p>
-<p> scanning for all eligible promotional items, the check is restricted to a single item</p>
-<p> definition or set of item definitions. This can be useful if your game has custom UI for</p>
-<p> showing a specific promo item to the user.</p>
+AddPromoItem() / AddPromoItems() are restricted versions of GrantPromoItems(). Instead of
+
+scanning for all eligible promotional items, the check is restricted to a single item
+
+definition or set of item definitions. This can be useful if your game has custom UI for
+
+showing a specific promo item to the user.
 
 ```csharp
 public static bool AddPromoItem(out SteamInventoryResult_t pResultHandle, SteamItemDef_t itemDef)
@@ -75,9 +78,11 @@ public static bool AddPromoItems(out SteamInventoryResult_t pResultHandle, Steam
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverinventory.cs#L73" />
 
-<p> Returns true if the result belongs to the target steam ID, false if the</p>
-<p> result does not. This is important when using DeserializeResult, to verify</p>
-<p> that a remote player is not pretending to have a different user's inventory.</p>
+Returns true if the result belongs to the target steam ID, false if the
+
+result does not. This is important when using DeserializeResult, to verify
+
+that a remote player is not pretending to have a different user's inventory.
 
 ```csharp
 public static bool CheckResultSteamID(SteamInventoryResult_t resultHandle, CSteamID steamIDExpected)
@@ -96,9 +101,11 @@ public static bool CheckResultSteamID(SteamInventoryResult_t resultHandle, CStea
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverinventory.cs#L202" />
 
-<p> ConsumeItem() removes items from the inventory, permanently. They cannot be recovered.</p>
-<p> Not for the faint of heart - if your game implements item removal at all, a high-friction</p>
-<p> UI confirmation process is highly recommended.</p>
+ConsumeItem() removes items from the inventory, permanently. They cannot be recovered.
+
+Not for the faint of heart - if your game implements item removal at all, a high-friction
+
+UI confirmation process is highly recommended.
 
 ```csharp
 public static bool ConsumeItem(out SteamInventoryResult_t pResultHandle, SteamItemInstanceID_t itemConsume, uint unQuantity)
@@ -118,20 +125,33 @@ public static bool ConsumeItem(out SteamInventoryResult_t pResultHandle, SteamIt
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverinventory.cs#L151" />
 
-<p> Deserializes a result set and verifies the signature bytes. Returns false</p>
-<p> if bRequireFullOnlineVerify is set but Steam is running in Offline mode.</p>
-<p> Otherwise returns true and then delivers error codes via GetResultStatus.</p>
-<p> The bRESERVED_MUST_BE_FALSE flag is reserved for future use and should not</p>
-<p> be set to true by your game at this time.</p>
-<p> DeserializeResult has a potential soft-failure mode where the handle status</p>
-<p> is set to k_EResultExpired. GetResultItems() still succeeds in this mode.</p>
-<p> The "expired" result could indicate that the data may be out of date - not</p>
-<p> just due to timed expiration (one hour), but also because one of the items</p>
-<p> in the result set may have been traded or consumed since the result set was</p>
-<p> generated. You could compare the timestamp from GetResultTimestamp() to</p>
-<p> ISteamUtils::GetServerRealTime() to determine how old the data is. You could</p>
-<p> simply ignore the "expired" result code and continue as normal, or you</p>
-<p> could challenge the player with expired data to send an updated result set.</p>
+Deserializes a result set and verifies the signature bytes. Returns false
+
+if bRequireFullOnlineVerify is set but Steam is running in Offline mode.
+
+Otherwise returns true and then delivers error codes via GetResultStatus.
+
+The bRESERVED_MUST_BE_FALSE flag is reserved for future use and should not
+
+be set to true by your game at this time.
+
+DeserializeResult has a potential soft-failure mode where the handle status
+
+is set to k_EResultExpired. GetResultItems() still succeeds in this mode.
+
+The "expired" result could indicate that the data may be out of date - not
+
+just due to timed expiration (one hour), but also because one of the items
+
+in the result set may have been traded or consumed since the result set was
+
+generated. You could compare the timestamp from GetResultTimestamp() to
+
+ISteamUtils::GetServerRealTime() to determine how old the data is. You could
+
+simply ignore the "expired" result code and continue as normal, or you
+
+could challenge the player with expired data to send an updated result set.
 
 ```csharp
 public static bool DeserializeResult(out SteamInventoryResult_t pOutResultHandle, byte[] pBuffer, uint unBufferSize, bool bRESERVED_MUST_BE_FALSE = false)
@@ -152,7 +172,7 @@ public static bool DeserializeResult(out SteamInventoryResult_t pOutResultHandle
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverinventory.cs#L81" />
 
-<p> Destroys a result handle and frees all associated memory.</p>
+Destroys a result handle and frees all associated memory.
 
 ```csharp
 public static void DestroyResult(SteamInventoryResult_t resultHandle)
@@ -166,14 +186,21 @@ public static void DestroyResult(SteamInventoryResult_t resultHandle)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverinventory.cs#L217" />
 
-<p> ExchangeItems() is an atomic combination of item generation and consumption.</p>
-<p> It can be used to implement crafting recipes or transmutations, or items which unpack</p>
-<p> themselves into other items (e.g., a chest).</p>
-<p> Exchange recipes are defined in the ItemDef, and explicitly list the required item</p>
-<p> types and resulting generated type.</p>
-<p> Exchange recipes are evaluated atomically by the Inventory Service; if the supplied</p>
-<p> components do not match the recipe, or do not contain sufficient quantity, the</p>
-<p> exchange will fail.</p>
+ExchangeItems() is an atomic combination of item generation and consumption.
+
+It can be used to implement crafting recipes or transmutations, or items which unpack
+
+themselves into other items (e.g., a chest).
+
+Exchange recipes are defined in the ItemDef, and explicitly list the required item
+
+types and resulting generated type.
+
+Exchange recipes are evaluated atomically by the Inventory Service; if the supplied
+
+components do not match the recipe, or do not contain sufficient quantity, the
+
+exchange will fail.
 
 ```csharp
 public static bool ExchangeItems(out SteamInventoryResult_t pResultHandle, SteamItemDef_t[] pArrayGenerate, uint[] punArrayGenerateQuantity, uint unArrayGenerateLength, SteamItemInstanceID_t[] pArrayDestroy, uint[] punArrayDestroyQuantity, uint unArrayDestroyLength)
@@ -197,13 +224,19 @@ public static bool ExchangeItems(out SteamInventoryResult_t pResultHandle, Steam
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverinventory.cs#L165" />
 
-<p> INVENTORY ASYNC MODIFICATION</p>
-<p> GenerateItems() creates one or more items and then generates a SteamInventoryCallback_t</p>
-<p> notification with a matching nCallbackContext parameter. This API is only intended</p>
-<p> for prototyping - it is only usable by Steam accounts that belong to the publisher group</p>
-<p> for your game.</p>
-<p> If punArrayQuantity is not NULL, it should be the same length as pArrayItems and should</p>
-<p> describe the quantity of each item to generate.</p>
+INVENTORY ASYNC MODIFICATION
+
+GenerateItems() creates one or more items and then generates a SteamInventoryCallback_t
+
+notification with a matching nCallbackContext parameter. This API is only intended
+
+for prototyping - it is only usable by Steam accounts that belong to the publisher group
+
+for your game.
+
+If punArrayQuantity is not NULL, it should be the same length as pArrayItems and should
+
+describe the quantity of each item to generate.
 
 ```csharp
 public static bool GenerateItems(out SteamInventoryResult_t pResultHandle, SteamItemDef_t[] pArrayItemDefs, uint[] punArrayQuantity, uint unArrayLength)
@@ -224,14 +257,21 @@ public static bool GenerateItems(out SteamInventoryResult_t pResultHandle, Steam
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverinventory.cs#L96" />
 
-<p> INVENTORY ASYNC QUERY</p>
-<p> Captures the entire state of the current user's Steam inventory.</p>
-<p> You must call DestroyResult on this handle when you are done with it.</p>
-<p> Returns false and sets *pResultHandle to zero if inventory is unavailable.</p>
-<p> Note: calls to this function are subject to rate limits and may return</p>
-<p> cached results if called too frequently. It is suggested that you call</p>
-<p> this function only when you are about to display the user's full inventory,</p>
-<p> or if you expect that the inventory may have changed.</p>
+INVENTORY ASYNC QUERY
+
+Captures the entire state of the current user's Steam inventory.
+
+You must call DestroyResult on this handle when you are done with it.
+
+Returns false and sets *pResultHandle to zero if inventory is unavailable.
+
+Note: calls to this function are subject to rate limits and may return
+
+cached results if called too frequently. It is suggested that you call
+
+this function only when you are about to display the user's full inventory,
+
+or if you expect that the inventory may have changed.
 
 ```csharp
 public static bool GetAllItems(out SteamInventoryResult_t pResultHandle)
@@ -249,9 +289,11 @@ public static bool GetAllItems(out SteamInventoryResult_t pResultHandle)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverinventory.cs#L336" />
 
-<p> After handling a SteamInventoryEligiblePromoItemDefIDs_t call result, use this</p>
-<p> function to pull out the list of item definition ids that the user can be</p>
-<p> manually granted via the AddPromoItems() call.</p>
+After handling a SteamInventoryEligiblePromoItemDefIDs_t call result, use this
+
+function to pull out the list of item definition ids that the user can be
+
+manually granted via the AddPromoItems() call.
 
 ```csharp
 public static bool GetEligiblePromoItemDefinitionIDs(CSteamID steamID, SteamItemDef_t[] pItemDefIDs, ref uint punItemDefIDsArraySize)
@@ -271,11 +313,15 @@ public static bool GetEligiblePromoItemDefinitionIDs(CSteamID steamID, SteamItem
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverinventory.cs#L291" />
 
-<p> GetItemDefinitionIDs returns the set of all defined item definition IDs (which are</p>
-<p> defined via Steamworks configuration, and not necessarily contiguous integers).</p>
-<p> If pItemDefIDs is null, the call will return true and *punItemDefIDsArraySize will</p>
-<p> contain the total size necessary for a subsequent call. Otherwise, the call will</p>
-<p> return false if and only if there is not enough space in the output array.</p>
+GetItemDefinitionIDs returns the set of all defined item definition IDs (which are
+
+defined via Steamworks configuration, and not necessarily contiguous integers).
+
+If pItemDefIDs is null, the call will return true and *punItemDefIDsArraySize will
+
+contain the total size necessary for a subsequent call. Otherwise, the call will
+
+return false if and only if there is not enough space in the output array.
 
 ```csharp
 public static bool GetItemDefinitionIDs(SteamItemDef_t[] pItemDefIDs, ref uint punItemDefIDsArraySize)
@@ -294,15 +340,23 @@ public static bool GetItemDefinitionIDs(SteamItemDef_t[] pItemDefIDs, ref uint p
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverinventory.cs#L310" />
 
-<p> GetItemDefinitionProperty returns a string property from a given item definition.</p>
-<p> Note that some properties (for example, "name") may be localized and will depend</p>
-<p> on the current Steam language settings (see ISteamApps::GetCurrentGameLanguage).</p>
-<p> Property names are always composed of ASCII letters, numbers, and/or underscores.</p>
-<p> Pass a NULL pointer for pchPropertyName to get a comma - separated list of available</p>
-<p> property names. If pchValueBuffer is NULL, *punValueBufferSize will contain the</p>
-<p> suggested buffer size. Otherwise it will be the number of bytes actually copied</p>
-<p> to pchValueBuffer. If the results do not fit in the given buffer, partial</p>
-<p> results may be copied.</p>
+GetItemDefinitionProperty returns a string property from a given item definition.
+
+Note that some properties (for example, "name") may be localized and will depend
+
+on the current Steam language settings (see ISteamApps::GetCurrentGameLanguage).
+
+Property names are always composed of ASCII letters, numbers, and/or underscores.
+
+Pass a NULL pointer for pchPropertyName to get a comma - separated list of available
+
+property names. If pchValueBuffer is NULL, *punValueBufferSize will contain the
+
+suggested buffer size. Otherwise it will be the number of bytes actually copied
+
+to pchValueBuffer. If the results do not fit in the given buffer, partial
+
+results may be copied.
 
 ```csharp
 public static bool GetItemDefinitionProperty(SteamItemDef_t iDefinition, string pchPropertyName, out string pchValueBuffer, ref uint punValueBufferSizeOut)
@@ -323,8 +377,9 @@ public static bool GetItemDefinitionProperty(SteamItemDef_t iDefinition, string 
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverinventory.cs#L393" />
 
-<p> Retrieves the price for the item definition id</p>
-<p> Returns false if there is no price stored for the item definition.</p>
+Retrieves the price for the item definition id
+
+Returns false if there is no price stored for the item definition.
 
 ```csharp
 public static bool GetItemPrice(SteamItemDef_t iDefinition, out ulong pCurrentPrice, out ulong pBasePrice)
@@ -344,13 +399,19 @@ public static bool GetItemPrice(SteamItemDef_t iDefinition, out ulong pCurrentPr
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverinventory.cs#L110" />
 
-<p> Captures the state of a subset of the current user's Steam inventory,</p>
-<p> identified by an array of item instance IDs. The results from this call</p>
-<p> can be serialized and passed to other players to "prove" that the current</p>
-<p> user owns specific items, without exposing the user's entire inventory.</p>
-<p> For example, you could call GetItemsByID with the IDs of the user's</p>
-<p> currently equipped cosmetic items and serialize this to a buffer, and</p>
-<p> then transmit this buffer to other players upon joining a game.</p>
+Captures the state of a subset of the current user's Steam inventory,
+
+identified by an array of item instance IDs. The results from this call
+
+can be serialized and passed to other players to "prove" that the current
+
+user owns specific items, without exposing the user's entire inventory.
+
+For example, you could call GetItemsByID with the IDs of the user's
+
+currently equipped cosmetic items and serialize this to a buffer, and
+
+then transmit this buffer to other players upon joining a game.
 
 ```csharp
 public static bool GetItemsByID(out SteamInventoryResult_t pResultHandle, SteamItemInstanceID_t[] pInstanceIDs, uint unCountInstanceIDs)
@@ -370,8 +431,9 @@ public static bool GetItemsByID(out SteamInventoryResult_t pResultHandle, SteamI
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverinventory.cs#L375" />
 
-<p> Returns item definition ids and their prices in the user's local currency.</p>
-<p> Need to call RequestPrices() first.</p>
+Returns item definition ids and their prices in the user's local currency.
+
+Need to call RequestPrices() first.
 
 ```csharp
 public static bool GetItemsWithPrices(SteamItemDef_t[] pArrayItemDefs, ulong[] pCurrentPrices, ulong[] pBasePrices, uint unArrayLength)
@@ -392,7 +454,7 @@ public static bool GetItemsWithPrices(SteamItemDef_t[] pArrayItemDefs, ulong[] p
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverinventory.cs#L366" />
 
-<p> Returns the number of items with prices.  Need to call RequestPrices() first.</p>
+Returns the number of items with prices. Need to call RequestPrices() first.
 
 ```csharp
 public static uint GetNumItemsWithPrices()
@@ -406,15 +468,23 @@ public static uint GetNumItemsWithPrices()
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverinventory.cs#L48" />
 
-<p> In combination with GetResultItems, you can use GetResultItemProperty to retrieve</p>
-<p> dynamic string properties for a given item returned in the result set.</p>
-<p> Property names are always composed of ASCII letters, numbers, and/or underscores.</p>
-<p> Pass a NULL pointer for pchPropertyName to get a comma - separated list of available</p>
-<p> property names.</p>
-<p> If pchValueBuffer is NULL, *punValueBufferSize will contain the</p>
-<p> suggested buffer size. Otherwise it will be the number of bytes actually copied</p>
-<p> to pchValueBuffer. If the results do not fit in the given buffer, partial</p>
-<p> results may be copied.</p>
+In combination with GetResultItems, you can use GetResultItemProperty to retrieve
+
+dynamic string properties for a given item returned in the result set.
+
+Property names are always composed of ASCII letters, numbers, and/or underscores.
+
+Pass a NULL pointer for pchPropertyName to get a comma - separated list of available
+
+property names.
+
+If pchValueBuffer is NULL, *punValueBufferSize will contain the
+
+suggested buffer size. Otherwise it will be the number of bytes actually copied
+
+to pchValueBuffer. If the results do not fit in the given buffer, partial
+
+results may be copied.
 
 ```csharp
 public static bool GetResultItemProperty(SteamInventoryResult_t resultHandle, uint unItemIndex, string pchPropertyName, out string pchValueBuffer, ref uint punValueBufferSizeOut)
@@ -436,8 +506,9 @@ public static bool GetResultItemProperty(SteamInventoryResult_t resultHandle, ui
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverinventory.cs#L29" />
 
-<p> Copies the contents of a result set into a flat array. The specific</p>
-<p> contents of the result set depend on which query which was used.</p>
+Copies the contents of a result set into a flat array. The specific
+
+contents of the result set depend on which query which was used.
 
 ```csharp
 public static bool GetResultItems(SteamInventoryResult_t resultHandle, SteamItemDetails_t[] pOutItemsArray, ref uint punOutItemsArraySize)
@@ -457,18 +528,29 @@ public static bool GetResultItems(SteamInventoryResult_t resultHandle, SteamItem
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverinventory.cs#L20" />
 
-<p> INVENTORY ASYNC RESULT MANAGEMENT</p>
-<p> Asynchronous inventory queries always output a result handle which can be used with</p>
-<p> GetResultStatus, GetResultItems, etc. A SteamInventoryResultReady_t callback will</p>
-<p> be triggered when the asynchronous result becomes ready (or fails).</p>
-<p> Find out the status of an asynchronous inventory result handle. Possible values:</p>
-<p>  k_EResultPending - still in progress</p>
-<p>  k_EResultOK - done, result ready</p>
-<p>  k_EResultExpired - done, result ready, maybe out of date (see DeserializeResult)</p>
-<p>  k_EResultInvalidParam - ERROR: invalid API call parameters</p>
-<p>  k_EResultServiceUnavailable - ERROR: service temporarily down, you may retry later</p>
-<p>  k_EResultLimitExceeded - ERROR: operation would exceed per-user inventory limits</p>
-<p>  k_EResultFail - ERROR: unknown / generic error</p>
+INVENTORY ASYNC RESULT MANAGEMENT
+
+Asynchronous inventory queries always output a result handle which can be used with
+
+GetResultStatus, GetResultItems, etc. A SteamInventoryResultReady_t callback will
+
+be triggered when the asynchronous result becomes ready (or fails).
+
+Find out the status of an asynchronous inventory result handle. Possible values:
+
+k_EResultPending - still in progress
+
+k_EResultOK - done, result ready
+
+k_EResultExpired - done, result ready, maybe out of date (see DeserializeResult)
+
+k_EResultInvalidParam - ERROR: invalid API call parameters
+
+k_EResultServiceUnavailable - ERROR: service temporarily down, you may retry later
+
+k_EResultLimitExceeded - ERROR: operation would exceed per-user inventory limits
+
+k_EResultFail - ERROR: unknown / generic error
 
 ```csharp
 public static EResult GetResultStatus(SteamInventoryResult_t resultHandle)
@@ -486,8 +568,9 @@ public static EResult GetResultStatus(SteamInventoryResult_t resultHandle)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverinventory.cs#L63" />
 
-<p> Returns the server time at which the result was generated. Compare against</p>
-<p> the value of IClientUtils::GetServerRealTime() to determine age.</p>
+Returns the server time at which the result was generated. Compare against
+
+the value of IClientUtils::GetServerRealTime() to determine age.
 
 ```csharp
 public static uint GetResultTimestamp(SteamInventoryResult_t resultHandle)
@@ -505,10 +588,13 @@ public static uint GetResultTimestamp(SteamInventoryResult_t resultHandle)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverinventory.cs#L176" />
 
-<p> GrantPromoItems() checks the list of promotional items for which the user may be eligible</p>
-<p> and grants the items (one time only).  On success, the result set will include items which</p>
-<p> were granted, if any. If no items were granted because the user isn't eligible for any</p>
-<p> promotions, this is still considered a success.</p>
+GrantPromoItems() checks the list of promotional items for which the user may be eligible
+
+and grants the items (one time only). On success, the result set will include items which
+
+were granted, if any. If no items were granted because the user isn't eligible for any
+
+promotions, this is still considered a success.
 
 ```csharp
 public static bool GrantPromoItems(out SteamInventoryResult_t pResultHandle)
@@ -543,17 +629,27 @@ public static bool InspectItem(out SteamInventoryResult_t pResultHandle, string 
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverinventory.cs#L279" />
 
-<p> ITEM DEFINITIONS</p>
-<p> Item definitions are a mapping of "definition IDs" (integers between 1 and 1000000)</p>
-<p> to a set of string properties. Some of these properties are required to display items</p>
-<p> on the Steam community web site. Other properties can be defined by applications.</p>
-<p> Use of these functions is optional; there is no reason to call LoadItemDefinitions</p>
-<p> if your game hardcodes the numeric definition IDs (eg, purple face mask = 20, blue</p>
-<p> weapon mod = 55) and does not allow for adding new item types without a client patch.</p>
-<p> LoadItemDefinitions triggers the automatic load and refresh of item definitions.</p>
-<p> Every time new item definitions are available (eg, from the dynamic addition of new</p>
-<p> item types while players are still in-game), a SteamInventoryDefinitionUpdate_t</p>
-<p> callback will be fired.</p>
+ITEM DEFINITIONS
+
+Item definitions are a mapping of "definition IDs" (integers between 1 and 1000000)
+
+to a set of string properties. Some of these properties are required to display items
+
+on the Steam community web site. Other properties can be defined by applications.
+
+Use of these functions is optional; there is no reason to call LoadItemDefinitions
+
+if your game hardcodes the numeric definition IDs (eg, purple face mask = 20, blue
+
+weapon mod = 55) and does not allow for adding new item types without a client patch.
+
+LoadItemDefinitions triggers the automatic load and refresh of item definitions.
+
+Every time new item definitions are available (eg, from the dynamic addition of new
+
+item types while players are still in-game), a SteamInventoryDefinitionUpdate_t
+
+callback will be fired.
 
 ```csharp
 public static bool LoadItemDefinitions()
@@ -567,7 +663,7 @@ public static bool LoadItemDefinitions()
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverinventory.cs#L409" />
 
-<p> Remove the property on the item</p>
+Remove the property on the item
 
 ```csharp
 public static bool RemoveProperty(SteamInventoryUpdateHandle_t handle, SteamItemInstanceID_t nItemID, string pchPropertyName)
@@ -587,9 +683,11 @@ public static bool RemoveProperty(SteamInventoryUpdateHandle_t handle, SteamItem
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverinventory.cs#L326" />
 
-<p> Request the list of "eligible" promo items that can be manually granted to the given</p>
-<p> user.  These are promo items of type "manual" that won't be granted automatically.</p>
-<p> An example usage of this is an item that becomes available every week.</p>
+Request the list of "eligible" promo items that can be manually granted to the given
+
+user. These are promo items of type "manual" that won't be granted automatically.
+
+An example usage of this is an item that becomes available every week.
 
 ```csharp
 public static SteamAPICall_t RequestEligiblePromoItemDefinitionsIDs(CSteamID steamID)
@@ -607,7 +705,7 @@ public static SteamAPICall_t RequestEligiblePromoItemDefinitionsIDs(CSteamID ste
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverinventory.cs#L358" />
 
-<p> Request current prices for all applicable item definitions</p>
+Request current prices for all applicable item definitions
 
 ```csharp
 public static SteamAPICall_t RequestPrices()
@@ -621,8 +719,9 @@ public static SteamAPICall_t RequestPrices()
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverinventory.cs#L237" />
 
-<p> TIMED DROPS AND PLAYTIME CREDIT</p>
-<p> Deprecated. Calling this method is not required for proper playtime accounting.</p>
+TIMED DROPS AND PLAYTIME CREDIT
+
+Deprecated. Calling this method is not required for proper playtime accounting.
 
 ```csharp
 public static void SendItemDropHeartbeat()
@@ -632,19 +731,31 @@ public static void SendItemDropHeartbeat()
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverinventory.cs#L130" />
 
-<p> RESULT SERIALIZATION AND AUTHENTICATION</p>
-<p> Serialized result sets contain a short signature which can't be forged</p>
-<p> or replayed across different game sessions. A result set can be serialized</p>
-<p> on the local client, transmitted to other players via your game networking,</p>
-<p> and deserialized by the remote players. This is a secure way of preventing</p>
-<p> hackers from lying about posessing rare/high-value items.</p>
-<p> Serializes a result set with signature bytes to an output buffer. Pass</p>
-<p> NULL as an output buffer to get the required size via punOutBufferSize.</p>
-<p> The size of a serialized result depends on the number items which are being</p>
-<p> serialized. When securely transmitting items to other players, it is</p>
-<p> recommended to use "GetItemsByID" first to create a minimal result set.</p>
-<p> Results have a built-in timestamp which will be considered "expired" after</p>
-<p> an hour has elapsed. See DeserializeResult for expiration handling.</p>
+RESULT SERIALIZATION AND AUTHENTICATION
+
+Serialized result sets contain a short signature which can't be forged
+
+or replayed across different game sessions. A result set can be serialized
+
+on the local client, transmitted to other players via your game networking,
+
+and deserialized by the remote players. This is a secure way of preventing
+
+hackers from lying about posessing rare/high-value items.
+
+Serializes a result set with signature bytes to an output buffer. Pass
+
+NULL as an output buffer to get the required size via punOutBufferSize.
+
+The size of a serialized result depends on the number items which are being
+
+serialized. When securely transmitting items to other players, it is
+
+recommended to use "GetItemsByID" first to create a minimal result set.
+
+Results have a built-in timestamp which will be considered "expired" after
+
+an hour has elapsed. See DeserializeResult for expiration handling.
 
 ```csharp
 public static bool SerializeResult(SteamInventoryResult_t resultHandle, byte[] pOutBuffer, out uint punOutBufferSize)
@@ -664,7 +775,7 @@ public static bool SerializeResult(SteamInventoryResult_t resultHandle, byte[] p
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverinventory.cs#L419" />
 
-<p> Accessor methods to set properties on items</p>
+Accessor methods to set properties on items
 
 ```csharp
 public static bool SetProperty(SteamInventoryUpdateHandle_t handle, SteamItemInstanceID_t nItemID, string pchPropertyName, string pchPropertyValue)
@@ -742,10 +853,13 @@ public static bool SetProperty(SteamInventoryUpdateHandle_t handle, SteamItemIns
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverinventory.cs#L350" />
 
-<p> Starts the purchase process for the given item definitions.  The callback SteamInventoryStartPurchaseResult_t</p>
-<p> will be posted if Steam was able to initialize the transaction.</p>
-<p> Once the purchase has been authorized and completed by the user, the callback SteamInventoryResultReady_t</p>
-<p> will be posted.</p>
+Starts the purchase process for the given item definitions. The callback SteamInventoryStartPurchaseResult_t
+
+will be posted if Steam was able to initialize the transaction.
+
+Once the purchase has been authorized and completed by the user, the callback SteamInventoryResultReady_t
+
+will be posted.
 
 ```csharp
 public static SteamAPICall_t StartPurchase(SteamItemDef_t[] pArrayItemDefs, uint[] punArrayQuantity, uint unArrayLength)
@@ -765,7 +879,7 @@ public static SteamAPICall_t StartPurchase(SteamItemDef_t[] pArrayItemDefs, uint
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverinventory.cs#L401" />
 
-<p> Create a request to update properties on items</p>
+Create a request to update properties on items
 
 ```csharp
 public static SteamInventoryUpdateHandle_t StartUpdateProperties()
@@ -779,7 +893,7 @@ public static SteamInventoryUpdateHandle_t StartUpdateProperties()
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverinventory.cs#L451" />
 
-<p> Submit the update request by handle</p>
+Submit the update request by handle
 
 ```csharp
 public static bool SubmitUpdateProperties(SteamInventoryUpdateHandle_t handle, out SteamInventoryResult_t pResultHandle)
@@ -798,7 +912,7 @@ public static bool SubmitUpdateProperties(SteamInventoryUpdateHandle_t handle, o
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverinventory.cs#L261" />
 
-<p> Deprecated. This method is not supported.</p>
+Deprecated. This method is not supported.
 
 ```csharp
 public static bool TradeItems(out SteamInventoryResult_t pResultHandle, CSteamID steamIDTradePartner, SteamItemInstanceID_t[] pArrayGive, uint[] pArrayGiveQuantity, uint nArrayGiveLength, SteamItemInstanceID_t[] pArrayGet, uint[] pArrayGetQuantity, uint nArrayGetLength)
@@ -823,10 +937,13 @@ public static bool TradeItems(out SteamInventoryResult_t pResultHandle, CSteamID
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverinventory.cs#L228" />
 
-<p> TransferItemQuantity() is intended for use with items which are "stackable" (can have</p>
-<p> quantity greater than one). It can be used to split a stack into two, or to transfer</p>
-<p> quantity from one stack into another stack of identical items. To split one stack into</p>
-<p> two, pass k_SteamItemInstanceIDInvalid for itemIdDest and a new item will be generated.</p>
+TransferItemQuantity() is intended for use with items which are "stackable" (can have
+
+quantity greater than one). It can be used to split a stack into two, or to transfer
+
+quantity from one stack into another stack of identical items. To split one stack into
+
+two, pass k_SteamItemInstanceIDInvalid for itemIdDest and a new item will be generated.
 
 ```csharp
 public static bool TransferItemQuantity(out SteamInventoryResult_t pResultHandle, SteamItemInstanceID_t itemIdSource, uint unQuantity, SteamItemInstanceID_t itemIdDest)
@@ -847,15 +964,23 @@ public static bool TransferItemQuantity(out SteamInventoryResult_t pResultHandle
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverinventory.cs#L253" />
 
-<p> Playtime credit must be consumed and turned into item drops by your game. Only item</p>
-<p> definitions which are marked as "playtime item generators" can be spawned. The call</p>
-<p> will return an empty result set if there is not enough playtime credit for a drop.</p>
-<p> Your game should call TriggerItemDrop at an appropriate time for the user to receive</p>
-<p> new items, such as between rounds or while the player is dead. Note that players who</p>
-<p> hack their clients could modify the value of "dropListDefinition", so do not use it</p>
-<p> to directly control rarity.</p>
-<p> See your Steamworks configuration to set playtime drop rates for individual itemdefs.</p>
-<p> The client library will suppress too-frequent calls to this method.</p>
+Playtime credit must be consumed and turned into item drops by your game. Only item
+
+definitions which are marked as "playtime item generators" can be spawned. The call
+
+will return an empty result set if there is not enough playtime credit for a drop.
+
+Your game should call TriggerItemDrop at an appropriate time for the user to receive
+
+new items, such as between rounds or while the player is dead. Note that players who
+
+hack their clients could modify the value of "dropListDefinition", so do not use it
+
+to directly control rarity.
+
+See your Steamworks configuration to set playtime drop rates for individual itemdefs.
+
+The client library will suppress too-frequent calls to this method.
 
 ```csharp
 public static bool TriggerItemDrop(out SteamInventoryResult_t pResultHandle, SteamItemDef_t dropListDefinition)

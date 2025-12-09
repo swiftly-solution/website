@@ -31,7 +31,7 @@ public static class Helper
 
 ## Methods
 
-### AsProtobuf(nint, bool)
+### AsProtobuf\<T\>(nint, bool)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Helper.cs#L98" />
 
@@ -50,11 +50,11 @@ public static T AsProtobuf<T>(nint ptr, bool manuallyAllocated) where T : ITyped
 
 - <ApiParam type="T" /> — The protobuf class.
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" /> — The protobuf class to convert to.
 
-### AsSchema(nint)
+### AsSchema\<T\>(nint)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Helper.cs#L86" />
 
@@ -72,7 +72,7 @@ public static T AsSchema<T>(nint ptr) where T : ISchemaClass<T>
 
 - <ApiParam type="T" /> — The schema class.
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" /> — The schema class to convert to.
 
@@ -131,7 +131,7 @@ public static float GetCharWidth(char c)
 
 - <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" /> — The estimated display width in relative units.
 
-### GetSchemaSize()
+### GetSchemaSize\<T\>()
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Helper.cs#L108" />
 
@@ -145,7 +145,7 @@ public static int GetSchemaSize<T>() where T : ISchemaClass<T>
 
 - <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> — The size of the schema class.
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" /> — The schema class to get the size of.
 

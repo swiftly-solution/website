@@ -50,7 +50,7 @@ string Comment { get; set; }
 
 - <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
 
-#### Remarks
+<ApiLabel>Remarks</ApiLabel>
 
 This is a global property. Changing it will affect what all players see.
 
@@ -68,7 +68,7 @@ bool Enabled { get; set; }
 
 - <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
 
-#### Remarks
+<ApiLabel>Remarks</ApiLabel>
 
 This is a global property. Changing it will affect what all players see.
 
@@ -114,9 +114,9 @@ IMenuAPI? Menu { get; }
 
 - <ApiParam type="IMenuAPI?" typeHref="/docs/api/menus/imenuapi" />
 
-#### Remarks
+<ApiLabel>Remarks</ApiLabel>
 
-This property will be null until the option is added to a menu via <xref href="SwiftlyS2.Shared.Menus.IMenuAPI.AddOption(SwiftlyS2.Shared.Menus.IMenuOption)" data-throw-if-not-resolved="false"></xref>.
+This property will be null until the option is added to a menu via SwiftlyS2.Shared.Menus.IMenuAPI.AddOption(SwiftlyS2.Shared.Menus.IMenuOption).
 When implementing custom menu options, avoid accessing this property in the constructor as it will not be set yet.
 
 ### PlaySound
@@ -161,7 +161,7 @@ string Text { get; set; }
 
 - <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
 
-#### Remarks
+<ApiLabel>Remarks</ApiLabel>
 
 This is a global property. Changing it will affect what all players see.
 
@@ -207,7 +207,7 @@ bool Visible { get; set; }
 
 - <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
 
-#### Remarks
+<ApiLabel>Remarks</ApiLabel>
 
 This is a global property. Changing it will affect what all players see.
 
@@ -232,13 +232,13 @@ string GetDisplayText(IPlayer player, int displayLine = 0)
 
 - <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The formatted display text for the option.
 
-#### Remarks
+<ApiLabel>Remarks</ApiLabel>
 
-When a menu option occupies multiple lines, MenuAPI may only need to display a specific line of that option.
-<ul><li>When <code>LineCount=1</code>: The <code>displayLine</code> parameter is not needed; return the HTML-formatted string directly.</li><li>When <code>LineCount&gt;=2</code>: Check the <code>displayLine</code> parameter:
-  <ul><li><code>displayLine=0</code>: Return all content</li><li><code>displayLine=1</code>: Return only the first line content</li><li><code>displayLine=2</code>: Return only the second line content</li><li>And so on...</li></ul>
-</li></ul>
-Note: MenuAPI ensures that the <code>displayLine</code> parameter will not exceed the option's <code>LineCount</code>.
+- When `LineCount=1`: The `displayLine` parameter is not needed; return the HTML-formatted string directly.
+  - `displayLine=0`: Return all content
+  - `displayLine=1`: Return only the first line content
+  - `displayLine=2`: Return only the second line content
+  - And so on...
 
 ### GetEnabled(IPlayer)
 
@@ -345,9 +345,9 @@ void SetEnabled(IPlayer player, bool enabled)
 - <ApiParam name="player" type="IPlayer" typeHref="/docs/api/players/iplayer" /> — The player to set enabled state for.
 - <ApiParam name="enabled" type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" /> — True to enable the option for the player; false to disable it.
 
-#### Remarks
+<ApiLabel>Remarks</ApiLabel>
 
-The per-player enabled state has lower priority than the global <xref href="SwiftlyS2.Shared.Menus.IMenuOption.Enabled" data-throw-if-not-resolved="false"></xref> property.
+The per-player enabled state has lower priority than the global SwiftlyS2.Shared.Menus.IMenuOption.Enabled property.
 
 ### SetVisible(IPlayer, bool)
 
@@ -364,9 +364,9 @@ void SetVisible(IPlayer player, bool visible)
 - <ApiParam name="player" type="IPlayer" typeHref="/docs/api/players/iplayer" /> — The player to set visibility for.
 - <ApiParam name="visible" type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" /> — True to make the option visible to the player; false to hide it.
 
-#### Remarks
+<ApiLabel>Remarks</ApiLabel>
 
-The per-player visibility has lower priority than the global <xref href="SwiftlyS2.Shared.Menus.IMenuOption.Visible" data-throw-if-not-resolved="false"></xref> property.
+The per-player visibility has lower priority than the global SwiftlyS2.Shared.Menus.IMenuOption.Visible property.
 
 ### AfterFormat
 
@@ -378,7 +378,7 @@ Occurs after HTML markup is assembled, allowing customization of the final HTML 
 event EventHandler<MenuOptionFormattingEventArgs>? AfterFormat
 ```
 
-#### Event Type
+<ApiLabel>Event Type</ApiLabel>
 
 - <ApiParam type="EventHandler&lt;MenuOptionFormattingEventArgs&gt;?" typeHref="https://learn.microsoft.com/dotnet/api/system.eventhandler-1" />
 
@@ -392,7 +392,7 @@ Occurs before HTML markup is assembled, allowing customization of the text conte
 event EventHandler<MenuOptionFormattingEventArgs>? BeforeFormat
 ```
 
-#### Event Type
+<ApiLabel>Event Type</ApiLabel>
 
 - <ApiParam type="EventHandler&lt;MenuOptionFormattingEventArgs&gt;?" typeHref="https://learn.microsoft.com/dotnet/api/system.eventhandler-1" />
 
@@ -406,7 +406,7 @@ Occurs when the option is clicked by a player.
 event AsyncEventHandler<MenuOptionClickEventArgs>? Click
 ```
 
-#### Event Type
+<ApiLabel>Event Type</ApiLabel>
 
 - <ApiParam type="AsyncEventHandler&lt;MenuOptionClickEventArgs&gt;?" typeHref="/docs/api/menus/asynceventhandlert" />
 
@@ -420,7 +420,7 @@ Occurs when the enabled state of the option changes.
 event EventHandler<MenuOptionEventArgs>? EnabledChanged
 ```
 
-#### Event Type
+<ApiLabel>Event Type</ApiLabel>
 
 - <ApiParam type="EventHandler&lt;MenuOptionEventArgs&gt;?" typeHref="https://learn.microsoft.com/dotnet/api/system.eventhandler-1" />
 
@@ -434,7 +434,7 @@ Occurs when the text of the option changes.
 event EventHandler<MenuOptionEventArgs>? TextChanged
 ```
 
-#### Event Type
+<ApiLabel>Event Type</ApiLabel>
 
 - <ApiParam type="EventHandler&lt;MenuOptionEventArgs&gt;?" typeHref="https://learn.microsoft.com/dotnet/api/system.eventhandler-1" />
 
@@ -442,13 +442,13 @@ event EventHandler<MenuOptionEventArgs>? TextChanged
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuOption.cs#L230" />
 
-Occurs before a <xref href="SwiftlyS2.Shared.Menus.IMenuOption.Click" data-throw-if-not-resolved="false"></xref> event is processed, allowing validation and cancellation.
+Occurs before a SwiftlyS2.Shared.Menus.IMenuOption.Click event is processed, allowing validation and cancellation.
 
 ```csharp
 event EventHandler<MenuOptionValidatingEventArgs>? Validating
 ```
 
-#### Event Type
+<ApiLabel>Event Type</ApiLabel>
 
 - <ApiParam type="EventHandler&lt;MenuOptionValidatingEventArgs&gt;?" typeHref="https://learn.microsoft.com/dotnet/api/system.eventhandler-1" />
 
@@ -462,7 +462,7 @@ Occurs when the visibility of the option changes.
 event EventHandler<MenuOptionEventArgs>? VisibilityChanged
 ```
 
-#### Event Type
+<ApiLabel>Event Type</ApiLabel>
 
 - <ApiParam type="EventHandler&lt;MenuOptionEventArgs&gt;?" typeHref="https://learn.microsoft.com/dotnet/api/system.eventhandler-1" />
 

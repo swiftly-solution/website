@@ -18,6 +18,7 @@ export const docs = defineDocs({
   meta: {
     schema: metaSchema,
   },
+  dir: "content/docs"
 });
 
 export default defineConfig({

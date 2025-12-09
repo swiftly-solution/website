@@ -103,7 +103,7 @@ string? GetObjectPtrVtableName(nint address)
 
 - <ApiParam type="string?" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The vtable name. Return null if not found.
 
-### GetUnmanagedFunctionByAddress(nint)
+### GetUnmanagedFunctionByAddress\<TDelegate\>(nint)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L14" />
 
@@ -121,11 +121,11 @@ IUnmanagedFunction<TDelegate> GetUnmanagedFunctionByAddress<TDelegate>(nint addr
 
 - <ApiParam type="IUnmanagedFunction&lt;TDelegate&gt;" typeHref="/docs/api/memory/iunmanagedfunctiont" /> — The unmanaged function.
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="TDelegate" /> — The delegate type of the unmanaged function.
 
-### GetUnmanagedFunctionByVTable(nint, int)
+### GetUnmanagedFunctionByVTable\<TDelegate\>(nint, int)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L23" />
 
@@ -144,7 +144,7 @@ IUnmanagedFunction<TDelegate> GetUnmanagedFunctionByVTable<TDelegate>(nint pVTab
 
 - <ApiParam type="IUnmanagedFunction&lt;TDelegate&gt;" typeHref="/docs/api/memory/iunmanagedfunctiont" /> — The unmanaged function.
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="TDelegate" />
 
@@ -259,7 +259,7 @@ nint ResolveXrefAddress(nint xrefAddress)
 
 - <ApiParam type="nint" typeHref="https://learn.microsoft.com/dotnet/api/system.intptr" /> — The resolved address.
 
-### ToSchemaClass(nint)
+### ToSchemaClass\<T\>(nint)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L89" />
 
@@ -277,7 +277,7 @@ T ToSchemaClass<T>(nint address) where T : class, ISchemaClass<T>
 
 - <ApiParam type="T" /> — The schema class.
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" /> — The schema class type.
 

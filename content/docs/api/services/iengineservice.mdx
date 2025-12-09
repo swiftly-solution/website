@@ -200,7 +200,7 @@ Task ExecuteCommandAsync(string command)
 
 - <ApiParam type="Task" typeHref="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task" />
 
-### ExecuteCommandWithBuffer(string, Action)
+### ExecuteCommandWithBuffer(string, Action\<string\>)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L59" />
 
@@ -215,7 +215,7 @@ void ExecuteCommandWithBuffer(string command, Action<string> bufferCallback)
 - <ApiParam name="command" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The command to execute. Cannot be null or empty.
 - <ApiParam name="bufferCallback" type="Action&lt;string&gt;" typeHref="https://learn.microsoft.com/dotnet/api/system.action-1" /> — The callback to receive the output of the command.
 
-### ExecuteCommandWithBufferAsync(string, Action)
+### ExecuteCommandWithBufferAsync(string, Action\<string\>)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L66" />
 

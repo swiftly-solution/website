@@ -35,7 +35,7 @@ public static class SteamGameServerUGC
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L802" />
 
-<p> add/remove app dependence/requirements (usually DLC)</p>
+add/remove app dependence/requirements (usually DLC)
 
 ```csharp
 public static SteamAPICall_t AddAppDependency(PublishedFileId_t nPublishedFileID, AppId_t nAppID)
@@ -71,7 +71,7 @@ public static bool AddContentDescriptor(UGCUpdateHandle_t handle, EUGCContentDes
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L787" />
 
-<p> parent-child relationship or dependency management</p>
+parent-child relationship or dependency management
 
 ```csharp
 public static SteamAPICall_t AddDependency(PublishedFileId_t nParentPublishedFileID, PublishedFileId_t nChildPublishedFileID)
@@ -107,7 +107,7 @@ public static bool AddExcludedTag(UGCQueryHandle_t handle, string pTagName)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L525" />
 
-<p> add new key-value tags for the item. Note that there can be multiple values for a tag.</p>
+add new key-value tags for the item. Note that there can be multiple values for a tag.
 
 ```csharp
 public static bool AddItemKeyValueTag(UGCUpdateHandle_t handle, string pchKey, string pchValue)
@@ -127,7 +127,7 @@ public static bool AddItemKeyValueTag(UGCUpdateHandle_t handle, string pchKey, s
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L538" />
 
-<p>  add preview file for this item. pszPreviewFile points to local file, which must be under 1MB in size</p>
+add preview file for this item. pszPreviewFile points to local file, which must be under 1MB in size
 
 ```csharp
 public static bool AddItemPreviewFile(UGCUpdateHandle_t handle, string pszPreviewFile, EItemPreviewType type)
@@ -147,7 +147,7 @@ public static bool AddItemPreviewFile(UGCUpdateHandle_t handle, string pszPrevie
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L550" />
 
-<p>  add preview video for this item</p>
+add preview video for this item
 
 ```csharp
 public static bool AddItemPreviewVideo(UGCUpdateHandle_t handle, string pszVideoID)
@@ -201,7 +201,7 @@ public static bool AddRequiredKeyValueTag(UGCQueryHandle_t handle, string pKey, 
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L217" />
 
-<p> Options to set for querying UGC</p>
+Options to set for querying UGC
 
 ```csharp
 public static bool AddRequiredTag(UGCQueryHandle_t handle, string pTagName)
@@ -216,11 +216,11 @@ public static bool AddRequiredTag(UGCQueryHandle_t handle, string pTagName)
 
 - <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
 
-### AddRequiredTagGroup(UGCQueryHandle_t, IList)
+### AddRequiredTagGroup(UGCQueryHandle_t, IList\<string\>)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L229" />
 
-<p> match any of the tags in this group</p>
+match any of the tags in this group
 
 ```csharp
 public static bool AddRequiredTagGroup(UGCQueryHandle_t handle, IList<string> pTagGroups)
@@ -239,8 +239,9 @@ public static bool AddRequiredTagGroup(UGCQueryHandle_t handle, IList<string> pT
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L745" />
 
-<p> game servers can set a specific workshop folder before issuing any UGC commands.</p>
-<p> This is helpful if you want to support multiple game servers running out of the same install folder</p>
+game servers can set a specific workshop folder before issuing any UGC commands.
+
+This is helpful if you want to support multiple game servers running out of the same install folder
 
 ```csharp
 public static bool BInitWorkshopForGameServer(DepotId_t unWorkshopDepotID, string pszFolder)
@@ -259,8 +260,9 @@ public static bool BInitWorkshopForGameServer(DepotId_t unWorkshopDepotID, strin
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L387" />
 
-<p> Steam Workshop Creator API</p>
-<p> create new item for this app with no content attached yet</p>
+Steam Workshop Creator API
+
+create new item for this app with no content attached yet
 
 ```csharp
 public static SteamAPICall_t CreateItem(AppId_t nConsumerAppId, EWorkshopFileType eFileType)
@@ -279,7 +281,7 @@ public static SteamAPICall_t CreateItem(AppId_t nConsumerAppId, EWorkshopFileTyp
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L20" />
 
-<p> Query for all matching UGC. Creator app id or consumer app id must be valid and be set to the current running app. unPage should start at 1.</p>
+Query for all matching UGC. Creator app id or consumer app id must be valid and be set to the current running app. unPage should start at 1.
 
 ```csharp
 public static UGCQueryHandle_t CreateQueryAllUGCRequest(EUGCQuery eQueryType, EUGCMatchingUGCType eMatchingeMatchingUGCTypeFileType, AppId_t nCreatorAppID, AppId_t nConsumerAppID, uint unPage)
@@ -301,7 +303,7 @@ public static UGCQueryHandle_t CreateQueryAllUGCRequest(EUGCQuery eQueryType, EU
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L29" />
 
-<p> Query for all matching UGC using the new deep paging interface. Creator app id or consumer app id must be valid and be set to the current running app. pchCursor should be set to NULL or "*" to get the first result set.</p>
+Query for all matching UGC using the new deep paging interface. Creator app id or consumer app id must be valid and be set to the current running app. pchCursor should be set to NULL or "*" to get the first result set.
 
 ```csharp
 public static UGCQueryHandle_t CreateQueryAllUGCRequest(EUGCQuery eQueryType, EUGCMatchingUGCType eMatchingeMatchingUGCTypeFileType, AppId_t nCreatorAppID, AppId_t nConsumerAppID, string pchCursor = null)
@@ -323,7 +325,7 @@ public static UGCQueryHandle_t CreateQueryAllUGCRequest(EUGCQuery eQueryType, EU
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L41" />
 
-<p> Query for the details of the given published file ids (the RequestUGCDetails call is deprecated and replaced with this)</p>
+Query for the details of the given published file ids (the RequestUGCDetails call is deprecated and replaced with this)
 
 ```csharp
 public static UGCQueryHandle_t CreateQueryUGCDetailsRequest(PublishedFileId_t[] pvecPublishedFileID, uint unNumPublishedFileIDs)
@@ -342,7 +344,7 @@ public static UGCQueryHandle_t CreateQueryUGCDetailsRequest(PublishedFileId_t[] 
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L11" />
 
-<p> Query UGC associated with a user. Creator app id or consumer app id must be valid and be set to the current running app. unPage should start at 1.</p>
+Query UGC associated with a user. Creator app id or consumer app id must be valid and be set to the current running app. unPage should start at 1.
 
 ```csharp
 public static UGCQueryHandle_t CreateQueryUserUGCRequest(AccountID_t unAccountID, EUserUGCList eListType, EUGCMatchingUGCType eMatchingUGCType, EUserUGCListSortOrder eSortOrder, AppId_t nCreatorAppID, AppId_t nConsumerAppID, uint unPage)
@@ -366,7 +368,7 @@ public static UGCQueryHandle_t CreateQueryUserUGCRequest(AccountID_t unAccountID
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L827" />
 
-<p> delete the item without prompting the user</p>
+delete the item without prompting the user
 
 ```csharp
 public static SteamAPICall_t DeleteItem(PublishedFileId_t nPublishedFileID)
@@ -384,9 +386,11 @@ public static SteamAPICall_t DeleteItem(PublishedFileId_t nPublishedFileID)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L735" />
 
-<p> download new or update already installed item. If function returns true, wait for DownloadItemResult_t. If the item is already installed,</p>
-<p> then files on disk should not be used until callback received. If item is not subscribed to, it will be cached for some time.</p>
-<p> If bHighPriority is set, any other item download will be suspended and this item downloaded ASAP.</p>
+download new or update already installed item. If function returns true, wait for DownloadItemResult_t. If the item is already installed,
+
+then files on disk should not be used until callback received. If item is not subscribed to, it will be cached for some time.
+
+If bHighPriority is set, any other item download will be suspended and this item downloaded ASAP.
 
 ```csharp
 public static bool DownloadItem(PublishedFileId_t nPublishedFileID, bool bHighPriority)
@@ -405,8 +409,9 @@ public static bool DownloadItem(PublishedFileId_t nPublishedFileID, bool bHighPr
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L818" />
 
-<p> request app dependencies. note that whatever callback you register for GetAppDependenciesResult_t may be called multiple times</p>
-<p> until all app dependencies have been returned</p>
+request app dependencies. note that whatever callback you register for GetAppDependenciesResult_t may be called multiple times
+
+until all app dependencies have been returned
 
 ```csharp
 public static SteamAPICall_t GetAppDependencies(PublishedFileId_t nPublishedFileID)
@@ -424,7 +429,7 @@ public static SteamAPICall_t GetAppDependencies(PublishedFileId_t nPublishedFile
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L724" />
 
-<p> get info about pending update for items that have k_EItemStateNeedsUpdate set. punBytesTotal will be valid after download started once</p>
+get info about pending update for items that have k_EItemStateNeedsUpdate set. punBytesTotal will be valid after download started once
 
 ```csharp
 public static bool GetItemDownloadInfo(PublishedFileId_t nPublishedFileID, out ulong punBytesDownloaded, out ulong punBytesTotal)
@@ -444,8 +449,9 @@ public static bool GetItemDownloadInfo(PublishedFileId_t nPublishedFileID, out u
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L711" />
 
-<p> get info about currently installed content on disc for items that have k_EItemStateInstalled set</p>
-<p> if k_EItemStateLegacyItem is set, pchFolder contains the path to the legacy file itself (not a folder)</p>
+get info about currently installed content on disc for items that have k_EItemStateInstalled set
+
+if k_EItemStateLegacyItem is set, pchFolder contains the path to the legacy file itself (not a folder)
 
 ```csharp
 public static bool GetItemInstallInfo(PublishedFileId_t nPublishedFileID, out ulong punSizeOnDisk, out string pchFolder, uint cchFolderSize, out uint punTimeStamp)
@@ -467,7 +473,7 @@ public static bool GetItemInstallInfo(PublishedFileId_t nPublishedFileID, out ul
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L701" />
 
-<p> get EItemState flags about item on this client</p>
+get EItemState flags about item on this client
 
 ```csharp
 public static uint GetItemState(PublishedFileId_t nPublishedFileID)
@@ -503,7 +509,7 @@ public static EItemUpdateStatus GetItemUpdateProgress(UGCUpdateHandle_t handle, 
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L683" />
 
-<p> number of subscribed items</p>
+number of subscribed items
 
 ```csharp
 public static uint GetNumSubscribedItems(bool bIncludeLocallyDisabled = false)
@@ -521,7 +527,7 @@ public static uint GetNumSubscribedItems(bool bIncludeLocallyDisabled = false)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L180" />
 
-<p> Some items can specify that they have a version that is valid for a range of game versions (Steam branch)</p>
+Some items can specify that they have a version that is valid for a range of game versions (Steam branch)
 
 ```csharp
 public static uint GetNumSupportedGameVersions(UGCQueryHandle_t handle, uint index)
@@ -623,7 +629,7 @@ public static bool GetQueryUGCKeyValueTag(UGCQueryHandle_t handle, uint index, u
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L164" />
 
-<p> Return the first value matching the pchKey. Note that a key may map to multiple values.  Returns false if there was an error or no matching value was found.</p>
+Return the first value matching the pchKey. Note that a key may map to multiple values. Returns false if there was an error or no matching value was found.
 
 ```csharp
 public static bool GetQueryUGCKeyValueTag(UGCQueryHandle_t handle, uint index, string pchKey, out string pchValue, uint cchValueSize)
@@ -734,7 +740,7 @@ public static bool GetQueryUGCPreviewURL(UGCQueryHandle_t handle, uint index, ou
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L59" />
 
-<p> Retrieve an individual result after receiving the callback for querying UGC</p>
+Retrieve an individual result after receiving the callback for querying UGC
 
 ```csharp
 public static bool GetQueryUGCResult(UGCQueryHandle_t handle, uint index, out SteamUGCDetails_t pDetails)
@@ -813,7 +819,7 @@ public static bool GetQueryUGCTagDisplayName(UGCQueryHandle_t handle, uint index
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L692" />
 
-<p> all subscribed item PublishFileIDs</p>
+all subscribed item PublishFileIDs
 
 ```csharp
 public static uint GetSubscribedItems(PublishedFileId_t[] pvecPublishedFileID, uint cMaxEntries, bool bIncludeLocallyDisabled = false)
@@ -854,7 +860,7 @@ public static bool GetSupportedGameVersionData(UGCQueryHandle_t handle, uint ind
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L854" />
 
-<p> Return the user's community content descriptor preferences</p>
+Return the user's community content descriptor preferences
 
 ```csharp
 public static uint GetUserContentDescriptorPreferences(out EUGCContentDescriptorID pvecDescriptors, uint cMaxEntries)
@@ -889,7 +895,7 @@ public static SteamAPICall_t GetUserItemVote(PublishedFileId_t nPublishedFileID)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L845" />
 
-<p> Retrieve information related to the user's acceptance or not of the app's specific Workshop EULA</p>
+Retrieve information related to the user's acceptance or not of the app's specific Workshop EULA
 
 ```csharp
 public static SteamAPICall_t GetWorkshopEULAStatus()
@@ -903,7 +909,7 @@ public static SteamAPICall_t GetWorkshopEULAStatus()
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L208" />
 
-<p> Release the request to free up memory, after retrieving results</p>
+Release the request to free up memory, after retrieving results
 
 ```csharp
 public static bool ReleaseQueryUGCRequest(UGCQueryHandle_t handle)
@@ -921,7 +927,7 @@ public static bool ReleaseQueryUGCRequest(UGCQueryHandle_t handle)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L504" />
 
-<p> remove all existing key-value tags (you can add new ones via the AddItemKeyValueTag function)</p>
+remove all existing key-value tags (you can add new ones via the AddItemKeyValueTag function)
 
 ```csharp
 public static bool RemoveAllItemKeyValueTags(UGCUpdateHandle_t handle)
@@ -1007,7 +1013,7 @@ public static SteamAPICall_t RemoveItemFromFavorites(AppId_t nAppId, PublishedFi
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L513" />
 
-<p> remove any existing key-value tags with the specified key</p>
+remove any existing key-value tags with the specified key
 
 ```csharp
 public static bool RemoveItemKeyValueTags(UGCUpdateHandle_t handle, string pchKey)
@@ -1026,7 +1032,7 @@ public static bool RemoveItemKeyValueTags(UGCUpdateHandle_t handle, string pchKe
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L586" />
 
-<p> remove a preview by index starting at 0 (previews are sorted)</p>
+remove a preview by index starting at 0 (previews are sorted)
 
 ```csharp
 public static bool RemoveItemPreview(UGCUpdateHandle_t handle, uint index)
@@ -1045,7 +1051,7 @@ public static bool RemoveItemPreview(UGCUpdateHandle_t handle, uint index)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L377" />
 
-<p> DEPRECATED - Use CreateQueryUGCDetailsRequest call above instead!</p>
+DEPRECATED - Use CreateQueryUGCDetailsRequest call above instead!
 
 ```csharp
 public static SteamAPICall_t RequestUGCDetails(PublishedFileId_t nPublishedFileID, uint unMaxAgeSeconds)
@@ -1064,7 +1070,7 @@ public static SteamAPICall_t RequestUGCDetails(PublishedFileId_t nPublishedFileI
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L50" />
 
-<p> Send the query to Steam</p>
+Send the query to Steam
 
 ```csharp
 public static SteamAPICall_t SendQueryUGCRequest(UGCQueryHandle_t handle)
@@ -1082,7 +1088,7 @@ public static SteamAPICall_t SendQueryUGCRequest(UGCQueryHandle_t handle)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L310" />
 
-<p> admin queries return hidden items</p>
+admin queries return hidden items
 
 ```csharp
 public static bool SetAdminQuery(UGCUpdateHandle_t handle, bool bAdminQuery)
@@ -1118,7 +1124,7 @@ public static bool SetAllowCachedResponse(UGCQueryHandle_t handle, uint unMaxAge
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L495" />
 
-<p>  use legacy upload for a single small file. The parameter to SetItemContent() should either be a directory with one file or the full path to the file.  The file must also be less than 10MB in size.</p>
+use legacy upload for a single small file. The parameter to SetItemContent() should either be a directory with one file or the full path to the file. The file must also be less than 10MB in size.
 
 ```csharp
 public static bool SetAllowLegacyUpload(UGCUpdateHandle_t handle, bool bAllowLegacyUpload)
@@ -1137,7 +1143,7 @@ public static bool SetAllowLegacyUpload(UGCUpdateHandle_t handle, bool bAllowLeg
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L319" />
 
-<p> Options only for querying user UGC</p>
+Options only for querying user UGC
 
 ```csharp
 public static bool SetCloudFileNameFilter(UGCQueryHandle_t handle, string pMatchCloudFileName)
@@ -1156,7 +1162,7 @@ public static bool SetCloudFileNameFilter(UGCQueryHandle_t handle, string pMatch
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L471" />
 
-<p> update item content from this local folder</p>
+update item content from this local folder
 
 ```csharp
 public static bool SetItemContent(UGCUpdateHandle_t handle, string pszContentFolder)
@@ -1175,7 +1181,7 @@ public static bool SetItemContent(UGCUpdateHandle_t handle, string pszContentFol
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L417" />
 
-<p> change the description of an UGC item</p>
+change the description of an UGC item
 
 ```csharp
 public static bool SetItemDescription(UGCUpdateHandle_t handle, string pchDescription)
@@ -1194,7 +1200,7 @@ public static bool SetItemDescription(UGCUpdateHandle_t handle, string pchDescri
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L441" />
 
-<p> change the metadata of an UGC item (max = k_cchDeveloperMetadataMax)</p>
+change the metadata of an UGC item (max = k_cchDeveloperMetadataMax)
 
 ```csharp
 public static bool SetItemMetadata(UGCUpdateHandle_t handle, string pchMetaData)
@@ -1213,7 +1219,7 @@ public static bool SetItemMetadata(UGCUpdateHandle_t handle, string pchMetaData)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L483" />
 
-<p>  change preview image file for this item. pszPreviewFile points to local image file, which must be under 1MB in size</p>
+change preview image file for this item. pszPreviewFile points to local image file, which must be under 1MB in size
 
 ```csharp
 public static bool SetItemPreview(UGCUpdateHandle_t handle, string pszPreviewFile)
@@ -1228,11 +1234,11 @@ public static bool SetItemPreview(UGCUpdateHandle_t handle, string pszPreviewFil
 
 - <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
 
-### SetItemTags(UGCUpdateHandle_t, IList, bool)
+### SetItemTags(UGCUpdateHandle_t, IList\<string\>, bool)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L462" />
 
-<p> change the tags of an UGC item</p>
+change the tags of an UGC item
 
 ```csharp
 public static bool SetItemTags(UGCUpdateHandle_t updateHandle, IList<string> pTags, bool bAllowAdminTags = false)
@@ -1252,7 +1258,7 @@ public static bool SetItemTags(UGCUpdateHandle_t updateHandle, IList<string> pTa
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L405" />
 
-<p> change the title of an UGC item</p>
+change the title of an UGC item
 
 ```csharp
 public static bool SetItemTitle(UGCUpdateHandle_t handle, string pchTitle)
@@ -1271,7 +1277,7 @@ public static bool SetItemTitle(UGCUpdateHandle_t handle, string pchTitle)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L429" />
 
-<p> specify the language of the title or description that will be set</p>
+specify the language of the title or description that will be set
 
 ```csharp
 public static bool SetItemUpdateLanguage(UGCUpdateHandle_t handle, string pchLanguage)
@@ -1290,7 +1296,7 @@ public static bool SetItemUpdateLanguage(UGCUpdateHandle_t handle, string pchLan
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L453" />
 
-<p> change the visibility of an UGC item</p>
+change the visibility of an UGC item
 
 ```csharp
 public static bool SetItemVisibility(UGCUpdateHandle_t handle, ERemoteStoragePublishedFileVisibility eVisibility)
@@ -1309,7 +1315,7 @@ public static bool SetItemVisibility(UGCUpdateHandle_t handle, ERemoteStoragePub
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L863" />
 
-<p> Sets whether the item should be disabled locally or not. This means that it will not be returned in GetSubscribedItems() by default.</p>
+Sets whether the item should be disabled locally or not. This means that it will not be returned in GetSubscribedItems() by default.
 
 ```csharp
 public static bool SetItemsDisabledLocally(out PublishedFileId_t pvecPublishedFileIDs, uint unNumPublishedFileIDs, bool bDisabledLocally)
@@ -1346,7 +1352,7 @@ public static bool SetLanguage(UGCQueryHandle_t handle, string pchLanguage)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L331" />
 
-<p> Options only for querying all UGC</p>
+Options only for querying all UGC
 
 ```csharp
 public static bool SetMatchAnyTag(UGCQueryHandle_t handle, bool bMatchAnyTag)
@@ -1382,7 +1388,7 @@ public static bool SetRankedByTrendDays(UGCQueryHandle_t handle, uint unDays)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L607" />
 
-<p> an empty string for either parameter means that it will match any version on that end of the range. This will only be applied if the actual content has been changed.</p>
+an empty string for either parameter means that it will match any version on that end of the range. This will only be applied if the actual content has been changed.
 
 ```csharp
 public static bool SetRequiredGameVersions(UGCUpdateHandle_t handle, string pszGameBranchMin, string pszGameBranchMax)
@@ -1555,7 +1561,7 @@ public static bool SetSearchText(UGCQueryHandle_t handle, string pSearchText)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L872" />
 
-<p> Set the local load order for these items. If there are any items not in the given list, they will sort by the time subscribed.</p>
+Set the local load order for these items. If there are any items not in the given list, they will sort by the time subscribed.
 
 ```csharp
 public static bool SetSubscriptionsLoadOrder(out PublishedFileId_t pvecPublishedFileIDs, uint unNumPublishedFileIDs)
@@ -1610,7 +1616,7 @@ public static bool SetTimeUpdatedDateRange(UGCQueryHandle_t handle, uint rtStart
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L638" />
 
-<p> Steam Workshop Consumer API</p>
+Steam Workshop Consumer API
 
 ```csharp
 public static SteamAPICall_t SetUserItemVote(PublishedFileId_t nPublishedFileID, bool bVoteUp)
@@ -1629,7 +1635,7 @@ public static SteamAPICall_t SetUserItemVote(PublishedFileId_t nPublishedFileID,
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L836" />
 
-<p> Show the app's latest Workshop EULA to the user in an overlay window, where they can accept it or not</p>
+Show the app's latest Workshop EULA to the user in an overlay window, where they can accept it or not
 
 ```csharp
 public static bool ShowWorkshopEULA()
@@ -1643,7 +1649,7 @@ public static bool ShowWorkshopEULA()
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L396" />
 
-<p> start an UGC item update. Set changed properties before commiting update with CommitItemUpdate()</p>
+start an UGC item update. Set changed properties before commiting update with CommitItemUpdate()
 
 ```csharp
 public static UGCUpdateHandle_t StartItemUpdate(AppId_t nConsumerAppId, PublishedFileId_t nPublishedFileID)
@@ -1662,7 +1668,7 @@ public static UGCUpdateHandle_t StartItemUpdate(AppId_t nConsumerAppId, Publishe
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L766" />
 
-<p> usage tracking</p>
+usage tracking
 
 ```csharp
 public static SteamAPICall_t StartPlaytimeTracking(PublishedFileId_t[] pvecPublishedFileID, uint unNumPublishedFileIDs)
@@ -1710,7 +1716,7 @@ public static SteamAPICall_t StopPlaytimeTrackingForAllItems()
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L620" />
 
-<p> commit update process started with StartItemUpdate()</p>
+commit update process started with StartItemUpdate()
 
 ```csharp
 public static SteamAPICall_t SubmitItemUpdate(UGCUpdateHandle_t handle, string pchChangeNote)
@@ -1729,7 +1735,7 @@ public static SteamAPICall_t SubmitItemUpdate(UGCUpdateHandle_t handle, string p
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L665" />
 
-<p> subscribe to this item, will be installed ASAP</p>
+subscribe to this item, will be installed ASAP
 
 ```csharp
 public static SteamAPICall_t SubscribeItem(PublishedFileId_t nPublishedFileID)
@@ -1747,7 +1753,7 @@ public static SteamAPICall_t SubscribeItem(PublishedFileId_t nPublishedFileID)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L757" />
 
-<p> SuspendDownloads( true ) will suspend all workshop downloads until SuspendDownloads( false ) is called or the game ends</p>
+SuspendDownloads( true ) will suspend all workshop downloads until SuspendDownloads( false ) is called or the game ends
 
 ```csharp
 public static void SuspendDownloads(bool bSuspend)
@@ -1761,7 +1767,7 @@ public static void SuspendDownloads(bool bSuspend)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L674" />
 
-<p> unsubscribe from this item, will be uninstalled after game quits</p>
+unsubscribe from this item, will be uninstalled after game quits
 
 ```csharp
 public static SteamAPICall_t UnsubscribeItem(PublishedFileId_t nPublishedFileID)
@@ -1779,7 +1785,7 @@ public static SteamAPICall_t UnsubscribeItem(PublishedFileId_t nPublishedFileID)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L562" />
 
-<p>  updates an existing preview file for this item. pszPreviewFile points to local file, which must be under 1MB in size</p>
+updates an existing preview file for this item. pszPreviewFile points to local file, which must be under 1MB in size
 
 ```csharp
 public static bool UpdateItemPreviewFile(UGCUpdateHandle_t handle, uint index, string pszPreviewFile)
@@ -1799,7 +1805,7 @@ public static bool UpdateItemPreviewFile(UGCUpdateHandle_t handle, uint index, s
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverugc.cs#L574" />
 
-<p>  updates an existing preview video for this item</p>
+updates an existing preview video for this item
 
 ```csharp
 public static bool UpdateItemPreviewVideo(UGCUpdateHandle_t handle, uint index, string pszVideoID)

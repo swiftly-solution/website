@@ -70,7 +70,7 @@ public static bool GetUserAchievement(CSteamID steamIDUser, string pchName, out 
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverstats.cs#L21" />
 
-<p> requests stat information for a user, usable after a successful call to RequestUserStats()</p>
+requests stat information for a user, usable after a successful call to RequestUserStats()
 
 ```csharp
 public static bool GetUserStat(CSteamID steamIDUser, string pchName, out int pData)
@@ -108,11 +108,15 @@ public static bool GetUserStat(CSteamID steamIDUser, string pchName, out float p
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverstats.cs#L13" />
 
-<p> downloads stats for the user</p>
-<p> returns a GSStatsReceived_t callback when completed</p>
-<p> if the user has no stats, GSStatsReceived_t.m_eResult will be set to k_EResultFail</p>
-<p> these stats will only be auto-updated for clients playing on the server. For other</p>
-<p> users you'll need to call RequestUserStats() again to refresh any data</p>
+downloads stats for the user
+
+returns a GSStatsReceived_t callback when completed
+
+if the user has no stats, GSStatsReceived_t.m_eResult will be set to k_EResultFail
+
+these stats will only be auto-updated for clients playing on the server. For other
+
+users you'll need to call RequestUserStats() again to refresh any data
 
 ```csharp
 public static SteamAPICall_t RequestUserStats(CSteamID steamIDUser)
@@ -147,10 +151,13 @@ public static bool SetUserAchievement(CSteamID steamIDUser, string pchName)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverstats.cs#L48" />
 
-<p> Set / update stats and achievements.</p>
-<p> Note: These updates will work only on stats game servers are allowed to edit and only for</p>
-<p> game servers that have been declared as officially controlled by the game creators.</p>
-<p> Set the IP range of your official servers on the Steamworks page</p>
+Set / update stats and achievements.
+
+Note: These updates will work only on stats game servers are allowed to edit and only for
+
+game servers that have been declared as officially controlled by the game creators.
+
+Set the IP range of your official servers on the Steamworks page
 
 ```csharp
 public static bool SetUserStat(CSteamID steamIDUser, string pchName, int nData)
@@ -188,11 +195,15 @@ public static bool SetUserStat(CSteamID steamIDUser, string pchName, float fData
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverstats.cs#L90" />
 
-<p> Store the current data on the server, will get a GSStatsStored_t callback when set.</p>
-<p> If the callback has a result of k_EResultInvalidParam, one or more stats</p>
-<p> uploaded has been rejected, either because they broke constraints</p>
-<p> or were out of date. In this case the server sends back updated values.</p>
-<p> The stats should be re-iterated to keep in sync.</p>
+Store the current data on the server, will get a GSStatsStored_t callback when set.
+
+If the callback has a result of k_EResultInvalidParam, one or more stats
+
+uploaded has been rejected, either because they broke constraints
+
+or were out of date. In this case the server sends back updated values.
+
+The stats should be re-iterated to keep in sync.
 
 ```csharp
 public static SteamAPICall_t StoreUserStats(CSteamID steamIDUser)

@@ -16,7 +16,7 @@ public interface IConVarService
 
 ## Methods
 
-### Create(string, string, T, ConvarFlags)
+### Create\<T\>(string, string, T, ConvarFlags)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVarService.cs#L30" />
 
@@ -37,11 +37,11 @@ IConVar<T> Create<T>(string name, string helpMessage, T defaultValue, ConvarFlag
 
 - <ApiParam type="IConVar&lt;T&gt;" typeHref="/docs/api/convars/iconvart" /> — The created convar.
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" /> — The type of the convar.
 
-### Create(string, string, T, T?, T?, ConvarFlags)
+### Create\<T\>(string, string, T, T?, T?, ConvarFlags)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVarService.cs#L43" />
 
@@ -64,11 +64,11 @@ IConVar<T> Create<T>(string name, string helpMessage, T defaultValue, T? minValu
 
 - <ApiParam type="IConVar&lt;T&gt;" typeHref="/docs/api/convars/iconvart" /> — The created convar.
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" /> — The type of the convar.
 
-### CreateOrFind(string, string, T, ConvarFlags)
+### CreateOrFind\<T\>(string, string, T, ConvarFlags)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVarService.cs#L54" />
 
@@ -89,11 +89,11 @@ IConVar<T> CreateOrFind<T>(string name, string helpMessage, T defaultValue, Conv
 
 - <ApiParam type="IConVar&lt;T&gt;" typeHref="/docs/api/convars/iconvart" /> — The created or found convar.
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" /> — The type of the convar.
 
-### CreateOrFind(string, string, T, T?, T?, ConvarFlags)
+### CreateOrFind\<T\>(string, string, T, T?, T?, ConvarFlags)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVarService.cs#L67" />
 
@@ -116,11 +116,11 @@ IConVar<T> CreateOrFind<T>(string name, string helpMessage, T defaultValue, T? m
 
 - <ApiParam type="IConVar&lt;T&gt;" typeHref="/docs/api/convars/iconvart" /> — The created or found convar.
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" /> — The type of the convar.
 
-### Find(string)
+### Find\<T\>(string)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVarService.cs#L11" />
 
@@ -138,7 +138,7 @@ IConVar<T>? Find<T>(string name)
 
 - <ApiParam type="IConVar&lt;T&gt;?" typeHref="/docs/api/convars/iconvart" /> — The convar if found, null otherwise.
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" /> — The type of the convar.
 

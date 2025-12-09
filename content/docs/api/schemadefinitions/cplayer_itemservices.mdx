@@ -52,7 +52,7 @@ Task DropActiveItemAsync()
 
 - <ApiParam type="Task" typeHref="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task" />
 
-### GiveItem()
+### GiveItem\<T\>()
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_ItemServices.cs#L16" />
 
@@ -69,11 +69,11 @@ T GiveItem<T>() where T : ISchemaClass<T>
 
 - <ApiParam type="T" /> — The item that was given.
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" /> — The type of the item to give.
 
-### GiveItem(string)
+### GiveItem\<T\>(string)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_ItemServices.cs#L33" />
 
@@ -94,7 +94,7 @@ T GiveItem<T>(string itemDesignerName) where T : ISchemaClass<T>
 
 - <ApiParam type="T" /> — The item that was given.
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" />
 
@@ -115,7 +115,7 @@ void GiveItem(string itemDesignerName)
 
 - <ApiParam name="itemDesignerName" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The designer name of the item to give.
 
-### GiveItemAsync()
+### GiveItemAsync\<T\>()
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_ItemServices.cs#L24" />
 
@@ -129,11 +129,11 @@ Task<T> GiveItemAsync<T>() where T : ISchemaClass<T>
 
 - <ApiParam type="Task&lt;T&gt;" typeHref="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1" /> — The item that was given.
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" /> — The type of the item to give.
 
-### GiveItemAsync(string)
+### GiveItemAsync\<T\>(string)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_ItemServices.cs#L41" />
 
@@ -151,7 +151,7 @@ Task<T> GiveItemAsync<T>(string itemDesignerName) where T : ISchemaClass<T>
 
 - <ApiParam type="Task&lt;T&gt;" typeHref="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1" /> — The item that was given.
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" />
 

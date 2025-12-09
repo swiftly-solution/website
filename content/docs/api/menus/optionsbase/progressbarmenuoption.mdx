@@ -69,11 +69,11 @@ public sealed class ProgressBarMenuOption : MenuOptionBase, IMenuOption, IDispos
 
 ## Constructors
 
-### ProgressBarMenuOption(Func, bool, bool, string, string, int, int)
+### ProgressBarMenuOption(Func\<float\>, bool, bool, string, string, int, int)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/ProgressBarMenuOption.cs#L42" />
 
-Creates an instance of <xref href="SwiftlyS2.Core.Menus.OptionsBase.ProgressBarMenuOption" data-throw-if-not-resolved="false"></xref>.
+Creates an instance of SwiftlyS2.Core.Menus.OptionsBase.ProgressBarMenuOption.
 
 ```csharp
 public ProgressBarMenuOption(Func<float> progressProvider, bool multiLine = false, bool showPercentage = true, string filledChar = "█", string emptyChar = "░", int updateIntervalMs = 120, int pauseIntervalMs = 1000)
@@ -89,15 +89,15 @@ public ProgressBarMenuOption(Func<float> progressProvider, bool multiLine = fals
 - <ApiParam name="updateIntervalMs" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> — The interval in milliseconds between text updates. Defaults to 120ms.
 - <ApiParam name="pauseIntervalMs" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> — The pause duration in milliseconds before starting the next text update cycle. Defaults to 1000ms.
 
-#### Remarks
+<ApiLabel>Remarks</ApiLabel>
 
-When using this constructor, the <xref href="SwiftlyS2.Core.Menus.OptionsBase.MenuOptionBase.Text" data-throw-if-not-resolved="false"></xref> property must be manually set to specify the initial text.
+When using this constructor, the SwiftlyS2.Core.Menus.OptionsBase.MenuOptionBase.Text property must be manually set to specify the initial text.
 
-### ProgressBarMenuOption(string, Func, bool, bool, string, string, int, int)
+### ProgressBarMenuOption(string, Func\<float\>, bool, bool, string, string, int, int)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/ProgressBarMenuOption.cs#L73" />
 
-Creates an instance of <xref href="SwiftlyS2.Core.Menus.OptionsBase.ProgressBarMenuOption" data-throw-if-not-resolved="false"></xref>.
+Creates an instance of SwiftlyS2.Core.Menus.OptionsBase.ProgressBarMenuOption.
 
 ```csharp
 public ProgressBarMenuOption(string text, Func<float> progressProvider, bool multiLine = false, bool showPercentage = true, string filledChar = "█", string emptyChar = "░", int updateIntervalMs = 120, int pauseIntervalMs = 1000)
@@ -179,13 +179,13 @@ public override string GetDisplayText(IPlayer player, int displayLine = 0)
 
 - <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The formatted display text for the option.
 
-#### Remarks
+<ApiLabel>Remarks</ApiLabel>
 
-When a menu option occupies multiple lines, MenuAPI may only need to display a specific line of that option.
-<ul><li>When <code>LineCount=1</code>: The <code>displayLine</code> parameter is not needed; return the HTML-formatted string directly.</li><li>When <code>LineCount&gt;=2</code>: Check the <code>displayLine</code> parameter:
-  <ul><li><code>displayLine=0</code>: Return all content</li><li><code>displayLine=1</code>: Return only the first line content</li><li><code>displayLine=2</code>: Return only the second line content</li><li>And so on...</li></ul>
-</li></ul>
-Note: MenuAPI ensures that the <code>displayLine</code> parameter will not exceed the option's <code>LineCount</code>.
+- When `LineCount=1`: The `displayLine` parameter is not needed; return the HTML-formatted string directly.
+  - `displayLine=0`: Return all content
+  - `displayLine=1`: Return only the first line content
+  - `displayLine=2`: Return only the second line content
+  - And so on...
 
 ### GetProgress(IPlayer)
 
@@ -205,7 +205,7 @@ public float GetProgress(IPlayer player)
 
 - <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" /> — The current progress value (0.0 to 1.0).
 
-### SetProgressProvider(IPlayer, Func)
+### SetProgressProvider(IPlayer, Func\<float\>)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/ProgressBarMenuOption.cs#L114" />
 

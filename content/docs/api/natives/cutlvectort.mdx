@@ -14,7 +14,7 @@ title: CUtlVector
 public struct CUtlVector<T> : IEnumerable<T>, IEnumerable
 ```
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" />
 
@@ -38,8 +38,8 @@ public struct CUtlVector<T> : IEnumerable<T>, IEnumerable
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlVector.cs#L22" />
 
-Please use <xref href="SwiftlyS2.Shared.Natives.ManagedCUtlVector%601" data-throw-if-not-resolved="false"></xref> instead to construct it.
-If you really want to use this, you should call <xref href="SwiftlyS2.Shared.Natives.CUtlVector%601.Purge" data-throw-if-not-resolved="false"></xref> after you are done with it.
+Please use SwiftlyS2.Shared.Natives.ManagedCUtlVector%601 instead to construct it.
+If you really want to use this, you should call SwiftlyS2.Shared.Natives.CUtlVector%601.Purge after you are done with it.
 
 ```csharp
 public CUtlVector(int growSize, int initSize)
@@ -54,8 +54,8 @@ public CUtlVector(int growSize, int initSize)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlVector.cs#L32" />
 
-Please use <xref href="SwiftlyS2.Shared.Natives.ManagedCUtlVector%601" data-throw-if-not-resolved="false"></xref> instead to construct it.
-If you really want to use this, you should call <xref href="SwiftlyS2.Shared.Natives.CUtlVector%601.Purge" data-throw-if-not-resolved="false"></xref> after you are done with it.
+Please use SwiftlyS2.Shared.Natives.ManagedCUtlVector%601 instead to construct it.
+If you really want to use this, you should call SwiftlyS2.Shared.Natives.CUtlVector%601.Purge after you are done with it.
 
 ```csharp
 public CUtlVector(nint memory, int allocationCount, int numElements)
@@ -163,7 +163,7 @@ public int AddToTail(T value)
 
 - <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
 
-### AddVectorToTail(CUtlVector)
+### AddVectorToTail(CUtlVector\<T\>)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlVector.cs#L117" />
 

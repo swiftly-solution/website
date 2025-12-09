@@ -193,7 +193,7 @@ GameButtonFlags PressedButtons { get; }
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L230" />
 
 Gets the player controller associated with the player. Requires the controller to be valid.
-<xref href="System.InvalidOperationException?text=Thrown+when+the+controller+is+not+valid." data-throw-if-not-resolved="false"></xref>
+[Thrown when the controller is not valid.](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
 
 ```csharp
 CCSPlayerController RequiredController { get; }
@@ -208,7 +208,7 @@ CCSPlayerController RequiredController { get; }
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L241" />
 
 Gets the pawn associated with the player. Requires the pawn to be valid.
-<xref href="System.InvalidOperationException?text=Thrown+when+the+pawn+is+not+valid." data-throw-if-not-resolved="false"></xref>
+[Thrown when the pawn is not valid.](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
 
 ```csharp
 CBasePlayerPawn RequiredPawn { get; }
@@ -223,7 +223,7 @@ CBasePlayerPawn RequiredPawn { get; }
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L252" />
 
 Gets the player pawn associated with the player. Requires the player pawn to be valid.
-<xref href="System.InvalidOperationException?text=Thrown+when+the+player+pawn+is+not+valid." data-throw-if-not-resolved="false"></xref>
+[Thrown when the player pawn is not valid.](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
 
 ```csharp
 CCSPlayerPawn RequiredPlayerPawn { get; }
@@ -911,9 +911,9 @@ void Teleport(Vector pos, QAngle angle, Vector velocity)
 
 <ApiLabel>Parameters</ApiLabel>
 
-- <ApiParam name="pos" type="Vector" typeHref="/docs/api/natives/vector" /> — The target position to teleport the entity to, represented as a <xref href="SwiftlyS2.Shared.Natives.Vector" data-throw-if-not-resolved="false"></xref>.
-- <ApiParam name="angle" type="QAngle" typeHref="/docs/api/natives/qangle" /> — The orientation to apply to the entity after teleportation, represented as a <xref href="SwiftlyS2.Shared.Natives.QAngle" data-throw-if-not-resolved="false"></xref>.
-- <ApiParam name="velocity" type="Vector" typeHref="/docs/api/natives/vector" /> — The velocity to assign to the entity upon arrival, represented as a <xref href="SwiftlyS2.Shared.Natives.Vector" data-throw-if-not-resolved="false"></xref>.
+- <ApiParam name="pos" type="Vector" typeHref="/docs/api/natives/vector" /> — The target position to teleport the entity to, represented as a SwiftlyS2.Shared.Natives.Vector.
+- <ApiParam name="angle" type="QAngle" typeHref="/docs/api/natives/qangle" /> — The orientation to apply to the entity after teleportation, represented as a SwiftlyS2.Shared.Natives.QAngle.
+- <ApiParam name="velocity" type="Vector" typeHref="/docs/api/natives/vector" /> — The velocity to assign to the entity upon arrival, represented as a SwiftlyS2.Shared.Natives.Vector.
 
 ### TeleportAsync(Vector, QAngle, Vector)
 
@@ -927,9 +927,9 @@ Task TeleportAsync(Vector pos, QAngle angle, Vector velocity)
 
 <ApiLabel>Parameters</ApiLabel>
 
-- <ApiParam name="pos" type="Vector" typeHref="/docs/api/natives/vector" /> — The target position to teleport the entity to, represented as a <xref href="SwiftlyS2.Shared.Natives.Vector" data-throw-if-not-resolved="false"></xref>.
-- <ApiParam name="angle" type="QAngle" typeHref="/docs/api/natives/qangle" /> — The orientation to apply to the entity after teleportation, represented as a <xref href="SwiftlyS2.Shared.Natives.QAngle" data-throw-if-not-resolved="false"></xref>.
-- <ApiParam name="velocity" type="Vector" typeHref="/docs/api/natives/vector" /> — The velocity to assign to the entity upon arrival, represented as a <xref href="SwiftlyS2.Shared.Natives.Vector" data-throw-if-not-resolved="false"></xref>.
+- <ApiParam name="pos" type="Vector" typeHref="/docs/api/natives/vector" /> — The target position to teleport the entity to, represented as a SwiftlyS2.Shared.Natives.Vector.
+- <ApiParam name="angle" type="QAngle" typeHref="/docs/api/natives/qangle" /> — The orientation to apply to the entity after teleportation, represented as a SwiftlyS2.Shared.Natives.QAngle.
+- <ApiParam name="velocity" type="Vector" typeHref="/docs/api/natives/vector" /> — The velocity to assign to the entity upon arrival, represented as a SwiftlyS2.Shared.Natives.Vector.
 
 <ApiLabel>Returns</ApiLabel>
 

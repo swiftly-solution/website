@@ -35,8 +35,9 @@ public static class SteamGameServerClient
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverclient.cs#L19" />
 
-<p> Releases a previously created communications pipe</p>
-<p> NOT THREADSAFE - ensure that no other threads are accessing Steamworks API when calling</p>
+Releases a previously created communications pipe
+
+NOT THREADSAFE - ensure that no other threads are accessing Steamworks API when calling
 
 ```csharp
 public static bool BReleaseSteamPipe(HSteamPipe hSteamPipe)
@@ -54,7 +55,7 @@ public static bool BReleaseSteamPipe(HSteamPipe hSteamPipe)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverclient.cs#L226" />
 
-<p> Trigger global shutdown for the DLL</p>
+Trigger global shutdown for the DLL
 
 ```csharp
 public static bool BShutdownIfAllPipesClosed()
@@ -68,9 +69,11 @@ public static bool BShutdownIfAllPipesClosed()
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverclient.cs#L29" />
 
-<p> connects to an existing global user, failing if none exists</p>
-<p> used by the game to coordinate with the steamUI</p>
-<p> NOT THREADSAFE - ensure that no other threads are accessing Steamworks API when calling</p>
+connects to an existing global user, failing if none exists
+
+used by the game to coordinate with the steamUI
+
+NOT THREADSAFE - ensure that no other threads are accessing Steamworks API when calling
 
 ```csharp
 public static HSteamUser ConnectToGlobalUser(HSteamPipe hSteamPipe)
@@ -88,8 +91,9 @@ public static HSteamUser ConnectToGlobalUser(HSteamPipe hSteamPipe)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverclient.cs#L38" />
 
-<p> used by game servers, create a steam user that won't be shared with anyone else</p>
-<p> NOT THREADSAFE - ensure that no other threads are accessing Steamworks API when calling</p>
+used by game servers, create a steam user that won't be shared with anyone else
+
+NOT THREADSAFE - ensure that no other threads are accessing Steamworks API when calling
 
 ```csharp
 public static HSteamUser CreateLocalUser(out HSteamPipe phSteamPipe, EAccountType eAccountType)
@@ -108,8 +112,9 @@ public static HSteamUser CreateLocalUser(out HSteamPipe phSteamPipe, EAccountTyp
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverclient.cs#L10" />
 
-<p> Creates a communication pipe to the Steam client.</p>
-<p> NOT THREADSAFE - ensure that no other threads are accessing Steamworks API when calling</p>
+Creates a communication pipe to the Steam client.
+
+NOT THREADSAFE - ensure that no other threads are accessing Steamworks API when calling
 
 ```csharp
 public static HSteamPipe CreateSteamPipe()
@@ -123,10 +128,13 @@ public static HSteamPipe CreateSteamPipe()
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverclient.cs#L207" />
 
-<p> returns the number of IPC calls made since the last time this function was called</p>
-<p> Used for perf debugging so you can understand how many IPC calls your game makes per frame</p>
-<p> Every IPC call is at minimum a thread context switch if not a process one so you want to rate</p>
-<p> control how often you do them.</p>
+returns the number of IPC calls made since the last time this function was called
+
+Used for perf debugging so you can understand how many IPC calls your game makes per frame
+
+Every IPC call is at minimum a thread context switch if not a process one so you want to rate
+
+control how often you do them.
 
 ```csharp
 public static uint GetIPCCallCount()
@@ -140,7 +148,7 @@ public static uint GetIPCCallCount()
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverclient.cs#L154" />
 
-<p> returns apps interface</p>
+returns apps interface
 
 ```csharp
 public static nint GetISteamApps(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string pchVersion)
@@ -160,7 +168,7 @@ public static nint GetISteamApps(HSteamUser hSteamUser, HSteamPipe hSteamPipe, s
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverclient.cs#L244" />
 
-<p> Exposes the ISteamController interface - deprecated in favor of Steam Input</p>
+Exposes the ISteamController interface - deprecated in favor of Steam Input
 
 ```csharp
 public static nint GetISteamController(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string pchVersion)
@@ -180,7 +188,7 @@ public static nint GetISteamController(HSteamUser hSteamUser, HSteamPipe hSteamP
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverclient.cs#L84" />
 
-<p> returns the ISteamFriends interface</p>
+returns the ISteamFriends interface
 
 ```csharp
 public static nint GetISteamFriends(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string pchVersion)
@@ -200,7 +208,7 @@ public static nint GetISteamFriends(HSteamUser hSteamUser, HSteamPipe hSteamPipe
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverclient.cs#L194" />
 
-<p> game search</p>
+game search
 
 ```csharp
 public static nint GetISteamGameSearch(HSteamUser hSteamuser, HSteamPipe hSteamPipe, string pchVersion)
@@ -220,7 +228,7 @@ public static nint GetISteamGameSearch(HSteamUser hSteamuser, HSteamPipe hSteamP
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverclient.cs#L65" />
 
-<p> retrieves the ISteamGameServer interface associated with the handle</p>
+retrieves the ISteamGameServer interface associated with the handle
 
 ```csharp
 public static nint GetISteamGameServer(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string pchVersion)
@@ -240,7 +248,7 @@ public static nint GetISteamGameServer(HSteamUser hSteamUser, HSteamPipe hSteamP
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverclient.cs#L144" />
 
-<p> returns the ISteamGameServerStats interface</p>
+returns the ISteamGameServerStats interface
 
 ```csharp
 public static nint GetISteamGameServerStats(HSteamUser hSteamuser, HSteamPipe hSteamPipe, string pchVersion)
@@ -260,7 +268,7 @@ public static nint GetISteamGameServerStats(HSteamUser hSteamuser, HSteamPipe hS
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverclient.cs#L124" />
 
-<p> returns the a generic interface</p>
+returns the a generic interface
 
 ```csharp
 public static nint GetISteamGenericInterface(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string pchVersion)
@@ -280,7 +288,7 @@ public static nint GetISteamGenericInterface(HSteamUser hSteamUser, HSteamPipe h
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverclient.cs#L284" />
 
-<p> html page display</p>
+html page display
 
 ```csharp
 public static nint GetISteamHTMLSurface(HSteamUser hSteamuser, HSteamPipe hSteamPipe, string pchVersion)
@@ -300,7 +308,7 @@ public static nint GetISteamHTMLSurface(HSteamUser hSteamuser, HSteamPipe hSteam
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverclient.cs#L234" />
 
-<p> Expose HTTP interface</p>
+Expose HTTP interface
 
 ```csharp
 public static nint GetISteamHTTP(HSteamUser hSteamuser, HSteamPipe hSteamPipe, string pchVersion)
@@ -320,7 +328,7 @@ public static nint GetISteamHTTP(HSteamUser hSteamuser, HSteamPipe hSteamPipe, s
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverclient.cs#L324" />
 
-<p> Exposes the Steam Input interface for controller support</p>
+Exposes the Steam Input interface for controller support
 
 ```csharp
 public static nint GetISteamInput(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string pchVersion)
@@ -340,7 +348,7 @@ public static nint GetISteamInput(HSteamUser hSteamUser, HSteamPipe hSteamPipe, 
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverclient.cs#L294" />
 
-<p> inventory</p>
+inventory
 
 ```csharp
 public static nint GetISteamInventory(HSteamUser hSteamuser, HSteamPipe hSteamPipe, string pchVersion)
@@ -360,7 +368,7 @@ public static nint GetISteamInventory(HSteamUser hSteamuser, HSteamPipe hSteamPi
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverclient.cs#L104" />
 
-<p> returns the ISteamMatchmaking interface</p>
+returns the ISteamMatchmaking interface
 
 ```csharp
 public static nint GetISteamMatchmaking(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string pchVersion)
@@ -380,7 +388,7 @@ public static nint GetISteamMatchmaking(HSteamUser hSteamUser, HSteamPipe hSteam
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverclient.cs#L114" />
 
-<p> returns the ISteamMatchmakingServers interface</p>
+returns the ISteamMatchmakingServers interface
 
 ```csharp
 public static nint GetISteamMatchmakingServers(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string pchVersion)
@@ -400,7 +408,7 @@ public static nint GetISteamMatchmakingServers(HSteamUser hSteamUser, HSteamPipe
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverclient.cs#L264" />
 
-<p> Music Player</p>
+Music Player
 
 ```csharp
 public static nint GetISteamMusic(HSteamUser hSteamuser, HSteamPipe hSteamPipe, string pchVersion)
@@ -420,7 +428,7 @@ public static nint GetISteamMusic(HSteamUser hSteamuser, HSteamPipe hSteamPipe, 
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverclient.cs#L274" />
 
-<p> Music Player Remote</p>
+Music Player Remote
 
 ```csharp
 public static nint GetISteamMusicRemote(HSteamUser hSteamuser, HSteamPipe hSteamPipe, string pchVersion)
@@ -440,7 +448,7 @@ public static nint GetISteamMusicRemote(HSteamUser hSteamuser, HSteamPipe hSteam
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverclient.cs#L164" />
 
-<p> networking</p>
+networking
 
 ```csharp
 public static nint GetISteamNetworking(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string pchVersion)
@@ -460,7 +468,7 @@ public static nint GetISteamNetworking(HSteamUser hSteamUser, HSteamPipe hSteamP
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverclient.cs#L314" />
 
-<p> Parental controls</p>
+Parental controls
 
 ```csharp
 public static nint GetISteamParentalSettings(HSteamUser hSteamuser, HSteamPipe hSteamPipe, string pchVersion)
@@ -480,7 +488,7 @@ public static nint GetISteamParentalSettings(HSteamUser hSteamuser, HSteamPipe h
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverclient.cs#L334" />
 
-<p> Steam Parties interface</p>
+Steam Parties interface
 
 ```csharp
 public static nint GetISteamParties(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string pchVersion)
@@ -500,7 +508,7 @@ public static nint GetISteamParties(HSteamUser hSteamUser, HSteamPipe hSteamPipe
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverclient.cs#L344" />
 
-<p> Steam Remote Play interface</p>
+Steam Remote Play interface
 
 ```csharp
 public static nint GetISteamRemotePlay(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string pchVersion)
@@ -520,7 +528,7 @@ public static nint GetISteamRemotePlay(HSteamUser hSteamUser, HSteamPipe hSteamP
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverclient.cs#L174" />
 
-<p> remote storage</p>
+remote storage
 
 ```csharp
 public static nint GetISteamRemoteStorage(HSteamUser hSteamuser, HSteamPipe hSteamPipe, string pchVersion)
@@ -540,7 +548,7 @@ public static nint GetISteamRemoteStorage(HSteamUser hSteamuser, HSteamPipe hSte
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverclient.cs#L184" />
 
-<p> user screenshots</p>
+user screenshots
 
 ```csharp
 public static nint GetISteamScreenshots(HSteamUser hSteamuser, HSteamPipe hSteamPipe, string pchVersion)
@@ -560,7 +568,7 @@ public static nint GetISteamScreenshots(HSteamUser hSteamuser, HSteamPipe hSteam
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverclient.cs#L254" />
 
-<p> Exposes the ISteamUGC interface</p>
+Exposes the ISteamUGC interface
 
 ```csharp
 public static nint GetISteamUGC(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string pchVersion)
@@ -580,7 +588,7 @@ public static nint GetISteamUGC(HSteamUser hSteamUser, HSteamPipe hSteamPipe, st
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverclient.cs#L55" />
 
-<p> retrieves the ISteamUser interface associated with the handle</p>
+retrieves the ISteamUser interface associated with the handle
 
 ```csharp
 public static nint GetISteamUser(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string pchVersion)
@@ -600,7 +608,7 @@ public static nint GetISteamUser(HSteamUser hSteamUser, HSteamPipe hSteamPipe, s
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverclient.cs#L134" />
 
-<p> returns the ISteamUserStats interface</p>
+returns the ISteamUserStats interface
 
 ```csharp
 public static nint GetISteamUserStats(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string pchVersion)
@@ -620,7 +628,7 @@ public static nint GetISteamUserStats(HSteamUser hSteamUser, HSteamPipe hSteamPi
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverclient.cs#L94" />
 
-<p> returns the ISteamUtils interface</p>
+returns the ISteamUtils interface
 
 ```csharp
 public static nint GetISteamUtils(HSteamPipe hSteamPipe, string pchVersion)
@@ -639,7 +647,7 @@ public static nint GetISteamUtils(HSteamPipe hSteamPipe, string pchVersion)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverclient.cs#L304" />
 
-<p> Video</p>
+Video
 
 ```csharp
 public static nint GetISteamVideo(HSteamUser hSteamuser, HSteamPipe hSteamPipe, string pchVersion)
@@ -659,8 +667,9 @@ public static nint GetISteamVideo(HSteamUser hSteamuser, HSteamPipe hSteamPipe, 
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverclient.cs#L47" />
 
-<p> removes an allocated user</p>
-<p> NOT THREADSAFE - ensure that no other threads are accessing Steamworks API when calling</p>
+removes an allocated user
+
+NOT THREADSAFE - ensure that no other threads are accessing Steamworks API when calling
 
 ```csharp
 public static void ReleaseUser(HSteamPipe hSteamPipe, HSteamUser hUser)
@@ -675,8 +684,9 @@ public static void ReleaseUser(HSteamPipe hSteamPipe, HSteamUser hUser)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverclient.cs#L76" />
 
-<p> set the local IP and Port to bind to</p>
-<p> this must be set before CreateLocalUser()</p>
+set the local IP and Port to bind to
+
+this must be set before CreateLocalUser()
 
 ```csharp
 public static void SetLocalIPBinding(ref SteamIPAddress_t unIP, ushort usPort)
@@ -691,10 +701,13 @@ public static void SetLocalIPBinding(ref SteamIPAddress_t unIP, ushort usPort)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/SteamAPI/isteamgameserverclient.cs#L218" />
 
-<p> API warning handling</p>
-<p> 'int' is the severity; 0 for msg, 1 for warning</p>
-<p> 'const char *' is the text of the message</p>
-<p> callbacks will occur directly after the API function is called that generated the warning or message.</p>
+API warning handling
+
+'int' is the severity; 0 for msg, 1 for warning
+
+'const char *' is the text of the message
+
+callbacks will occur directly after the API function is called that generated the warning or message.
 
 ```csharp
 public static void SetWarningMessageHook(SteamAPIWarningMessageHook_t pFunction)

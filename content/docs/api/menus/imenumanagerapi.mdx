@@ -155,7 +155,7 @@ void OpenMenu(IMenuAPI menu)
 
 - <ApiParam name="menu" type="IMenuAPI" typeHref="/docs/api/menus/imenuapi" /> — The menu to display.
 
-### OpenMenu(IMenuAPI, Action)
+### OpenMenu(IMenuAPI, Action\<IPlayer, IMenuAPI\>)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManagerAPI.cs#L152" />
 
@@ -185,7 +185,7 @@ void OpenMenuForPlayer(IPlayer player, IMenuAPI menu)
 - <ApiParam name="player" type="IPlayer" typeHref="/docs/api/players/iplayer" /> — The player who will see the menu.
 - <ApiParam name="menu" type="IMenuAPI" typeHref="/docs/api/menus/imenuapi" /> — The menu to display.
 
-### OpenMenuForPlayer(IPlayer, IMenuAPI, Action)
+### OpenMenuForPlayer(IPlayer, IMenuAPI, Action\<IPlayer, IMenuAPI\>)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManagerAPI.cs#L167" />
 
@@ -211,7 +211,7 @@ Fired when a menu is closed for a player.
 event EventHandler<MenuManagerEventArgs>? MenuClosed
 ```
 
-#### Event Type
+<ApiLabel>Event Type</ApiLabel>
 
 - <ApiParam type="EventHandler&lt;MenuManagerEventArgs&gt;?" typeHref="https://learn.microsoft.com/dotnet/api/system.eventhandler-1" />
 
@@ -225,7 +225,7 @@ Fired when a menu is opened for a player.
 event EventHandler<MenuManagerEventArgs>? MenuOpened
 ```
 
-#### Event Type
+<ApiLabel>Event Type</ApiLabel>
 
 - <ApiParam type="EventHandler&lt;MenuManagerEventArgs&gt;?" typeHref="https://learn.microsoft.com/dotnet/api/system.eventhandler-1" />
 

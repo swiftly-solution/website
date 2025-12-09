@@ -18,7 +18,7 @@ This option claims the Exit and Use keys for previous and next selection respect
 public sealed class SelectorMenuOption<T> : MenuOptionBase, IMenuOption, IDisposable
 ```
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" /> — The type of the choices.
 
@@ -75,11 +75,11 @@ public sealed class SelectorMenuOption<T> : MenuOptionBase, IMenuOption, IDispos
 
 ## Constructors
 
-### SelectorMenuOption(IEnumerable, int, Func?, float, int, int)
+### SelectorMenuOption(IEnumerable\<T\>, int, Func\<T, string\>?, float, int, int)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/SelectorMenuOption.cs#L58" />
 
-Creates an instance of <xref href="SwiftlyS2.Core.Menus.OptionsBase.SelectorMenuOption%601" data-throw-if-not-resolved="false"></xref>.
+Creates an instance of SwiftlyS2.Core.Menus.OptionsBase.SelectorMenuOption%601.
 
 ```csharp
 public SelectorMenuOption(IEnumerable<T> choices, int defaultIndex = 0, Func<T, string>? displayFormatter = null, float itemMaxWidth = 10, int updateIntervalMs = 120, int pauseIntervalMs = 1000)
@@ -94,15 +94,15 @@ public SelectorMenuOption(IEnumerable<T> choices, int defaultIndex = 0, Func<T, 
 - <ApiParam name="updateIntervalMs" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> — The interval in milliseconds between text animation updates. Defaults to 120ms.
 - <ApiParam name="pauseIntervalMs" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> — The pause duration in milliseconds before starting the next animation cycle. Defaults to 1000ms.
 
-#### Remarks
+<ApiLabel>Remarks</ApiLabel>
 
-When using this constructor, the <xref href="SwiftlyS2.Core.Menus.OptionsBase.MenuOptionBase.Text" data-throw-if-not-resolved="false"></xref> property must be manually set to specify the label.
+When using this constructor, the SwiftlyS2.Core.Menus.OptionsBase.MenuOptionBase.Text property must be manually set to specify the label.
 
-### SelectorMenuOption(string, IEnumerable, int, Func?, float, int, int)
+### SelectorMenuOption(string, IEnumerable\<T\>, int, Func\<T, string\>?, float, int, int)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/SelectorMenuOption.cs#L115" />
 
-Creates an instance of <xref href="SwiftlyS2.Core.Menus.OptionsBase.SelectorMenuOption%601" data-throw-if-not-resolved="false"></xref>.
+Creates an instance of SwiftlyS2.Core.Menus.OptionsBase.SelectorMenuOption%601.
 
 ```csharp
 public SelectorMenuOption(string text, IEnumerable<T> choices, int defaultIndex = 0, Func<T, string>? displayFormatter = null, float itemMaxWidth = 10, int updateIntervalMs = 120, int pauseIntervalMs = 1000)
@@ -179,13 +179,13 @@ public override string GetDisplayText(IPlayer player, int displayLine = 0)
 
 - <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The formatted display text for the option.
 
-#### Remarks
+<ApiLabel>Remarks</ApiLabel>
 
-When a menu option occupies multiple lines, MenuAPI may only need to display a specific line of that option.
-<ul><li>When <code>LineCount=1</code>: The <code>displayLine</code> parameter is not needed; return the HTML-formatted string directly.</li><li>When <code>LineCount&gt;=2</code>: Check the <code>displayLine</code> parameter:
-  <ul><li><code>displayLine=0</code>: Return all content</li><li><code>displayLine=1</code>: Return only the first line content</li><li><code>displayLine=2</code>: Return only the second line content</li><li>And so on...</li></ul>
-</li></ul>
-Note: MenuAPI ensures that the <code>displayLine</code> parameter will not exceed the option's <code>LineCount</code>.
+- When `LineCount=1`: The `displayLine` parameter is not needed; return the HTML-formatted string directly.
+  - `displayLine=0`: Return all content
+  - `displayLine=1`: Return only the first line content
+  - `displayLine=2`: Return only the second line content
+  - And so on...
 
 ### GetSelectedChoice(IPlayer)
 
@@ -268,7 +268,7 @@ Occurs when the selected choice changes for a player.
 public event EventHandler<MenuOptionValueChangedEventArgs<T>>? SelectionChanged
 ```
 
-#### Event Type
+<ApiLabel>Event Type</ApiLabel>
 
 - <ApiParam type="EventHandler&lt;MenuOptionValueChangedEventArgs&lt;T&gt;&gt;?" typeHref="https://learn.microsoft.com/dotnet/api/system.eventhandler-1" />
 
