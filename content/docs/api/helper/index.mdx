@@ -4,7 +4,7 @@ title: Class Helper
 
 # Class Helper
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Helper.cs#L7" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Helper.cs#L7" />
 
 **Namespace**: [SwiftlyS2.Shared](/docs/api)
 
@@ -31,9 +31,9 @@ public static class Helper
 
 ## Methods
 
-### AsProtobuf(nint, bool)
+### AsProtobuf\<T\>(nint, bool)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Helper.cs#L98" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Helper.cs#L98" />
 
 Convert the pointer to the protobuf class.
 
@@ -50,13 +50,13 @@ public static T AsProtobuf<T>(nint ptr, bool manuallyAllocated) where T : ITyped
 
 - <ApiParam type="T" /> — The protobuf class.
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" /> — The protobuf class to convert to.
 
-### AsSchema(nint)
+### AsSchema\<T\>(nint)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Helper.cs#L86" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Helper.cs#L86" />
 
 Convert the pointer to the schema class.
 
@@ -72,13 +72,13 @@ public static T AsSchema<T>(nint ptr) where T : ISchemaClass<T>
 
 - <ApiParam type="T" /> — The schema class.
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" /> — The schema class to convert to.
 
 ### Colored(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Helper.cs#L65" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Helper.cs#L65" />
 
 Replace the color codes in the text with the corresponding color codes.
 
@@ -96,7 +96,7 @@ public static string Colored(this string text)
 
 ### EstimateTextWidth(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Helper.cs#L145" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Helper.cs#L145" />
 
 Estimates the display width of a text string based on character types.
 
@@ -114,7 +114,7 @@ public static float EstimateTextWidth(string text)
 
 ### GetCharWidth(char)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Helper.cs#L119" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Helper.cs#L119" />
 
 Estimates the display width of a character based on its type.
 Inspired by: https://github.com/spectreconsole/wcwidth
@@ -131,9 +131,9 @@ public static float GetCharWidth(char c)
 
 - <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" /> — The estimated display width in relative units.
 
-### GetSchemaSize()
+### GetSchemaSize\<T\>()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Helper.cs#L108" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Helper.cs#L108" />
 
 Get the size of a schema class.
 
@@ -145,13 +145,13 @@ public static int GetSchemaSize<T>() where T : ISchemaClass<T>
 
 - <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> — The size of the schema class.
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" /> — The schema class to get the size of.
 
 ### ParseHexColor(string, bool)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Helper.cs#L153" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Helper.cs#L153" />
 
 Parses a hex color string and returns the RGBA color components.
 

@@ -4,7 +4,7 @@ title: IMenuManagerAPI
 
 # Interface IMenuManagerAPI
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManagerAPI.cs#L95" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManagerAPI.cs#L95" />
 
 **Namespace**: [SwiftlyS2.Shared.Menus](/docs/api/menus)
 
@@ -20,7 +20,7 @@ public interface IMenuManagerAPI
 
 ### Configuration
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManagerAPI.cs#L105" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManagerAPI.cs#L105" />
 
 Global configuration settings for all menus.
 
@@ -34,7 +34,7 @@ MenuManagerConfiguration Configuration { get; }
 
 ### Core
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManagerAPI.cs#L100" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManagerAPI.cs#L100" />
 
 The SwiftlyS2 core instance.
 
@@ -50,7 +50,7 @@ ISwiftlyCore Core { get; }
 
 ### CloseAllMenus()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManagerAPI.cs#L185" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManagerAPI.cs#L185" />
 
 Closes every open menu for every player.
 
@@ -60,7 +60,7 @@ void CloseAllMenus()
 
 ### CloseMenu(IMenuAPI)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManagerAPI.cs#L173" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManagerAPI.cs#L173" />
 
 Closes the specified menu for all players who have it open.
 
@@ -74,7 +74,7 @@ void CloseMenu(IMenuAPI menu)
 
 ### CloseMenuForPlayer(IPlayer, IMenuAPI)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManagerAPI.cs#L180" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManagerAPI.cs#L180" />
 
 Closes the specified menu for a player. If the menu is not open for that player, this has no effect.
 
@@ -89,7 +89,7 @@ void CloseMenuForPlayer(IPlayer player, IMenuAPI menu)
 
 ### CreateBuilder()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManagerAPI.cs#L121" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManagerAPI.cs#L121" />
 
 Creates a new menu builder.
 
@@ -103,7 +103,7 @@ IMenuBuilderAPI CreateBuilder()
 
 ### CreateMenu(MenuConfiguration, MenuKeybindOverrides, IMenuAPI?, MenuOptionScrollStyle, MenuOptionTextStyle)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManagerAPI.cs#L132" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManagerAPI.cs#L132" />
 
 Creates a new menu with an optional title.
 
@@ -125,7 +125,7 @@ IMenuAPI CreateMenu(MenuConfiguration configuration, MenuKeybindOverrides keybin
 
 ### GetCurrentMenu(IPlayer)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManagerAPI.cs#L139" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManagerAPI.cs#L139" />
 
 Gets the menu currently open for the specified player.
 
@@ -143,7 +143,7 @@ IMenuAPI? GetCurrentMenu(IPlayer player)
 
 ### OpenMenu(IMenuAPI)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManagerAPI.cs#L145" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManagerAPI.cs#L145" />
 
 Opens the specified menu for all players.
 
@@ -155,9 +155,9 @@ void OpenMenu(IMenuAPI menu)
 
 - <ApiParam name="menu" type="IMenuAPI" typeHref="/docs/api/menus/imenuapi" /> — The menu to display.
 
-### OpenMenu(IMenuAPI, Action)
+### OpenMenu(IMenuAPI, Action\<IPlayer, IMenuAPI\>)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManagerAPI.cs#L152" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManagerAPI.cs#L152" />
 
 Opens the specified menu for all players.
 
@@ -172,7 +172,7 @@ void OpenMenu(IMenuAPI menu, Action<IPlayer, IMenuAPI> onClosed)
 
 ### OpenMenuForPlayer(IPlayer, IMenuAPI)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManagerAPI.cs#L159" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManagerAPI.cs#L159" />
 
 Opens the specified menu for a player. Any currently open menu will be closed first.
 
@@ -185,9 +185,9 @@ void OpenMenuForPlayer(IPlayer player, IMenuAPI menu)
 - <ApiParam name="player" type="IPlayer" typeHref="/docs/api/players/iplayer" /> — The player who will see the menu.
 - <ApiParam name="menu" type="IMenuAPI" typeHref="/docs/api/menus/imenuapi" /> — The menu to display.
 
-### OpenMenuForPlayer(IPlayer, IMenuAPI, Action)
+### OpenMenuForPlayer(IPlayer, IMenuAPI, Action\<IPlayer, IMenuAPI\>)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManagerAPI.cs#L167" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManagerAPI.cs#L167" />
 
 Opens the specified menu for a player. Any currently open menu will be closed first.
 
@@ -203,7 +203,7 @@ void OpenMenuForPlayer(IPlayer player, IMenuAPI menu, Action<IPlayer, IMenuAPI> 
 
 ### MenuClosed
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManagerAPI.cs#L110" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManagerAPI.cs#L110" />
 
 Fired when a menu is closed for a player.
 
@@ -211,13 +211,13 @@ Fired when a menu is closed for a player.
 event EventHandler<MenuManagerEventArgs>? MenuClosed
 ```
 
-#### Event Type
+<ApiLabel>Event Type</ApiLabel>
 
 - <ApiParam type="EventHandler&lt;MenuManagerEventArgs&gt;?" typeHref="https://learn.microsoft.com/dotnet/api/system.eventhandler-1" />
 
 ### MenuOpened
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManagerAPI.cs#L115" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManagerAPI.cs#L115" />
 
 Fired when a menu is opened for a player.
 
@@ -225,7 +225,7 @@ Fired when a menu is opened for a player.
 event EventHandler<MenuManagerEventArgs>? MenuOpened
 ```
 
-#### Event Type
+<ApiLabel>Event Type</ApiLabel>
 
 - <ApiParam type="EventHandler&lt;MenuManagerEventArgs&gt;?" typeHref="https://learn.microsoft.com/dotnet/api/system.eventhandler-1" />
 

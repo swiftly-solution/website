@@ -4,7 +4,7 @@ title: IMenuDesignAPI
 
 # Interface IMenuDesignAPI
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuDesignAPI.cs#L3" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuDesignAPI.cs#L3" />
 
 **Namespace**: [SwiftlyS2.Shared.Menus](/docs/api/menus)
 
@@ -18,7 +18,7 @@ public interface IMenuDesignAPI
 
 ### DisableAutoAdjustVisibleItems()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuDesignAPI.cs#L51" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuDesignAPI.cs#L51" />
 
 Disables automatic adjustment of visible items when title or footer is hidden.
 
@@ -32,7 +32,7 @@ IMenuBuilderAPI DisableAutoAdjustVisibleItems()
 
 ### EnableAutoAdjustVisibleItems()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuDesignAPI.cs#L45" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuDesignAPI.cs#L45" />
 
 Enables automatic adjustment of visible items when title or footer is hidden.
 
@@ -44,14 +44,14 @@ IMenuBuilderAPI EnableAutoAdjustVisibleItems()
 
 - <ApiParam type="IMenuBuilderAPI" typeHref="/docs/api/menus/imenubuilderapi" /> — The menu builder for method chaining.
 
-#### Remarks
+<ApiLabel>Remarks</ApiLabel>
 
 When enabled, hiding the title or footer will increase the effective visible item count
-during rendering without modifying the configured <xref href="SwiftlyS2.Shared.Menus.IMenuDesignAPI.SetMaxVisibleItems(System.Int32)" data-throw-if-not-resolved="false"></xref> value.
+during rendering without modifying the configured SwiftlyS2.Shared.Menus.IMenuDesignAPI.SetMaxVisibleItems(System.Int32) value.
 
 ### SetDisabledColor(string?)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuDesignAPI.cs#L131" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuDesignAPI.cs#L131" />
 
 Sets the color of disabled menu options using hex color format.
 
@@ -69,7 +69,7 @@ IMenuBuilderAPI SetDisabledColor(string? hexColor = null)
 
 ### SetDisabledColor(Color)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuDesignAPI.cs#L138" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuDesignAPI.cs#L138" />
 
 Sets the color of disabled menu options using SwiftlyS2 native color.
 
@@ -87,7 +87,7 @@ IMenuBuilderAPI SetDisabledColor(Color color)
 
 ### SetDisabledColor(Color)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuDesignAPI.cs#L145" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuDesignAPI.cs#L145" />
 
 Sets the color of disabled menu options using System.Drawing color.
 
@@ -105,7 +105,7 @@ IMenuBuilderAPI SetDisabledColor(Color color)
 
 ### SetGlobalScrollStyle(MenuOptionScrollStyle)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuDesignAPI.cs#L61" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuDesignAPI.cs#L61" />
 
 Sets the default scroll animation style for all menu options.
 
@@ -121,13 +121,13 @@ IMenuBuilderAPI SetGlobalScrollStyle(MenuOptionScrollStyle style)
 
 - <ApiParam type="IMenuBuilderAPI" typeHref="/docs/api/menus/imenubuilderapi" /> — The menu builder for method chaining.
 
-#### Remarks
+<ApiLabel>Remarks</ApiLabel>
 
 Individual options can override this global setting.
 
 ### SetMaxVisibleItems(int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuDesignAPI.cs#L35" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuDesignAPI.cs#L35" />
 
 Sets the maximum number of menu options visible on screen at once.
 
@@ -143,14 +143,14 @@ IMenuBuilderAPI SetMaxVisibleItems(int count = 5)
 
 - <ApiParam type="IMenuBuilderAPI" typeHref="/docs/api/menus/imenubuilderapi" /> — The menu builder for method chaining.
 
-#### Remarks
+<ApiLabel>Remarks</ApiLabel>
 
 Values outside the range of 1-5 will be automatically clamped to the nearest valid value.
 Menus with more options than this limit will be paginated.
 
 ### SetMenuFooterColor(string?)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuDesignAPI.cs#L89" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuDesignAPI.cs#L89" />
 
 Sets the color of the menu footer using hex color format.
 
@@ -168,7 +168,7 @@ IMenuBuilderAPI SetMenuFooterColor(string? hexColor = null)
 
 ### SetMenuFooterColor(Color)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuDesignAPI.cs#L96" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuDesignAPI.cs#L96" />
 
 Sets the color of the menu footer using SwiftlyS2 native color.
 
@@ -186,7 +186,7 @@ IMenuBuilderAPI SetMenuFooterColor(Color color)
 
 ### SetMenuFooterColor(Color)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuDesignAPI.cs#L103" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuDesignAPI.cs#L103" />
 
 Sets the color of the menu footer using System.Drawing color.
 
@@ -204,7 +204,7 @@ IMenuBuilderAPI SetMenuFooterColor(Color color)
 
 ### SetMenuFooterVisible(bool)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuDesignAPI.cs#L24" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuDesignAPI.cs#L24" />
 
 Controls the visibility of the menu footer.
 
@@ -222,7 +222,7 @@ IMenuBuilderAPI SetMenuFooterVisible(bool visible = true)
 
 ### SetMenuTitle(string?)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuDesignAPI.cs#L10" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuDesignAPI.cs#L10" />
 
 Sets the title text displayed at the top of the menu.
 
@@ -240,7 +240,7 @@ IMenuBuilderAPI SetMenuTitle(string? title = null)
 
 ### SetMenuTitleVisible(bool)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuDesignAPI.cs#L17" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuDesignAPI.cs#L17" />
 
 Controls the visibility of the menu title.
 
@@ -258,7 +258,7 @@ IMenuBuilderAPI SetMenuTitleVisible(bool visible = true)
 
 ### SetNavigationMarkerColor(string?)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuDesignAPI.cs#L68" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuDesignAPI.cs#L68" />
 
 Sets the color of the navigation markers using hex color format.
 
@@ -276,7 +276,7 @@ IMenuBuilderAPI SetNavigationMarkerColor(string? hexColor = null)
 
 ### SetNavigationMarkerColor(Color)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuDesignAPI.cs#L75" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuDesignAPI.cs#L75" />
 
 Sets the color of the navigation markers using SwiftlyS2 native color.
 
@@ -294,7 +294,7 @@ IMenuBuilderAPI SetNavigationMarkerColor(Color color)
 
 ### SetNavigationMarkerColor(Color)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuDesignAPI.cs#L82" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuDesignAPI.cs#L82" />
 
 Sets the color of the navigation markers using System.Drawing color.
 
@@ -312,7 +312,7 @@ IMenuBuilderAPI SetNavigationMarkerColor(Color color)
 
 ### SetVisualGuideLineColor(string?)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuDesignAPI.cs#L110" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuDesignAPI.cs#L110" />
 
 Sets the color of the visual guide lines using hex color format.
 
@@ -330,7 +330,7 @@ IMenuBuilderAPI SetVisualGuideLineColor(string? hexColor = null)
 
 ### SetVisualGuideLineColor(Color)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuDesignAPI.cs#L117" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuDesignAPI.cs#L117" />
 
 Sets the color of the visual guide lines using SwiftlyS2 native color.
 
@@ -348,7 +348,7 @@ IMenuBuilderAPI SetVisualGuideLineColor(Color color)
 
 ### SetVisualGuideLineColor(Color)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuDesignAPI.cs#L124" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuDesignAPI.cs#L124" />
 
 Sets the color of the visual guide lines using System.Drawing color.
 

@@ -4,7 +4,7 @@ title: INetMessage
 
 # Interface INetMessage
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/NetMessages/INetMessage.cs#L5" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/NetMessages/INetMessage.cs#L5" />
 
 **Namespace**: [SwiftlyS2.Shared.NetMessages](/docs/api/netmessages)
 
@@ -14,7 +14,7 @@ title: INetMessage
 public interface INetMessage<T> where T : INetMessage<T>, ITypedProtobuf<T>, IDisposable
 ```
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" />
 
@@ -22,7 +22,7 @@ public interface INetMessage<T> where T : INetMessage<T>, ITypedProtobuf<T>, IDi
 
 ### MessageId
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/NetMessages/INetMessage.cs#L8" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/NetMessages/INetMessage.cs#L8" />
 
 ```csharp
 public static abstract int MessageId { get; }
@@ -34,7 +34,7 @@ public static abstract int MessageId { get; }
 
 ### MessageName
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/NetMessages/INetMessage.cs#L9" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/NetMessages/INetMessage.cs#L9" />
 
 ```csharp
 public static abstract string MessageName { get; }
@@ -46,7 +46,7 @@ public static abstract string MessageName { get; }
 
 ### Recipients
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/NetMessages/INetMessage.cs#L11" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/NetMessages/INetMessage.cs#L11" />
 
 ```csharp
 ref CRecipientFilter Recipients { get; }
@@ -60,7 +60,7 @@ ref CRecipientFilter Recipients { get; }
 
 ### Send()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/NetMessages/INetMessage.cs#L16" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/NetMessages/INetMessage.cs#L16" />
 
 Sends the net message with current recipient filter.
 
@@ -70,7 +70,7 @@ void Send()
 
 ### SendToAllPlayers()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/NetMessages/INetMessage.cs#L21" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/NetMessages/INetMessage.cs#L21" />
 
 Sends the net message to all players.
 
@@ -80,7 +80,7 @@ void SendToAllPlayers()
 
 ### SendToPlayer(int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/NetMessages/INetMessage.cs#L27" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/NetMessages/INetMessage.cs#L27" />
 
 Sends the net message to the specified player.
 

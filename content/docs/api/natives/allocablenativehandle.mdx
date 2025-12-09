@@ -4,7 +4,7 @@ title: AllocableNativeHandle
 
 # Class AllocableNativeHandle
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/AllocableNativeHandle.cs#L7" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Natives/AllocableNativeHandle.cs#L7" />
 
 **Namespace**: [SwiftlyS2.Shared.Natives](/docs/api/natives)
 
@@ -54,7 +54,7 @@ public abstract class AllocableNativeHandle : SafeHandleZeroOrMinusOneIsInvalid,
 
 ### AllocableNativeHandle(nint, bool)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/AllocableNativeHandle.cs#L13" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Natives/AllocableNativeHandle.cs#L13" />
 
 ```csharp
 protected AllocableNativeHandle(nint handle, bool ownsHandle)
@@ -69,7 +69,7 @@ protected AllocableNativeHandle(nint handle, bool ownsHandle)
 
 ### Address
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/AllocableNativeHandle.cs#L18" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Natives/AllocableNativeHandle.cs#L18" />
 
 Dangerous method to get the memory address of the object
 
@@ -83,7 +83,7 @@ public nint Address { get; }
 
 ### IsValid
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/AllocableNativeHandle.cs#L9" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Natives/AllocableNativeHandle.cs#L9" />
 
 Return whether a handle is valid. 
 Still might be dangerous for some pointer that borrowed from game instead of allocated by ourselves.
@@ -100,7 +100,7 @@ public bool IsValid { get; }
 
 ### Free()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/AllocableNativeHandle.cs#L21" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Natives/AllocableNativeHandle.cs#L21" />
 
 ```csharp
 protected abstract bool Free()
@@ -112,7 +112,7 @@ protected abstract bool Free()
 
 ### ReleaseHandle()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/AllocableNativeHandle.cs#L23" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Natives/AllocableNativeHandle.cs#L23" />
 
 When overridden in a derived class, executes the code required to free the handle.
 

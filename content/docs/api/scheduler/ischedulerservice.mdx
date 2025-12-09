@@ -4,7 +4,7 @@ title: ISchedulerService
 
 # Interface ISchedulerService
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L3" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L3" />
 
 **Namespace**: [SwiftlyS2.Shared.Scheduler](/docs/api/scheduler)
 
@@ -18,7 +18,7 @@ public interface ISchedulerService
 
 ### Delay(int, Action)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L112" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L112" />
 
 Add a delayed task to the scheduler.
 
@@ -37,7 +37,7 @@ CancellationTokenSource Delay(int delayTick, Action task)
 
 ### DelayAndRepeat(int, int, Action)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L130" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L130" />
 
 Add a delayed and repeated task to the scheduler.
 
@@ -57,7 +57,7 @@ CancellationTokenSource DelayAndRepeat(int delayTick, int periodTick, Action tas
 
 ### DelayAndRepeatBySeconds(float, float, Action)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L163" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L163" />
 
 Add a delayed and repeated task to the scheduler.
 
@@ -79,7 +79,7 @@ CancellationTokenSource DelayAndRepeatBySeconds(float delaySeconds, float period
 
 ### DelayBySeconds(float, Action)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L141" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L141" />
 
 Add a delayed task to the scheduler.
 
@@ -100,7 +100,7 @@ CancellationTokenSource DelayBySeconds(float delaySeconds, Action task)
 
 ### NextTick(Action)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L10" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L10" />
 
 Add a task to be executed on the next tick.
 
@@ -112,9 +112,9 @@ void NextTick(Action task)
 
 - <ApiParam name="task" type="Action" typeHref="https://learn.microsoft.com/dotnet/api/system.action" /> — The task to execute.
 
-### NextTick(Func)
+### NextTick(Func\<Task?\>)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L17" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L17" />
 
 Never use this! you should never calls async callback in next tick,
 because async callback have chance to run in async context, which breaks the the synchronization safety this function gives.
@@ -128,13 +128,13 @@ void NextTick(Func<Task?> task)
 
 - <ApiParam name="task" type="Func&lt;Task?&gt;" typeHref="https://learn.microsoft.com/dotnet/api/system.func-1" />
 
-#### Exceptions
+<ApiLabel>Exceptions</ApiLabel>
 
 - <ApiParam type="InvalidOperationException" typeHref="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception" /> — Thrown when this method is called.
 
-### NextTick(Func>)
+### NextTick\<T\>(Func\<Task\<T?\>\>)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L25" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L25" />
 
 Never use this! you should never calls async callback in next tick,
 because async callback have chance to run in async context, which breaks the the synchronization safety this function gives.
@@ -148,17 +148,17 @@ void NextTick<T>(Func<Task<T?>> task)
 
 - <ApiParam name="task" type="Func&lt;Task&lt;T?&gt;&gt;" typeHref="https://learn.microsoft.com/dotnet/api/system.func-1" />
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" />
 
-#### Exceptions
+<ApiLabel>Exceptions</ApiLabel>
 
 - <ApiParam type="InvalidOperationException" typeHref="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception" /> — Thrown when this method is called.
 
 ### NextTickAsync(Action)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L32" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L32" />
 
 Add a task to be executed on the next tick asynchronously.
 
@@ -174,9 +174,9 @@ Task NextTickAsync(Action task)
 
 - <ApiParam type="Task" typeHref="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task" />
 
-### NextTickAsync(Func)
+### NextTickAsync(Func\<Task?\>)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L39" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L39" />
 
 Never use this! you should never calls async callback in next tick,
 because async callback have chance to run in async context, which breaks the the synchronization safety this function gives.
@@ -190,13 +190,13 @@ void NextTickAsync(Func<Task?> task)
 
 - <ApiParam name="task" type="Func&lt;Task?&gt;" typeHref="https://learn.microsoft.com/dotnet/api/system.func-1" />
 
-#### Exceptions
+<ApiLabel>Exceptions</ApiLabel>
 
 - <ApiParam type="InvalidOperationException" typeHref="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception" /> — Thrown when this method is called.
 
-### NextTickAsync(Func>)
+### NextTickAsync\<T\>(Func\<Task\<T?\>\>)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L47" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L47" />
 
 Never use this! you should never calls async callback in next tick,
 because async callback have chance to run in async context, which breaks the the synchronization safety this function gives.
@@ -210,17 +210,17 @@ void NextTickAsync<T>(Func<Task<T?>> task)
 
 - <ApiParam name="task" type="Func&lt;Task&lt;T?&gt;&gt;" typeHref="https://learn.microsoft.com/dotnet/api/system.func-1" />
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" />
 
-#### Exceptions
+<ApiLabel>Exceptions</ApiLabel>
 
 - <ApiParam type="InvalidOperationException" typeHref="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception" /> — Thrown when this method is called.
 
-### NextTickAsync(Func)
+### NextTickAsync\<T\>(Func\<T\>)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L54" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L54" />
 
 Add a task to be executed on the next tick asynchronously.
 
@@ -236,13 +236,13 @@ Task<T> NextTickAsync<T>(Func<T> task)
 
 - <ApiParam type="Task&lt;T&gt;" typeHref="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1" />
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" />
 
 ### NextWorldUpdate(Action)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L60" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L60" />
 
 Add a task to be executed on the next world update.
 
@@ -254,9 +254,9 @@ void NextWorldUpdate(Action task)
 
 - <ApiParam name="task" type="Action" typeHref="https://learn.microsoft.com/dotnet/api/system.action" /> — The task to execute.
 
-### NextWorldUpdate(Func)
+### NextWorldUpdate(Func\<Task?\>)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L67" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L67" />
 
 Never use this! you should never calls async callback in next world update,
 because async callback have chance to run in async context, which breaks the the synchronization safety this function gives.
@@ -270,13 +270,13 @@ void NextWorldUpdate(Func<Task?> task)
 
 - <ApiParam name="task" type="Func&lt;Task?&gt;" typeHref="https://learn.microsoft.com/dotnet/api/system.func-1" />
 
-#### Exceptions
+<ApiLabel>Exceptions</ApiLabel>
 
 - <ApiParam type="InvalidOperationException" typeHref="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception" /> — Thrown when this method is called.
 
-### NextWorldUpdate(Func>)
+### NextWorldUpdate\<T\>(Func\<Task\<T?\>\>)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L75" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L75" />
 
 Never use this! you should never calls async callback in next world update,
 because async callback have chance to run in async context, which breaks the the synchronization safety this function gives.
@@ -290,17 +290,17 @@ void NextWorldUpdate<T>(Func<Task<T?>> task)
 
 - <ApiParam name="task" type="Func&lt;Task&lt;T?&gt;&gt;" typeHref="https://learn.microsoft.com/dotnet/api/system.func-1" />
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" />
 
-#### Exceptions
+<ApiLabel>Exceptions</ApiLabel>
 
 - <ApiParam type="InvalidOperationException" typeHref="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception" /> — Thrown when this method is called.
 
 ### NextWorldUpdateAsync(Action)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L82" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L82" />
 
 Add a task to be executed on the next world update asynchronously.
 
@@ -316,9 +316,9 @@ Task NextWorldUpdateAsync(Action task)
 
 - <ApiParam type="Task" typeHref="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task" />
 
-### NextWorldUpdateAsync(Func)
+### NextWorldUpdateAsync(Func\<Task?\>)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L89" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L89" />
 
 Never use this! you should never calls async callback in next world update,
 because async callback have chance to run in async context, which breaks the the synchronization safety this function gives.
@@ -332,13 +332,13 @@ void NextWorldUpdateAsync(Func<Task?> task)
 
 - <ApiParam name="task" type="Func&lt;Task?&gt;" typeHref="https://learn.microsoft.com/dotnet/api/system.func-1" />
 
-#### Exceptions
+<ApiLabel>Exceptions</ApiLabel>
 
 - <ApiParam type="InvalidOperationException" typeHref="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception" /> — Thrown when this method is called.
 
-### NextWorldUpdateAsync(Func>)
+### NextWorldUpdateAsync\<T\>(Func\<Task\<T?\>\>)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L97" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L97" />
 
 Never use this! you should never calls async callback in next world update,
 because async callback have chance to run in async context, which breaks the the synchronization safety this function gives.
@@ -356,17 +356,17 @@ Task<T> NextWorldUpdateAsync<T>(Func<Task<T?>> task)
 
 - <ApiParam type="Task&lt;T&gt;" typeHref="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1" />
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" />
 
-#### Exceptions
+<ApiLabel>Exceptions</ApiLabel>
 
 - <ApiParam type="InvalidOperationException" typeHref="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception" /> — Thrown when this method is called.
 
-### NextWorldUpdateAsync(Func)
+### NextWorldUpdateAsync\<T\>(Func\<T\>)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L104" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L104" />
 
 Add a task to be executed on the next world update asynchronously.
 
@@ -382,13 +382,13 @@ Task<T> NextWorldUpdateAsync<T>(Func<T> task)
 
 - <ApiParam type="Task&lt;T&gt;" typeHref="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1" />
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" />
 
 ### Repeat(int, Action)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L121" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L121" />
 
 Add a repeated task to the scheduler.
 This will be executed once immediately, and then every periodTick ticks.
@@ -408,7 +408,7 @@ CancellationTokenSource Repeat(int periodTick, Action task)
 
 ### RepeatBySeconds(float, Action)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L152" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L152" />
 
 Add a repeated task to the scheduler.
 This will be executed once immediately, and then every periodSeconds seconds.
@@ -430,7 +430,7 @@ CancellationTokenSource RepeatBySeconds(float periodSeconds, Action task)
 
 ### StopOnMapChange(CancellationTokenSource)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L169" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L169" />
 
 Stop a timer when the map changes.
 

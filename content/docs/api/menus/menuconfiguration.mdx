@@ -4,7 +4,7 @@ title: MenuConfiguration
 
 # Class MenuConfiguration
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L12" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L12" />
 
 **Namespace**: [SwiftlyS2.Shared.Menus](/docs/api/menus)
 
@@ -39,7 +39,7 @@ public record MenuConfiguration : IEquatable<MenuConfiguration>
 
 ### AutoCloseAfter
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L87" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L87" />
 
 Time in seconds before the menu automatically closes. Set to 0 or less to disable auto-close.
 
@@ -53,9 +53,9 @@ public float AutoCloseAfter { get; set; }
 
 ### AutoIncreaseVisibleItems
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L72" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L72" />
 
-Whether to automatically increase <xref href="SwiftlyS2.Shared.Menus.MenuConfiguration.MaxVisibleItems" data-throw-if-not-resolved="false"></xref> when <xref href="SwiftlyS2.Shared.Menus.MenuConfiguration.HideTitle" data-throw-if-not-resolved="false"></xref> or <xref href="SwiftlyS2.Shared.Menus.MenuConfiguration.HideFooter" data-throw-if-not-resolved="false"></xref> is enabled.
+Whether to automatically increase SwiftlyS2.Shared.Menus.MenuConfiguration.MaxVisibleItems when SwiftlyS2.Shared.Menus.MenuConfiguration.HideTitle or SwiftlyS2.Shared.Menus.MenuConfiguration.HideFooter is enabled.
 Each hidden section adds 1 to the visible items count.
 
 ```csharp
@@ -66,14 +66,14 @@ public bool AutoIncreaseVisibleItems { get; set; }
 
 - <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
 
-#### Remarks
+<ApiLabel>Remarks</ApiLabel>
 
-This does not modify the actual <xref href="SwiftlyS2.Shared.Menus.MenuConfiguration.MaxVisibleItems" data-throw-if-not-resolved="false"></xref> value.
+This does not modify the actual SwiftlyS2.Shared.Menus.MenuConfiguration.MaxVisibleItems value.
 Instead, the increase is applied during rendering calculations only.
 
 ### DisableExit
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L82" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L82" />
 
 Whether to disable the exit button for this menu.
 
@@ -87,7 +87,7 @@ public bool DisableExit { get; set; }
 
 ### DisabledColor
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L158" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L158" />
 
 The color of disabled menu options in hex format.
 
@@ -99,13 +99,13 @@ public string? DisabledColor { get; set; }
 
 - <ApiParam type="string?" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
 
-#### Remarks
+<ApiLabel>Remarks</ApiLabel>
 
 Supports "#RGB", "#RGBA", "#RRGGBB", and "#RRGGBBAA" formats.
 
 ### FooterColor
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L116" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L116" />
 
 The color of the menu footer in hex format.
 
@@ -117,13 +117,13 @@ public string? FooterColor { get; set; }
 
 - <ApiParam type="string?" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
 
-#### Remarks
+<ApiLabel>Remarks</ApiLabel>
 
 Supports "#RGB", "#RGBA", "#RRGGBB", and "#RRGGBBAA" formats.
 
 ### FreezePlayer
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L77" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L77" />
 
 Whether to freeze player movement while the menu is open.
 
@@ -137,7 +137,7 @@ public bool FreezePlayer { get; set; }
 
 ### HideFooter
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L33" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L33" />
 
 Whether to hide the menu footer.
 
@@ -151,7 +151,7 @@ public bool HideFooter { get; set; }
 
 ### HideTitle
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L28" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L28" />
 
 Whether to hide the menu title.
 
@@ -165,7 +165,7 @@ public bool HideTitle { get; set; }
 
 ### MaxVisibleItems
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L49" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L49" />
 
 Maximum number of menu options displayed on screen at once.
 
@@ -177,16 +177,14 @@ public int MaxVisibleItems { get; set; }
 
 - <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
 
-#### Remarks
+<ApiLabel>Remarks</ApiLabel>
 
 Valid range is [1, 5]. If set to a value outside this range, an exception will be thrown and the value will be set to -1.
-<p>
-When set to -1, the maximum visible items per page will use the <code>ItemsPerPage</code> value from the configuration file.
-</p>
+When set to -1, the maximum visible items per page will use the `ItemsPerPage` value from the configuration file.
 
 ### NavigationMarkerColor
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L95" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L95" />
 
 The color of navigation markers (selection indicators, page indicators, etc.) in hex format.
 
@@ -198,13 +196,13 @@ public string? NavigationMarkerColor { get; set; }
 
 - <ApiParam type="string?" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
 
-#### Remarks
+<ApiLabel>Remarks</ApiLabel>
 
 Supports "#RGB", "#RGBA", "#RRGGBB", and "#RRGGBBAA" formats.
 
 ### PlaySound
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L38" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L38" />
 
 Whether to play sounds when players interact with the menu.
 
@@ -218,7 +216,7 @@ public bool PlaySound { get; set; }
 
 ### Title
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L23" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L23" />
 
 The title of the menu.
 
@@ -232,7 +230,7 @@ public string Title { get; set; }
 
 ### VisualGuideLineColor
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L137" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L137" />
 
 The color of visual guide lines in hex format.
 
@@ -244,7 +242,7 @@ public string? VisualGuideLineColor { get; set; }
 
 - <ApiParam type="string?" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
 
-#### Remarks
+<ApiLabel>Remarks</ApiLabel>
 
 Supports "#RGB", "#RGBA", "#RRGGBB", and "#RRGGBBAA" formats.
 

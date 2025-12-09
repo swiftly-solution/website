@@ -4,7 +4,7 @@ title: CEntityInstance
 
 # Interface CEntityInstance
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityInstance.cs#L11" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityInstance.cs#L11" />
 
 **Namespace**: [SwiftlyS2.Shared.SchemaDefinitions](/docs/api/schemadefinitions)
 
@@ -25,7 +25,7 @@ public interface CEntityInstance : ISchemaClass<CEntityInstance>, ISchemaField, 
 
 ### CScriptComponent
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityInstance.cs#L22" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityInstance.cs#L22" />
 
 ```csharp
 CScriptComponent? CScriptComponent { get; }
@@ -37,7 +37,7 @@ CScriptComponent? CScriptComponent { get; }
 
 ### DesignerName
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L19" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L19" />
 
 The designer name of the entity.
 
@@ -51,7 +51,7 @@ string DesignerName { get; }
 
 ### Entity
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityInstance.cs#L20" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityInstance.cs#L20" />
 
 ```csharp
 CEntityIdentity? Entity { get; }
@@ -63,7 +63,7 @@ CEntityIdentity? Entity { get; }
 
 ### Index
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L14" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L14" />
 
 The index of the entity.
 
@@ -77,7 +77,7 @@ uint Index { get; }
 
 ### PrivateVScripts
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityInstance.cs#L18" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityInstance.cs#L18" />
 
 ```csharp
 string PrivateVScripts { get; set; }
@@ -89,9 +89,9 @@ string PrivateVScripts { get; set; }
 
 ## Methods
 
-### AcceptInput(string, T?, CEntityInstance?, CEntityInstance?, int)
+### AcceptInput\<T\>(string, T?, CEntityInstance?, CEntityInstance?, int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L32" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L32" />
 
 Fire an input to the entity.
 
@@ -110,13 +110,13 @@ void AcceptInput<T>(string input, T? value, CEntityInstance? activator = null, C
 - <ApiParam name="caller" type="CEntityInstance?" typeHref="/docs/api/schemadefinitions/centityinstance" /> — Caller entity. Nullable.
 - <ApiParam name="outputID" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> — Output ID.
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" /> — Param type. Support bool, int, uint, long, ulong, float, double, string, Vector, Vector2D, Vector4D, QAngle, Color
 
-### AcceptInputAsync(string, T?, CEntityInstance?, CEntityInstance?, int)
+### AcceptInputAsync\<T\>(string, T?, CEntityInstance?, CEntityInstance?, int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L44" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L44" />
 
 Fire an input to the entity asynchronously.
 
@@ -136,13 +136,13 @@ Task AcceptInputAsync<T>(string input, T? value, CEntityInstance? activator = nu
 
 - <ApiParam type="Task" typeHref="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task" />
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" /> — Param type. Support bool, int, uint, long, ulong, float, double, string, Vector, Vector2D, Vector4D, QAngle, Color
 
-### AddEntityIOEvent(string, T?, CEntityInstance?, CEntityInstance?, float)
+### AddEntityIOEvent\<T\>(string, T?, CEntityInstance?, CEntityInstance?, float)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L57" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L57" />
 
 Add an entity IO event to the entity.
 
@@ -161,13 +161,13 @@ void AddEntityIOEvent<T>(string input, T? value, CEntityInstance? activator = nu
 - <ApiParam name="caller" type="CEntityInstance?" typeHref="/docs/api/schemadefinitions/centityinstance" /> — Caller entity. Nullable.
 - <ApiParam name="delay" type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" /> — Delay in seconds.
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" /> — Param type. Support bool, int, uint, long, ulong, float, double, string, Vector, Vector2D, Vector4D, QAngle, Color
 
-### AddEntityIOEventAsync(string, T?, CEntityInstance?, CEntityInstance?, float)
+### AddEntityIOEventAsync\<T\>(string, T?, CEntityInstance?, CEntityInstance?, float)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L69" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L69" />
 
 Add an entity IO event to the entity asynchronously.
 
@@ -187,13 +187,13 @@ Task AddEntityIOEventAsync<T>(string input, T? value, CEntityInstance? activator
 
 - <ApiParam type="Task" typeHref="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task" />
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" /> — Param type. Support bool, int, uint, long, ulong, float, double, string, Vector, Vector2D, Vector4D, QAngle, Color
 
 ### Despawn()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L110" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L110" />
 
 Despawn the entity.
 
@@ -206,7 +206,7 @@ void Despawn()
 
 ### DespawnAsync()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L116" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L116" />
 
 Despawn the entity asynchronously.
 
@@ -220,7 +220,7 @@ Task DespawnAsync()
 
 ### DispatchSpawn(CEntityKeyValues?)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L77" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L77" />
 
 Dispatch a spawn event to the entity.
 
@@ -237,7 +237,7 @@ void DispatchSpawn(CEntityKeyValues? entityKV = null)
 
 ### DispatchSpawnAsync(CEntityKeyValues?)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L84" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L84" />
 
 Dispatch a spawn event to the entity asynchronously.
 
@@ -255,7 +255,7 @@ Task DispatchSpawnAsync(CEntityKeyValues? entityKV = null)
 
 ### EntityUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityInstance.cs#L24" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityInstance.cs#L24" />
 
 ```csharp
 void EntityUpdated()
@@ -263,7 +263,7 @@ void EntityUpdated()
 
 ### IsTransmitting(int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L103" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L103" />
 
 Check if the entity is transmitting for one player.
 
@@ -281,7 +281,7 @@ bool IsTransmitting(int playerId)
 
 ### SetTransmitState(bool, int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L91" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L91" />
 
 Set the transmit state of the entity for one player.
 
@@ -296,7 +296,7 @@ void SetTransmitState(bool transmitting, int playerId)
 
 ### SetTransmitState(bool)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L97" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L97" />
 
 Set the global transmit state of the entity.
 

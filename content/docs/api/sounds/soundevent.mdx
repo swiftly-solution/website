@@ -4,7 +4,7 @@ title: SoundEvent
 
 # Class SoundEvent
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L9" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L9" />
 
 **Namespace**: [SwiftlyS2.Shared.Sounds](/docs/api/sounds)
 
@@ -37,7 +37,7 @@ public class SoundEvent : IDisposable
 
 ### SoundEvent()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L56" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L56" />
 
 ```csharp
 public SoundEvent()
@@ -45,7 +45,7 @@ public SoundEvent()
 
 ### SoundEvent(string, float, float)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L66" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L66" />
 
 ```csharp
 public SoundEvent(string name, float volume = 1, float pitch = 1)
@@ -61,7 +61,7 @@ public SoundEvent(string name, float volume = 1, float pitch = 1)
 
 ### Name
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L17" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L17" />
 
 The sound event name.
 
@@ -75,7 +75,7 @@ public string Name { get; set; }
 
 ### Pitch
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L42" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L42" />
 
 The pitch of the sound event.
 
@@ -89,7 +89,7 @@ public float Pitch { get; set; }
 
 ### Recipients
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L52" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L52" />
 
 The recipients of the sound event.
 
@@ -103,7 +103,7 @@ public ref CRecipientFilter Recipients { get; }
 
 ### SourceEntityIndex
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L26" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L26" />
 
 The index of the entity that this sound event is emitted from.
 Setting to -1 (default) will emit the sound from the recipient location.
@@ -118,7 +118,7 @@ public int SourceEntityIndex { get; set; }
 
 ### Volume
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L34" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L34" />
 
 The volume of the sound event.
 
@@ -134,7 +134,7 @@ public float Volume { get; set; }
 
 ### Dispose()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L172" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L172" />
 
 Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
 
@@ -144,12 +144,12 @@ public void Dispose()
 
 ### Emit()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L144" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L144" />
 
 Emit the sound event.
 
 Thread unsafe, use async variant instead for non-main thread context.
-<returns>The emitted sound event guid.</returns>
+Returns: The emitted sound event guid.
 
 ```csharp
 [ThreadUnsafe]
@@ -162,7 +162,7 @@ public uint Emit()
 
 ### EmitAsync()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L155" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L155" />
 
 Emit the sound event asynchronously.
 
@@ -176,7 +176,7 @@ public Task<uint> EmitAsync()
 
 ### GetBool(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L87" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L87" />
 
 ```csharp
 public bool GetBool(string fieldName)
@@ -192,7 +192,7 @@ public bool GetBool(string fieldName)
 
 ### GetFloat(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L117" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L117" />
 
 ```csharp
 public float GetFloat(string fieldName)
@@ -208,7 +208,7 @@ public float GetFloat(string fieldName)
 
 ### GetFloat3(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L133" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L133" />
 
 ```csharp
 public Vector GetFloat3(string fieldName)
@@ -224,7 +224,7 @@ public Vector GetFloat3(string fieldName)
 
 ### GetInt32(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L97" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L97" />
 
 ```csharp
 public int GetInt32(string fieldName)
@@ -240,7 +240,7 @@ public int GetInt32(string fieldName)
 
 ### GetUInt32(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L107" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L107" />
 
 ```csharp
 public uint GetUInt32(string fieldName)
@@ -256,7 +256,7 @@ public uint GetUInt32(string fieldName)
 
 ### SetBool(string, bool)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L82" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L82" />
 
 ```csharp
 public void SetBool(string fieldName, bool value)
@@ -269,7 +269,7 @@ public void SetBool(string fieldName, bool value)
 
 ### SetFloat(string, float)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L112" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L112" />
 
 ```csharp
 public void SetFloat(string fieldName, float value)
@@ -282,7 +282,7 @@ public void SetFloat(string fieldName, float value)
 
 ### SetFloat3(string, float, float, float)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L122" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L122" />
 
 ```csharp
 public void SetFloat3(string fieldName, float x, float y, float z)
@@ -297,7 +297,7 @@ public void SetFloat3(string fieldName, float x, float y, float z)
 
 ### SetFloat3(string, Vector)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L128" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L128" />
 
 ```csharp
 public void SetFloat3(string fieldName, Vector vec)
@@ -310,7 +310,7 @@ public void SetFloat3(string fieldName, Vector vec)
 
 ### SetInt32(string, int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L92" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L92" />
 
 ```csharp
 public void SetInt32(string fieldName, int value)
@@ -323,7 +323,7 @@ public void SetInt32(string fieldName, int value)
 
 ### SetSourceEntity(CEntityInstance)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L77" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L77" />
 
 ```csharp
 public void SetSourceEntity(CEntityInstance entity)
@@ -335,7 +335,7 @@ public void SetSourceEntity(CEntityInstance entity)
 
 ### SetUInt32(string, uint)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L102" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L102" />
 
 ```csharp
 public void SetUInt32(string fieldName, uint value)

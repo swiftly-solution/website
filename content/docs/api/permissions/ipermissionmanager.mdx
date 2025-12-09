@@ -4,7 +4,7 @@ title: IPermissionManager
 
 # Interface IPermissionManager
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Permissions/IPermissionManager.cs#L3" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Permissions/IPermissionManager.cs#L3" />
 
 **Namespace**: [SwiftlyS2.Shared.Permissions](/docs/api/permissions)
 
@@ -18,7 +18,7 @@ public interface IPermissionManager
 
 ### AddPermission(ulong, string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Permissions/IPermissionManager.cs#L29" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Permissions/IPermissionManager.cs#L29" />
 
 Adds a permission to a player.
 
@@ -33,7 +33,7 @@ void AddPermission(ulong steamId, string permission)
 
 ### AddSubPermission(string, string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Permissions/IPermissionManager.cs#L43" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Permissions/IPermissionManager.cs#L43" />
 
 Adds a sub-permission to a permission.
 
@@ -48,7 +48,7 @@ void AddSubPermission(string permission, string subPermission)
 
 ### ClearPermission(ulong)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Permissions/IPermissionManager.cs#L56" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Permissions/IPermissionManager.cs#L56" />
 
 Clear all permission from a player.
 
@@ -62,7 +62,7 @@ void ClearPermission(ulong steamId)
 
 ### PlayerHasPermission(ulong, string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Permissions/IPermissionManager.cs#L13" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Permissions/IPermissionManager.cs#L13" />
 
 Checks if a player has a permission.
 Support 'xxx.*' for wildcard permissions.
@@ -80,9 +80,9 @@ bool PlayerHasPermission(ulong steamId, string permission)
 
 - <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" /> — True if the player has the permission, false otherwise.
 
-### PlayerHasPermissions(ulong, IEnumerable)
+### PlayerHasPermissions(ulong, IEnumerable\<string\>)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Permissions/IPermissionManager.cs#L22" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Permissions/IPermissionManager.cs#L22" />
 
 Checks if a player has all permissions in the list.
 Support 'xxx.*' for wildcard permissions.
@@ -102,7 +102,7 @@ bool PlayerHasPermissions(ulong steamId, IEnumerable<string> permissions)
 
 ### RemovePermission(ulong, string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Permissions/IPermissionManager.cs#L36" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Permissions/IPermissionManager.cs#L36" />
 
 Removes a permission from a player.
 
@@ -117,7 +117,7 @@ void RemovePermission(ulong steamId, string permission)
 
 ### RemoveSubPermission(string, string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Permissions/IPermissionManager.cs#L50" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Permissions/IPermissionManager.cs#L50" />
 
 Removes a sub-permission from a permission.
 

@@ -4,7 +4,7 @@ title: IMenuBuilderAPI
 
 # Interface IMenuBuilderAPI
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilderAPI.cs#L7" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilderAPI.cs#L7" />
 
 **Namespace**: [SwiftlyS2.Shared.Menus](/docs/api/menus)
 
@@ -21,7 +21,7 @@ public interface IMenuBuilderAPI
 
 ### Design
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilderAPI.cs#L12" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilderAPI.cs#L12" />
 
 Gets the design interface for this menu.
 
@@ -37,7 +37,7 @@ IMenuDesignAPI Design { get; }
 
 ### AddOption(IMenuOption)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilderAPI.cs#L26" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilderAPI.cs#L26" />
 
 Adds a menu option to the menu.
 
@@ -55,7 +55,7 @@ IMenuBuilderAPI AddOption(IMenuOption option)
 
 ### BindToParent(IMenuAPI)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilderAPI.cs#L19" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilderAPI.cs#L19" />
 
 Binds this menu to a parent menu, creating a hierarchical navigation structure.
 
@@ -73,7 +73,7 @@ IMenuBuilderAPI BindToParent(IMenuAPI parent)
 
 ### Build()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilderAPI.cs#L118" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilderAPI.cs#L118" />
 
 Builds the menu and returns the final menu instance.
 
@@ -87,7 +87,7 @@ IMenuAPI Build()
 
 ### DisableExit()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilderAPI.cs#L50" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilderAPI.cs#L50" />
 
 Disables the exit button for this menu.
 
@@ -101,7 +101,7 @@ IMenuBuilderAPI DisableExit()
 
 ### DisableSound()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilderAPI.cs#L38" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilderAPI.cs#L38" />
 
 Disables sound effects for menu interactions.
 
@@ -115,7 +115,7 @@ IMenuBuilderAPI DisableSound()
 
 ### EnableExit()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilderAPI.cs#L44" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilderAPI.cs#L44" />
 
 Enables the exit button for this menu.
 
@@ -129,7 +129,7 @@ IMenuBuilderAPI EnableExit()
 
 ### EnableSound()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilderAPI.cs#L32" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilderAPI.cs#L32" />
 
 Enables sound effects for menu interactions.
 
@@ -143,7 +143,7 @@ IMenuBuilderAPI EnableSound()
 
 ### SetAutoCloseDelay(float)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilderAPI.cs#L64" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilderAPI.cs#L64" />
 
 Sets the automatic close delay for the menu.
 
@@ -161,7 +161,7 @@ IMenuBuilderAPI SetAutoCloseDelay(float seconds = 0)
 
 ### SetExitButton(KeyBind)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilderAPI.cs#L112" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilderAPI.cs#L112" />
 
 Overrides the default key binding for closing the menu.
 
@@ -177,15 +177,15 @@ IMenuBuilderAPI SetExitButton(KeyBind keyBind)
 
 - <ApiParam type="IMenuBuilderAPI" typeHref="/docs/api/menus/imenubuilderapi" /> — This builder for method chaining.
 
-#### Remarks
+<ApiLabel>Remarks</ApiLabel>
 
 This overrides the default exit button behavior.
 Supports multiple key bindings using the bitwise OR operator.
-Example: <code>KeyBind.Esc | KeyBind.A</code> allows either Esc or A to close the menu.
+Example: `KeyBind.Esc | KeyBind.A` allows either Esc or A to close the menu.
 
 ### SetMoveBackwardButton(KeyBind)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilderAPI.cs#L100" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilderAPI.cs#L100" />
 
 Overrides the default key binding for moving backward through menu options.
 
@@ -201,15 +201,15 @@ IMenuBuilderAPI SetMoveBackwardButton(KeyBind keyBind)
 
 - <ApiParam type="IMenuBuilderAPI" typeHref="/docs/api/menus/imenubuilderapi" /> — This builder for method chaining.
 
-#### Remarks
+<ApiLabel>Remarks</ApiLabel>
 
 This overrides the default move backward button behavior.
 Supports multiple key bindings using the bitwise OR operator.
-Example: <code>KeyBind.S | KeyBind.Mouse2</code> allows either S or Mouse2 to move backward.
+Example: `KeyBind.S | KeyBind.Mouse2` allows either S or Mouse2 to move backward.
 
 ### SetMoveForwardButton(KeyBind)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilderAPI.cs#L88" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilderAPI.cs#L88" />
 
 Overrides the default key binding for moving forward through menu options.
 
@@ -225,15 +225,15 @@ IMenuBuilderAPI SetMoveForwardButton(KeyBind keyBind)
 
 - <ApiParam type="IMenuBuilderAPI" typeHref="/docs/api/menus/imenubuilderapi" /> — This builder for method chaining.
 
-#### Remarks
+<ApiLabel>Remarks</ApiLabel>
 
 This overrides the default move forward button behavior.
 Supports multiple key bindings using the bitwise OR operator.
-Example: <code>KeyBind.W | KeyBind.Mouse1</code> allows either W or Mouse1 to move forward.
+Example: `KeyBind.W | KeyBind.Mouse1` allows either W or Mouse1 to move forward.
 
 ### SetPlayerFrozen(bool)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilderAPI.cs#L57" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilderAPI.cs#L57" />
 
 Controls whether player movement is frozen while the menu is open.
 
@@ -251,7 +251,7 @@ IMenuBuilderAPI SetPlayerFrozen(bool frozen = false)
 
 ### SetSelectButton(KeyBind)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilderAPI.cs#L76" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilderAPI.cs#L76" />
 
 Overrides the default key binding for selecting menu options.
 
@@ -267,9 +267,9 @@ IMenuBuilderAPI SetSelectButton(KeyBind keyBind)
 
 - <ApiParam type="IMenuBuilderAPI" typeHref="/docs/api/menus/imenubuilderapi" /> — This builder for method chaining.
 
-#### Remarks
+<ApiLabel>Remarks</ApiLabel>
 
 This overrides the default select button behavior.
 Supports multiple key bindings using the bitwise OR operator.
-Example: <code>KeyBind.Mouse1 | KeyBind.E</code> allows either Mouse1 or E to select options.
+Example: `KeyBind.Mouse1 | KeyBind.E` allows either Mouse1 or E to select options.
 

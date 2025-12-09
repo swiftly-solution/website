@@ -4,7 +4,7 @@ title: IEngineService
 
 # Interface IEngineService
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L6" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L6" />
 
 **Namespace**: [SwiftlyS2.Shared.Services](/docs/api/services)
 
@@ -18,7 +18,7 @@ public interface IEngineService
 
 ### CurrentTime
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L71" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L71" />
 
 The time since the server started.
 
@@ -33,7 +33,7 @@ float CurrentTime { get; }
 
 ### GlobalVars
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L27" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L27" />
 
 Gets a reference to the global variables structure.
 
@@ -47,7 +47,7 @@ ref CGlobalVars GlobalVars { get; }
 
 ### Map
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L16" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L16" />
 
 Gets the map that the server is running
 
@@ -62,7 +62,7 @@ string Map { get; }
 
 ### MaxPlayers
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L39" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L39" />
 
 Gets the maximum number of players allowed in the game.
 
@@ -77,7 +77,7 @@ int MaxPlayers { get; }
 
 ### ServerIP
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L11" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L11" />
 
 The IP address of the server.
 
@@ -91,7 +91,7 @@ string? ServerIP { get; }
 
 ### TickCount
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L77" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L77" />
 
 The number of simulation ticks that have occurred since the server started.
 
@@ -106,7 +106,7 @@ int TickCount { get; }
 
 ### WorkshopId
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L22" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L22" />
 
 Gets the Workshop ID of the current map.
 
@@ -122,7 +122,7 @@ string WorkshopId { get; }
 
 ### DispatchParticleEffect(string, ParticleAttachment_t, byte, CUtlSymbolLarge, CRecipientFilter, bool, int, CBaseEntity?)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L100" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L100" />
 
 Dispatches a particle effect to the specified recipients.
 
@@ -145,7 +145,7 @@ void DispatchParticleEffect(string particleName, ParticleAttachment_t attachment
 
 ### DispatchParticleEffectAsync(string, ParticleAttachment_t, byte, CUtlSymbolLarge, CRecipientFilter, bool, int, CBaseEntity?)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L116" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L116" />
 
 Dispatches a particle effect to the specified recipients asynchronously.
 
@@ -170,7 +170,7 @@ Task DispatchParticleEffectAsync(string particleName, ParticleAttachment_t attac
 
 ### ExecuteCommand(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L46" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L46" />
 
 Executes the specified command string in the current context.
 
@@ -184,7 +184,7 @@ void ExecuteCommand(string command)
 
 ### ExecuteCommandAsync(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L52" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L52" />
 
 Executes the specified command string in the current context asynchronously.
 
@@ -200,9 +200,9 @@ Task ExecuteCommandAsync(string command)
 
 - <ApiParam type="Task" typeHref="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task" />
 
-### ExecuteCommandWithBuffer(string, Action)
+### ExecuteCommandWithBuffer(string, Action\<string\>)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L59" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L59" />
 
 Executes the specified command string in the current context.
 
@@ -215,9 +215,9 @@ void ExecuteCommandWithBuffer(string command, Action<string> bufferCallback)
 - <ApiParam name="command" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The command to execute. Cannot be null or empty.
 - <ApiParam name="bufferCallback" type="Action&lt;string&gt;" typeHref="https://learn.microsoft.com/dotnet/api/system.action-1" /> — The callback to receive the output of the command.
 
-### ExecuteCommandWithBufferAsync(string, Action)
+### ExecuteCommandWithBufferAsync(string, Action\<string\>)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L66" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L66" />
 
 Executes the specified command string in the current context with a buffer callback asynchronously.
 
@@ -236,7 +236,7 @@ Task ExecuteCommandWithBufferAsync(string command, Action<string> bufferCallback
 
 ### FindGameSystemByName(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L85" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L85" />
 
 Find a game system by name.
 
@@ -254,7 +254,7 @@ nint? FindGameSystemByName(string name)
 
 ### IsMapValid(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L34" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L34" />
 
 Determines whether the specified map string represents a valid map in server files.
 

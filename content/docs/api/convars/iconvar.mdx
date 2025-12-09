@@ -4,7 +4,7 @@ title: IConVar
 
 # Interface IConVar
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L3" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L3" />
 
 **Namespace**: [SwiftlyS2.Shared.Convars](/docs/api/convars)
 
@@ -18,11 +18,11 @@ public interface IConVar
 
 ### DefaultValueAsString
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L35" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L35" />
 
 The default value of the convar in string.
 
-<xref href="System.ArgumentException?text=Thrown+when+the+string+value+can%27t+be+parsed." data-throw-if-not-resolved="false"></xref>
+[Thrown when the string value can't be parsed.](https://learn.microsoft.com/dotnet/api/system.argumentexception)
 
 ```csharp
 string DefaultValueAsString { get; set; }
@@ -34,7 +34,7 @@ string DefaultValueAsString { get; set; }
 
 ### Flags
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L55" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L55" />
 
 The flags of the convar.
 
@@ -48,7 +48,7 @@ ConvarFlags Flags { get; set; }
 
 ### HasDefaultValue
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L40" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L40" />
 
 Whether the convar has a default value.
 
@@ -62,7 +62,7 @@ bool HasDefaultValue { get; }
 
 ### HasMaxValue
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L50" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L50" />
 
 Whether the convar has a max value.
 
@@ -76,7 +76,7 @@ bool HasMaxValue { get; }
 
 ### HasMinValue
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L45" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L45" />
 
 Whether the convar has a min value.
 
@@ -90,11 +90,11 @@ bool HasMinValue { get; }
 
 ### MaxValueAsString
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L21" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L21" />
 
 The max value of the convar in string.
 
-<xref href="System.ArgumentException?text=Thrown+when+the+string+value+can%27t+be+parsed." data-throw-if-not-resolved="false"></xref>
+[Thrown when the string value can't be parsed.](https://learn.microsoft.com/dotnet/api/system.argumentexception)
 
 ```csharp
 string MaxValueAsString { get; set; }
@@ -106,11 +106,11 @@ string MaxValueAsString { get; set; }
 
 ### MinValueAsString
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L28" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L28" />
 
 The min value of the convar in string.
 
-<xref href="System.ArgumentException?text=Thrown+when+the+string+value+can%27t+be+parsed." data-throw-if-not-resolved="false"></xref>
+[Thrown when the string value can't be parsed.](https://learn.microsoft.com/dotnet/api/system.argumentexception)
 
 ```csharp
 string MinValueAsString { get; set; }
@@ -122,7 +122,7 @@ string MinValueAsString { get; set; }
 
 ### ValueAsString
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L14" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L14" />
 
 The string value of the convar.
 When setting, if the convar can be replicated, it will automatically replicate to all clients.
@@ -130,7 +130,7 @@ Also, setting value with this method will internally put it into a set queue,
 Which means that for some special case ( e.g. setting sv_enablebunnyhopping inside a hook ) it won't work,
 in such cases you should use the SetInternal method instead.
 
-<xref href="System.ArgumentException?text=Thrown+when+the+string+value+can%27t+be+parsed." data-throw-if-not-resolved="false"></xref>
+[Thrown when the string value can't be parsed.](https://learn.microsoft.com/dotnet/api/system.argumentexception)
 
 ```csharp
 string ValueAsString { get; set; }
@@ -142,9 +142,9 @@ string ValueAsString { get; set; }
 
 ## Methods
 
-### QueryClient(int, Action)
+### QueryClient(int, Action\<string\>)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L76" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L76" />
 
 Query the value of the convar from specified client.
 
@@ -159,7 +159,7 @@ void QueryClient(int clientId, Action<string> callback)
 
 ### ReplicateToClientAsString(int, string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L69" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L69" />
 
 Replicate the value of the convar to specified client.
 
@@ -174,7 +174,7 @@ void ReplicateToClientAsString(int clientId, string value)
 
 ### SetInternalAsString(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L63" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L63" />
 
 Internally set the value of the convar.
 Won't replicate the change to clients.
@@ -189,7 +189,7 @@ void SetInternalAsString(string value)
 
 ### TryGetDefaultValueAsString(out string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L83" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L83" />
 
 Try to get the default value of the convar.
 
@@ -207,7 +207,7 @@ bool TryGetDefaultValueAsString(out string defaultValue)
 
 ### TryGetMaxValueAsString(out string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L97" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L97" />
 
 Try to get the max value of the convar.
 
@@ -225,7 +225,7 @@ bool TryGetMaxValueAsString(out string maxValue)
 
 ### TryGetMinValueAsString(out string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L90" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L90" />
 
 Try to get the min value of the convar.
 

@@ -4,7 +4,7 @@ title: SubmenuMenuOption
 
 # Class SubmenuMenuOption
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/SubmenuMenuOption.cs#L8" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/SubmenuMenuOption.cs#L8" />
 
 **Namespace**: [SwiftlyS2.Core.Menus.OptionsBase](/docs/api/menus/optionsbase)
 
@@ -71,9 +71,9 @@ public sealed class SubmenuMenuOption : MenuOptionBase, IMenuOption, IDisposable
 
 ### SubmenuMenuOption(IMenuAPI, int, int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/SubmenuMenuOption.cs#L26" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/SubmenuMenuOption.cs#L26" />
 
-Creates an instance of <xref href="SwiftlyS2.Core.Menus.OptionsBase.SubmenuMenuOption" data-throw-if-not-resolved="false"></xref> with a pre-built submenu.
+Creates an instance of SwiftlyS2.Core.Menus.OptionsBase.SubmenuMenuOption with a pre-built submenu.
 
 ```csharp
 public SubmenuMenuOption(IMenuAPI submenu, int updateIntervalMs = 120, int pauseIntervalMs = 1000)
@@ -85,15 +85,15 @@ public SubmenuMenuOption(IMenuAPI submenu, int updateIntervalMs = 120, int pause
 - <ApiParam name="updateIntervalMs" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> — The interval in milliseconds between text updates. Defaults to 120ms.
 - <ApiParam name="pauseIntervalMs" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> — The pause duration in milliseconds before starting the next text update cycle. Defaults to 1000ms.
 
-#### Remarks
+<ApiLabel>Remarks</ApiLabel>
 
-When using this constructor, the <xref href="SwiftlyS2.Core.Menus.OptionsBase.MenuOptionBase.Text" data-throw-if-not-resolved="false"></xref> property must be manually set to specify the initial text.
+When using this constructor, the SwiftlyS2.Core.Menus.OptionsBase.MenuOptionBase.Text property must be manually set to specify the initial text.
 
 ### SubmenuMenuOption(string, IMenuAPI, int, int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/SubmenuMenuOption.cs#L43" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/SubmenuMenuOption.cs#L43" />
 
-Creates an instance of <xref href="SwiftlyS2.Core.Menus.OptionsBase.SubmenuMenuOption" data-throw-if-not-resolved="false"></xref> with a pre-built submenu.
+Creates an instance of SwiftlyS2.Core.Menus.OptionsBase.SubmenuMenuOption with a pre-built submenu.
 
 ```csharp
 public SubmenuMenuOption(string text, IMenuAPI submenu, int updateIntervalMs = 120, int pauseIntervalMs = 1000)
@@ -106,11 +106,11 @@ public SubmenuMenuOption(string text, IMenuAPI submenu, int updateIntervalMs = 1
 - <ApiParam name="updateIntervalMs" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> — The interval in milliseconds between text updates. Defaults to 120ms.
 - <ApiParam name="pauseIntervalMs" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> — The pause duration in milliseconds before starting the next text update cycle. Defaults to 1000ms.
 
-### SubmenuMenuOption(Func, int, int)
+### SubmenuMenuOption(Func\<IMenuAPI\>, int, int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/SubmenuMenuOption.cs#L61" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/SubmenuMenuOption.cs#L61" />
 
-Creates an instance of <xref href="SwiftlyS2.Core.Menus.OptionsBase.SubmenuMenuOption" data-throw-if-not-resolved="false"></xref> with a synchronous builder.
+Creates an instance of SwiftlyS2.Core.Menus.OptionsBase.SubmenuMenuOption with a synchronous builder.
 
 ```csharp
 public SubmenuMenuOption(Func<IMenuAPI> submenuBuilder, int updateIntervalMs = 120, int pauseIntervalMs = 1000)
@@ -122,15 +122,15 @@ public SubmenuMenuOption(Func<IMenuAPI> submenuBuilder, int updateIntervalMs = 1
 - <ApiParam name="updateIntervalMs" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> — The interval in milliseconds between text updates. Defaults to 120ms.
 - <ApiParam name="pauseIntervalMs" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> — The pause duration in milliseconds before starting the next text update cycle. Defaults to 1000ms.
 
-#### Remarks
+<ApiLabel>Remarks</ApiLabel>
 
-When using this constructor, the <xref href="SwiftlyS2.Core.Menus.OptionsBase.MenuOptionBase.Text" data-throw-if-not-resolved="false"></xref> property must be manually set to specify the initial text.
+When using this constructor, the SwiftlyS2.Core.Menus.OptionsBase.MenuOptionBase.Text property must be manually set to specify the initial text.
 
-### SubmenuMenuOption(string, Func, int, int)
+### SubmenuMenuOption(string, Func\<IMenuAPI\>, int, int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/SubmenuMenuOption.cs#L78" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/SubmenuMenuOption.cs#L78" />
 
-Creates an instance of <xref href="SwiftlyS2.Core.Menus.OptionsBase.SubmenuMenuOption" data-throw-if-not-resolved="false"></xref> with a synchronous builder.
+Creates an instance of SwiftlyS2.Core.Menus.OptionsBase.SubmenuMenuOption with a synchronous builder.
 
 ```csharp
 public SubmenuMenuOption(string text, Func<IMenuAPI> submenuBuilder, int updateIntervalMs = 120, int pauseIntervalMs = 1000)
@@ -143,11 +143,11 @@ public SubmenuMenuOption(string text, Func<IMenuAPI> submenuBuilder, int updateI
 - <ApiParam name="updateIntervalMs" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> — The interval in milliseconds between text updates. Defaults to 120ms.
 - <ApiParam name="pauseIntervalMs" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> — The pause duration in milliseconds before starting the next text update cycle. Defaults to 1000ms.
 
-### SubmenuMenuOption(Func>, int, int)
+### SubmenuMenuOption(Func\<Task\<IMenuAPI\>\>, int, int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/SubmenuMenuOption.cs#L96" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/SubmenuMenuOption.cs#L96" />
 
-Creates an instance of <xref href="SwiftlyS2.Core.Menus.OptionsBase.SubmenuMenuOption" data-throw-if-not-resolved="false"></xref> with an asynchronous builder.
+Creates an instance of SwiftlyS2.Core.Menus.OptionsBase.SubmenuMenuOption with an asynchronous builder.
 
 ```csharp
 public SubmenuMenuOption(Func<Task<IMenuAPI>> submenuBuilderAsync, int updateIntervalMs = 120, int pauseIntervalMs = 1000)
@@ -159,15 +159,15 @@ public SubmenuMenuOption(Func<Task<IMenuAPI>> submenuBuilderAsync, int updateInt
 - <ApiParam name="updateIntervalMs" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> — The interval in milliseconds between text updates. Defaults to 120ms.
 - <ApiParam name="pauseIntervalMs" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> — The pause duration in milliseconds before starting the next text update cycle. Defaults to 1000ms.
 
-#### Remarks
+<ApiLabel>Remarks</ApiLabel>
 
-When using this constructor, the <xref href="SwiftlyS2.Core.Menus.OptionsBase.MenuOptionBase.Text" data-throw-if-not-resolved="false"></xref> property must be manually set to specify the initial text.
+When using this constructor, the SwiftlyS2.Core.Menus.OptionsBase.MenuOptionBase.Text property must be manually set to specify the initial text.
 
-### SubmenuMenuOption(string, Func>, int, int)
+### SubmenuMenuOption(string, Func\<Task\<IMenuAPI\>\>, int, int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/SubmenuMenuOption.cs#L113" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/SubmenuMenuOption.cs#L113" />
 
-Creates an instance of <xref href="SwiftlyS2.Core.Menus.OptionsBase.SubmenuMenuOption" data-throw-if-not-resolved="false"></xref> with an asynchronous builder.
+Creates an instance of SwiftlyS2.Core.Menus.OptionsBase.SubmenuMenuOption with an asynchronous builder.
 
 ```csharp
 public SubmenuMenuOption(string text, Func<Task<IMenuAPI>> submenuBuilderAsync, int updateIntervalMs = 120, int pauseIntervalMs = 1000)

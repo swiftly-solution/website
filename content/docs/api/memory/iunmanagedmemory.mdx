@@ -4,7 +4,7 @@ title: IUnmanagedMemory
 
 # Interface IUnmanagedMemory
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Memory/IUnmanagedMemory.cs#L52" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Memory/IUnmanagedMemory.cs#L52" />
 
 **Namespace**: [SwiftlyS2.Shared.Memory](/docs/api/memory)
 
@@ -18,7 +18,7 @@ public interface IUnmanagedMemory
 
 ### Address
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Memory/IUnmanagedMemory.cs#L57" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Memory/IUnmanagedMemory.cs#L57" />
 
 The address of the unmanaged pointer.
 
@@ -34,7 +34,7 @@ nint Address { get; }
 
 ### AddHook(MidHookDelegate)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Memory/IUnmanagedMemory.cs#L64" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Memory/IUnmanagedMemory.cs#L64" />
 
 Hook a native function at the specified address with a managed callback.
 The callback receives a context structure that allows reading and modifying CPU registers.
@@ -53,7 +53,7 @@ Guid AddHook(MidHookDelegate callback)
 
 ### RemoveHook(Guid)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Memory/IUnmanagedMemory.cs#L70" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Memory/IUnmanagedMemory.cs#L70" />
 
 Unhook a hook by its id.
 

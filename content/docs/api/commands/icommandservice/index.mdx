@@ -4,7 +4,7 @@ title: Interface ICommandService
 
 # Interface ICommandService
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L5" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L5" />
 
 **Namespace**: [SwiftlyS2.Shared.Commands](/docs/api/commands)
 
@@ -18,7 +18,7 @@ public interface ICommandService
 
 ### HookClientChat(ClientChatHandler)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L83" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L83" />
 
 Hooks client chat, will be fired when a player sends any chat message.
 
@@ -36,7 +36,7 @@ Guid HookClientChat(ICommandService.ClientChatHandler handler)
 
 ### HookClientCommand(ClientCommandHandler)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L71" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L71" />
 
 Hooks client commands, will be fired when a player sends any command.
 
@@ -54,7 +54,7 @@ Guid HookClientCommand(ICommandService.ClientCommandHandler handler)
 
 ### IsCommandRegistered(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L65" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L65" />
 
 Checks if a command is registered.
 
@@ -72,7 +72,7 @@ bool IsCommandRegistered(string commandName)
 
 ### RegisterCommand(string, CommandListener, bool, string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L38" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L38" />
 
 Registers a command.
 
@@ -93,7 +93,7 @@ Guid RegisterCommand(string commandName, ICommandService.CommandListener handler
 
 ### RegisterCommandAlias(string, string, bool)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L46" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L46" />
 
 Registers a command alias.
 
@@ -109,7 +109,7 @@ void RegisterCommandAlias(string commandName, string alias, bool registerRaw = f
 
 ### UnhookClientChat(Guid)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L89" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L89" />
 
 Unhooks a client chat.
 
@@ -123,7 +123,7 @@ void UnhookClientChat(Guid guid)
 
 ### UnhookClientCommand(Guid)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L77" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L77" />
 
 Unhooks a client command.
 
@@ -137,7 +137,7 @@ void UnhookClientCommand(Guid guid)
 
 ### UnregisterCommand(Guid)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L52" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L52" />
 
 Unregisters a command.
 
@@ -151,7 +151,7 @@ void UnregisterCommand(Guid guid)
 
 ### UnregisterCommand(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L58" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L58" />
 
 Unregisters all command listeners with the specified command name.
 

@@ -10,7 +10,15 @@ export default function Layout({ children }: LayoutProps<'/'>) {
   return (
     <html lang="en" className={inter.className} suppressHydrationWarning>
       <body className="flex flex-col min-h-screen">
-        <RootProvider theme={{ defaultTheme: "dark", enableSystem: true }}>
+        <RootProvider
+          theme={{ defaultTheme: "dark", enableSystem: true }}
+          search={{
+            options: {
+              type: 'fetch',
+              delayMs: 200,
+            },
+          }}
+        >
           {children}
         </RootProvider>
       </body>

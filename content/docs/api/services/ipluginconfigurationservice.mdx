@@ -4,7 +4,7 @@ title: IPluginConfigurationService
 
 # Interface IPluginConfigurationService
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Services/IPluginConfigurationService.cs#L5" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Services/IPluginConfigurationService.cs#L5" />
 
 **Namespace**: [SwiftlyS2.Shared.Services](/docs/api/services)
 
@@ -18,7 +18,7 @@ public interface IPluginConfigurationService
 
 ### BasePath
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Services/IPluginConfigurationService.cs#L12" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Services/IPluginConfigurationService.cs#L12" />
 
 Get the base path of plugin configuration.
 
@@ -32,7 +32,7 @@ string BasePath { get; }
 
 ### BasePathExists
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Services/IPluginConfigurationService.cs#L62" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Services/IPluginConfigurationService.cs#L62" />
 
 Whether the base path exists in the file system.
 
@@ -46,7 +46,7 @@ bool BasePathExists { get; }
 
 ### Manager
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Services/IPluginConfigurationService.cs#L57" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Services/IPluginConfigurationService.cs#L57" />
 
 Get the configuration root.
 
@@ -60,9 +60,9 @@ IConfigurationManager Manager { get; }
 
 ## Methods
 
-### Configure(Action)
+### Configure(Action\<IConfigurationBuilder\>)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Services/IPluginConfigurationService.cs#L51" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Services/IPluginConfigurationService.cs#L51" />
 
 Configure the internal configuration manager.
 
@@ -80,7 +80,7 @@ IPluginConfigurationService Configure(Action<IConfigurationBuilder> configure)
 
 ### GetConfigPath(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Services/IPluginConfigurationService.cs#L20" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Services/IPluginConfigurationService.cs#L20" />
 
 Get the path to the configuration file.
 
@@ -96,9 +96,9 @@ string GetConfigPath(string name)
 
 - <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The path to the configuration file.
 
-### InitializeJsonWithModel(string, string)
+### InitializeJsonWithModel\<T\>(string, string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Services/IPluginConfigurationService.cs#L36" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Services/IPluginConfigurationService.cs#L36" />
 
 Initialize the json configuration file with a class as template.
 
@@ -115,13 +115,13 @@ IPluginConfigurationService InitializeJsonWithModel<T>(string name, string secti
 
 - <ApiParam type="IPluginConfigurationService" typeHref="/docs/api/services/ipluginconfigurationservice" />
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" /> — The type of the configuration model.
 
-### InitializeTomlWithModel(string, string)
+### InitializeTomlWithModel\<T\>(string, string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Services/IPluginConfigurationService.cs#L44" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Services/IPluginConfigurationService.cs#L44" />
 
 Initialize the TOML configuration file with a class as template.
 
@@ -138,13 +138,13 @@ IPluginConfigurationService InitializeTomlWithModel<T>(string name, string secti
 
 - <ApiParam type="IPluginConfigurationService" typeHref="/docs/api/services/ipluginconfigurationservice" />
 
-#### Type Parameters
+<ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" /> — The type of the configuration model.
 
 ### InitializeWithTemplate(string, string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Services/IPluginConfigurationService.cs#L28" />
+<ViewSource href="https://github.com/ELDment/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Services/IPluginConfigurationService.cs#L28" />
 
 Initialize the configuration file with a template.
 To use this, you must package a templates folder in the plugin, with the template file in it.
