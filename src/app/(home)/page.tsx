@@ -60,7 +60,7 @@ export default function HomePage() {
                   <button
                     type="button"
                     onClick={() => setDownloadOpen((v) => !v)}
-                    className="border border-neutral-700 hover:border-neutral-600 hover:bg-neutral-900 px-8 py-3 rounded-md font-medium transition-all text-center cursor-pointer select-none inline-flex items-center gap-2 shadow-sm hover:shadow"
+                    className="border border-neutral-300 dark:border-neutral-700 hover:border-neutral-400 dark:hover:border-neutral-600 bg-white dark:bg-transparent hover:bg-neutral-50 dark:hover:bg-neutral-900 px-8 py-3 rounded-md font-medium transition-all text-center cursor-pointer select-none inline-flex items-center gap-2 shadow-sm hover:shadow"
                     aria-expanded={isDownloadOpen}
                     aria-haspopup="menu"
                   >
@@ -69,7 +69,7 @@ export default function HomePage() {
                   </button>
                   <div
                     role="menu"
-                    className={`absolute z-10 mt-2 min-w-[220px] rounded-md border border-neutral-800 bg-neutral-950/95 shadow-xl backdrop-blur origin-top transition-all duration-150 ease-out ${isDownloadOpen
+                    className={`absolute z-10 mt-2 min-w-[220px] rounded-md border border-neutral-200 dark:border-neutral-800 bg-white/95 dark:bg-neutral-950/95 shadow-xl backdrop-blur origin-top transition-all duration-150 ease-out ${isDownloadOpen
                         ? 'opacity-100 scale-100 pointer-events-auto'
                         : 'opacity-0 scale-95 pointer-events-none'
                       }`}
@@ -77,7 +77,7 @@ export default function HomePage() {
                     <div className="px-4 py-2 text-xs uppercase tracking-[0.08em] text-neutral-500">Choose build</div>
                     <a
                       href="https://github.com/swiftly-solution/swiftlys2/releases/latest"
-                      className="flex items-center gap-3 px-4 py-3 hover:bg-neutral-900"
+                      className="flex items-center gap-3 px-4 py-3 hover:bg-neutral-100 dark:hover:bg-neutral-900"
                       target="_blank"
                       rel="noreferrer"
                       role="menuitem"
@@ -88,7 +88,7 @@ export default function HomePage() {
                     </a>
                     <a
                       href="https://github.com/swiftly-solution/swiftlys2/releases"
-                      className="flex items-center gap-3 px-4 py-3 hover:bg-neutral-900"
+                      className="flex items-center gap-3 px-4 py-3 hover:bg-neutral-100 dark:hover:bg-neutral-900"
                       target="_blank"
                       rel="noreferrer"
                       role="menuitem"
@@ -97,7 +97,7 @@ export default function HomePage() {
                       <LuFlaskConical className="h-4 w-4 text-yellow-400" aria-hidden="true" />
                       Latest Beta
                     </a>
-                    <div className="px-4 py-2 text-xs text-neutral-500 border-t border-neutral-800">Opens in GitHub Releases</div>
+                    <div className="px-4 py-2 text-xs text-neutral-500 border-t border-neutral-200 dark:border-neutral-800">Opens in GitHub Releases</div>
                   </div>
                 </div>
               </div>
