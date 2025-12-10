@@ -1,4 +1,6 @@
-**Thread Safety**
+---
+title: Thread Safety
+---
 
 There are some thread-unsafe functions in the framework, and calling them from non-main threads may cause serious crashes.
 To solve this problem, we enforce that these functions must be called on the main thread and provide Async variants.
