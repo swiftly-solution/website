@@ -3,6 +3,7 @@
     "getting-started",
     "swiftly-core",
     "using-attributes",
+    "thread-safety",
     "commands",
     "configuration",
     "entity",
