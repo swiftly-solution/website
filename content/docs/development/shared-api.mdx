@@ -172,6 +172,16 @@ public class Plugin : SwiftlyPlugin {
 
 ## Best Practices
 
+### Clear Events
+If your API contains events that can be registered by other plugins, 
+make sure to set them to null or create a new API object to provide to the interfaceManager each time ConfigureSharedInterface is called.
+Otherwise, events may be registered multiple times.
+
+### Ensure Your Interface Inherits `IDisposable`
+In most cases, we recommend making your interface disposable and adding disposed checks. 
+When a shared interface is unloaded, the framework will automatically call the `dispose` method of each shared interface (if it inherits `IDisposable`),
+which ensures that deprecated API objects are not used incorrectly.
+
 ### Use Descriptive Keys
 
 Use a consistent naming convention for interface keys:
@@ -227,4 +237,4 @@ public class Plugin : SwiftlyPlugin {
 
 ## Reference
 
-See [IInterfaceManager](/docs/api/shared/iinterfacemanager/) for more details.
+See [IInterfaceManager](/docs/api/iinterfacemanager/) for more details.
