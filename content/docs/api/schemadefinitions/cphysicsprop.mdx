@@ -11,7 +11,7 @@ title: CPhysicsProp
 **Assembly**: SwiftlyS2.CS2.dll
 
 ```csharp
-public interface CPhysicsProp : CBreakableProp, CBaseProp, CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseAnimGraph>, ISchemaClass<CBaseProp>, ISchemaClass<CBreakableProp>, ISchemaClass<CPhysicsProp>, ISchemaField, ISchemaClass, INativeHandle
+public interface CPhysicsProp : CBreakableProp, CBaseProp, CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEntityInstance, IEquatable<CEntityInstance>, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseAnimGraph>, ISchemaClass<CBaseProp>, ISchemaClass<CBreakableProp>, ISchemaClass<CPhysicsProp>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
 #### Implements
@@ -22,6 +22,7 @@ public interface CPhysicsProp : CBreakableProp, CBaseProp, CBaseAnimGraph, CBase
 - [CBaseModelEntity](/docs/api/schemadefinitions/cbasemodelentity)
 - [CBaseEntity](/docs/api/schemadefinitions/cbaseentity)
 - [CEntityInstance](/docs/api/schemadefinitions/centityinstance)
+- [IEquatable\<CEntityInstance\>](https://learn.microsoft.com/dotnet/api/system.iequatable-1)
 - [ISchemaClass\<CEntityInstance\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CBaseEntity\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CBaseModelEntity\>](/docs/api/schemas/ischemaclasst)
@@ -316,12 +317,12 @@ ref float MassScale { get; }
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L18" />
 
 ```csharp
-CEntityIOOutput MotionEnabled { get; }
+ref CEntityIOOutput MotionEnabled { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### MuteImpactEffects
 
@@ -364,72 +365,72 @@ ref bool NoNavmeshBlocker { get; }
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L24" />
 
 ```csharp
-CEntityIOOutput OnAsleep { get; }
+ref CEntityIOOutput OnAsleep { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OnAwake
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L22" />
 
 ```csharp
-CEntityIOOutput OnAwake { get; }
+ref CEntityIOOutput OnAwake { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OnAwakened
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L20" />
 
 ```csharp
-CEntityIOOutput OnAwakened { get; }
+ref CEntityIOOutput OnAwakened { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OnOutOfWorld
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L28" />
 
 ```csharp
-CEntityIOOutput OnOutOfWorld { get; }
+ref CEntityIOOutput OnOutOfWorld { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OnPlayerPickup
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L30" />
 
 ```csharp
-CEntityIOOutput OnPlayerPickup { get; }
+ref CEntityIOOutput OnPlayerPickup { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OnPlayerUse
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L26" />
 
 ```csharp
-CEntityIOOutput OnPlayerUse { get; }
+ref CEntityIOOutput OnPlayerUse { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### RemovableForAmmoBalancing
 

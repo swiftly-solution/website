@@ -11,7 +11,7 @@ title: CSceneEntity
 **Assembly**: SwiftlyS2.CS2.dll
 
 ```csharp
-public interface CSceneEntity : CPointEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CPointEntity>, ISchemaClass<CSceneEntity>, ISchemaField, ISchemaClass, INativeHandle
+public interface CSceneEntity : CPointEntity, CBaseEntity, CEntityInstance, IEquatable<CEntityInstance>, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CPointEntity>, ISchemaClass<CSceneEntity>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
 #### Implements
@@ -19,6 +19,7 @@ public interface CSceneEntity : CPointEntity, CBaseEntity, CEntityInstance, ISch
 - [CPointEntity](/docs/api/schemadefinitions/cpointentity)
 - [CBaseEntity](/docs/api/schemadefinitions/cbaseentity)
 - [CEntityInstance](/docs/api/schemadefinitions/centityinstance)
+- [IEquatable\<CEntityInstance\>](https://learn.microsoft.com/dotnet/api/system.iequatable-1)
 - [ISchemaClass\<CEntityInstance\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CBaseEntity\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CPointEntity\>](/docs/api/schemas/ischemaclasst)
@@ -31,7 +32,7 @@ public interface CSceneEntity : CPointEntity, CBaseEntity, CEntityInstance, ISch
 
 ### Activator
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L147" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L146" />
 
 ```csharp
 ref CHandle<CBaseEntity> Activator { get; }
@@ -43,7 +44,7 @@ ref CHandle<CBaseEntity> Activator { get; }
 
 ### Actor
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L145" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L144" />
 
 ```csharp
 ref CHandle<CBaseFlex> Actor { get; }
@@ -139,7 +140,7 @@ ref bool BreakOnNonIdle { get; }
 
 ### BusyActor
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L149" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L148" />
 
 ```csharp
 ref int BusyActor { get; }
@@ -163,7 +164,7 @@ ref bool CancelAtNextInterrupt { get; }
 
 ### CompletedEarly
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L131" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L130" />
 
 ```csharp
 ref bool CompletedEarly { get; }
@@ -211,7 +212,7 @@ ref float FrameTime { get; }
 
 ### InterruptCount
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L125" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L124" />
 
 ```csharp
 ref int InterruptCount { get; }
@@ -223,7 +224,7 @@ ref int InterruptCount { get; }
 
 ### InterruptScene
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L123" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L122" />
 
 ```csharp
 ref CHandle<CSceneEntity> InterruptScene { get; }
@@ -235,7 +236,7 @@ ref CHandle<CSceneEntity> InterruptScene { get; }
 
 ### InterruptSceneFinished
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L133" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L132" />
 
 ```csharp
 ref bool InterruptSceneFinished { get; }
@@ -247,7 +248,7 @@ ref bool InterruptSceneFinished { get; }
 
 ### Interrupted
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L129" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L128" />
 
 ```csharp
 ref bool Interrupted { get; }
@@ -283,7 +284,7 @@ ref bool IsPlayingBack { get; }
 
 ### ListManagers
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L139" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L138" />
 
 ```csharp
 ref CUtlVector<CHandle<CSceneListManager>> ListManagers { get; }
@@ -307,7 +308,7 @@ ref bool Multiplayer { get; }
 
 ### NotifySceneCompletion
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L137" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L136" />
 
 ```csharp
 ref CUtlVector<CHandle<CSceneEntity>> NotifySceneCompletion { get; }
@@ -322,72 +323,72 @@ ref CUtlVector<CHandle<CSceneEntity>> NotifySceneCompletion { get; }
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L114" />
 
 ```csharp
-CEntityIOOutput OnCanceled { get; }
+ref CEntityIOOutput OnCanceled { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OnCompletion
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L112" />
 
 ```csharp
-CEntityIOOutput OnCompletion { get; }
+ref CEntityIOOutput OnCompletion { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OnPaused
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L116" />
 
 ```csharp
-CEntityIOOutput OnPaused { get; }
+ref CEntityIOOutput OnPaused { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OnResumed
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L118" />
 
 ```csharp
-CEntityIOOutput OnResumed { get; }
+ref CEntityIOOutput OnResumed { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OnStart
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L110" />
 
 ```csharp
-CEntityIOOutput OnStart { get; }
+ref CEntityIOOutput OnStart { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OnTrigger
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L121" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L120" />
 
 ```csharp
-SchemaUntypedField OnTrigger { get; }
+ISchemaFixedArray<CEntityIOOutput> OnTrigger { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="SchemaUntypedField" typeHref="/docs/api/schemas/schemauntypedfield" />
+- <ApiParam type="ISchemaFixedArray&lt;CEntityIOOutput&gt;" typeHref="/docs/api/schemas/ischemafixedarrayt" />
 
 ### PauseAtNextInterrupt
 
@@ -439,7 +440,7 @@ ref float Pitch { get; }
 
 ### PlayerDeathBehavior
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L151" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L150" />
 
 ```csharp
 ref SceneOnPlayerDeath_t PlayerDeathBehavior { get; }
@@ -463,7 +464,7 @@ ref CUtlVector<CHandle<CBaseEntity>> RemoveActorList { get; }
 
 ### Restoring
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L135" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L134" />
 
 ```csharp
 ref bool Restoring { get; }
@@ -523,7 +524,7 @@ ref int SceneFlushCounter { get; }
 
 ### SceneMissing
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L127" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L126" />
 
 ```csharp
 ref bool SceneMissing { get; }
@@ -547,7 +548,7 @@ ref ushort SceneStringIndex { get; }
 
 ### SequenceName
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L143" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L142" />
 
 ```csharp
 string SequenceName { get; set; }
@@ -559,7 +560,7 @@ string SequenceName { get; set; }
 
 ### SoundName
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L141" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L140" />
 
 ```csharp
 string SoundName { get; set; }
@@ -837,7 +838,7 @@ ref CHandle<CBaseEntity> WaitingForThisResumeScene { get; }
 
 ### ActorListUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L158" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L157" />
 
 ```csharp
 void ActorListUpdated()
@@ -845,7 +846,7 @@ void ActorListUpdated()
 
 ### AutogeneratedUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L156" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L155" />
 
 ```csharp
 void AutogeneratedUpdated()
@@ -853,7 +854,7 @@ void AutogeneratedUpdated()
 
 ### ForceClientTimeUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L157" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L156" />
 
 ```csharp
 void ForceClientTimeUpdated()
@@ -861,7 +862,7 @@ void ForceClientTimeUpdated()
 
 ### IsPlayingBackUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L153" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L152" />
 
 ```csharp
 void IsPlayingBackUpdated()
@@ -869,7 +870,7 @@ void IsPlayingBackUpdated()
 
 ### MultiplayerUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L155" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L154" />
 
 ```csharp
 void MultiplayerUpdated()
@@ -877,7 +878,7 @@ void MultiplayerUpdated()
 
 ### PausedUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L154" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L153" />
 
 ```csharp
 void PausedUpdated()
@@ -885,7 +886,7 @@ void PausedUpdated()
 
 ### SceneStringIndexUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L159" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEntity.cs#L158" />
 
 ```csharp
 void SceneStringIndexUpdated()

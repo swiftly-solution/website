@@ -11,7 +11,7 @@ title: CLogicActiveAutosave
 **Assembly**: SwiftlyS2.CS2.dll
 
 ```csharp
-public interface CLogicActiveAutosave : CLogicAutosave, CLogicalEntity, CServerOnlyEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CServerOnlyEntity>, ISchemaClass<CLogicalEntity>, ISchemaClass<CLogicAutosave>, ISchemaClass<CLogicActiveAutosave>, ISchemaField, ISchemaClass, INativeHandle
+public interface CLogicActiveAutosave : CLogicAutosave, CLogicalEntity, CServerOnlyEntity, CBaseEntity, CEntityInstance, IEquatable<CEntityInstance>, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CServerOnlyEntity>, ISchemaClass<CLogicalEntity>, ISchemaClass<CLogicAutosave>, ISchemaClass<CLogicActiveAutosave>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
 #### Implements
@@ -21,6 +21,7 @@ public interface CLogicActiveAutosave : CLogicAutosave, CLogicalEntity, CServerO
 - [CServerOnlyEntity](/docs/api/schemadefinitions/cserveronlyentity)
 - [CBaseEntity](/docs/api/schemadefinitions/cbaseentity)
 - [CEntityInstance](/docs/api/schemadefinitions/centityinstance)
+- [IEquatable\<CEntityInstance\>](https://learn.microsoft.com/dotnet/api/system.iequatable-1)
 - [ISchemaClass\<CEntityInstance\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CBaseEntity\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CServerOnlyEntity\>](/docs/api/schemas/ischemaclasst)

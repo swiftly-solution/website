@@ -11,7 +11,7 @@ title: CMoverPathNode
 **Assembly**: SwiftlyS2.CS2.dll
 
 ```csharp
-public interface CMoverPathNode : CPointEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CPointEntity>, ISchemaClass<CMoverPathNode>, ISchemaField, ISchemaClass, INativeHandle
+public interface CMoverPathNode : CPointEntity, CBaseEntity, CEntityInstance, IEquatable<CEntityInstance>, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CPointEntity>, ISchemaClass<CMoverPathNode>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
 #### Implements
@@ -19,6 +19,7 @@ public interface CMoverPathNode : CPointEntity, CBaseEntity, CEntityInstance, IS
 - [CPointEntity](/docs/api/schemadefinitions/cpointentity)
 - [CBaseEntity](/docs/api/schemadefinitions/cbaseentity)
 - [CEntityInstance](/docs/api/schemadefinitions/centityinstance)
+- [IEquatable\<CEntityInstance\>](https://learn.microsoft.com/dotnet/api/system.iequatable-1)
 - [ISchemaClass\<CEntityInstance\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CBaseEntity\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CPointEntity\>](/docs/api/schemas/ischemaclasst)
@@ -58,60 +59,60 @@ ref CHandle<CPathMover> Mover { get; }
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverPathNode.cs#L30" />
 
 ```csharp
-CEntityIOOutput OnPassThrough { get; }
+ref CEntityIOOutput OnPassThrough { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OnPassThroughForward
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverPathNode.cs#L32" />
 
 ```csharp
-CEntityIOOutput OnPassThroughForward { get; }
+ref CEntityIOOutput OnPassThroughForward { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OnPassThroughReverse
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverPathNode.cs#L34" />
 
 ```csharp
-CEntityIOOutput OnPassThroughReverse { get; }
+ref CEntityIOOutput OnPassThroughReverse { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OnStartFromOrInSegment
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverPathNode.cs#L26" />
 
 ```csharp
-CEntityIOOutput OnStartFromOrInSegment { get; }
+ref CEntityIOOutput OnStartFromOrInSegment { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OnStoppedAtOrInSegment
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverPathNode.cs#L28" />
 
 ```csharp
-CEntityIOOutput OnStoppedAtOrInSegment { get; }
+ref CEntityIOOutput OnStoppedAtOrInSegment { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OutTangentLocal
 

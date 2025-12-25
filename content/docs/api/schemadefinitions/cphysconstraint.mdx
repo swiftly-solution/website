@@ -11,7 +11,7 @@ title: CPhysConstraint
 **Assembly**: SwiftlyS2.CS2.dll
 
 ```csharp
-public interface CPhysConstraint : CLogicalEntity, CServerOnlyEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CServerOnlyEntity>, ISchemaClass<CLogicalEntity>, ISchemaClass<CPhysConstraint>, ISchemaField, ISchemaClass, INativeHandle
+public interface CPhysConstraint : CLogicalEntity, CServerOnlyEntity, CBaseEntity, CEntityInstance, IEquatable<CEntityInstance>, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CServerOnlyEntity>, ISchemaClass<CLogicalEntity>, ISchemaClass<CPhysConstraint>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
 #### Implements
@@ -20,6 +20,7 @@ public interface CPhysConstraint : CLogicalEntity, CServerOnlyEntity, CBaseEntit
 - [CServerOnlyEntity](/docs/api/schemadefinitions/cserveronlyentity)
 - [CBaseEntity](/docs/api/schemadefinitions/cbaseentity)
 - [CEntityInstance](/docs/api/schemadefinitions/centityinstance)
+- [IEquatable\<CEntityInstance\>](https://learn.microsoft.com/dotnet/api/system.iequatable-1)
 - [ISchemaClass\<CEntityInstance\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CBaseEntity\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CServerOnlyEntity\>](/docs/api/schemas/ischemaclasst)
@@ -144,12 +145,12 @@ string NameAttachment2 { get; set; }
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L42" />
 
 ```csharp
-CEntityIOOutput OnBreak { get; }
+ref CEntityIOOutput OnBreak { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### SnapObjectPositions
 

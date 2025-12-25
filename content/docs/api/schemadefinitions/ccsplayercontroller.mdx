@@ -11,7 +11,7 @@ title: CCSPlayerController
 **Assembly**: SwiftlyS2.CS2.dll
 
 ```csharp
-public interface CCSPlayerController : CBasePlayerController, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBasePlayerController>, ISchemaClass<CCSPlayerController>, ISchemaField, ISchemaClass, INativeHandle
+public interface CCSPlayerController : CBasePlayerController, CBaseEntity, CEntityInstance, IEquatable<CEntityInstance>, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBasePlayerController>, ISchemaClass<CCSPlayerController>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
 #### Implements
@@ -19,6 +19,7 @@ public interface CCSPlayerController : CBasePlayerController, CBaseEntity, CEnti
 - [CBasePlayerController](/docs/api/schemadefinitions/cbaseplayercontroller)
 - [CBaseEntity](/docs/api/schemadefinitions/cbaseentity)
 - [CEntityInstance](/docs/api/schemadefinitions/centityinstance)
+- [IEquatable\<CEntityInstance\>](https://learn.microsoft.com/dotnet/api/system.iequatable-1)
 - [ISchemaClass\<CEntityInstance\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CBaseEntity\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CBasePlayerController\>](/docs/api/schemas/ischemaclasst)

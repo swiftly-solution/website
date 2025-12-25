@@ -11,7 +11,7 @@ title: CSoundOpvarSetOBBEntity
 **Assembly**: SwiftlyS2.CS2.dll
 
 ```csharp
-public interface CSoundOpvarSetOBBEntity : CSoundOpvarSetAABBEntity, CSoundOpvarSetPointEntity, CSoundOpvarSetPointBase, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CSoundOpvarSetPointBase>, ISchemaClass<CSoundOpvarSetPointEntity>, ISchemaClass<CSoundOpvarSetAABBEntity>, ISchemaClass<CSoundOpvarSetOBBEntity>, ISchemaField, ISchemaClass, INativeHandle
+public interface CSoundOpvarSetOBBEntity : CSoundOpvarSetAABBEntity, CSoundOpvarSetPointEntity, CSoundOpvarSetPointBase, CBaseEntity, CEntityInstance, IEquatable<CEntityInstance>, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CSoundOpvarSetPointBase>, ISchemaClass<CSoundOpvarSetPointEntity>, ISchemaClass<CSoundOpvarSetAABBEntity>, ISchemaClass<CSoundOpvarSetOBBEntity>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
 #### Implements
@@ -21,6 +21,7 @@ public interface CSoundOpvarSetOBBEntity : CSoundOpvarSetAABBEntity, CSoundOpvar
 - [CSoundOpvarSetPointBase](/docs/api/schemadefinitions/csoundopvarsetpointbase)
 - [CBaseEntity](/docs/api/schemadefinitions/cbaseentity)
 - [CEntityInstance](/docs/api/schemadefinitions/centityinstance)
+- [IEquatable\<CEntityInstance\>](https://learn.microsoft.com/dotnet/api/system.iequatable-1)
 - [ISchemaClass\<CEntityInstance\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CBaseEntity\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CSoundOpvarSetPointBase\>](/docs/api/schemas/ischemaclasst)

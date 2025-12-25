@@ -11,13 +11,14 @@ title: CBaseModelEntity
 **Assembly**: SwiftlyS2.CS2.dll
 
 ```csharp
-public interface CBaseModelEntity : CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaField, ISchemaClass, INativeHandle
+public interface CBaseModelEntity : CBaseEntity, CEntityInstance, IEquatable<CEntityInstance>, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
 #### Implements
 
 - [CBaseEntity](/docs/api/schemadefinitions/cbaseentity)
 - [CEntityInstance](/docs/api/schemadefinitions/centityinstance)
+- [IEquatable\<CEntityInstance\>](https://learn.microsoft.com/dotnet/api/system.iequatable-1)
 - [ISchemaClass\<CEntityInstance\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CBaseEntity\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CBaseModelEntity\>](/docs/api/schemas/ischemaclasst)
@@ -416,12 +417,12 @@ ref byte ObjectCulling { get; }
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L52" />
 
 ```csharp
-CEntityIOOutput OnIgnite { get; }
+ref CEntityIOOutput OnIgnite { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### Render
 
@@ -779,17 +780,38 @@ Task SetModelAsync(string model)
 
 ### SetScale(float)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseModelEntity.cs#L40" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseModelEntity.cs#L42" />
 
 Sets the scale of the entity.
 
+Thread unsafe, use async variant instead for non-main thread context.
+
 ```csharp
+[ThreadUnsafe]
 void SetScale(float scale)
 ```
 
 <ApiLabel>Parameters</ApiLabel>
 
 - <ApiParam name="scale" type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
+
+### SetScaleAsync(float)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseModelEntity.cs#L48" />
+
+Sets the scale of the entity.
+
+```csharp
+Task SetScaleAsync(float scale)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="scale" type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
+
+<ApiLabel>Returns</ApiLabel>
+
+- <ApiParam type="Task" typeHref="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task" />
 
 ### ShadowStrengthUpdated()
 

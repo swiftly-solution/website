@@ -11,7 +11,7 @@ title: CPlantedC4
 **Assembly**: SwiftlyS2.CS2.dll
 
 ```csharp
-public interface CPlantedC4 : CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseAnimGraph>, ISchemaClass<CPlantedC4>, ISchemaField, ISchemaClass, INativeHandle
+public interface CPlantedC4 : CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEntityInstance, IEquatable<CEntityInstance>, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseAnimGraph>, ISchemaClass<CPlantedC4>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
 #### Implements
@@ -20,6 +20,7 @@ public interface CPlantedC4 : CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEn
 - [CBaseModelEntity](/docs/api/schemadefinitions/cbasemodelentity)
 - [CBaseEntity](/docs/api/schemadefinitions/cbaseentity)
 - [CEntityInstance](/docs/api/schemadefinitions/centityinstance)
+- [IEquatable\<CEntityInstance\>](https://learn.microsoft.com/dotnet/api/system.iequatable-1)
 - [ISchemaClass\<CEntityInstance\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CBaseEntity\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CBaseModelEntity\>](/docs/api/schemas/ischemaclasst)
@@ -240,36 +241,36 @@ GameTime_t NextBotBeepTime { get; }
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L32" />
 
 ```csharp
-CEntityIOOutput OnBombBeginDefuse { get; }
+ref CEntityIOOutput OnBombBeginDefuse { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OnBombDefuseAborted
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L34" />
 
 ```csharp
-CEntityIOOutput OnBombDefuseAborted { get; }
+ref CEntityIOOutput OnBombDefuseAborted { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OnBombDefused
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlantedC4.cs#L30" />
 
 ```csharp
-CEntityIOOutput OnBombDefused { get; }
+ref CEntityIOOutput OnBombDefused { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### ProgressBarTime
 

@@ -20,7 +20,7 @@ public interface IOnEntityIdentityAcceptInputHookEvent
 
 ### Activator
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnEntityIdentityAcceptInputHookEvent.cs#L27" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnEntityIdentityAcceptInputHookEvent.cs#L31" />
 
 The value of the input being accepted.
 
@@ -34,7 +34,7 @@ CEntityInstance? Activator { get; }
 
 ### Caller
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnEntityIdentityAcceptInputHookEvent.cs#L31" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnEntityIdentityAcceptInputHookEvent.cs#L35" />
 
 The caller of the input being accepted.
 
@@ -45,6 +45,20 @@ CEntityInstance? Caller { get; }
 <ApiLabel>Property Value</ApiLabel>
 
 - <ApiParam type="CEntityInstance?" typeHref="/docs/api/schemadefinitions/centityinstance" />
+
+### DesignerName
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnEntityIdentityAcceptInputHookEvent.cs#L23" />
+
+The designer name of the caller.
+
+```csharp
+string DesignerName { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
 
 ### EntityInstance
 
@@ -76,7 +90,7 @@ CEntityIdentity Identity { get; }
 
 ### InputName
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnEntityIdentityAcceptInputHookEvent.cs#L23" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnEntityIdentityAcceptInputHookEvent.cs#L27" />
 
 The name of the input being accepted.
 
@@ -90,7 +104,7 @@ string InputName { get; }
 
 ### OutputId
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnEntityIdentityAcceptInputHookEvent.cs#L39" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnEntityIdentityAcceptInputHookEvent.cs#L43" />
 
 The output ID of the input being accepted.
 
@@ -104,7 +118,7 @@ int OutputId { get; }
 
 ### Result
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnEntityIdentityAcceptInputHookEvent.cs#L43" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnEntityIdentityAcceptInputHookEvent.cs#L47" />
 
 The result of the hook.
 
@@ -118,15 +132,15 @@ HookResult Result { get; set; }
 
 ### VariantValue
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnEntityIdentityAcceptInputHookEvent.cs#L35" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnEntityIdentityAcceptInputHookEvent.cs#L39" />
 
 The variant value of the input being accepted.
 
 ```csharp
-CVariant VariantValue { get; }
+ref CVariant<CVariantDefaultAllocator> VariantValue { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CVariant" typeHref="/docs/api/natives/cvariant" />
+- <ApiParam type="CVariant&lt;CVariantDefaultAllocator&gt;" typeHref="/docs/api/natives/cvariantt" />
 

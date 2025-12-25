@@ -11,7 +11,7 @@ title: CTriggerDetectExplosion
 **Assembly**: SwiftlyS2.CS2.dll
 
 ```csharp
-public interface CTriggerDetectExplosion : CBaseTrigger, CBaseToggle, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseToggle>, ISchemaClass<CBaseTrigger>, ISchemaClass<CTriggerDetectExplosion>, ISchemaField, ISchemaClass, INativeHandle
+public interface CTriggerDetectExplosion : CBaseTrigger, CBaseToggle, CBaseModelEntity, CBaseEntity, CEntityInstance, IEquatable<CEntityInstance>, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseToggle>, ISchemaClass<CBaseTrigger>, ISchemaClass<CTriggerDetectExplosion>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
 #### Implements
@@ -21,6 +21,7 @@ public interface CTriggerDetectExplosion : CBaseTrigger, CBaseToggle, CBaseModel
 - [CBaseModelEntity](/docs/api/schemadefinitions/cbasemodelentity)
 - [CBaseEntity](/docs/api/schemadefinitions/cbaseentity)
 - [CEntityInstance](/docs/api/schemadefinitions/centityinstance)
+- [IEquatable\<CEntityInstance\>](https://learn.microsoft.com/dotnet/api/system.iequatable-1)
 - [ISchemaClass\<CEntityInstance\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CBaseEntity\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CBaseModelEntity\>](/docs/api/schemas/ischemaclasst)
@@ -38,10 +39,10 @@ public interface CTriggerDetectExplosion : CBaseTrigger, CBaseToggle, CBaseModel
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerDetectExplosion.cs#L18" />
 
 ```csharp
-CEntityIOOutput OnDetectedExplosion { get; }
+ref CEntityIOOutput OnDetectedExplosion { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 

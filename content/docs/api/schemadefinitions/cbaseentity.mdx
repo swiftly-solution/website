@@ -11,12 +11,13 @@ title: CBaseEntity
 **Assembly**: SwiftlyS2.CS2.dll
 
 ```csharp
-public interface CBaseEntity : CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaField, ISchemaClass, INativeHandle
+public interface CBaseEntity : CEntityInstance, IEquatable<CEntityInstance>, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
 #### Implements
 
 - [CEntityInstance](/docs/api/schemadefinitions/centityinstance)
+- [IEquatable\<CEntityInstance\>](https://learn.microsoft.com/dotnet/api/system.iequatable-1)
 - [ISchemaClass\<CEntityInstance\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CBaseEntity\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaField](/docs/api/schemas/ischemafield)
@@ -27,7 +28,7 @@ public interface CBaseEntity : CEntityInstance, ISchemaClass<CEntityInstance>, I
 
 ### AbsOrigin
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseEntity.cs#L16" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseEntity.cs#L17" />
 
 Gets the absolute origin position of the entity.
 
@@ -41,7 +42,7 @@ Vector? AbsOrigin { get; }
 
 ### AbsRotation
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseEntity.cs#L20" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseEntity.cs#L21" />
 
 Gets the absolute rotation of the entity.
 
@@ -634,60 +635,60 @@ GameTick_t NextThinkTick { get; }
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L103" />
 
 ```csharp
-CEntityIOOutput OnKilled { get; }
+ref CEntityIOOutput OnKilled { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OnUser1
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L151" />
 
 ```csharp
-CEntityIOOutput OnUser1 { get; }
+ref CEntityIOOutput OnUser1 { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OnUser2
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L153" />
 
 ```csharp
-CEntityIOOutput OnUser2 { get; }
+ref CEntityIOOutput OnUser2 { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OnUser3
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L155" />
 
 ```csharp
-CEntityIOOutput OnUser3 { get; }
+ref CEntityIOOutput OnUser3 { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OnUser4
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L157" />
 
 ```csharp
-CEntityIOOutput OnUser4 { get; }
+ref CEntityIOOutput OnUser4 { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OwnerEntity
 
@@ -907,7 +908,7 @@ string Target { get; set; }
 
 ### Team
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseEntity.cs#L25" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseEntity.cs#L26" />
 
 Gets the team of the entity.
 
@@ -969,7 +970,7 @@ string UniqueHammerID { get; set; }
 
 ### VData
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseEntity.cs#L11" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseEntity.cs#L12" />
 
 Gets the subclass-specific data associated with this entity.
 
@@ -1093,7 +1094,7 @@ void ClientSideRagdollUpdated()
 
 ### CollisionRulesChanged()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseEntity.cs#L42" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseEntity.cs#L69" />
 
 Notify the game that the collision rules of the entity have changed.
 Call this when you change the Collision of the entity.
@@ -1294,6 +1295,84 @@ void SpeedUpdated()
 void SubclassIDUpdated()
 ```
 
+### TakeDamage(CTakeDamageInfo)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseEntity.cs#L44" />
+
+Applies damage to the entity based on the specified damage information.
+
+Thread unsafe, use async variant instead for non-main thread context.
+
+```csharp
+[ThreadUnsafe]
+void TakeDamage(CTakeDamageInfo dmgInfo)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="dmgInfo" type="CTakeDamageInfo" typeHref="/docs/api/natives/ctakedamageinfo" /> — An object containing details about the damage to be applied, including the amount, type, and source. Cannot be null.
+
+### TakeDamage(float, DamageTypes_t, CBaseEntity?, CBaseEntity?, CBaseEntity?)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseEntity.cs#L57" />
+
+Applies damage to the entity based on the specified damage information.
+
+Thread unsafe, use async variant instead for non-main thread context.
+
+```csharp
+[ThreadUnsafe]
+void TakeDamage(float flDamage, DamageTypes_t bitsDamageType, CBaseEntity? inflictor = null, CBaseEntity? attacker = null, CBaseEntity? ability = null)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="flDamage" type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
+- <ApiParam name="bitsDamageType" type="DamageTypes_t" typeHref="/docs/api/schemadefinitions/damagetypes_t" />
+- <ApiParam name="inflictor" type="CBaseEntity?" typeHref="/docs/api/schemadefinitions/cbaseentity" />
+- <ApiParam name="attacker" type="CBaseEntity?" typeHref="/docs/api/schemadefinitions/cbaseentity" />
+- <ApiParam name="ability" type="CBaseEntity?" typeHref="/docs/api/schemadefinitions/cbaseentity" />
+
+### TakeDamageAsync(CTakeDamageInfo)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseEntity.cs#L50" />
+
+Applies damage to the entity based on the specified damage information asynchronously.
+
+```csharp
+Task TakeDamageAsync(CTakeDamageInfo dmgInfo)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="dmgInfo" type="CTakeDamageInfo" typeHref="/docs/api/natives/ctakedamageinfo" />
+
+<ApiLabel>Returns</ApiLabel>
+
+- <ApiParam type="Task" typeHref="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task" />
+
+### TakeDamageAsync(float, DamageTypes_t, CBaseEntity?, CBaseEntity?, CBaseEntity?)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseEntity.cs#L63" />
+
+Applies damage to the entity based on the specified damage information asynchronously.
+
+```csharp
+Task TakeDamageAsync(float flDamage, DamageTypes_t bitsDamageType, CBaseEntity? inflictor = null, CBaseEntity? attacker = null, CBaseEntity? ability = null)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="flDamage" type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
+- <ApiParam name="bitsDamageType" type="DamageTypes_t" typeHref="/docs/api/schemadefinitions/damagetypes_t" />
+- <ApiParam name="inflictor" type="CBaseEntity?" typeHref="/docs/api/schemadefinitions/cbaseentity" />
+- <ApiParam name="attacker" type="CBaseEntity?" typeHref="/docs/api/schemadefinitions/cbaseentity" />
+- <ApiParam name="ability" type="CBaseEntity?" typeHref="/docs/api/schemadefinitions/cbaseentity" />
+
+<ApiLabel>Returns</ApiLabel>
+
+- <ApiParam type="Task" typeHref="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task" />
+
 ### TakeDamageFlagsUpdated()
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L184" />
@@ -1320,7 +1399,7 @@ void TeamNumUpdated()
 
 ### Teleport(Vector?, QAngle?, Vector?)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseEntity.cs#L35" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseEntity.cs#L36" />
 
 Teleports the entity to the specified position, orientation, and velocity.
 

@@ -11,13 +11,14 @@ title: CLogicNPCCounter
 **Assembly**: SwiftlyS2.CS2.dll
 
 ```csharp
-public interface CLogicNPCCounter : CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CLogicNPCCounter>, ISchemaField, ISchemaClass, INativeHandle
+public interface CLogicNPCCounter : CBaseEntity, CEntityInstance, IEquatable<CEntityInstance>, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CLogicNPCCounter>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
 #### Implements
 
 - [CBaseEntity](/docs/api/schemadefinitions/cbaseentity)
 - [CEntityInstance](/docs/api/schemadefinitions/centityinstance)
+- [IEquatable\<CEntityInstance\>](https://learn.microsoft.com/dotnet/api/system.iequatable-1)
 - [ISchemaClass\<CEntityInstance\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CBaseEntity\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CLogicNPCCounter\>](/docs/api/schemas/ischemaclasst)
@@ -440,96 +441,96 @@ SchemaUntypedField OnFactor_3 { get; }
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L20" />
 
 ```csharp
-CEntityIOOutput OnMaxCountAll { get; }
+ref CEntityIOOutput OnMaxCountAll { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OnMaxCount_1
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L30" />
 
 ```csharp
-CEntityIOOutput OnMaxCount_1 { get; }
+ref CEntityIOOutput OnMaxCount_1 { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OnMaxCount_2
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L40" />
 
 ```csharp
-CEntityIOOutput OnMaxCount_2 { get; }
+ref CEntityIOOutput OnMaxCount_2 { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OnMaxCount_3
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L50" />
 
 ```csharp
-CEntityIOOutput OnMaxCount_3 { get; }
+ref CEntityIOOutput OnMaxCount_3 { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OnMinCountAll
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L18" />
 
 ```csharp
-CEntityIOOutput OnMinCountAll { get; }
+ref CEntityIOOutput OnMinCountAll { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OnMinCount_1
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L28" />
 
 ```csharp
-CEntityIOOutput OnMinCount_1 { get; }
+ref CEntityIOOutput OnMinCount_1 { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OnMinCount_2
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L38" />
 
 ```csharp
-CEntityIOOutput OnMinCount_2 { get; }
+ref CEntityIOOutput OnMinCount_2 { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OnMinCount_3
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounter.cs#L48" />
 
 ```csharp
-CEntityIOOutput OnMinCount_3 { get; }
+ref CEntityIOOutput OnMinCount_3 { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OnMinPlayerDistAll
 

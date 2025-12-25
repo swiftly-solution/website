@@ -16,6 +16,24 @@ public interface ISchedulerService
 
 ## Methods
 
+### AddTimer(Func\<ITimerContext, TimerStep\>)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L171" />
+
+Add an advanced timer to the scheduler.
+
+```csharp
+CancellationTokenSource AddTimer(Func<ITimerContext, TimerStep> task)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="task" type="Func&lt;ITimerContext, TimerStep&gt;" typeHref="https://learn.microsoft.com/dotnet/api/system.func-2" /> — The task to execute.
+
+<ApiLabel>Returns</ApiLabel>
+
+- <ApiParam type="CancellationTokenSource" typeHref="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtokensource" /> — A CancellationTokenSource that can be used to cancel the timer.
+
 ### Delay(int, Action)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L112" />
@@ -430,7 +448,7 @@ CancellationTokenSource RepeatBySeconds(float periodSeconds, Action task)
 
 ### StopOnMapChange(CancellationTokenSource)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L169" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L177" />
 
 Stop a timer when the map changes.
 

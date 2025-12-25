@@ -11,11 +11,12 @@ title: CEntityInstance
 **Assembly**: SwiftlyS2.CS2.dll
 
 ```csharp
-public interface CEntityInstance : ISchemaClass<CEntityInstance>, ISchemaField, ISchemaClass, INativeHandle
+public interface CEntityInstance : IEquatable<CEntityInstance>, ISchemaClass<CEntityInstance>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
 #### Implements
 
+- [IEquatable\<CEntityInstance\>](https://learn.microsoft.com/dotnet/api/system.iequatable-1)
 - [ISchemaClass\<CEntityInstance\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaField](/docs/api/schemas/ischemafield)
 - [ISchemaClass](/docs/api/schemas/ischemaclass)

@@ -11,13 +11,14 @@ title: CHandleTest
 **Assembly**: SwiftlyS2.CS2.dll
 
 ```csharp
-public interface CHandleTest : CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CHandleTest>, ISchemaField, ISchemaClass, INativeHandle
+public interface CHandleTest : CBaseEntity, CEntityInstance, IEquatable<CEntityInstance>, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CHandleTest>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
 #### Implements
 
 - [CBaseEntity](/docs/api/schemadefinitions/cbaseentity)
 - [CEntityInstance](/docs/api/schemadefinitions/centityinstance)
+- [IEquatable\<CEntityInstance\>](https://learn.microsoft.com/dotnet/api/system.iequatable-1)
 - [ISchemaClass\<CEntityInstance\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CBaseEntity\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CHandleTest\>](/docs/api/schemas/ischemaclasst)

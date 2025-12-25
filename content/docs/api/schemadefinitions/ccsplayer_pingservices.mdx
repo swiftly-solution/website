@@ -27,7 +27,7 @@ public interface CCSPlayer_PingServices : CPlayerPawnComponent, ISchemaClass<CPl
 
 ### PlayerPing
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_PingServices.cs#L21" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_PingServices.cs#L20" />
 
 ```csharp
 ref CHandle<CPlayerPing> PlayerPing { get; }
@@ -39,21 +39,21 @@ ref CHandle<CPlayerPing> PlayerPing { get; }
 
 ### PlayerPingTokens
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_PingServices.cs#L19" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_PingServices.cs#L18" />
 
 ```csharp
-SchemaUntypedField PlayerPingTokens { get; }
+ISchemaClassFixedArray<GameTime_t> PlayerPingTokens { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="SchemaUntypedField" typeHref="/docs/api/schemas/schemauntypedfield" />
+- <ApiParam type="ISchemaClassFixedArray&lt;GameTime_t&gt;" typeHref="/docs/api/schemas/ischemaclassfixedarrayt" />
 
 ## Methods
 
 ### PlayerPingUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_PingServices.cs#L23" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_PingServices.cs#L22" />
 
 ```csharp
 void PlayerPingUpdated()

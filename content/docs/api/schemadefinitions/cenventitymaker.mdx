@@ -11,7 +11,7 @@ title: CEnvEntityMaker
 **Assembly**: SwiftlyS2.CS2.dll
 
 ```csharp
-public interface CEnvEntityMaker : CPointEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CPointEntity>, ISchemaClass<CEnvEntityMaker>, ISchemaField, ISchemaClass, INativeHandle
+public interface CEnvEntityMaker : CPointEntity, CBaseEntity, CEntityInstance, IEquatable<CEntityInstance>, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CPointEntity>, ISchemaClass<CEnvEntityMaker>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
 #### Implements
@@ -19,6 +19,7 @@ public interface CEnvEntityMaker : CPointEntity, CBaseEntity, CEntityInstance, I
 - [CPointEntity](/docs/api/schemadefinitions/cpointentity)
 - [CBaseEntity](/docs/api/schemadefinitions/cbaseentity)
 - [CEntityInstance](/docs/api/schemadefinitions/centityinstance)
+- [IEquatable\<CEntityInstance\>](https://learn.microsoft.com/dotnet/api/system.iequatable-1)
 - [ISchemaClass\<CEntityInstance\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CBaseEntity\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CPointEntity\>](/docs/api/schemas/ischemaclasst)
@@ -94,24 +95,24 @@ ref Vector EntityMins { get; }
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvEntityMaker.cs#L40" />
 
 ```csharp
-CEntityIOOutput OutputOnFailedSpawn { get; }
+ref CEntityIOOutput OutputOnFailedSpawn { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OutputOnSpawned
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvEntityMaker.cs#L38" />
 
 ```csharp
-CEntityIOOutput OutputOnSpawned { get; }
+ref CEntityIOOutput OutputOnSpawned { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### PostSpawnDirection
 

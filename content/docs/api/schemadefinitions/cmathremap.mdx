@@ -11,7 +11,7 @@ title: CMathRemap
 **Assembly**: SwiftlyS2.CS2.dll
 
 ```csharp
-public interface CMathRemap : CLogicalEntity, CServerOnlyEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CServerOnlyEntity>, ISchemaClass<CLogicalEntity>, ISchemaClass<CMathRemap>, ISchemaField, ISchemaClass, INativeHandle
+public interface CMathRemap : CLogicalEntity, CServerOnlyEntity, CBaseEntity, CEntityInstance, IEquatable<CEntityInstance>, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CServerOnlyEntity>, ISchemaClass<CLogicalEntity>, ISchemaClass<CMathRemap>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
 #### Implements
@@ -20,6 +20,7 @@ public interface CMathRemap : CLogicalEntity, CServerOnlyEntity, CBaseEntity, CE
 - [CServerOnlyEntity](/docs/api/schemadefinitions/cserveronlyentity)
 - [CBaseEntity](/docs/api/schemadefinitions/cbaseentity)
 - [CEntityInstance](/docs/api/schemadefinitions/centityinstance)
+- [IEquatable\<CEntityInstance\>](https://learn.microsoft.com/dotnet/api/system.iequatable-1)
 - [ISchemaClass\<CEntityInstance\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CBaseEntity\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CServerOnlyEntity\>](/docs/api/schemas/ischemaclasst)
@@ -84,48 +85,48 @@ ref float OldInValue { get; }
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathRemap.cs#L39" />
 
 ```csharp
-CEntityIOOutput OnFellBelowMax { get; }
+ref CEntityIOOutput OnFellBelowMax { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OnFellBelowMin
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathRemap.cs#L37" />
 
 ```csharp
-CEntityIOOutput OnFellBelowMin { get; }
+ref CEntityIOOutput OnFellBelowMin { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OnRoseAboveMax
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathRemap.cs#L35" />
 
 ```csharp
-CEntityIOOutput OnRoseAboveMax { get; }
+ref CEntityIOOutput OnRoseAboveMax { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OnRoseAboveMin
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathRemap.cs#L33" />
 
 ```csharp
-CEntityIOOutput OnRoseAboveMin { get; }
+ref CEntityIOOutput OnRoseAboveMin { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### Out1
 

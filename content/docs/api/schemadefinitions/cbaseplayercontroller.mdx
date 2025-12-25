@@ -11,13 +11,14 @@ title: CBasePlayerController
 **Assembly**: SwiftlyS2.CS2.dll
 
 ```csharp
-public interface CBasePlayerController : CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBasePlayerController>, ISchemaField, ISchemaClass, INativeHandle
+public interface CBasePlayerController : CBaseEntity, CEntityInstance, IEquatable<CEntityInstance>, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBasePlayerController>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
 #### Implements
 
 - [CBaseEntity](/docs/api/schemadefinitions/cbaseentity)
 - [CEntityInstance](/docs/api/schemadefinitions/centityinstance)
+- [IEquatable\<CEntityInstance\>](https://learn.microsoft.com/dotnet/api/system.iequatable-1)
 - [ISchemaClass\<CEntityInstance\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CBaseEntity\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CBasePlayerController\>](/docs/api/schemas/ischemaclasst)
@@ -367,7 +368,7 @@ void PlayerNameUpdated()
 
 ### SetPawn(CBasePlayerPawn?)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBasePlayerController.cs#L9" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBasePlayerController.cs#L12" />
 
 Sets the player pawn to the entity.
 
@@ -394,4 +395,19 @@ void SteamIDUpdated()
 ```csharp
 void TickBaseUpdated()
 ```
+
+### ToPlayer()
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBasePlayerController.cs#L19" />
+
+Converts the controller to a player.
+
+```csharp
+IPlayer? ToPlayer()
+```
+
+<ApiLabel>Returns</ApiLabel>
+
+- <ApiParam type="IPlayer?" typeHref="/docs/api/players/iplayer" /> — An SwiftlyS2.Shared.Players.IPlayer instance representing the player with the specified controller, or `null` if no such
+    player exists.
 

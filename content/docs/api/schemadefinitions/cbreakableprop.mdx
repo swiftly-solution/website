@@ -11,7 +11,7 @@ title: CBreakableProp
 **Assembly**: SwiftlyS2.CS2.dll
 
 ```csharp
-public interface CBreakableProp : CBaseProp, CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseAnimGraph>, ISchemaClass<CBaseProp>, ISchemaClass<CBreakableProp>, ISchemaField, ISchemaClass, INativeHandle
+public interface CBreakableProp : CBaseProp, CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEntityInstance, IEquatable<CEntityInstance>, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseAnimGraph>, ISchemaClass<CBaseProp>, ISchemaClass<CBreakableProp>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
 #### Implements
@@ -21,6 +21,7 @@ public interface CBreakableProp : CBaseProp, CBaseAnimGraph, CBaseModelEntity, C
 - [CBaseModelEntity](/docs/api/schemadefinitions/cbasemodelentity)
 - [CBaseEntity](/docs/api/schemadefinitions/cbaseentity)
 - [CEntityInstance](/docs/api/schemadefinitions/centityinstance)
+- [IEquatable\<CEntityInstance\>](https://learn.microsoft.com/dotnet/api/system.iequatable-1)
 - [ISchemaClass\<CEntityInstance\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CBaseEntity\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CBaseModelEntity\>](/docs/api/schemas/ischemaclasst)
@@ -254,12 +255,12 @@ ref int MinHealthDmg { get; }
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L22" />
 
 ```csharp
-CEntityIOOutput OnBreak { get; }
+ref CEntityIOOutput OnBreak { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OnHealthChanged
 
@@ -278,24 +279,24 @@ SchemaUntypedField OnHealthChanged { get; }
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L20" />
 
 ```csharp
-CEntityIOOutput OnStartDeath { get; }
+ref CEntityIOOutput OnStartDeath { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OnTakeDamage
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakableProp.cs#L27" />
 
 ```csharp
-CEntityIOOutput OnTakeDamage { get; }
+ref CEntityIOOutput OnTakeDamage { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OriginalBlockLOS
 

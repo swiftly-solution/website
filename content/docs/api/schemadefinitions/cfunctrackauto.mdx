@@ -11,7 +11,7 @@ title: CFuncTrackAuto
 **Assembly**: SwiftlyS2.CS2.dll
 
 ```csharp
-public interface CFuncTrackAuto : CFuncTrackChange, CFuncPlatRot, CFuncPlat, CBasePlatTrain, CBaseToggle, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseToggle>, ISchemaClass<CBasePlatTrain>, ISchemaClass<CFuncPlat>, ISchemaClass<CFuncPlatRot>, ISchemaClass<CFuncTrackChange>, ISchemaClass<CFuncTrackAuto>, ISchemaField, ISchemaClass, INativeHandle
+public interface CFuncTrackAuto : CFuncTrackChange, CFuncPlatRot, CFuncPlat, CBasePlatTrain, CBaseToggle, CBaseModelEntity, CBaseEntity, CEntityInstance, IEquatable<CEntityInstance>, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseToggle>, ISchemaClass<CBasePlatTrain>, ISchemaClass<CFuncPlat>, ISchemaClass<CFuncPlatRot>, ISchemaClass<CFuncTrackChange>, ISchemaClass<CFuncTrackAuto>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
 #### Implements
@@ -24,6 +24,7 @@ public interface CFuncTrackAuto : CFuncTrackChange, CFuncPlatRot, CFuncPlat, CBa
 - [CBaseModelEntity](/docs/api/schemadefinitions/cbasemodelentity)
 - [CBaseEntity](/docs/api/schemadefinitions/cbaseentity)
 - [CEntityInstance](/docs/api/schemadefinitions/centityinstance)
+- [IEquatable\<CEntityInstance\>](https://learn.microsoft.com/dotnet/api/system.iequatable-1)
 - [ISchemaClass\<CEntityInstance\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CBaseEntity\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CBaseModelEntity\>](/docs/api/schemas/ischemaclasst)

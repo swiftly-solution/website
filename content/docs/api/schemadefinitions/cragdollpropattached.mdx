@@ -11,7 +11,7 @@ title: CRagdollPropAttached
 **Assembly**: SwiftlyS2.CS2.dll
 
 ```csharp
-public interface CRagdollPropAttached : CRagdollProp, CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseAnimGraph>, ISchemaClass<CRagdollProp>, ISchemaClass<CRagdollPropAttached>, ISchemaField, ISchemaClass, INativeHandle
+public interface CRagdollPropAttached : CRagdollProp, CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEntityInstance, IEquatable<CEntityInstance>, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseAnimGraph>, ISchemaClass<CRagdollProp>, ISchemaClass<CRagdollPropAttached>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
 #### Implements
@@ -21,6 +21,7 @@ public interface CRagdollPropAttached : CRagdollProp, CBaseAnimGraph, CBaseModel
 - [CBaseModelEntity](/docs/api/schemadefinitions/cbasemodelentity)
 - [CBaseEntity](/docs/api/schemadefinitions/cbaseentity)
 - [CEntityInstance](/docs/api/schemadefinitions/centityinstance)
+- [IEquatable\<CEntityInstance\>](https://learn.microsoft.com/dotnet/api/system.iequatable-1)
 - [ISchemaClass\<CEntityInstance\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CBaseEntity\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CBaseModelEntity\>](/docs/api/schemas/ischemaclasst)

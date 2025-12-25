@@ -4,7 +4,7 @@ title: IProtobufRepeatedFieldSubMessageType
 
 # Interface IProtobufRepeatedFieldSubMessageType
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/NetMessages/IProtobufRepeatedField.cs#L12" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/NetMessages/IProtobufRepeatedField.cs#L11" />
 
 **Namespace**: [SwiftlyS2.Shared.NetMessages](/docs/api/netmessages)
 
@@ -28,7 +28,7 @@ public interface IProtobufRepeatedFieldSubMessageType<T> : IRepeatedField, IEnum
 
 ### Count
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/NetMessages/IProtobufRepeatedField.cs#L15" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/NetMessages/IProtobufRepeatedField.cs#L13" />
 
 ```csharp
 int Count { get; }
@@ -42,7 +42,7 @@ int Count { get; }
 
 ### Add()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/NetMessages/IProtobufRepeatedField.cs#L19" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/NetMessages/IProtobufRepeatedField.cs#L16" />
 
 ```csharp
 T Add()
@@ -52,9 +52,17 @@ T Add()
 
 - <ApiParam type="T" />
 
-### Get(int)
+### Clear()
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/NetMessages/IProtobufRepeatedField.cs#L17" />
+
+```csharp
+void Clear()
+```
+
+### Get(int)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/NetMessages/IProtobufRepeatedField.cs#L15" />
 
 ```csharp
 T Get(int index)

@@ -11,13 +11,14 @@ title: CScriptedSequence
 **Assembly**: SwiftlyS2.CS2.dll
 
 ```csharp
-public interface CScriptedSequence : CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CScriptedSequence>, ISchemaField, ISchemaClass, INativeHandle
+public interface CScriptedSequence : CBaseEntity, CEntityInstance, IEquatable<CEntityInstance>, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CScriptedSequence>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
 #### Implements
 
 - [CBaseEntity](/docs/api/schemadefinitions/cbaseentity)
 - [CEntityInstance](/docs/api/schemadefinitions/centityinstance)
+- [IEquatable\<CEntityInstance\>](https://learn.microsoft.com/dotnet/api/system.iequatable-1)
 - [ISchemaClass\<CEntityInstance\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CBaseEntity\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CScriptedSequence\>](/docs/api/schemas/ischemaclasst)
@@ -329,7 +330,7 @@ ref bool InitiatedSelfDelete { get; }
 
 ### InteractionMainEntity
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L167" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L166" />
 
 ```csharp
 ref CHandle<CBaseEntity> InteractionMainEntity { get; }
@@ -473,7 +474,7 @@ ref bool LoopPreIdleSequence { get; }
 
 ### MatOtherToMain
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L165" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L164" />
 
 ```csharp
 ref CTransform MatOtherToMain { get; }
@@ -584,48 +585,48 @@ ref int NotReadySequenceCount { get; }
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L152" />
 
 ```csharp
-CEntityIOOutput OnActionStartOrLoop { get; }
+ref CEntityIOOutput OnActionStartOrLoop { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OnBeginSequence
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L150" />
 
 ```csharp
-CEntityIOOutput OnBeginSequence { get; }
+ref CEntityIOOutput OnBeginSequence { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OnCancelFailedSequence
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L160" />
 
 ```csharp
-CEntityIOOutput OnCancelFailedSequence { get; }
+ref CEntityIOOutput OnCancelFailedSequence { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OnCancelSequence
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L158" />
 
 ```csharp
-CEntityIOOutput OnCancelSequence { get; }
+ref CEntityIOOutput OnCancelSequence { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OnDeathBehavior
 
@@ -644,36 +645,36 @@ ref ScriptedOnDeath_t OnDeathBehavior { get; }
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L154" />
 
 ```csharp
-CEntityIOOutput OnEndSequence { get; }
+ref CEntityIOOutput OnEndSequence { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OnPostIdleEndSequence
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L156" />
 
 ```csharp
-CEntityIOOutput OnPostIdleEndSequence { get; }
+ref CEntityIOOutput OnPostIdleEndSequence { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OnScriptEvent
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L163" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L162" />
 
 ```csharp
-SchemaUntypedField OnScriptEvent { get; }
+ISchemaFixedArray<CEntityIOOutput> OnScriptEvent { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="SchemaUntypedField" typeHref="/docs/api/schemas/schemauntypedfield" />
+- <ApiParam type="ISchemaFixedArray&lt;CEntityIOOutput&gt;" typeHref="/docs/api/schemas/ischemafixedarrayt" />
 
 ### Play
 
@@ -701,7 +702,7 @@ ref float PlayAnimFadeInTime { get; }
 
 ### PlayerDeathBehavior
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L169" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L168" />
 
 ```csharp
 ref int PlayerDeathBehavior { get; }
@@ -845,7 +846,7 @@ ref bool ShouldLeaveCorpse { get; }
 
 ### SkipFadeIn
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L171" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L170" />
 
 ```csharp
 ref bool SkipFadeIn { get; }

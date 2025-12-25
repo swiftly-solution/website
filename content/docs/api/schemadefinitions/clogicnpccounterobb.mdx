@@ -11,7 +11,7 @@ title: CLogicNPCCounterOBB
 **Assembly**: SwiftlyS2.CS2.dll
 
 ```csharp
-public interface CLogicNPCCounterOBB : CLogicNPCCounterAABB, CLogicNPCCounter, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CLogicNPCCounter>, ISchemaClass<CLogicNPCCounterAABB>, ISchemaClass<CLogicNPCCounterOBB>, ISchemaField, ISchemaClass, INativeHandle
+public interface CLogicNPCCounterOBB : CLogicNPCCounterAABB, CLogicNPCCounter, CBaseEntity, CEntityInstance, IEquatable<CEntityInstance>, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CLogicNPCCounter>, ISchemaClass<CLogicNPCCounterAABB>, ISchemaClass<CLogicNPCCounterOBB>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
 #### Implements
@@ -20,6 +20,7 @@ public interface CLogicNPCCounterOBB : CLogicNPCCounterAABB, CLogicNPCCounter, C
 - [CLogicNPCCounter](/docs/api/schemadefinitions/clogicnpccounter)
 - [CBaseEntity](/docs/api/schemadefinitions/cbaseentity)
 - [CEntityInstance](/docs/api/schemadefinitions/centityinstance)
+- [IEquatable\<CEntityInstance\>](https://learn.microsoft.com/dotnet/api/system.iequatable-1)
 - [ISchemaClass\<CEntityInstance\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CBaseEntity\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CLogicNPCCounter\>](/docs/api/schemas/ischemaclasst)

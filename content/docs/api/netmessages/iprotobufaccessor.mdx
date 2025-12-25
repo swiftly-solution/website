@@ -22,7 +22,7 @@ public interface IProtobufAccessor : INativeHandle
 
 ### Add\<T\>(string, T)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/NetMessages/IProtobufAccessor.cs#L94" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/NetMessages/IProtobufAccessor.cs#L95" />
 
 ```csharp
 void Add<T>(string fieldName, T value)
@@ -222,6 +222,14 @@ void AddVector2D(string fieldName, Vector2D value)
 - <ApiParam name="fieldName" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
 - <ApiParam name="value" type="Vector2D" typeHref="/docs/api/natives/vector2d" />
 
+### Clear()
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/NetMessages/IProtobufAccessor.cs#L92" />
+
+```csharp
+void Clear()
+```
+
 ### ClearRepeatedField(string)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/NetMessages/IProtobufAccessor.cs#L91" />
@@ -236,7 +244,7 @@ void ClearRepeatedField(string fieldName)
 
 ### Get\<T\>(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/NetMessages/IProtobufAccessor.cs#L97" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/NetMessages/IProtobufAccessor.cs#L98" />
 
 ```csharp
 T Get<T>(string fieldName)
@@ -400,7 +408,7 @@ QAngle GetQAngle(string fieldName)
 
 ### GetRepeated\<T\>(string, int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/NetMessages/IProtobufAccessor.cs#L96" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/NetMessages/IProtobufAccessor.cs#L97" />
 
 ```csharp
 T GetRepeated<T>(string fieldName, int index)
@@ -771,7 +779,7 @@ bool HasField(string fieldName)
 
 ### Set\<T\>(string, T)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/NetMessages/IProtobufAccessor.cs#L93" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/NetMessages/IProtobufAccessor.cs#L94" />
 
 ```csharp
 void Set<T>(string fieldName, T value)
@@ -892,7 +900,7 @@ void SetQAngle(string fieldName, QAngle value)
 
 ### SetRepeated\<T\>(string, int, T)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/NetMessages/IProtobufAccessor.cs#L95" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/NetMessages/IProtobufAccessor.cs#L96" />
 
 ```csharp
 void SetRepeated<T>(string fieldName, int index, T value)

@@ -11,13 +11,14 @@ title: CCommentaryAuto
 **Assembly**: SwiftlyS2.CS2.dll
 
 ```csharp
-public interface CCommentaryAuto : CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CCommentaryAuto>, ISchemaField, ISchemaClass, INativeHandle
+public interface CCommentaryAuto : CBaseEntity, CEntityInstance, IEquatable<CEntityInstance>, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CCommentaryAuto>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
 #### Implements
 
 - [CBaseEntity](/docs/api/schemadefinitions/cbaseentity)
 - [CEntityInstance](/docs/api/schemadefinitions/centityinstance)
+- [IEquatable\<CEntityInstance\>](https://learn.microsoft.com/dotnet/api/system.iequatable-1)
 - [ISchemaClass\<CEntityInstance\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CBaseEntity\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CCommentaryAuto\>](/docs/api/schemas/ischemaclasst)
@@ -32,34 +33,34 @@ public interface CCommentaryAuto : CBaseEntity, CEntityInstance, ISchemaClass<CE
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCommentaryAuto.cs#L20" />
 
 ```csharp
-CEntityIOOutput OnCommentaryMidGame { get; }
+ref CEntityIOOutput OnCommentaryMidGame { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OnCommentaryMultiplayerSpawn
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCommentaryAuto.cs#L22" />
 
 ```csharp
-CEntityIOOutput OnCommentaryMultiplayerSpawn { get; }
+ref CEntityIOOutput OnCommentaryMultiplayerSpawn { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OnCommentaryNewGame
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCommentaryAuto.cs#L18" />
 
 ```csharp
-CEntityIOOutput OnCommentaryNewGame { get; }
+ref CEntityIOOutput OnCommentaryNewGame { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 

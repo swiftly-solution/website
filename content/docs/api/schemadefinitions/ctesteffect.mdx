@@ -11,13 +11,14 @@ title: CTestEffect
 **Assembly**: SwiftlyS2.CS2.dll
 
 ```csharp
-public interface CTestEffect : CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CTestEffect>, ISchemaField, ISchemaClass, INativeHandle
+public interface CTestEffect : CBaseEntity, CEntityInstance, IEquatable<CEntityInstance>, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CTestEffect>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
 #### Implements
 
 - [CBaseEntity](/docs/api/schemadefinitions/cbaseentity)
 - [CEntityInstance](/docs/api/schemadefinitions/centityinstance)
+- [IEquatable\<CEntityInstance\>](https://learn.microsoft.com/dotnet/api/system.iequatable-1)
 - [ISchemaClass\<CEntityInstance\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CBaseEntity\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CTestEffect\>](/docs/api/schemas/ischemaclasst)
@@ -41,27 +42,27 @@ ref int Beam { get; }
 
 ### Beam1
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestEffect.cs#L23" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestEffect.cs#L22" />
 
 ```csharp
-SchemaUntypedField Beam1 { get; }
+ISchemaClassFixedArray<CBeam> Beam1 { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="SchemaUntypedField" typeHref="/docs/api/schemas/schemauntypedfield" />
+- <ApiParam type="ISchemaClassFixedArray&lt;CBeam&gt;" typeHref="/docs/api/schemas/ischemaclassfixedarrayt" />
 
 ### BeamTime
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestEffect.cs#L26" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestEffect.cs#L24" />
 
 ```csharp
-SchemaUntypedField BeamTime { get; }
+ISchemaClassFixedArray<GameTime_t> BeamTime { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="SchemaUntypedField" typeHref="/docs/api/schemas/schemauntypedfield" />
+- <ApiParam type="ISchemaClassFixedArray&lt;GameTime_t&gt;" typeHref="/docs/api/schemas/ischemaclassfixedarrayt" />
 
 ### Loop
 
@@ -77,7 +78,7 @@ ref int Loop { get; }
 
 ### StartTime
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestEffect.cs#L28" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestEffect.cs#L26" />
 
 ```csharp
 GameTime_t StartTime { get; }

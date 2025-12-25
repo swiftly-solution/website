@@ -11,7 +11,7 @@ title: CLogicPlayerProxy
 **Assembly**: SwiftlyS2.CS2.dll
 
 ```csharp
-public interface CLogicPlayerProxy : CLogicalEntity, CServerOnlyEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CServerOnlyEntity>, ISchemaClass<CLogicalEntity>, ISchemaClass<CLogicPlayerProxy>, ISchemaField, ISchemaClass, INativeHandle
+public interface CLogicPlayerProxy : CLogicalEntity, CServerOnlyEntity, CBaseEntity, CEntityInstance, IEquatable<CEntityInstance>, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CServerOnlyEntity>, ISchemaClass<CLogicalEntity>, ISchemaClass<CLogicPlayerProxy>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
 #### Implements
@@ -20,6 +20,7 @@ public interface CLogicPlayerProxy : CLogicalEntity, CServerOnlyEntity, CBaseEnt
 - [CServerOnlyEntity](/docs/api/schemadefinitions/cserveronlyentity)
 - [CBaseEntity](/docs/api/schemadefinitions/cbaseentity)
 - [CEntityInstance](/docs/api/schemadefinitions/centityinstance)
+- [IEquatable\<CEntityInstance\>](https://learn.microsoft.com/dotnet/api/system.iequatable-1)
 - [ISchemaClass\<CEntityInstance\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CBaseEntity\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CServerOnlyEntity\>](/docs/api/schemas/ischemaclasst)
@@ -48,36 +49,36 @@ ref CHandle<CBaseEntity> Player { get; }
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicPlayerProxy.cs#L24" />
 
 ```csharp
-CEntityIOOutput PlayerDied { get; }
+ref CEntityIOOutput PlayerDied { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### PlayerHasAmmo
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicPlayerProxy.cs#L20" />
 
 ```csharp
-CEntityIOOutput PlayerHasAmmo { get; }
+ref CEntityIOOutput PlayerHasAmmo { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### PlayerHasNoAmmo
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicPlayerProxy.cs#L22" />
 
 ```csharp
-CEntityIOOutput PlayerHasNoAmmo { get; }
+ref CEntityIOOutput PlayerHasNoAmmo { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### RequestedPlayerHealth
 

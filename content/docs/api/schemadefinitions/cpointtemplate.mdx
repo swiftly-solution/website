@@ -11,7 +11,7 @@ title: CPointTemplate
 **Assembly**: SwiftlyS2.CS2.dll
 
 ```csharp
-public interface CPointTemplate : CLogicalEntity, CServerOnlyEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CServerOnlyEntity>, ISchemaClass<CLogicalEntity>, ISchemaClass<CPointTemplate>, ISchemaField, ISchemaClass, INativeHandle
+public interface CPointTemplate : CLogicalEntity, CServerOnlyEntity, CBaseEntity, CEntityInstance, IEquatable<CEntityInstance>, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CServerOnlyEntity>, ISchemaClass<CLogicalEntity>, ISchemaClass<CPointTemplate>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
 #### Implements
@@ -20,6 +20,7 @@ public interface CPointTemplate : CLogicalEntity, CServerOnlyEntity, CBaseEntity
 - [CServerOnlyEntity](/docs/api/schemadefinitions/cserveronlyentity)
 - [CBaseEntity](/docs/api/schemadefinitions/cbaseentity)
 - [CEntityInstance](/docs/api/schemadefinitions/centityinstance)
+- [IEquatable\<CEntityInstance\>](https://learn.microsoft.com/dotnet/api/system.iequatable-1)
 - [ISchemaClass\<CEntityInstance\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CBaseEntity\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CServerOnlyEntity\>](/docs/api/schemas/ischemaclasst)
@@ -93,27 +94,27 @@ ref PointTemplateOwnerSpawnGroupType_t OwnerSpawnGroupType { get; }
 
 ### ScriptCallbackScope
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointTemplate.cs#L40" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointTemplate.cs#L38" />
 
 ```csharp
-SchemaUntypedField ScriptCallbackScope { get; }
+ref HSCRIPTHandler ScriptCallbackScope { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="SchemaUntypedField" typeHref="/docs/api/schemas/schemauntypedfield" />
+- <ApiParam type="HSCRIPTHandler" typeHref="/docs/api/natives/hscripthandler" />
 
 ### ScriptSpawnCallback
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointTemplate.cs#L37" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointTemplate.cs#L36" />
 
 ```csharp
-SchemaUntypedField ScriptSpawnCallback { get; }
+ref HSCRIPTHandler ScriptSpawnCallback { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="SchemaUntypedField" typeHref="/docs/api/schemas/schemauntypedfield" />
+- <ApiParam type="HSCRIPTHandler" typeHref="/docs/api/natives/hscripthandler" />
 
 ### Source2EntityLumpName
 

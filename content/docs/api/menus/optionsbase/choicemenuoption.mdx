@@ -4,7 +4,7 @@ title: ChoiceMenuOption
 
 # Class ChoiceMenuOption
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/ChoiceMenuOption.cs#L10" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/ChoiceMenuOption.cs#L11" />
 
 **Namespace**: [SwiftlyS2.Core.Menus.OptionsBase](/docs/api/menus/optionsbase)
 
@@ -71,7 +71,7 @@ public sealed class ChoiceMenuOption : MenuOptionBase, IMenuOption, IDisposable
 
 ### ChoiceMenuOption(IEnumerable\<string\>, string?, int, int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/ChoiceMenuOption.cs#L36" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/ChoiceMenuOption.cs#L37" />
 
 Creates an instance of SwiftlyS2.Core.Menus.OptionsBase.ChoiceMenuOption with a list of choices.
 
@@ -92,7 +92,7 @@ When using this constructor, the SwiftlyS2.Core.Menus.OptionsBase.MenuOptionBase
 
 ### ChoiceMenuOption(string, IEnumerable\<string\>, string?, int, int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/ChoiceMenuOption.cs#L65" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/ChoiceMenuOption.cs#L66" />
 
 Creates an instance of SwiftlyS2.Core.Menus.OptionsBase.ChoiceMenuOption with a list of choices.
 
@@ -112,7 +112,7 @@ public ChoiceMenuOption(string text, IEnumerable<string> choices, string? defaul
 
 ### Choices
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/ChoiceMenuOption.cs#L19" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/ChoiceMenuOption.cs#L20" />
 
 Gets the read-only list of available choices.
 
@@ -128,7 +128,7 @@ public IReadOnlyList<string> Choices { get; }
 
 ### GetDisplayText(IPlayer, int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/ChoiceMenuOption.cs#L75" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/ChoiceMenuOption.cs#L76" />
 
 Gets the display text for this option as it should appear to the specified player.
 
@@ -155,7 +155,7 @@ public override string GetDisplayText(IPlayer player, int displayLine = 0)
 
 ### GetSelectedChoice(IPlayer)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/ChoiceMenuOption.cs#L88" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/ChoiceMenuOption.cs#L89" />
 
 Gets the currently selected choice for the specified player.
 
@@ -173,7 +173,7 @@ public string GetSelectedChoice(IPlayer player)
 
 ### SetSelectedChoice(IPlayer, string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/ChoiceMenuOption.cs#L99" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/ChoiceMenuOption.cs#L100" />
 
 Sets the selected choice for the specified player.
 
@@ -188,7 +188,7 @@ public void SetSelectedChoice(IPlayer player, string choice)
 
 ### ValueChanged
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/ChoiceMenuOption.cs#L24" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/ChoiceMenuOption.cs#L25" />
 
 Occurs when the selected choice changes for a player.
 

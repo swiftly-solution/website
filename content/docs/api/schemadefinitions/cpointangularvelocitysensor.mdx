@@ -11,7 +11,7 @@ title: CPointAngularVelocitySensor
 **Assembly**: SwiftlyS2.CS2.dll
 
 ```csharp
-public interface CPointAngularVelocitySensor : CPointEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CPointEntity>, ISchemaClass<CPointAngularVelocitySensor>, ISchemaField, ISchemaClass, INativeHandle
+public interface CPointAngularVelocitySensor : CPointEntity, CBaseEntity, CEntityInstance, IEquatable<CEntityInstance>, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CPointEntity>, ISchemaClass<CPointAngularVelocitySensor>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
 #### Implements
@@ -19,6 +19,7 @@ public interface CPointAngularVelocitySensor : CPointEntity, CBaseEntity, CEntit
 - [CPointEntity](/docs/api/schemadefinitions/cpointentity)
 - [CBaseEntity](/docs/api/schemadefinitions/cbaseentity)
 - [CEntityInstance](/docs/api/schemadefinitions/centityinstance)
+- [IEquatable\<CEntityInstance\>](https://learn.microsoft.com/dotnet/api/system.iequatable-1)
 - [ISchemaClass\<CEntityInstance\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CBaseEntity\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CPointEntity\>](/docs/api/schemas/ischemaclasst)
@@ -130,60 +131,60 @@ ref QAngle LastOrientation { get; }
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngularVelocitySensor.cs#L49" />
 
 ```csharp
-CEntityIOOutput OnEqualTo { get; }
+ref CEntityIOOutput OnEqualTo { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OnGreaterThan
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngularVelocitySensor.cs#L45" />
 
 ```csharp
-CEntityIOOutput OnGreaterThan { get; }
+ref CEntityIOOutput OnGreaterThan { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OnGreaterThanOrEqualTo
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngularVelocitySensor.cs#L47" />
 
 ```csharp
-CEntityIOOutput OnGreaterThanOrEqualTo { get; }
+ref CEntityIOOutput OnGreaterThanOrEqualTo { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OnLessThan
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngularVelocitySensor.cs#L41" />
 
 ```csharp
-CEntityIOOutput OnLessThan { get; }
+ref CEntityIOOutput OnLessThan { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OnLessThanOrEqualTo
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngularVelocitySensor.cs#L43" />
 
 ```csharp
-CEntityIOOutput OnLessThanOrEqualTo { get; }
+ref CEntityIOOutput OnLessThanOrEqualTo { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### TargetEntity
 

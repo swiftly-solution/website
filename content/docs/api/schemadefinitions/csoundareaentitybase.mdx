@@ -11,13 +11,14 @@ title: CSoundAreaEntityBase
 **Assembly**: SwiftlyS2.CS2.dll
 
 ```csharp
-public interface CSoundAreaEntityBase : CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CSoundAreaEntityBase>, ISchemaField, ISchemaClass, INativeHandle
+public interface CSoundAreaEntityBase : CBaseEntity, CEntityInstance, IEquatable<CEntityInstance>, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CSoundAreaEntityBase>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
 #### Implements
 
 - [CBaseEntity](/docs/api/schemadefinitions/cbaseentity)
 - [CEntityInstance](/docs/api/schemadefinitions/centityinstance)
+- [IEquatable\<CEntityInstance\>](https://learn.microsoft.com/dotnet/api/system.iequatable-1)
 - [ISchemaClass\<CEntityInstance\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CBaseEntity\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CSoundAreaEntityBase\>](/docs/api/schemas/ischemaclasst)

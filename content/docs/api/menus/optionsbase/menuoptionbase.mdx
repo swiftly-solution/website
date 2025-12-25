@@ -52,7 +52,7 @@ public abstract class MenuOptionBase : IMenuOption, IDisposable
 
 ### MenuOptionBase()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L28" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L29" />
 
 Creates an instance of SwiftlyS2.Core.Menus.OptionsBase.MenuOptionBase.
 
@@ -67,7 +67,7 @@ Derived classes should override the SwiftlyS2.Core.Menus.OptionsBase.MenuOptionB
 
 ### MenuOptionBase(int, int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L43" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L44" />
 
 Creates an instance of SwiftlyS2.Core.Menus.OptionsBase.MenuOptionBase with dynamic text updating capabilities.
 
@@ -90,7 +90,7 @@ Both parameters will be automatically clamped to this minimum value.
 
 ### BindingText
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L142" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L145" />
 
 Gets or sets a function that dynamically provides the text content for this menu option.
 
@@ -121,7 +121,7 @@ option.BindingText = () => condition ? playerName : null;
 
 ### CloseAfterClick
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L265" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L312" />
 
 Gets or sets a value indicating whether the menu should be closed after handling the click.
 
@@ -135,7 +135,7 @@ public bool CloseAfterClick { get; init; }
 
 ### Comment
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L201" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L229" />
 
 Gets or sets the comment content displayed for this menu option.
 
@@ -153,7 +153,7 @@ This is a global property. Changing it will affect what all players see.
 
 ### Enabled
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L249" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L287" />
 
 Gets or sets a value indicating whether this option can be interacted with.
 
@@ -171,7 +171,7 @@ This is a global property. Changing it will affect what all players see.
 
 ### LineCount
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L115" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L118" />
 
 Gets the number of lines this option requests to occupy in the menu.
 
@@ -185,7 +185,7 @@ public virtual int LineCount { get; }
 
 ### MaxWidth
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L206" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L234" />
 
 The maximum display width for menu option text in relative units.
 
@@ -199,7 +199,7 @@ public float MaxWidth { get; set; }
 
 ### Menu
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L110" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L113" />
 
 Gets or sets the menu that this option belongs to.
 
@@ -218,7 +218,7 @@ When implementing custom menu options, avoid accessing this property in the cons
 
 ### PlaySound
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L296" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L343" />
 
 Gets or sets a value indicating whether a sound should play when this option is selected.
 
@@ -232,7 +232,7 @@ public bool PlaySound { get; set; }
 
 ### Tag
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L270" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L317" />
 
 Gets or sets an object that contains data about this option.
 
@@ -246,7 +246,7 @@ public object? Tag { get; set; }
 
 ### Text
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L171" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L182" />
 
 Gets or sets the text content displayed for this menu option.
 
@@ -268,7 +268,7 @@ Setting this property directly will update the static fallback value without cle
 
 ### TextSize
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L275" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L322" />
 
 Gets or sets the text size for this option.
 
@@ -282,7 +282,7 @@ public MenuOptionTextSize TextSize { get; set; }
 
 ### TextStyle
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L280" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L327" />
 
 Gets or sets the text overflow style for this option.
 
@@ -296,7 +296,7 @@ public MenuOptionTextStyle TextStyle { get; set; }
 
 ### Visible
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L230" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L259" />
 
 Gets or sets a value indicating whether this option is visible in the menu.
 
@@ -316,7 +316,7 @@ This is a global property. Changing it will affect what all players see.
 
 ### Dispose()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L72" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L75" />
 
 Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
 
@@ -326,7 +326,7 @@ public virtual void Dispose()
 
 ### ~MenuOptionBase()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L67" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L70" />
 
 ```csharp
 protected ~MenuOptionBase()
@@ -334,7 +334,7 @@ protected ~MenuOptionBase()
 
 ### GetDisplayText(IPlayer, int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L435" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L487" />
 
 Gets the display text for this option as it should appear to the specified player.
 
@@ -361,7 +361,7 @@ public virtual string GetDisplayText(IPlayer player, int displayLine = 0)
 
 ### GetEnabled(IPlayer)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L367" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L417" />
 
 Determines whether this option is enabled for the specified player.
 
@@ -379,7 +379,7 @@ public virtual bool GetEnabled(IPlayer player)
 
 ### GetVisible(IPlayer)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L350" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L398" />
 
 Determines whether this option is visible to the specified player.
 
@@ -397,7 +397,7 @@ public virtual bool GetVisible(IPlayer player)
 
 ### IsClickTaskCompleted(IPlayer)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L343" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L390" />
 
 Determines whether the click task for the specified player is completed.
 
@@ -415,7 +415,7 @@ public virtual bool IsClickTaskCompleted(IPlayer player)
 
 ### OnClickAsync(IPlayer)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L538" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L615" />
 
 Handles the click action for this option.
 
@@ -433,7 +433,7 @@ public virtual ValueTask OnClickAsync(IPlayer player)
 
 ### OnValidatingAsync(IPlayer)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L486" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L555" />
 
 Validates whether the specified player can interact with this option.
 
@@ -451,7 +451,7 @@ public virtual ValueTask<bool> OnValidatingAsync(IPlayer player)
 
 ### PauseTextAnimation()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L90" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L93" />
 
 Pauses the dynamic text animation.
 
@@ -461,7 +461,7 @@ public virtual void PauseTextAnimation()
 
 ### ResumeTextAnimation()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L98" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L101" />
 
 Resumes the dynamic text animation.
 
@@ -471,7 +471,7 @@ public virtual void ResumeTextAnimation()
 
 ### SetEnabled(IPlayer, bool)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L377" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L428" />
 
 Sets the enabled state of this option for a specific player.
 
@@ -490,7 +490,7 @@ The per-player enabled state has lower priority than the global SwiftlyS2.Core.M
 
 ### SetVisible(IPlayer, bool)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L360" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L409" />
 
 Sets the visibility of this option for a specific player.
 
@@ -509,7 +509,7 @@ The per-player visibility has lower priority than the global SwiftlyS2.Core.Menu
 
 ### AfterFormat
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L336" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L383" />
 
 Occurs after HTML markup is assembled, allowing customization of the final HTML output.
 
@@ -523,7 +523,7 @@ public event EventHandler<MenuOptionFormattingEventArgs>? AfterFormat
 
 ### BeforeFormat
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L331" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L378" />
 
 Occurs before HTML markup is assembled, allowing customization of the text content.
 
@@ -537,7 +537,7 @@ public event EventHandler<MenuOptionFormattingEventArgs>? BeforeFormat
 
 ### Click
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L321" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L368" />
 
 Occurs when the option is clicked by a player.
 
@@ -551,7 +551,7 @@ public event AsyncEventHandler<MenuOptionClickEventArgs>? Click
 
 ### EnabledChanged
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L306" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L353" />
 
 Occurs when the enabled state of the option changes.
 
@@ -565,7 +565,7 @@ public event EventHandler<MenuOptionEventArgs>? EnabledChanged
 
 ### TextChanged
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L311" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L358" />
 
 Occurs when the text of the option changes.
 
@@ -579,7 +579,7 @@ public event EventHandler<MenuOptionEventArgs>? TextChanged
 
 ### Validating
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L316" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L363" />
 
 Occurs before a click is processed, allowing validation and cancellation.
 
@@ -593,7 +593,7 @@ public event EventHandler<MenuOptionValidatingEventArgs>? Validating
 
 ### VisibilityChanged
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L301" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/MenuOptionBase.cs#L348" />
 
 Occurs when the visibility of the option changes.
 

@@ -49,6 +49,22 @@ public CTakeDamageInfo(CBaseEntity inflictor, CBaseEntity attacker, CBaseEntity 
 - <ApiParam name="flDamage" type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
 - <ApiParam name="bitsDamageType" type="DamageTypes_t" typeHref="/docs/api/schemadefinitions/damagetypes_t" />
 
+### CTakeDamageInfo(float, DamageTypes_t, CBaseEntity?, CBaseEntity?, CBaseEntity?)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L85" />
+
+```csharp
+public CTakeDamageInfo(float flDamage, DamageTypes_t bitsDamageType, CBaseEntity? inflictor = null, CBaseEntity? attacker = null, CBaseEntity? ability = null)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="flDamage" type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
+- <ApiParam name="bitsDamageType" type="DamageTypes_t" typeHref="/docs/api/schemadefinitions/damagetypes_t" />
+- <ApiParam name="inflictor" type="CBaseEntity?" typeHref="/docs/api/schemadefinitions/cbaseentity" />
+- <ApiParam name="attacker" type="CBaseEntity?" typeHref="/docs/api/schemadefinitions/cbaseentity" />
+- <ApiParam name="ability" type="CBaseEntity?" typeHref="/docs/api/schemadefinitions/cbaseentity" />
+
 ## Fields
 
 ### Ability
@@ -356,7 +372,7 @@ public nint _pVTable
 
 ### ActualHitGroup
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L85" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L95" />
 
 ```csharp
 public HitGroup_t ActualHitGroup { get; }

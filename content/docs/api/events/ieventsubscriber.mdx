@@ -227,6 +227,20 @@ event EventDelegates.OnEntityEndTouch? OnEntityEndTouch
 
 - <ApiParam type="EventDelegates.OnEntityEndTouch?" typeHref="/docs/api/events/eventdelegates" />
 
+### OnEntityFireOutputHook
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L173" />
+
+Called when an entity fires output.
+
+```csharp
+event EventDelegates.OnEntityFireOutputHookEvent? OnEntityFireOutputHook
+```
+
+<ApiLabel>Event Type</ApiLabel>
+
+- <ApiParam type="EventDelegates.OnEntityFireOutputHookEvent?" typeHref="/docs/api/events/eventdelegates" />
+
 ### OnEntityIdentityAcceptInputHook
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L168" />
@@ -410,7 +424,7 @@ event EventDelegates.OnPrecacheResource? OnPrecacheResource
 
 ### OnStartupServer
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L173" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L178" />
 
 Called when the server is started.
 

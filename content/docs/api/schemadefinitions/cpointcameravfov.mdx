@@ -11,7 +11,7 @@ title: CPointCameraVFOV
 **Assembly**: SwiftlyS2.CS2.dll
 
 ```csharp
-public interface CPointCameraVFOV : CPointCamera, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CPointCamera>, ISchemaClass<CPointCameraVFOV>, ISchemaField, ISchemaClass, INativeHandle
+public interface CPointCameraVFOV : CPointCamera, CBaseEntity, CEntityInstance, IEquatable<CEntityInstance>, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CPointCamera>, ISchemaClass<CPointCameraVFOV>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
 #### Implements
@@ -19,6 +19,7 @@ public interface CPointCameraVFOV : CPointCamera, CBaseEntity, CEntityInstance, 
 - [CPointCamera](/docs/api/schemadefinitions/cpointcamera)
 - [CBaseEntity](/docs/api/schemadefinitions/cbaseentity)
 - [CEntityInstance](/docs/api/schemadefinitions/centityinstance)
+- [IEquatable\<CEntityInstance\>](https://learn.microsoft.com/dotnet/api/system.iequatable-1)
 - [ISchemaClass\<CEntityInstance\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CBaseEntity\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CPointCamera\>](/docs/api/schemas/ischemaclasst)

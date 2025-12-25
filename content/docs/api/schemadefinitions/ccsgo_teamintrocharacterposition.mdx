@@ -11,7 +11,7 @@ title: CCSGO_TeamIntroCharacterPosition
 **Assembly**: SwiftlyS2.CS2.dll
 
 ```csharp
-public interface CCSGO_TeamIntroCharacterPosition : CCSGO_TeamPreviewCharacterPosition, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CCSGO_TeamPreviewCharacterPosition>, ISchemaClass<CCSGO_TeamIntroCharacterPosition>, ISchemaField, ISchemaClass, INativeHandle
+public interface CCSGO_TeamIntroCharacterPosition : CCSGO_TeamPreviewCharacterPosition, CBaseEntity, CEntityInstance, IEquatable<CEntityInstance>, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CCSGO_TeamPreviewCharacterPosition>, ISchemaClass<CCSGO_TeamIntroCharacterPosition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
 #### Implements
@@ -19,6 +19,7 @@ public interface CCSGO_TeamIntroCharacterPosition : CCSGO_TeamPreviewCharacterPo
 - [CCSGO_TeamPreviewCharacterPosition](/docs/api/schemadefinitions/ccsgo_teampreviewcharacterposition)
 - [CBaseEntity](/docs/api/schemadefinitions/cbaseentity)
 - [CEntityInstance](/docs/api/schemadefinitions/centityinstance)
+- [IEquatable\<CEntityInstance\>](https://learn.microsoft.com/dotnet/api/system.iequatable-1)
 - [ISchemaClass\<CEntityInstance\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CBaseEntity\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CCSGO_TeamPreviewCharacterPosition\>](/docs/api/schemas/ischemaclasst)

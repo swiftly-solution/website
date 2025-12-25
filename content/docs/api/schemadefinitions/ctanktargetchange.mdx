@@ -11,7 +11,7 @@ title: CTankTargetChange
 **Assembly**: SwiftlyS2.CS2.dll
 
 ```csharp
-public interface CTankTargetChange : CPointEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CPointEntity>, ISchemaClass<CTankTargetChange>, ISchemaField, ISchemaClass, INativeHandle
+public interface CTankTargetChange : CPointEntity, CBaseEntity, CEntityInstance, IEquatable<CEntityInstance>, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CPointEntity>, ISchemaClass<CTankTargetChange>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
 #### Implements
@@ -19,6 +19,7 @@ public interface CTankTargetChange : CPointEntity, CBaseEntity, CEntityInstance,
 - [CPointEntity](/docs/api/schemadefinitions/cpointentity)
 - [CBaseEntity](/docs/api/schemadefinitions/cbaseentity)
 - [CEntityInstance](/docs/api/schemadefinitions/centityinstance)
+- [IEquatable\<CEntityInstance\>](https://learn.microsoft.com/dotnet/api/system.iequatable-1)
 - [ISchemaClass\<CEntityInstance\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CBaseEntity\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CPointEntity\>](/docs/api/schemas/ischemaclasst)
@@ -31,19 +32,19 @@ public interface CTankTargetChange : CPointEntity, CBaseEntity, CEntityInstance,
 
 ### NewTarget
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTankTargetChange.cs#L19" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTankTargetChange.cs#L18" />
 
 ```csharp
-SchemaUntypedField NewTarget { get; }
+ref CVariant<CVariantDefaultAllocator> NewTarget { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="SchemaUntypedField" typeHref="/docs/api/schemas/schemauntypedfield" />
+- <ApiParam type="CVariant&lt;CVariantDefaultAllocator&gt;" typeHref="/docs/api/natives/cvariantt" />
 
 ### NewTargetName
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTankTargetChange.cs#L21" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTankTargetChange.cs#L20" />
 
 ```csharp
 string NewTargetName { get; set; }

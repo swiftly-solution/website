@@ -11,7 +11,7 @@ title: CInfoSpawnGroupLoadUnload
 **Assembly**: SwiftlyS2.CS2.dll
 
 ```csharp
-public interface CInfoSpawnGroupLoadUnload : CLogicalEntity, CServerOnlyEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CServerOnlyEntity>, ISchemaClass<CLogicalEntity>, ISchemaClass<CInfoSpawnGroupLoadUnload>, ISchemaField, ISchemaClass, INativeHandle
+public interface CInfoSpawnGroupLoadUnload : CLogicalEntity, CServerOnlyEntity, CBaseEntity, CEntityInstance, IEquatable<CEntityInstance>, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CServerOnlyEntity>, ISchemaClass<CLogicalEntity>, ISchemaClass<CInfoSpawnGroupLoadUnload>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
 #### Implements
@@ -20,6 +20,7 @@ public interface CInfoSpawnGroupLoadUnload : CLogicalEntity, CServerOnlyEntity, 
 - [CServerOnlyEntity](/docs/api/schemadefinitions/cserveronlyentity)
 - [CBaseEntity](/docs/api/schemadefinitions/cbaseentity)
 - [CEntityInstance](/docs/api/schemadefinitions/centityinstance)
+- [IEquatable\<CEntityInstance\>](https://learn.microsoft.com/dotnet/api/system.iequatable-1)
 - [ISchemaClass\<CEntityInstance\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CBaseEntity\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CServerOnlyEntity\>](/docs/api/schemas/ischemaclasst)
@@ -72,48 +73,48 @@ string LandmarkName { get; set; }
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoSpawnGroupLoadUnload.cs#L20" />
 
 ```csharp
-CEntityIOOutput OnSpawnGroupLoadFinished { get; }
+ref CEntityIOOutput OnSpawnGroupLoadFinished { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OnSpawnGroupLoadStarted
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoSpawnGroupLoadUnload.cs#L18" />
 
 ```csharp
-CEntityIOOutput OnSpawnGroupLoadStarted { get; }
+ref CEntityIOOutput OnSpawnGroupLoadStarted { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OnSpawnGroupUnloadFinished
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoSpawnGroupLoadUnload.cs#L24" />
 
 ```csharp
-CEntityIOOutput OnSpawnGroupUnloadFinished { get; }
+ref CEntityIOOutput OnSpawnGroupUnloadFinished { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OnSpawnGroupUnloadStarted
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoSpawnGroupLoadUnload.cs#L22" />
 
 ```csharp
-CEntityIOOutput OnSpawnGroupUnloadStarted { get; }
+ref CEntityIOOutput OnSpawnGroupUnloadStarted { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/schemadefinitions/centityiooutput" />
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### QueueActiveSpawnGroupChange
 
