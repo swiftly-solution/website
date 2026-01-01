@@ -64,6 +64,54 @@ The result will be null if the entity is invalid.
 var handle = Core.EntitySystem.GetRefEHandle(entity);
 ```
 
+## Entity Safety
+
+In practice, you are very likely to write such codes like this:
+```csharp
+List<CBaseEntity> entities = new();
+
+// Entity from various sources
+var entity = Core.EntitySystem.CreateEntity<CBaseEntity>();
+entities.Add(entity);
+
+// You delete it somewhere
+entity.Despawn();
+
+Core.Scheduler.DelayBySeconds(10f, () => {
+  foreach (var entity in entities) {
+    // Use deleted entity here
+  }
+});
+```
+
+Unfortunately, this is a **TERRIBLY BAD** practice, because you can't ensure the validity of entity and will get a crash if it's invalid.
+In fact, there's not way to safely know whether an entity object is valid or not without costing performance.
+The best practice is to use `CHandle<T>` as an container to wrap all entity that you want to keep track of for a long time.
+Example:
+
+```csharp
+List<CHandle<CBaseEntity>> entities = new();
+
+// Entity from various sources
+// At this point entity is ensured to be valid, so we can safely get its EntityHandle
+var entity = Core.EntitySystem.CreateEntity<CBaseEntity>();
+entities.Add(Core.EntitySystem.GetRefEHandle(entity));
+
+// The entity is deleted somewhere
+entity.Despawn();
+
+Core.Scheduler.DelayBySeconds(10f, () => {
+  foreach (var handle in entities) {
+    // Use deleted entity here
+    // This will throws an exception because the entity is invalid
+    var entity = handle.Value;
+
+    // And you can also check the validity of the handle.
+    var isValid = handle.IsValid;
+  }
+});
+```
+
 
 ## Entity system
 
