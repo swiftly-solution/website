@@ -24,7 +24,7 @@ public interface EventGgKilledEnemy : IGameEvent<EventGgKilledEnemy>
 
 ### AttackerID
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventGgKilledEnemy.cs#L30" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventGgKilledEnemy.cs#L68" />
 
 user ID who killed
 <br />
@@ -38,9 +38,53 @@ int AttackerID { get; set; }
 
 - <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
 
+### AttackerIDController
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventGgKilledEnemy.cs#L50" />
+
+user ID who killed
+<br />
+type: player_controller
+
+```csharp
+CCSPlayerController AttackerIDController { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CCSPlayerController" typeHref="/docs/api/schemadefinitions/ccsplayercontroller" />
+
+### AttackerIDPawn
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventGgKilledEnemy.cs#L57" />
+
+user ID who killed
+<br />
+type: player_controller
+
+```csharp
+CCSPlayerPawn AttackerIDPawn { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CCSPlayerPawn" typeHref="/docs/api/schemadefinitions/ccsplayerpawn" />
+
+### AttackerIDPlayer
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventGgKilledEnemy.cs#L60" />
+
+```csharp
+IPlayer? AttackerIDPlayer { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="IPlayer?" typeHref="/docs/api/players/iplayer" />
+
 ### Bonus
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventGgKilledEnemy.cs#L51" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventGgKilledEnemy.cs#L89" />
 
 did killer kill with a bonus weapon?
 <br />
@@ -56,7 +100,7 @@ bool Bonus { get; set; }
 
 ### Dominated
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventGgKilledEnemy.cs#L37" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventGgKilledEnemy.cs#L75" />
 
 did killer dominate victim with this kill
 <br />
@@ -72,7 +116,7 @@ short Dominated { get; set; }
 
 ### Revenge
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventGgKilledEnemy.cs#L44" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventGgKilledEnemy.cs#L82" />
 
 did killer get revenge on victim with this kill
 <br />
@@ -88,7 +132,7 @@ short Revenge { get; set; }
 
 ### VictimID
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventGgKilledEnemy.cs#L23" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventGgKilledEnemy.cs#L43" />
 
 user ID who died
 <br />
@@ -101,4 +145,48 @@ int VictimID { get; set; }
 <ApiLabel>Property Value</ApiLabel>
 
 - <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
+
+### VictimIDController
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventGgKilledEnemy.cs#L25" />
+
+user ID who died
+<br />
+type: player_controller
+
+```csharp
+CCSPlayerController VictimIDController { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CCSPlayerController" typeHref="/docs/api/schemadefinitions/ccsplayercontroller" />
+
+### VictimIDPawn
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventGgKilledEnemy.cs#L32" />
+
+user ID who died
+<br />
+type: player_controller
+
+```csharp
+CCSPlayerPawn VictimIDPawn { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CCSPlayerPawn" typeHref="/docs/api/schemadefinitions/ccsplayerpawn" />
+
+### VictimIDPlayer
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventGgKilledEnemy.cs#L35" />
+
+```csharp
+IPlayer? VictimIDPlayer { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="IPlayer?" typeHref="/docs/api/players/iplayer" />
 

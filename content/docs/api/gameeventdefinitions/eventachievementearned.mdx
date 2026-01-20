@@ -24,7 +24,7 @@ public interface EventAchievementEarned : IGameEvent<EventAchievementEarned>
 
 ### Achievement
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventAchievementEarned.cs#L30" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventAchievementEarned.cs#L50" />
 
 achievement ID
 <br />
@@ -40,7 +40,7 @@ short Achievement { get; set; }
 
 ### Player
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventAchievementEarned.cs#L23" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventAchievementEarned.cs#L43" />
 
 entindex of the player
 <br />
@@ -53,4 +53,48 @@ int Player { get; set; }
 <ApiLabel>Property Value</ApiLabel>
 
 - <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
+
+### PlayerController
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventAchievementEarned.cs#L25" />
+
+entindex of the player
+<br />
+type: player_controller
+
+```csharp
+CCSPlayerController PlayerController { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CCSPlayerController" typeHref="/docs/api/schemadefinitions/ccsplayercontroller" />
+
+### PlayerPawn
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventAchievementEarned.cs#L32" />
+
+entindex of the player
+<br />
+type: player_controller
+
+```csharp
+CCSPlayerPawn PlayerPawn { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CCSPlayerPawn" typeHref="/docs/api/schemadefinitions/ccsplayerpawn" />
+
+### PlayerPlayer
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventAchievementEarned.cs#L35" />
+
+```csharp
+IPlayer? PlayerPlayer { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="IPlayer?" typeHref="/docs/api/players/iplayer" />
 

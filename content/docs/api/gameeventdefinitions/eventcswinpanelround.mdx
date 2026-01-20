@@ -24,7 +24,7 @@ public interface EventCsWinPanelRound : IGameEvent<EventCsWinPanelRound>
 
 ### FinalEvent
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventCsWinPanelRound.cs#L38" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventCsWinPanelRound.cs#L40" />
 
 define in cs_gamerules.h
 <br />
@@ -40,7 +40,7 @@ byte FinalEvent { get; set; }
 
 ### FunfactData1
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventCsWinPanelRound.cs#L53" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventCsWinPanelRound.cs#L71" />
 
 type: long
 
@@ -54,7 +54,7 @@ int FunfactData1 { get; set; }
 
 ### FunfactData2
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventCsWinPanelRound.cs#L58" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventCsWinPanelRound.cs#L76" />
 
 type: long
 
@@ -68,7 +68,7 @@ int FunfactData2 { get; set; }
 
 ### FunfactData3
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventCsWinPanelRound.cs#L63" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventCsWinPanelRound.cs#L81" />
 
 type: long
 
@@ -82,8 +82,9 @@ int FunfactData3 { get; set; }
 
 ### FunfactPlayer
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventCsWinPanelRound.cs#L48" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventCsWinPanelRound.cs#L66" />
 
+<br />
 type: player_controller
 
 ```csharp
@@ -94,9 +95,51 @@ int FunfactPlayer { get; set; }
 
 - <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
 
+### FunfactPlayerController
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventCsWinPanelRound.cs#L51" />
+
+<br />
+type: player_controller
+
+```csharp
+CCSPlayerController FunfactPlayerController { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CCSPlayerController" typeHref="/docs/api/schemadefinitions/ccsplayercontroller" />
+
+### FunfactPlayerPawn
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventCsWinPanelRound.cs#L57" />
+
+<br />
+type: player_controller
+
+```csharp
+CCSPlayerPawn FunfactPlayerPawn { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CCSPlayerPawn" typeHref="/docs/api/schemadefinitions/ccsplayerpawn" />
+
+### FunfactPlayerPlayer
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventCsWinPanelRound.cs#L59" />
+
+```csharp
+IPlayer? FunfactPlayerPlayer { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="IPlayer?" typeHref="/docs/api/players/iplayer" />
+
 ### FunfactToken
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventCsWinPanelRound.cs#L43" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventCsWinPanelRound.cs#L45" />
 
 type: string
 
@@ -110,7 +153,7 @@ string FunfactToken { get; set; }
 
 ### ShowTimerAttack
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventCsWinPanelRound.cs#L26" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventCsWinPanelRound.cs#L28" />
 
 type: bool
 
@@ -124,7 +167,7 @@ bool ShowTimerAttack { get; set; }
 
 ### ShowTimerDefend
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventCsWinPanelRound.cs#L21" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventCsWinPanelRound.cs#L23" />
 
 type: bool
 
@@ -138,7 +181,7 @@ bool ShowTimerDefend { get; set; }
 
 ### TimerTime
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventCsWinPanelRound.cs#L31" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventCsWinPanelRound.cs#L33" />
 
 type: short
 

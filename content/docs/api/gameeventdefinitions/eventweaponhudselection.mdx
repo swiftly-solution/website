@@ -24,7 +24,7 @@ public interface EventWeaponhudSelection : IGameEvent<EventWeaponhudSelection>
 
 ### EntIndex
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventWeaponhudSelection.cs#L55" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventWeaponhudSelection.cs#L57" />
 
 Weapon entity index
 <br />
@@ -40,7 +40,7 @@ int EntIndex { get; set; }
 
 ### Mode
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventWeaponhudSelection.cs#L48" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventWeaponhudSelection.cs#L50" />
 
 EWeaponHudSelectionMode (switch / pickup / drop)
 <br />
@@ -56,7 +56,7 @@ byte Mode { get; set; }
 
 ### UserId
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventWeaponhudSelection.cs#L41" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventWeaponhudSelection.cs#L43" />
 
 Player who this event applies to
 <br />
@@ -72,7 +72,7 @@ int UserId { get; set; }
 
 ### UserIdController
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventWeaponhudSelection.cs#L23" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventWeaponhudSelection.cs#L25" />
 
 Player who this event applies to
 <br />
@@ -88,7 +88,7 @@ CCSPlayerController UserIdController { get; }
 
 ### UserIdPawn
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventWeaponhudSelection.cs#L30" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventWeaponhudSelection.cs#L32" />
 
 Player who this event applies to
 <br />
@@ -104,13 +104,13 @@ CCSPlayerPawn UserIdPawn { get; }
 
 ### UserIdPlayer
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventWeaponhudSelection.cs#L34" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventWeaponhudSelection.cs#L35" />
 
 ```csharp
-IPlayer UserIdPlayer { get; }
+IPlayer? UserIdPlayer { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="IPlayer" typeHref="/docs/api/players/iplayer" />
+- <ApiParam type="IPlayer?" typeHref="/docs/api/players/iplayer" />
 

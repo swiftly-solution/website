@@ -25,7 +25,7 @@ public interface EventPlayerInfo : IGameEvent<EventPlayerInfo>
 
 ### Bot
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerInfo.cs#L63" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerInfo.cs#L65" />
 
 true if player is a AI bot
 <br />
@@ -41,7 +41,7 @@ bool Bot { get; set; }
 
 ### Name
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerInfo.cs#L24" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerInfo.cs#L26" />
 
 player name
 <br />
@@ -57,7 +57,7 @@ string Name { get; set; }
 
 ### SteamID
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerInfo.cs#L56" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerInfo.cs#L58" />
 
 player network (i.e steam) id
 <br />
@@ -73,7 +73,7 @@ ulong SteamID { get; set; }
 
 ### UserId
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerInfo.cs#L49" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerInfo.cs#L51" />
 
 user ID on server (unique on server)
 <br />
@@ -89,7 +89,7 @@ int UserId { get; set; }
 
 ### UserIdController
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerInfo.cs#L31" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerInfo.cs#L33" />
 
 user ID on server (unique on server)
 <br />
@@ -105,7 +105,7 @@ CCSPlayerController UserIdController { get; }
 
 ### UserIdPawn
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerInfo.cs#L38" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerInfo.cs#L40" />
 
 user ID on server (unique on server)
 <br />
@@ -121,13 +121,13 @@ CCSPlayerPawn UserIdPawn { get; }
 
 ### UserIdPlayer
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerInfo.cs#L42" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerInfo.cs#L43" />
 
 ```csharp
-IPlayer UserIdPlayer { get; }
+IPlayer? UserIdPlayer { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="IPlayer" typeHref="/docs/api/players/iplayer" />
+- <ApiParam type="IPlayer?" typeHref="/docs/api/players/iplayer" />
 

@@ -24,8 +24,9 @@ public interface EventBotTakeover : IGameEvent<EventBotTakeover>
 
 ### BotID
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBotTakeover.cs#L42" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBotTakeover.cs#L60" />
 
+<br />
 type: player_controller
 
 ```csharp
@@ -36,9 +37,51 @@ int BotID { get; set; }
 
 - <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
 
+### BotIDController
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBotTakeover.cs#L45" />
+
+<br />
+type: player_controller
+
+```csharp
+CCSPlayerController BotIDController { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CCSPlayerController" typeHref="/docs/api/schemadefinitions/ccsplayercontroller" />
+
+### BotIDPawn
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBotTakeover.cs#L51" />
+
+<br />
+type: player_controller
+
+```csharp
+CCSPlayerPawn BotIDPawn { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CCSPlayerPawn" typeHref="/docs/api/schemadefinitions/ccsplayerpawn" />
+
+### BotIDPlayer
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBotTakeover.cs#L53" />
+
+```csharp
+IPlayer? BotIDPlayer { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="IPlayer?" typeHref="/docs/api/players/iplayer" />
+
 ### P
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBotTakeover.cs#L47" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBotTakeover.cs#L65" />
 
 type: float
 
@@ -52,7 +95,7 @@ float P { get; set; }
 
 ### R
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBotTakeover.cs#L57" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBotTakeover.cs#L75" />
 
 type: float
 
@@ -66,7 +109,7 @@ float R { get; set; }
 
 ### UserId
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBotTakeover.cs#L37" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBotTakeover.cs#L39" />
 
 <br />
 type: player_controller_and_pawn
@@ -81,7 +124,7 @@ int UserId { get; set; }
 
 ### UserIdController
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBotTakeover.cs#L22" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBotTakeover.cs#L24" />
 
 <br />
 type: player_controller_and_pawn
@@ -96,7 +139,7 @@ CCSPlayerController UserIdController { get; }
 
 ### UserIdPawn
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBotTakeover.cs#L28" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBotTakeover.cs#L30" />
 
 <br />
 type: player_controller_and_pawn
@@ -111,19 +154,19 @@ CCSPlayerPawn UserIdPawn { get; }
 
 ### UserIdPlayer
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBotTakeover.cs#L31" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBotTakeover.cs#L32" />
 
 ```csharp
-IPlayer UserIdPlayer { get; }
+IPlayer? UserIdPlayer { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="IPlayer" typeHref="/docs/api/players/iplayer" />
+- <ApiParam type="IPlayer?" typeHref="/docs/api/players/iplayer" />
 
 ### Y
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBotTakeover.cs#L52" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBotTakeover.cs#L70" />
 
 type: float
 

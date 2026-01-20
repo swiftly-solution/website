@@ -36,7 +36,7 @@ uint ConnectedTime { get; }
 
 ### Controller
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L224" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L229" />
 
 Gets the player controller associated with the player.
 
@@ -50,7 +50,7 @@ CCSPlayerController Controller { get; }
 
 ### IPAddress
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L262" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L267" />
 
 Gets the IP address associated with the player.
 
@@ -61,6 +61,20 @@ string IPAddress { get; }
 <ApiLabel>Property Value</ApiLabel>
 
 - <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
+
+### IsAlive
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L224" />
+
+Gets a value indicating whether the player is currently alive.
+
+```csharp
+bool IsAlive { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
 
 ### IsAuthorized
 
@@ -92,7 +106,7 @@ bool IsFakeClient { get; }
 
 ### IsFirstSpawn
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L277" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L282" />
 
 Indicates whether this is the player's first spawn.
 
@@ -106,7 +120,7 @@ bool IsFirstSpawn { get; }
 
 ### IsValid
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L282" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L287" />
 
 Checks if the player is valid (has controller, is not HLTV, is connected and has pawn).
 
@@ -120,7 +134,7 @@ bool IsValid { get; }
 
 ### Pawn
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L235" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L240" />
 
 Gets the pawn associated with the player.
 
@@ -148,7 +162,7 @@ int PlayerID { get; }
 
 ### PlayerLanguage
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L272" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L277" />
 
 Gets the language for the player.
 
@@ -162,7 +176,7 @@ Language PlayerLanguage { get; }
 
 ### PlayerPawn
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L246" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L251" />
 
 Gets the player pawn associated with the player.
 
@@ -176,7 +190,7 @@ CCSPlayerPawn? PlayerPawn { get; }
 
 ### PressedButtons
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L257" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L262" />
 
 Gets the set of game buttons that are currently pressed.
 
@@ -190,7 +204,7 @@ GameButtonFlags PressedButtons { get; }
 
 ### RequiredController
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L230" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L235" />
 
 Gets the player controller associated with the player. Requires the controller to be valid.
 [Thrown when the controller is not valid.](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
@@ -205,7 +219,7 @@ CCSPlayerController RequiredController { get; }
 
 ### RequiredPawn
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L241" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L246" />
 
 Gets the pawn associated with the player. Requires the pawn to be valid.
 [Thrown when the pawn is not valid.](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
@@ -220,7 +234,7 @@ CBasePlayerPawn RequiredPawn { get; }
 
 ### RequiredPlayerPawn
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L252" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L257" />
 
 Gets the player pawn associated with the player. Requires the player pawn to be valid.
 [Thrown when the player pawn is not valid.](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
@@ -291,7 +305,7 @@ int UserID { get; }
 
 ### VoiceFlags
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L267" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L272" />
 
 Gets or sets the set of flags that specify voice options or features to be applied.
 
@@ -307,9 +321,10 @@ VoiceFlagValue VoiceFlags { get; set; }
 
 ### ChangeTeam(Team)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L429" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L443" />
 
 Changes the player's team.
+This will also kill the player.
 
 Thread unsafe, use async variant instead for non-main thread context.
 
@@ -324,9 +339,10 @@ void ChangeTeam(Team team)
 
 ### ChangeTeamAsync(Team)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L436" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L451" />
 
 Changes the player's team asynchronously.
+This will also kill the player.
 
 ```csharp
 Task ChangeTeamAsync(Team team)
@@ -342,7 +358,7 @@ Task ChangeTeamAsync(Team team)
 
 ### ClearTransmitEntityBlocks()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L321" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L326" />
 
 Removes all entity blocks from the transmit buffer, discarding any pending data scheduled for transmission.
 
@@ -352,7 +368,7 @@ void ClearTransmitEntityBlocks()
 
 ### ExecuteCommand(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L448" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L463" />
 
 Executes a command on behalf of the player.
 
@@ -369,7 +385,7 @@ void ExecuteCommand(string command)
 
 ### ExecuteCommandAsync(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L455" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L470" />
 
 Executes a command on behalf of the player asynchronously.
 
@@ -387,7 +403,7 @@ Task ExecuteCommandAsync(string command)
 
 ### GetListenOverride(int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L335" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L340" />
 
 Retrieves the listen override settings for the specified player.
 
@@ -405,7 +421,7 @@ ListenOverride GetListenOverride(int player)
 
 ### IsTransmitEntityBlocked(int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L316" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L321" />
 
 Determines whether the specified entity is currently blocked from transmitting data.
 
@@ -423,7 +439,7 @@ bool IsTransmitEntityBlocked(int entityid)
 
 ### Kick(string, ENetworkDisconnectionReason)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L292" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L297" />
 
 Disconnects the user from the network session, providing a specified reason and disconnection type.
 
@@ -442,7 +458,7 @@ void Kick(string reason, ENetworkDisconnectionReason gameReason)
 
 ### KickAsync(string, ENetworkDisconnectionReason)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L301" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L306" />
 
 Disconnects the user from the network session, providing a specified reason and disconnection type asynchronously.
 
@@ -462,7 +478,7 @@ Task KickAsync(string reason, ENetworkDisconnectionReason gameReason)
 
 ### Respawn()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L441" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L456" />
 
 Respawns the player.
 
@@ -795,7 +811,7 @@ Task SendNotifyAsync(string message)
 
 ### SetListenOverride(int, ListenOverride)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L328" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L333" />
 
 Sets a custom listen override for the specified player.
 
@@ -810,7 +826,7 @@ void SetListenOverride(int player, ListenOverride listenOverride)
 
 ### ShouldBlockTransmitEntity(int, bool)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L309" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L314" />
 
 Sets whether transmission of the specified entity should be blocked.
 
@@ -826,7 +842,7 @@ void ShouldBlockTransmitEntity(int entityid, bool shouldBlockTransmit)
 
 ### SwitchTeam(Team)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L414" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L427" />
 
 Switches the player's team.
 
@@ -843,7 +859,7 @@ void SwitchTeam(Team team)
 
 ### SwitchTeamAsync(Team)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L421" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L434" />
 
 Switches the player's team asynchronously.
 
@@ -861,7 +877,7 @@ Task SwitchTeamAsync(Team team)
 
 ### TakeDamage(CTakeDamageInfo)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L344" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L349" />
 
 Applies damage to the entity based on the specified damage information.
 
@@ -879,7 +895,7 @@ void TakeDamage(CTakeDamageInfo damageInfo)
 
 ### TakeDamage(float, DamageTypes_t, CBaseEntity?, CBaseEntity?, CBaseEntity?)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L361" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L369" />
 
 Applies damage to the entity based on the specified damage information.
 
@@ -894,13 +910,13 @@ void TakeDamage(float damage, DamageTypes_t damageType, CBaseEntity? inflictor =
 
 - <ApiParam name="damage" type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" /> — The amount of damage to apply.
 - <ApiParam name="damageType" type="DamageTypes_t" typeHref="/docs/api/schemadefinitions/damagetypes_t" /> — The type of damage to apply.
-- <ApiParam name="inflictor" type="CBaseEntity?" typeHref="/docs/api/schemadefinitions/cbaseentity" />
-- <ApiParam name="attacker" type="CBaseEntity?" typeHref="/docs/api/schemadefinitions/cbaseentity" />
-- <ApiParam name="ability" type="CBaseEntity?" typeHref="/docs/api/schemadefinitions/cbaseentity" />
+- <ApiParam name="inflictor" type="CBaseEntity?" typeHref="/docs/api/schemadefinitions/cbaseentity" /> — The entity that is inflicting the damage. Can be null.
+- <ApiParam name="attacker" type="CBaseEntity?" typeHref="/docs/api/schemadefinitions/cbaseentity" /> — The entity that is attacking. Can be null.
+- <ApiParam name="ability" type="CBaseEntity?" typeHref="/docs/api/schemadefinitions/cbaseentity" /> — The ability that caused the damage. Can be null.
 
 ### TakeDamageAsync(CTakeDamageInfo)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L352" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L357" />
 
 Applies damage to the entity based on the specified damage information asynchronously.
 
@@ -919,7 +935,7 @@ Task TakeDamageAsync(CTakeDamageInfo damageInfo)
 
 ### TakeDamageAsync(float, DamageTypes_t, CBaseEntity?, CBaseEntity?, CBaseEntity?)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L369" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L380" />
 
 Applies damage to the entity based on the specified damage information asynchronously.
 
@@ -931,9 +947,9 @@ Task TakeDamageAsync(float damage, DamageTypes_t damageType, CBaseEntity? inflic
 
 - <ApiParam name="damage" type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" /> — The amount of damage to apply.
 - <ApiParam name="damageType" type="DamageTypes_t" typeHref="/docs/api/schemadefinitions/damagetypes_t" /> — The type of damage to apply.
-- <ApiParam name="inflictor" type="CBaseEntity?" typeHref="/docs/api/schemadefinitions/cbaseentity" />
-- <ApiParam name="attacker" type="CBaseEntity?" typeHref="/docs/api/schemadefinitions/cbaseentity" />
-- <ApiParam name="ability" type="CBaseEntity?" typeHref="/docs/api/schemadefinitions/cbaseentity" />
+- <ApiParam name="inflictor" type="CBaseEntity?" typeHref="/docs/api/schemadefinitions/cbaseentity" /> — The entity that is inflicting the damage. Can be null.
+- <ApiParam name="attacker" type="CBaseEntity?" typeHref="/docs/api/schemadefinitions/cbaseentity" /> — The entity that is attacking. Can be null.
+- <ApiParam name="ability" type="CBaseEntity?" typeHref="/docs/api/schemadefinitions/cbaseentity" /> — The ability that caused the damage. Can be null.
 
 <ApiLabel>Returns</ApiLabel>
 
@@ -941,7 +957,11 @@ Task TakeDamageAsync(float damage, DamageTypes_t damageType, CBaseEntity? inflic
 
 ### Teleport(Vector, QAngle, Vector)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L378" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L390" />
+
+Teleports the entity to the specified position, orientation, and velocity.
+
+Thread unsafe, use async variant instead for non-main thread context.
 
 ```csharp
 [ThreadUnsafe]
@@ -950,13 +970,17 @@ void Teleport(Vector pos, QAngle angle, Vector velocity)
 
 <ApiLabel>Parameters</ApiLabel>
 
-- <ApiParam name="pos" type="Vector" typeHref="/docs/api/natives/vector" />
-- <ApiParam name="angle" type="QAngle" typeHref="/docs/api/natives/qangle" />
-- <ApiParam name="velocity" type="Vector" typeHref="/docs/api/natives/vector" />
+- <ApiParam name="pos" type="Vector" typeHref="/docs/api/natives/vector" /> — The target position to teleport the entity to, represented as a SwiftlyS2.Shared.Natives.Vector.
+- <ApiParam name="angle" type="QAngle" typeHref="/docs/api/natives/qangle" /> — The orientation to apply to the entity after teleportation, represented as a SwiftlyS2.Shared.Natives.QAngle.
+- <ApiParam name="velocity" type="Vector" typeHref="/docs/api/natives/vector" /> — The velocity to assign to the entity upon arrival, represented as a SwiftlyS2.Shared.Natives.Vector.
 
 ### Teleport(Vector?, QAngle?, Vector?)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L388" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L401" />
+
+Teleports the entity to the specified position, orientation, and velocity.
+
+Thread unsafe, use async variant instead for non-main thread context.
 
 ```csharp
 [ThreadUnsafe]
@@ -965,13 +989,13 @@ void Teleport(Vector? pos = null, QAngle? angle = null, Vector? velocity = null)
 
 <ApiLabel>Parameters</ApiLabel>
 
-- <ApiParam name="pos" type="Vector?" typeHref="/docs/api/natives/vector" />
-- <ApiParam name="angle" type="QAngle?" typeHref="/docs/api/natives/qangle" />
-- <ApiParam name="velocity" type="Vector?" typeHref="/docs/api/natives/vector" />
+- <ApiParam name="pos" type="Vector?" typeHref="/docs/api/natives/vector" /> — The target position to teleport the entity to, represented as a SwiftlyS2.Shared.Natives.Vector.
+- <ApiParam name="angle" type="QAngle?" typeHref="/docs/api/natives/qangle" /> — The orientation to apply to the entity after teleportation, represented as a SwiftlyS2.Shared.Natives.QAngle.
+- <ApiParam name="velocity" type="Vector?" typeHref="/docs/api/natives/vector" /> — The velocity to assign to the entity upon arrival, represented as a SwiftlyS2.Shared.Natives.Vector.
 
 ### TeleportAsync(Vector, QAngle, Vector)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L397" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L410" />
 
 Teleports the entity to the specified position, orientation, and velocity asynchronously.
 
@@ -991,7 +1015,7 @@ Task TeleportAsync(Vector pos, QAngle angle, Vector velocity)
 
 ### TeleportAsync(Vector?, QAngle?, Vector?)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L406" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L419" />
 
 Teleports the entity to the specified position, orientation, and velocity asynchronously.
 

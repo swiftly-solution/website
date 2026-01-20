@@ -58,7 +58,7 @@ void ClearAllBlockedTransmitEntities()
 
 ### FindTargettedPlayers(IPlayer, string, TargetSearchMode, StringComparison)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L305" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L311" />
 
 Finds targetted players based on the provided search criteria.
 
@@ -79,7 +79,7 @@ IEnumerable<IPlayer> FindTargettedPlayers(IPlayer player, string target, TargetS
 
 ### GetAlive()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L258" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L264" />
 
 Retrieves all alive players currently online.
 
@@ -105,9 +105,23 @@ IEnumerable<IPlayer> GetAllPlayers()
 
 - <ApiParam type="IEnumerable&lt;IPlayer&gt;" typeHref="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1" /> — An enumerable collection of SwiftlyS2.Shared.Players.IPlayer instances representing all online players.
 
-### GetBots()
+### GetAllValidPlayers()
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L252" />
+
+Retrieves all valid players currently online.
+
+```csharp
+IEnumerable<IPlayer> GetAllValidPlayers()
+```
+
+<ApiLabel>Returns</ApiLabel>
+
+- <ApiParam type="IEnumerable&lt;IPlayer&gt;" typeHref="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1" /> — An enumerable collection of SwiftlyS2.Shared.Players.IPlayer instances representing all online players.
+
+### GetBots()
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L258" />
 
 Retrieves all bot players currently online.
 
@@ -121,7 +135,7 @@ IEnumerable<IPlayer> GetBots()
 
 ### GetCT()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L264" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L270" />
 
 Retrieves all CT players currently online.
 
@@ -135,7 +149,7 @@ IEnumerable<IPlayer> GetCT()
 
 ### GetCTAlive()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L295" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L301" />
 
 Retrieves all alive CT players currently online.
 
@@ -149,7 +163,7 @@ IEnumerable<IPlayer> GetCTAlive()
 
 ### GetInTeam(Team)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L283" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L289" />
 
 Retrieves all players in the specified team.
 
@@ -224,7 +238,7 @@ IPlayer? GetPlayerFromPawn(CBasePlayerPawn pawn)
 
 ### GetSpectators()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L276" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L282" />
 
 Retrieves all spectator players currently online.
 
@@ -238,7 +252,7 @@ IEnumerable<IPlayer> GetSpectators()
 
 ### GetT()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L270" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L276" />
 
 Retrieves all T players currently online.
 
@@ -252,7 +266,7 @@ IEnumerable<IPlayer> GetT()
 
 ### GetTAlive()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L289" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L295" />
 
 Retrieves all alive T players currently online.
 

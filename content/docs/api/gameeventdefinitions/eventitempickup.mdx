@@ -24,7 +24,7 @@ public interface EventItemPickup : IGameEvent<EventItemPickup>
 
 ### DefIndex
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemPickup.cs#L54" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemPickup.cs#L56" />
 
 type: long
 
@@ -38,7 +38,7 @@ int DefIndex { get; set; }
 
 ### Item
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemPickup.cs#L44" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemPickup.cs#L46" />
 
 either a weapon such as 'tmp' or 'hegrenade', or an item such as 'nvgs'
 <br />
@@ -54,7 +54,7 @@ string Item { get; set; }
 
 ### Silent
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemPickup.cs#L49" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemPickup.cs#L51" />
 
 type: bool
 
@@ -68,7 +68,7 @@ bool Silent { get; set; }
 
 ### UserId
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemPickup.cs#L37" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemPickup.cs#L39" />
 
 <br />
 type: player_controller
@@ -83,7 +83,7 @@ int UserId { get; set; }
 
 ### UserIdController
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemPickup.cs#L22" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemPickup.cs#L24" />
 
 <br />
 type: player_controller
@@ -98,7 +98,7 @@ CCSPlayerController UserIdController { get; }
 
 ### UserIdPawn
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemPickup.cs#L28" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemPickup.cs#L30" />
 
 <br />
 type: player_controller
@@ -113,13 +113,13 @@ CCSPlayerPawn UserIdPawn { get; }
 
 ### UserIdPlayer
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemPickup.cs#L31" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemPickup.cs#L32" />
 
 ```csharp
-IPlayer UserIdPlayer { get; }
+IPlayer? UserIdPlayer { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="IPlayer" typeHref="/docs/api/players/iplayer" />
+- <ApiParam type="IPlayer?" typeHref="/docs/api/players/iplayer" />
 

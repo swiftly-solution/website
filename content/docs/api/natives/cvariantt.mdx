@@ -11,12 +11,16 @@ title: CVariant
 **Assembly**: SwiftlyS2.CS2.dll
 
 ```csharp
-public struct CVariant<TAllocator> where TAllocator : IVariantAllocator
+public struct CVariant<TAllocator> : IDisposable where TAllocator : IVariantAllocator
 ```
 
 <ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="TAllocator" />
+
+#### Implements
+
+- [IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable)
 
 #### Inherited Members
 
@@ -31,7 +35,7 @@ public struct CVariant<TAllocator> where TAllocator : IVariantAllocator
 
 ### CVariant()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L148" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L149" />
 
 ```csharp
 public CVariant()
@@ -39,7 +43,7 @@ public CVariant()
 
 ### CVariant(object?)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L154" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L155" />
 
 ```csharp
 public CVariant(object? value)
@@ -53,7 +57,7 @@ public CVariant(object? value)
 
 ### DataType
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L142" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L143" />
 
 ```csharp
 public VariantFieldType DataType
@@ -65,7 +69,7 @@ public VariantFieldType DataType
 
 ### Flags
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L144" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L145" />
 
 ```csharp
 public CVFlags Flags
@@ -77,9 +81,27 @@ public CVFlags Flags
 
 ## Methods
 
+### Dispose()
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L666" />
+
+Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+
+```csharp
+public void Dispose()
+```
+
+### Free()
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L590" />
+
+```csharp
+public void Free()
+```
+
 ### IsVoid()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L159" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L160" />
 
 ```csharp
 public readonly bool IsVoid()
@@ -91,7 +113,7 @@ public readonly bool IsVoid()
 
 ### Set\<T\>(T)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L296" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L297" />
 
 ```csharp
 public void Set<T>(T value)
@@ -107,7 +129,7 @@ public void Set<T>(T value)
 
 ### SetBool(bool)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L164" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L165" />
 
 ```csharp
 public void SetBool(bool value)
@@ -119,7 +141,7 @@ public void SetBool(bool value)
 
 ### SetChar(char)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L170" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L171" />
 
 ```csharp
 public void SetChar(char value)
@@ -131,7 +153,7 @@ public void SetChar(char value)
 
 ### SetColor(Color)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L289" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L290" />
 
 ```csharp
 public void SetColor(Color value)
@@ -143,7 +165,7 @@ public void SetColor(Color value)
 
 ### SetDouble(double)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L218" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L219" />
 
 ```csharp
 public void SetDouble(double value)
@@ -155,7 +177,7 @@ public void SetDouble(double value)
 
 ### SetFloat(float)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L212" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L213" />
 
 ```csharp
 public void SetFloat(float value)
@@ -167,7 +189,7 @@ public void SetFloat(float value)
 
 ### SetHScript(HSCRIPT)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L236" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L237" />
 
 ```csharp
 public void SetHScript(HSCRIPT value)
@@ -179,7 +201,7 @@ public void SetHScript(HSCRIPT value)
 
 ### SetHandle(ICHandle)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L242" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L243" />
 
 ```csharp
 public void SetHandle(ICHandle value)
@@ -191,7 +213,7 @@ public void SetHandle(ICHandle value)
 
 ### SetInt(int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L188" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L189" />
 
 ```csharp
 public void SetInt(int value)
@@ -203,7 +225,7 @@ public void SetInt(int value)
 
 ### SetLong(long)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L200" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L201" />
 
 ```csharp
 public void SetLong(long value)
@@ -215,7 +237,7 @@ public void SetLong(long value)
 
 ### SetQAngle(QAngle)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L277" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L278" />
 
 ```csharp
 public void SetQAngle(QAngle value)
@@ -227,7 +249,7 @@ public void SetQAngle(QAngle value)
 
 ### SetQuaternion(Quaternion)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L283" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L284" />
 
 ```csharp
 public void SetQuaternion(Quaternion value)
@@ -239,7 +261,7 @@ public void SetQuaternion(Quaternion value)
 
 ### SetResourceHandle(ResourceHandle)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L224" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L225" />
 
 ```csharp
 public void SetResourceHandle(ResourceHandle value)
@@ -251,7 +273,7 @@ public void SetResourceHandle(ResourceHandle value)
 
 ### SetShort(short)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L176" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L177" />
 
 ```csharp
 public void SetShort(short value)
@@ -263,7 +285,7 @@ public void SetShort(short value)
 
 ### SetString(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L248" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L249" />
 
 ```csharp
 public void SetString(string value)
@@ -275,7 +297,7 @@ public void SetString(string value)
 
 ### SetUInt(uint)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L194" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L195" />
 
 ```csharp
 public void SetUInt(uint value)
@@ -287,7 +309,7 @@ public void SetUInt(uint value)
 
 ### SetULong(ulong)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L206" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L207" />
 
 ```csharp
 public void SetULong(ulong value)
@@ -299,7 +321,7 @@ public void SetULong(ulong value)
 
 ### SetUShort(ushort)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L182" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L183" />
 
 ```csharp
 public void SetUShort(ushort value)
@@ -311,7 +333,7 @@ public void SetUShort(ushort value)
 
 ### SetUtlStringToken(CUtlStringToken)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L230" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L231" />
 
 ```csharp
 public void SetUtlStringToken(CUtlStringToken value)
@@ -323,7 +345,7 @@ public void SetUtlStringToken(CUtlStringToken value)
 
 ### SetVector(Vector)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L265" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L266" />
 
 ```csharp
 public void SetVector(Vector value)
@@ -335,7 +357,7 @@ public void SetVector(Vector value)
 
 ### SetVector2D(Vector2D)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L259" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L260" />
 
 ```csharp
 public void SetVector2D(Vector2D value)
@@ -347,7 +369,7 @@ public void SetVector2D(Vector2D value)
 
 ### SetVector4D(Vector4D)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L271" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L272" />
 
 ```csharp
 public void SetVector4D(Vector4D value)
@@ -359,7 +381,7 @@ public void SetVector4D(Vector4D value)
 
 ### ToString()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L500" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L501" />
 
 Returns the fully qualified type name of this instance.
 
@@ -373,7 +395,7 @@ public override string? ToString()
 
 ### TryGetBool(out bool)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L391" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L392" />
 
 ```csharp
 public bool TryGetBool(out bool value)
@@ -389,7 +411,7 @@ public bool TryGetBool(out bool value)
 
 ### TryGetCHandle\<T\>(out CHandle\<T\>)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L443" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L444" />
 
 ```csharp
 public bool TryGetCHandle<T>(out CHandle<T> value) where T : class, ISchemaClass<T>
@@ -409,7 +431,7 @@ public bool TryGetCHandle<T>(out CHandle<T> value) where T : class, ISchemaClass
 
 ### TryGetChar(out char)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L395" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L396" />
 
 ```csharp
 public bool TryGetChar(out char value)
@@ -425,7 +447,7 @@ public bool TryGetChar(out char value)
 
 ### TryGetColor(out Color)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L482" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L483" />
 
 ```csharp
 public bool TryGetColor(out Color value)
@@ -441,7 +463,7 @@ public bool TryGetColor(out Color value)
 
 ### TryGetDouble(out double)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L427" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L428" />
 
 ```csharp
 public bool TryGetDouble(out double value)
@@ -457,7 +479,7 @@ public bool TryGetDouble(out double value)
 
 ### TryGetFloat(out float)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L423" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L424" />
 
 ```csharp
 public bool TryGetFloat(out float value)
@@ -473,7 +495,7 @@ public bool TryGetFloat(out float value)
 
 ### TryGetHScript(out HSCRIPT)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L439" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L440" />
 
 ```csharp
 public bool TryGetHScript(out HSCRIPT value)
@@ -489,7 +511,7 @@ public bool TryGetHScript(out HSCRIPT value)
 
 ### TryGetInt16(out short)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L399" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L400" />
 
 ```csharp
 public bool TryGetInt16(out short value)
@@ -505,7 +527,7 @@ public bool TryGetInt16(out short value)
 
 ### TryGetInt32(out int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L407" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L408" />
 
 ```csharp
 public bool TryGetInt32(out int value)
@@ -521,7 +543,7 @@ public bool TryGetInt32(out int value)
 
 ### TryGetInt64(out long)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L415" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L416" />
 
 ```csharp
 public bool TryGetInt64(out long value)
@@ -537,7 +559,7 @@ public bool TryGetInt64(out long value)
 
 ### TryGetQAngle(out QAngle)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L474" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L475" />
 
 ```csharp
 public bool TryGetQAngle(out QAngle value)
@@ -553,7 +575,7 @@ public bool TryGetQAngle(out QAngle value)
 
 ### TryGetQuaternion(out Quaternion)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L478" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L479" />
 
 ```csharp
 public bool TryGetQuaternion(out Quaternion value)
@@ -569,7 +591,7 @@ public bool TryGetQuaternion(out Quaternion value)
 
 ### TryGetResourceHandle(out ResourceHandle)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L431" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L432" />
 
 ```csharp
 public bool TryGetResourceHandle(out ResourceHandle value)
@@ -585,7 +607,7 @@ public bool TryGetResourceHandle(out ResourceHandle value)
 
 ### TryGetString(out string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L486" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L487" />
 
 ```csharp
 public bool TryGetString(out string value)
@@ -601,7 +623,7 @@ public bool TryGetString(out string value)
 
 ### TryGetUInt16(out ushort)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L403" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L404" />
 
 ```csharp
 public bool TryGetUInt16(out ushort value)
@@ -617,7 +639,7 @@ public bool TryGetUInt16(out ushort value)
 
 ### TryGetUInt32(out uint)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L411" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L412" />
 
 ```csharp
 public bool TryGetUInt32(out uint value)
@@ -633,7 +655,7 @@ public bool TryGetUInt32(out uint value)
 
 ### TryGetUInt64(out ulong)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L419" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L420" />
 
 ```csharp
 public bool TryGetUInt64(out ulong value)
@@ -649,7 +671,7 @@ public bool TryGetUInt64(out ulong value)
 
 ### TryGetUtlStringToken(out CUtlStringToken)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L435" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L436" />
 
 ```csharp
 public bool TryGetUtlStringToken(out CUtlStringToken value)
@@ -665,7 +687,7 @@ public bool TryGetUtlStringToken(out CUtlStringToken value)
 
 ### TryGetVector(out Vector)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L466" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L467" />
 
 ```csharp
 public bool TryGetVector(out Vector value)
@@ -681,7 +703,7 @@ public bool TryGetVector(out Vector value)
 
 ### TryGetVector2D(out Vector2D)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L462" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L463" />
 
 ```csharp
 public bool TryGetVector2D(out Vector2D value)
@@ -697,7 +719,7 @@ public bool TryGetVector2D(out Vector2D value)
 
 ### TryGetVector4D(out Vector4D)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L470" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CVariant.cs#L471" />
 
 ```csharp
 public bool TryGetVector4D(out Vector4D value)

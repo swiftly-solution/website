@@ -24,7 +24,7 @@ public interface EventBulletDamage : IGameEvent<EventBulletDamage>
 
 ### AimPunchX
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L107" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L145" />
 
 aim punch x
 <br />
@@ -40,7 +40,7 @@ float AimPunchX { get; set; }
 
 ### AimPunchY
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L114" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L152" />
 
 aim punch y
 <br />
@@ -56,7 +56,7 @@ float AimPunchY { get; set; }
 
 ### AimPunchZ
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L121" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L159" />
 
 aim punch z
 <br />
@@ -72,7 +72,7 @@ float AimPunchZ { get; set; }
 
 ### AttackTickCount
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L128" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L166" />
 
 attack tick
 <br />
@@ -88,7 +88,7 @@ int AttackTickCount { get; set; }
 
 ### AttackTickFrac
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L135" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L173" />
 
 attack frac
 <br />
@@ -104,7 +104,7 @@ float AttackTickFrac { get; set; }
 
 ### Attacker
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L30" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L68" />
 
 player index who attacked
 <br />
@@ -118,9 +118,53 @@ int Attacker { get; set; }
 
 - <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
 
+### AttackerController
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L50" />
+
+player index who attacked
+<br />
+type: player_controller_and_pawn
+
+```csharp
+CCSPlayerController AttackerController { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CCSPlayerController" typeHref="/docs/api/schemadefinitions/ccsplayercontroller" />
+
+### AttackerPawn
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L57" />
+
+player index who attacked
+<br />
+type: player_controller_and_pawn
+
+```csharp
+CCSPlayerPawn AttackerPawn { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CCSPlayerPawn" typeHref="/docs/api/schemadefinitions/ccsplayerpawn" />
+
+### AttackerPlayer
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L60" />
+
+```csharp
+IPlayer? AttackerPlayer { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="IPlayer?" typeHref="/docs/api/players/iplayer" />
+
 ### DamageDirX
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L44" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L82" />
 
 direction vector of the bullet
 <br />
@@ -136,7 +180,7 @@ float DamageDirX { get; set; }
 
 ### DamageDirY
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L51" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L89" />
 
 direction vector of the bullet
 <br />
@@ -152,7 +196,7 @@ float DamageDirY { get; set; }
 
 ### DamageDirZ
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L58" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L96" />
 
 direction vector of the bullet
 <br />
@@ -168,7 +212,7 @@ float DamageDirZ { get; set; }
 
 ### Distance
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L37" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L75" />
 
 how far the bullet travelled before it hit the player
 <br />
@@ -184,7 +228,7 @@ float Distance { get; set; }
 
 ### InAir
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L79" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L117" />
 
 was the shooter jumping?
 <br />
@@ -200,7 +244,7 @@ bool InAir { get; set; }
 
 ### InaccuracyAir
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L170" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L208" />
 
 air inaccuracy
 <br />
@@ -216,7 +260,7 @@ float InaccuracyAir { get; set; }
 
 ### InaccuracyMove
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L163" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L201" />
 
 move inaccuracy
 <br />
@@ -232,7 +276,7 @@ float InaccuracyMove { get; set; }
 
 ### InaccuracyTotal
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L156" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L194" />
 
 total inaccuracy
 <br />
@@ -248,7 +292,7 @@ float InaccuracyTotal { get; set; }
 
 ### NoScope
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L72" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L110" />
 
 was the shooter noscoped?
 <br />
@@ -264,7 +308,7 @@ bool NoScope { get; set; }
 
 ### NumPenetrations
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L65" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L103" />
 
 how many surfaces were penetrated
 <br />
@@ -280,7 +324,7 @@ byte NumPenetrations { get; set; }
 
 ### RecoilIndex
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L177" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L215" />
 
 recoil index. Yes this is really a float.
 <br />
@@ -296,7 +340,7 @@ float RecoilIndex { get; set; }
 
 ### RenderTickCount
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L142" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L180" />
 
 render tick
 <br />
@@ -312,7 +356,7 @@ int RenderTickCount { get; set; }
 
 ### RenderTickFrac
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L149" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L187" />
 
 render frac
 <br />
@@ -328,7 +372,7 @@ float RenderTickFrac { get; set; }
 
 ### ShootAngX
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L86" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L124" />
 
 shoot angle x
 <br />
@@ -344,7 +388,7 @@ float ShootAngX { get; set; }
 
 ### ShootAngY
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L93" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L131" />
 
 shoot angle y
 <br />
@@ -360,7 +404,7 @@ float ShootAngY { get; set; }
 
 ### ShootAngZ
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L100" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L138" />
 
 shoot angle z
 <br />
@@ -376,7 +420,7 @@ float ShootAngZ { get; set; }
 
 ### Type
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L184" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L222" />
 
 lag compensation type
 <br />
@@ -392,7 +436,7 @@ int Type { get; set; }
 
 ### Victim
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L23" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L43" />
 
 player index who was hurt
 <br />
@@ -405,4 +449,48 @@ int Victim { get; set; }
 <ApiLabel>Property Value</ApiLabel>
 
 - <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
+
+### VictimController
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L25" />
+
+player index who was hurt
+<br />
+type: player_controller_and_pawn
+
+```csharp
+CCSPlayerController VictimController { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CCSPlayerController" typeHref="/docs/api/schemadefinitions/ccsplayercontroller" />
+
+### VictimPawn
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L32" />
+
+player index who was hurt
+<br />
+type: player_controller_and_pawn
+
+```csharp
+CCSPlayerPawn VictimPawn { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CCSPlayerPawn" typeHref="/docs/api/schemadefinitions/ccsplayerpawn" />
+
+### VictimPlayer
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletDamage.cs#L35" />
+
+```csharp
+IPlayer? VictimPlayer { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="IPlayer?" typeHref="/docs/api/players/iplayer" />
 

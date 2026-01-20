@@ -24,7 +24,7 @@ public interface EventPlayerBlind : IGameEvent<EventPlayerBlind>
 
 ### Attacker
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerBlind.cs#L44" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerBlind.cs#L64" />
 
 user ID who threw the flash
 <br />
@@ -38,9 +38,53 @@ int Attacker { get; set; }
 
 - <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
 
-### BlindDuration
+### AttackerController
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerBlind.cs#L46" />
+
+user ID who threw the flash
+<br />
+type: player_controller
+
+```csharp
+CCSPlayerController AttackerController { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CCSPlayerController" typeHref="/docs/api/schemadefinitions/ccsplayercontroller" />
+
+### AttackerPawn
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerBlind.cs#L53" />
+
+user ID who threw the flash
+<br />
+type: player_controller
+
+```csharp
+CCSPlayerPawn AttackerPawn { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CCSPlayerPawn" typeHref="/docs/api/schemadefinitions/ccsplayerpawn" />
+
+### AttackerPlayer
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerBlind.cs#L56" />
+
+```csharp
+IPlayer? AttackerPlayer { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="IPlayer?" typeHref="/docs/api/players/iplayer" />
+
+### BlindDuration
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerBlind.cs#L76" />
 
 type: float
 
@@ -54,7 +98,7 @@ float BlindDuration { get; set; }
 
 ### EntityID
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerBlind.cs#L51" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerBlind.cs#L71" />
 
 the flashbang going off
 <br />
@@ -70,7 +114,7 @@ short EntityID { get; set; }
 
 ### UserId
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerBlind.cs#L37" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerBlind.cs#L39" />
 
 <br />
 type: player_controller
@@ -85,7 +129,7 @@ int UserId { get; set; }
 
 ### UserIdController
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerBlind.cs#L22" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerBlind.cs#L24" />
 
 <br />
 type: player_controller
@@ -100,7 +144,7 @@ CCSPlayerController UserIdController { get; }
 
 ### UserIdPawn
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerBlind.cs#L28" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerBlind.cs#L30" />
 
 <br />
 type: player_controller
@@ -115,13 +159,13 @@ CCSPlayerPawn UserIdPawn { get; }
 
 ### UserIdPlayer
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerBlind.cs#L31" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerBlind.cs#L32" />
 
 ```csharp
-IPlayer UserIdPlayer { get; }
+IPlayer? UserIdPlayer { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="IPlayer" typeHref="/docs/api/players/iplayer" />
+- <ApiParam type="IPlayer?" typeHref="/docs/api/players/iplayer" />
 

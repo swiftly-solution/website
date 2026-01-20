@@ -160,6 +160,25 @@ public float Step { get; }
 
 ## Methods
 
+### DecrementValue(IPlayer)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/SliderMenuOption.cs#L154" />
+
+Decrements the slider value by the step amount for the specified player.
+Wraps to Max if the value goes below Min.
+
+```csharp
+public ValueTask DecrementValue(IPlayer player)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="player" type="IPlayer" typeHref="/docs/api/players/iplayer" /> — The player whose value to decrement.
+
+<ApiLabel>Returns</ApiLabel>
+
+- <ApiParam type="ValueTask" typeHref="https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask" />
+
 ### GetDisplayText(IPlayer, int)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/SliderMenuOption.cs#L112" />
@@ -204,6 +223,25 @@ public float GetValue(IPlayer player)
 <ApiLabel>Returns</ApiLabel>
 
 - <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" /> — The current slider value.
+
+### IncrementValue(IPlayer)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Menus/OptionsBase/SliderMenuOption.cs#L184" />
+
+Increments the slider value by the step amount for the specified player.
+Wraps to Min if the value goes above Max.
+
+```csharp
+public ValueTask IncrementValue(IPlayer player)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="player" type="IPlayer" typeHref="/docs/api/players/iplayer" /> — The player whose value to increment.
+
+<ApiLabel>Returns</ApiLabel>
+
+- <ApiParam type="ValueTask" typeHref="https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask" />
 
 ### SetValue(IPlayer, float)
 

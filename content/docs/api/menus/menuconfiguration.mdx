@@ -39,7 +39,7 @@ public record MenuConfiguration : IEquatable<MenuConfiguration>
 
 ### AutoCloseAfter
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L89" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L91" />
 
 Time in seconds before the menu automatically closes. Set to 0 or less to disable auto-close.
 
@@ -53,7 +53,7 @@ public float AutoCloseAfter { get; set; }
 
 ### AutoIncreaseVisibleItems
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L74" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L76" />
 
 Whether to automatically increase SwiftlyS2.Shared.Menus.MenuConfiguration.MaxVisibleItems when SwiftlyS2.Shared.Menus.MenuConfiguration.HideTitle or SwiftlyS2.Shared.Menus.MenuConfiguration.HideFooter is enabled.
 Each hidden section adds 1 to the visible items count.
@@ -71,9 +71,23 @@ public bool AutoIncreaseVisibleItems { get; set; }
 This does not modify the actual SwiftlyS2.Shared.Menus.MenuConfiguration.MaxVisibleItems value.
 Instead, the increase is applied during rendering calculations only.
 
+### DefaultComment
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L180" />
+
+The default comment text to use when a menu option's Comment is not set.
+
+```csharp
+public string DefaultComment { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
+
 ### DisableExit
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L84" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L86" />
 
 Whether to disable the exit button for this menu.
 
@@ -87,7 +101,7 @@ public bool DisableExit { get; set; }
 
 ### DisabledColor
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L160" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L162" />
 
 The color of disabled menu options in hex format.
 
@@ -103,9 +117,24 @@ public string? DisabledColor { get; set; }
 
 Supports "#RGB", "#RGBA", "#RRGGBB", and "#RRGGBBAA" formats.
 
+### ExtraButtons
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L186" />
+
+Extra buttons that can be bound to custom actions in the menu.
+These buttons are displayed in the footer and execute custom actions when pressed.
+
+```csharp
+public List<MenuExtraButton> ExtraButtons { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="List&lt;MenuExtraButton&gt;" typeHref="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1" />
+
 ### FooterColor
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L118" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L120" />
 
 The color of the menu footer in hex format.
 
@@ -123,7 +152,7 @@ Supports "#RGB", "#RGBA", "#RRGGBB", and "#RRGGBBAA" formats.
 
 ### FreezePlayer
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L79" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L81" />
 
 Whether to freeze player movement while the menu is open.
 
@@ -135,9 +164,23 @@ public bool FreezePlayer { get; set; }
 
 - <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
 
+### HideComment
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L37" />
+
+Whether to hide comments for menu options.
+
+```csharp
+public bool HideComment { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
+
 ### HideFooter
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L33" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L32" />
 
 Whether to hide the menu footer.
 
@@ -151,7 +194,7 @@ public bool HideFooter { get; set; }
 
 ### HideTitle
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L28" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L22" />
 
 Whether to hide the menu title.
 
@@ -165,7 +208,9 @@ public bool HideTitle { get; set; }
 
 ### HideTitleItemCount
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L40" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L27" />
+
+Whether to hide the item count in the menu title.
 
 ```csharp
 public bool HideTitleItemCount { get; set; }
@@ -177,7 +222,7 @@ public bool HideTitleItemCount { get; set; }
 
 ### MaxVisibleItems
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L51" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L53" />
 
 Maximum number of menu options displayed on screen at once.
 
@@ -196,7 +241,7 @@ When set to -1, the maximum visible items per page will use the `ItemsPerPage` v
 
 ### NavigationMarkerColor
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L97" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L99" />
 
 The color of navigation markers (selection indicators, page indicators, etc.) in hex format.
 
@@ -214,7 +259,7 @@ Supports "#RGB", "#RGBA", "#RRGGBB", and "#RRGGBBAA" formats.
 
 ### PlaySound
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L38" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L42" />
 
 Whether to play sounds when players interact with the menu.
 
@@ -228,7 +273,7 @@ public bool PlaySound { get; set; }
 
 ### Title
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L23" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L17" />
 
 The title of the menu.
 
@@ -242,7 +287,7 @@ public string Title { get; set; }
 
 ### VisualGuideLineColor
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L139" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L141" />
 
 The color of visual guide lines in hex format.
 

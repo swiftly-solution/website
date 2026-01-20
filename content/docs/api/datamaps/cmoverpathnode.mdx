@@ -1,0 +1,36 @@
+---
+title: CMoverPathNode
+---
+
+# CMoverPathNode
+
+Inherited from [CPointEntity](/docs/api/datamaps/cpointentity)
+
+## Fields
+
+| EntityKeyValues Name | Field Name | Field Type |
+| --- | --- | --- |
+| `in_tangent_local` | `m_vInTangentLocal` | `FIELD_VECTOR` |
+| `out_tangent_local` | `m_vOutTangentLocal` | `FIELD_VECTOR` |
+| `path_uniqueid` | `m_szParentPathUniqueID` | `FIELD_STRING` |
+| `path_parameter_string` | `m_szPathNodeParameter` | `FIELD_STRING` |
+
+## Input
+
+_No Entry_
+
+## Output
+
+| Output Name | Field Type |
+| --- | --- |
+| `OnStartFromOrInSegment` | `FIELD_CUSTOM` |
+| `OnStoppedOnOrInSegment` | `FIELD_CUSTOM` |
+| `OnPassThrough` | `FIELD_CUSTOM` |
+| `OnPassThroughForward` | `FIELD_CUSTOM` |
+| `OnPassThroughReverse` | `FIELD_CUSTOM` |
+
+## Functions
+
+| Function Name |
+| --- |
+| `CMoverPathNodeParentedMoveThink` |

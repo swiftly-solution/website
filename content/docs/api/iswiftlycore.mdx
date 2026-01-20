@@ -4,7 +4,7 @@ title: ISwiftlyCore
 
 # Interface ISwiftlyCore
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L28" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L30" />
 
 **Namespace**: [SwiftlyS2.Shared](/docs/api)
 
@@ -20,7 +20,7 @@ public interface ISwiftlyCore
 
 ### CSGODirectory
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L184" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L196" />
 
 Gets the absolute file path to the `game/csgo` directory.
 
@@ -34,7 +34,7 @@ string CSGODirectory { get; }
 
 ### Command
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L63" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L65" />
 
 Command service.
 
@@ -48,7 +48,7 @@ ICommandService Command { get; }
 
 ### CommandLine
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L164" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L166" />
 
 Command line.
 
@@ -62,7 +62,7 @@ ICommandLine CommandLine { get; }
 
 ### ConVar
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L78" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L80" />
 
 Convar service.
 
@@ -76,7 +76,7 @@ IConVarService ConVar { get; }
 
 ### Configuration
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L83" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L85" />
 
 Configuration service.
 
@@ -90,7 +90,7 @@ IPluginConfigurationService Configuration { get; }
 
 ### ConsoleOutput
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L68" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L70" />
 
 Console output service.
 
@@ -104,7 +104,7 @@ IConsoleOutputService ConsoleOutput { get; }
 
 ### Database
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L128" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L130" />
 
 Database service.
 
@@ -116,9 +116,23 @@ IDatabaseService Database { get; }
 
 - <ApiParam type="IDatabaseService" typeHref="/docs/api/database/idatabaseservice" />
 
+### Datamap
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L181" />
+
+Datamap service.
+
+```csharp
+IDatamapService Datamap { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="IDatamapService" typeHref="/docs/api/datamaps/idatamapservice" />
+
 ### Engine
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L38" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L40" />
 
 Gets the engine service used to perform core engine operations.
 
@@ -132,7 +146,7 @@ IEngineService Engine { get; }
 
 ### EntitySystem
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L73" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L75" />
 
 Entity system service.
 
@@ -146,7 +160,7 @@ IEntitySystemService EntitySystem { get; }
 
 ### Event
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L33" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L35" />
 
 Custom event subscriber.
 
@@ -160,7 +174,7 @@ IEventSubscriber Event { get; }
 
 ### Game
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L58" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L60" />
 
 Game service.
 
@@ -174,7 +188,7 @@ IGameService Game { get; }
 
 ### GameData
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L88" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L90" />
 
 Game data service.
 
@@ -188,7 +202,7 @@ IGameDataService GameData { get; }
 
 ### GameDirectory
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L189" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L201" />
 
 Gets the absolute file path to the game's root directory.
 
@@ -202,7 +216,7 @@ string GameDirectory { get; }
 
 ### GameEvent
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L43" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L45" />
 
 Game event service.
 
@@ -216,7 +230,7 @@ IGameEventService GameEvent { get; }
 
 ### GameFileSystem
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L169" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L171" />
 
 Game file system interface.
 
@@ -230,7 +244,7 @@ IGameFileSystem GameFileSystem { get; }
 
 ### Helpers
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L53" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L55" />
 
 Helpers service.
 
@@ -244,7 +258,7 @@ IHelpers Helpers { get; }
 
 ### Localizer
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L138" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L140" />
 
 Localizer.
 
@@ -258,7 +272,7 @@ ILocalizer Localizer { get; }
 
 ### Logger
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L108" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L110" />
 
 Default logger.
 
@@ -272,7 +286,7 @@ ILogger Logger { get; }
 
 ### LoggerFactory
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L103" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L105" />
 
 Logger factory.
 
@@ -286,7 +300,7 @@ ILoggerFactory LoggerFactory { get; }
 
 ### Memory
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L98" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L100" />
 
 Memory service.
 
@@ -300,7 +314,7 @@ IMemoryService Memory { get; }
 
 ### MenusAPI
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L159" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L161" />
 
 Menu manager API.
 
@@ -314,7 +328,7 @@ IMenuManagerAPI MenusAPI { get; }
 
 ### NetMessage
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L48" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L50" />
 
 Net message service.
 
@@ -328,7 +342,7 @@ INetMessageService NetMessage { get; }
 
 ### Permission
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L143" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L145" />
 
 Permission manager.
 
@@ -342,7 +356,7 @@ IPermissionManager Permission { get; }
 
 ### PlayerManager
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L93" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L95" />
 
 Player manager service.
 
@@ -356,7 +370,7 @@ IPlayerManagerService PlayerManager { get; }
 
 ### PluginDataDirectory
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L195" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L207" />
 
 Gets the file path to the plugin data directory.
 This directory is ensured to exist by the framework.
@@ -371,7 +385,7 @@ string PluginDataDirectory { get; }
 
 ### PluginManager
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L174" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L176" />
 
 Plugin manager.
 
@@ -385,7 +399,7 @@ IPluginManager PluginManager { get; }
 
 ### PluginPath
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L179" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L191" />
 
 Gets the file path to the plugin directory.
 
@@ -399,7 +413,7 @@ string PluginPath { get; }
 
 ### Profiler
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L113" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L115" />
 
 Profiler service.
 
@@ -413,7 +427,7 @@ IContextedProfilerService Profiler { get; }
 
 ### Registrator
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L148" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L150" />
 
 Registrator service.
 
@@ -427,7 +441,7 @@ IRegistratorService Registrator { get; }
 
 ### Scheduler
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L123" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L125" />
 
 Scheduler service.
 
@@ -439,9 +453,23 @@ ISchedulerService Scheduler { get; }
 
 - <ApiParam type="ISchedulerService" typeHref="/docs/api/scheduler/ischedulerservice" />
 
+### StringTable
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L186" />
+
+String table service.
+
+```csharp
+IStringTableService StringTable { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="IStringTableService" typeHref="/docs/api/stringtable/istringtableservice" />
+
 ### Trace
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L118" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L120" />
 
 Gets the trace manager used to control and configure tracing operations within the game.
 
@@ -455,7 +483,7 @@ ITraceManager Trace { get; }
 
 ### Translation
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L133" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L135" />
 
 Translation service.
 

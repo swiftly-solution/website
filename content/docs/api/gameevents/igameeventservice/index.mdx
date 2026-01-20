@@ -307,6 +307,47 @@ Guid HookPre<T>(IGameEventService.GameEventHandler<T> callback) where T : IGameE
 
 - <ApiParam name="T" /> — The event type.
 
+### IsListeningToEvent(int, string)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventService.cs#L157" />
+
+Check if the player is Listening this event.
+
+```csharp
+bool IsListeningToEvent(int slot, string eventName)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="slot" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> — The player slot.
+- <ApiParam name="eventName" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The event name.
+
+<ApiLabel>Returns</ApiLabel>
+
+- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
+
+### IsListeningToEvent\<T\>(int)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventService.cs#L164" />
+
+Check if the player is Listening this event.
+
+```csharp
+bool IsListeningToEvent<T>(int slot) where T : IGameEvent<T>
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="slot" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> — The player slot.
+
+<ApiLabel>Returns</ApiLabel>
+
+- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
+
+<ApiLabel>Type Parameters</ApiLabel>
+
+- <ApiParam name="T" /> — The event type.
+
 ### Unhook(Guid)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventService.cs#L38" />

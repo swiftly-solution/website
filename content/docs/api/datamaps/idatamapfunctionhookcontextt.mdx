@@ -1,0 +1,50 @@
+---
+title: IDatamapFunctionHookContext
+---
+
+# Interface IDatamapFunctionHookContext
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Datamaps/IDatamapFunctionHookCallback.cs#L11" />
+
+**Namespace**: [SwiftlyS2.Shared.Datamaps](/docs/api/datamaps)
+
+**Assembly**: SwiftlyS2.CS2.dll
+
+```csharp
+public interface IDatamapFunctionHookContext<T> : IDatamapFunctionHookContext where T : ISchemaClass<T>
+```
+
+<ApiLabel>Type Parameters</ApiLabel>
+
+- <ApiParam name="T" />
+
+#### Implements
+
+- [IDatamapFunctionHookContext](/docs/api/datamaps/idatamapfunctionhookcontext)
+
+## Properties
+
+### HookResult
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Datamaps/IDatamapFunctionHookCallback.cs#L17" />
+
+```csharp
+HookResult HookResult { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="HookResult" typeHref="/docs/api/misc/hookresult" />
+
+### SchemaObject
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Datamaps/IDatamapFunctionHookCallback.cs#L15" />
+
+```csharp
+T SchemaObject { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="T" />
+

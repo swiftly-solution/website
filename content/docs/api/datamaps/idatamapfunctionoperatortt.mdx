@@ -1,0 +1,71 @@
+---
+title: IDatamapFunctionOperator
+---
+
+# Interface IDatamapFunctionOperator
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Datamaps/IDatamapFunctionOperator.cs#L6" />
+
+**Namespace**: [SwiftlyS2.Shared.Datamaps](/docs/api/datamaps)
+
+**Assembly**: SwiftlyS2.CS2.dll
+
+```csharp
+public interface IDatamapFunctionOperator<T, out K> where T : ISchemaClass<T> where K : IDatamapFunctionHookContext<T>
+```
+
+<ApiLabel>Type Parameters</ApiLabel>
+
+- <ApiParam name="T" />
+- <ApiParam name="K" />
+
+## Methods
+
+### HookPost(Action\<K\>)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Datamaps/IDatamapFunctionOperator.cs#L14" />
+
+```csharp
+void HookPost(Action<out K> callback)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="callback" type="Action&lt;K&gt;" typeHref="https://learn.microsoft.com/dotnet/api/system.action-1" />
+
+### HookPre(Action\<K\>)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Datamaps/IDatamapFunctionOperator.cs#L12" />
+
+```csharp
+void HookPre(Action<out K> callback)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="callback" type="Action&lt;K&gt;" typeHref="https://learn.microsoft.com/dotnet/api/system.action-1" />
+
+### Invoke(T)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Datamaps/IDatamapFunctionOperator.cs#L16" />
+
+```csharp
+void Invoke(T schemaObject)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="schemaObject" type="T" />
+
+### InvokeOriginal(T)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Datamaps/IDatamapFunctionOperator.cs#L18" />
+
+```csharp
+void InvokeOriginal(T schemaObject)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="schemaObject" type="T" />
+

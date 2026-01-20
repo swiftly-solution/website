@@ -4,7 +4,7 @@ title: IMenuAPI
 
 # Interface IMenuAPI
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L225" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L259" />
 
 **Namespace**: [SwiftlyS2.Shared.Menus](/docs/api/menus)
 
@@ -24,7 +24,7 @@ public interface IMenuAPI : IDisposable
 
 ### Builder
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L255" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L289" />
 
 The builder used to construct and configure this menu.
 
@@ -38,7 +38,7 @@ IMenuBuilderAPI? Builder { get; }
 
 ### Configuration
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L235" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L269" />
 
 Configuration settings for this menu.
 
@@ -52,11 +52,12 @@ MenuConfiguration Configuration { get; }
 
 ### DefaultComment
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L260" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L294" />
 
 Gets or sets the default comment text to use when a menu option's SwiftlyS2.Shared.Menus.IMenuOption.Comment is not set.
 
 ```csharp
+[Obsolete("Use Configuration.DefaultComment instead.")]
 string DefaultComment { get; set; }
 ```
 
@@ -66,7 +67,7 @@ string DefaultComment { get; set; }
 
 ### KeybindOverrides
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L240" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L274" />
 
 Keybind overrides for this menu.
 
@@ -80,7 +81,7 @@ MenuKeybindOverrides KeybindOverrides { get; }
 
 ### MenuManager
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L230" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L264" />
 
 The menu manager that this menu belongs to.
 
@@ -94,7 +95,7 @@ IMenuManagerAPI MenuManager { get; }
 
 ### OptionScrollStyle
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L245" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L279" />
 
 The scroll style for this menu options.
 
@@ -108,7 +109,7 @@ MenuOptionScrollStyle OptionScrollStyle { get; }
 
 ### Options
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L279" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L314" />
 
 Read-only collection of all options in this menu.
 
@@ -122,7 +123,7 @@ IReadOnlyList<IMenuOption> Options { get; }
 
 ### Parent
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L274" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L309" />
 
 The parent hierarchy information in a hierarchical menu structure.
 
@@ -141,7 +142,7 @@ TriggerOption is the menu option that triggered this submenu, null for top-level
 
 ### Tag
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L265" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L300" />
 
 Gets or sets an object that contains data about this menu.
 
@@ -157,7 +158,7 @@ object? Tag { get; set; }
 
 ### AddOption(IMenuOption)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L346" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L381" />
 
 Adds a new option to this menu.
 
@@ -171,7 +172,7 @@ void AddOption(IMenuOption option)
 
 ### GetCurrentOption(IPlayer)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L376" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L411" />
 
 Gets the menu option currently highlighted by the specified player.
 
@@ -189,7 +190,7 @@ IMenuOption? GetCurrentOption(IPlayer player)
 
 ### GetCurrentOptionIndex(IPlayer)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L383" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L418" />
 
 Gets the index of the currently highlighted option for the specified player.
 
@@ -207,7 +208,7 @@ int GetCurrentOptionIndex(IPlayer player)
 
 ### HideForPlayer(IPlayer)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L340" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L375" />
 
 Hides this menu for the specified player by removing its visual display.
 
@@ -226,7 +227,7 @@ triggering events, and reopening parent menus), use SwiftlyS2.Shared.Menus.IMenu
 
 ### MoveToOption(IPlayer, IMenuOption)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L361" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L396" />
 
 Moves the player's selection to the specified option.
 
@@ -245,7 +246,7 @@ bool MoveToOption(IPlayer player, IMenuOption option)
 
 ### MoveToOptionIndex(IPlayer, int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L369" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L404" />
 
 Moves the player's selection to the specified option index.
 
@@ -264,7 +265,7 @@ bool MoveToOptionIndex(IPlayer player, int index)
 
 ### RemoveOption(IMenuOption)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L353" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L388" />
 
 Removes an option from this menu.
 
@@ -282,7 +283,7 @@ bool RemoveOption(IMenuOption option)
 
 ### ShowForPlayer(IPlayer)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L330" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L365" />
 
 Shows this menu to the specified player by displaying its content.
 
@@ -301,7 +302,7 @@ closing other menus, and triggering events), use SwiftlyS2.Shared.Menus.IMenuMan
 
 ### OptionHovered
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L305" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L340" />
 
 Fired when a different option is hovered.
 
@@ -319,7 +320,7 @@ This event is only fired when the hovered option changes.
 
 ### OptionHovering
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L297" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L332" />
 
 Fired when the selection pointer is hovering over an option.
 
@@ -337,7 +338,7 @@ This event is fired once per render frame.
 
 ### OptionSelected
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L310" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuAPI.cs#L345" />
 
 Fired when a menu option is selected (activated) by the player.
 

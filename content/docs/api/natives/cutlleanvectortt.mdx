@@ -38,7 +38,7 @@ public struct CUtlLeanVector<T, I> : IDisposable, IEnumerable<T>, IEnumerable wh
 
 ### CUtlLeanVector(I, I)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L47" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L50" />
 
 Please use SwiftlyS2.Shared.Natives.ManagedCUtlLeanVector%602 instead to construct it.
 If you really want to use this, you should call SwiftlyS2.Shared.Natives.CUtlLeanVector%602.Purge after you are done with it.
@@ -54,7 +54,7 @@ public CUtlLeanVector(I growSize, I initSize)
 
 ### CUtlLeanVector(nint, I, I)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L58" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L61" />
 
 Please use SwiftlyS2.Shared.Natives.ManagedCUtlLeanVector%602 instead to construct it.
 If you really want to use this, you should call SwiftlyS2.Shared.Natives.CUtlLeanVector%602.Purge after you are done with it.
@@ -111,7 +111,7 @@ public nint Elements
 
 ### Base
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L292" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L295" />
 
 ```csharp
 public nint Base { get; }
@@ -123,7 +123,7 @@ public nint Base { get; }
 
 ### ElementSize
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L39" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L42" />
 
 ```csharp
 public int ElementSize { get; }
@@ -135,7 +135,7 @@ public int ElementSize { get; }
 
 ### ExternallyAllocated
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L291" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L294" />
 
 ```csharp
 public bool ExternallyAllocated { get; }
@@ -147,7 +147,7 @@ public bool ExternallyAllocated { get; }
 
 ### NumAllocated
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L290" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L293" />
 
 ```csharp
 public int NumAllocated { get; }
@@ -159,7 +159,7 @@ public int NumAllocated { get; }
 
 ### this
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L293" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L296" />
 
 ```csharp
 public ref T this[I index] { get; }
@@ -173,7 +173,7 @@ public ref T this[I index] { get; }
 
 ### AddToTail()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L159" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L162" />
 
 ```csharp
 public I AddToTail()
@@ -185,7 +185,7 @@ public I AddToTail()
 
 ### AddToTail(T)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L165" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L168" />
 
 ```csharp
 public I AddToTail(T element)
@@ -201,7 +201,7 @@ public I AddToTail(T element)
 
 ### AssumeMemory(nint, I, I)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L103" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L106" />
 
 ```csharp
 public void AssumeMemory(nint memory, I allocationCount, I numElements)
@@ -215,7 +215,7 @@ public void AssumeMemory(nint memory, I allocationCount, I numElements)
 
 ### DetachMemory()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L112" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L115" />
 
 ```csharp
 public nint DetachMemory()
@@ -227,7 +227,7 @@ public nint DetachMemory()
 
 ### Dispose()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L275" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L278" />
 
 Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
 
@@ -237,7 +237,7 @@ public void Dispose()
 
 ### Element(I)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L147" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L150" />
 
 ```csharp
 public ref T Element(I idx)
@@ -253,7 +253,7 @@ public ref T Element(I idx)
 
 ### EnsureCapacity(int, bool)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L65" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L68" />
 
 ```csharp
 public void EnsureCapacity(int num, bool force)
@@ -266,7 +266,7 @@ public void EnsureCapacity(int num, bool force)
 
 ### FastRemove(I)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L199" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L202" />
 
 ```csharp
 public void FastRemove(I elem)
@@ -278,7 +278,7 @@ public void FastRemove(I elem)
 
 ### Find(T)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L188" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L191" />
 
 ```csharp
 public I Find(T element)
@@ -294,7 +294,7 @@ public I Find(T element)
 
 ### FindAndFastRemove(T)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L262" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L265" />
 
 ```csharp
 public bool FindAndFastRemove(T value)
@@ -310,7 +310,7 @@ public bool FindAndFastRemove(T value)
 
 ### FindAndRemove(T)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L251" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L254" />
 
 ```csharp
 public bool FindAndRemove(T value)
@@ -326,7 +326,7 @@ public bool FindAndRemove(T value)
 
 ### GetEnumerator()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L280" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L283" />
 
 Returns an enumerator that iterates through the collection.
 
@@ -340,7 +340,7 @@ public IEnumerator<T> GetEnumerator()
 
 ### Head()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L155" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L158" />
 
 ```csharp
 public ref T Head()
@@ -352,7 +352,7 @@ public ref T Head()
 
 ### IsIdxValid(I)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L146" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L149" />
 
 ```csharp
 public bool IsIdxValid(I idx)
@@ -368,7 +368,7 @@ public bool IsIdxValid(I idx)
 
 ### IsValidIndex(I)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L157" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L160" />
 
 ```csharp
 public bool IsValidIndex(I idx)
@@ -384,7 +384,7 @@ public bool IsValidIndex(I idx)
 
 ### Purge()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L134" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L137" />
 
 ```csharp
 public void Purge()
@@ -392,7 +392,7 @@ public void Purge()
 
 ### Remove(I)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L213" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L216" />
 
 ```csharp
 public void Remove(I elem)
@@ -404,7 +404,7 @@ public void Remove(I elem)
 
 ### RemoveAll()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L123" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L126" />
 
 ```csharp
 public void RemoveAll()
@@ -412,7 +412,7 @@ public void RemoveAll()
 
 ### RemoveMultiple(I, I)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L223" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L226" />
 
 ```csharp
 public void RemoveMultiple(I idx, I count)
@@ -425,7 +425,7 @@ public void RemoveMultiple(I idx, I count)
 
 ### RemoveMultipleFromHead(I)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L235" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L238" />
 
 ```csharp
 public void RemoveMultipleFromHead(I count)
@@ -437,7 +437,7 @@ public void RemoveMultipleFromHead(I count)
 
 ### RemoveMultipleFromTail(I)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L240" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L243" />
 
 ```csharp
 public void RemoveMultipleFromTail(I count)
@@ -449,7 +449,7 @@ public void RemoveMultipleFromTail(I count)
 
 ### SetCount(I)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L172" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L175" />
 
 ```csharp
 public void SetCount(I count)
@@ -461,7 +461,7 @@ public void SetCount(I count)
 
 ### SetExternalBuffer(nint, I, I)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L94" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L97" />
 
 ```csharp
 public void SetExternalBuffer(nint memory, I allocationCount, I numElements)
@@ -475,7 +475,7 @@ public void SetExternalBuffer(nint memory, I allocationCount, I numElements)
 
 ### SetSize(I)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L273" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L276" />
 
 ```csharp
 public void SetSize(I size)
@@ -487,7 +487,7 @@ public void SetSize(I size)
 
 ### Tail()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L156" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlLeanVector.cs#L159" />
 
 ```csharp
 public ref T Tail()

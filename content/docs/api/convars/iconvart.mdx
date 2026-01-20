@@ -163,7 +163,7 @@ void QueryClient(int clientId, Action<string> callback)
 
 ### ReplicateToClient(int, T)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L178" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L179" />
 
 Replicate the value of the convar to specified client.
 
@@ -174,7 +174,7 @@ void ReplicateToClient(int clientId, T value)
 <ApiLabel>Parameters</ApiLabel>
 
 - <ApiParam name="clientId" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> — The client id to replicate to.
-- <ApiParam name="value" type="T" />
+- <ApiParam name="value" type="T" /> — The value to replicate.
 
 ### SetInternal(T)
 
@@ -193,7 +193,7 @@ void SetInternal(T value)
 
 ### TryGetDefaultValue(out T)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L199" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L200" />
 
 Try to get the default value of the convar.
 
@@ -211,7 +211,7 @@ bool TryGetDefaultValue(out T defaultValue)
 
 ### TryGetMaxValue(out T)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L192" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L193" />
 
 Try to get the max value of the convar.
 
@@ -229,7 +229,7 @@ bool TryGetMaxValue(out T maxValue)
 
 ### TryGetMinValue(out T)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L185" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L186" />
 
 Try to get the min value of the convar.
 

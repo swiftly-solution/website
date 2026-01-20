@@ -48,9 +48,23 @@ ISwiftlyCore Core { get; }
 
 ## Methods
 
+### CloseActiveMenu(IPlayer)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManagerAPI.cs#L186" />
+
+Closes the active menu for a player. If the player has no menu open, this has no effect.
+
+```csharp
+void CloseActiveMenu(IPlayer player)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="player" type="IPlayer" typeHref="/docs/api/players/iplayer" /> — The player whose active menu will be closed.
+
 ### CloseAllMenus()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManagerAPI.cs#L185" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManagerAPI.cs#L191" />
 
 Closes every open menu for every player.
 

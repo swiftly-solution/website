@@ -76,6 +76,20 @@ uint Index { get; }
 
 - <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
 
+### IsValidEntity
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L24" />
+
+Whether the entity instance is valid and exists on server. This MUST be used just on entities, otherwise it will return false.
+
+```csharp
+bool IsValidEntity { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
+
 ### PrivateVScripts
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityInstance.cs#L18" />
@@ -92,7 +106,7 @@ string PrivateVScripts { get; set; }
 
 ### AcceptInput\<T\>(string, T?, CEntityInstance?, CEntityInstance?, int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L32" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L37" />
 
 Fire an input to the entity.
 
@@ -117,7 +131,7 @@ void AcceptInput<T>(string input, T? value, CEntityInstance? activator = null, C
 
 ### AcceptInputAsync\<T\>(string, T?, CEntityInstance?, CEntityInstance?, int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L44" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L49" />
 
 Fire an input to the entity asynchronously.
 
@@ -143,7 +157,7 @@ Task AcceptInputAsync<T>(string input, T? value, CEntityInstance? activator = nu
 
 ### AddEntityIOEvent\<T\>(string, T?, CEntityInstance?, CEntityInstance?, float)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L57" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L62" />
 
 Add an entity IO event to the entity.
 
@@ -168,7 +182,7 @@ void AddEntityIOEvent<T>(string input, T? value, CEntityInstance? activator = nu
 
 ### AddEntityIOEventAsync\<T\>(string, T?, CEntityInstance?, CEntityInstance?, float)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L69" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L74" />
 
 Add an entity IO event to the entity asynchronously.
 
@@ -194,7 +208,7 @@ Task AddEntityIOEventAsync<T>(string input, T? value, CEntityInstance? activator
 
 ### Despawn()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L110" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L115" />
 
 Despawn the entity.
 
@@ -207,7 +221,7 @@ void Despawn()
 
 ### DespawnAsync()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L116" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L121" />
 
 Despawn the entity asynchronously.
 
@@ -221,7 +235,7 @@ Task DespawnAsync()
 
 ### DispatchSpawn(CEntityKeyValues?)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L77" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L82" />
 
 Dispatch a spawn event to the entity.
 
@@ -238,7 +252,7 @@ void DispatchSpawn(CEntityKeyValues? entityKV = null)
 
 ### DispatchSpawnAsync(CEntityKeyValues?)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L84" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L89" />
 
 Dispatch a spawn event to the entity asynchronously.
 
@@ -264,7 +278,7 @@ void EntityUpdated()
 
 ### IsTransmitting(int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L103" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L108" />
 
 Check if the entity is transmitting for one player.
 
@@ -282,7 +296,7 @@ bool IsTransmitting(int playerId)
 
 ### SetTransmitState(bool, int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L91" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L96" />
 
 Set the transmit state of the entity for one player.
 
@@ -297,7 +311,7 @@ void SetTransmitState(bool transmitting, int playerId)
 
 ### SetTransmitState(bool)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L97" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L102" />
 
 Set the global transmit state of the entity.
 

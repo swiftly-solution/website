@@ -25,7 +25,7 @@ public interface EventInstructorServerHintCreate : IGameEvent<EventInstructorSer
 
 ### HintActivatorCaption
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L112" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L132" />
 
 the hint caption that only the activator sees e.g. "#YouPushedItGood"
 <br />
@@ -41,7 +41,7 @@ string HintActivatorCaption { get; set; }
 
 ### HintActivatorUserid
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L77" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L97" />
 
 playerslot of the activator
 <br />
@@ -55,9 +55,53 @@ int HintActivatorUserid { get; set; }
 
 - <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
 
+### HintActivatorUseridController
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L79" />
+
+playerslot of the activator
+<br />
+type: player_controller
+
+```csharp
+CCSPlayerController HintActivatorUseridController { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CCSPlayerController" typeHref="/docs/api/schemadefinitions/ccsplayercontroller" />
+
+### HintActivatorUseridPawn
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L86" />
+
+playerslot of the activator
+<br />
+type: player_controller
+
+```csharp
+CCSPlayerPawn HintActivatorUseridPawn { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CCSPlayerPawn" typeHref="/docs/api/schemadefinitions/ccsplayerpawn" />
+
+### HintActivatorUseridPlayer
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L89" />
+
+```csharp
+IPlayer? HintActivatorUseridPlayer { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="IPlayer?" typeHref="/docs/api/players/iplayer" />
+
 ### HintAllowNodrawTarget
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L154" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L174" />
 
 if false, the hint will dissappear if the target entity is invisible
 <br />
@@ -73,7 +117,7 @@ bool HintAllowNodrawTarget { get; set; }
 
 ### HintBinding
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L147" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L167" />
 
 bindings to use when use_binding is the onscreen icon
 <br />
@@ -89,7 +133,7 @@ string HintBinding { get; set; }
 
 ### HintCaption
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L105" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L125" />
 
 the hint caption. e.g. "#ThisIsDangerous"
 <br />
@@ -105,7 +149,7 @@ string HintCaption { get; set; }
 
 ### HintColor
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L119" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L139" />
 
 the hint color in "r,g,b" format where each component is 0-255
 <br />
@@ -121,7 +165,7 @@ string HintColor { get; set; }
 
 ### HintEntindex
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L49" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L51" />
 
 entity id of the env_instructor_hint that fired the event
 <br />
@@ -137,7 +181,7 @@ int HintEntindex { get; set; }
 
 ### HintFlags
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L140" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L160" />
 
 hint flags
 <br />
@@ -153,7 +197,7 @@ int HintFlags { get; set; }
 
 ### HintForcecaption
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L168" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L188" />
 
 if true, the hint caption will show even if the hint is occluded
 <br />
@@ -169,7 +213,7 @@ bool HintForcecaption { get; set; }
 
 ### HintGamepadBinding
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L231" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L251" />
 
 gamepad bindings to use when use_binding is the onscreen icon
 <br />
@@ -185,7 +229,7 @@ string HintGamepadBinding { get; set; }
 
 ### HintIconOffscreen
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L98" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L118" />
 
 the hint icon to use when the hint is offscreen. e.g. "icon_alert"
 <br />
@@ -201,7 +245,7 @@ string HintIconOffscreen { get; set; }
 
 ### HintIconOffset
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L126" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L146" />
 
 how far on the z axis to offset the hint from entity origin
 <br />
@@ -217,7 +261,7 @@ float HintIconOffset { get; set; }
 
 ### HintIconOnscreen
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L91" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L111" />
 
 the hint icon to use when the hint is onscreen. e.g. "icon_alert_red"
 <br />
@@ -233,7 +277,7 @@ string HintIconOnscreen { get; set; }
 
 ### HintLayoutfile
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L189" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L209" />
 
 Path for Panorama layout file
 <br />
@@ -249,7 +293,7 @@ string HintLayoutfile { get; set; }
 
 ### HintLocalPlayerOnly
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L175" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L195" />
 
 if true, only the local player will see the hint
 <br />
@@ -265,7 +309,7 @@ bool HintLocalPlayerOnly { get; set; }
 
 ### HintName
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L56" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L58" />
 
 what to name the hint. For referencing it again later (e.g. a kill command for the hint instead of a timeout)
 <br />
@@ -281,7 +325,7 @@ string HintName { get; set; }
 
 ### HintNooffscreen
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L161" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L181" />
 
 if true, the hint will not show when outside the player view
 <br />
@@ -297,7 +341,7 @@ bool HintNooffscreen { get; set; }
 
 ### HintRange
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L133" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L153" />
 
 range before the hint is culled
 <br />
@@ -313,7 +357,7 @@ float HintRange { get; set; }
 
 ### HintReplaceKey
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L63" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L65" />
 
 type name so that messages of the same type will replace each other
 <br />
@@ -329,7 +373,7 @@ string HintReplaceKey { get; set; }
 
 ### HintStartSound
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L182" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L202" />
 
 Game sound to play
 <br />
@@ -345,7 +389,7 @@ string HintStartSound { get; set; }
 
 ### HintTarget
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L70" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L72" />
 
 entity id that the hint should display at
 <br />
@@ -361,7 +405,7 @@ int HintTarget { get; set; }
 
 ### HintTimeout
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L84" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L104" />
 
 how long in seconds until the hint automatically times out, 0 = never
 <br />
@@ -377,7 +421,7 @@ short HintTimeout { get; set; }
 
 ### HintVrHeightOffset
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L203" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L223" />
 
 Height offset for attached panels
 <br />
@@ -393,7 +437,7 @@ float HintVrHeightOffset { get; set; }
 
 ### HintVrOffsetX
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L210" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L230" />
 
 offset for attached panels
 <br />
@@ -409,7 +453,7 @@ float HintVrOffsetX { get; set; }
 
 ### HintVrOffsetY
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L217" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L237" />
 
 offset for attached panels
 <br />
@@ -425,7 +469,7 @@ float HintVrOffsetY { get; set; }
 
 ### HintVrOffsetZ
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L224" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L244" />
 
 offset for attached panels
 <br />
@@ -441,7 +485,7 @@ float HintVrOffsetZ { get; set; }
 
 ### HintVrPanelType
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L196" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L216" />
 
 Attachment type for the Panorama panel
 <br />
@@ -457,7 +501,7 @@ short HintVrPanelType { get; set; }
 
 ### UserId
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L42" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L44" />
 
 user ID of the player that triggered the hint
 <br />
@@ -473,7 +517,7 @@ int UserId { get; set; }
 
 ### UserIdController
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L24" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L26" />
 
 user ID of the player that triggered the hint
 <br />
@@ -489,7 +533,7 @@ CCSPlayerController UserIdController { get; }
 
 ### UserIdPawn
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L31" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L33" />
 
 user ID of the player that triggered the hint
 <br />
@@ -505,13 +549,13 @@ CCSPlayerPawn UserIdPawn { get; }
 
 ### UserIdPlayer
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L35" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L36" />
 
 ```csharp
-IPlayer UserIdPlayer { get; }
+IPlayer? UserIdPlayer { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="IPlayer" typeHref="/docs/api/players/iplayer" />
+- <ApiParam type="IPlayer?" typeHref="/docs/api/players/iplayer" />
 

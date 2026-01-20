@@ -84,7 +84,7 @@ Guid RegisterCommand(string commandName, ICommandService.CommandListener handler
 
 - <ApiParam name="commandName" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The command name.
 - <ApiParam name="handler" type="ICommandService.CommandListener" typeHref="/docs/api/commands/icommandservice" /> — The handler callback for the command.
-- <ApiParam name="registerRaw" type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" /> — If set to false, the command will not starts with a `sw_` prefix.
+- <ApiParam name="registerRaw" type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" /> — If set to true, the command will not starts with a `sw_` prefix.
 - <ApiParam name="permission" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The permission required to use the command.
 
 <ApiLabel>Returns</ApiLabel>
@@ -105,7 +105,7 @@ void RegisterCommandAlias(string commandName, string alias, bool registerRaw = f
 
 - <ApiParam name="commandName" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The command name.
 - <ApiParam name="alias" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The alias.
-- <ApiParam name="registerRaw" type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" /> — If set to false, the alias will not starts with a `sw_` prefix.
+- <ApiParam name="registerRaw" type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" /> — If set to true, the alias will not starts with a `sw_` prefix.
 
 ### UnhookClientChat(Guid)
 

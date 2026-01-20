@@ -25,9 +25,17 @@ public struct CRecipientFilter
 
 ## Constructors
 
+### CRecipientFilter()
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L25" />
+
+```csharp
+public CRecipientFilter()
+```
+
 ### CRecipientFilter(NetChannelBufType_t, bool)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L24" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L29" />
 
 ```csharp
 public CRecipientFilter(NetChannelBufType_t BufType = NetChannelBufType_t.BUF_RELIABLE, bool bInitMessage = false)
@@ -104,7 +112,7 @@ public ulong RecipientsMask
 
 ### AddAllPlayers()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L61" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L66" />
 
 ```csharp
 public void AddAllPlayers()
@@ -112,7 +120,7 @@ public void AddAllPlayers()
 
 ### AddRecipient(int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L71" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L76" />
 
 ```csharp
 public void AddRecipient(int playerid)
@@ -124,7 +132,7 @@ public void AddRecipient(int playerid)
 
 ### FromMask(ulong)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L32" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L37" />
 
 ```csharp
 public static CRecipientFilter FromMask(ulong playerMask)
@@ -140,7 +148,7 @@ public static CRecipientFilter FromMask(ulong playerMask)
 
 ### FromPlayers(params int[])
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L39" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L44" />
 
 ```csharp
 public static CRecipientFilter FromPlayers(params int[] players)
@@ -156,7 +164,7 @@ public static CRecipientFilter FromPlayers(params int[] players)
 
 ### FromSingle(int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L49" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L54" />
 
 ```csharp
 public static CRecipientFilter FromSingle(int player)
@@ -172,7 +180,7 @@ public static CRecipientFilter FromSingle(int player)
 
 ### GetRecipientCount()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L85" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L90" />
 
 ```csharp
 public int GetRecipientCount()
@@ -184,7 +192,7 @@ public int GetRecipientCount()
 
 ### GetRecipients()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L98" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L103" />
 
 ```csharp
 public IEnumerable<int> GetRecipients()
@@ -196,7 +204,7 @@ public IEnumerable<int> GetRecipients()
 
 ### RemoveAllPlayers()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L66" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L71" />
 
 ```csharp
 public void RemoveAllPlayers()
@@ -204,7 +212,7 @@ public void RemoveAllPlayers()
 
 ### RemoveRecipient(int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L78" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L83" />
 
 ```csharp
 public void RemoveRecipient(int playerid)
@@ -216,7 +224,7 @@ public void RemoveRecipient(int playerid)
 
 ### ToMask()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L56" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L61" />
 
 ```csharp
 public ulong ToMask()

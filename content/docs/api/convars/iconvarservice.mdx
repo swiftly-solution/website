@@ -160,3 +160,36 @@ IConVar? FindAsString(string name)
 
 - <ApiParam type="IConVar?" typeHref="/docs/api/convars/iconvar" /> — The convar if found, null otherwise.
 
+### ReplicateToAll(string, string)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVarService.cs#L86" />
+
+Replicate the value of the convar to all clients.
+You can use this method to replicate those convars that don't exist on server.
+
+```csharp
+void ReplicateToAll(string name, string value)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="name" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The name of the convar.
+- <ApiParam name="value" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The value to replicate.
+
+### ReplicateToClient(int, string, string)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVarService.cs#L77" />
+
+Replicate the value of the convar to a specific client.
+You can use this method to replicate those convars that don't exist on server.
+
+```csharp
+void ReplicateToClient(int clientId, string name, string value)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="clientId" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> — The client id to replicate to.
+- <ApiParam name="name" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The name of the convar.
+- <ApiParam name="value" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The value to replicate.
+
