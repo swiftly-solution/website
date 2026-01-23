@@ -38,7 +38,7 @@ public interface CPhysicsProp : CBreakableProp, CBaseProp, CBaseAnimGraph, CBase
 
 ### AcceptDamageFromHeldObjects
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L78" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L84" />
 
 ```csharp
 ref bool AcceptDamageFromHeldObjects { get; }
@@ -48,9 +48,21 @@ ref bool AcceptDamageFromHeldObjects { get; }
 
 - <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
 
+### AllowObstacleConvexHullMerging
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L82" />
+
+```csharp
+ref bool AllowObstacleConvexHullMerging { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
+
 ### AttachedToReferenceFrame
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L92" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L98" />
 
 ```csharp
 ref bool AttachedToReferenceFrame { get; }
@@ -62,7 +74,7 @@ ref bool AttachedToReferenceFrame { get; }
 
 ### Awake
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L90" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L96" />
 
 ```csharp
 ref bool Awake { get; }
@@ -86,7 +98,7 @@ ref float BuoyancyScale { get; }
 
 ### CrateType
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L82" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L88" />
 
 ```csharp
 ref CPhysicsProp__CrateType_t CrateType { get; }
@@ -146,7 +158,7 @@ ref DynamicContinuousContactBehavior_t DynamicContinuousContactBehavior { get; }
 
 ### EnableUseOutput
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L80" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L86" />
 
 ```csharp
 ref bool EnableUseOutput { get; }
@@ -174,6 +186,18 @@ ref bool FirstCollisionAfterLaunch { get; }
 
 ```csharp
 ref bool ForceNavIgnore { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
+
+### ForceNavObstacleCut
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L80" />
+
+```csharp
+ref bool ForceNavObstacleCut { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
@@ -278,7 +302,7 @@ ref bool IsOverrideProp { get; }
 
 ### ItemCount
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L86" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L92" />
 
 ```csharp
 ISchemaFixedArray<int> ItemCount { get; }
@@ -434,7 +458,7 @@ ref CEntityIOOutput OnPlayerUse { get; }
 
 ### RemovableForAmmoBalancing
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L88" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L94" />
 
 ```csharp
 ref bool RemovableForAmmoBalancing { get; }
@@ -458,7 +482,7 @@ ref bool ShouldAutoConvertBackFromDebris { get; }
 
 ### StrItemClass
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L84" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L90" />
 
 ```csharp
 ISchemaStringFixedArray StrItemClass { get; }
@@ -492,11 +516,23 @@ ref bool TouchedByPlayer { get; }
 
 - <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
 
+### UpdateNavWhenMoving
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L78" />
+
+```csharp
+ref bool UpdateNavWhenMoving { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
+
 ## Methods
 
 ### AwakeUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L94" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsProp.cs#L100" />
 
 ```csharp
 void AwakeUpdated()

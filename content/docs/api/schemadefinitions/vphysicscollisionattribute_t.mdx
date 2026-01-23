@@ -25,7 +25,7 @@ public interface VPhysicsCollisionAttribute_t : ISchemaClass<VPhysicsCollisionAt
 
 ### CollisionFunctionMask
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L32" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L38" />
 
 ```csharp
 ref byte CollisionFunctionMask { get; }
@@ -37,10 +37,34 @@ ref byte CollisionFunctionMask { get; }
 
 ### CollisionGroup
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L30" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L36" />
 
 ```csharp
 ref byte CollisionGroup { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="byte" typeHref="https://learn.microsoft.com/dotnet/api/system.byte" />
+
+### DetailLayerMask
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L30" />
+
+```csharp
+ref ushort DetailLayerMask { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="ushort" typeHref="https://learn.microsoft.com/dotnet/api/system.uint16" />
+
+### DetailLayerMaskType
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L32" />
+
+```csharp
+ref byte DetailLayerMaskType { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
@@ -119,11 +143,23 @@ ref uint OwnerId { get; }
 
 - <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
 
+### TargetDetailLayer
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L34" />
+
+```csharp
+ref byte TargetDetailLayer { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="byte" typeHref="https://learn.microsoft.com/dotnet/api/system.byte" />
+
 ## Methods
 
 ### CollisionFunctionMaskUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L41" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L50" />
 
 ```csharp
 void CollisionFunctionMaskUpdated()
@@ -131,15 +167,31 @@ void CollisionFunctionMaskUpdated()
 
 ### CollisionGroupUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L40" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L49" />
 
 ```csharp
 void CollisionGroupUpdated()
 ```
 
+### DetailLayerMaskTypeUpdated()
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L47" />
+
+```csharp
+void DetailLayerMaskTypeUpdated()
+```
+
+### DetailLayerMaskUpdated()
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L46" />
+
+```csharp
+void DetailLayerMaskUpdated()
+```
+
 ### EntityIdUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L37" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L43" />
 
 ```csharp
 void EntityIdUpdated()
@@ -147,7 +199,7 @@ void EntityIdUpdated()
 
 ### HierarchyIdUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L39" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L45" />
 
 ```csharp
 void HierarchyIdUpdated()
@@ -155,7 +207,7 @@ void HierarchyIdUpdated()
 
 ### InteractsAsUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L34" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L40" />
 
 ```csharp
 void InteractsAsUpdated()
@@ -163,7 +215,7 @@ void InteractsAsUpdated()
 
 ### InteractsExcludeUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L36" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L42" />
 
 ```csharp
 void InteractsExcludeUpdated()
@@ -171,7 +223,7 @@ void InteractsExcludeUpdated()
 
 ### InteractsWithUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L35" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L41" />
 
 ```csharp
 void InteractsWithUpdated()
@@ -179,9 +231,17 @@ void InteractsWithUpdated()
 
 ### OwnerIdUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L38" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L44" />
 
 ```csharp
 void OwnerIdUpdated()
+```
+
+### TargetDetailLayerUpdated()
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L48" />
+
+```csharp
+void TargetDetailLayerUpdated()
 ```
 

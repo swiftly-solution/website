@@ -36,7 +36,7 @@ public interface CTriggerLerpObject : CBaseTrigger, CBaseToggle, CBaseModelEntit
 
 ### AttachTouchingObject
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLerpObject.cs#L38" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLerpObject.cs#L40" />
 
 ```csharp
 ref bool AttachTouchingObject { get; }
@@ -46,9 +46,21 @@ ref bool AttachTouchingObject { get; }
 
 - <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
 
+### AttachedEntityWasParented
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLerpObject.cs#L28" />
+
+```csharp
+ref bool AttachedEntityWasParented { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
+
 ### EntityToWaitForDisconnect
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLerpObject.cs#L40" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLerpObject.cs#L42" />
 
 ```csharp
 ref CHandle<CBaseEntity> EntityToWaitForDisconnect { get; }
@@ -72,7 +84,7 @@ ref float LerpDuration { get; }
 
 ### LerpEffect
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLerpObject.cs#L34" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLerpObject.cs#L36" />
 
 ```csharp
 string LerpEffect { get; set; }
@@ -84,7 +96,7 @@ string LerpEffect { get; set; }
 
 ### LerpRestoreMoveType
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLerpObject.cs#L28" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLerpObject.cs#L30" />
 
 ```csharp
 ref bool LerpRestoreMoveType { get; }
@@ -96,7 +108,7 @@ ref bool LerpRestoreMoveType { get; }
 
 ### LerpSound
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLerpObject.cs#L36" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLerpObject.cs#L38" />
 
 ```csharp
 string LerpSound { get; set; }
@@ -156,7 +168,7 @@ AttachmentHandle_t LerpTargetAttachment2 { get; }
 
 ### LerpingObjects
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLerpObject.cs#L32" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLerpObject.cs#L34" />
 
 ```csharp
 ref CUtlVector<lerpdata_t> LerpingObjects { get; }
@@ -168,7 +180,7 @@ ref CUtlVector<lerpdata_t> LerpingObjects { get; }
 
 ### OnDetached
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLerpObject.cs#L46" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLerpObject.cs#L48" />
 
 ```csharp
 ref CEntityIOOutput OnDetached { get; }
@@ -180,7 +192,7 @@ ref CEntityIOOutput OnDetached { get; }
 
 ### OnLerpFinished
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLerpObject.cs#L44" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLerpObject.cs#L46" />
 
 ```csharp
 ref CEntityIOOutput OnLerpFinished { get; }
@@ -192,7 +204,7 @@ ref CEntityIOOutput OnLerpFinished { get; }
 
 ### OnLerpStarted
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLerpObject.cs#L42" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLerpObject.cs#L44" />
 
 ```csharp
 ref CEntityIOOutput OnLerpStarted { get; }
@@ -204,7 +216,7 @@ ref CEntityIOOutput OnLerpStarted { get; }
 
 ### SingleLerpObject
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLerpObject.cs#L30" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerLerpObject.cs#L32" />
 
 ```csharp
 ref bool SingleLerpObject { get; }

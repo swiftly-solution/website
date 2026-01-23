@@ -11,13 +11,15 @@ title: CVoiceContainerEnvelope
 **Assembly**: SwiftlyS2.CS2.dll
 
 ```csharp
-public interface CVoiceContainerEnvelope : CVoiceContainerBase, ISchemaClass<CVoiceContainerBase>, ISchemaClass<CVoiceContainerEnvelope>, ISchemaField, ISchemaClass, INativeHandle
+public interface CVoiceContainerEnvelope : CVoiceContainerDefault, CVoiceContainerBase, ISchemaClass<CVoiceContainerBase>, ISchemaClass<CVoiceContainerDefault>, ISchemaClass<CVoiceContainerEnvelope>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
 #### Implements
 
+- [CVoiceContainerDefault](/docs/api/schemadefinitions/cvoicecontainerdefault)
 - [CVoiceContainerBase](/docs/api/schemadefinitions/cvoicecontainerbase)
 - [ISchemaClass\<CVoiceContainerBase\>](/docs/api/schemas/ischemaclasst)
+- [ISchemaClass\<CVoiceContainerDefault\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CVoiceContainerEnvelope\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaField](/docs/api/schemas/ischemafield)
 - [ISchemaClass](/docs/api/schemas/ischemaclass)

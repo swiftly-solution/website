@@ -10,6 +10,7 @@ Inherited from [CBaseModelEntity](/docs/api/datamaps/cbasemodelentity)
 
 | EntityKeyValues Name | Field Name | Field Type |
 | --- | --- | --- |
+| `solid` | `m_eSolidType` | `FIELD_UINT8` |
 | `starts_rotating` | `m_bIsRotating` | `FIELD_BOOLEAN` |
 | `angular_velocity` | `m_qAngularVelocity` | `FIELD_QANGLE` |
 | `time_to_reach_max_speed` | `m_flTimeToReachMaxSpeed` | `FIELD_FLOAT32` |
@@ -18,6 +19,10 @@ Inherited from [CBaseModelEntity](/docs/api/datamaps/cbasemodelentity)
 | `look_at_forced_up` | `m_vLookAtForcedUp` | `FIELD_VECTOR` |
 | `rotator_target_entity` | `m_strRotatorTarget` | `FIELD_STRING` |
 | `record_history` | `m_bRecordHistory` | `FIELD_BOOLEAN` |
+| `speed_scale` | `m_flSpeedScale` | `FIELD_FLOAT32` |
+| `speed_from_mover` | `m_iszSpeedFromMover` | `FIELD_STRING` |
+| `min_yaw_rotation` | `m_flMinYawRotation` | `FIELD_FLOAT32` |
+| `max_yaw_rotation` | `m_flMaxYawRotation` | `FIELD_FLOAT32` |
 | `rotate_type` | `m_eRotateType` | `FIELD_INT32` |
 
 ## Input
@@ -30,6 +35,7 @@ Inherited from [CBaseModelEntity](/docs/api/datamaps/cbasemodelentity)
 | `StartReverse` | `FIELD_VOID` |
 | `ReturnToPreviousOrientation` | `FIELD_VOID` |
 | `ReturnToInitialOrientation` | `FIELD_VOID` |
+| `SetRotateType` | `FIELD_INT32` |
 | `Pitch` | `FIELD_FLOAT32` |
 | `Yaw` | `FIELD_FLOAT32` |
 | `Roll` | `FIELD_FLOAT32` |

@@ -23,39 +23,63 @@ public interface SimpleConstraintSoundProfile : ISchemaClass<SimpleConstraintSou
 
 ## Properties
 
-### KeyPoints
+### KeyPointMaxSoundThreshold
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SimpleConstraintSoundProfile.cs#L20" />
 
 ```csharp
-ISchemaFixedArray<float> KeyPoints { get; }
+ref float KeyPointMaxSoundThreshold { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="ISchemaFixedArray&lt;float&gt;" typeHref="/docs/api/schemas/ischemafixedarrayt" />
+- <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
 
-### Keypoints
+### KeyPointMinSoundThreshold
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SimpleConstraintSoundProfile.cs#L18" />
 
 ```csharp
-ref SimpleConstraintSoundProfile__SimpleConstraintsSoundProfileKeypoints_t Keypoints { get; }
+ref float KeyPointMinSoundThreshold { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="SimpleConstraintSoundProfile__SimpleConstraintsSoundProfileKeypoints_t" typeHref="/docs/api/schemadefinitions/simpleconstraintsoundprofile__simpleconstraintssoundprofilekeypoints_t" />
+- <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
 
-### ReversalSoundThresholds
+### ReversalSoundThresholdLarge
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SimpleConstraintSoundProfile.cs#L26" />
+
+```csharp
+ref float ReversalSoundThresholdLarge { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
+
+### ReversalSoundThresholdMedium
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SimpleConstraintSoundProfile.cs#L24" />
+
+```csharp
+ref float ReversalSoundThresholdMedium { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
+
+### ReversalSoundThresholdSmall
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SimpleConstraintSoundProfile.cs#L22" />
 
 ```csharp
-ISchemaFixedArray<float> ReversalSoundThresholds { get; }
+ref float ReversalSoundThresholdSmall { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="ISchemaFixedArray&lt;float&gt;" typeHref="/docs/api/schemas/ischemafixedarrayt" />
+- <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
 

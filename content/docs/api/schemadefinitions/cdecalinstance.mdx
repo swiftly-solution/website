@@ -25,7 +25,7 @@ public interface CDecalInstance : ISchemaClass<CDecalInstance>, ISchemaField, IS
 
 ### AnimationScale
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDecalInstance.cs#L46" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDecalInstance.cs#L48" />
 
 ```csharp
 ref float AnimationScale { get; }
@@ -37,7 +37,7 @@ ref float AnimationScale { get; }
 
 ### AnimationStartTime
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDecalInstance.cs#L48" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDecalInstance.cs#L50" />
 
 ```csharp
 ref float AnimationStartTime { get; }
@@ -61,7 +61,7 @@ ref int BoneIndex { get; }
 
 ### BoundingRadiusSqr
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDecalInstance.cs#L58" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDecalInstance.cs#L60" />
 
 ```csharp
 ref float BoundingRadiusSqr { get; }
@@ -95,6 +95,18 @@ ref CGlobalSymbol DecalGroup { get; }
 
 - <ApiParam type="CGlobalSymbol" typeHref="/docs/api/natives/cglobalsymbol" />
 
+### DecalRtEncoding
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDecalInstance.cs#L68" />
+
+```csharp
+ref DecalRtEncoding_t DecalRtEncoding { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="DecalRtEncoding_t" typeHref="/docs/api/schemadefinitions/decalrtencoding_t" />
+
 ### Depth
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDecalInstance.cs#L44" />
@@ -109,7 +121,7 @@ ref float Depth { get; }
 
 ### DoDecalLightmapping
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDecalInstance.cs#L64" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDecalInstance.cs#L66" />
 
 ```csharp
 ref bool DoDecalLightmapping { get; }
@@ -133,7 +145,7 @@ ref CHandle<CBaseEntity> Entity { get; }
 
 ### FadeDuration
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDecalInstance.cs#L54" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDecalInstance.cs#L56" />
 
 ```csharp
 ref float FadeDuration { get; }
@@ -145,7 +157,7 @@ ref float FadeDuration { get; }
 
 ### FadeStartTime
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDecalInstance.cs#L52" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDecalInstance.cs#L54" />
 
 ```csharp
 ref float FadeStartTime { get; }
@@ -181,7 +193,7 @@ ref float Height { get; }
 
 ### IsAdjacent
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDecalInstance.cs#L62" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDecalInstance.cs#L64" />
 
 ```csharp
 ref bool IsAdjacent { get; }
@@ -193,7 +205,7 @@ ref bool IsAdjacent { get; }
 
 ### LightingOriginOffset
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDecalInstance.cs#L56" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDecalInstance.cs#L58" />
 
 ```csharp
 ref float LightingOriginOffset { get; }
@@ -229,7 +241,7 @@ ref Vector NormalLS { get; }
 
 ### PlaceTime
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDecalInstance.cs#L50" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDecalInstance.cs#L52" />
 
 ```csharp
 GameTime_t PlaceTime { get; }
@@ -251,6 +263,18 @@ ref Vector PositionLS { get; }
 
 - <ApiParam type="Vector" typeHref="/docs/api/natives/vector" />
 
+### ProjectToBackfaces
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDecalInstance.cs#L70" />
+
+```csharp
+ref bool ProjectToBackfaces { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
+
 ### SAxisLS
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDecalInstance.cs#L34" />
@@ -265,7 +289,7 @@ ref Vector SAxisLS { get; }
 
 ### SequenceIndex
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDecalInstance.cs#L60" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDecalInstance.cs#L62" />
 
 ```csharp
 ref short SequenceIndex { get; }
@@ -287,17 +311,17 @@ ref CUtlStringToken SequenceName { get; }
 
 - <ApiParam type="CUtlStringToken" typeHref="/docs/api/natives/cutlstringtoken" />
 
-### SkinnedModelMode
+### Transform
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDecalInstance.cs#L66" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDecalInstance.cs#L46" />
 
 ```csharp
-ref DecalMode_t SkinnedModelMode { get; }
+ref CTransform Transform { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="DecalMode_t" typeHref="/docs/api/schemadefinitions/decalmode_t" />
+- <ApiParam type="CTransform" typeHref="/docs/api/natives/ctransform" />
 
 ### TriangleIndex
 

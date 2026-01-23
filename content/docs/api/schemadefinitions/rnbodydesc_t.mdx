@@ -23,18 +23,6 @@ public interface RnBodyDesc_t : ISchemaClass<RnBodyDesc_t>, ISchemaField, ISchem
 
 ## Properties
 
-### AngularBuoyancyDrag
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L50" />
-
-```csharp
-ref float AngularBuoyancyDrag { get; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
-
 ### AngularDamping
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L42" />
@@ -47,12 +35,24 @@ ref float AngularDamping { get; }
 
 - <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
 
-### AngularDrag
+### AngularDragScale
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L46" />
 
 ```csharp
-ref float AngularDrag { get; }
+ref float AngularDragScale { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
+
+### AngularFluidDragScale
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L50" />
+
+```csharp
+ref float AngularFluidDragScale { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
@@ -83,24 +83,12 @@ ref int BodyType { get; }
 
 - <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
 
-### BuoyancyDragEnabled
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L82" />
-
-```csharp
-ref bool BuoyancyDragEnabled { get; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
-
-### BuoyancyFactor
+### BuoyancyScale
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L56" />
 
 ```csharp
-ref float BuoyancyFactor { get; }
+ref float BuoyancyScale { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
@@ -133,7 +121,7 @@ ref bool DragEnabled { get; }
 
 ### DynamicContinuousContactBehavior
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L90" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L88" />
 
 ```csharp
 ref DynamicContinuousContactBehavior_t DynamicContinuousContactBehavior { get; }
@@ -193,7 +181,7 @@ ref float GameMass { get; }
 
 ### Gravity
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L84" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L82" />
 
 ```csharp
 ref Vector Gravity { get; }
@@ -217,7 +205,7 @@ ref float GravityScale { get; }
 
 ### HasShadowController
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L88" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L86" />
 
 ```csharp
 ref bool HasShadowController { get; }
@@ -275,18 +263,6 @@ ref Vector LastAwakeTorqueAccum { get; }
 
 - <ApiParam type="Vector" typeHref="/docs/api/natives/vector" />
 
-### LinearBuoyancyDrag
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L48" />
-
-```csharp
-ref float LinearBuoyancyDrag { get; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
-
 ### LinearDamping
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L40" />
@@ -299,12 +275,24 @@ ref float LinearDamping { get; }
 
 - <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
 
-### LinearDrag
+### LinearDragScale
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L44" />
 
 ```csharp
-ref float LinearDrag { get; }
+ref float LinearDragScale { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
+
+### LinearFluidDragScale
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L48" />
+
+```csharp
+ref float LinearFluidDragScale { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
@@ -445,7 +433,7 @@ ref bool Sleeping { get; }
 
 ### SpeculativeEnabled
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L86" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnBodyDesc_t.cs#L84" />
 
 ```csharp
 ref bool SpeculativeEnabled { get; }

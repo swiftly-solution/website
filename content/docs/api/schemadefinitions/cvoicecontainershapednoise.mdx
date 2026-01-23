@@ -11,13 +11,15 @@ title: CVoiceContainerShapedNoise
 **Assembly**: SwiftlyS2.CS2.dll
 
 ```csharp
-public interface CVoiceContainerShapedNoise : CVoiceContainerBase, ISchemaClass<CVoiceContainerBase>, ISchemaClass<CVoiceContainerShapedNoise>, ISchemaField, ISchemaClass, INativeHandle
+public interface CVoiceContainerShapedNoise : CVoiceContainerGenerator, CVoiceContainerBase, ISchemaClass<CVoiceContainerBase>, ISchemaClass<CVoiceContainerGenerator>, ISchemaClass<CVoiceContainerShapedNoise>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
 #### Implements
 
+- [CVoiceContainerGenerator](/docs/api/schemadefinitions/cvoicecontainergenerator)
 - [CVoiceContainerBase](/docs/api/schemadefinitions/cvoicecontainerbase)
 - [ISchemaClass\<CVoiceContainerBase\>](/docs/api/schemas/ischemaclasst)
+- [ISchemaClass\<CVoiceContainerGenerator\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CVoiceContainerShapedNoise\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaField](/docs/api/schemas/ischemafield)
 - [ISchemaClass](/docs/api/schemas/ischemaclass)

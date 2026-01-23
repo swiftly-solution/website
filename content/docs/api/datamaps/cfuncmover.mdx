@@ -17,6 +17,7 @@ Inherited from [CBaseModelEntity](/docs/api/datamaps/cbasemodelentity)
 | `starts_in_reverse` | `m_bIsReversing` | `FIELD_BOOLEAN` |
 | `starts_at_closest_point` | `m_bStartAtClosestPoint` | `FIELD_BOOLEAN` |
 | `starts_at_end` | `m_bStartAtEnd` | `FIELD_BOOLEAN` |
+| `starts_following_closest_mover` | `m_bStartFollowingClosestMover` | `FIELD_BOOLEAN` |
 | `time_to_reach_max_speed` | `m_flTimeToReachMaxSpeed` | `FIELD_FLOAT32` |
 | `distance_to_reach_max_speed` | `m_flDistanceToReachMaxSpeed` | `FIELD_FLOAT32` |
 | `time_to_reach_zero_speed` | `m_flTimeToReachZeroSpeed` | `FIELD_FLOAT32` |
@@ -33,6 +34,10 @@ Inherited from [CBaseModelEntity](/docs/api/datamaps/cbasemodelentity)
 | `AllowMovableNavMeshDockingOnEntireEntity` | `m_bAllowMovableNavMeshDockingOnEntireEntity` | `FIELD_BOOLEAN` |
 | `orientation_match_entity` | `m_iszOrientationMatchEntityName` | `FIELD_STRING` |
 | `time_to_traverse_to_next_node` | `m_flTimeToTraverseToNextNode` | `FIELD_FLOAT32` |
+| `follow_other_mover_entity` | `m_iszFollowMoverEntityName` | `FIELD_STRING` |
+| `follow_other_mover_distance` | `m_flFollowMoverDistance` | `FIELD_FLOAT32` |
+| `follow_other_mover_spring_strength` | `m_flFollowMoverSpringStrength` | `FIELD_FLOAT32` |
+| `follow_other_mover_constraint` | `m_eFollowConstraint` | `FIELD_INT32` |
 | `solid` | `m_eSolidType` | `FIELD_UINT8` |
 | `move_type` | `m_eMoveType` | `FIELD_INT32` |
 | `orientation_update` | `m_eOrientationUpdate` | `FIELD_INT32` |
@@ -46,6 +51,7 @@ Inherited from [CBaseModelEntity](/docs/api/datamaps/cbasemodelentity)
 | `StartForward` | `FIELD_VOID` |
 | `StartReverse` | `FIELD_VOID` |
 | `Stop` | `FIELD_VOID` |
+| `StopImmediate` | `FIELD_VOID` |
 | `Toggle` | `FIELD_VOID` |
 | `ToggleDirection` | `FIELD_VOID` |
 | `Pause` | `FIELD_VOID` |
@@ -58,6 +64,7 @@ Inherited from [CBaseModelEntity](/docs/api/datamaps/cbasemodelentity)
 | `SetSpeed` | `FIELD_FLOAT32` |
 | `SetSpeedImmediate` | `FIELD_FLOAT32` |
 | `SetTimeToReachMaxSpeed` | `FIELD_FLOAT32` |
+| `SetTimeToReachZeroSpeed` | `FIELD_FLOAT32` |
 | `SetTimeToBlendToNewOrientation` | `FIELD_FLOAT32` |
 | `SetOrientationMode` | `FIELD_INT32` |
 | `SetFollowEntity` | `FIELD_STRING` |
@@ -67,6 +74,10 @@ Inherited from [CBaseModelEntity](/docs/api/datamaps/cbasemodelentity)
 | `SetFollowDistance` | `FIELD_FLOAT32` |
 | `SetFollowMinimumSpeed` | `FIELD_FLOAT32` |
 | `SetTimeToTraverseToNextNode` | `FIELD_FLOAT32` |
+| `SetMoveType` | `FIELD_INT32` |
+| `SetFollowMoverEntity` | `FIELD_STRING` |
+| `SetFollowMoverEntityToClosestOnSpline` | `FIELD_VOID` |
+| `DeleteFollowMoverSpringConstraint` | `FIELD_VOID` |
 
 ## Output
 

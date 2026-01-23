@@ -80,7 +80,7 @@ ref float ImpactEnergyScale { get; }
 
 ### LastPhysicsInfluenceTime
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakable.cs#L47" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakable.cs#L49" />
 
 ```csharp
 GameTime_t LastPhysicsInfluenceTime { get; }
@@ -116,7 +116,7 @@ ref int MinHealthDmg { get; }
 
 ### OnBreak
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakable.cs#L38" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakable.cs#L40" />
 
 ```csharp
 ref CEntityIOOutput OnBreak { get; }
@@ -128,7 +128,7 @@ ref CEntityIOOutput OnBreak { get; }
 
 ### OnHealthChanged
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakable.cs#L41" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakable.cs#L43" />
 
 ```csharp
 SchemaUntypedField OnHealthChanged { get; }
@@ -137,6 +137,18 @@ SchemaUntypedField OnHealthChanged { get; }
 <ApiLabel>Property Value</ApiLabel>
 
 - <ApiParam type="SchemaUntypedField" typeHref="/docs/api/schemas/schemauntypedfield" />
+
+### OnStartDeath
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakable.cs#L38" />
+
+```csharp
+ref CEntityIOOutput OnStartDeath { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
 ### OverrideBlockLOS
 
@@ -152,7 +164,7 @@ ref EOverrideBlockLOS_t OverrideBlockLOS { get; }
 
 ### PerformanceMode
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakable.cs#L43" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakable.cs#L45" />
 
 ```csharp
 ref PerformanceMode_t PerformanceMode { get; }
@@ -164,7 +176,7 @@ ref PerformanceMode_t PerformanceMode { get; }
 
 ### PhysicsAttacker
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakable.cs#L45" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakable.cs#L47" />
 
 ```csharp
 ref CHandle<CBasePlayerPawn> PhysicsAttacker { get; }
@@ -214,7 +226,7 @@ string SpawnObject { get; set; }
 
 ### CPropDataComponentUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakable.cs#L49" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakable.cs#L51" />
 
 ```csharp
 void CPropDataComponentUpdated()

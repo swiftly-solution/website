@@ -27,54 +27,6 @@ public interface CPlayer_MovementServices_Humanoid : CPlayer_MovementServices, C
 
 ## Properties
 
-### CrouchState
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L24" />
-
-```csharp
-ref uint CrouchState { get; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
-
-### CrouchTransitionStartTime
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L26" />
-
-```csharp
-GameTime_t CrouchTransitionStartTime { get; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="GameTime_t" typeHref="/docs/api/schemadefinitions/gametime_t" />
-
-### Ducked
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L28" />
-
-```csharp
-ref bool Ducked { get; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
-
-### Ducking
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L30" />
-
-```csharp
-ref bool Ducking { get; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
-
 ### FallVelocity
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L20" />
@@ -89,7 +41,7 @@ ref float FallVelocity { get; }
 
 ### GroundNormal
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L34" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L22" />
 
 ```csharp
 ref Vector GroundNormal { get; }
@@ -99,33 +51,9 @@ ref Vector GroundNormal { get; }
 
 - <ApiParam type="Vector" typeHref="/docs/api/natives/vector" />
 
-### InCrouch
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L22" />
-
-```csharp
-ref bool InCrouch { get; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
-
-### InDuckJump
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L32" />
-
-```csharp
-ref bool InDuckJump { get; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
-
 ### SmoothedVelocity
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L42" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L30" />
 
 ```csharp
 ref Vector SmoothedVelocity { get; }
@@ -149,7 +77,7 @@ ref float StepSoundTime { get; }
 
 ### Stepside
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L40" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L28" />
 
 ```csharp
 ref int Stepside { get; }
@@ -161,7 +89,7 @@ ref int Stepside { get; }
 
 ### SurfaceFriction
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L36" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L24" />
 
 ```csharp
 ref float SurfaceFriction { get; }
@@ -173,7 +101,7 @@ ref float SurfaceFriction { get; }
 
 ### SurfaceProps
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L38" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L26" />
 
 ```csharp
 ref CUtlStringToken SurfaceProps { get; }
@@ -185,59 +113,11 @@ ref CUtlStringToken SurfaceProps { get; }
 
 ## Methods
 
-### CrouchStateUpdated()
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L46" />
-
-```csharp
-void CrouchStateUpdated()
-```
-
-### CrouchTransitionStartTimeUpdated()
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L47" />
-
-```csharp
-void CrouchTransitionStartTimeUpdated()
-```
-
-### DuckedUpdated()
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L48" />
-
-```csharp
-void DuckedUpdated()
-```
-
-### DuckingUpdated()
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L49" />
-
-```csharp
-void DuckingUpdated()
-```
-
 ### FallVelocityUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L44" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L32" />
 
 ```csharp
 void FallVelocityUpdated()
-```
-
-### InCrouchUpdated()
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L45" />
-
-```csharp
-void InCrouchUpdated()
-```
-
-### InDuckJumpUpdated()
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L50" />
-
-```csharp
-void InDuckJumpUpdated()
 ```
 

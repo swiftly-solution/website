@@ -11,13 +11,15 @@ title: CVoiceContainerRealtimeFMSineWave
 **Assembly**: SwiftlyS2.CS2.dll
 
 ```csharp
-public interface CVoiceContainerRealtimeFMSineWave : CVoiceContainerBase, ISchemaClass<CVoiceContainerBase>, ISchemaClass<CVoiceContainerRealtimeFMSineWave>, ISchemaField, ISchemaClass, INativeHandle
+public interface CVoiceContainerRealtimeFMSineWave : CVoiceContainerGenerator, CVoiceContainerBase, ISchemaClass<CVoiceContainerBase>, ISchemaClass<CVoiceContainerGenerator>, ISchemaClass<CVoiceContainerRealtimeFMSineWave>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
 #### Implements
 
+- [CVoiceContainerGenerator](/docs/api/schemadefinitions/cvoicecontainergenerator)
 - [CVoiceContainerBase](/docs/api/schemadefinitions/cvoicecontainerbase)
 - [ISchemaClass\<CVoiceContainerBase\>](/docs/api/schemas/ischemaclasst)
+- [ISchemaClass\<CVoiceContainerGenerator\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CVoiceContainerRealtimeFMSineWave\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaField](/docs/api/schemas/ischemafield)
 - [ISchemaClass](/docs/api/schemas/ischemaclass)

@@ -37,7 +37,7 @@ ref Vector ForwardAxis { get; }
 
 ### PlayReversalSound
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ConstraintSoundInfo.cs#L32" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ConstraintSoundInfo.cs#L36" />
 
 ```csharp
 ref bool PlayReversalSound { get; }
@@ -49,7 +49,7 @@ ref bool PlayReversalSound { get; }
 
 ### PlayTravelSound
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ConstraintSoundInfo.cs#L30" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ConstraintSoundInfo.cs#L34" />
 
 ```csharp
 ref bool PlayTravelSound { get; }
@@ -59,17 +59,41 @@ ref bool PlayTravelSound { get; }
 
 - <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
 
-### ReversalSounds
+### ReversalSoundLarge
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ConstraintSoundInfo.cs#L28" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ConstraintSoundInfo.cs#L32" />
 
 ```csharp
-ISchemaStringFixedArray ReversalSounds { get; }
+string ReversalSoundLarge { get; set; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="ISchemaStringFixedArray" typeHref="/docs/api/schemas/ischemastringfixedarray" />
+- <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
+
+### ReversalSoundMedium
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ConstraintSoundInfo.cs#L30" />
+
+```csharp
+string ReversalSoundMedium { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
+
+### ReversalSoundSmall
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ConstraintSoundInfo.cs#L28" />
+
+```csharp
+string ReversalSoundSmall { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
 
 ### Sampler
 

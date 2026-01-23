@@ -11,13 +11,17 @@ title: CVoiceContainerGranulator
 **Assembly**: SwiftlyS2.CS2.dll
 
 ```csharp
-public interface CVoiceContainerGranulator : CVoiceContainerBase, ISchemaClass<CVoiceContainerBase>, ISchemaClass<CVoiceContainerGranulator>, ISchemaField, ISchemaClass, INativeHandle
+public interface CVoiceContainerGranulator : CVoiceContainerAsyncGenerator, CVoiceContainerGenerator, CVoiceContainerBase, ISchemaClass<CVoiceContainerBase>, ISchemaClass<CVoiceContainerGenerator>, ISchemaClass<CVoiceContainerAsyncGenerator>, ISchemaClass<CVoiceContainerGranulator>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
 #### Implements
 
+- [CVoiceContainerAsyncGenerator](/docs/api/schemadefinitions/cvoicecontainerasyncgenerator)
+- [CVoiceContainerGenerator](/docs/api/schemadefinitions/cvoicecontainergenerator)
 - [CVoiceContainerBase](/docs/api/schemadefinitions/cvoicecontainerbase)
 - [ISchemaClass\<CVoiceContainerBase\>](/docs/api/schemas/ischemaclasst)
+- [ISchemaClass\<CVoiceContainerGenerator\>](/docs/api/schemas/ischemaclasst)
+- [ISchemaClass\<CVoiceContainerAsyncGenerator\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CVoiceContainerGranulator\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaField](/docs/api/schemas/ischemafield)
 - [ISchemaClass](/docs/api/schemas/ischemaclass)

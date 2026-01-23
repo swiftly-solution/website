@@ -138,6 +138,30 @@ ref Vector LookAtForcedUp { get; }
 
 - <ApiParam type="Vector" typeHref="/docs/api/natives/vector" />
 
+### MaxYawRotation
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L98" />
+
+```csharp
+ref float MaxYawRotation { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
+
+### MinYawRotation
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L96" />
+
+```csharp
+ref float MinYawRotation { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
+
 ### OnOscillate
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L48" />
@@ -354,6 +378,18 @@ ref CHandle<CBaseEntity> RotatorTarget { get; }
 
 - <ApiParam type="CHandle&lt;CBaseEntity&gt;" typeHref="/docs/api/natives/chandlet" />
 
+### SolidType
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L88" />
+
+```csharp
+ref SolidType_t SolidType { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="SolidType_t" typeHref="/docs/api/schemadefinitions/solidtype_t" />
+
 ### SpaceOverride
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L70" />
@@ -365,6 +401,42 @@ ref RotatorTargetSpace_t SpaceOverride { get; }
 <ApiLabel>Property Value</ApiLabel>
 
 - <ApiParam type="RotatorTargetSpace_t" typeHref="/docs/api/schemadefinitions/rotatortargetspace_t" />
+
+### SpeedFromMover
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L90" />
+
+```csharp
+ref CHandle<CFuncMover> SpeedFromMover { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CHandle&lt;CFuncMover&gt;" typeHref="/docs/api/natives/chandlet" />
+
+### SpeedFromMover1
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L92" />
+
+```csharp
+string SpeedFromMover1 { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
+
+### SpeedScale
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L94" />
+
+```csharp
+ref float SpeedScale { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
 
 ### StrRotatorTarget
 

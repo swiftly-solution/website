@@ -11,14 +11,16 @@ title: CVoiceContainerAmpedDecayingSineWave
 **Assembly**: SwiftlyS2.CS2.dll
 
 ```csharp
-public interface CVoiceContainerAmpedDecayingSineWave : CVoiceContainerDecayingSineWave, CVoiceContainerBase, ISchemaClass<CVoiceContainerBase>, ISchemaClass<CVoiceContainerDecayingSineWave>, ISchemaClass<CVoiceContainerAmpedDecayingSineWave>, ISchemaField, ISchemaClass, INativeHandle
+public interface CVoiceContainerAmpedDecayingSineWave : CVoiceContainerDecayingSineWave, CVoiceContainerGenerator, CVoiceContainerBase, ISchemaClass<CVoiceContainerBase>, ISchemaClass<CVoiceContainerGenerator>, ISchemaClass<CVoiceContainerDecayingSineWave>, ISchemaClass<CVoiceContainerAmpedDecayingSineWave>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
 #### Implements
 
 - [CVoiceContainerDecayingSineWave](/docs/api/schemadefinitions/cvoicecontainerdecayingsinewave)
+- [CVoiceContainerGenerator](/docs/api/schemadefinitions/cvoicecontainergenerator)
 - [CVoiceContainerBase](/docs/api/schemadefinitions/cvoicecontainerbase)
 - [ISchemaClass\<CVoiceContainerBase\>](/docs/api/schemas/ischemaclasst)
+- [ISchemaClass\<CVoiceContainerGenerator\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CVoiceContainerDecayingSineWave\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CVoiceContainerAmpedDecayingSineWave\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaField](/docs/api/schemas/ischemafield)

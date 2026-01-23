@@ -40,6 +40,18 @@ ref bool Disabled { get; }
 
 - <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
 
+### FastRefresh
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L38" />
+
+```csharp
+ref bool FastRefresh { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
+
 ### LastPosition
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L24" />
@@ -54,7 +66,7 @@ ref Vector LastPosition { get; }
 
 ### OperatorName
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L28" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L30" />
 
 ```csharp
 string OperatorName { get; set; }
@@ -66,7 +78,7 @@ string OperatorName { get; set; }
 
 ### OpvarIndex
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L32" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L34" />
 
 ```csharp
 ref int OpvarIndex { get; }
@@ -78,7 +90,7 @@ ref int OpvarIndex { get; }
 
 ### OpvarName
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L30" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L32" />
 
 ```csharp
 string OpvarName { get; set; }
@@ -87,6 +99,18 @@ string OpvarName { get; set; }
 <ApiLabel>Property Value</ApiLabel>
 
 - <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
+
+### RefreshTime
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L26" />
+
+```csharp
+ref float RefreshTime { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
 
 ### Source
 
@@ -114,7 +138,7 @@ string SourceEntityName { get; set; }
 
 ### StackName
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L26" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L28" />
 
 ```csharp
 string StackName { get; set; }
@@ -126,7 +150,7 @@ string StackName { get; set; }
 
 ### UseAutoCompare
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L34" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L36" />
 
 ```csharp
 ref bool UseAutoCompare { get; }
@@ -138,9 +162,17 @@ ref bool UseAutoCompare { get; }
 
 ## Methods
 
+### FastRefreshUpdated()
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L45" />
+
+```csharp
+void FastRefreshUpdated()
+```
+
 ### OperatorNameUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L37" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L41" />
 
 ```csharp
 void OperatorNameUpdated()
@@ -148,7 +180,7 @@ void OperatorNameUpdated()
 
 ### OpvarIndexUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L39" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L43" />
 
 ```csharp
 void OpvarIndexUpdated()
@@ -156,7 +188,7 @@ void OpvarIndexUpdated()
 
 ### OpvarNameUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L38" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L42" />
 
 ```csharp
 void OpvarNameUpdated()
@@ -164,7 +196,7 @@ void OpvarNameUpdated()
 
 ### StackNameUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L36" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L40" />
 
 ```csharp
 void StackNameUpdated()
@@ -172,7 +204,7 @@ void StackNameUpdated()
 
 ### UseAutoCompareUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L40" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L44" />
 
 ```csharp
 void UseAutoCompareUpdated()
