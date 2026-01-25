@@ -77,12 +77,24 @@ var element = "<span class=\"fontStyle-m CriticalText\">Critical text</span>";
 <Tabs items={['Color Names', 'Hex Codes']}>
   <Tab value="Color Names">
     ```csharp
-    var red = "<span color=\"red\">Red</span>";
+    // Valid color names in Panorama UI:
+    var darkred = "<span color=\"darkred\">Dark Red</span>";
     var green = "<span color=\"green\">Green</span>";
-    var blue = "<span color=\"blue\">Blue</span>";
-    var white = "<span color=\"white\">White</span>";
+    var lightyellow = "<span color=\"lightyellow\">Light Yellow</span>";
+    var lightblue = "<span color=\"lightblue\">Light Blue</span>";
+    var olive = "<span color=\"olive\">Olive</span>";
+    var lime = "<span color=\"lime\">Lime</span>";
+    var red = "<span color=\"red\">Red</span>";
+    var purple = "<span color=\"purple\">Purple</span>";
+    var grey = "<span color=\"grey\">Grey</span>";
     var yellow = "<span color=\"yellow\">Yellow</span>";
-    var cyan = "<span color=\"cyan\">Cyan</span>";
+    var gold = "<span color=\"gold\">Gold</span>";
+    var silver = "<span color=\"silver\">Silver</span>";
+    var blue = "<span color=\"blue\">Blue</span>";
+    var darkblue = "<span color=\"darkblue\">Dark Blue</span>";
+    var bluegrey = "<span color=\"bluegrey\">Blue Grey</span>";
+    var magenta = "<span color=\"magenta\">Magenta</span>";
+    var lightred = "<span color=\"lightred\">Light Red</span>";
     ```
   </Tab>
   <Tab value="Hex Codes">
@@ -164,9 +176,9 @@ Create structured messages with titles and lists:
 
 ```csharp
 var title = "<span color=\"yellow\" class=\"fontSize-l\">Server Rules</span>";
-var rule1 = "<span color=\"white\">• Be respectful to other players</span>";
-var rule2 = "<span color=\"white\">• No cheating or exploiting</span>";
-var rule3 = "<span color=\"white\">• Have fun!</span>";
+var rule1 = "<span>• Be respectful to other players</span>";
+var rule2 = "<span>• No cheating or exploiting</span>";
+var rule3 = "<span>• Have fun!</span>";
 
 var message = $"{title}<br><br>{rule1}<br>{rule2}<br>{rule3}";
 Core.PlayerManager.SendCenterHTML(message, 15);
@@ -179,7 +191,7 @@ var playerName = "Player1";
 var status = "ready";
 var statusColor = status == "ready" ? "green" : "red";
 
-var message = $"<span color=\"white\">{playerName}</span> is <span color=\"{statusColor}\">{status}</span>";
+var message = $"<span>{playerName}</span> is <span color=\"{statusColor}\">{status}</span>";
 Core.PlayerManager.SendCenterHTML(message, 5);
 ```
 
@@ -191,7 +203,7 @@ var filled = progress / 10;
 var empty = 10 - filled;
 
 var bar = new string('█', filled) + new string('░', empty);
-var message = $"<span color=\"cyan\">Loading:</span> <span color=\"green\">{bar}</span> <span color=\"white\">{progress}%</span>";
+var message = $"<span color=\"cyan\">Loading:</span> <span color=\"green\">{bar}</span> <span>{progress}%</span>";
 
 Core.PlayerManager.SendCenterHTML(message, 3);
 ```
