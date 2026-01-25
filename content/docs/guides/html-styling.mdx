@@ -76,26 +76,31 @@ var element = "<span class=\"fontStyle-m CriticalText\">Critical text</span>";
 
 <Tabs items={['Color Names', 'Hex Codes']}>
   <Tab value="Color Names">
+    Valid color names in Panorama UI:
+    
     ```csharp
-    // Valid color names in Panorama UI:
-    var darkred = "<span color=\"darkred\">Dark Red</span>";
-    var green = "<span color=\"green\">Green</span>";
-    var lightyellow = "<span color=\"lightyellow\">Light Yellow</span>";
-    var lightblue = "<span color=\"lightblue\">Light Blue</span>";
-    var olive = "<span color=\"olive\">Olive</span>";
-    var lime = "<span color=\"lime\">Lime</span>";
-    var red = "<span color=\"red\">Red</span>";
-    var purple = "<span color=\"purple\">Purple</span>";
-    var grey = "<span color=\"grey\">Grey</span>";
-    var yellow = "<span color=\"yellow\">Yellow</span>";
-    var gold = "<span color=\"gold\">Gold</span>";
-    var silver = "<span color=\"silver\">Silver</span>";
-    var blue = "<span color=\"blue\">Blue</span>";
-    var darkblue = "<span color=\"darkblue\">Dark Blue</span>";
-    var bluegrey = "<span color=\"bluegrey\">Blue Grey</span>";
-    var magenta = "<span color=\"magenta\">Magenta</span>";
-    var lightred = "<span color=\"lightred\">Light Red</span>";
+    var message = "<span color=\"red\">Red Text</span>";
     ```
+    
+    <div className="grid grid-cols-2 md:grid-cols-3 gap-2 my-4">
+      <code style={{color: '#8B0000'}}>darkred</code>
+      <code style={{color: '#008000'}}>green</code>
+      <code style={{color: '#FFFFE0'}}>lightyellow</code>
+      <code style={{color: '#ADD8E6'}}>lightblue</code>
+      <code style={{color: '#808000'}}>olive</code>
+      <code style={{color: '#00FF00'}}>lime</code>
+      <code style={{color: '#FF0000'}}>red</code>
+      <code style={{color: '#800080'}}>purple</code>
+      <code style={{color: '#808080'}}>grey</code>
+      <code style={{color: '#FFFF00'}}>yellow</code>
+      <code style={{color: '#FFD700'}}>gold</code>
+      <code style={{color: '#C0C0C0'}}>silver</code>
+      <code style={{color: '#0000FF'}}>blue</code>
+      <code style={{color: '#00008B'}}>darkblue</code>
+      <code style={{color: '#6699CC'}}>bluegrey</code>
+      <code style={{color: '#FF00FF'}}>magenta</code>
+      <code style={{color: '#FF6666'}}>lightred</code>
+    </div>
   </Tab>
   <Tab value="Hex Codes">
     ```csharp
