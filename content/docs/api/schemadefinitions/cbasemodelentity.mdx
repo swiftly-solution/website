@@ -470,6 +470,48 @@ void FadeMinDistUpdated()
 void FadeScaleUpdated()
 ```
 
+### GetMeshGroupMask()
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseModelEntity.cs#L23" />
+
+Gets the model meshgroupmask of the entity.
+
+```csharp
+ulong? GetMeshGroupMask()
+```
+
+<ApiLabel>Returns</ApiLabel>
+
+- <ApiParam type="ulong?" typeHref="https://learn.microsoft.com/dotnet/api/system.uint64" />
+
+### GetModel()
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseModelEntity.cs#L17" />
+
+Gets the model of the entity.
+
+```csharp
+string? GetModel()
+```
+
+<ApiLabel>Returns</ApiLabel>
+
+- <ApiParam type="string?" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
+
+### GetSkeletonInstance()
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseModelEntity.cs#L11" />
+
+Gets the skeletance instance of the entity.
+
+```csharp
+CSkeletonInstance? GetSkeletonInstance()
+```
+
+<ApiLabel>Returns</ApiLabel>
+
+- <ApiParam type="CSkeletonInstance?" typeHref="/docs/api/schemadefinitions/cskeletoninstance" />
+
 ### GlowBackfaceMultUpdated()
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L92" />
@@ -544,7 +586,7 @@ void RenderUpdated()
 
 ### SetBodygroupByName(string, int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseModelEntity.cs#L27" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseModelEntity.cs#L51" />
 
 Sets the bodygroup to the entity.
 
@@ -562,7 +604,7 @@ void SetBodygroupByName(string group, int value)
 
 ### SetBodygroupByNameAsync(string, int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseModelEntity.cs#L35" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseModelEntity.cs#L59" />
 
 Sets the bodygroup to the entity asynchronously.
 
@@ -579,9 +621,23 @@ Task SetBodygroupByNameAsync(string group, int value)
 
 - <ApiParam type="Task" typeHref="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task" />
 
+### SetMeshGroupMask(ulong)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseModelEntity.cs#L29" />
+
+Sets the model meshgroupmask of the entity.
+
+```csharp
+void SetMeshGroupMask(ulong meshGroupMask)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="meshGroupMask" type="ulong" typeHref="https://learn.microsoft.com/dotnet/api/system.uint64" />
+
 ### SetModel(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseModelEntity.cs#L13" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseModelEntity.cs#L37" />
 
 Sets the model to the entity.
 
@@ -598,7 +654,7 @@ void SetModel(string model)
 
 ### SetModelAsync(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseModelEntity.cs#L20" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseModelEntity.cs#L44" />
 
 Sets the model to the entity asynchronously.
 
@@ -616,7 +672,7 @@ Task SetModelAsync(string model)
 
 ### SetScale(float)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseModelEntity.cs#L42" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseModelEntity.cs#L66" />
 
 Sets the scale of the entity.
 
@@ -633,7 +689,7 @@ void SetScale(float scale)
 
 ### SetScaleAsync(float)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseModelEntity.cs#L48" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseModelEntity.cs#L72" />
 
 Sets the scale of the entity.
 

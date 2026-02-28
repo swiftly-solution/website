@@ -63,7 +63,7 @@ ref CHandle<CBasePlayerWeapon> LastWeapon { get; }
 
 ### MyValidWeapons
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L187" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L256" />
 
 ```csharp
 IEnumerable<CBasePlayerWeapon> MyValidWeapons { get; }
@@ -117,7 +117,7 @@ void AmmoUpdated()
 
 ### DropWeapon(CBasePlayerWeapon)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L14" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L15" />
 
 Drop a weapon.
 
@@ -132,9 +132,27 @@ void DropWeapon(CBasePlayerWeapon weapon)
 
 - <ApiParam name="weapon" type="CBasePlayerWeapon" typeHref="/docs/api/schemadefinitions/cbaseplayerweapon" /> — The weapon to drop.
 
+### DropWeapon(CBasePlayerWeapon, Vector)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L31" />
+
+Drop a weapon.
+
+Thread unsafe, use async variant instead for non-main thread context.
+
+```csharp
+[ThreadUnsafe]
+void DropWeapon(CBasePlayerWeapon weapon, Vector momentum)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="weapon" type="CBasePlayerWeapon" typeHref="/docs/api/schemadefinitions/cbaseplayerweapon" /> — The weapon to drop.
+- <ApiParam name="momentum" type="Vector" typeHref="/docs/api/natives/vector" /> — The momentum to apply to the dropped weapon.
+
 ### DropWeaponAsync(CBasePlayerWeapon)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L21" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L22" />
 
 Drop a weapon asynchronously.
 
@@ -150,9 +168,28 @@ Task DropWeaponAsync(CBasePlayerWeapon weapon)
 
 - <ApiParam type="Task" typeHref="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task" />
 
+### DropWeaponAsync(CBasePlayerWeapon, Vector)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L39" />
+
+Drop a weapon asynchronously.
+
+```csharp
+Task DropWeaponAsync(CBasePlayerWeapon weapon, Vector momentum)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="weapon" type="CBasePlayerWeapon" typeHref="/docs/api/schemadefinitions/cbaseplayerweapon" /> — The weapon to drop.
+- <ApiParam name="momentum" type="Vector" typeHref="/docs/api/natives/vector" /> — The momentum to apply to the dropped weapon.
+
+<ApiLabel>Returns</ApiLabel>
+
+- <ApiParam type="Task" typeHref="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task" />
+
 ### DropWeaponByClass\<T\>()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L148" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L200" />
 
 Drop all weapons with the specified class.
 
@@ -167,9 +204,30 @@ void DropWeaponByClass<T>() where T : class, ISchemaClass<T>
 
 - <ApiParam name="T" /> — The weapon class.
 
+### DropWeaponByClass\<T\>(Vector)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L210" />
+
+Drop all weapons with the specified class.
+
+Thread unsafe, use async variant instead for non-main thread context.
+
+```csharp
+[ThreadUnsafe]
+void DropWeaponByClass<T>(Vector momentum) where T : class, ISchemaClass<T>
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="momentum" type="Vector" typeHref="/docs/api/natives/vector" /> — The momentum to apply to the dropped weapon.
+
+<ApiLabel>Type Parameters</ApiLabel>
+
+- <ApiParam name="T" /> — The weapon class.
+
 ### DropWeaponByClassAsync\<T\>()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L155" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L217" />
 
 Drop all weapons with the specified class asynchronously.
 
@@ -185,9 +243,31 @@ Task DropWeaponByClassAsync<T>() where T : class, ISchemaClass<T>
 
 - <ApiParam name="T" /> — The weapon class.
 
+### DropWeaponByClassAsync\<T\>(Vector)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L224" />
+
+Drop all weapons with the specified class asynchronously.
+
+```csharp
+Task DropWeaponByClassAsync<T>(Vector momentum) where T : class, ISchemaClass<T>
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="momentum" type="Vector" typeHref="/docs/api/natives/vector" /> — The momentum to apply to the dropped weapon.
+
+<ApiLabel>Returns</ApiLabel>
+
+- <ApiParam type="Task" typeHref="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task" />
+
+<ApiLabel>Type Parameters</ApiLabel>
+
+- <ApiParam name="T" /> — The weapon class.
+
 ### DropWeaponByDesignerName(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L103" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L138" />
 
 Drop a weapon by designer name.
 
@@ -202,9 +282,27 @@ void DropWeaponByDesignerName(string designerName)
 
 - <ApiParam name="designerName" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The designer name of the weapon to drop.
 
+### DropWeaponByDesignerName(string, Vector)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L148" />
+
+Drop a weapon by designer name.
+
+Thread unsafe, use async variant instead for non-main thread context.
+
+```csharp
+[ThreadUnsafe]
+void DropWeaponByDesignerName(string designerName, Vector momentum)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="designerName" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The designer name of the weapon to drop.
+- <ApiParam name="momentum" type="Vector" typeHref="/docs/api/natives/vector" /> — The momentum to apply to the dropped weapon.
+
 ### DropWeaponByDesignerNameAsync(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L110" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L155" />
 
 Drop a weapon by designer name asynchronously.
 
@@ -220,9 +318,28 @@ Task DropWeaponByDesignerNameAsync(string designerName)
 
 - <ApiParam type="Task" typeHref="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task" />
 
+### DropWeaponByDesignerNameAsync(string, Vector)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L162" />
+
+Drop a weapon by designer name asynchronously.
+
+```csharp
+Task DropWeaponByDesignerNameAsync(string designerName, Vector momentum)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="designerName" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The designer name of the weapon to drop.
+- <ApiParam name="momentum" type="Vector" typeHref="/docs/api/natives/vector" /> — The momentum to apply to the dropped weapon.
+
+<ApiLabel>Returns</ApiLabel>
+
+- <ApiParam type="Task" typeHref="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task" />
+
 ### DropWeaponBySlot(gear_slot_t)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L58" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L76" />
 
 Drop a weapon by slot.
 
@@ -237,9 +354,27 @@ void DropWeaponBySlot(gear_slot_t slot)
 
 - <ApiParam name="slot" type="gear_slot_t" typeHref="/docs/api/schemadefinitions/gear_slot_t" /> — The slot to drop the weapon from.
 
+### DropWeaponBySlot(gear_slot_t, Vector)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L86" />
+
+Drop a weapon by slot.
+
+Thread unsafe, use async variant instead for non-main thread context.
+
+```csharp
+[ThreadUnsafe]
+void DropWeaponBySlot(gear_slot_t slot, Vector momentum)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="slot" type="gear_slot_t" typeHref="/docs/api/schemadefinitions/gear_slot_t" /> — The slot to drop the weapon from.
+- <ApiParam name="momentum" type="Vector" typeHref="/docs/api/natives/vector" /> — The momentum to apply to the dropped weapon.
+
 ### DropWeaponBySlotAsync(gear_slot_t)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L65" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L93" />
 
 Drop a weapon by slot asynchronously.
 
@@ -250,6 +385,25 @@ Task DropWeaponBySlotAsync(gear_slot_t slot)
 <ApiLabel>Parameters</ApiLabel>
 
 - <ApiParam name="slot" type="gear_slot_t" typeHref="/docs/api/schemadefinitions/gear_slot_t" /> — The slot to drop the weapon from.
+
+<ApiLabel>Returns</ApiLabel>
+
+- <ApiParam type="Task" typeHref="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task" />
+
+### DropWeaponBySlotAsync(gear_slot_t, Vector)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L100" />
+
+Drop a weapon by slot asynchronously.
+
+```csharp
+Task DropWeaponBySlotAsync(gear_slot_t slot, Vector momentum)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="slot" type="gear_slot_t" typeHref="/docs/api/schemadefinitions/gear_slot_t" /> — The slot to drop the weapon from.
+- <ApiParam name="momentum" type="Vector" typeHref="/docs/api/natives/vector" /> — The momentum to apply to the dropped weapon.
 
 <ApiLabel>Returns</ApiLabel>
 
@@ -273,7 +427,7 @@ void MyWeaponsUpdated()
 
 ### RemoveWeapon(CBasePlayerWeapon)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L29" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L47" />
 
 Drop and remove a weapon.
 
@@ -290,7 +444,7 @@ void RemoveWeapon(CBasePlayerWeapon weapon)
 
 ### RemoveWeaponAsync(CBasePlayerWeapon)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L36" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L54" />
 
 Remove a weapon asynchronously.
 
@@ -308,7 +462,7 @@ Task RemoveWeaponAsync(CBasePlayerWeapon weapon)
 
 ### RemoveWeaponByClass\<T\>()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L163" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L232" />
 
 Drop and remove all weapons with the specified class.
 
@@ -325,7 +479,7 @@ void RemoveWeaponByClass<T>() where T : class, ISchemaClass<T>
 
 ### RemoveWeaponByClassAsync\<T\>()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L170" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L239" />
 
 Remove all weapons with the specified class asynchronously.
 
@@ -343,7 +497,7 @@ Task RemoveWeaponByClassAsync<T>() where T : class, ISchemaClass<T>
 
 ### RemoveWeaponByDesignerName(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L118" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L170" />
 
 Remove a weapon by designer name.
 
@@ -360,7 +514,7 @@ void RemoveWeaponByDesignerName(string designerName)
 
 ### RemoveWeaponByDesignerNameAsync(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L125" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L177" />
 
 Remove a weapon by designer name asynchronously.
 
@@ -378,7 +532,7 @@ Task RemoveWeaponByDesignerNameAsync(string designerName)
 
 ### RemoveWeaponBySlot(gear_slot_t)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L73" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L108" />
 
 Remove a weapon by slot.
 
@@ -395,7 +549,7 @@ void RemoveWeaponBySlot(gear_slot_t slot)
 
 ### RemoveWeaponBySlotAsync(gear_slot_t)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L80" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L115" />
 
 Remove a weapon by slot asynchronously.
 
@@ -413,7 +567,7 @@ Task RemoveWeaponBySlotAsync(gear_slot_t slot)
 
 ### SelectWeapon(CBasePlayerWeapon)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L44" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L62" />
 
 Make player select a weapon.
 
@@ -429,7 +583,7 @@ void SelectWeapon(CBasePlayerWeapon weapon)
 
 ### SelectWeaponAsync(CBasePlayerWeapon)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L50" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L68" />
 
 Make player select a weapon asynchronously.
 
@@ -447,7 +601,7 @@ Task SelectWeaponAsync(CBasePlayerWeapon weapon)
 
 ### SelectWeaponByClass\<T\>()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L178" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L247" />
 
 Select a weapon by class.
 
@@ -464,7 +618,7 @@ void SelectWeaponByClass<T>() where T : class, ISchemaClass<T>
 
 ### SelectWeaponByClassAsync\<T\>()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L185" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L254" />
 
 Select a weapon by class asynchronously.
 
@@ -482,7 +636,7 @@ Task SelectWeaponByClassAsync<T>() where T : class, ISchemaClass<T>
 
 ### SelectWeaponByDesignerName(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L133" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L185" />
 
 Select a weapon by designer name.
 
@@ -499,7 +653,7 @@ void SelectWeaponByDesignerName(string designerName)
 
 ### SelectWeaponByDesignerNameAsync(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L140" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L192" />
 
 Select a weapon by designer name asynchronously.
 
@@ -517,7 +671,7 @@ Task SelectWeaponByDesignerNameAsync(string designerName)
 
 ### SelectWeaponBySlot(gear_slot_t)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L88" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L123" />
 
 Select a weapon by slot.
 
@@ -534,7 +688,7 @@ void SelectWeaponBySlot(gear_slot_t slot)
 
 ### SelectWeaponBySlotAsync(gear_slot_t)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L95" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L130" />
 
 Select a weapon by slot asynchronously.
 

@@ -236,6 +236,45 @@ IPlayer? GetPlayerFromPawn(CBasePlayerPawn pawn)
 - <ApiParam type="IPlayer?" typeHref="/docs/api/players/iplayer" /> — An SwiftlyS2.Shared.Players.IPlayer instance representing the player with the specified pawn, or `null` if no such
     player exists.
 
+### GetPlayerFromSessionId(ulong)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L328" />
+
+Retrieves the player associated with the specified session ID.
+
+```csharp
+IPlayer? GetPlayerFromSessionId(ulong sessionId)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="sessionId" type="ulong" typeHref="https://learn.microsoft.com/dotnet/api/system.uint64" /> — The session ID to retrieve the player from.
+
+<ApiLabel>Returns</ApiLabel>
+
+- <ApiParam type="IPlayer?" typeHref="/docs/api/players/iplayer" /> — An SwiftlyS2.Shared.Players.IPlayer instance representing the player with the specified session ID, or `null` if sessionid is disposed or invalid.
+    player exists.
+
+### GetPlayerFromSteamId(ulong, bool)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L337" />
+
+Retrieves the player associated with the specified Steam ID.
+
+```csharp
+IPlayer? GetPlayerFromSteamId(ulong steamId, bool allowUnauthorized = true)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="steamId" type="ulong" typeHref="https://learn.microsoft.com/dotnet/api/system.uint64" /> — The Steam ID to retrieve the player from.
+- <ApiParam name="allowUnauthorized" type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" /> — Whether to allow unauthorized players.
+
+<ApiLabel>Returns</ApiLabel>
+
+- <ApiParam type="IPlayer?" typeHref="/docs/api/players/iplayer" /> — An SwiftlyS2.Shared.Players.IPlayer instance representing the player with the specified Steam ID, or `null` if no such
+    player exists.
+
 ### GetSpectators()
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L282" />
@@ -295,6 +334,25 @@ bool IsPlayerOnline(int playerid)
 <ApiLabel>Returns</ApiLabel>
 
 - <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" /> — True if the player is online, false otherwise.
+
+### IsSessionIdValid(ulong)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L320" />
+
+Checks whether a specific session ID is valid.
+Session id will be invalid when the player associated is disconnected or doesn't exist.
+
+```csharp
+bool IsSessionIdValid(ulong sessionId)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="sessionId" type="ulong" typeHref="https://learn.microsoft.com/dotnet/api/system.uint64" /> — The session ID to check.
+
+<ApiLabel>Returns</ApiLabel>
+
+- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" /> — True if the session ID is valid, false otherwise.
 
 ### SendAlert(string)
 

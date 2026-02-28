@@ -23,11 +23,21 @@ public struct RnQueryShapeAttr_t
 - [object.ReferenceEquals(object?, object?)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals)
 - [object.ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
+## Constructors
+
+### RnQueryShapeAttr_t()
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L254" />
+
+```csharp
+public RnQueryShapeAttr_t()
+```
+
 ## Fields
 
 ### CollisionGroup
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L214" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L216" />
 
 ```csharp
 public CollisionGroup CollisionGroup
@@ -60,6 +70,18 @@ public ushort* HierarchyIds
 <ApiLabel>Field Value</ApiLabel>
 
 - <ApiParam type="ushort*" typeHref="https://learn.microsoft.com/dotnet/api/system.uint16" />
+
+### IncludedDetailLayers
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L213" />
+
+```csharp
+public ushort IncludedDetailLayers
+```
+
+<ApiLabel>Field Value</ApiLabel>
+
+- <ApiParam type="ushort" typeHref="https://learn.microsoft.com/dotnet/api/system.uint16" />
 
 ### InteractsAs
 
@@ -99,7 +121,7 @@ public MaskTrace InteractsWith
 
 ### ObjectSetMask
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L213" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L215" />
 
 ```csharp
 public RnQueryObjectSet ObjectSetMask
@@ -121,11 +143,23 @@ public uint* OwnerIdsToIgnore
 
 - <ApiParam type="uint*" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
 
+### TargetDetailLayer
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L214" />
+
+```csharp
+public byte TargetDetailLayer
+```
+
+<ApiLabel>Field Value</ApiLabel>
+
+- <ApiParam type="byte" typeHref="https://learn.microsoft.com/dotnet/api/system.byte" />
+
 ## Properties
 
 ### ForceHitEverything
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L242" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L244" />
 
 ```csharp
 public bool ForceHitEverything { get; set; }
@@ -137,7 +171,7 @@ public bool ForceHitEverything { get; set; }
 
 ### HitSolid
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L217" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L219" />
 
 ```csharp
 public bool HitSolid { get; set; }
@@ -149,7 +183,7 @@ public bool HitSolid { get; set; }
 
 ### HitSolidRequiresGenerateContacts
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L222" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L224" />
 
 ```csharp
 public bool HitSolidRequiresGenerateContacts { get; set; }
@@ -161,7 +195,7 @@ public bool HitSolidRequiresGenerateContacts { get; set; }
 
 ### HitTrigger
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L227" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L229" />
 
 ```csharp
 public bool HitTrigger { get; set; }
@@ -173,7 +207,7 @@ public bool HitTrigger { get; set; }
 
 ### IgnoreIfBothInteractWithHitboxes
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L237" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L239" />
 
 ```csharp
 public bool IgnoreIfBothInteractWithHitboxes { get; set; }
@@ -185,7 +219,7 @@ public bool IgnoreIfBothInteractWithHitboxes { get; set; }
 
 ### ShouldIgnoreDisabledPairs
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L232" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L234" />
 
 ```csharp
 public bool ShouldIgnoreDisabledPairs { get; set; }
@@ -197,7 +231,7 @@ public bool ShouldIgnoreDisabledPairs { get; set; }
 
 ### Unknown
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L247" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L249" />
 
 ```csharp
 public bool Unknown { get; set; }

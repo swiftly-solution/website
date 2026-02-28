@@ -18,7 +18,7 @@ public interface ICommandService
 
 ### HookClientChat(ClientChatHandler)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L83" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L94" />
 
 Hooks client chat, will be fired when a player sends any chat message.
 
@@ -36,7 +36,7 @@ Guid HookClientChat(ICommandService.ClientChatHandler handler)
 
 ### HookClientCommand(ClientCommandHandler)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L71" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L82" />
 
 Hooks client commands, will be fired when a player sends any command.
 
@@ -54,7 +54,7 @@ Guid HookClientCommand(ICommandService.ClientCommandHandler handler)
 
 ### IsCommandRegistered(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L65" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L76" />
 
 Checks if a command is registered.
 
@@ -74,10 +74,10 @@ bool IsCommandRegistered(string commandName)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L38" />
 
-Registers a command.
+Registers a command (backward compatibility overload).
 
 ```csharp
-Guid RegisterCommand(string commandName, ICommandService.CommandListener handler, bool registerRaw = false, string permission = "")
+Guid RegisterCommand(string commandName, ICommandService.CommandListener handler, bool registerRaw, string permission)
 ```
 
 <ApiLabel>Parameters</ApiLabel>
@@ -91,9 +91,31 @@ Guid RegisterCommand(string commandName, ICommandService.CommandListener handler
 
 - <ApiParam type="Guid" typeHref="https://learn.microsoft.com/dotnet/api/system.guid" /> — The guid of the command.
 
+### RegisterCommand(string, CommandListener, bool, string, string)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L49" />
+
+Registers a command.
+
+```csharp
+Guid RegisterCommand(string commandName, ICommandService.CommandListener handler, bool registerRaw = false, string permission = "", string helpText = "SwiftlyS2 registered command")
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="commandName" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The command name.
+- <ApiParam name="handler" type="ICommandService.CommandListener" typeHref="/docs/api/commands/icommandservice" /> — The handler callback for the command.
+- <ApiParam name="registerRaw" type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" /> — If set to true, the command will not starts with a `sw_` prefix.
+- <ApiParam name="permission" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The permission required to use the command.
+- <ApiParam name="helpText" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The help text of the command.
+
+<ApiLabel>Returns</ApiLabel>
+
+- <ApiParam type="Guid" typeHref="https://learn.microsoft.com/dotnet/api/system.guid" /> — The guid of the command.
+
 ### RegisterCommandAlias(string, string, bool)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L46" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L57" />
 
 Registers a command alias.
 
@@ -109,7 +131,7 @@ void RegisterCommandAlias(string commandName, string alias, bool registerRaw = f
 
 ### UnhookClientChat(Guid)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L89" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L100" />
 
 Unhooks a client chat.
 
@@ -123,7 +145,7 @@ void UnhookClientChat(Guid guid)
 
 ### UnhookClientCommand(Guid)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L77" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L88" />
 
 Unhooks a client command.
 
@@ -137,7 +159,7 @@ void UnhookClientCommand(Guid guid)
 
 ### UnregisterCommand(Guid)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L52" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L63" />
 
 Unregisters a command.
 
@@ -151,7 +173,7 @@ void UnregisterCommand(Guid guid)
 
 ### UnregisterCommand(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L58" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L69" />
 
 Unregisters all command listeners with the specified command name.
 

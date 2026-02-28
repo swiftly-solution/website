@@ -20,7 +20,7 @@ public interface ISwiftlyCore
 
 ### CSGODirectory
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L196" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L190" />
 
 Gets the absolute file path to the `game/csgo` directory.
 
@@ -48,7 +48,7 @@ ICommandService Command { get; }
 
 ### CommandLine
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L166" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L160" />
 
 Command line.
 
@@ -118,7 +118,7 @@ IDatabaseService Database { get; }
 
 ### Datamap
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L181" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L175" />
 
 Datamap service.
 
@@ -202,7 +202,7 @@ IGameDataService GameData { get; }
 
 ### GameDirectory
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L201" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L195" />
 
 Gets the absolute file path to the game's root directory.
 
@@ -230,7 +230,7 @@ IGameEventService GameEvent { get; }
 
 ### GameFileSystem
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L171" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L165" />
 
 Game file system interface.
 
@@ -255,6 +255,20 @@ IHelpers Helpers { get; }
 <ApiLabel>Property Value</ApiLabel>
 
 - <ApiParam type="IHelpers" typeHref="/docs/api/helpers/ihelpers" />
+
+### IsGameThread
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L206" />
+
+Checks whether or not this code section runs on the game thread.
+
+```csharp
+bool IsGameThread { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
 
 ### Localizer
 
@@ -314,7 +328,7 @@ IMemoryService Memory { get; }
 
 ### MenusAPI
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L161" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L155" />
 
 Menu manager API.
 
@@ -370,7 +384,7 @@ IPlayerManagerService PlayerManager { get; }
 
 ### PluginDataDirectory
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L207" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L201" />
 
 Gets the file path to the plugin data directory.
 This directory is ensured to exist by the framework.
@@ -385,7 +399,7 @@ string PluginDataDirectory { get; }
 
 ### PluginManager
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L176" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L170" />
 
 Plugin manager.
 
@@ -399,7 +413,7 @@ IPluginManager PluginManager { get; }
 
 ### PluginPath
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L191" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L185" />
 
 Gets the file path to the plugin directory.
 
@@ -455,7 +469,7 @@ ISchedulerService Scheduler { get; }
 
 ### StringTable
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L186" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L180" />
 
 String table service.
 

@@ -1,23 +1,23 @@
 ---
-title: SchemaSize
+title: SchemaInfo
 ---
 
-# Class SchemaSize
+# Class SchemaInfo
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Schemas/SchemaSize.cs#L7" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Schemas/SchemaInfo.cs#L6" />
 
 **Namespace**: [SwiftlyS2.Shared.Schemas](/docs/api/schemas)
 
 **Assembly**: SwiftlyS2.CS2.dll
 
 ```csharp
-public static class SchemaSize
+public static class SchemaInfo
 ```
 
 #### Inheritance
 
 - [object](https://learn.microsoft.com/dotnet/api/system.object)
-- [SchemaSize](/docs/api/schemas/schemasize)
+- [SchemaInfo](/docs/api/schemas/schemainfo)
 
 #### Inherited Members
 
@@ -33,7 +33,7 @@ public static class SchemaSize
 
 ### Get\<T\>()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Schemas/SchemaSize.cs#L15" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Schemas/SchemaInfo.cs#L15" />
 
 ```csharp
 public static int Get<T>()
@@ -49,7 +49,7 @@ public static int Get<T>()
 
 ### GetSize\<T\>()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Schemas/SchemaSize.cs#L11" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Schemas/SchemaInfo.cs#L11" />
 
 ```csharp
 public static int GetSize<T>() where T : ISchemaClass<T>
@@ -58,6 +58,22 @@ public static int GetSize<T>() where T : ISchemaClass<T>
 <ApiLabel>Returns</ApiLabel>
 
 - <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
+
+<ApiLabel>Type Parameters</ApiLabel>
+
+- <ApiParam name="T" />
+
+### IsSchemaClass\<T\>()
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Schemas/SchemaInfo.cs#L38" />
+
+```csharp
+public static bool IsSchemaClass<T>()
+```
+
+<ApiLabel>Returns</ApiLabel>
+
+- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
 
 <ApiLabel>Type Parameters</ApiLabel>
 

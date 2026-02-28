@@ -91,12 +91,12 @@ public TKey FirstFree
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L20" />
 
 ```csharp
-public CUtlRBTree<TValue, TKey>.LessFunc LFunc
+public nint LFunc
 ```
 
 <ApiLabel>Field Value</ApiLabel>
 
-- <ApiParam type="CUtlRBTree&lt;TValue, TKey&gt;.LessFunc" typeHref="/docs/api/natives/cutlrbtreett" />
+- <ApiParam type="nint" typeHref="https://learn.microsoft.com/dotnet/api/system.intptr" />
 
 ### LastAlloc
 
@@ -138,10 +138,10 @@ public TKey Root
 
 ### Count
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L727" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L716" />
 
 ```csharp
-public uint Count { get; }
+public readonly uint Count { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
@@ -150,7 +150,7 @@ public uint Count { get; }
 
 ### MaxElement
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L728" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L717" />
 
 ```csharp
 public TKey MaxElement { get; }
@@ -162,7 +162,7 @@ public TKey MaxElement { get; }
 
 ### this
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L726" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L715" />
 
 ```csharp
 public ref TValue this[TKey i] { get; }
@@ -176,7 +176,7 @@ public ref TValue this[TKey i] { get; }
 
 ### Color(TKey)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L87" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L81" />
 
 ```csharp
 public NodeColor_t Color(TKey i)
@@ -192,7 +192,7 @@ public NodeColor_t Color(TKey i)
 
 ### Depth()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L71" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L65" />
 
 ```csharp
 public int Depth()
@@ -204,7 +204,7 @@ public int Depth()
 
 ### Dispose()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L510" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L511" />
 
 Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
 
@@ -226,7 +226,7 @@ public void EnsureCapacity(TKey num)
 
 ### Find(TValue)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L457" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L454" />
 
 ```csharp
 public TKey Find(TValue value)
@@ -240,9 +240,23 @@ public TKey Find(TValue value)
 
 - <ApiParam type="TKey" />
 
+### FindInsertionPosition(TValue, out TKey, out bool)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L410" />
+
+```csharp
+public void FindInsertionPosition(TValue val, out TKey parent, out bool leftchild)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="val" type="TValue" />
+- <ApiParam name="parent" type="TKey" />
+- <ApiParam name="leftchild" type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
+
 ### FirstInorder()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L515" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L516" />
 
 ```csharp
 public TKey FirstInorder()
@@ -254,7 +268,7 @@ public TKey FirstInorder()
 
 ### FirstPostorder()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L635" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L636" />
 
 ```csharp
 public TKey FirstPostorder()
@@ -266,7 +280,7 @@ public TKey FirstPostorder()
 
 ### FirstPreorder()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L585" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L586" />
 
 ```csharp
 public TKey FirstPreorder()
@@ -278,7 +292,7 @@ public TKey FirstPreorder()
 
 ### FreeNode(TKey)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L108" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L102" />
 
 ```csharp
 public void FreeNode(TKey i)
@@ -290,7 +304,7 @@ public void FreeNode(TKey i)
 
 ### Insert(TValue)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L708" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L697" />
 
 ```csharp
 public TKey Insert(TValue val)
@@ -306,7 +320,7 @@ public TKey Insert(TValue val)
 
 ### InsertAt(TKey, bool)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L253" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L247" />
 
 ```csharp
 public TKey InsertAt(TKey parent, bool leftchild)
@@ -323,7 +337,7 @@ public TKey InsertAt(TKey parent, bool leftchild)
 
 ### InsertIfNotFound(TValue)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L717" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L706" />
 
 ```csharp
 public TKey InsertIfNotFound(TValue val)
@@ -339,7 +353,7 @@ public TKey InsertIfNotFound(TValue val)
 
 ### InsertRebalance(TKey)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L171" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L165" />
 
 ```csharp
 public void InsertRebalance(TKey elem)
@@ -351,7 +365,7 @@ public void InsertRebalance(TKey elem)
 
 ### InvalidIndex()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L70" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L64" />
 
 ```csharp
 public TKey InvalidIndex()
@@ -363,7 +377,7 @@ public TKey InvalidIndex()
 
 ### IsBlack(TKey)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L86" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L80" />
 
 ```csharp
 public bool IsBlack(TKey i)
@@ -411,7 +425,7 @@ public bool IsLeftChild(TKey i)
 
 ### IsRed(TKey)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L85" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L79" />
 
 ```csharp
 public bool IsRed(TKey i)
@@ -459,7 +473,7 @@ public bool IsRoot(TKey i)
 
 ### IsValid()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L686" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L687" />
 
 ```csharp
 public bool IsValid()
@@ -487,7 +501,7 @@ public bool IsValidIndex(TKey i)
 
 ### LastInorder()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L573" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L574" />
 
 ```csharp
 public TKey LastInorder()
@@ -499,7 +513,7 @@ public TKey LastInorder()
 
 ### LastPreorder()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L616" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L617" />
 
 ```csharp
 public TKey LastPreorder()
@@ -527,7 +541,7 @@ public ref TKey LeftChild(TKey i)
 
 ### Link(TKey)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L406" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L400" />
 
 ```csharp
 public void Link(TKey elem)
@@ -539,7 +553,7 @@ public void Link(TKey elem)
 
 ### LinkToParent(TKey, TKey, bool)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L231" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L225" />
 
 ```csharp
 public void LinkToParent(TKey i, TKey parent, bool isLeft)
@@ -569,7 +583,7 @@ public ref CUtlRBTreeLinks<TKey> Links(TKey i)
 
 ### NewNode()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L90" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L84" />
 
 ```csharp
 public TKey NewNode()
@@ -581,7 +595,7 @@ public TKey NewNode()
 
 ### NextInorder(TKey)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L527" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L528" />
 
 ```csharp
 public TKey NextInorder(TKey i)
@@ -597,7 +611,7 @@ public TKey NextInorder(TKey i)
 
 ### NextPostorder(TKey)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L652" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L653" />
 
 ```csharp
 public TKey NextPostorder(TKey i)
@@ -613,7 +627,7 @@ public TKey NextPostorder(TKey i)
 
 ### NextPreorder(TKey)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L590" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L591" />
 
 ```csharp
 public TKey NextPreorder(TKey i)
@@ -645,7 +659,7 @@ public ref TKey Parent(TKey i)
 
 ### PrevInorder(TKey)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L550" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L551" />
 
 ```csharp
 public TKey PrevInorder(TKey i)
@@ -661,7 +675,7 @@ public TKey PrevInorder(TKey i)
 
 ### PrevPreorder(TKey)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L614" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L615" />
 
 ```csharp
 public TKey PrevPreorder(TKey i)
@@ -677,7 +691,7 @@ public TKey PrevPreorder(TKey i)
 
 ### Purge()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L502" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L503" />
 
 ```csharp
 public void Purge()
@@ -685,7 +699,7 @@ public void Purge()
 
 ### Reinsert(TKey)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L677" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L678" />
 
 ```csharp
 public void Reinsert(TKey i)
@@ -697,7 +711,7 @@ public void Reinsert(TKey i)
 
 ### Remove(TValue)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L448" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L445" />
 
 ```csharp
 public bool Remove(TValue value)
@@ -713,7 +727,7 @@ public bool Remove(TValue value)
 
 ### RemoveAll()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L479" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L480" />
 
 ```csharp
 public void RemoveAll()
@@ -721,7 +735,7 @@ public void RemoveAll()
 
 ### RemoveAt(TKey)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L438" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L435" />
 
 ```csharp
 public void RemoveAt(TKey elem)
@@ -733,7 +747,7 @@ public void RemoveAt(TKey elem)
 
 ### RemoveRebalance(TKey)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L261" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L255" />
 
 ```csharp
 public void RemoveRebalance(TKey elem)
@@ -761,7 +775,7 @@ public ref TKey RightChild(TKey i)
 
 ### RotateLeft(TKey)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L118" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L112" />
 
 ```csharp
 public void RotateLeft(TKey elem)
@@ -773,7 +787,7 @@ public void RotateLeft(TKey elem)
 
 ### RotateRight(TKey)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L144" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L138" />
 
 ```csharp
 public void RotateRight(TKey elem)
@@ -785,7 +799,7 @@ public void RotateRight(TKey elem)
 
 ### SetColor(TKey, NodeColor_t)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L88" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L82" />
 
 ```csharp
 public void SetColor(TKey i, NodeColor_t c)
@@ -798,7 +812,7 @@ public void SetColor(TKey i, NodeColor_t c)
 
 ### SetLeftChild(TKey, TKey)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L83" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L77" />
 
 ```csharp
 public void SetLeftChild(TKey i, TKey l)
@@ -811,7 +825,7 @@ public void SetLeftChild(TKey i, TKey l)
 
 ### SetLessFunc(LessFunc)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L703" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L692" />
 
 ```csharp
 public void SetLessFunc(CUtlRBTree<TValue, TKey>.LessFunc func)
@@ -823,7 +837,7 @@ public void SetLessFunc(CUtlRBTree<TValue, TKey>.LessFunc func)
 
 ### SetParent(TKey, TKey)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L82" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L76" />
 
 ```csharp
 public void SetParent(TKey i, TKey p)
@@ -836,7 +850,7 @@ public void SetParent(TKey i, TKey p)
 
 ### SetRightChild(TKey, TKey)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L84" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L78" />
 
 ```csharp
 public void SetRightChild(TKey i, TKey r)
@@ -849,7 +863,7 @@ public void SetRightChild(TKey i, TKey r)
 
 ### Unlink(TKey)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L343" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlRBTree.cs#L337" />
 
 ```csharp
 public void Unlink(TKey elem)

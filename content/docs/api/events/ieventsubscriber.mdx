@@ -115,9 +115,23 @@ event EventDelegates.OnClientSteamAuthorizeFail? OnClientSteamAuthorizeFail
 
 - <ApiParam type="EventDelegates.OnClientSteamAuthorizeFail?" typeHref="/docs/api/events/eventdelegates" />
 
+### OnClientVoice
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L185" />
+
+Called when a client sends a voice packet.
+
+```csharp
+event EventDelegates.OnClientVoice? OnClientVoice
+```
+
+<ApiLabel>Event Type</ApiLabel>
+
+- <ApiParam type="EventDelegates.OnClientVoice?" typeHref="/docs/api/events/eventdelegates" />
+
 ### OnCommandExecuteHook
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L135" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L140" />
 
 Called when a server command (ConCommand) is executed.
 
@@ -173,7 +187,7 @@ event EventDelegates.OnConVarValueChanged? OnConVarValueChanged
 
 ### OnConsoleOutput
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L130" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L135" />
 
 Called when the game outputs a console message.
 
@@ -215,7 +229,7 @@ event EventDelegates.OnEntityDeleted? OnEntityDeleted
 
 ### OnEntityEndTouch
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L153" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L155" />
 
 Called when an entity ends touching another entity.
 
@@ -229,7 +243,7 @@ event EventDelegates.OnEntityEndTouch? OnEntityEndTouch
 
 ### OnEntityFireOutputHook
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L173" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L175" />
 
 Called when an entity fires output.
 
@@ -243,7 +257,7 @@ event EventDelegates.OnEntityFireOutputHookEvent? OnEntityFireOutputHook
 
 ### OnEntityIdentityAcceptInputHook
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L168" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L170" />
 
 Called when an entity identity accept input hook is triggered.
 
@@ -285,7 +299,7 @@ event EventDelegates.OnEntitySpawned? OnEntitySpawned
 
 ### OnEntityStartTouch
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L143" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L145" />
 
 Called when an entity starts touching another entity.
 
@@ -313,7 +327,7 @@ event EventDelegates.OnEntityTakeDamage? OnEntityTakeDamage
 
 ### OnEntityTouch
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L148" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L150" />
 
 Called when an entity is touching another entity.
 
@@ -324,19 +338,6 @@ event EventDelegates.OnEntityTouch? OnEntityTouch
 <ApiLabel>Event Type</ApiLabel>
 
 - <ApiParam type="EventDelegates.OnEntityTouch?" typeHref="/docs/api/events/eventdelegates" />
-
-### OnEntityTouchHook
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L138" />
-
-```csharp
-[Obsolete("OnEntityTouchHook is deprecated. Use OnEntityStartTouch, OnEntityTouch, or OnEntityEndTouch instead.")]
-event EventDelegates.OnEntityTouchHook? OnEntityTouchHook
-```
-
-<ApiLabel>Event Type</ApiLabel>
-
-- <ApiParam type="EventDelegates.OnEntityTouchHook?" typeHref="/docs/api/events/eventdelegates" />
 
 ### OnItemServicesCanAcquireHook
 
@@ -382,7 +383,7 @@ event EventDelegates.OnMapUnload? OnMapUnload
 
 ### OnMovementServicesRunCommandHook
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L158" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L160" />
 
 Called when the movement services run command hook is triggered.
 
@@ -396,7 +397,7 @@ event EventDelegates.OnMovementServicesRunCommandHook? OnMovementServicesRunComm
 
 ### OnPlayerPawnPostThink
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L163" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L165" />
 
 Called when the player pawn post think hook is triggered.
 
@@ -424,7 +425,7 @@ event EventDelegates.OnPrecacheResource? OnPrecacheResource
 
 ### OnStartupServer
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L178" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L180" />
 
 Called when the server is started.
 
@@ -478,6 +479,20 @@ event EventDelegates.OnWeaponServicesCanUseHook? OnWeaponServicesCanUseHook
 <ApiLabel>Event Type</ApiLabel>
 
 - <ApiParam type="EventDelegates.OnWeaponServicesCanUseHook?" typeHref="/docs/api/events/eventdelegates" />
+
+### OnWeaponServicesDropWeaponHook
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L130" />
+
+Called when a weapon services drop weapon hook is triggered.
+
+```csharp
+event EventDelegates.OnWeaponServicesDropWeaponHook? OnWeaponServicesDropWeaponHook
+```
+
+<ApiLabel>Event Type</ApiLabel>
+
+- <ApiParam type="EventDelegates.OnWeaponServicesDropWeaponHook?" typeHref="/docs/api/events/eventdelegates" />
 
 ### OnWorldUpdate
 

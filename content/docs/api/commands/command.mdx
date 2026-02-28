@@ -72,10 +72,10 @@ public class Command : Attribute
 
 ### Command(string, bool, string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Commands/Attributes/CommandAttribute.cs#L12" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Commands/Attributes/CommandAttribute.cs#L14" />
 
 ```csharp
-public Command(string name, bool registerRaw = false, string permission = "")
+public Command(string name, bool registerRaw, string permission)
 ```
 
 <ApiLabel>Parameters</ApiLabel>
@@ -84,7 +84,34 @@ public Command(string name, bool registerRaw = false, string permission = "")
 - <ApiParam name="registerRaw" type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
 - <ApiParam name="permission" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
 
+### Command(string, bool, string, string)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Commands/Attributes/CommandAttribute.cs#L18" />
+
+```csharp
+public Command(string name, bool registerRaw = false, string permission = "", string helpText = "SwiftlyS2 registered command")
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="name" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
+- <ApiParam name="registerRaw" type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
+- <ApiParam name="permission" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
+- <ApiParam name="helpText" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
+
 ## Properties
+
+### HelpText
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Commands/Attributes/CommandAttribute.cs#L12" />
+
+```csharp
+public string HelpText { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
 
 ### Name
 

@@ -16,6 +16,7 @@ This callback is a hot path, be careful with it and don't do anything expensive.
 - <ApiParam type="IOnClientPutInServerEvent" typeHref="/docs/api/events/ionclientputinserverevent" /> — Called when a client is put in the server.
 - <ApiParam type="IOnClientSteamAuthorizeEvent" typeHref="/docs/api/events/ionclientsteamauthorizeevent" /> — Called when a client is authorized via Steam.
 - <ApiParam type="IOnClientSteamAuthorizeFailEvent" typeHref="/docs/api/events/ionclientsteamauthorizefailevent" /> — Called when a client's Steam authorization fails.
+- <ApiParam type="IOnClientVoiceEvent" typeHref="/docs/api/events/ionclientvoiceevent" /> — Called when a client sends a voice packet.
 - <ApiParam type="IOnCommandExecuteHookEvent" typeHref="/docs/api/events/ioncommandexecutehookevent" /> — Called when a command is executed.
 - <ApiParam type="IOnConCommandCreated" typeHref="/docs/api/events/ionconcommandcreated" /> — Called when a ConVar is created.
 - <ApiParam type="IOnConVarCreated" typeHref="/docs/api/events/ionconvarcreated" /> — Called when a ConVar is created.
@@ -31,7 +32,6 @@ This callback is a hot path, be careful with it and don't do anything expensive.
 - <ApiParam type="IOnEntityStartTouchEvent" typeHref="/docs/api/events/ionentitystarttouchevent" /> — Called when an entity starts touching another entity.
 - <ApiParam type="IOnEntityTakeDamageEvent" typeHref="/docs/api/events/ionentitytakedamageevent" /> — Called when an entity takes damage.
 - <ApiParam type="IOnEntityTouchEvent" typeHref="/docs/api/events/ionentitytouchevent" /> — Called when an entity is touching another entity.
-- <ApiParam type="IOnEntityTouchHookEvent" typeHref="/docs/api/events/ionentitytouchhookevent" />
 - <ApiParam type="IOnItemServicesCanAcquireHookEvent" typeHref="/docs/api/events/ionitemservicescanacquirehookevent" />
 - <ApiParam type="IOnMapLoadEvent" typeHref="/docs/api/events/ionmaploadevent" /> — Called when the map is loaded.
 - <ApiParam type="IOnMapUnloadEvent" typeHref="/docs/api/events/ionmapunloadevent" /> — Called when the map is unloaded.
@@ -39,6 +39,7 @@ This callback is a hot path, be careful with it and don't do anything expensive.
 - <ApiParam type="IOnPlayerPawnPostThinkHookEvent" typeHref="/docs/api/events/ionplayerpawnpostthinkhookevent" /> — Called when the player pawn post think hook is triggered.
 - <ApiParam type="IOnPrecacheResourceEvent" typeHref="/docs/api/events/ionprecacheresourceevent" />
 - <ApiParam type="IOnWeaponServicesCanUseHookEvent" typeHref="/docs/api/events/ionweaponservicescanusehookevent" />
+- <ApiParam type="IOnWeaponServicesDropWeaponHook" typeHref="/docs/api/events/ionweaponservicesdropweaponhook" />
 
 - <ApiParam type="ClientKind" typeHref="/docs/api/events/clientkind" />
 - <ApiParam type="GameButtonFlags" typeHref="/docs/api/events/gamebuttonflags" />
@@ -53,6 +54,7 @@ This callback is a hot path, be careful with it and don't do anything expensive.
 - <ApiParam type="EventDelegates.OnClientPutInServer" typeHref="/docs/api/events/eventdelegates/onclientputinserver" /> — Called when a client is fully put in server.
 - <ApiParam type="EventDelegates.OnClientSteamAuthorize" typeHref="/docs/api/events/eventdelegates/onclientsteamauthorize" /> — Called when a client is authorized by Steam.
 - <ApiParam type="EventDelegates.OnClientSteamAuthorizeFail" typeHref="/docs/api/events/eventdelegates/onclientsteamauthorizefail" /> — Called when a client's Steam authorization fails.
+- <ApiParam type="EventDelegates.OnClientVoice" typeHref="/docs/api/events/eventdelegates/onclientvoice" /> — Called when a client sends a voice packet.
 - <ApiParam type="EventDelegates.OnCommandExecuteHook" typeHref="/docs/api/events/eventdelegates/oncommandexecutehook" /> — Called when a server command (ConCommand) is executed.
 - <ApiParam type="EventDelegates.OnConCommandCreated" typeHref="/docs/api/events/eventdelegates/onconcommandcreated" /> — Called when a ConCommand is created.
 - <ApiParam type="EventDelegates.OnConVarCreated" typeHref="/docs/api/events/eventdelegates/onconvarcreated" /> — Called when a ConVar is created.
@@ -68,7 +70,6 @@ This callback is a hot path, be careful with it and don't do anything expensive.
 - <ApiParam type="EventDelegates.OnEntityStartTouch" typeHref="/docs/api/events/eventdelegates/onentitystarttouch" /> — Called when an entity starts touching another entity.
 - <ApiParam type="EventDelegates.OnEntityTakeDamage" typeHref="/docs/api/events/eventdelegates/onentitytakedamage" /> — Called when an entity takes damage.
 - <ApiParam type="EventDelegates.OnEntityTouch" typeHref="/docs/api/events/eventdelegates/onentitytouch" /> — Called when an entity is touching another entity.
-- <ApiParam type="EventDelegates.OnEntityTouchHook" typeHref="/docs/api/events/eventdelegates/onentitytouchhook" />
 - <ApiParam type="EventDelegates.OnItemServicesCanAcquireHook" typeHref="/docs/api/events/eventdelegates/onitemservicescanacquirehook" /> — Called when an item services can acquire hook is triggered.
 - <ApiParam type="EventDelegates.OnMapLoad" typeHref="/docs/api/events/eventdelegates/onmapload" /> — Called when a map is loaded.
 - <ApiParam type="EventDelegates.OnMapUnload" typeHref="/docs/api/events/eventdelegates/onmapunload" /> — Called when a map is unloaded.
@@ -80,6 +81,7 @@ This callback is a hot path, be careful with it and don't do anything expensive.
 - <ApiParam type="EventDelegates.OnTick" typeHref="/docs/api/events/eventdelegates/ontick" /> — Called when game has processed a tick. Won't be called if the server is in hibernation.
 This callback is a hot path, be careful with it and don't do anything expensive.
 - <ApiParam type="EventDelegates.OnWeaponServicesCanUseHook" typeHref="/docs/api/events/eventdelegates/onweaponservicescanusehook" /> — Called when a weapon services can use hook is triggered.
+- <ApiParam type="EventDelegates.OnWeaponServicesDropWeaponHook" typeHref="/docs/api/events/eventdelegates/onweaponservicesdropweaponhook" /> — Called when a weapon services drop weapon hook is triggered.
 - <ApiParam type="EventDelegates.OnWorldUpdate" typeHref="/docs/api/events/eventdelegates/onworldupdate" /> — Called when the world is updated. This happens even in hibernation.
 This callback is a hot path, be careful with it and don't do anything expensive.
 
