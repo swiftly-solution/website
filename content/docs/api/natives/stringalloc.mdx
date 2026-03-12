@@ -1,0 +1,138 @@
+---
+title: StringAlloc
+---
+
+# Class StringAlloc
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Natives/StringAlloc.cs#L7" />
+
+**Namespace**: [SwiftlyS2.Core.Natives](/docs/api/natives)
+
+**Assembly**: SwiftlyS2.CS2.dll
+
+```csharp
+public static class StringAlloc
+```
+
+#### Inheritance
+
+- [object](https://learn.microsoft.com/dotnet/api/system.object)
+- [StringAlloc](/docs/api/natives/stringalloc)
+
+#### Inherited Members
+
+- [object.Equals(object?)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object))
+- [object.Equals(object?, object?)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object))
+- [object.GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode)
+- [object.GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype)
+- [object.MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone)
+- [object.ReferenceEquals(object?, object?)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals)
+- [object.ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring)
+
+## Methods
+
+### CreateCSharpString(int, int, Action\<nint\>)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Natives/StringAlloc.cs#L96" />
+
+```csharp
+public static string CreateCSharpString(int length, int treshold, Action<nint> action)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="length" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
+- <ApiParam name="treshold" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
+- <ApiParam name="action" type="Action&lt;nint&gt;" typeHref="https://learn.microsoft.com/dotnet/api/system.action-1" />
+
+<ApiLabel>Returns</ApiLabel>
+
+- <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
+
+### CreateCSharpString(int, Action\<nint\>)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Natives/StringAlloc.cs#L130" />
+
+```csharp
+public static string CreateCSharpString(int length, Action<nint> action)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="length" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
+- <ApiParam name="action" type="Action&lt;nint&gt;" typeHref="https://learn.microsoft.com/dotnet/api/system.action-1" />
+
+<ApiLabel>Returns</ApiLabel>
+
+- <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
+
+### CreateCString(string, int, Action\<nint\>)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Natives/StringAlloc.cs#L12" />
+
+```csharp
+public static void CreateCString(string str, int treshold, Action<nint> action)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="str" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
+- <ApiParam name="treshold" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
+- <ApiParam name="action" type="Action&lt;nint&gt;" typeHref="https://learn.microsoft.com/dotnet/api/system.action-1" />
+
+### CreateCString(string, Action\<nint\>)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Natives/StringAlloc.cs#L49" />
+
+```csharp
+public static void CreateCString(string str, Action<nint> action)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="str" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
+- <ApiParam name="action" type="Action&lt;nint&gt;" typeHref="https://learn.microsoft.com/dotnet/api/system.action-1" />
+
+### CreateCString\<T\>(string, int, Func\<nint, T\>)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Natives/StringAlloc.cs#L54" />
+
+```csharp
+public static T CreateCString<T>(string str, int treshold, Func<nint, T> action)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="str" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
+- <ApiParam name="treshold" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
+- <ApiParam name="action" type="Func&lt;nint, T&gt;" typeHref="https://learn.microsoft.com/dotnet/api/system.func-2" />
+
+<ApiLabel>Returns</ApiLabel>
+
+- <ApiParam type="T" />
+
+<ApiLabel>Type Parameters</ApiLabel>
+
+- <ApiParam name="T" />
+
+### CreateCString\<T\>(string, Func\<nint, T\>)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Natives/StringAlloc.cs#L91" />
+
+```csharp
+public static T CreateCString<T>(string str, Func<nint, T> action)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="str" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
+- <ApiParam name="action" type="Func&lt;nint, T&gt;" typeHref="https://learn.microsoft.com/dotnet/api/system.func-2" />
+
+<ApiLabel>Returns</ApiLabel>
+
+- <ApiParam type="T" />
+
+<ApiLabel>Type Parameters</ApiLabel>
+
+- <ApiParam name="T" />
+

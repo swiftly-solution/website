@@ -2422,7 +2422,7 @@ void EndMatchMapVoteWinnerUpdated()
 Find the player that the controller is targetting
 
 ```csharp
-T? FindPickerEntity<T>(CBasePlayerController controller) where T : ISchemaClass<T>
+T? FindPickerEntity<T>(CBasePlayerController controller) where T : class, ISchemaClass<T>
 ```
 
 <ApiLabel>Parameters</ApiLabel>

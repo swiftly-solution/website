@@ -16,6 +16,52 @@ public interface ICommandService
 
 ## Methods
 
+### GetAllCommands()
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L105" />
+
+Gets all registered commands by both plugins and the game.
+
+```csharp
+List<string> GetAllCommands()
+```
+
+<ApiLabel>Returns</ApiLabel>
+
+- <ApiParam type="List&lt;string&gt;" typeHref="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1" />
+
+### GetAllCommandsByPlugin()
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L118" />
+
+Gets all plugins that have registered commands.
+
+```csharp
+Dictionary<string, List<CommandInfo>> GetAllCommandsByPlugin()
+```
+
+<ApiLabel>Returns</ApiLabel>
+
+- <ApiParam type="Dictionary&lt;string, List&lt;CommandInfo&gt;&gt;" typeHref="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2" /> — Dictionary mapping plugin names to their registered command information.
+
+### GetCommandsByPlugin(string)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L112" />
+
+Gets all commands registered by a specific plugin.
+
+```csharp
+List<CommandInfo> GetCommandsByPlugin(string pluginName)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="pluginName" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The name of the plugin.
+
+<ApiLabel>Returns</ApiLabel>
+
+- <ApiParam type="List&lt;CommandInfo&gt;" typeHref="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1" /> — List of command information registered by the plugin.
+
 ### HookClientChat(ClientChatHandler)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L94" />
