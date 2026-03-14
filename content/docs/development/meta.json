@@ -6,6 +6,7 @@
     "thread-safety",
     "commands",
     "configuration",
+    "translations",
     "entity",
     "entitykeyvalues",
     "game-events",
