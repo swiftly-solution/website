@@ -1,6 +1,6 @@
 ---
 title: Chat & CenterHTML Styling
-description: Learn how to use chat colors and CenterHTML styling to customize text elements in SwiftlyS2
+description: Learn how to use Chat colors and CenterHTML styling to customize text elements in SwiftlyS2
 ---
 
 import { Tab, Tabs } from 'fumadocs-ui/components/tabs';
@@ -18,7 +18,7 @@ Use square brackets with color names to change text color:
 
 ```csharp
 var message = "[red]This is red [lime]This is lime [default]Back to default";
-player.PrintToChat(message);
+player.SendChat(message);
 ```
 
 <Callout type="info">
@@ -67,7 +67,7 @@ Using translations with placeholders for dynamic content:
     player.SendChat(Core.Localizer["chat.error", "Something went wrong"]);
 
     // Team score announcement
-    Server.PrintToChatAll(Core.Localizer["chat.team_scores", ctScore, tScore]);
+    Core.PlayerManager.SendChat(Core.Localizer["chat.team_scores", ctScore, tScore]);
     ```
   </Tab>
   <Tab value="Translation File">
