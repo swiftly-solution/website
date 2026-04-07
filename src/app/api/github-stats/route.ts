@@ -39,12 +39,16 @@ interface GitHubStats {
 // parses statistics and contributor info,
 // and returns the stats as JSON.
 // ==============================
-export async function GET() {
+export async function GET(request: Request) {
+  const { searchParams } = new URL(request.url);
+  const repoName = searchParams.get('repo') || 'swiftlys2';
+  const repoUrl = `https://github.com/swiftly-solution/${repoName}`;
+
   try {
     // ---------------------------------------
     // 1. Fetch the main GitHub repository page
     // ---------------------------------------
-    const response = await fetch('https://github.com/swiftly-solution/swiftlys2', {
+    const response = await fetch(repoUrl, {
       headers: {
         // Some GitHub pages may restrict non-browser requests, so set a UA
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
@@ -56,26 +60,26 @@ export async function GET() {
     }
 
     const html = await response.text();
-    
+
     // ======================
     // Statistics Extraction
     // ======================
     // ---- Stars ----
     // Try to extract number of stars using a couple different patterns.
     const starsMatch = html.match(/(\d+)\s+stars/i) ||
-                       html.match(/aria-label="(\d+)\s+users starred this repository"/i);
+      html.match(/aria-label="(\d+)\s+users starred this repository"/i);
     const stars = starsMatch ? parseInt(starsMatch[1]) : 45;
 
     // ---- Forks ----
     // Try to extract number of forks using two possible patterns.
     const forksMatch = html.match(/(\d+)\s+forks/i) ||
-                       html.match(/aria-label="(\d+)\s+users forked this repository"/i);
+      html.match(/aria-label="(\d+)\s+users forked this repository"/i);
     const forks = forksMatch ? parseInt(forksMatch[1]) : 17;
 
     // ---- Contributors ----
     // Search for a "Contributors" section and try to extract the count.
     const contributorsMatch = html.match(/Contributors[\s\S]*?(\d+)\s+contributors/i) ||
-                             html.match(/(\d+)\s+contributors/i);
+      html.match(/(\d+)\s+contributors/i);
     const contributors = contributorsMatch ? parseInt(contributorsMatch[1]) : 13;
 
     // ---- Releases ----
@@ -97,10 +101,10 @@ export async function GET() {
     // We'll follow up by scraping the /graphs/contributors 
     // page for a quick recent list of contributors.
     const contributorList: Contributor[] = [];
-    
+
     try {
       // Second fetch to contributors page
-      const contributorsResponse = await fetch('https://github.com/swiftly-solution/swiftlys2/graphs/contributors', {
+      const contributorsResponse = await fetch(`${repoUrl}/graphs/contributors`, {
         headers: {
           'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
         },
@@ -108,20 +112,20 @@ export async function GET() {
 
       if (contributorsResponse.ok) {
         const contributorsHtml = await contributorsResponse.text();
-        
+
         // Parse contributor avatars and usernames from the contributors page
         // Each contributor shows up with a link and avatar img.
         const contributorMatches = contributorsHtml.matchAll(
           /<a[^>]*href="\/([\w-]+)"[^>]*>[\s\S]*?<img[^>]*src="(https:\/\/avatars\.githubusercontent\.com\/[^"]+)"[^>]*alt="([^"]*)"[^>]*>/gi
         );
-        
+
         // We use a set to prevent duplicate contributors, and filter out junk usernames
         const seenUsernames = new Set<string>();
         for (const match of contributorMatches) {
           const username = match[1];
           const avatar = match[2];
           const name = match[3] || username;
-          
+
           if (
             username &&
             !seenUsernames.has(username) &&
@@ -129,7 +133,7 @@ export async function GET() {
             !['sponsors', 'settings', 'pulls', 'issues', 'blob', 'tree', 'commits'].includes(username)
           ) {
             seenUsernames.add(username);
-            
+
             contributorList.push({
               // Remove "@" at the front of username if present, and trim extra space.
               name: name.replace(/@/, '').trim() || username,
@@ -138,7 +142,7 @@ export async function GET() {
               avatar: avatar.replace(/\?v=\d+/, '?s=64'),
               profileUrl: `https://github.com/${username}`,
             });
-            
+
             // Stop after 20 contributors for brevity and bandwidth.
             if (contributorList.length >= 20) break;
           }
@@ -170,7 +174,7 @@ export async function GET() {
     // If ANY failure occurs (scrape, parse, fetch, etc),
     // log it and return fallback stats.
     console.error('Error fetching GitHub stats:', error);
-    
+
     // Return fallback values if parsing fails
     return NextResponse.json({
       stars: 45,
