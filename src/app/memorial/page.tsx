@@ -290,7 +290,7 @@ export default function V1MemorialPage() {
                   </div>
                   <div className="flex gap-4">
                     <span className="text-gray-600 select-none">02</span>
-                    <span className="pl-6"><span className="text-[#0070FF]">return</span> <span className="text-green-400">"criskkky"</span></span>
+                    <span className="pl-6"><span className="text-[#0070FF]">return</span> <span className="text-green-400">"Swiftly Team"</span></span>
                   </div>
                   <div className="flex gap-4">
                     <span className="text-gray-600 select-none">03</span>
@@ -306,7 +306,7 @@ export default function V1MemorialPage() {
                   </div>
                   <div className="flex gap-4">
                     <span className="text-gray-600 select-none">06</span>
-                    <span className="pl-6"><span className="text-[#0070FF]">return</span> <span className="text-green-400">"v1.0.5"</span></span>
+                    <span className="pl-6"><span className="text-[#0070FF]">return</span> <span className="text-green-400">"v1.0.0"</span></span>
                   </div>
                   <div className="flex gap-4">
                     <span className="text-gray-600 select-none">07</span>
@@ -322,7 +322,7 @@ export default function V1MemorialPage() {
                   </div>
                   <div className="flex gap-4">
                     <span className="text-gray-600 select-none">10</span>
-                    <span className="pl-6"><span className="text-[#0070FF]">return</span> <span className="text-green-400">"Admins - Super Commands"</span></span>
+                    <span className="pl-6"><span className="text-[#0070FF]">return</span> <span className="text-green-400">"Swiftly LUA - Examples"</span></span>
                   </div>
                   <div className="flex gap-4">
                     <span className="text-gray-600 select-none">11</span>
