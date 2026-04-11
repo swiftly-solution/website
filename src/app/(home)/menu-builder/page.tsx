@@ -24,7 +24,13 @@ export default function MenuBuilderPage() {
         </div>
       </div>
 
-      <MenuVisualBuilder />
+      <section className="rounded-xl border border-fd-border bg-fd-card p-5 text-sm text-fd-muted-foreground md:hidden">
+        Menu Block Builder is not available on mobile. Please open this page on desktop.
+      </section>
+
+      <div className="hidden md:block">
+        <MenuVisualBuilder />
+      </div>
     </main>
   );
 }
