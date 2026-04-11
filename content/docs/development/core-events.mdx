@@ -2,48 +2,153 @@
 title: Core Events
 ---
 
-## What are core events
+SwiftlyS2 provides a core event system for engine and framework callbacks such as client lifecycle, entity hooks, convar updates, server startup, and tick/world updates.
 
-Core events are various game events that are called from hooks, entity listener and etc. It is **not** game event.
+Core events are not the same as game events.
 
-## Listen to core event
+## Accessing Event Service
 
-Let's start with an example.
-To register an event listener, there's two ways to do this.
+Core events are exposed through `Core.Event`.
 
-<Tabs items={['With method', 'With attribute']} defaultIndex={0}>
-  <Tab value="With method">
-    ```csharp
-    Core.Event.OnClientConnected += (@event) => {
-      Console.WriteLine(@event.PlayerId);
-    };
+```c#
+public override void Load(bool hotReload)
+{
+    var events = Core.Event;
+}
+```
+
+## Listening to Core Events
+
+There are two ways to register listeners.
+
+<Tabs items={['Programatically', 'With attribute']} defaultIndex={0}>
+  <Tab value="Programatically">
+    ```c#
+    public override void Load(bool hotReload)
+    {
+        Core.Event.OnClientConnected += OnClientConnected;
+    }
+
+    private void OnClientConnected(IOnClientConnectedEvent @event)
+    {
+        Console.WriteLine($"Client connected: {@event.PlayerId}");
+    }
     ```
   </Tab>
   <Tab value="With attribute">
-    ```csharp
+    ```c#
     [EventListener<EventDelegates.OnClientConnected>]
-    public void OnClientConnected(IOnClientConnectedEvent @event) {
-      Console.WriteLine(@event.PlayerId);
+    public void OnClientConnected(IOnClientConnectedEvent @event)
+    {
+        Console.WriteLine($"Client connected: {@event.PlayerId}");
     }
     ```
   </Tab>
 </Tabs>
 
-## Event parameters
+## Delegate Signatures
 
-You probably have noticed the `@event` parameter in the example.
+Most core events pass one event-parameter interface. Some hot-path events have no parameters.
 
-Generally, every event has a parameter type that holds its unique information (except OnTick).
+```c#
+public delegate void EventDelegates.OnClientConnected(IOnClientConnectedEvent @event);
+public delegate void EventDelegates.OnEntityTakeDamage(IOnEntityTakeDamageEvent @event);
+public delegate void EventDelegates.OnTick();
+public delegate void EventDelegates.OnWorldUpdate();
+```
 
-You can view the detailed information of each field in the type interface definition, the comment is already quite intuitive.
+When using `[EventListener<T>]`, your method signature must match the delegate exactly.
 
-## Destroying
+## Working with Event Parameters
 
-If a hot reload or unload is triggered, all the event listeners will be destroyed.
+Each event parameter interface contains fields related to that event. For example, `IOnClientConnectedEvent` exposes `PlayerId` and `Result`.
 
-## Event Delegates
+```c#
+[EventListener<EventDelegates.OnClientConnected>]
+public void OnClientConnected(IOnClientConnectedEvent @event)
+{
+    if (@event.PlayerId <= 0)
+    {
+        return;
+    }
 
-`EventDelegates` is an interface that contains all event types you can listen to and their information.
+    // Example: block client from joining based on your own validation.
+    // @event.Result = HookResult.Stop;
+}
+```
 
-Refer to [EventDelegates](/docs/api/events/eventdelegates/) for more information.
+## Unsubscribing Method Listeners
+
+For programatically added subscriptions (`+=`), you can manually unsubscribe (`-=`).
+
+```c#
+private EventDelegates.OnClientConnected? _onClientConnected;
+
+public override void Load(bool hotReload)
+{
+    _onClientConnected = OnClientConnected;
+    Core.Event.OnClientConnected += _onClientConnected;
+}
+
+public override void Unload(bool hotReload)
+{
+    if (_onClientConnected != null)
+    {
+        Core.Event.OnClientConnected -= _onClientConnected;
+    }
+}
+
+private void OnClientConnected(IOnClientConnectedEvent @event)
+{
+    Console.WriteLine(@event.PlayerId);
+}
+```
+
+<Callout type="info">
+  On hot reload or unload, listeners are automatically cleaned up by the framework. Manual unsubscribe is still useful when you want to stop listening earlier.
+</Callout>
+
+## Hot Path Events
+
+Some events are called very frequently and should remain lightweight:
+
+- `OnTick`
+- `OnWorldUpdate`
+- `OnClientProcessUsercmds`
+
+<Callout type="warning">
+  Avoid expensive operations in hot-path listeners. Keep them short and allocation-friendly.
+</Callout>
+
+## Common Core Events
+
+| Event | Delegate Type | Parameter Type | Notes |
+| --- | --- | --- | --- |
+| Client connected | `OnClientConnected` | `IOnClientConnectedEvent` | Client lifecycle |
+| Client disconnected | `OnClientDisconnected` | `IOnClientDisconnectedEvent` | Client lifecycle |
+| Client put in server | `OnClientPutInServer` | `IOnClientPutInServerEvent` | Client lifecycle |
+| Entity created | `OnEntityCreated` | `IOnEntityCreatedEvent` | Entity lifecycle |
+| Entity deleted | `OnEntityDeleted` | `IOnEntityDeletedEvent` | Entity lifecycle |
+| Entity take damage | `OnEntityTakeDamage` | `IOnEntityTakeDamageEvent` | Damage callback |
+| ConVar value changed | `OnConVarValueChanged` | `IOnConVarValueChanged` | Convar tracking |
+| Tick | `OnTick` | none | Hot path |
+| World update | `OnWorldUpdate` | none | Hot path, runs in hibernation |
+
+## Event Categories (Quick View)
+
+Core events cover these areas:
+
+- Client events (`OnClientConnected`, `OnClientVoice`, `OnClientKeyStateChanged`, ...)
+- Entity events (`OnEntityCreated`, `OnEntityTouch`, `OnEntityFireOutputHook`, ...)
+- Command and console events (`OnCommandExecuteHook`, `OnConsoleOutput`, ...)
+- Convar events (`OnConVarCreated`, `OnConVarValueChanged`)
+- Server/runtime events (`OnStartupServer`, `OnMapLoad`, `OnMapUnload`, `OnTick`, `OnWorldUpdate`)
+
+## Reference
+
+See [IEventSubscriber](/docs/api/events/ieventsubscriber/) for all subscribable events.
+
+See [EventDelegates](/docs/api/events/eventdelegates/) for delegate signatures.
+
+See [EventListener&lt;T&gt;](/docs/api/events/eventlistenert/) for attribute-based listeners.
 
