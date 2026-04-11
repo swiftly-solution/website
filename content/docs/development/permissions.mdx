@@ -2,202 +2,151 @@
 title: Permissions
 ---
 
+SwiftlyS2 provides a plugin-scoped permission service for checking access, granting and revoking permissions, and building permission hierarchies.
+
+## Accessing Permission Service
+
+Permissions are available through `Core.Permission`.
+
+```c#
+public override void Load(bool hotReload)
+{
+    var permission = Core.Permission;
+}
+```
+
+All permission checks and mutations use a SteamID64 (`ulong`) as the player identifier.
+
 ## Checking Permissions
 
-Use `Core.Permission.PlayerHasPermission` to check if a player has a specific permission.
+### Single Permission
 
-```csharp
-bool hasAccess = Core.Permission.PlayerHasPermission(player.SteamID, "myplugin.admin");
+Use `PlayerHasPermission` when checking one permission key.
 
-if (hasAccess)
+```c#
+ulong steamId = player.SteamID;
+
+if (Core.Permission.PlayerHasPermission(steamId, "myplugin.admin"))
 {
-    player.PrintToChat("You have admin access!");
+    player.PrintToChat("You have admin access.");
 }
+```
+
+### Multiple Permissions
+
+Use `PlayerHasPermissions` to require all permissions in a set.
+
+```c#
+bool canUseRestrictedAction = Core.Permission.PlayerHasPermissions(
+    player.SteamID,
+    [
+        "myplugin.admin.kick",
+        "myplugin.admin.ban"
+    ]
+);
 ```
 
 ### Wildcard Permissions
 
-The permission system supports wildcard permissions using the `*` character. For example, `myplugin.*` grants all permissions that start with `myplugin.`.
+Wildcard keys are supported (for example, `myplugin.admin.*`).
 
-```csharp
-// Player has 'myplugin.*' permission
-bool hasAdmin = Core.Permission.PlayerHasPermission(player.SteamID, "myplugin.admin"); // true
-bool hasModerate = Core.Permission.PlayerHasPermission(player.SteamID, "myplugin.moderate"); // true
-bool hasKick = Core.Permission.PlayerHasPermission(player.SteamID, "myplugin.kick"); // true
+```c#
+Core.Permission.AddPermission(player.SteamID, "myplugin.admin.*");
+
+bool canKick = Core.Permission.PlayerHasPermission(player.SteamID, "myplugin.admin.kick");
+bool canBan = Core.Permission.PlayerHasPermission(player.SteamID, "myplugin.admin.ban");
 ```
 
-## Managing Player Permissions
+## Granting and Revoking Permissions
 
-### Add Permission
+Grant permissions with `AddPermission` and revoke with `RemovePermission`.
 
-Grant a permission to a player.
-
-```csharp
+```c#
 Core.Permission.AddPermission(player.SteamID, "myplugin.vip");
-```
 
-### Remove Permission
+if (!Core.Permission.PlayerHasPermission(player.SteamID, "myplugin.vip"))
+{
+    player.PrintToChat("VIP permission is missing.");
+}
 
-Revoke a permission from a player.
-
-```csharp
 Core.Permission.RemovePermission(player.SteamID, "myplugin.vip");
 ```
 
-## Permission Groups
+You can clear all direct permissions for a player with `ClearPermission`.
 
-Permission groups allow you to organize permissions into reusable sets that can be assigned to players. This makes it easier to manage permissions for multiple players with similar roles.
-
-### Configuration
-
-Permission groups are configured in the `permissions.jsonc` file located in your server's configuration directory:
-
-```jsonc
-{
-  "Permissions": {
-    "Players": {
-      "76561198135539332": [
-        "admins"
-      ],
-      "76561198012345678": [
-        "moderators"
-      ]
-    },
-    "PermissionGroups": {
-      "__default": [
-        "basic.access"
-      ],
-      "admins": [
-        "admin.*",
-        "admin.box",
-        "myplugin.admin"
-      ],
-      "moderators": [
-        "admin.kick",
-        "admin.mute",
-        "myplugin.moderator"
-      ]
-    }
-  }
-}
+```c#
+Core.Permission.ClearPermission(player.SteamID);
 ```
 
-### Player Assignment
+## Sub-Permissions (Hierarchy)
 
-In the `Players` section, the key is the player's **SteamID64**, and the value is an array of group names that the player belongs to:
+Sub-permissions let one permission key imply other keys.
 
-```jsonc
-"Players": {
-  "76561198135539332": [
-    "admins"
-  ]
-}
-```
-
-Players can belong to multiple groups:
-
-```jsonc
-"Players": {
-  "76561198135539332": [
-    "admins",
-    "vip"
-  ]
-}
-```
-
-### Default Group
-
-The `__default` group is automatically assigned to all players. Use it to define permissions that every player should have:
-
-```jsonc
-"PermissionGroups": {
-  "__default": [
-    "basic.access",
-    "myplugin.help"
-  ]
-}
-```
-
-### How Groups Work
-
-When you use `Core.Permission.PlayerHasPermission()`, the system checks:
-1. Direct permissions assigned to the player via code
-2. All permissions from groups the player belongs to
-3. Permissions from the `__default` group
-
-Groups support wildcard permissions, so `admin.*` in a group will grant access to all permissions starting with `admin.`.
-
-## Sub-Permissions
-
-Sub-permissions allow you to create hierarchical permission structures. When a player has a parent permission, they automatically gain access to all its sub-permissions.
-
-### Add Sub-Permission
-
-Link a sub-permission to a parent permission.
-
-```csharp
-Core.Permission.AddSubPermission("myplugin.admin", "myplugin.kick");
-Core.Permission.AddSubPermission("myplugin.admin", "myplugin.ban");
-Core.Permission.AddSubPermission("myplugin.admin", "myplugin.mute");
-```
-
-Now, any player with `myplugin.admin` will automatically have access to `kick`, `ban`, and `mute` permissions.
-
-### Remove Sub-Permission
-
-Unlink a sub-permission from a parent permission.
-
-```csharp
-Core.Permission.RemoveSubPermission("myplugin.admin", "myplugin.kick");
-```
-
-## Permission Naming Convention
-
-It's recommended to use a consistent naming convention for your permissions:
-
-```
-plugin_name.category.action
-```
-
-Examples:
-- `myplugin.admin.kick`
-- `myplugin.admin.ban`
-- `myplugin.vip.access`
-- `myplugin.commands.special`
-
-This makes it easier to organize and manage permissions using wildcards.
-
-## Complete Example
-
-```csharp
-// Set up permission hierarchy
+```c#
 Core.Permission.AddSubPermission("myplugin.admin", "myplugin.moderator");
 Core.Permission.AddSubPermission("myplugin.moderator", "myplugin.helper");
 
-// Grant admin permission to a player
 Core.Permission.AddPermission(player.SteamID, "myplugin.admin");
 
-// Check permissions
-if (Core.Permission.PlayerHasPermission(player.SteamID, "myplugin.admin"))
-{
-    player.PrintToChat("You are an admin!");
-    // This player also has moderator and helper permissions automatically
-}
-
-if (Core.Permission.PlayerHasPermission(player.SteamID, "myplugin.moderator"))
-{
-    player.PrintToChat("You are a moderator!");
-    // This will be true because admin includes moderator
-}
-
-// Using wildcards
-Core.Permission.AddPermission(player.SteamID, "myplugin.commands.*");
-
-// Now the player has all command permissions
-bool canUseHelp = Core.Permission.PlayerHasPermission(player.SteamID, "myplugin.commands.help"); // true
-bool canUseAdmin = Core.Permission.PlayerHasPermission(player.SteamID, "myplugin.commands.admin"); // true
+bool isModerator = Core.Permission.PlayerHasPermission(player.SteamID, "myplugin.moderator");
+bool isHelper = Core.Permission.PlayerHasPermission(player.SteamID, "myplugin.helper");
 ```
+
+Remove an inherited edge with `RemoveSubPermission`.
+
+```c#
+Core.Permission.RemoveSubPermission("myplugin.admin", "myplugin.moderator");
+```
+
+## Permission Groups in Configuration
+
+Permission groups are configured in `permissions.jsonc` and assigned to players by SteamID64.
+
+```jsonc
+{
+    "Permissions": {
+        "Players": {
+            "76561198135539332": [
+                "admins"
+            ],
+            "76561198012345678": [
+                "admins",
+                "moderators"
+            ]
+        },
+        "PermissionGroups": {
+            "__default": [
+                "myplugin.help"
+            ],
+            "admins": [
+                "myplugin.admin.*"
+            ],
+            "moderators": [
+                "myplugin.moderator.*"
+            ]
+        }
+    }
+}
+```
+
+`__default` is applied to all players. Group members inherit permissions listed in their assigned groups.
+
+## Permission Naming Convention
+
+A consistent naming scheme makes wildcard and hierarchy usage easier.
+
+```text
+plugin.scope.action
+```
+
+Example keys:
+
+- `myplugin.admin.kick`
+- `myplugin.admin.ban`
+- `myplugin.vip.access`
+- `myplugin.commands.reload`
+
 
 ## Reference
 
-See [IPermissionManager](/docs/api/permissions/ipermissionmanager) for more details.
+See [IPermissionManager](/docs/api/permissions/ipermissionmanager/) for method details.

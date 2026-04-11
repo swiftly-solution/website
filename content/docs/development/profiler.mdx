@@ -2,90 +2,123 @@
 title: Profiler
 ---
 
-SwiftlyS2 provides a profiler service that allows you to measure and track the performance of your plugin code. This is useful for identifying bottlenecks and optimizing your plugin's performance.
+SwiftlyS2 provides a profiler service for measuring execution time in plugin code and recording custom duration metrics.
 
-## Recording Profiles
+## Accessing Profiler Service
 
-### Start and Stop Recording
+The profiler service is available through `Core.Profiler`.
 
-Use `Core.Profiler.StartRecording` and `Core.Profiler.StopRecording` to measure the execution time of code blocks.
+```c#
+public override void Load(bool hotReload)
+{
+    var profiler = Core.Profiler;
+}
+```
 
-```csharp
+## Measuring Code Blocks
+
+### Start/Stop Recording
+
+Use `StartRecording(name)` and `StopRecording(name)` with the same profile name.
+
+```c#
 Core.Profiler.StartRecording("MyOperation");
 
-// Your code here
 PerformSomeOperation();
 
 Core.Profiler.StopRecording("MyOperation");
 ```
 
-The profiler will automatically calculate the duration between the start and stop calls and record it.
+### Safe Pairing with try/finally
 
-### Manual Time Recording
+To avoid mismatched recordings when exceptions happen, pair start/stop in `try/finally`.
 
-If you've already calculated the duration externally, you can record it directly using `Core.Profiler.RecordTime`.
-
-```csharp
-var stopwatch = System.Diagnostics.Stopwatch.StartNew();
-
-// Your code here
-PerformSomeOperation();
-
-stopwatch.Stop();
-Core.Profiler.RecordTime("MyOperation", stopwatch.ElapsedTicks * (1_000_000.0 / Stopwatch.Frequency)); // measurement in microseconds
-```
-
-### Profile Individual Components
-
-Break down complex operations into smaller, measurable components.
-
-```csharp
-public void ProcessPlayerData(IPlayer player)
+```c#
+Core.Profiler.StartRecording("Database.PlayerStats.Load");
+try
 {
-    Core.Profiler.StartRecording("ProcessPlayerData.LoadData");
-    var data = LoadPlayerData(player.SteamID);
-    Core.Profiler.StopRecording("ProcessPlayerData.LoadData");
-
-    Core.Profiler.StartRecording("ProcessPlayerData.ValidateData");
-    ValidateData(data);
-    Core.Profiler.StopRecording("ProcessPlayerData.ValidateData");
-
-    Core.Profiler.StartRecording("ProcessPlayerData.ApplyData");
-    ApplyData(player, data);
-    Core.Profiler.StopRecording("ProcessPlayerData.ApplyData");
+    LoadPlayerStats();
+}
+finally
+{
+    Core.Profiler.StopRecording("Database.PlayerStats.Load");
 }
 ```
 
-### Use Descriptive Names
+## Recording Precomputed Durations
 
-Choose clear, hierarchical names for your profiles to make them easier to identify.
+Use `RecordTime(name, duration)` when you already measured a duration yourself.
 
-```csharp
-// Good - Clear and hierarchical
-Core.Profiler.StartRecording("Database.PlayerStats.Load");
-Core.Profiler.StartRecording("Menu.Creation.BuildOptions");
+```c#
+var stopwatch = System.Diagnostics.Stopwatch.StartNew();
 
-// Avoid - Too generic
-Core.Profiler.StartRecording("Operation");
-Core.Profiler.StartRecording("Process");
+BuildLargeMenu();
+
+stopwatch.Stop();
+double durationUs = stopwatch.ElapsedTicks * (1_000_000.0 / System.Diagnostics.Stopwatch.Frequency);
+Core.Profiler.RecordTime("Menu.Build", durationUs);
 ```
 
-## Naming Conventions
+<Callout type="info">
+    `RecordTime` accepts `double`. Use microseconds for durations so profiler entries stay consistent.
+</Callout>
 
-Use a consistent naming convention for your profiles to organize them effectively:
+## Profiling Sub-Operations
 
+Profile major flow steps separately to find hot spots faster.
+
+```c#
+public void ProcessPlayerData(IPlayer player)
+{
+    Core.Profiler.StartRecording("PlayerData.Process");
+    try
+    {
+        Core.Profiler.StartRecording("PlayerData.Load");
+        try
+        {
+            LoadPlayerData(player.SteamID);
+        }
+        finally
+        {
+            Core.Profiler.StopRecording("PlayerData.Load");
+        }
+
+        Core.Profiler.StartRecording("PlayerData.Apply");
+        try
+        {
+            ApplyPlayerData(player);
+        }
+        finally
+        {
+            Core.Profiler.StopRecording("PlayerData.Apply");
+        }
+    }
+    finally
+    {
+        Core.Profiler.StopRecording("PlayerData.Process");
+    }
+}
 ```
+
+## Naming Strategy
+
+Use clear, hierarchical names so related entries group naturally.
+
+```text
 category.operation.detail
 ```
 
 Examples:
+
 - `Database.Players.Load`
 - `Database.Players.Save`
-- `Menu.Main.Create`
+- `Menu.Main.Build`
 - `Menu.Main.Open`
 - `Commands.Teleport.Execute`
 - `Events.PlayerSpawn.Process`
 
+Avoid overly generic names such as `Operation` or `Process`.
+
 ## Reference
 
-See [IContextedProfilerService](/docs/api/profiler/icontextedprofilerservice) for more details.
+See [IContextedProfilerService](/docs/api/profiler/icontextedprofilerservice/) for full API details.

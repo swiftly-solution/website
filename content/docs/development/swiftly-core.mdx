@@ -2,195 +2,145 @@
 title: Swiftly Core
 ---
 
-This page introduce the concept of `ISwiftlyCore` and its services.
+`ISwiftlyCore` is the central entry point for all plugin services in SwiftlyS2.
 
-`ISwiftlyCore` is the central singleton object in the swiftlys2 plugin framework, which is injected through BasePlugin constructor.
-It provides access to all essential services, including:
+In development docs, `Core` refers to the protected `ISwiftlyCore` instance exposed by `BasePlugin`.
 
-- Game services
-- Logger
-- Configuration
-- And more
+## How Core Is Provided
 
-As a singleton, `ISwiftlyCore` naturally manages the plugin lifecycle, enabling seamless hot reload functionality.
+`BasePlugin` receives `ISwiftlyCore` in its constructor and exposes it through `Core`.
 
-Best Practice: Use dependency injection to share this object across your services.
-
-Note: In the following sections, the variable `Core` refers to the ISwiftlyCore instance by default.
-
-The interface definition of ISwiftlyCore is as follows:
-
-```csharp
-/// <summary>
-/// Core interface of SwiftlyS2 framework.
-/// </summary>
-public interface ISwiftlyCore
+```c#
+public sealed class MyPlugin : BasePlugin
 {
-    /// <summary>
-    /// Custom event subscriber.
-    /// </summary>
-    public IEventSubscriber Event { get; }
+    public MyPlugin(ISwiftlyCore core) : base(core)
+    {
+    }
 
-    /// <summary>
-    /// Gets the engine service used to perform core engine operations.
-    /// </summary>
-    public IEngineService Engine { get; }
+    public override void Load(bool hotReload)
+    {
+        Core.Logger.LogInformation("Plugin loaded. Hot reload: {HotReload}", hotReload);
+    }
 
-    /// <summary>
-    /// Game event service.
-    /// </summary>
-    public IGameEventService GameEvent { get; }
-
-    /// <summary>
-    /// Net message service.
-    /// </summary>
-    public INetMessageService NetMessage { get; }
-
-    /// <summary>
-    /// Helpers service.
-    /// </summary>
-    public IHelpers Helpers { get; }
-
-    /// <summary>
-    /// Game service.
-    /// </summary>
-    public IGameService Game { get; }
-
-    /// <summary>
-    /// Command service.
-    /// </summary>
-    public ICommandService Command { get; }
-
-    /// <summary>
-    /// Console output service.
-    /// </summary>
-    public IConsoleOutputService ConsoleOutput { get; }
-
-    /// <summary>
-    /// Entity system service.
-    /// </summary>
-    public IEntitySystemService EntitySystem { get; }
-
-    /// <summary>
-    /// Convar service.
-    /// </summary>
-    public IConVarService ConVar { get; }
-
-    /// <summary>
-    /// Configuration service.
-    /// </summary>
-    public IPluginConfigurationService Configuration { get; }
-
-    /// <summary>
-    /// Game data service.
-    /// </summary>
-    public IGameDataService GameData { get; }
-
-    /// <summary>
-    /// Player manager service.
-    /// </summary>
-    public IPlayerManagerService PlayerManager { get; }
-
-    /// <summary>
-    /// Memory service.
-    /// </summary>
-    public IMemoryService Memory { get; }
-
-    /// <summary>
-    /// Logger factory.
-    /// </summary>
-    public ILoggerFactory LoggerFactory { get; }
-
-    /// <summary>
-    /// Default logger.
-    /// </summary>
-    public ILogger Logger { get; }
-
-    /// <summary>
-    /// Profiler service.
-    /// </summary>
-    public IContextedProfilerService Profiler { get; }
-
-    /// <summary>
-    /// Gets the trace manager used to control and configure tracing operations within the game.
-    /// </summary>
-    public ITraceManager Trace { get; }
-
-    /// <summary>
-    /// Scheduler service.
-    /// </summary>
-    public ISchedulerService Scheduler { get; }
-
-    /// <summary>
-    /// Database service.
-    /// </summary>
-    public IDatabaseService Database { get; }
-
-    /// <summary>
-    /// Translation service.
-    /// </summary>
-    public ITranslationService Translation { get; }
-
-    /// <summary>
-    /// Localizer.
-    /// </summary>
-    public ILocalizer Localizer { get; }
-
-    /// <summary>
-    /// Permission manager.
-    /// </summary>
-    public IPermissionManager Permission { get; }
-
-    /// <summary>
-    /// Registrator service.
-    /// </summary>
-    public IRegistratorService Registrator { get; }
-
-    // /// <summary>
-    // /// Menu manager.
-    // /// </summary>
-    // [Obsolete("IMenuManager will be deprecared at the release of SwiftlyS2. Please use IMenuManagerAPI instead")]
-    // public IMenuManager Menus { get; }
-
-    /// <summary>
-    /// Menu manager API.
-    /// </summary>
-    public IMenuManagerAPI MenusAPI { get; }
-
-    /// <summary>
-    /// Command line.
-    /// </summary>
-    public ICommandLine CommandLine { get; }
-
-    /// <summary>
-    /// Game file system interface.
-    /// </summary>
-    public IGameFileSystem GameFileSystem { get; }
-
-    /// <summary>
-    /// Plugin manager.
-    /// </summary>
-    public IPluginManager PluginManager { get; }
-
-    /// <summary>
-    /// Gets the file path to the plugin directory.
-    /// </summary>
-    public string PluginPath { get; }
-
-    /// <summary>
-    /// Gets the absolute file path to the `game/csgo` directory.
-    /// </summary>
-    public string CSGODirectory { get; }
-
-    /// <summary>
-    /// Gets the absolute file path to the game's root directory.
-    /// </summary>
-    public string GameDirectory { get; }
-
-    /// <summary>
-    /// Gets the file path to the plugin data directory.
-    /// This directory is ensured to exist by the framework.
-    /// </summary>
-    public string PluginDataDirectory { get; }
+    public override void Unload()
+    {
+        Core.Logger.LogInformation("Plugin unloaded.");
+    }
 }
 ```
+
+<Callout type="info">
+  Prefer passing `ISwiftlyCore` (or specific services from it) into helper classes instead of using global/static access.
+</Callout>
+
+## Core Services at a Glance
+
+| Property | Purpose |
+| --- | --- |
+| `Core.Event` | Core event subscription (`IEventSubscriber`) |
+| `Core.GameEvent` | Generated game-event fire/hook APIs |
+| `Core.NetMessage` | Typed protobuf net-message send/hook APIs |
+| `Core.Command` | Command registration and chat/command hooks |
+| `Core.EntitySystem` | Entity creation, query, input/output hooks |
+| `Core.ConVar` | ConVar registration and value access |
+| `Core.Scheduler` | Main-thread dispatch, timers, and delayed work |
+| `Core.PlayerManager` | Player lookup and player manager features |
+| `Core.Permission` | Permission checks and assignment |
+| `Core.Translation`, `Core.Localizer` | Player and server localization |
+| `Core.Database` | Database service |
+| `Core.Profiler` | Profiling context and timers |
+| `Core.Datamap`, `Core.StringTable` | Datamap and string-table services |
+| `Core.PluginManager` | Plugin discovery and management |
+| `Core.Registrator` | Attribute-based handler registration for instances |
+| `Core.Logger`, `Core.LoggerFactory` | Logging APIs |
+
+## Runtime and File-System Paths
+
+Use these properties when resolving plugin/game directories:
+
+| Property | Meaning |
+| --- | --- |
+| `Core.PluginPath` | Absolute path to current plugin directory |
+| `Core.PluginDataDirectory` | Plugin data path (ensured to exist) |
+| `Core.CSGODirectory` | Absolute path to `game/csgo` |
+| `Core.GameDirectory` | Absolute path to game root |
+
+## Thread Awareness
+
+`Core.IsGameThread` tells you whether execution is currently on the game thread.
+
+```c#
+public void EnsureMainThreadAction(Action action)
+{
+    if (Core.IsGameThread)
+    {
+        action();
+        return;
+    }
+
+    Core.Scheduler.NextTick(action);
+}
+```
+
+<Callout type="warning">
+  Many game-facing APIs are thread-unsafe. If you are not on the game thread, hand work back using `Core.Scheduler` before touching entities, players, net messages, or engine state.
+</Callout>
+
+## Working with Additional Handler Classes
+
+When attributes are used outside your main plugin class, register that instance through `Core.Registrator`.
+
+```c#
+public sealed class ChatHandlers
+{
+    [ClientChatHookHandler]
+    public HookResult OnClientChat(int playerId, string text, bool teamonly)
+    {
+        return HookResult.Continue;
+    }
+}
+
+public override void Load(bool hotReload)
+{
+    Core.Registrator.Register(new ChatHandlers());
+}
+```
+
+## Complete Example
+
+```c#
+private EventDelegates.OnClientConnected? _onClientConnected;
+
+public override void Load(bool hotReload)
+{
+    Core.Logger.LogInformation("Plugin path: {Path}", Core.PluginPath);
+    Core.Logger.LogInformation("Data path: {Path}", Core.PluginDataDirectory);
+
+    _onClientConnected = OnClientConnected;
+    Core.Event.OnClientConnected += _onClientConnected;
+}
+
+public override void Unload()
+{
+    if (_onClientConnected != null)
+    {
+        Core.Event.OnClientConnected -= _onClientConnected;
+    }
+}
+
+private void OnClientConnected(IOnClientConnectedEvent @event)
+{
+    Core.Scheduler.NextTick(() =>
+    {
+        Core.Logger.LogInformation("Client connected: {PlayerId}", @event.PlayerId);
+    });
+}
+```
+
+## Reference
+
+See [ISwiftlyCore](/docs/api/iswiftlycore/) for complete property definitions.
+
+See [BasePlugin](/docs/api/plugins/baseplugin/) for plugin lifecycle and `Core` access.
+
+See [IRegistratorService](/docs/api/services/iregistratorservice/) for instance registration used by attribute handlers.

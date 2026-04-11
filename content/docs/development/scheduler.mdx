@@ -2,74 +2,155 @@
 title: Scheduler
 ---
 
-## Executing on next tick
+SwiftlyS2 provides a scheduler service for main-thread dispatching and timer-based execution.
 
-Some functions are required to be executed on the main thread or on the next tick, and you can use `Core.Scheduler.NextTick` to do that.
+## Accessing Scheduler Service
 
-Example:
-```csharp
-Core.Scheduler.NextTick(() => {
-  Console.WriteLine(123);
+Scheduler APIs are available through `Core.Scheduler`.
+
+```c#
+public override void Load(bool hotReload)
+{
+  var scheduler = Core.Scheduler;
+}
+```
+
+## Scheduling on the Main Loop
+
+### Next Tick
+
+Use `NextTick(Action)` to run a callback on the next server tick.
+
+```c#
+Core.Scheduler.NextTick(() =>
+{
+  Console.WriteLine("Runs on next tick.");
 });
 ```
 
-This example will print `123` on the next tick.
+### Next World Update
 
-## Timers
+Use `NextWorldUpdate(Action)` to run a callback on the next world update phase.
+
+```c#
+Core.Scheduler.NextWorldUpdate(() =>
+{
+  Console.WriteLine("Runs on next world update.");
+});
+```
+
+### Awaitable Variants
+
+You can await scheduler execution using the non-async callback overloads:
+
+```c#
+await Core.Scheduler.NextTickAsync(() =>
+{
+  Console.WriteLine("Executed in next tick, awaited.");
+});
+
+int computedValue = await Core.Scheduler.NextWorldUpdateAsync(() =>
+{
+  return 42;
+});
+```
 
 <Callout type="warning">
-  All timers use the game tick as the unit, if you want to use seconds, you need to use `XXXBySeconds` variant instead.
+  Do not pass async callbacks (`Func<Task...>`) to `NextTick` or `NextWorldUpdate` families. Those overloads are obsolete and documented as unsafe.
 </Callout>
 
-### Delay
+## Timer APIs
 
-```csharp
-var token = Core.Scheduler.Delay(1000, () => {
-  Console.WriteLine(123);
+### Tick-Based Timers
+
+Tick-based APIs use game ticks as units.
+
+```c#
+var delayCts = Core.Scheduler.Delay(128, () =>
+{
+  Console.WriteLine("Executed once after 128 ticks.");
+});
+
+var repeatCts = Core.Scheduler.Repeat(64, () =>
+{
+  Console.WriteLine("Runs immediately, then every 64 ticks.");
+});
+
+var delayRepeatCts = Core.Scheduler.DelayAndRepeat(32, 64, () =>
+{
+  Console.WriteLine("Starts after 32 ticks, then repeats every 64 ticks.");
 });
 ```
 
-This example will print `123` after 1000 game ticks.
+### Second-Based Timers
 
+Use second-based APIs for easier human-readable intervals.
 
-### Repeat
+```c#
+Core.Scheduler.DelayBySeconds(2.0f, () =>
+{
+  Console.WriteLine("Executed after 2 seconds.");
+});
 
-```csharp
-var token = Core.Scheduler.Repeat(1000, () => {
-  Console.WriteLine(123);
+Core.Scheduler.RepeatBySeconds(1.0f, () =>
+{
+  Console.WriteLine("Runs immediately, then every 1 second.");
+});
+
+Core.Scheduler.DelayAndRepeatBySeconds(3.0f, 1.5f, () =>
+{
+  Console.WriteLine("Starts after 3 seconds, then repeats every 1.5 seconds.");
 });
 ```
 
-The callback will be executed once immediately, and then print `123` every 1000 game ticks.
+<Callout type="info">
+  Second-based timers are still driven by game ticks, so very small intervals approach tick precision limits (about 15 ms).
+</Callout>
 
-### Delay and Repeat
+## Canceling Timers
 
-```csharp
-var token = Core.Scheduler.DelayAndRepeat(500, 1000, () => {
-  Console.WriteLine(123);
-});
-```
+All timer creation methods return `CancellationTokenSource`.
 
-The callback will be executed once after 500 game ticks, and then print `123` every 1000 game ticks.
+```c#
+var token = Core.Scheduler.Repeat(64, () => Console.WriteLine("Tick"));
 
-### Cancel
-
-All timer methods return a `CancellationTokenSource` object, you can use it to cancel the timer.
-
-```csharp
+// Manual cancel
 token.Cancel();
-```
 
-This example will cancel the timer.
-
-### Cancel on map change
-
-```csharp
+// Auto-cancel on map change
 Core.Scheduler.StopOnMapChange(token);
 ```
 
-This example will cancel the timer when the map changes.
+## Advanced Timers with AddTimer
+
+Use `AddTimer(Func<ITimerContext, TimerStep>)` when you need dynamic behavior per execution.
+
+```c#
+var cts = Core.Scheduler.AddTimer(ctx =>
+{
+  Console.WriteLine($"Run #{ctx.ExecutionCount}");
+
+  if (ctx.ExecutionCount >= 4)
+  {
+    return TimerStep.Stop();
+  }
+
+  return TimerStep.WaitForSeconds(1.0f);
+});
+```
+
+`ITimerContext.ExecutionCount` starts at `0` for the first run.
+
+Common `TimerStep` helpers:
+
+- `TimerStep.Spin()` to run again on next tick
+- `TimerStep.WaitForTicks(long ticks)`
+- `TimerStep.WaitForMilliseconds(long milliseconds)`
+- `TimerStep.WaitForSeconds(float seconds)`
+- `TimerStep.Stop()`
 
 ## Reference
 
-See [ISchedulerService](/docs/api/scheduler/ischedulerservice/) for more details.
+See [ISchedulerService](/docs/api/scheduler/ischedulerservice/) for scheduler methods.
+
+See [ITimerContext](/docs/api/scheduler/itimercontext/) and [TimerStep](/docs/api/scheduler/timerstep/) for advanced timer flow.

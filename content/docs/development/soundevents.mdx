@@ -2,153 +2,107 @@
 title: Sound Events
 ---
 
-## What are sound events
+`SoundEvent` lets plugins emit game sound events with custom parameters and recipient filters.
 
-Sound events are the game's sound system interface that allows you to programmatically emit sounds to players. You can play weapon sounds, ambient sounds, or any sound defined in the game's sound event system.
+## Creating Sound Events
 
-## Creating and emitting a sound event
+You can create a sound event with either constructor.
 
-Here's a basic example of creating and emitting a sound event:
-
-```csharp
-using var soundEvent = new SoundEvent() {
-  Name = "Weapon_AK47.Single",
-};
-
-// Add recipients
-soundEvent.Recipients.AddAllPlayers();
-
-// Emit the sound
-soundEvent.Emit();
-```
-
-This example will emit the AK47 shooting sound to all players in the server.
-
-<Callout type="info">
-  The `using` keyword is used to dispose the sound event when it's not used anymore, which helps prevent memory leaks.
-</Callout>
-
-## Configuring sound properties
-
-You can configure various properties of a sound event to control how it sounds:
-
-### Name
-
-The name of the sound event. This should match a sound event defined in the game's sound system.
-
-```csharp
+```c#
+using var soundEvent = new SoundEvent();
 soundEvent.Name = "Weapon_AK47.Single";
 ```
 
-### Volume
+Or initialize name, volume, and pitch directly:
 
-Controls the volume of the sound. Default is `1.0f`, range is typically `0.0f` to `1.0f`.
-
-```csharp
-soundEvent.Volume = 0.5f; // 50% volume
+```c#
+using var soundEvent = new SoundEvent("Weapon_AK47.Single", volume: 0.8f, pitch: 1.0f);
 ```
 
-### Pitch
+## Configuring Core Properties
 
-Controls the pitch of the sound. Default is `1.0f`. Higher values increase pitch, lower values decrease it.
+`SoundEvent` exposes these primary properties:
 
-```csharp
-soundEvent.Pitch = 2.0f; // Double the pitch
+- `Name`: sound event name
+- `Volume`: volume scalar
+- `Pitch`: pitch scalar
+- `SourceEntityIndex`: index of the source entity (`-1` means recipient location)
+
+```c#
+soundEvent.Name = "Weapon_AK47.Single";
+soundEvent.Volume = 0.6f;
+soundEvent.Pitch = 1.15f;
+soundEvent.SourceEntityIndex = -1;
 ```
 
-### Source Entity
+If you already have an entity instance, use the helper method:
 
-You can set the entity from which the sound originates. Use the entity's index, or set to `-1` to emit at the recipient's location.
-
-```csharp
-soundEvent.SourceEntityIndex = entity.Index; // From a specific entity
-// or
-soundEvent.SourceEntityIndex = -1; // At recipient location (default)
+```c#
+soundEvent.SetSourceEntity(sourceEntity);
 ```
 
-You can also use the helper method:
+## Setting Custom Sound Fields
 
-```csharp
-soundEvent.SetSourceEntity(entity);
-```
+Use typed setters to write custom sound fields:
 
-## Advanced configuration
-
-Sound events support additional parameters through setter methods:
-
-### Setting position
-
-You can set a 3D position for the sound:
-
-```csharp
+```c#
+soundEvent.SetBool("public.some_flag", true);
+soundEvent.SetInt32("public.team", 2);
+soundEvent.SetUInt32("public.seed", 123u);
+soundEvent.SetFloat("public.volume_override", 0.7f);
 soundEvent.SetFloat3("public.position", 100.0f, 200.0f, 300.0f);
-// or using a Vector
+```
+
+You can also set vectors directly:
+
+```c#
 soundEvent.SetFloat3("public.position", position);
 ```
 
-### Setting other parameters
+And read values back when needed:
 
-You can set various data types on sound events:
-
-```csharp
-soundEvent.SetBool("field_name", true);
-soundEvent.SetInt32("field_name", 42);
-soundEvent.SetUInt32("field_name", 100u);
-soundEvent.SetFloat("field_name", 1.5f);
+```c#
+bool someFlag = soundEvent.GetBool("public.some_flag");
+int team = soundEvent.GetInt32("public.team");
+uint seed = soundEvent.GetUInt32("public.seed");
+float volumeOverride = soundEvent.GetFloat("public.volume_override");
+Vector pos = soundEvent.GetFloat3("public.position");
 ```
 
-## Recipients
+## Configuring Recipients
 
-Recipients determine which players will hear the sound event. You must add at least one recipient before emitting the sound.
+Recipients are managed through `CRecipientFilter` on `soundEvent.Recipients`.
 
-### Add all players
-
-```csharp
+```c#
+// Broadcast to everyone
 soundEvent.Recipients.AddAllPlayers();
+
+// Or target specific players
+soundEvent.Recipients.RemoveAllPlayers();
+soundEvent.Recipients.AddRecipient(0);
+soundEvent.Recipients.AddRecipient(1);
 ```
 
-### Add specific player
+## Emitting Sound Events
 
-```csharp
-soundEvent.Recipients.AddPlayer(playerid);
+Use `Emit()` on main thread contexts.
+
+```c#
+uint guid = soundEvent.Emit();
 ```
 
-### Add multiple players
+Use `EmitAsync()` for non-main-thread contexts.
 
-```csharp
-soundEvent.Recipients.AddPlayer(playerid1);
-soundEvent.Recipients.AddPlayer(playerid2);
+```c#
+uint guid = await soundEvent.EmitAsync();
 ```
 
-## Complete example
-
-Here's a complete example combining all the features:
-
-```csharp
-public void PlayCustomSound(CCSPlayerController player) {
-  using var soundEvent = new SoundEvent() {
-    // Set the sound event name
-    Name = "Weapon_AK47.Single",
-    
-    // Set the source entity to the player
-    SourceEntityIndex = player.Pawn.Value!.Index,
-    
-    // Control volume and pitch
-    Volume = 0.5f,
-    Pitch = 2.0f
-  };
-
-  // Set additional parameters
-  soundEvent.SetFloat3("public.position", 1.0f, 1.0f, 1.0f);
-
-  // Add recipients
-  soundEvent.Recipients.AddAllPlayers();
-
-  // Emit the sound event
-  soundEvent.Emit();
-}
-```
+<Callout type="warning">
+  `Emit()` is thread-unsafe. Use `EmitAsync()` when you are not sure execution is on the main thread.
+</Callout>
 
 ## Reference
 
-See [SoundEvent](/docs/api/sounds/soundevent) for more details about the API.
+See [SoundEvent](/docs/api/sounds/soundevent/) for class details.
+
+See [CRecipientFilter](/docs/api/natives/crecipientfilter/) for recipient helper methods.

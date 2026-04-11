@@ -2,11 +2,26 @@
 title: Translations
 ---
 
-SwiftlyS2 provides a comprehensive translation system that allows you to localize your plugins for multiple languages. The system automatically loads translations from your plugin's resources folder and provides them to players based on their game language.
+SwiftlyS2 translation APIs let you localize plugin text by key and automatically resolve player-specific language.
 
-## Setting Up Translation Files
+## Translation File Layout
 
-Translation files should be placed in your plugin's `resources/translations/` folder. Each file should be named using the language code followed by the `.jsonc` extension.
+Place translation files in your plugin under:
+
+```text
+resources/translations/
+```
+
+Use `.jsonc` files named by language code (for example `en.jsonc`, `fr.jsonc`, `pt-BR.jsonc`, `es-419.jsonc`).
+
+<Callout type="warning">
+    Custom language codes are supported for direct lookups through `Core.Localizer`, but they are not resolved by `Core.Translation.GetPlayerLocalizer(player)`.
+    Player localizers are limited to language codes provided by the player's game language.
+</Callout>
+
+<Callout type="info">
+  Keep an `en.jsonc` baseline with all keys so unsupported or incomplete languages still have usable text.
+</Callout>
 
 ### Language Codes
 
@@ -44,191 +59,97 @@ Use the following language codes when naming your translation files:
 | Ukrainian | `uk` | `uk.jsonc` |
 | Vietnamese | `vn` | `vn.jsonc` |
 
-## Creating Translation Files
-
-Translation files use the JSONC format (JSON with Comments), which allows you to add comments for context.
-
-### Example: resources/translations/en.jsonc
+## Example Translation File
 
 ```jsonc
 {
-  // Plugin information
-  "plugin.name": "My Awesome Plugin",
-  "plugin.version": "Version {0}",
+    // General
+    "plugin.name": "My Plugin",
+    "plugin.ready": "Plugin is ready.",
 
-  // Welcome messages
-  "welcome.title": "Welcome!",
-  "welcome.message": "Welcome to the server, {0}!",
-  "welcome.first_time": "This is your first time here, {0}. Have fun!",
+    // Command feedback
+    "command.heal.success": "You have been healed.",
+    "command.heal.other": "{0} healed {1}",
+    "command.heal.no_permission": "You do not have permission.",
 
-  // Commands
-  "command.heal.success": "You have been healed!",
-  "command.heal.other": "{0} healed {1}",
-  "command.heal.no_permission": "You don't have permission to use this command.",
-
-  // Notifications
-  "notification.player_joined": "{0} has joined the server",
-  "notification.player_left": "{0} has left the server",
-
-  // Errors
-  "error.not_found": "Player not found!",
-  "error.invalid_argument": "Invalid argument: {0}"
+    // Errors
+    "error.player_not_found": "Player '{0}' was not found."
 }
 ```
 
-### Example: resources/translations/fr.jsonc
+## Accessing Translation APIs
 
-```jsonc
+SwiftlyS2 exposes two useful entry points:
+
+- `Core.Localizer` (`ILocalizer`) for default/server-localized lookups
+- `Core.Translation.GetPlayerLocalizer(IPlayer)` for player-language lookups
+
+```c#
+public override void Load(bool hotReload)
 {
-  // Informations du plugin
-  "plugin.name": "Mon Super Plugin",
-  "plugin.version": "Version {0}",
-
-  // Messages de bienvenue
-  "welcome.title": "Bienvenue !",
-  "welcome.message": "Bienvenue sur le serveur, {0} !",
-  "welcome.first_time": "C'est votre première visite, {0}. Amusez-vous bien !",
-
-  // Commandes
-  "command.heal.success": "Vous avez été soigné !",
-  "command.heal.other": "{0} a soigné {1}",
-  "command.heal.no_permission": "Vous n'avez pas la permission d'utiliser cette commande.",
-
-  // Notifications
-  "notification.player_joined": "{0} a rejoint le serveur",
-  "notification.player_left": "{0} a quitté le serveur",
-
-  // Erreurs
-  "error.not_found": "Joueur introuvable !",
-  "error.invalid_argument": "Argument invalide : {0}"
+    var serverLocalizer = Core.Localizer;
 }
 ```
 
-## Using Translations in Code
+## Server-Side Localization
 
-### Getting a Player's Localizer
+Use `Core.Localizer` when the message is not player-specific.
 
-The most common way to use translations is to get a localizer for a specific player, which automatically uses their game language.
+```c#
+string readyMessage = Core.Localizer["plugin.ready"];
+string versionMessage = Core.Localizer["plugin.version", "1.2.0"];
+```
 
-```csharp
-public void GreetPlayer(IPlayer player)
+## Player-Specific Localization
+
+Use `Core.Translation.GetPlayerLocalizer(player)` when output should match the player's language.
+
+```c#
+public async Task GreetAsync(IPlayer player)
 {
     var localizer = Core.Translation.GetPlayerLocalizer(player);
-    var message = localizer["welcome.message", player.Controller.PlayerName];
-    
-    player.SendMessage(MessageType.Chat, message);
+    string message = localizer["welcome.message", player.PlayerName];
+
+    await player.SendChatAsync(message);
 }
 ```
 
-### Simple Translation Lookup
+`IPlayer.PlayerLanguage` can be used for diagnostics or conditional flows:
 
-For simple translations without parameters:
-
-```csharp
-var localizer = Core.Translation.GetPlayerLocalizer(player);
-var pluginName = localizer["plugin.name"];
-
-player.SendMessage(MessageType.Chat, pluginName);
+```c#
+Core.Logger.LogInformation("Player language: {Language}", player.PlayerLanguage.ToString());
 ```
 
-### Translation with Parameters
+## Placeholder Formatting
 
-Use string formatting with parameters:
+`ILocalizer` supports two indexer forms:
 
-```csharp
-var localizer = Core.Translation.GetPlayerLocalizer(player);
-var message = localizer["command.heal.other", healer.Controller.PlayerName, target.Controller.PlayerName];
+- `localizer["key"]`
+- `localizer["key", arg0, arg1, ...]`
 
-player.SendMessage(MessageType.Chat, message);
-// Output: "PlayerA healed PlayerB" (or localized equivalent)
-```
-
-## Best Practices
-
-### Keep Translation Keys Consistent
-
-Use a consistent naming convention for your translation keys:
-
-```
-category.subcategory.specific_key
-```
-
-Examples:
-- `command.heal.success`
-- `command.heal.no_permission`
-- `notification.player_joined`
-- `error.invalid_argument`
-
-### Provide Context with Comments
-
-Use JSONC comments to provide context for translators:
+Keep placeholder order stable across languages:
 
 ```jsonc
 {
-  // {0} = player name
-  "welcome.message": "Welcome, {0}!",
-
-  // {0} = healer name, {1} = target name
-  "command.heal.other": "{0} healed {1}",
-
-  // Error shown when player is not found
-  // {0} = searched player name
-  "error.player_not_found": "Player '{0}' not found!"
+    "round.win": "{0} won the round in {1} seconds"
 }
 ```
 
-### Always Provide English Fallback
-
-Always create an `en.jsonc` file as the default fallback language. This ensures that if a player's language is not supported, they will see English text instead of missing translations.
-
-### Use Parameters for Dynamic Content
-
-Use numbered parameters (`{0}`, `{1}`, etc.) for dynamic content instead of string concatenation:
-
-```jsonc
-// Good
-"welcome.message": "Welcome, {0}! You are player #{1}",
-
-// Avoid
-"welcome.message": "Welcome, " // Hard to translate properly
+```c#
+string text = localizer["round.win", "CT", 42];
 ```
 
-### Test with Multiple Languages
+## Key Design Best Practices
 
-Test your plugin with different languages to ensure:
-- All translation keys exist in all language files
-- Parameters are used correctly
-- Text formatting looks good in different languages (some languages are much longer)
-
-### Keep Translations Synchronized
-
-When adding new translation keys, add them to ALL language files. You can temporarily use English text as a placeholder until proper translations are available:
-
-```jsonc
-// fr.jsonc - Temporary English placeholder
-"new.feature.message": "This is a new feature", // TODO: Translate to French
-```
-
-## Handling Missing Translations
-
-If a translation key is missing, the system will return the key itself. You can check for this and provide a fallback:
-
-```csharp
-var localizer = Core.Translation.GetPlayerLocalizer(player);
-var message = localizer["some.key"];
-
-// If translation is missing, message will be "some.key"
-if (message == "some.key")
-{
-    message = "Default fallback message";
-}
-
-player.PrintToChat(message);
-```
+- Use stable dot-separated keys (for example `command.heal.success`).
+- Keep the same key set across all language files.
+- Add JSONC comments for translator context when placeholders are involved.
+- Avoid string concatenation in code for translatable sentences.
 
 ## Reference
 
-See the following API documentation for more details:
-- [ITranslationService](/docs/api/translation/itranslationservice) - Translation service interface
-- [ILocalizer](/docs/api/translation/ilocalizer) - Localizer interface for retrieving translations
-- [Language](/docs/api/translation/language) - Language enum with all supported languages
+See [ITranslationService](/docs/api/translation/itranslationservice/) for translation service methods.
+
+See [ILocalizer](/docs/api/translation/ilocalizer/) for translation indexers.
+
+See [Language](/docs/api/translation/language/) for supported language definitions.
