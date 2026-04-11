@@ -149,7 +149,7 @@ Core.GameEvent.UnhookPost<EventPlayerDeath>();
 Hook callbacks follow this delegate signature:
 
 ```c#
-public delegate HookResult IGameEventService.GameEventHandler<T>(T eventObj) where T : IGameEvent<T>
+public delegate HookResult IGameEventService.GameEventHandler&lt;T&gt;(T eventObj) where T : IGameEvent&lt;T&gt;
 ```
 
 ## Working with Event Data
@@ -168,7 +168,7 @@ private HookResult OnPlayerDeath(EventPlayerDeath @event)
 }
 ```
 
-`IGameEvent<T>` also exposes common members:
+`IGameEvent&lt;T&gt;` also exposes common members:
 
 - `DontBroadcast`
 - `Accessor` (`IGameEventAccessor`) for raw payload field access

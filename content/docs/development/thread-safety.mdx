@@ -12,7 +12,7 @@ Some framework APIs are thread-unsafe. Calling them from non-main-thread context
 
 - Thread-unsafe APIs must run on the main thread.
 - Prefer `Async` variants when they exist.
-- Async variants return `Task` (or `Task<T>`) so they can be awaited in async flows.
+- Async variants return `Task` (or `Task&lt;T&gt;`) so they can be awaited in async flows.
 
 In practice, async variants typically execute immediately when already on the main thread, and otherwise are scheduled safely for main-thread execution.
 
@@ -78,8 +78,8 @@ public async Task NotifyOnMainThreadAsync(IPlayer player)
 | `IEngineService.ExecuteCommand(string)` | `IEngineService.ExecuteCommandAsync(string)` |
 | `IEngineService.ExecuteCommandWithBuffer(...)` | `IEngineService.ExecuteCommandWithBufferAsync(...)` |
 | `IEngineService.DispatchParticleEffect(...)` | `IEngineService.DispatchParticleEffectAsync(...)` |
-| `CEntityInstance.AcceptInput<T>(...)` | `CEntityInstance.AcceptInputAsync<T>(...)` |
-| `CEntityInstance.AddEntityIOEvent<T>(...)` | `CEntityInstance.AddEntityIOEventAsync<T>(...)` |
+| `CEntityInstance.AcceptInput&lt;T&gt;(...)` | `CEntityInstance.AcceptInputAsync&lt;T&gt;(...)` |
+| `CEntityInstance.AddEntityIOEvent&lt;T&gt;(...)` | `CEntityInstance.AddEntityIOEventAsync&lt;T&gt;(...)` |
 | `CEntityInstance.DispatchSpawn(...)` | `CEntityInstance.DispatchSpawnAsync(...)` |
 | `CEntityInstance.Despawn()` | `CEntityInstance.DespawnAsync()` |
 | `CBaseModelEntity.SetModel(string)` | `CBaseModelEntity.SetModelAsync(string)` |

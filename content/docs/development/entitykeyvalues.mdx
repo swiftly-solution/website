@@ -49,7 +49,7 @@ keyValues.SetVector4D("position_4d", new Vector4D(1, 2, 3, 4));
 keyValues.SetQAngle("angle", new QAngle(0, 90, 0));
 ```
 
-### Generic Set<T>
+### Generic Set&lt;T&gt;
 
 ```c#
 keyValues.Set<int>("health", 100);
@@ -79,7 +79,7 @@ Vector4D position4D = keyValues.GetVector4D("position_4d");
 QAngle angle = keyValues.GetQAngle("angle");
 ```
 
-### Generic Get<T>
+### Generic Get&lt;T&gt;
 
 ```c#
 int health = keyValues.Get<int>("health");
@@ -89,7 +89,7 @@ Vector position = keyValues.Get<Vector>("position");
 
 ## Supported Generic Types
 
-`Set<T>` and `Get<T>` support these types:
+`Set&lt;T&gt;` and `Get&lt;T&gt;` support these types:
 
 - `bool`
 - `int`
@@ -147,7 +147,7 @@ public override void Load(bool hotReload)
 ```
 
 <Callout type="warning">
-  Using unsupported types with `Set<T>` or `Get<T>` throws `InvalidOperationException`.
+  Using unsupported types with `Set&lt;T&gt;` or `Get&lt;T&gt;` throws `InvalidOperationException`.
 </Callout>
 
 ## Reference

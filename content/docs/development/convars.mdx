@@ -17,7 +17,7 @@ public override void Load(bool hotReload)
 
 ## Supported Generic Types
 
-The generic parameter `T` used by `IConVar<T>`, `Create<T>`, `CreateOrFind<T>`, and `Find<T>` supports these types:
+The generic parameter `T` used by `IConVar&lt;T&gt;`, `Create&lt;T&gt;`, `CreateOrFind&lt;T&gt;`, and `Find&lt;T&gt;` supports these types:
 
 - `bool`
 - `short`
@@ -53,7 +53,7 @@ IConVar<bool> enabled = Core.ConVar.Create(
 The `Create` function signature is:
 
 ```c#
-IConVar<T> Create<T>(string name, string helpMessage, T defaultValue, ConvarFlags flags = ConvarFlags.NONE)
+IConVar&lt;T&gt; Create&lt;T&gt;(string name, string helpMessage, T defaultValue, ConvarFlags flags = ConvarFlags.NONE)
 ```
 
 ### Create with Min/Max
@@ -72,7 +72,7 @@ IConVar<int> maxBots = Core.ConVar.Create(
 The min/max overload signature is:
 
 ```c#
-IConVar<T> Create<T>(string name, string helpMessage, T defaultValue, T? minValue, T? maxValue, ConvarFlags flags = ConvarFlags.NONE)
+IConVar&lt;T&gt; Create&lt;T&gt;(string name, string helpMessage, T defaultValue, T? minValue, T? maxValue, ConvarFlags flags = ConvarFlags.NONE)
     where T : unmanaged
 ```
 
@@ -92,7 +92,7 @@ IConVar<bool> feature = Core.ConVar.CreateOrFind(
 It also supports the min/max overload:
 
 ```c#
-IConVar<T> CreateOrFind<T>(string name, string helpMessage, T defaultValue, T? minValue, T? maxValue, ConvarFlags flags = ConvarFlags.NONE)
+IConVar&lt;T&gt; CreateOrFind&lt;T&gt;(string name, string helpMessage, T defaultValue, T? minValue, T? maxValue, ConvarFlags flags = ConvarFlags.NONE)
     where T : unmanaged
 ```
 
@@ -100,7 +100,7 @@ IConVar<T> CreateOrFind<T>(string name, string helpMessage, T defaultValue, T? m
 
 ### Typed Find
 
-Use `Find<T>` when you know the convar type.
+Use `Find&lt;T&gt;` when you know the convar type.
 
 ```c#
 IConVar<bool>? cheats = Core.ConVar.Find<bool>("sv_cheats");
@@ -124,7 +124,7 @@ if (hostname != null)
 }
 ```
 
-## Working with IConVar<T>
+## Working with IConVar&lt;T&gt;
 
 ### Setting and Getting Values
 

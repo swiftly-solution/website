@@ -23,7 +23,7 @@ public override void Load(bool hotReload)
 
 ### One-Off Send
 
-Use `Send<T>` for short, one-off messages.
+Use `Send&lt;T&gt;` for short, one-off messages.
 
 ```c#
 Core.NetMessage.Send<CUserMessageShake>(msg =>
@@ -37,11 +37,11 @@ Core.NetMessage.Send<CUserMessageShake>(msg =>
 });
 ```
 
-`Send<T>` creates the message, runs your configure callback, and sends it using the configured recipient filter.
+`Send&lt;T&gt;` creates the message, runs your configure callback, and sends it using the configured recipient filter.
 
 ### Reusing a Message Instance
 
-Use `Create<T>` when you want to build and send the same message shape repeatedly.
+Use `Create&lt;T&gt;` when you want to build and send the same message shape repeatedly.
 
 ```c#
 using var msg = Core.NetMessage.Create<CUserMessageShake>();
@@ -57,7 +57,7 @@ msg.SendToPlayer(0);
 
 ### Recipient Filters
 
-`INetMessage<T>.Recipients` exposes `CRecipientFilter` so you can build custom audiences.
+`INetMessage&lt;T&gt;.Recipients` exposes `CRecipientFilter` so you can build custom audiences.
 
 ```c#
 using var msg = Core.NetMessage.Create<CUserMessageShake>();
@@ -73,9 +73,9 @@ msg.Send();
 
 SwiftlyS2 supports three net-message hook pipelines:
 
-- Client messages (`HookClientMessage<T>`) for client->server traffic
-- Server messages (`HookServerMessage<T>`) for server->client traffic
-- Internal server messages (`HookServerMessageInternal<T>`) for server->client traffic with target `playerId`
+- Client messages (`HookClientMessage&lt;T&gt;`) for client->server traffic
+- Server messages (`HookServerMessage&lt;T&gt;`) for server->client traffic
+- Internal server messages (`HookServerMessageInternal&lt;T&gt;`) for server->client traffic with target `playerId`
 
 ### Client Hooks
 
@@ -214,14 +214,14 @@ Core.NetMessage.UnhookServerMessageInternal<CMsgSosStartSoundEvent>();
 Programmatic hooks use these delegate signatures:
 
 ```c#
-public delegate HookResult INetMessageService.ClientNetMessageHandler<T>(T msg, int playerId)
-    where T : ITypedProtobuf<T>, INetMessage<T>, IDisposable;
+public delegate HookResult INetMessageService.ClientNetMessageHandler&lt;T&gt;(T msg, int playerId)
+  where T : ITypedProtobuf&lt;T&gt;, INetMessage&lt;T&gt;, IDisposable;
 
-public delegate HookResult INetMessageService.ServerNetMessageHandler<T>(T msg)
-    where T : ITypedProtobuf<T>, INetMessage<T>, IDisposable;
+public delegate HookResult INetMessageService.ServerNetMessageHandler&lt;T&gt;(T msg)
+  where T : ITypedProtobuf&lt;T&gt;, INetMessage&lt;T&gt;, IDisposable;
 
-public delegate HookResult INetMessageService.ServerNetMessageInternalHandler<T>(T msg, int playerId)
-    where T : ITypedProtobuf<T>, INetMessage<T>, IDisposable;
+public delegate HookResult INetMessageService.ServerNetMessageInternalHandler&lt;T&gt;(T msg, int playerId)
+  where T : ITypedProtobuf&lt;T&gt;, INetMessage&lt;T&gt;, IDisposable;
 ```
 
 ## Working with Raw Payload Accessor

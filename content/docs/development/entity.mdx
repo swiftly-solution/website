@@ -28,7 +28,7 @@ CPointWorldText worldText = Core.EntitySystem.CreateEntity<CPointWorldText>();
 Signature:
 
 ```c#
-T CreateEntity<T>() where T : class, ISchemaClass<T>
+T CreateEntity&lt;T&gt;() where T : class, ISchemaClass&lt;T&gt;
 ```
 
 ### Create by Designer Name
@@ -40,7 +40,7 @@ CBaseEntity relay = Core.EntitySystem.CreateEntityByDesignerName<CBaseEntity>("l
 Signature:
 
 ```c#
-T CreateEntityByDesignerName<T>(string designerName) where T : class, ISchemaClass<T>
+T CreateEntityByDesignerName&lt;T&gt;(string designerName) where T : class, ISchemaClass&lt;T&gt;
 ```
 
 ## Spawning Entities
@@ -77,7 +77,7 @@ Use the async variant when spawning from non-main-thread contexts.
 
 ## Querying Existing Entities
 
-Most query methods return `IEnumerable<T>`, so filter as early as possible.
+Most query methods return `IEnumerable&lt;T&gt;`, so filter as early as possible.
 
 ### Get All Entities
 
@@ -115,7 +115,7 @@ CCSGameRules? gameRules = Core.EntitySystem.GetGameRules();
 
 ## Entity Handles and Safety
 
-For long-term tracking, store `CHandle<T>` instead of storing direct entity references.
+For long-term tracking, store `CHandle&lt;T&gt;` instead of storing direct entity references.
 
 ### Check Entity Validity with IsValid
 
@@ -132,7 +132,7 @@ if (entity == null || !entity.IsValid)
 Console.WriteLine("Entity reference is valid.");
 ```
 
-`IsValid` is a point-in-time check. For long-lived tracking, prefer storing `CHandle<T>` and checking `handle.IsValid` before accessing `handle.Value`.
+`IsValid` is a point-in-time check. For long-lived tracking, prefer storing `CHandle&lt;T&gt;` and checking `handle.IsValid` before accessing `handle.Value`.
 
 ### Convert Entity to Handle
 
