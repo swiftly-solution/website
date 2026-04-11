@@ -1,0 +1,9 @@
+{
+  "pages": [
+    "index",
+    "cli-options",
+    "core-configuration",
+    "command-overrides",
+    "console-filter"
+  ]
+}
