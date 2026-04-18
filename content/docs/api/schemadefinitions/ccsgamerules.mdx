@@ -2487,7 +2487,7 @@ void GameStartTimeUpdated()
 
 ### GetViewVectors()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CCSGameRules.cs#L39" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CCSGameRules.cs#L45" />
 
 Get the global view vectors.
 
@@ -2498,6 +2498,20 @@ ref CViewVectors GetViewVectors()
 <ApiLabel>Returns</ApiLabel>
 
 - <ApiParam type="CViewVectors" typeHref="/docs/api/natives/cviewvectors" /> — The view vectors.
+
+### GoToIntermission(bool)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CCSGameRules.cs#L38" />
+
+Go to the intermission phase of the game.
+
+```csharp
+void GoToIntermission(bool bAbortedMatch = false)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="bAbortedMatch" type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" /> — Indicates whether the match was aborted
 
 ### HalloweenMaskListSeedUpdated()
 

@@ -27,7 +27,7 @@ public interface ISchemaClass : INativeHandle
 Convert this handle to another type.
 
 ```csharp
-K As<K>() where K : ISchemaClass<K>
+K As<K>() where K : class, ISchemaClass<K>
 ```
 
 <ApiLabel>Returns</ApiLabel>

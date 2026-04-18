@@ -25,7 +25,7 @@ public interface CGameRules : ISchemaClass<CGameRules>, ISchemaField, ISchemaCla
 
 ### GamePaused
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameRules.cs#L28" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameRules.cs#L32" />
 
 ```csharp
 ref bool GamePaused { get; }
@@ -35,9 +35,33 @@ ref bool GamePaused { get; }
 
 - <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
 
-### PauseStartTick
+### LastMatchTime
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameRules.cs#L24" />
+
+```csharp
+ref uint LastMatchTime { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
+
+### LastMatchTime_MatchID64
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameRules.cs#L26" />
+
+```csharp
+ref ulong LastMatchTime_MatchID64 { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="ulong" typeHref="https://learn.microsoft.com/dotnet/api/system.uint64" />
+
+### PauseStartTick
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameRules.cs#L30" />
 
 ```csharp
 ref int PauseStartTick { get; }
@@ -73,7 +97,7 @@ ref int QuestPhase { get; }
 
 ### TotalPausedTicks
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameRules.cs#L24" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameRules.cs#L28" />
 
 ```csharp
 ref int TotalPausedTicks { get; }
@@ -99,7 +123,7 @@ ref CNetworkVarChainer __m_pChainEntity { get; }
 
 ### GamePausedUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameRules.cs#L32" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameRules.cs#L36" />
 
 ```csharp
 void GamePausedUpdated()
@@ -107,7 +131,7 @@ void GamePausedUpdated()
 
 ### PauseStartTickUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameRules.cs#L31" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameRules.cs#L35" />
 
 ```csharp
 void PauseStartTickUpdated()
@@ -115,7 +139,7 @@ void PauseStartTickUpdated()
 
 ### TotalPausedTicksUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameRules.cs#L30" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameRules.cs#L34" />
 
 ```csharp
 void TotalPausedTicksUpdated()

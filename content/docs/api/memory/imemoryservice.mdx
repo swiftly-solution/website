@@ -4,7 +4,7 @@ title: IMemoryService
 
 # Interface IMemoryService
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L5" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L6" />
 
 **Namespace**: [SwiftlyS2.Shared.Memory](/docs/api/memory)
 
@@ -18,7 +18,7 @@ public interface IMemoryService
 
 ### Alloc(ulong)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L95" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L103" />
 
 Allocate a block of memory.
 
@@ -36,7 +36,7 @@ nint Alloc(ulong size)
 
 ### Free(nint)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L101" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L109" />
 
 Free a block of memory.
 
@@ -50,7 +50,7 @@ void Free(nint pointer)
 
 ### GetAddressBySignature(string, string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L43" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L44" />
 
 Get the address of a ida-style signature.
 
@@ -69,7 +69,7 @@ nint? GetAddressBySignature(string library, string signature)
 
 ### GetInterfaceByName(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L35" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L36" />
 
 Get the address of an valve or swiftly native interface by its name.
 
@@ -87,7 +87,7 @@ nint? GetInterfaceByName(string name)
 
 ### GetObjectPtrVtableName(nint)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L65" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L66" />
 
 Get the vtable name of an object pointer.
 
@@ -105,7 +105,7 @@ string? GetObjectPtrVtableName(nint address)
 
 ### GetUnmanagedFunctionByAddress\<TDelegate\>(nint)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L13" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L14" />
 
 Get an unmanaged function by its address.
 
@@ -127,7 +127,7 @@ IUnmanagedFunction<TDelegate> GetUnmanagedFunctionByAddress<TDelegate>(nint addr
 
 ### GetUnmanagedFunctionByVTable\<TDelegate\>(nint, int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L22" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L23" />
 
 Get an unmanaged function by its vtable address and index.
 
@@ -150,7 +150,7 @@ IUnmanagedFunction<TDelegate> GetUnmanagedFunctionByVTable<TDelegate>(nint pVTab
 
 ### GetUnmanagedMemoryByAddress(nint)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L28" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L29" />
 
 Get an unmanaged memory block by its address.
 
@@ -168,7 +168,7 @@ IUnmanagedMemory GetUnmanagedMemoryByAddress(nint address)
 
 ### GetVTableAddress(string, string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L51" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L52" />
 
 Get the address of a vtable by its name.
 
@@ -187,7 +187,7 @@ nint? GetVTableAddress(string library, string vtableName)
 
 ### ObjectPtrHasBaseClass(nint, string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L80" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L81" />
 
 Check if an object pointer has a base class.
 
@@ -206,7 +206,7 @@ bool ObjectPtrHasBaseClass(nint address, string baseClassName)
 
 ### ObjectPtrHasVtable(nint)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L72" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L73" />
 
 Check if an object pointer has a vtable.
 
@@ -224,7 +224,7 @@ bool ObjectPtrHasVtable(nint address)
 
 ### Resize(nint, ulong)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L109" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L117" />
 
 Resize a block of memory.
 
@@ -243,7 +243,7 @@ nint Resize(nint pointer, ulong newSize)
 
 ### ResolveXrefAddress(nint)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L58" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L59" />
 
 Resolve the address of a xref signature.
 
@@ -261,7 +261,7 @@ nint ResolveXrefAddress(nint xrefAddress)
 
 ### ToSchemaClass\<T\>(nint)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L88" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L89" />
 
 Convert a raw address to a schema class.
 
@@ -280,4 +280,22 @@ T ToSchemaClass<T>(nint address) where T : class, ISchemaClass<T>
 <ApiLabel>Type Parameters</ApiLabel>
 
 - <ApiParam name="T" /> — The schema class type.
+
+### ToServerSideClient(nint)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L96" />
+
+Convert a raw address to a server-side client.
+
+```csharp
+IServerSideClient ToServerSideClient(nint address)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="address" type="nint" typeHref="https://learn.microsoft.com/dotnet/api/system.intptr" /> — The address of the server-side client.
+
+<ApiLabel>Returns</ApiLabel>
+
+- <ApiParam type="IServerSideClient" typeHref="/docs/api/engine/iserversideclient" /> — The server-side client.
 

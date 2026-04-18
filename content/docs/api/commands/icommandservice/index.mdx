@@ -20,7 +20,7 @@ public interface ICommandService
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L105" />
 
-Gets all registered commands by both plugins and the game.
+Gets all registered commands by plugins.
 
 ```csharp
 List<string> GetAllCommands()
@@ -43,6 +43,20 @@ Dictionary<string, List<CommandInfo>> GetAllCommandsByPlugin()
 <ApiLabel>Returns</ApiLabel>
 
 - <ApiParam type="Dictionary&lt;string, List&lt;CommandInfo&gt;&gt;" typeHref="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2" /> — Dictionary mapping plugin names to their registered command information.
+
+### GetAllCommandsInfo()
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L124" />
+
+Gets all commands info for the commands registered by plugins.
+
+```csharp
+List<CommandInfo> GetAllCommandsInfo()
+```
+
+<ApiLabel>Returns</ApiLabel>
+
+- <ApiParam type="List&lt;CommandInfo&gt;" typeHref="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1" /> — List of command information registered by the plugin.
 
 ### GetCommandsByPlugin(string)
 

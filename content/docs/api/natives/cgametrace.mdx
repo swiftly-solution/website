@@ -310,7 +310,7 @@ public readonly CEntityInstance Entity { get; }
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CGameTrace.cs#L145" />
 
 ```csharp
-public readonly bool HitEntity<T>(out T entity) where T : ISchemaClass<T>
+public readonly bool HitEntity<T>(out T entity) where T : class, ISchemaClass<T>
 ```
 
 <ApiLabel>Parameters</ApiLabel>
@@ -330,7 +330,7 @@ public readonly bool HitEntity<T>(out T entity) where T : ISchemaClass<T>
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CGameTrace.cs#L151" />
 
 ```csharp
-public readonly bool HitEntity<T>() where T : ISchemaClass<T>
+public readonly bool HitEntity<T>() where T : class, ISchemaClass<T>
 ```
 
 <ApiLabel>Returns</ApiLabel>
@@ -346,7 +346,7 @@ public readonly bool HitEntity<T>() where T : ISchemaClass<T>
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CGameTrace.cs#L69" />
 
 ```csharp
-public readonly bool HitEntityByDesignerName<T>(string designerName, out T outEntity, NameMatchType matchType = NameMatchType.StartsWith) where T : ISchemaClass<T>
+public readonly bool HitEntityByDesignerName<T>(string designerName, out T outEntity, NameMatchType matchType = NameMatchType.StartsWith) where T : class, ISchemaClass<T>
 ```
 
 <ApiLabel>Parameters</ApiLabel>
@@ -368,7 +368,7 @@ public readonly bool HitEntityByDesignerName<T>(string designerName, out T outEn
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CGameTrace.cs#L105" />
 
 ```csharp
-public readonly bool HitEntityByDesignerName<T>(string designerName, NameMatchType matchType = NameMatchType.StartsWith) where T : ISchemaClass<T>
+public readonly bool HitEntityByDesignerName<T>(string designerName, NameMatchType matchType = NameMatchType.StartsWith) where T : class, ISchemaClass<T>
 ```
 
 <ApiLabel>Parameters</ApiLabel>

@@ -4,7 +4,7 @@ title: IPlayer
 
 # Interface IPlayer
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L36" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L37" />
 
 **Namespace**: [SwiftlyS2.Shared.Players](/docs/api/players)
 
@@ -22,7 +22,7 @@ public interface IPlayer : IEquatable<IPlayer>
 
 ### ConnectedTime
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L219" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L225" />
 
 Gets the total time, in seconds, that the connection has been active.
 
@@ -36,7 +36,7 @@ uint ConnectedTime { get; }
 
 ### Controller
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L239" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L245" />
 
 Gets the player controller associated with the player.
 
@@ -50,7 +50,7 @@ CCSPlayerController Controller { get; }
 
 ### IPAddress
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L277" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L283" />
 
 Gets the IP address associated with the player.
 
@@ -64,7 +64,7 @@ string IPAddress { get; }
 
 ### IsAlive
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L234" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L240" />
 
 Gets a value indicating whether the player is currently alive.
 
@@ -78,7 +78,7 @@ bool IsAlive { get; }
 
 ### IsAuthorized
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L214" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L220" />
 
 Whether the current user is authorized by Steam.
 
@@ -92,7 +92,7 @@ bool IsAuthorized { get; }
 
 ### IsFakeClient
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L209" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L215" />
 
 Whether the client is a bot.
 
@@ -106,7 +106,7 @@ bool IsFakeClient { get; }
 
 ### IsFirstSpawn
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L292" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L298" />
 
 Indicates whether this is the player's first spawn.
 
@@ -120,7 +120,7 @@ bool IsFirstSpawn { get; }
 
 ### IsValid
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L297" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L303" />
 
 Checks if the player is valid (has controller, is not HLTV, is connected and has pawn).
 
@@ -134,12 +134,12 @@ bool IsValid { get; }
 
 ### Name
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L61" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L62" />
 
 Gets the name of the player.
 
 ```csharp
-string Name { get; }
+string Name { get; set; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
@@ -148,7 +148,7 @@ string Name { get; }
 
 ### Pawn
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L250" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L256" />
 
 Gets the pawn associated with the player.
 
@@ -162,7 +162,7 @@ CBasePlayerPawn? Pawn { get; }
 
 ### PlayerID
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L41" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L42" />
 
 Gets the unique identifier for the player.
 
@@ -176,7 +176,7 @@ int PlayerID { get; }
 
 ### PlayerLanguage
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L287" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L293" />
 
 Gets the language for the player.
 
@@ -190,7 +190,7 @@ Language PlayerLanguage { get; }
 
 ### PlayerPawn
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L261" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L267" />
 
 Gets the player pawn associated with the player.
 
@@ -204,7 +204,7 @@ CCSPlayerPawn? PlayerPawn { get; }
 
 ### PressedButtons
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L272" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L278" />
 
 Gets the set of game buttons that are currently pressed.
 
@@ -218,7 +218,7 @@ GameButtonFlags PressedButtons { get; }
 
 ### RequiredController
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L245" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L251" />
 
 Gets the player controller associated with the player. Requires the controller to be valid.
 [Thrown when the controller is not valid.](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
@@ -233,7 +233,7 @@ CCSPlayerController RequiredController { get; }
 
 ### RequiredPawn
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L256" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L262" />
 
 Gets the pawn associated with the player. Requires the pawn to be valid.
 [Thrown when the pawn is not valid.](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
@@ -248,7 +248,7 @@ CBasePlayerPawn RequiredPawn { get; }
 
 ### RequiredPlayerPawn
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L267" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L273" />
 
 Gets the player pawn associated with the player. Requires the player pawn to be valid.
 [Thrown when the player pawn is not valid.](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
@@ -261,9 +261,23 @@ CCSPlayerPawn RequiredPlayerPawn { get; }
 
 - <ApiParam type="CCSPlayerPawn" typeHref="/docs/api/schemadefinitions/ccsplayerpawn" />
 
+### ServerSideClient
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L67" />
+
+Gets the server-side client associated with the player.
+
+```csharp
+IServerSideClient ServerSideClient { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="IServerSideClient" typeHref="/docs/api/engine/iserversideclient" />
+
 ### SessionId
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L46" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L47" />
 
 Gets the session ID for the player.
 
@@ -277,7 +291,7 @@ ulong SessionId { get; }
 
 ### Slot
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L56" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L57" />
 
 Gets the slot of the player. Equals to the player ID.
 
@@ -291,7 +305,7 @@ int Slot { get; }
 
 ### SteamID
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L224" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L230" />
 
 Gets the unique Steam identifier associated with the user.
 
@@ -305,7 +319,7 @@ ulong SteamID { get; }
 
 ### UnauthorizedSteamID
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L229" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L235" />
 
 Gets the Steam ID that was not verified yet.
 
@@ -319,7 +333,7 @@ ulong UnauthorizedSteamID { get; }
 
 ### UserID
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L51" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L52" />
 
 Gets the user ID for the player.
 
@@ -333,7 +347,7 @@ int UserID { get; }
 
 ### VoiceFlags
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L282" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L288" />
 
 Gets or sets the set of flags that specify voice options or features to be applied.
 
@@ -349,7 +363,7 @@ VoiceFlagValue VoiceFlags { get; set; }
 
 ### ChangeTeam(Team)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L453" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L464" />
 
 Changes the player's team.
 This will also kill the player.
@@ -367,7 +381,7 @@ void ChangeTeam(Team team)
 
 ### ChangeTeamAsync(Team)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L461" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L472" />
 
 Changes the player's team asynchronously.
 This will also kill the player.
@@ -386,7 +400,7 @@ Task ChangeTeamAsync(Team team)
 
 ### ClearTransmitEntityBlocks()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L336" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L342" />
 
 Removes all entity blocks from the transmit buffer, discarding any pending data scheduled for transmission.
 
@@ -396,7 +410,7 @@ void ClearTransmitEntityBlocks()
 
 ### ExecuteCommand(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L473" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L484" />
 
 Executes a command on behalf of the player.
 
@@ -413,7 +427,7 @@ void ExecuteCommand(string command)
 
 ### ExecuteCommandAsync(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L480" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L491" />
 
 Executes a command on behalf of the player asynchronously.
 
@@ -429,9 +443,27 @@ Task ExecuteCommandAsync(string command)
 
 - <ApiParam type="Task" typeHref="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task" />
 
+### GetClientConvarValue(string)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L361" />
+
+Retrieves userinfo values for convars such as: m_yaw, sensitivity.
+
+```csharp
+string GetClientConvarValue(string convarName)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="convarName" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
+
+<ApiLabel>Returns</ApiLabel>
+
+- <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
+
 ### GetListenOverride(int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L350" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L356" />
 
 Retrieves the listen override settings for the specified player.
 
@@ -449,7 +481,7 @@ ListenOverride GetListenOverride(int player)
 
 ### IsTransmitEntityBlocked(int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L331" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L337" />
 
 Determines whether the specified entity is currently blocked from transmitting data.
 
@@ -467,7 +499,7 @@ bool IsTransmitEntityBlocked(int entityid)
 
 ### Kick(string, ENetworkDisconnectionReason)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L307" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L313" />
 
 Disconnects the user from the network session, providing a specified reason and disconnection type.
 
@@ -486,7 +518,7 @@ void Kick(string reason, ENetworkDisconnectionReason gameReason)
 
 ### KickAsync(string, ENetworkDisconnectionReason)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L316" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L322" />
 
 Disconnects the user from the network session, providing a specified reason and disconnection type asynchronously.
 
@@ -506,7 +538,7 @@ Task KickAsync(string reason, ENetworkDisconnectionReason gameReason)
 
 ### Respawn()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L466" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L477" />
 
 Respawns the player.
 
@@ -516,7 +548,7 @@ void Respawn()
 
 ### SendAlert(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L165" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L171" />
 
 Sends an alert message to the player.
 
@@ -533,7 +565,7 @@ void SendAlert(string message)
 
 ### SendAlertAsync(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L172" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L178" />
 
 Sends an alert message to the player asynchronously.
 
@@ -551,7 +583,7 @@ Task SendAlertAsync(string message)
 
 ### SendCenter(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L150" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L156" />
 
 Sends a center message to the player.
 
@@ -568,7 +600,7 @@ void SendCenter(string message)
 
 ### SendCenterAsync(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L157" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L163" />
 
 Sends a center message to the player asynchronously.
 
@@ -586,7 +618,7 @@ Task SendCenterAsync(string message)
 
 ### SendCenterHTML(string, int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L181" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L187" />
 
 Sends a center HTML message to the player.
 
@@ -604,7 +636,7 @@ void SendCenterHTML(string message, int duration = 5000)
 
 ### SendCenterHTMLAsync(string, int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L189" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L195" />
 
 Sends a center HTML message to the player asynchronously.
 
@@ -623,7 +655,7 @@ Task SendCenterHTMLAsync(string message, int duration = 5000)
 
 ### SendChat(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L135" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L141" />
 
 Sends a chat message to the player.
 
@@ -640,7 +672,7 @@ void SendChat(string message)
 
 ### SendChatAsync(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L142" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L148" />
 
 Sends a chat message to the player asynchronously.
 
@@ -658,7 +690,7 @@ Task SendChatAsync(string message)
 
 ### SendChatEOT(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L197" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L203" />
 
 Sends an end-of-text chat message to the player.
 
@@ -675,7 +707,7 @@ void SendChatEOT(string message)
 
 ### SendChatEOTAsync(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L204" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L210" />
 
 Sends an end-of-text chat message to the player asynchronously.
 
@@ -693,7 +725,7 @@ Task SendChatEOTAsync(string message)
 
 ### SendConsole(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L120" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L126" />
 
 Sends a console message to the player.
 
@@ -710,7 +742,7 @@ void SendConsole(string message)
 
 ### SendConsoleAsync(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L127" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L133" />
 
 Sends a console message to the player asynchronously.
 
@@ -728,7 +760,7 @@ Task SendConsoleAsync(string message)
 
 ### SendMessage(MessageType, string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L70" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L76" />
 
 Sends a message of the specified type to the player.
 
@@ -746,7 +778,7 @@ void SendMessage(MessageType kind, string message)
 
 ### SendMessage(MessageType, string, int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L81" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L87" />
 
 Sends a message of the specified type to the player with a custom HTML duration.
 
@@ -765,7 +797,7 @@ void SendMessage(MessageType kind, string message, int htmlDuration = 5000)
 
 ### SendMessageAsync(MessageType, string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L89" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L95" />
 
 Sends a message of the specified type to the player asynchronously.
 
@@ -784,7 +816,7 @@ Task SendMessageAsync(MessageType kind, string message)
 
 ### SendMessageAsync(MessageType, string, int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L97" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L103" />
 
 Sends a message of the specified type to the player asynchronously with a custom HTML duration.
 
@@ -804,7 +836,7 @@ Task SendMessageAsync(MessageType kind, string message, int htmlDuration = 5000)
 
 ### SendNotify(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L105" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L111" />
 
 Sends a notify message to the player.
 
@@ -821,7 +853,7 @@ void SendNotify(string message)
 
 ### SendNotifyAsync(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L112" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L118" />
 
 Sends a notify message to the player asynchronously.
 
@@ -839,7 +871,7 @@ Task SendNotifyAsync(string message)
 
 ### SetListenOverride(int, ListenOverride)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L343" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L349" />
 
 Sets a custom listen override for the specified player.
 
@@ -854,7 +886,7 @@ void SetListenOverride(int player, ListenOverride listenOverride)
 
 ### ShouldBlockTransmitEntity(int, bool)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L324" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L330" />
 
 Sets whether transmission of the specified entity should be blocked.
 
@@ -870,7 +902,7 @@ void ShouldBlockTransmitEntity(int entityid, bool shouldBlockTransmit)
 
 ### SwitchTeam(Team)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L437" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L448" />
 
 Switches the player's team.
 
@@ -887,7 +919,7 @@ void SwitchTeam(Team team)
 
 ### SwitchTeamAsync(Team)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L444" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L455" />
 
 Switches the player's team asynchronously.
 
@@ -905,7 +937,7 @@ Task SwitchTeamAsync(Team team)
 
 ### TakeDamage(CTakeDamageInfo)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L359" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L370" />
 
 Applies damage to the entity based on the specified damage information.
 
@@ -923,7 +955,7 @@ void TakeDamage(CTakeDamageInfo damageInfo)
 
 ### TakeDamage(float, DamageTypes_t, CBaseEntity?, CBaseEntity?, CBaseEntity?)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L379" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L390" />
 
 Applies damage to the entity based on the specified damage information.
 
@@ -944,7 +976,7 @@ void TakeDamage(float damage, DamageTypes_t damageType, CBaseEntity? inflictor =
 
 ### TakeDamageAsync(CTakeDamageInfo)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L367" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L378" />
 
 Applies damage to the entity based on the specified damage information asynchronously.
 
@@ -963,7 +995,7 @@ Task TakeDamageAsync(CTakeDamageInfo damageInfo)
 
 ### TakeDamageAsync(float, DamageTypes_t, CBaseEntity?, CBaseEntity?, CBaseEntity?)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L390" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L401" />
 
 Applies damage to the entity based on the specified damage information asynchronously.
 
@@ -985,7 +1017,7 @@ Task TakeDamageAsync(float damage, DamageTypes_t damageType, CBaseEntity? inflic
 
 ### Teleport(Vector, QAngle, Vector)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L400" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L411" />
 
 Teleports the entity to the specified position, orientation, and velocity.
 
@@ -1004,7 +1036,7 @@ void Teleport(Vector pos, QAngle angle, Vector velocity)
 
 ### Teleport(Vector?, QAngle?, Vector?)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L411" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L422" />
 
 Teleports the entity to the specified position, orientation, and velocity.
 
@@ -1023,7 +1055,7 @@ void Teleport(Vector? pos = null, QAngle? angle = null, Vector? velocity = null)
 
 ### TeleportAsync(Vector, QAngle, Vector)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L420" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L431" />
 
 Teleports the entity to the specified position, orientation, and velocity asynchronously.
 
@@ -1043,7 +1075,7 @@ Task TeleportAsync(Vector pos, QAngle angle, Vector velocity)
 
 ### TeleportAsync(Vector?, QAngle?, Vector?)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L429" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L440" />
 
 Teleports the entity to the specified position, orientation, and velocity asynchronously.
 
