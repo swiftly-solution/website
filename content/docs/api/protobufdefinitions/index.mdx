@@ -117,6 +117,7 @@ title: ProtobufDefinitions
 - <ApiParam type="CCSUsrMsg_VotePass" typeHref="/docs/api/protobufdefinitions/ccsusrmsg_votepass" />
 - <ApiParam type="CCSUsrMsg_VoteSetup" typeHref="/docs/api/protobufdefinitions/ccsusrmsg_votesetup" />
 - <ApiParam type="CCSUsrMsg_VoteStart" typeHref="/docs/api/protobufdefinitions/ccsusrmsg_votestart" />
+- <ApiParam type="CCSUsrMsg_WeaponMagDrop" typeHref="/docs/api/protobufdefinitions/ccsusrmsg_weaponmagdrop" />
 - <ApiParam type="CCSUsrMsg_WeaponSound" typeHref="/docs/api/protobufdefinitions/ccsusrmsg_weaponsound" />
 - <ApiParam type="CCSUsrMsg_XRankGet" typeHref="/docs/api/protobufdefinitions/ccsusrmsg_xrankget" />
 - <ApiParam type="CCSUsrMsg_XRankUpd" typeHref="/docs/api/protobufdefinitions/ccsusrmsg_xrankupd" />
@@ -252,7 +253,6 @@ title: ProtobufDefinitions
 - <ApiParam type="CMsgGCCStrike15_v2_ClientReportPlayer" typeHref="/docs/api/protobufdefinitions/cmsggccstrike15_v2_clientreportplayer" />
 - <ApiParam type="CMsgGCCStrike15_v2_ClientReportResponse" typeHref="/docs/api/protobufdefinitions/cmsggccstrike15_v2_clientreportresponse" />
 - <ApiParam type="CMsgGCCStrike15_v2_ClientReportServer" typeHref="/docs/api/protobufdefinitions/cmsggccstrike15_v2_clientreportserver" />
-- <ApiParam type="CMsgGCCStrike15_v2_ClientReportValidation" typeHref="/docs/api/protobufdefinitions/cmsggccstrike15_v2_clientreportvalidation" />
 - <ApiParam type="CMsgGCCStrike15_v2_ClientRequestJoinFriendData" typeHref="/docs/api/protobufdefinitions/cmsggccstrike15_v2_clientrequestjoinfrienddata" />
 - <ApiParam type="CMsgGCCStrike15_v2_ClientRequestJoinServerData" typeHref="/docs/api/protobufdefinitions/cmsggccstrike15_v2_clientrequestjoinserverdata" />
 - <ApiParam type="CMsgGCCStrike15_v2_ClientRequestOffers" typeHref="/docs/api/protobufdefinitions/cmsggccstrike15_v2_clientrequestoffers" />
@@ -444,6 +444,9 @@ title: ProtobufDefinitions
 - <ApiParam type="CMsgSource2NetworkFlowQuality" typeHref="/docs/api/protobufdefinitions/cmsgsource2networkflowquality" />
 - <ApiParam type="CMsgSource2PerfIntervalSample" typeHref="/docs/api/protobufdefinitions/cmsgsource2perfintervalsample" />
 - <ApiParam type="CMsgSource2PerfIntervalSample_Tag" typeHref="/docs/api/protobufdefinitions/cmsgsource2perfintervalsample_tag" />
+- <ApiParam type="CMsgSource2PlayStatsPackedRecordList" typeHref="/docs/api/protobufdefinitions/cmsgsource2playstatspackedrecordlist" />
+- <ApiParam type="CMsgSource2PlayStatsPackedRecordList_FieldDef" typeHref="/docs/api/protobufdefinitions/cmsgsource2playstatspackedrecordlist_fielddef" />
+- <ApiParam type="CMsgSource2PlayStatsPackedRecordList_SteamIDList" typeHref="/docs/api/protobufdefinitions/cmsgsource2playstatspackedrecordlist_steamidlist" />
 - <ApiParam type="CMsgSource2SystemSpecs" typeHref="/docs/api/protobufdefinitions/cmsgsource2systemspecs" />
 - <ApiParam type="CMsgSource2VProfLiteReport" typeHref="/docs/api/protobufdefinitions/cmsgsource2vproflitereport" />
 - <ApiParam type="CMsgSource2VProfLiteReportItem" typeHref="/docs/api/protobufdefinitions/cmsgsource2vproflitereportitem" />
@@ -599,8 +602,12 @@ title: ProtobufDefinitions
 - <ApiParam type="CSVCMsg_UserMessage" typeHref="/docs/api/protobufdefinitions/csvcmsg_usermessage" />
 - <ApiParam type="CSVCMsg_VoiceData" typeHref="/docs/api/protobufdefinitions/csvcmsg_voicedata" />
 - <ApiParam type="CSVCMsg_VoiceInit" typeHref="/docs/api/protobufdefinitions/csvcmsg_voiceinit" />
+- <ApiParam type="CSource2Metrics_FetchMapData_Request" typeHref="/docs/api/protobufdefinitions/csource2metrics_fetchmapdata_request" />
+- <ApiParam type="CSource2Metrics_FetchMapData_Response" typeHref="/docs/api/protobufdefinitions/csource2metrics_fetchmapdata_response" />
+- <ApiParam type="CSource2Metrics_FetchMapData_Response_MapData" typeHref="/docs/api/protobufdefinitions/csource2metrics_fetchmapdata_response_mapdata" />
 - <ApiParam type="CSource2Metrics_MatchPerfSummary_Notification" typeHref="/docs/api/protobufdefinitions/csource2metrics_matchperfsummary_notification" />
 - <ApiParam type="CSource2Metrics_MatchPerfSummary_Notification_Client" typeHref="/docs/api/protobufdefinitions/csource2metrics_matchperfsummary_notification_client" />
+- <ApiParam type="CSource2Metrics_RecordPlayStats_Notification" typeHref="/docs/api/protobufdefinitions/csource2metrics_recordplaystats_notification" />
 - <ApiParam type="CSteam_Voice_Encoding" typeHref="/docs/api/protobufdefinitions/csteam_voice_encoding" />
 - <ApiParam type="CSubtickMoveStep" typeHref="/docs/api/protobufdefinitions/csubtickmovestep" />
 - <ApiParam type="CUIFontFilePB" typeHref="/docs/api/protobufdefinitions/cuifontfilepb" />
@@ -671,6 +678,7 @@ title: ProtobufDefinitions
 - <ApiParam type="CUserMsg_ParticleManager_ClearModellistOverride" typeHref="/docs/api/protobufdefinitions/cusermsg_particlemanager_clearmodellistoverride" />
 - <ApiParam type="CUserMsg_ParticleManager_CreateParticle" typeHref="/docs/api/protobufdefinitions/cusermsg_particlemanager_createparticle" />
 - <ApiParam type="CUserMsg_ParticleManager_CreatePhysicsSim" typeHref="/docs/api/protobufdefinitions/cusermsg_particlemanager_createphysicssim" />
+- <ApiParam type="CUserMsg_ParticleManager_CreateSmokeGrid" typeHref="/docs/api/protobufdefinitions/cusermsg_particlemanager_createsmokegrid" />
 - <ApiParam type="CUserMsg_ParticleManager_DestroyParticle" typeHref="/docs/api/protobufdefinitions/cusermsg_particlemanager_destroyparticle" />
 - <ApiParam type="CUserMsg_ParticleManager_DestroyParticleInvolving" typeHref="/docs/api/protobufdefinitions/cusermsg_particlemanager_destroyparticleinvolving" />
 - <ApiParam type="CUserMsg_ParticleManager_DestroyParticleNamed" typeHref="/docs/api/protobufdefinitions/cusermsg_particlemanager_destroyparticlenamed" />
@@ -684,6 +692,7 @@ title: ProtobufDefinitions
 - <ApiParam type="CUserMsg_ParticleManager_SetControlPointModel" typeHref="/docs/api/protobufdefinitions/cusermsg_particlemanager_setcontrolpointmodel" />
 - <ApiParam type="CUserMsg_ParticleManager_SetControlPointSnapshot" typeHref="/docs/api/protobufdefinitions/cusermsg_particlemanager_setcontrolpointsnapshot" />
 - <ApiParam type="CUserMsg_ParticleManager_SetMaterialOverride" typeHref="/docs/api/protobufdefinitions/cusermsg_particlemanager_setmaterialoverride" />
+- <ApiParam type="CUserMsg_ParticleManager_SetOverrideTexture" typeHref="/docs/api/protobufdefinitions/cusermsg_particlemanager_setoverridetexture" />
 - <ApiParam type="CUserMsg_ParticleManager_SetParticleClusterGrowth" typeHref="/docs/api/protobufdefinitions/cusermsg_particlemanager_setparticleclustergrowth" />
 - <ApiParam type="CUserMsg_ParticleManager_SetParticleFoWProperties" typeHref="/docs/api/protobufdefinitions/cusermsg_particlemanager_setparticlefowproperties" />
 - <ApiParam type="CUserMsg_ParticleManager_SetParticleNamedValueContext" typeHref="/docs/api/protobufdefinitions/cusermsg_particlemanager_setparticlenamedvaluecontext" />
@@ -770,7 +779,6 @@ title: ProtobufDefinitions
 - <ApiParam type="XpProgressData" typeHref="/docs/api/protobufdefinitions/xpprogressdata" />
 
 - <ApiParam type="Bidirectional_Messages" typeHref="/docs/api/protobufdefinitions/bidirectional_messages" />
-- <ApiParam type="Bidirectional_Messages_LowFrequency" typeHref="/docs/api/protobufdefinitions/bidirectional_messages_lowfrequency" />
 - <ApiParam type="CBidirMsg_PredictionEvent_ESyncType" typeHref="/docs/api/protobufdefinitions/cbidirmsg_predictionevent_esynctype" />
 - <ApiParam type="CLC_Messages" typeHref="/docs/api/protobufdefinitions/clc_messages" />
 - <ApiParam type="CMsgGameServerInfo_ServerType" typeHref="/docs/api/protobufdefinitions/cmsggameserverinfo_servertype" />
@@ -786,8 +794,6 @@ title: ProtobufDefinitions
 - <ApiParam type="EClientPersonaStateFlag" typeHref="/docs/api/protobufdefinitions/eclientpersonastateflag" />
 - <ApiParam type="EClientReportingVersion" typeHref="/docs/api/protobufdefinitions/eclientreportingversion" />
 - <ApiParam type="EClientUIEvent" typeHref="/docs/api/protobufdefinitions/eclientuievent" />
-- <ApiParam type="ECodecUsagePlatform" typeHref="/docs/api/protobufdefinitions/ecodecusageplatform" />
-- <ApiParam type="ECodecUsageReason" typeHref="/docs/api/protobufdefinitions/ecodecusagereason" />
 - <ApiParam type="ECommunityItemAttribute" typeHref="/docs/api/protobufdefinitions/ecommunityitemattribute" />
 - <ApiParam type="ECommunityItemClass" typeHref="/docs/api/protobufdefinitions/ecommunityitemclass" />
 - <ApiParam type="ECsgoGCMsg" typeHref="/docs/api/protobufdefinitions/ecsgogcmsg" />
@@ -812,6 +818,7 @@ title: ProtobufDefinitions
 - <ApiParam type="EProtoDebugVisiblity" typeHref="/docs/api/protobufdefinitions/eprotodebugvisiblity" />
 - <ApiParam type="EQueryCvarValueStatus" typeHref="/docs/api/protobufdefinitions/equerycvarvaluestatus" />
 - <ApiParam type="ESOMsg" typeHref="/docs/api/protobufdefinitions/esomsg" />
+- <ApiParam type="ESource2PlayStatsFieldType" typeHref="/docs/api/protobufdefinitions/esource2playstatsfieldtype" />
 - <ApiParam type="ESplitScreenMessageType" typeHref="/docs/api/protobufdefinitions/esplitscreenmessagetype" />
 - <ApiParam type="ESteamReviewScore" typeHref="/docs/api/protobufdefinitions/esteamreviewscore" />
 - <ApiParam type="ETEProtobufIds" typeHref="/docs/api/protobufdefinitions/eteprotobufids" />

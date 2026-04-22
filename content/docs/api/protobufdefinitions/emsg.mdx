@@ -42,6 +42,8 @@ public enum EMsg
 - <ApiParam name="k_EMsgAMAddFriendResponse" /> = 4082
 - <ApiParam name="k_EMsgAMAddLicense" /> = 505
 - <ApiParam name="k_EMsgAMAddMinutesToLicense" /> = 510
+- <ApiParam name="k_EMsgAMAllowUserFilesRequest" /> = 4156
+- <ApiParam name="k_EMsgAMAllowUserFilesResponse" /> = 4157
 - <ApiParam name="k_EMsgAMAuthenticateUser" /> = 592
 - <ApiParam name="k_EMsgAMAuthenticateUserResponse" /> = 593
 - <ApiParam name="k_EMsgAMAuthenticatedPlayerList" /> = 4315
@@ -348,6 +350,7 @@ public enum EMsg
 - <ApiParam name="k_EMsgAMSetClanRankResponse" /> = 4053
 - <ApiParam name="k_EMsgAMSetCommunityProfileSettings" /> = 4114
 - <ApiParam name="k_EMsgAMSetCommunityProfileSettingsResponse" /> = 4115
+- <ApiParam name="k_EMsgAMSetDRMTestConfig" /> = 4268
 - <ApiParam name="k_EMsgAMSetFriendRelationshipNone" /> = 4123
 - <ApiParam name="k_EMsgAMSetIgnored" /> = 4096
 - <ApiParam name="k_EMsgAMSetIgnoredResponse" /> = 4122
@@ -357,7 +360,6 @@ public enum EMsg
 - <ApiParam name="k_EMsgAMSetPreApproval" /> = 4255
 - <ApiParam name="k_EMsgAMSetPreApprovalResponse" /> = 4256
 - <ApiParam name="k_EMsgAMSetProfileURL" /> = 4005
-- <ApiParam name="k_EMsgAMSetRemoteClientID" /> = 4425
 - <ApiParam name="k_EMsgAMSetUserGiftUnowned" /> = 4350
 - <ApiParam name="k_EMsgAMSetUserGiftUnownedResponse" /> = 4351
 - <ApiParam name="k_EMsgAMSetUserNewsSubscriptions" /> = 4149
@@ -540,7 +542,6 @@ public enum EMsg
 - <ApiParam name="k_EMsgBaseTest" /> = 3000
 - <ApiParam name="k_EMsgBaseUFSRange" /> = 5200
 - <ApiParam name="k_EMsgBaseVS" /> = 600
-- <ApiParam name="k_EMsgBaseWG" /> = 12200
 - <ApiParam name="k_EMsgBaseWatchdogServer" /> = 10000
 - <ApiParam name="k_EMsgBoxMonitorBase" /> = 8700
 - <ApiParam name="k_EMsgBoxMonitorReportRequest" /> = 8700
@@ -602,6 +603,7 @@ public enum EMsg
 - <ApiParam name="k_EMsgClientBroadcastDisconnect" /> = 9702
 - <ApiParam name="k_EMsgClientBroadcastFrames" /> = 9701
 - <ApiParam name="k_EMsgClientBroadcastInit" /> = 9700
+- <ApiParam name="k_EMsgClientBroadcastScreenshot" /> = 9703
 - <ApiParam name="k_EMsgClientBroadcastUploadConfig" /> = 9704
 - <ApiParam name="k_EMsgClientCMList" /> = 783
 - <ApiParam name="k_EMsgClientChallengeRequest" /> = 5623
@@ -639,8 +641,11 @@ public enum EMsg
 - <ApiParam name="k_EMsgClientDFSEndSession" /> = 5607
 - <ApiParam name="k_EMsgClientDPCheckSpecialSurvey" /> = 1620
 - <ApiParam name="k_EMsgClientDPCheckSpecialSurveyResponse" /> = 1621
+- <ApiParam name="k_EMsgClientDPContentStatsReport" /> = 1630
 - <ApiParam name="k_EMsgClientDPSendSpecialSurveyResponse" /> = 1622
 - <ApiParam name="k_EMsgClientDPSendSpecialSurveyResponseReply" /> = 1623
+- <ApiParam name="k_EMsgClientDPUnsignedInstallScript" /> = 1627
+- <ApiParam name="k_EMsgClientDPUpdateAppJobReport" /> = 1625
 - <ApiParam name="k_EMsgClientDRMBlobRequest" /> = 896
 - <ApiParam name="k_EMsgClientDRMBlobResponse" /> = 897
 - <ApiParam name="k_EMsgClientDRMDownloadRequest" /> = 5485
@@ -648,6 +653,8 @@ public enum EMsg
 - <ApiParam name="k_EMsgClientDRMDownloadResponse" /> = 5486
 - <ApiParam name="k_EMsgClientDRMFinalResult" /> = 5487
 - <ApiParam name="k_EMsgClientDRMProblemReport" /> = 851
+- <ApiParam name="k_EMsgClientDRMTest" /> = 5495
+- <ApiParam name="k_EMsgClientDRMTestResult" /> = 5496
 - <ApiParam name="k_EMsgClientDeauthorizeDevice" /> = 6504
 - <ApiParam name="k_EMsgClientDeauthorizeDeviceRequest" /> = 6503
 - <ApiParam name="k_EMsgClientDeregisterWithServer" /> = 5511
@@ -657,8 +664,6 @@ public enum EMsg
 - <ApiParam name="k_EMsgClientEmailAddrInfo" /> = 5456
 - <ApiParam name="k_EMsgClientEmailChange3" /> = 5458
 - <ApiParam name="k_EMsgClientEmoticonList" /> = 9331
-- <ApiParam name="k_EMsgClientEnableOrDisableDownloads" /> = 9806
-- <ApiParam name="k_EMsgClientEnableOrDisableDownloadsResponse" /> = 9807
 - <ApiParam name="k_EMsgClientEnableTestLicense" /> = 5443
 - <ApiParam name="k_EMsgClientEnableTestLicenseResponse" /> = 5444
 - <ApiParam name="k_EMsgClientEncryptPct" /> = 784
@@ -719,8 +724,6 @@ public enum EMsg
 - <ApiParam name="k_EMsgClientGetMicroTxnInfoResponse" /> = 5509
 - <ApiParam name="k_EMsgClientGetNumberOfCurrentPlayersDP" /> = 5592
 - <ApiParam name="k_EMsgClientGetNumberOfCurrentPlayersDPResponse" /> = 5593
-- <ApiParam name="k_EMsgClientGetPeerContentInfo" /> = 5495
-- <ApiParam name="k_EMsgClientGetPeerContentInfoResponse" /> = 5496
 - <ApiParam name="k_EMsgClientGetPurchaseReceipts" /> = 736
 - <ApiParam name="k_EMsgClientGetUserStats" /> = 818
 - <ApiParam name="k_EMsgClientGetUserStatsResponse" /> = 819
@@ -785,6 +788,7 @@ public enum EMsg
 - <ApiParam name="k_EMsgClientMMSSetRatelimitPolicyOnClient" /> = 6625
 - <ApiParam name="k_EMsgClientMMSUserJoinedLobby" /> = 6619
 - <ApiParam name="k_EMsgClientMMSUserLeftLobby" /> = 6620
+- <ApiParam name="k_EMsgClientMarketingMessageUpdate2" /> = 5510
 - <ApiParam name="k_EMsgClientMicroTxnAuthRequest" /> = 5504
 - <ApiParam name="k_EMsgClientMicroTxnAuthorize" /> = 5505
 - <ApiParam name="k_EMsgClientMicroTxnAuthorizeResponse" /> = 5506
@@ -818,8 +822,6 @@ public enum EMsg
 - <ApiParam name="k_EMsgClientPackageVersions" /> = 148
 - <ApiParam name="k_EMsgClientPasswordChange3" /> = 5457
 - <ApiParam name="k_EMsgClientPasswordChangeResponse" /> = 805
-- <ApiParam name="k_EMsgClientPeerChunkRequest" /> = 9902
-- <ApiParam name="k_EMsgClientPeerChunkResponse" /> = 9903
 - <ApiParam name="k_EMsgClientPersonaChangeResponse" /> = 5584
 - <ApiParam name="k_EMsgClientPersonaState" /> = 766
 - <ApiParam name="k_EMsgClientPersonalQAChange3" /> = 5459
@@ -899,8 +901,6 @@ public enum EMsg
 - <ApiParam name="k_EMsgClientSiteLicenseGetContentCacheInfo" /> = 10105
 - <ApiParam name="k_EMsgClientSiteLicenseGetContentCacheInfoResponse" /> = 10106
 - <ApiParam name="k_EMsgClientSiteLicenseSiteInfoNotification" /> = 10100
-- <ApiParam name="k_EMsgClientStartPeerContentServer" /> = 5497
-- <ApiParam name="k_EMsgClientStartPeerContentServerResponse" /> = 5498
 - <ApiParam name="k_EMsgClientStat" /> = 5433
 - <ApiParam name="k_EMsgClientStat2" /> = 5482
 - <ApiParam name="k_EMsgClientStat2Int32" /> = 5481
@@ -959,10 +959,10 @@ public enum EMsg
 - <ApiParam name="k_EMsgClientUGSGetGlobalStatsResponse" /> = 7902
 - <ApiParam name="k_EMsgClientUninstallClientApp" /> = 5522
 - <ApiParam name="k_EMsgClientUninstallClientAppResponse" /> = 5523
-- <ApiParam name="k_EMsgClientUnlockH264" /> = 9507
-- <ApiParam name="k_EMsgClientUnlockH264Response" /> = 9508
-- <ApiParam name="k_EMsgClientUnlockHEVCResponse_OBSOLETE" /> = 9514
-- <ApiParam name="k_EMsgClientUnlockHEVC_OBSOLETE" /> = 9513
+- <ApiParam name="k_EMsgClientUnlockHEVC" /> = 9513
+- <ApiParam name="k_EMsgClientUnlockHEVCResponse" /> = 9514
+- <ApiParam name="k_EMsgClientUnlockStreaming" /> = 9507
+- <ApiParam name="k_EMsgClientUnlockStreamingResponse" /> = 9508
 - <ApiParam name="k_EMsgClientUpdateGuestPassesList" /> = 798
 - <ApiParam name="k_EMsgClientUpdateMachineAuth" /> = 5537
 - <ApiParam name="k_EMsgClientUpdateMachineAuthResponse" /> = 5538
@@ -978,6 +978,8 @@ public enum EMsg
 - <ApiParam name="k_EMsgClientVoiceCallPreAuthorize" /> = 9800
 - <ApiParam name="k_EMsgClientVoiceCallPreAuthorizeResponse" /> = 9801
 - <ApiParam name="k_EMsgClientWalletInfoUpdate" /> = 5528
+- <ApiParam name="k_EMsgClientWorkshopItemChangesRequest" /> = 7382
+- <ApiParam name="k_EMsgClientWorkshopItemChangesResponse" /> = 7383
 - <ApiParam name="k_EMsgCommunityAddFriendNews" /> = 4140
 - <ApiParam name="k_EMsgCommunityDeleteUserNews" /> = 4155
 - <ApiParam name="k_EMsgCommunityGetUserFriendNews" /> = 4173
@@ -1171,8 +1173,6 @@ public enum EMsg
 - <ApiParam name="k_EMsgGCHRequestStatus" /> = 2226
 - <ApiParam name="k_EMsgGCHRequestStatusResponse" /> = 2227
 - <ApiParam name="k_EMsgGCHRequestUpdateSession" /> = 2225
-- <ApiParam name="k_EMsgGCHRoutingRulesFromGCHtoGM" /> = 2245
-- <ApiParam name="k_EMsgGCHRoutingRulesToGCHfromGM" /> = 2246
 - <ApiParam name="k_EMsgGCHSpawnGC" /> = 2229
 - <ApiParam name="k_EMsgGCHSpawnGCResponse" /> = 2230
 - <ApiParam name="k_EMsgGCHUpdateMultipleSessions" /> = 2239
@@ -1182,12 +1182,11 @@ public enum EMsg
 - <ApiParam name="k_EMsgGCRegisterWebInterfaces_Deprecated" /> = 2217
 - <ApiParam name="k_EMsgGCSystemMessage" /> = 2213
 - <ApiParam name="k_EMsgGMDRMSync" /> = 320
-- <ApiParam name="k_EMsgGMGetModifiedConVars" /> = 339
-- <ApiParam name="k_EMsgGMGetModifiedConVarsResponse" /> = 340
 - <ApiParam name="k_EMsgGMGetServiceMethodRouting" /> = 331
 - <ApiParam name="k_EMsgGMGetServiceMethodRoutingResponse" /> = 332
 - <ApiParam name="k_EMsgGMLoadActivationCodes" /> = 325
 - <ApiParam name="k_EMsgGMQueueForFBS" /> = 326
+- <ApiParam name="k_EMsgGMReportPHPError" /> = 319
 - <ApiParam name="k_EMsgGMSBase" /> = 6400
 - <ApiParam name="k_EMsgGMSClientServerQueryResponse" /> = 6404
 - <ApiParam name="k_EMsgGMSGameServerReplicate" /> = 6401
@@ -1215,6 +1214,7 @@ public enum EMsg
 - <ApiParam name="k_EMsgGSGetUserGroupStatus" /> = 920
 - <ApiParam name="k_EMsgGSGetUserGroupStatusResponse" /> = 923
 - <ApiParam name="k_EMsgGSKick" /> = 760
+- <ApiParam name="k_EMsgGSPerformHardwareSurvey" /> = 5440
 - <ApiParam name="k_EMsgGSPlayerList" /> = 909
 - <ApiParam name="k_EMsgGSServerType" /> = 908
 - <ApiParam name="k_EMsgGSStatus" /> = 903
@@ -1275,6 +1275,7 @@ public enum EMsg
 - <ApiParam name="k_EMsgMMSGetLobbyListResponse" /> = 6629
 - <ApiParam name="k_EMsgMPASBase" /> = 7100
 - <ApiParam name="k_EMsgMPASVacBanReset" /> = 7101
+- <ApiParam name="k_EMsgMarketingMessageUpdate" /> = 4216
 - <ApiParam name="k_EMsgMulti" /> = 1
 - <ApiParam name="k_EMsgNonStdMsgBase" /> = 6800
 - <ApiParam name="k_EMsgNonStdMsgChase" /> = 6806
@@ -1390,6 +1391,8 @@ public enum EMsg
 - <ApiParam name="k_EMsgTimestampRequest" /> = 149
 - <ApiParam name="k_EMsgTimestampResponse" /> = 150
 - <ApiParam name="k_EMsgUCMBase" /> = 7300
+- <ApiParam name="k_EMsgUCMDeletePublishedFile" /> = 7329
+- <ApiParam name="k_EMsgUCMDeletePublishedFileResponse" /> = 7330
 - <ApiParam name="k_EMsgUCMFixStatsPublishedFile" /> = 7371
 - <ApiParam name="k_EMsgUCMGetUserSubscribedFiles" /> = 7369
 - <ApiParam name="k_EMsgUCMGetUserSubscribedFilesResponse" /> = 7370
@@ -1465,7 +1468,6 @@ public enum EMsg
 - <ApiParam name="k_EMsgUMQSendChatMessage" /> = 8104
 - <ApiParam name="k_EMsgUniverseChanged" /> = 229
 - <ApiParam name="k_EMsgUniverseData" /> = 1010
-- <ApiParam name="k_EMsgUpdateCMMessageRateRules" /> = 2247
 - <ApiParam name="k_EMsgUpdateConfigFile" /> = 322
 - <ApiParam name="k_EMsgUpdateCreditCardRequest" /> = 221
 - <ApiParam name="k_EMsgUpdateRecordResponse" /> = 215
@@ -1481,11 +1483,6 @@ public enum EMsg
 - <ApiParam name="k_EMsgVSPurgeCodeModDB" /> = 606
 - <ApiParam name="k_EMsgVSReportLingerer" /> = 609
 - <ApiParam name="k_EMsgVSRequestManagedChallenge" /> = 610
-- <ApiParam name="k_EMsgWGConnectionLegacyWGRequest" /> = 12203
-- <ApiParam name="k_EMsgWGConnectionLegacyWGResponse" /> = 12204
-- <ApiParam name="k_EMsgWGConnectionProtocolError" /> = 12200
-- <ApiParam name="k_EMsgWGConnectionValidateUserToken" /> = 12201
-- <ApiParam name="k_EMsgWGConnectionValidateUserTokenResponse" /> = 12202
 - <ApiParam name="k_EMsgWGRequest" /> = 130
 - <ApiParam name="k_EMsgWGResponse" /> = 131
 - <ApiParam name="k_EMsgWebAPIBase" /> = 8300

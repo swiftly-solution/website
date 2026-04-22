@@ -37,7 +37,7 @@ ref CHandle<CPointCommentaryNode> ActiveCommentaryNode { get; }
 
 ### CheatState
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCommentarySystem.cs#L26" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCommentarySystem.cs#L24" />
 
 ```csharp
 ref bool CheatState { get; }
@@ -47,21 +47,9 @@ ref bool CheatState { get; }
 
 - <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
 
-### CommentaryConvarsChanging
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCommentarySystem.cs#L18" />
-
-```csharp
-ref bool CommentaryConvarsChanging { get; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
-
 ### CommentaryEnabledMidGame
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCommentarySystem.cs#L20" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCommentarySystem.cs#L18" />
 
 ```csharp
 ref bool CommentaryEnabledMidGame { get; }
@@ -85,7 +73,7 @@ ref CHandle<CPointCommentaryNode> CurrentNode { get; }
 
 ### IsFirstSpawnGroupToLoad
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCommentarySystem.cs#L28" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCommentarySystem.cs#L26" />
 
 ```csharp
 ref bool IsFirstSpawnGroupToLoad { get; }
@@ -107,9 +95,21 @@ ref CHandle<CPointCommentaryNode> LastCommentaryNode { get; }
 
 - <ApiParam type="CHandle&lt;CPointCommentaryNode&gt;" typeHref="/docs/api/natives/chandlet" />
 
+### ModifiedConvars
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCommentarySystem.cs#L28" />
+
+```csharp
+ref CUtlVector<modifiedconvars_t> ModifiedConvars { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CUtlVector&lt;modifiedconvars_t&gt;" typeHref="/docs/api/natives/cutlvectort" />
+
 ### NextTeleportTime
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCommentarySystem.cs#L22" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCommentarySystem.cs#L20" />
 
 ```csharp
 GameTime_t NextTeleportTime { get; }
@@ -133,7 +133,7 @@ ref CUtlVector<CHandle<CPointCommentaryNode>> Nodes { get; }
 
 ### TeleportStage
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCommentarySystem.cs#L24" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCommentarySystem.cs#L22" />
 
 ```csharp
 ref int TeleportStage { get; }

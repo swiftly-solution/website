@@ -23,6 +23,42 @@ public interface CSceneRequest : ISchemaClass<CSceneRequest>, ISchemaField, ISch
 
 ## Properties
 
+### ActorMap
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneRequest.cs#L26" />
+
+```csharp
+ref CUtlVector<SceneRequestTargetMapPair_t> ActorMap { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CUtlVector&lt;SceneRequestTargetMapPair_t&gt;" typeHref="/docs/api/natives/cutlvectort" />
+
+### AnchorMap
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneRequest.cs#L28" />
+
+```csharp
+ref CUtlVector<SceneRequestTargetMapPair_t> AnchorMap { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CUtlVector&lt;SceneRequestTargetMapPair_t&gt;" typeHref="/docs/api/natives/cutlvectort" />
+
+### GraphMap
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneRequest.cs#L30" />
+
+```csharp
+ref CUtlVector<SceneRequestTargetMapPair_t> GraphMap { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CUtlVector&lt;SceneRequestTargetMapPair_t&gt;" typeHref="/docs/api/natives/cutlvectort" />
+
 ### Handle
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneRequest.cs#L20" />
@@ -35,12 +71,48 @@ SceneRequestHandle_t Handle { get; }
 
 - <ApiParam type="SceneRequestHandle_t" typeHref="/docs/api/schemadefinitions/scenerequesthandle_t" />
 
-### PayloadTypeName
+### NPCBehaviorOverride
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneRequest.cs#L24" />
+
+```csharp
+ref ENPCBehaviorOverride_t NPCBehaviorOverride { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="ENPCBehaviorOverride_t" typeHref="/docs/api/schemadefinitions/enpcbehavioroverride_t" />
+
+### NameMapKV3
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneRequest.cs#L35" />
+
+```csharp
+SchemaUntypedField NameMapKV3 { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="SchemaUntypedField" typeHref="/docs/api/schemas/schemauntypedfield" />
+
+### Owner
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneRequest.cs#L32" />
+
+```csharp
+ref CHandle<CBaseEntity> Owner { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CHandle&lt;CBaseEntity&gt;" typeHref="/docs/api/natives/chandlet" />
+
+### PayloadVDataName
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneRequest.cs#L18" />
 
 ```csharp
-string PayloadTypeName { get; set; }
+string PayloadVDataName { get; set; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>

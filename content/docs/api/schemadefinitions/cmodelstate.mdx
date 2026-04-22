@@ -23,9 +23,21 @@ public interface CModelState : ISchemaClass<CModelState>, ISchemaField, ISchemaC
 
 ## Properties
 
+### AnimStateNoInterpSerialNumber
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L34" />
+
+```csharp
+ref byte AnimStateNoInterpSerialNumber { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="byte" typeHref="https://learn.microsoft.com/dotnet/api/system.byte" />
+
 ### BodyGroupChoices
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L26" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L38" />
 
 ```csharp
 ref CUtlVector<int> BodyGroupChoices { get; }
@@ -37,7 +49,7 @@ ref CUtlVector<int> BodyGroupChoices { get; }
 
 ### ClientClothCreationSuppressed
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L22" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L32" />
 
 ```csharp
 ref bool ClientClothCreationSuppressed { get; }
@@ -49,7 +61,7 @@ ref bool ClientClothCreationSuppressed { get; }
 
 ### ClothUpdateFlags
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L32" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L44" />
 
 ```csharp
 ref byte ClothUpdateFlags { get; }
@@ -61,7 +73,7 @@ ref byte ClothUpdateFlags { get; }
 
 ### ForceLOD
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L30" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L42" />
 
 ```csharp
 ref byte ForceLOD { get; }
@@ -73,7 +85,7 @@ ref byte ForceLOD { get; }
 
 ### IdealMotionType
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L28" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L40" />
 
 ```csharp
 ref byte IdealMotionType { get; }
@@ -85,7 +97,7 @@ ref byte IdealMotionType { get; }
 
 ### MeshGroupMask
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L24" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L36" />
 
 ```csharp
 ref ulong MeshGroupMask { get; }
@@ -119,11 +131,79 @@ string ModelName { get; set; }
 
 - <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
 
+### RootBoneOffsetResetSerialNumber
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L30" />
+
+```csharp
+ref byte RootBoneOffsetResetSerialNumber { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="byte" typeHref="https://learn.microsoft.com/dotnet/api/system.byte" />
+
+### RootBoneOffset_x
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L24" />
+
+```csharp
+ref float RootBoneOffset_x { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
+
+### RootBoneOffset_y
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L26" />
+
+```csharp
+ref float RootBoneOffset_y { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
+
+### RootBoneOffset_z
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L28" />
+
+```csharp
+ref float RootBoneOffset_z { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
+
+### VPhysicsAggregate
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L22" />
+
+```csharp
+IPhysAggregateInstance? VPhysicsAggregate { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="IPhysAggregateInstance?" typeHref="/docs/api/schemadefinitions/iphysaggregateinstance" />
+
 ## Methods
+
+### AnimStateNoInterpSerialNumberUpdated()
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L52" />
+
+```csharp
+void AnimStateNoInterpSerialNumberUpdated()
+```
 
 ### BodyGroupChoicesUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L37" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L54" />
 
 ```csharp
 void BodyGroupChoicesUpdated()
@@ -131,7 +211,7 @@ void BodyGroupChoicesUpdated()
 
 ### ClientClothCreationSuppressedUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L35" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L51" />
 
 ```csharp
 void ClientClothCreationSuppressedUpdated()
@@ -139,7 +219,7 @@ void ClientClothCreationSuppressedUpdated()
 
 ### IdealMotionTypeUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L38" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L55" />
 
 ```csharp
 void IdealMotionTypeUpdated()
@@ -147,7 +227,7 @@ void IdealMotionTypeUpdated()
 
 ### MeshGroupMaskUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L36" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L53" />
 
 ```csharp
 void MeshGroupMaskUpdated()
@@ -155,9 +235,41 @@ void MeshGroupMaskUpdated()
 
 ### ModelUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L34" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L46" />
 
 ```csharp
 void ModelUpdated()
+```
+
+### RootBoneOffsetResetSerialNumberUpdated()
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L50" />
+
+```csharp
+void RootBoneOffsetResetSerialNumberUpdated()
+```
+
+### RootBoneOffset_xUpdated()
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L47" />
+
+```csharp
+void RootBoneOffset_xUpdated()
+```
+
+### RootBoneOffset_yUpdated()
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L48" />
+
+```csharp
+void RootBoneOffset_yUpdated()
+```
+
+### RootBoneOffset_zUpdated()
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelState.cs#L49" />
+
+```csharp
+void RootBoneOffset_zUpdated()
 ```
 

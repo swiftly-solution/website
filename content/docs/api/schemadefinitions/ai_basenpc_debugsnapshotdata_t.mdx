@@ -1,0 +1,147 @@
+---
+title: AI_BaseNPC_DebugSnapshotData_t
+---
+
+# Interface AI_BaseNPC_DebugSnapshotData_t
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AI_BaseNPC_DebugSnapshotData_t.cs#L11" />
+
+**Namespace**: [SwiftlyS2.Shared.SchemaDefinitions](/docs/api/schemadefinitions)
+
+**Assembly**: SwiftlyS2.CS2.dll
+
+```csharp
+public interface AI_BaseNPC_DebugSnapshotData_t : DebugSnapshotBaseStructuredData_t, ISchemaClass<DebugSnapshotBaseStructuredData_t>, ISchemaClass<AI_BaseNPC_DebugSnapshotData_t>, ISchemaField, ISchemaClass, INativeHandle
+```
+
+#### Implements
+
+- [DebugSnapshotBaseStructuredData_t](/docs/api/schemadefinitions/debugsnapshotbasestructureddata_t)
+- [ISchemaClass\<DebugSnapshotBaseStructuredData_t\>](/docs/api/schemas/ischemaclasst)
+- [ISchemaClass\<AI_BaseNPC_DebugSnapshotData_t\>](/docs/api/schemas/ischemaclasst)
+- [ISchemaField](/docs/api/schemas/ischemafield)
+- [ISchemaClass](/docs/api/schemas/ischemaclass)
+- [INativeHandle](/docs/api/natives/inativehandle)
+
+## Properties
+
+### Anim_events
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AI_BaseNPC_DebugSnapshotData_t.cs#L32" />
+
+```csharp
+ref CUtlVector<CGlobalSymbol> Anim_events { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CUtlVector&lt;CGlobalSymbol&gt;" typeHref="/docs/api/natives/cutlvectort" />
+
+### Conditions
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AI_BaseNPC_DebugSnapshotData_t.cs#L30" />
+
+```csharp
+ref CUtlVector<CGlobalSymbol> Conditions { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CUtlVector&lt;CGlobalSymbol&gt;" typeHref="/docs/api/natives/cutlvectort" />
+
+### Current_enemy
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AI_BaseNPC_DebugSnapshotData_t.cs#L20" />
+
+```csharp
+ref CHandle<CBaseEntity> Current_enemy { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CHandle&lt;CBaseEntity&gt;" typeHref="/docs/api/natives/chandlet" />
+
+### E_action_body_section
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AI_BaseNPC_DebugSnapshotData_t.cs#L34" />
+
+```csharp
+ref CGlobalSymbol E_action_body_section { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CGlobalSymbol" typeHref="/docs/api/natives/cglobalsymbol" />
+
+### E_movement_body_section
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AI_BaseNPC_DebugSnapshotData_t.cs#L36" />
+
+```csharp
+ref CGlobalSymbol E_movement_body_section { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CGlobalSymbol" typeHref="/docs/api/natives/cglobalsymbol" />
+
+### Npc_state
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AI_BaseNPC_DebugSnapshotData_t.cs#L18" />
+
+```csharp
+ref CGlobalSymbol Npc_state { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CGlobalSymbol" typeHref="/docs/api/natives/cglobalsymbol" />
+
+### S_current_schedule
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AI_BaseNPC_DebugSnapshotData_t.cs#L22" />
+
+```csharp
+string S_current_schedule { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
+
+### S_current_task
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AI_BaseNPC_DebugSnapshotData_t.cs#L24" />
+
+```csharp
+ref CGlobalSymbol S_current_task { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CGlobalSymbol" typeHref="/docs/api/natives/cglobalsymbol" />
+
+### S_schedule_fail_reason
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AI_BaseNPC_DebugSnapshotData_t.cs#L28" />
+
+```csharp
+string S_schedule_fail_reason { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
+
+### S_schedule_interrupt_reason
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AI_BaseNPC_DebugSnapshotData_t.cs#L26" />
+
+```csharp
+string S_schedule_interrupt_reason { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
+

@@ -32,9 +32,21 @@ public interface CPathMoverEntitySpawner : CLogicalEntity, CServerOnlyEntity, CB
 
 ## Properties
 
+### DestroyMoverOnArrivedAtEnd
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathMoverEntitySpawner.cs#L39" />
+
+```csharp
+ref bool DestroyMoverOnArrivedAtEnd { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
+
 ### Enabled
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathMoverEntitySpawner.cs#L35" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathMoverEntitySpawner.cs#L37" />
 
 ```csharp
 ref bool Enabled { get; }
@@ -46,7 +58,7 @@ ref bool Enabled { get; }
 
 ### LastSpawnTime
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathMoverEntitySpawner.cs#L33" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathMoverEntitySpawner.cs#L35" />
 
 ```csharp
 GameTime_t LastSpawnTime { get; }
@@ -80,6 +92,30 @@ ref int MaxActive { get; }
 
 - <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
 
+### OnTemplateGroupSpawned
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathMoverEntitySpawner.cs#L45" />
+
+```csharp
+ref CEntityIOOutput OnTemplateGroupSpawned { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
+
+### OnTemplateSpawned
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathMoverEntitySpawner.cs#L43" />
+
+```csharp
+ref CEntityIOOutput OnTemplateSpawned { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
+
 ### PathMover
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathMoverEntitySpawner.cs#L22" />
@@ -91,6 +127,18 @@ ref CHandle<CPathMover> PathMover { get; }
 <ApiLabel>Property Value</ApiLabel>
 
 - <ApiParam type="CHandle&lt;CPathMover&gt;" typeHref="/docs/api/natives/chandlet" />
+
+### QueuedRemovals
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathMoverEntitySpawner.cs#L41" />
+
+```csharp
+ref CUtlVector<CHandle<CFuncMover>> QueuedRemovals { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CUtlVector&lt;CHandle&lt;CFuncMover&gt;&gt;" typeHref="/docs/api/natives/cutlvectort" />
 
 ### SpawnFrequencyDistToNearestMover
 
@@ -122,6 +170,18 @@ ref float SpawnFrequencySeconds { get; }
 
 ```csharp
 ref int SpawnIndex { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
+
+### SpawnNum
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathMoverEntitySpawner.cs#L33" />
+
+```csharp
+ref int SpawnNum { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>

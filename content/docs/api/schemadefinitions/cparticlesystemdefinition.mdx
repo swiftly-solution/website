@@ -27,7 +27,7 @@ public interface CParticleSystemDefinition : IParticleSystemDefinition, ISchemaC
 
 ### AggregateRadius
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L124" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L126" />
 
 ```csharp
 ref float AggregateRadius { get; }
@@ -39,7 +39,7 @@ ref float AggregateRadius { get; }
 
 ### AggregationMinAvailableParticles
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L122" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L124" />
 
 ```csharp
 ref int AggregationMinAvailableParticles { get; }
@@ -51,7 +51,7 @@ ref int AggregationMinAvailableParticles { get; }
 
 ### AllowRenderControlPoint
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L142" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L144" />
 
 ```csharp
 ref int AllowRenderControlPoint { get; }
@@ -219,7 +219,7 @@ ref CUtlVector<PointerTo<CParticleFunctionConstraint>> Constraints { get; }
 
 ### ControlPointConfigurations
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L146" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L148" />
 
 ```csharp
 ref CUtlVector<ParticleControlPointConfiguration_t> ControlPointConfigurations { get; }
@@ -409,6 +409,18 @@ ref CUtlVector<PointerTo<CParticleFunctionInitializer>> Initializers { get; }
 
 - <ApiParam type="CUtlVector&lt;PointerTo&lt;CParticleFunctionInitializer&gt;&gt;" typeHref="/docs/api/natives/cutlvectort" />
 
+### IsGPUParticleSystem
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L110" />
+
+```csharp
+ref bool IsGPUParticleSystem { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
+
 ### LowViolenceDef
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L92" />
@@ -423,7 +435,7 @@ ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> LowViolenceDef {
 
 ### MaxCreationDistance
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L120" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L122" />
 
 ```csharp
 ref float MaxCreationDistance { get; }
@@ -435,7 +447,7 @@ ref float MaxCreationDistance { get; }
 
 ### MaxDrawDistance
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L116" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L118" />
 
 ```csharp
 ref float MaxDrawDistance { get; }
@@ -483,7 +495,7 @@ ref float MaximumTimeStep { get; }
 
 ### MinCPULevel
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L110" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L112" />
 
 ```csharp
 ref int MinCPULevel { get; }
@@ -495,7 +507,7 @@ ref int MinCPULevel { get; }
 
 ### MinGPULevel
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L112" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L114" />
 
 ```csharp
 ref int MinGPULevel { get; }
@@ -567,7 +579,7 @@ ref CUtlVector<PointerTo<ParticleNamedValueSource_t>> NamedValueLocals { get; }
 
 ### NoDrawTimeToGoToSleep
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L114" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L116" />
 
 ```csharp
 ref float NoDrawTimeToGoToSleep { get; }
@@ -639,7 +651,7 @@ ref CUtlVector<PointerTo<CParticleFunctionRenderer>> Renderers { get; }
 
 ### ScreenSpaceEffect
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L136" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L138" />
 
 ```csharp
 ref bool ScreenSpaceEffect { get; }
@@ -651,7 +663,7 @@ ref bool ScreenSpaceEffect { get; }
 
 ### ShouldBatch
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L126" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L128" />
 
 ```csharp
 ref bool ShouldBatch { get; }
@@ -663,7 +675,7 @@ ref bool ShouldBatch { get; }
 
 ### ShouldHitboxesFallbackToCollisionHulls
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L132" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L134" />
 
 ```csharp
 ref bool ShouldHitboxesFallbackToCollisionHulls { get; }
@@ -675,7 +687,7 @@ ref bool ShouldHitboxesFallbackToCollisionHulls { get; }
 
 ### ShouldHitboxesFallbackToRenderBounds
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L128" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L130" />
 
 ```csharp
 ref bool ShouldHitboxesFallbackToRenderBounds { get; }
@@ -687,7 +699,7 @@ ref bool ShouldHitboxesFallbackToRenderBounds { get; }
 
 ### ShouldHitboxesFallbackToSnapshot
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L130" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L132" />
 
 ```csharp
 ref bool ShouldHitboxesFallbackToSnapshot { get; }
@@ -699,7 +711,7 @@ ref bool ShouldHitboxesFallbackToSnapshot { get; }
 
 ### ShouldSort
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L144" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L146" />
 
 ```csharp
 ref bool ShouldSort { get; }
@@ -711,7 +723,7 @@ ref bool ShouldSort { get; }
 
 ### SkipRenderControlPoint
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L140" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L142" />
 
 ```csharp
 ref int SkipRenderControlPoint { get; }
@@ -759,7 +771,7 @@ ref int SortOverridePositionCP { get; }
 
 ### StartFadeDistance
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L118" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L120" />
 
 ```csharp
 ref float StartFadeDistance { get; }
@@ -783,7 +795,7 @@ ref float StopSimulationAfterTime { get; }
 
 ### TargetLayerID
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L138" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L140" />
 
 ```csharp
 string TargetLayerID { get; set; }
@@ -795,7 +807,7 @@ string TargetLayerID { get; set; }
 
 ### ViewModelEffect
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L134" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystemDefinition.cs#L136" />
 
 ```csharp
 ref InheritableBoolType_t ViewModelEffect { get; }

@@ -27,7 +27,7 @@ public interface CNmEntityAttributeEventBase : CNmEvent, ISchemaClass<CNmEvent>,
 
 ### AttributeName
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmEntityAttributeEventBase.cs#L18" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmEntityAttributeEventBase.cs#L20" />
 
 ```csharp
 string AttributeName { get; set; }
@@ -36,4 +36,16 @@ string AttributeName { get; set; }
 <ApiLabel>Property Value</ApiLabel>
 
 - <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
+
+### Target
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmEntityAttributeEventBase.cs#L18" />
+
+```csharp
+ref CNmEventTargetEntity_t Target { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CNmEventTargetEntity_t" typeHref="/docs/api/schemadefinitions/cnmeventtargetentity_t" />
 

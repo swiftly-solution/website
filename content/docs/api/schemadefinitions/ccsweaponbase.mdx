@@ -11,14 +11,13 @@ title: CCSWeaponBase
 **Assembly**: SwiftlyS2.CS2.dll
 
 ```csharp
-public interface CCSWeaponBase : CBasePlayerWeapon, CEconEntity, CBaseFlex, CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEntityInstance, IEquatable<CEntityInstance>, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseAnimGraph>, ISchemaClass<CBaseFlex>, ISchemaClass<CEconEntity>, ISchemaClass<CBasePlayerWeapon>, ISchemaClass<CCSWeaponBase>, ISchemaField, ISchemaClass, INativeHandle
+public interface CCSWeaponBase : CBasePlayerWeapon, CEconEntity, CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEntityInstance, IEquatable<CEntityInstance>, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseAnimGraph>, ISchemaClass<CEconEntity>, ISchemaClass<CBasePlayerWeapon>, ISchemaClass<CCSWeaponBase>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
 #### Implements
 
 - [CBasePlayerWeapon](/docs/api/schemadefinitions/cbaseplayerweapon)
 - [CEconEntity](/docs/api/schemadefinitions/ceconentity)
-- [CBaseFlex](/docs/api/schemadefinitions/cbaseflex)
 - [CBaseAnimGraph](/docs/api/schemadefinitions/cbaseanimgraph)
 - [CBaseModelEntity](/docs/api/schemadefinitions/cbasemodelentity)
 - [CBaseEntity](/docs/api/schemadefinitions/cbaseentity)
@@ -28,7 +27,6 @@ public interface CCSWeaponBase : CBasePlayerWeapon, CEconEntity, CBaseFlex, CBas
 - [ISchemaClass\<CBaseEntity\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CBaseModelEntity\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CBaseAnimGraph\>](/docs/api/schemas/ischemaclasst)
-- [ISchemaClass\<CBaseFlex\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CEconEntity\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CBasePlayerWeapon\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<CCSWeaponBase\>](/docs/api/schemas/ischemaclasst)
@@ -76,7 +74,7 @@ ref bool BurstMode { get; }
 
 ### CanBePickedUp
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L84" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L86" />
 
 ```csharp
 ref bool CanBePickedUp { get; }
@@ -86,9 +84,21 @@ ref bool CanBePickedUp { get; }
 
 - <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
 
+### DeployTick
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L66" />
+
+```csharp
+GameTick_t DeployTick { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="GameTick_t" typeHref="/docs/api/schemadefinitions/gametick_t" />
+
 ### Donated
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L100" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L102" />
 
 ```csharp
 ref bool Donated { get; }
@@ -100,7 +110,7 @@ ref bool Donated { get; }
 
 ### DropTick
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L96" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L98" />
 
 ```csharp
 GameTick_t DropTick { get; }
@@ -112,7 +122,7 @@ GameTick_t DropTick { get; }
 
 ### DroppedAtTime
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L66" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L68" />
 
 ```csharp
 GameTime_t DroppedAtTime { get; }
@@ -124,7 +134,7 @@ GameTime_t DroppedAtTime { get; }
 
 ### DroppedNearBuyZone
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L80" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L82" />
 
 ```csharp
 ref bool DroppedNearBuyZone { get; }
@@ -196,7 +206,7 @@ ref bool InspectShouldLoop { get; }
 
 ### IronSightController
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L110" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L112" />
 
 ```csharp
 CIronSightController IronSightController { get; }
@@ -208,7 +218,7 @@ CIronSightController IronSightController { get; }
 
 ### IronSightMode
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L112" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L114" />
 
 ```csharp
 ref int IronSightMode { get; }
@@ -220,7 +230,7 @@ ref int IronSightMode { get; }
 
 ### IsHauledBack
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L68" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L70" />
 
 ```csharp
 ref bool IsHauledBack { get; }
@@ -256,7 +266,7 @@ ref int LastEmptySoundCmdNum { get; }
 
 ### LastLOSTraceFailureTime
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L114" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L116" />
 
 ```csharp
 GameTime_t LastLOSTraceFailureTime { get; }
@@ -268,7 +278,7 @@ GameTime_t LastLOSTraceFailureTime { get; }
 
 ### LastShakeTime
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L118" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L120" />
 
 ```csharp
 GameTime_t LastShakeTime { get; }
@@ -280,7 +290,7 @@ GameTime_t LastShakeTime { get; }
 
 ### LastShotTime
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L102" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L104" />
 
 ```csharp
 GameTime_t LastShotTime { get; }
@@ -292,7 +302,7 @@ GameTime_t LastShotTime { get; }
 
 ### MostRecentTeamNumber
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L78" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L80" />
 
 ```csharp
 ref int MostRecentTeamNumber { get; }
@@ -304,7 +314,7 @@ ref int MostRecentTeamNumber { get; }
 
 ### NextAttackRenderTimeOffset
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L82" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L84" />
 
 ```csharp
 ref float NextAttackRenderTimeOffset { get; }
@@ -316,7 +326,7 @@ ref float NextAttackRenderTimeOffset { get; }
 
 ### NextOwnerTouchTime
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L88" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L90" />
 
 ```csharp
 GameTime_t NextOwnerTouchTime { get; }
@@ -328,7 +338,7 @@ GameTime_t NextOwnerTouchTime { get; }
 
 ### NextPrevOwnerTouchTime
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L90" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L92" />
 
 ```csharp
 GameTime_t NextPrevOwnerTouchTime { get; }
@@ -340,7 +350,7 @@ GameTime_t NextPrevOwnerTouchTime { get; }
 
 ### NextPrevOwnerUseTime
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L92" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L94" />
 
 ```csharp
 GameTime_t NextPrevOwnerUseTime { get; }
@@ -352,7 +362,7 @@ GameTime_t NextPrevOwnerUseTime { get; }
 
 ### NumRemoveUnownedWeaponThink
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L108" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L110" />
 
 ```csharp
 ref int NumRemoveUnownedWeaponThink { get; }
@@ -376,7 +386,7 @@ ref CEntityIOOutput OnPlayerPickup { get; }
 
 ### OriginalTeamNumber
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L76" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L78" />
 
 ```csharp
 ref int OriginalTeamNumber { get; }
@@ -424,7 +434,7 @@ GameTick_t PostponeFireReadyTicks { get; }
 
 ### PrevOwner
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L94" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L96" />
 
 ```csharp
 ref CHandle<CCSPlayerPawn> PrevOwner { get; }
@@ -484,7 +494,7 @@ ref bool RequireUseToTouch { get; }
 
 ### SilencerOn
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L70" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L72" />
 
 ```csharp
 ref bool SilencerOn { get; }
@@ -496,7 +506,7 @@ ref bool SilencerOn { get; }
 
 ### TimeSilencerSwitchComplete
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L72" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L74" />
 
 ```csharp
 GameTime_t TimeSilencerSwitchComplete { get; }
@@ -544,7 +554,7 @@ ref Vector TurningInaccuracyEyeDirLast { get; }
 
 ### UseCanOverrideNextOwnerTouchTime
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L86" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L88" />
 
 ```csharp
 ref bool UseCanOverrideNextOwnerTouchTime { get; }
@@ -556,7 +566,7 @@ ref bool UseCanOverrideNextOwnerTouchTime { get; }
 
 ### WasActiveWeaponWhenDropped
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L98" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L100" />
 
 ```csharp
 ref bool WasActiveWeaponWhenDropped { get; }
@@ -568,7 +578,7 @@ ref bool WasActiveWeaponWhenDropped { get; }
 
 ### WasOwnedByCT
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L104" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L106" />
 
 ```csharp
 ref bool WasOwnedByCT { get; }
@@ -580,7 +590,7 @@ ref bool WasOwnedByCT { get; }
 
 ### WasOwnedByTerrorist
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L106" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L108" />
 
 ```csharp
 ref bool WasOwnedByTerrorist { get; }
@@ -592,7 +602,7 @@ ref bool WasOwnedByTerrorist { get; }
 
 ### WatTickOffset
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L116" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L118" />
 
 ```csharp
 ref float WatTickOffset { get; }
@@ -604,7 +614,7 @@ ref float WatTickOffset { get; }
 
 ### WeaponActionPlaybackRate
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L74" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L76" />
 
 ```csharp
 ref float WeaponActionPlaybackRate { get; }
@@ -666,7 +676,7 @@ ref CSWeaponMode WeaponMode { get; }
 
 ### AccuracyPenaltyUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L126" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L128" />
 
 ```csharp
 void AccuracyPenaltyUpdated()
@@ -674,15 +684,23 @@ void AccuracyPenaltyUpdated()
 
 ### BurstModeUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L129" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L131" />
 
 ```csharp
 void BurstModeUpdated()
 ```
 
+### DeployTickUpdated()
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L135" />
+
+```csharp
+void DeployTickUpdated()
+```
+
 ### DropTickUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L143" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L146" />
 
 ```csharp
 void DropTickUpdated()
@@ -690,7 +708,7 @@ void DropTickUpdated()
 
 ### DroppedAtTimeUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L133" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L136" />
 
 ```csharp
 void DroppedAtTimeUpdated()
@@ -698,7 +716,7 @@ void DroppedAtTimeUpdated()
 
 ### DroppedNearBuyZoneUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L140" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L143" />
 
 ```csharp
 void DroppedNearBuyZoneUpdated()
@@ -706,7 +724,7 @@ void DroppedNearBuyZoneUpdated()
 
 ### InReloadUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L132" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L134" />
 
 ```csharp
 void InReloadUpdated()
@@ -714,7 +732,7 @@ void InReloadUpdated()
 
 ### InspectCancelCompleteTimeUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L122" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L124" />
 
 ```csharp
 void InspectCancelCompleteTimeUpdated()
@@ -722,7 +740,7 @@ void InspectCancelCompleteTimeUpdated()
 
 ### InspectPendingUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L123" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L125" />
 
 ```csharp
 void InspectPendingUpdated()
@@ -730,7 +748,7 @@ void InspectPendingUpdated()
 
 ### InspectShouldLoopUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L124" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L126" />
 
 ```csharp
 void InspectShouldLoopUpdated()
@@ -738,7 +756,7 @@ void InspectShouldLoopUpdated()
 
 ### IronSightModeUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L146" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L149" />
 
 ```csharp
 void IronSightModeUpdated()
@@ -746,7 +764,7 @@ void IronSightModeUpdated()
 
 ### IsHauledBackUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L134" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L137" />
 
 ```csharp
 void IsHauledBackUpdated()
@@ -754,7 +772,7 @@ void IsHauledBackUpdated()
 
 ### LastShakeTimeUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L148" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L151" />
 
 ```csharp
 void LastShakeTimeUpdated()
@@ -762,7 +780,7 @@ void LastShakeTimeUpdated()
 
 ### LastShotTimeUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L145" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L148" />
 
 ```csharp
 void LastShotTimeUpdated()
@@ -770,7 +788,7 @@ void LastShotTimeUpdated()
 
 ### MostRecentTeamNumberUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L139" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L142" />
 
 ```csharp
 void MostRecentTeamNumberUpdated()
@@ -778,7 +796,7 @@ void MostRecentTeamNumberUpdated()
 
 ### NextPrevOwnerUseTimeUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L141" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L144" />
 
 ```csharp
 void NextPrevOwnerUseTimeUpdated()
@@ -786,7 +804,7 @@ void NextPrevOwnerUseTimeUpdated()
 
 ### OriginalTeamNumberUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L138" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L141" />
 
 ```csharp
 void OriginalTeamNumberUpdated()
@@ -794,7 +812,7 @@ void OriginalTeamNumberUpdated()
 
 ### PostponeFireReadyFracUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L131" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L133" />
 
 ```csharp
 void PostponeFireReadyFracUpdated()
@@ -802,7 +820,7 @@ void PostponeFireReadyFracUpdated()
 
 ### PostponeFireReadyTicksUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L130" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L132" />
 
 ```csharp
 void PostponeFireReadyTicksUpdated()
@@ -810,7 +828,7 @@ void PostponeFireReadyTicksUpdated()
 
 ### PrevOwnerUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L142" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L145" />
 
 ```csharp
 void PrevOwnerUpdated()
@@ -818,7 +836,7 @@ void PrevOwnerUpdated()
 
 ### RecoilIndex1Updated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L128" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L130" />
 
 ```csharp
 void RecoilIndex1Updated()
@@ -826,7 +844,7 @@ void RecoilIndex1Updated()
 
 ### RecoilIndexUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L127" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L129" />
 
 ```csharp
 void RecoilIndexUpdated()
@@ -834,7 +852,7 @@ void RecoilIndexUpdated()
 
 ### SilencerOnUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L135" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L138" />
 
 ```csharp
 void SilencerOnUpdated()
@@ -842,7 +860,7 @@ void SilencerOnUpdated()
 
 ### TimeSilencerSwitchCompleteUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L136" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L139" />
 
 ```csharp
 void TimeSilencerSwitchCompleteUpdated()
@@ -850,7 +868,7 @@ void TimeSilencerSwitchCompleteUpdated()
 
 ### WasActiveWeaponWhenDroppedUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L144" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L147" />
 
 ```csharp
 void WasActiveWeaponWhenDroppedUpdated()
@@ -858,7 +876,7 @@ void WasActiveWeaponWhenDroppedUpdated()
 
 ### WatTickOffsetUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L147" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L150" />
 
 ```csharp
 void WatTickOffsetUpdated()
@@ -866,7 +884,7 @@ void WatTickOffsetUpdated()
 
 ### WeaponActionPlaybackRateUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L137" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L140" />
 
 ```csharp
 void WeaponActionPlaybackRateUpdated()
@@ -874,7 +892,7 @@ void WeaponActionPlaybackRateUpdated()
 
 ### WeaponGameplayAnimStateTimestampUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L121" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L123" />
 
 ```csharp
 void WeaponGameplayAnimStateTimestampUpdated()
@@ -882,7 +900,7 @@ void WeaponGameplayAnimStateTimestampUpdated()
 
 ### WeaponGameplayAnimStateUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L120" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L122" />
 
 ```csharp
 void WeaponGameplayAnimStateUpdated()
@@ -890,7 +908,7 @@ void WeaponGameplayAnimStateUpdated()
 
 ### WeaponModeUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L125" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBase.cs#L127" />
 
 ```csharp
 void WeaponModeUpdated()

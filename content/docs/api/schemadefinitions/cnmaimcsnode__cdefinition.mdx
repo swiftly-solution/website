@@ -29,29 +29,41 @@ public interface CNmAimCSNode__CDefinition : CNmPassthroughNode__CDefinition, CN
 
 ## Properties
 
-### BlendTimeSeconds
+### ActionBlendTimeSeconds
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmAimCSNode__CDefinition.cs#L32" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmAimCSNode__CDefinition.cs#L36" />
 
 ```csharp
-ref float BlendTimeSeconds { get; }
+ref float ActionBlendTimeSeconds { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
 - <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
 
-### EnabledNodeIdx
+### CrouchWeightNodeIdx
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmAimCSNode__CDefinition.cs#L30" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmAimCSNode__CDefinition.cs#L32" />
 
 ```csharp
-ref short EnabledNodeIdx { get; }
+ref short CrouchWeightNodeIdx { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
 - <ApiParam type="short" typeHref="https://learn.microsoft.com/dotnet/api/system.int16" />
+
+### HandIKBlendInTimeSeconds
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmAimCSNode__CDefinition.cs#L34" />
+
+```csharp
+ref float HandIKBlendInTimeSeconds { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
 
 ### HorizontalAngleNodeIdx
 
@@ -65,24 +77,24 @@ ref short HorizontalAngleNodeIdx { get; }
 
 - <ApiParam type="short" typeHref="https://learn.microsoft.com/dotnet/api/system.int16" />
 
-### IsWeaponActionActiveNodeIdx
+### IsDefusingNodeIdx
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmAimCSNode__CDefinition.cs#L26" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmAimCSNode__CDefinition.cs#L30" />
 
 ```csharp
-ref short IsWeaponActionActiveNodeIdx { get; }
+ref short IsDefusingNodeIdx { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
 - <ApiParam type="short" typeHref="https://learn.microsoft.com/dotnet/api/system.int16" />
 
-### ReduceRangeTimeSeconds
+### PlantingBlendTimeSeconds
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmAimCSNode__CDefinition.cs#L34" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmAimCSNode__CDefinition.cs#L38" />
 
 ```csharp
-ref float ReduceRangeTimeSeconds { get; }
+ref float PlantingBlendTimeSeconds { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
@@ -95,6 +107,18 @@ ref float ReduceRangeTimeSeconds { get; }
 
 ```csharp
 ref short VerticalAngleNodeIdx { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="short" typeHref="https://learn.microsoft.com/dotnet/api/system.int16" />
+
+### WeaponActionNodeIdx
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmAimCSNode__CDefinition.cs#L26" />
+
+```csharp
+ref short WeaponActionNodeIdx { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>

@@ -27,7 +27,7 @@ public interface CNmBodyGroupEvent : CNmEvent, ISchemaClass<CNmEvent>, ISchemaCl
 
 ### GroupName
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmBodyGroupEvent.cs#L18" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmBodyGroupEvent.cs#L20" />
 
 ```csharp
 string GroupName { get; set; }
@@ -39,7 +39,7 @@ string GroupName { get; set; }
 
 ### GroupValue
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmBodyGroupEvent.cs#L20" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmBodyGroupEvent.cs#L22" />
 
 ```csharp
 ref int GroupValue { get; }
@@ -48,4 +48,16 @@ ref int GroupValue { get; }
 <ApiLabel>Property Value</ApiLabel>
 
 - <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
+
+### Target
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmBodyGroupEvent.cs#L18" />
+
+```csharp
+ref CNmEventTargetEntity_t Target { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CNmEventTargetEntity_t" typeHref="/docs/api/schemadefinitions/cnmeventtargetentity_t" />
 

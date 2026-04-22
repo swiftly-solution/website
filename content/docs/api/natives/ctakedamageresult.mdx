@@ -27,19 +27,43 @@ public struct CTakeDamageResult
 
 ### DamageDealt
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L101" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L102" />
 
 ```csharp
-public int DamageDealt
+public float DamageDealt
 ```
 
 <ApiLabel>Field Value</ApiLabel>
 
-- <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
+- <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
+
+### DamageFlags
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L108" />
+
+```csharp
+public TakeDamageFlags_t DamageFlags
+```
+
+<ApiLabel>Field Value</ApiLabel>
+
+- <ApiParam type="TakeDamageFlags_t" typeHref="/docs/api/schemadefinitions/takedamageflags_t" />
+
+### DestructibleHitGroupRequests
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L99" />
+
+```csharp
+public CUtlLeanVector<DestructiblePartDamageRequest_t, int> DestructibleHitGroupRequests
+```
+
+<ApiLabel>Field Value</ApiLabel>
+
+- <ApiParam type="CUtlLeanVector&lt;DestructiblePartDamageRequest_t, int&gt;" typeHref="/docs/api/natives/cutlleanvectortt" />
 
 ### HealthBefore
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L100" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L101" />
 
 ```csharp
 public int HealthBefore
@@ -51,7 +75,7 @@ public int HealthBefore
 
 ### HealthLost
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L99" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L100" />
 
 ```csharp
 public int HealthLost
@@ -60,6 +84,18 @@ public int HealthLost
 <ApiLabel>Field Value</ApiLabel>
 
 - <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
+
+### NewDamageAccumulatorValue
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L107" />
+
+```csharp
+public float NewDamageAccumulatorValue
+```
+
+<ApiLabel>Field Value</ApiLabel>
+
+- <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
 
 ### OriginatingInfo
 
@@ -75,7 +111,7 @@ public CTakeDamageInfo* OriginatingInfo
 
 ### OverrideFlinchHitGroup
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L108" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L111" />
 
 ```csharp
 public HitGroup_t OverrideFlinchHitGroup
@@ -87,7 +123,7 @@ public HitGroup_t OverrideFlinchHitGroup
 
 ### PreModifiedDamage
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L102" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L103" />
 
 ```csharp
 public float PreModifiedDamage
@@ -99,7 +135,7 @@ public float PreModifiedDamage
 
 ### SuppressFlinch
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L107" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L110" />
 
 ```csharp
 public byte SuppressFlinch
@@ -111,19 +147,19 @@ public byte SuppressFlinch
 
 ### TotalledDamageDealt
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L104" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L105" />
 
 ```csharp
-public int TotalledDamageDealt
+public float TotalledDamageDealt
 ```
 
 <ApiLabel>Field Value</ApiLabel>
 
-- <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
+- <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
 
 ### TotalledHealthLost
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L103" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L104" />
 
 ```csharp
 public int TotalledHealthLost
@@ -135,7 +171,7 @@ public int TotalledHealthLost
 
 ### TotalledPreModifiedDamage
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L105" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L106" />
 
 ```csharp
 public float TotalledPreModifiedDamage
@@ -147,7 +183,7 @@ public float TotalledPreModifiedDamage
 
 ### WasDamageSuppressed
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L106" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L109" />
 
 ```csharp
 public byte WasDamageSuppressed

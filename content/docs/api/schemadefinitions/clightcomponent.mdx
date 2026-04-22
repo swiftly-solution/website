@@ -85,6 +85,30 @@ ref int BakedShadowIndex { get; }
 
 - <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
 
+### BounceLight
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L106" />
+
+```csharp
+ref int BounceLight { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
+
+### BounceScale
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L108" />
+
+```csharp
+ref float BounceScale { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
+
 ### Brightness
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L24" />
@@ -193,18 +217,6 @@ ref int DirectLight { get; }
 
 - <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
 
-### DynamicBounce
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L108" />
-
-```csharp
-ref bool DynamicBounce { get; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
-
 ### Enabled
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L118" />
@@ -283,18 +295,6 @@ ref float FogContributionStength { get; }
 
 ```csharp
 ref int FogLightingMode { get; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
-
-### IndirectLight
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L106" />
-
-```csharp
-ref int IndirectLight { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
@@ -919,6 +919,22 @@ void Attenuation2Updated()
 void BakedShadowIndexUpdated()
 ```
 
+### BounceLightUpdated()
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L203" />
+
+```csharp
+void BounceLightUpdated()
+```
+
+### BounceScaleUpdated()
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L204" />
+
+```csharp
+void BounceScaleUpdated()
+```
+
 ### BrightnessMultUpdated()
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L164" />
@@ -991,14 +1007,6 @@ void ColorUpdated()
 void DirectLightUpdated()
 ```
 
-### DynamicBounceUpdated()
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L204" />
-
-```csharp
-void DynamicBounceUpdated()
-```
-
 ### EnabledUpdated()
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L209" />
@@ -1053,14 +1061,6 @@ void FogContributionStengthUpdated()
 
 ```csharp
 void FogLightingModeUpdated()
-```
-
-### IndirectLightUpdated()
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightComponent.cs#L203" />
-
-```csharp
-void IndirectLightUpdated()
 ```
 
 ### LightCookieUpdated()

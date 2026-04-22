@@ -30,7 +30,7 @@ public interface CPhysicsSpring : CBaseEntity, CEntityInstance, IEquatable<CEnti
 
 ### DampingRatio
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsSpring.cs#L20" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsSpring.cs#L22" />
 
 ```csharp
 ref float DampingRatio { get; }
@@ -42,7 +42,7 @@ ref float DampingRatio { get; }
 
 ### End
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsSpring.cs#L30" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsSpring.cs#L32" />
 
 ```csharp
 ref Vector End { get; }
@@ -54,7 +54,7 @@ ref Vector End { get; }
 
 ### Frequency
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsSpring.cs#L18" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsSpring.cs#L20" />
 
 ```csharp
 ref float Frequency { get; }
@@ -66,7 +66,7 @@ ref float Frequency { get; }
 
 ### NameAttachEnd
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsSpring.cs#L26" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsSpring.cs#L28" />
 
 ```csharp
 string NameAttachEnd { get; set; }
@@ -78,7 +78,7 @@ string NameAttachEnd { get; set; }
 
 ### NameAttachStart
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsSpring.cs#L24" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsSpring.cs#L26" />
 
 ```csharp
 string NameAttachStart { get; set; }
@@ -90,7 +90,7 @@ string NameAttachStart { get; set; }
 
 ### RestLength
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsSpring.cs#L22" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsSpring.cs#L24" />
 
 ```csharp
 ref float RestLength { get; }
@@ -100,9 +100,21 @@ ref float RestLength { get; }
 
 - <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
 
+### SpringJoint
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsSpring.cs#L18" />
+
+```csharp
+IPhysicsJoint? SpringJoint { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="IPhysicsJoint?" typeHref="/docs/api/schemadefinitions/iphysicsjoint" />
+
 ### Start
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsSpring.cs#L28" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsSpring.cs#L30" />
 
 ```csharp
 ref Vector Start { get; }
@@ -114,7 +126,7 @@ ref Vector Start { get; }
 
 ### TeleportTick
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsSpring.cs#L32" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsSpring.cs#L34" />
 
 ```csharp
 ref uint TeleportTick { get; }

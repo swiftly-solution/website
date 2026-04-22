@@ -80,9 +80,21 @@ ref CHandle<CBaseEntity> AttachedObject { get; }
 
 - <ApiParam type="CHandle&lt;CBaseEntity&gt;" typeHref="/docs/api/natives/chandlet" />
 
-### Motor
+### FixedWorldBody
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMotor.cs#L42" />
+
+```csharp
+IPhysicsBody? FixedWorldBody { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="IPhysicsBody?" typeHref="/docs/api/schemadefinitions/iphysicsbody" />
+
+### Motor
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMotor.cs#L46" />
 
 ```csharp
 CMotorController Motor { get; }
@@ -103,6 +115,18 @@ ref float MotorFriction { get; }
 <ApiLabel>Property Value</ApiLabel>
 
 - <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
+
+### MotorJoint
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysMotor.cs#L44" />
+
+```csharp
+IPhysicsJoint? MotorJoint { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="IPhysicsJoint?" typeHref="/docs/api/schemadefinitions/iphysicsjoint" />
 
 ### NameAnchor
 

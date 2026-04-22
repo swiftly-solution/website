@@ -27,81 +27,69 @@ public interface C_INIT_CreateSpiralSphere : CParticleFunctionInitializer, CPart
 
 ## Properties
 
-### ControlPointNumber
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateSpiralSphere.cs#L18" />
-
-```csharp
-ref int ControlPointNumber { get; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
-
 ### Density
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateSpiralSphere.cs#L22" />
-
-```csharp
-ref int Density { get; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
-
-### InitialRadius
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateSpiralSphere.cs#L24" />
-
-```csharp
-ref float InitialRadius { get; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
-
-### InitialSpeedMax
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateSpiralSphere.cs#L28" />
-
-```csharp
-ref float InitialSpeedMax { get; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
-
-### InitialSpeedMin
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateSpiralSphere.cs#L26" />
-
-```csharp
-ref float InitialSpeedMin { get; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
-
-### OverrideCP
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateSpiralSphere.cs#L20" />
 
 ```csharp
-ref int OverrideCP { get; }
+CPerParticleFloatInput Density { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
+- <ApiParam type="CPerParticleFloatInput" typeHref="/docs/api/schemadefinitions/cperparticlefloatinput" />
+
+### InitialRadius
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateSpiralSphere.cs#L22" />
+
+```csharp
+CPerParticleFloatInput InitialRadius { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CPerParticleFloatInput" typeHref="/docs/api/schemadefinitions/cperparticlefloatinput" />
+
+### InitialSpeedMax
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateSpiralSphere.cs#L26" />
+
+```csharp
+CPerParticleFloatInput InitialSpeedMax { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CPerParticleFloatInput" typeHref="/docs/api/schemadefinitions/cperparticlefloatinput" />
+
+### InitialSpeedMin
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateSpiralSphere.cs#L24" />
+
+```csharp
+CPerParticleFloatInput InitialSpeedMin { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CPerParticleFloatInput" typeHref="/docs/api/schemadefinitions/cperparticlefloatinput" />
+
+### TransformInput
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateSpiralSphere.cs#L18" />
+
+```csharp
+CParticleTransformInput TransformInput { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CParticleTransformInput" typeHref="/docs/api/schemadefinitions/cparticletransforminput" />
 
 ### UseParticleCount
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateSpiralSphere.cs#L30" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateSpiralSphere.cs#L28" />
 
 ```csharp
 ref bool UseParticleCount { get; }

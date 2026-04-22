@@ -32,7 +32,7 @@ public interface CKeepUpright : CPointEntity, CBaseEntity, CEntityInstance, IEqu
 
 ### Active
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CKeepUpright.cs#L28" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CKeepUpright.cs#L30" />
 
 ```csharp
 ref bool Active { get; }
@@ -44,7 +44,7 @@ ref bool Active { get; }
 
 ### AngularLimit
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CKeepUpright.cs#L26" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CKeepUpright.cs#L28" />
 
 ```csharp
 ref float AngularLimit { get; }
@@ -56,7 +56,7 @@ ref float AngularLimit { get; }
 
 ### AttachedObject
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CKeepUpright.cs#L24" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CKeepUpright.cs#L26" />
 
 ```csharp
 ref CHandle<CBaseEntity> AttachedObject { get; }
@@ -66,9 +66,21 @@ ref CHandle<CBaseEntity> AttachedObject { get; }
 
 - <ApiParam type="CHandle&lt;CBaseEntity&gt;" typeHref="/docs/api/natives/chandlet" />
 
+### Controller
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CKeepUpright.cs#L22" />
+
+```csharp
+IPhysicsMotionController? Controller { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="IPhysicsMotionController?" typeHref="/docs/api/schemadefinitions/iphysicsmotioncontroller" />
+
 ### DampAllRotation
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CKeepUpright.cs#L30" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CKeepUpright.cs#L32" />
 
 ```csharp
 ref bool DampAllRotation { get; }
@@ -92,7 +104,7 @@ ref Vector LocalTestAxis { get; }
 
 ### NameAttach
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CKeepUpright.cs#L22" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CKeepUpright.cs#L24" />
 
 ```csharp
 string NameAttach { get; set; }

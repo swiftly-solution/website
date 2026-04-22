@@ -66,6 +66,18 @@ ref int BakeSpecularToCubemaps { get; }
 
 - <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
 
+### BakeSpecularToCubemapsScale
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L78" />
+
+```csharp
+ref float BakeSpecularToCubemapsScale { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
+
 ### BakeSpecularToCubemapsSize
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L76" />
@@ -92,7 +104,7 @@ ref int BakedShadowIndex { get; }
 
 ### BounceLight
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L88" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L90" />
 
 ```csharp
 ref int BounceLight { get; }
@@ -104,7 +116,7 @@ ref int BounceLight { get; }
 
 ### BounceScale
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L90" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L92" />
 
 ```csharp
 ref float BounceScale { get; }
@@ -140,7 +152,7 @@ ref float BrightnessScale { get; }
 
 ### CastShadows
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L78" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L80" />
 
 ```csharp
 ref int CastShadows { get; }
@@ -188,7 +200,7 @@ ref float ColorTemperature { get; }
 
 ### ContactShadow
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L84" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L86" />
 
 ```csharp
 ref bool ContactShadow { get; }
@@ -210,18 +222,6 @@ ref int DirectLight { get; }
 
 - <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
 
-### DynamicBounce
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L92" />
-
-```csharp
-ref bool DynamicBounce { get; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
-
 ### Enabled
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L18" />
@@ -236,7 +236,7 @@ ref bool Enabled { get; }
 
 ### FadeSizeEnd
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L112" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L110" />
 
 ```csharp
 ref float FadeSizeEnd { get; }
@@ -248,7 +248,7 @@ ref float FadeSizeEnd { get; }
 
 ### FadeSizeStart
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L110" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L108" />
 
 ```csharp
 ref float FadeSizeStart { get; }
@@ -269,18 +269,6 @@ ref int Fog { get; }
 <ApiLabel>Property Value</ApiLabel>
 
 - <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
-
-### FogMixedShadows
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L108" />
-
-```csharp
-ref bool FogMixedShadows { get; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
 
 ### FogScale
 
@@ -320,7 +308,7 @@ ref float FogStrength { get; }
 
 ### ForceShadowsEnabled
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L86" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L88" />
 
 ```csharp
 ref bool ForceShadowsEnabled { get; }
@@ -464,7 +452,7 @@ ref float MinRoughness { get; }
 
 ### PrecomputedBoundsMaxs
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L122" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L120" />
 
 ```csharp
 ref Vector PrecomputedBoundsMaxs { get; }
@@ -476,7 +464,7 @@ ref Vector PrecomputedBoundsMaxs { get; }
 
 ### PrecomputedBoundsMins
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L120" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L118" />
 
 ```csharp
 ref Vector PrecomputedBoundsMins { get; }
@@ -488,7 +476,7 @@ ref Vector PrecomputedBoundsMins { get; }
 
 ### PrecomputedFieldsValid
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L118" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L116" />
 
 ```csharp
 ref bool PrecomputedFieldsValid { get; }
@@ -500,7 +488,7 @@ ref bool PrecomputedFieldsValid { get; }
 
 ### PrecomputedOBBAngles
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L126" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L124" />
 
 ```csharp
 ref QAngle PrecomputedOBBAngles { get; }
@@ -512,7 +500,7 @@ ref QAngle PrecomputedOBBAngles { get; }
 
 ### PrecomputedOBBAngles0
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L134" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L132" />
 
 ```csharp
 ref QAngle PrecomputedOBBAngles0 { get; }
@@ -524,7 +512,7 @@ ref QAngle PrecomputedOBBAngles0 { get; }
 
 ### PrecomputedOBBAngles1
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L140" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L138" />
 
 ```csharp
 ref QAngle PrecomputedOBBAngles1 { get; }
@@ -536,7 +524,7 @@ ref QAngle PrecomputedOBBAngles1 { get; }
 
 ### PrecomputedOBBAngles2
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L146" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L144" />
 
 ```csharp
 ref QAngle PrecomputedOBBAngles2 { get; }
@@ -548,7 +536,7 @@ ref QAngle PrecomputedOBBAngles2 { get; }
 
 ### PrecomputedOBBAngles3
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L152" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L150" />
 
 ```csharp
 ref QAngle PrecomputedOBBAngles3 { get; }
@@ -560,7 +548,7 @@ ref QAngle PrecomputedOBBAngles3 { get; }
 
 ### PrecomputedOBBAngles4
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L158" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L156" />
 
 ```csharp
 ref QAngle PrecomputedOBBAngles4 { get; }
@@ -572,7 +560,7 @@ ref QAngle PrecomputedOBBAngles4 { get; }
 
 ### PrecomputedOBBAngles5
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L164" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L162" />
 
 ```csharp
 ref QAngle PrecomputedOBBAngles5 { get; }
@@ -584,7 +572,7 @@ ref QAngle PrecomputedOBBAngles5 { get; }
 
 ### PrecomputedOBBExtent
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L128" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L126" />
 
 ```csharp
 ref Vector PrecomputedOBBExtent { get; }
@@ -596,7 +584,7 @@ ref Vector PrecomputedOBBExtent { get; }
 
 ### PrecomputedOBBExtent0
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L136" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L134" />
 
 ```csharp
 ref Vector PrecomputedOBBExtent0 { get; }
@@ -608,7 +596,7 @@ ref Vector PrecomputedOBBExtent0 { get; }
 
 ### PrecomputedOBBExtent1
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L142" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L140" />
 
 ```csharp
 ref Vector PrecomputedOBBExtent1 { get; }
@@ -620,7 +608,7 @@ ref Vector PrecomputedOBBExtent1 { get; }
 
 ### PrecomputedOBBExtent2
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L148" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L146" />
 
 ```csharp
 ref Vector PrecomputedOBBExtent2 { get; }
@@ -632,7 +620,7 @@ ref Vector PrecomputedOBBExtent2 { get; }
 
 ### PrecomputedOBBExtent3
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L154" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L152" />
 
 ```csharp
 ref Vector PrecomputedOBBExtent3 { get; }
@@ -644,7 +632,7 @@ ref Vector PrecomputedOBBExtent3 { get; }
 
 ### PrecomputedOBBExtent4
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L160" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L158" />
 
 ```csharp
 ref Vector PrecomputedOBBExtent4 { get; }
@@ -656,7 +644,7 @@ ref Vector PrecomputedOBBExtent4 { get; }
 
 ### PrecomputedOBBExtent5
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L166" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L164" />
 
 ```csharp
 ref Vector PrecomputedOBBExtent5 { get; }
@@ -668,7 +656,7 @@ ref Vector PrecomputedOBBExtent5 { get; }
 
 ### PrecomputedOBBOrigin
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L124" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L122" />
 
 ```csharp
 ref Vector PrecomputedOBBOrigin { get; }
@@ -680,7 +668,7 @@ ref Vector PrecomputedOBBOrigin { get; }
 
 ### PrecomputedOBBOrigin0
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L132" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L130" />
 
 ```csharp
 ref Vector PrecomputedOBBOrigin0 { get; }
@@ -692,7 +680,7 @@ ref Vector PrecomputedOBBOrigin0 { get; }
 
 ### PrecomputedOBBOrigin1
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L138" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L136" />
 
 ```csharp
 ref Vector PrecomputedOBBOrigin1 { get; }
@@ -704,7 +692,7 @@ ref Vector PrecomputedOBBOrigin1 { get; }
 
 ### PrecomputedOBBOrigin2
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L144" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L142" />
 
 ```csharp
 ref Vector PrecomputedOBBOrigin2 { get; }
@@ -716,7 +704,7 @@ ref Vector PrecomputedOBBOrigin2 { get; }
 
 ### PrecomputedOBBOrigin3
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L150" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L148" />
 
 ```csharp
 ref Vector PrecomputedOBBOrigin3 { get; }
@@ -728,7 +716,7 @@ ref Vector PrecomputedOBBOrigin3 { get; }
 
 ### PrecomputedOBBOrigin4
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L156" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L154" />
 
 ```csharp
 ref Vector PrecomputedOBBOrigin4 { get; }
@@ -740,7 +728,7 @@ ref Vector PrecomputedOBBOrigin4 { get; }
 
 ### PrecomputedOBBOrigin5
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L162" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L160" />
 
 ```csharp
 ref Vector PrecomputedOBBOrigin5 { get; }
@@ -752,7 +740,7 @@ ref Vector PrecomputedOBBOrigin5 { get; }
 
 ### PrecomputedSubFrusta
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L130" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L128" />
 
 ```csharp
 ref int PrecomputedSubFrusta { get; }
@@ -764,7 +752,7 @@ ref int PrecomputedSubFrusta { get; }
 
 ### PvsModifyEntity
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L168" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L166" />
 
 ```csharp
 ref bool PvsModifyEntity { get; }
@@ -800,7 +788,7 @@ ref float Range { get; }
 
 ### ShadowFadeSizeEnd
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L116" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L114" />
 
 ```csharp
 ref float ShadowFadeSizeEnd { get; }
@@ -812,7 +800,7 @@ ref float ShadowFadeSizeEnd { get; }
 
 ### ShadowFadeSizeStart
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L114" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L112" />
 
 ```csharp
 ref float ShadowFadeSizeStart { get; }
@@ -824,7 +812,7 @@ ref float ShadowFadeSizeStart { get; }
 
 ### ShadowMapSize
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L80" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L82" />
 
 ```csharp
 ref int ShadowMapSize { get; }
@@ -836,7 +824,7 @@ ref int ShadowMapSize { get; }
 
 ### ShadowPriority
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L82" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L84" />
 
 ```csharp
 ref int ShadowPriority { get; }
@@ -942,6 +930,18 @@ ISchemaFixedArray<CEntityIOOutput> StyleEvent { get; }
 
 - <ApiParam type="ISchemaFixedArray&lt;CEntityIOOutput&gt;" typeHref="/docs/api/schemas/ischemafixedarrayt" />
 
+### TransmitAlways
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L168" />
+
+```csharp
+ref bool TransmitAlways { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
+
 ### VisClusters
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L170" />
@@ -972,6 +972,14 @@ void AlternateColorBrightnessUpdated()
 void AlternateColorUpdated()
 ```
 
+### BakeSpecularToCubemapsScaleUpdated()
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L201" />
+
+```csharp
+void BakeSpecularToCubemapsScaleUpdated()
+```
+
 ### BakeSpecularToCubemapsSizeUpdated()
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L200" />
@@ -998,7 +1006,7 @@ void BakedShadowIndexUpdated()
 
 ### BounceLightUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L206" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L207" />
 
 ```csharp
 void BounceLightUpdated()
@@ -1006,7 +1014,7 @@ void BounceLightUpdated()
 
 ### BounceScaleUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L207" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L208" />
 
 ```csharp
 void BounceScaleUpdated()
@@ -1030,7 +1038,7 @@ void BrightnessUpdated()
 
 ### CastShadowsUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L201" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L202" />
 
 ```csharp
 void CastShadowsUpdated()
@@ -1062,7 +1070,7 @@ void ColorUpdated()
 
 ### ContactShadowUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L204" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L205" />
 
 ```csharp
 void ContactShadowUpdated()
@@ -1076,14 +1084,6 @@ void ContactShadowUpdated()
 void DirectLightUpdated()
 ```
 
-### DynamicBounceUpdated()
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L208" />
-
-```csharp
-void DynamicBounceUpdated()
-```
-
 ### EnabledUpdated()
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L172" />
@@ -1094,7 +1094,7 @@ void EnabledUpdated()
 
 ### FadeSizeEndUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L218" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L217" />
 
 ```csharp
 void FadeSizeEndUpdated()
@@ -1102,18 +1102,10 @@ void FadeSizeEndUpdated()
 
 ### FadeSizeStartUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L217" />
-
-```csharp
-void FadeSizeStartUpdated()
-```
-
-### FogMixedShadowsUpdated()
-
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L216" />
 
 ```csharp
-void FogMixedShadowsUpdated()
+void FadeSizeStartUpdated()
 ```
 
 ### FogScaleUpdated()
@@ -1150,7 +1142,7 @@ void FogUpdated()
 
 ### ForceShadowsEnabledUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L205" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L206" />
 
 ```csharp
 void ForceShadowsEnabledUpdated()
@@ -1246,7 +1238,7 @@ void MinRoughnessUpdated()
 
 ### PrecomputedBoundsMaxsUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L223" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L222" />
 
 ```csharp
 void PrecomputedBoundsMaxsUpdated()
@@ -1254,7 +1246,7 @@ void PrecomputedBoundsMaxsUpdated()
 
 ### PrecomputedBoundsMinsUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L222" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L221" />
 
 ```csharp
 void PrecomputedBoundsMinsUpdated()
@@ -1262,7 +1254,7 @@ void PrecomputedBoundsMinsUpdated()
 
 ### PrecomputedFieldsValidUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L221" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L220" />
 
 ```csharp
 void PrecomputedFieldsValidUpdated()
@@ -1270,7 +1262,7 @@ void PrecomputedFieldsValidUpdated()
 
 ### PrecomputedOBBAngles0Updated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L229" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L228" />
 
 ```csharp
 void PrecomputedOBBAngles0Updated()
@@ -1278,7 +1270,7 @@ void PrecomputedOBBAngles0Updated()
 
 ### PrecomputedOBBAngles1Updated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L232" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L231" />
 
 ```csharp
 void PrecomputedOBBAngles1Updated()
@@ -1286,7 +1278,7 @@ void PrecomputedOBBAngles1Updated()
 
 ### PrecomputedOBBAngles2Updated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L235" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L234" />
 
 ```csharp
 void PrecomputedOBBAngles2Updated()
@@ -1294,7 +1286,7 @@ void PrecomputedOBBAngles2Updated()
 
 ### PrecomputedOBBAngles3Updated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L238" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L237" />
 
 ```csharp
 void PrecomputedOBBAngles3Updated()
@@ -1302,7 +1294,7 @@ void PrecomputedOBBAngles3Updated()
 
 ### PrecomputedOBBAngles4Updated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L241" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L240" />
 
 ```csharp
 void PrecomputedOBBAngles4Updated()
@@ -1310,7 +1302,7 @@ void PrecomputedOBBAngles4Updated()
 
 ### PrecomputedOBBAngles5Updated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L244" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L243" />
 
 ```csharp
 void PrecomputedOBBAngles5Updated()
@@ -1318,7 +1310,7 @@ void PrecomputedOBBAngles5Updated()
 
 ### PrecomputedOBBAnglesUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L225" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L224" />
 
 ```csharp
 void PrecomputedOBBAnglesUpdated()
@@ -1326,7 +1318,7 @@ void PrecomputedOBBAnglesUpdated()
 
 ### PrecomputedOBBExtent0Updated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L230" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L229" />
 
 ```csharp
 void PrecomputedOBBExtent0Updated()
@@ -1334,7 +1326,7 @@ void PrecomputedOBBExtent0Updated()
 
 ### PrecomputedOBBExtent1Updated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L233" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L232" />
 
 ```csharp
 void PrecomputedOBBExtent1Updated()
@@ -1342,7 +1334,7 @@ void PrecomputedOBBExtent1Updated()
 
 ### PrecomputedOBBExtent2Updated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L236" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L235" />
 
 ```csharp
 void PrecomputedOBBExtent2Updated()
@@ -1350,7 +1342,7 @@ void PrecomputedOBBExtent2Updated()
 
 ### PrecomputedOBBExtent3Updated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L239" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L238" />
 
 ```csharp
 void PrecomputedOBBExtent3Updated()
@@ -1358,7 +1350,7 @@ void PrecomputedOBBExtent3Updated()
 
 ### PrecomputedOBBExtent4Updated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L242" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L241" />
 
 ```csharp
 void PrecomputedOBBExtent4Updated()
@@ -1366,7 +1358,7 @@ void PrecomputedOBBExtent4Updated()
 
 ### PrecomputedOBBExtent5Updated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L245" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L244" />
 
 ```csharp
 void PrecomputedOBBExtent5Updated()
@@ -1374,7 +1366,7 @@ void PrecomputedOBBExtent5Updated()
 
 ### PrecomputedOBBExtentUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L226" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L225" />
 
 ```csharp
 void PrecomputedOBBExtentUpdated()
@@ -1382,7 +1374,7 @@ void PrecomputedOBBExtentUpdated()
 
 ### PrecomputedOBBOrigin0Updated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L228" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L227" />
 
 ```csharp
 void PrecomputedOBBOrigin0Updated()
@@ -1390,7 +1382,7 @@ void PrecomputedOBBOrigin0Updated()
 
 ### PrecomputedOBBOrigin1Updated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L231" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L230" />
 
 ```csharp
 void PrecomputedOBBOrigin1Updated()
@@ -1398,7 +1390,7 @@ void PrecomputedOBBOrigin1Updated()
 
 ### PrecomputedOBBOrigin2Updated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L234" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L233" />
 
 ```csharp
 void PrecomputedOBBOrigin2Updated()
@@ -1406,7 +1398,7 @@ void PrecomputedOBBOrigin2Updated()
 
 ### PrecomputedOBBOrigin3Updated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L237" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L236" />
 
 ```csharp
 void PrecomputedOBBOrigin3Updated()
@@ -1414,7 +1406,7 @@ void PrecomputedOBBOrigin3Updated()
 
 ### PrecomputedOBBOrigin4Updated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L240" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L239" />
 
 ```csharp
 void PrecomputedOBBOrigin4Updated()
@@ -1422,7 +1414,7 @@ void PrecomputedOBBOrigin4Updated()
 
 ### PrecomputedOBBOrigin5Updated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L243" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L242" />
 
 ```csharp
 void PrecomputedOBBOrigin5Updated()
@@ -1430,7 +1422,7 @@ void PrecomputedOBBOrigin5Updated()
 
 ### PrecomputedOBBOriginUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L224" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L223" />
 
 ```csharp
 void PrecomputedOBBOriginUpdated()
@@ -1438,7 +1430,7 @@ void PrecomputedOBBOriginUpdated()
 
 ### PrecomputedSubFrustaUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L227" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L226" />
 
 ```csharp
 void PrecomputedSubFrustaUpdated()
@@ -1462,7 +1454,7 @@ void RangeUpdated()
 
 ### ShadowFadeSizeEndUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L220" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L219" />
 
 ```csharp
 void ShadowFadeSizeEndUpdated()
@@ -1470,7 +1462,7 @@ void ShadowFadeSizeEndUpdated()
 
 ### ShadowFadeSizeStartUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L219" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L218" />
 
 ```csharp
 void ShadowFadeSizeStartUpdated()
@@ -1478,7 +1470,7 @@ void ShadowFadeSizeStartUpdated()
 
 ### ShadowMapSizeUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L202" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L203" />
 
 ```csharp
 void ShadowMapSizeUpdated()
@@ -1486,7 +1478,7 @@ void ShadowMapSizeUpdated()
 
 ### ShadowPriorityUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L203" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L204" />
 
 ```csharp
 void ShadowPriorityUpdated()
@@ -1550,7 +1542,7 @@ void SoftYUpdated()
 
 ### VisClustersUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L246" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBarnLight.cs#L245" />
 
 ```csharp
 void VisClustersUpdated()

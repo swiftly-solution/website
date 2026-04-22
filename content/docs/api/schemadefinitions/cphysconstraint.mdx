@@ -34,7 +34,7 @@ public interface CPhysConstraint : CLogicalEntity, CServerOnlyEntity, CBaseEntit
 
 ### Attach1
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L22" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L24" />
 
 ```csharp
 ref CHandle<CBaseEntity> Attach1 { get; }
@@ -46,7 +46,7 @@ ref CHandle<CBaseEntity> Attach1 { get; }
 
 ### Attach2
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L24" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L26" />
 
 ```csharp
 ref CHandle<CBaseEntity> Attach2 { get; }
@@ -58,7 +58,7 @@ ref CHandle<CBaseEntity> Attach2 { get; }
 
 ### BreakSound
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L30" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L32" />
 
 ```csharp
 string BreakSound { get; set; }
@@ -70,7 +70,7 @@ string BreakSound { get; set; }
 
 ### ForceLimit
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L32" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L34" />
 
 ```csharp
 ref float ForceLimit { get; }
@@ -80,9 +80,21 @@ ref float ForceLimit { get; }
 
 - <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
 
+### Joint
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L18" />
+
+```csharp
+IPhysicsJoint? Joint { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="IPhysicsJoint?" typeHref="/docs/api/schemadefinitions/iphysicsjoint" />
+
 ### MinTeleportDistance
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L36" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L38" />
 
 ```csharp
 ref float MinTeleportDistance { get; }
@@ -94,7 +106,7 @@ ref float MinTeleportDistance { get; }
 
 ### NameAttach1
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L18" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L20" />
 
 ```csharp
 string NameAttach1 { get; set; }
@@ -106,7 +118,7 @@ string NameAttach1 { get; set; }
 
 ### NameAttach2
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L20" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L22" />
 
 ```csharp
 string NameAttach2 { get; set; }
@@ -118,7 +130,7 @@ string NameAttach2 { get; set; }
 
 ### NameAttachment1
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L26" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L28" />
 
 ```csharp
 string NameAttachment1 { get; set; }
@@ -130,7 +142,7 @@ string NameAttachment1 { get; set; }
 
 ### NameAttachment2
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L28" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L30" />
 
 ```csharp
 string NameAttachment2 { get; set; }
@@ -142,7 +154,7 @@ string NameAttachment2 { get; set; }
 
 ### OnBreak
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L42" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L44" />
 
 ```csharp
 ref CEntityIOOutput OnBreak { get; }
@@ -154,7 +166,7 @@ ref CEntityIOOutput OnBreak { get; }
 
 ### SnapObjectPositions
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L38" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L40" />
 
 ```csharp
 ref bool SnapObjectPositions { get; }
@@ -166,7 +178,7 @@ ref bool SnapObjectPositions { get; }
 
 ### TorqueLimit
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L34" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L36" />
 
 ```csharp
 ref float TorqueLimit { get; }
@@ -178,7 +190,7 @@ ref float TorqueLimit { get; }
 
 ### TreatEntity1AsInfiniteMass
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L40" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L42" />
 
 ```csharp
 ref bool TreatEntity1AsInfiniteMass { get; }

@@ -34,7 +34,7 @@ public interface CLogicRelay : CLogicalEntity, CServerOnlyEntity, CBaseEntity, C
 
 ### Disabled
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicRelay.cs#L18" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicRelay.cs#L22" />
 
 ```csharp
 ref bool Disabled { get; }
@@ -46,7 +46,7 @@ ref bool Disabled { get; }
 
 ### FastRetrigger
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicRelay.cs#L24" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicRelay.cs#L28" />
 
 ```csharp
 ref bool FastRetrigger { get; }
@@ -56,9 +56,33 @@ ref bool FastRetrigger { get; }
 
 - <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
 
+### OnSpawn
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicRelay.cs#L18" />
+
+```csharp
+ref CEntityIOOutput OnSpawn { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
+
+### OnTrigger
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicRelay.cs#L20" />
+
+```csharp
+ref CEntityIOOutput OnTrigger { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
+
 ### PassthoughCaller
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicRelay.cs#L26" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicRelay.cs#L30" />
 
 ```csharp
 ref bool PassthoughCaller { get; }
@@ -70,7 +94,7 @@ ref bool PassthoughCaller { get; }
 
 ### TriggerOnce
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicRelay.cs#L22" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicRelay.cs#L26" />
 
 ```csharp
 ref bool TriggerOnce { get; }
@@ -82,7 +106,7 @@ ref bool TriggerOnce { get; }
 
 ### WaitForRefire
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicRelay.cs#L20" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicRelay.cs#L24" />
 
 ```csharp
 ref bool WaitForRefire { get; }

@@ -41,7 +41,7 @@ ParticleAttributeIndex_t Attribute { get; }
 
 ### CollisionGroupName
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionPlaceOnGround.cs#L22" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionPlaceOnGround.cs#L24" />
 
 ```csharp
 string CollisionGroupName { get; set; }
@@ -50,6 +50,18 @@ string CollisionGroupName { get; set; }
 <ApiLabel>Property Value</ApiLabel>
 
 - <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
+
+### GroundNormalAttribute
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionPlaceOnGround.cs#L38" />
+
+```csharp
+ParticleAttributeIndex_t GroundNormalAttribute { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="ParticleAttributeIndex_t" typeHref="/docs/api/schemadefinitions/particleattributeindex_t" />
 
 ### IgnoreCP
 
@@ -65,7 +77,7 @@ ref int IgnoreCP { get; }
 
 ### IncludeWater
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionPlaceOnGround.cs#L28" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionPlaceOnGround.cs#L30" />
 
 ```csharp
 ref bool IncludeWater { get; }
@@ -137,7 +149,7 @@ ref int PreserveOffsetCP { get; }
 
 ### SetNormal
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionPlaceOnGround.cs#L30" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionPlaceOnGround.cs#L36" />
 
 ```csharp
 ref bool SetNormal { get; }
@@ -159,33 +171,21 @@ ref bool SetPXYZOnly { get; }
 
 - <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
 
-### TraceAlongNormal
+### TraceDir
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionPlaceOnGround.cs#L36" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionPlaceOnGround.cs#L22" />
 
 ```csharp
-ref bool TraceAlongNormal { get; }
+CPerParticleVecInput TraceDir { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
-
-### TraceDirectionAttribute
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionPlaceOnGround.cs#L38" />
-
-```csharp
-ParticleAttributeIndex_t TraceDirectionAttribute { get; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="ParticleAttributeIndex_t" typeHref="/docs/api/schemadefinitions/particleattributeindex_t" />
+- <ApiParam type="CPerParticleVecInput" typeHref="/docs/api/schemadefinitions/cperparticlevecinput" />
 
 ### TraceMissBehavior
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionPlaceOnGround.cs#L26" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionPlaceOnGround.cs#L28" />
 
 ```csharp
 ref ParticleTraceMissBehavior_t TraceMissBehavior { get; }
@@ -197,7 +197,7 @@ ref ParticleTraceMissBehavior_t TraceMissBehavior { get; }
 
 ### TraceSet
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionPlaceOnGround.cs#L24" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionPlaceOnGround.cs#L26" />
 
 ```csharp
 ref ParticleTraceSet_t TraceSet { get; }
