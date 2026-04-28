@@ -6,7 +6,7 @@
     "node": "22"
   },
   "scripts": {
-    "build": "next build",
+    "build": "next build && ts-node scripts/sync-content.ts",
     "dev": "next dev --turbo",
     "start": "next start",
     "postinstall": "fumadocs-mdx",
@@ -22,6 +22,7 @@
     "@radix-ui/react-presence": "^1.1.5",
     "ai": "^6.0.138",
     "class-variance-authority": "^0.7.1",
+    "dotenv": "^17.4.2",
     "framer-motion": "^12.38.0",
     "fumadocs-core": "16.7.6",
     "fumadocs-mdx": "14.2.11",
@@ -39,6 +40,9 @@
     "remark-rehype": "^11.1.2",
     "shiki": "^4.0.2",
     "tailwind-merge": "^3.5.0",
+    "ts-node": "^10.9.2",
+    "typesense": "^3.0.6",
+    "typesense-fumadocs-adapter": "^0.3.0",
     "unist-util-visit": "^5.1.0",
     "zod": "^4.3.6"
   },

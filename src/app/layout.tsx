@@ -1,5 +1,5 @@
 import '@/app/global.css';
-import CustomSearchDialog from '@/components/search';
+import TypesenseSearchDialog from '@/components/search';
 import { RootProvider } from 'fumadocs-ui/provider/next';
 import { Inter } from 'next/font/google';
 
@@ -16,6 +16,7 @@ export default function Layout({ children }: LayoutProps<'/'>) {
             type: 'fetch',
             delayMs: 200,
           },
+          SearchDialog: TypesenseSearchDialog
         }}>
           {children}
         </RootProvider>

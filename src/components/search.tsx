@@ -1,5 +1,4 @@
 'use client';
-
 import {
   SearchDialog,
   SearchDialogClose,
@@ -12,24 +11,22 @@ import {
   SearchDialogOverlay,
   type SharedProps,
 } from 'fumadocs-ui/components/dialog/search';
-import { useDocsSearch } from 'fumadocs-core/search/client';
-import { OramaClient } from '@oramacloud/client'
+import { useI18n } from 'fumadocs-ui/contexts/i18n';
+import { Client } from 'typesense';
+import { useTypesenseSearch } from 'typesense-fumadocs-adapter/client';
 
-const client = new OramaClient({
-  endpoint: 'https://cloud.orama.run/v1/indexes/swiftlys2-c9vc26',
-  api_key: 'dqEcaANtHaRWjiyCMABWHJDEoOZXeFKk',
-})
+const client = new Client({
+  nodes: [{ url: process.env.NEXT_PUBLIC_TYPESENSE_HOST! }],
+  apiKey: process.env.NEXT_PUBLIC_TYPESENSE_SEARCHONLY_KEY!,
+});
 
-export default function CustomSearchDialog(props: SharedProps) {
-  const { search, setSearch, query } = useDocsSearch({
-    type: 'orama-cloud',
-    // @ts-expect-error
+export default function TypesenseSearchDialog(props: SharedProps) {
+  const { locale } = useI18n(); // optional
+  const { search, setSearch, query } = useTypesenseSearch({
+    typesenseCollectionName: `swiftlys2`,
+    locale,
+    legacy: false, // optional, set to true for fumadocs-ui version < 16.6.0
     client,
-    params: {
-      "groupBy": {
-        properties: ["id"]
-      }
-    },
   });
 
   return (
@@ -47,15 +44,7 @@ export default function CustomSearchDialog(props: SharedProps) {
           <SearchDialogClose />
         </SearchDialogHeader>
         <SearchDialogList items={query.data !== 'empty' ? query.data : null} />
-        <SearchDialogFooter>
-          <a
-            href="https://orama.com"
-            rel="noreferrer noopener"
-            className="ms-auto text-xs text-fd-muted-foreground"
-          >
-            Search powered by Orama
-          </a>
-        </SearchDialogFooter>
+        <SearchDialogFooter />
       </SearchDialogContent>
     </SearchDialog>
   );
