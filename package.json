@@ -6,10 +6,11 @@
     "node": "22"
   },
   "scripts": {
-    "build": "next build && ts-node scripts/sync-content.ts",
+    "build": "next build",
     "dev": "next dev --turbo",
     "start": "next start",
     "postinstall": "fumadocs-mdx",
+    "search:sync": "ts-node scripts/sync-content.ts",
     "lint": "eslint"
   },
   "dependencies": {
