@@ -15,6 +15,8 @@ import { Tabs, Tab } from 'fumadocs-ui/components/tabs';
 import { VersionGetter } from '@/components/version-getter';
 import { Files, Folder, File } from 'fumadocs-ui/components/files';
 import { LLMCopyButton, ViewOptions } from '@/components/page-actions';
+import { ColorPicker } from '@/components/color-picker';
+import { Step, Steps } from 'fumadocs-ui/components/steps';
 
 export default async function Page(props: PageProps<'/docs/[[...slug]]'>) {
   const params = await props.params;
@@ -42,7 +44,7 @@ export default async function Page(props: PageProps<'/docs/[[...slug]]'>) {
             VersionGetter,
             CodeBlock, Pre, CodeBlockTabs, CodeBlockTabsList, CodeBlockTabsTrigger, CodeBlockTab,
             Files, Folder, File,
-            Tabs, Tab
+            Tabs, Tab, ColorPicker, Step, Steps
           })}
         />
       </DocsBody>
