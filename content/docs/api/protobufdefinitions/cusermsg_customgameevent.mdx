@@ -11,19 +11,21 @@ title: CUserMsg_CustomGameEvent
 **Assembly**: SwiftlyS2.CS2.dll
 
 ```csharp
-public interface CUserMsg_CustomGameEvent : ITypedProtobuf<CUserMsg_CustomGameEvent>, INativeHandle
+public interface CUserMsg_CustomGameEvent : ITypedProtobuf<CUserMsg_CustomGameEvent>, INativeHandle, INetMessage<CUserMsg_CustomGameEvent>, IDisposable
 ```
 
 #### Implements
 
 - [ITypedProtobuf\<CUserMsg_CustomGameEvent\>](/docs/api/netmessages/itypedprotobuft)
 - [INativeHandle](/docs/api/natives/inativehandle)
+- [INetMessage\<CUserMsg_CustomGameEvent\>](/docs/api/netmessages/inetmessaget)
+- [IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable)
 
 ## Properties
 
 ### Data
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_CustomGameEvent.cs#L12" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_CustomGameEvent.cs#L16" />
 
 ```csharp
 byte[] Data { get; set; }
@@ -35,7 +37,7 @@ byte[] Data { get; set; }
 
 ### EventName
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_CustomGameEvent.cs#L11" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_CustomGameEvent.cs#L15" />
 
 ```csharp
 string EventName { get; set; }

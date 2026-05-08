@@ -16,6 +16,20 @@ public interface IPlayerManagerService
 
 ## Properties
 
+### MaxPlayers
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L28" />
+
+Gets the maximum number of players allowed by the server configuration.
+
+```csharp
+int MaxPlayers { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
+
 ### PlayerCap
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L23" />
@@ -48,7 +62,7 @@ int PlayerCount { get; }
 
 ### ClearAllBlockedTransmitEntities()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L216" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L221" />
 
 Removes all entity transmission blocks, allowing all previously blocked entities to be transmitted to clients again.
 
@@ -58,7 +72,7 @@ void ClearAllBlockedTransmitEntities()
 
 ### FindTargettedPlayers(IPlayer, string, TargetSearchMode, StringComparison)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L311" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L316" />
 
 Finds targetted players based on the provided search criteria.
 
@@ -79,7 +93,7 @@ IEnumerable<IPlayer> FindTargettedPlayers(IPlayer player, string target, TargetS
 
 ### GetAlive()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L264" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L269" />
 
 Retrieves all alive players currently online.
 
@@ -93,7 +107,7 @@ IEnumerable<IPlayer> GetAlive()
 
 ### GetAllPlayers()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L246" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L251" />
 
 Retrieves all players currently online.
 
@@ -107,7 +121,7 @@ IEnumerable<IPlayer> GetAllPlayers()
 
 ### GetAllValidPlayers()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L252" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L257" />
 
 Retrieves all valid players currently online.
 
@@ -121,7 +135,7 @@ IEnumerable<IPlayer> GetAllValidPlayers()
 
 ### GetBots()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L258" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L263" />
 
 Retrieves all bot players currently online.
 
@@ -135,7 +149,7 @@ IEnumerable<IPlayer> GetBots()
 
 ### GetCT()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L270" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L275" />
 
 Retrieves all CT players currently online.
 
@@ -149,7 +163,7 @@ IEnumerable<IPlayer> GetCT()
 
 ### GetCTAlive()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L301" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L306" />
 
 Retrieves all alive CT players currently online.
 
@@ -163,7 +177,7 @@ IEnumerable<IPlayer> GetCTAlive()
 
 ### GetInTeam(Team)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L289" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L294" />
 
 Retrieves all players in the specified team.
 
@@ -181,7 +195,7 @@ IEnumerable<IPlayer> GetInTeam(Team team)
 
 ### GetPlayer(int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L224" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L229" />
 
 Retrieves the player associated with the specified player ID.
 
@@ -200,7 +214,7 @@ IPlayer? GetPlayer(int playerid)
 
 ### GetPlayerFromController(CBasePlayerController)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L232" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L237" />
 
 Retrieves the player associated with the specified controller.
 
@@ -219,7 +233,7 @@ IPlayer? GetPlayerFromController(CBasePlayerController controller)
 
 ### GetPlayerFromPawn(CBasePlayerPawn)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L240" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L245" />
 
 Retrieves the player associated with the specified pawn.
 
@@ -238,7 +252,7 @@ IPlayer? GetPlayerFromPawn(CBasePlayerPawn pawn)
 
 ### GetPlayerFromSessionId(ulong)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L328" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L333" />
 
 Retrieves the player associated with the specified session ID.
 
@@ -257,7 +271,7 @@ IPlayer? GetPlayerFromSessionId(ulong sessionId)
 
 ### GetPlayerFromSteamId(ulong, bool)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L337" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L342" />
 
 Retrieves the player associated with the specified Steam ID.
 
@@ -277,7 +291,7 @@ IPlayer? GetPlayerFromSteamId(ulong steamId, bool allowUnauthorized = true)
 
 ### GetSpectators()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L282" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L287" />
 
 Retrieves all spectator players currently online.
 
@@ -291,7 +305,7 @@ IEnumerable<IPlayer> GetSpectators()
 
 ### GetT()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L276" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L281" />
 
 Retrieves all T players currently online.
 
@@ -305,7 +319,7 @@ IEnumerable<IPlayer> GetT()
 
 ### GetTAlive()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L295" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L300" />
 
 Retrieves all alive T players currently online.
 
@@ -337,7 +351,7 @@ bool IsPlayerOnline(int playerid)
 
 ### IsSessionIdValid(ulong)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L320" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L325" />
 
 Checks whether a specific session ID is valid.
 Session id will be invalid when the player associated is disconnected or doesn't exist.
@@ -356,7 +370,7 @@ bool IsSessionIdValid(ulong sessionId)
 
 ### SendAlert(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L167" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L172" />
 
 Sends an alert message to the players.
 
@@ -373,7 +387,7 @@ void SendAlert(string message)
 
 ### SendAlertAsync(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L174" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L179" />
 
 Sends an alert message to the players asynchronously.
 
@@ -391,7 +405,7 @@ Task SendAlertAsync(string message)
 
 ### SendCenter(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L152" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L157" />
 
 Sends a center message to the players.
 
@@ -408,7 +422,7 @@ void SendCenter(string message)
 
 ### SendCenterAsync(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L159" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L164" />
 
 Sends a center message to the players asynchronously.
 
@@ -426,7 +440,7 @@ Task SendCenterAsync(string message)
 
 ### SendCenterHTML(string, int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L183" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L188" />
 
 Sends a center HTML message to the players.
 
@@ -444,7 +458,7 @@ void SendCenterHTML(string message, int duration = 5000)
 
 ### SendCenterHTMLAsync(string, int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L191" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L196" />
 
 Sends a center HTML message to the players asynchronously.
 
@@ -463,7 +477,7 @@ Task SendCenterHTMLAsync(string message, int duration = 5000)
 
 ### SendChat(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L137" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L142" />
 
 Sends a chat message to the players.
 
@@ -480,7 +494,7 @@ void SendChat(string message)
 
 ### SendChatAsync(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L144" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L149" />
 
 Sends a chat message to the players asynchronously.
 
@@ -498,7 +512,7 @@ Task SendChatAsync(string message)
 
 ### SendChatEOT(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L199" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L204" />
 
 Sends an end-of-text chat message to the players.
 
@@ -515,7 +529,7 @@ void SendChatEOT(string message)
 
 ### SendChatEOTAsync(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L206" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L211" />
 
 Sends an end-of-text chat message to the players asynchronously.
 
@@ -533,7 +547,7 @@ Task SendChatEOTAsync(string message)
 
 ### SendConsole(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L122" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L127" />
 
 Sends a console message to the players.
 
@@ -550,7 +564,7 @@ void SendConsole(string message)
 
 ### SendConsoleAsync(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L129" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L134" />
 
 Sends a console message to the players asynchronously.
 
@@ -568,7 +582,7 @@ Task SendConsoleAsync(string message)
 
 ### SendMessage(MessageType, string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L32" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L37" />
 
 Broadcasts a message to players using different display methods based on the message type.
 
@@ -586,7 +600,7 @@ void SendMessage(MessageType kind, string message)
 
 ### SendMessage(MessageType, string, int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L43" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L48" />
 
 Sends a message of the specified type to the players with a custom HTML duration.
 
@@ -605,7 +619,7 @@ void SendMessage(MessageType kind, string message, int htmlDuration = 5000)
 
 ### SendMessage(MessageType, Func\<IPlayer, ILocalizer, string\>)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L53" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L58" />
 
 Broadcasts a message to players using different display methods based on the message type.
 
@@ -623,7 +637,7 @@ void SendMessage(MessageType kind, Func<IPlayer, ILocalizer, string> messageCall
 
 ### SendMessage(MessageType, Func\<IPlayer, ILocalizer, string\>, int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L64" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L69" />
 
 Sends a message of the specified type to the players with a custom HTML duration.
 
@@ -642,7 +656,7 @@ void SendMessage(MessageType kind, Func<IPlayer, ILocalizer, string> messageCall
 
 ### SendMessageAsync(MessageType, string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L72" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L77" />
 
 Sends a message of the specified type to the players asynchronously.
 
@@ -661,7 +675,7 @@ Task SendMessageAsync(MessageType kind, string message)
 
 ### SendMessageAsync(MessageType, string, int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L80" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L85" />
 
 Sends a message of the specified type to the players asynchronously with a custom HTML duration.
 
@@ -681,7 +695,7 @@ Task SendMessageAsync(MessageType kind, string message, int htmlDuration = 5000)
 
 ### SendMessageAsync(MessageType, Func\<IPlayer, ILocalizer, string\>)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L89" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L94" />
 
 Broadcasts a message to players using different display methods based on the message type.
 
@@ -702,7 +716,7 @@ Task SendMessageAsync(MessageType kind, Func<IPlayer, ILocalizer, string> messag
 
 ### SendMessageAsync(MessageType, Func\<IPlayer, ILocalizer, string\>, int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L99" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L104" />
 
 Sends a message of the specified type to the players with a custom HTML duration.
 
@@ -724,7 +738,7 @@ Task SendMessageAsync(MessageType kind, Func<IPlayer, ILocalizer, string> messag
 
 ### SendNotify(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L107" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L112" />
 
 Sends a notify message to the players.
 
@@ -741,7 +755,7 @@ void SendNotify(string message)
 
 ### SendNotifyAsync(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L114" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L119" />
 
 Sends a notify message to the players asynchronously.
 
@@ -759,7 +773,7 @@ Task SendNotifyAsync(string message)
 
 ### ShouldBlockTransmitEntity(int, bool)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L211" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L216" />
 
 Controls whether a specific entity should be blocked from being transmitted/synchronized to clients.
 

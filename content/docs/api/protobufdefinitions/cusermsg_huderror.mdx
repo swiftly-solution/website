@@ -11,19 +11,21 @@ title: CUserMsg_HudError
 **Assembly**: SwiftlyS2.CS2.dll
 
 ```csharp
-public interface CUserMsg_HudError : ITypedProtobuf<CUserMsg_HudError>, INativeHandle
+public interface CUserMsg_HudError : ITypedProtobuf<CUserMsg_HudError>, INativeHandle, INetMessage<CUserMsg_HudError>, IDisposable
 ```
 
 #### Implements
 
 - [ITypedProtobuf\<CUserMsg_HudError\>](/docs/api/netmessages/itypedprotobuft)
 - [INativeHandle](/docs/api/natives/inativehandle)
+- [INetMessage\<CUserMsg_HudError\>](/docs/api/netmessages/inetmessaget)
+- [IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable)
 
 ## Properties
 
 ### OrderId
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_HudError.cs#L11" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_HudError.cs#L15" />
 
 ```csharp
 int OrderId { get; set; }

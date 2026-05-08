@@ -25,7 +25,7 @@ public interface CPlayerPawnComponent : ISchemaClass<CPlayerPawnComponent>, ISch
 
 ### Pawn
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayerPawnComponent.cs#L8" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayerPawnComponent.cs#L10" />
 
 Gets the player pawn associated with this instance.
 
@@ -48,4 +48,20 @@ ref CNetworkVarChainer __m_pChainEntity { get; }
 <ApiLabel>Property Value</ApiLabel>
 
 - <ApiParam type="CNetworkVarChainer" typeHref="/docs/api/natives/cnetworkvarchainer" />
+
+## Methods
+
+### ToPlayer()
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayerPawnComponent.cs#L15" />
+
+Attempts to convert this component's pawn to an SwiftlyS2.Shared.Players.IPlayer instance.
+
+```csharp
+IPlayer? ToPlayer()
+```
+
+<ApiLabel>Returns</ApiLabel>
+
+- <ApiParam type="IPlayer?" typeHref="/docs/api/players/iplayer" />
 

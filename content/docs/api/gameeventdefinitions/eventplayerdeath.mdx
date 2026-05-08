@@ -23,6 +23,54 @@ public interface EventPlayerDeath : IGameEvent<EventPlayerDeath>
 
 ## Properties
 
+### ActualDmgArmor
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerDeath.cs#L231" />
+
+damage done to armor
+<br />
+type: int
+
+```csharp
+int ActualDmgArmor { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
+
+### ActualDmgHealth
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerDeath.cs#L214" />
+
+damage done to health
+<br />
+type: int
+
+```csharp
+int ActualDmgHealth { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
+
+### ActualHitGroup
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerDeath.cs#L248" />
+
+hitgroup that was damaged
+<br />
+type: HitGroup_t
+
+```csharp
+HitGroup_t ActualHitGroup { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="HitGroup_t" typeHref="/docs/api/schemadefinitions/hitgroup_t" />
+
 ### AssistedFlash
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerDeath.cs#L101" />
@@ -149,7 +197,7 @@ CCSPlayerController AttackerController { get; }
 
 ### AttackerInAir
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerDeath.cs#L225" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerDeath.cs#L255" />
 
 attacker was in midair
 <br />
@@ -209,13 +257,16 @@ float Distance { get; set; }
 
 ### DmgArmor
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerDeath.cs#L211" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerDeath.cs#L223" />
 
 damage done to armor
 <br />
 type: byte
+<br />
+See SwiftlyS2.Shared.GameEventDefinitions.EventPlayerDeath.ActualDmgArmor.
 
 ```csharp
+[Obsolete("The declared type may not match the actual value. Use ActualDmgArmor instead.")]
 byte DmgArmor { get; set; }
 ```
 
@@ -225,13 +276,16 @@ byte DmgArmor { get; set; }
 
 ### DmgHealth
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerDeath.cs#L204" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerDeath.cs#L206" />
 
 damage done to health
 <br />
 type: short
+<br />
+See SwiftlyS2.Shared.GameEventDefinitions.EventPlayerDeath.ActualDmgHealth.
 
 ```csharp
+[Obsolete("The declared type may not match the actual value. Use ActualDmgHealth instead.")]
 short DmgHealth { get; set; }
 ```
 
@@ -273,13 +327,16 @@ bool Headshot { get; set; }
 
 ### HitGroup
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerDeath.cs#L218" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerDeath.cs#L240" />
 
 hitgroup that was damaged
 <br />
 type: byte
+<br />
+See SwiftlyS2.Shared.GameEventDefinitions.EventPlayerDeath.ActualHitGroup.
 
 ```csharp
+[Obsolete("The declared type may not match the actual value. Use ActualHitGroup instead.")]
 byte HitGroup { get; set; }
 ```
 

@@ -60,6 +60,24 @@ void ClearPermission(ulong steamId)
 
 - <ApiParam name="steamId" type="ulong" typeHref="https://learn.microsoft.com/dotnet/api/system.uint64" /> — The Steam ID of the player.
 
+### GetPlayerPermissions(ulong)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Permissions/IPermissionManager.cs#L62" />
+
+Gets all permissions of a player, including inherited permissions from sub-permissions.
+
+```csharp
+IEnumerable<string> GetPlayerPermissions(ulong steamId)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="steamId" type="ulong" typeHref="https://learn.microsoft.com/dotnet/api/system.uint64" /> — The Steam ID of the player.
+
+<ApiLabel>Returns</ApiLabel>
+
+- <ApiParam type="IEnumerable&lt;string&gt;" typeHref="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1" />
+
 ### PlayerHasPermission(ulong, string)
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Permissions/IPermissionManager.cs#L13" />

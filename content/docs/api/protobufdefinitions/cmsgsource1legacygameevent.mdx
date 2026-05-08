@@ -11,19 +11,21 @@ title: CMsgSource1LegacyGameEvent
 **Assembly**: SwiftlyS2.CS2.dll
 
 ```csharp
-public interface CMsgSource1LegacyGameEvent : ITypedProtobuf<CMsgSource1LegacyGameEvent>, INativeHandle
+public interface CMsgSource1LegacyGameEvent : ITypedProtobuf<CMsgSource1LegacyGameEvent>, INativeHandle, INetMessage<CMsgSource1LegacyGameEvent>, IDisposable
 ```
 
 #### Implements
 
 - [ITypedProtobuf\<CMsgSource1LegacyGameEvent\>](/docs/api/netmessages/itypedprotobuft)
 - [INativeHandle](/docs/api/natives/inativehandle)
+- [INetMessage\<CMsgSource1LegacyGameEvent\>](/docs/api/netmessages/inetmessaget)
+- [IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable)
 
 ## Properties
 
 ### EventName
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource1LegacyGameEvent.cs#L11" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource1LegacyGameEvent.cs#L15" />
 
 ```csharp
 string EventName { get; set; }
@@ -35,7 +37,7 @@ string EventName { get; set; }
 
 ### Eventid
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource1LegacyGameEvent.cs#L12" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource1LegacyGameEvent.cs#L16" />
 
 ```csharp
 int Eventid { get; set; }
@@ -47,7 +49,7 @@ int Eventid { get; set; }
 
 ### Keys
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource1LegacyGameEvent.cs#L13" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource1LegacyGameEvent.cs#L17" />
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CMsgSource1LegacyGameEvent_key_t> Keys { get; }
@@ -59,7 +61,7 @@ IProtobufRepeatedFieldSubMessageType<CMsgSource1LegacyGameEvent_key_t> Keys { ge
 
 ### Passthrough
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource1LegacyGameEvent.cs#L15" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource1LegacyGameEvent.cs#L19" />
 
 ```csharp
 int Passthrough { get; set; }
@@ -71,7 +73,7 @@ int Passthrough { get; set; }
 
 ### ServerTick
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource1LegacyGameEvent.cs#L14" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource1LegacyGameEvent.cs#L18" />
 
 ```csharp
 int ServerTick { get; set; }

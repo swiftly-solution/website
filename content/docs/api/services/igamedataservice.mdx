@@ -28,7 +28,7 @@ void ApplyPatch(string patchName)
 
 <ApiLabel>Parameters</ApiLabel>
 
-- <ApiParam name="patchName" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — Patch name defined in `patchs.jsonc` file.
+- <ApiParam name="patchName" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — Patch name defined in `patches.jsonc` file.
 
 ### GetOffset(string)
 
@@ -96,7 +96,7 @@ bool HasPatch(string patchName)
 
 <ApiLabel>Parameters</ApiLabel>
 
-- <ApiParam name="patchName" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — Patch name defined in `patchs.jsonc` file.
+- <ApiParam name="patchName" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — Patch name defined in `patches.jsonc` file.
 
 <ApiLabel>Returns</ApiLabel>
 
@@ -119,6 +119,20 @@ bool HasSignature(string signatureName)
 <ApiLabel>Returns</ApiLabel>
 
 - <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" /> — Whether the signature exists.
+
+### RevertPatch(string)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/GameData/IGameDataService.cs#L66" />
+
+Revert a patch by name.
+
+```csharp
+void RevertPatch(string patchName)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="patchName" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — Patch name defined in `patches.jsonc` file.
 
 ### TryGetOffset(string, out nint)
 

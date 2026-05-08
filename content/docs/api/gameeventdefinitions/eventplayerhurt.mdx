@@ -22,15 +22,98 @@ public interface EventPlayerHurt : IGameEvent<EventPlayerHurt>
 
 ## Properties
 
+### ActualArmor
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerHurt.cs#L102" />
+
+remaining armor points
+<br />
+type: int
+
+```csharp
+int ActualArmor { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
+
+### ActualDmgArmor
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerHurt.cs#L143" />
+
+damage done to armor
+<br />
+type: int
+
+```csharp
+int ActualDmgArmor { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
+
+### ActualDmgHealth
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerHurt.cs#L126" />
+
+damage done to health
+<br />
+type: int
+
+```csharp
+int ActualDmgHealth { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
+
+### ActualHealth
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerHurt.cs#L85" />
+
+remaining health points
+<br />
+type: int
+
+```csharp
+int ActualHealth { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
+
+### ActualHitGroup
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerHurt.cs#L160" />
+
+hitgroup that was damaged
+<br />
+type: HitGroup_t
+
+```csharp
+HitGroup_t ActualHitGroup { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="HitGroup_t" typeHref="/docs/api/schemadefinitions/hitgroup_t" />
+
 ### Armor
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerHurt.cs#L82" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerHurt.cs#L94" />
 
 remaining armor points
 <br />
 type: byte
+<br />
+See SwiftlyS2.Shared.GameEventDefinitions.EventPlayerHurt.ActualArmor.
 
 ```csharp
+[Obsolete("The declared type may not match the actual value. Use ActualArmor instead.")]
 byte Armor { get; set; }
 ```
 
@@ -100,13 +183,16 @@ IPlayer? AttackerPlayer { get; }
 
 ### DmgArmor
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerHurt.cs#L103" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerHurt.cs#L135" />
 
 damage done to armor
 <br />
 type: byte
+<br />
+See SwiftlyS2.Shared.GameEventDefinitions.EventPlayerHurt.ActualDmgArmor.
 
 ```csharp
+[Obsolete("The declared type may not match the actual value. Use ActualDmgArmor instead.")]
 byte DmgArmor { get; set; }
 ```
 
@@ -116,13 +202,16 @@ byte DmgArmor { get; set; }
 
 ### DmgHealth
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerHurt.cs#L96" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerHurt.cs#L118" />
 
 damage done to health
 <br />
 type: short
+<br />
+See SwiftlyS2.Shared.GameEventDefinitions.EventPlayerHurt.ActualDmgHealth.
 
 ```csharp
+[Obsolete("The declared type may not match the actual value. Use ActualDmgHealth instead.")]
 short DmgHealth { get; set; }
 ```
 
@@ -132,13 +221,16 @@ short DmgHealth { get; set; }
 
 ### Health
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerHurt.cs#L75" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerHurt.cs#L77" />
 
 remaining health points
 <br />
 type: byte
+<br />
+See SwiftlyS2.Shared.GameEventDefinitions.EventPlayerHurt.ActualHealth.
 
 ```csharp
+[Obsolete("The declared type may not match the actual value. Use ActualHealth instead.")]
 byte Health { get; set; }
 ```
 
@@ -148,13 +240,16 @@ byte Health { get; set; }
 
 ### HitGroup
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerHurt.cs#L110" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerHurt.cs#L152" />
 
 hitgroup that was damaged
 <br />
 type: byte
+<br />
+See SwiftlyS2.Shared.GameEventDefinitions.EventPlayerHurt.ActualHitGroup.
 
 ```csharp
+[Obsolete("The declared type may not match the actual value. Use ActualHitGroup instead.")]
 byte HitGroup { get; set; }
 ```
 
@@ -224,7 +319,7 @@ IPlayer? UserIdPlayer { get; }
 
 ### Weapon
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerHurt.cs#L89" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerHurt.cs#L109" />
 
 weapon name attacker used, if not the world
 <br />

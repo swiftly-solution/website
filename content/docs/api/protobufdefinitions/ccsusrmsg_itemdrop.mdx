@@ -11,19 +11,21 @@ title: CCSUsrMsg_ItemDrop
 **Assembly**: SwiftlyS2.CS2.dll
 
 ```csharp
-public interface CCSUsrMsg_ItemDrop : ITypedProtobuf<CCSUsrMsg_ItemDrop>, INativeHandle
+public interface CCSUsrMsg_ItemDrop : ITypedProtobuf<CCSUsrMsg_ItemDrop>, INativeHandle, INetMessage<CCSUsrMsg_ItemDrop>, IDisposable
 ```
 
 #### Implements
 
 - [ITypedProtobuf\<CCSUsrMsg_ItemDrop\>](/docs/api/netmessages/itypedprotobuft)
 - [INativeHandle](/docs/api/natives/inativehandle)
+- [INetMessage\<CCSUsrMsg_ItemDrop\>](/docs/api/netmessages/inetmessaget)
+- [IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable)
 
 ## Properties
 
 ### Death
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_ItemDrop.cs#L12" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_ItemDrop.cs#L16" />
 
 ```csharp
 bool Death { get; set; }
@@ -35,7 +37,7 @@ bool Death { get; set; }
 
 ### Itemid
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_ItemDrop.cs#L11" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_ItemDrop.cs#L15" />
 
 ```csharp
 long Itemid { get; set; }

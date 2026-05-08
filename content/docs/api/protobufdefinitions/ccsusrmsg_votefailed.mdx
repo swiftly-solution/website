@@ -11,19 +11,21 @@ title: CCSUsrMsg_VoteFailed
 **Assembly**: SwiftlyS2.CS2.dll
 
 ```csharp
-public interface CCSUsrMsg_VoteFailed : ITypedProtobuf<CCSUsrMsg_VoteFailed>, INativeHandle
+public interface CCSUsrMsg_VoteFailed : ITypedProtobuf<CCSUsrMsg_VoteFailed>, INativeHandle, INetMessage<CCSUsrMsg_VoteFailed>, IDisposable
 ```
 
 #### Implements
 
 - [ITypedProtobuf\<CCSUsrMsg_VoteFailed\>](/docs/api/netmessages/itypedprotobuft)
 - [INativeHandle](/docs/api/natives/inativehandle)
+- [INetMessage\<CCSUsrMsg_VoteFailed\>](/docs/api/netmessages/inetmessaget)
+- [IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable)
 
 ## Properties
 
 ### Reason
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_VoteFailed.cs#L12" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_VoteFailed.cs#L16" />
 
 ```csharp
 int Reason { get; set; }
@@ -35,7 +37,7 @@ int Reason { get; set; }
 
 ### Team
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_VoteFailed.cs#L11" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_VoteFailed.cs#L15" />
 
 ```csharp
 int Team { get; set; }
