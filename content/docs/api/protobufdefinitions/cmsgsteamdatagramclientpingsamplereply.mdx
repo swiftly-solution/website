@@ -1,0 +1,83 @@
+---
+title: CMsgSteamDatagramClientPingSampleReply
+---
+
+# Interface CMsgSteamDatagramClientPingSampleReply
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramClientPingSampleReply.cs#L7" />
+
+**Namespace**: [SwiftlyS2.Shared.ProtobufDefinitions](/docs/api/protobufdefinitions)
+
+**Assembly**: SwiftlyS2.CS2.dll
+
+```csharp
+public interface CMsgSteamDatagramClientPingSampleReply : ITypedProtobuf<CMsgSteamDatagramClientPingSampleReply>, INativeHandle
+```
+
+#### Implements
+
+- [ITypedProtobuf\<CMsgSteamDatagramClientPingSampleReply\>](/docs/api/netmessages/itypedprotobuft)
+- [INativeHandle](/docs/api/natives/inativehandle)
+
+## Properties
+
+### ConnectionId
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramClientPingSampleReply.cs#L11" />
+
+```csharp
+uint ConnectionId { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
+
+### LegacyDataCenters
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramClientPingSampleReply.cs#L15" />
+
+```csharp
+IProtobufRepeatedFieldSubMessageType<CMsgSteamDatagramClientPingSampleReply_LegacyDataCenter> LegacyDataCenters { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="IProtobufRepeatedFieldSubMessageType&lt;CMsgSteamDatagramClientPingSampleReply_LegacyDataCenter&gt;" typeHref="/docs/api/netmessages/iprotobufrepeatedfieldsubmessagetypet" />
+
+### Pops
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramClientPingSampleReply.cs#L14" />
+
+```csharp
+IProtobufRepeatedFieldSubMessageType<CMsgSteamDatagramClientPingSampleReply_POP> Pops { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="IProtobufRepeatedFieldSubMessageType&lt;CMsgSteamDatagramClientPingSampleReply_POP&gt;" typeHref="/docs/api/netmessages/iprotobufrepeatedfieldsubmessagetypet" />
+
+### RelayOverrideActive
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramClientPingSampleReply.cs#L12" />
+
+```csharp
+bool RelayOverrideActive { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
+
+### Tos
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramClientPingSampleReply.cs#L13" />
+
+```csharp
+CMsgTOSTreatment Tos { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CMsgTOSTreatment" typeHref="/docs/api/protobufdefinitions/cmsgtostreatment" />
+

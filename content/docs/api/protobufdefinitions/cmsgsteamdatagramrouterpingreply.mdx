@@ -1,0 +1,275 @@
+---
+title: CMsgSteamDatagramRouterPingReply
+---
+
+# Interface CMsgSteamDatagramRouterPingReply
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramRouterPingReply.cs#L7" />
+
+**Namespace**: [SwiftlyS2.Shared.ProtobufDefinitions](/docs/api/protobufdefinitions)
+
+**Assembly**: SwiftlyS2.CS2.dll
+
+```csharp
+public interface CMsgSteamDatagramRouterPingReply : ITypedProtobuf<CMsgSteamDatagramRouterPingReply>, INativeHandle
+```
+
+#### Implements
+
+- [ITypedProtobuf\<CMsgSteamDatagramRouterPingReply\>](/docs/api/netmessages/itypedprotobuft)
+- [INativeHandle](/docs/api/natives/inativehandle)
+
+## Properties
+
+### AltAddresses
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramRouterPingReply.cs#L29" />
+
+```csharp
+IProtobufRepeatedFieldSubMessageType<CMsgSteamDatagramRouterPingReply_AltAddress> AltAddresses { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="IProtobufRepeatedFieldSubMessageType&lt;CMsgSteamDatagramRouterPingReply_AltAddress&gt;" typeHref="/docs/api/netmessages/iprotobufrepeatedfieldsubmessagetypet" />
+
+### Challenge
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramRouterPingReply.cs#L19" />
+
+```csharp
+ulong Challenge { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="ulong" typeHref="https://learn.microsoft.com/dotnet/api/system.uint64" />
+
+### ClientCookie
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramRouterPingReply.cs#L21" />
+
+```csharp
+uint ClientCookie { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
+
+### ClientTimestamp
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramRouterPingReply.cs#L11" />
+
+```csharp
+uint ClientTimestamp { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
+
+### DummyPad
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramRouterPingReply.cs#L30" />
+
+```csharp
+byte[] DummyPad { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="byte[]" typeHref="https://learn.microsoft.com/dotnet/api/system.byte" />
+
+### DummyVarint
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramRouterPingReply.cs#L31" />
+
+```csharp
+ulong DummyVarint { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="ulong" typeHref="https://learn.microsoft.com/dotnet/api/system.uint64" />
+
+### EchoRequestReplyTos
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramRouterPingReply.cs#L25" />
+
+```csharp
+uint EchoRequestReplyTos { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
+
+### EchoSentTos
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramRouterPingReply.cs#L23" />
+
+```csharp
+uint EchoSentTos { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
+
+### Flags
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramRouterPingReply.cs#L27" />
+
+```csharp
+uint Flags { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
+
+### LatencyDatacenterIds
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramRouterPingReply.cs#L12" />
+
+```csharp
+IProtobufRepeatedFieldValueType<uint> LatencyDatacenterIds { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="IProtobufRepeatedFieldValueType&lt;uint&gt;" typeHref="/docs/api/netmessages/iprotobufrepeatedfieldvaluetypet" />
+
+### LatencyDatacenterIdsP2p
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramRouterPingReply.cs#L14" />
+
+```csharp
+IProtobufRepeatedFieldValueType<uint> LatencyDatacenterIdsP2p { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="IProtobufRepeatedFieldValueType&lt;uint&gt;" typeHref="/docs/api/netmessages/iprotobufrepeatedfieldvaluetypet" />
+
+### LatencyPingMs
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramRouterPingReply.cs#L13" />
+
+```csharp
+IProtobufRepeatedFieldValueType<uint> LatencyPingMs { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="IProtobufRepeatedFieldValueType&lt;uint&gt;" typeHref="/docs/api/netmessages/iprotobufrepeatedfieldvaluetypet" />
+
+### LatencyPingMsP2p
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramRouterPingReply.cs#L15" />
+
+```csharp
+IProtobufRepeatedFieldValueType<uint> LatencyPingMsP2p { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="IProtobufRepeatedFieldValueType&lt;uint&gt;" typeHref="/docs/api/netmessages/iprotobufrepeatedfieldvaluetypet" />
+
+### RecvTos
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramRouterPingReply.cs#L22" />
+
+```csharp
+uint RecvTos { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
+
+### RouteExceptions
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramRouterPingReply.cs#L28" />
+
+```csharp
+IProtobufRepeatedFieldSubMessageType<CMsgSteamDatagramRouterPingReply_RouteException> RouteExceptions { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="IProtobufRepeatedFieldSubMessageType&lt;CMsgSteamDatagramRouterPingReply_RouteException&gt;" typeHref="/docs/api/netmessages/iprotobufrepeatedfieldsubmessagetypet" />
+
+### ScoringPenaltyRelayCluster
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramRouterPingReply.cs#L26" />
+
+```csharp
+uint ScoringPenaltyRelayCluster { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
+
+### SecondsUntilShutdown
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramRouterPingReply.cs#L20" />
+
+```csharp
+uint SecondsUntilShutdown { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
+
+### SentTos
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramRouterPingReply.cs#L24" />
+
+```csharp
+uint SentTos { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
+
+### ServerTime
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramRouterPingReply.cs#L18" />
+
+```csharp
+uint ServerTime { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
+
+### YourPublicIp
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramRouterPingReply.cs#L16" />
+
+```csharp
+uint YourPublicIp { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
+
+### YourPublicPort
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramRouterPingReply.cs#L17" />
+
+```csharp
+uint YourPublicPort { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
+

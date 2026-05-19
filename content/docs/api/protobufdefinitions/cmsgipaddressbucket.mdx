@@ -1,0 +1,47 @@
+---
+title: CMsgIPAddressBucket
+---
+
+# Interface CMsgIPAddressBucket
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgIPAddressBucket.cs#L7" />
+
+**Namespace**: [SwiftlyS2.Shared.ProtobufDefinitions](/docs/api/protobufdefinitions)
+
+**Assembly**: SwiftlyS2.CS2.dll
+
+```csharp
+public interface CMsgIPAddressBucket : ITypedProtobuf<CMsgIPAddressBucket>, INativeHandle
+```
+
+#### Implements
+
+- [ITypedProtobuf\<CMsgIPAddressBucket\>](/docs/api/netmessages/itypedprotobuft)
+- [INativeHandle](/docs/api/natives/inativehandle)
+
+## Properties
+
+### Bucket
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgIPAddressBucket.cs#L12" />
+
+```csharp
+ulong Bucket { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="ulong" typeHref="https://learn.microsoft.com/dotnet/api/system.uint64" />
+
+### OriginalIpAddress
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgIPAddressBucket.cs#L11" />
+
+```csharp
+CMsgIPAddress OriginalIpAddress { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CMsgIPAddress" typeHref="/docs/api/protobufdefinitions/cmsgipaddress" />
+

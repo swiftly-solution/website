@@ -48,12 +48,27 @@ void AddSubPermission(string permission, string subPermission)
 
 ### ClearPermission(ulong)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Permissions/IPermissionManager.cs#L56" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Permissions/IPermissionManager.cs#L59" />
 
-Clear all permission from a player.
+Clears all permissions from a player (both base and temporary).
 
 ```csharp
+[Obsolete("Use ClearPermissions instead.")]
 void ClearPermission(ulong steamId)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="steamId" type="ulong" typeHref="https://learn.microsoft.com/dotnet/api/system.uint64" /> — The Steam ID of the player.
+
+### ClearPermissions(ulong)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Permissions/IPermissionManager.cs#L56" />
+
+Clears all permissions from a player (both base and temporary).
+
+```csharp
+void ClearPermissions(ulong steamId)
 ```
 
 <ApiLabel>Parameters</ApiLabel>
@@ -62,7 +77,7 @@ void ClearPermission(ulong steamId)
 
 ### GetPlayerPermissions(ulong)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Permissions/IPermissionManager.cs#L62" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Permissions/IPermissionManager.cs#L66" />
 
 Gets all permissions of a player, including inherited permissions from sub-permissions.
 

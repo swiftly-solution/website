@@ -1,0 +1,179 @@
+---
+title: CMsgSteamDatagramConnectionStatsRouterToServer
+---
+
+# Interface CMsgSteamDatagramConnectionStatsRouterToServer
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramConnectionStatsRouterToServer.cs#L7" />
+
+**Namespace**: [SwiftlyS2.Shared.ProtobufDefinitions](/docs/api/protobufdefinitions)
+
+**Assembly**: SwiftlyS2.CS2.dll
+
+```csharp
+public interface CMsgSteamDatagramConnectionStatsRouterToServer : ITypedProtobuf<CMsgSteamDatagramConnectionStatsRouterToServer>, INativeHandle
+```
+
+#### Implements
+
+- [ITypedProtobuf\<CMsgSteamDatagramConnectionStatsRouterToServer\>](/docs/api/netmessages/itypedprotobuft)
+- [INativeHandle](/docs/api/natives/inativehandle)
+
+## Properties
+
+### AckRelay
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramConnectionStatsRouterToServer.cs#L13" />
+
+```csharp
+IProtobufRepeatedFieldValueType<uint> AckRelay { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="IProtobufRepeatedFieldValueType&lt;uint&gt;" typeHref="/docs/api/netmessages/iprotobufrepeatedfieldvaluetypet" />
+
+### ClientConnectionId
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramConnectionStatsRouterToServer.cs#L21" />
+
+```csharp
+uint ClientConnectionId { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
+
+### ClientIdentityString
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramConnectionStatsRouterToServer.cs#L18" />
+
+```csharp
+string ClientIdentityString { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
+
+### Flags
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramConnectionStatsRouterToServer.cs#L15" />
+
+```csharp
+uint Flags { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
+
+### LegacyAckE2e
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramConnectionStatsRouterToServer.cs#L14" />
+
+```csharp
+IProtobufRepeatedFieldValueType<uint> LegacyAckE2e { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="IProtobufRepeatedFieldValueType&lt;uint&gt;" typeHref="/docs/api/netmessages/iprotobufrepeatedfieldvaluetypet" />
+
+### LegacyClientSteamId
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramConnectionStatsRouterToServer.cs#L19" />
+
+```csharp
+ulong LegacyClientSteamId { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="ulong" typeHref="https://learn.microsoft.com/dotnet/api/system.uint64" />
+
+### QualityE2e
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramConnectionStatsRouterToServer.cs#L12" />
+
+```csharp
+CMsgSteamDatagramConnectionQuality QualityE2e { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CMsgSteamDatagramConnectionQuality" typeHref="/docs/api/protobufdefinitions/cmsgsteamdatagramconnectionquality" />
+
+### QualityRelay
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramConnectionStatsRouterToServer.cs#L11" />
+
+```csharp
+CMsgSteamDatagramConnectionQuality QualityRelay { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CMsgSteamDatagramConnectionQuality" typeHref="/docs/api/protobufdefinitions/cmsgsteamdatagramconnectionquality" />
+
+### RelaySessionId
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramConnectionStatsRouterToServer.cs#L20" />
+
+```csharp
+uint RelaySessionId { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
+
+### RoutingSecret
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramConnectionStatsRouterToServer.cs#L23" />
+
+```csharp
+ulong RoutingSecret { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="ulong" typeHref="https://learn.microsoft.com/dotnet/api/system.uint64" />
+
+### SeqNumE2e
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramConnectionStatsRouterToServer.cs#L17" />
+
+```csharp
+uint SeqNumE2e { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
+
+### SeqNumR2s
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramConnectionStatsRouterToServer.cs#L16" />
+
+```csharp
+uint SeqNumR2s { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
+
+### ServerConnectionId
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramConnectionStatsRouterToServer.cs#L22" />
+
+```csharp
+uint ServerConnectionId { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
+

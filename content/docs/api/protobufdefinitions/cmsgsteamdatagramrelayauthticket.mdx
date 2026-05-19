@@ -1,0 +1,179 @@
+---
+title: CMsgSteamDatagramRelayAuthTicket
+---
+
+# Interface CMsgSteamDatagramRelayAuthTicket
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramRelayAuthTicket.cs#L7" />
+
+**Namespace**: [SwiftlyS2.Shared.ProtobufDefinitions](/docs/api/protobufdefinitions)
+
+**Assembly**: SwiftlyS2.CS2.dll
+
+```csharp
+public interface CMsgSteamDatagramRelayAuthTicket : ITypedProtobuf<CMsgSteamDatagramRelayAuthTicket>, INativeHandle
+```
+
+#### Implements
+
+- [ITypedProtobuf\<CMsgSteamDatagramRelayAuthTicket\>](/docs/api/netmessages/itypedprotobuft)
+- [INativeHandle](/docs/api/natives/inativehandle)
+
+## Properties
+
+### AppId
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramRelayAuthTicket.cs#L16" />
+
+```csharp
+uint AppId { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
+
+### AuthorizedClientIdentityString
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramRelayAuthTicket.cs#L12" />
+
+```csharp
+string AuthorizedClientIdentityString { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
+
+### AuthorizedPublicIp
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramRelayAuthTicket.cs#L14" />
+
+```csharp
+uint AuthorizedPublicIp { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
+
+### ExtraFields
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramRelayAuthTicket.cs#L18" />
+
+```csharp
+IProtobufRepeatedFieldSubMessageType<CMsgSteamDatagramRelayAuthTicket_ExtraField> ExtraFields { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="IProtobufRepeatedFieldSubMessageType&lt;CMsgSteamDatagramRelayAuthTicket_ExtraField&gt;" typeHref="/docs/api/netmessages/iprotobufrepeatedfieldsubmessagetypet" />
+
+### GameserverAddress
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramRelayAuthTicket.cs#L15" />
+
+```csharp
+byte[] GameserverAddress { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="byte[]" typeHref="https://learn.microsoft.com/dotnet/api/system.byte" />
+
+### GameserverIdentityString
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramRelayAuthTicket.cs#L13" />
+
+```csharp
+string GameserverIdentityString { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
+
+### LegacyAuthorizedClientIdentityBinary
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramRelayAuthTicket.cs#L22" />
+
+```csharp
+byte[] LegacyAuthorizedClientIdentityBinary { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="byte[]" typeHref="https://learn.microsoft.com/dotnet/api/system.byte" />
+
+### LegacyAuthorizedSteamId
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramRelayAuthTicket.cs#L19" />
+
+```csharp
+ulong LegacyAuthorizedSteamId { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="ulong" typeHref="https://learn.microsoft.com/dotnet/api/system.uint64" />
+
+### LegacyGameserverIdentityBinary
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramRelayAuthTicket.cs#L23" />
+
+```csharp
+byte[] LegacyGameserverIdentityBinary { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="byte[]" typeHref="https://learn.microsoft.com/dotnet/api/system.byte" />
+
+### LegacyGameserverPopId
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramRelayAuthTicket.cs#L21" />
+
+```csharp
+uint LegacyGameserverPopId { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
+
+### LegacyGameserverSteamId
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramRelayAuthTicket.cs#L20" />
+
+```csharp
+ulong LegacyGameserverSteamId { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="ulong" typeHref="https://learn.microsoft.com/dotnet/api/system.uint64" />
+
+### TimeExpiry
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramRelayAuthTicket.cs#L11" />
+
+```csharp
+uint TimeExpiry { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
+
+### VirtualPort
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramRelayAuthTicket.cs#L17" />
+
+```csharp
+uint VirtualPort { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
+

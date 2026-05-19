@@ -1,0 +1,215 @@
+---
+title: CMsgSteamDatagramNoConnection
+---
+
+# Interface CMsgSteamDatagramNoConnection
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramNoConnection.cs#L7" />
+
+**Namespace**: [SwiftlyS2.Shared.ProtobufDefinitions](/docs/api/protobufdefinitions)
+
+**Assembly**: SwiftlyS2.CS2.dll
+
+```csharp
+public interface CMsgSteamDatagramNoConnection : ITypedProtobuf<CMsgSteamDatagramNoConnection>, INativeHandle
+```
+
+#### Implements
+
+- [ITypedProtobuf\<CMsgSteamDatagramNoConnection\>](/docs/api/netmessages/itypedprotobuft)
+- [INativeHandle](/docs/api/natives/inativehandle)
+
+## Properties
+
+### DummyPad
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramNoConnection.cs#L26" />
+
+```csharp
+uint DummyPad { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
+
+### EndToEnd
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramNoConnection.cs#L18" />
+
+```csharp
+bool EndToEnd { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
+
+### FromConnectionId
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramNoConnection.cs#L12" />
+
+```csharp
+uint FromConnectionId { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
+
+### FromIdentityString
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramNoConnection.cs#L16" />
+
+```csharp
+string FromIdentityString { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
+
+### FromRelaySessionId
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramNoConnection.cs#L15" />
+
+```csharp
+uint FromRelaySessionId { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
+
+### LegacyFromSteamId
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramNoConnection.cs#L17" />
+
+```csharp
+ulong LegacyFromSteamId { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="ulong" typeHref="https://learn.microsoft.com/dotnet/api/system.uint64" />
+
+### LegacyGameserverRelaySessionId
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramNoConnection.cs#L13" />
+
+```csharp
+uint LegacyGameserverRelaySessionId { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
+
+### NotPrimarySession
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramNoConnection.cs#L19" />
+
+```csharp
+bool NotPrimarySession { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
+
+### NotPrimaryTransport
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramNoConnection.cs#L20" />
+
+```csharp
+bool NotPrimaryTransport { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
+
+### P2pRoutingSummary
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramNoConnection.cs#L24" />
+
+```csharp
+CMsgSteamDatagramP2PRoutingSummary P2pRoutingSummary { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CMsgSteamDatagramP2PRoutingSummary" typeHref="/docs/api/protobufdefinitions/cmsgsteamdatagramp2proutingsummary" />
+
+### QualityE2e
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramNoConnection.cs#L23" />
+
+```csharp
+CMsgSteamDatagramConnectionQuality QualityE2e { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CMsgSteamDatagramConnectionQuality" typeHref="/docs/api/protobufdefinitions/cmsgsteamdatagramconnectionquality" />
+
+### QualityRelay
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramNoConnection.cs#L22" />
+
+```csharp
+CMsgSteamDatagramConnectionQuality QualityRelay { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CMsgSteamDatagramConnectionQuality" typeHref="/docs/api/protobufdefinitions/cmsgsteamdatagramconnectionquality" />
+
+### RelayOverrideActive
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramNoConnection.cs#L21" />
+
+```csharp
+bool RelayOverrideActive { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
+
+### RoutingSecret
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramNoConnection.cs#L25" />
+
+```csharp
+ulong RoutingSecret { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="ulong" typeHref="https://learn.microsoft.com/dotnet/api/system.uint64" />
+
+### ToConnectionId
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramNoConnection.cs#L11" />
+
+```csharp
+uint ToConnectionId { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
+
+### ToRelaySessionId
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramNoConnection.cs#L14" />
+
+```csharp
+uint ToRelaySessionId { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
+

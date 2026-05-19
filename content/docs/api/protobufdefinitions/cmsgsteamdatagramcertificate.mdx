@@ -1,0 +1,143 @@
+---
+title: CMsgSteamDatagramCertificate
+---
+
+# Interface CMsgSteamDatagramCertificate
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramCertificate.cs#L7" />
+
+**Namespace**: [SwiftlyS2.Shared.ProtobufDefinitions](/docs/api/protobufdefinitions)
+
+**Assembly**: SwiftlyS2.CS2.dll
+
+```csharp
+public interface CMsgSteamDatagramCertificate : ITypedProtobuf<CMsgSteamDatagramCertificate>, INativeHandle
+```
+
+#### Implements
+
+- [ITypedProtobuf\<CMsgSteamDatagramCertificate\>](/docs/api/netmessages/itypedprotobuft)
+- [INativeHandle](/docs/api/natives/inativehandle)
+
+## Properties
+
+### AppIds
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramCertificate.cs#L19" />
+
+```csharp
+IProtobufRepeatedFieldValueType<uint> AppIds { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="IProtobufRepeatedFieldValueType&lt;uint&gt;" typeHref="/docs/api/netmessages/iprotobufrepeatedfieldvaluetypet" />
+
+### GameserverDatacenterIds
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramCertificate.cs#L16" />
+
+```csharp
+IProtobufRepeatedFieldValueType<uint> GameserverDatacenterIds { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="IProtobufRepeatedFieldValueType&lt;uint&gt;" typeHref="/docs/api/netmessages/iprotobufrepeatedfieldvaluetypet" />
+
+### IdentityString
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramCertificate.cs#L15" />
+
+```csharp
+string IdentityString { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
+
+### IpAddresses
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramCertificate.cs#L20" />
+
+```csharp
+IProtobufRepeatedFieldValueType<string> IpAddresses { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="IProtobufRepeatedFieldValueType&lt;string&gt;" typeHref="/docs/api/netmessages/iprotobufrepeatedfieldvaluetypet" />
+
+### KeyData
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramCertificate.cs#L12" />
+
+```csharp
+byte[] KeyData { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="byte[]" typeHref="https://learn.microsoft.com/dotnet/api/system.byte" />
+
+### KeyType
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramCertificate.cs#L11" />
+
+```csharp
+CMsgSteamDatagramCertificate_EKeyType KeyType { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CMsgSteamDatagramCertificate_EKeyType" typeHref="/docs/api/protobufdefinitions/cmsgsteamdatagramcertificate_ekeytype" />
+
+### LegacyIdentityBinary
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramCertificate.cs#L14" />
+
+```csharp
+CMsgSteamNetworkingIdentityLegacyBinary LegacyIdentityBinary { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CMsgSteamNetworkingIdentityLegacyBinary" typeHref="/docs/api/protobufdefinitions/cmsgsteamnetworkingidentitylegacybinary" />
+
+### LegacySteamId
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramCertificate.cs#L13" />
+
+```csharp
+ulong LegacySteamId { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="ulong" typeHref="https://learn.microsoft.com/dotnet/api/system.uint64" />
+
+### TimeCreated
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramCertificate.cs#L17" />
+
+```csharp
+uint TimeCreated { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
+
+### TimeExpiry
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramCertificate.cs#L18" />
+
+```csharp
+uint TimeExpiry { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
+

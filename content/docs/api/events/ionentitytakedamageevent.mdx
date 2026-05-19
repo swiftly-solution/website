@@ -64,7 +64,7 @@ ref CTakeDamageInfo Info { get; }
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnEntityTakeDamageEvent.cs#L31" />
 
-If return SwiftlyS2.Shared.Misc.HookResult.Stop, the damage will not be applied.
+If return SwiftlyS2.Shared.Misc.HookResult.Stop or SwiftlyS2.Shared.Misc.HookResult.CancelOriginal, the damage will not be applied.
 
 ```csharp
 HookResult Result { get; set; }

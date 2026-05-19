@@ -1,0 +1,107 @@
+---
+title: CMsgSteamDatagramGameserverPingRequestBody
+---
+
+# Interface CMsgSteamDatagramGameserverPingRequestBody
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramGameserverPingRequestBody.cs#L7" />
+
+**Namespace**: [SwiftlyS2.Shared.ProtobufDefinitions](/docs/api/protobufdefinitions)
+
+**Assembly**: SwiftlyS2.CS2.dll
+
+```csharp
+public interface CMsgSteamDatagramGameserverPingRequestBody : ITypedProtobuf<CMsgSteamDatagramGameserverPingRequestBody>, INativeHandle
+```
+
+#### Implements
+
+- [ITypedProtobuf\<CMsgSteamDatagramGameserverPingRequestBody\>](/docs/api/netmessages/itypedprotobuft)
+- [INativeHandle](/docs/api/natives/inativehandle)
+
+## Properties
+
+### Echo
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramGameserverPingRequestBody.cs#L17" />
+
+```csharp
+byte[] Echo { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="byte[]" typeHref="https://learn.microsoft.com/dotnet/api/system.byte" />
+
+### MyIps
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramGameserverPingRequestBody.cs#L16" />
+
+```csharp
+IProtobufRepeatedFieldSubMessageType<CMsgSteamNetworkingIPAddress> MyIps { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="IProtobufRepeatedFieldSubMessageType&lt;CMsgSteamNetworkingIPAddress&gt;" typeHref="/docs/api/netmessages/iprotobufrepeatedfieldsubmessagetypet" />
+
+### RelayPopid
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramGameserverPingRequestBody.cs#L11" />
+
+```csharp
+uint RelayPopid { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
+
+### RelayUnixTime
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramGameserverPingRequestBody.cs#L14" />
+
+```csharp
+ulong RelayUnixTime { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="ulong" typeHref="https://learn.microsoft.com/dotnet/api/system.uint64" />
+
+### RoutingSecret
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramGameserverPingRequestBody.cs#L15" />
+
+```csharp
+ulong RoutingSecret { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="ulong" typeHref="https://learn.microsoft.com/dotnet/api/system.uint64" />
+
+### YourPublicIp
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramGameserverPingRequestBody.cs#L12" />
+
+```csharp
+CMsgSteamNetworkingIPAddress YourPublicIp { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CMsgSteamNetworkingIPAddress" typeHref="/docs/api/protobufdefinitions/cmsgsteamnetworkingipaddress" />
+
+### YourPublicPort
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramGameserverPingRequestBody.cs#L13" />
+
+```csharp
+uint YourPublicPort { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
+

@@ -61,7 +61,7 @@ public readonly uint EntityIndex { get; }
 
 ### Invalid
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CHandle.cs#L36" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CHandle.cs#L47" />
 
 ```csharp
 public static CHandle<T> Invalid { get; }
@@ -109,7 +109,7 @@ public readonly uint SerialNumber { get; }
 
 ### Value
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CHandle.cs#L21" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CHandle.cs#L28" />
 
 ```csharp
 public T? Value { readonly get; set; }
@@ -123,7 +123,7 @@ public T? Value { readonly get; set; }
 
 ### Equals(CHandle\<T\>?)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CHandle.cs#L42" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CHandle.cs#L74" />
 
 ```csharp
 public readonly bool Equals(CHandle<T>? other)
@@ -139,7 +139,7 @@ public readonly bool Equals(CHandle<T>? other)
 
 ### Equals(object?)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CHandle.cs#L43" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CHandle.cs#L75" />
 
 Indicates whether this instance and a specified object are equal.
 
@@ -155,9 +155,25 @@ public override readonly bool Equals(object? obj)
 
 - <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" /> — <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
 
+### FromPackedInt(int)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CHandle.cs#L49" />
+
+```csharp
+public static CHandle<T> FromPackedInt(int packed_handle)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="packed_handle" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
+
+<ApiLabel>Returns</ApiLabel>
+
+- <ApiParam type="CHandle&lt;T&gt;" typeHref="/docs/api/natives/chandlet" />
+
 ### GetHashCode()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CHandle.cs#L44" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CHandle.cs#L76" />
 
 Returns the hash code for this instance.
 
@@ -169,9 +185,21 @@ public override readonly int GetHashCode()
 
 - <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> — A 32-bit signed integer that is the hash code for this instance.
 
+### ToPackedInt()
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CHandle.cs#L65" />
+
+```csharp
+public readonly int ToPackedInt()
+```
+
+<ApiLabel>Returns</ApiLabel>
+
+- <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
+
 ### ToString()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CHandle.cs#L45" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CHandle.cs#L77" />
 
 Returns the fully qualified type name of this instance.
 
@@ -187,7 +215,7 @@ public override readonly string ToString()
 
 ### operator ==(CHandle\<T\>, CHandle\<T\>)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CHandle.cs#L38" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CHandle.cs#L70" />
 
 ```csharp
 public static bool operator ==(CHandle<T> left, CHandle<T> right)
@@ -204,7 +232,7 @@ public static bool operator ==(CHandle<T> left, CHandle<T> right)
 
 ### implicit operator T(CHandle\<T\>)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CHandle.cs#L40" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CHandle.cs#L72" />
 
 ```csharp
 public static implicit operator T(CHandle<T> handle)
@@ -220,7 +248,7 @@ public static implicit operator T(CHandle<T> handle)
 
 ### operator !=(CHandle\<T\>, CHandle\<T\>)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CHandle.cs#L39" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CHandle.cs#L71" />
 
 ```csharp
 public static bool operator !=(CHandle<T> left, CHandle<T> right)

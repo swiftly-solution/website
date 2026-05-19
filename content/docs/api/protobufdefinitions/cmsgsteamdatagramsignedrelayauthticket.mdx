@@ -1,0 +1,83 @@
+---
+title: CMsgSteamDatagramSignedRelayAuthTicket
+---
+
+# Interface CMsgSteamDatagramSignedRelayAuthTicket
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramSignedRelayAuthTicket.cs#L7" />
+
+**Namespace**: [SwiftlyS2.Shared.ProtobufDefinitions](/docs/api/protobufdefinitions)
+
+**Assembly**: SwiftlyS2.CS2.dll
+
+```csharp
+public interface CMsgSteamDatagramSignedRelayAuthTicket : ITypedProtobuf<CMsgSteamDatagramSignedRelayAuthTicket>, INativeHandle
+```
+
+#### Implements
+
+- [ITypedProtobuf\<CMsgSteamDatagramSignedRelayAuthTicket\>](/docs/api/netmessages/itypedprotobuft)
+- [INativeHandle](/docs/api/natives/inativehandle)
+
+## Properties
+
+### Certs
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramSignedRelayAuthTicket.cs#L15" />
+
+```csharp
+IProtobufRepeatedFieldSubMessageType<CMsgSteamDatagramCertificateSigned> Certs { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="IProtobufRepeatedFieldSubMessageType&lt;CMsgSteamDatagramCertificateSigned&gt;" typeHref="/docs/api/netmessages/iprotobufrepeatedfieldsubmessagetypet" />
+
+### KeyId
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramSignedRelayAuthTicket.cs#L14" />
+
+```csharp
+ulong KeyId { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="ulong" typeHref="https://learn.microsoft.com/dotnet/api/system.uint64" />
+
+### ReservedDoNotUse
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramSignedRelayAuthTicket.cs#L11" />
+
+```csharp
+ulong ReservedDoNotUse { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="ulong" typeHref="https://learn.microsoft.com/dotnet/api/system.uint64" />
+
+### Signature
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramSignedRelayAuthTicket.cs#L13" />
+
+```csharp
+byte[] Signature { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="byte[]" typeHref="https://learn.microsoft.com/dotnet/api/system.byte" />
+
+### Ticket
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSteamDatagramSignedRelayAuthTicket.cs#L12" />
+
+```csharp
+byte[] Ticket { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="byte[]" typeHref="https://learn.microsoft.com/dotnet/api/system.byte" />
+
