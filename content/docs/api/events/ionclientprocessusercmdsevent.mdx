@@ -14,6 +14,7 @@ Called when a client processes user commands.
 This callback is a hot path, be careful with it and don't do anything expensive.
 
 ```csharp
+[Obsolete("This event is deprecated and will be removed in future versions. Use GameHooks instead.")]
 public interface IOnClientProcessUsercmdsEvent
 ```
 
@@ -21,7 +22,7 @@ public interface IOnClientProcessUsercmdsEvent
 
 ### Margin
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnClientProcessUsercmdsEvent.cs#L29" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnClientProcessUsercmdsEvent.cs#L31" />
 
 The margin of the client, milliseconds.
 
@@ -35,7 +36,7 @@ float Margin { get; }
 
 ### Paused
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnClientProcessUsercmdsEvent.cs#L24" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnClientProcessUsercmdsEvent.cs#L26" />
 
 Whether the client is paused.
 
@@ -49,7 +50,7 @@ bool Paused { get; }
 
 ### PlayerId
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnClientProcessUsercmdsEvent.cs#L14" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnClientProcessUsercmdsEvent.cs#L16" />
 
 The player ID of the client that processed the user commands.
 
@@ -63,7 +64,7 @@ int PlayerId { get; }
 
 ### Usercmds
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnClientProcessUsercmdsEvent.cs#L19" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnClientProcessUsercmdsEvent.cs#L21" />
 
 The user commands that the client processed.
 

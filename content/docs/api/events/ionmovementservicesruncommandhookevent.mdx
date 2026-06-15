@@ -13,6 +13,7 @@ title: IOnMovementServicesRunCommandHookEvent
 Called when the movement services run command hook is triggered.
 
 ```csharp
+[Obsolete("This event is deprecated and will be removed in future versions. Use GameHooks instead.")]
 public interface IOnMovementServicesRunCommandHookEvent
 ```
 
@@ -20,7 +21,7 @@ public interface IOnMovementServicesRunCommandHookEvent
 
 ### ButtonState
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnMovementServicesRunCommandHookEvent.cs#L18" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnMovementServicesRunCommandHookEvent.cs#L19" />
 
 The button state.
 
@@ -34,7 +35,7 @@ CInButtonState ButtonState { get; }
 
 ### MovementServices
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnMovementServicesRunCommandHookEvent.cs#L14" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnMovementServicesRunCommandHookEvent.cs#L15" />
 
 The movement services.
 
@@ -48,7 +49,7 @@ CCSPlayer_MovementServices MovementServices { get; }
 
 ### UserCmdPB
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnMovementServicesRunCommandHookEvent.cs#L22" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnMovementServicesRunCommandHookEvent.cs#L23" />
 
 The user command protobuf.
 

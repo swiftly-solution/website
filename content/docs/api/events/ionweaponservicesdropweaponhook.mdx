@@ -11,6 +11,7 @@ title: IOnWeaponServicesDropWeaponHook
 **Assembly**: SwiftlyS2.CS2.dll
 
 ```csharp
+[Obsolete("This event is deprecated and will be removed in future versions. Use GameHooks instead.")]
 public interface IOnWeaponServicesDropWeaponHook
 ```
 
@@ -18,7 +19,7 @@ public interface IOnWeaponServicesDropWeaponHook
 
 ### Result
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnWeaponServicesDropWeaponHook.cs#L25" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnWeaponServicesDropWeaponHook.cs#L26" />
 
 The result of the hook.
 
@@ -32,7 +33,7 @@ HookResult Result { get; set; }
 
 ### SwappingWeapon
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnWeaponServicesDropWeaponHook.cs#L20" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnWeaponServicesDropWeaponHook.cs#L21" />
 
 Swapping weapon with one from the ground.
 
@@ -46,7 +47,7 @@ bool SwappingWeapon { get; }
 
 ### Weapon
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnWeaponServicesDropWeaponHook.cs#L16" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnWeaponServicesDropWeaponHook.cs#L17" />
 
 The weapon.
 
@@ -60,7 +61,7 @@ CBasePlayerWeapon? Weapon { get; }
 
 ### WeaponServices
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnWeaponServicesDropWeaponHook.cs#L12" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnWeaponServicesDropWeaponHook.cs#L13" />
 
 The weapon services.
 

@@ -11,6 +11,7 @@ title: IOnWeaponServicesCanUseHookEvent
 **Assembly**: SwiftlyS2.CS2.dll
 
 ```csharp
+[Obsolete("This event is deprecated and will be removed in future versions. Use GameHooks instead.")]
 public interface IOnWeaponServicesCanUseHookEvent
 ```
 
@@ -18,7 +19,7 @@ public interface IOnWeaponServicesCanUseHookEvent
 
 ### OriginalResult
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnWeaponServicesCanUseHookEvent.cs#L18" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnWeaponServicesCanUseHookEvent.cs#L20" />
 
 The original result of the CanUse call.
 
@@ -32,7 +33,7 @@ bool OriginalResult { get; }
 
 ### Weapon
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnWeaponServicesCanUseHookEvent.cs#L14" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnWeaponServicesCanUseHookEvent.cs#L16" />
 
 The weapon.
 
@@ -46,7 +47,7 @@ CCSWeaponBase Weapon { get; }
 
 ### WeaponServices
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnWeaponServicesCanUseHookEvent.cs#L10" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnWeaponServicesCanUseHookEvent.cs#L12" />
 
 The weapon services.
 
@@ -62,7 +63,7 @@ CCSPlayer_WeaponServices WeaponServices { get; }
 
 ### SetResult(bool)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnWeaponServicesCanUseHookEvent.cs#L25" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnWeaponServicesCanUseHookEvent.cs#L27" />
 
 Intercept and modify the can use result.
 This will modify the can use result and stop the following hooks and original function.

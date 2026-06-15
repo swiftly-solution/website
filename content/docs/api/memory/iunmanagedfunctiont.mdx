@@ -22,7 +22,7 @@ public interface IUnmanagedFunction<TDelegate> where TDelegate : Delegate
 
 ### Address
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Memory/IUnmanagedFunction.cs#L8" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Memory/IUnmanagedFunction.cs#L9" />
 
 The address of the unmanaged function.
 
@@ -36,7 +36,7 @@ nint Address { get; }
 
 ### Call
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Memory/IUnmanagedFunction.cs#L21" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Memory/IUnmanagedFunction.cs#L22" />
 
 The delegate that directly call to the address.
 Might be hooked by other plugins or core.
@@ -51,7 +51,7 @@ TDelegate Call { get; }
 
 ### CallOriginal
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Memory/IUnmanagedFunction.cs#L15" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Memory/IUnmanagedFunction.cs#L16" />
 
 The unhooked original function delegate.
 Call this if you don't want your invocation to be hooked.
@@ -68,7 +68,7 @@ TDelegate CallOriginal { get; }
 
 ### AddHook(Func\<Func\<TDelegate\>, TDelegate\>)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Memory/IUnmanagedFunction.cs#L31" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Memory/IUnmanagedFunction.cs#L32" />
 
 Hook a native function at the specified address with a managed callback.
 The <code class="paramref">callbackBuilder</code> receives the pointer to the "next" function in the chain
@@ -89,7 +89,7 @@ Guid AddHook(Func<Func<TDelegate>, TDelegate> callbackBuilder)
 
 ### RemoveHook(Guid)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Memory/IUnmanagedFunction.cs#L37" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Memory/IUnmanagedFunction.cs#L38" />
 
 Unhook a hook by its id.
 

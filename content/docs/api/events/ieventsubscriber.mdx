@@ -60,12 +60,13 @@ event EventDelegates.OnClientKeyStateChanged? OnClientKeyStateChanged
 
 ### OnClientProcessUsercmds
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L90" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L91" />
 
 Called when the game process user's input.
 This callback is a hot path, be careful with it and don't do anything expensive.
 
 ```csharp
+[Obsolete("This event is deprecated and will be removed in future versions. Use GameHooks.Controller.ProcessUsercmds instead.")]
 event EventDelegates.OnClientProcessUsercmds? OnClientProcessUsercmds
 ```
 
@@ -117,7 +118,7 @@ event EventDelegates.OnClientSteamAuthorizeFail? OnClientSteamAuthorizeFail
 
 ### OnClientVoice
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L185" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L197" />
 
 Called when a client sends a voice packet.
 
@@ -131,7 +132,7 @@ event EventDelegates.OnClientVoice? OnClientVoice
 
 ### OnCommandExecuteHook
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L140" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L145" />
 
 Called when a server command (ConCommand) is executed.
 
@@ -145,7 +146,7 @@ event EventDelegates.OnCommandExecuteHook? OnCommandExecuteHook
 
 ### OnConCommandCreated
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L100" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L101" />
 
 Called when a ConCommand is created.
 
@@ -159,7 +160,7 @@ event EventDelegates.OnConCommandCreated? OnConCommandCreated
 
 ### OnConVarCreated
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L105" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L106" />
 
 Called when a ConVar is created.
 
@@ -173,7 +174,7 @@ event EventDelegates.OnConVarCreated? OnConVarCreated
 
 ### OnConVarValueChanged
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L95" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L96" />
 
 Called when a ConVar value is changed.
 
@@ -187,7 +188,7 @@ event EventDelegates.OnConVarValueChanged? OnConVarValueChanged
 
 ### OnConsoleOutput
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L135" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L140" />
 
 Called when the game outputs a console message.
 
@@ -229,11 +230,12 @@ event EventDelegates.OnEntityDeleted? OnEntityDeleted
 
 ### OnEntityEndTouch
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L155" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L163" />
 
 Called when an entity ends touching another entity.
 
 ```csharp
+[Obsolete("This event is deprecated and will be removed in future versions. Use GameHooks.Entities.EndTouch instead.")]
 event EventDelegates.OnEntityEndTouch? OnEntityEndTouch
 ```
 
@@ -243,11 +245,12 @@ event EventDelegates.OnEntityEndTouch? OnEntityEndTouch
 
 ### OnEntityFireOutputHook
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L175" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L187" />
 
 Called when an entity fires output.
 
 ```csharp
+[Obsolete("This event is deprecated and will be removed in future versions. Use GameHooks.Entities.FireOutput instead.")]
 event EventDelegates.OnEntityFireOutputHookEvent? OnEntityFireOutputHook
 ```
 
@@ -257,11 +260,12 @@ event EventDelegates.OnEntityFireOutputHookEvent? OnEntityFireOutputHook
 
 ### OnEntityIdentityAcceptInputHook
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L170" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L181" />
 
 Called when an entity identity accept input hook is triggered.
 
 ```csharp
+[Obsolete("This event is deprecated and will be removed in future versions. Use GameHooks.Entities.AcceptInput instead.")]
 event EventDelegates.OnEntityIdentityAcceptInputHook? OnEntityIdentityAcceptInputHook
 ```
 
@@ -299,11 +303,12 @@ event EventDelegates.OnEntitySpawned? OnEntitySpawned
 
 ### OnEntityStartTouch
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L145" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L151" />
 
 Called when an entity starts touching another entity.
 
 ```csharp
+[Obsolete("This event is deprecated and will be removed in future versions. Use GameHooks.Entities.StartTouch instead.")]
 event EventDelegates.OnEntityStartTouch? OnEntityStartTouch
 ```
 
@@ -313,11 +318,12 @@ event EventDelegates.OnEntityStartTouch? OnEntityStartTouch
 
 ### OnEntityTakeDamage
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L110" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L112" />
 
 Called when an entity takes damage.
 
 ```csharp
+[Obsolete("This event is deprecated and will be removed in future versions. Use GameHooks.Entities.TakeDamage instead.")]
 event EventDelegates.OnEntityTakeDamage? OnEntityTakeDamage
 ```
 
@@ -327,11 +333,12 @@ event EventDelegates.OnEntityTakeDamage? OnEntityTakeDamage
 
 ### OnEntityTouch
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L150" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L157" />
 
 Called when an entity is touching another entity.
 
 ```csharp
+[Obsolete("This event is deprecated and will be removed in future versions. Use GameHooks.Entities.Touch instead.")]
 event EventDelegates.OnEntityTouch? OnEntityTouch
 ```
 
@@ -341,11 +348,12 @@ event EventDelegates.OnEntityTouch? OnEntityTouch
 
 ### OnItemServicesCanAcquireHook
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L120" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L123" />
 
 Called when an item services can acquire hook is triggered.
 
 ```csharp
+[Obsolete("This event is deprecated and will be removed in future versions. Use GameHooks.Items.CanAcquire instead.")]
 event EventDelegates.OnItemServicesCanAcquireHook? OnItemServicesCanAcquireHook
 ```
 
@@ -383,11 +391,12 @@ event EventDelegates.OnMapUnload? OnMapUnload
 
 ### OnMovementServicesRunCommandHook
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L160" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L169" />
 
 Called when the movement services run command hook is triggered.
 
 ```csharp
+[Obsolete("This event is deprecated and will be removed in future versions. Use GameHooks.Movement.RunCommand instead.")]
 event EventDelegates.OnMovementServicesRunCommandHook? OnMovementServicesRunCommandHook
 ```
 
@@ -397,11 +406,12 @@ event EventDelegates.OnMovementServicesRunCommandHook? OnMovementServicesRunComm
 
 ### OnPlayerPawnPostThink
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L165" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L175" />
 
 Called when the player pawn post think hook is triggered.
 
 ```csharp
+[Obsolete("This event is deprecated and will be removed in future versions. Use GameHooks.Pawn.PostThink instead.")]
 event EventDelegates.OnPlayerPawnPostThink? OnPlayerPawnPostThink
 ```
 
@@ -411,7 +421,7 @@ event EventDelegates.OnPlayerPawnPostThink? OnPlayerPawnPostThink
 
 ### OnPrecacheResource
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L115" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L117" />
 
 Called when the game is precaching resources.
 
@@ -425,7 +435,7 @@ event EventDelegates.OnPrecacheResource? OnPrecacheResource
 
 ### OnStartupServer
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L180" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L192" />
 
 Called when the server is started.
 
@@ -468,11 +478,12 @@ event EventDelegates.OnTick? OnTick
 
 ### OnWeaponServicesCanUseHook
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L125" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L129" />
 
 Called when a weapon services can use hook is triggered.
 
 ```csharp
+[Obsolete("This event is deprecated and will be removed in future versions. Use GameHooks.Weapons.CanUse instead.")]
 event EventDelegates.OnWeaponServicesCanUseHook? OnWeaponServicesCanUseHook
 ```
 
@@ -482,11 +493,12 @@ event EventDelegates.OnWeaponServicesCanUseHook? OnWeaponServicesCanUseHook
 
 ### OnWeaponServicesDropWeaponHook
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L130" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L135" />
 
 Called when a weapon services drop weapon hook is triggered.
 
 ```csharp
+[Obsolete("This event is deprecated and will be removed in future versions. Use GameHooks.Weapons.Drop instead.")]
 event EventDelegates.OnWeaponServicesDropWeaponHook? OnWeaponServicesDropWeaponHook
 ```
 

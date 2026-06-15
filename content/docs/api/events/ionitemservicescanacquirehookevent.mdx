@@ -11,6 +11,7 @@ title: IOnItemServicesCanAcquireHookEvent
 **Assembly**: SwiftlyS2.CS2.dll
 
 ```csharp
+[Obsolete("This event is deprecated and will be removed in future versions. Use GameHooks instead.")]
 public interface IOnItemServicesCanAcquireHookEvent
 ```
 
@@ -18,7 +19,7 @@ public interface IOnItemServicesCanAcquireHookEvent
 
 ### AcquireMethod
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnItemServicesCanAcquireHookEvent.cs#L26" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnItemServicesCanAcquireHookEvent.cs#L28" />
 
 The acquire method.
 
@@ -32,7 +33,7 @@ AcquireMethod AcquireMethod { get; }
 
 ### EconItemView
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnItemServicesCanAcquireHookEvent.cs#L16" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnItemServicesCanAcquireHookEvent.cs#L18" />
 
 The econ item view.
 
@@ -46,7 +47,7 @@ CEconItemView EconItemView { get; }
 
 ### ItemServices
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnItemServicesCanAcquireHookEvent.cs#L11" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnItemServicesCanAcquireHookEvent.cs#L13" />
 
 The item services.
 
@@ -60,7 +61,7 @@ CCSPlayer_ItemServices ItemServices { get; }
 
 ### OriginalResult
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnItemServicesCanAcquireHookEvent.cs#L31" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnItemServicesCanAcquireHookEvent.cs#L33" />
 
 The original result of the CanAcquire call.
 
@@ -74,7 +75,7 @@ AcquireResult OriginalResult { get; }
 
 ### WeaponVData
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnItemServicesCanAcquireHookEvent.cs#L21" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnItemServicesCanAcquireHookEvent.cs#L23" />
 
 The weapon vdata if found, otherwise null.
 
@@ -90,7 +91,7 @@ CCSWeaponBaseVData? WeaponVData { get; }
 
 ### SetAcquireResult(AcquireResult)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnItemServicesCanAcquireHookEvent.cs#L38" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnItemServicesCanAcquireHookEvent.cs#L40" />
 
 Intercept and modify the acquire result.
 This will modify the acquire result and stop the following hooks and original function.
