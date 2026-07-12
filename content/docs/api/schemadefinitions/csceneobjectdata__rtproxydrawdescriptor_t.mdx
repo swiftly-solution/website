@@ -25,7 +25,7 @@ public interface CSceneObjectData__RTProxyDrawDescriptor_t : ISchemaClass<CScene
 
 ### DrawDesc
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneObjectData__RTProxyDrawDescriptor_t.cs#L18" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneObjectData__RTProxyDrawDescriptor_t.cs#L22" />
 
 ```csharp
 CMaterialDrawDescriptor DrawDesc { get; }
@@ -35,9 +35,21 @@ CMaterialDrawDescriptor DrawDesc { get; }
 
 - <ApiParam type="CMaterialDrawDescriptor" typeHref="/docs/api/schemadefinitions/cmaterialdrawdescriptor" />
 
+### EmissiveFactor
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneObjectData__RTProxyDrawDescriptor_t.cs#L42" />
+
+```csharp
+ref float EmissiveFactor { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
+
 ### MWorldFromLocal
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneObjectData__RTProxyDrawDescriptor_t.cs#L20" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneObjectData__RTProxyDrawDescriptor_t.cs#L24" />
 
 ```csharp
 ref matrix3x4_t MWorldFromLocal { get; }
@@ -47,9 +59,33 @@ ref matrix3x4_t MWorldFromLocal { get; }
 
 - <ApiParam type="matrix3x4_t" typeHref="/docs/api/natives/matrix3x4_t" />
 
+### MaterialGroupToken
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneObjectData__RTProxyDrawDescriptor_t.cs#L18" />
+
+```csharp
+ref uint MaterialGroupToken { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
+
+### SrcDrawIndex
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneObjectData__RTProxyDrawDescriptor_t.cs#L20" />
+
+```csharp
+ref int SrcDrawIndex { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
+
 ### VertexAlbedoFormat
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneObjectData__RTProxyDrawDescriptor_t.cs#L22" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneObjectData__RTProxyDrawDescriptor_t.cs#L26" />
 
 ```csharp
 ref VertexAlbedoFormat_t VertexAlbedoFormat { get; }
@@ -61,7 +97,7 @@ ref VertexAlbedoFormat_t VertexAlbedoFormat { get; }
 
 ### VertexAlbedoOffset
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneObjectData__RTProxyDrawDescriptor_t.cs#L26" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneObjectData__RTProxyDrawDescriptor_t.cs#L30" />
 
 ```csharp
 ref ushort VertexAlbedoOffset { get; }
@@ -73,7 +109,7 @@ ref ushort VertexAlbedoOffset { get; }
 
 ### VertexAlbedoStride
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneObjectData__RTProxyDrawDescriptor_t.cs#L28" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneObjectData__RTProxyDrawDescriptor_t.cs#L32" />
 
 ```csharp
 ref ushort VertexAlbedoStride { get; }
@@ -85,10 +121,58 @@ ref ushort VertexAlbedoStride { get; }
 
 ### VertexAlbedoVB
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneObjectData__RTProxyDrawDescriptor_t.cs#L24" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneObjectData__RTProxyDrawDescriptor_t.cs#L28" />
 
 ```csharp
 ref byte VertexAlbedoVB { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="byte" typeHref="https://learn.microsoft.com/dotnet/api/system.byte" />
+
+### VertexEmissiveFormat
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneObjectData__RTProxyDrawDescriptor_t.cs#L34" />
+
+```csharp
+ref VertexAlbedoFormat_t VertexEmissiveFormat { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="VertexAlbedoFormat_t" typeHref="/docs/api/schemadefinitions/vertexalbedoformat_t" />
+
+### VertexEmissiveOffset
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneObjectData__RTProxyDrawDescriptor_t.cs#L38" />
+
+```csharp
+ref ushort VertexEmissiveOffset { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="ushort" typeHref="https://learn.microsoft.com/dotnet/api/system.uint16" />
+
+### VertexEmissiveStride
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneObjectData__RTProxyDrawDescriptor_t.cs#L40" />
+
+```csharp
+ref ushort VertexEmissiveStride { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="ushort" typeHref="https://learn.microsoft.com/dotnet/api/system.uint16" />
+
+### VertexEmissiveVB
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneObjectData__RTProxyDrawDescriptor_t.cs#L36" />
+
+```csharp
+ref byte VertexEmissiveVB { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>

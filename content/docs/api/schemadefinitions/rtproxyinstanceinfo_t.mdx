@@ -37,7 +37,7 @@ ref VertexAlbedoFormat_t AlbedoFormat { get; }
 
 ### BLASCount
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RTProxyInstanceInfo_t.cs#L22" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RTProxyInstanceInfo_t.cs#L24" />
 
 ```csharp
 ref ushort BLASCount { get; }
@@ -49,7 +49,7 @@ ref ushort BLASCount { get; }
 
 ### BLASIndex
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RTProxyInstanceInfo_t.cs#L24" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RTProxyInstanceInfo_t.cs#L26" />
 
 ```csharp
 ref uint BLASIndex { get; }
@@ -58,6 +58,30 @@ ref uint BLASIndex { get; }
 <ApiLabel>Property Value</ApiLabel>
 
 - <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
+
+### EmissiveFactor
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RTProxyInstanceInfo_t.cs#L32" />
+
+```csharp
+ref float EmissiveFactor { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
+
+### EmissiveFormat
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RTProxyInstanceInfo_t.cs#L22" />
+
+```csharp
+ref VertexAlbedoFormat_t EmissiveFormat { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="VertexAlbedoFormat_t" typeHref="/docs/api/schemadefinitions/vertexalbedoformat_t" />
 
 ### Flags
 
@@ -73,7 +97,7 @@ ref RTProxyInstanceFlags_t Flags { get; }
 
 ### MWorldFromLocal
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RTProxyInstanceInfo_t.cs#L28" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RTProxyInstanceInfo_t.cs#L34" />
 
 ```csharp
 ref matrix3x4_t MWorldFromLocal { get; }
@@ -85,10 +109,22 @@ ref matrix3x4_t MWorldFromLocal { get; }
 
 ### VertexAlbedoByteOffset
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RTProxyInstanceInfo_t.cs#L26" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RTProxyInstanceInfo_t.cs#L28" />
 
 ```csharp
 ref uint VertexAlbedoByteOffset { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
+
+### VertexEmissiveByteOffset
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RTProxyInstanceInfo_t.cs#L30" />
+
+```csharp
+ref uint VertexEmissiveByteOffset { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>

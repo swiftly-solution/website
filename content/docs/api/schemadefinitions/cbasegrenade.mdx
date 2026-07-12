@@ -34,7 +34,7 @@ public interface CBaseGrenade : CBaseAnimGraph, CBaseModelEntity, CBaseEntity, C
 
 ### BounceSound
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseGrenade.cs#L36" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseGrenade.cs#L38" />
 
 ```csharp
 string BounceSound { get; set; }
@@ -46,7 +46,7 @@ string BounceSound { get; set; }
 
 ### Damage
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseGrenade.cs#L34" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseGrenade.cs#L36" />
 
 ```csharp
 ref float Damage { get; }
@@ -56,9 +56,21 @@ ref float Damage { get; }
 
 - <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
 
+### DamageDetonating
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseGrenade.cs#L18" />
+
+```csharp
+ref bool DamageDetonating { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
+
 ### DetonateTime
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseGrenade.cs#L30" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseGrenade.cs#L32" />
 
 ```csharp
 GameTime_t DetonateTime { get; }
@@ -70,7 +82,7 @@ GameTime_t DetonateTime { get; }
 
 ### DmgRadius
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseGrenade.cs#L28" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseGrenade.cs#L30" />
 
 ```csharp
 ref float DmgRadius { get; }
@@ -82,7 +94,7 @@ ref float DmgRadius { get; }
 
 ### ExplosionSound
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseGrenade.cs#L38" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseGrenade.cs#L40" />
 
 ```csharp
 string ExplosionSound { get; set; }
@@ -94,7 +106,7 @@ string ExplosionSound { get; set; }
 
 ### HasWarnedAI
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseGrenade.cs#L22" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseGrenade.cs#L24" />
 
 ```csharp
 ref bool HasWarnedAI { get; }
@@ -106,7 +118,7 @@ ref bool HasWarnedAI { get; }
 
 ### IsLive
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseGrenade.cs#L26" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseGrenade.cs#L28" />
 
 ```csharp
 ref bool IsLive { get; }
@@ -118,7 +130,7 @@ ref bool IsLive { get; }
 
 ### IsSmokeGrenade
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseGrenade.cs#L24" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseGrenade.cs#L26" />
 
 ```csharp
 ref bool IsSmokeGrenade { get; }
@@ -130,7 +142,7 @@ ref bool IsSmokeGrenade { get; }
 
 ### NextAttack
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseGrenade.cs#L42" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseGrenade.cs#L44" />
 
 ```csharp
 GameTime_t NextAttack { get; }
@@ -142,7 +154,7 @@ GameTime_t NextAttack { get; }
 
 ### OnExplode
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseGrenade.cs#L20" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseGrenade.cs#L22" />
 
 ```csharp
 ref CEntityIOOutput OnExplode { get; }
@@ -154,7 +166,7 @@ ref CEntityIOOutput OnExplode { get; }
 
 ### OnPlayerPickup
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseGrenade.cs#L18" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseGrenade.cs#L20" />
 
 ```csharp
 ref CEntityIOOutput OnPlayerPickup { get; }
@@ -166,7 +178,7 @@ ref CEntityIOOutput OnPlayerPickup { get; }
 
 ### OriginalThrower
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseGrenade.cs#L44" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseGrenade.cs#L46" />
 
 ```csharp
 ref CHandle<CCSPlayerPawn> OriginalThrower { get; }
@@ -178,7 +190,7 @@ ref CHandle<CCSPlayerPawn> OriginalThrower { get; }
 
 ### Thrower
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseGrenade.cs#L40" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseGrenade.cs#L42" />
 
 ```csharp
 ref CHandle<CCSPlayerPawn> Thrower { get; }
@@ -190,7 +202,7 @@ ref CHandle<CCSPlayerPawn> Thrower { get; }
 
 ### WarnAITime
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseGrenade.cs#L32" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseGrenade.cs#L34" />
 
 ```csharp
 ref float WarnAITime { get; }
@@ -204,7 +216,7 @@ ref float WarnAITime { get; }
 
 ### DamageUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseGrenade.cs#L49" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseGrenade.cs#L51" />
 
 ```csharp
 void DamageUpdated()
@@ -212,7 +224,7 @@ void DamageUpdated()
 
 ### DetonateTimeUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseGrenade.cs#L48" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseGrenade.cs#L50" />
 
 ```csharp
 void DetonateTimeUpdated()
@@ -220,7 +232,7 @@ void DetonateTimeUpdated()
 
 ### DmgRadiusUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseGrenade.cs#L47" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseGrenade.cs#L49" />
 
 ```csharp
 void DmgRadiusUpdated()
@@ -228,7 +240,7 @@ void DmgRadiusUpdated()
 
 ### IsLiveUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseGrenade.cs#L46" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseGrenade.cs#L48" />
 
 ```csharp
 void IsLiveUpdated()
@@ -236,7 +248,7 @@ void IsLiveUpdated()
 
 ### ThrowerUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseGrenade.cs#L50" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseGrenade.cs#L52" />
 
 ```csharp
 void ThrowerUpdated()

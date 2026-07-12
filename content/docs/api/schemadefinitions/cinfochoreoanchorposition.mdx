@@ -23,17 +23,17 @@ public interface CInfoChoreoAnchorPosition : ISchemaClass<CInfoChoreoAnchorPosit
 
 ## Properties
 
-### Angles
+### AnglesLS
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoChoreoAnchorPosition.cs#L20" />
 
 ```csharp
-ref QAngle Angles { get; }
+ref Quaternion AnglesLS { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="QAngle" typeHref="/docs/api/natives/qangle" />
+- <ApiParam type="Quaternion" typeHref="/docs/api/natives/quaternion" />
 
 ### ExtentsMax
 
@@ -59,17 +59,41 @@ ref Vector ExtentsMin { get; }
 
 - <ApiParam type="Vector" typeHref="/docs/api/natives/vector" />
 
-### Origin
+### OnlyWarpPosition
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoChoreoAnchorPosition.cs#L28" />
+
+```csharp
+ref bool OnlyWarpPosition { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
+
+### OriginLS
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoChoreoAnchorPosition.cs#L18" />
 
 ```csharp
-ref Vector Origin { get; }
+ref Vector OriginLS { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
 - <ApiParam type="Vector" typeHref="/docs/api/natives/vector" />
+
+### Parent
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoChoreoAnchorPosition.cs#L30" />
+
+```csharp
+ref CHandle<CBaseEntity> Parent { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CHandle&lt;CBaseEntity&gt;" typeHref="/docs/api/natives/chandlet" />
 
 ### Radius
 
@@ -85,7 +109,7 @@ ref float Radius { get; }
 
 ### ShapeType
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoChoreoAnchorPosition.cs#L28" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoChoreoAnchorPosition.cs#L32" />
 
 ```csharp
 ref CInfoChoreoLocatorShapeType_t ShapeType { get; }

@@ -30,53 +30,17 @@ public interface CFuncRotator : CBaseModelEntity, CBaseEntity, CEntityInstance, 
 
 ## Properties
 
-### AngularVelocity
+### CurrentAngle
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L72" />
-
-```csharp
-ref QAngle AngularVelocity { get; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="QAngle" typeHref="/docs/api/natives/qangle" />
-
-### DistanceAlongArcTraveled
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L28" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L91" />
 
 ```csharp
-ref float DistanceAlongArcTraveled { get; }
+ref float CurrentAngle { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
 - <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
-
-### HasTargetOverride
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L66" />
-
-```csharp
-ref bool HasTargetOverride { get; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
-
-### IsReversing
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L22" />
-
-```csharp
-ref bool IsReversing { get; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
 
 ### IsRotating
 
@@ -90,57 +54,33 @@ ref bool IsRotating { get; }
 
 - <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
 
-### LSInit
+### LocalRotationHistory
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L40" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L32" />
 
 ```csharp
-ref Quaternion LSInit { get; }
+ref CUtlVector<Quaternion> LocalRotationHistory { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="Quaternion" typeHref="/docs/api/natives/quaternion" />
+- <ApiParam type="CUtlVector&lt;Quaternion&gt;" typeHref="/docs/api/natives/cutlvectort" />
 
-### LSOrientation
+### LoopSound
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L42" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L84" />
 
 ```csharp
-ref Quaternion LSOrientation { get; }
+SchemaUntypedField LoopSound { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="Quaternion" typeHref="/docs/api/natives/quaternion" />
-
-### LSPrevChange
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L34" />
-
-```csharp
-ref Quaternion LSPrevChange { get; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="Quaternion" typeHref="/docs/api/natives/quaternion" />
-
-### LookAtForcedUp
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L74" />
-
-```csharp
-ref Vector LookAtForcedUp { get; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="Vector" typeHref="/docs/api/natives/vector" />
+- <ApiParam type="SchemaUntypedField" typeHref="/docs/api/schemas/schemauntypedfield" />
 
 ### MaxYawRotation
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L98" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L74" />
 
 ```csharp
 ref float MaxYawRotation { get; }
@@ -152,7 +92,7 @@ ref float MaxYawRotation { get; }
 
 ### MinYawRotation
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L96" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L72" />
 
 ```csharp
 ref float MinYawRotation { get; }
@@ -164,7 +104,7 @@ ref float MinYawRotation { get; }
 
 ### OnOscillate
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L48" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L38" />
 
 ```csharp
 ref CEntityIOOutput OnOscillate { get; }
@@ -176,7 +116,7 @@ ref CEntityIOOutput OnOscillate { get; }
 
 ### OnOscillateEndArrive
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L54" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L44" />
 
 ```csharp
 ref CEntityIOOutput OnOscillateEndArrive { get; }
@@ -188,7 +128,7 @@ ref CEntityIOOutput OnOscillateEndArrive { get; }
 
 ### OnOscillateEndDepart
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L56" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L46" />
 
 ```csharp
 ref CEntityIOOutput OnOscillateEndDepart { get; }
@@ -200,7 +140,7 @@ ref CEntityIOOutput OnOscillateEndDepart { get; }
 
 ### OnOscillateStartArrive
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L50" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L40" />
 
 ```csharp
 ref CEntityIOOutput OnOscillateStartArrive { get; }
@@ -212,7 +152,7 @@ ref CEntityIOOutput OnOscillateStartArrive { get; }
 
 ### OnOscillateStartDepart
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L52" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L42" />
 
 ```csharp
 ref CEntityIOOutput OnOscillateStartDepart { get; }
@@ -224,7 +164,7 @@ ref CEntityIOOutput OnOscillateStartDepart { get; }
 
 ### OnRotationCompleted
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L46" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L36" />
 
 ```csharp
 ref CEntityIOOutput OnRotationCompleted { get; }
@@ -236,7 +176,7 @@ ref CEntityIOOutput OnRotationCompleted { get; }
 
 ### OnRotationStarted
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L44" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L34" />
 
 ```csharp
 ref CEntityIOOutput OnRotationStarted { get; }
@@ -246,57 +186,33 @@ ref CEntityIOOutput OnRotationStarted { get; }
 
 - <ApiParam type="CEntityIOOutput" typeHref="/docs/api/natives/centityiooutput" />
 
-### OrientationOverride
+### OscillationCount
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L68" />
-
-```csharp
-ref Quaternion OrientationOverride { get; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="Quaternion" typeHref="/docs/api/natives/quaternion" />
-
-### OscillateCount
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L60" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L76" />
 
 ```csharp
-ref int OscillateCount { get; }
+ref int OscillationCount { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
 - <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
 
-### OscillateDepart
+### OscillationFromStart
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L58" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L78" />
 
 ```csharp
-ref bool OscillateDepart { get; }
+ref bool OscillationFromStart { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
 - <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
 
-### PrevRotateType
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L64" />
-
-```csharp
-ref CFuncRotator__Rotate_t PrevRotateType { get; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="CFuncRotator__Rotate_t" typeHref="/docs/api/schemadefinitions/cfuncrotator__rotate_t" />
-
 ### RecordHistory
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L78" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L66" />
 
 ```csharp
 ref bool RecordHistory { get; }
@@ -306,12 +222,24 @@ ref bool RecordHistory { get; }
 
 - <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
 
-### ReturningToPreviousOrientation
+### ReturningToInitialRotation
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L82" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L70" />
 
 ```csharp
-ref bool ReturningToPreviousOrientation { get; }
+ref bool ReturningToInitialRotation { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
+
+### ReturningToPreviousRotation
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L68" />
+
+```csharp
+ref bool ReturningToPreviousRotation { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
@@ -320,7 +248,7 @@ ref bool ReturningToPreviousOrientation { get; }
 
 ### RotateType
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L62" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L18" />
 
 ```csharp
 ref CFuncRotator__Rotate_t RotateType { get; }
@@ -330,45 +258,33 @@ ref CFuncRotator__Rotate_t RotateType { get; }
 
 - <ApiParam type="CFuncRotator__Rotate_t" typeHref="/docs/api/schemadefinitions/cfuncrotator__rotate_t" />
 
-### RotatorHistory
+### RotationAxis
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L80" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L93" />
 
 ```csharp
-ref CUtlVector<RotatorHistoryEntry_t> RotatorHistory { get; }
+ref CFuncRotator__RotationAxis_t RotationAxis { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CUtlVector&lt;RotatorHistoryEntry_t&gt;" typeHref="/docs/api/natives/cutlvectort" />
+- <ApiParam type="CFuncRotator__RotationAxis_t" typeHref="/docs/api/schemadefinitions/cfuncrotator__rotationaxis_t" />
 
-### RotatorQueue
+### RotationSummary
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L84" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L52" />
 
 ```csharp
-ref CUtlVector<RotatorQueueEntry_t> RotatorQueue { get; }
+FuncRotatorRotationSummary_t RotationSummary { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CUtlVector&lt;RotatorQueueEntry_t&gt;" typeHref="/docs/api/natives/cutlvectort" />
-
-### RotatorQueueHistory
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L86" />
-
-```csharp
-ref CUtlVector<RotatorHistoryEntry_t> RotatorQueueHistory { get; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="CUtlVector&lt;RotatorHistoryEntry_t&gt;" typeHref="/docs/api/natives/cutlvectort" />
+- <ApiParam type="FuncRotatorRotationSummary_t" typeHref="/docs/api/schemadefinitions/funcrotatorrotationsummary_t" />
 
 ### RotatorTarget
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L18" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L28" />
 
 ```csharp
 ref CHandle<CBaseEntity> RotatorTarget { get; }
@@ -380,7 +296,7 @@ ref CHandle<CBaseEntity> RotatorTarget { get; }
 
 ### SolidType
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L88" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L22" />
 
 ```csharp
 ref SolidType_t SolidType { get; }
@@ -390,57 +306,93 @@ ref SolidType_t SolidType { get; }
 
 - <ApiParam type="SolidType_t" typeHref="/docs/api/schemadefinitions/solidtype_t" />
 
-### SpaceOverride
+### SpawnOrientation
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L70" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L64" />
 
 ```csharp
-ref RotatorTargetSpace_t SpaceOverride { get; }
+ref Quaternion SpawnOrientation { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="RotatorTargetSpace_t" typeHref="/docs/api/schemadefinitions/rotatortargetspace_t" />
+- <ApiParam type="Quaternion" typeHref="/docs/api/natives/quaternion" />
 
-### SpeedFromMover
+### Speed
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L90" />
-
-```csharp
-ref CHandle<CFuncMover> SpeedFromMover { get; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="CHandle&lt;CFuncMover&gt;" typeHref="/docs/api/natives/chandlet" />
-
-### SpeedFromMover1
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L92" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L24" />
 
 ```csharp
-string SpeedFromMover1 { get; set; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
-
-### SpeedScale
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L94" />
-
-```csharp
-ref float SpeedScale { get; }
+ref float Speed { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
 - <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
 
+### SpeedDriftFromOverRotate
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L95" />
+
+```csharp
+ref float SpeedDriftFromOverRotate { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
+
+### StartSound
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L81" />
+
+```csharp
+SchemaUntypedField StartSound { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="SchemaUntypedField" typeHref="/docs/api/schemas/schemauntypedfield" />
+
+### StartSpeed
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L62" />
+
+```csharp
+ref float StartSpeed { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
+
+### StartedRotating
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L50" />
+
+```csharp
+ref bool StartedRotating { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
+
+### StopSound
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L87" />
+
+```csharp
+SchemaUntypedField StopSound { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="SchemaUntypedField" typeHref="/docs/api/schemas/schemauntypedfield" />
+
 ### StrRotatorTarget
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L76" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L30" />
 
 ```csharp
 string StrRotatorTarget { get; set; }
@@ -450,9 +402,33 @@ string StrRotatorTarget { get; set; }
 
 - <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
 
+### TargetAngle
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L89" />
+
+```csharp
+ref float TargetAngle { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
+
+### TickRotateRan
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L48" />
+
+```csharp
+GameTick_t TickRotateRan { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="GameTick_t" typeHref="/docs/api/schemadefinitions/gametick_t" />
+
 ### TimeRotationStart
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L32" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L58" />
 
 ```csharp
 GameTime_t TimeRotationStart { get; }
@@ -462,9 +438,33 @@ GameTime_t TimeRotationStart { get; }
 
 - <ApiParam type="GameTime_t" typeHref="/docs/api/schemadefinitions/gametime_t" />
 
+### TimeRotationStop
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L60" />
+
+```csharp
+GameTime_t TimeRotationStop { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="GameTime_t" typeHref="/docs/api/schemadefinitions/gametime_t" />
+
+### TimeToCompleteRotation
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L26" />
+
+```csharp
+ref float TimeToCompleteRotation { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
+
 ### TimeToReachMaxSpeed
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L24" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L54" />
 
 ```csharp
 ref float TimeToReachMaxSpeed { get; }
@@ -476,7 +476,7 @@ ref float TimeToReachMaxSpeed { get; }
 
 ### TimeToReachZeroSpeed
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L26" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L56" />
 
 ```csharp
 ref float TimeToReachZeroSpeed { get; }
@@ -485,40 +485,4 @@ ref float TimeToReachZeroSpeed { get; }
 <ApiLabel>Property Value</ApiLabel>
 
 - <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
-
-### TimeToWaitOscillate
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L30" />
-
-```csharp
-ref float TimeToWaitOscillate { get; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
-
-### WSInit
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L38" />
-
-```csharp
-ref Quaternion WSInit { get; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="Quaternion" typeHref="/docs/api/natives/quaternion" />
-
-### WSPrev
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L36" />
-
-```csharp
-ref Quaternion WSPrev { get; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="Quaternion" typeHref="/docs/api/natives/quaternion" />
 

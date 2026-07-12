@@ -11,13 +11,11 @@ title: AI_Navigator_DebugSnapshotData_t
 **Assembly**: SwiftlyS2.CS2.dll
 
 ```csharp
-public interface AI_Navigator_DebugSnapshotData_t : DebugSnapshotBaseStructuredData_t, ISchemaClass<DebugSnapshotBaseStructuredData_t>, ISchemaClass<AI_Navigator_DebugSnapshotData_t>, ISchemaField, ISchemaClass, INativeHandle
+public interface AI_Navigator_DebugSnapshotData_t : ISchemaClass<AI_Navigator_DebugSnapshotData_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
 #### Implements
 
-- [DebugSnapshotBaseStructuredData_t](/docs/api/schemadefinitions/debugsnapshotbasestructureddata_t)
-- [ISchemaClass\<DebugSnapshotBaseStructuredData_t\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaClass\<AI_Navigator_DebugSnapshotData_t\>](/docs/api/schemas/ischemaclasst)
 - [ISchemaField](/docs/api/schemas/ischemafield)
 - [ISchemaClass](/docs/api/schemas/ischemaclass)
@@ -25,36 +23,36 @@ public interface AI_Navigator_DebugSnapshotData_t : DebugSnapshotBaseStructuredD
 
 ## Properties
 
-### Goal_actual_pos
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AI_Navigator_DebugSnapshotData_t.cs#L24" />
-
-```csharp
-ref Vector Goal_actual_pos { get; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="Vector" typeHref="/docs/api/natives/vector" />
-
-### Goal_base_pos
+### Goal_location
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AI_Navigator_DebugSnapshotData_t.cs#L26" />
 
 ```csharp
-ref Vector Goal_base_pos { get; }
+ref Vector Goal_location { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
 - <ApiParam type="Vector" typeHref="/docs/api/natives/vector" />
 
-### S_goal_nav_search_id
+### Last_waypoint_pos
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AI_Navigator_DebugSnapshotData_t.cs#L20" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AI_Navigator_DebugSnapshotData_t.cs#L24" />
 
 ```csharp
-ref CGlobalSymbol S_goal_nav_search_id { get; }
+ref Vector Last_waypoint_pos { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="Vector" typeHref="/docs/api/natives/vector" />
+
+### S_arrival_movement_gait_set
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AI_Navigator_DebugSnapshotData_t.cs#L30" />
+
+```csharp
+ref CGlobalSymbol S_arrival_movement_gait_set { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
@@ -73,17 +71,29 @@ string S_goal_source_location { get; set; }
 
 - <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
 
-### S_npc_nav_authority
+### S_movement_id
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AI_Navigator_DebugSnapshotData_t.cs#L18" />
 
 ```csharp
-ref CGlobalSymbol S_npc_nav_authority { get; }
+ref CGlobalSymbol S_movement_id { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
 - <ApiParam type="CGlobalSymbol" typeHref="/docs/api/natives/cglobalsymbol" />
+
+### S_movement_serial_number
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AI_Navigator_DebugSnapshotData_t.cs#L20" />
+
+```csharp
+ref uint S_movement_serial_number { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
 
 ### Waypoints
 

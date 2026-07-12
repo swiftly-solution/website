@@ -35,6 +35,18 @@ ref short DrawCallIndex { get; }
 
 - <ApiParam type="short" typeHref="https://learn.microsoft.com/dotnet/api/system.int16" />
 
+### EmissiveFactor
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateMeshInfo_t.cs#L44" />
+
+```csharp
+ref float EmissiveFactor { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
+
 ### HasTransform
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateMeshInfo_t.cs#L22" />
@@ -61,7 +73,7 @@ ref uint InstanceStreamOffset { get; }
 
 ### InstanceStreams
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateMeshInfo_t.cs#L40" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateMeshInfo_t.cs#L42" />
 
 ```csharp
 ref AggregateInstanceStream_t InstanceStreams { get; }
@@ -137,6 +149,18 @@ ref Color TintColor { get; }
 
 ```csharp
 ref uint VertexAlbedoStreamOffset { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
+
+### VertexEmissiveStreamOffset
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateMeshInfo_t.cs#L40" />
+
+```csharp
+ref uint VertexEmissiveStreamOffset { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>

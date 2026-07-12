@@ -32,17 +32,17 @@ public interface CPhysBox : CBreakable, CBaseModelEntity, CBaseEntity, CEntityIn
 
 ## Properties
 
-### CarryingPlayer
+### CollisionGroup
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBox.cs#L46" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBox.cs#L36" />
 
 ```csharp
-ref CHandle<CBasePlayerPawn> CarryingPlayer { get; }
+string CollisionGroup { get; set; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CHandle&lt;CBasePlayerPawn&gt;" typeHref="/docs/api/natives/chandlet" />
+- <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
 
 ### DamageToEnableMotion
 
@@ -128,6 +128,42 @@ ref Vector HoverPosePosition { get; }
 
 - <ApiParam type="Vector" typeHref="/docs/api/natives/vector" />
 
+### InteractsAs
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBox.cs#L38" />
+
+```csharp
+string InteractsAs { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
+
+### InteractsExclude
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBox.cs#L42" />
+
+```csharp
+string InteractsExclude { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
+
+### InteractsWith
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBox.cs#L40" />
+
+```csharp
+string InteractsWith { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
+
 ### NotSolidToWorld
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBox.cs#L28" />
@@ -142,7 +178,7 @@ ref bool NotSolidToWorld { get; }
 
 ### OnAwakened
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBox.cs#L38" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBox.cs#L46" />
 
 ```csharp
 ref CEntityIOOutput OnAwakened { get; }
@@ -154,7 +190,7 @@ ref CEntityIOOutput OnAwakened { get; }
 
 ### OnDamaged
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBox.cs#L36" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBox.cs#L44" />
 
 ```csharp
 ref CEntityIOOutput OnDamaged { get; }
@@ -166,7 +202,7 @@ ref CEntityIOOutput OnDamaged { get; }
 
 ### OnMotionEnabled
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBox.cs#L40" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBox.cs#L48" />
 
 ```csharp
 ref CEntityIOOutput OnMotionEnabled { get; }
@@ -178,7 +214,7 @@ ref CEntityIOOutput OnMotionEnabled { get; }
 
 ### OnPlayerUse
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBox.cs#L42" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBox.cs#L50" />
 
 ```csharp
 ref CEntityIOOutput OnPlayerUse { get; }
@@ -190,7 +226,7 @@ ref CEntityIOOutput OnPlayerUse { get; }
 
 ### OnStartTouch
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBox.cs#L44" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBox.cs#L52" />
 
 ```csharp
 ref CEntityIOOutput OnStartTouch { get; }

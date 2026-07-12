@@ -41,7 +41,7 @@ ref ParticleVolumetricSmokeCreationType_t CreationType { get; }
 
 ### Density
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderVolumetricEmitter.cs#L32" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderVolumetricEmitter.cs#L36" />
 
 ```csharp
 CPerParticleFloatInput Density { get; }
@@ -65,7 +65,7 @@ ref EventTypeSelection_t EventType { get; }
 
 ### Falloff
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderVolumetricEmitter.cs#L40" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderVolumetricEmitter.cs#L46" />
 
 ```csharp
 CPerParticleFloatInput Falloff { get; }
@@ -75,9 +75,21 @@ CPerParticleFloatInput Falloff { get; }
 
 - <ApiParam type="CPerParticleFloatInput" typeHref="/docs/api/schemadefinitions/cperparticlefloatinput" />
 
+### KillDensityScale
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderVolumetricEmitter.cs#L44" />
+
+```csharp
+CPerParticleFloatInput KillDensityScale { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CPerParticleFloatInput" typeHref="/docs/api/schemadefinitions/cperparticlefloatinput" />
+
 ### KillRadius
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderVolumetricEmitter.cs#L38" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderVolumetricEmitter.cs#L42" />
 
 ```csharp
 CPerParticleFloatInput KillRadius { get; }
@@ -89,7 +101,7 @@ CPerParticleFloatInput KillRadius { get; }
 
 ### Magnitude
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderVolumetricEmitter.cs#L36" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderVolumetricEmitter.cs#L40" />
 
 ```csharp
 CPerParticleFloatInput Magnitude { get; }
@@ -111,12 +123,36 @@ CPerParticleVecInput Pos { get; }
 
 - <ApiParam type="CPerParticleVecInput" typeHref="/docs/api/schemadefinitions/cperparticlevecinput" />
 
-### Radius
+### PrevPosition
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderVolumetricEmitter.cs#L30" />
 
 ```csharp
+CPerParticleVecInput PrevPosition { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CPerParticleVecInput" typeHref="/docs/api/schemadefinitions/cperparticlevecinput" />
+
+### Radius
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderVolumetricEmitter.cs#L34" />
+
+```csharp
 CPerParticleFloatInput Radius { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CPerParticleFloatInput" typeHref="/docs/api/schemadefinitions/cperparticlefloatinput" />
+
+### Speed
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderVolumetricEmitter.cs#L32" />
+
+```csharp
+CPerParticleFloatInput Speed { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
@@ -137,7 +173,7 @@ string StrChannelType { get; set; }
 
 ### Temperature
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderVolumetricEmitter.cs#L34" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderVolumetricEmitter.cs#L38" />
 
 ```csharp
 CPerParticleFloatInput Temperature { get; }

@@ -25,7 +25,7 @@ public interface CVSound : ISchemaClass<CVSound>, ISchemaField, ISchemaClass, IN
 
 ### Channels
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVSound.cs#L22" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVSound.cs#L24" />
 
 ```csharp
 ref uint Channels { get; }
@@ -37,7 +37,7 @@ ref uint Channels { get; }
 
 ### Duration
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVSound.cs#L28" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVSound.cs#L30" />
 
 ```csharp
 ref float Duration { get; }
@@ -47,21 +47,9 @@ ref float Duration { get; }
 
 - <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
 
-### EncodedHeader
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVSound.cs#L38" />
-
-```csharp
-ref CUtlBinaryBlock EncodedHeader { get; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="CUtlBinaryBlock" typeHref="/docs/api/natives/cutlbinaryblock" />
-
 ### Format
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVSound.cs#L20" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVSound.cs#L22" />
 
 ```csharp
 ref CVSoundFormat_t Format { get; }
@@ -73,7 +61,7 @@ ref CVSoundFormat_t Format { get; }
 
 ### LoopEnd
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVSound.cs#L36" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVSound.cs#L34" />
 
 ```csharp
 ref int LoopEnd { get; }
@@ -85,7 +73,7 @@ ref int LoopEnd { get; }
 
 ### LoopStart
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVSound.cs#L24" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVSound.cs#L26" />
 
 ```csharp
 ref int LoopStart { get; }
@@ -97,7 +85,7 @@ ref int LoopStart { get; }
 
 ### Rate
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVSound.cs#L18" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVSound.cs#L20" />
 
 ```csharp
 ref int Rate { get; }
@@ -109,7 +97,7 @@ ref int Rate { get; }
 
 ### SampleCount
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVSound.cs#L26" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVSound.cs#L28" />
 
 ```csharp
 ref uint SampleCount { get; }
@@ -119,29 +107,17 @@ ref uint SampleCount { get; }
 
 - <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
 
-### SeekTable
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVSound.cs#L34" />
-
-```csharp
-ref CUtlVector<int> SeekTable { get; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="CUtlVector&lt;int&gt;" typeHref="/docs/api/natives/cutlvectort" />
-
 ### Sentences
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVSound.cs#L30" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVSound.cs#L18" />
 
 ```csharp
-ref CUtlVector<CAudioSentence> Sentences { get; }
+ref CUtlLeanVector<CAudioSentence, int> Sentences { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CUtlVector&lt;CAudioSentence&gt;" typeHref="/docs/api/natives/cutlvectort" />
+- <ApiParam type="CUtlLeanVector&lt;CAudioSentence, int&gt;" typeHref="/docs/api/natives/cutlleanvectortt" />
 
 ### StreamingSize
 

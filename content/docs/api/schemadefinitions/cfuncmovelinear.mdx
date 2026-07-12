@@ -34,7 +34,7 @@ public interface CFuncMoveLinear : CBaseToggle, CBaseModelEntity, CBaseEntity, C
 
 ### AllowMovableNavMeshDockingOnEntireEntity
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMoveLinear.cs#L40" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMoveLinear.cs#L44" />
 
 ```csharp
 ref bool AllowMovableNavMeshDockingOnEntireEntity { get; }
@@ -58,7 +58,7 @@ ref MoveLinearAuthoredPos_t AuthoredPosition { get; }
 
 ### BlockDamage
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMoveLinear.cs#L30" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMoveLinear.cs#L32" />
 
 ```csharp
 ref float BlockDamage { get; }
@@ -70,7 +70,7 @@ ref float BlockDamage { get; }
 
 ### CreateMovableNavMesh
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMoveLinear.cs#L38" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMoveLinear.cs#L42" />
 
 ```csharp
 ref bool CreateMovableNavMesh { get; }
@@ -82,7 +82,7 @@ ref bool CreateMovableNavMesh { get; }
 
 ### CreateNavObstacle
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMoveLinear.cs#L42" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMoveLinear.cs#L46" />
 
 ```csharp
 ref bool CreateNavObstacle { get; }
@@ -94,7 +94,7 @@ ref bool CreateNavObstacle { get; }
 
 ### CurrentSound
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMoveLinear.cs#L28" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMoveLinear.cs#L30" />
 
 ```csharp
 string CurrentSound { get; set; }
@@ -130,7 +130,7 @@ ref QAngle MoveEntitySpace { get; }
 
 ### OnFullyClosed
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMoveLinear.cs#L36" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMoveLinear.cs#L38" />
 
 ```csharp
 ref CEntityIOOutput OnFullyClosed { get; }
@@ -142,7 +142,7 @@ ref CEntityIOOutput OnFullyClosed { get; }
 
 ### OnFullyOpen
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMoveLinear.cs#L34" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMoveLinear.cs#L36" />
 
 ```csharp
 ref CEntityIOOutput OnFullyOpen { get; }
@@ -154,31 +154,43 @@ ref CEntityIOOutput OnFullyOpen { get; }
 
 ### SoundStart
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMoveLinear.cs#L24" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMoveLinear.cs#L25" />
 
 ```csharp
-string SoundStart { get; set; }
+SchemaUntypedField SoundStart { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
+- <ApiParam type="SchemaUntypedField" typeHref="/docs/api/schemas/schemauntypedfield" />
 
 ### SoundStop
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMoveLinear.cs#L26" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMoveLinear.cs#L28" />
 
 ```csharp
-string SoundStop { get; set; }
+SchemaUntypedField SoundStop { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
+- <ApiParam type="SchemaUntypedField" typeHref="/docs/api/schemas/schemauntypedfield" />
+
+### Speed
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMoveLinear.cs#L40" />
+
+```csharp
+ref float Speed { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
 
 ### StartPosition
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMoveLinear.cs#L32" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMoveLinear.cs#L34" />
 
 ```csharp
 ref float StartPosition { get; }

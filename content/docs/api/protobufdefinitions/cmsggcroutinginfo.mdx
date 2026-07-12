@@ -1,0 +1,95 @@
+---
+title: CMsgGCRoutingInfo
+---
+
+# Interface CMsgGCRoutingInfo
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCRoutingInfo.cs#L7" />
+
+**Namespace**: [SwiftlyS2.Shared.ProtobufDefinitions](/docs/api/protobufdefinitions)
+
+**Assembly**: SwiftlyS2.CS2.dll
+
+```csharp
+public interface CMsgGCRoutingInfo : ITypedProtobuf<CMsgGCRoutingInfo>, INativeHandle
+```
+
+#### Implements
+
+- [ITypedProtobuf\<CMsgGCRoutingInfo\>](/docs/api/netmessages/itypedprotobuft)
+- [INativeHandle](/docs/api/natives/inativehandle)
+
+## Properties
+
+### DirIndex
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCRoutingInfo.cs#L11" />
+
+```csharp
+IProtobufRepeatedFieldValueType<uint> DirIndex { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="IProtobufRepeatedFieldValueType&lt;uint&gt;" typeHref="/docs/api/netmessages/iprotobufrepeatedfieldvaluetypet" />
+
+### Fallback
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCRoutingInfo.cs#L13" />
+
+```csharp
+CMsgGCRoutingInfo_RoutingMethod Fallback { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CMsgGCRoutingInfo_RoutingMethod" typeHref="/docs/api/protobufdefinitions/cmsggcroutinginfo_routingmethod" />
+
+### Method
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCRoutingInfo.cs#L12" />
+
+```csharp
+CMsgGCRoutingInfo_RoutingMethod Method { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CMsgGCRoutingInfo_RoutingMethod" typeHref="/docs/api/protobufdefinitions/cmsggcroutinginfo_routingmethod" />
+
+### PolicyRules
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCRoutingInfo.cs#L16" />
+
+```csharp
+IProtobufRepeatedFieldSubMessageType<CMsgGCRoutingInfo_PolicyRule> PolicyRules { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="IProtobufRepeatedFieldSubMessageType&lt;CMsgGCRoutingInfo_PolicyRule&gt;" typeHref="/docs/api/netmessages/iprotobufrepeatedfieldsubmessagetypet" />
+
+### ProtobufField
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCRoutingInfo.cs#L14" />
+
+```csharp
+uint ProtobufField { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
+
+### WebapiParam
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCRoutingInfo.cs#L15" />
+
+```csharp
+string WebapiParam { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
+

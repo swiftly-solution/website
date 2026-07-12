@@ -29,7 +29,7 @@ public interface C_OP_RenderLightBeam : CParticleFunctionRenderer, CParticleFunc
 
 ### BounceScale
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLightBeam.cs#L30" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLightBeam.cs#L36" />
 
 ```csharp
 CParticleCollectionFloatInput BounceScale { get; }
@@ -41,7 +41,7 @@ CParticleCollectionFloatInput BounceScale { get; }
 
 ### BrightnessLumensPerMeter
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLightBeam.cs#L24" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLightBeam.cs#L28" />
 
 ```csharp
 CParticleCollectionFloatInput BrightnessLumensPerMeter { get; }
@@ -53,7 +53,7 @@ CParticleCollectionFloatInput BrightnessLumensPerMeter { get; }
 
 ### CastShadows
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLightBeam.cs#L26" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLightBeam.cs#L32" />
 
 ```csharp
 ref bool CastShadows { get; }
@@ -87,9 +87,33 @@ ref ParticleColorBlendType_t ColorBlendType { get; }
 
 - <ApiParam type="ParticleColorBlendType_t" typeHref="/docs/api/schemadefinitions/particlecolorblendtype_t" />
 
+### ConeRotationOffset
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLightBeam.cs#L48" />
+
+```csharp
+CParticleCollectionVecInput ConeRotationOffset { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CParticleCollectionVecInput" typeHref="/docs/api/schemadefinitions/cparticlecollectionvecinput" />
+
+### DebugOrientation
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLightBeam.cs#L56" />
+
+```csharp
+ref bool DebugOrientation { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
+
 ### DynamicBounce
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLightBeam.cs#L28" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLightBeam.cs#L34" />
 
 ```csharp
 ref bool DynamicBounce { get; }
@@ -98,6 +122,54 @@ ref bool DynamicBounce { get; }
 <ApiLabel>Property Value</ApiLabel>
 
 - <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
+
+### FogContribution
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLightBeam.cs#L52" />
+
+```csharp
+CParticleCollectionRendererFloatInput FogContribution { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CParticleCollectionRendererFloatInput" typeHref="/docs/api/schemadefinitions/cparticlecollectionrendererfloatinput" />
+
+### FogLightingMode
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLightBeam.cs#L50" />
+
+```csharp
+ref ParticleLightFogLightingMode_t FogLightingMode { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="ParticleLightFogLightingMode_t" typeHref="/docs/api/schemadefinitions/particlelightfoglightingmode_t" />
+
+### InnerConeAngle
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLightBeam.cs#L44" />
+
+```csharp
+CParticleCollectionFloatInput InnerConeAngle { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CParticleCollectionFloatInput" typeHref="/docs/api/schemadefinitions/cparticlecollectionfloatinput" />
+
+### LightStyleTime
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLightBeam.cs#L26" />
+
+```csharp
+CPerParticleFloatInput LightStyleTime { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CPerParticleFloatInput" typeHref="/docs/api/schemadefinitions/cperparticlefloatinput" />
 
 ### MaxAllowed
 
@@ -111,9 +183,33 @@ ref ushort MaxAllowed { get; }
 
 - <ApiParam type="ushort" typeHref="https://learn.microsoft.com/dotnet/api/system.uint16" />
 
+### NumberOfLightsToCreate
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLightBeam.cs#L30" />
+
+```csharp
+CParticleCollectionFloatInput NumberOfLightsToCreate { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CParticleCollectionFloatInput" typeHref="/docs/api/schemadefinitions/cparticlecollectionfloatinput" />
+
+### OuterConeAngle
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLightBeam.cs#L46" />
+
+```csharp
+CParticleCollectionFloatInput OuterConeAngle { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CParticleCollectionFloatInput" typeHref="/docs/api/schemadefinitions/cparticlecollectionfloatinput" />
+
 ### Range
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLightBeam.cs#L34" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLightBeam.cs#L40" />
 
 ```csharp
 CParticleCollectionFloatInput Range { get; }
@@ -123,9 +219,21 @@ CParticleCollectionFloatInput Range { get; }
 
 - <ApiParam type="CParticleCollectionFloatInput" typeHref="/docs/api/schemadefinitions/cparticlecollectionfloatinput" />
 
+### RenderFilter
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLightBeam.cs#L54" />
+
+```csharp
+CPerParticleFloatInput RenderFilter { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CPerParticleFloatInput" typeHref="/docs/api/schemadefinitions/cperparticlefloatinput" />
+
 ### Skirt
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLightBeam.cs#L32" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLightBeam.cs#L38" />
 
 ```csharp
 CParticleCollectionFloatInput Skirt { get; }
@@ -135,9 +243,21 @@ CParticleCollectionFloatInput Skirt { get; }
 
 - <ApiParam type="CParticleCollectionFloatInput" typeHref="/docs/api/schemadefinitions/cparticlecollectionfloatinput" />
 
+### StrLightStyle
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLightBeam.cs#L24" />
+
+```csharp
+string StrLightStyle { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
+
 ### Thickness
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLightBeam.cs#L36" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderLightBeam.cs#L42" />
 
 ```csharp
 CParticleCollectionFloatInput Thickness { get; }

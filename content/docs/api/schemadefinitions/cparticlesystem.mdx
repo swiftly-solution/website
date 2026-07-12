@@ -68,7 +68,7 @@ ISchemaFixedArray<CHandle<CBaseEntity>> ControlPointEnts { get; }
 
 ### ControlPointNames
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L52" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L56" />
 
 ```csharp
 ISchemaStringFixedArray ControlPointNames { get; }
@@ -80,7 +80,7 @@ ISchemaStringFixedArray ControlPointNames { get; }
 
 ### DataCP
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L54" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L58" />
 
 ```csharp
 ref int DataCP { get; }
@@ -92,7 +92,7 @@ ref int DataCP { get; }
 
 ### DataCPValue
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L56" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L60" />
 
 ```csharp
 ref Vector DataCPValue { get; }
@@ -101,6 +101,18 @@ ref Vector DataCPValue { get; }
 <ApiLabel>Property Value</ApiLabel>
 
 - <ApiParam type="Vector" typeHref="/docs/api/natives/vector" />
+
+### DataStringLocalized
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L42" />
+
+```csharp
+ref bool DataStringLocalized { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
 
 ### EffectIndex
 
@@ -116,7 +128,7 @@ ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> EffectIndex { ge
 
 ### EffectName
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L50" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L54" />
 
 ```csharp
 string EffectName { get; set; }
@@ -152,7 +164,7 @@ ref bool Frozen { get; }
 
 ### NoFreeze
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L44" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L48" />
 
 ```csharp
 ref bool NoFreeze { get; }
@@ -164,7 +176,7 @@ ref bool NoFreeze { get; }
 
 ### NoRamp
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L46" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L50" />
 
 ```csharp
 ref bool NoRamp { get; }
@@ -176,7 +188,7 @@ ref bool NoRamp { get; }
 
 ### NoSave
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L42" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L46" />
 
 ```csharp
 ref bool NoSave { get; }
@@ -236,7 +248,7 @@ string SnapshotFileName { get; set; }
 
 ### StartActive
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L48" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L52" />
 
 ```csharp
 ref bool StartActive { get; }
@@ -270,9 +282,21 @@ ref int StopType { get; }
 
 - <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
 
+### StrDataString
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L44" />
+
+```csharp
+string StrDataString { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
+
 ### Tint
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L60" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L64" />
 
 ```csharp
 ref Color Tint { get; }
@@ -284,7 +308,7 @@ ref Color Tint { get; }
 
 ### TintCP
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L58" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L62" />
 
 ```csharp
 ref int TintCP { get; }
@@ -298,7 +322,7 @@ ref int TintCP { get; }
 
 ### ActiveUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L63" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L67" />
 
 ```csharp
 void ActiveUpdated()
@@ -306,7 +330,7 @@ void ActiveUpdated()
 
 ### AnimateDuringGameplayPauseUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L67" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L71" />
 
 ```csharp
 void AnimateDuringGameplayPauseUpdated()
@@ -314,15 +338,23 @@ void AnimateDuringGameplayPauseUpdated()
 
 ### ControlPointEntsUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L73" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L77" />
 
 ```csharp
 void ControlPointEntsUpdated()
 ```
 
+### DataStringLocalizedUpdated()
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L78" />
+
+```csharp
+void DataStringLocalizedUpdated()
+```
+
 ### EffectIndexUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L68" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L72" />
 
 ```csharp
 void EffectIndexUpdated()
@@ -330,7 +362,7 @@ void EffectIndexUpdated()
 
 ### FreezeTransitionDurationUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L65" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L69" />
 
 ```csharp
 void FreezeTransitionDurationUpdated()
@@ -338,7 +370,7 @@ void FreezeTransitionDurationUpdated()
 
 ### FrozenUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L64" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L68" />
 
 ```csharp
 void FrozenUpdated()
@@ -346,7 +378,7 @@ void FrozenUpdated()
 
 ### NoFreezeUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L75" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L81" />
 
 ```csharp
 void NoFreezeUpdated()
@@ -354,7 +386,7 @@ void NoFreezeUpdated()
 
 ### NoRampUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L76" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L82" />
 
 ```csharp
 void NoRampUpdated()
@@ -362,7 +394,7 @@ void NoRampUpdated()
 
 ### NoSaveUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L74" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L80" />
 
 ```csharp
 void NoSaveUpdated()
@@ -370,7 +402,7 @@ void NoSaveUpdated()
 
 ### PreSimTimeUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L70" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L74" />
 
 ```csharp
 void PreSimTimeUpdated()
@@ -378,7 +410,7 @@ void PreSimTimeUpdated()
 
 ### ServerControlPointAssignmentsUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L72" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L76" />
 
 ```csharp
 void ServerControlPointAssignmentsUpdated()
@@ -386,7 +418,7 @@ void ServerControlPointAssignmentsUpdated()
 
 ### ServerControlPointsUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L71" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L75" />
 
 ```csharp
 void ServerControlPointsUpdated()
@@ -394,7 +426,7 @@ void ServerControlPointsUpdated()
 
 ### SnapshotFileNameUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L62" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L66" />
 
 ```csharp
 void SnapshotFileNameUpdated()
@@ -402,7 +434,7 @@ void SnapshotFileNameUpdated()
 
 ### StartTimeUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L69" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L73" />
 
 ```csharp
 void StartTimeUpdated()
@@ -410,9 +442,17 @@ void StartTimeUpdated()
 
 ### StopTypeUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L66" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L70" />
 
 ```csharp
 void StopTypeUpdated()
+```
+
+### StrDataStringUpdated()
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L79" />
+
+```csharp
+void StrDataStringUpdated()
 ```
 

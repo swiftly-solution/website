@@ -30,7 +30,7 @@ public interface CBasePlayerController : CBaseEntity, CEntityInstance, IEquatabl
 
 ### AvailableEntitySteadyState
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerController.cs#L56" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerController.cs#L58" />
 
 ```csharp
 ref int AvailableEntitySteadyState { get; }
@@ -54,7 +54,7 @@ ref PlayerConnectedState Connected { get; }
 
 ### DesiredFOV
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerController.cs#L64" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerController.cs#L66" />
 
 ```csharp
 ref uint DesiredFOV { get; }
@@ -66,7 +66,7 @@ ref uint DesiredFOV { get; }
 
 ### GamePaused
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerController.cs#L48" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerController.cs#L50" />
 
 ```csharp
 ref bool GamePaused { get; }
@@ -78,7 +78,7 @@ ref bool GamePaused { get; }
 
 ### HasAnySteadyStateEnts
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerController.cs#L58" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerController.cs#L60" />
 
 ```csharp
 ref bool HasAnySteadyStateEnts { get; }
@@ -90,7 +90,7 @@ ref bool HasAnySteadyStateEnts { get; }
 
 ### IgnoreGlobalChat
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerController.cs#L50" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerController.cs#L52" />
 
 ```csharp
 ref ChatIgnoreType_t IgnoreGlobalChat { get; }
@@ -126,7 +126,7 @@ ref bool IsHLTV { get; }
 
 ### IsLowViolence
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerController.cs#L46" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerController.cs#L48" />
 
 ```csharp
 ref bool IsLowViolence { get; }
@@ -150,7 +150,7 @@ ref bool KnownTeamMismatch { get; }
 
 ### LagCompensation
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerController.cs#L42" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerController.cs#L44" />
 
 ```csharp
 ref bool LagCompensation { get; }
@@ -162,7 +162,7 @@ ref bool LagCompensation { get; }
 
 ### LastEntitySteadyState
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerController.cs#L54" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerController.cs#L56" />
 
 ```csharp
 ref float LastEntitySteadyState { get; }
@@ -174,7 +174,7 @@ ref float LastEntitySteadyState { get; }
 
 ### LastPlayerTalkTime
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerController.cs#L52" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerController.cs#L54" />
 
 ```csharp
 ref float LastPlayerTalkTime { get; }
@@ -186,7 +186,7 @@ ref float LastPlayerTalkTime { get; }
 
 ### LerpTime
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerController.cs#L40" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerController.cs#L42" />
 
 ```csharp
 ref float LerpTime { get; }
@@ -196,9 +196,21 @@ ref float LerpTime { get; }
 
 - <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
 
+### MostConnected
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerController.cs#L36" />
+
+```csharp
+ref PlayerConnectedState MostConnected { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="PlayerConnectedState" typeHref="/docs/api/schemadefinitions/playerconnectedstate" />
+
 ### NetworkIDString
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerController.cs#L38" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerController.cs#L40" />
 
 ```csharp
 string NetworkIDString { get; set; }
@@ -210,7 +222,7 @@ string NetworkIDString { get; set; }
 
 ### NoClipEnabled
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerController.cs#L62" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerController.cs#L64" />
 
 ```csharp
 ref bool NoClipEnabled { get; }
@@ -234,7 +246,7 @@ ref CHandle<CBasePlayerPawn> Pawn { get; }
 
 ### PlayerName
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerController.cs#L36" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerController.cs#L38" />
 
 ```csharp
 string PlayerName { get; set; }
@@ -246,7 +258,7 @@ string PlayerName { get; set; }
 
 ### Predict
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerController.cs#L44" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerController.cs#L46" />
 
 ```csharp
 ref bool Predict { get; }
@@ -294,7 +306,7 @@ ref uint SplitScreenSlot { get; }
 
 ### SteamID
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerController.cs#L60" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerController.cs#L62" />
 
 ```csharp
 ref ulong SteamID { get; }
@@ -320,7 +332,7 @@ ref uint TickBase { get; }
 
 ### ConnectedUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerController.cs#L69" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerController.cs#L71" />
 
 ```csharp
 void ConnectedUpdated()
@@ -328,7 +340,7 @@ void ConnectedUpdated()
 
 ### DesiredFOVUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerController.cs#L73" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerController.cs#L76" />
 
 ```csharp
 void DesiredFOVUpdated()
@@ -336,15 +348,23 @@ void DesiredFOVUpdated()
 
 ### KnownTeamMismatchUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerController.cs#L68" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerController.cs#L70" />
 
 ```csharp
 void KnownTeamMismatchUpdated()
 ```
 
-### NoClipEnabledUpdated()
+### MostConnectedUpdated()
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerController.cs#L72" />
+
+```csharp
+void MostConnectedUpdated()
+```
+
+### NoClipEnabledUpdated()
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerController.cs#L75" />
 
 ```csharp
 void NoClipEnabledUpdated()
@@ -352,7 +372,7 @@ void NoClipEnabledUpdated()
 
 ### PawnUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerController.cs#L67" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerController.cs#L69" />
 
 ```csharp
 void PawnUpdated()
@@ -360,7 +380,7 @@ void PawnUpdated()
 
 ### PlayerNameUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerController.cs#L70" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerController.cs#L73" />
 
 ```csharp
 void PlayerNameUpdated()
@@ -382,7 +402,7 @@ void SetPawn(CBasePlayerPawn? pawn)
 
 ### SteamIDUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerController.cs#L71" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerController.cs#L74" />
 
 ```csharp
 void SteamIDUpdated()
@@ -390,7 +410,7 @@ void SteamIDUpdated()
 
 ### TickBaseUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerController.cs#L66" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerController.cs#L68" />
 
 ```csharp
 void TickBaseUpdated()

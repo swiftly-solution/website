@@ -25,7 +25,7 @@ public interface CSceneEventInfo : ISchemaClass<CSceneEventInfo>, ISchemaField, 
 
 ### AnimClip
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L26" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L34" />
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCNmClip> AnimClip { get; }
@@ -37,7 +37,7 @@ ref CStrongHandle<InfoForResourceTypeCNmClip> AnimClip { get; }
 
 ### AnimClipSlot
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L28" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L36" />
 
 ```csharp
 ref CGlobalSymbol AnimClipSlot { get; }
@@ -49,7 +49,7 @@ ref CGlobalSymbol AnimClipSlot { get; }
 
 ### AnimClipSlotWeight
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L30" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L38" />
 
 ```csharp
 ref CGlobalSymbol AnimClipSlotWeight { get; }
@@ -61,7 +61,7 @@ ref CGlobalSymbol AnimClipSlotWeight { get; }
 
 ### ClientSide
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L46" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L54" />
 
 ```csharp
 ref bool ClientSide { get; }
@@ -73,7 +73,7 @@ ref bool ClientSide { get; }
 
 ### HasArrived
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L32" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L40" />
 
 ```csharp
 ref bool HasArrived { get; }
@@ -85,7 +85,7 @@ ref bool HasArrived { get; }
 
 ### IsGesture
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L38" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L46" />
 
 ```csharp
 ref bool IsGesture { get; }
@@ -94,6 +94,54 @@ ref bool IsGesture { get; }
 <ApiLabel>Property Value</ApiLabel>
 
 - <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
+
+### LastAccumulatedTime
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L26" />
+
+```csharp
+ref float LastAccumulatedTime { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
+
+### LastCycle
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L32" />
+
+```csharp
+ref float LastCycle { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
+
+### LastJumpFromTime
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L28" />
+
+```csharp
+ref float LastJumpFromTime { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
+
+### LastJumpToTime
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L30" />
+
+```csharp
+ref float LastJumpToTime { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
 
 ### Layer
 
@@ -109,7 +157,7 @@ ref int Layer { get; }
 
 ### Next
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L36" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L44" />
 
 ```csharp
 GameTime_t Next { get; }
@@ -133,7 +181,7 @@ ref int Priority { get; }
 
 ### SceneEventId
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L44" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L52" />
 
 ```csharp
 SceneEventId_t SceneEventId { get; }
@@ -157,7 +205,7 @@ HSequence Sequence { get; }
 
 ### ShouldRemove
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L40" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L48" />
 
 ```csharp
 ref bool ShouldRemove { get; }
@@ -169,7 +217,7 @@ ref bool ShouldRemove { get; }
 
 ### Started
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L48" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L56" />
 
 ```csharp
 ref bool Started { get; }
@@ -181,7 +229,7 @@ ref bool Started { get; }
 
 ### Target
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L42" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L50" />
 
 ```csharp
 ref CHandle<CBaseEntity> Target { get; }
@@ -193,7 +241,7 @@ ref CHandle<CBaseEntity> Target { get; }
 
 ### Type
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L34" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L42" />
 
 ```csharp
 ref int Type { get; }

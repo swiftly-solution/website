@@ -25,7 +25,7 @@ public interface AggregateSceneObject_t : ISchemaClass<AggregateSceneObject_t>, 
 
 ### AggregateMeshes
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateSceneObject_t.cs#L28" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateSceneObject_t.cs#L30" />
 
 ```csharp
 ref CUtlVector<AggregateMeshInfo_t> AggregateMeshes { get; }
@@ -61,7 +61,7 @@ ref ObjectTypeFlags_t AnyFlags { get; }
 
 ### FragmentTransforms
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateSceneObject_t.cs#L34" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateSceneObject_t.cs#L36" />
 
 ```csharp
 ref CUtlVector<matrix3x4_t> FragmentTransforms { get; }
@@ -97,7 +97,7 @@ ref short Layer { get; }
 
 ### LodSetups
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateSceneObject_t.cs#L30" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateSceneObject_t.cs#L32" />
 
 ```csharp
 ref CUtlVector<AggregateLODSetup_t> LodSetups { get; }
@@ -109,7 +109,7 @@ ref CUtlVector<AggregateLODSetup_t> LodSetups { get; }
 
 ### RenderableModel
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateSceneObject_t.cs#L36" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateSceneObject_t.cs#L38" />
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCModel> RenderableModel { get; }
@@ -131,9 +131,21 @@ ref short VertexAlbedoStream { get; }
 
 - <ApiParam type="short" typeHref="https://learn.microsoft.com/dotnet/api/system.int16" />
 
+### VertexEmissiveStream
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateSceneObject_t.cs#L28" />
+
+```csharp
+ref short VertexEmissiveStream { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="short" typeHref="https://learn.microsoft.com/dotnet/api/system.int16" />
+
 ### VisClusterMembership
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateSceneObject_t.cs#L32" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateSceneObject_t.cs#L34" />
 
 ```csharp
 ref CUtlVector<ushort> VisClusterMembership { get; }

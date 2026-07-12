@@ -32,7 +32,7 @@ public interface CFuncRotating : CBaseModelEntity, CBaseEntity, CEntityInstance,
 
 ### AccelDecel
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L43" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L46" />
 
 ```csharp
 ref bool AccelDecel { get; }
@@ -44,7 +44,7 @@ ref bool AccelDecel { get; }
 
 ### Attenuation
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L29" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L31" />
 
 ```csharp
 ref float Attenuation { get; }
@@ -56,7 +56,7 @@ ref float Attenuation { get; }
 
 ### BlockDamage
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L37" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L39" />
 
 ```csharp
 ref float BlockDamage { get; }
@@ -68,7 +68,7 @@ ref float BlockDamage { get; }
 
 ### ClientAngles
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L53" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L56" />
 
 ```csharp
 ref QAngle ClientAngles { get; }
@@ -80,7 +80,7 @@ ref QAngle ClientAngles { get; }
 
 ### ClientOrigin
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L51" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L54" />
 
 ```csharp
 ref Vector ClientOrigin { get; }
@@ -92,7 +92,7 @@ ref Vector ClientOrigin { get; }
 
 ### FanFriction
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L27" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L29" />
 
 ```csharp
 ref float FanFriction { get; }
@@ -116,7 +116,7 @@ SchemaUntypedField LocalRotationVector { get; }
 
 ### MaxSpeed
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L35" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L37" />
 
 ```csharp
 ref float MaxSpeed { get; }
@@ -128,15 +128,15 @@ ref float MaxSpeed { get; }
 
 ### NoiseRunning
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L39" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L42" />
 
 ```csharp
-string NoiseRunning { get; set; }
+SchemaUntypedField NoiseRunning { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
+- <ApiParam type="SchemaUntypedField" typeHref="/docs/api/schemas/schemauntypedfield" />
 
 ### OnReachedStart
 
@@ -176,7 +176,7 @@ ref CEntityIOOutput OnStopped { get; }
 
 ### PrevLocalAngles
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L45" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L48" />
 
 ```csharp
 ref QAngle PrevLocalAngles { get; }
@@ -188,7 +188,7 @@ ref QAngle PrevLocalAngles { get; }
 
 ### Reversed
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L41" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L44" />
 
 ```csharp
 ref bool Reversed { get; }
@@ -198,9 +198,21 @@ ref bool Reversed { get; }
 
 - <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
 
+### Speed
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L27" />
+
+```csharp
+ref float Speed { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
+
 ### Start
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L47" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L50" />
 
 ```csharp
 ref QAngle Start { get; }
@@ -212,7 +224,7 @@ ref QAngle Start { get; }
 
 ### StopAtStartPos
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L49" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L52" />
 
 ```csharp
 ref bool StopAtStartPos { get; }
@@ -224,7 +236,7 @@ ref bool StopAtStartPos { get; }
 
 ### TargetSpeed
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L33" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L35" />
 
 ```csharp
 ref float TargetSpeed { get; }
@@ -236,7 +248,7 @@ ref float TargetSpeed { get; }
 
 ### Volume
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L31" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L33" />
 
 ```csharp
 ref float Volume { get; }

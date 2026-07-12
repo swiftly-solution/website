@@ -23,9 +23,21 @@ public interface CChoreoComponent : ISchemaClass<CChoreoComponent>, ISchemaField
 
 ## Properties
 
+### ActiveExternalChoreoGraphSlotID
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChoreoComponent.cs#L24" />
+
+```csharp
+ref CGlobalSymbol ActiveExternalChoreoGraphSlotID { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CGlobalSymbol" typeHref="/docs/api/natives/cglobalsymbol" />
+
 ### AllowResponsesEndTime
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChoreoComponent.cs#L26" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChoreoComponent.cs#L28" />
 
 ```csharp
 GameTime_t AllowResponsesEndTime { get; }
@@ -35,9 +47,21 @@ GameTime_t AllowResponsesEndTime { get; }
 
 - <ApiParam type="GameTime_t" typeHref="/docs/api/schemadefinitions/gametime_t" />
 
-### NextSceneEventId
+### ExernalChoreoGraphCount
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChoreoComponent.cs#L22" />
+
+```csharp
+ref int ExernalChoreoGraphCount { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
+
+### NextSceneEventId
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChoreoComponent.cs#L26" />
 
 ```csharp
 SceneEventId_t NextSceneEventId { get; }
@@ -58,18 +82,6 @@ ref CHandle<CBaseModelEntity> Owner { get; }
 <ApiLabel>Property Value</ApiLabel>
 
 - <ApiParam type="CHandle&lt;CBaseModelEntity&gt;" typeHref="/docs/api/natives/chandlet" />
-
-### UpdateLayerPriorities
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChoreoComponent.cs#L24" />
-
-```csharp
-ref bool UpdateLayerPriorities { get; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
 
 ### __m_pChainEntity
 

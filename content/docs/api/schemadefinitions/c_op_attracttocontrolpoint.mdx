@@ -29,7 +29,7 @@ public interface C_OP_AttractToControlPoint : CParticleFunctionForce, CParticleF
 
 ### ApplyMinForce
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_AttractToControlPoint.cs#L28" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_AttractToControlPoint.cs#L30" />
 
 ```csharp
 ref bool ApplyMinForce { get; }
@@ -53,7 +53,7 @@ ref Vector ComponentScale { get; }
 
 ### FalloffPower
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_AttractToControlPoint.cs#L22" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_AttractToControlPoint.cs#L24" />
 
 ```csharp
 ref float FalloffPower { get; }
@@ -77,7 +77,7 @@ CPerParticleFloatInput ForceAmount { get; }
 
 ### ForceAmountMin
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_AttractToControlPoint.cs#L26" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_AttractToControlPoint.cs#L28" />
 
 ```csharp
 CPerParticleFloatInput ForceAmountMin { get; }
@@ -87,9 +87,21 @@ CPerParticleFloatInput ForceAmountMin { get; }
 
 - <ApiParam type="CPerParticleFloatInput" typeHref="/docs/api/schemadefinitions/cperparticlefloatinput" />
 
+### MinimumDistance
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_AttractToControlPoint.cs#L22" />
+
+```csharp
+CPerParticleFloatInput MinimumDistance { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CPerParticleFloatInput" typeHref="/docs/api/schemadefinitions/cperparticlefloatinput" />
+
 ### TransformInput
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_AttractToControlPoint.cs#L24" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_AttractToControlPoint.cs#L26" />
 
 ```csharp
 CParticleTransformInput TransformInput { get; }

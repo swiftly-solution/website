@@ -27,7 +27,7 @@ public interface AI_BaseNPC_DebugSnapshotData_t : DebugSnapshotBaseStructuredDat
 
 ### Anim_events
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AI_BaseNPC_DebugSnapshotData_t.cs#L32" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AI_BaseNPC_DebugSnapshotData_t.cs#L34" />
 
 ```csharp
 ref CUtlVector<CGlobalSymbol> Anim_events { get; }
@@ -37,9 +37,21 @@ ref CUtlVector<CGlobalSymbol> Anim_events { get; }
 
 - <ApiParam type="CUtlVector&lt;CGlobalSymbol&gt;" typeHref="/docs/api/natives/cutlvectort" />
 
+### Animgraph
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AI_BaseNPC_DebugSnapshotData_t.cs#L36" />
+
+```csharp
+AI_BaseNPCAnimGraph_DebugSnapshotData_t Animgraph { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="AI_BaseNPCAnimGraph_DebugSnapshotData_t" typeHref="/docs/api/schemadefinitions/ai_basenpcanimgraph_debugsnapshotdata_t" />
+
 ### Conditions
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AI_BaseNPC_DebugSnapshotData_t.cs#L30" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AI_BaseNPC_DebugSnapshotData_t.cs#L32" />
 
 ```csharp
 ref CUtlVector<CGlobalSymbol> Conditions { get; }
@@ -61,29 +73,41 @@ ref CHandle<CBaseEntity> Current_enemy { get; }
 
 - <ApiParam type="CHandle&lt;CBaseEntity&gt;" typeHref="/docs/api/natives/chandlet" />
 
-### E_action_body_section
+### FacingServices
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AI_BaseNPC_DebugSnapshotData_t.cs#L34" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AI_BaseNPC_DebugSnapshotData_t.cs#L42" />
 
 ```csharp
-ref CGlobalSymbol E_action_body_section { get; }
+AI_FacingServices_DebugSnapshotData_t FacingServices { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CGlobalSymbol" typeHref="/docs/api/natives/cglobalsymbol" />
+- <ApiParam type="AI_FacingServices_DebugSnapshotData_t" typeHref="/docs/api/schemadefinitions/ai_facingservices_debugsnapshotdata_t" />
 
-### E_movement_body_section
+### MotorServices
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AI_BaseNPC_DebugSnapshotData_t.cs#L36" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AI_BaseNPC_DebugSnapshotData_t.cs#L40" />
 
 ```csharp
-ref CGlobalSymbol E_movement_body_section { get; }
+AI_MotorServices_DebugSnapshotData_t MotorServices { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="CGlobalSymbol" typeHref="/docs/api/natives/cglobalsymbol" />
+- <ApiParam type="AI_MotorServices_DebugSnapshotData_t" typeHref="/docs/api/schemadefinitions/ai_motorservices_debugsnapshotdata_t" />
+
+### Navigator
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AI_BaseNPC_DebugSnapshotData_t.cs#L38" />
+
+```csharp
+AI_Navigator_DebugSnapshotData_t Navigator { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="AI_Navigator_DebugSnapshotData_t" typeHref="/docs/api/schemadefinitions/ai_navigator_debugsnapshotdata_t" />
 
 ### Npc_state
 
@@ -121,24 +145,36 @@ ref CGlobalSymbol S_current_task { get; }
 
 - <ApiParam type="CGlobalSymbol" typeHref="/docs/api/natives/cglobalsymbol" />
 
-### S_schedule_fail_reason
+### S_last_task_end_location
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AI_BaseNPC_DebugSnapshotData_t.cs#L28" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AI_BaseNPC_DebugSnapshotData_t.cs#L30" />
 
 ```csharp
-string S_schedule_fail_reason { get; set; }
+string S_last_task_end_location { get; set; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
 - <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
 
-### S_schedule_interrupt_reason
+### S_npc_current_movement
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AI_BaseNPC_DebugSnapshotData_t.cs#L28" />
+
+```csharp
+string S_npc_current_movement { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
+
+### S_prev_schedule
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AI_BaseNPC_DebugSnapshotData_t.cs#L26" />
 
 ```csharp
-string S_schedule_interrupt_reason { get; set; }
+string S_prev_schedule { get; set; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>

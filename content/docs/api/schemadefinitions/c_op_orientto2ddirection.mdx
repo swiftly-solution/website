@@ -29,7 +29,7 @@ public interface C_OP_OrientTo2dDirection : CParticleFunctionOperator, CParticle
 
 ### FieldOutput
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OrientTo2dDirection.cs#L22" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OrientTo2dDirection.cs#L24" />
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -39,9 +39,21 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 - <ApiParam type="ParticleAttributeIndex_t" typeHref="/docs/api/schemadefinitions/particleattributeindex_t" />
 
-### RotOffset
+### Input
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OrientTo2dDirection.cs#L18" />
+
+```csharp
+CPerParticleVecInput Input { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CPerParticleVecInput" typeHref="/docs/api/schemadefinitions/cperparticlevecinput" />
+
+### RotOffset
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OrientTo2dDirection.cs#L20" />
 
 ```csharp
 ref float RotOffset { get; }
@@ -53,7 +65,7 @@ ref float RotOffset { get; }
 
 ### SpinStrength
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OrientTo2dDirection.cs#L20" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OrientTo2dDirection.cs#L22" />
 
 ```csharp
 ref float SpinStrength { get; }

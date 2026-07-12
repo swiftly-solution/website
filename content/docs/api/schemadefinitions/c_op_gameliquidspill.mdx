@@ -29,7 +29,7 @@ public interface C_OP_GameLiquidSpill : CParticleFunctionRenderer, CParticleFunc
 
 ### AmountAttribute
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_GameLiquidSpill.cs#L22" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_GameLiquidSpill.cs#L26" />
 
 ```csharp
 ParticleAttributeIndex_t AmountAttribute { get; }
@@ -38,6 +38,18 @@ ParticleAttributeIndex_t AmountAttribute { get; }
 <ApiLabel>Property Value</ApiLabel>
 
 - <ApiParam type="ParticleAttributeIndex_t" typeHref="/docs/api/schemadefinitions/particleattributeindex_t" />
+
+### CheckExposedToSky
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_GameLiquidSpill.cs#L24" />
+
+```csharp
+ref bool CheckExposedToSky { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
 
 ### ExpirationTime
 
@@ -57,6 +69,18 @@ CParticleCollectionFloatInput ExpirationTime { get; }
 
 ```csharp
 CParticleCollectionFloatInput LiquidContentsField { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="CParticleCollectionFloatInput" typeHref="/docs/api/schemadefinitions/cparticlecollectionfloatinput" />
+
+### Radius
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_GameLiquidSpill.cs#L22" />
+
+```csharp
+CParticleCollectionFloatInput Radius { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>

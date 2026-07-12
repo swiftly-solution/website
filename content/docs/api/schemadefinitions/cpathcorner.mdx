@@ -32,7 +32,7 @@ public interface CPathCorner : CPointEntity, CBaseEntity, CEntityInstance, IEqua
 
 ### OnPass
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathCorner.cs#L22" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathCorner.cs#L24" />
 
 ```csharp
 ref CEntityIOOutput OnPass { get; }
@@ -44,7 +44,7 @@ ref CEntityIOOutput OnPass { get; }
 
 ### Radius
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathCorner.cs#L20" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathCorner.cs#L22" />
 
 ```csharp
 ref float Radius { get; }
@@ -54,9 +54,21 @@ ref float Radius { get; }
 
 - <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
 
-### Wait
+### Speed
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathCorner.cs#L18" />
+
+```csharp
+ref float Speed { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
+
+### Wait
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathCorner.cs#L20" />
 
 ```csharp
 ref float Wait { get; }
