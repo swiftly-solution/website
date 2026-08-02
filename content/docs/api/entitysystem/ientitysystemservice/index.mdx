@@ -1,5 +1,5 @@
 ---
-title: IEntitySystemService
+title: Interface IEntitySystemService
 ---
 
 # Interface IEntitySystemService
@@ -39,9 +39,36 @@ T CreateEntity<T>() where T : class, ISchemaClass<T>
 - <ApiParam type="ArgumentException" typeHref="https://learn.microsoft.com/dotnet/api/system.argumentexception" /> — Thrown when failed to create entity by class or class doesn't have a designer name.
 - <ApiParam type="InvalidOperationException" typeHref="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception" /> — Thrown when called too early that entity system is not valid at this moment.
 
+### CreateEntity\<T\>(int)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L43" />
+
+Create an entity by class.
+
+```csharp
+T CreateEntity<T>(int forcedIndex) where T : class, ISchemaClass<T>
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="forcedIndex" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> — Forced entity index.
+
+<ApiLabel>Returns</ApiLabel>
+
+- <ApiParam type="T" /> — Created entity.
+
+<ApiLabel>Type Parameters</ApiLabel>
+
+- <ApiParam name="T" /> — Entity type.
+
+<ApiLabel>Exceptions</ApiLabel>
+
+- <ApiParam type="ArgumentException" typeHref="https://learn.microsoft.com/dotnet/api/system.argumentexception" /> — Thrown when failed to create entity by class or class doesn't have a designer name.
+- <ApiParam type="InvalidOperationException" typeHref="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception" /> — Thrown when called too early that entity system is not valid at this moment.
+
 ### CreateEntityByDesignerName\<T\>(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L42" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L53" />
 
 Create an entity by designer name.
 
@@ -66,9 +93,37 @@ T CreateEntityByDesignerName<T>(string designerName) where T : class, ISchemaCla
 - <ApiParam type="ArgumentException" typeHref="https://learn.microsoft.com/dotnet/api/system.argumentexception" /> — Thrown when failed to create entity by designer name or designer name is invalid.
 - <ApiParam type="InvalidOperationException" typeHref="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception" /> — Thrown when called too early that entity system is not valid at this moment.
 
+### CreateEntityByDesignerName\<T\>(string, int)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L64" />
+
+Create an entity by designer name.
+
+```csharp
+T CreateEntityByDesignerName<T>(string designerName, int forcedIndex) where T : class, ISchemaClass<T>
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="designerName" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — Designer name.
+- <ApiParam name="forcedIndex" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> — Forced entity index.
+
+<ApiLabel>Returns</ApiLabel>
+
+- <ApiParam type="T" /> — Created entity.
+
+<ApiLabel>Type Parameters</ApiLabel>
+
+- <ApiParam name="T" /> — Entity type.
+
+<ApiLabel>Exceptions</ApiLabel>
+
+- <ApiParam type="ArgumentException" typeHref="https://learn.microsoft.com/dotnet/api/system.argumentexception" /> — Thrown when failed to create entity by designer name or designer name is invalid.
+- <ApiParam type="InvalidOperationException" typeHref="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception" /> — Thrown when called too early that entity system is not valid at this moment.
+
 ### GetAllEntities()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L65" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L87" />
 
 Get all entities.
 
@@ -86,7 +141,7 @@ IEnumerable<CEntityInstance> GetAllEntities()
 
 ### GetAllEntitiesByClass\<T\>()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L73" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L95" />
 
 Get all entities by class.
 
@@ -108,7 +163,7 @@ IEnumerable<T> GetAllEntitiesByClass<T>() where T : class, ISchemaClass<T>
 
 ### GetAllEntitiesByDesignerName\<T\>(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L82" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L104" />
 
 Get all entities by designer name, and cast to type T.
 
@@ -134,7 +189,7 @@ IEnumerable<T> GetAllEntitiesByDesignerName<T>(string designerName) where T : cl
 
 ### GetEntityByAddress\<T\>(nint)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L111" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L133" />
 
 Get an entity by address.
 
@@ -161,7 +216,7 @@ T? GetEntityByAddress<T>(nint address) where T : class, ISchemaClass<T>
 
 ### GetEntityByAddress(nint)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L119" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L141" />
 
 Get an entity by address.
 
@@ -183,7 +238,7 @@ CEntityInstance? GetEntityByAddress(nint address)
 
 ### GetEntityByIndex\<T\>(uint)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L92" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L114" />
 
 Get an entity by index.
 
@@ -210,7 +265,7 @@ T? GetEntityByIndex<T>(uint index) where T : class, ISchemaClass<T>
 
 ### GetEntityByIndex(uint)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L101" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L123" />
 
 Get an entity by index.
 The object return will have the actual type of the entity. You can cast it to the actual type.
@@ -233,7 +288,7 @@ CEntityInstance? GetEntityByIndex(uint index)
 
 ### GetGameRules()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L58" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L80" />
 
 Get the game rules entity.
 
@@ -251,7 +306,7 @@ CCSGameRules? GetGameRules()
 
 ### GetRefEHandle\<T\>(T)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L51" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L73" />
 
 Get a reference handle to the entity.
 
@@ -277,7 +332,7 @@ CHandle<T> GetRefEHandle<T>(T entity) where T : class, ISchemaClass<T>
 
 ### HookEntityInput\<T\>(string, EntityInputEventHandler)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L159" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L181" />
 
 Hooks an input of the specified entity type to a callback function.
 
@@ -305,7 +360,7 @@ This method allows you to attach a handler to a specific input of an entity. The
 
 ### HookEntityInput(string, string, EntityInputEventHandler)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L170" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L192" />
 
 Hooks an input of the specified entity type to a callback function.
 
@@ -330,7 +385,7 @@ This method allows you to attach a handler to a specific input of an entity. The
 
 ### HookEntityOutput\<T\>(string, EntityOutputEventHandler)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L130" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L152" />
 
 Hooks an output of the specified entity type to a callback function.
 
@@ -358,7 +413,7 @@ This method allows you to attach a handler to a specific output of an entity. Th
 
 ### HookEntityOutput(string, string, EntityOutputEventHandler)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L141" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L163" />
 
 Hooks an output of the specified entity type to a callback function.
 
@@ -383,7 +438,7 @@ This method allows you to attach a handler to a specific output of an entity. Th
 
 ### UnhookEntityInput(Guid)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L177" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L199" />
 
 Removes the association between the specified entity input and its handler.
 
@@ -401,7 +456,7 @@ bool UnhookEntityInput(Guid guid)
 
 ### UnhookEntityOutput(Guid)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L148" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L170" />
 
 Removes the association between the specified entity output and its handler.
 

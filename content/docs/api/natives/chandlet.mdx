@@ -61,7 +61,7 @@ public readonly uint EntityIndex { get; }
 
 ### Invalid
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CHandle.cs#L47" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CHandle.cs#L46" />
 
 ```csharp
 public static CHandle<T> Invalid { get; }
@@ -123,7 +123,7 @@ public T? Value { readonly get; set; }
 
 ### Equals(CHandle\<T\>?)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CHandle.cs#L74" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CHandle.cs#L73" />
 
 ```csharp
 public readonly bool Equals(CHandle<T>? other)
@@ -139,7 +139,7 @@ public readonly bool Equals(CHandle<T>? other)
 
 ### Equals(object?)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CHandle.cs#L75" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CHandle.cs#L74" />
 
 Indicates whether this instance and a specified object are equal.
 
@@ -157,7 +157,7 @@ public override readonly bool Equals(object? obj)
 
 ### FromPackedInt(int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CHandle.cs#L49" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CHandle.cs#L48" />
 
 ```csharp
 public static CHandle<T> FromPackedInt(int packed_handle)
@@ -173,7 +173,7 @@ public static CHandle<T> FromPackedInt(int packed_handle)
 
 ### GetHashCode()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CHandle.cs#L76" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CHandle.cs#L75" />
 
 Returns the hash code for this instance.
 
@@ -187,7 +187,7 @@ public override readonly int GetHashCode()
 
 ### ToPackedInt()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CHandle.cs#L65" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CHandle.cs#L64" />
 
 ```csharp
 public readonly int ToPackedInt()
@@ -199,7 +199,7 @@ public readonly int ToPackedInt()
 
 ### ToString()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CHandle.cs#L77" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CHandle.cs#L76" />
 
 Returns the fully qualified type name of this instance.
 
@@ -215,7 +215,7 @@ public override readonly string ToString()
 
 ### operator ==(CHandle\<T\>, CHandle\<T\>)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CHandle.cs#L70" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CHandle.cs#L69" />
 
 ```csharp
 public static bool operator ==(CHandle<T> left, CHandle<T> right)
@@ -232,7 +232,7 @@ public static bool operator ==(CHandle<T> left, CHandle<T> right)
 
 ### implicit operator T(CHandle\<T\>)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CHandle.cs#L72" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CHandle.cs#L71" />
 
 ```csharp
 public static implicit operator T(CHandle<T> handle)
@@ -248,7 +248,7 @@ public static implicit operator T(CHandle<T> handle)
 
 ### operator !=(CHandle\<T\>, CHandle\<T\>)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CHandle.cs#L71" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Natives/Structs/CHandle.cs#L70" />
 
 ```csharp
 public static bool operator !=(CHandle<T> left, CHandle<T> right)

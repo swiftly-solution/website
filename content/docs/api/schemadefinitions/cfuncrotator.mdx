@@ -32,7 +32,7 @@ public interface CFuncRotator : CBaseModelEntity, CBaseEntity, CEntityInstance, 
 
 ### CurrentAngle
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L91" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L88" />
 
 ```csharp
 ref float CurrentAngle { get; }
@@ -68,15 +68,15 @@ ref CUtlVector<Quaternion> LocalRotationHistory { get; }
 
 ### LoopSound
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L84" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L82" />
 
 ```csharp
-SchemaUntypedField LoopSound { get; }
+ref CGameSoundEventName LoopSound { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="SchemaUntypedField" typeHref="/docs/api/schemas/schemauntypedfield" />
+- <ApiParam type="CGameSoundEventName" typeHref="/docs/api/natives/cgamesoundeventname" />
 
 ### MaxYawRotation
 
@@ -260,7 +260,7 @@ ref CFuncRotator__Rotate_t RotateType { get; }
 
 ### RotationAxis
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L93" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L90" />
 
 ```csharp
 ref CFuncRotator__RotationAxis_t RotationAxis { get; }
@@ -332,7 +332,7 @@ ref float Speed { get; }
 
 ### SpeedDriftFromOverRotate
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L95" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L92" />
 
 ```csharp
 ref float SpeedDriftFromOverRotate { get; }
@@ -344,15 +344,15 @@ ref float SpeedDriftFromOverRotate { get; }
 
 ### StartSound
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L81" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L80" />
 
 ```csharp
-SchemaUntypedField StartSound { get; }
+ref CGameSoundEventName StartSound { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="SchemaUntypedField" typeHref="/docs/api/schemas/schemauntypedfield" />
+- <ApiParam type="CGameSoundEventName" typeHref="/docs/api/natives/cgamesoundeventname" />
 
 ### StartSpeed
 
@@ -380,15 +380,15 @@ ref bool StartedRotating { get; }
 
 ### StopSound
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L87" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L84" />
 
 ```csharp
-SchemaUntypedField StopSound { get; }
+ref CGameSoundEventName StopSound { get; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="SchemaUntypedField" typeHref="/docs/api/schemas/schemauntypedfield" />
+- <ApiParam type="CGameSoundEventName" typeHref="/docs/api/natives/cgamesoundeventname" />
 
 ### StrRotatorTarget
 
@@ -404,7 +404,7 @@ string StrRotatorTarget { get; set; }
 
 ### TargetAngle
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L89" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotator.cs#L86" />
 
 ```csharp
 ref float TargetAngle { get; }
