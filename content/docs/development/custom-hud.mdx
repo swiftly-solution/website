@@ -149,6 +149,25 @@ bool enabledForPlayer = hud.IsInputCaptureEnabledForPlayer(playerId);
 hud.SetInputCaptureEnabledForPlayer(playerId, false);
 ```
 
+## Async Variants
+
+Each thread-unsafe `CCSCustomHudLayout` extension method described above has a corresponding `Async` variant that returns a `Task`. Use these variants from background tasks or other asynchronous code. They run immediately when called on the game thread and otherwise schedule the operation on the game thread.
+
+```csharp
+await hud.SetDialogVariableStringAsync("text1", "dynamic", "Global text");
+
+await hud.SetHasClassForPlayerAsync(
+    playerId,
+    "root",
+    "highlight",
+    EHudPanelClassStatus_t.k_eHudPanelClassStatus_HasClass
+);
+
+await hud.SetInputCaptureEnabledForPlayerAsync(playerId, true);
+```
+
+The async methods use the same parameters and behavior as their synchronous counterparts. This includes `SetDialogVariableStringAsync`, `SetDialogVariableStringForPlayerAsync`, `RemoveDialogVariableStringForPlayerAsync`, `SetHasClassAsync`, `SetHasClassForPlayerAsync`, `SetInputCaptureEnabledAsync`, and `SetInputCaptureEnabledForPlayerAsync`. Getter methods remain synchronous.
+
 ## Method Summary
 
 | Method | Description |
@@ -167,4 +186,4 @@ hud.SetInputCaptureEnabledForPlayer(playerId, false);
 | `SetInputCaptureEnabledForPlayer` | Sets a player's input capture state |
 | `IsInputCaptureEnabledForPlayer` | Reads a player's input capture state |
 
-To update the HUD from a background task, first use `Core.Scheduler` to switch back to the game thread. See [Thread Safety](/docs/development/thread-safety) for more information.
+Synchronous methods that change HUD state are thread-unsafe. From a background task, prefer and `await` their async variants instead of calling the synchronous methods directly. See [Thread Safety](/docs/development/thread-safety) for more information.
