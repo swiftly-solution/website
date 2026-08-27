@@ -21,6 +21,7 @@
     "profiler",
     "database",
     "soundevents",
+    "custom-hud",
     "steamworks"
   ]
 }
