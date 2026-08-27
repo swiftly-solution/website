@@ -18,7 +18,7 @@ The examples below use the following XML layout:
     <styles>
         <include src="s2r://panorama/styles/custom_game/example.vcss_c" />
     </styles>
-    <Panel class="example_class" id="root">
+    <Panel class="example_class" id="main_panel">
         <Label class="example_label" id="text1" text="{s:dynamic}" />
     </Panel>
 </root>
@@ -92,13 +92,13 @@ You can dynamically control whether a HUD element has a particular CSS class. `p
 
 ```csharp
 hud.SetHasClass(
-    "root",
+    "main_panel",
     "highlight",
     EHudPanelClassStatus_t.k_eHudPanelClassStatus_HasClass
 );
 
 EHudPanelClassStatus_t globalClassStatus = hud.GetHasClass(
-    "root",
+    "main_panel",
     "highlight"
 );
 ```
@@ -110,14 +110,14 @@ const int playerId = 0;
 
 hud.SetHasClassForPlayer(
     playerId,
-    "root",
+    "main_panel",
     "highlight",
     EHudPanelClassStatus_t.k_eHudPanelClassStatus_DoesNotHaveClass
 );
 
 EHudPanelClassStatus_t playerClassStatus = hud.GetHasClassForPlayer(
     playerId,
-    "root",
+    "main_panel",
     "highlight"
 );
 ```
@@ -158,7 +158,7 @@ await hud.SetDialogVariableStringAsync("text1", "dynamic", "Global text");
 
 await hud.SetHasClassForPlayerAsync(
     playerId,
-    "root",
+    "main_panel",
     "highlight",
     EHudPanelClassStatus_t.k_eHudPanelClassStatus_HasClass
 );
