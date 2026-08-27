@@ -20,6 +20,9 @@ The examples below use the following XML layout:
     </styles>
     <Panel class="example_class" id="main_panel">
         <Label class="example_label" id="text1" text="{s:dynamic}" />
+        <Button class="example_button" id="action_button">
+            <Label text="Click me" />
+        </Button>
     </Panel>
 </root>
 ```
@@ -148,6 +151,44 @@ bool enabledForPlayer = hud.IsInputCaptureEnabledForPlayer(playerId);
 // Disable input capture for this player when the interaction is complete.
 hud.SetInputCaptureEnabledForPlayer(playerId, false);
 ```
+
+## Handling Button Clicks
+
+When input capture is enabled, clicking a button in the layout triggers `Core.Event.OnCustomHudClicked`. Subscribe to the event when the plugin loads and unsubscribe when it unloads:
+
+```csharp
+public override void Load(bool hotReload)
+{
+    Core.Event.OnCustomHudClicked += OnCustomHudClicked;
+}
+
+public override void Unload(bool hotReload)
+{
+    Core.Event.OnCustomHudClicked -= OnCustomHudClicked;
+}
+
+private void OnCustomHudClicked(IOnCustomHudClickedEvent @event)
+{
+    if (@event.ButtonId != "action_button")
+    {
+        return;
+    }
+
+    Console.WriteLine($"Player {@event.PlayerId} clicked {@event.ButtonId}");
+}
+```
+
+The event provides the following properties:
+
+| Property | Description |
+| --- | --- |
+| `PlayerId` | The ID of the player who clicked the button |
+| `ButtonId` | The clicked button's `id` from the Panorama XML layout |
+| `CustomHudLayout` | The `CCSCustomHudLayout` entity that contains the clicked button |
+
+`OnCustomHudClicked` receives clicks from every Custom HUD layout. If a plugin creates multiple layouts, compare the layout entity you stored before handling the button ID.
+
+See [Core Events](/docs/development/core-events) for attribute-based listeners and general event subscription behavior.
 
 ## Async Variants
 
