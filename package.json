@@ -10,7 +10,7 @@
     "dev": "next dev --turbo",
     "start": "next start",
     "postinstall": "fumadocs-mdx",
-    "search:sync": "ts-node scripts/sync-content.ts",
+    "search:sync": "ts-node --cwd . ./scripts/sync-content.ts",
     "lint": "eslint"
   },
   "dependencies": {
