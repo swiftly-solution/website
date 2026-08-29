@@ -130,12 +130,12 @@ string? GetDialogVariableString(string panelId, string variableName)
 
 <ApiLabel>Parameters</ApiLabel>
 
-- <ApiParam name="panelId" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The id attribute of the target hud element.
-- <ApiParam name="variableName" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The dialog variable string name. Example: the variable name of "{s:dynamic}" is "dynamic".
+- <ApiParam name="panelId" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> - The id attribute of the target hud element.
+- <ApiParam name="variableName" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> - The dialog variable string name. Example: the variable name of "{s:dynamic}" is "dynamic".
 
 <ApiLabel>Returns</ApiLabel>
 
-- <ApiParam type="string?" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The value. Return null if the value is not set.
+- <ApiParam type="string?" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> - The value. Return null if the value is not set.
 
 ### GetDialogVariableStringForPlayer(int, string, string)
 
@@ -150,13 +150,13 @@ string? GetDialogVariableStringForPlayer(int playerId, string panelId, string va
 
 <ApiLabel>Parameters</ApiLabel>
 
-- <ApiParam name="playerId" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> — Player id.
-- <ApiParam name="panelId" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The id attribute of the target hud element.
-- <ApiParam name="variableName" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The dialog variable string name. Example: the variable name of "{s:dynamic}" is "dynamic".
+- <ApiParam name="playerId" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> - Player id.
+- <ApiParam name="panelId" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> - The id attribute of the target hud element.
+- <ApiParam name="variableName" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> - The dialog variable string name. Example: the variable name of "{s:dynamic}" is "dynamic".
 
 <ApiLabel>Returns</ApiLabel>
 
-- <ApiParam type="string?" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The value. Return null if the value is not set.
+- <ApiParam type="string?" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> - The value. Return null if the value is not set.
 
 ### GetHasClass(string, string)
 
@@ -170,12 +170,12 @@ EHudPanelClassStatus_t GetHasClass(string panelId, string className)
 
 <ApiLabel>Parameters</ApiLabel>
 
-- <ApiParam name="panelId" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The id attribute of the target hud element.
-- <ApiParam name="className" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The class name.
+- <ApiParam name="panelId" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> - The id attribute of the target hud element.
+- <ApiParam name="className" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> - The class name.
 
 <ApiLabel>Returns</ApiLabel>
 
-- <ApiParam type="EHudPanelClassStatus_t" typeHref="/docs/api/schemadefinitions/ehudpanelclassstatus_t" /> — The class status. Return k_eHudPanelClassStatus_Undefined if the class status is not set.
+- <ApiParam type="EHudPanelClassStatus_t" typeHref="/docs/api/schemadefinitions/ehudpanelclassstatus_t" /> - The class status. Return k_eHudPanelClassStatus_Undefined if the class status is not set.
 
 ### GetHasClassForPlayer(int, string, string)
 
@@ -189,13 +189,13 @@ EHudPanelClassStatus_t GetHasClassForPlayer(int playerId, string panelId, string
 
 <ApiLabel>Parameters</ApiLabel>
 
-- <ApiParam name="playerId" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> — Player id.
-- <ApiParam name="panelId" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The id attribute of the target hud element.
-- <ApiParam name="className" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The class name.
+- <ApiParam name="playerId" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> - Player id.
+- <ApiParam name="panelId" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> - The id attribute of the target hud element.
+- <ApiParam name="className" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> - The class name.
 
 <ApiLabel>Returns</ApiLabel>
 
-- <ApiParam type="EHudPanelClassStatus_t" typeHref="/docs/api/schemadefinitions/ehudpanelclassstatus_t" /> — The class status. Return k_eHudPanelClassStatus_Undefined if the class status is not set.
+- <ApiParam type="EHudPanelClassStatus_t" typeHref="/docs/api/schemadefinitions/ehudpanelclassstatus_t" /> - The class status. Return k_eHudPanelClassStatus_Undefined if the class status is not set.
 
 ### GlobalLayoutStateUpdated()
 
@@ -217,7 +217,7 @@ bool IsInputCaptureEnabled()
 
 <ApiLabel>Returns</ApiLabel>
 
-- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" /> — Whether the input capture is enabled or not.
+- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" /> - Whether the input capture is enabled or not.
 
 ### IsInputCaptureEnabledForPlayer(int)
 
@@ -231,11 +231,11 @@ bool IsInputCaptureEnabledForPlayer(int playerId)
 
 <ApiLabel>Parameters</ApiLabel>
 
-- <ApiParam name="playerId" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> — Player id.
+- <ApiParam name="playerId" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> - Player id.
 
 <ApiLabel>Returns</ApiLabel>
 
-- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" /> — Whether the input capture is enabled or not.
+- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" /> - Whether the input capture is enabled or not.
 
 ### PanelIdsUpdated()
 
@@ -268,9 +268,9 @@ void RemoveDialogVariableStringForPlayer(int playerId, string panelId, string va
 
 <ApiLabel>Parameters</ApiLabel>
 
-- <ApiParam name="playerId" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> — Player id.
-- <ApiParam name="panelId" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The id attribute of the target hud element.
-- <ApiParam name="variableName" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The dialog variable string name. Example: the variable name of "{s:dynamic}" is "dynamic".
+- <ApiParam name="playerId" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> - Player id.
+- <ApiParam name="panelId" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> - The id attribute of the target hud element.
+- <ApiParam name="variableName" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> - The dialog variable string name. Example: the variable name of "{s:dynamic}" is "dynamic".
 
 ### RemoveDialogVariableStringForPlayerAsync(int, string, string)
 
@@ -284,9 +284,9 @@ Task RemoveDialogVariableStringForPlayerAsync(int playerId, string panelId, stri
 
 <ApiLabel>Parameters</ApiLabel>
 
-- <ApiParam name="playerId" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> — Player id.
-- <ApiParam name="panelId" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The id attribute of the target hud element.
-- <ApiParam name="variableName" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The dialog variable string name. Example: the variable name of "{s:dynamic}" is "dynamic".
+- <ApiParam name="playerId" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> - Player id.
+- <ApiParam name="panelId" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> - The id attribute of the target hud element.
+- <ApiParam name="variableName" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> - The dialog variable string name. Example: the variable name of "{s:dynamic}" is "dynamic".
 
 <ApiLabel>Returns</ApiLabel>
 
@@ -307,9 +307,9 @@ void SetDialogVariableString(string panelId, string variableName, string value)
 
 <ApiLabel>Parameters</ApiLabel>
 
-- <ApiParam name="panelId" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The id attribute of the target hud element.
-- <ApiParam name="variableName" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The dialog variable string name. Example: the variable name of "{s:dynamic}" is "dynamic".
-- <ApiParam name="value" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The value to set.
+- <ApiParam name="panelId" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> - The id attribute of the target hud element.
+- <ApiParam name="variableName" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> - The dialog variable string name. Example: the variable name of "{s:dynamic}" is "dynamic".
+- <ApiParam name="value" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> - The value to set.
 
 ### SetDialogVariableStringAsync(string, string, string)
 
@@ -323,9 +323,9 @@ Task SetDialogVariableStringAsync(string panelId, string variableName, string va
 
 <ApiLabel>Parameters</ApiLabel>
 
-- <ApiParam name="panelId" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The id attribute of the target hud element.
-- <ApiParam name="variableName" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The dialog variable string name. Example: the variable name of "{s:dynamic}" is "dynamic".
-- <ApiParam name="value" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The value to set.
+- <ApiParam name="panelId" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> - The id attribute of the target hud element.
+- <ApiParam name="variableName" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> - The dialog variable string name. Example: the variable name of "{s:dynamic}" is "dynamic".
+- <ApiParam name="value" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> - The value to set.
 
 <ApiLabel>Returns</ApiLabel>
 
@@ -346,10 +346,10 @@ void SetDialogVariableStringForPlayer(int playerId, string panelId, string varia
 
 <ApiLabel>Parameters</ApiLabel>
 
-- <ApiParam name="playerId" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> — Player id.
-- <ApiParam name="panelId" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The id attribute of the target hud element.
-- <ApiParam name="variableName" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The dialog variable string name. Example: the variable name of "{s:dynamic}" is "dynamic".
-- <ApiParam name="value" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The value to set.
+- <ApiParam name="playerId" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> - Player id.
+- <ApiParam name="panelId" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> - The id attribute of the target hud element.
+- <ApiParam name="variableName" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> - The dialog variable string name. Example: the variable name of "{s:dynamic}" is "dynamic".
+- <ApiParam name="value" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> - The value to set.
 
 ### SetDialogVariableStringForPlayerAsync(int, string, string, string)
 
@@ -363,10 +363,10 @@ Task SetDialogVariableStringForPlayerAsync(int playerId, string panelId, string 
 
 <ApiLabel>Parameters</ApiLabel>
 
-- <ApiParam name="playerId" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> — Player id.
-- <ApiParam name="panelId" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The id attribute of the target hud element.
-- <ApiParam name="variableName" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The dialog variable string name. Example: the variable name of "{s:dynamic}" is "dynamic".
-- <ApiParam name="value" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The value to set.
+- <ApiParam name="playerId" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> - Player id.
+- <ApiParam name="panelId" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> - The id attribute of the target hud element.
+- <ApiParam name="variableName" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> - The dialog variable string name. Example: the variable name of "{s:dynamic}" is "dynamic".
+- <ApiParam name="value" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> - The value to set.
 
 <ApiLabel>Returns</ApiLabel>
 
@@ -387,9 +387,9 @@ void SetHasClass(string panelId, string className, EHudPanelClassStatus_t classS
 
 <ApiLabel>Parameters</ApiLabel>
 
-- <ApiParam name="panelId" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The id attribute of the target hud element.
-- <ApiParam name="className" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The class name.
-- <ApiParam name="classStatus" type="EHudPanelClassStatus_t" typeHref="/docs/api/schemadefinitions/ehudpanelclassstatus_t" /> — <table><thead><tr><th class="term">Value</th><th class="description">Behavior</th></tr></thead><tbody><tr><td class="term">k_eHudPanelClassStatus_Undefined</td><td class="description">Does not override the existing class status.</td></tr><tr><td class="term">k_eHudPanelClassStatus_DoesNotHaveClass</td><td class="description">Explicitly specifies that the panel does not have the class.</td></tr><tr><td class="term">k_eHudPanelClassStatus_HasClass</td><td class="description">Explicitly specifies that the panel has the class.</td></tr></tbody></table>
+- <ApiParam name="panelId" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> - The id attribute of the target hud element.
+- <ApiParam name="className" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> - The class name.
+- <ApiParam name="classStatus" type="EHudPanelClassStatus_t" typeHref="/docs/api/schemadefinitions/ehudpanelclassstatus_t" /> - <table><thead><tr><th class="term">Value</th><th class="description">Behavior</th></tr></thead><tbody><tr><td class="term">k_eHudPanelClassStatus_Undefined</td><td class="description">Does not override the existing class status.</td></tr><tr><td class="term">k_eHudPanelClassStatus_DoesNotHaveClass</td><td class="description">Explicitly specifies that the panel does not have the class.</td></tr><tr><td class="term">k_eHudPanelClassStatus_HasClass</td><td class="description">Explicitly specifies that the panel has the class.</td></tr></tbody></table>
 
 ### SetHasClassAsync(string, string, EHudPanelClassStatus_t)
 
@@ -403,9 +403,9 @@ Task SetHasClassAsync(string panelId, string className, EHudPanelClassStatus_t c
 
 <ApiLabel>Parameters</ApiLabel>
 
-- <ApiParam name="panelId" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The id attribute of the target hud element.
-- <ApiParam name="className" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The class name.
-- <ApiParam name="classStatus" type="EHudPanelClassStatus_t" typeHref="/docs/api/schemadefinitions/ehudpanelclassstatus_t" /> — <table><thead><tr><th class="term">Value</th><th class="description">Behavior</th></tr></thead><tbody><tr><td class="term">k_eHudPanelClassStatus_Undefined</td><td class="description">Does not override the existing class status.</td></tr><tr><td class="term">k_eHudPanelClassStatus_DoesNotHaveClass</td><td class="description">Explicitly specifies that the panel does not have the class.</td></tr><tr><td class="term">k_eHudPanelClassStatus_HasClass</td><td class="description">Explicitly specifies that the panel has the class.</td></tr></tbody></table>
+- <ApiParam name="panelId" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> - The id attribute of the target hud element.
+- <ApiParam name="className" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> - The class name.
+- <ApiParam name="classStatus" type="EHudPanelClassStatus_t" typeHref="/docs/api/schemadefinitions/ehudpanelclassstatus_t" /> - <table><thead><tr><th class="term">Value</th><th class="description">Behavior</th></tr></thead><tbody><tr><td class="term">k_eHudPanelClassStatus_Undefined</td><td class="description">Does not override the existing class status.</td></tr><tr><td class="term">k_eHudPanelClassStatus_DoesNotHaveClass</td><td class="description">Explicitly specifies that the panel does not have the class.</td></tr><tr><td class="term">k_eHudPanelClassStatus_HasClass</td><td class="description">Explicitly specifies that the panel has the class.</td></tr></tbody></table>
 
 <ApiLabel>Returns</ApiLabel>
 
@@ -426,10 +426,10 @@ void SetHasClassForPlayer(int playerId, string panelId, string className, EHudPa
 
 <ApiLabel>Parameters</ApiLabel>
 
-- <ApiParam name="playerId" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> — Player id.
-- <ApiParam name="panelId" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The id attribute of the target hud element.
-- <ApiParam name="className" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The class name.
-- <ApiParam name="classStatus" type="EHudPanelClassStatus_t" typeHref="/docs/api/schemadefinitions/ehudpanelclassstatus_t" /> — <table><thead><tr><th class="term">Value</th><th class="description">Behavior</th></tr></thead><tbody><tr><td class="term">k_eHudPanelClassStatus_Undefined</td><td class="description">Does not override the existing class status.</td></tr><tr><td class="term">k_eHudPanelClassStatus_DoesNotHaveClass</td><td class="description">Explicitly specifies that the panel does not have the class.</td></tr><tr><td class="term">k_eHudPanelClassStatus_HasClass</td><td class="description">Explicitly specifies that the panel has the class.</td></tr></tbody></table>
+- <ApiParam name="playerId" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> - Player id.
+- <ApiParam name="panelId" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> - The id attribute of the target hud element.
+- <ApiParam name="className" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> - The class name.
+- <ApiParam name="classStatus" type="EHudPanelClassStatus_t" typeHref="/docs/api/schemadefinitions/ehudpanelclassstatus_t" /> - <table><thead><tr><th class="term">Value</th><th class="description">Behavior</th></tr></thead><tbody><tr><td class="term">k_eHudPanelClassStatus_Undefined</td><td class="description">Does not override the existing class status.</td></tr><tr><td class="term">k_eHudPanelClassStatus_DoesNotHaveClass</td><td class="description">Explicitly specifies that the panel does not have the class.</td></tr><tr><td class="term">k_eHudPanelClassStatus_HasClass</td><td class="description">Explicitly specifies that the panel has the class.</td></tr></tbody></table>
 
 ### SetHasClassForPlayerAsync(int, string, string, EHudPanelClassStatus_t)
 
@@ -443,10 +443,10 @@ Task SetHasClassForPlayerAsync(int playerId, string panelId, string className, E
 
 <ApiLabel>Parameters</ApiLabel>
 
-- <ApiParam name="playerId" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> — Player id.
-- <ApiParam name="panelId" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The id attribute of the target hud element.
-- <ApiParam name="className" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The class name.
-- <ApiParam name="classStatus" type="EHudPanelClassStatus_t" typeHref="/docs/api/schemadefinitions/ehudpanelclassstatus_t" /> — <table><thead><tr><th class="term">Value</th><th class="description">Behavior</th></tr></thead><tbody><tr><td class="term">k_eHudPanelClassStatus_Undefined</td><td class="description">Does not override the existing class status.</td></tr><tr><td class="term">k_eHudPanelClassStatus_DoesNotHaveClass</td><td class="description">Explicitly specifies that the panel does not have the class.</td></tr><tr><td class="term">k_eHudPanelClassStatus_HasClass</td><td class="description">Explicitly specifies that the panel has the class.</td></tr></tbody></table>
+- <ApiParam name="playerId" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> - Player id.
+- <ApiParam name="panelId" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> - The id attribute of the target hud element.
+- <ApiParam name="className" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> - The class name.
+- <ApiParam name="classStatus" type="EHudPanelClassStatus_t" typeHref="/docs/api/schemadefinitions/ehudpanelclassstatus_t" /> - <table><thead><tr><th class="term">Value</th><th class="description">Behavior</th></tr></thead><tbody><tr><td class="term">k_eHudPanelClassStatus_Undefined</td><td class="description">Does not override the existing class status.</td></tr><tr><td class="term">k_eHudPanelClassStatus_DoesNotHaveClass</td><td class="description">Explicitly specifies that the panel does not have the class.</td></tr><tr><td class="term">k_eHudPanelClassStatus_HasClass</td><td class="description">Explicitly specifies that the panel has the class.</td></tr></tbody></table>
 
 <ApiLabel>Returns</ApiLabel>
 
@@ -467,7 +467,7 @@ void SetInputCaptureEnabled(bool enabled)
 
 <ApiLabel>Parameters</ApiLabel>
 
-- <ApiParam name="enabled" type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" /> — Whether the input capture is enabled or not.
+- <ApiParam name="enabled" type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" /> - Whether the input capture is enabled or not.
 
 ### SetInputCaptureEnabledAsync(bool)
 
@@ -481,7 +481,7 @@ Task SetInputCaptureEnabledAsync(bool enabled)
 
 <ApiLabel>Parameters</ApiLabel>
 
-- <ApiParam name="enabled" type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" /> — Whether the input capture is enabled or not.
+- <ApiParam name="enabled" type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" /> - Whether the input capture is enabled or not.
 
 <ApiLabel>Returns</ApiLabel>
 
@@ -502,8 +502,8 @@ void SetInputCaptureEnabledForPlayer(int playerId, bool enabled)
 
 <ApiLabel>Parameters</ApiLabel>
 
-- <ApiParam name="playerId" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> — Player id.
-- <ApiParam name="enabled" type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" /> — Whether the input capture is enabled or not.
+- <ApiParam name="playerId" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> - Player id.
+- <ApiParam name="enabled" type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" /> - Whether the input capture is enabled or not.
 
 ### SetInputCaptureEnabledForPlayerAsync(int, bool)
 
@@ -517,8 +517,8 @@ Task SetInputCaptureEnabledForPlayerAsync(int playerId, bool enabled)
 
 <ApiLabel>Parameters</ApiLabel>
 
-- <ApiParam name="playerId" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> — Player id.
-- <ApiParam name="enabled" type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" /> — Whether the input capture is enabled or not.
+- <ApiParam name="playerId" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> - Player id.
+- <ApiParam name="enabled" type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" /> - Whether the input capture is enabled or not.
 
 <ApiLabel>Returns</ApiLabel>
 
