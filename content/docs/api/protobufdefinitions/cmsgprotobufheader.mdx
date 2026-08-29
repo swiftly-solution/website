@@ -21,69 +21,33 @@ public interface CMsgProtoBufHeader : ITypedProtobuf<CMsgProtoBufHeader>, INativ
 
 ## Properties
 
-### AdminSpoofingUser
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgProtoBufHeader.cs#L22" />
-
-```csharp
-bool AdminSpoofingUser { get; set; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
-
-### AuthAccountFlags
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgProtoBufHeader.cs#L20" />
-
-```csharp
-uint AuthAccountFlags { get; set; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
-
-### ClientSessionid
+### ClientSessionId
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgProtoBufHeader.cs#L12" />
 
 ```csharp
-int ClientSessionid { get; set; }
+int ClientSessionId { get; set; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
 - <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
 
-### CmSysid
+### ClientSteamId
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgProtoBufHeader.cs#L31" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgProtoBufHeader.cs#L11" />
 
 ```csharp
-uint CmSysid { get; set; }
+ulong ClientSteamId { get; set; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
-
-### DebugSource
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgProtoBufHeader.cs#L35" />
-
-```csharp
-string DebugSource { get; set; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
+- <ApiParam type="ulong" typeHref="https://learn.microsoft.com/dotnet/api/system.uint64" />
 
 ### Eresult
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgProtoBufHeader.cs#L18" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgProtoBufHeader.cs#L17" />
 
 ```csharp
 int Eresult { get; set; }
@@ -95,7 +59,7 @@ int Eresult { get; set; }
 
 ### ErrorMessage
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgProtoBufHeader.cs#L19" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgProtoBufHeader.cs#L18" />
 
 ```csharp
 string ErrorMessage { get; set; }
@@ -105,21 +69,33 @@ string ErrorMessage { get; set; }
 
 - <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
 
-### ForwardToSysid
+### GcDirIndexSource
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgProtoBufHeader.cs#L30" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgProtoBufHeader.cs#L21" />
 
 ```csharp
-IProtobufRepeatedFieldValueType<uint> ForwardToSysid { get; }
+uint GcDirIndexSource { get; set; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
-- <ApiParam type="IProtobufRepeatedFieldValueType&lt;uint&gt;" typeHref="/docs/api/netmessages/iprotobufrepeatedfieldvaluetypet" />
+- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
+
+### GcMsgSrc
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgProtoBufHeader.cs#L20" />
+
+```csharp
+GCProtoBufMsgSrc GcMsgSrc { get; set; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="GCProtoBufMsgSrc" typeHref="/docs/api/protobufdefinitions/gcprotobufmsgsrc" />
 
 ### Ip
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgProtoBufHeader.cs#L36" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgProtoBufHeader.cs#L19" />
 
 ```csharp
 uint Ip { get; set; }
@@ -129,144 +105,36 @@ uint Ip { get; set; }
 
 - <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
 
-### IpV6
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgProtoBufHeader.cs#L37" />
-
-```csharp
-byte[] IpV6 { get; set; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="byte[]" typeHref="https://learn.microsoft.com/dotnet/api/system.byte" />
-
-### IsFromExternalSource
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgProtoBufHeader.cs#L29" />
-
-```csharp
-bool IsFromExternalSource { get; set; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
-
-### JobidSource
+### JobIdSource
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgProtoBufHeader.cs#L14" />
 
 ```csharp
-ulong JobidSource { get; set; }
+ulong JobIdSource { get; set; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
 - <ApiParam type="ulong" typeHref="https://learn.microsoft.com/dotnet/api/system.uint64" />
 
-### JobidTarget
+### JobIdTarget
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgProtoBufHeader.cs#L15" />
 
 ```csharp
-ulong JobidTarget { get; set; }
+ulong JobIdTarget { get; set; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
 
 - <ApiParam type="ulong" typeHref="https://learn.microsoft.com/dotnet/api/system.uint64" />
 
-### LauncherType
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgProtoBufHeader.cs#L32" />
-
-```csharp
-uint LauncherType { get; set; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
-
-### Messageid
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgProtoBufHeader.cs#L24" />
-
-```csharp
-ulong Messageid { get; set; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="ulong" typeHref="https://learn.microsoft.com/dotnet/api/system.uint64" />
-
-### PublisherGroupId
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgProtoBufHeader.cs#L25" />
-
-```csharp
-uint PublisherGroupId { get; set; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
-
-### Realm
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgProtoBufHeader.cs#L33" />
-
-```csharp
-uint Realm { get; set; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
-
-### RoutingAppid
+### SourceAppId
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgProtoBufHeader.cs#L13" />
 
 ```csharp
-uint RoutingAppid { get; set; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
-
-### SeqNum
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgProtoBufHeader.cs#L17" />
-
-```csharp
-int SeqNum { get; set; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
-
-### Steamid
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgProtoBufHeader.cs#L11" />
-
-```csharp
-ulong Steamid { get; set; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="ulong" typeHref="https://learn.microsoft.com/dotnet/api/system.uint64" />
-
-### Sysid
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgProtoBufHeader.cs#L26" />
-
-```csharp
-uint Sysid { get; set; }
+uint SourceAppId { get; set; }
 ```
 
 <ApiLabel>Property Value</ApiLabel>
@@ -284,64 +152,4 @@ string TargetJobName { get; set; }
 <ApiLabel>Property Value</ApiLabel>
 
 - <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
-
-### TimeoutMs
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgProtoBufHeader.cs#L34" />
-
-```csharp
-int TimeoutMs { get; set; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
-
-### TokenSource
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgProtoBufHeader.cs#L21" />
-
-```csharp
-uint TokenSource { get; set; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
-
-### TraceTag
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgProtoBufHeader.cs#L27" />
-
-```csharp
-ulong TraceTag { get; set; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="ulong" typeHref="https://learn.microsoft.com/dotnet/api/system.uint64" />
-
-### TransportError
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgProtoBufHeader.cs#L23" />
-
-```csharp
-int TransportError { get; set; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
-
-### WebapiKeyId
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgProtoBufHeader.cs#L28" />
-
-```csharp
-uint WebapiKeyId { get; set; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="uint" typeHref="https://learn.microsoft.com/dotnet/api/system.uint32" />
 

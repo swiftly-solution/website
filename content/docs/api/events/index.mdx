@@ -22,6 +22,7 @@ This callback is a hot path, be careful with it and don't do anything expensive.
 - <ApiParam type="IOnConVarCreated" typeHref="/docs/api/events/ionconvarcreated" /> — Called when a ConVar is created.
 - <ApiParam type="IOnConVarValueChanged" typeHref="/docs/api/events/ionconvarvaluechanged" /> — Called when a ConVar value is changed.
 - <ApiParam type="IOnConsoleOutputEvent" typeHref="/docs/api/events/ionconsoleoutputevent" /> — Called when a console output is received.
+- <ApiParam type="IOnCustomHudClickedEvent" typeHref="/docs/api/events/ioncustomhudclickedevent" /> — Custom hud element clicked event parameters.
 - <ApiParam type="IOnEntityCreatedEvent" typeHref="/docs/api/events/ionentitycreatedevent" /> — Called when an entity is created.
 - <ApiParam type="IOnEntityDeletedEvent" typeHref="/docs/api/events/ionentitydeletedevent" /> — Called when an entity is deleted.
 - <ApiParam type="IOnEntityEndTouchEvent" typeHref="/docs/api/events/ionentityendtouchevent" /> — Called when an entity ends touching another entity.
@@ -59,7 +60,8 @@ This callback is a hot path, be careful with it and don't do anything expensive.
 - <ApiParam type="EventDelegates.OnConCommandCreated" typeHref="/docs/api/events/eventdelegates/onconcommandcreated" /> — Called when a ConCommand is created.
 - <ApiParam type="EventDelegates.OnConVarCreated" typeHref="/docs/api/events/eventdelegates/onconvarcreated" /> — Called when a ConVar is created.
 - <ApiParam type="EventDelegates.OnConVarValueChanged" typeHref="/docs/api/events/eventdelegates/onconvarvaluechanged" /> — Called when a ConVar value is changed.
-- <ApiParam type="EventDelegates.OnConsoleOutput" typeHref="/docs/api/events/eventdelegates/onconsoleoutput" /> — Called when a console output is received.
+- <ApiParam type="EventDelegates.OnConsoleOutput" typeHref="/docs/api/events/eventdelegates/onconsoleoutput" /> — Called when a console output is received on the dedicated console dispatch thread.
+- <ApiParam type="EventDelegates.OnCustomHudClicked" typeHref="/docs/api/events/eventdelegates/oncustomhudclicked" /> — Called when a custom hud element is clicked.
 - <ApiParam type="EventDelegates.OnEntityCreated" typeHref="/docs/api/events/eventdelegates/onentitycreated" /> — Called when an entity is created.
 - <ApiParam type="EventDelegates.OnEntityDeleted" typeHref="/docs/api/events/eventdelegates/onentitydeleted" /> — Called when an entity is deleted.
 - <ApiParam type="EventDelegates.OnEntityEndTouch" typeHref="/docs/api/events/eventdelegates/onentityendtouch" /> — Called when an entity ends touching another entity.

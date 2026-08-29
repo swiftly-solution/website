@@ -25,6 +25,7 @@ public interface ISwiftlyCore
 Gets the absolute file path to the `game/csgo` directory.
 
 ```csharp
+[Obsolete("Please use GameFilesDirectory.")]
 string CSGODirectory { get; }
 ```
 
@@ -188,7 +189,7 @@ IGameDataService GameData { get; }
 
 ### GameDirectory
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L195" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L201" />
 
 Gets the absolute file path to the game's root directory.
 
@@ -228,6 +229,20 @@ IGameFileSystem GameFileSystem { get; }
 
 - <ApiParam type="IGameFileSystem" typeHref="/docs/api/filesystem/igamefilesystem" />
 
+### GameFilesDirectory
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L196" />
+
+Gets the absolute file path to the game's files directory.
+
+```csharp
+string GameFilesDirectory { get; }
+```
+
+<ApiLabel>Property Value</ApiLabel>
+
+- <ApiParam type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
+
 ### GameHooks
 
 <ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L60" />
@@ -258,7 +273,7 @@ IHelpers Helpers { get; }
 
 ### IsGameThread
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L206" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L212" />
 
 Checks whether or not this code section runs on the game thread.
 
@@ -384,7 +399,7 @@ IPlayerManagerService PlayerManager { get; }
 
 ### PluginDataDirectory
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L201" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L207" />
 
 Gets the file path to the plugin data directory.
 This directory is ensured to exist by the framework.

@@ -62,7 +62,7 @@ string WorkshopId { get; }
 
 ### DispatchParticleEffect(string, ParticleAttachment_t, byte, CUtlSymbolLarge, CRecipientFilter, bool, int, CBaseEntity?)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L76" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L78" />
 
 Dispatches a particle effect to the specified recipients.
 
@@ -85,7 +85,7 @@ void DispatchParticleEffect(string particleName, ParticleAttachment_t attachment
 
 ### DispatchParticleEffectAsync(string, ParticleAttachment_t, byte, CUtlSymbolLarge, CRecipientFilter, bool, int, CBaseEntity?)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L92" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L94" />
 
 Dispatches a particle effect to the specified recipients asynchronously.
 
@@ -147,6 +147,7 @@ Task ExecuteCommandAsync(string command)
 Executes the specified command string in the current context.
 
 ```csharp
+[Obsolete("This method is planned to be removed.")]
 void ExecuteCommandWithBuffer(string command, Action<string> bufferCallback)
 ```
 
@@ -157,11 +158,12 @@ void ExecuteCommandWithBuffer(string command, Action<string> bufferCallback)
 
 ### ExecuteCommandWithBufferAsync(string, Action\<string\>)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L54" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L55" />
 
 Executes the specified command string in the current context with a buffer callback asynchronously.
 
 ```csharp
+[Obsolete("This method is planned to be removed.")]
 Task ExecuteCommandWithBufferAsync(string command, Action<string> bufferCallback)
 ```
 
@@ -176,7 +178,7 @@ Task ExecuteCommandWithBufferAsync(string command, Action<string> bufferCallback
 
 ### FindGameSystemByName(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L61" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L63" />
 
 Find a game system by name.
 
