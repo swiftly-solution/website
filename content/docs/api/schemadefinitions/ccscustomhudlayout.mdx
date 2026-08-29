@@ -175,7 +175,7 @@ EHudPanelClassStatus_t GetHasClass(string panelId, string className)
 
 <ApiLabel>Returns</ApiLabel>
 
-- <ApiParam type="EHudPanelClassStatus_t" typeHref="/docs/api/schemadefinitions/ehudpanelclassstatus_t" /> — The class status. Return SwiftlyS2.Shared.SchemaDefinitions.EHudPanelClassStatus_t.k_eHudPanelClassStatus_Undefined if the class status is not set.
+- <ApiParam type="EHudPanelClassStatus_t" typeHref="/docs/api/schemadefinitions/ehudpanelclassstatus_t" /> — The class status. Return k_eHudPanelClassStatus_Undefined if the class status is not set.
 
 ### GetHasClassForPlayer(int, string, string)
 
@@ -195,7 +195,7 @@ EHudPanelClassStatus_t GetHasClassForPlayer(int playerId, string panelId, string
 
 <ApiLabel>Returns</ApiLabel>
 
-- <ApiParam type="EHudPanelClassStatus_t" typeHref="/docs/api/schemadefinitions/ehudpanelclassstatus_t" /> — The class status. Return SwiftlyS2.Shared.SchemaDefinitions.EHudPanelClassStatus_t.k_eHudPanelClassStatus_Undefined if the class status is not set.
+- <ApiParam type="EHudPanelClassStatus_t" typeHref="/docs/api/schemadefinitions/ehudpanelclassstatus_t" /> — The class status. Return k_eHudPanelClassStatus_Undefined if the class status is not set.
 
 ### GlobalLayoutStateUpdated()
 
@@ -389,7 +389,7 @@ void SetHasClass(string panelId, string className, EHudPanelClassStatus_t classS
 
 - <ApiParam name="panelId" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The id attribute of the target hud element.
 - <ApiParam name="className" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The class name.
-- <ApiParam name="classStatus" type="EHudPanelClassStatus_t" typeHref="/docs/api/schemadefinitions/ehudpanelclassstatus_t" /> — <table><thead><tr><th class="term">Value</th><th class="description">Behavior</th></tr></thead><tbody><tr><td class="term">SwiftlyS2.Shared.SchemaDefinitions.EHudPanelClassStatus_t.k_eHudPanelClassStatus_Undefined</td><td class="description">Does not override the existing class status.</td></tr><tr><td class="term">SwiftlyS2.Shared.SchemaDefinitions.EHudPanelClassStatus_t.k_eHudPanelClassStatus_DoesNotHaveClass</td><td class="description">Explicitly specifies that the panel does not have the class.</td></tr><tr><td class="term">SwiftlyS2.Shared.SchemaDefinitions.EHudPanelClassStatus_t.k_eHudPanelClassStatus_HasClass</td><td class="description">Explicitly specifies that the panel has the class.</td></tr></tbody></table>
+- <ApiParam name="classStatus" type="EHudPanelClassStatus_t" typeHref="/docs/api/schemadefinitions/ehudpanelclassstatus_t" /> — <table><thead><tr><th class="term">Value</th><th class="description">Behavior</th></tr></thead><tbody><tr><td class="term">k_eHudPanelClassStatus_Undefined</td><td class="description">Does not override the existing class status.</td></tr><tr><td class="term">k_eHudPanelClassStatus_DoesNotHaveClass</td><td class="description">Explicitly specifies that the panel does not have the class.</td></tr><tr><td class="term">k_eHudPanelClassStatus_HasClass</td><td class="description">Explicitly specifies that the panel has the class.</td></tr></tbody></table>
 
 ### SetHasClassAsync(string, string, EHudPanelClassStatus_t)
 
@@ -405,7 +405,7 @@ Task SetHasClassAsync(string panelId, string className, EHudPanelClassStatus_t c
 
 - <ApiParam name="panelId" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The id attribute of the target hud element.
 - <ApiParam name="className" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The class name.
-- <ApiParam name="classStatus" type="EHudPanelClassStatus_t" typeHref="/docs/api/schemadefinitions/ehudpanelclassstatus_t" /> — <table><thead><tr><th class="term">Value</th><th class="description">Behavior</th></tr></thead><tbody><tr><td class="term">SwiftlyS2.Shared.SchemaDefinitions.EHudPanelClassStatus_t.k_eHudPanelClassStatus_Undefined</td><td class="description">Does not override the existing class status.</td></tr><tr><td class="term">SwiftlyS2.Shared.SchemaDefinitions.EHudPanelClassStatus_t.k_eHudPanelClassStatus_DoesNotHaveClass</td><td class="description">Explicitly specifies that the panel does not have the class.</td></tr><tr><td class="term">SwiftlyS2.Shared.SchemaDefinitions.EHudPanelClassStatus_t.k_eHudPanelClassStatus_HasClass</td><td class="description">Explicitly specifies that the panel has the class.</td></tr></tbody></table>
+- <ApiParam name="classStatus" type="EHudPanelClassStatus_t" typeHref="/docs/api/schemadefinitions/ehudpanelclassstatus_t" /> — <table><thead><tr><th class="term">Value</th><th class="description">Behavior</th></tr></thead><tbody><tr><td class="term">k_eHudPanelClassStatus_Undefined</td><td class="description">Does not override the existing class status.</td></tr><tr><td class="term">k_eHudPanelClassStatus_DoesNotHaveClass</td><td class="description">Explicitly specifies that the panel does not have the class.</td></tr><tr><td class="term">k_eHudPanelClassStatus_HasClass</td><td class="description">Explicitly specifies that the panel has the class.</td></tr></tbody></table>
 
 <ApiLabel>Returns</ApiLabel>
 
@@ -429,7 +429,7 @@ void SetHasClassForPlayer(int playerId, string panelId, string className, EHudPa
 - <ApiParam name="playerId" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> — Player id.
 - <ApiParam name="panelId" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The id attribute of the target hud element.
 - <ApiParam name="className" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The class name.
-- <ApiParam name="classStatus" type="EHudPanelClassStatus_t" typeHref="/docs/api/schemadefinitions/ehudpanelclassstatus_t" /> — <table><thead><tr><th class="term">Value</th><th class="description">Behavior</th></tr></thead><tbody><tr><td class="term">SwiftlyS2.Shared.SchemaDefinitions.EHudPanelClassStatus_t.k_eHudPanelClassStatus_Undefined</td><td class="description">Does not override the existing class status.</td></tr><tr><td class="term">SwiftlyS2.Shared.SchemaDefinitions.EHudPanelClassStatus_t.k_eHudPanelClassStatus_DoesNotHaveClass</td><td class="description">Explicitly specifies that the panel does not have the class.</td></tr><tr><td class="term">SwiftlyS2.Shared.SchemaDefinitions.EHudPanelClassStatus_t.k_eHudPanelClassStatus_HasClass</td><td class="description">Explicitly specifies that the panel has the class.</td></tr></tbody></table>
+- <ApiParam name="classStatus" type="EHudPanelClassStatus_t" typeHref="/docs/api/schemadefinitions/ehudpanelclassstatus_t" /> — <table><thead><tr><th class="term">Value</th><th class="description">Behavior</th></tr></thead><tbody><tr><td class="term">k_eHudPanelClassStatus_Undefined</td><td class="description">Does not override the existing class status.</td></tr><tr><td class="term">k_eHudPanelClassStatus_DoesNotHaveClass</td><td class="description">Explicitly specifies that the panel does not have the class.</td></tr><tr><td class="term">k_eHudPanelClassStatus_HasClass</td><td class="description">Explicitly specifies that the panel has the class.</td></tr></tbody></table>
 
 ### SetHasClassForPlayerAsync(int, string, string, EHudPanelClassStatus_t)
 
@@ -446,7 +446,7 @@ Task SetHasClassForPlayerAsync(int playerId, string panelId, string className, E
 - <ApiParam name="playerId" type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" /> — Player id.
 - <ApiParam name="panelId" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The id attribute of the target hud element.
 - <ApiParam name="className" type="string" typeHref="https://learn.microsoft.com/dotnet/api/system.string" /> — The class name.
-- <ApiParam name="classStatus" type="EHudPanelClassStatus_t" typeHref="/docs/api/schemadefinitions/ehudpanelclassstatus_t" /> — <table><thead><tr><th class="term">Value</th><th class="description">Behavior</th></tr></thead><tbody><tr><td class="term">SwiftlyS2.Shared.SchemaDefinitions.EHudPanelClassStatus_t.k_eHudPanelClassStatus_Undefined</td><td class="description">Does not override the existing class status.</td></tr><tr><td class="term">SwiftlyS2.Shared.SchemaDefinitions.EHudPanelClassStatus_t.k_eHudPanelClassStatus_DoesNotHaveClass</td><td class="description">Explicitly specifies that the panel does not have the class.</td></tr><tr><td class="term">SwiftlyS2.Shared.SchemaDefinitions.EHudPanelClassStatus_t.k_eHudPanelClassStatus_HasClass</td><td class="description">Explicitly specifies that the panel has the class.</td></tr></tbody></table>
+- <ApiParam name="classStatus" type="EHudPanelClassStatus_t" typeHref="/docs/api/schemadefinitions/ehudpanelclassstatus_t" /> — <table><thead><tr><th class="term">Value</th><th class="description">Behavior</th></tr></thead><tbody><tr><td class="term">k_eHudPanelClassStatus_Undefined</td><td class="description">Does not override the existing class status.</td></tr><tr><td class="term">k_eHudPanelClassStatus_DoesNotHaveClass</td><td class="description">Explicitly specifies that the panel does not have the class.</td></tr><tr><td class="term">k_eHudPanelClassStatus_HasClass</td><td class="description">Explicitly specifies that the panel has the class.</td></tr></tbody></table>
 
 <ApiLabel>Returns</ApiLabel>
 
