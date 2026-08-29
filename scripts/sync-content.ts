@@ -1,7 +1,16 @@
 import { sync, type DocumentRecord } from 'typesense-fumadocs-adapter';
 import { Client } from 'typesense';
-import 'dotenv/config'
 import { readFileSync } from 'node:fs';
+import dotenv from "dotenv";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+dotenv.config({
+  path: path.resolve(__dirname, "../.env"),
+});
 
 const filePath = '.next/server/app/static.json.body';
 
